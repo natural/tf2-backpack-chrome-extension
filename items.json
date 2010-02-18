@@ -1,0 +1,117 @@
+{
+
+
+"35"   : {"description" : "The Kritzkrieg"},
+"36"   : {"description" : "The Blutsauger"},
+"37"   : {"description" : "The Ubersaw"},
+
+"38"   : {"description" : "The Axtinguisher"},
+"39"   : {"description" : "The Flare Gun"},
+"40"   : {"description" : "The Backburner"},
+
+"41"   : {"description" : "Natascha"},
+"42"   : {"description" : "Sandvich"},
+"43"   : {"description" : "The Killing Gloves of Boxing"},
+
+"44"   : {"description" : "The Sandman"},
+"45"   : {"description" : "The Force-a-Nature"},
+"46"   : {"description" : "Bonk! Atomic Punch"},
+
+
+"47"   : {"description" : "demo hat 1"},
+"48"   : {"description" : "eng hat 1"},
+"49"   : {"description" : "heavy hat 1"},
+"50"   : {"description" : "medic hat 1"},
+"51"   : {"description" : "pyro hat 1"},
+"52"   : {"description" : "scout hat 1"},
+"53"   : {"description" : "sniper hat 1"},
+"54"   : {"description" : "soldier hat 1"},
+"55"   : {"description" : "spy hat 1"},
+
+
+
+"56"   : {"description" : "The Huntsman"},
+"57"   : {"description" : "The Razorback"},
+"58"   : {"description" : "Jarate"},
+
+"59"   : {"description" : "The Dead Ringer"},
+"60"   : {"description" : "The Cloak and Dagger"},
+"61"   : {"description" : "The Ambassador"},
+
+
+
+"94"   : {"description" : "Texas Ten Gallon"},
+"95"   : {"description" : "Engineer's Cap"},
+"96"   : {"description" : "Officer's Ushanka"},
+"97"   : {"description" : "Tough Guy's Tuque"},
+"98"   : {"description" : "Stainless Pot"},
+"99"   : {"description" : "Tyrant's Helm"},
+"100"  : {"description" : "Glengarry Bonnet"},
+"101"  : {"description" : "Vintage Tyrolean"},
+"102"  : {"description" : "Respectless Rubber Glove"},
+"103"  : {"description" : "Camera Beard"},
+"104"  : {"description" : "Otolaryngologist's Mirror"},
+"105"  : {"description" : "Brigade Helm"},
+"106"  : {"description" : "Bonk Helm"},
+"107"  : {"description" : "Ye Olde Baker Boy"},
+"108"  : {"description" : "Backbiter's Billycock"},
+"109"  : {"description" : "Professional's Panama"},
+"110"  : {"description" : "Master's Yellow Belt"},
+"111"  : {"description" : "Baseball Bill's Sports Shine"},
+
+"115"  : {"description" : "Mildly Distrubing Halloween Mask"},
+"116"  : {"description" : "Ghastly Gibus"},
+"117"  : {"description" : "Ritzy Rick's Hair Fixative"},
+"118"  : {"description" : "Texas Slim's Dome Shine"},
+
+"120"  : {"description" : "Scottsman's Stove Pipe"},
+"121"  : {"description" : "Gentle Manne's Service Medal"},
+
+"125"  : {"description" : "Cheater's Lament"},
+"126"  : {"description" : "Bill's Hat"},
+
+
+
+"127"  : {"description" : "The Direct Hit"},
+"128"  : {"description" : "The Equalizer"},
+"129"  : {"description" : "The Buff Banner"},
+"130"  : {"description" : "The Scottish Resistance"},
+"131"  : {"description" : "The Chargin' Targe"},
+"132"  : {"description" : "The Eyelander"},
+"133"  : {"description" : "The Gunboats"},
+
+
+
+"134"  : {"description" : "Propaganda Contest First Place"},
+"135"  : {"description" : "Towering Pillar of Hats"},
+"136"  : {"description" : "Propaganda Contest Second Place"},
+"137"  : {"description" : "Noble Amassment of Hats"},
+"138"  : {"description" : "Propaganda Contest Third Place"},
+"139"  : {"description" : "Modest Pile of Hat"},
+
+
+
+
+"5000" : {"description" : "Craft Bar Level 1"},
+"5001" : {"description" : "Craft Bar Level 2"},
+"5002" : {"description" : "Craft Bar Level 3"},
+"5003" : {"description" : "Scout Class Token"},
+"5004" : {"description" : "Sniper Class Token"},
+"5005" : {"description" : "Soldier Class Token"},
+"5006" : {"description" : "Demoman Class Token"},
+"5007" : {"description" : "Heavy Class Token"},
+"5007" : {"description" : "Heavy Class Token"},
+"5008" : {"description" : "Medic Class Token"},
+"5009" : {"description" : "Pyro Class Token"},
+"5010" : {"description" : "Spy Class Token"},
+"5011" : {"description" : "Engineer Class Token"},
+"5012" : {"description" : "Slot Token - Primary"},
+"5013" : {"description" : "Slot Token - Secondary"},
+"5014" : {"description" : "Slot Token - Melee"},
+"5015" : {"description" : "Slot Token - Grenade"},
+"5016" : {"description" : "Slot Token - Building"},
+"5017" : {"description" : "Slot Token - PDA"},
+"5018" : {"description" : "Slot Token - PDA2"},
+"5019" : {"description" : "Slot Token - Head"}
+
+}

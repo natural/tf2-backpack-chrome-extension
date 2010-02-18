@@ -1,0 +1,24 @@
+{
+    "name"    : "TF2 Backpack Viewer",
+    "version" : "1.0",
+
+
+    "description" : "Quick access to items in your TF2 backpack",
+    "icons":      { "48": "icon48.png", "128": "icon128.png" },
+//  "default_locale": "en",
+
+
+    "background_page" : "background.html",
+    "options_page"    : "options.html",
+
+    "browser_action"  : {
+        "default_icon"  : "icon.png",
+        "popup"         : "popup.html",
+        "default_title" : "View your TF2 Backpack"
+    },
+
+    "permissions": [
+        "tabs",
+        "http://www.tf2items.com/"
+    ]
+}

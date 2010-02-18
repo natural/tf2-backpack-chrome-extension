@@ -1,0 +1,70 @@
+<html>
+<head>
+<script src="options.js"></script>
+
+<title>TF2 Backpack Viewer - Options</title>
+<style>
+body {
+  font-family:helvetica, arial, sans-serif;
+  font-size:80%;
+  margin:10px;
+}
+
+#header {
+  padding-bottom:1.5em;
+  padding-top:1.5em;
+}
+
+#header h1 {
+  font-size: 156%;
+  display:inline;
+  padding-bottom:43px;
+  padding-left:75px;
+  padding-top:40px;
+  background:url(icon128.png) no-repeat;
+  background-size:67px;
+  background-position:1px 18px;
+}
+
+.section-header {
+  background:#ebeff9;
+  border-top:1px solid #b5c7de;
+  font-size:99%;
+  padding:3px 0 2px 5px;
+  font-weight:bold;
+  margin-bottom:1em;
+  margin-top:4em;
+}
+
+.section-header.first {
+  margin-top:1em;
+}
+
+#profile-id {
+  width:300px;
+  margin-left:2px;
+}
+
+#footer {
+  margin-top:4em;
+}
+</style>
+</head>
+<body onload="optionsInit()">
+
+<div id="header"><h1>TF2 Backpack Viewer Options</h1></div>
+
+<div class="section-header first">Profile Id</div>
+<p>To use TF2 Backpack Viewer, enter your profile id here.
+<p>
+  http://www.tf2items.com/profiles/<input type="text" id="profile-id" oninput="markDirty()">
+    <em>(eg 76561197992805111)</em>
+
+<div id="footer">
+  <button id="save-button" style="font-weight:bold" onclick="save()"
+    >Save</button>
+  <button onclick="init()">Cancel</button>
+</div>
+
+</body>
+</html>
