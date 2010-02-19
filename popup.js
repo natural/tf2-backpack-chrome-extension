@@ -3,7 +3,7 @@ var newItemSelect = "/backpack/items/item/position[text()='0']/..";
 var oldItemSelect = "/backpack/items/item/position[text()!='0']/..";
 var avatarSelect = "/backpack/avatarFull";
 var itemData;
-var toolTip;
+
 
 function isTF2ItemsUrl(url) {
     var urlItems = getBackpackViewUrl();
@@ -143,14 +143,17 @@ function yOf(e) {
 
 
 function showToolTip(event) {
-    console.log("show tooltip:", $(this));
-    $(this).append(toolTip);
+    var toolTip = $("#tooltip");
+    toolTip.show();
+    var cell = $(this)
+    var pos = cell.position();
+    toolTip.css({left:pos.left - toolTip.width()/2 + cell.width()/2,
+		 top:pos.top + cell.height() + 12});
 }
 
 
 function hideToolTip(event) {
-    console.log("hide tooltip:", $(this));
-    toolTip = $("#tooltip").detach()
+    $("#tooltip").hide();
 }
 
 
@@ -163,6 +166,7 @@ function popupInit() {
 	    console.log("this", this);
 	});
 
-    $("table.backpack td, table.unplaced td").hover(showToolTip, hideToolTip);
-    toolTip = $("#tooltip").detach()
+    $("table.backpack td, table.unplaced td").mouseenter(showToolTip).mouseleave(hideToolTip);
+    $("#tooltip").hide()
+
 }

@@ -101,7 +101,9 @@ function updateNewItemCount(count, color) {
 	lastCount = count;
 	    // animateFlip()
 	chrome.browserAction.setBadgeText({text:count == "0" ? "" : count});
-	chrome.browserAction.setBadgeBackgroundColor({color:color == null ? [130, 68, 27, 255] : color});
+	chrome.browserAction.setBadgeBackgroundColor(
+	    {color:color == null ? [130, 68, 27, 255] : color}
+	);
 	console.log("updated");
     } else {
 	console.log("not updated");
@@ -170,7 +172,7 @@ function getNewItemCount(onSuccess, onError) {
             xhr.send(null);
         }
     } catch(e) {
-        console.error(chrome.i18n.getMessage("exception", e));
+        console.error(e);
         handleError();
     }
 }
@@ -199,7 +201,7 @@ function setDisabledIcon() {
 function backgroundInit() {
     canvas = document.getElementById("canvas");
     tf2icon = document.getElementById("tf2icon");
-    canvasContext = canvas.getContext('2d');
+    canvasContext = canvas.getContext("2d");
     setDisabledIcon();
     updateNewItemCount("");
     if (getProfileId() != "") {

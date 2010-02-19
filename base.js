@@ -2,6 +2,16 @@ var tf2ItemsUrl = "http://www.tf2items.com/";
 var steamCommunityUrl = "http://steamcommunity.com/";
 
 
+function getDebug() {
+    return localStorage.debug == "true" || false;
+}
+
+
+function setDebug(v) {
+    localStorage.debug = v;
+}
+
+
 function getProfileId() {
     return localStorage.profileId || "";
 }
@@ -14,6 +24,10 @@ function getBackpackViewUrl() {
 
 
 function getXmlUrl() {
+    if (getDebug()) {
+	console.log("using test backpack xml");
+	return chrome.extension.getURL("test-backpack.xml");
+    }
     var id = getProfileId();
     return (id != "") ? tf2ItemsUrl + "packxml.php?profileid=" + id : "";
 }
