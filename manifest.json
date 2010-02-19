@@ -1,6 +1,6 @@
 {
-    "name"    : "TF2 Backpack Viewer",
-    "version" : "1.0",
+    "name"    : "TF2 Backpack Access",
+    "version" : "0.3.4",
 
 
     "description" : "Quick access to items in your TF2 backpack",

@@ -1,17 +1,18 @@
-var gdoc
-var newItemSelect = "/backpack/items/item/position[text()='0']/.."
-var avatarSelect = "/backpack/avatarFull"
-var itemData
+var backpackXml;
+var newItemSelect = "/backpack/items/item/position[text()='0']/..";
+var oldItemSelect = "/backpack/items/item/position[text()!='0']/..";
+var avatarSelect = "/backpack/avatarFull";
+var itemData;
 
 
 function isTF2ItemsUrl(url) {
-    var urlItems = getTF2ItemsUrl()
+    var urlItems = getBackpackViewUrl();
     if (url.indexOf(urlItems) != 0) {
-	return false
+	return false;
     }
     return url.length == urlItems.length ||
-                         url[urlItems.length] == '?' ||
-                         url[urlItems.length] == '#'
+        url[urlItems.length] == '?' ||
+	url[urlItems.length] == '#';
 }
 
 
@@ -21,18 +22,18 @@ function showBackpackUrl() {
         function(tabs) {
             for (var i = 0, tab; tab = tabs[i]; i++) {
                 if (tab.url && isTF2ItemsUrl(tab.url)) {
-                    chrome.tabs.update(tab.id, {selected: true})
-                    return false
+                    chrome.tabs.update(tab.id, {selected: true});
+                    return false;
                 }
             }
-            chrome.tabs.create({url:getTF2ItemsUrl()})
-	    return false
+            chrome.tabs.create({url:getBackpackViewUrl()});
+	    return false;
         }
     )
 }
 
 
-function addItem(node) {
+function putNewItem(node) {
     var div = document.createElement("div")
     var type = node.getAttribute("definitionIndex")
     var level = node.getElementsByTagName("level")[0].textContent
@@ -70,10 +71,14 @@ function loadItemData() {
 
 function loadAndShowBackpack() {
     chrome.extension.sendRequest(
-        {get:"backpack"},
+        {get:"backpackXml"},
         function(response) {
-            var doc = response.doc
-            xdoc = (new DOMParser()).parseFromString(doc, "text/xml")
+            var doc = response.doc;
+            var xdoc = (new DOMParser()).parseFromString(doc, "text/xml");
+	    backpackXml = xdoc;
+
+    testImages();
+
 	    var nodes = xdoc.evaluate(avatarSelect, xdoc, null, XPathResult.ANY_TYPE, null)
             var node = nodes.iterateNext()
             if (node) {
@@ -83,7 +88,7 @@ function loadAndShowBackpack() {
             var nodes = xdoc.evaluate(newItemSelect, xdoc, null, XPathResult.ANY_TYPE, null)
             var node = nodes.iterateNext()
             while (node) {
-                addItem(node)
+                putNewItem(node)
 		node = nodes.iterateNext()
             }
 
@@ -91,8 +96,49 @@ function loadAndShowBackpack() {
     )
 }
 
+function missingImage(img) {
+    if (img) {
+	img.parentNode.innerHTML = "<center>missing image</center>";
+	//img.src = "images/127.png";
+	//img.onerror = null;
+	return true;
+    }
+}
+
+function putOldItem(node, pos) {
+    //console.log(node, pos);
+    var id = node.getAttribute("definitionIndex");
+    var element = $("table.backpack td:eq("+pos+")")
+    element.append("<img src='images/" + id + ".png' height='48' width='48' onerror='missingImage(this)' />");
+
+}
+
+
+function testImages() {
+    // $("table.backpack:first td:first").append("<img src='images/35.png' />")
+    if (!backpackXml) {
+	console.log('empty backpackXml');
+	return;
+    }
+    var nodes = backpackXml.evaluate(oldItemSelect, backpackXml);
+    node = nodes.iterateNext();
+    var position = 0;
+    while (node) {
+	gnode = node;
+	putOldItem(node, position);
+	position += 1;
+	node = nodes.iterateNext();
+
+    }
+}
+
 
 function popupInit() {
     loadItemData();
     loadAndShowBackpack();
+    $("table.backpack td").click(function () {
+	    $("table.backpack td").removeClass("cellFg");
+	    $(this).addClass("cellFg");
+	    console.log("this", this);
+	});
 }

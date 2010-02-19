@@ -1,5 +1,6 @@
 <html>
 <head>
+<script src="jquery.min.js"></script>
 <script src="base.js"></script>
 <script src="popup.js"></script>
 <style>
@@ -7,16 +8,17 @@
     margin:0;
     padding:0;
     color : #ece3cb;
+    font-size:6pt;
 }
 
 
 body {
     background-color:#2e2b2a;
-    min-width:900px;
-    min-height:900px;
+    width:900px;
+    height:900px;
     font-family: helvetica, arial, sans-serif;
     font-size: 12px;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 
@@ -30,12 +32,28 @@ table.backpack {
 }
 
 table.backpack td {
-width:67px;
+width:66px;
 height:52px;
 background-color:#3c352e;
 border:3px solid #2e2b2a;
 -webkit-border-radius:10px;
 }
+
+table.backpack td:hover {
+border:3px solid #ece3cb;
+}
+
+.cellFg {
+background-color:#ece3cb !important;
+border:3px solid #ece3cb !important;
+}
+
+table.backpack img {
+a-border:1px dotted white;
+margin-left:9px;
+}
+
+
 </style>
 
 </head>
@@ -49,22 +67,22 @@ border:3px solid #2e2b2a;
 <div id="backpack">
 
 <table class="backpack" cellpadding="0" cellmargin="0">
-<tr><td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>1</td></tr>
-<tr><td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>1</td></tr>
-<tr><td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>1</td></tr>
-<tr><td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>1</td></tr>
-<tr><td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>1</td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 </table>
 
 <br />
 <br />
 
 <table class="backpack" cellpadding="0" cellmargin="0">
-<tr><td>2</td> <td>2</td> <td>2</td> <td>2</td> <td>2</td> <td>2</td> <td>2</td> <td>2</td> <td>2</td> <td>2</td></tr>
-<tr><td>2</td> <td>2</td> <td>2</td> <td>2</td> <td>2</td> <td>2</td> <td>2</td> <td>2</td> <td>2</td> <td>2</td></tr>
-<tr><td>2</td> <td>2</td> <td>2</td> <td>2</td> <td>2</td> <td>2</td> <td>2</td> <td>2</td> <td>2</td> <td>2</td></tr>
-<tr><td>2</td> <td>2</td> <td>2</td> <td>2</td> <td>2</td> <td>2</td> <td>2</td> <td>2</td> <td>2</td> <td>2</td></tr>
-<tr><td>2</td> <td>2</td> <td>2</td> <td>2</td> <td>2</td> <td>2</td> <td>2</td> <td>2</td> <td>2</td> <td>2</td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 </table>
 
 
