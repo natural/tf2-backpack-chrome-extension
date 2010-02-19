@@ -98,7 +98,8 @@ function loadAndShowBackpack() {
 
 function missingImage(img) {
     if (img) {
-	img.parentNode.innerHTML = "<center>missing image</center>";
+	img.parentNode.innerHTML = "";
+	//img.parentNode.innerHTML = "<center>missing image</center>";
 	//img.src = "images/127.png";
 	//img.onerror = null;
 	return true;
@@ -109,7 +110,7 @@ function putOldItem(node, pos) {
     //console.log(node, pos);
     var id = node.getAttribute("definitionIndex");
     var element = $("table.backpack td:eq("+pos+")")
-    element.append("<img src='images/" + id + ".png' height='48' width='48' onerror='missingImage(this)' />");
+    element.append("<img src='images/" + id + ".png' height='32' width='32' onerror='missingImage(this)' />");
 
 }
 

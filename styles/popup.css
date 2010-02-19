@@ -1,0 +1,50 @@
+* {
+    margin:0;
+    padding:0;
+    color : #ece3cb;
+    font-size:6pt;
+}
+
+
+body {
+    background-color:#2e2b2a;
+    min-width:900px;
+    min-height:900px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 12px;
+    overflow: scroll;
+}
+
+
+a {
+    color : #ece3cb;
+    font-weight:bold;
+    text-decoration:underline;
+}
+
+
+table.backpack {
+}
+
+
+table.backpack td {
+width:48px;
+height:48px;
+background-color:#3c352e;
+border:3px solid #2e2b2a;
+-webkit-border-radius:10px;
+}
+
+table.backpack td:hover {
+border:3px solid #ece3cb;
+}
+
+.cellFg {
+background-color:#ece3cb !important;
+border:3px solid #ece3cb !important;
+}
+
+table.backpack img {
+a-border:1px dotted white;
+a-margin-left:9px;
+}
