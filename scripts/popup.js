@@ -3,7 +3,8 @@ var newItemSelect = "/backpack/items/item/position[text()='0']/..";
 var oldItemSelect = "/backpack/items/item/position[text()!='0']/..";
 var avatarSelect = "/backpack/avatarFull";
 var itemData;
-
+var pageCurrent = 1;
+var pageCount;
 
 function isTF2ItemsUrl(url) {
     var urlItems = getBackpackViewUrl();
@@ -51,7 +52,7 @@ function loadItemData() {
 		console.log(itemData)
 		}
     }
-    req.open("GET", chrome.extension.getURL('/items.json'), true)
+    req.open("GET", chrome.extension.getURL('/data/items.json'), true)
     req.send()
 }
 
@@ -157,7 +158,19 @@ function hideToolTip(event) {
 }
 
 
+function nav(offset) {
+    if ((pageCurrent + offset) > 0 && (pageCurrent + offset <= pageCount)) {
+	$("#backpackPage-" + pageCurrent).hide();
+	pageCurrent += offset;
+	$("#backpackPage-" + pageCurrent).show();
+	$("#progressNav").text(pageCurrent + "/" + pageCount);
+    }
+}
+
+
 function popupInit() {
+    pageCount = $(".backpack tbody").length;
+
     loadItemData();
     loadAndShowBackpack();
     $("table.backpack td").click(function () {
@@ -167,6 +180,8 @@ function popupInit() {
 	});
 
     $("table.backpack td, table.unplaced td").mouseenter(showToolTip).mouseleave(hideToolTip);
-    $("#tooltip").hide()
+    $("#tooltip").hide();
 
+    $(".buttonNav:first a").click(function (e) { nav(-1) });
+    $(".buttonNav:last a").click(function (e) { nav(1) });
 }

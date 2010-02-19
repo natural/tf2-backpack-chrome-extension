@@ -1,64 +1,67 @@
 <html>
     <head>
-        <script src="jquery.min.js"></script>
-        <script src="base.js"></script>
-        <script src="popup.js"></script>
-        <link rel="stylesheet" type="text/css" href="popup.css"></link>
+        <script src="scripts/jquery.min.js"></script>
+        <script src="scripts/base.js"></script>
+        <script src="scripts/popup.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles/popup.css"></link>
     </head>
 
     <body onload="popupInit()">
-        <div id="tabs">
-        </div>
-
-	<span id="tooltip">foo</span>
-
         <div id="unplaced">
-	    <h1>New items not placed in backpack:</h1>
+	    <h1><span class="hilite">&gt;&gt;&nbsp;</span>Unplaced Items</h1>
             <table class="unplaced" cellpadding="0" cellmargin="0">
                 <tr><td></td><td></td><td></td><td></td><td></td></tr>
             </table>
         </div>
 
         <div id="backpack">
-	    <h1>Backpack:</h1> |
-            <a href="#" id="show_backpack"
-               onclick="javascript:showBackpackUrl(); false">View Backpack</a>
+	    <h1><span class="hilite">&gt;&gt;&nbsp;</span>Backpack </h1>
 
             <table class="backpack" cellpadding="0" cellmargin="0">
-                <tr><td></td><td></td><td></td><td></td><td></td></tr>
-                <tr><td></td><td></td><td></td><td></td><td></td></tr>
-                <tr><td></td><td></td><td></td><td></td><td></td></tr>
-                <tr><td></td><td></td><td></td><td></td><td></td></tr>
-                <tr><td></td><td></td><td></td><td></td><td></td></tr>
-            </table>
-            <br />
-            <table class="backpack" cellpadding="0" cellmargin="0">
-                <tr><td></td><td></td><td></td><td></td><td></td></tr>
-                <tr><td></td><td></td><td></td><td></td><td></td></tr>
-                <tr><td></td><td></td><td></td><td></td><td></td></tr>
-                <tr><td></td><td></td><td></td><td></td><td></td></tr>
-                <tr><td></td><td></td><td></td><td></td><td></td></tr>
-            </table>
-            <br />
-            <table class="backpack" cellpadding="0" cellmargin="0">
-                <tr><td></td><td></td><td></td><td></td><td></td></tr>
-                <tr><td></td><td></td><td></td><td></td><td></td></tr>
-                <tr><td></td><td></td><td></td><td></td><td></td></tr>
-                <tr><td></td><td></td><td></td><td></td><td></td></tr>
-                <tr><td></td><td></td><td></td><td></td><td></td></tr>
-            </table>
-            <br />
-            <table class="backpack" cellpadding="0" cellmargin="0">
-                <tr><td></td><td></td><td></td><td></td><td></td></tr>
-                <tr><td></td><td></td><td></td><td></td><td></td></tr>
-                <tr><td></td><td></td><td></td><td></td><td></td></tr>
-                <tr><td></td><td></td><td></td><td></td><td></td></tr>
-                <tr><td></td><td></td><td></td><td></td><td></td></tr>
-            </table>
-            <br />
+		<tbody id="backpackPage-1">
+                    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td>1</td></tr>
+		</tbody>
+		<tbody id="backpackPage-2" style="display:none">
+                    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td>2</td></tr>
+		</tbody>
+		<tbody id="backpackPage-3" style="display:none">
+                    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td>3</td></tr>
+		</tbody>
+		<tbody id="backpackPage-4" style="display:none">
+                    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td>4</td></tr>
+		</tbody>
 
+            </table>
+	    <div id="backpackNav">
+		<span class="buttonNav"><a href="#">&lt;</a></span>
+		<span id="progressNav">1/4</span>
+		<span class="buttonNav"><a href="#">&gt;</a></span>
+	    </div>
 
         </div>
+
+	<span id="tooltip" style="display:none"></span>
+	<div id="links">
+            <a href="#" id="show_backpack"
+               onclick="javascript:showBackpackUrl(); false">View Backpack @ TF2Items.com</a>
+	</div>
+
 
     </body>
 </html>

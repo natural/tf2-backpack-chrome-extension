@@ -26,7 +26,7 @@ function getBackpackViewUrl() {
 function getXmlUrl() {
     if (getDebug()) {
 	console.log("using test backpack xml");
-	return chrome.extension.getURL("test-backpack.xml");
+	return chrome.extension.getURL("/data/test-backpack.xml");
     }
     var id = getProfileId();
     return (id != "") ? tf2ItemsUrl + "packxml.php?profileid=" + id : "";
