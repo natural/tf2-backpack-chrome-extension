@@ -1,20 +1,29 @@
 <html>
     <head>
-        <script src="scripts/jquery.min.js"></script>
-        <script src="scripts/base.js"></script>
-        <script src="scripts/popup.js"></script>
-        <link rel="stylesheet" type="text/css" href="styles/popup.css"></link>
+        <script src="jquery.min.js"></script>
+        <script src="base.js"></script>
+        <script src="popup.js"></script>
+        <link rel="stylesheet" type="text/css" href="popup.css"></link>
     </head>
 
     <body onload="popupInit()">
         <div id="tabs">
-            <a href="#" id="show_backpack"
-               onclick="javascript:showBackpackUrl(); false">Show Backpack</a>
         </div>
-        <div id="new_items">
+
+	<span id="tooltip">foo</span>
+
+        <div id="unplaced">
+	    <h1>New items not placed in backpack:</h1>
+            <table class="unplaced" cellpadding="0" cellmargin="0">
+                <tr><td></td><td></td><td></td><td></td><td></td></tr>
+            </table>
         </div>
 
         <div id="backpack">
+	    <h1>Backpack:</h1> |
+            <a href="#" id="show_backpack"
+               onclick="javascript:showBackpackUrl(); false">View Backpack</a>
+
             <table class="backpack" cellpadding="0" cellmargin="0">
                 <tr><td></td><td></td><td></td><td></td><td></td></tr>
                 <tr><td></td><td></td><td></td><td></td><td></td></tr>

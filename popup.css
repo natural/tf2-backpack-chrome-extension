@@ -8,11 +8,11 @@
 
 body {
     background-color:#2e2b2a;
-    min-width:900px;
+    min-width:400px;
     min-height:900px;
     font-family: helvetica, arial, sans-serif;
     font-size: 12px;
-    overflow: scroll;
+    overflow-x: hidden;
 }
 
 
@@ -23,16 +23,24 @@ a {
 }
 
 
+table.unplaced,
 table.backpack {
+margin:0 auto 0 auto;
 }
 
 
+table.unplaced td,
 table.backpack td {
 width:48px;
 height:48px;
 background-color:#3c352e;
 border:3px solid #2e2b2a;
 -webkit-border-radius:10px;
+}
+
+table.unplaced td {
+background-color:#2e2b2a;
+border:3px solid #2e2b2a;
 }
 
 table.backpack td:hover {
@@ -46,5 +54,19 @@ border:3px solid #ece3cb !important;
 
 table.backpack img {
 a-border:1px dotted white;
-a-margin-left:9px;
+margin-left:3px;
+margin-top:3px;
+}
+
+#tooltip {
+border:3px solid black;
+-webkit-border-radius:6px;
+height:24px;
+width:96px;
+background:black;
+z-index:10;
+position:relative;
+top:50%;
+left:0;
+
 }

@@ -3,7 +3,7 @@ var newItemSelect = "/backpack/items/item/position[text()='0']/..";
 var oldItemSelect = "/backpack/items/item/position[text()!='0']/..";
 var avatarSelect = "/backpack/avatarFull";
 var itemData;
-
+var toolTip;
 
 function isTF2ItemsUrl(url) {
     var urlItems = getBackpackViewUrl();
@@ -33,20 +33,6 @@ function showBackpackUrl() {
 }
 
 
-function putNewItem(node) {
-    var div = document.createElement("div")
-    var type = node.getAttribute("definitionIndex")
-    var level = node.getElementsByTagName("level")[0].textContent
-    // node also has uniqueId, quality, position, quantity tags with text
-    // node also has attributes tag
-    div.innerHTML = "type: " + type + " "
-
-    var item = itemData[type]
-	if (item) {
-	    div.innerHTML += " name:" + item['description']
-	}
-    document.getElementById("new_items").appendChild(div)
-}
 
 
 function addAvatar(node) {
@@ -77,7 +63,7 @@ function loadAndShowBackpack() {
             var xdoc = (new DOMParser()).parseFromString(doc, "text/xml");
 	    backpackXml = xdoc;
 
-    testImages();
+    putImages();
 
 	    var nodes = xdoc.evaluate(avatarSelect, xdoc, null, XPathResult.ANY_TYPE, null)
             var node = nodes.iterateNext()
@@ -85,12 +71,6 @@ function loadAndShowBackpack() {
 		//addAvatar(node)
 	    }
 
-            var nodes = xdoc.evaluate(newItemSelect, xdoc, null, XPathResult.ANY_TYPE, null)
-            var node = nodes.iterateNext()
-            while (node) {
-                putNewItem(node)
-		node = nodes.iterateNext()
-            }
 
 	}
     )
@@ -106,24 +86,43 @@ function missingImage(img) {
     }
 }
 
+function putNewItem(node, pos) {
+    var type = node.getAttribute("definitionIndex");
+    var element = $("table.unplaced td:eq("+pos+")");
+    element.append("<img src='images/" + type + ".png' height='42' width='42' onerror='missingImage(this)' />");
+    //var level = node.getElementsByTagName("level")[0].textContent
+    // node also has uniqueId, quality, position, quantity tags with text
+    // node also has attributes tag
+}
+
+
 function putOldItem(node, pos) {
     //console.log(node, pos);
-    var id = node.getAttribute("definitionIndex");
-    var element = $("table.backpack td:eq("+pos+")")
-    element.append("<img src='images/" + id + ".png' height='32' width='32' onerror='missingImage(this)' />");
+    var type = node.getAttribute("definitionIndex");
+    var element = $("table.backpack td:eq("+pos+")");
+    element.append("<img src='images/" + type + ".png' height='42' width='42' onerror='missingImage(this)' />");
 
 }
 
 
-function testImages() {
+function putImages() {
     // $("table.backpack:first td:first").append("<img src='images/35.png' />")
     if (!backpackXml) {
 	console.log('empty backpackXml');
 	return;
     }
-    var nodes = backpackXml.evaluate(oldItemSelect, backpackXml);
-    node = nodes.iterateNext();
     var position = 0;
+    var nodes = backpackXml.evaluate(newItemSelect, backpackXml);
+    var node = nodes.iterateNext()
+    while (node) {
+        putNewItem(node, position);
+	position += 1;
+	node = nodes.iterateNext();
+    }
+
+    nodes = backpackXml.evaluate(oldItemSelect, backpackXml);
+    node = nodes.iterateNext();
+    position = 0;
     while (node) {
 	gnode = node;
 	putOldItem(node, position);
@@ -131,6 +130,27 @@ function testImages() {
 	node = nodes.iterateNext();
 
     }
+
+}
+
+function yOf(e) {
+    var y = 0;
+    while (e) {
+        y+=e.offsetTop;
+	e = e.offsetParent;
+    }
+}
+
+
+function showToolTip(event) {
+    console.log("show tooltip:", $(this));
+    $(this).append(toolTip);
+}
+
+
+function hideToolTip(event) {
+    console.log("hide tooltip:", $(this));
+    toolTip = $("#tooltip").detach()
 }
 
 
@@ -142,4 +162,7 @@ function popupInit() {
 	    $(this).addClass("cellFg");
 	    console.log("this", this);
 	});
+
+    $("table.backpack td, table.unplaced td").hover(showToolTip, hideToolTip);
+    toolTip = $("#tooltip").detach()
 }
