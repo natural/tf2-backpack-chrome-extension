@@ -6,6 +6,7 @@ var itemData;
 var pageCurrent = 1;
 var pageCount;
 
+
 function isTF2ItemsUrl(url) {
     var urlItems = getBackpackViewUrl();
     if (url.indexOf(urlItems) != 0) {
@@ -38,11 +39,12 @@ function showBackpackUrl() {
 
 function addAvatar(node) {
     var img = document.createElement("img")
-    img.setAttribute("width", "64")
-    img.setAttribute("height", "64")
+    // img.setAttribute("width", "64")
+    // img.setAttribute("height", "64")
     img.setAttribute("src", node.textContent)
     document.getElementById("new_items").appendChild(img)
 }
+
 
 function loadItemData() {
     var req = new XMLHttpRequest();
@@ -56,6 +58,7 @@ function loadItemData() {
     req.send()
 }
 
+
 function loadAndShowBackpack() {
     chrome.extension.sendRequest(
         {get:"backpackXml"},
@@ -63,51 +66,50 @@ function loadAndShowBackpack() {
             var doc = response.doc;
             var xdoc = (new DOMParser()).parseFromString(doc, "text/xml");
 	    backpackXml = xdoc;
-
-    putImages();
-
+	    putImages();
 	    var nodes = xdoc.evaluate(avatarSelect, xdoc, null, XPathResult.ANY_TYPE, null)
             var node = nodes.iterateNext()
             if (node) {
 		//addAvatar(node)
 	    }
-
-
 	}
     )
 }
 
-function missingImage(img) {
+function missingImage(img, typ) {
     if (img) {
-	img.parentNode.innerHTML = "";
-	//img.parentNode.innerHTML = "<center>missing image</center>";
-	//img.src = "images/127.png";
-	//img.onerror = null;
+	//img.parentNode.innerHTML = "" + typ;
+	img.src = "images/missing.png";
+	img.onerror = null;
 	return true;
     }
 }
 
 function putNewItem(node, pos) {
     var type = node.getAttribute("definitionIndex");
+    if (type == undefined) {
+	return;
+    }
     var element = $("table.unplaced td:eq("+pos+")");
-    element.append("<img src='images/" + type + ".png' height='42' width='42' onerror='missingImage(this)' />");
+    element.append("<img src='images/" + type + ".png' onerror='missingImage(this, " + type + ")' />");
     //var level = node.getElementsByTagName("level")[0].textContent
     // node also has uniqueId, quality, position, quantity tags with text
     // node also has attributes tag
 }
 
 
+var gnode;
+
 function putOldItem(node, pos) {
+   // 0x8 CCC SSSS
     //console.log(node, pos);
     var type = node.getAttribute("definitionIndex");
     var element = $("table.backpack td:eq("+pos+")");
-    element.append("<img src='images/" + type + ".png' height='42' width='42' onerror='missingImage(this)' />");
-
+    element.append("<img src='images/" + type + ".png' onerror='missingImage(this, " + type + ")' />");
 }
 
 
 function putImages() {
-    // $("table.backpack:first td:first").append("<img src='images/35.png' />")
     if (!backpackXml) {
 	console.log('empty backpackXml');
 	return;
@@ -120,26 +122,25 @@ function putImages() {
 	position += 1;
 	node = nodes.iterateNext();
     }
+    if (position > 0) {
+	$("#unplaced, hr.unplaced").show()
+    }
 
     nodes = backpackXml.evaluate(oldItemSelect, backpackXml);
     node = nodes.iterateNext();
     position = 0;
     while (node) {
+        var p = node.getElementsByTagName("position")[0].firstChild.textContent;
+	var q = parseInt(p) & 0xffff;
+        // wha? (2155872335 & 0x80000000 && 2155872335 & 0x0FFF0000).toString(16)
+	//console.log(node, p, q);
 	gnode = node;
-	putOldItem(node, position);
+	putOldItem(node, q-1);
 	position += 1;
 	node = nodes.iterateNext();
 
     }
 
-}
-
-function yOf(e) {
-    var y = 0;
-    while (e) {
-        y+=e.offsetTop;
-	e = e.offsetParent;
-    }
 }
 
 
@@ -160,10 +161,12 @@ function hideToolTip(event) {
 
 function nav(offset) {
     if ((pageCurrent + offset) > 0 && (pageCurrent + offset <= pageCount)) {
-	$("#backpackPage-" + pageCurrent).hide();
-	pageCurrent += offset;
-	$("#backpackPage-" + pageCurrent).show();
-	$("#progressNav").text(pageCurrent + "/" + pageCount);
+	$("#backpackPage-" + pageCurrent).fadeOut(250, function() {
+	    pageCurrent += offset;
+	    $("#backpackPage-" + pageCurrent).fadeIn(250);
+	    $("#pages").text(pageCurrent + "/" + pageCount);
+	})
+
     }
 }
 
@@ -182,6 +185,6 @@ function popupInit() {
     $("table.backpack td, table.unplaced td").mouseenter(showToolTip).mouseleave(hideToolTip);
     $("#tooltip").hide();
 
-    $(".buttonNav:first a").click(function (e) { nav(-1) });
-    $(".buttonNav:last a").click(function (e) { nav(1) });
+    $(".nav:first a").click(function (e) { nav(-1) });
+    $(".nav:last a").click(function (e) { nav(1) });
 }

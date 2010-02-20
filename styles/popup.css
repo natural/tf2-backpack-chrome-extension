@@ -1,25 +1,60 @@
 @import url("base.css") all;
 @import url("fonts.css") all;
+/*
+background dark brown: #2e2b2a
+
+cell background darkish brown: #3c352e
+cell hover border medium brown: #847668
+cell highlight medium brown: #c8bba2
+
+footer slightly lighter darkish brown: #393431
+page numbering and >> symbol orangered: #c8503c
+button background peach:  #fbebca
+button disabled text darker peach: #dbad65
+
+button hover background orange: #b25216
+button normal text brown: #756b5e
+small title text brown:   #756b5e
+
+title text: #ebe2ca
+title darker text:  #c8bba1
+title darkest text: #827868
+
+tooltip title text: #ffd700
+tooltip level text: #756b5e
+tooltip info1 text: #94c6f7
+tooltip info2 text: #e4dbc4
+
+equipped text orange red: #c54f3b
+
+cell normal dim: 67px wide by 52px high (width factor 1.288)
+
+*/
 
 
 body {
-    color : #ece3cb;
-    background-color:#2e2b2a;
-    min-width:400px;
-    min-height:600px;
-    font-family:"TF2";
-    font-size: 10px;
-    overflow-x: hidden;
-    padding:1em;
+min-width:400px;
+min-height:600px;
+font-family:"TF2";
+font-size: 10px;
+overflow-x: hidden;
+background-image:url('../hud/header_bg.png');
+background-repeat:repeat-x;
+background-color:#2e2b2a;
+background-color:#393431; /* for footer */
+color : green; /* standout for now */
+
 }
+
 
 h1 {
 font-family:"TF2Build";
 font-size:14px;
+color: #ebe2ca;
 }
 
 h1 span.hilite {
-    color:red;
+    color:#c8503c;
 }
 
 a {
@@ -28,28 +63,53 @@ a {
     text-decoration:none;
 }
 
-a:hover {
-    border-bottom:1px solid white;
+#unplaced, #backpack {
+padding-top:10px;
+padding-left:10px;
 }
 
-table.unplaced,
-table.backpack {
+hr.unplaced {
+background-image:url("../hud/solid_line.png");
+background-repeat:repeat-x;
+border:none;
+height:4px;
+}
+
+#backpack {
+background-color:#2e2b2a;
+}
+
+
+fullWidth {
+width:100%;
+}
+
+centeredMargin {
 margin:0 auto 0 auto;
 }
 
+table.unplaced img, table.backpack img {
+height:42px !important;
+width:42px !important;
+margin-left:12px !important;
+}
 
 table.unplaced td,
 table.backpack td {
-width:48px;
-height:48px;
+width:67px !important;;
+height:52px !important;
+
+}
+
+table.backpack td {
 background-color:#3c352e;
 border:3px solid #2e2b2a;
 -webkit-border-radius:10px;
 }
 
 table.unplaced td {
-background-color:#2e2b2a;
-border:3px solid #2e2b2a;
+a-background-color:#2e2b2a;
+a-border:3px solid #2e2b2a;
 }
 
 table.backpack td:hover {
@@ -81,17 +141,17 @@ left:0;
 
 
 
-#backpackNav {
-margin:0 auto 0 auto;
-text-align:right;
-width:272px;
+#nav {
 font-size:14px;
 font-family:"TF2Build";
+text-align:right;
+width:365px;
+padding-bottom:10px;
 }
 
-.buttonNav {
-background-color:#ece3cb;
 
+.nav {
+background-color:#ece3cb;
 width:20px;
 height:20px;
 line-height:20px;
@@ -102,22 +162,43 @@ text-align:center;
 }
 
 
-.buttonNav:hover {
-background-color:red;
+.nav:hover {
+background-color:#b25216;
 }
 
 
-.buttonNav a {
+.nav a {
 color:#2e2b2a;
 }
 
-.buttonNav a:hover {
-
+.nav a:hover {
+border:none;
 }
 
-#progressNav {
-color:red;
+#pages {
+color:#c8503c;
+width:2em;
+display:inline-block;
+text-align:center;
 }
 
+#footer {
+background-image:url('../hud/solid_line.png');
+background-repeat:repeat-x;
+padding-top:10px;
+color:#827868;
+}
 
+#footer div {
+width:370px;
+text-align:center;
+}
 
+#footer a {
+color:#827868;
+text-decoration:none;
+}
+
+#footer a:hover {
+border-bottom:1px solid #827868;
+}

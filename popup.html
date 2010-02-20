@@ -7,17 +7,38 @@
     </head>
 
     <body onload="popupInit()">
-        <div id="unplaced">
+	<span id="tooltip" style="display:none"></span>
+
+        <div id="unplaced" style="display:none">
 	    <h1><span class="hilite">&gt;&gt;&nbsp;</span>Unplaced Items</h1>
             <table class="unplaced" cellpadding="0" cellmargin="0">
                 <tr><td></td><td></td><td></td><td></td><td></td></tr>
             </table>
         </div>
 
+	<hr class="unplaced" style="display:none" />
+
         <div id="backpack">
 	    <h1><span class="hilite">&gt;&gt;&nbsp;</span>Backpack </h1>
 
             <table class="backpack" cellpadding="0" cellmargin="0">
+<!--
+		<tbody id="backpackPage-1">
+                    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+		</tbody>
+
+		<tbody id="backpackPage-2" style="display:none">
+                    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+                    <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+		</tbody>
+-->
 		<tbody id="backpackPage-1">
                     <tr><td></td><td></td><td></td><td></td><td></td></tr>
                     <tr><td></td><td></td><td></td><td></td><td></td></tr>
@@ -46,20 +67,23 @@
                     <tr><td></td><td></td><td></td><td></td><td></td></tr>
                     <tr><td></td><td></td><td></td><td></td><td></td></tr>
 		</tbody>
-
             </table>
-	    <div id="backpackNav">
-		<span class="buttonNav"><a href="#">&lt;</a></span>
-		<span id="progressNav">1/4</span>
-		<span class="buttonNav"><a href="#">&gt;</a></span>
+	    <div id="nav">
+		<span class="nav"><a href="#">&lt;</a></span>
+		<span id="pages">1/4</span>
+		<span class="nav"><a href="#">&gt;</a></span>
 	    </div>
 
         </div>
 
-	<span id="tooltip" style="display:none"></span>
-	<div id="links">
-            <a href="#" id="show_backpack"
-               onclick="javascript:showBackpackUrl(); false">View Backpack @ TF2Items.com</a>
+	<div id="footer">
+	    <div>
+		<a href="#" id="show_backpack"
+		   onclick="javascript:showBackpackUrl(); false">View Backpack @ TF2Items.com</a>
+		|
+		<a href="#" id="show_steamcommunity"
+		   onclick="">View Steam Community Page</a>
+	    </div>
 	</div>
 
 

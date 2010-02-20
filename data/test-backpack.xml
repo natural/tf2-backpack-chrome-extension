@@ -7,17 +7,17 @@
   <avatarFull><![CDATA[http://media.steampowered.com/steamcommunity/public/images/avatars/ce/ce70406c4882f185142bb3c3bdbfa6c7333510ce_full.jpg]]></avatarFull>
   <fromCache>1</fromCache>
   <fromHistory>0</fromHistory>
-  <cacheTime>1266574142</cacheTime>
+  <cacheTime>1266659827</cacheTime>
   <historyTime>0</historyTime>
-  <profileViews>141</profileViews>
+  <profileViews>145</profileViews>
   <numHats>11</numHats>
   <numMisc>3</numMisc>
-  <numNormal>37</numNormal>
-  <numMetal>4</numMetal>
-  <metalWorth>14</metalWorth>
+  <numNormal>32</numNormal>
+  <numMetal>5</numMetal>
+  <metalWorth>17</metalWorth>
   <numUnknown>0</numUnknown>
-  <totalItems>55</totalItems>
-  <totalJustFound>5<hats>0</hats><nonHats>5</nonHats></totalJustFound>
+  <totalItems>51</totalItems>
+  <totalJustFound>0<hats>0</hats><nonHats>0</nonHats></totalJustFound>
   <totalInvalid>0</totalInvalid>
   <items>
     <item definitionIndex="36">
@@ -340,22 +340,6 @@
       <quantity>1</quantity>
       <attributes/>
     </item>
-    <item definitionIndex="5000">
-      <uniqueId>62051471</uniqueId>
-      <level>1</level>
-      <quality>3</quality>
-      <position>2147483652</position>
-      <quantity>1</quantity>
-      <attributes/>
-    </item>
-    <item definitionIndex="37">
-      <uniqueId>62077274</uniqueId>
-      <level>10</level>
-      <quality>3</quality>
-      <position>2147483695</position>
-      <quantity>1</quantity>
-      <attributes/>
-    </item>
     <item definitionIndex="38">
       <uniqueId>62090431</uniqueId>
       <level>10</level>
@@ -369,22 +353,6 @@
       <level>18</level>
       <quality>3</quality>
       <position>2147483667</position>
-      <quantity>1</quantity>
-      <attributes/>
-    </item>
-    <item definitionIndex="5000">
-      <uniqueId>62157198</uniqueId>
-      <level>1</level>
-      <quality>3</quality>
-      <position>2147483651</position>
-      <quantity>1</quantity>
-      <attributes/>
-    </item>
-    <item definitionIndex="44">
-      <uniqueId>62172590</uniqueId>
-      <level>15</level>
-      <quality>3</quality>
-      <position>2147483689</position>
       <quantity>1</quantity>
       <attributes/>
     </item>
@@ -404,14 +372,6 @@
       <quantity>1</quantity>
       <attributes/>
     </item>
-    <item definitionIndex="37">
-      <uniqueId>62272004</uniqueId>
-      <level>10</level>
-      <quality>3</quality>
-      <position>2147483685</position>
-      <quantity>1</quantity>
-      <attributes/>
-    </item>
     <item definitionIndex="5001">
       <uniqueId>62299217</uniqueId>
       <level>2</level>
@@ -420,27 +380,11 @@
       <quantity>1</quantity>
       <attributes/>
     </item>
-    <item definitionIndex="37">
-      <uniqueId>62337796</uniqueId>
-      <level>10</level>
-      <quality>3</quality>
-      <position>0</position>
-      <quantity>1</quantity>
-      <attributes/>
-    </item>
     <item definitionIndex="127">
       <uniqueId>62345948</uniqueId>
       <level>1</level>
       <quality>3</quality>
-      <position>0</position>
-      <quantity>1</quantity>
-      <attributes/>
-    </item>
-    <item definitionIndex="35">
-      <uniqueId>62357958</uniqueId>
-      <level>8</level>
-      <quality>3</quality>
-      <position>0</position>
+      <position>2147483690</position>
       <quantity>1</quantity>
       <attributes/>
     </item>
@@ -448,20 +392,48 @@
       <uniqueId>62379298</uniqueId>
       <level>10</level>
       <quality>3</quality>
-      <position>0</position>
+      <position>2147483692</position>
       <quantity>1</quantity>
       <attributes/>
     </item>
-    <item definitionIndex="44">
-      <uniqueId>62382789</uniqueId>
-      <level>15</level>
+    <item definitionIndex="57">
+      <uniqueId>62579523</uniqueId>
+      <level>10</level>
       <quality>3</quality>
-      <position>0</position>
+      <position>2147483696</position>
+      <quantity>1</quantity>
+      <attributes/>
+    </item>
+    <item definitionIndex="5000">
+      <uniqueId>62673973</uniqueId>
+      <level>1</level>
+      <quality>3</quality>
+      <position>2147483652</position>
+      <quantity>1</quantity>
+      <attributes/>
+    </item>
+    <item definitionIndex="5000">
+      <uniqueId>62673978</uniqueId>
+      <level>1</level>
+      <quality>3</quality>
+      <position>2147483653</position>
+      <quantity>1</quantity>
+      <attributes/>
+    </item>
+    <item definitionIndex="5001">
+      <uniqueId>62673993</uniqueId>
+      <level>2</level>
+      <quality>3</quality>
+      <position>2147483651</position>
       <quantity>1</quantity>
       <attributes/>
     </item>
   </items>
   <availableHistory>
+    <historyTime>1266659827</historyTime>
+    <historyTime>1266614820</historyTime>
+    <historyTime>1266603940</historyTime>
+    <historyTime>1266599703</historyTime>
     <historyTime>1266519929</historyTime>
     <historyTime>1266510595</historyTime>
     <historyTime>1266502301</historyTime>
@@ -693,5 +665,5 @@
     <historyTime>1251741804</historyTime>
     <historyTime>1251602561</historyTime>
   </availableHistory>
-  <pageGenTime>0.011477947235107</pageGenTime>
+  <pageGenTime>0.013136148452759</pageGenTime>
 </backpack>

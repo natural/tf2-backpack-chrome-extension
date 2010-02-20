@@ -1,13 +1,9 @@
 var tf2ItemsUrl = "http://www.tf2items.com/";
-var steamCommunityUrl = "http://steamcommunity.com/";
-var profileIdSearchUrl = "http://www.tf2items.com/search.php?tf2items_q=";
+var profileIdSearchUrl = tf2ItemsUrl + "search.php?tf2items_q=";
+var steamIdPattern = /\d{17}/;
 
-// search interface:
-// http://www.tf2items.com/search.php?tf2items_q=pnatural
-// returns: {"success":"true","profile":"76561197992805111"}
 
 function lookupProfileId(v) {
-    var steamIdPattern = /\d{17}/;
     if (v.match(steamIdPattern)) {
 	return v;
     }
@@ -52,10 +48,4 @@ function getXmlUrl() {
     }
     var id = getProfileId();
     return (id != "") ? tf2ItemsUrl + "packxml.php?profileid=" + id : "";
-}
-
-
-function getJsonUrl() {
-    var id = getProfileId();
-    return (id != "") ? steamCommunityUrl + "profiles/" + id + "/tfitems?json=1" : ""
 }

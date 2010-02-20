@@ -1,5 +1,4 @@
 var backpackXml;                           // xml string passed back when messaged
-var backpackJson;                          // json string passed back
 var animationFrames = 36;
 var animationSpeed = 10;                   // ms
 var canvas;
@@ -212,8 +211,6 @@ function backgroundInit() {
         function(request, sender, sendResponse) {
             if (request.get == "backpackXml") {
                 sendResponse({doc:backpackXml});
-            } else if (request.get == "backpackJson") {
-                sendResponse({doc:backpackJson});
             } else {
                 sendResponse({});
             }
