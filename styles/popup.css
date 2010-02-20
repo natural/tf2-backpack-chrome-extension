@@ -101,14 +101,23 @@ vertical-align:middle;
 text-align:center;
 }
 
+
+.buttonNav:hover {
+background-color:red;
+}
+
+
 .buttonNav a {
 color:#2e2b2a;
 }
 
 .buttonNav a:hover {
-color:red;
+
 }
 
 #progressNav {
 color:red;
 }
+
+
+

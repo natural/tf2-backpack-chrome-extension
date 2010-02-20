@@ -42,3 +42,7 @@ body {
 #footer {
   margin-top:4em;
 }
+
+#saveButton {
+font-weight:bold;
+}
