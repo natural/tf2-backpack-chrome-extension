@@ -1,5 +1,8 @@
 var tf2ItemsUrl = "http://www.tf2items.com/";
 var profileIdSearchUrl = tf2ItemsUrl + "search.php?tf2items_q=";
+var steamCommunityUrl = "http://steamcommunity.com/";
+var sourceOpUrl = "http://www.sourceop.com/";
+var pnaturalUrl = steamCommunityUrl + "profiles/76561197992805111";
 var steamIdPattern = /\d{17}/;
 
 
@@ -37,7 +40,13 @@ function setDebug(v) { localStorage.debug = v }
 
 function getBackpackViewUrl() {
     var id = getProfileId();
-    return (id != "") ? tf2ItemsUrl + "/profiles/" + id : tf2ItemsUrl;
+    return (id != "") ? tf2ItemsUrl + "profiles/" + id : tf2ItemsUrl;
+}
+
+
+function getProfileUrl() {
+    var id = getProfileId();
+    return (id != "") ? steamCommunityUrl + "profiles/" + id : steamCommunityUrl;
 }
 
 

@@ -99,6 +99,7 @@ function updateNewItemCount(count, color) {
     if (count != lastCount) {
 	lastCount = count;
 	    // animateFlip()
+	count = count.toString();
 	chrome.browserAction.setBadgeText({text:count == "0" ? "" : count});
 	chrome.browserAction.setBadgeBackgroundColor(
 	    {color:color == null ? [130, 68, 27, 255] : color}
@@ -112,10 +113,11 @@ function updateNewItemCount(count, color) {
 
 function startItemCheck() {
     getNewItemCount(
-        function(count, doc) {
+        function(nonHatCount, hatCount, doc) {
+            setEnabledIcon();
             loadingAnimation.stop();
-            updateNewItemCount(count);
-            backpackXml = doc;
+            updateNewItemCount(nonHatCount + hatCount, hatCount > 0 ? [0, 128, 0, 255] : null);
+	    backpackXml = doc;
             scheduleCheck();
 	    console.log("checked");
         },
@@ -129,13 +131,13 @@ function startItemCheck() {
 
 
 function getNewItemCount(onSuccess, onError) {
-    var xhr = new XMLHttpRequest()
-    var abortTimerId = window.setTimeout(function() { xhr.abort() },
+    var request = new XMLHttpRequest()
+    var abortTimerId = window.setTimeout(function() { request.abort() },
                                          requestTimeout);
-    function handleSuccess(count, doc) {
+    function handleSuccess(nonCount, hatCount, doc) {
         requestFailureCount = 0;
         window.clearTimeout(abortTimerId);
-        if (onSuccess) { onSuccess(count, doc) }
+        if (onSuccess) { onSuccess(nonCount, hatCount, doc) }
     }
 
     function handleError() {
@@ -145,30 +147,25 @@ function getNewItemCount(onSuccess, onError) {
     }
 
     try {
-        xhr.onreadystatechange = function() {
-            if (xhr.readyState != 4) { return }
-            if (xhr.responseXML) {
-                var xmlDoc = xhr.responseXML;
-                var fullCountSet = xmlDoc.evaluate(
-                    "/backpack/totalJustFound/text()", xmlDoc, null,
-                    XPathResult.ANY_TYPE, null
-						   );
-                var fullCountNode = fullCountSet.iterateNext();
-                if (fullCountNode) {
-                    setEnabledIcon();
-                    handleSuccess(fullCountNode.textContent, xhr.responseText);
+        request.onreadystatechange = function() {
+            if (request.readyState != 4) {
+		return;
+	    }
+            if (request.responseXML) {
+		var hatCount = parseInt($("totalJustFound hats", request.responseXML).text());
+		var nonCount = parseInt($("totalJustFound nonHats", request.responseXML).text());
+                if (hatCount + nonCount) {
+                    handleSuccess(nonCount, hatCount, request.responseText);
                     return;
-                } else {
-                    console.error(chrome.i18n.getMessage("node_error"));
                 }
             }
             handleError();
         }
-        xhr.onerror = function(error) { handleError() }
+        request.onerror = function(error) { handleError() }
         var url = getXmlUrl();
         if (url != "") {
-            xhr.open("GET", getXmlUrl(), true);
-            xhr.send(null);
+            request.open("GET", getXmlUrl(), true);
+            request.send(null);
         }
     } catch(e) {
         console.error(e);

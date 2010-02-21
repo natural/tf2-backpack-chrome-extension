@@ -1,5 +1,3 @@
-@import url("base.css") all;
-@import url("fonts.css") all;
 /*
 background dark brown: #2e2b2a
 
@@ -22,71 +20,103 @@ title darkest text: #827868
 
 tooltip title text: #ffd700
 tooltip level text: #756b5e
-tooltip info1 text: #94c6f7
-tooltip info2 text: #e4dbc4
+tooltip alt text:   #e4dbc4
+tooltip plus text:  #8dbceb
+tooltip minus text: #eb3b3b
+
 
 equipped text orange red: #c54f3b
 
 cell normal dim: 67px wide by 52px high (width factor 1.288)
 
 */
+@import url("base.css") all;
+@import url("fonts.css") all;
 
 
 body {
 min-width:400px;
 min-height:600px;
 font-family:"TF2";
-font-size: 10px;
-overflow-x: hidden;
-background-image:url('../hud/header_bg.png');
-background-repeat:repeat-x;
-background-color:#2e2b2a;
-background-color:#393431; /* for footer */
-color : green; /* standout for now */
+font-size:10px;
+overflow-x:hidden;
+background-color:#393431;
+color:green; /* standout for now */
+}
 
+
+a {
+color:#ece3cb;
+font-weight:bold;
+text-decoration:none;
 }
 
 
 h1 {
 font-family:"TF2Build";
 font-size:14px;
-color: #ebe2ca;
+color:#ebe2ca;
 }
+
 
 h1 span.hilite {
-    color:#c8503c;
+color:#c8503c;
 }
 
-a {
-    color : #ece3cb;
-    font-weight:bold;
-    text-decoration:none;
+h2 {
+font-family:"TF2Build";
+font-size:12px;
+color:#827868;
 }
 
-#unplaced, #backpack {
-padding-top:10px;
-padding-left:10px;
+
+#info {
+background-image:url('../hud/header_bg.png');
+background-repeat:repeat-x;
+padding-bottom:6px;
 }
 
-hr.unplaced {
+
+#steamID {
+color:#c8bba1
+}
+
+
+hr.info, hr.unplaced {
 background-image:url("../hud/solid_line.png");
 background-repeat:repeat-x;
 border:none;
 height:4px;
 }
 
+
+#avatar img {
+width:32px;
+height:32px;
+background-color:#84756b;
+border:3px solid #84756b;
+margin:6px;
+position:absolute;
+top:0;
+left:85%;
+}
+
+
+#info, #unplaced, #backpack {
+padding-top:10px;
+padding-left:10px;
+}
+
+
+#unplaced {
+background-color:#393431;
+}
+
+
 #backpack {
 background-color:#2e2b2a;
 }
 
-
-fullWidth {
-width:100%;
-}
-
-centeredMargin {
-margin:0 auto 0 auto;
-}
 
 table.unplaced img, table.backpack img {
 height:42px !important;
@@ -94,18 +124,19 @@ width:42px !important;
 margin-left:12px !important;
 }
 
-table.unplaced td,
-table.backpack td {
+
+table.unplaced td, table.backpack td {
 width:67px !important;;
 height:52px !important;
-
 }
+
 
 table.backpack td {
 background-color:#3c352e;
 border:3px solid #2e2b2a;
 -webkit-border-radius:10px;
 }
+
 
 table.unplaced td {
 a-background-color:#2e2b2a;
@@ -121,24 +152,59 @@ background-color:#ece3cb !important;
 border:3px solid #ece3cb !important;
 }
 
+
 table.backpack img {
-a-border:1px dotted white;
 margin-left:3px;
 margin-top:3px;
 }
 
+
 #tooltip {
 -webkit-border-radius:6px;
-height:24px;
-width:96px;
+a0height:24px;
+a0width:96px;
 background:black;
 z-index:9001;
 position:absolute;
 top:50%;
 left:0;
--webkit-box-shadow: rgba(0,0,0,1) 0px 0px 6px;
+-webkit-box-shadow:rgba(0,0,0,1) 0px 0px 6px;
+text-align:center;
+padding:10px;
 }
 
+
+#tooltip h4 {
+font-family:"TF2Build";
+color:#ffd700;
+margin-bottom:1em;
+white-space:nowrap;
+}
+
+#tooltip .level, #tooltip .alt, #tooltip .plus, #tooltip .minus {
+font-family:"TF2secondary";
+font-size:8pt;
+}
+
+
+#tooltip .level {
+color:#756b5e;
+}
+
+
+#tooltip .alt {
+color:#e4dbc4;
+}
+
+
+#tooltip .plus {
+color:#8dbceb;
+}
+
+
+#tooltip .minus {
+color:#eb3b3b;
+}
 
 
 #nav {
@@ -171,9 +237,11 @@ background-color:#b25216;
 color:#2e2b2a;
 }
 
+
 .nav a:hover {
 border:none;
 }
+
 
 #pages {
 color:#c8503c;
@@ -182,6 +250,7 @@ display:inline-block;
 text-align:center;
 }
 
+
 #footer {
 background-image:url('../hud/solid_line.png');
 background-repeat:repeat-x;
@@ -189,16 +258,43 @@ padding-top:10px;
 color:#827868;
 }
 
+
 #footer div {
 width:370px;
 text-align:center;
+line-height:1.5em;
+font-family:"TF2Build";
+font-size:8px;
 }
+
 
 #footer a {
 color:#827868;
-text-decoration:none;
+color:#c8bba2;
 }
+
 
 #footer a:hover {
 border-bottom:1px solid #827868;
+border-bottom:1px solid #c8bba2;
 }
+
+
+.equipped {
+position:relative;
+height:12px;
+color:#c8503c;
+font-family:"TF2secondary";
+font-size:8pt;
+background-color:black;
+padding:2px;
+float:right;
+bottom:2px;
+right:2px;
+display:inline;
+text-align:center;
+-webkit-border-radius:4pt;
+margin-top:-6pt;
+}
+
+

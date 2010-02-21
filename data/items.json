@@ -21,7 +21,7 @@
 "47"   : {"description" : "Demo Afro"},
 "48"   : {"description" : "Mining Hat"},
 "49"   : {"description" : "Football Helmet"},
-"50"   : {"description" : "medic hat 1"},
+"50"   : {"description" : "Prussian Pickelhaube"},
 "51"   : {"description" : "Pyro's Beanie"},
 "52"   : {"description" : "Batter Helmet"},
 "53"   : {"description" : "Tooth Hat"},
@@ -72,13 +72,13 @@
 
 
 
-"127"  : {"description" : "The Direct Hit"},
+"127"  : {"description" : "The Direct Hit", "type":"Rocket Launcher"},
 "128"  : {"description" : "The Equalizer"},
 "129"  : {"description" : "The Buff Banner"},
 "130"  : {"description" : "The Scottish Resistance"},
 "131"  : {"description" : "The Chargin' Targe"},
 "132"  : {"description" : "The Eyelander"},
-"133"  : {"description" : "The Gunboats"},
+"133"  : {"description" : "The Gunboats", "plus":"-75% blast damage from rocket jumps"},
 
 
 
@@ -92,9 +92,9 @@
 
 
 
-"5000" : {"description" : "Craft Bar Level 1"},
-"5001" : {"description" : "Craft Bar Level 2"},
-"5002" : {"description" : "Craft Bar Level 3"},
+"5000" : {"description" : "Scrap Metal", "type":"Craft Item"},
+"5001" : {"description" : "Reclaimed Metal", "type":"Craft Item"},
+"5002" : {"description" : "Refined Metal", "type":"Craft Item"},
 "5003" : {"description" : "Scout Class Token"},
 "5004" : {"description" : "Sniper Class Token"},
 "5005" : {"description" : "Soldier Class Token"},
