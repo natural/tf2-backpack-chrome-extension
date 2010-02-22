@@ -96,17 +96,15 @@ LoadingAnimation.prototype.stop = function() {
 
 
 function updateNewItemCount(count, color) {
+    //console.log(count, color);
     if (count != lastCount) {
 	lastCount = count;
-	    // animateFlip()
+	// animateFlip()
 	count = count.toString();
 	chrome.browserAction.setBadgeText({text:count == "0" ? "" : count});
 	chrome.browserAction.setBadgeBackgroundColor(
 	    {color:color == null ? [130, 68, 27, 255] : color}
 	);
-	console.log("updated");
-    } else {
-	console.log("not updated");
     }
 }
 
@@ -119,7 +117,7 @@ function startItemCheck() {
             updateNewItemCount(nonHatCount + hatCount, hatCount > 0 ? [0, 128, 0, 255] : null);
 	    backpackXml = doc;
             scheduleCheck();
-	    console.log("checked");
+	    //console.log("checked");
         },
         function() {
             loadingAnimation.stop();
@@ -154,10 +152,8 @@ function getNewItemCount(onSuccess, onError) {
             if (request.responseXML) {
 		var hatCount = parseInt($("totalJustFound hats", request.responseXML).text());
 		var nonCount = parseInt($("totalJustFound nonHats", request.responseXML).text());
-                if (hatCount + nonCount) {
-                    handleSuccess(nonCount, hatCount, request.responseText);
-                    return;
-                }
+                handleSuccess(nonCount, hatCount, request.responseText);
+                return;
             }
             handleError();
         }
@@ -199,7 +195,7 @@ function backgroundInit() {
     tf2icon = document.getElementById("tf2icon");
     canvasContext = canvas.getContext("2d");
     setDisabledIcon();
-    updateNewItemCount("");
+    updateNewItemCount("", [128, 128, 128, 255]);
     if (getProfileId() != "") {
 	loadingAnimation.start();
     }
@@ -212,5 +208,5 @@ function backgroundInit() {
                 sendResponse({});
             }
 	});
-    console.log("extension background init 6");
+    console.log("extension background init 7");
 }

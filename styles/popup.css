@@ -35,8 +35,8 @@ cell normal dim: 67px wide by 52px high (width factor 1.288)
 
 
 body {
-min-width:400px;
-min-height:600px;
+min-width:420px;
+min-height:760px;
 font-family:"TF2";
 font-size:10px;
 overflow-x:hidden;
@@ -210,9 +210,8 @@ color:#eb3b3b;
 #nav {
 font-size:14px;
 font-family:"TF2Build";
+padding:6px 0 9px 0;
 text-align:right;
-width:365px;
-padding-bottom:10px;
 }
 
 
@@ -225,10 +224,12 @@ display:inline-block;
 -webkit-border-radius:6px;
 vertical-align:middle;
 text-align:center;
+color:#dbad65;
+padding:3px;
 }
 
 
-.nav:hover {
+.navhover {
 background-color:#b25216;
 }
 
@@ -275,7 +276,6 @@ color:#c8bba2;
 
 
 #footer a:hover {
-border-bottom:1px solid #827868;
 border-bottom:1px solid #c8bba2;
 }
 
@@ -298,3 +298,18 @@ margin-top:-6pt;
 }
 
 
+
+
+#unknownProfile {
+display:none;
+color:#c8bba2;
+font-family:"TF2Build";
+font-size:12px;
+margin:2em auto 2em auto;
+width:100%;
+text-align:center;
+}
+
+#unknownProfile a:hover {
+border-bottom:1px solid #ece3cb;
+}

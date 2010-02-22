@@ -62,6 +62,7 @@ function showExternalBackpack() { return selectOrOpenTab(isTF2ItemsUrl, getBackp
 function showSteamProfile() { return selectOrOpenTab(isSteamCommunityProfileUrl, getProfileUrl()) }
 function showSourceOp() { return selectOrOpenTab(isSourceOpUrl, sourceOpUrl) }
 function showPnaturalProfile() { return selectOrOpenTab(isPnaturalUrl, pnaturalUrl) }
+function showOptions() { chrome.tabs.create({url:"options.html"}) }
 
 
 function loadItemData() {
@@ -116,15 +117,16 @@ function putNewItem(index, node) {
     $("table.unplaced td:eq("+index+")").append(
 	"<img src='images/" + type + ".png' onerror='missingImage(this, " + type + ")' />"
     );
+    var img = $("table.unplaced td img:last");
+    img.data("node", node);
 }
 
 
 function putOldItem(index, node) {
-    gnode = node;
     var p = parseInt(node.getElementsByTagName("position")[0].firstChild.textContent);
     var type = node.getAttribute("definitionIndex");
     var element = $("#c" + (p & 0xffff));
-    console.log(index, parseInt(p) & 0xffff, node, element);
+
     element.append("<img src='images/" + type + ".png' onerror='missingImage(this, " + type + ")' />");
     var img = $("img:last", element);
     img.data("node", node);
@@ -172,16 +174,25 @@ function showToolTip(event) {
 	$(["alt", "plus", "minus"]).each(function(index, key) {
 	    var value = item[key];
 	    if (value) {
-		$("#tooltip ." + key).text(value).show();
+		value = value.replace("\n", "<br>");
+		$("#tooltip ." + key).html(value).show();
 	    } else {
 		$("#tooltip ." + key).text("").hide();
 	    }
 	});
 	gcell = cell;
 	var pos = cell.position();
-	// change position, accounting for padding
-	toolTip.css({left:pos.left - toolTip.width()/2 + cell.width()/2 - 10,
-		     top:pos.top + cell.height() + 12});
+	var minleft = cell.parent().position().left
+	var left = pos.left - toolTip.width()/2 + cell.width()/2 - 10;
+	if (left < minleft) {
+	    left = minleft;
+	}
+	var maxright = cell.parent().position().left + cell.parent().width();
+	if (left + toolTip.width() > maxright) {
+	    left = cell.position().left + cell.width() - toolTip.width() - 12;
+	}
+	var top = pos.top + cell.height() + 12;
+	toolTip.css({left:left, top:top});
 	toolTip.show();
     }
 }
@@ -192,12 +203,27 @@ function hideToolTip(event) {
 }
 
 
+function navUpdate() {
+    $("#pages").text(pageCurrent + "/" + pageCount);
+    if (pageCurrent == 1) {
+	$(".nav:first").html("&lt;");
+    } else {
+	$(".nav:first").html("<a href='#'>&lt</a>");
+    }
+    if (pageCurrent == pageCount) {
+	$(".nav:last").html("&gt;");
+    } else {
+	$(".nav:last").html("<a href='#'>&gt</a>");
+    }
+}
+
+
 function nav(offset) {
     if ((pageCurrent + offset) > 0 && (pageCurrent + offset <= pageCount)) {
 	$("#backpackPage-" + pageCurrent).fadeOut(250, function() {
 	    pageCurrent += offset;
 	    $("#backpackPage-" + pageCurrent).fadeIn(250);
-	    $("#pages").text(pageCurrent + "/" + pageCount);
+	    navUpdate();
 	})
 
     }
@@ -205,21 +231,27 @@ function nav(offset) {
 
 
 function popupInit() {
-    pageCount = $(".backpack tbody").length;
-    loadItemData();
-    loadAndShowBackpack();
-    $("table.backpack td").click(function () {
+    if (!getProfileId()) {
+        $("body > *:not(#unknownProfile)").hide()
+	$("#unknownProfile").show();
+    } else {
+	pageCount = $(".backpack tbody").length;
+	loadItemData();
+	loadAndShowBackpack();
+	$("table.backpack td").click(function () {
 	    $("table.backpack td").removeClass("cellFg");
 	    $(this).addClass("cellFg");
 	    console.log("this", this);
 	});
-
-    $("table.backpack td, table.unplaced td")
-        .live('mouseenter', showToolTip)
-        .live('mouseleave', hideToolTip);
-
-    $("#tooltip").hide();
-
-    $(".nav:first a").click(function (e) { nav(-1) });
-    $(".nav:last a").click(function (e) { nav(1) });
+	$("table.backpack td, table.unplaced td")
+            .live('mouseenter', showToolTip)
+            .live('mouseleave', hideToolTip);
+	$("#tooltip").hide();
+	navUpdate();
+	$(".nav:first a").live('click', function (e) { nav(-1); return false });
+	$(".nav:last a").live('click', function (e) { nav(1); return false });
+	$(".nav a").live('mouseenter', function (e) { $(this).parent().addClass("navhover")  });
+	$(".nav a").live('mouseleave', function (e) {  $(this).parent().removeClass("navhover") });
+	$("#nav").css("width", $("#backpackPage-1").width()-3);
+    }
 }
