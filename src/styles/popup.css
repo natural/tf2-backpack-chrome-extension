@@ -71,7 +71,7 @@ color:#827868;
 
 
 #info {
-background-image:url('../hud/header_bg.png');
+background-image:url('../images/header_bg.png');
 background-repeat:repeat-x;
 padding-bottom:6px;
 }
@@ -83,7 +83,7 @@ color:#c8bba1
 
 
 hr.info, hr.unplaced {
-background-image:url("../hud/solid_line.png");
+background-image:url("../images/solid_line.png");
 background-repeat:repeat-x;
 border:none;
 height:4px;
@@ -253,7 +253,7 @@ text-align:center;
 
 
 #footer {
-background-image:url('../hud/solid_line.png');
+background-image:url('../images/solid_line.png');
 background-repeat:repeat-x;
 padding-top:10px;
 color:#827868;

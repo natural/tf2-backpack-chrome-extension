@@ -181,11 +181,11 @@ function scheduleCheck() {
 
 
 function setEnabledIcon() {
-    chrome.browserAction.setIcon({path:"icons/icon.png"});
+    chrome.browserAction.setIcon({path:"images/icon.png"});
 }
 
 function setDisabledIcon() {
-    chrome.browserAction.setIcon({path:"icons/icon_disabled.png"});
+    chrome.browserAction.setIcon({path:"images/icon_disabled.png"});
     updateNewItemCount("?", [128, 128, 128, 255]);
 }
 

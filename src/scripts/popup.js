@@ -99,7 +99,7 @@ function loadAndShowBackpack() {
 
 function missingImage(img, typ) {
     if (img) {
-	img.src = "images/missing.png";
+	img.src = "icons/missing.png";
 	img.onerror = null;
 	return true;
     }
@@ -115,7 +115,7 @@ function putNewItem(index, node) {
 	$("table.unplaced").append("<tr><td></td><td></td><td></td><td></td><td></td></tr>");
     }
     $("table.unplaced td:eq("+index+")").append(
-	"<img src='images/" + type + ".png' onerror='missingImage(this, " + type + ")' />"
+	"<img src='icons/" + type + ".png' onerror='missingImage(this, " + type + ")' />"
     );
     var img = $("table.unplaced td img:last");
     img.data("node", node);
@@ -127,7 +127,7 @@ function putOldItem(index, node) {
     var type = node.getAttribute("definitionIndex");
     var element = $("#c" + (p & 0xffff));
 
-    element.append("<img src='images/" + type + ".png' onerror='missingImage(this, " + type + ")' />");
+    element.append("<img src='icons/" + type + ".png' onerror='missingImage(this, " + type + ")' />");
     var img = $("img:last", element);
     img.data("node", node);
     if (p & 0x80000000 && p & 0x0FFF0000) {
