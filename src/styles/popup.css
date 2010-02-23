@@ -6,7 +6,6 @@ background-color:#393431;
 color:green; /* make default text stand out cause it should be styled elsewhere  */
 font-family:"TF2";
 font-size:10px;
-min-height:760px;
 min-width:420px;
 overflow-x:hidden;
 }

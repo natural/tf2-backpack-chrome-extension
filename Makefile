@@ -3,9 +3,12 @@ release_num  := $(shell python -c "import json;print json.load(open('src/manifes
 ## yuicompressor --type css
 ## yuicompressor --type js
 build_dir := build-$(release_num)
-dist_dir := dist-$(release_num)
-crush := pngcrush -force -l 9 -rem text -rem gAMA -rem cHRM -rem iCCP -rem sRGB -res 96 -rem time -q
-zip   := zip -9 -q
+dist_dir  := dist-$(release_num)
+
+chrome := /usr/bin/google-chrome
+crush  := pngcrush -force -l 9 -rem text -rem gAMA -rem cHRM -rem iCCP -rem sRGB -res 96 -rem time -q
+zip    := zip -9 -q
+
 
 .PHONEY: all clean
 
@@ -36,7 +39,6 @@ dist:
 
 	@mkdir -p $(build_dir)/images
 	@${crush} -d $(build_dir)/images src/images/*.png 2>&1>/dev/null
-	@rm $(build_dir)/images/Team_Fortress_2_Icon_by_Rusty100.png
 	@echo "[DIST] done crushing."
 
 	@mkdir -p $(build_dir)/scripts
@@ -51,10 +53,12 @@ dist:
 	@cd $(build_dir) && $(zip) -r ../$(dist_dir)/$(release_name)-$(release_num).zip .
 	@echo "[DIST] done.  Distributable at $(dist_dir)/$(release_name)-$(release_num).zip"
 
+
 crx:
+	@$(if $(shell pidof $(chrome)),$(error $(chrome) running, cannot create extension) $(exit 1),)
 	@echo "[CRX] building..."
-	@mkdir -p $(build_dir)
-	/usr/bin/google-chrome --pack-extension=./src
-	mv ./src.crx $(build_dir)/$(release_name).crx
-	mv ./src.pem $(build_dir)/$(release_name).pem
-	@echo "[CRX] done."
+	@ln -s $(build_dir) $(release_name)
+	$(chrome) --pack-extension=$(release_name) --pack-extension-key=$(release_name).pem
+	@rm $(release_name)
+	@mv $(release_name).crx $(dist_dir)
+	@echo "[CRX] done.  Distributable at $(dist_dir)/$(release_name).crx"

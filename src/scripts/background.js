@@ -10,7 +10,12 @@ var pollIntervalMin = 1000 * 60;          // 1 minute
 var pollIntervalMax = 1000 * 60 * 60;     // 1 hour
 var loadingAnimation = new LoadingAnimation();
 var lastCount;
-
+var colors = {
+    red:[208, 0, 24, 255],
+    blue:[51, 152, 197, 255],
+    green:[59, 174, 73, 255],
+    grey:[128, 128, 128, 255]
+}
 
 function ease(x) {
     return (1-Math.sin(Math.PI/2+x*Math.PI))/2;
@@ -28,7 +33,7 @@ function animateFlip() {
 	//chrome.browserAction.setBadgeText({
 	//    text: unreadCount != "0" ? unreadCount : ""
 	//});
-	//chrome.browserAction.setBadgeBackgroundColor({color:[208, 0, 24, 255]});
+	//chrome.browserAction.setBadgeBackgroundColor({color:colors.red});
     }
 }
 
@@ -101,9 +106,10 @@ function updateNewItemCount(count, color) {
 	lastCount = count;
 	// animateFlip()
 	count = count.toString();
+	count = count ? count : "0";
 	chrome.browserAction.setBadgeText({text:count == "0" ? "" : count});
 	chrome.browserAction.setBadgeBackgroundColor(
-	    {color:color == null ? [130, 68, 27, 255] : color}
+	    {color:color == null ? colors.blue : color}
 	);
     }
 }
@@ -114,7 +120,7 @@ function startItemCheck() {
         function(nonHatCount, hatCount, doc) {
             setEnabledIcon();
             loadingAnimation.stop();
-            updateNewItemCount(nonHatCount + hatCount, hatCount > 0 ? [0, 128, 0, 255] : null);
+            updateNewItemCount(nonHatCount + hatCount, hatCount > 0 ? colors.green : null);
 	    backpackXml = doc;
             scheduleCheck();
 	    //console.log("checked");
@@ -161,6 +167,8 @@ function getBackpackFeed(onSuccess, onError) {
             if (request.responseXML) {
 		var hatCount = parseInt($("totalJustFound hats", request.responseXML).text());
 		var nonCount = parseInt($("totalJustFound nonHats", request.responseXML).text());
+		hatCount = hatCount ? hatCount : 0;
+		nonCount = nonCount ? nonCount : 0;
                 handleSuccess(nonCount, hatCount, request.responseText);
                 return;
             }
@@ -195,7 +203,7 @@ function setEnabledIcon() {
 
 function setDisabledIcon() {
     chrome.browserAction.setIcon({path:"images/icon_disabled.png"});
-    updateNewItemCount("?", [128, 128, 128, 255]);
+    updateNewItemCount("?", colors.grey);
 }
 
 
@@ -203,12 +211,13 @@ function backgroundInit() {
     canvas = document.getElementById("canvas");
     tf2icon = document.getElementById("tf2icon");
     canvasContext = canvas.getContext("2d");
+    updateNewItemCount("", colors.grey);
     setDisabledIcon();
-    updateNewItemCount("", [128, 128, 128, 255]);
     if (getProfileId() != "") {
 	loadingAnimation.start();
     }
     startItemCheck();
+
     chrome.extension.onRequest.addListener(
         function(request, sender, sendResponse) {
             if (request.get == "backpackXml") {

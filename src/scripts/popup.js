@@ -262,8 +262,10 @@ function popupInit() {
 
     if (!getProfileId()) {
         $("body > *:not(#unknownProfile)").hide()
+	$("body").css("height", 200);
 	$("#unknownProfile").show();
     } else {
+	$("body").css("min-height", 760);
 	loadItemData();
 	loadAndShowBackpack();
 	navUpdate();
