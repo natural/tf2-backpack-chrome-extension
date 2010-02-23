@@ -283,5 +283,6 @@ function popupInit() {
 	$(".nav:first a").live('click', function (e) { return nav(-1); });
 	$(".nav:last a").live('click', function (e) { return nav(1); });
 	$("#nav").css("width", $("#backpackPage-1").width()-3);
+        $("body").mousedown(function(){return false}) //disable text selection
     }
 }
