@@ -1,16 +1,5 @@
-/*
-position values:
-
-    0x8-CCC-SSSS where C = class bit and S = position bit
-    e.g., (2155872335 & 0x80000000 && 2155872335 & 0x0FFF0000)
-*/
-var backpackXml;
-var itemData;
-var pageCurrent = 1;
-var pageCount;
-// for testing; remove later
-var gnode;
-var gcell;
+var backpack = {items:null, definitions:null};
+var pages = {current:1, count:1};
 
 
 function isTF2ItemsUrl(url) {
@@ -25,18 +14,18 @@ function isTF2ItemsUrl(url) {
 
 
 function isSteamCommunityProfileUrl(url) {
-    var urlProfile = steamCommunityUrl + "profiles/" + getProfileId();
+    var urlProfile = urls.steamCommunity + "profiles/" + getProfileId();
     return (url.indexOf(urlProfile) == 0);
 }
 
 
 function isSourceOpUrl(url) {
-    return (url.indexOf(sourceOpUrl) == 0)
+    return (url.indexOf(urls.sourceOp) == 0);
 }
 
 
 function isPnaturalUrl(url) {
-    return (url == pnaturalUrl)
+    return (url == urls.pnatural);
 }
 
 
@@ -58,29 +47,47 @@ function selectOrOpenTab(match, newUrl) {
 }
 
 
-function showExternalBackpack() { return selectOrOpenTab(isTF2ItemsUrl, getBackpackViewUrl()) }
-function showSteamProfile() { return selectOrOpenTab(isSteamCommunityProfileUrl, getProfileUrl()) }
-function showSourceOp() { return selectOrOpenTab(isSourceOpUrl, sourceOpUrl) }
-function showPnaturalProfile() { return selectOrOpenTab(isPnaturalUrl, pnaturalUrl) }
-function showOptions() { chrome.tabs.create({url:"options.html"}) }
+function showExternalBackpack() {
+    return selectOrOpenTab(isTF2ItemsUrl, getBackpackViewUrl());
+}
+
+
+function showSteamProfile() {
+    return selectOrOpenTab(isSteamCommunityProfileUrl, getProfileUrl());
+}
+
+
+function showSourceOp() {
+    return selectOrOpenTab(isSourceOpUrl, urls.sourceOp);
+}
+
+
+function showPnaturalProfile() {
+    return selectOrOpenTab(isPnaturalUrl, urls.pnatural);
+}
+
+
+function showOptions() {
+    chrome.tabs.create({url:"options.html"})
+}
 
 
 function loadItemData() {
     var req = new XMLHttpRequest();
     req.onreadystatechange = function() {
 	if (req.readyState == 4) {
-	    itemData = eval("( " + req.responseText + ")");
+	    backpack.defintions = eval("( " + req.responseText + ")");
 	}
     }
-    req.open("GET", chrome.extension.getURL("/data/items.json"), true)
-    req.send()
+    req.open("GET", chrome.extension.getURL("/data/items.json"), true);
+    req.send();
 }
 
 
-function putInfo(backpackXml) {
-    $("#steamID").text(steamID = $("steamID", backpackXml).text());
-    var avatarUrl = $("avatarFull", backpackXml).text();
-    if (avatarUrl != "") {
+function putInfo(xml) {
+    $("#steamID").text($("steamID", xml).text());
+    var avatarUrl = $("avatarFull", xml).text();
+    if (avatarUrl) {
 	$("#avatar").append("<img src='" + avatarUrl + "' />");
     }
 }
@@ -89,9 +96,9 @@ function putInfo(backpackXml) {
 function loadAndShowBackpack() {
     chrome.extension.sendRequest({get:"backpackXml"},
         function(response) {
-            backpackXml = (new DOMParser()).parseFromString(response.doc, "text/xml");
-	    putImages(backpackXml);
-	    putInfo(backpackXml);
+            backpack.items = (new DOMParser()).parseFromString(response.doc, "text/xml");
+	    putImages(backpack.items);
+	    putInfo(backpack.items);
 	}
     )
 }
@@ -108,17 +115,17 @@ function missingImage(img, typ) {
 
 function putNewItem(index, node) {
     var type = node.getAttribute("definitionIndex");
-    if (type == undefined) {
+    if (!type) {
 	return;
     }
     if ($("table.unplaced td:empty").length == 0) {
-	$("table.unplaced").append("<tr><td></td><td></td><td></td><td></td><td></td></tr>");
+	var cells = new Array(5+1).join("<td></td>");
+	$("table.unplaced").append("<tbody><tr>" + cells + "</tr></tbody>");
     }
     $("table.unplaced td:eq("+index+")").append(
 	"<img src='icons/" + type + ".png' onerror='missingImage(this, " + type + ")' />"
     );
-    var img = $("table.unplaced td img:last");
-    img.data("node", node);
+    $("table.unplaced td img:last").data("node", node);
 }
 
 
@@ -138,20 +145,19 @@ function putOldItem(index, node) {
 }
 
 
-function putImages(backpackXml) {
-    if (!backpackXml) {
-	console.log("empty backpackXml");
+function putImages(xml) {
+    if (!xml) {
+	console.log("empty xml");
 	return;
     }
-    var newNodes = $("item", backpackXml).filter(
+    var newNodes = $("item", xml).filter(
 	function (index) { return $("position", this).text() == "0" }
     );
     if (newNodes.length > 0) {
 	newNodes.each(putNewItem)
 	$("#unplaced, hr.unplaced").show()
     }
-
-    var oldNodes = $("item", backpackXml).filter(
+    var oldNodes = $("item", xml).filter(
 	function (index) { return $("position", this).text() != "0" }
     );
     oldNodes.each(putOldItem);
@@ -160,41 +166,41 @@ function putImages(backpackXml) {
 
 function showToolTip(event) {
     var cell = $(this)
-    if (cell.children().length > 0) {
-	var node = $( $("img", cell).data("node") );
-	var type = node.attr("definitionIndex");
-	var item = itemData[type];
-	var toolTip = $("#tooltip");
-	$("#tooltip h4").text( item.description );
-
-	var level = $("level", node).text()
-	var levelType = item.type;
-	$("#tooltip .level").text("Level " + level + (levelType ? " " + levelType : ""));
-
-	$(["alt", "plus", "minus"]).each(function(index, key) {
-	    var value = item[key];
-	    if (value) {
-		value = value.replace("\n", "<br>");
-		$("#tooltip ." + key).html(value).show();
-	    } else {
-		$("#tooltip ." + key).text("").hide();
-	    }
-	});
-	gcell = cell;
-	var pos = cell.position();
-	var minleft = cell.parent().position().left
-	var left = pos.left - toolTip.width()/2 + cell.width()/2 - 10;
-	if (left < minleft) {
-	    left = minleft;
-	}
-	var maxright = cell.parent().position().left + cell.parent().width();
-	if (left + toolTip.width() > maxright) {
-	    left = cell.position().left + cell.width() - toolTip.width() - 12;
-	}
-	var top = pos.top + cell.height() + 12;
-	toolTip.css({left:left, top:top});
-	toolTip.show();
+    if (!cell.children().length) {
+	return;
     }
+    var node = $( $("img", cell).data("node") );
+    var type = node.attr("definitionIndex");
+    var item = backpack.defintions[type];
+    var tooltip = $("#tooltip");
+    tooltip.css({left:0, top:0});
+    $("#tooltip h4").text( item.description );
+    var level = $("level", node).text();
+    var levelType = item.type;
+    $("#tooltip .level").text("Level " + level + (levelType ? " " + levelType : ""));
+    $(["alt", "plus", "minus"]).each(function(index, key) {
+	var value = item[key];
+	if (value) {
+	    value = value.replace("\n", "<br>");
+	    $("#tooltip ." + key).html(value).show();
+	} else {
+	    $("#tooltip ." + key).text("").hide();
+	}
+    });
+    var pos = cell.position();
+    var minleft = cell.parent().position().left;
+    var left = pos.left - tooltip.width()/2 + cell.width()/2 - 10;
+    left = left < minleft ? minleft : left;
+    var maxright = cell.parent().position().left + cell.parent().width();
+    if (left + tooltip.width() > maxright) {
+	left = cell.position().left + cell.width() - tooltip.width() - 12;
+    }
+    var top = pos.top + cell.height() + 12;
+    if ((top + tooltip.height()) > document.body.clientHeight) {
+	top = pos.top - tooltip.height() - 36;
+    }
+    tooltip.css({left:left, top:top});
+    tooltip.show();
 }
 
 
@@ -204,54 +210,76 @@ function hideToolTip(event) {
 
 
 function navUpdate() {
-    $("#pages").text(pageCurrent + "/" + pageCount);
-    if (pageCurrent == 1) {
-	$(".nav:first").html("&lt;");
+    $("#pages").text(pages.current + "/" + pages.count);
+    if (pages.current == 1) {
+	$(".nav:first").html("&lt;").addClass("nonav");
     } else {
-	$(".nav:first").html("<a href='#'>&lt</a>");
+	$(".nav:first").html("<a href='#'>&lt</a>").removeClass("nonav");
     }
-    if (pageCurrent == pageCount) {
-	$(".nav:last").html("&gt;");
+    if (pages.current == pages.count) {
+	$(".nav:last").html("&gt;").addClass("nonav");
     } else {
-	$(".nav:last").html("<a href='#'>&gt</a>");
+	$(".nav:last").html("<a href='#'>&gt</a>").removeClass("nonav")
     }
 }
 
 
 function nav(offset) {
-    if ((pageCurrent + offset) > 0 && (pageCurrent + offset <= pageCount)) {
-	$("#backpackPage-" + pageCurrent).fadeOut(250, function() {
-	    pageCurrent += offset;
-	    $("#backpackPage-" + pageCurrent).fadeIn(250);
-	    navUpdate();
-	})
-
+    if ((pages.current + offset) > 0 && (pages.current + offset <= pages.count)) {
+	$("#backpackPage-" + pages.current).fadeOut(250, function() {
+		pages.current += offset;
+		$("#backpackPage-" + pages.current).fadeIn(250);
+		navUpdate();
+	    });
     }
+    return false;
+}
+
+function showUnplacedBorder(event) {
+    var cell = $(this);
+    if (!cell.children().length) {
+	return;
+    }
+    cell.addClass("unplacedhover");
+}
+
+
+function hideUnplacedBorder(event) {
+    $(this).removeClass("unplacedhover");
+}
+
+
+function itemClicked(event) {
+    if (!event.ctrlKey) {
+	$("table.backpack td").removeClass("selected");
+    }
+    $(this).addClass("selected");
 }
 
 
 function popupInit() {
+    pages.count = $("#backpack tbody").length;
+
     if (!getProfileId()) {
         $("body > *:not(#unknownProfile)").hide()
 	$("#unknownProfile").show();
     } else {
-	pageCount = $(".backpack tbody").length;
 	loadItemData();
 	loadAndShowBackpack();
-	$("table.backpack td").click(function () {
-	    $("table.backpack td").removeClass("cellFg");
-	    $(this).addClass("cellFg");
-	    console.log("this", this);
-	});
+	navUpdate();
+
+	$("table.backpack td").click(itemClicked);
+
 	$("table.backpack td, table.unplaced td")
             .live('mouseenter', showToolTip)
             .live('mouseleave', hideToolTip);
-	$("#tooltip").hide();
-	navUpdate();
-	$(".nav:first a").live('click', function (e) { nav(-1); return false });
-	$(".nav:last a").live('click', function (e) { nav(1); return false });
-	$(".nav a").live('mouseenter', function (e) { $(this).parent().addClass("navhover")  });
-	$(".nav a").live('mouseleave', function (e) {  $(this).parent().removeClass("navhover") });
+
+	$("table.unplaced td")
+	    .live("mouseenter", showUnplacedBorder)
+	    .live("mouseleave", hideUnplacedBorder);
+
+	$(".nav:first a").live('click', function (e) { return nav(-1); });
+	$(".nav:last a").live('click', function (e) { return nav(1); });
 	$("#nav").css("width", $("#backpackPage-1").width()-3);
     }
 }

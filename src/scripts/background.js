@@ -110,7 +110,7 @@ function updateNewItemCount(count, color) {
 
 
 function startItemCheck() {
-    getNewItemCount(
+    getBackpackFeed(
         function(nonHatCount, hatCount, doc) {
             setEnabledIcon();
             loadingAnimation.stop();
@@ -128,10 +128,11 @@ function startItemCheck() {
 }
 
 
-function getNewItemCount(onSuccess, onError) {
-    var request = new XMLHttpRequest()
-    var abortTimerId = window.setTimeout(function() { request.abort() },
-                                         requestTimeout);
+function getBackpackFeed(onSuccess, onError) {
+    var request = new XMLHttpRequest();
+    var requestAbort = function() { request.abort() };
+    var abortTimerId = window.setTimeout(requestAbort, requestTimeout);
+
     function handleSuccess(nonCount, hatCount, doc) {
         requestFailureCount = 0;
         window.clearTimeout(abortTimerId);
@@ -149,6 +150,14 @@ function getNewItemCount(onSuccess, onError) {
             if (request.readyState != 4) {
 		return;
 	    }
+	    /*
+		gtxt = eval("(" + txt + ")");
+		$.each(gtxt, function(key, value) {
+		    if (value.inventory=="0") {
+			// if hat..
+			nonCount += 1;
+		    }
+	    */
             if (request.responseXML) {
 		var hatCount = parseInt($("totalJustFound hats", request.responseXML).text());
 		var nonCount = parseInt($("totalJustFound nonHats", request.responseXML).text());

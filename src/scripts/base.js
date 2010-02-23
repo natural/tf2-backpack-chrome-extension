@@ -1,9 +1,13 @@
-var tf2ItemsUrl = "http://www.tf2items.com/";
-var profileIdSearchUrl = tf2ItemsUrl + "search.php?tf2items_q=";
-var steamCommunityUrl = "http://steamcommunity.com/";
-var sourceOpUrl = "http://www.sourceop.com/";
-var pnaturalUrl = steamCommunityUrl + "profiles/76561197992805111";
 var steamIdPattern = /\d{17}/;
+var urls = {
+    tf2Items:"http://www.tf2items.com/",
+    steamCommunity:"http://steamcommunity.com/",
+    sourceOp:"http://www.sourceop.com/",
+};
+
+
+urls.profileSearch = urls.tf2Items + "search.php?tf2items_q=";
+urls.pnatural = urls.steamCommunity + "profiles/76561197992805111";
 
 
 function lookupProfileId(v) {
@@ -20,41 +24,58 @@ function lookupProfileId(v) {
 	    }
 	}
     }
-    searchRequest.open("GET", profileIdSearchUrl + v, false);
+    searchRequest.open("GET", urls.profileSearch + v, false);
     searchRequest.send(null);
     return searchResult;
 }
 
 
-function getProfileId() { return localStorage.profileId || "" }
+function getProfileId()  { return localStorage.profileId || "" }
 function setProfileId(v) { localStorage.profileId = v }
 
 
-function getSaveLocal() { return localStorage.saveLocal == "true" || false }
+function getSaveLocal()  { return localStorage.saveLocal == "true" || false }
 function setSaveLocal(v) { localStorage.saveLocal = v }
 
 
-function getDebug() { return localStorage.debug == "true" || false }
+function getDebug()  { return localStorage.debug == "true" || false }
 function setDebug(v) { localStorage.debug = v }
+
+
+function getTestXml()  { return localStorage.testXml || "" }
+function setTestXml(v) { localStorage.testXml = v }
+
+
+function getTestJson()  { return localStorage.testJson || "" }
+function setTestJson(v) { localStorage.testJson = v }
 
 
 function getBackpackViewUrl() {
     var id = getProfileId();
-    return (id != "") ? tf2ItemsUrl + "profiles/" + id : tf2ItemsUrl;
+    return id ? urls.tf2Items + "profiles/" + id : urls.tf2Items;
 }
 
 
 function getProfileUrl() {
     var id = getProfileId();
-    return (id != "") ? steamCommunityUrl + "profiles/" + id : steamCommunityUrl;
+    return id ? urls.steamCommunity + "profiles/" + id : urls.steamCommunity;
 }
 
 
 function getXmlUrl() {
-    if (getDebug()) {
-	console.log("using test backpack xml");
-	return chrome.extension.getURL("/data/test-backpack.xml");
+    if (getTestXml()) {
+	return chrome.extension.getURL(getTestXml());
     }
     var id = getProfileId();
-    return (id != "") ? tf2ItemsUrl + "packxml.php?profileid=" + id : "";
+    return id ? urls.tf2Items + "packxml.php?profileid=" + id : "";
+}
+
+
+function getJsonUrl() {
+    // e.g., http://steamcommunity.com/profiles/<steam ID>/tfitems?json=1
+    if (getTestJson()) {
+	return chrome.extension.getURL(getTestJson());
+    }
+    var id = getProfileId();
+    return id ? urls.steamCommunity + "profiles/" + id + "/tfitems?json=1" : "";
 }

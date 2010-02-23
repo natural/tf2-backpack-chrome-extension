@@ -1,0 +1,40 @@
+position values:
+
+    0x8-CCC-SSSS where C = class bit and S = position bit
+    e.g., (2155872335 & 0x80000000 && 2155872335 & 0x0FFF0000)
+
+
+background dark brown: #2e2b2a
+
+cell background darkish brown: #3c352e
+cell hover border medium brown: #847668
+cell highlight medium brown: #c8bba2
+
+footer slightly lighter darkish brown: #393431
+page numbering and >> symbol orangered: #c8503c
+button background peach:  #fbebca
+button disabled text darker peach: #dbad65
+
+button hover background orange: #b25216
+button normal text brown: #756b5e
+small title text brown:   #756b5e
+
+title text: #ebe2ca
+title darker text:  #c8bba1
+title darkest text: #827868
+
+tooltip title text: #ffd700
+tooltip level text: #756b5e
+tooltip alt text:   #e4dbc4
+tooltip plus text:  #8dbceb
+tooltip minus text: #eb3b3b
+
+
+equipped text orange red: #c54f3b
+
+cell normal dim: 67px wide by 52px high (width factor 1.288)
+
+
+j = -2146434995 # valve json
+x = 2148532301  # tf2items xml
+hex(j + 2**32) == hex(x)
