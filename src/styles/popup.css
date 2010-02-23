@@ -62,7 +62,7 @@ color:#c8503c;
 }
 
 
-span.nav {
+span.nonav, span.nav a {
 background-color:#ece3cb;
 color:#dbad65;
 display:inline-block;
@@ -73,26 +73,16 @@ text-align:center;
 vertical-align:middle;
 width:20px;
 -webkit-border-radius:6px;
-}
-
-
-span.nav:hover {
-background-color:#b25216;
-}
-
-
-span.nonav:hover {
-background-color:#ece3cb;
-}
-
-
-span.nav a {
 color:#2e2b2a;
+}
+
+span.nonav {
+color:#dbad65;
 }
 
 
 span.nav a:hover {
-border:none;
+background-color:#b25216;
 }
 
 
@@ -118,7 +108,7 @@ border:3px solid #2e2b2a;
 
 
 table.backpack td:hover {
-border:3px solid #ece3cb;
+border:3px solid #847668 !important;
 }
 
 

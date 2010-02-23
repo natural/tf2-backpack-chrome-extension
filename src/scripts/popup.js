@@ -212,14 +212,18 @@ function hideToolTip(event) {
 function navUpdate() {
     $("#pages").text(pages.current + "/" + pages.count);
     if (pages.current == 1) {
-	$(".nav:first").html("&lt;").addClass("nonav");
+	$(".nonav:first").show();
+	$(".nav:first").hide();
     } else {
-	$(".nav:first").html("<a href='#'>&lt</a>").removeClass("nonav");
+	$(".nonav:first").hide();
+	$(".nav:first").show();
     }
     if (pages.current == pages.count) {
-	$(".nav:last").html("&gt;").addClass("nonav");
+	$(".nonav:last").show();
+	$(".nav:last").hide();
     } else {
-	$(".nav:last").html("<a href='#'>&gt</a>").removeClass("nonav")
+	$(".nonav:last").hide();
+	$(".nav:last").show();
     }
 }
 
