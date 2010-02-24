@@ -34,6 +34,9 @@ function getProfileId()  { return localStorage.profileId || "" }
 function setProfileId(v) { localStorage.profileId = v }
 
 
+function getCachedXml()   { return localStorage.cachedXml || "" }
+function setCachedXml(v)  { localStorage.cachedXml = v }
+
 function getSaveLocal()  { return localStorage.saveLocal == "true" || false }
 function setSaveLocal(v) { localStorage.saveLocal = v }
 

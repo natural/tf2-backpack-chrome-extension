@@ -94,6 +94,13 @@ function putInfo(xml) {
 
 
 function loadAndShowBackpack() {
+    var xml = getCachedXml();
+    if (xml) {
+	backpack.items = (new DOMParser()).parseFromString(xml, "text/xml");
+	putImages(backpack.items);
+	putInfo(backpack.items);
+    } // else handle empty...
+    if (0) {
     chrome.extension.sendRequest({get:"backpackXml"},
         function(response) {
             backpack.items = (new DOMParser()).parseFromString(response.doc, "text/xml");
@@ -101,6 +108,7 @@ function loadAndShowBackpack() {
 	    putInfo(backpack.items);
 	}
     )
+    }
 }
 
 

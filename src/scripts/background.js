@@ -104,7 +104,7 @@ function updateNewItemCount(count, color) {
     //console.log(count, color);
     if (count != lastCount) {
 	lastCount = count;
-	// animateFlip()
+	animateFlip();
 	count = count.toString();
 	count = count ? count : "0";
 	chrome.browserAction.setBadgeText({text:count == "0" ? "" : count});
@@ -122,6 +122,7 @@ function startItemCheck() {
             loadingAnimation.stop();
             updateNewItemCount(nonHatCount + hatCount, hatCount > 0 ? colors.green : null);
 	    backpackXml = doc;
+	    setCachedXml(doc);
             scheduleCheck();
 	    //console.log("checked");
         },
@@ -218,6 +219,7 @@ function backgroundInit() {
     }
     startItemCheck();
 
+    if (0) {
     chrome.extension.onRequest.addListener(
         function(request, sender, sendResponse) {
             if (request.get == "backpackXml") {
@@ -227,4 +229,5 @@ function backgroundInit() {
             }
 	});
     console.log("extension background init 7");
+    }
 }
