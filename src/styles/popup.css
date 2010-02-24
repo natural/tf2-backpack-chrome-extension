@@ -5,9 +5,10 @@ body {
 background-color:#393431;
 color:green; /* make default text stand out cause it should be styled elsewhere  */
 font-family:"TF2";
-font-size:10px;
-min-width:420px;
 overflow-x:hidden;
+font-size:1em;
+min-height:60em;
+min-width:40em;
 }
 
 
@@ -20,13 +21,13 @@ text-decoration:none;
 h1 {
 color:#ebe2ca;
 font-family:"TF2Build";
-font-size:14px;
+font-size:125%;
 }
 
 
 h2 {
 font-family:"TF2Build";
-font-size:12px;
+font-size:1em;
 color:#827868;
 }
 
@@ -35,30 +36,35 @@ hr.info, hr.unplaced {
 background-image:url("../images/solid_line.png");
 background-repeat:repeat-x;
 border:none;
-height:4px;
+height:4px; /* absolute height to match image height */
 }
 
 
-span.equipped {
+span.equipped { /* needs padding and positioning */
 background-color:black;
-bottom:2px;
+bottom:0;
 color:#c8503c;
 display:inline;
 float:right;
 font-family:"TF2secondary";
-font-size:8pt;
-height:12px;
-margin-top:-6pt;
-padding:2px;
+font-size:0.5em;
+height:1.5em;
+bottom:15%;
+right:15%;
+padding:0;
 position:relative;
-right:2px;
 text-align:center;
--webkit-border-radius:4pt;
+not-webkit-border-radius:4pt;
 }
 
 
-span.hilite {
+h1 span.hilite {
 color:#c8503c;
+}
+
+
+h1 span.hilite:before {
+content:">> ";
 }
 
 
@@ -66,15 +72,16 @@ span.nonav, span.nav a {
 background-color:#ece3cb;
 color:#dbad65;
 display:inline-block;
-height:20px;
-line-height:20px;
-padding:3px;
+height:1.5em;
+line-height:1.5em;
+padding:0.125em;
 text-align:center;
 vertical-align:middle;
-width:20px;
--webkit-border-radius:6px;
+width:1.5em;
+border-radius:0.5em;
 color:#2e2b2a;
 }
+
 
 span.nonav {
 color:#dbad65;
@@ -85,70 +92,73 @@ span.nav a:hover {
 background-color:#b25216;
 }
 
+table.backpack {
+margin:0 auto 0 auto;
+}
+
+
+table.unplaced {
+}
+
 
 table.unplaced td, table.backpack td {
-height:52px !important;
-width:67px !important;;
+height:4em !important
+width:5.15em !important;
+min-width:5.15em !important;
+max-width:5.15em !important;
+background-color:#3c352e;
 }
 
 
 table.unplaced img, table.backpack img {
-height:42px !important;
-width:42px !important;
-margin-left:12px !important;
-margin-top:3px;
+margin-left:0.575em;
+height:4em !important
 }
 
 
 table.backpack td {
-background-color:#3c352e;
-border:3px solid #2e2b2a;
--webkit-border-radius:10px;
+border-radius:0.75em;
+border:0.25em solid #2E2B2A !important;
 }
 
-
 table.backpack td:hover {
-border:3px solid #847668 !important;
+border:0.25em solid #847668 !important;
 }
 
 
 table.backpack td.selected {
 background-color:#ece3cb !important;
-border:3px solid #ece3cb !important;
+border:0.125em solid #ece3cb !important;
 }
 
 
-table.unplaced {
-margin-bottom:10px;
-}
 
 
 table.unplaced td {
-border:3px solid #393431;
--webkit-border-radius:10px;
+border:0.125em solid #393431;
+border-radius:0.75em;
 }
 
 
 td.unplacedhover {
-border:3px solid #847668 !important;
+border:0.125em solid #847668 !important;
 }
 
 
 #avatar img {
 background-color:#84756b;
-border:3px solid #84756b;
-height:32px;
-left:85%;
-margin:6px;
+border:4px solid #84756b; /* absolute height to match hr image height */
+height:4em;
+width:4em;
+right:0.5em;
+margin:0.5em;
 position:absolute;
 top:0;
-width:32px;
 }
 
 
 #backpack, #info, #unplaced {
-padding-top:10px;
-padding-left:10px;
+padding:1em 2em 1em 1em;
 }
 
 
@@ -161,16 +171,13 @@ background-color:#2e2b2a;
 background-image:url('../images/solid_line.png');
 background-repeat:repeat-x;
 color:#827868;
-padding-top:10px;
 }
 
 
 #footer div {
 font-family:"TF2Build";
-font-size:8px;
 line-height:1.5em;
 text-align:center;
-width:370px;
 }
 
 
@@ -180,22 +187,20 @@ color:#c8bba2;
 
 
 #footer a:hover {
-border-bottom:1px solid #c8bba2;
+border-bottom:0.125em solid #c8bba2;
 }
 
 
 #info {
 background-image:url('../images/header_bg.png');
 background-repeat:repeat-x;
-padding-bottom:6px;
 }
 
 
 #nav {
 font-family:"TF2Build";
-font-size:14px;
-padding:6px 0 9px 0;
 text-align:right;
+margin:0;
 }
 
 
@@ -215,17 +220,18 @@ color:#c8bba1
 #tooltip {
 background:black;
 left:0;
-padding:10px;
+padding:1em;
 position:absolute;
 text-align:center;
 top:50%;
 z-index:9001;
--webkit-border-radius:6px;
+border-radius:0.5em;
 -webkit-box-shadow:rgba(0,0,0,1) 0px 0px 6px;
 }
 
 
 #tooltip h4 {
+font-size:0.75em;
 color:#ffd700;
 font-family:"TF2Build";
 margin-bottom:1em;
@@ -235,7 +241,7 @@ white-space:nowrap;
 
 #tooltip .level, #tooltip .alt, #tooltip .plus, #tooltip .minus {
 font-family:"TF2secondary";
-font-size:8pt;
+font-size:70%;
 }
 
 
@@ -268,7 +274,7 @@ background-color:#393431;
 color:#c8bba2;
 display:none;
 font-family:"TF2Build";
-font-size:12px;
+font-size:1em;
 margin:2em auto 2em auto;
 text-align:center;
 width:100%;

@@ -139,8 +139,8 @@ function putOldItem(index, node) {
     img.data("node", node);
     if (p & 0x80000000 && p & 0x0FFF0000) {
 	// nudge the image up a bit; related to margin-top on the equipped class
-	img.css("margin-top", "-4px");
-	element.append("<span class='equipped'>Equipped</span>");
+	//img.css("margin-top", "-4px");
+	//TEMP: element.append("<span class='equipped'>Equipped</span>");
     }
 }
 
@@ -174,6 +174,7 @@ function showToolTip(event) {
     var item = backpack.defintions[type];
     var tooltip = $("#tooltip");
     tooltip.css({left:0, top:0});
+    //TODO:  catch exception (undefined)
     $("#tooltip h4").text( item.description );
     var level = $("level", node).text();
     var levelType = item.type;
@@ -261,7 +262,7 @@ function itemClicked(event) {
 }
 
 
-function popupInit() {
+$(document).ready(function() {
     pages.count = $("#backpack tbody").length;
 
     if (!getProfileId()) {
@@ -269,7 +270,7 @@ function popupInit() {
 	$("body").css("height", 200);
 	$("#unknownProfile").show();
     } else {
-	$("body").css("min-height", 760);
+	//$("body").css("min-height", 760);
 	loadItemData();
 	loadAndShowBackpack();
 	navUpdate();
@@ -286,7 +287,7 @@ function popupInit() {
 
 	$(".nav:first a").live('click', function (e) { return nav(-1); });
 	$(".nav:last a").live('click', function (e) { return nav(1); });
-	$("#nav").css("width", $("#backpackPage-1").width()-3);
+	//$("#nav").css("width", $("#backpack").width());
         $("body").mousedown(function(){return false}) //disable text selection
     }
-}
+});

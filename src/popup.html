@@ -1,3 +1,4 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
     <head>
         <script src="scripts/jquery.min.js"></script>
@@ -5,11 +6,11 @@
         <script src="scripts/popup.js"></script>
         <link rel="stylesheet" type="text/css" href="styles/popup.css"></link>
     </head>
-
-    <body onload="popupInit()">
+    <body>
 	<div id="unknownProfile">
-	    No profile id set. <br />
-	    Visit the <a href="#" onclick="showOptions()">Options Page</a> to set your profile id.
+	    No profile id set. <br>
+	    Visit the <a href="#" onclick="showOptions()">Options Page</a>
+	    to set your profile id.
         </div>
 	<span id="tooltip" style="display:none">
 	    <h4>title</h4>
@@ -22,20 +23,16 @@
 	    <h2>Backpack for <span id="steamID" /></h2>
 	    <div id="avatar"></div>
 	</div>
-	<hr class="info">
-
+	<hr class="info" />
         <div id="unplaced" style="display:none">
-	    <h1><span class="hilite">&gt;&gt;&nbsp;</span>Unplaced Items</h1>
-            <table class="unplaced" cellpadding="0" cellmargin="0">
-            </table>
+	    <h1><span class="hilite"></span>Unplaced Items</h1>
+            <table class="unplaced"></table>
         </div>
-
 	<hr class="unplaced" style="display:none" />
-
         <div id="backpack">
-	    <h1><span class="hilite">&gt;&gt;&nbsp;</span>Backpack </h1>
+	    <h1><span class="hilite"></span>Backpack</h1>
 	    <!-- these cells are named to make placement easy -->
-            <table class="backpack" cellpadding="0" cellmargin="0">
+            <table class="backpack">
 		<tbody id="backpackPage-1">
                     <tr><td id="c1"></td><td id="c2"></td><td id="c3"></td><td id="c4"></td><td id="c5"></td></tr>
                     <tr><td id="c11"></td><td id="c12"></td><td id="c13"></td><td id="c14"></td><td id="c15"></td></tr>
@@ -72,9 +69,7 @@
 		<span class="nav"><a href="#">&gt;</a></span>
 		<span class="nonav">&gt;</span>
 	    </div>
-
         </div>
-
 	<div id="footer">
 	    <div>
 		<a href="#" onclick="showExternalBackpack()">View Backpack</a> at TF2Items.com<br />
@@ -84,7 +79,5 @@
 		Extension written by <a href="#" onclick="showPnaturalProfile()">pnatural</a>
 	    </div>
 	</div>
-
-
     </body>
 </html>
