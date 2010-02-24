@@ -4,14 +4,24 @@
         <script src="scripts/jquery.min.js"></script>
         <script src="scripts/base.js"></script>
         <script src="scripts/popup.js"></script>
+        <script src="scripts/options.js"></script>
         <link rel="stylesheet" type="text/css" href="styles/popup.css" />
     </head>
-    <body>
+    <body onload="popupInit()">
+
 	<div id="unknownProfile">
-	    No profile id set. <br>
-	    Visit the <a href="#" onclick="showOptions()">Options Page</a>
-	    to set your profile id.
+
+	    <h1>Profile ID Not Set!</h1>
+            <p>To use TF2 Backpack Viewer, enter your community name or profile id here.</p>
+	    <input type="text" id="profileId" />
+	    <br />
+	    <em id="msg">(eg pnatural, 76561197992805111)</em>
+	    <br />
+	    <button id="saveButton">Save</button>
+	    <button id="cancelButton">Reset</button>
+	    <button id="closeButton" onclick="javascript:window.close()">Close</button>
         </div>
+
 	<span id="tooltip" style="display:none">
 	    <h4>title</h4>
 	    <div class="level">level</div>

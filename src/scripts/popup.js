@@ -147,7 +147,7 @@ function putOldItem(index, node) {
     img.data("node", node);
     if (p & 0x80000000 && p & 0x0FFF0000) {
 	// nudge the image up a bit; related to margin-top on the equipped class
-	//img.css("margin-top", "-4px");
+	img.css("margin-top", "-5px");
 	img.after("<span class='equipped'>Equipped</span>");
     }
 }
@@ -163,7 +163,9 @@ function putImages(xml) {
     );
     if (newNodes.length > 0) {
 	newNodes.each(putNewItem)
-	$("#unplaced, hr.unplaced").show()
+	$("#unplaced, hr.unplaced").show();
+    } else {
+	$("#unplaced, hr.unplaced").hide();
     }
     var oldNodes = $("item", xml).filter(
 	function (index) { return $("position", this).text() != "0" }
@@ -260,13 +262,13 @@ function itemClicked(event) {
 }
 
 
-$(document).ready(function() {
+function popupInit() {
     pages.count = $("#backpack tbody").length;
 
     if (!getProfileId()) {
         $("body > *:not(#unknownProfile)").hide()
-	$("body").css("height", 200);
 	$("#unknownProfile").show();
+	optionsAltInit();
     } else {
 
 	// when viewing the chrome extension page directly, the nav
@@ -289,4 +291,4 @@ $(document).ready(function() {
 
         $("body").mousedown(function(){return false}) //disable text selection
     }
-});
+}

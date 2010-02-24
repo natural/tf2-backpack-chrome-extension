@@ -1,3 +1,6 @@
+var alsoRefresh = false;
+
+
 function markDirty() {
     $("#saveButton").attr("disabled", false);
 }
@@ -32,8 +35,14 @@ function save() {
     }
     //setSaveLocal($("input[name=saveLocal]:checked").attr("value"));
     //setDebug($("input[name=debug]:checked").attr("value"));
-    markClean();
+    //markClean();
     chrome.extension.getBackgroundPage().backgroundInit();
+    if (alsoRefresh) {
+        $("body > *:not(#unknownProfile)").fadeIn();
+	hideToolTip();
+	$("#unknownProfile").fadeOut();
+	popupInit();
+    }
 }
 
 
@@ -42,8 +51,16 @@ function optionsInit() {
     $("#profileId").change(markDirty);
     $("#saveButton").click(save);
     $("#cancelButton").click(optionsInit);
-    //$("input[name=debug][value=" + getDebug() + "]").attr("checked", true);
-    //$("input[name=saveLocal][value=" + getSaveLocal() + "]").attr("checked", true);
-    //$("input[name=debug], input[name=saveLocal]").change(markDirty);
     markClean();
 }
+
+
+function optionsAltInit() {
+    alsoRefresh = true;
+    $("#profileId").attr("value", getProfileId());
+    $("#profileId").change(markDirty);
+    $("#saveButton").click(save);
+    $("#cancelButton").click(optionsAltInit);
+    markDirty();
+}
+

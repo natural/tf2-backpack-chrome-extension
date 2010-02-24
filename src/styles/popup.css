@@ -38,14 +38,14 @@ border-top:0.25em solid #84756b;
 }
 
 
-span.equipped { /* needs padding and positioning */
+span.equipped {
 background-color:black;
 border-radius:0.5em;
-bottom:1.5em;
+bottom:1.2em;
 color:#c8503c;
 font-family:"TF2secondary";
-left:0.5em;
-padding:0.25em;
+left:0.25em;
+padding:0.25em 0.4em 0.25em 0.4em;
 position:relative;
 }
 
@@ -195,6 +195,8 @@ color:#c8503c;
 display:inline-block;
 text-align:center;
 width:2em;
+font-size:135%;
+vertical-align:middle;
 }
 
 
@@ -272,4 +274,29 @@ width:100%;
 
 #unknownProfile a:hover {
 border-bottom:0.125em solid #ece3cb;
+}
+
+#unknownProfile input[type="text"] {
+color:black;
+font-family:sans;
+font-weight:bold;
+font-size:1em;
+margin:1em;
+margin-bottom:0.25em;
+}
+
+#saveButton, #cancelButton, #closeButton {
+color:#756b5e;
+width:4em;
+font-family:"TF2secondary";
+font-size:12pt;
+border:0.125em solid #756b5e;
+padding:0.25em;
+margin:1em;
+background-color:#c8bba2;
+}
+
+#saveButton:hover, #cancelButton:hover, #closeButton:hover {
+background-color:#847668;
+color:#2e2b2a;
 }
