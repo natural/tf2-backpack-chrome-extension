@@ -85,7 +85,7 @@ function loadItemData() {
 
 
 function putInfo(xml) {
-    $("#steamID").text($("steamID", xml).text());
+    $("#steamID a").text($("steamID", xml).text());
     var avatarUrl = $("avatarFull", xml).text();
     if (avatarUrl) {
 	$("#avatar").append("<img src='" + avatarUrl + "' />");
@@ -132,7 +132,7 @@ function putNewItem(index, node) {
 function putOldItem(index, node) {
     var p = parseInt(node.getElementsByTagName("position")[0].firstChild.textContent);
     var type = node.getAttribute("definitionIndex");
-    var element = $("#c" + (p & 0xffff));
+    var element = $("#c" + (p & 0xffff) + " div");
 
     element.append("<img src='icons/" + type + ".png' onerror='missingImage(this, " + type + ")' />");
     var img = $("img:last", element);
@@ -140,7 +140,7 @@ function putOldItem(index, node) {
     if (p & 0x80000000 && p & 0x0FFF0000) {
 	// nudge the image up a bit; related to margin-top on the equipped class
 	//img.css("margin-top", "-4px");
-	//TEMP: element.append("<span class='equipped'>Equipped</span>");
+	img.after("<span class='equipped'>Equipped</span>");
     }
 }
 
@@ -169,15 +169,18 @@ function showToolTip(event) {
     if (!cell.children().length) {
 	return;
     }
-    var node = $( $("img", cell).data("node") );
-    var type = node.attr("definitionIndex");
-    var item = backpack.defintions[type];
+    try {
+	var node = $( $("img", cell).data("node") );
+	var type = node.attr("definitionIndex");
+	var item = backpack.defintions[type];
+	var levelType = item.type;
+	var level = $("level", node).text();
+	$("#tooltip h4").text( item.description );
+    } catch (e) {
+	return;
+    }
     var tooltip = $("#tooltip");
     tooltip.css({left:0, top:0});
-    //TODO:  catch exception (undefined)
-    $("#tooltip h4").text( item.description );
-    var level = $("level", node).text();
-    var levelType = item.type;
     $("#tooltip .level").text("Level " + level + (levelType ? " " + levelType : ""));
     $(["alt", "plus", "minus"]).each(function(index, key) {
 	var value = item[key];
@@ -240,19 +243,6 @@ function nav(offset) {
     return false;
 }
 
-function showUnplacedBorder(event) {
-    var cell = $(this);
-    if (!cell.children().length) {
-	return;
-    }
-    cell.addClass("unplacedhover");
-}
-
-
-function hideUnplacedBorder(event) {
-    $(this).removeClass("unplacedhover");
-}
-
 
 function itemClicked(event) {
     if (!event.ctrlKey) {
@@ -270,7 +260,12 @@ $(document).ready(function() {
 	$("body").css("height", 200);
 	$("#unknownProfile").show();
     } else {
-	//$("body").css("min-height", 760);
+
+	// when viewing the chrome extension page directly, the nav
+	// is squished without the max-check.  the -6 is a gimpy
+        // adjustment for the table margin-padding-border.
+	$("#nav").css("width", -6 + Math.max(400, $("#backpack tr").width()));
+
 	loadItemData();
 	loadAndShowBackpack();
 	navUpdate();
@@ -281,13 +276,9 @@ $(document).ready(function() {
             .live('mouseenter', showToolTip)
             .live('mouseleave', hideToolTip);
 
-	$("table.unplaced td")
-	    .live("mouseenter", showUnplacedBorder)
-	    .live("mouseleave", hideUnplacedBorder);
-
 	$(".nav:first a").live('click', function (e) { return nav(-1); });
 	$(".nav:last a").live('click', function (e) { return nav(1); });
-	//$("#nav").css("width", $("#backpack").width());
+
         $("body").mousedown(function(){return false}) //disable text selection
     }
 });

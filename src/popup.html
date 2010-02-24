@@ -4,7 +4,7 @@
         <script src="scripts/jquery.min.js"></script>
         <script src="scripts/base.js"></script>
         <script src="scripts/popup.js"></script>
-        <link rel="stylesheet" type="text/css" href="styles/popup.css"></link>
+        <link rel="stylesheet" type="text/css" href="styles/popup.css" />
     </head>
     <body>
 	<div id="unknownProfile">
@@ -20,46 +20,50 @@
 	    <div class="minus">minus text</div>
 	</span>
 	<div id="info">
-	    <h2>Backpack for <span id="steamID" /></h2>
+	    <h2>Backpack for
+		<span id="steamID">
+		    <a href="#" onclick="showSteamProfile()"></a>
+	        </span>
+	    </h2>
 	    <div id="avatar"></div>
 	</div>
 	<hr class="info" />
         <div id="unplaced" style="display:none">
 	    <h1><span class="hilite"></span>Unplaced Items</h1>
-            <table class="unplaced"></table>
+            <table class="unplaced centered"></table>
         </div>
 	<hr class="unplaced" style="display:none" />
         <div id="backpack">
 	    <h1><span class="hilite"></span>Backpack</h1>
 	    <!-- these cells are named to make placement easy -->
-            <table class="backpack">
+            <table class="backpack centered">
 		<tbody id="backpackPage-1">
-                    <tr><td id="c1"></td><td id="c2"></td><td id="c3"></td><td id="c4"></td><td id="c5"></td></tr>
-                    <tr><td id="c11"></td><td id="c12"></td><td id="c13"></td><td id="c14"></td><td id="c15"></td></tr>
-                    <tr><td id="c21"></td><td id="c22"></td><td id="c23"></td><td id="c24"></td><td id="c25"></td></tr>
-                    <tr><td id="c31"></td><td id="c32"></td><td id="c33"></td><td id="c34"></td><td id="c35"></td></tr>
-                    <tr><td id="c41"></td><td id="c42"></td><td id="c43"></td><td id="c44"></td><td id="c45"></td></tr>
+                    <tr><td id="c1"><div></div></td><td id="c2"><div></div></td><td id="c3"><div></div></td><td id="c4"><div></div></td><td id="c5"><div></div></td></tr>
+                    <tr><td id="c11"><div></div></td><td id="c12"><div></div></td><td id="c13"><div></div></td><td id="c14"><div></div></td><td id="c15"><div></div></td></tr>
+                    <tr><td id="c21"><div></div></td><td id="c22"><div></div></td><td id="c23"><div></div></td><td id="c24"><div></div></td><td id="c25"><div></div></td></tr>
+                    <tr><td id="c31"><div></div></td><td id="c32"><div></div></td><td id="c33"><div></div></td><td id="c34"><div></div></td><td id="c35"><div></div></td></tr>
+                    <tr><td id="c41"><div></div></td><td id="c42"><div></div></td><td id="c43"><div></div></td><td id="c44"><div></div></td><td id="c45"><div></div></td></tr>
 		</tbody>
 		<tbody id="backpackPage-2" style="display:none">
-                    <tr><td id="c6" ></td><td id="c7" ></td><td id="c8" ></td><td id="c9" ></td><td id="c10"></td></tr>
-                    <tr><td id="c16"></td><td id="c17"></td><td id="c18"></td><td id="c19"></td><td id="c20"></td></tr>
-                    <tr><td id="c26"></td><td id="c27"></td><td id="c28"></td><td id="c29"></td><td id="c30"></td></tr>
-                    <tr><td id="c36"></td><td id="c37"></td><td id="c38"></td><td id="c39"></td><td id="c40"></td></tr>
-                    <tr><td id="c46"></td><td id="c47"></td><td id="c48"></td><td id="c49"></td><td id="c50"></td></tr>
+                    <tr><td id="c6" ><div></div></td><td id="c7" ><div></div></td><td id="c8" ><div></div></td><td id="c9" ><div></div></td><td id="c10"><div></div></td></tr>
+                    <tr><td id="c16"><div></div></td><td id="c17"><div></div></td><td id="c18"><div></div></td><td id="c19"><div></div></td><td id="c20"><div></div></td></tr>
+                    <tr><td id="c26"><div></div></td><td id="c27"><div></div></td><td id="c28"><div></div></td><td id="c29"><div></div></td><td id="c30"><div></div></td></tr>
+                    <tr><td id="c36"><div></div></td><td id="c37"><div></div></td><td id="c38"><div></div></td><td id="c39"><div></div></td><td id="c40"><div></div></td></tr>
+                    <tr><td id="c46"><div></div></td><td id="c47"><div></div></td><td id="c48"><div></div></td><td id="c49"><div></div></td><td id="c50"><div></div></td></tr>
 		</tbody>
 		<tbody id="backpackPage-3" style="display:none">
-                    <tr><td id="c51"></td><td id="c52"></td><td id="c53"></td><td id="c54"></td><td id="c55"></td></tr>
-                    <tr><td id="c61"></td><td id="c62"></td><td id="c63"></td><td id="c64"></td><td id="c65"></td></tr>
-                    <tr><td id="c71"></td><td id="c72"></td><td id="c73"></td><td id="c74"></td><td id="c75"></td></tr>
-                    <tr><td id="c81"></td><td id="c82"></td><td id="c83"></td><td id="c84"></td><td id="c85"></td></tr>
-                    <tr><td id="c91"></td><td id="c92"></td><td id="c93"></td><td id="c94"></td><td id="c95"></td></tr>
+                    <tr><td id="c51"><div></div></td><td id="c52"><div></div></td><td id="c53"><div></div></td><td id="c54"><div></div></td><td id="c55"><div></div></td></tr>
+                    <tr><td id="c61"><div></div></td><td id="c62"><div></div></td><td id="c63"><div></div></td><td id="c64"><div></div></td><td id="c65"><div></div></td></tr>
+                    <tr><td id="c71"><div></div></td><td id="c72"><div></div></td><td id="c73"><div></div></td><td id="c74"><div></div></td><td id="c75"><div></div></td></tr>
+                    <tr><td id="c81"><div></div></td><td id="c82"><div></div></td><td id="c83"><div></div></td><td id="c84"><div></div></td><td id="c85"><div></div></td></tr>
+                    <tr><td id="c91"><div></div></td><td id="c92"><div></div></td><td id="c93"><div></div></td><td id="c94"><div></div></td><td id="c95"><div></div></td></tr>
 		</tbody>
 		<tbody id="backpackPage-4" style="display:none">
-                    <tr><td id="c56"></td><td id="c57"></td><td id="c58"></td><td id="c59"></td><td id="c60"></td></tr>
-                    <tr><td id="c66"></td><td id="c67"></td><td id="c68"></td><td id="c69"></td><td id="c70"></td></tr>
-                    <tr><td id="c76"></td><td id="c77"></td><td id="c78"></td><td id="c79"></td><td id="c80"></td></tr>
-                    <tr><td id="c86"></td><td id="c87"></td><td id="c88"></td><td id="c89"></td><td id="c90"></td></tr>
-                    <tr><td id="c96"></td><td id="c97"></td><td id="c98"></td><td id="c99"></td><td id="c100"></td></tr>
+                    <tr><td id="c56"><div></div></td><td id="c57"><div></div></td><td id="c58"><div></div></td><td id="c59"><div></div></td><td id="c60"><div></div></td></tr>
+                    <tr><td id="c66"><div></div></td><td id="c67"><div></div></td><td id="c68"><div></div></td><td id="c69"><div></div></td><td id="c70"><div></div></td></tr>
+                    <tr><td id="c76"><div></div></td><td id="c77"><div></div></td><td id="c78"><div></div></td><td id="c79"><div></div></td><td id="c80"><div></div></td></tr>
+                    <tr><td id="c86"><div></div></td><td id="c87"><div></div></td><td id="c88"><div></div></td><td id="c89"><div></div></td><td id="c90"><div></div></td></tr>
+                    <tr><td id="c96"><div></div></td><td id="c97"><div></div></td><td id="c98"><div></div></td><td id="c99"><div></div></td><td id="c100"><div></div></td></tr>
 		</tbody>
             </table>
 	    <div id="nav">
@@ -70,11 +74,12 @@
 		<span class="nonav">&gt;</span>
 	    </div>
         </div>
+	<hr class="footer" />
 	<div id="footer">
 	    <div>
 		<a href="#" onclick="showExternalBackpack()">View Backpack</a> at TF2Items.com<br />
 		<a href="#" onclick="showSteamProfile()">View Profile</a>
-		at the Steam Community</a><br /><br />
+		at the Steam Community<br /><br />
 		Powered by <a href="#" onclick="showSourceOp()">SourceOP.com</a><br />
 		Extension written by <a href="#" onclick="showPnaturalProfile()">pnatural</a>
 	    </div>

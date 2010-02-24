@@ -5,10 +5,10 @@ body {
 background-color:#393431;
 color:green; /* make default text stand out cause it should be styled elsewhere  */
 font-family:"TF2";
-overflow-x:hidden;
 font-size:1em;
 min-height:60em;
-min-width:40em;
+min-width:38em;
+overflow-x:hidden;
 }
 
 
@@ -21,65 +21,56 @@ text-decoration:none;
 h1 {
 color:#ebe2ca;
 font-family:"TF2Build";
-font-size:125%;
+font-size:135%;
 }
 
 
 h2 {
-font-family:"TF2Build";
-font-size:1em;
 color:#827868;
+font-family:"TF2Build";
+font-size:110%;
 }
 
 
-hr.info, hr.unplaced {
-background-image:url("../images/solid_line.png");
-background-repeat:repeat-x;
+hr.info, hr.unplaced, hr.footer {
 border:none;
-height:4px; /* absolute height to match image height */
+border-top:0.25em solid #84756b;
 }
 
 
 span.equipped { /* needs padding and positioning */
 background-color:black;
-bottom:0;
+border-radius:0.5em;
+bottom:1.5em;
 color:#c8503c;
-display:inline;
-float:right;
 font-family:"TF2secondary";
-font-size:0.5em;
-height:1.5em;
-bottom:15%;
-right:15%;
-padding:0;
+left:0.5em;
+padding:0.25em;
 position:relative;
-text-align:center;
-not-webkit-border-radius:4pt;
 }
 
 
-h1 span.hilite {
+span.hilite {
 color:#c8503c;
 }
 
 
-h1 span.hilite:before {
+span.hilite:before {
 content:">> ";
 }
 
 
 span.nonav, span.nav a {
 background-color:#ece3cb;
-color:#dbad65;
+border-radius:0.5em;
+color:#2e2b2a;
 display:inline-block;
 height:1.5em;
 line-height:1.5em;
-padding:0.125em;
+padding:0.25em;
 text-align:center;
 vertical-align:middle;
 width:1.5em;
-border-radius:0.5em;
-color:#2e2b2a;
 }
 
 
@@ -92,23 +83,20 @@ span.nav a:hover {
 background-color:#b25216;
 }
 
-table.backpack {
-margin:0 auto 0 auto;
-}
-
-
-table.unplaced {
-}
-
 
 table.unplaced td, table.backpack td {
-height:4em !important
+max-height:4em !important
+min-height:4em !important
 width:5.15em !important;
-min-width:5.15em !important;
 max-width:5.15em !important;
-background-color:#3c352e;
+min-width:5.15em !important;
+
 }
 
+table.unplaced td div, table.backpack td div {
+width:4em !important;
+height:4em !important;
+}
 
 table.unplaced img, table.backpack img {
 margin-left:0.575em;
@@ -119,35 +107,36 @@ height:4em !important
 table.backpack td {
 border-radius:0.75em;
 border:0.25em solid #2E2B2A !important;
+background-color:#3c352e;
 }
 
-table.backpack td:hover {
+
+/* the second selector is for only unplaced table cells w/o an image child */
+table.backpack td:hover, table.unplaced td:not(:empty):hover {
 border:0.25em solid #847668 !important;
 }
 
 
 table.backpack td.selected {
 background-color:#ece3cb !important;
-border:0.125em solid #ece3cb !important;
+border:0.25em solid #ece3cb !important;
 }
 
 
-
-
 table.unplaced td {
-border:0.125em solid #393431;
+border:0.25em solid #393431;
 border-radius:0.75em;
 }
 
 
-td.unplacedhover {
-border:0.125em solid #847668 !important;
+.centered {
+margin:0 auto 0 auto;
 }
 
 
 #avatar img {
 background-color:#84756b;
-border:4px solid #84756b; /* absolute height to match hr image height */
+border:0.25em solid #84756b;
 height:4em;
 width:4em;
 right:0.5em;
@@ -168,9 +157,8 @@ background-color:#2e2b2a;
 
 
 #footer {
-background-image:url('../images/solid_line.png');
-background-repeat:repeat-x;
 color:#827868;
+padding-top:1em;
 }
 
 
@@ -200,7 +188,7 @@ background-repeat:repeat-x;
 #nav {
 font-family:"TF2Build";
 text-align:right;
-margin:0;
+margin:1em auto 0 auto;
 }
 
 
@@ -217,31 +205,39 @@ color:#c8bba1
 }
 
 
+#steamID a {
+color:#c8bba2;
+}
+
+
+#steamID a:hover {
+border-bottom:0.125em solid #c8bba2;
+}
+
+
 #tooltip {
-background:black;
-left:0;
+-webkit-box-shadow:0 0 1em rgba(0,0,0,1);
+background:#000;
+border-radius:0.75em;
 padding:1em;
 position:absolute;
 text-align:center;
-top:50%;
-z-index:9001;
-border-radius:0.5em;
--webkit-box-shadow:rgba(0,0,0,1) 0px 0px 6px;
+z-index:9002;
 }
 
 
 #tooltip h4 {
-font-size:0.75em;
 color:#ffd700;
 font-family:"TF2Build";
 margin-bottom:1em;
 white-space:nowrap;
+font-size:12pt;
 }
 
 
 #tooltip .level, #tooltip .alt, #tooltip .plus, #tooltip .minus {
 font-family:"TF2secondary";
-font-size:70%;
+font-size:11pt;
 }
 
 
@@ -265,11 +261,6 @@ color:#eb3b3b;
 }
 
 
-#unplaced {
-background-color:#393431;
-}
-
-
 #unknownProfile {
 color:#c8bba2;
 display:none;
@@ -282,5 +273,5 @@ width:100%;
 
 
 #unknownProfile a:hover {
-border-bottom:1px solid #ece3cb;
+border-bottom:0.125em solid #ece3cb;
 }
