@@ -271,7 +271,10 @@ function navUpdate() {
 }
 
 
-function nav(offset) {
+function nav(event, offset) {
+    console.log('4')
+    if (event.detail != 1) { return }
+
     if ((pages.current + offset) > 0 && (pages.current + offset <= pages.count)) {
 	$("#backpackPage-" + pages.current).fadeOut(250, function() {
 		pages.current += offset;
@@ -315,8 +318,8 @@ function popupInit() {
             .live('mouseenter', showToolTip)
             .live('mouseleave', hideToolTip);
 
-	$(".nav:first a").live('click', function (e) { return nav(-1); });
-	$(".nav:last a").live('click', function (e) { return nav(1); });
+	$(".nav:first a").live('click', function (e) { return nav(e, -1); });
+	$(".nav:last a").live('click', function (e) { return nav(e, 1); });
 
         $("body").mousedown(function(){return false}) //disable text selection
     }
