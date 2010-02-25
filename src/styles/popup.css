@@ -235,12 +235,21 @@ font-size:12pt;
 }
 
 #tooltip h4.valve {
-color:#cc00cc;
+color:#aa00aa;
 }
 
 #tooltip h4.valve:before {
 content:"Valve ";
 }
+
+#tooltip h4.community {
+color:#00aa00;
+}
+
+#tooltip h4.community:before {
+content:"Community ";
+}
+
 
 #tooltip .level, #tooltip .alt, #tooltip .positive, #tooltip .negative {
 font-family:"TF2secondary";

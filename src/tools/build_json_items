@@ -1,0 +1,143 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+
+"""
+import json
+from functools import partial
+from source_text import parse
+
+
+def proto():
+    return dict(description='', type='', alt=[], positive=[], negative=[])
+
+
+known_subs = (
+    ('Flaregun', 'FlareGun'),
+    ('TF_Weapon_Flamethrower', 'TF_Weapon_FlameThrower'),
+    # "Flamethrower" used by achievement so it's not changed
+)
+
+
+def fix_key(v):
+    if v.startswith('#'):
+	v = v[1:]
+	for find, repl in known_subs:
+	    v = v.replace(find, repl)
+    return v
+
+
+def fix_type(v):
+    if v == 'CheatDetector':
+	return 'Cheat Detector'
+    if v == 'TF_Wearable_Hat':
+	return 'Hat'
+    return v
+
+
+def fix_attr(v):
+    if v.startswith('#'):
+	v = v[1:]
+    return v
+
+
+def find_attribute(attrs, name):
+    for value in attrs.itervalues():
+	if value['name'] == name:
+	    return value
+
+
+def format_value_is_percentage(v):
+    return str(int(float(v)*100) - 100)
+
+
+def format_value_is_additive(v):
+    return v
+
+
+def format_value_is_inverted_percentage(v):
+    return str(100 - int(float(v)*100))
+
+
+def format_value_is_additive_percentage(v):
+    return str(int(float(v)*100))
+
+
+def add_item_type(source, target, lang_data=None, **kwds):
+    val = fix_key(source['item_type_name'])
+    target['type'] = lang_data.get(val, fix_type(val))
+
+
+def add_item_desc(source, target, lang_data=None, **kwds):
+    val = fix_key(source['item_name'])
+    target['description'] = lang_data.get(val, val)
+
+
+def add_item_alt(source, target, lang_data=None, **kwds):
+    alt = source.get('item_description', None)
+    if alt is not None:
+	alt = fix_key(alt)
+	target['alt'].append(lang_data.get(alt, alt))
+
+
+def add_item_attrs(source, target, lang_data, find_attr=None, **kwds):
+    attrs = source.get('attributes', None)
+    glbls = globals()
+    if attrs is not None:
+	for name, setup in attrs.items():
+	    av = find_attr(name)
+	    if av is not None:
+		desc = fix_attr(av['description_string'])
+		frmt = av['description_format']
+		av_val = setup.get('value', '0')
+		av_type = av['effect_type']
+		desc = lang_data.get(desc, None)
+		if desc is not None:
+		    v = setup.get('value', None)
+		    f = glbls.get('format_'+frmt, lambda v:v)
+		    fv = f(v)
+
+		    if av_type == 'neutral':
+			target['alt'].append(desc)
+
+		    elif av_type == 'negative':
+			if desc.count('%s1'):
+			    desc = desc.replace('%s1', fv)
+			    #desc = desc.replace('%s1', '[%s : %s : %s VALUE]  ' % (fv, v, frmt))
+			target[av_type].append(desc)
+
+		    elif av_type == 'positive':
+			if desc.count('%s1'):
+			    desc = desc.replace('%s1', fv)
+			    #desc = desc.replace('%s1', '[%s : %s : %s VALUE]  ' % (fv, v, frmt))
+			target[av_type].append(desc)
+
+
+
+def trim_item(source, target, names=(), **kwds):
+    for name in names:
+	if not target[name]:
+	    target.pop(name)
+
+
+def main(initial):
+    output = initial.copy()
+    items = parse('items_game.txt')['items_game']
+    items, qualities, attributes = items['items'], items['qualities'], items['attributes']
+    lang_data = parse('tf_english.txt')['lang']['Tokens']
+    find_attr = partial(find_attribute, attributes)
+    kwds = dict(find_attr=find_attr, lang_data=lang_data)
+    trim = partial(trim_item, names=['positive', 'negative', 'alt', ])
+    handlers = [add_item_type, add_item_desc, add_item_alt, add_item_attrs, trim]
+    for key, src in items.items():
+	output[key] = out = proto()
+	for handler in handlers:
+	    handler(src, out, **kwds)
+    return output
+
+
+if __name__ == '__main__':
+    extras = json.load(open('extras.json'))
+    result = main(extras)
+    print json.dumps(result, indent=4)
+

@@ -38,3 +38,61 @@ cell normal dim: 67px wide by 52px high (width factor 1.288)
 j = -2146434995 # valve json
 x = 2148532301  # tf2items xml
 hex(j + 2**32) == hex(x)
+
+
+
+DF:
+
+"description": "Knife"
+
+    <item definitionIndex="4">
+      <uniqueId>34093800</uniqueId>
+      <level>50</level>
+      <quality>7</quality>
+      <position>2155872306</position>
+      <quantity>1</quantity>
+      <attributes>
+	<attribute definitionIndex="132">0</attribute>
+	<attribute definitionIndex="134">4</attribute>
+      </attributes>
+    </item>
+"Attrib_Community_Description"                  "Given to valuable Community Contributors"
+
+
+
+"description": "Gentle Manne's Service Medal"
+
+    <item definitionIndex="121">
+      <uniqueId>18446744073709547837</uniqueId>
+      <level>100</level>
+      <quality>3</quality>
+      <position>2147745892</position>
+      <quantity>1</quantity>
+      <attributes>
+	<attribute definitionIndex="133">3763</attribute>
+      </attributes>
+    </item>
+
+tf_english:: "Attrib_MedalIndex_Description"                 "Medal no. %s1"
+
+
+
+132: community description				     "#Attrib_Community_Description"
+133:  soldier medal						"#Attrib_MedalIndex_Description"
+134:  attach particle effect					"#Attrib_DamageDone_Negative"
+
+
+robin:
+
+sniper rifle:
+
+    <item definitionIndex="14">
+      <uniqueId>31427475</uniqueId>
+      <level>100</level>
+      <quality>8</quality>
+      <position>2147483677</position>
+      <quantity>1</quantity>
+      <attributes>
+	<attribute definitionIndex="134">2</attribute>
+      </attributes>
+    </item>

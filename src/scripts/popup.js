@@ -185,31 +185,51 @@ function showToolTip(event) {
 	var item = backpack.defs[type];
 	var levelType = item.type;
 	var level = $("level", node).text();
-	$("#tooltip h4").text( item.description );
     } catch (e) {
 	return;
     }
     var tooltip = $("#tooltip");
     tooltip.css({left:0, top:0});
+
+    // change the title and level text
+    $("#tooltip h4").text(item.description).removeClass("valve community");
     $("#tooltip .level").text("Level " + level + (levelType ? " " + levelType : ""));
-    if (level == "100") {
+
+    // special formatting valve and community weapons
+    var extras = [];
+    var attrMap = {};
+    $.each($("attributes attribute", node), function(index, value) {
+	var index = $(value).attr("definitionIndex");
+        var format = backpack.defs["other_attributes"][index] || "";
+	if (format) {
+	    extras.push( format.replace("%s1", $(value).text()) );
+	}
+	attrMap[index] = $(value).text();
+    });
+    if (item["alt"]) {
+	item["alt"].concat(extras);
+    } else if (extras) {
+	item["alt"] = extras;
+    }
+    if (attrMap["134"] == "2") {
 	$("#tooltip h4").text($("#tooltip h4").text().replace("The ", ""));
 	$("#tooltip h4").addClass("valve");
-    } else {
-	$("#tooltip h4").removeClass("valve");
+    } else if (attrMap["134"] == "4") {
+	$("#tooltip h4").text($("#tooltip h4").text().replace("The ", ""));
+	$("#tooltip h4").addClass("community");
     }
+
+    // add the various descriptions
     $(["alt", "positive", "negative"]).each(function(index, key) {
-	var value = item[key];
-	if (value) {
-	    //value = value.replace("\n", "<br>");
-	    if (typeof(value) == "object") {
-		value = value.join("<br />")
-	    }
+	if (item[key]) {
+	    var value = item[key].join("<br />");
 	    $("#tooltip ." + key).html(value).show();
 	} else {
 	    $("#tooltip ." + key).text("").hide();
 	}
     });
+
+    // position and show the tooltip
     var pos = cell.position();
     var minleft = cell.parent().position().left;
     var left = pos.left - tooltip.width()/2 + cell.width()/2 - 10;

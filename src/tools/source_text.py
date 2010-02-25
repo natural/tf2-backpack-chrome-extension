@@ -1,23 +1,26 @@
 #!/usr/bin/env python
-
 import codecs
 import json
 import sys
 
 import antlr3
+
 from SourceTextParser import SourceTextParser
 from SourceTextLexer import SourceTextLexer
 
 
-
 def parse(fn):
-    source = codecs.open(fn, encoding='utf-8').read().replace("\\n", " ")
+    source = codecs.open(fn, encoding='utf-8').read()
+    ## strings in the source file may contain esacaped newlines, which
+    ## the parser doesn't handle.  hackity hackity.
+    source = source.replace("\\n", "<BR>")
     stream = antlr3.ANTLRStringStream(source)
     lexer = SourceTextLexer(stream)
     parser = SourceTextParser(antlr3.CommonTokenStream(lexer))
     output = {}
     parser.source_mapping(output)
     return output
+
 
 if __name__ == '__main__':
     try:

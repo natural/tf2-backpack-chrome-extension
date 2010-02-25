@@ -1,0 +1,16 @@
+{
+    "9003": {
+	"positive": [
+	    "Bans Steam account of players killed",
+	    "This item is not real and is only a joke."
+	],
+	"type": "Mallet of Banishment",
+	"description": "Ban Hammer"
+    },
+
+    "other_attributes": {
+	"132": "Given to valuable Community Contributors",
+        "133": "Medal no. %s1"
+    }
+
+}
