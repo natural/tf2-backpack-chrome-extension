@@ -1,4 +1,4 @@
-var backpack = {items:null, definitions:null};
+var backpack = {items:null, defs:null};
 var pages = {current:1, count:1};
 
 
@@ -76,7 +76,7 @@ function loadItemData() {
     var req = new XMLHttpRequest();
     req.onreadystatechange = function() {
 	if (req.readyState == 4) {
-	    backpack.defintions = eval("( " + req.responseText + ")");
+	    backpack.defs = eval("( " + req.responseText + ")");
 	}
     }
     req.open("GET", chrome.extension.getURL("/data/items.json"), true);
@@ -182,7 +182,7 @@ function showToolTip(event) {
     try {
 	var node = $( $("img", cell).data("node") );
 	var type = node.attr("definitionIndex");
-	var item = backpack.defintions[type];
+	var item = backpack.defs[type];
 	var levelType = item.type;
 	var level = $("level", node).text();
 	$("#tooltip h4").text( item.description );
@@ -192,10 +192,19 @@ function showToolTip(event) {
     var tooltip = $("#tooltip");
     tooltip.css({left:0, top:0});
     $("#tooltip .level").text("Level " + level + (levelType ? " " + levelType : ""));
+    if (level == "100") {
+	$("#tooltip h4").text($("#tooltip h4").text().replace("The ", ""));
+	$("#tooltip h4").addClass("valve");
+    } else {
+	$("#tooltip h4").removeClass("valve");
+    }
     $(["alt", "positive", "negative"]).each(function(index, key) {
 	var value = item[key];
 	if (value) {
-	    value = value.replace("\n", "<br>");
+	    //value = value.replace("\n", "<br>");
+	    if (typeof(value) == "object") {
+		value = value.join("<br />")
+	    }
 	    $("#tooltip ." + key).html(value).show();
 	} else {
 	    $("#tooltip ." + key).text("").hide();

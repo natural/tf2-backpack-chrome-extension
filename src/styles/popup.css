@@ -234,6 +234,13 @@ white-space:nowrap;
 font-size:12pt;
 }
 
+#tooltip h4.valve {
+color:#cc00cc;
+}
+
+#tooltip h4.valve:before {
+content:"Valve ";
+}
 
 #tooltip .level, #tooltip .alt, #tooltip .positive, #tooltip .negative {
 font-family:"TF2secondary";
