@@ -619,4 +619,948 @@
 	"minus"       : ""
     }
 
+}{
+    "133": {
+        "positive": [
+            "%s1% blast damage from rocket jumps"
+        ], 
+        "alt": "", 
+        "type": "Boots", 
+        "description": "The Gunboats", 
+        "negative": []
+    }, 
+    "132": {
+        "positive": [], 
+        "alt": "This weapon has a large melee range. Gives increased speed and health with every head you take.", 
+        "type": "Sword", 
+        "description": "The Eyelander", 
+        "negative": [
+            "26.01 max health on wearer", 
+            "No random critical hits"
+        ]
+    }, 
+    "131": {
+        "positive": [
+            "+%s1% fire damage resistance on wearer", 
+            "+%s1% explosive damage resistance on wearer"
+        ], 
+        "alt": "Alt-Fire: Gain increased attack power by charging toward your enemies.", 
+        "type": "Shield", 
+        "description": "The Chargin' Targe", 
+        "negative": []
+    }, 
+    "130": {
+        "positive": [
+            "+%s1% max secondary ammo on wearer", 
+            "+-500.01 max pipebombs out", 
+            "Detonates stickybombs near the crosshair", 
+            "Able to destroy enemy stickybombs"
+        ], 
+        "alt": "", 
+        "type": "Stickybomb Launcher", 
+        "description": "The Scottish Resistance", 
+        "negative": [
+            "0.61 sec slower bomb arm time"
+        ]
+    }, 
+    "137": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Noble Amassment of Hats", 
+        "negative": []
+    }, 
+    "136": {
+        "positive": [], 
+        "alt": "First Runner-Up, Propaganda Contest", 
+        "type": "Hat", 
+        "description": "Amber's Rad As All Hell Hat", 
+        "negative": []
+    }, 
+    "135": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Towering Pillar of Hats", 
+        "negative": []
+    }, 
+    "134": {
+        "positive": [], 
+        "alt": "First Place Winner, Propaganda Contest", 
+        "type": "Hat", 
+        "description": "J.Axer's Dapper Topper", 
+        "negative": []
+    }, 
+    "139": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Modest Pile of Hat", 
+        "negative": []
+    }, 
+    "138": {
+        "positive": [], 
+        "alt": "Second Runner-Up, Propaganda Contest", 
+        "type": "Hat", 
+        "description": "Uncle Sam", 
+        "negative": []
+    }, 
+    "24": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Revolver", 
+        "description": "Revolver", 
+        "negative": []
+    }, 
+    "25": {
+        "positive": [], 
+        "alt": "", 
+        "type": "PDA", 
+        "description": "PDA", 
+        "negative": []
+    }, 
+    "26": {
+        "positive": [], 
+        "alt": "", 
+        "type": "PDA", 
+        "description": "PDA", 
+        "negative": []
+    }, 
+    "27": {
+        "positive": [], 
+        "alt": "", 
+        "type": "PDA", 
+        "description": "PDA", 
+        "negative": []
+    }, 
+    "20": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Stickybomb Launcher", 
+        "description": "Stickybomb Launcher", 
+        "negative": []
+    }, 
+    "21": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Flame Thrower", 
+        "description": "Flame Thrower", 
+        "negative": []
+    }, 
+    "22": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Pistol", 
+        "description": "Pistol", 
+        "negative": []
+    }, 
+    "23": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Pistol", 
+        "description": "Pistol", 
+        "negative": []
+    }, 
+    "28": {
+        "positive": [], 
+        "alt": "", 
+        "type": "PDA", 
+        "description": "PDA", 
+        "negative": []
+    }, 
+    "29": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Medi Gun", 
+        "description": "Medi Gun", 
+        "negative": []
+    }, 
+    "0": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Bat", 
+        "description": "Bat", 
+        "negative": []
+    }, 
+    "4": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Knife", 
+        "description": "Knife", 
+        "negative": []
+    }, 
+    "8": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Bonesaw", 
+        "description": "Bonesaw", 
+        "negative": []
+    }, 
+    "120": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Scotsman's Stove Pipe", 
+        "negative": []
+    }, 
+    "121": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Medal", 
+        "description": "Gentle Manne's Service Medal", 
+        "negative": []
+    }, 
+    "122": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Cheat Detector", 
+        "description": "Your account has been flagged for circumventing the item distribution system. We have removed the items that were illegally obtained.  Future violations will result in the loss of all your items.", 
+        "negative": []
+    }, 
+    "123": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Cheat Detector", 
+        "description": "Your account has been flagged for circumventing the item distribution system. We have removed all items in your inventory.  Future violations may result in your account being disabled.", 
+        "negative": []
+    }, 
+    "124": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Cheat Detector", 
+        "description": "Congratulations! Your Honesty has been rewarded with a new hat!  (Some other players were less scrupulous, and have been less fortunate)", 
+        "negative": []
+    }, 
+    "125": {
+        "positive": [], 
+        "alt": "%s1% damage done", 
+        "type": "Aura of Incorruptibility", 
+        "description": "Cheater's Lament", 
+        "negative": []
+    }, 
+    "126": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Veteran's Beret", 
+        "description": "Bill's Hat", 
+        "negative": []
+    }, 
+    "127": {
+        "positive": [
+            "Mini-crits airborne targets", 
+            "+%s1% damage done", 
+            "+%s1% projectile speed"
+        ], 
+        "alt": "", 
+        "type": "Rocket Launcher", 
+        "description": "The Direct Hit", 
+        "negative": [
+            "%s1% explosion radius"
+        ]
+    }, 
+    "128": {
+        "positive": [
+            "Damage and move speed increase as the user becomes injured"
+        ], 
+        "alt": "", 
+        "type": "Pickaxe", 
+        "description": "The Equalizer", 
+        "negative": []
+    }, 
+    "129": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Battle Banner", 
+        "description": "The Buff Banner", 
+        "negative": []
+    }, 
+    "59": {
+        "positive": [
+            "+%s1% cloak regen rate"
+        ], 
+        "alt": "Cloak Type: Feign Death", 
+        "type": "Invis Watch", 
+        "description": "The Dead Ringer", 
+        "negative": [
+            "+%s1% cloak drain rate"
+        ]
+    }, 
+    "58": {
+        "positive": [], 
+        "alt": "Coated enemies take mini-crits Also handy for putting out a fire", 
+        "type": "Jar Based Karate", 
+        "description": "Jarate", 
+        "negative": []
+    }, 
+    "55": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Fancy Fedora", 
+        "negative": []
+    }, 
+    "54": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Soldier's Stash", 
+        "negative": []
+    }, 
+    "57": {
+        "positive": [
+            "Blocks a single backstab attempt"
+        ], 
+        "alt": "", 
+        "type": "Shield", 
+        "description": "The Razorback", 
+        "negative": []
+    }, 
+    "56": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Bow", 
+        "description": "The Huntsman", 
+        "negative": []
+    }, 
+    "51": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Pyro's Beanie", 
+        "negative": []
+    }, 
+    "50": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Prussian Pickelhaube", 
+        "negative": []
+    }, 
+    "53": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Trophy Belt", 
+        "negative": []
+    }, 
+    "52": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Batter's Helmet", 
+        "negative": []
+    }, 
+    "5010": {
+        "positive": [], 
+        "alt": "Used to specify a class in blueprints", 
+        "type": "Craft Item", 
+        "description": "Class Token - Spy", 
+        "negative": []
+    }, 
+    "5011": {
+        "positive": [], 
+        "alt": "Used to specify a class in blueprints", 
+        "type": "Craft Item", 
+        "description": "Class Token - Engineer", 
+        "negative": []
+    }, 
+    "5012": {
+        "positive": [], 
+        "alt": "Used to specify a loadout slot in blueprints", 
+        "type": "Craft Item", 
+        "description": "Slot Token - Primary", 
+        "negative": []
+    }, 
+    "5013": {
+        "positive": [], 
+        "alt": "Used to specify a loadout slot in blueprints", 
+        "type": "Craft Item", 
+        "description": "Slot Token - Secondary", 
+        "negative": []
+    }, 
+    "5014": {
+        "positive": [], 
+        "alt": "Used to specify a loadout slot in blueprints", 
+        "type": "Craft Item", 
+        "description": "Slot Token - Melee", 
+        "negative": []
+    }, 
+    "5015": {
+        "positive": [], 
+        "alt": "Used to specify a loadout slot in blueprints", 
+        "type": "Craft Item", 
+        "description": "Slot Token - Grenade", 
+        "negative": []
+    }, 
+    "5016": {
+        "positive": [], 
+        "alt": "Used to specify a loadout slot in blueprints", 
+        "type": "Craft Item", 
+        "description": "Slot Token - Building", 
+        "negative": []
+    }, 
+    "5017": {
+        "positive": [], 
+        "alt": "Used to specify a loadout slot in blueprints", 
+        "type": "Craft Item", 
+        "description": "Slot Token - PDA", 
+        "negative": []
+    }, 
+    "5018": {
+        "positive": [], 
+        "alt": "Used to specify a loadout slot in blueprints", 
+        "type": "Craft Item", 
+        "description": "Slot Token - PDA2", 
+        "negative": []
+    }, 
+    "5019": {
+        "positive": [], 
+        "alt": "Used to specify a loadout slot in blueprints", 
+        "type": "Craft Item", 
+        "description": "Slot Token - Head", 
+        "negative": []
+    }, 
+    "115": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Holiday Hat", 
+        "description": "Mildly Disturbing Halloween Mask", 
+        "negative": []
+    }, 
+    "117": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Ritzy Rick's Hair Fixative", 
+        "negative": []
+    }, 
+    "116": {
+        "positive": [], 
+        "alt": "Embroidered initials say 'Z.M.'", 
+        "type": "Hat", 
+        "description": "Ghastly Gibus", 
+        "negative": []
+    }, 
+    "111": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Baseball Bill's Sports Shine", 
+        "negative": []
+    }, 
+    "110": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Master's Yellow Belt", 
+        "negative": []
+    }, 
+    "118": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Texas Slim's Dome Shine", 
+        "negative": []
+    }, 
+    "3": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Kukri", 
+        "description": "Kukri", 
+        "negative": []
+    }, 
+    "7": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Wrench", 
+        "description": "Wrench", 
+        "negative": []
+    }, 
+    "5003": {
+        "positive": [], 
+        "alt": "Used to specify a class in blueprints", 
+        "type": "Craft Item", 
+        "description": "Class Token - Scout", 
+        "negative": []
+    }, 
+    "5002": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Craft Item", 
+        "description": "Refined Metal", 
+        "negative": []
+    }, 
+    "5001": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Craft Item", 
+        "description": "Reclaimed Metal", 
+        "negative": []
+    }, 
+    "5000": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Craft Item", 
+        "description": "Scrap Metal", 
+        "negative": []
+    }, 
+    "5007": {
+        "positive": [], 
+        "alt": "Used to specify a class in blueprints", 
+        "type": "Craft Item", 
+        "description": "Class Token - Heavy", 
+        "negative": []
+    }, 
+    "5006": {
+        "positive": [], 
+        "alt": "Used to specify a class in blueprints", 
+        "type": "Craft Item", 
+        "description": "Class Token - Demoman", 
+        "negative": []
+    }, 
+    "5005": {
+        "positive": [], 
+        "alt": "Used to specify a class in blueprints", 
+        "type": "Craft Item", 
+        "description": "Class Token - Soldier", 
+        "negative": []
+    }, 
+    "5004": {
+        "positive": [], 
+        "alt": "Used to specify a class in blueprints", 
+        "type": "Craft Item", 
+        "description": "Class Token - Sniper", 
+        "negative": []
+    }, 
+    "5009": {
+        "positive": [], 
+        "alt": "Used to specify a class in blueprints", 
+        "type": "Craft Item", 
+        "description": "Class Token - Pyro", 
+        "negative": []
+    }, 
+    "5008": {
+        "positive": [], 
+        "alt": "Used to specify a class in blueprints", 
+        "type": "Craft Item", 
+        "description": "Class Token - Medic", 
+        "negative": []
+    }, 
+    "108": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Backbiter's Billycock", 
+        "negative": []
+    }, 
+    "109": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Professional's Panama", 
+        "negative": []
+    }, 
+    "102": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Respectless Rubber Glove", 
+        "negative": []
+    }, 
+    "103": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Camera Beard", 
+        "negative": []
+    }, 
+    "100": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Glengarry Bonnet", 
+        "negative": []
+    }, 
+    "101": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Vintage Tyrolean", 
+        "negative": []
+    }, 
+    "106": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Bonk Helm", 
+        "negative": []
+    }, 
+    "107": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Ye Olde Baker Boy", 
+        "negative": []
+    }, 
+    "104": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Otolaryngologist's Mirror", 
+        "negative": []
+    }, 
+    "105": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Brigade Helm", 
+        "negative": []
+    }, 
+    "39": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Flare Gun", 
+        "description": "The Flare Gun", 
+        "negative": []
+    }, 
+    "38": {
+        "positive": [
+            "100\u0000ritical hit vs burning players"
+        ], 
+        "alt": "", 
+        "type": "Fire Axe", 
+        "description": "The Axtinguisher", 
+        "negative": [
+            "No critical hits vs non-burning players", 
+            "%s1% damage vs non-burning players"
+        ]
+    }, 
+    "33": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Syringe Gun", 
+        "description": "Syringe Gun", 
+        "negative": []
+    }, 
+    "32": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Bonesaw", 
+        "description": "Bonesaw", 
+        "negative": []
+    }, 
+    "31": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Flare Gun", 
+        "description": "Flare Gun", 
+        "negative": []
+    }, 
+    "30": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Invis Watch", 
+        "description": "Invis Watch", 
+        "negative": []
+    }, 
+    "37": {
+        "positive": [
+            "On Hit: %s1% \u00dcberCharge added"
+        ], 
+        "alt": "", 
+        "type": "Bonesaw", 
+        "description": "The Ubersaw", 
+        "negative": [
+            "%s1% slower firing speed"
+        ]
+    }, 
+    "36": {
+        "positive": [
+            "On Hit: +-200.01 health"
+        ], 
+        "alt": "", 
+        "type": "Syringe Gun", 
+        "description": "The Blutsauger", 
+        "negative": [
+            "3.01 health drained per second on wearer"
+        ]
+    }, 
+    "35": {
+        "positive": [
+            "+%s1% \u00dcberCharge rate"
+        ], 
+        "alt": "\u00dcberCharge grants 100% critical chance", 
+        "type": "Medi Gun", 
+        "description": "The Kritzkrieg", 
+        "negative": []
+    }, 
+    "34": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Medi Gun", 
+        "description": "Medi Gun", 
+        "negative": []
+    }, 
+    "60": {
+        "positive": [
+            "+%s1% cloak regen rate"
+        ], 
+        "alt": "Cloak Type: Motion Sensitive", 
+        "type": "Invis Watch", 
+        "description": "The Cloak and Dagger", 
+        "negative": []
+    }, 
+    "61": {
+        "positive": [
+            "Crits on an accurate headshot"
+        ], 
+        "alt": "", 
+        "type": "Revolver", 
+        "description": "The Ambassador", 
+        "negative": [
+            "%s1% damage done", 
+            "%s1% slower firing speed"
+        ]
+    }, 
+    "2": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Fire Axe", 
+        "description": "Fire Axe", 
+        "negative": []
+    }, 
+    "6": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Shovel", 
+        "description": "Shovel", 
+        "negative": []
+    }, 
+    "99": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Tyrant's Helm", 
+        "negative": []
+    }, 
+    "98": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Stainless Pot", 
+        "negative": []
+    }, 
+    "95": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Engineer's Cap", 
+        "negative": []
+    }, 
+    "94": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Texas Ten Gallon", 
+        "negative": []
+    }, 
+    "97": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Tough Guy's Toque", 
+        "negative": []
+    }, 
+    "96": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Officer's Ushanka", 
+        "negative": []
+    }, 
+    "11": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Shotgun", 
+        "description": "Shotgun", 
+        "negative": []
+    }, 
+    "10": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Shotgun", 
+        "description": "Shotgun", 
+        "negative": []
+    }, 
+    "13": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Scattergun", 
+        "description": "Scattergun", 
+        "negative": []
+    }, 
+    "12": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Shotgun", 
+        "description": "Shotgun", 
+        "negative": []
+    }, 
+    "15": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Minigun", 
+        "description": "Minigun", 
+        "negative": []
+    }, 
+    "14": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Sniper Rifle", 
+        "description": "Sniper Rifle", 
+        "negative": []
+    }, 
+    "17": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Syringe Gun", 
+        "description": "Syringe Gun", 
+        "negative": []
+    }, 
+    "16": {
+        "positive": [], 
+        "alt": "", 
+        "type": "SMG", 
+        "description": "SMG", 
+        "negative": []
+    }, 
+    "19": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Grenade Launcher", 
+        "description": "Grenade Launcher", 
+        "negative": []
+    }, 
+    "18": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Rocket Launcher", 
+        "description": "Rocket Launcher", 
+        "negative": []
+    }, 
+    "48": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Mining Light", 
+        "negative": []
+    }, 
+    "49": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Football Helmet", 
+        "negative": []
+    }, 
+    "46": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Lunch Box", 
+        "description": "Bonk! Atomic Punch", 
+        "negative": []
+    }, 
+    "47": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Hat", 
+        "description": "Demoman's Fro", 
+        "negative": []
+    }, 
+    "44": {
+        "positive": [
+            "This bat knocks out a mean stun ball"
+        ], 
+        "alt": "", 
+        "type": "Bat", 
+        "description": "The Sandman", 
+        "negative": [
+            "16.01 max health on wearer"
+        ]
+    }, 
+    "45": {
+        "positive": [
+            "Knockback on the target and shooter", 
+            "+%s1% faster firing speed", 
+            "+%s1% bullets per shot"
+        ], 
+        "alt": "", 
+        "type": "Scattergun", 
+        "description": "The Force-A-Nature", 
+        "negative": [
+            "%s1% clip size", 
+            "%s1% damage done"
+        ]
+    }, 
+    "42": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Lunch Box", 
+        "description": "The Sandvich", 
+        "negative": []
+    }, 
+    "43": {
+        "positive": [
+            "On Kill: %s1 seconds of 100% critical chance"
+        ], 
+        "alt": "", 
+        "type": "Fists", 
+        "description": "The Killing Gloves of Boxing", 
+        "negative": [
+            "%s1% slower firing speed"
+        ]
+    }, 
+    "40": {
+        "positive": [
+            "100\u0000ritical hits from behind"
+        ], 
+        "alt": "", 
+        "type": "Flame Thrower", 
+        "description": "The Backburner", 
+        "negative": [
+            "No random critical hits", 
+            "No compression blast"
+        ]
+    }, 
+    "41": {
+        "positive": [
+            "On Hit: %s1% chance to slow target"
+        ], 
+        "alt": "", 
+        "type": "Minigun", 
+        "description": "Natascha", 
+        "negative": [
+            "%s1% damage done"
+        ]
+    }, 
+    "1": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Bottle", 
+        "description": "Bottle", 
+        "negative": []
+    }, 
+    "5": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Fists", 
+        "description": "Fists", 
+        "negative": []
+    }, 
+    "9": {
+        "positive": [], 
+        "alt": "", 
+        "type": "Shotgun", 
+        "description": "Shotgun", 
+        "negative": []
+    }
 }

@@ -1,0 +1,19 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+
+"""
+from source_text import parse
+
+
+def main(prefix):
+    for key, item in parse('items_game.txt')['items_game']['items'].iteritems():
+	src = item['image_inventory']
+	yield (key, prefix+src)
+
+
+if __name__ == '__main__':
+    fmt = "cp %s.png %s.png"
+    for key, image_file in  main("/home/troy/pkg/incoming/output/"):
+	print fmt % (image_file, key)
+

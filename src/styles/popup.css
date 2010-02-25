@@ -235,7 +235,7 @@ font-size:12pt;
 }
 
 
-#tooltip .level, #tooltip .alt, #tooltip .plus, #tooltip .minus {
+#tooltip .level, #tooltip .alt, #tooltip .positive, #tooltip .negative {
 font-family:"TF2secondary";
 font-size:11pt;
 }
@@ -251,12 +251,12 @@ color:#e4dbc4;
 }
 
 
-#tooltip .plus {
+#tooltip .positive {
 color:#8dbceb;
 }
 
 
-#tooltip .minus {
+#tooltip .negative {
 color:#eb3b3b;
 }
 

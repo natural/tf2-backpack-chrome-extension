@@ -192,7 +192,7 @@ function showToolTip(event) {
     var tooltip = $("#tooltip");
     tooltip.css({left:0, top:0});
     $("#tooltip .level").text("Level " + level + (levelType ? " " + levelType : ""));
-    $(["alt", "plus", "minus"]).each(function(index, key) {
+    $(["alt", "positive", "negative"]).each(function(index, key) {
 	var value = item[key];
 	if (value) {
 	    value = value.replace("\n", "<br>");
