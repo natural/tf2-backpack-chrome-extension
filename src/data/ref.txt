@@ -1,3 +1,5 @@
+steam json:  e.g., http://steamcommunity.com/profiles/<steam ID>/tfitems?json=1
+
 position values:
 
     0x8-CCC-SSSS where C = class bit and S = position bit

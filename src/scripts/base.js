@@ -49,10 +49,6 @@ function getTestXml()  { return localStorage.testXml || "" }
 function setTestXml(v) { localStorage.testXml = v }
 
 
-function getTestJson()  { return localStorage.testJson || "" }
-function setTestJson(v) { localStorage.testJson = v }
-
-
 function getBackpackViewUrl() {
     var id = getProfileId();
     return id ? urls.tf2Items + "profiles/" + id : urls.tf2Items;
@@ -74,11 +70,18 @@ function getXmlUrl() {
 }
 
 
-function getJsonUrl() {
-    // e.g., http://steamcommunity.com/profiles/<steam ID>/tfitems?json=1
-    if (getTestJson()) {
-	return chrome.extension.getURL(getTestJson());
-    }
-    var id = getProfileId();
-    return id ? urls.steamCommunity + "profiles/" + id + "/tfitems?json=1" : "";
+function setEnabledIcon() {
+    chrome.browserAction.setIcon({path:"images/icon.png"});
 }
+
+function setDisabledIcon() {
+    chrome.browserAction.setIcon({path:"images/icon_disabled.png"});
+}
+
+
+var colors = {
+    red:[208, 0, 24, 255],
+    blue:[51, 152, 197, 255],
+    green:[59, 174, 73, 255],
+    grey:[128, 128, 128, 255]
+};

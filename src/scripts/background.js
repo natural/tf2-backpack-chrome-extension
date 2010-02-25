@@ -1,233 +1,171 @@
-var backpackXml;                           // xml string passed back when messaged
-var animationFrames = 36;
-var animationSpeed = 10;                   // ms
-var canvas;
-var canvasContext;
-var rotation = 0;
-var requestFailureCount = 0;              // used for exponential backoff
-var requestTimeout = 1000 * 2;            // 5 seconds
-var pollIntervalMin = 1000 * 60;          // 1 minute
-var pollIntervalMax = 1000 * 60 * 60;     // 1 hour
-var loadingAnimation = new LoadingAnimation();
-var lastCount;
-var colors = {
-    red:[208, 0, 24, 255],
-    blue:[51, 152, 197, 255],
-    green:[59, 174, 73, 255],
-    grey:[128, 128, 128, 255]
-}
-
-function ease(x) {
-    return (1-Math.sin(Math.PI/2+x*Math.PI))/2;
-}
 
 
-function animateFlip() {
-    rotation += 1/animationFrames;
-    drawIconAtRotation();
-    if (rotation <= 1) {
-        setTimeout("animateFlip()", animationSpeed);
-    } else {
-        rotation = 0;
-	drawIconAtRotation();
-	//chrome.browserAction.setBadgeText({
-	//    text: unreadCount != "0" ? unreadCount : ""
-	//});
-	//chrome.browserAction.setBadgeBackgroundColor({color:colors.red});
+var spinAnimation = {
+    rotation: 0, frames: 48, speed: 15, canvas: null, context: null,
+
+    ease: function(x) {
+	return (1-Math.sin(Math.PI/2+x*Math.PI))/2;
+    },
+
+    next: function() {
+	this.rotation += 1/this.frames;
+	this.draw();
+	if (this.rotation <= 1) {
+	    setTimeout("spinAnimation.next()", this.speed);
+	} else {
+	    this.rotation = 0;
+	    this.draw();
+	}
+    },
+
+    draw: function() {
+	var ceil = Math.ceil;
+	var w = this.canvas.width;
+	var h = this.canvas.height;
+	var context = this.context;
+	context.save();
+	context.clearRect(0, 0, w, h);
+	context.translate(ceil(w/2), ceil(h/2));
+	context.rotate(2*Math.PI*this.ease(this.rotation));
+	context.drawImage(this.icon, -ceil(w/2), -ceil(h/2));
+	context.restore();
+	chrome.browserAction.setIcon({imageData:context.getImageData(0, 0, w,h)});
     }
-}
+};
 
 
-function drawIconAtRotation() {
-    canvasContext.save();
-    canvasContext.clearRect(0, 0, canvas.width, canvas.height);
-    canvasContext.translate(
-	Math.ceil(canvas.width/2),
-	Math.ceil(canvas.height/2)
-			    );
-    canvasContext.rotate(2*Math.PI*ease(rotation));
-    canvasContext.drawImage(
-	tf2icon,
-	-Math.ceil(canvas.width/2),
-	-Math.ceil(canvas.height/2)
-			    );
-    canvasContext.restore()
-    chrome.browserAction.setIcon(
-	{imageData:canvasContext.getImageData(0, 0, canvas.width,canvas.height)}
-				 );
-}
+var feedDriver = {
+    failures: 0, timeout: 1000*5, pollMin: 1000*60, pollMax: 1000*60*5,
+    lastCount: 0, url: getXmlUrl,
 
-
-function LoadingAnimation() {
-    this.timerId_ = 0;
-    this.maxCount_ = 8;  // Total number of states in animation
-    this.current_ = 0;   // Current state
-    this.maxDot_ = 4;    // Max number of dots in animation
-}
-
-
-LoadingAnimation.prototype.paintFrame = function() {
-    var text = "";
-    for (var i = 0; i < this.maxDot_; i++) {
-        text += (i == this.current_) ? "." : " ";
-    }
-    if (this.current_ >= this.maxDot_) {
-        text += "";
-    }
-    chrome.browserAction.setBadgeText({text:text})
-    this.current_++
-    if (this.current_ == this.maxCount_) {
-        this.current_ = 0
-	    };
-}
-
-
-LoadingAnimation.prototype.start = function() {
-    if (this.timerId_) {
-	return;
-    }
-    var self = this;
-    this.timerId_ = window.setInterval(function() { self.paintFrame() }, 100);
-}
-
-
-LoadingAnimation.prototype.stop = function() {
-    if (!this.timerId_) {
-        return;
-    }
-    window.clearInterval(this.timerId_)
-    this.timerId_ = 0;
-}
-
-
-function updateNewItemCount(count, color) {
-    //console.log(count, color);
-    if (count != lastCount) {
-	lastCount = count;
-	animateFlip();
-	count = count.toString();
-	count = count ? count : "0";
-	chrome.browserAction.setBadgeText({text:count == "0" ? "" : count});
-	chrome.browserAction.setBadgeBackgroundColor(
-	    {color:color == null ? colors.blue : color}
-	);
-    }
-}
-
-
-function startItemCheck() {
-    getBackpackFeed(
-        function(nonHatCount, hatCount, doc) {
-            setEnabledIcon();
-            loadingAnimation.stop();
-            updateNewItemCount(nonHatCount + hatCount, hatCount > 0 ? colors.green : null);
-	    backpackXml = doc;
-	    setCachedXml(doc);
-            scheduleCheck();
-	    //console.log("checked");
-        },
-        function() {
-            loadingAnimation.stop();
-            // showLoggedOut()
-            scheduleCheck();
-        }
-    )
-}
-
-
-function getBackpackFeed(onSuccess, onError) {
-    var request = new XMLHttpRequest();
-    var requestAbort = function() { request.abort() };
-    var abortTimerId = window.setTimeout(requestAbort, requestTimeout);
-
-    function handleSuccess(nonCount, hatCount, doc) {
-        requestFailureCount = 0;
-        window.clearTimeout(abortTimerId);
-        if (onSuccess) { onSuccess(nonCount, hatCount, doc) }
-    }
-
-    function handleError() {
-        ++requestFailureCount;
-        window.clearTimeout(abortTimerId);
-        if (onError) { onError() }
-    }
-
-    try {
-        request.onreadystatechange = function() {
-            if (request.readyState != 4) {
-		return;
-	    }
-	    /*
-		gtxt = eval("(" + txt + ")");
-		$.each(gtxt, function(key, value) {
-		    if (value.inventory=="0") {
-			// if hat..
-			nonCount += 1;
-		    }
-	    */
-            if (request.responseXML) {
-		var hatCount = parseInt($("totalJustFound hats", request.responseXML).text());
-		var nonCount = parseInt($("totalJustFound nonHats", request.responseXML).text());
-		hatCount = hatCount ? hatCount : 0;
-		nonCount = nonCount ? nonCount : 0;
-                handleSuccess(nonCount, hatCount, request.responseText);
-                return;
+    start: function() {
+	feedDriver.get(
+	    function(nonHatCount, hatCount, doc) {
+                setEnabledIcon();
+                loadingAnimation.stop();
+                feedDriver.update(nonHatCount + hatCount, hatCount > 0 ? colors.green : null);
+	        setCachedXml(doc);
+                feedDriver.schedule();
+	        console.log("checked");
+            },
+            function() {
+                loadingAnimation.stop();
+                // showLoggedOut()
+                feedDriver.schedule();
             }
-            handleError();
+        )
+    },
+
+    schedule: function () {
+	var rnd = Math.random() * 2;
+	var exp = Math.pow(2, this.failures);
+	var delay = Math.round(Math.min(rnd * this.pollMin * exp, this.pollMax));
+	window.setTimeout(this.start, delay);
+    },
+
+    update: function(count, color) {
+	if (count != this.lastCount) {
+	    this.lastCount = count;
+	    spinAnimation.next();
+	    count = count.toString();
+	    count = count ? count : "0";
+	    chrome.browserAction.setBadgeText({text:count == "0" ? "" : count});
+	    chrome.browserAction.setBadgeBackgroundColor(
+                {color:color == null ? colors.blue : color}
+	    );
         }
-        request.onerror = function(error) { handleError() }
-        var url = getXmlUrl();
-        if (url != "") {
-            request.open("GET", getXmlUrl(), true);
-            request.send(null);
-        }
-    } catch(e) {
-        console.error(e);
-        handleError();
-    }
-}
+    },
 
 
-function scheduleCheck() {
-    var randomness = Math.random() * 2;
-    var exponent = Math.pow(2, requestFailureCount);
-    var delay = Math.min(randomness * pollIntervalMin * exponent,
-                         pollIntervalMax);
-    delay = Math.round(delay);
-    window.setTimeout(startItemCheck, delay);
-}
+    get: function(onSuccess, onError) {
+	var req = new XMLHttpRequest();
+	var abortTimerId = window.setTimeout(req.abort, this.timeout);
+	var self = this;
 
+	function handleSuccess(nonCount, hatCount, doc) {
+	    this.failures = 0;
+	    window.clearTimeout(abortTimerId);
+	    if (onSuccess) { onSuccess(nonCount, hatCount, doc) }
+	}
 
-function setEnabledIcon() {
-    chrome.browserAction.setIcon({path:"images/icon.png"});
-}
+	function handleError() {
+	    ++this.failures;
+	    window.clearTimeout(abortTimerId);
+	    if (onError) { onError() }
+	}
 
-function setDisabledIcon() {
-    chrome.browserAction.setIcon({path:"images/icon_disabled.png"});
-    updateNewItemCount("?", colors.grey);
-}
+	try {
+	    req.onreadystatechange = function() {
+		if (req.readyState != 4) {
+		    return;
+		}
+		var xml = req.responseXML;
+		if (xml) {
+		    var hatCount = parseInt($("totalJustFound hats", xml).text());
+		    var nonCount = parseInt($("totalJustFound nonHats", xml).text());
+		    hatCount = hatCount ? hatCount : 0;
+		    nonCount = nonCount ? nonCount : 0;
+		    handleSuccess(nonCount, hatCount, req.responseText);
+		    return;
+		}
+		handleError();
+	    }
+	    req.onerror = function(error) { handleError() }
+	    var url = this.url();
+	    if (url) {
+		req.open("GET", url, true);
+		req.send(null);
+	    }
+	} catch(e) {
+	    console.error(e);
+	    handleError();
+	}
+    },
+
+};
+
+var loadingAnimation = {
+    timerId: 0, maxCount: 6, current: 0, maxDot: 3,
+
+    draw: function() {
+	var text = "";
+	for (var i = 0; i < this.maxDot; i++) {
+	    text += (i == this.current) ? "." : " ";
+	}
+	if (this.current >= this.maxDot) {
+	    text += "";
+	}
+	chrome.browserAction.setBadgeText({text:text})
+	if (++this.current == this.maxCount) {
+	    this.current = 0
+	};
+    },
+
+    start: function() {
+	if (!getProfileId()) {
+	    return
+	}
+	if (!this.timerId) {
+	    var ani = this;
+	    this.timerId = window.setInterval(function() { ani.draw() }, 100);
+	}
+    },
+
+    stop: function() {
+	if (this.timerId) {
+	    window.clearInterval(this.timerId)
+	    this.timerId = 0;
+	}
+    },
+};
 
 
 function backgroundInit() {
-    canvas = document.getElementById("canvas");
-    tf2icon = document.getElementById("tf2icon");
-    canvasContext = canvas.getContext("2d");
-    updateNewItemCount("", colors.grey);
-    setDisabledIcon();
-    if (getProfileId() != "") {
-	loadingAnimation.start();
-    }
-    startItemCheck();
-
-    if (0) {
-    chrome.extension.onRequest.addListener(
-        function(request, sender, sendResponse) {
-            if (request.get == "backpackXml") {
-                sendResponse({doc:backpackXml});
-            } else {
-                sendResponse({});
-            }
-	});
-    console.log("extension background init 7");
-    }
+    spinAnimation.canvas = document.getElementById("canvas");
+    spinAnimation.context = spinAnimation.canvas.getContext("2d");
+    spinAnimation.icon = document.getElementById("tf2icon");
+    //setDisabledIcon();
+    loadingAnimation.start();
+    feedDriver.start();
+    console.log("backgroundInit(9)");
 }
