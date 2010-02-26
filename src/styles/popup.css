@@ -223,6 +223,7 @@ padding:1em;
 position:absolute;
 text-align:center;
 z-index:9002;
+overflow:hidden;
 }
 
 

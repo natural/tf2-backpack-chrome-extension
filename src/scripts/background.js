@@ -1,12 +1,16 @@
+/*
 
 
+*/
 var spinAnimation = {
     rotation: 0, frames: 48, speed: 15, canvas: null, context: null,
 
+    // nice
     ease: function(x) {
 	return (1-Math.sin(Math.PI/2+x*Math.PI))/2;
     },
 
+    // update for the next frame and call to redraw
     next: function() {
 	this.rotation += 1/this.frames;
 	this.draw();
@@ -18,6 +22,7 @@ var spinAnimation = {
 	}
     },
 
+    // draw the current frame
     draw: function() {
 	var ceil = Math.ceil;
 	var w = this.canvas.width;
@@ -34,28 +39,15 @@ var spinAnimation = {
 };
 
 
+/*
+
+*/
 var feedDriver = {
     failures: 0, timeout: 1000*5, pollMin: 1000*60, pollMax: 1000*60*5,
-    lastCount: 0, url: getXmlUrl,
+    lastCount: 0, url: getXmlUrl, timeoutId:null, hatCount:0, nonCount:0,
+    lastText:null, lastXml:null,
 
-    start: function() {
-	feedDriver.get(
-	    function(nonHatCount, hatCount, doc) {
-                setEnabledIcon();
-                loadingAnimation.stop();
-                feedDriver.update(nonHatCount + hatCount, hatCount > 0 ? colors.green : null);
-	        setCachedXml(doc);
-                feedDriver.schedule();
-	        console.log("checked");
-            },
-            function() {
-                loadingAnimation.stop();
-                // showLoggedOut()
-                feedDriver.schedule();
-            }
-        )
-    },
-
+    // pause and then fetch
     schedule: function () {
 	var rnd = Math.random() * 2;
 	var exp = Math.pow(2, this.failures);
@@ -63,6 +55,7 @@ var feedDriver = {
 	window.setTimeout(this.start, delay);
     },
 
+    // move this into onSuccess
     update: function(count, color) {
 	if (count != this.lastCount) {
 	    this.lastCount = count;
@@ -76,53 +69,72 @@ var feedDriver = {
         }
     },
 
-
-    get: function(onSuccess, onError) {
-	var req = new XMLHttpRequest();
-	var abortTimerId = window.setTimeout(req.abort, this.timeout);
+    // begin a new xhr request for the backpack feed
+    start: function() {
+	var url = this.url();
+	if (!url) {
+	    self.onError();
+	    return;
+	}
 	var self = this;
-
-	function handleSuccess(nonCount, hatCount, doc) {
-	    this.failures = 0;
-	    window.clearTimeout(abortTimerId);
-	    if (onSuccess) { onSuccess(nonCount, hatCount, doc) }
+	var req = new XMLHttpRequest();
+	var abort = function() {
+	    console.log('xhr request aborted');
+	    req.abort();
 	}
-
-	function handleError() {
-	    ++this.failures;
-	    window.clearTimeout(abortTimerId);
-	    if (onError) { onError() }
-	}
-
+	var timeoutId  = this.timeoutId = window.setTimeout(abort, this.timeout);
 	try {
+	    req.onerror = self.onError;
 	    req.onreadystatechange = function() {
-		if (req.readyState != 4) {
-		    return;
+		if (req.readyState == 4) {
+		    console.log("xhr request ready");
+		    var xml = req.responseXML;
+		    if (xml) {
+			self.lastXml = xml;
+			self.lastText = req.responseText;
+			self.onSuccess();
+			return;
+		    }
+		    self.onError();
 		}
-		var xml = req.responseXML;
-		if (xml) {
-		    var hatCount = parseInt($("totalJustFound hats", xml).text());
-		    var nonCount = parseInt($("totalJustFound nonHats", xml).text());
-		    hatCount = hatCount ? hatCount : 0;
-		    nonCount = nonCount ? nonCount : 0;
-		    handleSuccess(nonCount, hatCount, req.responseText);
-		    return;
-		}
-		handleError();
 	    }
-	    req.onerror = function(error) { handleError() }
-	    var url = this.url();
-	    if (url) {
-		req.open("GET", url, true);
-		req.send(null);
-	    }
+	    req.open("GET", url, true);
+	    req.send(null);
 	} catch(e) {
 	    console.error(e);
-	    handleError();
+	    self.onError();
 	}
     },
 
+    onSuccess: function() {
+	this.failures = 0;
+	window.clearTimeout(this.timeoutId);
+	var xml = this.lastXml;
+	var hatCount = parseInt($("totalJustFound hats", xml).text());
+	var nonCount = parseInt($("totalJustFound nonHats", xml).text());
+	hatCount = hatCount ? hatCount : 0;
+	nonCount = nonCount ? nonCount : 0;
+	this.hatCount = hatCount;
+	this.nonCount = nonCount;
+	setEnabledIcon();
+        loadingAnimation.stop();
+
+	// move update into this func.
+        this.update(nonCount + hatCount, hatCount > 0 ? colors.green : null);
+	setCachedXml(this.lastText);
+	this.schedule();
+	console.log("checked");
+    },
+
+    onError: function(e) {
+	this.failures++;
+	window.clearTimeout(this.timeoutId);
+        loadingAnimation.stop();
+        // showLoggedOut()
+        this.schedule();
+    }
 };
+
 
 var loadingAnimation = {
     timerId: 0, maxCount: 6, current: 0, maxDot: 3,
@@ -142,6 +154,7 @@ var loadingAnimation = {
     },
 
     start: function() {
+	setDisabledIcon();
 	if (!getProfileId()) {
 	    return
 	}
@@ -164,8 +177,7 @@ function backgroundInit() {
     spinAnimation.canvas = document.getElementById("canvas");
     spinAnimation.context = spinAnimation.canvas.getContext("2d");
     spinAnimation.icon = document.getElementById("tf2icon");
-    //setDisabledIcon();
     loadingAnimation.start();
     feedDriver.start();
-    console.log("backgroundInit(9)");
+    console.log("backgroundInit(10)");
 }

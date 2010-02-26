@@ -189,9 +189,7 @@ function showToolTip(event) {
 	return;
     }
     var tooltip = $("#tooltip");
-    tooltip.css({left:0, top:0});
-
-    // change the title and level text
+    tooltip.hide().css({left:0, top:0});
     $("#tooltip h4").text(item.description).removeClass("valve community");
     $("#tooltip .level").text("Level " + level + (levelType ? " " + levelType : ""));
 
@@ -228,19 +226,22 @@ function showToolTip(event) {
 	    $("#tooltip ." + key).text("").hide();
 	}
     });
-
+    tooltip.show().hide();
     // position and show the tooltip
     var pos = cell.position();
     var minleft = cell.parent().position().left;
-    var left = pos.left - tooltip.width()/2 + cell.width()/2 - 10;
+    var cellw = cell.width();
+    var toolw = tooltip.width();
+    var left = pos.left - (toolw/2.0) + (cellw/2.0) - 4; // 4 == half border?
     left = left < minleft ? minleft : left;
     var maxright = cell.parent().position().left + cell.parent().width();
-    if (left + tooltip.width() > maxright) {
-	left = cell.position().left + cell.width() - tooltip.width() - 12;
+    if (left + toolw > maxright) {
+    	left = cell.position().left + cellw - toolw - 12;
     }
+    left = left < 0 ? (window.innerWidth/2)-toolw/2 : left;
     var top = pos.top + cell.height() + 12;
-    if ((top + tooltip.height()) > document.body.clientHeight) {
-	top = pos.top - tooltip.height() - 36;
+    if (top + tooltip.height() > (window.innerHeight+window.scrollY)) {
+    	top = pos.top - tooltip.height() - 36;
     }
     tooltip.css({left:left, top:top});
     tooltip.show();
