@@ -14,7 +14,7 @@ function isTF2ItemsUrl(url) {
 
 
 function isSteamCommunityProfileUrl(url) {
-    var urlProfile = urls.steamCommunity + "profiles/" + getProfileId();
+    var urlProfile = urls.steamCommunity + "profiles/" + storage.profileId();
     return (url.indexOf(urlProfile) == 0);
 }
 
@@ -94,7 +94,7 @@ function putInfo(xml) {
 
 
 function loadAndShowBackpack() {
-    var xml = getCachedXml();
+    var xml = storage.cachedFeed();
     if (xml) {
 	backpack.items = (new DOMParser()).parseFromString(xml, "text/xml");
 	putImages(backpack.items);
@@ -298,7 +298,7 @@ function itemClicked(event) {
 function popupInit() {
     pages.count = $("#backpack tbody").length;
 
-    if (!getProfileId()) {
+    if (!storage.profileId()) {
         $("body > *:not(#unknownProfile)").hide()
 	$("#unknownProfile").show();
 	optionsAltInit();

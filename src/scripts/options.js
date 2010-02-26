@@ -13,7 +13,7 @@ function markClean() {
 
 function save() {
     var newProfileId = $("#profileId").attr("value");
-    if (newProfileId != getProfileId()) {
+    if (newProfileId != storage.profileId()) {
 	var lookupId = lookupProfileId(newProfileId);
 	if (!lookupId) {
 	    $("#profileId").select().focus();
@@ -30,11 +30,9 @@ function save() {
 		    .fadeOut();
 	    }
 	    $("#profileId").attr("value", lookupId);
-	    setProfileId(lookupId);
+	    storage.profileId(lookupId);
 	}
     }
-    //setSaveLocal($("input[name=saveLocal]:checked").attr("value"));
-    //setDebug($("input[name=debug]:checked").attr("value"));
     //markClean();
     chrome.extension.getBackgroundPage().backgroundInit();
     if (alsoRefresh) {
@@ -47,7 +45,7 @@ function save() {
 
 
 function optionsInit() {
-    $("#profileId").attr("value", getProfileId());
+    $("#profileId").attr("value", storage.profileId());
     $("#profileId").change(markDirty);
     $("#saveButton").click(save);
     $("#cancelButton").click(optionsInit);
@@ -57,7 +55,7 @@ function optionsInit() {
 
 function optionsAltInit() {
     alsoRefresh = true;
-    $("#profileId").attr("value", getProfileId());
+    $("#profileId").attr("value", storage.profileId());
     $("#profileId").change(markDirty);
     $("#saveButton").click(save);
     $("#cancelButton").click(optionsAltInit);

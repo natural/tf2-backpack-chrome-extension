@@ -1,11 +1,13 @@
 /*
 
+animation to spin the badge icon; based on the gmail checker
+extension.
 
 */
-var spinAnimation = {
+var iconTool = {
     rotation: 0, frames: 48, speed: 15, canvas: null, context: null,
 
-    // nice
+    // nice easing
     ease: function(x) {
 	return (1-Math.sin(Math.PI/2+x*Math.PI))/2;
     },
@@ -15,7 +17,7 @@ var spinAnimation = {
 	this.rotation += 1/this.frames;
 	this.draw();
 	if (this.rotation <= 1) {
-	    setTimeout("spinAnimation.next()", this.speed);
+	    setTimeout("iconTool.next()", this.speed);
 	} else {
 	    this.rotation = 0;
 	    this.draw();
@@ -25,17 +27,24 @@ var spinAnimation = {
     // draw the current frame
     draw: function() {
 	var ceil = Math.ceil;
-	var w = this.canvas.width;
-	var h = this.canvas.height;
+	var width = this.canvas.width;
+	var height = this.canvas.height;
 	var context = this.context;
 	context.save();
-	context.clearRect(0, 0, w, h);
-	context.translate(ceil(w/2), ceil(h/2));
+	context.clearRect(0, 0, width, height);
+	context.translate(ceil(width/2), ceil(height/2));
 	context.rotate(2*Math.PI*this.ease(this.rotation));
-	context.drawImage(this.icon, -ceil(w/2), -ceil(h/2));
+	context.drawImage(this.icon, -ceil(width/2), -ceil(height/2));
 	context.restore();
-	chrome.browserAction.setIcon({imageData:context.getImageData(0, 0, w,h)});
-    }
+	chrome.browserAction.setIcon(
+	    {imageData: context.getImageData(0, 0, width, height)}
+	);
+    },
+
+    enabled: function(v) {
+	var ico = v ? "images/icon.png" : "images/icon_disabled.png";
+	chrome.browserAction.setIcon({path:ico});
+    },
 };
 
 
@@ -55,34 +64,21 @@ var feedDriver = {
 	window.setTimeout(this.start, delay);
     },
 
-    // move this into onSuccess
-    update: function(count, color) {
-	if (count != this.lastCount) {
-	    this.lastCount = count;
-	    spinAnimation.next();
-	    count = count.toString();
-	    count = count ? count : "0";
-	    chrome.browserAction.setBadgeText({text:count == "0" ? "" : count});
-	    chrome.browserAction.setBadgeBackgroundColor(
-                {color:color == null ? colors.blue : color}
-	    );
-        }
-    },
-
     // begin a new xhr request for the backpack feed
     start: function() {
-	var url = this.url();
+	var self = feedDriver;
+	var url = self.url();
 	if (!url) {
 	    self.onError();
 	    return;
 	}
-	var self = this;
+
 	var req = new XMLHttpRequest();
 	var abort = function() {
 	    console.log('xhr request aborted');
 	    req.abort();
 	}
-	var timeoutId  = this.timeoutId = window.setTimeout(abort, this.timeout);
+	var timeoutId  = self.timeoutId = window.setTimeout(abort, self.timeout);
 	try {
 	    req.onerror = self.onError;
 	    req.onreadystatechange = function() {
@@ -116,12 +112,20 @@ var feedDriver = {
 	nonCount = nonCount ? nonCount : 0;
 	this.hatCount = hatCount;
 	this.nonCount = nonCount;
-	setEnabledIcon();
-        loadingAnimation.stop();
-
-	// move update into this func.
-        this.update(nonCount + hatCount, hatCount > 0 ? colors.green : null);
-	setCachedXml(this.lastText);
+	iconTool.enabled(true);
+        textTool.stop();
+	var count = hatCount + nonCount
+	if (count != this.lastCount) {
+	    this.lastCount = count;
+	    iconTool.next();
+	    count = count.toString();
+	    count = count ? count : "0";
+	    chrome.browserAction.setBadgeText({text:count == "0" ? "" : count});
+	    chrome.browserAction.setBadgeBackgroundColor(
+                {color:hatCount > 0 ? colors.blue : colors.green}
+	    );
+        }
+	storage.cachedFeed(this.lastText);
 	this.schedule();
 	console.log("checked");
     },
@@ -129,14 +133,14 @@ var feedDriver = {
     onError: function(e) {
 	this.failures++;
 	window.clearTimeout(this.timeoutId);
-        loadingAnimation.stop();
+        textTool.stop();
         // showLoggedOut()
         this.schedule();
     }
 };
 
 
-var loadingAnimation = {
+var textTool = {
     timerId: 0, maxCount: 6, current: 0, maxDot: 3,
 
     draw: function() {
@@ -154,8 +158,8 @@ var loadingAnimation = {
     },
 
     start: function() {
-	setDisabledIcon();
-	if (!getProfileId()) {
+	iconTool.enabled(false);
+	if (!storage.profileId()) {
 	    return
 	}
 	if (!this.timerId) {
@@ -174,10 +178,10 @@ var loadingAnimation = {
 
 
 function backgroundInit() {
-    spinAnimation.canvas = document.getElementById("canvas");
-    spinAnimation.context = spinAnimation.canvas.getContext("2d");
-    spinAnimation.icon = document.getElementById("tf2icon");
-    loadingAnimation.start();
+    iconTool.canvas = document.getElementById("canvas");
+    iconTool.context = iconTool.canvas.getContext("2d");
+    iconTool.icon = document.getElementById("tf2icon");
+    textTool.start();
     feedDriver.start();
     console.log("backgroundInit(10)");
 }
