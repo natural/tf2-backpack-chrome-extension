@@ -11,9 +11,24 @@ var urls = {
     tf2Items:"http://www.tf2items.com/",
     steamCommunity:"http://steamcommunity.com/",
     sourceOp:"http://www.sourceop.com/",
+
+    profile: function () {
+	if (storage.testFeed()) {
+	    return chrome.extension.getURL(storage.testFeed());
+	}
+	var id = storage.profileId();
+	return id ? urls.tf2Items + "packxml.php?profileid=" + id : "";
+    },
 };
+
+
 urls.profileSearch = urls.tf2Items + "search.php?tf2items_q=";
 urls.pnatural = urls.steamCommunity + "profiles/76561197992805111";
+
+
+var profile = {
+    // lookup, url, etc.
+}
 
 
 function lookupProfileId(v) {
@@ -81,10 +96,7 @@ function getProfileUrl() {
 }
 
 
-function getXmlUrl() {
-    if (storage.testFeed()) {
-	return chrome.extension.getURL(storage.testFeed());
-    }
-    var id = storage.profileId();
-    return id ? urls.tf2Items + "packxml.php?profileid=" + id : "";
+function textNodeInt(selector, xml) {
+    v = parseInt($(selector, xml).text());
+    return v ? v : 0;
 }
