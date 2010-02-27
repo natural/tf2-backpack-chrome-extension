@@ -233,30 +233,35 @@ var textTool = {
 	if (typeof(color) == "object") {
 	    chrome.browserAction.setBadgeBackgroundColor({color: color});
 	}
-    }
+    },
+
 };
 
 
+function feedListener(request, sender, response) {
+    var r = {};
+    switch (request.type) {
+    case "feedParams":
+        r = feedDriver.toJSON();
+        break;
+    case "feedRefresh":
+	feedDriver.schedule(0);
+	r = feedDriver.toJSON();
+	break;
+    }
+    response(r);
+}
+
+
 function backgroundInit() {
-    iconTool.canvas = document.getElementById("canvas");
+    iconTool.canvas = $("#canvas")[0];
     iconTool.context = iconTool.canvas.getContext("2d");
-    iconTool.icon = document.getElementById("tf2icon");
-
+    iconTool.icon = $("#tf2icon")[0];
     iconTool.enabled(false);
+
     textTool.start(colors.grey);
-
     feedDriver.start();
-    console.log("backgroundInit(10)");
 
-    chrome.extension.onRequest.addListener(function(request, sender, sendResponse) {
-	if (request.type == "feedParams") {
-	    sendResponse(feedDriver.toJSON());
-	} else if (request.type == "feedRefresh") {
-	    feedDriver.schedule(0);
-	    sendResponse({});
-	} else {
-	    sendResponse({});
-	}
-    });
+    chrome.extension.onRequest.addListener(feedListener);
 
 }

@@ -76,27 +76,25 @@
                     <tr><td id="c96"><div></div></td><td id="c97"><div></div></td><td id="c98"><div></div></td><td id="c99"><div></div></td><td id="c100"><div></div></td></tr>
 		</tbody>
             </table>
-	    <div id="nav">
-		<span class="nonav">&lt;</span>
-		<span class="nav"><a href="#">&lt;</a></span>
-		<span id="pages">1/4</span>
-		<span class="nonav">&gt;</span>
-		<span class="nav"><a href="#">&gt;</a></span>
+
+	    <div id="toolbar">
+		<div id="controls">
+		    <a href="#" onclick="refreshPopup()">Refresh</a>
+		    <a href="#" onclick="showOptions()">Options</a>
+		    <a href="#" onclick="showStats()">Stats</a>
+		</div>
+
+		<div id="nav">
+		    <span class="nonav">&lt;</span>
+		    <span class="nav"><a href="#">&lt;</a></span>
+		    <span id="pages">1/4</span>
+		    <span class="nonav">&gt;</span>
+		    <span class="nav"><a href="#">&gt;</a></span>
+		</div>
 	    </div>
 
-
-        </div>
-	<hr class="footer" />
-
-
-	<div id="footer">
-	    <div id="controls">
-		<a id="refresh" href="#">Refresh</a>
-		<a href="#">Options</a>
-		<a href="#">Stats</a>
-	    </div>
-
-	    <table id="metrics" class="centered" style="display:none">
+	<div id="stats" style="display:none">
+	    <table id="metrics" class="centered">
 		<tr>
 		    <td>Total Items:<br /> OOO</td>
 		    <td>Normal Items:<br /> OOO</td>
@@ -114,8 +112,15 @@
 		    <td>From Cache?</td>
 		    <td>NN</td>
 		</tr>
-
 	    </table>
+	</div>
+
+
+        </div>
+	<hr class="footer" />
+
+
+	<div id="footer">
 	    <div class="links">
 		<a href="#" onclick="showExternalBackpack()">View Backpack</a> at TF2Items.com
 		<br />

@@ -88,6 +88,7 @@ function putInfo(xml) {
     $("#steamID a").text($("steamID", xml).text());
     var avatarUrl = $("avatarFull", xml).text();
     if (avatarUrl) {
+	$("#avatar img").fadeOut().remove();
 	$("#avatar").append("<img src='" + avatarUrl + "' />");
     }
 }
@@ -100,15 +101,6 @@ function loadAndShowBackpack() {
 	putImages(backpack.items);
 	putInfo(backpack.items);
     } // else handle empty...
-    if (0) {
-    chrome.extension.sendRequest({get:"backpackXml"},
-        function(response) {
-            backpack.items = (new DOMParser()).parseFromString(response.doc, "text/xml");
-	    putImages(backpack.items);
-	    putInfo(backpack.items);
-	}
-    )
-    }
 }
 
 
@@ -154,6 +146,8 @@ function putOldItem(index, node) {
 
 
 function putImages(xml) {
+    $("#unplaced table.unplaced td img, #backpack table.backpack td img").fadeOut().remove();
+    $("span.equipped").fadeOut().remove();
     if (!xml) {
 	console.log("empty xml");
 	return;
@@ -273,9 +267,7 @@ function navUpdate() {
 
 
 function nav(event, offset) {
-    console.log('4')
     if (event.detail != 1) { return }
-
     if ((pages.current + offset) > 0 && (pages.current + offset <= pages.count)) {
 	$("#backpackPage-" + pages.current).fadeOut(250, function() {
 		pages.current += offset;
@@ -295,40 +287,53 @@ function itemClicked(event) {
 }
 
 
-function popupInit() {
-    pages.count = $("#backpack tbody").length;
+function refreshPopup(event) {
+    chrome.extension.sendRequest({type:"feedRefresh"}, function(response) {
+	loadAndShowBackpack();
+	pages.current = 1;
+	navUpdate();
+	console.log("refreshed", response);
+    });
+    return false;
+}
 
+
+function showOptions() {
+    chrome.tabs.create({url:"./options.html"});
+    window.close();
+    return false;
+}
+
+function showStats() {
+    $("#stats").fadeIn();
+    $("#controls a:contains('Stats')").fadeOut();
+    return false;
+}
+
+
+function popupInit() {
+    pages.count = $("#backpack table.backpack tbody").length;
     if (!storage.profileId()) {
         $("body > *:not(#unknownProfile)").hide()
 	$("#unknownProfile").show();
 	optionsAltInit();
     } else {
-
 	// when viewing the chrome extension page directly, the nav
 	// is squished without the max-check.  the -6 is a gimpy
         // adjustment for the table margin-padding-border.
-	$("#nav").css("width", -6 + Math.max(400, $("#backpack tr").width()));
+	$("#toolbar").css("width", -6 + Math.max(400, $("#backpack tr:first").width()));
 
 	loadItemData();
 	loadAndShowBackpack();
 	navUpdate();
 
 	$("table.backpack td").click(itemClicked);
-
 	$("table.backpack td, table.unplaced td")
-            .live('mouseenter', showToolTip)
-            .live('mouseleave', hideToolTip);
-
-	$(".nav:first a").live('click', function (e) { return nav(e, -1); });
-	$(".nav:last a").live('click', function (e) { return nav(e, 1); });
+            .live("mouseenter", showToolTip)
+            .live("mouseleave", hideToolTip);
+	$(".nav:first a").live("click", function (e) { return nav(e, -1); });
+	$(".nav:last a").live("click", function (e) { return nav(e, 1); });
         $("body").mousedown(function(){return false}) //disable text selection
-
-	$("#refresh").click(function(e) {
-	    chrome.extension.sendRequest({type:"feedRefresh"}, function(response) {
-		location.reload();
-		console.log('refreshing');
-	    })
-	});
-
     }
+    //var params = chrome.extension.sendRequest({type:'feedParams'}, function(v){console.log(v) });
 }
