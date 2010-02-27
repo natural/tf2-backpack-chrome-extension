@@ -10,7 +10,6 @@
     <body onload="popupInit()">
 
 	<div id="unknownProfile">
-
 	    <h1>Profile ID Not Set!</h1>
             <p>To use TF2 Backpack Viewer, enter your community name or profile id here.</p>
 	    <input type="text" id="profileId" />
@@ -30,7 +29,8 @@
 	    <div class="negative">negative text</div>
 	</span>
 	<div id="info">
-	    <h2>Backpack for
+	    <div id="error" style="display:none;">error!</div>
+	    <h2>Character Info for
 		<span id="steamID">
 		    <a href="#" onclick="showSteamProfile()"></a>
 	        </span>
@@ -39,7 +39,7 @@
 	</div>
 	<hr class="info" />
         <div id="unplaced" style="display:none">
-	    <h1><span class="hilite"></span>Unplaced Items</h1>
+	    <h1><span class="hilite"></span>New Items</h1>
             <table class="unplaced centered"></table>
         </div>
 	<hr class="unplaced" style="display:none" />
@@ -83,16 +83,50 @@
 		<span class="nonav">&gt;</span>
 		<span class="nav"><a href="#">&gt;</a></span>
 	    </div>
+
+
         </div>
 	<hr class="footer" />
+
+
 	<div id="footer">
-	    <div>
-		<a href="#" onclick="showExternalBackpack()">View Backpack</a> at TF2Items.com<br />
-		<a href="#" onclick="showSteamProfile()">View Profile</a>
-		at the Steam Community<br /><br />
-		Powered by <a href="#" onclick="showSourceOp()">SourceOP.com</a><br />
-		Extension written by <a href="#" onclick="showPnaturalProfile()">pnatural</a>
+	    <div id="controls">
+		<a id="refresh" href="#">Refresh</a>
+		<a href="#">Options</a>
+		<a href="#">Stats</a>
+	    </div>
+
+	    <table id="metrics" class="centered" style="display:none">
+		<tr>
+		    <td>Total Items:<br /> OOO</td>
+		    <td>Normal Items:<br /> OOO</td>
+		    <td>Hats:<br /> QQQ</td>
+		    <td>Misc:<br /> QQQ</td>
+		    <td>Metal Count: OOO <br />(Value: PPP)</td>
+		</tr>
+		<tr>
+		    <td>Last Fetch:<br /> NNN</td>
+		    <td>Next Fetch:<br /> OOO</td>
+		    <td>Request Time:<br /> RRR</td>
+		</tr>
+		<tr>
+    		    <td>Profile Views:<br /> NNN</td>
+		    <td>From Cache?</td>
+		    <td>NN</td>
+		</tr>
+
+	    </table>
+	    <div class="links">
+		<a href="#" onclick="showExternalBackpack()">View Backpack</a> at TF2Items.com
+		<br />
+		<a href="#" onclick="showSteamProfile()">View Profile</a> at the Steam Community
+		<br />
+		Powered by <a href="#" onclick="showSourceOp()">SourceOP.com</a>
+		<br />
+		Extension by <a href="#" onclick="showPnaturalProfile()">pnatural</a>
 	    </div>
 	</div>
+
+
     </body>
 </html>

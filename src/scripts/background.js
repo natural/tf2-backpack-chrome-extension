@@ -70,6 +70,7 @@ var feedDriver = {
     requestError: null,
     requestFails: 0,
     requestOkays: 0,
+    scheduleId: null,
     timeoutId: null,
     timeoutMin: 1000*10,
 
@@ -89,10 +90,13 @@ var feedDriver = {
 	if (typeof(delay) == "undefined") {
 	    var rnd = Math.random() * 2;
 	    var exp = Math.pow(2, this.requestBackoff);
-	    delay = Math.round(Math.max(this.pollMin, Math.min(rnd * this.pollMin * exp, this.pollMax)));
+	    delay = Math.min(this.pollMax, rnd * this.pollMin * exp);
+	    delay = Math.max(this.pollMin, delay);
 	}
+	delay = Math.round(delay)
 	this.pollNext = Date.now() + delay;
-	window.setTimeout(this.start, delay);
+	window.clearTimeout(this.scheduleId);
+	this.scheduleId = window.setTimeout(this.start, delay);
 	console.log("Scheduled fetch in", delay/1000, "sec.")
     },
 
@@ -104,18 +108,26 @@ var feedDriver = {
 	    return;
 	}
 	req.onerror = self.onError;
-	self.timeoutId = window.setTimeout(
-	    function() {req.abort(); self.onAbort()}, self.timeoutMin
-	);
+	self.timeoutId = window.setTimeout(function() {
+            req.abort();
+            self.onAbort()
+        }, self.timeoutMin);
+
 	try {
 	    req.onreadystatechange = function() {
 		if (req.readyState != 4) {
 		    return;
 		}
+		window.clearTimeout(self.timeoutId);
 		if (req.responseXML) {
-		    self.onSuccess(req.responseXML, req.responseText);
+		    var error = $("error", req.responseXML).text()
+		    if (error) {
+			self.onError(error);
+		    } else {
+			self.onSuccess(req.responseXML, req.responseText);
+		    }
 		} else {
-		    self.onError(Error("no xml"));
+		    self.onError("No xml");
 		}
 	    }
 	    req.open("GET", url);
@@ -129,34 +141,28 @@ var feedDriver = {
     onAbort: function() {
 	this.requestFails++;
 	this.requestBackoff++;
+	this.requestError = "Request aborted by timeout.";
+	textTool.stop("?", colors.grey);
+	this.schedule();
 	console.warn("XHR abort");
     },
 
     // request successful; xml present but not yet checked
     onSuccess: function(xml, text) {
-	window.clearTimeout(this.timeoutId);
 	this.requestOkays++;
 	this.requestBackoff = 0;
-	var error = $("error", xml).text()
-	if (error) {
-	    iconTool.enabled(false);
-	    textTool.stop("?", colors.grey);
-	    this.requestError = error;
-	    console.error("XHR success with feed error:", error);
-	} else {
-	    iconTool.enabled(true);
-	    storage.cachedFeed(text);
-	    this.updateCounts(xml);
-	    this.requestError = "";
-	    console.log("XHR success");
-	}
+	this.updateCounts(xml);
+	this.requestError = "";
+	iconTool.enabled(true);
+	storage.cachedFeed(text);
+	console.log("XHR success");
 	this.schedule();
     },
 
     onError: function(e) {
 	this.requestFails++;
 	this.requestBackoff++;
-	window.clearTimeout(this.timeoutId);
+	this.requestError = e;
         textTool.stop("?", colors.grey);
         this.schedule();
 	console.error("XHR error", e || "");
@@ -245,6 +251,9 @@ function backgroundInit() {
     chrome.extension.onRequest.addListener(function(request, sender, sendResponse) {
 	if (request.type == "feedParams") {
 	    sendResponse(feedDriver.toJSON());
+	} else if (request.type == "feedRefresh") {
+	    feedDriver.schedule(0);
+	    sendResponse({});
 	} else {
 	    sendResponse({});
 	}

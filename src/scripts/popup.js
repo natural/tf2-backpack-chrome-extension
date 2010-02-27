@@ -321,7 +321,14 @@ function popupInit() {
 
 	$(".nav:first a").live('click', function (e) { return nav(e, -1); });
 	$(".nav:last a").live('click', function (e) { return nav(e, 1); });
-
         $("body").mousedown(function(){return false}) //disable text selection
+
+	$("#refresh").click(function(e) {
+	    chrome.extension.sendRequest({type:"feedRefresh"}, function(response) {
+		location.reload();
+		console.log('refreshing');
+	    })
+	});
+
     }
 }
