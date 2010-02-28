@@ -1,12 +1,21 @@
+var itemContentSelector = "#unplaced table.unplaced td img, #backpack table.backpack td img, span.equipped";
+
+
 var backpack = {
-    items: null,
+    feed: null,
     defs: null,
+
+    init: function() {
+	this.loadItemDefs();
+	this.loadAndShow();
+    },
 
     loadItemDefs: function() {
 	var req = new XMLHttpRequest();
+	var self = this;
 	req.onreadystatechange = function() {
 	    if (req.readyState == 4) {
-		backpack.defs = JSON.parse(req.responseText);
+		self.defs = JSON.parse(req.responseText);
 	    }
 	}
 	req.open("GET", chrome.extension.getURL("data/items.json"), false);
@@ -15,14 +24,17 @@ var backpack = {
 
     loadAndShow: function () {
 	var xml = storage.cachedFeed();
+	var self = this;
 	if (xml) {
-	    $("#unplaced table.unplaced td img, #backpack table.backpack td img, span.equipped").fadeOut().remove();
+	    $(itemContentSelector).fadeOut().remove();
 	    window.setTimeout(function() {
-	    backpack.items = (new DOMParser()).parseFromString(xml, "text/xml");
-	    pageOps.putItems(backpack.items);
-	    pageOps.putCharInfo(backpack.items);
+	    self.feed = (new DOMParser()).parseFromString(xml, "text/xml");
+	    pageOps.putItems(self.feed);
+	    pageOps.putCharInfo(self.feed);
 	    }, 150)
-	} // else handle empty...
+	} else {
+	    // handle empty
+	}
     },
 };
 
@@ -31,28 +43,37 @@ var pages = {
     current: 1,
     count: 1,
 
+    init: function() {
+	this.count = $("#backpack table.backpack tbody").length;
+	this.current = 1 + $("#backpack tbody").filter(":visible").index();
+	this.updateNav();
+	$(".nav:first a").live("click", function (e) {return pages.nav(e, -1)});
+	$(".nav:last a").live("click",  function (e) {return pages.nav(e, 1)});
+    },
+
     nav: function(event, offset) {
 	if (event.detail != 1) { return }
-	if ((pages.current + offset) > 0 && (pages.current + offset <= pages.count)) {
-	    $("#backpackPage-" + pages.current).fadeOut(250, function() {
-		pages.current += offset;
-		$("#backpackPage-" + pages.current).fadeIn(250);
-		pages.updateNav();
+	var self = this;
+	if ((self.current + offset) > 0 && (self.current + offset <= self.count)) {
+	    $("#backpackPage-" + self.current).fadeOut(250, function() {
+		self.current += offset;
+		$("#backpackPage-" + self.current).fadeIn(250);
+		self.updateNav();
 	    });
 	}
 	return false;
     },
 
     updateNav: function () {
-	$("#pages").text(pages.current + "/" + pages.count);
-	if (pages.current == 1) {
+	$("#pages").text(this.current + "/" + this.count);
+	if (this.current == 1) {
 	    $(".nonav:first").show();
 	    $(".nav:first").hide();
 	} else {
 	    $(".nonav:first").hide();
 	    $(".nav:first").show();
 	}
-	if (pages.current == pages.count) {
+	if (this.current == this.count) {
 	    $(".nonav:last").show();
 	    $(".nav:last").hide();
 	} else {
@@ -130,13 +151,25 @@ var showTab = {
 
 
 var pageOps = {
+    init: function() {
+	chrome.extension.onRequest.addListener(this.refreshHandler);
+	$("table.unplaced td:has(img)")
+	    .live("mouseenter", function() {$(this).addClass("itemHover")})
+	    .live("mouseleave", function() {$(this).removeClass("itemHover")});
+        $("body").mousedown(function(){return false}) //disable text selection
+	$("#toolbar").css("width", -6 + Math.max(400, $("#backpack tr:first").width()));
+	$("table.backpack td").click(this.itemClicked);
+	$("table.backpack td, table.unplaced td")
+            .live("mouseenter", showToolTip)
+            .live("mouseleave", hideToolTip);
+    },
+
     refreshHandler: function(request, sender, response) {
 	switch(request.type) {
 	case "okay":
 	    console.log("popup received refresh complete msg");
 	    backpack.loadAndShow();
-	    pages.current = 1;
-	    pages.updateNav();
+	    pages.init();
 	    $("#error").text(Date().split(" ", 5).join(" ")).fadeIn();
 	    break;
 	case "fail":
@@ -178,13 +211,18 @@ var pageOps = {
 	return false;
     },
 
-    putCharInfo: function(xml) {
-	$("#steamID a").text($("steamID", xml).text());
-	var avatarUrl = $("avatarFull", xml).text();
+    putCharInfo: function(feed) {
+	$("#steamID a").text($("steamID", feed).text());
+	var avatarUrl = $("avatarFull", feed).text();
 	if (avatarUrl) {
 	    $("#avatar img").fadeOut().remove();
 	    $("#avatar").append("<img src='" + avatarUrl + "' />");
 	}
+	$(["numHats", "numNormal", "numMisc",
+	   "numMetal", "numUnknown", "totalItems",
+	   "metalWorth"]).each(function(index, key) {
+	       $("#"+key).text( $("backpack "+key, feed).text() );
+	});
     },
 
     putNewItem: function(index, node) {
@@ -192,11 +230,11 @@ var pageOps = {
 	if (!type) {
 	    return;
 	}
-	if ($("table.unplaced td:empty").length == 0) {
-	    var cells = new Array(5+1).join("<td></td>");
+	if ($("table.unplaced td:not(:has(img))").length == 0) {
+	    var cells = new Array(5+1).join("<td><div></div></td>");
 	    $("table.unplaced").append("<tbody><tr>" + cells + "</tr></tbody>");
 	}
-	$("table.unplaced td:eq("+index+")").append(pageOps.itemImage(type));
+	$("table.unplaced td:eq("+index+") div").append(pageOps.itemImage(type));
 	$("table.unplaced td img:last").data("node", node);
     },
 
@@ -214,20 +252,20 @@ var pageOps = {
 	}
     },
 
-    putItems: function(xml) {
+    putItems: function(feed) {
 	$("#unplaced table.unplaced td img, #backpack table.backpack td img").fadeOut().remove();
 	$("span.equipped").fadeOut().remove();
-	if (!xml) {
-	    console.log("empty xml");
+	if (!feed) {
+	    console.log("empty feed");
 	    return;
 	}
-	var newNodes = $("item", xml).filter(
+	var newNodes = $("item", feed).filter(
 	    function (index) { return $("position", this).text() == "0" }
 	).each(this.putNewItem);
 
 	$("#unplaced, hr.unplaced").toggle(newNodes.length > 0);
 
-	$("item", xml).filter(
+	$("item", feed).filter(
 	    function (index) { return $("position", this).text() != "0" }
 	).each(this.putOldItem);
 
@@ -316,29 +354,15 @@ function hideToolTip(event) {
 
 
 function popupInit() {
-    pages.count = $("#backpack table.backpack tbody").length;
     if (!storage.profileId()) {
         $("body > *:not(#unknownProfile)").hide()
 	$("#unknownProfile").show();
 	optionsAltInit();
-    } else {
-	// when viewing the chrome extension page directly, the nav
-	// is squished without the max-check.  the -6 is a gimpy
-        // adjustment for the table margin-padding-border.
-	$("#toolbar").css("width", -6 + Math.max(400, $("#backpack tr:first").width()));
-
-	backpack.loadItemDefs();
-	backpack.loadAndShow();
-	pages.updateNav();
-
-	$("table.backpack td").click(pageOps.itemClicked);
-	$("table.backpack td, table.unplaced td")
-            .live("mouseenter", showToolTip)
-            .live("mouseleave", hideToolTip);
-	$(".nav:first a").live("click", function (e) { return pages.nav(e, -1); });
-	$(".nav:last a").live("click", function (e) { return pages.nav(e, 1); });
-        $("body").mousedown(function(){return false}) //disable text selection
+	return;
     }
-    chrome.extension.onRequest.addListener(pageOps.refreshHandler);
+    pages.init();
+    backpack.init();
+    pageOps.init();
     $("#error").text(Date().split(" ", 5).join(" ")).fadeIn();
 }
+

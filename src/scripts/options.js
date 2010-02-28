@@ -2,12 +2,12 @@ var alsoRefresh = false;
 
 
 function markDirty() {
-    $("#saveButton").attr("disabled", false);
+    $("#save").attr("disabled", false);
 }
 
 
 function markClean() {
-    $("#saveButton").attr("disabled", true);
+    $("#save").attr("disabled", true);
 }
 
 
@@ -43,9 +43,9 @@ function save() {
 
 function optionsInit() {
     $("#profileId").attr("value", storage.profileId());
-    $("#profileId").change(markDirty);
-    $("#saveButton").click(save);
-    $("#cancelButton").click(optionsInit);
+    $("#profileId").change(markDirty).keypress(markDirty);
+    $("#save").click(save);
+    $("#cancel").click(optionsInit);
     markClean();
 }
 
@@ -54,8 +54,9 @@ function optionsAltInit() {
     alsoRefresh = true;
     $("#profileId").attr("value", storage.profileId());
     $("#profileId").change(markDirty);
-    $("#saveButton").click(save);
-    $("#cancelButton").click(optionsAltInit);
+    $("#save").click(save);
+    $("#cancel").click(optionsAltInit);
+    $("#unknownProfile input:first").select();
     markDirty();
 }
 

@@ -9,16 +9,23 @@
     </head>
     <body onload="popupInit()">
 
-	<div id="unknownProfile">
+	<div id="unknownProfile" class="centered">
 	    <h1>Profile ID Not Set!</h1>
-            <p>To use TF2 Backpack Viewer, enter your community name or profile id here.</p>
-	    <input type="text" id="profileId" />
-	    <br />
-	    <em id="msg">(eg pnatural, 76561197992805111)</em>
-	    <br />
-	    <button id="saveButton">Save</button>
-	    <button id="cancelButton">Reset</button>
-	    <button id="closeButton" onclick="javascript:window.close()">Close</button>
+            <div>
+		To use the TF2 Backpack Access extension,
+		enter your community name or profile id here.
+	    </div>
+	    <div>
+		<input type="text" id="profileId" />
+	    </div>
+	    <div>
+		<em id="msg">(e.g., pnatural or 76561197992805111)</em>
+	    </div>
+	    <div>
+		<a href="#" id="save">Save</a>
+		<a href="#" id="cancel">Reset</a>
+		<a href="#" id="close" onclick="javascript:window.close()">Close</a>
+            </div>
         </div>
 
 	<span id="tooltip" style="display:none">
@@ -93,12 +100,22 @@
 		</div>
 	    </div>
 
-	<div id="stats" style="display:none">
-	    <div>Total Items: OOO</div>
-	    <div>Normal Items: OOO</div>
-	    <div>Hats: QQQ</div>
-	    <div>Misc: QQQ</div>
-	    <div>Metal Count: OOO (Value: PPP)</div>
+	<div id="stats" style="aa-display:none">
+	    <table class="stats">
+		<tbody>
+		<tr>
+		    <td>Total Items: <span id="totalItems"></span></td>
+		    <td>Normal Items: <span id="numNormal"></span></td>
+		    <td>Hats: <span id="numHats"></span></td>
+		</tr>
+		<tr>
+		    <td>Metal Items: <span id="numMetal"></span></td>
+		    <td>Metal Worth: <span id="metalWorth"></span></td>
+		    <td>Unknown Items: <span id="numUnknown"></span></td>
+		</tr>
+		</tbody>
+	    </table>
+
 	    <div>Last Fetch: NNN</div>
 	    <div>Next Fetch: OOO</div>
 	    <div>Request Time: RRR</div>

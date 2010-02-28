@@ -56,7 +56,7 @@ var iconTool = {
 
 /*
 
-encapsulates feed checking and scheduling those checks.
+encapsulates feed checking and the scheduling of those checks.
 
 */
 var feedDriver = {
@@ -104,7 +104,7 @@ var feedDriver = {
     start: function() {
 	var self = feedDriver, url = profile.feedUrl(), req = new XMLHttpRequest();
 	if (!url) {
-	    self.onError();
+	    self.onError("no url (maybe no profile id)");
 	    return;
 	}
 	req.onerror = self.onError;
@@ -169,7 +169,6 @@ var feedDriver = {
 	chrome.extension.sendRequest({type:"fail"});
         this.schedule();
 	console.error("XHR error", e || "");
-
     },
 
     updateCounts: function(xml) {

@@ -60,7 +60,7 @@ content:">> ";
 }
 
 
-span.nonav, span.nav a, #controls a {
+span.nonav, span.nav a, #controls a, #unknownProfile a {
 background-color:#ece3cb;
 border-bottom:none !important;
 border-radius:0.25em;
@@ -81,7 +81,7 @@ color:#dbad65;
 }
 
 
-span.nav a:hover,  #controls a:hover {
+span.nav a:hover,  #controls a:hover, #unknownProfile a:hover {
 background-color:#b25216;
 }
 
@@ -119,7 +119,7 @@ background-color:#3c352e;
 
 
 /* the second selector is for only unplaced table cells w/o an image child */
-table.backpack td:hover, table.unplaced td:not(:empty):hover {
+table.backpack td:hover, .itemHover {
 border:0.25em solid #847668 !important;
 }
 
@@ -295,45 +295,32 @@ color:#eb3b3b;
 color:#c8bba2;
 display:none;
 font-family:"TF2Build";
-font-size:1em;
-margin:2em auto 2em auto;
 text-align:center;
-width:100%;
+width:80%;
 }
 
-
-#unknownProfile a:hover {
-border-bottom:0.125em solid #ece3cb;
-}
 
 #unknownProfile input[type="text"] {
 color:black;
-font-family:sans;
-font-weight:bold;
-font-size:1em;
-margin:1em;
-margin-bottom:0.25em;
-}
-
-#saveButton, #cancelButton, #closeButton {
-color:#756b5e;
-width:4em;
 font-family:"TF2secondary";
-font-size:12pt;
-border:0.125em solid #756b5e;
+font-size:14pt;
 padding:0.25em;
-margin:1em;
-background-color:#c8bba2;
+margin:1em auto 0.5em auto;
 }
 
-#saveButton:hover, #cancelButton:hover, #closeButton:hover {
-background-color:#847668;
-color:#2e2b2a;
+
+#unknownProfile h1 {
+margin:1em auto 1em auto;
 }
+
+#unknownProfile div:last-child {
+margin-top:1em;
+}
+
 
 
 #toolbar {
-margin:1.5em auto 0 auto;
+margin:1em auto 1em auto;
 }
 
 
@@ -353,16 +340,23 @@ margin:0.5em auto 0.5em auto;
 border-bottom:0.125em solid #c8bba2;
 }
 
-
-#metrics {
-font-size:85%;
-margin-bottom:1em;
+#stats {
+color:#827868;
 }
 
-#metrics td {
-a-text-align:center;
-padding:1em;
+#stats table.stats {
+margin:1em auto 1em auto;
 }
+
+table.stats td {
+padding-right:3em;
+white-space:nowrap;
+}
+
+table.stats span {
+color:#ebe2ca;
+}
+
 
 #error {
 background-color:rgba(50%, 0%, 0%, 0.15);
@@ -376,5 +370,5 @@ color:#fff;
 }
 
 #error div {
-
 }
+
