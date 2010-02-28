@@ -1,175 +1,244 @@
-var backpack = {items:null, defs:null};
-var pages = {current:1, count:1};
+var backpack = {
+    items: null,
+    defs: null,
 
-
-function isTF2ItemsUrl(url) {
-    var urlItems = getBackpackViewUrl();
-    if (url.indexOf(urlItems) != 0) {
-	return false;
-    }
-    return url.length == urlItems.length ||
-        url[urlItems.length] == "?" ||
-	url[urlItems.length] == "#";
-}
-
-
-function isSteamCommunityProfileUrl(url) {
-    var urlProfile = urls.steamCommunity + "profiles/" + storage.profileId();
-    return (url.indexOf(urlProfile) == 0);
-}
-
-
-function isSourceOpUrl(url) {
-    return (url.indexOf(urls.sourceOp) == 0);
-}
-
-
-function isPnaturalUrl(url) {
-    return (url == urls.pnatural);
-}
-
-
-function selectOrOpenTab(match, newUrl) {
-    chrome.tabs.getAllInWindow(undefined,
-        function(tabs) {
-            for (var i = 0, tab; tab = tabs[i]; i++) {
-                if (tab.url && match(tab.url)) {
-		    window.close();
-                    chrome.tabs.update(tab.id, {selected:true});
-                    return false;
-                }
-            }
-	    window.close();
-            chrome.tabs.create({url:newUrl});
-	    return false;
-        }
-    )
-}
-
-
-function showExternalBackpack() {
-    return selectOrOpenTab(isTF2ItemsUrl, getBackpackViewUrl());
-}
-
-
-function showSteamProfile() {
-    return selectOrOpenTab(isSteamCommunityProfileUrl, getProfileUrl());
-}
-
-
-function showSourceOp() {
-    return selectOrOpenTab(isSourceOpUrl, urls.sourceOp);
-}
-
-
-function showPnaturalProfile() {
-    return selectOrOpenTab(isPnaturalUrl, urls.pnatural);
-}
-
-
-function showOptions() {
-    chrome.tabs.create({url:"options.html"})
-}
-
-
-function loadItemData() {
-    var req = new XMLHttpRequest();
-    req.onreadystatechange = function() {
-	if (req.readyState == 4) {
-	    backpack.defs = eval("( " + req.responseText + ")");
+    loadItemDefs: function() {
+	var req = new XMLHttpRequest();
+	req.onreadystatechange = function() {
+	    if (req.readyState == 4) {
+		backpack.defs = JSON.parse(req.responseText);
+	    }
 	}
-    }
-    req.open("GET", chrome.extension.getURL("/data/items.json"), true);
-    req.send();
-}
+	req.open("GET", chrome.extension.getURL("data/items.json"), false);
+	req.send();
+    },
+
+    loadAndShow: function () {
+	var xml = storage.cachedFeed();
+	if (xml) {
+	    $("#unplaced table.unplaced td img, #backpack table.backpack td img, span.equipped").fadeOut().remove();
+	    window.setTimeout(function() {
+	    backpack.items = (new DOMParser()).parseFromString(xml, "text/xml");
+	    pageOps.putItems(backpack.items);
+	    pageOps.putCharInfo(backpack.items);
+	    }, 150)
+	} // else handle empty...
+    },
+};
 
 
-function putInfo(xml) {
-    $("#steamID a").text($("steamID", xml).text());
-    var avatarUrl = $("avatarFull", xml).text();
-    if (avatarUrl) {
-	$("#avatar img").fadeOut().remove();
-	$("#avatar").append("<img src='" + avatarUrl + "' />");
-    }
-}
+var pages = {
+    current: 1,
+    count: 1,
+
+    nav: function(event, offset) {
+	if (event.detail != 1) { return }
+	if ((pages.current + offset) > 0 && (pages.current + offset <= pages.count)) {
+	    $("#backpackPage-" + pages.current).fadeOut(250, function() {
+		pages.current += offset;
+		$("#backpackPage-" + pages.current).fadeIn(250);
+		pages.updateNav();
+	    });
+	}
+	return false;
+    },
+
+    updateNav: function () {
+	$("#pages").text(pages.current + "/" + pages.count);
+	if (pages.current == 1) {
+	    $(".nonav:first").show();
+	    $(".nav:first").hide();
+	} else {
+	    $(".nonav:first").hide();
+	    $(".nav:first").show();
+	}
+	if (pages.current == pages.count) {
+	    $(".nonav:last").show();
+	    $(".nav:last").hide();
+	} else {
+	    $(".nonav:last").hide();
+	    $(".nav:last").show();
+	}
+    },
+};
 
 
-function loadAndShowBackpack() {
-    var xml = storage.cachedFeed();
-    if (xml) {
-	backpack.items = (new DOMParser()).parseFromString(xml, "text/xml");
-	putImages(backpack.items);
-	putInfo(backpack.items);
-    } // else handle empty...
-}
+var showTab = {
+    externalBackpack: function() {
+	return this.open(this.isTF2ItemsUrl, profile.backpackViewUrl());
+    },
+
+    steamProfile: function() {
+	return this.open(this.isSteamCommunityProfileUrl, profile.communityUrl());
+    },
+
+    sourceOp: function() {
+	return this.open(this.isSourceOpUrl, urls.sourceOp);
+    },
+
+    pnaturalProfile: function() {
+	return this.open(this.isPnaturalUrl, urls.pnatural);
+    },
+
+    options: function() {
+	chrome.tabs.create({url:"./options.html"});
+	window.close();
+	return false;
+    },
+
+    isTF2ItemsUrl: function (url) {
+	var urlItems = profile.backpackViewUrl();
+	if (url.indexOf(urlItems) != 0) {
+	    return false;
+	}
+	return url.length == urlItems.length ||
+            url[urlItems.length] == "?" ||
+	    url[urlItems.length] == "#";
+    },
+
+    isSteamCommunityProfileUrl: function (url) {
+	var urlProfile = urls.steamCommunity + "profiles/" + storage.profileId();
+	return (url.indexOf(urlProfile) == 0);
+    },
+
+    isSourceOpUrl: function (url) {
+	return (url.indexOf(urls.sourceOp) == 0);
+    },
 
 
-function missingImage(img, typ) {
-    if (img) {
-	img.src = "icons/missing.png";
-	img.onerror = null;
-	return true;
-    }
-}
+    isPnaturalUrl: function (url) {
+	return (url == urls.pnatural);
+    },
+
+    open: function(match, newUrl) {
+	chrome.tabs.getAllInWindow(undefined,
+            function(tabs) {
+                for (var i = 0, tab; tab = tabs[i]; i++) {
+                    if (tab.url && match(tab.url)) {
+		        window.close();
+                        chrome.tabs.update(tab.id, {selected:true});
+                        return false;
+                    }
+                }
+	        window.close();
+                chrome.tabs.create({url:newUrl});
+	        return false;
+            });
+    },
+
+};
 
 
-function putNewItem(index, node) {
-    var type = node.getAttribute("definitionIndex");
-    if (!type) {
-	return;
-    }
-    if ($("table.unplaced td:empty").length == 0) {
-	var cells = new Array(5+1).join("<td></td>");
-	$("table.unplaced").append("<tbody><tr>" + cells + "</tr></tbody>");
-    }
-    $("table.unplaced td:eq("+index+")").append(
-	"<img src='icons/" + type + ".png' onerror='missingImage(this, " + type + ")' />"
-    );
-    $("table.unplaced td img:last").data("node", node);
-}
+var pageOps = {
+    refreshHandler: function(request, sender, response) {
+	switch(request.type) {
+	case "okay":
+	    console.log("popup received refresh complete msg");
+	    backpack.loadAndShow();
+	    pages.current = 1;
+	    pages.updateNav();
+	    $("#error").text(Date().split(" ", 5).join(" ")).fadeIn();
+	    break;
+	case "fail":
+	    console.log("popup received refresh failed msg");
+	    break;
+	default:
+	    console.log("unknown refresh msg");
+	}
+	response({});
+    },
 
+    itemImage: function(t) {
+	return "<img style='display:none' src='icons/"+t+".png' onerror='pageOps.missingImage(this, "+t+")' />"
+    },
 
-function putOldItem(index, node) {
-    var p = parseInt(node.getElementsByTagName("position")[0].firstChild.textContent);
-    var type = node.getAttribute("definitionIndex");
-    var element = $("#c" + (p & 0xffff) + " div");
+    itemClicked: function(event) {
+	if (!event.ctrlKey) {
+	    $("table.backpack td").removeClass("selected");
+	}
+	$(this).addClass("selected");
+    },
 
-    element.append("<img src='icons/" + type + ".png' onerror='missingImage(this, " + type + ")' />");
-    var img = $("img:last", element);
-    img.data("node", node);
-    if (p & 0x80000000 && p & 0x0FFF0000) {
-	// nudge the image up a bit; related to margin-top on the equipped class
-	img.css("margin-top", "-5px");
-	img.after("<span class='equipped'>Equipped</span>");
-    }
-}
+    requestRefresh: function(event) {
+	chrome.extension.sendRequest({type:"feedRefresh"}, function(response) {} );
+	return false;
+    },
 
+    missingImage: function(img, typ) {
+	if (img) {
+	    img.src = "icons/missing.png";
+	    img.onerror = null;
+	    return true;
+	}
+    },
 
-function putImages(xml) {
-    $("#unplaced table.unplaced td img, #backpack table.backpack td img").fadeOut().remove();
-    $("span.equipped").fadeOut().remove();
-    if (!xml) {
-	console.log("empty xml");
-	return;
-    }
-    var newNodes = $("item", xml).filter(
-	function (index) { return $("position", this).text() == "0" }
-    );
-    if (newNodes.length > 0) {
-	newNodes.each(putNewItem)
-	$("#unplaced, hr.unplaced").show();
-    } else {
-	$("#unplaced, hr.unplaced").hide();
-    }
-    var oldNodes = $("item", xml).filter(
-	function (index) { return $("position", this).text() != "0" }
-    );
-    oldNodes.each(putOldItem);
-}
+    showStats: function() {
+	$("#stats").fadeIn();
+	$("#controls a:contains('Stats')").fadeOut();
+	return false;
+    },
+
+    putCharInfo: function(xml) {
+	$("#steamID a").text($("steamID", xml).text());
+	var avatarUrl = $("avatarFull", xml).text();
+	if (avatarUrl) {
+	    $("#avatar img").fadeOut().remove();
+	    $("#avatar").append("<img src='" + avatarUrl + "' />");
+	}
+    },
+
+    putNewItem: function(index, node) {
+	var type = $(node).attr("definitionIndex");
+	if (!type) {
+	    return;
+	}
+	if ($("table.unplaced td:empty").length == 0) {
+	    var cells = new Array(5+1).join("<td></td>");
+	    $("table.unplaced").append("<tbody><tr>" + cells + "</tr></tbody>");
+	}
+	$("table.unplaced td:eq("+index+")").append(pageOps.itemImage(type));
+	$("table.unplaced td img:last").data("node", node);
+    },
+
+    putOldItem: function(index, node) {
+	var pos = $("position", node).text();
+	var type = $(node).attr("definitionIndex");
+	var element = $("#c" + (pos & 0xffff) + " div");
+	element.append(pageOps.itemImage(type));
+	var img = $("img:last", element);
+	img.data("node", node);
+	if (pos & 0x80000000 && pos & 0x0FFF0000) {
+	    // nudge the image up a bit; related to margin-top on the equipped class
+	    img.css("margin-top", "-5px");
+	    img.after("<span style='display:none' class='equipped'>Equipped</span>");
+	}
+    },
+
+    putItems: function(xml) {
+	$("#unplaced table.unplaced td img, #backpack table.backpack td img").fadeOut().remove();
+	$("span.equipped").fadeOut().remove();
+	if (!xml) {
+	    console.log("empty xml");
+	    return;
+	}
+	var newNodes = $("item", xml).filter(
+	    function (index) { return $("position", this).text() == "0" }
+	).each(this.putNewItem);
+
+	$("#unplaced, hr.unplaced").toggle(newNodes.length > 0);
+
+	$("item", xml).filter(
+	    function (index) { return $("position", this).text() != "0" }
+	).each(this.putOldItem);
+
+	$("#unplaced td img, #backpack td img, span.equipped").fadeIn(750);
+    },
+
+};
 
 
 function showToolTip(event) {
-    var cell = $(this)
+    var cell = $(this), tooltip = $("#tooltip");
     if (!cell.children().length) {
 	return;
     }
@@ -182,7 +251,6 @@ function showToolTip(event) {
     } catch (e) {
 	return;
     }
-    var tooltip = $("#tooltip");
     tooltip.hide().css({left:0, top:0});
     $("#tooltip h4").text(item.description).removeClass("valve community");
     $("#tooltip .level").text("Level " + level + (levelType ? " " + levelType : ""));
@@ -247,70 +315,6 @@ function hideToolTip(event) {
 }
 
 
-function navUpdate() {
-    $("#pages").text(pages.current + "/" + pages.count);
-    if (pages.current == 1) {
-	$(".nonav:first").show();
-	$(".nav:first").hide();
-    } else {
-	$(".nonav:first").hide();
-	$(".nav:first").show();
-    }
-    if (pages.current == pages.count) {
-	$(".nonav:last").show();
-	$(".nav:last").hide();
-    } else {
-	$(".nonav:last").hide();
-	$(".nav:last").show();
-    }
-}
-
-
-function nav(event, offset) {
-    if (event.detail != 1) { return }
-    if ((pages.current + offset) > 0 && (pages.current + offset <= pages.count)) {
-	$("#backpackPage-" + pages.current).fadeOut(250, function() {
-		pages.current += offset;
-		$("#backpackPage-" + pages.current).fadeIn(250);
-		navUpdate();
-	    });
-    }
-    return false;
-}
-
-
-function itemClicked(event) {
-    if (!event.ctrlKey) {
-	$("table.backpack td").removeClass("selected");
-    }
-    $(this).addClass("selected");
-}
-
-
-function refreshPopup(event) {
-    chrome.extension.sendRequest({type:"feedRefresh"}, function(response) {
-	loadAndShowBackpack();
-	pages.current = 1;
-	navUpdate();
-	console.log("refreshed", response);
-    });
-    return false;
-}
-
-
-function showOptions() {
-    chrome.tabs.create({url:"./options.html"});
-    window.close();
-    return false;
-}
-
-function showStats() {
-    $("#stats").fadeIn();
-    $("#controls a:contains('Stats')").fadeOut();
-    return false;
-}
-
-
 function popupInit() {
     pages.count = $("#backpack table.backpack tbody").length;
     if (!storage.profileId()) {
@@ -323,17 +327,18 @@ function popupInit() {
         // adjustment for the table margin-padding-border.
 	$("#toolbar").css("width", -6 + Math.max(400, $("#backpack tr:first").width()));
 
-	loadItemData();
-	loadAndShowBackpack();
-	navUpdate();
+	backpack.loadItemDefs();
+	backpack.loadAndShow();
+	pages.updateNav();
 
-	$("table.backpack td").click(itemClicked);
+	$("table.backpack td").click(pageOps.itemClicked);
 	$("table.backpack td, table.unplaced td")
             .live("mouseenter", showToolTip)
             .live("mouseleave", hideToolTip);
-	$(".nav:first a").live("click", function (e) { return nav(e, -1); });
-	$(".nav:last a").live("click", function (e) { return nav(e, 1); });
+	$(".nav:first a").live("click", function (e) { return pages.nav(e, -1); });
+	$(".nav:last a").live("click", function (e) { return pages.nav(e, 1); });
         $("body").mousedown(function(){return false}) //disable text selection
     }
-    //var params = chrome.extension.sendRequest({type:'feedParams'}, function(v){console.log(v) });
+    chrome.extension.onRequest.addListener(pageOps.refreshHandler);
+    $("#error").text(Date().split(" ", 5).join(" ")).fadeIn();
 }

@@ -102,7 +102,7 @@ var feedDriver = {
 
     // begin a new xhr request for the backpack feed
     start: function() {
-	var self = feedDriver, url = urls.profile(), req = new XMLHttpRequest();
+	var self = feedDriver, url = profile.feedUrl(), req = new XMLHttpRequest();
 	if (!url) {
 	    self.onError();
 	    return;
@@ -143,6 +143,7 @@ var feedDriver = {
 	this.requestBackoff++;
 	this.requestError = "Request aborted by timeout.";
 	textTool.stop("?", colors.grey);
+	chrome.extension.sendRequest({type:"fail"});
 	this.schedule();
 	console.warn("XHR abort");
     },
@@ -155,6 +156,7 @@ var feedDriver = {
 	this.requestError = "";
 	iconTool.enabled(true);
 	storage.cachedFeed(text);
+	chrome.extension.sendRequest({type:"okay"});
 	console.log("XHR success");
 	this.schedule();
     },
@@ -164,8 +166,10 @@ var feedDriver = {
 	this.requestBackoff++;
 	this.requestError = e;
         textTool.stop("?", colors.grey);
+	chrome.extension.sendRequest({type:"fail"});
         this.schedule();
 	console.error("XHR error", e || "");
+
     },
 
     updateCounts: function(xml) {
