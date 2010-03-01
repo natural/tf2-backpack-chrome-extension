@@ -360,19 +360,21 @@ table.stats div {
 margin-left:1em;
 }
 
-
+.messages div {
+border-radius:0.75em;
+margin-right:5em;
+opacity:0.9;
+text-align:center;
+}
 
 #error {
 background-color:rgba(50%, 0%, 0%, 0.15);
-opacity:0.9;
 border:0.25em solid rgba(50%, 0%, 0%, 0.5);;
-border-radius:0.75em;
-margin:0 auto 0 auto;
-width:50%;
-text-align:center;
 color:#fff;
 }
 
-#error div {
+#warning {
+background-color:rgba(50%, 50%, 0%, 0.35);
+border:0.25em solid rgba(50%, 50%, 0%, 0.75);;
+color:#fff;
 }
-

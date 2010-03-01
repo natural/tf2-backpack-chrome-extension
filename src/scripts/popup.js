@@ -1,4 +1,13 @@
 var itemContentSelector = "#unplaced table.unplaced td img, #backpack table.backpack td img, span.equipped";
+var formatCountDown = function(v, single, plural, alt) {
+    var d = Math.round((v  - Date.now())/1000);
+    if (d == 1) {
+	return "1 " + single;
+    } else if (d == 0) {
+	return alt;
+    }
+    return d + " " + plural;
+}
 
 
 var backpack = {
@@ -159,6 +168,15 @@ var pageOps = {
         $("body").mousedown(function(){return false}) //disable text selection
 	$("#toolbar, #stats").css("width", -6 + Math.max(400, $("#backpack tr:first").width()));
 	$("table.backpack td").click(this.itemClicked);
+	window.setInterval(this.updateRefreshTime, 1000);
+    },
+
+    updateRefreshTime: function() {
+	var data = $("#nextFetch").data();
+	if (data && data.next) {
+	    var show = formatCountDown(data.next, "second", "seconds", "Refreshing...");
+	    $("#nextFetch").text(show);
+	}
     },
 
     handleRefresh: function(request, sender, sendResponse) {
@@ -170,9 +188,10 @@ var pageOps = {
 	                backpack.loadAndShow();
 	                pages.init();
 		    } else {
+			pageOps.putTimings();
+			$("#warning").text("Feed Refreshed; No Changes").slideDown().delay(3000).slideUp();
 			console.log("refresh complete without change to feed.");
 		    }
-	            $("#error").text(Date().split(" ", 5).join(" ")).fadeIn();
 	            break;
 	        case "abort":
 	        case "error":
@@ -212,6 +231,8 @@ var pageOps = {
     showStats: function() {
 	$("#stats").slideDown(400, function() {
 	    $("#controls a:contains('Stats')").fadeOut();
+	    var ele = $("table.backpack");
+	    $("html body").animate({scrollTop: ele.position().top + ele.height()})
 	});
 	return false;
     },
@@ -219,8 +240,21 @@ var pageOps = {
     hideStats: function() {
 	$("#stats").slideUp(400, function() {
 	    $("#controls a:contains('Stats')").fadeIn();
+	    $("html body").animate({scrollTop: 0})
 	});
 	return false;
+    },
+
+    putTimings: function() {
+	chrome.extension.sendRequest(
+	    {type: "driver", message: "params"},
+	    function(response) {
+	        $("#lastFetch").text(Date(response.pollLast));
+		$("#nextFetch")
+                    .data({"next":response.pollNext})
+                    .text(formatCountDown(response.pollNext, "seconds"));
+		$("#requestTime").text(response.pollDuration + " ms");
+	    });
     },
 
     putCharInfo: function(feed) {
@@ -242,18 +276,7 @@ var pageOps = {
 	}
         $("table.stats td:contains('Cache Time'), table.stats td:has(a)")
 	    .css("padding-top", "1.5em");
-
-	var formatDate = function(v) {
-	    var d = new Date(v)
-	    return d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds() + "." + d.getMilliseconds()
-	}
-	chrome.extension.sendRequest({type: "driver", message: "params"}, function(response) {
-	    $("#lastFetch").text( formatDate( response.pollLast ) );
-	    $("#nextFetch").text( formatDate( response.pollNext ) );
-	    $("#requestTime").text( response.pollDuration + " ms" );
-	});
-
-
+	this.putTimings();
     },
 
     putNewItem: function(index, node) {
@@ -395,7 +418,8 @@ function popupInit() {
     backpack.init();
     pageOps.init();
     toolTip.init();
-    $("#error").text(Date().split(" ", 5).join(" ")).fadeIn();
+//    $("#error").text(Date().split(" ", 5).join(" ")).fadeIn();
+//    $("#warning").text(Date().split(" ", 5).join(" ")).fadeIn();
 
 }
 
