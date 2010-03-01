@@ -32,7 +32,7 @@ font-size:110%;
 }
 
 
-hr.info, hr.unplaced, hr.footer {
+hr.character, hr.unplaced, hr.footer {
 border:none;
 border-top:0.25em solid #84756b;
 }
@@ -140,6 +140,12 @@ border-radius:0.75em;
 margin:0 auto 0 auto;
 }
 
+
+.null {
+display:none;
+}
+
+
 #avatar {
 text-align:right;
 right:0.5em;
@@ -157,7 +163,7 @@ vertical-align:top;
 }
 
 
-#backpack, #info, #unplaced, #footer {
+#backpack, #character, #unplaced, #footer {
 font-family:"TF2Build";
 padding:1em 2em 1em 1em;
 }
@@ -191,7 +197,7 @@ border-bottom:0.125em solid #c8bba2;
 }
 
 
-#info {
+#character {
 background-image:url('../images/header_bg.png');
 background-repeat:repeat-x;
 line-height:200%;
@@ -378,3 +384,11 @@ background-color:rgba(50%, 50%, 0%, 0.35);
 border:0.25em solid rgba(50%, 50%, 0%, 0.75);;
 color:#fff;
 }
+
+
+#information {
+background-color:rgba(0%, 0%, 50%, 0.15);
+border:0.25em solid rgba(0%, 0%, 50%, 0.5);;
+color:#fff;
+}
+

@@ -1,12 +1,14 @@
 var itemContentSelector = "#unplaced table.unplaced td img, #backpack table.backpack td img, span.equipped";
-var formatCountDown = function(v, single, plural, alt) {
-    var d = Math.round((v  - Date.now())/1000);
-    if (d == 1) {
+
+var formatCountDown = function(value, zero, single, plural) {
+    var seconds = Math.round((value  - Date.now())/1000);
+    if (seconds == 1) {
 	return "1 " + single;
-    } else if (d == 0) {
-	return alt;
+    } else if (seconds == 0) {
+	return zero;
+    } else {
+	return seconds + " " + plural;
     }
-    return d + " " + plural;
 }
 
 
@@ -36,11 +38,9 @@ var backpack = {
 	var self = this;
 	if (xml) {
 	    $(itemContentSelector).fadeOut().remove();
-	    window.setTimeout(function() {
 	    self.feed = (new DOMParser()).parseFromString(xml, "text/xml");
 	    pageOps.putItems(self.feed);
 	    pageOps.putCharInfo(self.feed);
-	    }, 150)
 	} else {
 	    // handle empty
 	}
@@ -174,7 +174,7 @@ var pageOps = {
     updateRefreshTime: function() {
 	var data = $("#nextFetch").data();
 	if (data && data.next) {
-	    var show = formatCountDown(data.next, "second", "seconds", "Refreshing...");
+	    var show = formatCountDown(data.next, "Refreshing...", "second", "seconds");
 	    $("#nextFetch").text(show);
 	}
     },
@@ -250,9 +250,7 @@ var pageOps = {
 	    {type: "driver", message: "params"},
 	    function(response) {
 	        $("#lastFetch").text(Date(response.pollLast));
-		$("#nextFetch")
-                    .data({"next":response.pollNext})
-                    .text(formatCountDown(response.pollNext, "seconds"));
+		$("#nextFetch").data({"next":response.pollNext});
 		$("#requestTime").text(response.pollDuration + " ms");
 	    });
     },
