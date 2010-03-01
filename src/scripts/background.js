@@ -11,6 +11,13 @@ var iconTool = {
     rotation: 0,
     speed: 15,
 
+    init: function() {
+	this.canvas = $("#canvas")[0];
+	this.context = this.canvas.getContext("2d");
+	this.icon = $("#tf2icon")[0];
+	this.enabled(false);
+    },
+
     // nice easing
     ease: function(x) {
 	return (1-Math.sin(Math.PI/2+x*Math.PI))/2;
@@ -63,8 +70,10 @@ var feedDriver = {
     countHats: 0,
     countNotHats: 0,
     countTotal: 0,
+    pollDuration: 0,
     pollMax: 1000*60*5,
     pollMin: 1000*60,
+    pollLast: 0,
     pollNext: 0,
     requestBackoff: 0,
     requestError: null,
@@ -73,6 +82,11 @@ var feedDriver = {
     scheduleId: null,
     timeoutId: null,
     timeoutMin: 1000*10,
+
+    init: function() {
+	chrome.extension.onRequest.addListener(this.listen);
+	this.start();
+    },
 
     toJSON: function() {
 	var r = {};
@@ -130,6 +144,7 @@ var feedDriver = {
 		    self.onError("No xml");
 		}
 	    }
+	    self.pollDuration = 0;
 	    req.open("GET", url);
 	    req.send();
 	} catch(e) {
@@ -142,10 +157,12 @@ var feedDriver = {
 	this.requestFails++;
 	this.requestBackoff++;
 	this.requestError = "Request aborted by timeout.";
+	this.pollLast = Date.now();
+	this.pollDuration = this.pollLast - this.pollNext;
 	textTool.stop("?", colors.grey);
-	chrome.extension.sendRequest({type:"fail"});
+	chrome.extension.sendRequest({status:"abort", type:"refresh"});
 	this.schedule();
-	console.warn("XHR abort");
+	console.warn("Feed fetch abort");
     },
 
     // request successful; xml present but not yet checked
@@ -154,21 +171,27 @@ var feedDriver = {
 	this.requestBackoff = 0;
 	this.updateCounts(xml);
 	this.requestError = "";
+	this.pollLast = Date.now();
+	this.pollDuration = this.pollLast - this.pollNext;
 	iconTool.enabled(true);
+	var cs = "backpack cachedTime";
+	var same = $(cs, storage.cachedFeed()).text() == $(cs, text).text()
 	storage.cachedFeed(text);
-	chrome.extension.sendRequest({type:"okay"});
-	console.log("XHR success");
+	chrome.extension.sendRequest({status:"okay", type:"refresh", updated: !same});
 	this.schedule();
+	console.log("Feed fetch success");
     },
 
     onError: function(e) {
 	this.requestFails++;
 	this.requestBackoff++;
 	this.requestError = e;
+	this.pollLast = Date.now();
+	this.pollDuration = this.pollLast - this.pollNext;
         textTool.stop("?", colors.grey);
-	chrome.extension.sendRequest({type:"fail"});
+	chrome.extension.sendRequest({status:"error", type:"refresh"});
         this.schedule();
-	console.error("XHR error", e || "");
+	console.error("Feed fetch error", e || "");
     },
 
     updateCounts: function(xml) {
@@ -187,12 +210,30 @@ var feedDriver = {
        );
     },
 
-
+    listen: function(request, sender, sendResponse) {
+	var response = {};
+	if (request.type == "driver") {
+            switch (request.message) {
+	        case "params":
+                    response = feedDriver.toJSON();
+                    break;
+                case "refresh":
+	            feedDriver.schedule(0);
+	            response = feedDriver.toJSON();
+	            break;
+	    }
+	}
+	sendResponse(response);
+    },
 };
 
 
 var textTool = {
     timerId: 0, maxCount: 6, current: 0, maxDot: 3,
+
+    init: function() {
+	this.start(colors.grey);
+    },
 
     draw: function() {
 	var text = "";
@@ -202,7 +243,7 @@ var textTool = {
 	if (this.current >= this.maxDot) {
 	    text += "";
 	}
-	chrome.browserAction.setBadgeText({text:text})
+	chrome.browserAction.setBadgeText({text: text})
 	if (++this.current == this.maxCount) {
 	    this.current = 0
 	};
@@ -241,30 +282,8 @@ var textTool = {
 };
 
 
-function feedListener(request, sender, response) {
-    var r = {};
-    switch (request.type) {
-    case "feedParams":
-        r = feedDriver.toJSON();
-        break;
-    case "feedRefresh":
-	feedDriver.schedule(0);
-	r = feedDriver.toJSON();
-	break;
-    }
-    response(r);
-}
-
-
 function backgroundInit() {
-    iconTool.canvas = $("#canvas")[0];
-    iconTool.context = iconTool.canvas.getContext("2d");
-    iconTool.icon = $("#tf2icon")[0];
-    iconTool.enabled(false);
-
-    textTool.start(colors.grey);
-    feedDriver.start();
-
-    chrome.extension.onRequest.addListener(feedListener);
-
+    iconTool.init();
+    textTool.init();
+    feedDriver.init();
 }

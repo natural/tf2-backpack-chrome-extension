@@ -57,6 +57,10 @@ var profile = {
 
 
 var storage = {
+    init: function() {
+	//chrome.extension.onRequest.addListener(this.refreshHandler)
+    },
+
     profileId: function(v) {
 	if (typeof(v) == "undefined") {
 	    return localStorage.profileId || "";

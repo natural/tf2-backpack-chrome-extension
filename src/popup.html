@@ -37,7 +37,7 @@
 	</span>
 	<div id="info">
 	    <div id="error" style="display:none;">error!</div>
-	    <h2>Character Info for
+	    <h2 title="Stuff about this TF2 player">Character Info for
 		<span id="steamID">
 		    <a href="#" onclick="showTab.steamProfile()"></a>
 	        </span>
@@ -46,12 +46,15 @@
 	</div>
 	<hr class="info" />
         <div id="unplaced" style="display:none">
-	    <h1><span class="hilite"></span>New Items</h1>
+	    <h1 title="Stuff you have that you haven't put in your backpack.  Idle?">
+		<span class="hilite"></span>
+		New Items
+	    </h1>
             <table class="unplaced centered"></table>
         </div>
 	<hr class="unplaced" style="display:none" />
         <div id="backpack">
-	    <h1><span class="hilite"></span>Backpack</h1>
+	    <h1 title="Stuff in your backpack."><span class="hilite"></span>Backpack</h1>
 	    <!-- these cells are named to make placement easy -->
             <table class="backpack centered">
 		<tbody id="backpackPage-1">
@@ -100,31 +103,35 @@
 		</div>
 	    </div>
 
-	<div id="stats" style="aa-display:none">
+	<div id="stats" style="display:none">
 	    <table class="stats">
-		<tbody>
 		<tr>
 		    <td>Total Items: <span id="totalItems"></span></td>
 		    <td>Normal Items: <span id="numNormal"></span></td>
+		</tr>
+		<tr>
 		    <td>Hats: <span id="numHats"></span></td>
+		    <td>Unknown Items: <span id="numUnknown"></span></td>
 		</tr>
 		<tr>
 		    <td>Metal Items: <span id="numMetal"></span></td>
 		    <td>Metal Worth: <span id="metalWorth"></span></td>
-		    <td>Unknown Items: <span id="numUnknown"></span></td>
 		</tr>
-		</tbody>
+		<tr>
+		    <td>Profile Views: <span id="profileViews"></span></td>
+		    <td></td>
+		</tr>
+		<tr><td colspan="2">Cache Time: <div id="cacheTime"></div></td></tr>
+		<tr><td colspan="2">Last Fetch: <div id="lastFetch"></div></td></tr>
+		<tr><td colspan="2">Next Fetch: <div id="nextFetch"></div></td></tr>
+		<tr><td colspan="2">Request Time: <div id="requestTime"></div></td></tr>
+		<tr>
+		    <td colspan="2">
+			<a href="#" onclick="pageOps.hideStats()">Hide Stats</a>
+	            </td>
+		</tr>
 	    </table>
-
-	    <div>Last Fetch: NNN</div>
-	    <div>Next Fetch: OOO</div>
-	    <div>Request Time: RRR</div>
-	    <div>Profile Views: NNN</div>
-	    <div>From Cache?</div>
-	    <div>NN</div>
 	</div>
-
-
         </div>
 	<hr class="footer" />
 

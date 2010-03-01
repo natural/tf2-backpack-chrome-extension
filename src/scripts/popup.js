@@ -152,33 +152,37 @@ var showTab = {
 
 var pageOps = {
     init: function() {
-	chrome.extension.onRequest.addListener(this.refreshHandler);
+	chrome.extension.onRequest.addListener(this.handleRefresh);
 	$("table.unplaced td:has(img)")
 	    .live("mouseenter", function() {$(this).addClass("itemHover")})
 	    .live("mouseleave", function() {$(this).removeClass("itemHover")});
         $("body").mousedown(function(){return false}) //disable text selection
-	$("#toolbar").css("width", -6 + Math.max(400, $("#backpack tr:first").width()));
+	$("#toolbar, #stats").css("width", -6 + Math.max(400, $("#backpack tr:first").width()));
 	$("table.backpack td").click(this.itemClicked);
-	$("table.backpack td, table.unplaced td")
-            .live("mouseenter", showToolTip)
-            .live("mouseleave", hideToolTip);
     },
 
-    refreshHandler: function(request, sender, response) {
-	switch(request.type) {
-	case "okay":
-	    console.log("popup received refresh complete msg");
-	    backpack.loadAndShow();
-	    pages.init();
-	    $("#error").text(Date().split(" ", 5).join(" ")).fadeIn();
-	    break;
-	case "fail":
-	    console.log("popup received refresh failed msg");
-	    break;
-	default:
-	    console.log("unknown refresh msg");
+    handleRefresh: function(request, sender, sendResponse) {
+	if (request.type == "refresh" && request.status) {
+	    switch(request.status) {
+	        case "okay":
+	        console.log("popup received refresh complete msg", request);
+                    if (request.updated) {
+	                backpack.loadAndShow();
+	                pages.init();
+		    } else {
+			console.log("refresh complete without change to feed.");
+		    }
+	            $("#error").text(Date().split(" ", 5).join(" ")).fadeIn();
+	            break;
+	        case "abort":
+	        case "error":
+	            console.log("popup received refresh failed msg");
+	            break;
+	        default:
+	            console.log("unknown refresh msg");
+	    }
 	}
-	response({});
+	sendResponse({});
     },
 
     itemImage: function(t) {
@@ -193,7 +197,7 @@ var pageOps = {
     },
 
     requestRefresh: function(event) {
-	chrome.extension.sendRequest({type:"feedRefresh"}, function(response) {} );
+	chrome.extension.sendRequest({type:"driver", message:"refresh"}, function(response) {});
 	return false;
     },
 
@@ -206,8 +210,16 @@ var pageOps = {
     },
 
     showStats: function() {
-	$("#stats").fadeIn();
-	$("#controls a:contains('Stats')").fadeOut();
+	$("#stats").slideDown(400, function() {
+	    $("#controls a:contains('Stats')").fadeOut();
+	});
+	return false;
+    },
+
+    hideStats: function() {
+	$("#stats").slideUp(400, function() {
+	    $("#controls a:contains('Stats')").fadeIn();
+	});
 	return false;
     },
 
@@ -220,9 +232,28 @@ var pageOps = {
 	}
 	$(["numHats", "numNormal", "numMisc",
 	   "numMetal", "numUnknown", "totalItems",
-	   "metalWorth"]).each(function(index, key) {
+	   "metalWorth", "profileViews"]).each(function(index, key) {
 	       $("#"+key).text( $("backpack "+key, feed).text() );
 	});
+	if ($("backpack fromCache", feed).text()=="1") {
+	    $("#cacheTime").text(Date($("backpack cacheTime").text()));
+	} else {
+	    $("#cacheTime").text("Not from cache.");
+	}
+        $("table.stats td:contains('Cache Time'), table.stats td:has(a)")
+	    .css("padding-top", "1.5em");
+
+	var formatDate = function(v) {
+	    var d = new Date(v)
+	    return d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds() + "." + d.getMilliseconds()
+	}
+	chrome.extension.sendRequest({type: "driver", message: "params"}, function(response) {
+	    $("#lastFetch").text( formatDate( response.pollLast ) );
+	    $("#nextFetch").text( formatDate( response.pollNext ) );
+	    $("#requestTime").text( response.pollDuration + " ms" );
+	});
+
+
     },
 
     putNewItem: function(index, node) {
@@ -253,103 +284,103 @@ var pageOps = {
     },
 
     putItems: function(feed) {
-	$("#unplaced table.unplaced td img, #backpack table.backpack td img").fadeOut().remove();
-	$("span.equipped").fadeOut().remove();
+	$(itemContentSelector).fadeOut().remove();
 	if (!feed) {
 	    console.log("empty feed");
 	    return;
 	}
-	var newNodes = $("item", feed).filter(
-	    function (index) { return $("position", this).text() == "0" }
-	).each(this.putNewItem);
-
+	var newNodes = $("item", feed).filter(function (index) {
+	    return $("position", this).text() == "0" }).each(this.putNewItem);
 	$("#unplaced, hr.unplaced").toggle(newNodes.length > 0);
-
-	$("item", feed).filter(
-	    function (index) { return $("position", this).text() != "0" }
-	).each(this.putOldItem);
-
-	$("#unplaced td img, #backpack td img, span.equipped").fadeIn(750);
+	$("item", feed).filter(function (index) {
+	    return $("position", this).text() != "0" }).each(this.putOldItem);
+	$(itemContentSelector).fadeIn(750);
     },
 
 };
 
+var toolTip = {
+    init: function() {
+	$("table.backpack td, table.unplaced td")
+            .live("mouseenter", this.show)
+            .live("mouseleave", this.hide);
+    },
 
-function showToolTip(event) {
-    var cell = $(this), tooltip = $("#tooltip");
-    if (!cell.children().length) {
-	return;
-    }
-    try {
-	var node = $( $("img", cell).data("node") );
-	var type = node.attr("definitionIndex");
-	var item = backpack.defs[type];
-	var levelType = item.type;
-	var level = $("level", node).text();
-    } catch (e) {
-	return;
-    }
-    tooltip.hide().css({left:0, top:0});
-    $("#tooltip h4").text(item.description).removeClass("valve community");
-    $("#tooltip .level").text("Level " + level + (levelType ? " " + levelType : ""));
-
-    // special formatting valve and community weapons
-    var extras = [];
-    var attrMap = {};
-    $.each($("attributes attribute", node), function(index, value) {
-	var index = $(value).attr("definitionIndex");
-        var format = backpack.defs["other_attributes"][index] || "";
-	if (format) {
-	    extras.push( format.replace("%s1", $(value).text()) );
+    show: function(event) {
+	var cell = $(this), tooltip = $("#tooltip");
+	if (!cell.children().length) {
+	    return;
 	}
-	attrMap[index] = $(value).text();
-    });
-    if (item["alt"]) {
-	item["alt"].concat(extras);
-    } else if (extras) {
-	item["alt"] = extras;
-    }
-    if (attrMap["134"] == "2") {
-	$("#tooltip h4").text($("#tooltip h4").text().replace("The ", ""));
-	$("#tooltip h4").addClass("valve");
-    } else if (attrMap["134"] == "4") {
-	$("#tooltip h4").text($("#tooltip h4").text().replace("The ", ""));
-	$("#tooltip h4").addClass("community");
-    }
-
-    // add the various descriptions
-    $(["alt", "positive", "negative"]).each(function(index, key) {
-	if (item[key]) {
-	    var value = item[key].join("<br />");
-	    $("#tooltip ." + key).html(value).show();
-	} else {
-	    $("#tooltip ." + key).text("").hide();
+	try {
+	    var node = $( $("img", cell).data("node") );
+	    var type = node.attr("definitionIndex");
+	    var item = backpack.defs[type];
+	    var levelType = item.type;
+	    var level = $("level", node).text();
+	} catch (e) {
+	    return;
 	}
-    });
-    tooltip.show().hide();
-    // position and show the tooltip
-    var pos = cell.position();
-    var minleft = cell.parent().position().left;
-    var cellw = cell.width();
-    var toolw = tooltip.width();
-    var left = pos.left - (toolw/2.0) + (cellw/2.0) - 4; // 4 == half border?
-    left = left < minleft ? minleft : left;
-    var maxright = cell.parent().position().left + cell.parent().width();
-    if (left + toolw > maxright) {
-    	left = cell.position().left + cellw - toolw - 12;
-    }
-    left = left < 0 ? (window.innerWidth/2)-toolw/2 : left;
-    var top = pos.top + cell.height() + 12;
-    if (top + tooltip.height() > (window.innerHeight+window.scrollY)) {
-    	top = pos.top - tooltip.height() - 36;
-    }
-    tooltip.css({left:left, top:top});
-    tooltip.show();
-}
+	tooltip.hide().css({left:0, top:0});
+	$("#tooltip h4").text(item.description).removeClass("valve community");
+	$("#tooltip .level").text("Level " + level + (levelType ? " " + levelType : ""));
 
+	// special formatting valve and community weapons
+	var extras = [];
+	var attrMap = {};
+	$.each($("attributes attribute", node), function(index, value) {
+	    var index = $(value).attr("definitionIndex");
+            var format = backpack.defs["other_attributes"][index] || "";
+	    if (format) {
+		extras.push( format.replace("%s1", $(value).text()) );
+	    }
+	    attrMap[index] = $(value).text();
+	});
+	if (item["alt"]) {
+	    item["alt"].concat(extras);
+	} else if (extras) {
+	    item["alt"] = extras;
+	}
+	if (attrMap["134"] == "2") {
+	    $("#tooltip h4").text($("#tooltip h4").text().replace("The ", ""));
+	    $("#tooltip h4").addClass("valve");
+	} else if (attrMap["134"] == "4") {
+	    $("#tooltip h4").text($("#tooltip h4").text().replace("The ", ""));
+	    $("#tooltip h4").addClass("community");
+	}
 
-function hideToolTip(event) {
-    $("#tooltip").hide();
+	// add the various descriptions
+	$(["alt", "positive", "negative"]).each(function(index, key) {
+	    if (item[key]) {
+		var value = item[key].join("<br />");
+		$("#tooltip ." + key).html(value).show();
+	    } else {
+		$("#tooltip ." + key).text("").hide();
+	    }
+	});
+	tooltip.show().hide();
+	// position and show the tooltip
+	var pos = cell.position();
+	var minleft = cell.parent().position().left;
+	var cellw = cell.width();
+	var toolw = tooltip.width();
+	var left = pos.left - (toolw/2.0) + (cellw/2.0) - 4; // 4 == half border?
+	    left = left < minleft ? minleft : left;
+	var maxright = cell.parent().position().left + cell.parent().width();
+	if (left + toolw > maxright) {
+    	    left = cell.position().left + cellw - toolw - 12;
+	}
+	left = left < 0 ? (window.innerWidth/2)-toolw/2 : left;
+	var top = pos.top + cell.height() + 12;
+	if (top + tooltip.height() > (window.innerHeight+window.scrollY)) {
+    	    top = pos.top - tooltip.height() - 36;
+	}
+	tooltip.css({left:left, top:top});
+	tooltip.show();
+    },
+
+    hide: function(event) {
+	$("#tooltip").hide();
+    },
 }
 
 
@@ -363,6 +394,8 @@ function popupInit() {
     pages.init();
     backpack.init();
     pageOps.init();
+    toolTip.init();
     $("#error").text(Date().split(" ", 5).join(" ")).fadeIn();
+
 }
 
