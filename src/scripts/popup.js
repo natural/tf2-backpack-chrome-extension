@@ -1,5 +1,4 @@
 var itemContentSelector = "#unplaced table.unplaced td img, #backpack table.backpack td img, span.equipped";
-
 var formatCountDown = function(value, zero, single, plural) {
     var seconds = Math.round((value  - Date.now())/1000);
     if (seconds == 1) {
@@ -9,7 +8,7 @@ var formatCountDown = function(value, zero, single, plural) {
     } else {
 	return seconds + " " + plural;
     }
-}
+};
 
 
 var backpack = {
@@ -251,7 +250,8 @@ var pageOps = {
 	    function(response) {
 	        $("#lastFetch").text(Date(response.pollLast));
 		$("#nextFetch").data({"next":response.pollNext});
-		$("#requestTime").text(response.pollDuration + " ms");
+		var duration = response.pollDuration;
+		$("#requestTime").text(duration==0 ? "Cached" : duration + " ms");
 	    });
     },
 
@@ -292,10 +292,10 @@ var pageOps = {
 
     putOldItem: function(index, node) {
 	var pos = $("position", node).text();
-	var type = $(node).attr("definitionIndex");
-	var element = $("#c" + (pos & 0xffff) + " div");
-	element.append(pageOps.itemImage(type));
-	var img = $("img:last", element);
+	var typ = $(node).attr("definitionIndex");
+	var ele = $("#c" + (pos & 0xffff) + " div");
+	ele.append(pageOps.itemImage(typ));
+	var img = $("img:last", ele);
 	img.data("node", node);
 	if (pos & 0x80000000 && pos & 0x0FFF0000) {
 	    // nudge the image up a bit; related to margin-top on the equipped class
@@ -320,11 +320,16 @@ var pageOps = {
 
 };
 
+
 var toolTip = {
     init: function() {
 	$("table.backpack td, table.unplaced td")
             .live("mouseenter", this.show)
             .live("mouseleave", this.hide);
+    },
+
+    hide: function(event) {
+	$("#tooltip").hide();
     },
 
     show: function(event) {
@@ -333,7 +338,7 @@ var toolTip = {
 	    return;
 	}
 	try {
-	    var node = $( $("img", cell).data("node") );
+	    var node = $($("img", cell).data("node"));
 	    var type = node.attr("definitionIndex");
 	    var item = backpack.defs[type];
 	    var levelType = item.type;
@@ -398,14 +403,10 @@ var toolTip = {
 	tooltip.css({left:left, top:top});
 	tooltip.show();
     },
-
-    hide: function(event) {
-	$("#tooltip").hide();
-    },
-}
+};
 
 
-function popupInit() {
+var popupInit = function() {
     if (!storage.profileId()) {
         $("body > *:not(#unknownProfile)").hide()
 	$("#unknownProfile").show();
@@ -416,8 +417,4 @@ function popupInit() {
     backpack.init();
     pageOps.init();
     toolTip.init();
-//    $("#error").text(Date().split(" ", 5).join(" ")).fadeIn();
-//    $("#warning").text(Date().split(" ", 5).join(" ")).fadeIn();
-
-}
-
+};

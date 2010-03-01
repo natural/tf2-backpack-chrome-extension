@@ -158,7 +158,7 @@ var feedDriver = {
 	this.requestBackoff++;
 	this.requestError = "Request aborted by timeout.";
 	this.pollLast = Date.now();
-	this.pollDuration = this.pollLast - this.pollNext;
+	this.pollDuration = this.pollNext==0 ? 0 : this.pollLast - this.pollNext;
 	textTool.stop("?", colors.grey);
 	chrome.extension.sendRequest({status:"abort", type:"refresh"});
 	this.schedule();
@@ -172,7 +172,7 @@ var feedDriver = {
 	this.updateCounts(xml);
 	this.requestError = "";
 	this.pollLast = Date.now();
-	this.pollDuration = this.pollLast - this.pollNext;
+	this.pollDuration = this.pollNext==0 ? 0 : this.pollLast - this.pollNext;
 	iconTool.enabled(true);
 	var cs = "backpack cachedTime";
 	var same = $(cs, storage.cachedFeed()).text() == $(cs, text).text()
@@ -187,7 +187,7 @@ var feedDriver = {
 	this.requestBackoff++;
 	this.requestError = e;
 	this.pollLast = Date.now();
-	this.pollDuration = this.pollLast - this.pollNext;
+	this.pollDuration = this.pollNext==0 ? 0 : this.pollLast - this.pollNext;
         textTool.stop("?", colors.grey);
 	chrome.extension.sendRequest({status:"error", type:"refresh"});
         this.schedule();
