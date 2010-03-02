@@ -24,7 +24,7 @@ var backpack = {
 	var error = function(req, status, error) {
 	};
 	var success = function(data, status, req) {
-	    this.defs = JSON.parse(data);
+	    backpack.defs = JSON.parse(data);
 	};
 	$.ajax({url: chrome.extension.getURL("data/items.json"),
 		async: false, dataType: "text",
