@@ -169,6 +169,10 @@ var pageOps = {
 	window.setInterval(this.updateRefreshTime, 1000);
     },
 
+    showMessage: function(type, message, duration) {
+        $("#"+type).text(message).slideDown().delay(duration||5000).slideUp();
+    },
+
     updateRefreshTime: function() {
 	var data = $("#nextFetch").data();
 	if (data && data.next) {
@@ -190,12 +194,14 @@ var pageOps = {
 	                pages.init();
 		    } else {
 			pageOps.putTimings();
-			$("#information").text("Feed Refreshed; No Changes").slideDown().delay(3000).slideUp();
+			pageOps.showMessage("information", "Feed Refreshed; No Changes");
 			console.log("refresh complete without change to feed.");
 		    }
 	            break;
 	        case "abort":
 	        case "error":
+	        case "exception":
+		    pageOps.showMessage("error", request.message);
 	            console.log("popup received refresh failed msg");
 	            break;
 	        default:
@@ -412,11 +418,17 @@ var popupInit = function() {
     if (!storage.profileId()) {
         $("#main").fadeOut('fast');
 	$("#unknownProfile").fadeIn('fast');
-	optionsAltInit();
-	return;
+	optionsInit(function() {
+	    $("#unknownProfile").fadeOut('fast', function() {
+	        $("#main").fadeIn().delay(1000);
+	        popupInit();
+	        pageOps.requestRefresh();
+	    })
+	});
+    } else {
+	pages.init();
+	backpack.init();
+	pageOps.init();
+	toolTip.init();
     }
-    pages.init();
-    backpack.init();
-    pageOps.init();
-    toolTip.init();
 };

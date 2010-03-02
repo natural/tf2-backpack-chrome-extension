@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
         <script src="scripts/jquery.min.js" type="text/javascript"></script>
@@ -7,7 +8,7 @@
         <script src="scripts/popup.js" type="text/javascript"></script>
         <script src="scripts/options.js" type="text/javascript"></script>
         <link rel="stylesheet" type="text/css" href="styles/popup.css" />
-	<title>empty</title>
+	<title id="its:msg:0">TF2 Backpack Access</title>
     </head>
     <body onload="popupInit()">
 
@@ -36,12 +37,12 @@
 
 	<!-- block for character info and messages -->
 	<div id="character">
-	    <div class="messages">
+	    <div class="messages its:msg:123">
 		<div id="error" class="null">error</div>
 		<div id="warning" class="null">warning</div>
 		<div id="information" class="null">info</div>
 	    </div>
-	    <h2 title="Stuff about this TF2 player">Character Info for
+	    <h2 class="its:msg:1">Character Info for
 		<span id="steamID">
 		    <a href="#" onclick="showTab.steamProfile()"></a>
 	        </span>
@@ -65,7 +66,7 @@
 
 	<!-- old items table -->
         <div id="backpack">
-	    <h1 title="Stuff in your backpack."><span class="hilite" /></span>Backpack</h1>
+	    <h1 title="Stuff in your backpack."><span class="hilite"></span>Backpack</h1>
             <table class="backpack centered">
 		<!-- ids to make placement easy -->
 		<tbody id="backpackPage-1">
