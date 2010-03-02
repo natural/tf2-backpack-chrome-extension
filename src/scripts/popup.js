@@ -183,7 +183,10 @@ var pageOps = {
 	    switch(request.status) {
 	        case "okay":
 	        console.log("popup received refresh complete msg", request);
-                    if (request.updated) {
+		    // the length check won't hurt if the backpack is totally
+                    // empty, and it will help if the page is just loading
+                    // via the options div.
+                    if (request.updated || $("#backpack img").length==0) {
 	                backpack.loadAndShow();
 	                pages.init();
 		    } else {
@@ -408,8 +411,8 @@ var toolTip = {
 
 var popupInit = function() {
     if (!storage.profileId()) {
-        $("body > *:not(#unknownProfile)").hide()
-	$("#unknownProfile").show();
+        $("#main").fadeOut('fast');
+	$("#unknownProfile").fadeIn('fast');
 	optionsAltInit();
 	return;
     }

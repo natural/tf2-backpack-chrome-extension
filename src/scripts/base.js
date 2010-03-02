@@ -99,8 +99,14 @@ var storage = {
 	    return localStorage.testXml || "";
 	}
 	localStorage.testXml = v;
-    }
+    },
 
+    clear: function() {
+	this.profileId("");
+	this.cachedFeed("");
+	this.debug(false);
+	this.testFeed("");
+    },
 
 };
 

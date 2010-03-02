@@ -26,12 +26,12 @@ function save() {
             }
             $("#profileId").attr("value", lookupId);
             storage.profileId(lookupId);
-	    chrome.extension.getBackgroundPage().backgroundInit();
 	    if (alsoRefresh) {
-		$("body > *:not(#unknownProfile)").fadeIn();
-		hideToolTip();
-		$("#unknownProfile").fadeOut();
-		popupInit();
+		$("#unknownProfile").fadeOut('fast', function() {
+		    $("#main").fadeIn().delay(1000);
+		    popupInit();
+		    pageOps.requestRefresh();
+		});
 	    }
 	},
 	function(error) {
