@@ -34,14 +34,24 @@ function save() {
 		popupInit();
 	    }
 	},
-	function() {
+	function(error) {
+	    error = error ? (error.statusText||"Network error") : "Fetch error";
+	    var msg = "(" + error + ")";
 	    $("#profileId").select().focus();
-	    $("#msg").text("SteamID not found.  Please try again.").fadeIn().delay(5000).fadeOut();
+	    $("#msg").text("SteamID not found.  Please try again " + msg + ".").fadeIn();
 	});
+}
+
+var originalMsg = "";
+
+function cancel() {
+    optionsAltInit();
+    $("#msg").text(originalMsg);
 }
 
 
 function optionsInit() {
+    $("#msg").text();
     $("#profileId").attr("value", storage.profileId()).select();
     $("#profileId").change(markDirty).keypress(markDirty);
     $("#save").click(save);
@@ -51,11 +61,14 @@ function optionsInit() {
 
 
 function optionsAltInit() {
+    if (!originalMsg) {
+	originalMsg = $("#msg").text()
+    }
     alsoRefresh = true;
     $("#profileId").attr("value", storage.profileId());
     $("#profileId").change(markDirty);
     $("#save").click(save);
-    $("#cancel").click(optionsAltInit);
+    $("#cancel").click(cancel);
     $("#unknownProfile input:first").select();
     markDirty();
 }

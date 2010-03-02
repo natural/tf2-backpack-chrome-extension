@@ -39,14 +39,26 @@ var profile = {
 	    return v;
 	}
 	var req = new XMLHttpRequest();
+	error = error ? error : function(e) {};
+	req.onerror = function() {
+	    error(this);
+	}
 	req.onreadystatechange = function() {
-	    if (req.readyState == 4) {
-		var message = JSON.parse(req.responseText);
+	    if (req.readyState == 4 && req.status == 200) {
+		try {
+		    var message = JSON.parse(req.responseText);
+		} catch (e) {
+		    console.log("parse error", e);
+		    error({statusText: "Parse error"});
+		    return;
+		}
 		if (message.success == "true") {
 		    okay(message.profile);
 		} else {
-		    if (error) { error(message) }
+		    error({statusText: "Search failed"});
 		}
+	    } else if (req.readyState == 4) {
+		error(message);
 	    }
 	}
 	req.open("GET", urls.profileSearch + v)

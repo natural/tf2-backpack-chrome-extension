@@ -1,8 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""
+""" quick and dirty script to generate a list of 'cp' commands for
+item images.
 
 """
+import sys
 from source_text import parse
 
 
@@ -13,7 +15,12 @@ def main(prefix):
 
 
 if __name__ == '__main__':
-    fmt = "cp %s.png %s.png"
-    for key, image_file in  main("/home/troy/pkg/incoming/output/"):
-	print fmt % (image_file, key)
+    try:
+	source_dir = sys.argv[1]
+    except (IndexError, ):
+	print 'usage: %s source_directory (e.g., "/home/troy/pkg/incoming/output/")' % (sys.argv[0], )
+    else:
+	fmt = "cp %s.png %s.png"
+	for key, image_file in main(source_dir):
+	    print fmt % (image_file, key)
 

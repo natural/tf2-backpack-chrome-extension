@@ -3,6 +3,7 @@
 """
 
 """
+import sys
 import json
 from functools import partial
 from source_text import parse
@@ -120,11 +121,11 @@ def trim_item(source, target, names=(), **kwds):
 	    target.pop(name)
 
 
-def main(initial):
+def main(fn, initial):
     output = initial.copy()
     items = parse('items_game.txt')['items_game']
     items, qualities, attributes = items['items'], items['qualities'], items['attributes']
-    lang_data = parse('tf_english.txt')['lang']['Tokens']
+    lang_data = parse(fn)['lang']['Tokens']
     find_attr = partial(find_attribute, attributes)
     kwds = dict(find_attr=find_attr, lang_data=lang_data)
     trim = partial(trim_item, names=['positive', 'negative', 'alt', ])
@@ -137,7 +138,12 @@ def main(initial):
 
 
 if __name__ == '__main__':
-    extras = json.load(open('extras.json'))
-    result = main(extras)
-    print json.dumps(result, indent=4)
+    try:
+	value_filename = sys.argv[1]
+    except (IndexError, ):
+	print 'usage: %s value_filename (e.g., "tf_english.txt")' % sys.argv[0]
+    else:
+	extras = json.load(open('extras.json'))
+	result = main(value_filename, extras)
+	print json.dumps(result, indent=4)
 

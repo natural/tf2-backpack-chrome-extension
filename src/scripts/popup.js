@@ -188,7 +188,7 @@ var pageOps = {
 	                pages.init();
 		    } else {
 			pageOps.putTimings();
-			$("#warning").text("Feed Refreshed; No Changes").slideDown().delay(3000).slideUp();
+			$("#information").text("Feed Refreshed; No Changes").slideDown().delay(3000).slideUp();
 			console.log("refresh complete without change to feed.");
 		    }
 	            break;
