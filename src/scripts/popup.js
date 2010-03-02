@@ -21,15 +21,14 @@ var backpack = {
     },
 
     loadItemDefs: function() {
-	var req = new XMLHttpRequest();
-	var self = this;
-	req.onreadystatechange = function() {
-	    if (req.readyState == 4) {
-		self.defs = JSON.parse(req.responseText);
-	    }
-	}
-	req.open("GET", chrome.extension.getURL("data/items.json"), false);
-	req.send();
+	var error = function(req, status, error) {
+	};
+	var success = function(data, status, req) {
+	    this.defs = JSON.parse(data);
+	};
+	$.ajax({url: chrome.extension.getURL("data/items.json"),
+		async: false, dataType: "text",
+		error: error, success: success});
     },
 
     loadAndShow: function () {

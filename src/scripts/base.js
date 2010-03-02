@@ -1,4 +1,3 @@
-var steamIdPattern = /\d{17}/;
 var colors = {
     red: [208, 0, 24, 255],
     blue: [51, 152, 197, 255],
@@ -35,38 +34,27 @@ var profile = {
     },
 
     search: function(v, okay, error) {
-	if (v.match(steamIdPattern)) {
-	    return v;
-	}
-	var req = new XMLHttpRequest();
-	error = error ? error : function(e) {};
-	req.onerror = function() {
-	    error(this);
-	}
-	req.onreadystatechange = function() {
-	    if (req.readyState == 4 && req.status == 200) {
-		try {
-		    var message = JSON.parse(req.responseText);
-		} catch (e) {
-		    console.log("parse error", e);
-		    error({statusText: "Parse error"});
-		    return;
-		}
-		if (message.success == "true") {
-		    okay(message.profile);
-		} else {
-		    error({statusText: "Search failed"});
-		}
-	    } else if (req.readyState == 4) {
-		error(message);
+	var onError = function(req, status, err) {
+	    error({statusText: err});
+	};
+	var onSuccess = function(data, status, req) {
+	    try {
+		var msg = JSON.parse(data)
+	    } catch (e) {
+		error({statusText: "Parse error"});
+		return;
 	    }
-	}
-	req.open("GET", urls.profileSearch + v)
-	req.send(null);
+	    if (msg.success == "true") {
+		okay(msg.profile);
+	    } else {
+		error({statusText: "Search failed"});
+	    }
+	};
+	$.ajax({url: urls.profileSearch + v, dataType: "text",
+		error: onError, success: onSuccess});
     },
 
-}
-
+};
 
 var storage = {
     init: function() {
