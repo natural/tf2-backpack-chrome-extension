@@ -13,8 +13,8 @@ var iconTool = {
 
     init: function() {
 	this.canvas = $("#canvas")[0];
+	this.icon = $("#icon")[0];
 	this.context = this.canvas.getContext("2d");
-	this.icon = $("#tf2icon")[0];
 	this.enabled(false);
     },
 
@@ -80,7 +80,6 @@ var feedDriver = {
     requestFails: 0,
     requestOkays: 0,
     scheduleId: null,
-    timeoutId: null,
     timeoutMin: 1000*10,
 
     init: function() {
@@ -116,82 +115,79 @@ var feedDriver = {
 
     // begin a new xhr request for the backpack feed
     start: function() {
-	var self = feedDriver, url = profile.feedUrl(), req = new XMLHttpRequest();
+	var self = feedDriver, url = profile.feedUrl();
 	if (!url) {
-	    self.onError("no url (maybe no profile id)");
+	    self.onError("error", "No feed URL");
 	    return;
 	}
-	req.onerror = self.onError;
-	self.timeoutId = window.setTimeout(function() {
-            req.abort();
-            self.onAbort()
-        }, self.timeoutMin);
-
-	try {
-	    req.onreadystatechange = function() {
-		if (req.readyState != 4) {
-		    return;
-		}
-		window.clearTimeout(self.timeoutId);
-		if (req.responseXML) {
-		    var error = $("error", req.responseXML).text()
-		    if (error) {
-			self.onError(error);
-		    } else {
-			self.onSuccess(req.responseXML, req.responseText);
-		    }
-		} else {
-		    self.onError("No xml");
-		}
+	var error = function(req, status, error) {
+	    switch (status) {
+	        case "timeout":
+		    self.onError("abort", "Request aborted by timeout");
+		    break;
+                case "parseerror":
+		    self.onError("error", "Parse error");
+		    break;
+	        case "feederror":
+		    self.onError("error", error);
+		    break;
+	        case "feedwarning":
+		    self.onError("warning", error);
+		    break;
+	        default: /* covers "error" and null values, and everything else, too */
+		    self.onError("error", "Error: " + error||"unknown error");
 	    }
-	    self.pollDuration = 0;
-	    req.open("GET", url);
-	    req.send();
-	} catch(e) {
-	    self.onError(e);
-	}
+	};
+	var success = function(xml, status, req) {
+	    try {
+		var errmsg = $("error", xml).text();
+		var warnmsg = $("warningMessage", xml).text();
+		if (errmsg) {
+		    error(null, "feederror", errmsg);
+	        } else if (warnmsg) {
+		    error(null, "feedwarning", warnmsg);
+		} else {
+		    self.onSuccess(xml, req.responseText);
+		}
+	    } catch (e) {
+		error(null, "exception", e);
+	    }
+	};
+	self.pollDuration = 0;
+	$.ajax({url: url, async: true, dataType: "xml", error: error,
+		success: success, timeout: self.timeoutMin, });
     },
 
-    // request aborted
-    onAbort: function() {
+    onCommon: function() {
+        this.pollLast = Date.now();
+	this.pollDuration = this.pollNext==0 ? 0 : this.pollLast - this.pollNext;
+	this.schedule();
+    },
+
+    // request errored
+    onError: function(status, message) {
+	this.onCommon();
 	this.requestFails++;
 	this.requestBackoff++;
-	this.requestError = "Request aborted by timeout.";
-	this.pollLast = Date.now();
-	this.pollDuration = this.pollNext==0 ? 0 : this.pollLast - this.pollNext;
-	textTool.stop("?", colors.grey);
-	chrome.extension.sendRequest({status:"abort", type:"refresh"});
-	this.schedule();
-	console.warn("Feed fetch abort");
+	this.requestError = message;
+        textTool.stop("?", colors.grey);
+	chrome.extension.sendRequest({status: status, type: "refresh", message: message});
+	console.error("Feed fetch error", message||"", "status:", status||"unknown");
     },
 
     // request successful; xml present but not yet checked
     onSuccess: function(xml, text) {
+	this.onCommon();
 	this.requestOkays++;
 	this.requestBackoff = 0;
-	this.updateCounts(xml);
 	this.requestError = "";
-	this.pollLast = Date.now();
-	this.pollDuration = this.pollNext==0 ? 0 : this.pollLast - this.pollNext;
+	this.updateCounts(xml);
 	iconTool.enabled(true);
 	var cs = "backpack cachedTime";
 	var same = $(cs, storage.cachedFeed()).text() == $(cs, text).text()
 	storage.cachedFeed(text);
-	chrome.extension.sendRequest({status:"okay", type:"refresh", updated: !same});
-	this.schedule();
+	chrome.extension.sendRequest({status: "okay", type: "refresh", updated: !same});
 	console.log("Feed fetch success");
-    },
-
-    onError: function(e) {
-	this.requestFails++;
-	this.requestBackoff++;
-	this.requestError = e;
-	this.pollLast = Date.now();
-	this.pollDuration = this.pollNext==0 ? 0 : this.pollLast - this.pollNext;
-        textTool.stop("?", colors.grey);
-	chrome.extension.sendRequest({status:"error", type:"refresh"});
-        this.schedule();
-	console.error("Feed fetch error", e || "");
     },
 
     updateCounts: function(xml) {

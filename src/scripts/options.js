@@ -1,4 +1,4 @@
-var alsoRefresh = false;
+var originalMsg = "";
 
 
 function markDirty() {
@@ -11,28 +11,21 @@ function markClean() {
 }
 
 
-function save() {
+function save(cb) {
     var newProfileId = $("#profileId").attr("value");
     if (newProfileId == storage.profileId()) { return; }
-
     profile.search(
 	newProfileId,
-	function(lookupId) {
-	    if (newProfileId != lookupId) {
-		$("#msg").text("Using SteamID " + lookupId + " for " + newProfileId + ".")
+	function(foundId) {
+	    if (newProfileId != foundId) {
+		$("#msg").text("Using SteamID " + foundId + " for " + newProfileId + ".")
 	        .fadeIn()
 	        .delay(5000)
 	        .fadeOut();
             }
-            $("#profileId").attr("value", lookupId);
-            storage.profileId(lookupId);
-	    if (alsoRefresh) {
-		$("#unknownProfile").fadeOut('fast', function() {
-		    $("#main").fadeIn().delay(1000);
-		    popupInit();
-		    pageOps.requestRefresh();
-		});
-	    }
+            $("#profileId").attr("value", foundId);
+            storage.profileId(foundId);
+	    if (cb) { cb() }
 	},
 	function(error) {
 	    error = error ? (error.statusText||"Network error") : "Fetch error";
@@ -42,34 +35,20 @@ function save() {
 	});
 }
 
-var originalMsg = "";
 
-function cancel() {
-    optionsAltInit();
-    $("#msg").text(originalMsg);
-}
-
-
-function optionsInit() {
-    $("#msg").text();
-    $("#profileId").attr("value", storage.profileId()).select();
-    $("#profileId").change(markDirty).keypress(markDirty);
-    $("#save").click(save);
-    $("#cancel").click(optionsInit);
-    markClean();
-}
-
-
-function optionsAltInit() {
+function optionsInit(callback) {
     if (!originalMsg) {
 	originalMsg = $("#msg").text()
     }
-    alsoRefresh = true;
-    $("#profileId").attr("value", storage.profileId());
+    $("#profileId").attr("value", storage.profileId()).select();
     $("#profileId").change(markDirty);
-    $("#save").click(save);
-    $("#cancel").click(cancel);
+    $("#save").click(function() {save(callback)} );
+    $("#cancel").click(optionsInit);
+    $("#msg").text(originalMsg);
     $("#unknownProfile input:first").select();
-    markDirty();
+    if (callback) {
+	markDirty();
+    } else {
+	markClean();
+    }
 }
-
