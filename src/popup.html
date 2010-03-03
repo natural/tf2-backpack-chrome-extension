@@ -14,19 +14,22 @@
 
 	<!-- alternate page for entering profile id -->
 	<div id="unknownProfile" class="centered">
-	    <h1>Profile ID Not Set!</h1>
-            <div>To use the TF2 Backpack Access extension, enter your community name or profile id here.</div>
+	    <h1 class="its:msg:1">Profile ID Not Set!</h1>
+            <div class="its:msg:2">To use the TF2 Backpack Access extension, enter your community name or profile id here.</div>
 	    <div><input type="text" id="profileId" /></div>
-	    <div><em id="msg">(e.g., pnatural or 76561197992805111)</em></div>
+	    <div><em id="msg" class="its:msg:3">(e.g., pnatural or 76561197992805111)</em></div>
 	    <div>
-		<a href="#" id="save">Save</a>
-		<a href="#" id="cancel">Reset</a>
-		<a href="#" id="close" onclick="javascript:window.close()">Close</a>
+		<a href="#" id="save"   class="its:msg:4">Save</a>
+		<a href="#" id="cancel" class="its:msg:5">Reset</a>
+		<a href="#" id="close"  class="its:msg:6"
+		   onclick="javascript:window.close()">Close</a>
             </div>
         </div>
 
 	<div id="main">
-	<!-- the one and only tooltip -->
+	<!-- the one and only tooltip; no translation attributes
+	     because the element text values are read from the
+	     items.json file for the user's language -->
 	<div id="tooltip" class="null">
 	    <h4>title</h4>
 	    <div class="level">level</div>
@@ -38,11 +41,11 @@
 	<!-- block for character info and messages -->
 	<div id="character">
 	    <div class="messages its:msg:123">
-		<div id="error" class="null">error</div>
-		<div id="warning" class="null">warning</div>
-		<div id="information" class="null">info</div>
+		<div id="error" class="null"></div>
+		<div id="warning" class="null"></div>
+		<div id="information" class="null"></div>
 	    </div>
-	    <h2 class="its:msg:1">Character Info for
+	    <h2 class="its:msg:7">Character Info for
 		<span id="steamID">
 		    <a href="#" onclick="showTab.steamProfile()"></a>
 	        </span>
@@ -54,8 +57,7 @@
 
 	<!-- new items table -->
         <div id="unplaced" class="null">
-	    <h1 title="Stuff you have that you haven't put in your backpack.  Idle?">
-		<span class="hilite"></span>New Items</h1>
+	    <h1><span class="hilite"></span><span class="its:msg:8">New Items</span></h1>
             <table class="unplaced centered">
 		<tbody>
 		    <tr><td><div /></td><td><div /></td><td><div /></td><td><div /></td><td><div /></td></tr>
@@ -66,7 +68,7 @@
 
 	<!-- old items table -->
         <div id="backpack">
-	    <h1 title="Stuff in your backpack."><span class="hilite"></span>Backpack</h1>
+	    <h1><span class="hilite"></span><span class="its:msg:9">Backpack</span></h1>
             <table class="backpack centered">
 		<!-- ids to make placement easy -->
 		<tbody id="backpackPage-1">
@@ -101,9 +103,9 @@
 
 	    <div id="toolbar">
 		<div id="controls">
-		    <a href="#" onclick="return pageOps.requestRefresh()">Refresh</a>
-		    <a href="#" onclick="return showTab.options()">Options</a>
-		    <a href="#" onclick="return pageOps.showStats()">Stats</a>
+		    <a href="#" class="its:msg:10" onclick="return pageOps.requestRefresh()">Refresh</a>
+		    <a href="#" class="its:msg:11" onclick="return showTab.options()">Options</a>
+		    <a href="#" class="its:msg:12" onclick="return pageOps.showStats()">Stats</a>
 		</div>
 		<div id="nav">
 		    <span class="nonav">&lt;</span>
@@ -117,28 +119,28 @@
 	    <div id="stats" class="null">
 		<table class="stats">
 		    <tr>
-			<td>Total Items: <span id="totalItems" /></td>
-			<td>Normal Items: <span id="numNormal" /></td>
+			<td><span class="its:msg:13">Total Items</span>: <span id="totalItems" /></td>
+			<td><span class="its:msg:14">Normal Items<span>: <span id="numNormal" /></td>
 		    </tr>
 		    <tr>
-			<td>Hats: <span id="numHats" /></td>
-			<td>Unknown Items: <span id="numUnknown" /></td>
+			<td><span class="its:msg:15">Hats</span>: <span id="numHats" /></td>
+			<td><span class="its:msg:16"Unknown Items</span>: <span id="numUnknown" /></td>
 		    </tr>
 		    <tr>
-			<td>Metal Items: <span id="numMetal" /></td>
-			<td>Metal Worth: <span id="metalWorth" /></td>
+			<td><span class="its:msg:17">Metal Items</span>: <span id="numMetal" /></td>
+			<td><span class="its:msg:18">Metal Worth</span>: <span id="metalWorth" /></td>
 		    </tr>
 		    <tr>
-			<td>Profile Views: <span id="profileViews" /></td>
+			<td><span class="its:msg:19">Profile Views</span>: <span id="profileViews" /></td>
 			<td></td>
 		    </tr>
-		    <tr><td colspan="2">Cache Time: <div id="cacheTime" /></td></tr>
-		    <tr><td colspan="2">Last Fetch: <div id="lastFetch" /></td></tr>
-		    <tr><td colspan="2">Next Fetch: <div id="nextFetch" /></td></tr>
-		    <tr><td colspan="2">Request Time: <div id="requestTime" /></td></tr>
+		    <tr><td colspan="2"><span class="its:msg:20">Cache Time</span>: <div id="cacheTime" /></td></tr>
+		    <tr><td colspan="2"><span class="its:msg:21">Last Fetch</span>: <div id="lastFetch" /></td></tr>
+		    <tr><td colspan="2"><span class="its:msg:22">Next Fetch</span>: <div id="nextFetch" /></td></tr>
+		    <tr><td colspan="2"><span class="its:msg:23">Request Time</span>: <div id="requestTime" /></td></tr>
 		    <tr>
 			<td colspan="2">
-			    <a href="#" onclick="return pageOps.hideStats()">Hide Stats</a>
+			    <a href="#" class="its:msg:24" onclick="return pageOps.hideStats()">Hide Stats</a>
 			</td>
 		    </tr>
 		</table>
@@ -150,13 +152,13 @@
 	<!-- final block for footer -->
 	<div id="footer">
 	    <div class="links">
-		<a href="#" onclick="showTab.externalBackpack()">View Backpack</a> at TF2Items.com
+		<span class="its:msg:25"><a href="#" onclick="showTab.externalBackpack()">View Backpack</a> at TF2Items.com</span>
 		<br />
-		<a href="#" onclick="showTab.steamProfile()">View Profile</a> at the Steam Community
+		<span class="its:msg:26"><a href="#" onclick="showTab.steamProfile()">View Profile</a> at the Steam Community</span>
 		<br />
-		Powered by <a href="#" onclick="showTab.sourceOp()">SourceOP.com</a>
+		<span class="its:msg:27">Powered by <a href="#" onclick="showTab.sourceOp()">SourceOP.com</a></span>
 		<br />
-		Extension by <a href="#" onclick="showTab.pnaturalProfile()">pnatural</a>
+		<span class="its:msg:28">Extension by <a href="#" onclick="showTab.pnaturalProfile()">pnatural</a></span>
 	    </div>
 	</div>
 
