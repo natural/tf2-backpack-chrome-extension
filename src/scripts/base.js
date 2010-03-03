@@ -55,6 +55,10 @@ var profile = {
 	    error({statusText: err});
 	};
 	var onSuccess = function(data, status, req) {
+	    if (!data) {
+		error({statusText: "Network failure"});
+		return;
+	    }
 	    try {
 		var msg = JSON.parse(data)
 	    } catch (e) {

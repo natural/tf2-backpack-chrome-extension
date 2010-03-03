@@ -3,7 +3,7 @@ var formatCountDown = function(value, zero, single, plural) {
     var seconds = Math.round((value  - Date.now())/1000);
     if (seconds == 1) {
 	return "1 " + single;
-    } else if (seconds == 0) {
+    } else if (seconds == 0 || seconds < 0) {
 	return zero;
     } else {
 	return seconds + " " + plural;
@@ -34,13 +34,19 @@ var backpack = {
     loadAndShow: function () {
 	var xml = storage.cachedFeed();
 	var self = this;
+	// this block doesn't work like it should.
+	if (0) { // (!($("steamID", xml).text())) {
+	    console.warn("bad feed");
+	    pageOps.showMessage("error", "Bad Data Feed");
+	    return;
+	}
 	if (xml) {
 	    $(itemContentSelector).fadeOut().remove();
 	    self.feed = (new DOMParser()).parseFromString(xml, "text/xml");
 	    pageOps.putItems(self.feed);
 	    pageOps.putCharInfo(self.feed);
 	} else {
-	    // handle empty
+	    console.warning("empty xml");
 	}
     },
 };
@@ -260,6 +266,9 @@ var pageOps = {
 		$("#nextFetch").data({"next":response.pollNext});
 		var duration = response.pollDuration;
 		$("#requestTime").text(duration==0 ? "Cached" : duration + " ms");
+		if (response.requestError) {
+		    pageOps.showMessage("warning", "Warning: Data Loaded from Cache");
+		};
 	    });
     },
 

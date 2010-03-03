@@ -135,7 +135,7 @@ var feedDriver = {
 		    self.onError("warning", error);
 		    break;
 	        default: /* covers "error" and null values, and everything else, too */
-		    self.onError("error", "Error: " + error||"unknown error");
+		    self.onError("error", "Network Error");
 	    }
 	};
 	var success = function(xml, status, req) {

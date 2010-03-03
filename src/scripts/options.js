@@ -42,10 +42,15 @@ function optionsInit(callback) {
     }
     $("#profileId").attr("value", storage.profileId()).select();
     $("#profileId").change(markDirty);
+    $("#profileId").keypress(function(e) {
+	if (e.keyCode==13) {
+	    save(callback);
+	}
+    });
     $("#save").click(function() {save(callback)} );
     $("#cancel").click(optionsInit);
     $("#msg").text(originalMsg);
-    $("#unknownProfile input:first").select();
+    $("#unknownProfile input:first").focus().select();
     if (callback) {
 	markDirty();
     } else {

@@ -371,24 +371,22 @@ border-radius:0.75em;
 margin-right:5em;
 opacity:0.9;
 text-align:center;
+color:#fff;
 }
 
 #error {
 background-color:rgba(157, 48, 47, 0.15);
 border:0.25em solid rgba(189, 58, 58, 0.75);
-color:#f6e7de;
 }
 
 #warning {
 background-color:rgba(239, 152, 73, 0.35);
 border:0.25em solid rgba(241, 129, 73, 0.75);
-color:#f6e7de;
 }
 
 
 #information {
 background-color:rgba(56, 92, 120, 0.5);
 border:0.25em solid rgba(91, 122, 140, 0.5);
-color:#f6e7de;
 }
 
