@@ -9,8 +9,11 @@ chrome := /usr/bin/google-chrome
 crush  := pngcrush -force -l 9 -rem text -rem gAMA -rem cHRM -rem iCCP -rem sRGB -res 96 -rem time -q
 zip    := zip -9 -q
 
+style_files := $(addprefix $(build_dir)/styles/, $(notdir $(wildcard src/styles/*.css)))
+js_files := $(addprefix $(build_dir)/scripts/, $(notdir $(wildcard src/scripts/*.js)))
 
-.PHONEY: all clean
+
+.PHONEY: all clean $(style_files) $(js_files)
 
 all: dist
 
@@ -20,10 +23,13 @@ clean:
 	@rm -rf $(dist_dir)
 	@echo "[CLEAN] done."
 
-dist:
+dist: $(style_files) $(js_files)
 	@echo "[DIST] building..."
 	@mkdir -p $(build_dir)
 	@mkdir -p $(dist_dir)
+	@mkdir -p $(build_dir)/scripts
+	@cp src/scripts/jquery.min.js $(build_dir)/scripts
+	@mkdir -p $(build_dir)/styles
 
 	@cp src/*.html src/*.json $(build_dir)
 
@@ -41,17 +47,18 @@ dist:
 	@${crush} -d $(build_dir)/images src/images/*.png 2>&1>/dev/null
 	@echo "[DIST] done crushing."
 
-	@mkdir -p $(build_dir)/scripts
-	@cp src/scripts/*.js $(build_dir)/scripts
-	@echo "TODO: minify scripts in $(build_dir)/scripts"
-
-	@mkdir -p $(build_dir)/styles
-	@cp src/styles/*.css $(build_dir)/styles
-	@echo "TODO: minify styles in $(build_dir)/styles"
-
 	@echo "[DIST] creating distribution..."
 	@cd $(build_dir) && $(zip) -r ../$(dist_dir)/$(release_name)-$(release_num).zip .
 	@echo "[DIST] done.  Distributable at $(dist_dir)/$(release_name)-$(release_num).zip"
+
+
+$(style_files):
+	@mkdir -p $(build_dir)/styles
+	yuicompressor --type css src/styles/$(notdir $@) -o $(build_dir)/styles/$(notdir $@)
+
+$(js_files):
+	@mkdir -p $(build_dir)/scripts
+	yuicompressor --type js src/scripts/$(notdir $@) -o $(build_dir)/scripts/$(notdir $@)
 
 
 crx:
@@ -62,3 +69,5 @@ crx:
 	@rm $(release_name)
 	@mv $(release_name).crx $(dist_dir)
 	@echo "[CRX] done.  Distributable at $(dist_dir)/$(release_name).crx"
+
+
