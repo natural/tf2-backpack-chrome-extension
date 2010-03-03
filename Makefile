@@ -1,7 +1,5 @@
 release_name := $(shell python -c "import json;print json.load(open('src/manifest.json'))['name'].lower().replace(' ', '_')")
 release_num  := $(shell python -c "import json;print json.load(open('src/manifest.json'))['version']")
-## yuicompressor --type css
-## yuicompressor --type js
 build_dir := build-$(release_num)
 dist_dir  := dist-$(release_num)
 
@@ -10,10 +8,11 @@ crush  := pngcrush -force -l 9 -rem text -rem gAMA -rem cHRM -rem iCCP -rem sRGB
 zip    := zip -9 -q
 
 style_files := $(addprefix $(build_dir)/styles/, $(notdir $(wildcard src/styles/*.css)))
-js_files := $(addprefix $(build_dir)/scripts/, $(notdir $(wildcard src/scripts/*.js)))
+script_files := $(addprefix $(build_dir)/scripts/, $(notdir $(wildcard src/scripts/*.js)))
 
 
-.PHONEY: all clean $(style_files) $(js_files)
+
+.PHONEY: all clean $(style_files) $(script_files)
 
 all: dist
 
@@ -23,18 +22,18 @@ clean:
 	@rm -rf $(dist_dir)
 	@echo "[CLEAN] done."
 
-dist: $(style_files) $(js_files)
+dist: $(style_files) $(script_files)
 	@echo "[DIST] building..."
 	@mkdir -p $(build_dir)
 	@mkdir -p $(dist_dir)
 	@mkdir -p $(build_dir)/scripts
-	@cp src/scripts/jquery.min.js $(build_dir)/scripts
 	@mkdir -p $(build_dir)/styles
 
+	@cp src/scripts/jquery.min.js $(build_dir)/scripts
 	@cp src/*.html src/*.json $(build_dir)
 
 	@mkdir -p $(build_dir)/data
-	@cp src/data/items.json $(build_dir)/data
+	cat src/data/items.json | python -c "import json,sys;d=json.load(sys.stdin);json.dump(d,sys.stdout)" > $(build_dir)/data/items.json
 
 	@mkdir -p $(build_dir)/fonts
 	@cp src/fonts/*.ttf $(build_dir)/fonts
@@ -56,7 +55,7 @@ $(style_files):
 	@mkdir -p $(build_dir)/styles
 	yuicompressor --type css src/styles/$(notdir $@) -o $(build_dir)/styles/$(notdir $@)
 
-$(js_files):
+$(script_files):
 	@mkdir -p $(build_dir)/scripts
 	yuicompressor --type js src/scripts/$(notdir $@) -o $(build_dir)/scripts/$(notdir $@)
 
@@ -69,5 +68,3 @@ crx:
 	@rm $(release_name)
 	@mv $(release_name).crx $(dist_dir)
 	@echo "[CRX] done.  Distributable at $(dist_dir)/$(release_name).crx"
-
-
