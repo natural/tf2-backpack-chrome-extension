@@ -422,8 +422,16 @@ var toolTip = {
     },
 };
 
+var i18nMap = {
+    "its_msg_7": [
+        function() { return $("#steamID").html() }
+   ]
+
+};
 
 var popupInit = function() {
+    // $("html").attr("lang", "ja"); //testing
+
     if (!storage.profileId()) {
         $("#main").fadeOut('fast');
 	$("#unknownProfile").fadeIn('fast');

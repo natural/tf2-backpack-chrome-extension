@@ -125,11 +125,43 @@ function textNodeInt(selector, xml) {
     return v ? v : 0;
 }
 
+function _ (item) {
+    if (typeof(item) == "string") {
+	options = {key: item, missing: item};
+    } else {
+	options = item;
+    }
+    var key = options.key;
+    if (!key) {
+	return options.missing || "";
+    }
+
+    // build lookups
+    var map = options.map || {};
+    var lookups = map[key] || [];
+
+    var val = chrome.i18n.getMessage(key);
+    if (!val) {
+	val = options.missing || "";
+    }
+    return val;
+}
+
 
 
 function i18nize() {
-    var targets = $("[class*='its\\:msg\\:'], [id*='its\\:msg\\:']");
+    var targets = $("[class*='its_msg_'], [id*='its_msg_']");
     targets.each(function(index, node) {
-        console.log("i18nize", node);
+        node = $(node);
+        if (node.attr("id").indexOf("its_msg_")==0) {
+            var msgid = node.attr("id");
+        } else {
+	    var cls = node.attr("class");
+	    var msgid = cls.substring(cls.search(/its_msg_\d+/)).split(" ")[0];
+	}
+        console.log("i18nize", node, msgid);
+	node.text(_(msgid));
     });
 }
+
+

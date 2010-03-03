@@ -19,119 +19,119 @@
 
 
 
-    "its:msg:0": {
-        "message": "TF2 Backpack Access",
+    "its_msg_0": {
+        "message": "TF2 Backpack Access (New and Improved)",
         "description": "page title"
     },
-    "its:msg:1": {
+    "its_msg_1": {
         "message": "Profile ID Not Set!",
         "description": "no steam id title"
     },
-    "its:msg:2": {
+    "its_msg_2": {
         "message": "To use the TF2 Backpack Access extension enter your community name or profile id here",
         "description": "no steam id help"
     },
-    "its:msg:3": {
+    "its_msg_3": {
         "message": "(e.g. pnatural or 76561197992805111)",
         "description": "no steam id example"
     },
-    "its:msg:4": {
+    "its_msg_4": {
         "message": "Save",
         "description": "save button"
     },
-    "its:msg:5": {
+    "its_msg_5": {
         "message": "Reset",
         "description": "reset button"
     },
-    "its:msg:6": {
+    "its_msg_6": {
         "message": "Close",
         "description": "close button"
     },
-    "its:msg:7": {
+    "its_msg_7": {
         "message": "Character Info for $1",
         "description": "character info title"
     },
-    "its:msg:8": {
+    "its_msg_8": {
         "message": "New Items",
         "description": "new items title"
     },
-    "its:msg:9": {
+    "its_msg_9": {
         "message": "Backpack",
         "description": "backpack title"
     },
-    "its:msg:10": {
+    "its_msg_10": {
         "message": "Refresh",
         "description": "refresh button"
     },
-    "its:msg:11": {
+    "its_msg_11": {
         "message": "Options",
         "description": "options button"
     },
-    "its:msg:12": {
+    "its_msg_12": {
         "message": "Stats",
         "description": "stats button"
     },
-    "its:msg:13": {
+    "its_msg_13": {
         "message": "Total Items",
         "description": "total item count stats title"
     },
-    "its:msg:14": {
+    "its_msg_14": {
         "message": "Normal Items",
         "description": "normal item count stats title"
     },
-    "its:msg:15": {
+    "its_msg_15": {
         "message": "Hats",
         "description": "hat count stats title"
     },
-    "its:msg:16": {
+    "its_msg_16": {
         "message": "Unknown Items",
         "description": "unknown item count stats title"
     },
-    "its:msg:17": {
+    "its_msg_17": {
         "message": "Metal Items",
         "description": "metal item count stats title"
     },
-    "its:msg:18": {
+    "its_msg_18": {
         "message": "Metal Worth",
         "description": "metal worth item count"
     },
-    "its:msg:19": {
+    "its_msg_19": {
         "message": "Profile Views",
         "description": "count of profile views"
     },
-    "its:msg:20": {
+    "its_msg_20": {
         "message": "Cache Time",
         "description": "time feed cached"
     },
-    "its:msg:21": {
+    "its_msg_21": {
         "message": "Last Fetch",
         "description": "time of last fetch"
     },
-    "its:msg:22": {
+    "its_msg_22": {
         "message": "Next Fetch",
         "description": "time of next fetch"
     },
-    "its:msg:23": {
+    "its_msg_23": {
         "message": "Request Time",
         "description": "duration of request"
     },
-    "its:msg:24": {
+    "its_msg_24": {
         "message": "Hide Stats",
         "description": "hide stats button"
     },
-    "its:msg:25": {
+    "its_msg_25": {
         "message": "$1 View Backpack $2 at TF2Items.com",
         "description": "view backpack link"
     },
-    "its:msg:26": {
+    "its_msg_26": {
         "message": "$1 View Profile $2 at the Steam Community",
         "description": "view profile link"
     },
-    "its:msg:27": {
+    "its_msg_27": {
         "message": "Powered by $1 SourceOP.com $2",
         "description": "view sourceop link"
     },
-    "its:msg:28": {
+    "its_msg_28": {
         "message": "Extension by $1 pnatural $2",
         "description": "view pnatural profile linke"
     }

@@ -20,3 +20,7 @@ src:url("../fonts/TF2Build.ttf");
 font-family:"TF2secondary";
 src:url("../fonts/TF2secondary.ttf");
 }
+
+:lang(ja) {
+font-family: "Arial", sans-serif !important;
+}
