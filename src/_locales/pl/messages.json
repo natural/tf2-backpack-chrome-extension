@@ -1,0 +1,176 @@
+{
+    "language_code": {
+        "message": "pl", 
+        "description": ""
+    }, 
+    "its_msg_30": {
+        "message": "na parowa Wsp\u00f3lnoty", 
+        "message-retranslated": "on Steam Community", 
+        "description": "fragment"
+    }, 
+    "extension_default_title": {
+        "message": "Wy\u015bwietlanie Team Fortress 2 Plecak", 
+        "message-retranslated": "Display Team Fortress 2 Backpack", 
+        "description": "Extension default title for browser action"
+    }, 
+    "its_msg_16": {
+        "message": "Nieznany przedmioty", 
+        "message-retranslated": "Unknown items", 
+        "description": "unknown item count stats title"
+    }, 
+    "its_msg_17": {
+        "message": "Element\u00f3w metalowych", 
+        "message-retranslated": "Metal", 
+        "description": "metal item count stats title"
+    }, 
+    "its_msg_14": {
+        "message": "Przedmioty Normal", 
+        "message-retranslated": "Normal Subjects", 
+        "description": "normal item count stats title"
+    }, 
+    "its_msg_15": {
+        "message": "Czapki", 
+        "message-retranslated": "Caps", 
+        "description": "hat count stats title"
+    }, 
+    "its_msg_12": {
+        "message": "Statystyki", 
+        "message-retranslated": "Statistics", 
+        "description": "stats button"
+    }, 
+    "its_msg_13": {
+        "message": "Razem przedmioty", 
+        "message-retranslated": "Total Items", 
+        "description": "total item count stats title"
+    }, 
+    "its_msg_10": {
+        "message": "Od\u015bwie\u017c", 
+        "message-retranslated": "Refresh", 
+        "description": "refresh button"
+    }, 
+    "its_msg_11": {
+        "message": "Opcje", 
+        "message-retranslated": "Options", 
+        "description": "options button"
+    }, 
+    "its_msg_18": {
+        "message": "Metal Worth", 
+        "message-retranslated": "Metal Worth", 
+        "description": "metal worth item count"
+    }, 
+    "its_msg_19": {
+        "message": "Profile Views", 
+        "message-retranslated": "Profile Views", 
+        "description": "count of profile views"
+    }, 
+    "extension_desc": {
+        "message": "Szybki dost\u0119p do element\u00f3w w Team Fortress 2 plecak", 
+        "message-retranslated": "Quick access to items in the Team Fortress 2 backpack", 
+        "description": "Extension description"
+    }, 
+    "its_msg_8": {
+        "message": "Nowo\u015bci", 
+        "message-retranslated": "News", 
+        "description": "new items title"
+    }, 
+    "its_msg_9": {
+        "message": "Plecak", 
+        "message-retranslated": "Backpack", 
+        "description": "backpack title"
+    }, 
+    "its_msg_4": {
+        "message": "Zapisa\u0107", 
+        "message-retranslated": "Save", 
+        "description": "save button"
+    }, 
+    "its_msg_5": {
+        "message": "Reset", 
+        "message-retranslated": "Reset", 
+        "description": "reset button"
+    }, 
+    "its_msg_6": {
+        "message": "Blisko", 
+        "message-retranslated": "Close", 
+        "description": "close button"
+    }, 
+    "its_msg_7": {
+        "message": "Charakter Informacje o $1 dolar", 
+        "message-retranslated": "Information about the nature of $1", 
+        "description": "character info title"
+    }, 
+    "its_msg_0": {
+        "message": "Team Fortress 2 Plecak Access (Nowe i udoskonalone)", 
+        "message-retranslated": "Team Fortress 2 Backpack Access (New and Improved)", 
+        "description": "page title"
+    }, 
+    "its_msg_1": {
+        "message": "Profil ID Not Set!", 
+        "message-retranslated": "Profile ID Not Set!", 
+        "description": "no steam id title"
+    }, 
+    "its_msg_2": {
+        "message": "Aby korzysta\u0107 z Team Fortress 2 Rozszerzenie Plecak dost\u0119pu wpisz nazw\u0119 wsp\u00f3lnoty lub profilu id tutaj", 
+        "message-retranslated": "To use the Team Fortress 2 Extension Backpack community access, type the name or id profile here", 
+        "description": "no steam id help"
+    }, 
+    "its_msg_3": {
+        "message": "(np. pnatural lub 76561197992805111)", 
+        "message-retranslated": "(eg pnatural or 76561197992805111)", 
+        "description": "no steam id example"
+    }, 
+    "its_msg_29": {
+        "message": "na", 
+        "message-retranslated": "at", 
+        "description": "just the word 'at'"
+    }, 
+    "its_msg_28": {
+        "message": "Rozszerzenie napisany przez", 
+        "message-retranslated": "Extension written by", 
+        "description": "view pnatural profile link"
+    }, 
+    "its_msg_27": {
+        "message": "Powered by", 
+        "message-retranslated": "Powered by", 
+        "description": "powered by"
+    }, 
+    "its_msg_26": {
+        "message": "Zobacz profil", 
+        "message-retranslated": "View Profile", 
+        "description": "view profile link"
+    }, 
+    "its_msg_25": {
+        "message": "Zobacz Plecak", 
+        "message-retranslated": "View Backpack", 
+        "description": "view backpack link"
+    }, 
+    "its_msg_24": {
+        "message": "Ukryj Stats", 
+        "message-retranslated": "Hide Stats", 
+        "description": "hide stats button"
+    }, 
+    "its_msg_23": {
+        "message": "Wniosek Time", 
+        "message-retranslated": "Proposal Time", 
+        "description": "duration of request"
+    }, 
+    "its_msg_22": {
+        "message": "Nast\u0119pna Fetch", 
+        "message-retranslated": "Next Fetch", 
+        "description": "time of next fetch"
+    }, 
+    "its_msg_21": {
+        "message": "Ostatnia Fetch", 
+        "message-retranslated": "Last Fetch", 
+        "description": "time of last fetch"
+    }, 
+    "its_msg_20": {
+        "message": "Cache Time", 
+        "message-retranslated": "Cache Time", 
+        "description": "time feed cached"
+    }, 
+    "extension_name": {
+        "message": "Team Fortress 2 Plecak Access", 
+        "message-retranslated": "Team Fortress 2 Backpack Access", 
+        "description": "Extension name"
+    }
+}

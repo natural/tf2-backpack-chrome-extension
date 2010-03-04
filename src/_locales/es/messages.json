@@ -1,0 +1,176 @@
+{
+    "language_code": {
+        "message": "es", 
+        "description": ""
+    }, 
+    "its_msg_30": {
+        "message": "en la Comunidad de vapor", 
+        "message-retranslated": "steam in the Community", 
+        "description": "fragment"
+    }, 
+    "extension_default_title": {
+        "message": "Ver tu Mochila Team Fortress 2", 
+        "message-retranslated": "View your Backpack Team Fortress 2", 
+        "description": "Extension default title for browser action"
+    }, 
+    "its_msg_16": {
+        "message": "Elementos Desconocido", 
+        "message-retranslated": "Unknown elements", 
+        "description": "unknown item count stats title"
+    }, 
+    "its_msg_17": {
+        "message": "Los objetos met\u00e1licos", 
+        "message-retranslated": "Metal objects", 
+        "description": "metal item count stats title"
+    }, 
+    "its_msg_14": {
+        "message": "Objetos normales", 
+        "message-retranslated": "Normal Items", 
+        "description": "normal item count stats title"
+    }, 
+    "its_msg_15": {
+        "message": "Sombreros", 
+        "message-retranslated": "Hats", 
+        "description": "hat count stats title"
+    }, 
+    "its_msg_12": {
+        "message": "Estad\u00edsticas", 
+        "message-retranslated": "Statistics", 
+        "description": "stats button"
+    }, 
+    "its_msg_13": {
+        "message": "Art\u00edculos Total", 
+        "message-retranslated": "Items Total", 
+        "description": "total item count stats title"
+    }, 
+    "its_msg_10": {
+        "message": "Actualizar", 
+        "message-retranslated": "Update", 
+        "description": "refresh button"
+    }, 
+    "its_msg_11": {
+        "message": "Opciones", 
+        "message-retranslated": "Options", 
+        "description": "options button"
+    }, 
+    "its_msg_18": {
+        "message": "Metal Worth", 
+        "message-retranslated": "Metal Worth", 
+        "description": "metal worth item count"
+    }, 
+    "its_msg_19": {
+        "message": "Vistas de perfil", 
+        "message-retranslated": "Profile Views", 
+        "description": "count of profile views"
+    }, 
+    "extension_desc": {
+        "message": "Acceso r\u00e1pido a los art\u00edculos en su mochila Team Fortress 2", 
+        "message-retranslated": "Quick access to items in your backpack Team Fortress 2", 
+        "description": "Extension description"
+    }, 
+    "its_msg_8": {
+        "message": "Nuevos productos", 
+        "message-retranslated": "New Products", 
+        "description": "new items title"
+    }, 
+    "its_msg_9": {
+        "message": "Mochila", 
+        "message-retranslated": "Backpack", 
+        "description": "backpack title"
+    }, 
+    "its_msg_4": {
+        "message": "Salvar", 
+        "message-retranslated": "Save", 
+        "description": "save button"
+    }, 
+    "its_msg_5": {
+        "message": "Perd\u00ed", 
+        "message-retranslated": "Reset", 
+        "description": "reset button"
+    }, 
+    "its_msg_6": {
+        "message": "Cerrar", 
+        "message-retranslated": "Close", 
+        "description": "close button"
+    }, 
+    "its_msg_7": {
+        "message": "Informaci\u00f3n de personaje por $1 d\u00f3lar", 
+        "message-retranslated": "Character Info for $1", 
+        "description": "character info title"
+    }, 
+    "its_msg_0": {
+        "message": "Team Fortress 2 Mochila de acceso (nuevas y mejoradas)", 
+        "message-retranslated": "Team Fortress 2 Access Backpack (new and improved)", 
+        "description": "page title"
+    }, 
+    "its_msg_1": {
+        "message": "Perfil ID No Set!", 
+        "message-retranslated": "Profile ID Not Set!", 
+        "description": "no steam id title"
+    }, 
+    "its_msg_2": {
+        "message": "Para utilizar el Team Fortress 2 Mochila extensi\u00f3n de acceso introduzca su nombre de la comunidad o el perfil de ID aqu\u00ed", 
+        "message-retranslated": "To use the Team Fortress 2 Backpack extension of access enter your community or profile ID here", 
+        "description": "no steam id help"
+    }, 
+    "its_msg_3": {
+        "message": "(por ejemplo, pnatural o 76561197992805111)", 
+        "message-retranslated": "(eg pnatural or 76561197992805111)", 
+        "description": "no steam id example"
+    }, 
+    "its_msg_29": {
+        "message": "en", 
+        "message-retranslated": "in", 
+        "description": "just the word 'at'"
+    }, 
+    "its_msg_28": {
+        "message": "Extensi\u00f3n escrito por", 
+        "message-retranslated": "Extension written by", 
+        "description": "view pnatural profile link"
+    }, 
+    "its_msg_27": {
+        "message": "Powered by", 
+        "message-retranslated": "Powered by", 
+        "description": "powered by"
+    }, 
+    "its_msg_26": {
+        "message": "Ver perfil", 
+        "message-retranslated": "View Profile", 
+        "description": "view profile link"
+    }, 
+    "its_msg_25": {
+        "message": "Ver Mochila", 
+        "message-retranslated": "View Backpack", 
+        "description": "view backpack link"
+    }, 
+    "its_msg_24": {
+        "message": "Estad\u00edsticas Ocultar", 
+        "message-retranslated": "Hide Statistics", 
+        "description": "hide stats button"
+    }, 
+    "its_msg_23": {
+        "message": "Hora de la solicitud", 
+        "message-retranslated": "Request Time", 
+        "description": "duration of request"
+    }, 
+    "its_msg_22": {
+        "message": "Siguiente Fetch", 
+        "message-retranslated": "Next Fetch", 
+        "description": "time of next fetch"
+    }, 
+    "its_msg_21": {
+        "message": "Fetch \u00daltima", 
+        "message-retranslated": "Last Fetch", 
+        "description": "time of last fetch"
+    }, 
+    "its_msg_20": {
+        "message": "Cache Tiempo", 
+        "message-retranslated": "Cache Time", 
+        "description": "time feed cached"
+    }, 
+    "extension_name": {
+        "message": "Team Fortress 2 Mochila de acceso", 
+        "message-retranslated": "Team Fortress 2 Access Backpack", 
+        "description": "Extension name"
+    }
+}

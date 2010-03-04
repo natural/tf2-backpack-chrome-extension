@@ -422,16 +422,10 @@ var toolTip = {
     },
 };
 
-var i18nMap = {
-    "its_msg_7": [
-        function() { return $("#steamID").html() }
-   ]
-
-};
 
 var popupInit = function() {
     // $("html").attr("lang", "ja"); //testing
-
+    i18nize();
     if (!storage.profileId()) {
         $("#main").fadeOut('fast');
 	$("#unknownProfile").fadeIn('fast');
@@ -443,6 +437,7 @@ var popupInit = function() {
 	    })
 	});
     } else {
+
 	pages.init();
 	backpack.init();
 	pageOps.init();

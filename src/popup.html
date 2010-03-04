@@ -14,15 +14,15 @@
 
 	<!-- alternate page for entering profile id -->
 	<div id="unknownProfile" class="centered">
-	    <h1 class="its_msg_1">Profile ID Not Set!</h1>
-            <div class="its_msg_2">To use the TF2 Backpack Access extension, enter your community name or profile id here.</div>
+	    <h1 class="its_msg_1">(profile id not set)</h1>
+            <div class="its_msg_2">(instructions)</div>
 	    <div><input type="text" id="profileId" /></div>
-	    <div><em id="msg" class="its_msg_3">(e.g., pnatural or 76561197992805111)</em></div>
+	    <div><em id="msg" class="its_msg_3">(instruction example)</em></div>
 	    <div>
-		<a href="#" id="save"   class="its_msg_4">Save</a>
-		<a href="#" id="cancel" class="its_msg_5">Reset</a>
+		<a href="#" id="save"   class="its_msg_4">(save)</a>
+		<a href="#" id="cancel" class="its_msg_5">(reset)</a>
 		<a href="#" id="close"  class="its_msg_6"
-		   onclick="javascript:window.close()">Close</a>
+		   onclick="javascript:window.close()">(close)</a>
             </div>
         </div>
 
@@ -45,7 +45,8 @@
 		<div id="warning" class="null"></div>
 		<div id="information" class="null"></div>
 	    </div>
-	    <h2 class="its_msg_7">Character Info for
+	    <!-- next node has no text for i18n to pull out all of the contents -->
+	    <h2 class="its_msg_7">
 		<span id="steamID">
 		    <a href="#" onclick="showTab.steamProfile()"></a>
 	        </span>
@@ -103,9 +104,9 @@
 
 	    <div id="toolbar">
 		<div id="controls">
-		    <a href="#" class="its_msg_10" onclick="return pageOps.requestRefresh()">Refresh</a>
-		    <a href="#" class="its_msg_11" onclick="return showTab.options()">Options</a>
-		    <a href="#" class="its_msg_12" onclick="return pageOps.showStats()">Stats</a>
+		    <a href="#" class="its_msg_10" onclick="return pageOps.requestRefresh()">(refresh)</a>
+		    <a href="#" class="its_msg_11" onclick="return showTab.options()">(options)</a>
+		    <a href="#" class="its_msg_12" onclick="return pageOps.showStats()">(stats)</a>
 		</div>
 		<div id="nav">
 		    <span class="nonav">&lt;</span>
@@ -119,28 +120,28 @@
 	    <div id="stats" class="null">
 		<table class="stats">
 		    <tr>
-			<td><strong class="its_msg_13">Total Items</strong>: <span id="totalItems"></span></td>
-			<td><strong class="its_msg_14">Normal Items<strong>: <span id="numNormal"></span></td>
+			<td><strong class="its_msg_13">(total items)</strong>: <span id="totalItems"></span></td>
+			<td><strong class="its_msg_14">(normal items)</strong>: <span id="numNormal"></span></td>
 		    </tr>
 		    <tr>
-			<td><strong class="its_msg_15">Hats</strong>: <span id="numHats"></span></td>
-			<td><strong class="its_msg_16">Unknown Items</strong>: <span id="numUnknown"></span></td>
+			<td><strong class="its_msg_15">(hats)</strong>: <span id="numHats"></span></td>
+			<td><strong class="its_msg_16">(unknown items)</strong>: <span id="numUnknown"></span></td>
 		    </tr>
 		    <tr>
-			<td><strong class="its_msg_17">Metal Items</strong>: <span id="numMetal"></span></td>
-			<td><strong class="its_msg_18">Metal Worth</strong>: <span id="metalWorth"></span></td>
+			<td><strong class="its_msg_17">(metal items)</strong>: <span id="numMetal"></span></td>
+			<td><strong class="its_msg_18">(metal worth)</strong>: <span id="metalWorth"></span></td>
 		    </tr>
 		    <tr>
-			<td><strong class="its_msg_19">Profile Views</strong>: <span id="profileViews"></span></td>
+			<td><strong class="its_msg_19">(profile views)</strong>: <span id="profileViews"></span></td>
 			<td></td>
 		    </tr>
-		    <tr><td colspan="2"><strong class="its_msg_20">Cache Time</strong>: <div id="cacheTime"></div></td></tr>
-		    <tr><td colspan="2"><strong class="its_msg_21">Last Fetch</strong>: <div id="lastFetch"></div></td></tr>
-		    <tr><td colspan="2"><strong class="its_msg_22">Next Fetch</strong>: <div id="nextFetch"></div></td></tr>
-		    <tr><td colspan="2"><strong class="its_msg_23">Request Time</strong>: <div id="requestTime"></div></td></tr>
+		    <tr><td colspan="2"><strong class="its_msg_20">(cache time)</strong>: <div id="cacheTime"></div></td></tr>
+		    <tr><td colspan="2"><strong class="its_msg_21">(last fetch)</strong>: <div id="lastFetch"></div></td></tr>
+		    <tr><td colspan="2"><strong class="its_msg_22">(next fetch)</strong>: <div id="nextFetch"></div></td></tr>
+		    <tr><td colspan="2"><strong class="its_msg_23">(request time)</strong>: <div id="requestTime"></div></td></tr>
 		    <tr>
 			<td colspan="2">
-			    <a href="#" class="its_msg_24" onclick="return pageOps.hideStats()">Hide Stats</a>
+			    <a href="#" class="its_msg_24" onclick="return pageOps.hideStats()">(hide stats)</a>
 			</td>
 		    </tr>
 		</table>
@@ -152,13 +153,25 @@
 	<!-- final block for footer -->
 	<div id="footer">
 	    <div class="links">
-		<span class="its_msg_25"><a href="#" onclick="showTab.externalBackpack()">View Backpack</a> at TF2Items.com</span>
+		<span>
+		    <a class="its_msg_25" href="#" onclick="showTab.externalBackpack()">(view backpack)</a>
+		    <span class="its_msg_29">(at)</span> TF2Items.com
+		</span>
 		<br />
-		<span class="its_msg_26"><a href="#" onclick="showTab.steamProfile()">View Profile</a> at the Steam Community</span>
+		<span>
+		    <a class="its_msg_26" href="#" onclick="showTab.steamProfile()">(view profile)</a>
+		    <span class="its_msg_30">(... at the steam community)</span>
+		</span>
 		<br />
-		<span class="its_msg_27">Powered by <a href="#" onclick="showTab.sourceOp()">SourceOP.com</a></span>
+		<span>
+		    <span class="its_msg_27">(powered by)</span>
+		    <a href="#" onclick="showTab.sourceOp()">SourceOP.com</a>
+		</span>
 		<br />
-		<span class="its_msg_28">Extension by <a href="#" onclick="showTab.pnaturalProfile()">pnatural</a></span>
+		<span>
+		    <span class="its_msg_28">(extension written by)</span>
+		    <a href="#" onclick="showTab.pnaturalProfile()">pnatural</a>
+	        </span>
 	    </div>
 	</div>
 

@@ -127,26 +127,33 @@ function textNodeInt(selector, xml) {
 
 function _ (item) {
     if (typeof(item) == "string") {
-	options = {key: item, missing: item};
+	var options = {key: item, missing: item};
     } else {
-	options = item;
+	var options = item;
     }
     var key = options.key;
     if (!key) {
 	return options.missing || "";
     }
-
-    // build lookups
-    var map = options.map || {};
-    var lookups = map[key] || [];
-
-    var val = chrome.i18n.getMessage(key);
-    if (!val) {
-	val = options.missing || "";
+    if (options.subs) {
+	var val = chrome.i18n.getMessage(key, options.subs);
+    } else {
+	var val = chrome.i18n.getMessage(key);
     }
-    return val;
+    return !val ? options.missing || "" : val;
 }
 
+
+var i18nMap = {
+    "its_msg_7":
+        function(id) {
+	    var h = $("h2."+id);
+	    var i = $("#steamID").parent().html();
+	    h.html(_({key:id, subs:[i]}));
+	    console.log(h,i);
+	},
+
+};
 
 
 function i18nize() {
@@ -159,8 +166,13 @@ function i18nize() {
 	    var cls = node.attr("class");
 	    var msgid = cls.substring(cls.search(/its_msg_\d+/)).split(" ")[0];
 	}
-        console.log("i18nize", node, msgid);
-	node.text(_(msgid));
+	if (msgid in i18nMap) {
+	    var fun = i18nMap[msgid];
+	    fun(msgid);
+	} else {
+	    var txt = _(msgid);
+	    node.html(txt);
+	}
     });
 }
 

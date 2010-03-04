@@ -1,14 +1,14 @@
 {
     "extension_name": {
-	"message": "TF2 Backpack Access",
+	"message": "Team Fortress 2 Backpack Access",
 	"description": "Extension name"
     },
     "extension_desc": {
-	"message": "Quick access to items in your TF2 backpack",
+	"message": "Quick access to items in your Team Fortress 2 backpack",
 	"description": "Extension description"
     },
     "extension_default_title": {
-	"message": "View your TF2 Backpack",
+	"message": "View your Team Fortress 2 Backpack",
 	"description": "Extension default title for browser action"
     },
     "language_code": {
@@ -20,7 +20,7 @@
 
 
     "its_msg_0": {
-        "message": "TF2 Backpack Access (New and Improved)",
+        "message": "Team Fortress 2 Backpack Access (New and Improved)",
         "description": "page title"
     },
     "its_msg_1": {
@@ -28,7 +28,7 @@
         "description": "no steam id title"
     },
     "its_msg_2": {
-        "message": "To use the TF2 Backpack Access extension enter your community name or profile id here",
+        "message": "To use the Team Fortress 2 Backpack Access extension enter your community name or profile id here",
         "description": "no steam id help"
     },
     "its_msg_3": {
@@ -120,20 +120,30 @@
         "description": "hide stats button"
     },
     "its_msg_25": {
-        "message": "$1 View Backpack $2 at TF2Items.com",
+        "message": "View Backpack",
         "description": "view backpack link"
     },
     "its_msg_26": {
-        "message": "$1 View Profile $2 at the Steam Community",
+        "message": "View Profile",
         "description": "view profile link"
     },
     "its_msg_27": {
-        "message": "Powered by $1 SourceOP.com $2",
-        "description": "view sourceop link"
+        "message": "Powered by",
+        "description": "powered by"
     },
     "its_msg_28": {
-        "message": "Extension by $1 pnatural $2",
-        "description": "view pnatural profile linke"
+        "message": "Extension written by",
+        "description": "view pnatural profile link"
+    },
+
+
+   "its_msg_29": {
+        "message": "at",
+        "description": "just the word 'at'"
+    },
+    "its_msg_30": {
+        "message": "at the Steam Community",
+	"description": "fragment"
     }
 
 

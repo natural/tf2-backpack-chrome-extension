@@ -1,0 +1,176 @@
+{
+    "language_code": {
+        "message": "nl", 
+        "description": ""
+    }, 
+    "its_msg_30": {
+        "message": "op de Steam Community", 
+        "message-retranslated": "on the Steam Community", 
+        "description": "fragment"
+    }, 
+    "extension_default_title": {
+        "message": "Bekijk je Team Fortress 2 Backpack", 
+        "message-retranslated": "See you Team Fortress 2 Backpack", 
+        "description": "Extension default title for browser action"
+    }, 
+    "its_msg_16": {
+        "message": "Onbekend Items", 
+        "message-retranslated": "Unknown Items", 
+        "description": "unknown item count stats title"
+    }, 
+    "its_msg_17": {
+        "message": "Metalen objecten", 
+        "message-retranslated": "Metal Items", 
+        "description": "metal item count stats title"
+    }, 
+    "its_msg_14": {
+        "message": "Normale Items", 
+        "message-retranslated": "Normal Items", 
+        "description": "normal item count stats title"
+    }, 
+    "its_msg_15": {
+        "message": "Hoeden", 
+        "message-retranslated": "Hats", 
+        "description": "hat count stats title"
+    }, 
+    "its_msg_12": {
+        "message": "Stats", 
+        "message-retranslated": "Stats", 
+        "description": "stats button"
+    }, 
+    "its_msg_13": {
+        "message": "Totaal Items", 
+        "message-retranslated": "Total Items", 
+        "description": "total item count stats title"
+    }, 
+    "its_msg_10": {
+        "message": "Vernieuwen", 
+        "message-retranslated": "Refresh", 
+        "description": "refresh button"
+    }, 
+    "its_msg_11": {
+        "message": "Opties", 
+        "message-retranslated": "Options", 
+        "description": "options button"
+    }, 
+    "its_msg_18": {
+        "message": "Metal Worth", 
+        "message-retranslated": "Metal Worth", 
+        "description": "metal worth item count"
+    }, 
+    "its_msg_19": {
+        "message": "Profielweergaven", 
+        "message-retranslated": "Profile Views", 
+        "description": "count of profile views"
+    }, 
+    "extension_desc": {
+        "message": "Snelle toegang tot items in uw Team Fortress 2 rugzak", 
+        "message-retranslated": "Quick access to items in your backpack Team Fortress 2", 
+        "description": "Extension description"
+    }, 
+    "its_msg_8": {
+        "message": "Nieuwe producten", 
+        "message-retranslated": "New Products", 
+        "description": "new items title"
+    }, 
+    "its_msg_9": {
+        "message": "Backpack", 
+        "message-retranslated": "Backpack", 
+        "description": "backpack title"
+    }, 
+    "its_msg_4": {
+        "message": "Redden", 
+        "message-retranslated": "Save", 
+        "description": "save button"
+    }, 
+    "its_msg_5": {
+        "message": "Reset", 
+        "message-retranslated": "Reset", 
+        "description": "reset button"
+    }, 
+    "its_msg_6": {
+        "message": "Sluiten", 
+        "message-retranslated": "Close", 
+        "description": "close button"
+    }, 
+    "its_msg_7": {
+        "message": "Karakter Info voor $1 dollar", 
+        "message-retranslated": "Character Info for $1", 
+        "description": "character info title"
+    }, 
+    "its_msg_0": {
+        "message": "Team Fortress 2 Backpack Access (nieuwe en betere)", 
+        "message-retranslated": "Team Fortress 2 Access Backpack (new and improved)", 
+        "description": "page title"
+    }, 
+    "its_msg_1": {
+        "message": "Profiel ID Not Set!", 
+        "message-retranslated": "Profile ID Not Set!", 
+        "description": "no steam id title"
+    }, 
+    "its_msg_2": {
+        "message": "Om de Team Fortress 2 Backpack Toegang extensie gebruiken voer uw community-naam of profiel id hier", 
+        "message-retranslated": "Team Fortress 2 for the extension using Access Backpack enter your community name or profile ID here", 
+        "description": "no steam id help"
+    }, 
+    "its_msg_3": {
+        "message": "(bijv. pnatural of 76561197992805111)", 
+        "message-retranslated": "(eg pnatural or 76561197992805111)", 
+        "description": "no steam id example"
+    }, 
+    "its_msg_29": {
+        "message": "op", 
+        "message-retranslated": "at", 
+        "description": "just the word 'at'"
+    }, 
+    "its_msg_28": {
+        "message": "Uitbreiding schriftelijke", 
+        "message-retranslated": "Extension written", 
+        "description": "view pnatural profile link"
+    }, 
+    "its_msg_27": {
+        "message": "Powered by", 
+        "message-retranslated": "Powered by", 
+        "description": "powered by"
+    }, 
+    "its_msg_26": {
+        "message": "Bekijk profiel", 
+        "message-retranslated": "View profile", 
+        "description": "view profile link"
+    }, 
+    "its_msg_25": {
+        "message": "Bekijk Backpack", 
+        "message-retranslated": "View Backpack", 
+        "description": "view backpack link"
+    }, 
+    "its_msg_24": {
+        "message": "Verberg Stats", 
+        "message-retranslated": "Hide Stats", 
+        "description": "hide stats button"
+    }, 
+    "its_msg_23": {
+        "message": "Aanvraagtijdstip", 
+        "message-retranslated": "Request Time", 
+        "description": "duration of request"
+    }, 
+    "its_msg_22": {
+        "message": "Volgende Fetch", 
+        "message-retranslated": "Fetch Next", 
+        "description": "time of next fetch"
+    }, 
+    "its_msg_21": {
+        "message": "Laatste Fetch", 
+        "message-retranslated": "Last Fetch", 
+        "description": "time of last fetch"
+    }, 
+    "its_msg_20": {
+        "message": "Cache Time", 
+        "message-retranslated": "Cache Time", 
+        "description": "time feed cached"
+    }, 
+    "extension_name": {
+        "message": "Team Fortress 2 Backpack Access", 
+        "message-retranslated": "Team Fortress 2 Access Backpack", 
+        "description": "Extension name"
+    }
+}
