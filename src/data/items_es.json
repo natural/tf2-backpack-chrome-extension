@@ -1,0 +1,700 @@
+{
+    "133": {
+        "positive": [
+            "-75% de da\u00f1o explosivo por saltos con cohete"
+        ], 
+        "type": "Botas", 
+        "description": "Las Botas blindadas"
+    }, 
+    "132": {
+        "alt": [
+            "Esta arma tiene un amplio alcance cuerpo a cuerpo.\nConfiere m\u00e1s velocidad y salud con cada decapitaci\u00f3n."
+        ], 
+        "type": "Espada", 
+        "negative": [
+            "Salud m\u00e1xima del portador: -25", 
+            "Sin impactos cr\u00edticos aleatorios"
+        ], 
+        "description": "La Intuertal"
+    }, 
+    "131": {
+        "positive": [
+            "+50% de resistencia al da\u00f1o por fuego al portador", 
+            "+50% de resistencia al da\u00f1o explosivo al portador"
+        ], 
+        "alt": [
+            "Disparo secundario: confiere mayor potencia de ataque al cargar contra los enemigos."
+        ], 
+        "type": "Escudo", 
+        "description": "El Targe de carga"
+    }, 
+    "130": {
+        "positive": [
+            "Munici\u00f3n secundaria m\u00e1xima del portador: +50%", 
+            "M\u00e1ximo de bombas desplegadas +6", 
+            "Detona las bombas lapa junto a la mira", 
+            "Puede destruir las bombas lapa enemigas"
+        ], 
+        "type": "Lanzabombas lapa", 
+        "negative": [
+            "Per\u00edodo detonable de las bombas 0.4 m\u00e1s lento"
+        ], 
+        "description": "La Resistencia escocesa"
+    }, 
+    "137": {
+        "type": "Hat", 
+        "description": "TF_NobleAmassment_Hat"
+    }, 
+    "136": {
+        "alt": [
+            "TF_PropagandaContest_SecondPlace_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_PropagandaContest_SecondPlace"
+    }, 
+    "135": {
+        "type": "Hat", 
+        "description": "TF_ToweringPillar_Hat"
+    }, 
+    "134": {
+        "alt": [
+            "TF_PropagandaContest_FirstPlace_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_PropagandaContest_FirstPlace"
+    }, 
+    "139": {
+        "type": "Hat", 
+        "description": "TF_ModestPile_Hat"
+    }, 
+    "138": {
+        "alt": [
+            "TF_PropagandaContest_ThirdPlace_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_PropagandaContest_ThirdPlace"
+    }, 
+    "24": {
+        "type": "Rev\u00f3lver", 
+        "description": "Rev\u00f3lver"
+    }, 
+    "25": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "26": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "27": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "20": {
+        "type": "Lanzabombas lapa", 
+        "description": "Lanzabombas lapa"
+    }, 
+    "21": {
+        "type": "Lanzallamas", 
+        "description": "Lanzallamas"
+    }, 
+    "22": {
+        "type": "Pistola", 
+        "description": "Pistola"
+    }, 
+    "23": {
+        "type": "Pistola", 
+        "description": "Pistola"
+    }, 
+    "28": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "29": {
+        "type": "Pistola m\u00e9dica", 
+        "description": "Pistola m\u00e9dica"
+    }, 
+    "0": {
+        "type": "Bate", 
+        "description": "Bate"
+    }, 
+    "4": {
+        "type": "Mariposa", 
+        "description": "Mariposa"
+    }, 
+    "8": {
+        "type": "Serrucho", 
+        "description": "Serrucho"
+    }, 
+    "120": {
+        "type": "Hat", 
+        "description": "Copa escoc\u00e9s"
+    }, 
+    "121": {
+        "type": "Medalla", 
+        "description": "Medalla al servicio de Cab A. Llero"
+    }, 
+    "122": {
+        "type": "Cheat Detector", 
+        "description": "Hemos marcado tu cuenta por burlar el sistema de distribuci\u00f3n de objetos y hemos eliminado los que obtuviste de forma ilegal.\n\nCualquier infracci\u00f3n futura provocar\u00e1 la p\u00e9rdida de todos tus objetos."
+    }, 
+    "123": {
+        "type": "Cheat Detector", 
+        "description": "Hemos marcado tu cuenta por burlar el sistema de distribuci\u00f3n de objetos y hemos eliminado todos los objetos de tu inventario.\n\nCualquier infracci\u00f3n futura provocar\u00e1 que desactivemos tu cuenta."
+    }, 
+    "124": {
+        "type": "Cheat Detector", 
+        "description": "\u00a1Enhorabuena! \u00a1Hemos recompensado tu honradez con un nuevo sombrero!\n\n(Otros jugadores tuvieron menos escr\u00fapulos y no han sido tan afortunados)."
+    }, 
+    "125": {
+        "alt": [
+            "Da\u00f1os causados: %s1%"
+        ], 
+        "type": "Aura de incorruptibilidad", 
+        "description": "Lamento del tramposo"
+    }, 
+    "126": {
+        "type": "Boina de veterano", 
+        "description": "Boina de Bill"
+    }, 
+    "127": {
+        "positive": [
+            "Causa minicr\u00edticos a objetivos en el aire", 
+            "Da\u00f1os causados +25%", 
+            "Velocidad de los proyectiles: +80%"
+        ], 
+        "type": "Lanzacohetes", 
+        "negative": [
+            "Radio de explosi\u00f3n: -70%"
+        ], 
+        "description": "El Impacto directo"
+    }, 
+    "128": {
+        "positive": [
+            "El da\u00f1o y la velocidad de movimiento del usuario aumentan a medida que lo hieren"
+        ], 
+        "type": "Pico", 
+        "description": "El Ecualizador"
+    }, 
+    "129": {
+        "type": "Estandarte de batalla", 
+        "description": "El Estandarte de \u00e1nimo"
+    }, 
+    "59": {
+        "positive": [
+            "+80% de regeneraci\u00f3n de invisibilidad"
+        ], 
+        "alt": [
+            "Tipo de invisibilidad: hacerse el muerto"
+        ], 
+        "type": "Reloj de invisibilidad", 
+        "negative": [
+            "+60% de consumo de invisibilidad"
+        ], 
+        "description": "El Duplicante"
+    }, 
+    "58": {
+        "alt": [
+            "Los enemigos empapados sufren minicr\u00edticos\nTambi\u00e9n es \u00fatil para extinguir llamas"
+        ], 
+        "type": "Kung-fu con frascos", 
+        "description": "Fraskungf\u00fa"
+    }, 
+    "55": {
+        "type": "Hat", 
+        "description": "Sombrero elegante"
+    }, 
+    "54": {
+        "type": "Hat", 
+        "description": "Avituallamiento de Soldier"
+    }, 
+    "57": {
+        "positive": [
+            "Bloquea un \u00fanico intento de pu\u00f1alada por la espalda"
+        ], 
+        "type": "Escudo", 
+        "description": "El Caparazumbador"
+    }, 
+    "56": {
+        "type": "Arco", 
+        "description": "El Cazador"
+    }, 
+    "51": {
+        "type": "Hat", 
+        "description": "Gorra de h\u00e9lice de Pyro"
+    }, 
+    "50": {
+        "type": "Hat", 
+        "description": "Pickelhaube prusiano"
+    }, 
+    "53": {
+        "type": "Hat", 
+        "description": "Cinta de trofeos"
+    }, 
+    "52": {
+        "type": "Hat", 
+        "description": "Casco de bateador"
+    }, 
+    "5010": {
+        "alt": [
+            "Se usa para especificar la clase en los planos"
+        ], 
+        "type": "Material de fabricaci\u00f3n", 
+        "description": "S\u00edmbolo de clase: Spy"
+    }, 
+    "5011": {
+        "alt": [
+            "Se usa para especificar la clase en los planos"
+        ], 
+        "type": "Material de fabricaci\u00f3n", 
+        "description": "S\u00edmbolo de clase: Engineer"
+    }, 
+    "5012": {
+        "alt": [
+            "Se usa para especificar el espacio de equipamiento en los planos"
+        ], 
+        "type": "Material de fabricaci\u00f3n", 
+        "description": "S\u00edmbolo de espacio: principal"
+    }, 
+    "5013": {
+        "alt": [
+            "Se usa para especificar el espacio de equipamiento en los planos"
+        ], 
+        "type": "Material de fabricaci\u00f3n", 
+        "description": "S\u00edmbolo de espacio: secundaria"
+    }, 
+    "5014": {
+        "alt": [
+            "Se usa para especificar el espacio de equipamiento en los planos"
+        ], 
+        "type": "Material de fabricaci\u00f3n", 
+        "description": "S\u00edmbolo de espacio:: cuerpo a cuerpo"
+    }, 
+    "5015": {
+        "alt": [
+            "Se usa para especificar el espacio de equipamiento en los planos"
+        ], 
+        "type": "Material de fabricaci\u00f3n", 
+        "description": "S\u00edmbolo de espacio: granada"
+    }, 
+    "5016": {
+        "alt": [
+            "Se usa para especificar el espacio de equipamiento en los planos"
+        ], 
+        "type": "Material de fabricaci\u00f3n", 
+        "description": "S\u00edmbolo de espacio: construcci\u00f3n"
+    }, 
+    "5017": {
+        "alt": [
+            "Se usa para especificar el espacio de equipamiento en los planos"
+        ], 
+        "type": "Material de fabricaci\u00f3n", 
+        "description": "S\u00edmbolo de espacio: PDA"
+    }, 
+    "5018": {
+        "alt": [
+            "Se usa para especificar el espacio de equipamiento en los planos"
+        ], 
+        "type": "Material de fabricaci\u00f3n", 
+        "description": "S\u00edmbolo de espacio: PDA secundaria"
+    }, 
+    "5019": {
+        "alt": [
+            "Se usa para especificar el espacio de equipamiento en los planos"
+        ], 
+        "type": "Material de fabricaci\u00f3n", 
+        "description": "S\u00edmbolo de espacio: cabeza"
+    }, 
+    "115": {
+        "type": "Sombrero de fiesta", 
+        "description": "M\u00e1scara de Halloween ligeramente perturbadora"
+    }, 
+    "117": {
+        "type": "Hat", 
+        "description": "Fijador de cabellera de caballero"
+    }, 
+    "116": {
+        "alt": [
+            "Lleva bordadas las iniciales 'Z.M.'."
+        ], 
+        "type": "Hat", 
+        "description": "Chistera chunga"
+    }, 
+    "111": {
+        "type": "Hat", 
+        "description": "Gomina Bill el Beisbolero"
+    }, 
+    "110": {
+        "type": "Hat", 
+        "description": "Cintur\u00f3n amarillo de maestro"
+    }, 
+    "118": {
+        "type": "Hat", 
+        "description": "Abrillantador de c\u00fapulas Texas Slim"
+    }, 
+    "3": {
+        "type": "Kukri", 
+        "description": "Kukri"
+    }, 
+    "7": {
+        "type": "Llave inglesa", 
+        "description": "Llave inglesa"
+    }, 
+    "other_attributes": {
+        "133": "Medal no. %s1", 
+        "132": "Given to valuable Community Contributors"
+    }, 
+    "5003": {
+        "alt": [
+            "Se usa para especificar la clase en los planos"
+        ], 
+        "type": "Material de fabricaci\u00f3n", 
+        "description": "S\u00edmbolo de clase: Scout"
+    }, 
+    "5002": {
+        "type": "Material de fabricaci\u00f3n", 
+        "description": "Metal refinado"
+    }, 
+    "5001": {
+        "type": "Material de fabricaci\u00f3n", 
+        "description": "Metal reciclado"
+    }, 
+    "5000": {
+        "type": "Material de fabricaci\u00f3n", 
+        "description": "Chatarra"
+    }, 
+    "5007": {
+        "alt": [
+            "Se usa para especificar la clase en los planos"
+        ], 
+        "type": "Material de fabricaci\u00f3n", 
+        "description": "S\u00edmbolo de clase: Heavy"
+    }, 
+    "5006": {
+        "alt": [
+            "Se usa para especificar la clase en los planos"
+        ], 
+        "type": "Material de fabricaci\u00f3n", 
+        "description": "S\u00edmbolo de clase: Demoman"
+    }, 
+    "5005": {
+        "alt": [
+            "Se usa para especificar la clase en los planos"
+        ], 
+        "type": "Material de fabricaci\u00f3n", 
+        "description": "S\u00edmbolo de clase: Soldier"
+    }, 
+    "5004": {
+        "alt": [
+            "Se usa para especificar la clase en los planos"
+        ], 
+        "type": "Material de fabricaci\u00f3n", 
+        "description": "S\u00edmbolo de clase: Sniper"
+    }, 
+    "5009": {
+        "alt": [
+            "Se usa para especificar la clase en los planos"
+        ], 
+        "type": "Material de fabricaci\u00f3n", 
+        "description": "S\u00edmbolo de clase: Pyro"
+    }, 
+    "5008": {
+        "alt": [
+            "Se usa para especificar la clase en los planos"
+        ], 
+        "type": "Material de fabricaci\u00f3n", 
+        "description": "S\u00edmbolo de clase: Medic"
+    }, 
+    "108": {
+        "type": "Hat", 
+        "description": "Bomb\u00edn del bastardo"
+    }, 
+    "109": {
+        "type": "Hat", 
+        "description": "Panam\u00e1 profesional"
+    }, 
+    "9003": {
+        "positive": [
+            "Bans Steam account of players killed", 
+            "This item is not real and is only a joke."
+        ], 
+        "type": "Mallet of Banishment", 
+        "description": "Ban Hammer"
+    }, 
+    "102": {
+        "type": "Hat", 
+        "description": "Guante de goma irreverente"
+    }, 
+    "103": {
+        "type": "Hat", 
+        "description": "Barba con c\u00e1mara"
+    }, 
+    "100": {
+        "type": "Hat", 
+        "description": "Boina escocesa"
+    }, 
+    "101": {
+        "type": "Hat", 
+        "description": "Tirol\u00e9s cl\u00e1sico"
+    }, 
+    "106": {
+        "type": "Hat", 
+        "description": "Casco \u00a1Plonk!"
+    }, 
+    "107": {
+        "type": "Hat", 
+        "description": "Gorra dickensiana"
+    }, 
+    "104": {
+        "type": "Hat", 
+        "description": "Espejo de otorrinolaring\u00f3logo"
+    }, 
+    "105": {
+        "type": "Hat", 
+        "description": "Casco de brigada"
+    }, 
+    "39": {
+        "type": "Pistola de bengalas", 
+        "description": "La pistola de bengalas"
+    }, 
+    "38": {
+        "positive": [
+            "100% de probabilidad de cr\u00edtico vs jugadores ardiendo"
+        ], 
+        "type": "Hacha de bombero", 
+        "negative": [
+            "Sin impactos cr\u00edticos vs jugadores que no est\u00e1n ardiendo", 
+            "Da\u00f1o -50% vs jugadores que no est\u00e1n ardiendo"
+        ], 
+        "description": "El hacherminador"
+    }, 
+    "33": {
+        "type": "Pistola de jeringas", 
+        "description": "Pistola de jeringas"
+    }, 
+    "32": {
+        "type": "Serrucho", 
+        "description": "Serrucho"
+    }, 
+    "31": {
+        "type": "Pistola de bengalas", 
+        "description": "Pistola de bengalas"
+    }, 
+    "30": {
+        "type": "Reloj de invisibilidad", 
+        "description": "Reloj de invisibilidad"
+    }, 
+    "37": {
+        "positive": [
+            "Por impacto: 25% a la supercarga"
+        ], 
+        "type": "Serrucho", 
+        "negative": [
+            "-20% m\u00e1s de lentitud de disparo"
+        ], 
+        "description": "La Ubersaw"
+    }, 
+    "36": {
+        "positive": [
+            "Por impacto: +3 de salud"
+        ], 
+        "type": "Pistola de jeringas", 
+        "negative": [
+            "El portador pierde -2 de salud por segundo"
+        ], 
+        "description": "La Blutsauger"
+    }, 
+    "35": {
+        "positive": [
+            "Velocidad de supercarga +25%"
+        ], 
+        "alt": [
+            "La supercarga confiere un 100% de probabilidad de cr\u00edtico"
+        ], 
+        "type": "Pistola m\u00e9dica", 
+        "description": "La Kritzkrieg"
+    }, 
+    "34": {
+        "type": "Pistola m\u00e9dica", 
+        "description": "Pistola m\u00e9dica"
+    }, 
+    "60": {
+        "positive": [
+            "+100% de regeneraci\u00f3n de invisibilidad"
+        ], 
+        "alt": [
+            "Tipo de invisibilidad: sensible al movimiento"
+        ], 
+        "type": "Reloj de invisibilidad", 
+        "description": "El Embozador"
+    }, 
+    "61": {
+        "positive": [
+            "Cr\u00edticos por disparo a la cabeza preciso"
+        ], 
+        "type": "Rev\u00f3lver", 
+        "negative": [
+            "Da\u00f1os causados: -15%", 
+            "-20% m\u00e1s de lentitud de disparo"
+        ], 
+        "description": "La Embajadora"
+    }, 
+    "2": {
+        "type": "Hacha de bombero", 
+        "description": "Hacha de bombero"
+    }, 
+    "6": {
+        "type": "Pala", 
+        "description": "Pala"
+    }, 
+    "99": {
+        "type": "Hat", 
+        "description": "Yelmo de tirano"
+    }, 
+    "98": {
+        "type": "Hat", 
+        "description": "Olla inoxidable"
+    }, 
+    "95": {
+        "type": "Hat", 
+        "description": "Gorra de ingeniero"
+    }, 
+    "94": {
+        "type": "Hat", 
+        "description": "Tejano ostentoso"
+    }, 
+    "97": {
+        "type": "Hat", 
+        "description": "Gorrito de machote"
+    }, 
+    "96": {
+        "type": "Hat", 
+        "description": "Ushanka de oficial"
+    }, 
+    "11": {
+        "type": "Escopeta", 
+        "description": "Escopeta"
+    }, 
+    "10": {
+        "type": "Escopeta", 
+        "description": "Escopeta"
+    }, 
+    "13": {
+        "type": "Escopeta", 
+        "description": "Escopeta"
+    }, 
+    "12": {
+        "type": "Escopeta", 
+        "description": "Escopeta"
+    }, 
+    "15": {
+        "type": "Ametralladora", 
+        "description": "Ametralladora"
+    }, 
+    "14": {
+        "type": "Rifle de francotirador", 
+        "description": "Rifle de francotirador"
+    }, 
+    "17": {
+        "type": "Pistola de jeringas", 
+        "description": "Pistola de jeringas"
+    }, 
+    "16": {
+        "type": "Metralleta", 
+        "description": "Metralleta"
+    }, 
+    "19": {
+        "type": "Lanzagranadas", 
+        "description": "Lanzagranadas"
+    }, 
+    "18": {
+        "type": "Lanzacohetes", 
+        "description": "Lanzacohetes"
+    }, 
+    "48": {
+        "type": "Hat", 
+        "description": "Linterna frontal"
+    }, 
+    "49": {
+        "type": "Hat", 
+        "description": "Casco de f\u00fatbol americano"
+    }, 
+    "46": {
+        "type": "Fiambrera", 
+        "description": "\u00a1Plonk! La bebida salvavidas"
+    }, 
+    "47": {
+        "type": "Hat", 
+        "description": "Afro de Demoman"
+    }, 
+    "44": {
+        "positive": [
+            "Este bate lanza una brutal pelota paralizadora"
+        ], 
+        "type": "Bate", 
+        "negative": [
+            "Salud m\u00e1xima del portador: -15"
+        ], 
+        "description": "El somn\u00edfero"
+    }, 
+    "45": {
+        "positive": [
+            "Empuja al objetivo y al tirador", 
+            "+50% a la velocidad de disparo", 
+            "+20% balas por disparo"
+        ], 
+        "type": "Escopeta", 
+        "negative": [
+            "Tama\u00f1o de cargador: -60%", 
+            "Da\u00f1os causados: -10%"
+        ], 
+        "description": "La dispensadora de ca\u00f1a"
+    }, 
+    "42": {
+        "type": "Fiambrera", 
+        "description": "El focata"
+    }, 
+    "43": {
+        "positive": [
+            "Al causar baja: 100 % de probabilidad de cr\u00edtico durante 5 segundos"
+        ], 
+        "type": "Pu\u00f1os", 
+        "negative": [
+            "-20% m\u00e1s de lentitud de disparo"
+        ], 
+        "description": "Los Ka\u00f1eros Guantes de Boxeo"
+    }, 
+    "40": {
+        "positive": [
+            "100% de probabilidad de impacto cr\u00edtico por la espalda"
+        ], 
+        "type": "Lanzallamas", 
+        "negative": [
+            "Sin impactos cr\u00edticos aleatorios", 
+            "Sin explosi\u00f3n de aire comprimido"
+        ], 
+        "description": "El drag\u00f3n"
+    }, 
+    "41": {
+        "positive": [
+            "Por impacto: 100% de probabilidad de ralentizar al objetivo"
+        ], 
+        "type": "Ametralladora", 
+        "negative": [
+            "Da\u00f1os causados: -25%"
+        ], 
+        "description": "Natascha"
+    }, 
+    "1": {
+        "type": "Botella", 
+        "description": "Botella"
+    }, 
+    "5": {
+        "type": "Pu\u00f1os", 
+        "description": "Pu\u00f1os"
+    }, 
+    "9": {
+        "type": "Escopeta", 
+        "description": "Escopeta"
+    }
+}

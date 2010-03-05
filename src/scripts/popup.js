@@ -28,7 +28,8 @@ var backpack = {
 	var success = function(data, status, req) {
 	    backpack.defs = JSON.parse(data);
 	};
-	$.ajax({url: chrome.extension.getURL("data/items.json"),
+	var url = "data/items_" + _("language_code") + ".json";
+	$.ajax({url: chrome.extension.getURL(url),
 		async: false, dataType: "text",
 		error: error, success: success});
     },

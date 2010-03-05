@@ -32,7 +32,7 @@ item returns [value]
     ;
 
 
-fragment CHAR: ~('"'| '\\');
+fragment CHAR: ~( '"'| '\\' );
 fragment LETTER
     :  '\u0024' |
        '\u0041'..'\u005a' |

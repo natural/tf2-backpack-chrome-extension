@@ -14,6 +14,9 @@ def parse(fn):
     ## strings in the source file may contain esacaped newlines, which
     ## the parser doesn't handle.  hackity hackity.
     source = source.replace("\\n", "<BR>")
+
+    ## another hacky hacky
+    source = source.replace('\\"', "")
     stream = antlr3.ANTLRStringStream(source)
     lexer = SourceTextLexer(stream)
     parser = SourceTextParser(antlr3.CommonTokenStream(lexer))
