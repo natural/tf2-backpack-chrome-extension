@@ -57,6 +57,14 @@ def main(source_messages, target_dirname, locales):
 	    return txt
 	return v
 
+    def count_unmasked_subs(text):
+	return len(re.findall(r"\$\d", text))
+
+    def mask_subs(text):
+	return text.replace("$", "***")
+
+    def unmask_subs(text):
+	return text.replace("* ", "*").replace("***", "$")
 
     for lang_code, text_filename in locales:
 	out_dir = os.path.join(target_dirname, lang_code)
@@ -73,20 +81,20 @@ def main(source_messages, target_dirname, locales):
 	    translation[msg_id] = new_msg = proto_message.copy()
 
 	    source_text = msg_dict['message']
+	    source_sub_count = count_unmasked_subs(source_text)
 
-	    #sub_count = len(re.findall(r"\$\d", source_text))
-	    source_text = source_text.replace("$", "$$")
-	    target_text = translate(source_lang_code, lang_code, source_text)
-	    #target_text = re.sub(r"\$\s*\$\s*(\d)", r"$\1", target_text)
-	    #tran_sub_count = len(re.findall(r"\$\s*\d", target_text))
+	    translated_text = translate(source_lang_code, lang_code, mask_subs(source_text))
+	    translated_text = unmask_subs(translated_text)
 
-	    new_msg['message'] = target_text.replace("$ ", "$").replace("$$", "$")
+	    new_msg['message'] = translated_text
+	    translated_sub_count = count_unmasked_subs(translated_text)
 
-	    retran_text = translate(lang_code, source_lang_code, target_text)
-	    #retran_text = re.sub(r"\$\s*(\d)", r"$\1", retran_text)
-	    new_msg['message-retranslated'] = retran_text.replace("$ ", "$").replace("$$", "$")
-	    #retran_sub_count = len(re.findall(r"\$\s*\d", retran_text))
-	    #if retran_sub_count != tran_sub_count != sub_count:
+	    retran_text = translate(lang_code, source_lang_code, mask_subs(translated_text))
+	    retran_text = unmask_subs(retran_text)
+	    new_msg['message-retranslated'] = retran_text
+	    retran_sub_count = count_unmasked_subs(retran_text)
+	    if source_sub_count != translated_sub_count != retran_sub_count:
+		print '## subsitution placeholder replacement error', source_text
 		#new_msg['message-placeolder-error'] = True
 	    new_msg['description'] = msg_dict['description']
 

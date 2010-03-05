@@ -139,8 +139,8 @@
         "description": "close button"
     }, 
     "its_msg_7": {
-        "message": "\u6587\u5b57\u60c5\u5831\u3092$1", 
-        "message-retranslated": "Character information $1", 
+        "message": "\u6587\u5b57\u60c5\u5831$1", 
+        "message-retranslated": "Textual information $1", 
         "description": "character info title"
     }, 
     "its_msg_0": {

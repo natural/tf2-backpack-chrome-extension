@@ -140,7 +140,7 @@
     }, 
     "its_msg_7": {
         "message": "Luonnetta Info for $1", 
-        "message-retranslated": "Nature of the info for $1", 
+        "message-retranslated": "Character info for $1", 
         "description": "character info title"
     }, 
     "its_msg_0": {

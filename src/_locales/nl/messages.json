@@ -139,8 +139,8 @@
         "description": "close button"
     }, 
     "its_msg_7": {
-        "message": "Karakter Info voor $1 dollar", 
-        "message-retranslated": "Character Info for $1", 
+        "message": "Karakter Info voor $1", 
+        "message-retranslated": "Character Info for 1 $", 
         "description": "character info title"
     }, 
     "its_msg_0": {

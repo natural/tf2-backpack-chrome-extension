@@ -139,8 +139,8 @@
         "description": "close button"
     }, 
     "its_msg_7": {
-        "message": "Tecken f\u00f6r $1 $", 
-        "message-retranslated": "Signs of $1 $", 
+        "message": "Tecken f\u00f6r $1", 
+        "message-retranslated": "Signs of $1", 
         "description": "character info title"
     }, 
     "its_msg_0": {

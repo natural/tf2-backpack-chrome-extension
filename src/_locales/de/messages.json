@@ -139,7 +139,7 @@
         "description": "close button"
     }, 
     "its_msg_7": {
-        "message": "Character Info f\u00fcr $1", 
+        "message": "Charakter-Info \u00fcber $1", 
         "message-retranslated": "Character Info for $1", 
         "description": "character info title"
     }, 

@@ -139,8 +139,8 @@
         "description": "close button"
     }, 
     "its_msg_7": {
-        "message": "Info Character por US $1 d\u00f3lar", 
-        "message-retranslated": "Character Info by U.S. $1", 
+        "message": "Info Character para $1", 
+        "message-retranslated": "Character Info for $1", 
         "description": "character info title"
     }, 
     "its_msg_0": {

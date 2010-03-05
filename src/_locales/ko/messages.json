@@ -140,7 +140,7 @@
     }, 
     "its_msg_7": {
         "message": "\uce90\ub9ad\ud130 \uc815\ubcf4 $1", 
-        "message-retranslated": "Character Info $1", 
+        "message-retranslated": "Character Information $1", 
         "description": "character info title"
     }, 
     "its_msg_0": {

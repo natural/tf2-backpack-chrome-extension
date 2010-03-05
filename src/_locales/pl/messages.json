@@ -139,8 +139,8 @@
         "description": "close button"
     }, 
     "its_msg_7": {
-        "message": "Charakter Informacje o $1 dolar", 
-        "message-retranslated": "Information about the nature of $1", 
+        "message": "Charakter Informacje o $1", 
+        "message-retranslated": "The nature of the information $1", 
         "description": "character info title"
     }, 
     "its_msg_0": {
