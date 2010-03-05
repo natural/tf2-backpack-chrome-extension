@@ -19,6 +19,61 @@
 
 
 
+    "num1": {
+	"message":"1",
+	"description": "the number 1"
+    },
+    "num2": {
+	"message":"2",
+	"description": "the number 2"
+    },
+    "num3": {
+	"message":"3",
+	"description": "the number 3"
+    },
+    "num4": {
+	"message":"4",
+	"description": "the number 4"
+    },
+    "refreshing": {
+	"message": "Refreshing",
+	"description": "refreshing text goes here"
+    },
+    "second": {
+	"message": "second",
+	"description": "second"
+    },
+    "seconds": {
+	"message": "seconds",
+	"description": "seconds"
+    },
+    "refresh_nochange": {
+	"message": "Feed Refreshed - No Changes",
+	"description": "feed refreshed without changes"
+    },
+    "warning": {
+	"message": "Warning",
+	"description": "warning label"
+    },
+    "error": {
+	"message": "Error",
+	"description": "error label"
+    },
+    "bad_feed": {
+	"message":"Bad Data Feed",
+	"description": "bad data feed label"
+    },
+    "from_cache": {
+	"message": "Data Loaded from Cache",
+	"description": "data loaded from cache label"
+    },
+    "equipped": {
+	"message": "Equipped",
+	"description": "equipped label"
+    },
+
+
+
     "its_msg_0": {
         "message": "Team Fortress 2 Backpack Access (New and Improved)",
         "description": "page title"

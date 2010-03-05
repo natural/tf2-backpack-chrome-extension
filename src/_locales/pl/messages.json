@@ -1,4 +1,39 @@
 {
+    "num4": {
+        "message": "4", 
+        "message-retranslated": "4", 
+        "description": "the number 4"
+    }, 
+    "num1": {
+        "message": "1", 
+        "message-retranslated": "1", 
+        "description": "the number 1"
+    }, 
+    "num2": {
+        "message": "2", 
+        "message-retranslated": "2", 
+        "description": "the number 2"
+    }, 
+    "num3": {
+        "message": "3", 
+        "message-retranslated": "3", 
+        "description": "the number 3"
+    }, 
+    "second": {
+        "message": "sekund", 
+        "message-retranslated": "seconds", 
+        "description": "second"
+    }, 
+    "warning": {
+        "message": "Ostrze\u017cenie", 
+        "message-retranslated": "Warning", 
+        "description": "warning label"
+    }, 
+    "refresh_nochange": {
+        "message": "Feed Od\u015bwie\u017cony - bez zmian", 
+        "message-retranslated": "Feed Refreshed - without change", 
+        "description": "feed refreshed without changes"
+    }, 
     "language_code": {
         "message": "pl", 
         "description": ""
@@ -63,6 +98,11 @@
         "message-retranslated": "Profile Views", 
         "description": "count of profile views"
     }, 
+    "seconds": {
+        "message": "sekund", 
+        "message-retranslated": "seconds", 
+        "description": "seconds"
+    }, 
     "extension_desc": {
         "message": "Szybki dost\u0119p do element\u00f3w w Team Fortress 2 plecak", 
         "message-retranslated": "Quick access to items in the Team Fortress 2 backpack", 
@@ -77,6 +117,11 @@
         "message": "Plecak", 
         "message-retranslated": "Backpack", 
         "description": "backpack title"
+    }, 
+    "equipped": {
+        "message": "Wyposa\u017cona", 
+        "message-retranslated": "Equipped", 
+        "description": "equipped label"
     }, 
     "its_msg_4": {
         "message": "Zapisa\u0107", 
@@ -117,6 +162,11 @@
         "message": "(np. pnatural lub 76561197992805111)", 
         "message-retranslated": "(eg pnatural or 76561197992805111)", 
         "description": "no steam id example"
+    }, 
+    "bad_feed": {
+        "message": "Z\u0142e dane Feed", 
+        "message-retranslated": "Bad Data Feed", 
+        "description": "bad data feed label"
     }, 
     "its_msg_29": {
         "message": "na", 
@@ -168,9 +218,24 @@
         "message-retranslated": "Cache Time", 
         "description": "time feed cached"
     }, 
+    "refreshing": {
+        "message": "Od\u015bwie\u017canie", 
+        "message-retranslated": "Refresh", 
+        "description": "refreshing text goes here"
+    }, 
     "extension_name": {
         "message": "Team Fortress 2 Plecak Access", 
         "message-retranslated": "Team Fortress 2 Backpack Access", 
         "description": "Extension name"
+    }, 
+    "from_cache": {
+        "message": "Dane wczytywane z pami\u0119ci podr\u0119cznej", 
+        "message-retranslated": "Data loaded from the cache", 
+        "description": "data loaded from cache label"
+    }, 
+    "error": {
+        "message": "B\u0142\u0105d", 
+        "message-retranslated": "Mistake", 
+        "description": "error label"
     }
 }

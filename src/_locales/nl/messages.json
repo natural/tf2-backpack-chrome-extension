@@ -1,4 +1,39 @@
 {
+    "num4": {
+        "message": "4", 
+        "message-retranslated": "4", 
+        "description": "the number 4"
+    }, 
+    "num1": {
+        "message": "1", 
+        "message-retranslated": "1", 
+        "description": "the number 1"
+    }, 
+    "num2": {
+        "message": "2", 
+        "message-retranslated": "2", 
+        "description": "the number 2"
+    }, 
+    "num3": {
+        "message": "3", 
+        "message-retranslated": "3", 
+        "description": "the number 3"
+    }, 
+    "second": {
+        "message": "seconden", 
+        "message-retranslated": "seconds", 
+        "description": "second"
+    }, 
+    "warning": {
+        "message": "Waarschuwing", 
+        "message-retranslated": "Warning", 
+        "description": "warning label"
+    }, 
+    "refresh_nochange": {
+        "message": "Feed Vernieuwd - geen wijzigingen", 
+        "message-retranslated": "Feed Refreshed - no changes", 
+        "description": "feed refreshed without changes"
+    }, 
     "language_code": {
         "message": "nl", 
         "description": ""
@@ -63,6 +98,11 @@
         "message-retranslated": "Profile Views", 
         "description": "count of profile views"
     }, 
+    "seconds": {
+        "message": "seconden", 
+        "message-retranslated": "seconds", 
+        "description": "seconds"
+    }, 
     "extension_desc": {
         "message": "Snelle toegang tot items in uw Team Fortress 2 rugzak", 
         "message-retranslated": "Quick access to items in your backpack Team Fortress 2", 
@@ -77,6 +117,11 @@
         "message": "Backpack", 
         "message-retranslated": "Backpack", 
         "description": "backpack title"
+    }, 
+    "equipped": {
+        "message": "Uitgerust", 
+        "message-retranslated": "Equipped", 
+        "description": "equipped label"
     }, 
     "its_msg_4": {
         "message": "Redden", 
@@ -117,6 +162,11 @@
         "message": "(bijv. pnatural of 76561197992805111)", 
         "message-retranslated": "(eg pnatural or 76561197992805111)", 
         "description": "no steam id example"
+    }, 
+    "bad_feed": {
+        "message": "Onjuiste gegevens Feed", 
+        "message-retranslated": "Bad Data Feed", 
+        "description": "bad data feed label"
     }, 
     "its_msg_29": {
         "message": "op", 
@@ -168,9 +218,24 @@
         "message-retranslated": "Cache Time", 
         "description": "time feed cached"
     }, 
+    "refreshing": {
+        "message": "Verfrissend", 
+        "message-retranslated": "Refreshing", 
+        "description": "refreshing text goes here"
+    }, 
     "extension_name": {
         "message": "Team Fortress 2 Backpack Access", 
         "message-retranslated": "Team Fortress 2 Access Backpack", 
         "description": "Extension name"
+    }, 
+    "from_cache": {
+        "message": "Gegevens geladen cache", 
+        "message-retranslated": "Loading data cache", 
+        "description": "data loaded from cache label"
+    }, 
+    "error": {
+        "message": "Fout", 
+        "message-retranslated": "Mistake", 
+        "description": "error label"
     }
 }

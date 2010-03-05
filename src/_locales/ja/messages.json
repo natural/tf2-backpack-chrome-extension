@@ -1,4 +1,39 @@
 {
+    "num4": {
+        "message": "4", 
+        "message-retranslated": "Four", 
+        "description": "the number 4"
+    }, 
+    "num1": {
+        "message": "1", 
+        "message-retranslated": "1", 
+        "description": "the number 1"
+    }, 
+    "num2": {
+        "message": "2", 
+        "message-retranslated": "Two", 
+        "description": "the number 2"
+    }, 
+    "num3": {
+        "message": "3", 
+        "message-retranslated": "Three", 
+        "description": "the number 3"
+    }, 
+    "second": {
+        "message": "2\u756a\u76ee\u306e", 
+        "message-retranslated": "Second", 
+        "description": "second"
+    }, 
+    "warning": {
+        "message": "\u8b66\u544a", 
+        "message-retranslated": "Warning", 
+        "description": "warning label"
+    }, 
+    "refresh_nochange": {
+        "message": "\u30d5\u30a3\u30fc\u30c9\u3092\u30ea\u30d5\u30ec\u30c3\u30b7\u30e5 - \u5909\u66f4\u306a\u3057", 
+        "message-retranslated": "Refresh the feed - no change", 
+        "description": "feed refreshed without changes"
+    }, 
     "language_code": {
         "message": "ja", 
         "description": ""
@@ -63,6 +98,11 @@
         "message-retranslated": "Views", 
         "description": "count of profile views"
     }, 
+    "seconds": {
+        "message": "\u79d2", 
+        "message-retranslated": "S", 
+        "description": "seconds"
+    }, 
     "extension_desc": {
         "message": "\u3042\u306a\u305f\u306e\u30c1\u30fc\u30e0\u306e\u8981\u585e2\u30d1\u30c3\u30af\u5185\u306e\u30a2\u30a4\u30c6\u30e0\u3078\u306e\u30af\u30a4\u30c3\u30af\u30a2\u30af\u30bb\u30b9", 
         "message-retranslated": "Team Fortress 2 for quick access to your items in the pack", 
@@ -77,6 +117,11 @@
         "message": "\u30ea\u30e5\u30c3\u30af", 
         "message-retranslated": "Luc", 
         "description": "backpack title"
+    }, 
+    "equipped": {
+        "message": "\u88c5\u5099", 
+        "message-retranslated": "Equipment", 
+        "description": "equipped label"
     }, 
     "its_msg_4": {
         "message": "\u4fdd\u5b58\u3059\u308b", 
@@ -117,6 +162,11 @@
         "message": "\uff08\u4f8b\uff1apnatural\u307e\u305f\u306f76561197992805111\uff09", 
         "message-retranslated": "(Example: pnatural or 76561197992805111)", 
         "description": "no steam id example"
+    }, 
+    "bad_feed": {
+        "message": "\u4e0d\u826f\u30c7\u30fc\u30bf\u30d5\u30a3\u30fc\u30c9", 
+        "message-retranslated": "Bad data feed", 
+        "description": "bad data feed label"
     }, 
     "its_msg_29": {
         "message": "\u301c\u3067", 
@@ -168,9 +218,24 @@
         "message-retranslated": "Cash Time", 
         "description": "time feed cached"
     }, 
+    "refreshing": {
+        "message": "\u3055\u308f\u3084\u304b\u306a", 
+        "message-retranslated": "Refreshing", 
+        "description": "refreshing text goes here"
+    }, 
     "extension_name": {
         "message": "\u30c1\u30fc\u30e0\u306e\u8981\u585e2\u30ea\u30e5\u30c3\u30af\u30a2\u30af\u30bb\u30b9", 
         "message-retranslated": "Access Backpack Team Fortress 2", 
         "description": "Extension name"
+    }, 
+    "from_cache": {
+        "message": "\u30c7\u30fc\u30bf\u306e\u8aad\u307f\u8fbc\u307f\u30ad\u30e3\u30c3\u30b7\u30e5\u304b\u3089", 
+        "message-retranslated": "Data is read from the cache", 
+        "description": "data loaded from cache label"
+    }, 
+    "error": {
+        "message": "\u30a8\u30e9\u30fc", 
+        "message-retranslated": "Error", 
+        "description": "error label"
     }
 }

@@ -1,4 +1,39 @@
 {
+    "num4": {
+        "message": "4", 
+        "message-retranslated": "4", 
+        "description": "the number 4"
+    }, 
+    "num1": {
+        "message": "1", 
+        "message-retranslated": "1", 
+        "description": "the number 1"
+    }, 
+    "num2": {
+        "message": "2", 
+        "message-retranslated": "2", 
+        "description": "the number 2"
+    }, 
+    "num3": {
+        "message": "3", 
+        "message-retranslated": "3", 
+        "description": "the number 3"
+    }, 
+    "second": {
+        "message": "2", 
+        "message-retranslated": "2", 
+        "description": "second"
+    }, 
+    "warning": {
+        "message": "\uacbd\uace0", 
+        "message-retranslated": "Warning", 
+        "description": "warning label"
+    }, 
+    "refresh_nochange": {
+        "message": "\ud53c\ub4dc \uc6d0\uae30 - \ubcc0\uacbd \uc0ac\ud56d \uc5c6\uc74c", 
+        "message-retranslated": "Feed spirits - No change", 
+        "description": "feed refreshed without changes"
+    }, 
     "language_code": {
         "message": "ko", 
         "description": ""
@@ -63,6 +98,11 @@
         "message-retranslated": "View profile", 
         "description": "count of profile views"
     }, 
+    "seconds": {
+        "message": "\ucd08", 
+        "message-retranslated": "S", 
+        "description": "seconds"
+    }, 
     "extension_desc": {
         "message": "\uadc0\ud558\uc758 \ud300 \ud3ec\ud2b8\ub9ac\uc2a4 2 \uac00\ubc29\uc758 \ud56d\ubaa9\uc5d0 \ube60\ub978 \uc561\uc138\uc2a4", 
         "message-retranslated": "Team Fortress 2 items in your bag for quick access", 
@@ -77,6 +117,11 @@
         "message": "\uac00\ubc29", 
         "message-retranslated": "Bags", 
         "description": "backpack title"
+    }, 
+    "equipped": {
+        "message": "\ud0d1\uc7ac", 
+        "message-retranslated": "Mount", 
+        "description": "equipped label"
     }, 
     "its_msg_4": {
         "message": "\uc800\uc7a5", 
@@ -117,6 +162,11 @@
         "message": "(e.g. pnatural \ub610\ub294 76,561,197,992,805,111)", 
         "message-retranslated": "(e.g. pnatural or 76561197992805111)", 
         "description": "no steam id example"
+    }, 
+    "bad_feed": {
+        "message": "\uc798\ubabb\ub41c \ub370\uc774\ud130 \ud53c\ub4dc", 
+        "message-retranslated": "Incorrect Data Feeds", 
+        "description": "bad data feed label"
     }, 
     "its_msg_29": {
         "message": "\uc5d0", 
@@ -168,9 +218,24 @@
         "message-retranslated": "Cache Time", 
         "description": "time feed cached"
     }, 
+    "refreshing": {
+        "message": "\ub9ac\ud504\ub808\uc2f1", 
+        "message-retranslated": "Refreshing", 
+        "description": "refreshing text goes here"
+    }, 
     "extension_name": {
         "message": "\ud300 \ud3ec\ud2b8\ub9ac\uc2a4 2 \ubc30\ub0ad \uad50\ud1b5", 
         "message-retranslated": "Team Fortress 2 backpack Traffic", 
         "description": "Extension name"
+    }, 
+    "from_cache": {
+        "message": "\ub370\uc774\ud130\ub97c\ub85c\ub4dc \uce90\uc2dc\uc5d0\uc11c", 
+        "message-retranslated": "Load data from the cache", 
+        "description": "data loaded from cache label"
+    }, 
+    "error": {
+        "message": "\uc624\ub958", 
+        "message-retranslated": "Error", 
+        "description": "error label"
     }
 }

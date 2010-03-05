@@ -1,4 +1,6 @@
 var itemContentSelector = "#unplaced table.unplaced td img, #backpack table.backpack td img, span.equipped";
+
+
 var formatCountDown = function(value, zero, single, plural) {
     var seconds = Math.round((value  - Date.now())/1000);
     if (seconds == 1) {
@@ -37,7 +39,7 @@ var backpack = {
 	// this block doesn't work like it should.
 	if (0) { // (!($("steamID", xml).text())) {
 	    console.warn("bad feed");
-	    pageOps.showMessage("error", "Bad Data Feed");
+	    pageOps.showMessage("error", _("bad_feed"));
 	    return;
 	}
 	if (xml) {
@@ -78,7 +80,8 @@ var pages = {
     },
 
     updateNav: function () {
-	$("#pages").text(this.current + "/" + this.count);
+	var current = _("num"+this.current), count = _("num"+this.count);
+	$("#pages").text(current + "/" + count);
 	if (this.current == 1) {
 	    $(".nonav:first").show();
 	    $(".nav:first").hide();
@@ -176,22 +179,29 @@ var pageOps = {
     },
 
     showMessage: function(type, message, duration) {
+	if (type=="warning" && message.toLowerCase().indexOf("warning") != 0) {
+	    message = _("warning") + ": " +  _(message);
+	}
+	if (type=="error" && message.toLowerCase().indexOf("error") != 0) {
+	    message = _("error") + ": " +  _(message);
+	}
         $("#"+type).text(message).slideDown().delay(duration||5000).slideUp();
     },
 
     updateRefreshTime: function() {
 	var data = $("#nextFetch").data();
 	if (data && data.next) {
-	    var show = formatCountDown(data.next, "Refreshing...", "second", "seconds");
-	    $("#nextFetch").text(show);
+	    var show = formatCountDown(data.next, _("refreshing")+"...", _("second"), _("seconds"));
+	} else {
+	    var show = _("error");
 	}
+	$("#nextFetch").text(show);
     },
 
     handleRefresh: function(request, sender, sendResponse) {
 	if (request.type == "refresh" && request.status) {
 	    switch(request.status) {
 	        case "okay":
-	        console.log("popup received refresh complete msg", request);
 		    // the length check won't hurt if the backpack is totally
                     // empty, and it will help if the page is just loading
                     // via the options div.
@@ -200,15 +210,16 @@ var pageOps = {
 	                pages.init();
 		    } else {
 			pageOps.putTimings();
-			pageOps.showMessage("information", "Feed Refreshed; No Changes");
-			console.log("refresh complete without change to feed.");
+			pageOps.showMessage("information", _("refresh_nochange"));
 		    }
 	            break;
+	        case "warning":
+                    pageOps.showMessage("warning", _(request.message));
+		    break;
 	        case "abort":
 	        case "error":
 	        case "exception":
-		    pageOps.showMessage("error", request.message);
-	            console.log("popup received refresh failed msg");
+		    pageOps.showMessage("error", _(request.message));
 	            break;
 	        default:
 	            console.log("unknown refresh msg");
@@ -267,7 +278,7 @@ var pageOps = {
 		var duration = response.pollDuration;
 		$("#requestTime").text(duration==0 ? "Cached" : duration + " ms");
 		if (response.requestError) {
-		    pageOps.showMessage("warning", "Warning: Data Loaded from Cache");
+		    pageOps.showMessage("warning", _("from_cache"));
 		};
 	    });
     },
@@ -289,7 +300,9 @@ var pageOps = {
 	} else {
 	    $("#cacheTime").text("Not from cache.");
 	}
-        $("table.stats td:contains('Cache Time'), table.stats td:has(a)")
+        // give the first timing row (cache time) and the hide button
+	// some extra top padding
+        $("table.stats td:has(strong[class='its_msg_20']), table.stats td:has(a)")
 	    .css("padding-top", "1.5em");
 	this.putTimings();
     },
@@ -317,7 +330,7 @@ var pageOps = {
 	if (pos & 0x80000000 && pos & 0x0FFF0000) {
 	    // nudge the image up a bit; related to margin-top on the equipped class
 	    img.css("margin-top", "-5px");
-	    img.after("<span style='display:none' class='equipped'>Equipped</span>");
+	    img.after("<span style='display:none' class='equipped'>" + _("equipped") + "</span>");
 	}
     },
 

@@ -1,4 +1,39 @@
 {
+    "num4": {
+        "message": "4", 
+        "message-retranslated": "4", 
+        "description": "the number 4"
+    }, 
+    "num1": {
+        "message": "1", 
+        "message-retranslated": "1", 
+        "description": "the number 1"
+    }, 
+    "num2": {
+        "message": "2", 
+        "message-retranslated": "2", 
+        "description": "the number 2"
+    }, 
+    "num3": {
+        "message": "3", 
+        "message-retranslated": "3", 
+        "description": "the number 3"
+    }, 
+    "second": {
+        "message": "andra", 
+        "message-retranslated": "second", 
+        "description": "second"
+    }, 
+    "warning": {
+        "message": "Varning", 
+        "message-retranslated": "Warning", 
+        "description": "warning label"
+    }, 
+    "refresh_nochange": {
+        "message": "Feed Uppfriskade - inga \u00e4ndringar", 
+        "message-retranslated": "Feed Refreshed - no changes", 
+        "description": "feed refreshed without changes"
+    }, 
     "language_code": {
         "message": "sv", 
         "description": ""
@@ -63,6 +98,11 @@
         "message-retranslated": "Profile Views", 
         "description": "count of profile views"
     }, 
+    "seconds": {
+        "message": "sekunder", 
+        "message-retranslated": "seconds", 
+        "description": "seconds"
+    }, 
     "extension_desc": {
         "message": "Snabb tillg\u00e5ng till objekt i Team Fortress 2 ryggs\u00e4ck", 
         "message-retranslated": "Quick access to objects in Team Fortress 2 backpack", 
@@ -77,6 +117,11 @@
         "message": "Ryggs\u00e4ck", 
         "message-retranslated": "Backpack", 
         "description": "backpack title"
+    }, 
+    "equipped": {
+        "message": "Utrustad", 
+        "message-retranslated": "Equipped", 
+        "description": "equipped label"
     }, 
     "its_msg_4": {
         "message": "Spara", 
@@ -117,6 +162,11 @@
         "message": "(t.ex. pnatural eller 76561197992805111)", 
         "message-retranslated": "(eg pnatural or 76561197992805111)", 
         "description": "no steam id example"
+    }, 
+    "bad_feed": {
+        "message": "Bad Data Feed", 
+        "message-retranslated": "Bad Data Feed", 
+        "description": "bad data feed label"
     }, 
     "its_msg_29": {
         "message": "vid", 
@@ -168,9 +218,24 @@
         "message-retranslated": "Cache Time", 
         "description": "time feed cached"
     }, 
+    "refreshing": {
+        "message": "Uppfriskande", 
+        "message-retranslated": "Refreshing", 
+        "description": "refreshing text goes here"
+    }, 
     "extension_name": {
         "message": "Team Fortress 2 Backpack Access", 
         "message-retranslated": "Team Fortress 2 Backpack Access", 
         "description": "Extension name"
+    }, 
+    "from_cache": {
+        "message": "Data laddas fr\u00e5n Cache", 
+        "message-retranslated": "Data is loaded from the cache", 
+        "description": "data loaded from cache label"
+    }, 
+    "error": {
+        "message": "Fel", 
+        "message-retranslated": "Wrong", 
+        "description": "error label"
     }
 }

@@ -206,6 +206,7 @@ line-height:200%;
 
 #nav {
 text-align:right;
+whitespace:nowrap !important;
 }
 
 
