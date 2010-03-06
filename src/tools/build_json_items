@@ -66,19 +66,28 @@ def format_value_is_additive_percentage(v):
 
 def add_item_type(source, target, lang_data=None, **kwds):
     val = fix_key(source['item_type_name'])
-    target['type'] = lang_data.get(val, fix_type(val))
+    val = lang_data.get(val, fix_type(val))
+    val = replace_newlines(val)
+    target['type'] = val
 
 
 def add_item_desc(source, target, lang_data=None, **kwds):
     val = fix_key(source['item_name'])
-    target['description'] = lang_data.get(val, val)
+    val = lang_data.get(val, val)
+    val = replace_newlines(val)
+    target['description'] = val
 
 
 def add_item_alt(source, target, lang_data=None, **kwds):
     alt = source.get('item_description', None)
     if alt is not None:
 	alt = fix_key(alt)
-	target['alt'].append(lang_data.get(alt, alt))
+	alt = replace_newlines(lang_data.get(alt, alt))
+	target['alt'].append(alt)
+
+
+def replace_newlines(v):
+    return v.replace('\\n', '<br />')
 
 
 def add_item_attrs(source, target, lang_data, find_attr=None, **kwds):
@@ -94,6 +103,7 @@ def add_item_attrs(source, target, lang_data, find_attr=None, **kwds):
 		av_type = av['effect_type']
 		desc = lang_data.get(desc, None)
 		if desc is not None:
+		    desc = replace_newlines(desc)
 		    v = setup.get('value', None)
 		    f = glbls.get('format_'+frmt, lambda v:v)
 		    fv = f(v)
@@ -104,13 +114,11 @@ def add_item_attrs(source, target, lang_data, find_attr=None, **kwds):
 		    elif av_type == 'negative':
 			if desc.count('%s1'):
 			    desc = desc.replace('%s1', fv)
-			    #desc = desc.replace('%s1', '[%s : %s : %s VALUE]  ' % (fv, v, frmt))
 			target[av_type].append(desc)
 
 		    elif av_type == 'positive':
 			if desc.count('%s1'):
 			    desc = desc.replace('%s1', fv)
-			    #desc = desc.replace('%s1', '[%s : %s : %s VALUE]  ' % (fv, v, frmt))
 			target[av_type].append(desc)
 
 

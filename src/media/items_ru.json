@@ -1,0 +1,676 @@
+{
+    "133": {
+        "type": "TF_Wearable_Boots", 
+        "description": "TF_Unique_Blast_Boots"
+    }, 
+    "132": {
+        "alt": [
+            "TF_Unique_Achievement_Sword_Desc"
+        ], 
+        "type": "TF_Weapon_Sword", 
+        "negative": [
+            "\u041c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u044b\u0439 \u0443\u0440\u043e\u0432\u0435\u043d\u044c \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u044f: -25", 
+            "\u0411\u0435\u0437 \u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0443\u0434\u0430\u0440\u043e\u0432"
+        ], 
+        "description": "TF_Unique_Achievement_Sword"
+    }, 
+    "131": {
+        "alt": [
+            "TF_Unique_Achievement_Shield_Desc"
+        ], 
+        "type": "\u0411\u0440\u043e\u043d\u0435\u043f\u0430\u043d\u0446\u0438\u0440\u044c", 
+        "description": "TF_Unique_Achievement_Shield"
+    }, 
+    "130": {
+        "type": "\u0411\u043e\u043c\u0431\u043e\u043c\u0451\u0442", 
+        "description": "TF_Unique_Achievement_StickyLauncher"
+    }, 
+    "137": {
+        "type": "Hat", 
+        "description": "TF_NobleAmassment_Hat"
+    }, 
+    "136": {
+        "alt": [
+            "TF_PropagandaContest_SecondPlace_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_PropagandaContest_SecondPlace"
+    }, 
+    "135": {
+        "type": "Hat", 
+        "description": "TF_ToweringPillar_Hat"
+    }, 
+    "134": {
+        "alt": [
+            "TF_PropagandaContest_FirstPlace_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_PropagandaContest_FirstPlace"
+    }, 
+    "139": {
+        "type": "Hat", 
+        "description": "TF_ModestPile_Hat"
+    }, 
+    "138": {
+        "alt": [
+            "TF_PropagandaContest_ThirdPlace_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_PropagandaContest_ThirdPlace"
+    }, 
+    "24": {
+        "type": "\u0420\u0435\u0432\u043e\u043b\u044c\u0432\u0435\u0440", 
+        "description": "\u0420\u0435\u0432\u043e\u043b\u044c\u0432\u0435\u0440"
+    }, 
+    "25": {
+        "type": "\u041a\u041f\u041a", 
+        "description": "\u041a\u041f\u041a"
+    }, 
+    "26": {
+        "type": "\u041a\u041f\u041a", 
+        "description": "\u041a\u041f\u041a"
+    }, 
+    "27": {
+        "type": "\u041a\u041f\u041a", 
+        "description": "\u041a\u041f\u041a"
+    }, 
+    "20": {
+        "type": "\u0411\u043e\u043c\u0431\u043e\u043c\u0451\u0442", 
+        "description": "\u0411\u043e\u043c\u0431\u043e\u043c\u0451\u0442"
+    }, 
+    "21": {
+        "type": "\u041e\u0433\u043d\u0435\u043c\u0451\u0442", 
+        "description": "\u041e\u0433\u043d\u0435\u043c\u0451\u0442"
+    }, 
+    "22": {
+        "type": "\u041f\u0438\u0441\u0442\u043e\u043b\u0435\u0442", 
+        "description": "\u041f\u0438\u0441\u0442\u043e\u043b\u0435\u0442"
+    }, 
+    "23": {
+        "type": "\u041f\u0438\u0441\u0442\u043e\u043b\u0435\u0442", 
+        "description": "\u041f\u0438\u0441\u0442\u043e\u043b\u0435\u0442"
+    }, 
+    "28": {
+        "type": "\u041a\u041f\u041a", 
+        "description": "\u041a\u041f\u041a"
+    }, 
+    "29": {
+        "type": "\u041b\u0435\u0447\u0435\u0431\u043d\u0430\u044f \u043f\u0443\u0448\u043a\u0430", 
+        "description": "\u041b\u0435\u0447\u0435\u0431\u043d\u0430\u044f \u043f\u0443\u0448\u043a\u0430"
+    }, 
+    "0": {
+        "type": "\u0411\u0438\u0442\u0430", 
+        "description": "\u0411\u0438\u0442\u0430"
+    }, 
+    "4": {
+        "type": "\u041d\u043e\u0436", 
+        "description": "\u041d\u043e\u0436"
+    }, 
+    "8": {
+        "type": "\u041c\u0435\u0434\u0438\u0446\u0438\u043d\u0441\u043a\u0430\u044f \u043f\u0438\u043b\u0430", 
+        "description": "\u041c\u0435\u0434\u0438\u0446\u0438\u043d\u0441\u043a\u0430\u044f \u043f\u0438\u043b\u0430"
+    }, 
+    "120": {
+        "type": "Hat", 
+        "description": "\u0428\u043e\u0442\u043b\u0430\u043d\u0434\u0441\u043a\u0438\u0439 \u0446\u0438\u043b\u0438\u043d\u0434\u0440"
+    }, 
+    "121": {
+        "type": "\u041c\u0435\u0434\u0430\u043b\u044c", 
+        "description": "\u041f\u0430\u043c\u044f\u0442\u043d\u0430\u044f \u043c\u0435\u0434\u0430\u043b\u044c"
+    }, 
+    "122": {
+        "type": "Cheat Detector", 
+        "description": "\u0411\u044b\u043b\u043e \u043e\u0431\u043d\u0430\u0440\u0443\u0436\u0435\u043d\u043e, \u0447\u0442\u043e \u0434\u0430\u043d\u043d\u0430\u044f \u0443\u0447\u0435\u0442\u043d\u0430\u044f \u0437\u0430\u043f\u0438\u0441\u044c \u043e\u0431\u0445\u043e\u0434\u0438\u043b\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u0443 \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u044f \u0432\u0435\u0449\u0435\u0439. \u0418\u0437 \u0432\u0430\u0448\u0435\u0433\u043e \u0440\u044e\u043a\u0437\u0430\u043a\u0430 \u043c\u044b \u0443\u0434\u0430\u043b\u0438\u043b\u0438 \u043d\u0435\u0437\u0430\u043a\u043e\u043d\u043d\u043e \u043f\u0440\u0438\u043e\u0431\u0440\u0435\u0442\u0435\u043d\u043d\u044b\u0435 \u0432\u0435\u0449\u0438.\n\n\u041d\u0430\u0440\u0443\u0448\u0435\u043d\u0438\u044f, \u0437\u0430\u043c\u0435\u0447\u0435\u043d\u043d\u044b\u0435 \u0432 \u0434\u0430\u043b\u044c\u043d\u0435\u0439\u0448\u0435\u043c, \u043c\u043e\u0433\u0443\u0442 \u043f\u0440\u0438\u0432\u0435\u0441\u0442\u0438 \u043a \u0443\u0434\u0430\u043b\u0435\u043d\u0438\u044e \u0432\u0441\u0435\u0445 \u0432\u0435\u0449\u0435\u0439."
+    }, 
+    "123": {
+        "type": "Cheat Detector", 
+        "description": "\u0411\u044b\u043b\u043e \u043e\u0431\u043d\u0430\u0440\u0443\u0436\u0435\u043d\u043e, \u0447\u0442\u043e \u0434\u0430\u043d\u043d\u0430\u044f \u0443\u0447\u0435\u0442\u043d\u0430\u044f \u0437\u0430\u043f\u0438\u0441\u044c \u043e\u0431\u0445\u043e\u0434\u0438\u043b\u0430 \u0441\u0438\u0441\u0442\u0435\u043c\u0443 \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0435\u043d\u0438\u044f \u0432\u0435\u0449\u0435\u0439. \u0418\u0437 \u0432\u0430\u0448\u0435\u0433\u043e \u0440\u044e\u043a\u0437\u0430\u043a\u0430 \u043c\u044b \u0443\u0434\u0430\u043b\u0438\u043b\u0438 \u0432\u0441\u0435 \u0432\u0435\u0449\u0438.\n\n\u041d\u0430\u0440\u0443\u0448\u0435\u043d\u0438\u044f, \u0437\u0430\u043c\u0435\u0447\u0435\u043d\u043d\u044b\u0435 \u0432 \u0434\u0430\u043b\u044c\u043d\u0435\u0439\u0448\u0435\u043c, \u043c\u043e\u0433\u0443\u0442 \u043f\u0440\u0438\u0432\u0435\u0441\u0442\u0438 \u043a \u0443\u0434\u0430\u043b\u0435\u043d\u0438\u044e \u0443\u0447\u0435\u0442\u043d\u043e\u0439 \u0437\u0430\u043f\u0438\u0441\u0438."
+    }, 
+    "124": {
+        "type": "Cheat Detector", 
+        "description": "\u041f\u043e\u0437\u0434\u0440\u0430\u0432\u043b\u044f\u0435\u043c! \u0412\u0430\u0448\u0430 \u0422\u043e\u0447\u043d\u043e\u0441\u0442\u044c, \u0432\u044b \u043d\u0430\u0433\u0440\u0430\u0436\u0434\u0430\u0435\u0442\u0435\u0441\u044c \u043d\u043e\u0432\u043e\u0439 \u0448\u043b\u044f\u043f\u043e\u0439!\n\n(\u0414\u0440\u0443\u0433\u0438\u0435 \u0438\u0433\u0440\u043e\u043a\u0438 \u0434\u0435\u0439\u0441\u0442\u0432\u043e\u0432\u0430\u043b\u0438 \u043d\u0435 \u0441\u0442\u043e\u043b\u044c \u0442\u0449\u0430\u0442\u0435\u043b\u044c\u043d\u043e, \u0438 \u043f\u043e\u0442\u043e\u043c\u0443 \u0438\u043c \u043f\u043e\u0432\u0435\u0437\u043b\u043e \u043c\u0435\u043d\u044c\u0448\u0435.)"
+    }, 
+    "125": {
+        "alt": [
+            "\u0423\u0440\u043e\u043d: %s1%"
+        ], 
+        "type": "\u0410\u0443\u0440\u0430 \u043d\u0435\u043f\u043e\u0434\u043a\u0443\u043f\u043d\u043e\u0441\u0442\u0438", 
+        "description": "\u041f\u043b\u0430\u0447 \u0436\u0443\u043b\u0438\u043a\u0430"
+    }, 
+    "126": {
+        "type": "\u0412\u0435\u0442\u0435\u0440\u0430\u043d\u0441\u043a\u0438\u0439 \u0431\u0435\u0440\u0435\u0442", 
+        "description": "\u0428\u043b\u044f\u043f\u0430 \u0411\u0438\u043b\u043b\u0430"
+    }, 
+    "127": {
+        "positive": [
+            "\u0423\u0440\u043e\u043d: +25%"
+        ], 
+        "type": "\u0420\u0435\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0433\u0440\u0430\u043d\u0430\u0442\u043e\u043c\u0451\u0442", 
+        "description": "TF_Unique_Achievement_RocketLauncher"
+    }, 
+    "128": {
+        "type": "TF_Weapon_Pickaxe", 
+        "description": "TF_Unique_Achievement_Pickaxe"
+    }, 
+    "129": {
+        "type": "TF_Weapon_Battle_Banner", 
+        "description": "TF_Unique_Achievement_SoldierBuff"
+    }, 
+    "59": {
+        "positive": [
+            "\u0417\u0430\u0440\u044f\u0434 \u043c\u0430\u0441\u043a\u0438\u0440\u043e\u0432\u043a\u0438: 80%"
+        ], 
+        "alt": [
+            "\u0422\u0438\u043f \u043c\u0430\u0441\u043a\u0438\u0440\u043e\u0432\u043a\u0438: \u043f\u0440\u0438\u043a\u0438\u043d\u0443\u0442\u044c\u0441\u044f \u043c\u0435\u0440\u0442\u0432\u044b\u043c"
+        ], 
+        "type": "\u041d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u043d\u0435\u0432\u0438\u0434\u0438\u043c\u043e\u0441\u0442\u0438", 
+        "negative": [
+            "\u0420\u0430\u0441\u0445\u043e\u0434 \u043c\u0430\u0441\u043a\u0438\u0440\u043e\u0432\u043a\u0438: 60%"
+        ], 
+        "description": "\u0417\u0432\u043e\u043d \u0441\u043c\u0435\u0440\u0442\u0438"
+    }, 
+    "58": {
+        "alt": [
+            "\u041f\u043e\u0440\u0430\u0436\u0435\u043d\u043d\u044b\u0435 \u0432\u0440\u0430\u0433\u0438 \u043f\u043e\u043b\u0443\u0447\u0430\u044e\u0442 \u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0443\u0440\u043e\u043d. \u041a\u0440\u043e\u043c\u0435 \u0442\u043e\u0433\u043e, \u044d\u0442\u0438\u043c \u043e\u0440\u0443\u0436\u0438\u0435\u043c \u043c\u043e\u0436\u043d\u043e \u0441\u0431\u0438\u0432\u0430\u0442\u044c \u043e\u0433\u043e\u043d\u044c."
+        ], 
+        "type": "\u0411\u0430\u043d\u043e\u0447\u043d\u043e\u0435 \u043a\u0430\u0440\u0430\u0442\u0435", 
+        "description": "\u0411\u0430\u043d\u043a\u0430\u0442\u0435"
+    }, 
+    "55": {
+        "type": "Hat", 
+        "description": "\u041a\u0430\u0441\u043a\u0430 \u0448\u043f\u0438\u043e\u043d\u0430"
+    }, 
+    "54": {
+        "type": "Hat", 
+        "description": "\u0421\u043e\u043b\u0434\u0430\u0442\u0441\u043a\u0430\u044f \u043a\u0430\u0441\u043a\u0430"
+    }, 
+    "57": {
+        "positive": [
+            "\u041e\u0442\u0440\u0430\u0436\u0430\u0435\u0442 \u043e\u0434\u0438\u043d \u0443\u0434\u0430\u0440 \u0432 \u0441\u043f\u0438\u043d\u0443."
+        ], 
+        "type": "\u0411\u0440\u043e\u043d\u0435\u043f\u0430\u043d\u0446\u0438\u0440\u044c", 
+        "description": "\u0411\u0440\u043e\u043d\u0435\u043f\u0430\u043d\u0446\u0438\u0440\u044c"
+    }, 
+    "56": {
+        "type": "\u041b\u0443\u043a", 
+        "description": "\u041e\u0445\u043e\u0442\u043d\u0438\u043a"
+    }, 
+    "51": {
+        "type": "Hat", 
+        "description": "\u041a\u0430\u0441\u043a\u0430 \u043f\u043e\u0434\u0436\u0438\u0433\u0430\u0442\u0435\u043b\u044f"
+    }, 
+    "50": {
+        "type": "Hat", 
+        "description": "\u041a\u0430\u0441\u043a\u0430 \u043c\u0435\u0434\u0438\u043a\u0430"
+    }, 
+    "53": {
+        "type": "Hat", 
+        "description": "\u0422\u0440\u043e\u0444\u0435\u0439\u043d\u044b\u0439 \u0440\u0435\u043c\u0435\u043d\u044c"
+    }, 
+    "52": {
+        "type": "Hat", 
+        "description": "\u0411\u0435\u0439\u0441\u0431\u043e\u043b\u044c\u043d\u044b\u0439 \u0448\u043b\u0435\u043c"
+    }, 
+    "5010": {
+        "alt": [
+            "TF_CraftItem_Token_C_Desc"
+        ], 
+        "type": "TF_CraftItem", 
+        "description": "CI_T_C_8"
+    }, 
+    "5011": {
+        "alt": [
+            "TF_CraftItem_Token_C_Desc"
+        ], 
+        "type": "TF_CraftItem", 
+        "description": "CI_T_C_9"
+    }, 
+    "5012": {
+        "alt": [
+            "TF_CraftItem_Token_S_Desc"
+        ], 
+        "type": "TF_CraftItem", 
+        "description": "CI_T_S_1"
+    }, 
+    "5013": {
+        "alt": [
+            "TF_CraftItem_Token_S_Desc"
+        ], 
+        "type": "TF_CraftItem", 
+        "description": "CI_T_S_2"
+    }, 
+    "5014": {
+        "alt": [
+            "TF_CraftItem_Token_S_Desc"
+        ], 
+        "type": "TF_CraftItem", 
+        "description": "CI_T_S_3"
+    }, 
+    "5015": {
+        "alt": [
+            "TF_CraftItem_Token_S_Desc"
+        ], 
+        "type": "TF_CraftItem", 
+        "description": "CI_T_S_4"
+    }, 
+    "5016": {
+        "alt": [
+            "TF_CraftItem_Token_S_Desc"
+        ], 
+        "type": "TF_CraftItem", 
+        "description": "CI_T_S_5"
+    }, 
+    "5017": {
+        "alt": [
+            "TF_CraftItem_Token_S_Desc"
+        ], 
+        "type": "TF_CraftItem", 
+        "description": "CI_T_S_6"
+    }, 
+    "5018": {
+        "alt": [
+            "TF_CraftItem_Token_S_Desc"
+        ], 
+        "type": "TF_CraftItem", 
+        "description": "CI_T_S_7"
+    }, 
+    "5019": {
+        "alt": [
+            "TF_CraftItem_Token_S_Desc"
+        ], 
+        "type": "TF_CraftItem", 
+        "description": "CI_T_S_8"
+    }, 
+    "115": {
+        "type": "TF_Wearable_Holiday_Hat", 
+        "description": "TF_Halloween_Hat"
+    }, 
+    "117": {
+        "type": "Hat", 
+        "description": "\u041b\u0430\u043a \u0420\u0438\u0442\u0446\u0438 \u0420\u0438\u043a\u0430 \u0434\u043b\u044f \u0432\u043e\u043b\u043e\u0441"
+    }, 
+    "116": {
+        "alt": [
+            "TF_Domination_Hat_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_Domination_Hat"
+    }, 
+    "111": {
+        "type": "Hat", 
+        "description": "\u0421\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u044b\u0439 \u0433\u0435\u043b\u044c \u0434\u043b\u044f \u0432\u043e\u043b\u043e\u0441"
+    }, 
+    "110": {
+        "type": "Hat", 
+        "description": "\u0416\u0435\u043b\u0442\u0430\u044f \u043f\u043e\u0432\u044f\u0437\u043a\u0430 \u043c\u0430\u0441\u0442\u0435\u0440\u0430"
+    }, 
+    "118": {
+        "type": "Hat", 
+        "description": "\u0422\u0435\u0445\u0430\u0441\u0441\u043a\u0438\u0439 \u0441\u0438\u044f\u044e\u0449\u0438\u0439 \u043a\u0443\u043f\u043e\u043b"
+    }, 
+    "3": {
+        "type": "\u041c\u0430\u0447\u0435\u0442\u0435", 
+        "description": "\u041c\u0430\u0447\u0435\u0442\u0435"
+    }, 
+    "7": {
+        "type": "\u0413\u0430\u0435\u0447\u043d\u044b\u0439 \u043a\u043b\u044e\u0447", 
+        "description": "\u0413\u0430\u0435\u0447\u043d\u044b\u0439 \u043a\u043b\u044e\u0447"
+    }, 
+    "other_attributes": {
+        "133": "Medal no. %s1", 
+        "132": "Given to valuable Community Contributors"
+    }, 
+    "5003": {
+        "alt": [
+            "TF_CraftItem_Token_C_Desc"
+        ], 
+        "type": "TF_CraftItem", 
+        "description": "CI_T_C_1"
+    }, 
+    "5002": {
+        "type": "TF_CraftItem", 
+        "description": "CI_Bar_C"
+    }, 
+    "5001": {
+        "type": "TF_CraftItem", 
+        "description": "CI_Bar_B"
+    }, 
+    "5000": {
+        "type": "TF_CraftItem", 
+        "description": "CI_Bar_A"
+    }, 
+    "5007": {
+        "alt": [
+            "TF_CraftItem_Token_C_Desc"
+        ], 
+        "type": "TF_CraftItem", 
+        "description": "CI_T_C_5"
+    }, 
+    "5006": {
+        "alt": [
+            "TF_CraftItem_Token_C_Desc"
+        ], 
+        "type": "TF_CraftItem", 
+        "description": "CI_T_C_4"
+    }, 
+    "5005": {
+        "alt": [
+            "TF_CraftItem_Token_C_Desc"
+        ], 
+        "type": "TF_CraftItem", 
+        "description": "CI_T_C_3"
+    }, 
+    "5004": {
+        "alt": [
+            "TF_CraftItem_Token_C_Desc"
+        ], 
+        "type": "TF_CraftItem", 
+        "description": "CI_T_C_2"
+    }, 
+    "5009": {
+        "alt": [
+            "TF_CraftItem_Token_C_Desc"
+        ], 
+        "type": "TF_CraftItem", 
+        "description": "CI_T_C_7"
+    }, 
+    "5008": {
+        "alt": [
+            "TF_CraftItem_Token_C_Desc"
+        ], 
+        "type": "TF_CraftItem", 
+        "description": "CI_T_C_6"
+    }, 
+    "108": {
+        "type": "Hat", 
+        "description": "\u0428\u043f\u0438\u043e\u043d\u0441\u043a\u0438\u0439 \u043a\u043e\u0442\u0435\u043b\u043e\u043a"
+    }, 
+    "109": {
+        "type": "Hat", 
+        "description": "\u041f\u0430\u043d\u0430\u043c\u0430 \u043f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u043e\u043d\u0430\u043b\u0430"
+    }, 
+    "9003": {
+        "positive": [
+            "Bans Steam account of players killed", 
+            "This item is not real and is only a joke."
+        ], 
+        "type": "Mallet of Banishment", 
+        "description": "Ban Hammer"
+    }, 
+    "102": {
+        "type": "Hat", 
+        "description": "\u0421\u043c\u0435\u0445\u043e\u0442\u0432\u043e\u0440\u043d\u0430\u044f \u0440\u0435\u0437\u0438\u043d\u043e\u0432\u0430\u044f \u043f\u0435\u0440\u0447\u0430\u0442\u043a\u0430"
+    }, 
+    "103": {
+        "type": "Hat", 
+        "description": "\u041d\u0430\u043a\u043b\u0430\u0434\u043d\u0430\u044f \u0431\u043e\u0440\u043e\u0434\u0430"
+    }, 
+    "100": {
+        "type": "Hat", 
+        "description": "\u0428\u043e\u0442\u043b\u0430\u043d\u0434\u0441\u043a\u0430\u044f \u0448\u0430\u043f\u043a\u0430"
+    }, 
+    "101": {
+        "type": "Hat", 
+        "description": "\u0421\u0442\u0430\u0440\u0430\u044f \u0442\u0438\u0440\u043e\u043b\u044c\u0441\u043a\u0430\u044f \u0448\u043b\u044f\u043f\u0430"
+    }, 
+    "106": {
+        "type": "Hat", 
+        "description": "\u0428\u043b\u0435\u043c \\\"\u0411\u043e\u043d\u043a\\\""
+    }, 
+    "107": {
+        "type": "Hat", 
+        "description": "\u0421\u0442\u0430\u0440\u043e\u043c\u043e\u0434\u043d\u0430\u044f \u043a\u0435\u043f\u043a\u0430"
+    }, 
+    "104": {
+        "type": "Hat", 
+        "description": "\u0417\u0435\u0440\u043a\u0430\u043b\u043e \u043e\u0442\u043e\u043b\u0430\u0440\u0438\u043d\u0433\u043e\u043b\u043e\u0433\u0430"
+    }, 
+    "105": {
+        "type": "Hat", 
+        "description": "\u0428\u043b\u0435\u043c \u043f\u043e\u0436\u0430\u0440\u043d\u043e\u0433\u043e"
+    }, 
+    "39": {
+        "type": "\u0420\u0430\u043a\u0435\u0442\u043d\u0438\u0446\u0430", 
+        "description": "\u0420\u0430\u043a\u0435\u0442\u043d\u0438\u0446\u0430"
+    }, 
+    "38": {
+        "positive": [
+            "100% \u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0443\u0434\u0430\u0440 \u043d\u0430 \u0433\u043e\u0440\u044f\u0449\u0438\u0445 \u0432\u0440\u0430\u0433\u043e\u0432"
+        ], 
+        "type": "\u041f\u043e\u0436\u0430\u0440\u043d\u044b\u0439 \u0442\u043e\u043f\u043e\u0440\u0438\u043a", 
+        "negative": [
+            "\u0411\u0435\u0437 \u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0443\u0434\u0430\u0440\u043e\u0432 \u043d\u0430 \u043d\u0435\u0433\u043e\u0440\u044f\u0449\u0438\u0445 \u0432\u0440\u0430\u0433\u043e\u0432", 
+            "-50% \u043f\u043e\u0432\u0440\u0435\u0436\u0434\u0435\u043d\u0438\u044f \u043d\u0430 \u043d\u0435\u0433\u043e\u0440\u044f\u0449\u0438\u0445 \u0432\u0440\u0430\u0433\u043e\u0432"
+        ], 
+        "description": "\u041e\u0433\u043d\u0435\u043d\u043d\u044b\u0439 \u0442\u043e\u043f\u043e\u0440"
+    }, 
+    "33": {
+        "type": "\u0428\u043f\u0440\u0438\u0446\u0435\u0432\u044b\u0439 \u043f\u0438\u0441\u0442\u043e\u043b\u0435\u0442", 
+        "description": "\u0428\u043f\u0440\u0438\u0446\u0435\u0432\u044b\u0439 \u043f\u0438\u0441\u0442\u043e\u043b\u0435\u0442"
+    }, 
+    "32": {
+        "type": "\u041c\u0435\u0434\u0438\u0446\u0438\u043d\u0441\u043a\u0430\u044f \u043f\u0438\u043b\u0430", 
+        "description": "\u041c\u0435\u0434\u0438\u0446\u0438\u043d\u0441\u043a\u0430\u044f \u043f\u0438\u043b\u0430"
+    }, 
+    "31": {
+        "type": "\u0420\u0430\u043a\u0435\u0442\u043d\u0438\u0446\u0430", 
+        "description": "\u0420\u0430\u043a\u0435\u0442\u043d\u0438\u0446\u0430"
+    }, 
+    "30": {
+        "type": "\u041d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u043d\u0435\u0432\u0438\u0434\u0438\u043c\u043e\u0441\u0442\u0438", 
+        "description": "\u041d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u043d\u0435\u0432\u0438\u0434\u0438\u043c\u043e\u0441\u0442\u0438"
+    }, 
+    "37": {
+        "positive": [
+            "\u0414\u043e\u0431\u0430\u0432\u043b\u044f\u0435\u0442 25% \u0443\u0431\u0435\u0440-\u0437\u0430\u0440\u044f\u0434\u0430 \u0437\u0430 \u0443\u0434\u0430\u0440"
+        ], 
+        "type": "\u041c\u0435\u0434\u0438\u0446\u0438\u043d\u0441\u043a\u0430\u044f \u043f\u0438\u043b\u0430", 
+        "negative": [
+            "\u0421\u043a\u043e\u0440\u043e\u0441\u0442\u044c \u0443\u0434\u0430\u0440\u0430: --20%"
+        ], 
+        "description": "\u0423\u0431\u0435\u0440-\u043f\u0438\u043b\u0430"
+    }, 
+    "36": {
+        "positive": [
+            "\u0417\u0434\u043e\u0440\u043e\u0432\u044c\u044f \u0437\u0430 \u0443\u0434\u0430\u0440: +3"
+        ], 
+        "type": "\u0428\u043f\u0440\u0438\u0446\u0435\u0432\u044b\u0439 \u043f\u0438\u0441\u0442\u043e\u043b\u0435\u0442", 
+        "negative": [
+            "\u041d\u043e\u0441\u0438\u0442\u0435\u043b\u044c \u0442\u0435\u0440\u044f\u0435\u0442 -2 \u0435\u0434. \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u044f \u0432 \u0441\u0435\u043a\u0443\u043d\u0434\u0443"
+        ], 
+        "description": "\u0428\u043f\u0440\u0438\u0446\u0435\u043c\u0435\u0442-\u0432\u0430\u043c\u043f\u0438\u0440"
+    }, 
+    "35": {
+        "positive": [
+            "\u0423\u0440\u043e\u0432\u0435\u043d\u044c \u0443\u0431\u0435\u0440-\u0437\u0430\u0440\u044f\u0434\u0430: +25%"
+        ], 
+        "alt": [
+            "\u0423\u0431\u0435\u0440-\u0437\u0430\u0440\u044f\u0434 \u0433\u0430\u0440\u0430\u043d\u0442\u0438\u0440\u0443\u0435\u0442 100% \u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0443\u0434\u0430\u0440"
+        ], 
+        "type": "\u041b\u0435\u0447\u0435\u0431\u043d\u0430\u044f \u043f\u0443\u0448\u043a\u0430", 
+        "description": "\u041a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u041f\u0443\u0448\u043a\u0430"
+    }, 
+    "34": {
+        "type": "\u041b\u0435\u0447\u0435\u0431\u043d\u0430\u044f \u043f\u0443\u0448\u043a\u0430", 
+        "description": "\u041b\u0435\u0447\u0435\u0431\u043d\u0430\u044f \u043f\u0443\u0448\u043a\u0430"
+    }, 
+    "60": {
+        "positive": [
+            "\u0417\u0430\u0440\u044f\u0434 \u043c\u0430\u0441\u043a\u0438\u0440\u043e\u0432\u043a\u0438: 100%"
+        ], 
+        "alt": [
+            "\u0422\u0438\u043f \u043c\u0430\u0441\u043a\u0438\u0440\u043e\u0432\u043a\u0438: \u043f\u043e\u0434\u0440\u0430\u0436\u0430\u043d\u0438\u0435"
+        ], 
+        "type": "\u041d\u0430\u0431\u043b\u044e\u0434\u0435\u043d\u0438\u0435 \u043d\u0435\u0432\u0438\u0434\u0438\u043c\u043e\u0441\u0442\u0438", 
+        "description": "\u041d\u0435\u0432\u0438\u0434\u0438\u043c\u044b\u0439 \u043a\u0438\u043d\u0436\u0430\u043b"
+    }, 
+    "61": {
+        "positive": [
+            "\u041a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0432\u044b\u0441\u0442\u0440\u0435\u043b\u044b \u0432 \u0433\u043e\u043b\u043e\u0432\u0443"
+        ], 
+        "type": "\u0420\u0435\u0432\u043e\u043b\u044c\u0432\u0435\u0440", 
+        "negative": [
+            "\u0423\u0440\u043e\u043d: -15%", 
+            "\u0421\u043a\u043e\u0440\u043e\u0441\u0442\u044c \u0443\u0434\u0430\u0440\u0430: --20%"
+        ], 
+        "description": "\u0410\u043c\u0431\u0430\u0441\u0441\u0430\u0434\u043e\u0440"
+    }, 
+    "2": {
+        "type": "\u041f\u043e\u0436\u0430\u0440\u043d\u044b\u0439 \u0442\u043e\u043f\u043e\u0440\u0438\u043a", 
+        "description": "\u041f\u043e\u0436\u0430\u0440\u043d\u044b\u0439 \u0442\u043e\u043f\u043e\u0440\u0438\u043a"
+    }, 
+    "6": {
+        "type": "\u041b\u043e\u043f\u0430\u0442\u0430", 
+        "description": "\u041b\u043e\u043f\u0430\u0442\u0430"
+    }, 
+    "99": {
+        "type": "Hat", 
+        "description": "\u0428\u043b\u0435\u043c \u0432\u0438\u043a\u0438\u043d\u0433\u0430"
+    }, 
+    "98": {
+        "type": "Hat", 
+        "description": "\u0413\u043e\u0440\u0448\u043e\u043a"
+    }, 
+    "95": {
+        "type": "Hat", 
+        "description": "\u0424\u0443\u0440\u0430\u0436\u043a\u0430 \u0438\u043d\u0436\u0435\u043d\u0435\u0440\u0430"
+    }, 
+    "94": {
+        "type": "Hat", 
+        "description": "\u0422\u0435\u0445\u0430\u0441\u0441\u043a\u0430\u044f \u0431\u043e\u043b\u044c\u0448\u0430\u044f \u0448\u043b\u044f\u043f\u0430"
+    }, 
+    "97": {
+        "type": "Hat", 
+        "description": "\u0428\u0430\u043f\u043a\u0430 \u043a\u0440\u0443\u0442\u043e\u0433\u043e \u043f\u0430\u0440\u043d\u044f"
+    }, 
+    "96": {
+        "type": "Hat", 
+        "description": "\u041e\u0444\u0438\u0446\u0435\u0440\u0441\u043a\u0430\u044f \u0443\u0448\u0430\u043d\u043a\u0430"
+    }, 
+    "11": {
+        "type": "\u0414\u0440\u043e\u0431\u043e\u0432\u0438\u043a", 
+        "description": "\u0414\u0440\u043e\u0431\u043e\u0432\u0438\u043a"
+    }, 
+    "10": {
+        "type": "\u0414\u0440\u043e\u0431\u043e\u0432\u0438\u043a", 
+        "description": "\u0414\u0440\u043e\u0431\u043e\u0432\u0438\u043a"
+    }, 
+    "13": {
+        "type": "\u041e\u0431\u0440\u0435\u0437", 
+        "description": "\u041e\u0431\u0440\u0435\u0437"
+    }, 
+    "12": {
+        "type": "\u0414\u0440\u043e\u0431\u043e\u0432\u0438\u043a", 
+        "description": "\u0414\u0440\u043e\u0431\u043e\u0432\u0438\u043a"
+    }, 
+    "15": {
+        "type": "\u041f\u0443\u043b\u0435\u043c\u0451\u0442", 
+        "description": "\u041f\u0443\u043b\u0435\u043c\u0451\u0442"
+    }, 
+    "14": {
+        "type": "\u0421\u043d\u0430\u0439\u043f\u0435\u0440\u0441\u043a\u0430\u044f \u0432\u0438\u043d\u0442\u043e\u0432\u043a\u0430", 
+        "description": "\u0421\u043d\u0430\u0439\u043f\u0435\u0440\u0441\u043a\u0430\u044f \u0432\u0438\u043d\u0442\u043e\u0432\u043a\u0430"
+    }, 
+    "17": {
+        "type": "\u0428\u043f\u0440\u0438\u0446\u0435\u0432\u044b\u0439 \u043f\u0438\u0441\u0442\u043e\u043b\u0435\u0442", 
+        "description": "\u0428\u043f\u0440\u0438\u0446\u0435\u0432\u044b\u0439 \u043f\u0438\u0441\u0442\u043e\u043b\u0435\u0442"
+    }, 
+    "16": {
+        "type": "\u041f\u041f\u041c", 
+        "description": "\u041f\u041f\u041c"
+    }, 
+    "19": {
+        "type": "\u0413\u0440\u0430\u043d\u0430\u0442\u043e\u043c\u0451\u0442", 
+        "description": "\u0413\u0440\u0430\u043d\u0430\u0442\u043e\u043c\u0451\u0442"
+    }, 
+    "18": {
+        "type": "\u0420\u0435\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0433\u0440\u0430\u043d\u0430\u0442\u043e\u043c\u0451\u0442", 
+        "description": "\u0420\u0435\u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0439 \u0433\u0440\u0430\u043d\u0430\u0442\u043e\u043c\u0451\u0442"
+    }, 
+    "48": {
+        "type": "Hat", 
+        "description": "\u0428\u0430\u0445\u0442\u0435\u0440\u0441\u043a\u0438\u0439 \u0444\u043e\u043d\u0430\u0440\u044c"
+    }, 
+    "49": {
+        "type": "Hat", 
+        "description": "\u0424\u0443\u0442\u0431\u043e\u043b\u044c\u043d\u044b\u0439 \u0448\u043b\u0435\u043c"
+    }, 
+    "46": {
+        "type": "\u041a\u043e\u0440\u043e\u0431\u043e\u0447\u043a\u0430 \u0434\u043b\u044f \u0437\u0430\u0432\u0442\u0440\u0430\u043a\u0430", 
+        "description": "\u0411\u043e\u043d\u043a! \u0410\u0442\u043e\u043c\u043d\u044b\u0439 \u0437\u0430\u043b\u043f"
+    }, 
+    "47": {
+        "type": "Hat", 
+        "description": "\u0410\u0444\u0440\u043e"
+    }, 
+    "44": {
+        "positive": [
+            "\u042d\u0442\u0430 \u0431\u0438\u0442\u0430 \u043f\u043e\u0434\u0430\u0435\u0442 \u043e\u0433\u043b\u0443\u0448\u0430\u044e\u0449\u0438\u0435 \u043c\u044f\u0447\u0438 "
+        ], 
+        "type": "\u0411\u0438\u0442\u0430", 
+        "negative": [
+            "\u041c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u044b\u0439 \u0443\u0440\u043e\u0432\u0435\u043d\u044c \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u044f: -15"
+        ], 
+        "description": "\u0414\u0440\u0451\u043c\u0430"
+    }, 
+    "45": {
+        "positive": [
+            "\u041e\u0442\u0434\u0430\u0447\u0430 \u0432 \u0446\u0435\u043b\u044c \u0438 \u0441\u0442\u0440\u0435\u043b\u044f\u044e\u0449\u0435\u0433\u043e", 
+            "\u0421\u043a\u043e\u0440\u043e\u0441\u0442\u044c \u0443\u0434\u0430\u0440\u0430: +50%", 
+            "\u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u043f\u0443\u043b\u044c \u0437\u0430 \u0432\u044b\u0441\u0442\u0440\u0435\u043b: +20%"
+        ], 
+        "type": "\u041e\u0431\u0440\u0435\u0437", 
+        "negative": [
+            "\u041e\u0431\u043e\u0439\u043c\u0430: -60%", 
+            "\u0423\u0440\u043e\u043d: -10%"
+        ], 
+        "description": "\u041d\u0435\u0443\u043c\u043e\u043b\u0438\u043c\u0430\u044f \u0441\u0438\u043b\u0430"
+    }, 
+    "42": {
+        "type": "\u041a\u043e\u0440\u043e\u0431\u043e\u0447\u043a\u0430 \u0434\u043b\u044f \u0437\u0430\u0432\u0442\u0440\u0430\u043a\u0430", 
+        "description": "\u0411\u0443\u0442\u0435\u0440\u0431\u0440\u043e\u0434"
+    }, 
+    "43": {
+        "positive": [
+            "\u041f\u0440\u0438 \u0443\u0431\u0438\u0439\u0441\u0442\u0432\u0435: 5 \u0441\u0435\u043a\u0443\u043d\u0434 - 100% \u0448\u0430\u043d\u0441 \u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0443\u0434\u0430\u0440\u0430."
+        ], 
+        "type": "\u041a\u0443\u043b\u0430\u043a\u0438", 
+        "negative": [
+            "\u0421\u043a\u043e\u0440\u043e\u0441\u0442\u044c \u0443\u0434\u0430\u0440\u0430: --20%"
+        ], 
+        "description": "\u0424\u0435\u043d\u043e\u043c\u0435\u043d\u0430\u043b\u044c\u043d\u0430\u044f \u0421\u0438\u043b\u0430 \u0411\u043e\u043a\u0441\u0435\u0440\u0430"
+    }, 
+    "40": {
+        "positive": [
+            "100% \u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0443\u0434\u0430\u0440\u0430 \u0441\u0437\u0430\u0434\u0438"
+        ], 
+        "type": "\u041e\u0433\u043d\u0435\u043c\u0451\u0442", 
+        "negative": [
+            "\u0411\u0435\u0437 \u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0443\u0434\u0430\u0440\u043e\u0432", 
+            "\u0411\u0435\u0437 \u0441\u0436\u0430\u0442\u043e\u0433\u043e \u0432\u043e\u0437\u0434\u0443\u0445\u0430"
+        ], 
+        "description": "\u0414\u043e\u0436\u0438\u0433\u0430\u0442\u0435\u043b\u044c"
+    }, 
+    "41": {
+        "positive": [
+            "100% \u0448\u0430\u043d\u0441 \u0437\u0430\u043c\u0435\u0434\u043b\u0438\u0442\u044c \u0432\u0440\u0430\u0433\u0430 \u043f\u0440\u0438 \u043f\u043e\u043f\u0430\u0434\u0430\u043d\u0438\u0438"
+        ], 
+        "type": "\u041f\u0443\u043b\u0435\u043c\u0451\u0442", 
+        "negative": [
+            "\u0423\u0440\u043e\u043d: -25%"
+        ], 
+        "description": "\u041d\u0430\u0442\u0430\u0448\u0430"
+    }, 
+    "1": {
+        "type": "\u0411\u0443\u0442\u044b\u043b\u043a\u0430", 
+        "description": "\u0411\u0443\u0442\u044b\u043b\u043a\u0430"
+    }, 
+    "5": {
+        "type": "\u041a\u0443\u043b\u0430\u043a\u0438", 
+        "description": "\u041a\u0443\u043b\u0430\u043a\u0438"
+    }, 
+    "9": {
+        "type": "\u0414\u0440\u043e\u0431\u043e\u0432\u0438\u043a", 
+        "description": "\u0414\u0440\u043e\u0431\u043e\u0432\u0438\u043a"
+    }
+}

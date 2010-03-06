@@ -4,6 +4,16 @@
         "message-retranslated": "4", 
         "description": "the number 4"
     }, 
+    "no_change": {
+        "message": "Ei muutosta", 
+        "message-retranslated": "No change", 
+        "description": "nothing changed, but have a label!"
+    }, 
+    "profile_found": {
+        "message": "H\u00f6yryll\u00e4 ID $1 $2.", 
+        "message-retranslated": "Steam ID $1 $2", 
+        "description": "steam id found in search"
+    }, 
     "num1": {
         "message": "1", 
         "message-retranslated": "1", 
@@ -19,6 +29,10 @@
         "message-retranslated": "3", 
         "description": "the number 3"
     }, 
+    "language_code": {
+        "message": "fi", 
+        "description": ""
+    }, 
     "second": {
         "message": "toinen", 
         "message-retranslated": "another", 
@@ -29,24 +43,40 @@
         "message-retranslated": "Warn", 
         "description": "warning label"
     }, 
+    "its_msg_31": {
+        "message": "TF2 reppu Viewer - Valinnat", 
+        "message-retranslated": "TF2 backpack Viewer - Options", 
+        "description": "options page title"
+    }, 
     "refresh_nochange": {
         "message": "Feed el\u00e4hdytt\u00e4\u00e4 - ei muutoksia", 
         "message-retranslated": "Feed refreshed - no change", 
         "description": "feed refreshed without changes"
     }, 
-    "language_code": {
-        "message": "fi", 
-        "description": ""
+    "extension_default_title": {
+        "message": "Katsele Team Fortress 2 reppu", 
+        "message-retranslated": "View Team Fortress 2 Backpack", 
+        "description": "Extension default title for browser action"
     }, 
     "its_msg_30": {
         "message": "on turkkilainen yhteis\u00f6", 
         "message-retranslated": "is the Turkish community,", 
         "description": "fragment"
     }, 
-    "extension_default_title": {
-        "message": "Katsele Team Fortress 2 reppu", 
-        "message-retranslated": "View Team Fortress 2 Backpack", 
-        "description": "Extension default title for browser action"
+    "parse_error": {
+        "message": "J\u00e4sennysvirhe", 
+        "message-retranslated": "Parse error", 
+        "description": "some kind of parse error"
+    }, 
+    "its_msg_32": {
+        "message": "Profiili ID", 
+        "message-retranslated": "Profile ID", 
+        "description": "profile id label"
+    }, 
+    "its_msg_33": {
+        "message": "Peruuta", 
+        "message-retranslated": "Cancel", 
+        "description": "cancel label, such as for a button"
     }, 
     "its_msg_16": {
         "message": "Tuntematon Items", 
@@ -73,10 +103,10 @@
         "message-retranslated": "Stats", 
         "description": "stats button"
     }, 
-    "its_msg_13": {
-        "message": "Yhteens\u00e4 Items", 
-        "message-retranslated": "Total Items", 
-        "description": "total item count stats title"
+    "other_error": {
+        "message": "Jotkut muu virhe", 
+        "message-retranslated": "Some other error", 
+        "description": "some other kind of error occurred."
     }, 
     "its_msg_10": {
         "message": "El\u00e4hdytt\u00e4\u00e4", 
@@ -97,6 +127,11 @@
         "message": "Profile Views", 
         "message-retranslated": "Profile Views", 
         "description": "count of profile views"
+    }, 
+    "request_aborted": {
+        "message": "Pyynt\u00f6keskeytetty by Timeout", 
+        "message-retranslated": "Request Aborted by Timeout", 
+        "description": "request aborted label"
     }, 
     "seconds": {
         "message": "sekunniksi", 
@@ -143,10 +178,10 @@
         "message-retranslated": "Character info for $1", 
         "description": "character info title"
     }, 
-    "its_msg_0": {
-        "message": "Team Fortress 2 reppu Access (uusi ja parempi)", 
-        "message-retranslated": "Team Fortress 2 backpack Access (new and better)", 
-        "description": "page title"
+    "network_error": {
+        "message": "Verkkovirhe", 
+        "message-retranslated": "Network error", 
+        "description": "some kind of network error"
     }, 
     "its_msg_1": {
         "message": "Profiili ID ei ole valittu!", 
@@ -167,6 +202,11 @@
         "message": "Bad Data Feed", 
         "message-retranslated": "Bad Data Feed", 
         "description": "bad data feed label"
+    }, 
+    "feed_url_error": {
+        "message": "O Feed URL", 
+        "message-retranslated": "O Feed URL", 
+        "description": "error because the feed url is empty"
     }, 
     "its_msg_29": {
         "message": "milloin", 
@@ -223,6 +263,11 @@
         "message-retranslated": "Refreshing", 
         "description": "refreshing text goes here"
     }, 
+    "level": {
+        "message": "Tason $1 $2", 
+        "message-retranslated": "Level $1 $2", 
+        "description": "level label"
+    }, 
     "extension_name": {
         "message": "Team Fortress 2 reppu Access", 
         "message-retranslated": "Team Fortress 2 backpack Access", 
@@ -237,5 +282,15 @@
         "message": "Virheest\u00e4", 
         "message-retranslated": "Error", 
         "description": "error label"
+    }, 
+    "its_msg_13": {
+        "message": "Yhteens\u00e4 Items", 
+        "message-retranslated": "Total Items", 
+        "description": "total item count stats title"
+    }, 
+    "its_msg_0": {
+        "message": "Team Fortress 2 reppu Access (uusi ja parempi)", 
+        "message-retranslated": "Team Fortress 2 backpack Access (new and better)", 
+        "description": "page title"
     }
 }

@@ -8,7 +8,7 @@
     }, 
     "132": {
         "alt": [
-            "This weapon has a large melee range.<BR>Gives increased speed and health with every head you take."
+            "This weapon has a large melee range.<br />Gives increased speed and health with every head you take."
         ], 
         "type": "Sword", 
         "negative": [
@@ -136,15 +136,15 @@
     }, 
     "122": {
         "type": "Cheat Detector", 
-        "description": "Your account has been flagged for circumventing the item distribution system. We have removed the items that were illegally obtained.<BR><BR>Future violations will result in the loss of all your items."
+        "description": "Your account has been flagged for circumventing the item distribution system. We have removed the items that were illegally obtained.<br /><br />Future violations will result in the loss of all your items."
     }, 
     "123": {
         "type": "Cheat Detector", 
-        "description": "Your account has been flagged for circumventing the item distribution system. We have removed all items in your inventory.<BR><BR>Future violations may result in your account being disabled."
+        "description": "Your account has been flagged for circumventing the item distribution system. We have removed all items in your inventory.<br /><br />Future violations may result in your account being disabled."
     }, 
     "124": {
         "type": "Cheat Detector", 
-        "description": "Congratulations! Your Honesty has been rewarded with a new hat!<BR><BR>(Some other players were less scrupulous, and have been less fortunate)"
+        "description": "Congratulations! Your Honesty has been rewarded with a new hat!<br /><br />(Some other players were less scrupulous, and have been less fortunate)"
     }, 
     "125": {
         "alt": [
@@ -195,7 +195,7 @@
     }, 
     "58": {
         "alt": [
-            "Coated enemies take mini-crits<BR>Also handy for putting out a fire"
+            "Coated enemies take mini-crits<br />Also handy for putting out a fire"
         ], 
         "type": "Jar Based Karate", 
         "description": "Jarate"

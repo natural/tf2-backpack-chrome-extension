@@ -1,0 +1,700 @@
+{
+    "133": {
+        "positive": [
+            "-75% spr\u00e4ngskada fr\u00e5n rakethopp"
+        ], 
+        "type": "St\u00f6vlar", 
+        "description": "Gunboats"
+    }, 
+    "132": {
+        "alt": [
+            "Det h\u00e4r vapnet har h\u00f6g r\u00e4ckvidd i n\u00e4rstrid.\nGer \u00f6kad hastighet och h\u00e4lsa f\u00f6r varje huvud du hugger av."
+        ], 
+        "type": "Sv\u00e4rd", 
+        "negative": [
+            "-25 maximal h\u00e4lsa f\u00f6r b\u00e4raren", 
+            "Inga slumpm\u00e4ssiga kritiska tr\u00e4ffar"
+        ], 
+        "description": "Eyelander"
+    }, 
+    "131": {
+        "positive": [
+            "+50% motst\u00e5nd mot eldskada f\u00f6r b\u00e4raren", 
+            "+50% motst\u00e5nd mot explosionsskador f\u00f6r b\u00e4raren"
+        ], 
+        "alt": [
+            "Alternativattack: F\u00e5 \u00f6kad attackstyrka genom att rusa mot dina fiender."
+        ], 
+        "type": "Sk\u00f6ld", 
+        "description": "Chargin' Targe"
+    }, 
+    "130": {
+        "positive": [
+            "+50% max alternativ ammo f\u00f6r b\u00e4raren", 
+            "+6 max r\u00f6rbomber ute", 
+            "Detonerar klisterbomber n\u00e4ra h\u00e5rkorset", 
+            "Kan f\u00f6rst\u00f6ra fiendens klisterbomber"
+        ], 
+        "type": "Klisterbombskastare", 
+        "negative": [
+            "0.4 sekund l\u00e4ngre bombarmeringstid"
+        ], 
+        "description": "Scottish Resistance"
+    }, 
+    "137": {
+        "type": "Hat", 
+        "description": "TF_NobleAmassment_Hat"
+    }, 
+    "136": {
+        "alt": [
+            "TF_PropagandaContest_SecondPlace_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_PropagandaContest_SecondPlace"
+    }, 
+    "135": {
+        "type": "Hat", 
+        "description": "TF_ToweringPillar_Hat"
+    }, 
+    "134": {
+        "alt": [
+            "TF_PropagandaContest_FirstPlace_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_PropagandaContest_FirstPlace"
+    }, 
+    "139": {
+        "type": "Hat", 
+        "description": "TF_ModestPile_Hat"
+    }, 
+    "138": {
+        "alt": [
+            "TF_PropagandaContest_ThirdPlace_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_PropagandaContest_ThirdPlace"
+    }, 
+    "24": {
+        "type": "Revolver", 
+        "description": "Revolver"
+    }, 
+    "25": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "26": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "27": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "20": {
+        "type": "Klisterbombskastare", 
+        "description": "Klisterbombskastare"
+    }, 
+    "21": {
+        "type": "Eldkastare", 
+        "description": "Eldkastare"
+    }, 
+    "22": {
+        "type": "Pistol", 
+        "description": "Pistol"
+    }, 
+    "23": {
+        "type": "Pistol", 
+        "description": "Pistol"
+    }, 
+    "28": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "29": {
+        "type": "H\u00e4lsovapen", 
+        "description": "H\u00e4lsovapen"
+    }, 
+    "0": {
+        "type": "Slagtr\u00e4", 
+        "description": "Slagtr\u00e4"
+    }, 
+    "4": {
+        "type": "Kniv", 
+        "description": "Kniv"
+    }, 
+    "8": {
+        "type": "Bens\u00e5g", 
+        "description": "Bens\u00e5g"
+    }, 
+    "120": {
+        "type": "Hat", 
+        "description": "Skottens cylinderhatt"
+    }, 
+    "121": {
+        "type": "Medalj", 
+        "description": "Gentlemannamedalj"
+    }, 
+    "122": {
+        "type": "Cheat Detector", 
+        "description": "Ditt konto har flaggats f\u00f6r att distributionssystemet f\u00f6r f\u00f6rem\u00e5l har \u00e5sidosatts. Vi har tagit bort de f\u00f6rem\u00e5l som inskaffats p\u00e5 otill\u00e5tet s\u00e4tt.\n\nSker fler \u00f6vertr\u00e4delser kommer du att f\u00f6rlora samtliga f\u00f6rem\u00e5l."
+    }, 
+    "123": {
+        "type": "Cheat Detector", 
+        "description": "Ditt konto har flaggats f\u00f6r att distributionssystemet f\u00f6r f\u00f6rem\u00e5l har \u00e5sidosatts. Vi har tagit bort alla f\u00f6rem\u00e5l i ditt f\u00f6rr\u00e5d.\n\nSker fler \u00f6vertr\u00e4delser kan vi avaktivera ditt konto."
+    }, 
+    "124": {
+        "type": "Cheat Detector", 
+        "description": "Grattis! Din \u00e4rlighet har bel\u00f6nats med en ny hatt!\n\n(Vissa andra var mindre nogr\u00e4knade och har blivit mindre lyckligt lottade)"
+    }, 
+    "125": {
+        "alt": [
+            "%s1% orsakad skada"
+        ], 
+        "type": "R\u00e4ttskaffens aura", 
+        "description": "Fuskarens klagan"
+    }, 
+    "126": {
+        "type": "Veteranbasker", 
+        "description": "Polishatt"
+    }, 
+    "127": {
+        "positive": [
+            "Mini-kritiska tr\u00e4ffar mot luftburna m\u00e5l", 
+            "+25% orsakad skada", 
+            "+80% projektilhastighet"
+        ], 
+        "type": "Raketgev\u00e4r", 
+        "negative": [
+            "-70% explosionsradie"
+        ], 
+        "description": "Direct Hit"
+    }, 
+    "128": {
+        "positive": [
+            "Skador och f\u00f6rflyttningshastighet \u00f6kar om anv\u00e4ndaren blir skadad"
+        ], 
+        "type": "Spetshacka", 
+        "description": "Equalizer"
+    }, 
+    "129": {
+        "type": "Stridsban\u00e9r", 
+        "description": "Buff Banner"
+    }, 
+    "59": {
+        "positive": [
+            "+80% hastighet f\u00f6r d\u00f6ljningsladdning"
+        ], 
+        "alt": [
+            "D\u00f6ljningstyp: Falsk d\u00f6d"
+        ], 
+        "type": "D\u00f6ljningsklocka", 
+        "negative": [
+            "+60% hastighet f\u00f6r d\u00f6ljningsminskning"
+        ], 
+        "description": "Dead Ringer"
+    }, 
+    "58": {
+        "alt": [
+            "Nedst\u00e4nkta fiender tar mini-kritiska tr\u00e4ffar\n\u00c4ven anv\u00e4ndbart till att sl\u00e4cka br\u00e4nder"
+        ], 
+        "type": "Karate i en burk", 
+        "description": "Jarate"
+    }, 
+    "55": {
+        "type": "Hat", 
+        "description": "Fl\u00e5dig filthatt"
+    }, 
+    "54": {
+        "type": "Hat", 
+        "description": "Soldatens g\u00f6mma"
+    }, 
+    "57": {
+        "positive": [
+            "Blockera ett f\u00f6rs\u00f6k till rygghugg"
+        ], 
+        "type": "Sk\u00f6ld", 
+        "description": "Razorback"
+    }, 
+    "56": {
+        "type": "B\u00e5ge", 
+        "description": "Huntsman"
+    }, 
+    "51": {
+        "type": "Hat", 
+        "description": "Pyros m\u00f6ssa"
+    }, 
+    "50": {
+        "type": "Hat", 
+        "description": "Preussisk pickelhaube"
+    }, 
+    "53": {
+        "type": "Hat", 
+        "description": "Trof\u00e9b\u00e4lte"
+    }, 
+    "52": {
+        "type": "Hat", 
+        "description": "Slagmanshj\u00e4lm"
+    }, 
+    "5010": {
+        "alt": [
+            "Anv\u00e4nds till att ange en klass i ritningar"
+        ], 
+        "type": "Skapandef\u00f6rem\u00e5l", 
+        "description": "Klasspollett - Spion"
+    }, 
+    "5011": {
+        "alt": [
+            "Anv\u00e4nds till att ange en klass i ritningar"
+        ], 
+        "type": "Skapandef\u00f6rem\u00e5l", 
+        "description": "Klasspollett - Tekniker"
+    }, 
+    "5012": {
+        "alt": [
+            "Anv\u00e4nds till att ange en utrustningsplats i ritningar"
+        ], 
+        "type": "Skapandef\u00f6rem\u00e5l", 
+        "description": "Platspollett - Huvudvapen"
+    }, 
+    "5013": {
+        "alt": [
+            "Anv\u00e4nds till att ange en utrustningsplats i ritningar"
+        ], 
+        "type": "Skapandef\u00f6rem\u00e5l", 
+        "description": "Platspollett - Alternativt vapen"
+    }, 
+    "5014": {
+        "alt": [
+            "Anv\u00e4nds till att ange en utrustningsplats i ritningar"
+        ], 
+        "type": "Skapandef\u00f6rem\u00e5l", 
+        "description": "Platspollett - N\u00e4rstridsvapen"
+    }, 
+    "5015": {
+        "alt": [
+            "Anv\u00e4nds till att ange en utrustningsplats i ritningar"
+        ], 
+        "type": "Skapandef\u00f6rem\u00e5l", 
+        "description": "Platspollett - Granat"
+    }, 
+    "5016": {
+        "alt": [
+            "Anv\u00e4nds till att ange en utrustningsplats i ritningar"
+        ], 
+        "type": "Skapandef\u00f6rem\u00e5l", 
+        "description": "Platspollett - Byggnad"
+    }, 
+    "5017": {
+        "alt": [
+            "Anv\u00e4nds till att ange en utrustningsplats i ritningar"
+        ], 
+        "type": "Skapandef\u00f6rem\u00e5l", 
+        "description": "Platspollett - PDA"
+    }, 
+    "5018": {
+        "alt": [
+            "Anv\u00e4nds till att ange en utrustningsplats i ritningar"
+        ], 
+        "type": "Skapandef\u00f6rem\u00e5l", 
+        "description": "Platspollett - PDA2"
+    }, 
+    "5019": {
+        "alt": [
+            "Anv\u00e4nds till att ange en utrustningsplats i ritningar"
+        ], 
+        "type": "Skapandef\u00f6rem\u00e5l", 
+        "description": "Platspollett - Huvud"
+    }, 
+    "115": {
+        "type": "S\u00e4songshatt", 
+        "description": "Aningen l\u00e4skig Halloween-mask"
+    }, 
+    "117": {
+        "type": "Hat", 
+        "description": "Ritzy Ricks h\u00e5rfixativ"
+    }, 
+    "116": {
+        "alt": [
+            "Med broderat monogram: \\\"Z.M.\\\""
+        ], 
+        "type": "Hat", 
+        "description": "Sp\u00f6klik stormhatt"
+    }, 
+    "111": {
+        "type": "Hat", 
+        "description": "Baseboll-Bills vaxade v\u00e5gor"
+    }, 
+    "110": {
+        "type": "Hat", 
+        "description": "M\u00e4starens gula b\u00e4lte"
+    }, 
+    "118": {
+        "type": "Hat", 
+        "description": "Texas Slims skallglans"
+    }, 
+    "3": {
+        "type": "Kukri-kniv", 
+        "description": "Kukri-kniv"
+    }, 
+    "7": {
+        "type": "Skiftnyckel", 
+        "description": "Skiftnyckel"
+    }, 
+    "other_attributes": {
+        "133": "Medal no. %s1", 
+        "132": "Given to valuable Community Contributors"
+    }, 
+    "5003": {
+        "alt": [
+            "Anv\u00e4nds till att ange en klass i ritningar"
+        ], 
+        "type": "Skapandef\u00f6rem\u00e5l", 
+        "description": "Klasspollett - Spanare"
+    }, 
+    "5002": {
+        "type": "Skapandef\u00f6rem\u00e5l", 
+        "description": "F\u00f6rfinad metall"
+    }, 
+    "5001": {
+        "type": "Skapandef\u00f6rem\u00e5l", 
+        "description": "\u00c5tervunnen metall"
+    }, 
+    "5000": {
+        "type": "Skapandef\u00f6rem\u00e5l", 
+        "description": "Metallskrot"
+    }, 
+    "5007": {
+        "alt": [
+            "Anv\u00e4nds till att ange en klass i ritningar"
+        ], 
+        "type": "Skapandef\u00f6rem\u00e5l", 
+        "description": "Klasspollett - Tung artillerist"
+    }, 
+    "5006": {
+        "alt": [
+            "Anv\u00e4nds till att ange en klass i ritningar"
+        ], 
+        "type": "Skapandef\u00f6rem\u00e5l", 
+        "description": "Klasspollett - Demoman"
+    }, 
+    "5005": {
+        "alt": [
+            "Anv\u00e4nds till att ange en klass i ritningar"
+        ], 
+        "type": "Skapandef\u00f6rem\u00e5l", 
+        "description": "Klasspollett - Soldat"
+    }, 
+    "5004": {
+        "alt": [
+            "Anv\u00e4nds till att ange en klass i ritningar"
+        ], 
+        "type": "Skapandef\u00f6rem\u00e5l", 
+        "description": "Klasspollett - Krypskytt"
+    }, 
+    "5009": {
+        "alt": [
+            "Anv\u00e4nds till att ange en klass i ritningar"
+        ], 
+        "type": "Skapandef\u00f6rem\u00e5l", 
+        "description": "Klasspollett - Pyro"
+    }, 
+    "5008": {
+        "alt": [
+            "Anv\u00e4nds till att ange en klass i ritningar"
+        ], 
+        "type": "Skapandef\u00f6rem\u00e5l", 
+        "description": "Klasspollett - Sjukv\u00e5rdare"
+    }, 
+    "108": {
+        "type": "Hat", 
+        "description": "Baktalarens kubb"
+    }, 
+    "109": {
+        "type": "Hat", 
+        "description": "Proffsets str\u00e5hatt"
+    }, 
+    "9003": {
+        "positive": [
+            "Bans Steam account of players killed", 
+            "This item is not real and is only a joke."
+        ], 
+        "type": "Mallet of Banishment", 
+        "description": "Ban Hammer"
+    }, 
+    "102": {
+        "type": "Hat", 
+        "description": "F\u00f6rl\u00f6jligande gummihandske"
+    }, 
+    "103": {
+        "type": "Hat", 
+        "description": "Kamerask\u00e4gg"
+    }, 
+    "100": {
+        "type": "Hat", 
+        "description": "Glengarry-basker"
+    }, 
+    "101": {
+        "type": "Hat", 
+        "description": "Gammal tyrolerhatt"
+    }, 
+    "106": {
+        "type": "Hat", 
+        "description": "Bonk-hj\u00e4lm"
+    }, 
+    "107": {
+        "type": "Hat", 
+        "description": "\u00c4ppelknyckarkeps"
+    }, 
+    "104": {
+        "type": "Hat", 
+        "description": "\u00d6ron-n\u00e4sa-hals-specialistens spegel"
+    }, 
+    "105": {
+        "type": "Hat", 
+        "description": "Brandmanshj\u00e4lm"
+    }, 
+    "39": {
+        "type": "Lysraketgev\u00e4r", 
+        "description": "Lysraketgev\u00e4r"
+    }, 
+    "38": {
+        "positive": [
+            "100\u00a0% kritiska tr\u00e4ffar mot brinnande spelare"
+        ], 
+        "type": "Brandyxa", 
+        "negative": [
+            "Inga kritiska tr\u00e4ffar mot spelare som inte brinner", 
+            "-50% skada mot spelare som inte brinner"
+        ], 
+        "description": "The Axtinguisher"
+    }, 
+    "33": {
+        "type": "Sprutgev\u00e4r", 
+        "description": "Sprutgev\u00e4r"
+    }, 
+    "32": {
+        "type": "Bens\u00e5g", 
+        "description": "Bens\u00e5g"
+    }, 
+    "31": {
+        "type": "Lysraketgev\u00e4r", 
+        "description": "Lysraketgev\u00e4r"
+    }, 
+    "30": {
+        "type": "D\u00f6ljningsklocka", 
+        "description": "D\u00f6ljningsklocka"
+    }, 
+    "37": {
+        "positive": [
+            "Vid tr\u00e4ff: 25% extra \u00f6verladdning"
+        ], 
+        "type": "Bens\u00e5g", 
+        "negative": [
+            "-20% l\u00e5ngsammare eldgivningshastighet"
+        ], 
+        "description": "Ubersaw"
+    }, 
+    "36": {
+        "positive": [
+            "Vid tr\u00e4ff: +3 h\u00e4lsa"
+        ], 
+        "type": "Sprutgev\u00e4r", 
+        "negative": [
+            "-2 h\u00e4lsa f\u00f6rbrukas per sekund f\u00f6r b\u00e4raren"
+        ], 
+        "description": "Blutsauger"
+    }, 
+    "35": {
+        "positive": [
+            "+25% \u00f6verladdningshastighet"
+        ], 
+        "alt": [
+            "\u00d6verladdning ger 100 % chans till kritisk tr\u00e4ff"
+        ], 
+        "type": "H\u00e4lsovapen", 
+        "description": "Kritzkrieg"
+    }, 
+    "34": {
+        "type": "H\u00e4lsovapen", 
+        "description": "H\u00e4lsovapen"
+    }, 
+    "60": {
+        "positive": [
+            "+100% hastighet f\u00f6r d\u00f6ljningsladdning"
+        ], 
+        "alt": [
+            "D\u00f6ljningstyp: R\u00f6relsek\u00e4nslig"
+        ], 
+        "type": "D\u00f6ljningsklocka", 
+        "description": "Cloak and Dagger"
+    }, 
+    "61": {
+        "positive": [
+            "Chans till kritisk tr\u00e4ff vid tr\u00e4ffande huvudskott"
+        ], 
+        "type": "Revolver", 
+        "negative": [
+            "-15% orsakad skada", 
+            "-20% l\u00e5ngsammare eldgivningshastighet"
+        ], 
+        "description": "Ambassador"
+    }, 
+    "2": {
+        "type": "Brandyxa", 
+        "description": "Brandyxa"
+    }, 
+    "6": {
+        "type": "Skyffel", 
+        "description": "Skyffel"
+    }, 
+    "99": {
+        "type": "Hat", 
+        "description": "Tyrannhj\u00e4lm"
+    }, 
+    "98": {
+        "type": "Hat", 
+        "description": "Rostfri kastrull"
+    }, 
+    "95": {
+        "type": "Hat", 
+        "description": "Engineer-keps"
+    }, 
+    "94": {
+        "type": "Hat", 
+        "description": "Texas cowboy"
+    }, 
+    "97": {
+        "type": "Hat", 
+        "description": "Tuffa toppluvan"
+    }, 
+    "96": {
+        "type": "Hat", 
+        "description": "Rysk officersm\u00f6ssa"
+    }, 
+    "11": {
+        "type": "Gev\u00e4r", 
+        "description": "Gev\u00e4r"
+    }, 
+    "10": {
+        "type": "Gev\u00e4r", 
+        "description": "Gev\u00e4r"
+    }, 
+    "13": {
+        "type": "Spr\u00e4ngvapen", 
+        "description": "Spr\u00e4ngvapen"
+    }, 
+    "12": {
+        "type": "Gev\u00e4r", 
+        "description": "Gev\u00e4r"
+    }, 
+    "15": {
+        "type": "Minivapen", 
+        "description": "Minivapen"
+    }, 
+    "14": {
+        "type": "Krypskyttegev\u00e4r", 
+        "description": "Krypskyttegev\u00e4r"
+    }, 
+    "17": {
+        "type": "Sprutgev\u00e4r", 
+        "description": "Sprutgev\u00e4r"
+    }, 
+    "16": {
+        "type": "K-PIST", 
+        "description": "K-PIST"
+    }, 
+    "19": {
+        "type": "Granatkastare", 
+        "description": "Granatkastare"
+    }, 
+    "18": {
+        "type": "Raketgev\u00e4r", 
+        "description": "Raketgev\u00e4r"
+    }, 
+    "48": {
+        "type": "Hat", 
+        "description": "Gruvlampa"
+    }, 
+    "49": {
+        "type": "Hat", 
+        "description": "Fotbollshj\u00e4lm"
+    }, 
+    "46": {
+        "type": "Lunchl\u00e5da", 
+        "description": "Bonk! Atomic Punch"
+    }, 
+    "47": {
+        "type": "Hat", 
+        "description": "Demomans afro"
+    }, 
+    "44": {
+        "positive": [
+            "Det h\u00e4r slagtr\u00e4et sl\u00e5r en elak bed\u00f6vningsboll"
+        ], 
+        "type": "Slagtr\u00e4", 
+        "negative": [
+            "-15 maximal h\u00e4lsa f\u00f6r b\u00e4raren"
+        ], 
+        "description": "Sandman"
+    }, 
+    "45": {
+        "positive": [
+            "Rekyl p\u00e5 m\u00e5ltavla och skytt", 
+            "+50% snabbare eldgivningshastighet", 
+            "+20% kulor per skott"
+        ], 
+        "type": "Spr\u00e4ngvapen", 
+        "negative": [
+            "-60% magasinstorlek", 
+            "-10% orsakad skada"
+        ], 
+        "description": "Force-A-Nature"
+    }, 
+    "42": {
+        "type": "Lunchl\u00e5da", 
+        "description": "Sandvich"
+    }, 
+    "43": {
+        "positive": [
+            "Vid d\u00f6dande tr\u00e4ff: 5 sekunder med 100 % chans till kritisk tr\u00e4ff"
+        ], 
+        "type": "Knytn\u00e4var", 
+        "negative": [
+            "-20% l\u00e5ngsammare eldgivningshastighet"
+        ], 
+        "description": "K.G.B, the Killing Gloves of Boxing"
+    }, 
+    "40": {
+        "positive": [
+            "100\u00a0% kritiska tr\u00e4ffar bakifr\u00e5n"
+        ], 
+        "type": "Eldkastare", 
+        "negative": [
+            "Inga slumpm\u00e4ssiga kritiska tr\u00e4ffar", 
+            "Ingen komprimerad luftstr\u00f6m"
+        ], 
+        "description": "Backburner"
+    }, 
+    "41": {
+        "positive": [
+            "Vid tr\u00e4ff: 100% chans att sakta ned m\u00e5ltavlan"
+        ], 
+        "type": "Minivapen", 
+        "negative": [
+            "-25% orsakad skada"
+        ], 
+        "description": "Natascha"
+    }, 
+    "1": {
+        "type": "Flaska", 
+        "description": "Flaska"
+    }, 
+    "5": {
+        "type": "Knytn\u00e4var", 
+        "description": "Knytn\u00e4var"
+    }, 
+    "9": {
+        "type": "Gev\u00e4r", 
+        "description": "Gev\u00e4r"
+    }
+}

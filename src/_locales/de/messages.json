@@ -4,6 +4,16 @@
         "message-retranslated": "4", 
         "description": "the number 4"
     }, 
+    "no_change": {
+        "message": "Keine \u00c4nderung", 
+        "message-retranslated": "No change", 
+        "description": "nothing changed, but have a label!"
+    }, 
+    "profile_found": {
+        "message": "Mit Steam ID $1 f\u00fcr $2.", 
+        "message-retranslated": "With 1 for Steam ID $$2", 
+        "description": "steam id found in search"
+    }, 
     "num1": {
         "message": "1", 
         "message-retranslated": "1", 
@@ -19,6 +29,10 @@
         "message-retranslated": "3", 
         "description": "the number 3"
     }, 
+    "language_code": {
+        "message": "de", 
+        "description": ""
+    }, 
     "second": {
         "message": "Sekunden", 
         "message-retranslated": "Seconds", 
@@ -29,24 +43,40 @@
         "message-retranslated": "Warning", 
         "description": "warning label"
     }, 
+    "its_msg_31": {
+        "message": "TF2 Rucksack Viewer - Optionen", 
+        "message-retranslated": "TF2 backpack viewer - Options", 
+        "description": "options page title"
+    }, 
     "refresh_nochange": {
         "message": "Feed zuletzt aktualisiert - Keine \u00c4nderungen", 
         "message-retranslated": "Feed last updated - No changes", 
         "description": "feed refreshed without changes"
     }, 
-    "language_code": {
-        "message": "de", 
-        "description": ""
+    "extension_default_title": {
+        "message": "Zeigen Sie Ihre Team Fortress 2 Backpack", 
+        "message-retranslated": "Show your Team Fortress 2 Backpack", 
+        "description": "Extension default title for browser action"
     }, 
     "its_msg_30": {
         "message": "an der Steam Community", 
         "message-retranslated": "at the Steam Community", 
         "description": "fragment"
     }, 
-    "extension_default_title": {
-        "message": "Zeigen Sie Ihre Team Fortress 2 Backpack", 
-        "message-retranslated": "Show your Team Fortress 2 Backpack", 
-        "description": "Extension default title for browser action"
+    "parse_error": {
+        "message": "Parse Error", 
+        "message-retranslated": "Parse Error", 
+        "description": "some kind of parse error"
+    }, 
+    "its_msg_32": {
+        "message": "Profil ID", 
+        "message-retranslated": "Profile ID", 
+        "description": "profile id label"
+    }, 
+    "its_msg_33": {
+        "message": "Abbrechen", 
+        "message-retranslated": "Cancel", 
+        "description": "cancel label, such as for a button"
     }, 
     "its_msg_16": {
         "message": "Unbekannt Artikel", 
@@ -73,10 +103,10 @@
         "message-retranslated": "Stats", 
         "description": "stats button"
     }, 
-    "its_msg_13": {
-        "message": "Artikel insgesamt", 
-        "message-retranslated": "Total Items", 
-        "description": "total item count stats title"
+    "other_error": {
+        "message": "Einige andere Fehler", 
+        "message-retranslated": "Some other bugs", 
+        "description": "some other kind of error occurred."
     }, 
     "its_msg_10": {
         "message": "Aktualisieren", 
@@ -97,6 +127,11 @@
         "message": "Profile Views", 
         "message-retranslated": "Profile Views", 
         "description": "count of profile views"
+    }, 
+    "request_aborted": {
+        "message": "Request Aborted durch Timeout", 
+        "message-retranslated": "Request Aborted by timeout", 
+        "description": "request aborted label"
     }, 
     "seconds": {
         "message": "Sekunden", 
@@ -143,10 +178,10 @@
         "message-retranslated": "Character Info for $1", 
         "description": "character info title"
     }, 
-    "its_msg_0": {
-        "message": "Team Fortress 2 Rucksack Access (New and Improved)", 
-        "message-retranslated": "Team Fortress 2 backpack Access (New and Improved)", 
-        "description": "page title"
+    "network_error": {
+        "message": "Netzwerk-Fehler", 
+        "message-retranslated": "Network troubleshooting", 
+        "description": "some kind of network error"
     }, 
     "its_msg_1": {
         "message": "Profil ID Not Set!", 
@@ -167,6 +202,11 @@
         "message": "Bad Data Feed", 
         "message-retranslated": "Bad Data Feed", 
         "description": "bad data feed label"
+    }, 
+    "feed_url_error": {
+        "message": "Keine Feed-URL", 
+        "message-retranslated": "No Feed URL", 
+        "description": "error because the feed url is empty"
     }, 
     "its_msg_29": {
         "message": "bei", 
@@ -223,6 +263,11 @@
         "message-retranslated": "Refreshing", 
         "description": "refreshing text goes here"
     }, 
+    "level": {
+        "message": "Level 1 $$2", 
+        "message-retranslated": "Level 1 $$2", 
+        "description": "level label"
+    }, 
     "extension_name": {
         "message": "Team Fortress 2 Rucksack Access", 
         "message-retranslated": "Team Fortress 2 backpack Access", 
@@ -237,5 +282,15 @@
         "message": "Fehler", 
         "message-retranslated": "Mistake", 
         "description": "error label"
+    }, 
+    "its_msg_13": {
+        "message": "Artikel insgesamt", 
+        "message-retranslated": "Total Items", 
+        "description": "total item count stats title"
+    }, 
+    "its_msg_0": {
+        "message": "Team Fortress 2 Rucksack Access (New and Improved)", 
+        "message-retranslated": "Team Fortress 2 backpack Access (New and Improved)", 
+        "description": "page title"
     }
 }

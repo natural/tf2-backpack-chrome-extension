@@ -1,0 +1,700 @@
+{
+    "133": {
+        "positive": [
+            "-75% eksplosionsskade fra rakethop"
+        ], 
+        "type": "St\u00f8vler", 
+        "description": "Raketst\u00f8vlerne"
+    }, 
+    "132": {
+        "alt": [
+            "Dette v\u00e5ben har en stor n\u00e6rkampsr\u00e6kkevidde.\nHastighed og helbred for\u00f8ges for hvert hoved du h\u00f8ster."
+        ], 
+        "type": "Sv\u00e6rd", 
+        "negative": [
+            "-25 maks. helbred for b\u00e6rer", 
+            "Ingen tilf\u00e6ldig kritisk skade"
+        ], 
+        "description": "Eyelanderen"
+    }, 
+    "131": {
+        "positive": [
+            "+50% modstandsdygtighed mod flammekaster for b\u00e6reren", 
+            "+50% modstandsdygtighed mod eksplosioner for b\u00e6reren"
+        ], 
+        "alt": [
+            "Sekund\u00e6r funktion: For\u00f8g din angrebsstyrke ved at foretage et angrebsl\u00f8b hen imod dine fjender."
+        ], 
+        "type": "Skjold", 
+        "description": "Angrebsskjoldet"
+    }, 
+    "130": {
+        "positive": [
+            "+50% maks. sekund\u00e6r ammunition for b\u00e6reren", 
+            "+6 maks. r\u00f8rbomber lagt ud", 
+            "Detonerer kl\u00e6bebomber t\u00e6t p\u00e5 tr\u00e5dkorset", 
+            "Kan destruere fjendens kl\u00e6bebomber"
+        ], 
+        "type": "Kl\u00e6bebombekaster", 
+        "negative": [
+            "0.4 sek. langsommere bombearmeringstid"
+        ], 
+        "description": "Scottish Resistance"
+    }, 
+    "137": {
+        "type": "Hat", 
+        "description": "TF_NobleAmassment_Hat"
+    }, 
+    "136": {
+        "alt": [
+            "TF_PropagandaContest_SecondPlace_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_PropagandaContest_SecondPlace"
+    }, 
+    "135": {
+        "type": "Hat", 
+        "description": "TF_ToweringPillar_Hat"
+    }, 
+    "134": {
+        "alt": [
+            "TF_PropagandaContest_FirstPlace_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_PropagandaContest_FirstPlace"
+    }, 
+    "139": {
+        "type": "Hat", 
+        "description": "TF_ModestPile_Hat"
+    }, 
+    "138": {
+        "alt": [
+            "TF_PropagandaContest_ThirdPlace_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_PropagandaContest_ThirdPlace"
+    }, 
+    "24": {
+        "type": "Revolver", 
+        "description": "Revolver"
+    }, 
+    "25": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "26": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "27": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "20": {
+        "type": "Kl\u00e6bebombekaster", 
+        "description": "Kl\u00e6bebombekaster"
+    }, 
+    "21": {
+        "type": "Flammekaster", 
+        "description": "Flammekaster"
+    }, 
+    "22": {
+        "type": "Pistol", 
+        "description": "Pistol"
+    }, 
+    "23": {
+        "type": "Pistol", 
+        "description": "Pistol"
+    }, 
+    "28": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "29": {
+        "type": "Medi-gev\u00e6r", 
+        "description": "Medi-gev\u00e6r"
+    }, 
+    "0": {
+        "type": "Bat", 
+        "description": "Bat"
+    }, 
+    "4": {
+        "type": "Kniv", 
+        "description": "Kniv"
+    }, 
+    "8": {
+        "type": "Knoglesav", 
+        "description": "Knoglesav"
+    }, 
+    "120": {
+        "type": "Hat", 
+        "description": "Skotsk skorstensr\u00f8r"
+    }, 
+    "121": {
+        "type": "Medalje", 
+        "description": "GentleManne's tjenestemedalje"
+    }, 
+    "122": {
+        "type": "Cheat Detector", 
+        "description": "Din konto er blevet noteret for omg\u00e5else af systemet for distribuering af genstande. Vi har fjernet de genstande, der blev anskaffet p\u00e5 ulovlig vis.\n\nFremtidige overtr\u00e6delser vil medf\u00f8re tab af alle dine genstande."
+    }, 
+    "123": {
+        "type": "Cheat Detector", 
+        "description": "Din konto er blevet noteret for omg\u00e5else af systemet for distribuering af genstande. Vi har fjernet alle genstande i din beholdning.\n\nFremtidige overtr\u00e6delser kan medf\u00f8re deaktivering af din konto."
+    }, 
+    "124": {
+        "type": "Cheat Detector", 
+        "description": "Tillykke! Din \u00e6rlighed er blevet bel\u00f8nnet med en ny hat!\n\n(Visse andre spillere havde ikke samme skrupler og har v\u00e6ret mindre heldige)"
+    }, 
+    "125": {
+        "alt": [
+            "%s1% for\u00e5rsaget skade"
+        ], 
+        "type": "Aura af ubestikkelighed", 
+        "description": "Snyderens klagesang"
+    }, 
+    "126": {
+        "type": "Soldaterhue", 
+        "description": "Bills hat"
+    }, 
+    "127": {
+        "positive": [
+            "Sm\u00e5skader p\u00e5 luftb\u00e5rne m\u00e5l", 
+            "+25% for\u00e5rsaget skade", 
+            "+80% projektilhastighed"
+        ], 
+        "type": "Raketstyr", 
+        "negative": [
+            "-70% eksplosionsradius"
+        ], 
+        "description": "Fuldtr\u00e6fferen"
+    }, 
+    "128": {
+        "positive": [
+            "Skade og bev\u00e6gelseshastighed \u00f8ges, n\u00e5r brugeren bliver skadet"
+        ], 
+        "type": "Hakke", 
+        "description": "Equalizeren"
+    }, 
+    "129": {
+        "type": "Kampbanner", 
+        "description": "Booster-banneret"
+    }, 
+    "59": {
+        "positive": [
+            "+80% regenereringshastighed for forkl\u00e6dning"
+        ], 
+        "alt": [
+            "Forkl\u00e6dningstype: spil d\u00f8d"
+        ], 
+        "type": "Usynlighedsur", 
+        "negative": [
+            "+60% aftapningshastighed for forkl\u00e6dning"
+        ], 
+        "description": "Dead Ringer-spionur"
+    }, 
+    "58": {
+        "alt": [
+            "Ramte fjender f\u00e5r sm\u00e5skader\nKan ogs\u00e5 anvendes til at slukke en ildebrand med"
+        ], 
+        "type": "Krukkebaseret karate", 
+        "description": "Jarate"
+    }, 
+    "55": {
+        "type": "Hat", 
+        "description": "Filthat"
+    }, 
+    "54": {
+        "type": "Hat", 
+        "description": "Soldatergemmested"
+    }, 
+    "57": {
+        "positive": [
+            "Blokerer et enkelt rygstikkerfors\u00f8g"
+        ], 
+        "type": "Skjold", 
+        "description": "Razorback-skjold"
+    }, 
+    "56": {
+        "type": "Bue", 
+        "description": "Bue og pil"
+    }, 
+    "51": {
+        "type": "Hat", 
+        "description": "Pyro-hue"
+    }, 
+    "50": {
+        "type": "Hat", 
+        "description": "Preussisk pikkelhjelm"
+    }, 
+    "53": {
+        "type": "Hat", 
+        "description": "Trof\u00e6b\u00e6lte"
+    }, 
+    "52": {
+        "type": "Hat", 
+        "description": "Batter-hjelm"
+    }, 
+    "5010": {
+        "alt": [
+            "Anvendes til at angive en klasse i planer"
+        ], 
+        "type": "Smedegenstand", 
+        "description": "Klasse-emblem - Spy"
+    }, 
+    "5011": {
+        "alt": [
+            "Anvendes til at angive en klasse i planer"
+        ], 
+        "type": "Smedegenstand", 
+        "description": "Klasse-emblem - Engineer"
+    }, 
+    "5012": {
+        "alt": [
+            "Anvendes til at angive en udstyrsposition i planer"
+        ], 
+        "type": "Smedegenstand", 
+        "description": "Position-emblem - Prim\u00e6r"
+    }, 
+    "5013": {
+        "alt": [
+            "Anvendes til at angive en udstyrsposition i planer"
+        ], 
+        "type": "Smedegenstand", 
+        "description": "Position-emblem - Sekund\u00e6r"
+    }, 
+    "5014": {
+        "alt": [
+            "Anvendes til at angive en udstyrsposition i planer"
+        ], 
+        "type": "Smedegenstand", 
+        "description": "Position-emblem - N\u00e6rkamp"
+    }, 
+    "5015": {
+        "alt": [
+            "Anvendes til at angive en udstyrsposition i planer"
+        ], 
+        "type": "Smedegenstand", 
+        "description": "Position-emblem - Granat"
+    }, 
+    "5016": {
+        "alt": [
+            "Anvendes til at angive en udstyrsposition i planer"
+        ], 
+        "type": "Smedegenstand", 
+        "description": "Position-emblem - Bygning"
+    }, 
+    "5017": {
+        "alt": [
+            "Anvendes til at angive en udstyrsposition i planer"
+        ], 
+        "type": "Smedegenstand", 
+        "description": "Position-emblem - PDA"
+    }, 
+    "5018": {
+        "alt": [
+            "Anvendes til at angive en udstyrsposition i planer"
+        ], 
+        "type": "Smedegenstand", 
+        "description": "Position-emblem - PDA2"
+    }, 
+    "5019": {
+        "alt": [
+            "Anvendes til at angive en udstyrsposition i planer"
+        ], 
+        "type": "Smedegenstand", 
+        "description": "Position-emblem - Hoved"
+    }, 
+    "115": {
+        "type": "Helligdagshat", 
+        "description": "Lettere foruroligende halloween-maske"
+    }, 
+    "117": {
+        "type": "Hat", 
+        "description": "Ritzy Ricks h\u00e5rplejemiddel"
+    }, 
+    "116": {
+        "alt": [
+            "Broderede initialer: 'Z.M.'"
+        ], 
+        "type": "Hat", 
+        "description": "H\u00f8j sp\u00f8gelseshat"
+    }, 
+    "111": {
+        "type": "Hat", 
+        "description": "Baseball Bills h\u00e5rgel\u00e9"
+    }, 
+    "110": {
+        "type": "Hat", 
+        "description": "Mesterens gule b\u00e6lte"
+    }, 
+    "118": {
+        "type": "Hat", 
+        "description": "Texas Slims polervoks"
+    }, 
+    "3": {
+        "type": "Kukri", 
+        "description": "Kukri"
+    }, 
+    "7": {
+        "type": "Svenskn\u00f8gle", 
+        "description": "Svenskn\u00f8gle"
+    }, 
+    "other_attributes": {
+        "133": "Medal no. %s1", 
+        "132": "Given to valuable Community Contributors"
+    }, 
+    "5003": {
+        "alt": [
+            "Anvendes til at angive en klasse i planer"
+        ], 
+        "type": "Smedegenstand", 
+        "description": "Klasse-emblem - Scout"
+    }, 
+    "5002": {
+        "type": "Smedegenstand", 
+        "description": "For\u00e6dlet metal"
+    }, 
+    "5001": {
+        "type": "Smedegenstand", 
+        "description": "Genvundet metal"
+    }, 
+    "5000": {
+        "type": "Smedegenstand", 
+        "description": "Metalskrot"
+    }, 
+    "5007": {
+        "alt": [
+            "Anvendes til at angive en klasse i planer"
+        ], 
+        "type": "Smedegenstand", 
+        "description": "Klasse-emblem - Heavy"
+    }, 
+    "5006": {
+        "alt": [
+            "Anvendes til at angive en klasse i planer"
+        ], 
+        "type": "Smedegenstand", 
+        "description": "Klasse-emblem - Demoman"
+    }, 
+    "5005": {
+        "alt": [
+            "Anvendes til at angive en klasse i planer"
+        ], 
+        "type": "Smedegenstand", 
+        "description": "Klasse-emblem - Soldier"
+    }, 
+    "5004": {
+        "alt": [
+            "Anvendes til at angive en klasse i planer"
+        ], 
+        "type": "Smedegenstand", 
+        "description": "Klasse-emblem - Sniper"
+    }, 
+    "5009": {
+        "alt": [
+            "Anvendes til at angive en klasse i planer"
+        ], 
+        "type": "Smedegenstand", 
+        "description": "Klasse-emblem - Pyro"
+    }, 
+    "5008": {
+        "alt": [
+            "Anvendes til at angive en klasse i planer"
+        ], 
+        "type": "Smedegenstand", 
+        "description": "Klasse-emblem - Medic"
+    }, 
+    "108": {
+        "type": "Hat", 
+        "description": "Bowler"
+    }, 
+    "109": {
+        "type": "Hat", 
+        "description": "Str\u00e5hat"
+    }, 
+    "9003": {
+        "positive": [
+            "Bans Steam account of players killed", 
+            "This item is not real and is only a joke."
+        ], 
+        "type": "Mallet of Banishment", 
+        "description": "Ban Hammer"
+    }, 
+    "102": {
+        "type": "Hat", 
+        "description": "Fjollet gummihandske"
+    }, 
+    "103": {
+        "type": "Hat", 
+        "description": "Kamerask\u00e6g"
+    }, 
+    "100": {
+        "type": "Hat", 
+        "description": "Skottehue"
+    }, 
+    "101": {
+        "type": "Hat", 
+        "description": "Gammel tyrolerhat"
+    }, 
+    "106": {
+        "type": "Hat", 
+        "description": "\u00d8lhjelm"
+    }, 
+    "107": {
+        "type": "Hat", 
+        "description": "Sixpence"
+    }, 
+    "104": {
+        "type": "Hat", 
+        "description": "Pandespejl"
+    }, 
+    "105": {
+        "type": "Hat", 
+        "description": "Brandmandshjelm"
+    }, 
+    "39": {
+        "type": "Signalpistol", 
+        "description": "Signalpistolen"
+    }, 
+    "38": {
+        "positive": [
+            "100% chance for kritisk skade mod br\u00e6ndende spillere"
+        ], 
+        "type": "\u00d8kse", 
+        "negative": [
+            "Ingen kritisk skade mod ikke-br\u00e6ndende spillere", 
+            "-50% skade mod ikke-br\u00e6ndende spillere"
+        ], 
+        "description": "Axtinguisher"
+    }, 
+    "33": {
+        "type": "Spr\u00f8jtepistol", 
+        "description": "Spr\u00f8jtepistol"
+    }, 
+    "32": {
+        "type": "Knoglesav", 
+        "description": "Knoglesav"
+    }, 
+    "31": {
+        "type": "Signalpistol", 
+        "description": "Signalpistol"
+    }, 
+    "30": {
+        "type": "Usynlighedsur", 
+        "description": "Usynlighedsur"
+    }, 
+    "37": {
+        "positive": [
+            "Ved tr\u00e6ffer: 25% \u00dcberCharge tilf\u00f8jet"
+        ], 
+        "type": "Knoglesav", 
+        "negative": [
+            "-20% langsommere affyringshastighed"
+        ], 
+        "description": "Ubersaw"
+    }, 
+    "36": {
+        "positive": [
+            "Ved tr\u00e6ffer: +3 helbred"
+        ], 
+        "type": "Spr\u00f8jtepistol", 
+        "negative": [
+            "-2 helbred tappet pr. sekund for b\u00e6reren"
+        ], 
+        "description": "Blutsauger"
+    }, 
+    "35": {
+        "positive": [
+            "+25% \u00dcberCharge-hastighed"
+        ], 
+        "alt": [
+            "\u00dcberCharge giver 100% chance for kritisk skade"
+        ], 
+        "type": "Medi-gev\u00e6r", 
+        "description": "Kritzkrieg"
+    }, 
+    "34": {
+        "type": "Medi-gev\u00e6r", 
+        "description": "Medi-gev\u00e6r"
+    }, 
+    "60": {
+        "positive": [
+            "+100% regenereringshastighed for forkl\u00e6dning"
+        ], 
+        "alt": [
+            "Forkl\u00e6dningstype: bev\u00e6gelsesf\u00f8lsom"
+        ], 
+        "type": "Usynlighedsur", 
+        "description": "Cloak and Dagger-spionur"
+    }, 
+    "61": {
+        "positive": [
+            "Kritisk skade ved et n\u00f8jagtigt hovedskud"
+        ], 
+        "type": "Revolver", 
+        "negative": [
+            "-15% for\u00e5rsaget skade", 
+            "-20% langsommere affyringshastighed"
+        ], 
+        "description": "Ambassador-revolver"
+    }, 
+    "2": {
+        "type": "\u00d8kse", 
+        "description": "\u00d8kse"
+    }, 
+    "6": {
+        "type": "Skovl", 
+        "description": "Skovl"
+    }, 
+    "99": {
+        "type": "Hat", 
+        "description": "Vikingehjelm"
+    }, 
+    "98": {
+        "type": "Hat", 
+        "description": "Rustfri gryde"
+    }, 
+    "95": {
+        "type": "Hat", 
+        "description": "Lokomotivf\u00f8rerkasket"
+    }, 
+    "94": {
+        "type": "Hat", 
+        "description": "Cowboyhat"
+    }, 
+    "97": {
+        "type": "Hat", 
+        "description": "Smart fyrs skihue"
+    }, 
+    "96": {
+        "type": "Hat", 
+        "description": "Officers pelshue"
+    }, 
+    "11": {
+        "type": "Haglgev\u00e6r", 
+        "description": "Haglgev\u00e6r"
+    }, 
+    "10": {
+        "type": "Haglgev\u00e6r", 
+        "description": "Haglgev\u00e6r"
+    }, 
+    "13": {
+        "type": "Scattergev\u00e6r", 
+        "description": "Scattergev\u00e6r"
+    }, 
+    "12": {
+        "type": "Haglgev\u00e6r", 
+        "description": "Haglgev\u00e6r"
+    }, 
+    "15": {
+        "type": "Minikanon", 
+        "description": "Minikanon"
+    }, 
+    "14": {
+        "type": "Snigskytteriffel", 
+        "description": "Snigskytteriffel"
+    }, 
+    "17": {
+        "type": "Spr\u00f8jtepistol", 
+        "description": "Spr\u00f8jtepistol"
+    }, 
+    "16": {
+        "type": "Maskinpistol", 
+        "description": "Maskinpistol"
+    }, 
+    "19": {
+        "type": "Granatkaster", 
+        "description": "Granatkaster"
+    }, 
+    "18": {
+        "type": "Raketstyr", 
+        "description": "Raketstyr"
+    }, 
+    "48": {
+        "type": "Hat", 
+        "description": "Pandelampe"
+    }, 
+    "49": {
+        "type": "Hat", 
+        "description": "Football-hjelm"
+    }, 
+    "46": {
+        "type": "Madkasse", 
+        "description": "Bonk! Atom-cocktail"
+    }, 
+    "47": {
+        "type": "Hat", 
+        "description": "Demoman-frisure"
+    }, 
+    "44": {
+        "positive": [
+            "Dette bat sl\u00e5r en h\u00e5rd bold"
+        ], 
+        "type": "Bat", 
+        "negative": [
+            "-15 maks. helbred for b\u00e6rer"
+        ], 
+        "description": "Ole luk\u00f8je"
+    }, 
+    "45": {
+        "positive": [
+            "Tilbageslag p\u00e5 m\u00e5let og skytten", 
+            "+50% hurtigere affyringshastighed", 
+            "+20% kugler pr. skud"
+        ], 
+        "type": "Scattergev\u00e6r", 
+        "negative": [
+            "-60% magasinst\u00f8rrelse", 
+            "-10% for\u00e5rsaget skade"
+        ], 
+        "description": "Naturkraften"
+    }, 
+    "42": {
+        "type": "Madkasse", 
+        "description": "Sandvichen"
+    }, 
+    "43": {
+        "positive": [
+            "Ved drab: 100% chance for kritisk skade i 5 sekunder"
+        ], 
+        "type": "N\u00e6ver", 
+        "negative": [
+            "-20% langsommere affyringshastighed"
+        ], 
+        "description": "De d\u00f8delige boksehandsker"
+    }, 
+    "40": {
+        "positive": [
+            "100% chance for kritisk skade bagfra"
+        ], 
+        "type": "Flammekaster", 
+        "negative": [
+            "Ingen tilf\u00e6ldig kritisk skade", 
+            "Ingen trykluft"
+        ], 
+        "description": "Efterbr\u00e6nderen"
+    }, 
+    "41": {
+        "positive": [
+            "Ved tr\u00e6ffer: 100% chance for at neds\u00e6tte m\u00e5lets hastighed"
+        ], 
+        "type": "Minikanon", 
+        "negative": [
+            "-25% for\u00e5rsaget skade"
+        ], 
+        "description": "Natascha"
+    }, 
+    "1": {
+        "type": "Flaske", 
+        "description": "Flaske"
+    }, 
+    "5": {
+        "type": "N\u00e6ver", 
+        "description": "N\u00e6ver"
+    }, 
+    "9": {
+        "type": "Haglgev\u00e6r", 
+        "description": "Haglgev\u00e6r"
+    }
+}

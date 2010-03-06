@@ -198,7 +198,7 @@ border-bottom:0.125em solid #c8bba2;
 
 
 #character {
-background-image:url('../images/header_bg.png');
+background-image:url('../media/header_bg.png');
 background-repeat:repeat-x;
 line-height:200%;
 }
@@ -335,14 +335,7 @@ margin:1em auto 1em auto;
 float:left;
 }
 
-#controls hr {
-background-image:url("../images/dotted_line.png");
-border:none;
-height:16px;
-margin:0.5em auto 0.5em auto;
-}
-
-
+// what?
 #refresh a:hover {
 border-bottom:0.125em solid #c8bba2;
 }

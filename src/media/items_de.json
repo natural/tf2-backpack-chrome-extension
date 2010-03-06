@@ -1,0 +1,700 @@
+{
+    "133": {
+        "positive": [
+            "-75% Explosionsschaden durch Raketenspr\u00fcnge"
+        ], 
+        "type": "Stiefel", 
+        "description": "Die Raketenstiefel"
+    }, 
+    "132": {
+        "alt": [
+            "Diese Waffe hat eine weite Nahkampfreichweite.\nVerleiht erh\u00f6hte Geschwindigkeit und Gesundheit bei jedem Kill."
+        ], 
+        "type": "Schwert", 
+        "negative": [
+            "-25\u00a0max. Gesundheit f\u00fcr Tr\u00e4ger", 
+            "Keine zuf\u00e4lligen kritischen Treffer"
+        ], 
+        "description": "Der Eil\u00e4nder"
+    }, 
+    "131": {
+        "positive": [
+            "+50%\u00a0Widerstand gegen\u00fcber Feuer f\u00fcr Tr\u00e4ger", 
+            "+50%\u00a0Widerstand gegen\u00fcber Explosionen f\u00fcr Tr\u00e4ger"
+        ], 
+        "alt": [
+            "Alt-Feuer: Erhalten Sie erh\u00f6hte Angriffskraft durch Sturmangriff auf Feinde."
+        ], 
+        "type": "Schild", 
+        "description": "Der Angriffsschild"
+    }, 
+    "130": {
+        "positive": [
+            "+50%\u00a0max. Sekund\u00e4rmunition f\u00fcr Tr\u00e4ger", 
+            "+6\u00a0max. Rohrbomben auf einmal", 
+            "Detoniert Haftbomben in der N\u00e4he des Fadenkreuzes", 
+            "Zerst\u00f6rung gegnerischer Haftbomben m\u00f6glich"
+        ], 
+        "type": "Haftbombenwerfer", 
+        "negative": [
+            "0.4\u00a0Sek. l\u00e4ngere Detonationsdauer"
+        ], 
+        "description": "Der Schottische Widerstand"
+    }, 
+    "137": {
+        "type": "Hat", 
+        "description": "TF_NobleAmassment_Hat"
+    }, 
+    "136": {
+        "alt": [
+            "TF_PropagandaContest_SecondPlace_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_PropagandaContest_SecondPlace"
+    }, 
+    "135": {
+        "type": "Hat", 
+        "description": "TF_ToweringPillar_Hat"
+    }, 
+    "134": {
+        "alt": [
+            "TF_PropagandaContest_FirstPlace_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_PropagandaContest_FirstPlace"
+    }, 
+    "139": {
+        "type": "Hat", 
+        "description": "TF_ModestPile_Hat"
+    }, 
+    "138": {
+        "alt": [
+            "TF_PropagandaContest_ThirdPlace_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_PropagandaContest_ThirdPlace"
+    }, 
+    "24": {
+        "type": "Revolver", 
+        "description": "Revolver"
+    }, 
+    "25": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "26": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "27": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "20": {
+        "type": "Haftbombenwerfer", 
+        "description": "Haftbombenwerfer"
+    }, 
+    "21": {
+        "type": "Flammenwerfer", 
+        "description": "Flammenwerfer"
+    }, 
+    "22": {
+        "type": "Pistole", 
+        "description": "Pistole"
+    }, 
+    "23": {
+        "type": "Pistole", 
+        "description": "Pistole"
+    }, 
+    "28": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "29": {
+        "type": "Medigun", 
+        "description": "Medigun"
+    }, 
+    "0": {
+        "type": "Keule", 
+        "description": "Keule"
+    }, 
+    "4": {
+        "type": "Messer", 
+        "description": "Messer"
+    }, 
+    "8": {
+        "type": "Knochens\u00e4ge", 
+        "description": "Knochens\u00e4ge"
+    }, 
+    "120": {
+        "type": "Hat", 
+        "description": "Schottenzylinder"
+    }, 
+    "121": {
+        "type": "Medaille", 
+        "description": "Verdienstmedaille"
+    }, 
+    "122": {
+        "type": "Cheat Detector", 
+        "description": "Es wurde festgestellt, dass \u00fcber Ihren Account das Objekt-Verteilungssystem umgangen wurde. Wir haben die Objekte entfernt, die Sie illegal erlangt haben.\n\nBei weiteren Verst\u00f6\u00dfen verlieren Sie all Ihre bisherigen Objekte."
+    }, 
+    "123": {
+        "type": "Cheat Detector", 
+        "description": "Es wurde festgestellt, dass \u00fcber Ihren Account das Objekt-Verteilungssystem umgangen wurde. Wir haben alle Objekte in Ihrem Inventar entfernt.\n\nBei weiteren Verst\u00f6\u00dfen wird Ihr Account unter Umst\u00e4nden deaktiviert."
+    }, 
+    "124": {
+        "type": "Cheat Detector", 
+        "description": "Herzlichen Gl\u00fcckwunsch! Ihre Ehrlichkeit wurde mit einem neuen Hut belohnt!\n\n(Einige Spieler hatten weniger Skrupel\u00a0\u2013 und weniger Gl\u00fcck!)"
+    }, 
+    "125": {
+        "alt": [
+            "%s1%\u00a0zugef\u00fcgter Schaden"
+        ], 
+        "type": "Unbestechlichkeitsnimbus", 
+        "description": "Heiligenschein"
+    }, 
+    "126": {
+        "type": "Veteranenbarett", 
+        "description": "Bills Hut"
+    }, 
+    "127": {
+        "positive": [
+            "Kleine kritische Treffer bei Treffer in der Luft", 
+            "+25%\u00a0zugef\u00fcgter Schaden", 
+            "+80%\u00a0Projektilgeschwindigkeit"
+        ], 
+        "type": "Raketenwerfer", 
+        "negative": [
+            "-70%\u00a0Explosionsradius"
+        ], 
+        "description": "Der Direktschlag"
+    }, 
+    "128": {
+        "positive": [
+            "Bei Verletzungen erh\u00f6hen sich der Schaden und die Bewegungsgeschwindigkeit des Tr\u00e4gers"
+        ], 
+        "type": "Spitzhacke", 
+        "description": "Der Equalizer"
+    }, 
+    "129": {
+        "type": "Schlachtbanner", 
+        "description": "Das Buff-Banner"
+    }, 
+    "59": {
+        "positive": [
+            "Tarnregenerationsrate: +80%"
+        ], 
+        "alt": [
+            "Tarnungsart: Tod vort\u00e4uschen"
+        ], 
+        "type": "Unsichtbarkeitsuhr", 
+        "negative": [
+            "Tarnverlustrate: +60%"
+        ], 
+        "description": "Die Dead Ringer"
+    }, 
+    "58": {
+        "alt": [
+            "Getroffene Gegner erleiden kleine kritische Treffer\nAuch zum Feuerl\u00f6schen geeignet"
+        ], 
+        "type": "Pulleralarm", 
+        "description": "Wurfglas"
+    }, 
+    "55": {
+        "type": "Hat", 
+        "description": "Flotter Filzhut"
+    }, 
+    "54": {
+        "type": "Hat", 
+        "description": "Soldatenfreuden"
+    }, 
+    "57": {
+        "positive": [
+            "Verhindert einen Messerstich in den R\u00fccken"
+        ], 
+        "type": "Schild", 
+        "description": "Der Razorback"
+    }, 
+    "56": {
+        "type": "Bogen", 
+        "description": "Der Huntsman"
+    }, 
+    "51": {
+        "type": "Hat", 
+        "description": "Propellerm\u00fctzchen"
+    }, 
+    "50": {
+        "type": "Hat", 
+        "description": "Preu\u00dfische Pickelhaube"
+    }, 
+    "53": {
+        "type": "Hat", 
+        "description": "Troph\u00e4enband"
+    }, 
+    "52": {
+        "type": "Hat", 
+        "description": "Baseballhelm"
+    }, 
+    "5010": {
+        "alt": [
+            "Zur Angabe einer Klasse in Blaupausen"
+        ], 
+        "type": "Gegenstand herstellen", 
+        "description": "Klassen-Token\u00a0\u2013 Spion"
+    }, 
+    "5011": {
+        "alt": [
+            "Zur Angabe einer Klasse in Blaupausen"
+        ], 
+        "type": "Gegenstand herstellen", 
+        "description": "Klassen-Token\u00a0\u2013 Engineer"
+    }, 
+    "5012": {
+        "alt": [
+            "Zur Angabe eines Ausr\u00fcstungsslot in Blaupausen"
+        ], 
+        "type": "Gegenstand herstellen", 
+        "description": "Slot-Token\u00a0\u2013 Prim\u00e4r"
+    }, 
+    "5013": {
+        "alt": [
+            "Zur Angabe eines Ausr\u00fcstungsslot in Blaupausen"
+        ], 
+        "type": "Gegenstand herstellen", 
+        "description": "Slot-Token\u00a0\u2013 Sekund\u00e4r"
+    }, 
+    "5014": {
+        "alt": [
+            "Zur Angabe eines Ausr\u00fcstungsslot in Blaupausen"
+        ], 
+        "type": "Gegenstand herstellen", 
+        "description": "Slot-Token\u00a0\u2013 Nahkampf"
+    }, 
+    "5015": {
+        "alt": [
+            "Zur Angabe eines Ausr\u00fcstungsslot in Blaupausen"
+        ], 
+        "type": "Gegenstand herstellen", 
+        "description": "Slot-Token\u00a0\u2013 Granate"
+    }, 
+    "5016": {
+        "alt": [
+            "Zur Angabe eines Ausr\u00fcstungsslot in Blaupausen"
+        ], 
+        "type": "Gegenstand herstellen", 
+        "description": "Slot-Token\u00a0\u2013 Geb\u00e4ude"
+    }, 
+    "5017": {
+        "alt": [
+            "Zur Angabe eines Ausr\u00fcstungsslot in Blaupausen"
+        ], 
+        "type": "Gegenstand herstellen", 
+        "description": "Slot-Token\u00a0\u2013 PDA"
+    }, 
+    "5018": {
+        "alt": [
+            "Zur Angabe eines Ausr\u00fcstungsslot in Blaupausen"
+        ], 
+        "type": "Gegenstand herstellen", 
+        "description": "Slot-Token\u00a0\u2013 PDA2"
+    }, 
+    "5019": {
+        "alt": [
+            "Zur Angabe eines Ausr\u00fcstungsslot in Blaupausen"
+        ], 
+        "type": "Gegenstand herstellen", 
+        "description": "Slot-Token\u00a0\u2013 Kopf"
+    }, 
+    "115": {
+        "type": "Feiertagshut", 
+        "description": "Halloweenmaske der anderen Art"
+    }, 
+    "117": {
+        "type": "Hat", 
+        "description": "Ritzy Rick's Haargel"
+    }, 
+    "116": {
+        "alt": [
+            "Gestickte Initialen 'Z. M.'"
+        ], 
+        "type": "Hat", 
+        "description": "Gammeliger Klappzylinder"
+    }, 
+    "111": {
+        "type": "Hat", 
+        "description": "Baseball Bill's Sportwachs"
+    }, 
+    "110": {
+        "type": "Hat", 
+        "description": "Gelbes Meisterband"
+    }, 
+    "118": {
+        "type": "Hat", 
+        "description": "Texas Slim's Plattenschmiere"
+    }, 
+    "3": {
+        "type": "Kukri", 
+        "description": "Kukri"
+    }, 
+    "7": {
+        "type": "Schraubenschl\u00fcssel", 
+        "description": "Schraubenschl\u00fcssel"
+    }, 
+    "other_attributes": {
+        "133": "Medal no. %s1", 
+        "132": "Given to valuable Community Contributors"
+    }, 
+    "5003": {
+        "alt": [
+            "Zur Angabe einer Klasse in Blaupausen"
+        ], 
+        "type": "Gegenstand herstellen", 
+        "description": "Klassen-Token\u00a0\u2013 Scout"
+    }, 
+    "5002": {
+        "type": "Gegenstand herstellen", 
+        "description": "Veredeltes Metall"
+    }, 
+    "5001": {
+        "type": "Gegenstand herstellen", 
+        "description": "Altmetall"
+    }, 
+    "5000": {
+        "type": "Gegenstand herstellen", 
+        "description": "Restmetall"
+    }, 
+    "5007": {
+        "alt": [
+            "Zur Angabe einer Klasse in Blaupausen"
+        ], 
+        "type": "Gegenstand herstellen", 
+        "description": "Klassen-Token\u00a0\u2013 Heavy"
+    }, 
+    "5006": {
+        "alt": [
+            "Zur Angabe einer Klasse in Blaupausen"
+        ], 
+        "type": "Gegenstand herstellen", 
+        "description": "Klassen-Token\u00a0\u2013 Demoman"
+    }, 
+    "5005": {
+        "alt": [
+            "Zur Angabe einer Klasse in Blaupausen"
+        ], 
+        "type": "Gegenstand herstellen", 
+        "description": "Klassen-Token\u00a0\u2013 Soldier"
+    }, 
+    "5004": {
+        "alt": [
+            "Zur Angabe einer Klasse in Blaupausen"
+        ], 
+        "type": "Gegenstand herstellen", 
+        "description": "Klassen-Token\u00a0\u2013 Sniper"
+    }, 
+    "5009": {
+        "alt": [
+            "Zur Angabe einer Klasse in Blaupausen"
+        ], 
+        "type": "Gegenstand herstellen", 
+        "description": "Klassen-Token\u00a0\u2013 Pyro"
+    }, 
+    "5008": {
+        "alt": [
+            "Zur Angabe einer Klasse in Blaupausen"
+        ], 
+        "type": "Gegenstand herstellen", 
+        "description": "Klassen-Token\u00a0\u2013 Medic"
+    }, 
+    "108": {
+        "type": "Hat", 
+        "description": "Verr\u00e4ter-Melone"
+    }, 
+    "109": {
+        "type": "Hat", 
+        "description": "Panamahut"
+    }, 
+    "9003": {
+        "positive": [
+            "Bans Steam account of players killed", 
+            "This item is not real and is only a joke."
+        ], 
+        "type": "Mallet of Banishment", 
+        "description": "Ban Hammer"
+    }, 
+    "102": {
+        "type": "Hat", 
+        "description": "Gummihandschuh"
+    }, 
+    "103": {
+        "type": "Hat", 
+        "description": "Kamerabart"
+    }, 
+    "100": {
+        "type": "Hat", 
+        "description": "Hochlandm\u00fctze"
+    }, 
+    "101": {
+        "type": "Hat", 
+        "description": "Tirolerhut"
+    }, 
+    "106": {
+        "type": "Hat", 
+        "description": "Bonk! Helm"
+    }, 
+    "107": {
+        "type": "Hat", 
+        "description": "Ballonm\u00fctze"
+    }, 
+    "104": {
+        "type": "Hat", 
+        "description": "HNO-Stirnspiegel"
+    }, 
+    "105": {
+        "type": "Hat", 
+        "description": "Feuerwehrhelm"
+    }, 
+    "39": {
+        "type": "Signalpistole", 
+        "description": "Signalpistole"
+    }, 
+    "38": {
+        "positive": [
+            "Immer kritische Treffer bei brennenden Spielern"
+        ], 
+        "type": "Feueraxt", 
+        "negative": [
+            "Keine kritischen Treffer bei nicht brennenden Spielern", 
+            "-50%\u00a0Schaden bei nicht brennenden Spielern"
+        ], 
+        "description": "Axtinator"
+    }, 
+    "33": {
+        "type": "Spritzen-MG", 
+        "description": "Spritzen-MG"
+    }, 
+    "32": {
+        "type": "Knochens\u00e4ge", 
+        "description": "Knochens\u00e4ge"
+    }, 
+    "31": {
+        "type": "Signalpistole", 
+        "description": "Signalpistole"
+    }, 
+    "30": {
+        "type": "Unsichtbarkeitsuhr", 
+        "description": "Unsichtbarkeitsuhr"
+    }, 
+    "37": {
+        "positive": [
+            "Bei Treffer: 25%\u00a0\u00dcberladung hinzu"
+        ], 
+        "type": "Knochens\u00e4ge", 
+        "negative": [
+            "-20%\u00a0niedrigere Schussfrequenz"
+        ], 
+        "description": "\u00dcbers\u00e4ge"
+    }, 
+    "36": {
+        "positive": [
+            "Bei Treffer: +3\u00a0Heilung"
+        ], 
+        "type": "Spritzen-MG", 
+        "negative": [
+            "-2\u00a0Gesundheitsverlust pro Sekunde f\u00fcr Tr\u00e4ger"
+        ], 
+        "description": "Blutsauger"
+    }, 
+    "35": {
+        "positive": [
+            "+25%\u00a0\u00dcberladungsrate"
+        ], 
+        "alt": [
+            "Immer kritische Treffer bei \u00dcberladung"
+        ], 
+        "type": "Medigun", 
+        "description": "Kritiker"
+    }, 
+    "34": {
+        "type": "Medigun", 
+        "description": "Medigun"
+    }, 
+    "60": {
+        "positive": [
+            "Tarnregenerationsrate: +100%"
+        ], 
+        "alt": [
+            "Tarnungsart: Bewegungsempfindlich"
+        ], 
+        "type": "Unsichtbarkeitsuhr", 
+        "description": "Die Cloak and Dagger"
+    }, 
+    "61": {
+        "positive": [
+            "Kritische Treffer bei genauem Kopfschuss"
+        ], 
+        "type": "Revolver", 
+        "negative": [
+            "-15%\u00a0zugef\u00fcgter Schaden", 
+            "-20%\u00a0niedrigere Schussfrequenz"
+        ], 
+        "description": "Der Ambassador"
+    }, 
+    "2": {
+        "type": "Feueraxt", 
+        "description": "Feueraxt"
+    }, 
+    "6": {
+        "type": "Schaufel", 
+        "description": "Schaufel"
+    }, 
+    "99": {
+        "type": "Hat", 
+        "description": "Wikingerhelm"
+    }, 
+    "98": {
+        "type": "Hat", 
+        "description": "Edelstahltopf"
+    }, 
+    "95": {
+        "type": "Hat", 
+        "description": "Lokf\u00fchrer-Kappe"
+    }, 
+    "94": {
+        "type": "Hat", 
+        "description": "Cowboyhut"
+    }, 
+    "97": {
+        "type": "Hat", 
+        "description": "Hardcore-Pudelm\u00fctze"
+    }, 
+    "96": {
+        "type": "Hat", 
+        "description": "Offizier-Uschanka"
+    }, 
+    "11": {
+        "type": "Schrotflinte", 
+        "description": "Schrotflinte"
+    }, 
+    "10": {
+        "type": "Schrotflinte", 
+        "description": "Schrotflinte"
+    }, 
+    "13": {
+        "type": "Schrotflinte", 
+        "description": "Schrotflinte"
+    }, 
+    "12": {
+        "type": "Schrotflinte", 
+        "description": "Schrotflinte"
+    }, 
+    "15": {
+        "type": "Minigun", 
+        "description": "Minigun"
+    }, 
+    "14": {
+        "type": "Sniper-Gewehr", 
+        "description": "Sniper-Gewehr"
+    }, 
+    "17": {
+        "type": "Spritzen-MG", 
+        "description": "Spritzen-MG"
+    }, 
+    "16": {
+        "type": "SMG", 
+        "description": "SMG"
+    }, 
+    "19": {
+        "type": "Granatenwerfer", 
+        "description": "Granatenwerfer"
+    }, 
+    "18": {
+        "type": "Raketenwerfer", 
+        "description": "Raketenwerfer"
+    }, 
+    "48": {
+        "type": "Hat", 
+        "description": "Minenhelm"
+    }, 
+    "49": {
+        "type": "Hat", 
+        "description": "Footballhelm"
+    }, 
+    "46": {
+        "type": "Proviant", 
+        "description": "Bonk! Energydrink"
+    }, 
+    "47": {
+        "type": "Hat", 
+        "description": "Schottenafro"
+    }, 
+    "44": {
+        "positive": [
+            "Mit dieser Keule verteilen Sie fiese Bet\u00e4ubungsb\u00e4lle."
+        ], 
+        "type": "Keule", 
+        "negative": [
+            "-15\u00a0max. Gesundheit f\u00fcr Tr\u00e4ger"
+        ], 
+        "description": "Sandman"
+    }, 
+    "45": {
+        "positive": [
+            "Druckwelle zum Ziel und zum Sch\u00fctzen", 
+            "+50%\u00a0h\u00f6here Schussfrequenz", 
+            "+20% Kugeln pro Schuss"
+        ], 
+        "type": "Schrotflinte", 
+        "negative": [
+            "-60%\u00a0Clipgr\u00f6\u00dfe", 
+            "-10%\u00a0zugef\u00fcgter Schaden"
+        ], 
+        "description": "Force-A-Nature"
+    }, 
+    "42": {
+        "type": "Proviant", 
+        "description": "Sandvich"
+    }, 
+    "43": {
+        "positive": [
+            "Beim T\u00f6ten: 100\u00a0% Chance auf kritische Treffer f\u00fcr 5\u00a0Sekunden"
+        ], 
+        "type": "F\u00e4uste", 
+        "negative": [
+            "-20%\u00a0niedrigere Schussfrequenz"
+        ], 
+        "description": "Killer-Boxhandschuhe"
+    }, 
+    "40": {
+        "positive": [
+            "Immer kritische Treffer aus dem Hinterhalt"
+        ], 
+        "type": "Flammenwerfer", 
+        "negative": [
+            "Keine zuf\u00e4lligen kritischen Treffer", 
+            "Kein Kompressionsdruck"
+        ], 
+        "description": "R\u00fcckenschmorer"
+    }, 
+    "41": {
+        "positive": [
+            "Bei Treffer: 100%\u00a0Chance, Ziel zu verlangsamen"
+        ], 
+        "type": "Minigun", 
+        "negative": [
+            "-25%\u00a0zugef\u00fcgter Schaden"
+        ], 
+        "description": "Natascha"
+    }, 
+    "1": {
+        "type": "Flasche", 
+        "description": "Flasche"
+    }, 
+    "5": {
+        "type": "F\u00e4uste", 
+        "description": "F\u00e4uste"
+    }, 
+    "9": {
+        "type": "Schrotflinte", 
+        "description": "Schrotflinte"
+    }
+}

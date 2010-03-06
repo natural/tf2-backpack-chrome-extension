@@ -4,6 +4,16 @@
         "message-retranslated": "4", 
         "description": "the number 4"
     }, 
+    "no_change": {
+        "message": "Geen verandering", 
+        "message-retranslated": "No change", 
+        "description": "nothing changed, but have a label!"
+    }, 
+    "profile_found": {
+        "message": "Met behulp van stoom ID $1 voor $2.", 
+        "message-retranslated": "Using Steam ID $$2 for 1.", 
+        "description": "steam id found in search"
+    }, 
     "num1": {
         "message": "1", 
         "message-retranslated": "1", 
@@ -19,6 +29,10 @@
         "message-retranslated": "3", 
         "description": "the number 3"
     }, 
+    "language_code": {
+        "message": "nl", 
+        "description": ""
+    }, 
     "second": {
         "message": "seconden", 
         "message-retranslated": "seconds", 
@@ -29,24 +43,40 @@
         "message-retranslated": "Warning", 
         "description": "warning label"
     }, 
+    "its_msg_31": {
+        "message": "TF2 Backpack Viewer - Opties", 
+        "message-retranslated": "TF2 Backpack Viewer - Options", 
+        "description": "options page title"
+    }, 
     "refresh_nochange": {
         "message": "Feed Vernieuwd - geen wijzigingen", 
         "message-retranslated": "Feed Refreshed - no changes", 
         "description": "feed refreshed without changes"
     }, 
-    "language_code": {
-        "message": "nl", 
-        "description": ""
+    "extension_default_title": {
+        "message": "Bekijk je Team Fortress 2 Backpack", 
+        "message-retranslated": "See you Team Fortress 2 Backpack", 
+        "description": "Extension default title for browser action"
     }, 
     "its_msg_30": {
         "message": "op de Steam Community", 
         "message-retranslated": "on the Steam Community", 
         "description": "fragment"
     }, 
-    "extension_default_title": {
-        "message": "Bekijk je Team Fortress 2 Backpack", 
-        "message-retranslated": "See you Team Fortress 2 Backpack", 
-        "description": "Extension default title for browser action"
+    "parse_error": {
+        "message": "Ontleedfout", 
+        "message-retranslated": "Decompose error", 
+        "description": "some kind of parse error"
+    }, 
+    "its_msg_32": {
+        "message": "Profiel ID", 
+        "message-retranslated": "Profile ID", 
+        "description": "profile id label"
+    }, 
+    "its_msg_33": {
+        "message": "Annuleren", 
+        "message-retranslated": "Cancel", 
+        "description": "cancel label, such as for a button"
     }, 
     "its_msg_16": {
         "message": "Onbekend Items", 
@@ -73,10 +103,10 @@
         "message-retranslated": "Stats", 
         "description": "stats button"
     }, 
-    "its_msg_13": {
-        "message": "Totaal Items", 
-        "message-retranslated": "Total Items", 
-        "description": "total item count stats title"
+    "other_error": {
+        "message": "Andere fout", 
+        "message-retranslated": "Other error", 
+        "description": "some other kind of error occurred."
     }, 
     "its_msg_10": {
         "message": "Vernieuwen", 
@@ -97,6 +127,11 @@
         "message": "Profielweergaven", 
         "message-retranslated": "Profile Views", 
         "description": "count of profile views"
+    }, 
+    "request_aborted": {
+        "message": "Verzoek Aborted door Time-out", 
+        "message-retranslated": "Request Aborted by Time-Out", 
+        "description": "request aborted label"
     }, 
     "seconds": {
         "message": "seconden", 
@@ -143,10 +178,10 @@
         "message-retranslated": "Character Info for 1 $", 
         "description": "character info title"
     }, 
-    "its_msg_0": {
-        "message": "Team Fortress 2 Backpack Access (nieuwe en betere)", 
-        "message-retranslated": "Team Fortress 2 Access Backpack (new and improved)", 
-        "description": "page title"
+    "network_error": {
+        "message": "Network Error", 
+        "message-retranslated": "Network Error", 
+        "description": "some kind of network error"
     }, 
     "its_msg_1": {
         "message": "Profiel ID Not Set!", 
@@ -167,6 +202,11 @@
         "message": "Onjuiste gegevens Feed", 
         "message-retranslated": "Bad Data Feed", 
         "description": "bad data feed label"
+    }, 
+    "feed_url_error": {
+        "message": "No Feed URL", 
+        "message-retranslated": "No Feed URL", 
+        "description": "error because the feed url is empty"
     }, 
     "its_msg_29": {
         "message": "op", 
@@ -223,6 +263,11 @@
         "message-retranslated": "Refreshing", 
         "description": "refreshing text goes here"
     }, 
+    "level": {
+        "message": "Niveau $1 $2", 
+        "message-retranslated": "Level 1 $$2", 
+        "description": "level label"
+    }, 
     "extension_name": {
         "message": "Team Fortress 2 Backpack Access", 
         "message-retranslated": "Team Fortress 2 Access Backpack", 
@@ -237,5 +282,15 @@
         "message": "Fout", 
         "message-retranslated": "Mistake", 
         "description": "error label"
+    }, 
+    "its_msg_13": {
+        "message": "Totaal Items", 
+        "message-retranslated": "Total Items", 
+        "description": "total item count stats title"
+    }, 
+    "its_msg_0": {
+        "message": "Team Fortress 2 Backpack Access (nieuwe en betere)", 
+        "message-retranslated": "Team Fortress 2 Access Backpack (new and improved)", 
+        "description": "page title"
     }
 }

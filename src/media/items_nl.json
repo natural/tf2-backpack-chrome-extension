@@ -1,0 +1,700 @@
+{
+    "133": {
+        "positive": [
+            "-75% ontploffingschade van raketsprongen"
+        ], 
+        "type": "Laarzen", 
+        "description": "De Wapenboten"
+    }, 
+    "132": {
+        "alt": [
+            "Dit wapen heeft een groot slagbereik.\nZorgt voor een hogere snelheid en gezondheid bij elk leven dat je neemt."
+        ], 
+        "type": "Zwaard", 
+        "negative": [
+            "-25 maximale gezondheid voor drager", 
+            "Geen willekeurige voltreffers"
+        ], 
+        "description": "De Eyelander"
+    }, 
+    "131": {
+        "positive": [
+            "+50% bestendigheid tegen vuurschade voor de drager", 
+            "+50% bestendigheid tegen explosieschade voor de drager"
+        ], 
+        "alt": [
+            "Alt-Fire: verhoogt de aanvalskracht door je vijanden van voren aan te vallen."
+        ], 
+        "type": "Schild", 
+        "description": "De Chargin' Targe"
+    }, 
+    "130": {
+        "positive": [
+            "+50% max. secundaire munitie voor de drager", 
+            "+6 max. pijpbommen", 
+            "Laat kleefbommen vlak bij het richtmerk ontploffen", 
+            "Kan kleefbommen van de vijand vernietigen"
+        ], 
+        "type": "Kleefbommenwerper", 
+        "negative": [
+            "0.4 sec langere bombewapeningstijd"
+        ], 
+        "description": "De Scottish Resistance"
+    }, 
+    "137": {
+        "type": "Hat", 
+        "description": "TF_NobleAmassment_Hat"
+    }, 
+    "136": {
+        "alt": [
+            "TF_PropagandaContest_SecondPlace_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_PropagandaContest_SecondPlace"
+    }, 
+    "135": {
+        "type": "Hat", 
+        "description": "TF_ToweringPillar_Hat"
+    }, 
+    "134": {
+        "alt": [
+            "TF_PropagandaContest_FirstPlace_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_PropagandaContest_FirstPlace"
+    }, 
+    "139": {
+        "type": "Hat", 
+        "description": "TF_ModestPile_Hat"
+    }, 
+    "138": {
+        "alt": [
+            "TF_PropagandaContest_ThirdPlace_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_PropagandaContest_ThirdPlace"
+    }, 
+    "24": {
+        "type": "Revolver", 
+        "description": "Revolver"
+    }, 
+    "25": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "26": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "27": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "20": {
+        "type": "Kleefbommenwerper", 
+        "description": "Kleefbommenwerper"
+    }, 
+    "21": {
+        "type": "Vlammenwerper", 
+        "description": "Vlammenwerper"
+    }, 
+    "22": {
+        "type": "Pistool", 
+        "description": "Pistool"
+    }, 
+    "23": {
+        "type": "Pistool", 
+        "description": "Pistool"
+    }, 
+    "28": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "29": {
+        "type": "Medigun", 
+        "description": "Medigun"
+    }, 
+    "0": {
+        "type": "Knuppel", 
+        "description": "Knuppel"
+    }, 
+    "4": {
+        "type": "Mes", 
+        "description": "Mes"
+    }, 
+    "8": {
+        "type": "Bottenzaag", 
+        "description": "Bottenzaag"
+    }, 
+    "120": {
+        "type": "Hat", 
+        "description": "Hoge hoed"
+    }, 
+    "121": {
+        "type": "Medaille", 
+        "description": "Medaille voor bewezen diensten"
+    }, 
+    "122": {
+        "type": "Cheat Detector", 
+        "description": "Er is gesignaleerd dat met jouw account het distributiesysteem voor items is omzeild. We hebben de items die illegaal zijn verkregen, verwijderd.\n\nBij verdere overtredingen verlies je al je items."
+    }, 
+    "123": {
+        "type": "Cheat Detector", 
+        "description": "Er is gesignaleerd dat met jouw account het distributiesysteem voor items is omzeild. We hebben alle items uit je voorraad verwijderd.\n\nBij verdere overtredingen wordt je account mogelijk geblokkeerd."
+    }, 
+    "124": {
+        "type": "Cheat Detector", 
+        "description": "Gefeliciteerd! Jouw eerlijkheid is beloond met een nieuw hoofddeksel!\n\n(Een aantal andere spelers was minder gewetensvol en minder fortuinlijk)"
+    }, 
+    "125": {
+        "alt": [
+            "Toegebrachte schade %s1%"
+        ], 
+        "type": "Integriteitsaureool", 
+        "description": "Aureool"
+    }, 
+    "126": {
+        "type": "Veteranenbaret", 
+        "description": "Bill's pet"
+    }, 
+    "127": {
+        "positive": [
+            "Mini-crits bij luchtdoelen", 
+            "Toegebrachte schade +25%", 
+            "+80% projectielsnelheid"
+        ], 
+        "type": "Raketwerper", 
+        "negative": [
+            "-70% explosiebereik"
+        ], 
+        "description": "De Voltreffer"
+    }, 
+    "128": {
+        "positive": [
+            "Schade en bewegingssnelheid nemen toe naarmate wanneer de gebruiker gewond raakt"
+        ], 
+        "type": "Pikhouweel", 
+        "description": "De Equalizer"
+    }, 
+    "129": {
+        "type": "Strijdvaandel", 
+        "description": "De Buffbanner"
+    }, 
+    "59": {
+        "positive": [
+            "+80% herstelsnelheid vermomming"
+        ], 
+        "alt": [
+            "Soort vermomming: dood houden"
+        ], 
+        "type": "Onzichtbaarheidshorloge", 
+        "negative": [
+            "+60% vervalsnelheid vermomming"
+        ], 
+        "description": "De Dead Ringer"
+    }, 
+    "58": {
+        "alt": [
+            "Uitgeruste vijanden krijgen mini-crits\nOok handig om vuur te doven"
+        ], 
+        "type": "Jarate", 
+        "description": "Jarate"
+    }, 
+    "55": {
+        "type": "Hat", 
+        "description": "Gleufhoed"
+    }, 
+    "54": {
+        "type": "Hat", 
+        "description": "Voorraad soldaat"
+    }, 
+    "57": {
+        "positive": [
+            "Blokkeert \u00e9\u00e9n ruggesteek"
+        ], 
+        "type": "Schild", 
+        "description": "Het rugschild"
+    }, 
+    "56": {
+        "type": "Boog", 
+        "description": "De Huntsman"
+    }, 
+    "51": {
+        "type": "Hat", 
+        "description": "Pyro's petje"
+    }, 
+    "50": {
+        "type": "Hat", 
+        "description": "Pruisische helm"
+    }, 
+    "53": {
+        "type": "Hat", 
+        "description": "Trofee\u00ebnriem"
+    }, 
+    "52": {
+        "type": "Hat", 
+        "description": "Slagmanhelm"
+    }, 
+    "5010": {
+        "alt": [
+            "Wordt gebruikt om een klasse van blauwdrukken te specificeren"
+        ], 
+        "type": "Item ontwerpen", 
+        "description": "Klasseteken - Spy"
+    }, 
+    "5011": {
+        "alt": [
+            "Wordt gebruikt om een klasse van blauwdrukken te specificeren"
+        ], 
+        "type": "Item ontwerpen", 
+        "description": "Klasseteken - Engineer"
+    }, 
+    "5012": {
+        "alt": [
+            "Wordt gebruikt om een uitrustingspositie van blauwdrukken te specificeren"
+        ], 
+        "type": "Item ontwerpen", 
+        "description": "Positieteken - Primair"
+    }, 
+    "5013": {
+        "alt": [
+            "Wordt gebruikt om een uitrustingspositie van blauwdrukken te specificeren"
+        ], 
+        "type": "Item ontwerpen", 
+        "description": "Positieteken - Secundair"
+    }, 
+    "5014": {
+        "alt": [
+            "Wordt gebruikt om een uitrustingspositie van blauwdrukken te specificeren"
+        ], 
+        "type": "Item ontwerpen", 
+        "description": "Positieteken - Slagwapen"
+    }, 
+    "5015": {
+        "alt": [
+            "Wordt gebruikt om een uitrustingspositie van blauwdrukken te specificeren"
+        ], 
+        "type": "Item ontwerpen", 
+        "description": "Positieteken - Granaat"
+    }, 
+    "5016": {
+        "alt": [
+            "Wordt gebruikt om een uitrustingspositie van blauwdrukken te specificeren"
+        ], 
+        "type": "Item ontwerpen", 
+        "description": "Positieteken - Gebouw"
+    }, 
+    "5017": {
+        "alt": [
+            "Wordt gebruikt om een uitrustingspositie van blauwdrukken te specificeren"
+        ], 
+        "type": "Item ontwerpen", 
+        "description": "Positieteken - PDA"
+    }, 
+    "5018": {
+        "alt": [
+            "Wordt gebruikt om een uitrustingspositie van blauwdrukken te specificeren"
+        ], 
+        "type": "Item ontwerpen", 
+        "description": "Positieteken - PDA2"
+    }, 
+    "5019": {
+        "alt": [
+            "Wordt gebruikt om een uitrustingspositie van blauwdrukken te specificeren"
+        ], 
+        "type": "Item ontwerpen", 
+        "description": "Positieteken - Hoofd"
+    }, 
+    "115": {
+        "type": "Feestdaghoed", 
+        "description": "Licht verontrustende papieren zak"
+    }, 
+    "117": {
+        "type": "Hat", 
+        "description": "Coole coupe"
+    }, 
+    "116": {
+        "alt": [
+            "Met geborduurde initialen 'Z.M.'"
+        ], 
+        "type": "Hat", 
+        "description": "Gruwelijke gibus"
+    }, 
+    "111": {
+        "type": "Hat", 
+        "description": "Glimmende gelcoupe"
+    }, 
+    "110": {
+        "type": "Hat", 
+        "description": "Gele hoofdband"
+    }, 
+    "118": {
+        "type": "Hat", 
+        "description": "Kale knar"
+    }, 
+    "3": {
+        "type": "Kukri-mes", 
+        "description": "Kukri-mes"
+    }, 
+    "7": {
+        "type": "Moersleutel", 
+        "description": "Moersleutel"
+    }, 
+    "other_attributes": {
+        "133": "Medal no. %s1", 
+        "132": "Given to valuable Community Contributors"
+    }, 
+    "5003": {
+        "alt": [
+            "Wordt gebruikt om een klasse van blauwdrukken te specificeren"
+        ], 
+        "type": "Item ontwerpen", 
+        "description": "Klasseteken - Scout"
+    }, 
+    "5002": {
+        "type": "Item ontwerpen", 
+        "description": "Bewerkt metaal"
+    }, 
+    "5001": {
+        "type": "Item ontwerpen", 
+        "description": "Gerecycled metaal"
+    }, 
+    "5000": {
+        "type": "Item ontwerpen", 
+        "description": "Schroot"
+    }, 
+    "5007": {
+        "alt": [
+            "Wordt gebruikt om een klasse van blauwdrukken te specificeren"
+        ], 
+        "type": "Item ontwerpen", 
+        "description": "Klasseteken - Heavy"
+    }, 
+    "5006": {
+        "alt": [
+            "Wordt gebruikt om een klasse van blauwdrukken te specificeren"
+        ], 
+        "type": "Item ontwerpen", 
+        "description": "Klasseteken - Demoman"
+    }, 
+    "5005": {
+        "alt": [
+            "Wordt gebruikt om een klasse van blauwdrukken te specificeren"
+        ], 
+        "type": "Item ontwerpen", 
+        "description": "Klasseteken - Soldier"
+    }, 
+    "5004": {
+        "alt": [
+            "Wordt gebruikt om een klasse van blauwdrukken te specificeren"
+        ], 
+        "type": "Item ontwerpen", 
+        "description": "Klasseteken - Sniper"
+    }, 
+    "5009": {
+        "alt": [
+            "Wordt gebruikt om een klasse van blauwdrukken te specificeren"
+        ], 
+        "type": "Item ontwerpen", 
+        "description": "Klasseteken - Pyro"
+    }, 
+    "5008": {
+        "alt": [
+            "Wordt gebruikt om een klasse van blauwdrukken te specificeren"
+        ], 
+        "type": "Item ontwerpen", 
+        "description": "Klasseteken - Medic"
+    }, 
+    "108": {
+        "type": "Hat", 
+        "description": "Bolhoed"
+    }, 
+    "109": {
+        "type": "Hat", 
+        "description": "Rieten hoed"
+    }, 
+    "9003": {
+        "positive": [
+            "Bans Steam account of players killed", 
+            "This item is not real and is only a joke."
+        ], 
+        "type": "Mallet of Banishment", 
+        "description": "Ban Hammer"
+    }, 
+    "102": {
+        "type": "Hat", 
+        "description": "Hanekammuts"
+    }, 
+    "103": {
+        "type": "Hat", 
+        "description": "Camerabaard"
+    }, 
+    "100": {
+        "type": "Hat", 
+        "description": "Schotse muts"
+    }, 
+    "101": {
+        "type": "Hat", 
+        "description": "Tirolerhoed"
+    }, 
+    "106": {
+        "type": "Hat", 
+        "description": "Bonk-helm"
+    }, 
+    "107": {
+        "type": "Hat", 
+        "description": "Schavuitenpet"
+    }, 
+    "104": {
+        "type": "Hat", 
+        "description": "Doktersspiegel"
+    }, 
+    "105": {
+        "type": "Hat", 
+        "description": "Korpshelm"
+    }, 
+    "39": {
+        "type": "Lichtpistool", 
+        "description": "Het lichtpistool"
+    }, 
+    "38": {
+        "positive": [
+            "100% voltreffer vs. brandende spelers"
+        ], 
+        "type": "Vuurbijl", 
+        "negative": [
+            "Geen voltreffers vs. niet-brandende spelers", 
+            "-50% schade vs. niet-brandende spelers"
+        ], 
+        "description": "De Axtinguisher"
+    }, 
+    "33": {
+        "type": "Injectiepistool", 
+        "description": "Injectiepistool"
+    }, 
+    "32": {
+        "type": "Bottenzaag", 
+        "description": "Bottenzaag"
+    }, 
+    "31": {
+        "type": "Lichtpistool", 
+        "description": "Lichtpistool"
+    }, 
+    "30": {
+        "type": "Onzichtbaarheidshorloge", 
+        "description": "Onzichtbaarheidshorloge"
+    }, 
+    "37": {
+        "positive": [
+            "Bij treffer: 25% \u00fcberlading toegevoegd"
+        ], 
+        "type": "Bottenzaag", 
+        "negative": [
+            "Vuursnelheid -20% lager"
+        ], 
+        "description": "De Ubersaw"
+    }, 
+    "36": {
+        "positive": [
+            "Bij treffer: +3 gezondheid"
+        ], 
+        "type": "Injectiepistool", 
+        "negative": [
+            "De gezondheid van de drager gaat met -2 per seconde achteruit"
+        ], 
+        "description": "De Blutsauger"
+    }, 
+    "35": {
+        "positive": [
+            "Laadsnelheid \u00fcberlading+25%"
+        ], 
+        "alt": [
+            "\u00dcberlading geeft 100% kans op voltreffer"
+        ], 
+        "type": "Medigun", 
+        "description": "De Kritzkrieg"
+    }, 
+    "34": {
+        "type": "Medigun", 
+        "description": "Medigun"
+    }, 
+    "60": {
+        "positive": [
+            "+100% herstelsnelheid vermomming"
+        ], 
+        "alt": [
+            "Soort vermomming: bewegingsgevoelig"
+        ], 
+        "type": "Onzichtbaarheidshorloge", 
+        "description": "De vermomming en dolk"
+    }, 
+    "61": {
+        "positive": [
+            "Voltreffers bij nauwkeurig hoofdschot"
+        ], 
+        "type": "Revolver", 
+        "negative": [
+            "Toegebrachte schade -15%", 
+            "Vuursnelheid -20% lager"
+        ], 
+        "description": "De Ambassador"
+    }, 
+    "2": {
+        "type": "Vuurbijl", 
+        "description": "Vuurbijl"
+    }, 
+    "6": {
+        "type": "Spade", 
+        "description": "Spade"
+    }, 
+    "99": {
+        "type": "Hat", 
+        "description": "Vikinghelm"
+    }, 
+    "98": {
+        "type": "Hat", 
+        "description": "Kookpan"
+    }, 
+    "95": {
+        "type": "Hat", 
+        "description": "Engineerspet"
+    }, 
+    "94": {
+        "type": "Hat", 
+        "description": "Cowboyhoed"
+    }, 
+    "97": {
+        "type": "Hat", 
+        "description": "Altomuts"
+    }, 
+    "96": {
+        "type": "Hat", 
+        "description": "Russische officiersmuts"
+    }, 
+    "11": {
+        "type": "Shotgun", 
+        "description": "Shotgun"
+    }, 
+    "10": {
+        "type": "Shotgun", 
+        "description": "Shotgun"
+    }, 
+    "13": {
+        "type": "Scattergun", 
+        "description": "Scattergun"
+    }, 
+    "12": {
+        "type": "Shotgun", 
+        "description": "Shotgun"
+    }, 
+    "15": {
+        "type": "Minigun", 
+        "description": "Minigun"
+    }, 
+    "14": {
+        "type": "Snipergeweer", 
+        "description": "Snipergeweer"
+    }, 
+    "17": {
+        "type": "Injectiepistool", 
+        "description": "Injectiepistool"
+    }, 
+    "16": {
+        "type": "SMG", 
+        "description": "SMG"
+    }, 
+    "19": {
+        "type": "Granaatwerper", 
+        "description": "Granaatwerper"
+    }, 
+    "18": {
+        "type": "Raketwerper", 
+        "description": "Raketwerper"
+    }, 
+    "48": {
+        "type": "Hat", 
+        "description": "Mijnlamp"
+    }, 
+    "49": {
+        "type": "Hat", 
+        "description": "Rugbyhelm"
+    }, 
+    "46": {
+        "type": "Lunchtrommel", 
+        "description": "Bonk! Atomic Punch"
+    }, 
+    "47": {
+        "type": "Hat", 
+        "description": "Demoman's Fro"
+    }, 
+    "44": {
+        "positive": [
+            "Met deze knuppel kun je een venijnig balletje meppen"
+        ], 
+        "type": "Knuppel", 
+        "negative": [
+            "-15 maximale gezondheid voor drager"
+        ], 
+        "description": "De Sandman"
+    }, 
+    "45": {
+        "positive": [
+            "Knockback op het doel en de schutter", 
+            "Vuursnelheid +50% hoger", 
+            "+20% kogels per schot"
+        ], 
+        "type": "Scattergun", 
+        "negative": [
+            "Magazijngrootte -60%", 
+            "Toegebrachte schade -10%"
+        ], 
+        "description": "De Force-A-Nature"
+    }, 
+    "42": {
+        "type": "Lunchtrommel", 
+        "description": "De Sandvich"
+    }, 
+    "43": {
+        "positive": [
+            "Bij eliminatie: 5 seconden 100% kans op een voltreffer"
+        ], 
+        "type": "Vuisten", 
+        "negative": [
+            "Vuursnelheid -20% lager"
+        ], 
+        "description": "De Killing Gloves of Boxing"
+    }, 
+    "40": {
+        "positive": [
+            "100% voltreffers in de rug"
+        ], 
+        "type": "Vlammenwerper", 
+        "negative": [
+            "Geen willekeurige voltreffers", 
+            "Geen compressiestoot"
+        ], 
+        "description": "De Backburner"
+    }, 
+    "41": {
+        "positive": [
+            "Bij treffer: 100% kans om je doelwit te vertragen"
+        ], 
+        "type": "Minigun", 
+        "negative": [
+            "Toegebrachte schade -25%"
+        ], 
+        "description": "Natascha"
+    }, 
+    "1": {
+        "type": "Fles", 
+        "description": "Fles"
+    }, 
+    "5": {
+        "type": "Vuisten", 
+        "description": "Vuisten"
+    }, 
+    "9": {
+        "type": "Shotgun", 
+        "description": "Shotgun"
+    }
+}

@@ -55,7 +55,7 @@ var iconTool = {
     // show the enabled or disabled icon
     enabled: function(v) {
 	chrome.browserAction.setIcon(
-            {path:v ? "images/icon.png" : "images/icon_disabled.png"}
+            {path:v ? "media/icon.png" : "media/icon_disabled.png"}
         );
     },
 };
@@ -110,32 +110,32 @@ var feedDriver = {
 	this.pollNext = Date.now() + delay;
 	window.clearTimeout(this.scheduleId);
 	this.scheduleId = window.setTimeout(this.start, delay);
-	console.log("Scheduled fetch in", delay/1000, "sec.")
+	//console.log("Scheduled fetch in", delay/1000, "sec.")
     },
 
     // begin a new xhr request for the backpack feed
     start: function() {
 	var self = feedDriver, url = profile.feedUrl();
 	if (!url) {
-	    self.onError("error", "No feed URL");
+	    self.onError("error", _("feed_url_error"));
 	    return;
 	}
 	var error = function(req, status, error) {
 	    switch (status) {
 	        case "timeout":
-		    self.onError("abort", "Request aborted by timeout");
+		    self.onError("abort", _("request_aborted"));
 		    break;
                 case "parseerror":
-		    self.onError("error", "Parse error");
+		    self.onError("error", _("parse_error"));
 		    break;
 	        case "feederror":
-		    self.onError("error", error);
+		    self.onError("error", _(error));
 		    break;
 	        case "feedwarning":
-		    self.onError("warning", error);
+		    self.onError("warning", _(error));
 		    break;
 	        default: /* covers "error" and null values, and everything else, too */
-		    self.onError("error", "Network Error");
+		    self.onError("error", _("network_error"));
 	    }
 	};
 	var success = function(xml, status, req) {
@@ -143,14 +143,14 @@ var feedDriver = {
 		var errmsg = $("error", xml).text();
 		var warnmsg = $("warningMessage", xml).text();
 		if (errmsg) {
-		    error(null, "feederror", errmsg);
+		    error(null, "feederror", _(errmsg));
 	        } else if (warnmsg) {
-		    error(null, "feedwarning", warnmsg);
+		    error(null, "feedwarning", _(warnmsg));
 		} else {
 		    self.onSuccess(xml, req.responseText);
 		}
 	    } catch (e) {
-		error(null, "exception", e);
+		error(null, "exception", _(e));
 	    }
 	};
 	self.pollDuration = 0;
@@ -170,9 +170,10 @@ var feedDriver = {
 	this.requestFails++;
 	this.requestBackoff++;
 	this.requestError = message;
+	iconTool.enabled(false);
         textTool.stop("?", colors.grey);
 	chrome.extension.sendRequest({status: status, type: "refresh", message: message});
-	console.error("Feed fetch error", message||"", "status:", status||"unknown");
+	//console.error("Feed fetch error", message||"", "status:", status||"unknown");
     },
 
     // request successful; xml present but not yet checked
@@ -187,7 +188,7 @@ var feedDriver = {
 	var same = $(cs, storage.cachedFeed()).text() == $(cs, text).text()
 	storage.cachedFeed(text);
 	chrome.extension.sendRequest({status: "okay", type: "refresh", updated: !same});
-	console.log("Feed fetch success");
+	//console.log("Feed fetch success");
     },
 
     updateCounts: function(xml) {

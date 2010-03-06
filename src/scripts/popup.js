@@ -24,11 +24,16 @@ var backpack = {
 
     loadItemDefs: function() {
 	var error = function(req, status, error) {
+	    console.log(req, status, error)
 	};
 	var success = function(data, status, req) {
-	    backpack.defs = JSON.parse(data);
+	    try {
+		backpack.defs = JSON.parse(data);
+	    } catch (e) {
+		error(req, status, data);
+	    }
 	};
-	var url = "data/items_" + _("language_code") + ".json";
+	var url = "media/items_" + _("language_code") + ".json";
 	$.ajax({url: chrome.extension.getURL(url),
 		async: false, dataType: "text",
 		error: error, success: success});
@@ -174,7 +179,11 @@ var pageOps = {
 	    .live("mouseenter", function() {$(this).addClass("itemHover")})
 	    .live("mouseleave", function() {$(this).removeClass("itemHover")});
         $("body").mousedown(function(){return false}) //disable text selection
-	$("#toolbar, #stats").css("width", -6 + Math.max(400, $("#backpack tr:first").width()));
+	var w = $("#controls").width();
+	$("#nav span").each(function(i,x) { w+=$(x).width() });
+	if (w+6< $("#backpack tr:first").width()) {
+	    $("#toolbar, #stats").css("width", -6 + $("#backpack tr:first").width());
+	}
 	$("table.backpack td").click(this.itemClicked);
 	window.setInterval(this.updateRefreshTime, 1000);
     },
@@ -379,7 +388,7 @@ var toolTip = {
 	}
 	tooltip.hide().css({left:0, top:0});
 	$("#tooltip h4").text(item.description).removeClass("valve community");
-	$("#tooltip .level").text("Level " + level + (levelType ? " " + levelType : ""));
+	$("#tooltip .level").text(_({key:"level", subs:[level, levelType]}));
 
 	// special formatting valve and community weapons
 	var extras = [];
@@ -451,7 +460,6 @@ var popupInit = function() {
 	    })
 	});
     } else {
-
 	pages.init();
 	backpack.init();
 	pageOps.init();

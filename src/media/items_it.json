@@ -1,0 +1,700 @@
+{
+    "133": {
+        "positive": [
+            "-75% danni da esplosione dai salti-razzo"
+        ], 
+        "type": "Stivali", 
+        "description": "Solette d'acciaio"
+    }, 
+    "132": {
+        "alt": [
+            "Quest'arma ha un'ampia gittata corpo a corpo.\nOffre velocit\u00e0 e salute ottimizzate con ogni testa che ottieni."
+        ], 
+        "type": "Spada", 
+        "negative": [
+            "Energia massima su chi lo indossa -25", 
+            "Nessun colpo critico casuale"
+        ], 
+        "description": "Eyelander"
+    }, 
+    "131": {
+        "positive": [
+            "Capacit\u00e0 ignifuga su chi lo indossa +50%", 
+            "Resistenza ai danni da esplosivi su chi lo indossa +50%"
+        ], 
+        "alt": [
+            "Fuoco secondario: ottieni un incremento nella potenza d'attacco caricando in direzione dei nemici."
+        ], 
+        "type": "Scudo", 
+        "description": "Scudo da carica"
+    }, 
+    "130": {
+        "positive": [
+            "Munizioni secondarie massime su chi lo indossa +50%", 
+            "Tubi-bomba massimi estratti +6", 
+            "Fai esplodere bombe adesive vicino al mirino", 
+            "Capace di distruggere le bombe adesive nemiche"
+        ], 
+        "type": "Mortaio bombe adesive", 
+        "negative": [
+            "0.4 di secondi in meno per la preparazione delle bombe"
+        ], 
+        "description": "Resistenza scozzese"
+    }, 
+    "137": {
+        "type": "Hat", 
+        "description": "TF_NobleAmassment_Hat"
+    }, 
+    "136": {
+        "alt": [
+            "TF_PropagandaContest_SecondPlace_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_PropagandaContest_SecondPlace"
+    }, 
+    "135": {
+        "type": "Hat", 
+        "description": "TF_ToweringPillar_Hat"
+    }, 
+    "134": {
+        "alt": [
+            "TF_PropagandaContest_FirstPlace_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_PropagandaContest_FirstPlace"
+    }, 
+    "139": {
+        "type": "Hat", 
+        "description": "TF_ModestPile_Hat"
+    }, 
+    "138": {
+        "alt": [
+            "TF_PropagandaContest_ThirdPlace_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_PropagandaContest_ThirdPlace"
+    }, 
+    "24": {
+        "type": "Revolver", 
+        "description": "Revolver"
+    }, 
+    "25": {
+        "type": "Computer palmare", 
+        "description": "Computer palmare"
+    }, 
+    "26": {
+        "type": "Computer palmare", 
+        "description": "Computer palmare"
+    }, 
+    "27": {
+        "type": "Computer palmare", 
+        "description": "Computer palmare"
+    }, 
+    "20": {
+        "type": "Mortaio bombe adesive", 
+        "description": "Mortaio bombe adesive"
+    }, 
+    "21": {
+        "type": "Lanciafiamme", 
+        "description": "Lanciafiamme"
+    }, 
+    "22": {
+        "type": "Pistola", 
+        "description": "Pistola"
+    }, 
+    "23": {
+        "type": "Pistola", 
+        "description": "Pistola"
+    }, 
+    "28": {
+        "type": "Computer palmare", 
+        "description": "Computer palmare"
+    }, 
+    "29": {
+        "type": "Pistola medica", 
+        "description": "Pistola medica"
+    }, 
+    "0": {
+        "type": "Mazza", 
+        "description": "Mazza"
+    }, 
+    "4": {
+        "type": "Coltello", 
+        "description": "Coltello"
+    }, 
+    "8": {
+        "type": "Segaossa", 
+        "description": "Segaossa"
+    }, 
+    "120": {
+        "type": "Hat", 
+        "description": "Cilindro da dandy"
+    }, 
+    "121": {
+        "type": "Medaglia", 
+        "description": "Medaglia d'onore da gentleman"
+    }, 
+    "122": {
+        "type": "Cheat Detector", 
+        "description": "Il tuo account \u00e8 stato segnalato per avere raggirato il sistema di distribuzione. Abbiamo rimosso gli oggetti ottenuti in maniera non autorizzata.\n\nLe prossime violazioni causeranno la perdita di tutti gli oggetti in tuo possesso."
+    }, 
+    "123": {
+        "type": "Cheat Detector", 
+        "description": "Il tuo account \u00e8 stato segnalato per avere raggirato il sistema di distribuzione. Abbiamo rimosso gli oggetti presenti nel tuo inventario.\n\nLe prossime violazioni potrebbero causare la disattivazione del tuo account."
+    }, 
+    "124": {
+        "type": "Cheat Detector", 
+        "description": "Complimenti! La tua onest\u00e0 \u00e8 stata ricompensata con un cappello nuovo!\n\n(Altri giocatori sono stati meno rigorosi e pertanto meno fortunati...)"
+    }, 
+    "125": {
+        "alt": [
+            "Danni inflitti %s1%"
+        ], 
+        "type": "Aura di incorruttibilit\u00e0", 
+        "description": "Lamento dell'imbroglione"
+    }, 
+    "126": {
+        "type": "Berretto del veterano", 
+        "description": "Cappello di Bill"
+    }, 
+    "127": {
+        "positive": [
+            "Bersagli aerei dei critici mini", 
+            "Danni inflitti +25%", 
+            "Velocit\u00e0 dei proiettili +80%"
+        ], 
+        "type": "Lanciarazzi", 
+        "negative": [
+            "Raggio di esplosione -70%"
+        ], 
+        "description": "Colpo diretto"
+    }, 
+    "128": {
+        "positive": [
+            "I danni e la velocit\u00e0 di spostamento aumentano con l'aumentare delle ferite sull'utente"
+        ], 
+        "type": "Piccone", 
+        "description": "Equalizer"
+    }, 
+    "129": {
+        "type": "Vessillo da battaglia", 
+        "description": "Vessillo bonus"
+    }, 
+    "59": {
+        "positive": [
+            "+80% velocit\u00e0 rigenerazione mantello"
+        ], 
+        "alt": [
+            "Cloak Type: Feign Death"
+        ], 
+        "type": "Orologio dell'invisibilit\u00e0", 
+        "negative": [
+            "+60% velocit\u00e0 scaricamento mantello"
+        ], 
+        "description": "Cipollotto letale"
+    }, 
+    "58": {
+        "alt": [
+            "I nemici rivestiti subiscono critici mini\nUtile anche per spegnere un fuoco"
+        ], 
+        "type": "Karate con un vaso", 
+        "description": "Karavaso"
+    }, 
+    "55": {
+        "type": "Hat", 
+        "description": "Borsalino"
+    }, 
+    "54": {
+        "type": "Hat", 
+        "description": "Elmetto militare"
+    }, 
+    "57": {
+        "positive": [
+            "Blocca un tentativo di pugnalata alle spalle"
+        ], 
+        "type": "Scudo", 
+        "description": "Scudo elettrico"
+    }, 
+    "56": {
+        "type": "Arco", 
+        "description": "Arco da cacciatore"
+    }, 
+    "51": {
+        "type": "Hat", 
+        "description": "Cappellino da Piro"
+    }, 
+    "50": {
+        "type": "Hat", 
+        "description": "Elmo prussiano"
+    }, 
+    "53": {
+        "type": "Hat", 
+        "description": "Cintura trofeo"
+    }, 
+    "52": {
+        "type": "Hat", 
+        "description": "Elmetto da battitore"
+    }, 
+    "5010": {
+        "alt": [
+            "Utilizzato per specificare una classe nei progetti"
+        ], 
+        "type": "Oggetto creato", 
+        "description": "Elemento classe - Spia"
+    }, 
+    "5011": {
+        "alt": [
+            "Utilizzato per specificare una classe nei progetti"
+        ], 
+        "type": "Oggetto creato", 
+        "description": "Elemento classe - Ingegnere"
+    }, 
+    "5012": {
+        "alt": [
+            "Utilizzato per specificare uno slot equipaggiamento nei progetti"
+        ], 
+        "type": "Oggetto creato", 
+        "description": "Elemento slot - Primario"
+    }, 
+    "5013": {
+        "alt": [
+            "Utilizzato per specificare uno slot equipaggiamento nei progetti"
+        ], 
+        "type": "Oggetto creato", 
+        "description": "Elemento slot - Secondario"
+    }, 
+    "5014": {
+        "alt": [
+            "Utilizzato per specificare uno slot equipaggiamento nei progetti"
+        ], 
+        "type": "Oggetto creato", 
+        "description": "Elemento slot - Corpo a corpo"
+    }, 
+    "5015": {
+        "alt": [
+            "Utilizzato per specificare uno slot equipaggiamento nei progetti"
+        ], 
+        "type": "Oggetto creato", 
+        "description": "Elemento slot - Granata"
+    }, 
+    "5016": {
+        "alt": [
+            "Utilizzato per specificare uno slot equipaggiamento nei progetti"
+        ], 
+        "type": "Oggetto creato", 
+        "description": "Elemento slot - Costruzione"
+    }, 
+    "5017": {
+        "alt": [
+            "Utilizzato per specificare uno slot equipaggiamento nei progetti"
+        ], 
+        "type": "Oggetto creato", 
+        "description": "Elemento slot - Computer palmare"
+    }, 
+    "5018": {
+        "alt": [
+            "Utilizzato per specificare uno slot equipaggiamento nei progetti"
+        ], 
+        "type": "Oggetto creato", 
+        "description": "Elemento slot - Computer palmare 2"
+    }, 
+    "5019": {
+        "alt": [
+            "Utilizzato per specificare uno slot equipaggiamento nei progetti"
+        ], 
+        "type": "Oggetto creato", 
+        "description": "Elemento slot - Testa"
+    }, 
+    "115": {
+        "type": "Copricapo festivo", 
+        "description": "Maschera di Halloween moderatamente spaventosa"
+    }, 
+    "117": {
+        "type": "Hat", 
+        "description": "Pettinatura impomatata alla Ritzy Rick"
+    }, 
+    "116": {
+        "alt": [
+            "Le iniziali ricamate sono \\\"Z.M.\\\""
+        ], 
+        "type": "Hat", 
+        "description": "Tuba del caro estinto"
+    }, 
+    "111": {
+        "type": "Hat", 
+        "description": "Taglio sportivo alla Baseball Bill"
+    }, 
+    "110": {
+        "type": "Hat", 
+        "description": "Bandana gialla da maestro"
+    }, 
+    "118": {
+        "type": "Hat", 
+        "description": "Pelata alla Texas Slim"
+    }, 
+    "3": {
+        "type": "Machete", 
+        "description": "Machete"
+    }, 
+    "7": {
+        "type": "Chiave inglese", 
+        "description": "Chiave inglese"
+    }, 
+    "other_attributes": {
+        "133": "Medal no. %s1", 
+        "132": "Given to valuable Community Contributors"
+    }, 
+    "5003": {
+        "alt": [
+            "Utilizzato per specificare una classe nei progetti"
+        ], 
+        "type": "Oggetto creato", 
+        "description": "Elemento classe - Esploratore"
+    }, 
+    "5002": {
+        "type": "Oggetto creato", 
+        "description": "Metallo raffinato"
+    }, 
+    "5001": {
+        "type": "Oggetto creato", 
+        "description": "Metallo recuperato"
+    }, 
+    "5000": {
+        "type": "Oggetto creato", 
+        "description": "Metallo di scarto"
+    }, 
+    "5007": {
+        "alt": [
+            "Utilizzato per specificare una classe nei progetti"
+        ], 
+        "type": "Oggetto creato", 
+        "description": "Elemento classe - Grosso"
+    }, 
+    "5006": {
+        "alt": [
+            "Utilizzato per specificare una classe nei progetti"
+        ], 
+        "type": "Oggetto creato", 
+        "description": "Elemento classe - Demolitore"
+    }, 
+    "5005": {
+        "alt": [
+            "Utilizzato per specificare una classe nei progetti"
+        ], 
+        "type": "Oggetto creato", 
+        "description": "Elemento classe - Soldato"
+    }, 
+    "5004": {
+        "alt": [
+            "Utilizzato per specificare una classe nei progetti"
+        ], 
+        "type": "Oggetto creato", 
+        "description": "Elemento classe - Cecchino"
+    }, 
+    "5009": {
+        "alt": [
+            "Utilizzato per specificare una classe nei progetti"
+        ], 
+        "type": "Oggetto creato", 
+        "description": "Elemento classe - Piro"
+    }, 
+    "5008": {
+        "alt": [
+            "Utilizzato per specificare una classe nei progetti"
+        ], 
+        "type": "Oggetto creato", 
+        "description": "Elemento classe - Medico"
+    }, 
+    "108": {
+        "type": "Hat", 
+        "description": "Bombetta da calunniatore"
+    }, 
+    "109": {
+        "type": "Hat", 
+        "description": "Panama professionale"
+    }, 
+    "9003": {
+        "positive": [
+            "Bans Steam account of players killed", 
+            "This item is not real and is only a joke."
+        ], 
+        "type": "Mallet of Banishment", 
+        "description": "Ban Hammer"
+    }, 
+    "102": {
+        "type": "Hat", 
+        "description": "Guanto di gomma insolente"
+    }, 
+    "103": {
+        "type": "Hat", 
+        "description": "Barba posticcia con fotocamera"
+    }, 
+    "100": {
+        "type": "Hat", 
+        "description": "Berretto scozzese"
+    }, 
+    "101": {
+        "type": "Hat", 
+        "description": "Cappello tradizionale tirolese"
+    }, 
+    "106": {
+        "type": "Hat", 
+        "description": "Elmetto Bonk!"
+    }, 
+    "107": {
+        "type": "Hat", 
+        "description": "Cappello da gar\u00e7on"
+    }, 
+    "104": {
+        "type": "Hat", 
+        "description": "Specchietto da otorino"
+    }, 
+    "105": {
+        "type": "Hat", 
+        "description": "Elmetto da vigile del fuoco"
+    }, 
+    "39": {
+        "type": "Pistola lanciarazzi", 
+        "description": "Pistola lanciarazzi"
+    }, 
+    "38": {
+        "positive": [
+            "Colpo critico al 100% contro giocatori in fiamme"
+        ], 
+        "type": "Accetta", 
+        "negative": [
+            "Nessuna possibilit\u00e0 di critico contro giocatori non in fiamme", 
+            "-50% di danno contro giocatori non in fiamme"
+        ], 
+        "description": "Estintascia"
+    }, 
+    "33": {
+        "type": "Pistola siringa", 
+        "description": "Pistola siringa"
+    }, 
+    "32": {
+        "type": "Segaossa", 
+        "description": "Segaossa"
+    }, 
+    "31": {
+        "type": "Pistola lanciarazzi", 
+        "description": "Pistola lanciarazzi"
+    }, 
+    "30": {
+        "type": "Orologio dell'invisibilit\u00e0", 
+        "description": "Orologio dell'invisibilit\u00e0"
+    }, 
+    "37": {
+        "positive": [
+            "Per colpo: \u00dcberCarica aggiunta 25%"
+        ], 
+        "type": "Segaossa", 
+        "negative": [
+            "Velocit\u00e0 di fuoco minore del -20%"
+        ], 
+        "description": "The Ubersaw"
+    }, 
+    "36": {
+        "positive": [
+            "Per colpo: energia +3"
+        ], 
+        "type": "Pistola siringa", 
+        "negative": [
+            "Energia consumata al secondo su chi lo indossa -2"
+        ], 
+        "description": "The Blutsauger"
+    }, 
+    "35": {
+        "positive": [
+            "Tempo di \u00dcberCarica +25%"
+        ], 
+        "alt": [
+            "La \u00dcberCarica consente una possibilit\u00e0 di critico del 100%"
+        ], 
+        "type": "Pistola medica", 
+        "description": "The Kritzkrieg"
+    }, 
+    "34": {
+        "type": "Pistola medica", 
+        "description": "Pistola medica"
+    }, 
+    "60": {
+        "positive": [
+            "+100% velocit\u00e0 rigenerazione mantello"
+        ], 
+        "alt": [
+            "Cloak Type: Motion Sensitive"
+        ], 
+        "type": "Orologio dell'invisibilit\u00e0", 
+        "description": "Orologio mimetico"
+    }, 
+    "61": {
+        "positive": [
+            "Critico su un colpo preciso alla testa"
+        ], 
+        "type": "Revolver", 
+        "negative": [
+            "Danni inflitti -15%", 
+            "Velocit\u00e0 di fuoco minore del -20%"
+        ], 
+        "description": "Ambassador"
+    }, 
+    "2": {
+        "type": "Accetta", 
+        "description": "Accetta"
+    }, 
+    "6": {
+        "type": "Pala", 
+        "description": "Pala"
+    }, 
+    "99": {
+        "type": "Hat", 
+        "description": "Elmo da vichingo"
+    }, 
+    "98": {
+        "type": "Hat", 
+        "description": "Pentola inossidabile"
+    }, 
+    "95": {
+        "type": "Hat", 
+        "description": "Berretto da ingegnere"
+    }, 
+    "94": {
+        "type": "Hat", 
+        "description": "Cappello texano"
+    }, 
+    "97": {
+        "type": "Hat", 
+        "description": "Berretto da duro"
+    }, 
+    "96": {
+        "type": "Hat", 
+        "description": "Colbacco da ufficiale"
+    }, 
+    "11": {
+        "type": "Fucile", 
+        "description": "Fucile"
+    }, 
+    "10": {
+        "type": "Fucile", 
+        "description": "Fucile"
+    }, 
+    "13": {
+        "type": "Fucile a corto raggio", 
+        "description": "Fucile a corto raggio"
+    }, 
+    "12": {
+        "type": "Fucile", 
+        "description": "Fucile"
+    }, 
+    "15": {
+        "type": "Mitragliatrice pesante", 
+        "description": "Mitragliatrice pesante"
+    }, 
+    "14": {
+        "type": "Fucile da cecchino", 
+        "description": "Fucile da cecchino"
+    }, 
+    "17": {
+        "type": "Pistola siringa", 
+        "description": "Pistola siringa"
+    }, 
+    "16": {
+        "type": "SMG", 
+        "description": "SMG"
+    }, 
+    "19": {
+        "type": "Lanciagranate", 
+        "description": "Lanciagranate"
+    }, 
+    "18": {
+        "type": "Lanciarazzi", 
+        "description": "Lanciarazzi"
+    }, 
+    "48": {
+        "type": "Hat", 
+        "description": "Luce da minatore"
+    }, 
+    "49": {
+        "type": "Hat", 
+        "description": "Casco da football"
+    }, 
+    "46": {
+        "type": "Cestino del pranzo", 
+        "description": "Bonk! Pugno atomico"
+    }, 
+    "47": {
+        "type": "Hat", 
+        "description": "Afro"
+    }, 
+    "44": {
+        "positive": [
+            "Questa mazza lancia una palla stordente"
+        ], 
+        "type": "Mazza", 
+        "negative": [
+            "Energia massima su chi lo indossa -15"
+        ], 
+        "description": "Sandman"
+    }, 
+    "45": {
+        "positive": [
+            "Rinculo sia per il bersaglio che per l'utilizzatore", 
+            "Velocit\u00e0 di fuoco maggiore del 50%", 
+            "+20% proiettili per colpo"
+        ], 
+        "type": "Fucile a corto raggio", 
+        "negative": [
+            "Dimensioni caricatore -60%", 
+            "Danni inflitti -10%"
+        ], 
+        "description": "Forza della natura"
+    }, 
+    "42": {
+        "type": "Cestino del pranzo", 
+        "description": "Sandvich"
+    }, 
+    "43": {
+        "positive": [
+            "All'uccisione: 5secondi di possibilit\u00e0 di critico del 100%"
+        ], 
+        "type": "Pugni", 
+        "negative": [
+            "Velocit\u00e0 di fuoco minore del -20%"
+        ], 
+        "description": "Ke Guantoni da Boxe"
+    }, 
+    "40": {
+        "positive": [
+            "Colpi critici al 100% se colpisci alle spalle"
+        ], 
+        "type": "Lanciafiamme", 
+        "negative": [
+            "Nessun colpo critico casuale", 
+            "Compressore non disponibile"
+        ], 
+        "description": "Retrobruciatore"
+    }, 
+    "41": {
+        "positive": [
+            "Per colpo: possibilit\u00e0 di rallentare il bersaglio 100%"
+        ], 
+        "type": "Mitragliatrice pesante", 
+        "negative": [
+            "Danni inflitti -25%"
+        ], 
+        "description": "Natascha"
+    }, 
+    "1": {
+        "type": "Bottiglia", 
+        "description": "Bottiglia"
+    }, 
+    "5": {
+        "type": "Pugni", 
+        "description": "Pugni"
+    }, 
+    "9": {
+        "type": "Fucile", 
+        "description": "Fucile"
+    }
+}

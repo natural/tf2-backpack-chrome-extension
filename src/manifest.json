@@ -5,15 +5,15 @@
     "default_locale": "en",
     "description": "__MSG_extension_desc__",
     "icons": {
-        "48": "images/icon48.png",
-        "128": "images/icon128.png"
+        "48": "media/icon48.png",
+        "128": "media/icon128.png"
     },
 
     "background_page": "background.html",
     "options_page": "options.html",
 
     "browser_action": {
-        "default_icon": "images/icon.png",
+        "default_icon": "media/icon.png",
         "popup": "popup.html",
         "default_title": "__MSG_extension_default_title__"
     },

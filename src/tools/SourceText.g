@@ -65,8 +65,26 @@ fragment LETTER
     ;
 
 
+fragment EscapeSequence
+    :   '\\' ('b'|'t'|'n'|'f'|'r'|'\"'|'\''|'\\')
+    |   UnicodeEscape
+    ;
+
+fragment UnicodeEscape
+    :   '\\' 'u' HexDigit HexDigit HexDigit HexDigit
+    ;
+
+fragment HexDigit
+    : ('0'..'9'|'a'..'f'|'A'..'F')
+    ;
+
+
+
 WS: (' ' | '\r' | '\t' | '\u000C' | '\n') { $channel=HIDDEN; };
-STRING: '"' (CHAR|LETTER)* '"';
+STRING
+    : '"' (EscapeSequence | ~('\\'|'"') )* '"'
+    ;
+
 
 
 COMMENT

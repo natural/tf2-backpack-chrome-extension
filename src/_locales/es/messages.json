@@ -4,6 +4,16 @@
         "message-retranslated": "4", 
         "description": "the number 4"
     }, 
+    "no_change": {
+        "message": "Sin cambios", 
+        "message-retranslated": "No change", 
+        "description": "nothing changed, but have a label!"
+    }, 
+    "profile_found": {
+        "message": "Uso de vapor ID $$1 de 2.", 
+        "message-retranslated": "Using steam ID $$1 of 2.", 
+        "description": "steam id found in search"
+    }, 
     "num1": {
         "message": "1", 
         "message-retranslated": "1", 
@@ -19,6 +29,10 @@
         "message-retranslated": "3", 
         "description": "the number 3"
     }, 
+    "language_code": {
+        "message": "es", 
+        "description": ""
+    }, 
     "second": {
         "message": "segundo", 
         "message-retranslated": "second", 
@@ -29,24 +43,40 @@
         "message-retranslated": "Warning", 
         "description": "warning label"
     }, 
+    "its_msg_31": {
+        "message": "TF2 Mochila Viewer - Opciones", 
+        "message-retranslated": "TF2 Backpack Viewer - Options", 
+        "description": "options page title"
+    }, 
     "refresh_nochange": {
         "message": "Feed Refreshed - Sin cambios", 
         "message-retranslated": "Feed Refreshed - No change", 
         "description": "feed refreshed without changes"
     }, 
-    "language_code": {
-        "message": "es", 
-        "description": ""
+    "extension_default_title": {
+        "message": "Ver tu Mochila Team Fortress 2", 
+        "message-retranslated": "View your Backpack Team Fortress 2", 
+        "description": "Extension default title for browser action"
     }, 
     "its_msg_30": {
         "message": "en la Comunidad de vapor", 
         "message-retranslated": "steam in the Community", 
         "description": "fragment"
     }, 
-    "extension_default_title": {
-        "message": "Ver tu Mochila Team Fortress 2", 
-        "message-retranslated": "View your Backpack Team Fortress 2", 
-        "description": "Extension default title for browser action"
+    "parse_error": {
+        "message": "Error de an\u00e1lisis", 
+        "message-retranslated": "Failure analysis", 
+        "description": "some kind of parse error"
+    }, 
+    "its_msg_32": {
+        "message": "Perfil ID", 
+        "message-retranslated": "Profile ID", 
+        "description": "profile id label"
+    }, 
+    "its_msg_33": {
+        "message": "Cancelar", 
+        "message-retranslated": "Cancel", 
+        "description": "cancel label, such as for a button"
     }, 
     "its_msg_16": {
         "message": "Elementos Desconocido", 
@@ -73,10 +103,10 @@
         "message-retranslated": "Statistics", 
         "description": "stats button"
     }, 
-    "its_msg_13": {
-        "message": "Art\u00edculos Total", 
-        "message-retranslated": "Items Total", 
-        "description": "total item count stats title"
+    "other_error": {
+        "message": "Alg\u00fan otro error", 
+        "message-retranslated": "Any other error", 
+        "description": "some other kind of error occurred."
     }, 
     "its_msg_10": {
         "message": "Actualizar", 
@@ -97,6 +127,11 @@
         "message": "Vistas de perfil", 
         "message-retranslated": "Profile Views", 
         "description": "count of profile views"
+    }, 
+    "request_aborted": {
+        "message": "Solicitud cancelada por el tiempo de espera", 
+        "message-retranslated": "Request aborted by timeout", 
+        "description": "request aborted label"
     }, 
     "seconds": {
         "message": "segundo", 
@@ -143,10 +178,10 @@
         "message-retranslated": "Character Info for $1", 
         "description": "character info title"
     }, 
-    "its_msg_0": {
-        "message": "Team Fortress 2 Mochila de acceso (nuevas y mejoradas)", 
-        "message-retranslated": "Team Fortress 2 Access Backpack (new and improved)", 
-        "description": "page title"
+    "network_error": {
+        "message": "Error de red", 
+        "message-retranslated": "Network error", 
+        "description": "some kind of network error"
     }, 
     "its_msg_1": {
         "message": "Perfil ID No Set!", 
@@ -167,6 +202,11 @@
         "message": "Bad Data Feed", 
         "message-retranslated": "Bad Data Feed", 
         "description": "bad data feed label"
+    }, 
+    "feed_url_error": {
+        "message": "No Feed URL", 
+        "message-retranslated": "No Feed URL", 
+        "description": "error because the feed url is empty"
     }, 
     "its_msg_29": {
         "message": "en", 
@@ -223,6 +263,11 @@
         "message-retranslated": "Refreshing", 
         "description": "refreshing text goes here"
     }, 
+    "level": {
+        "message": "Nivel $1 $2", 
+        "message-retranslated": "Level $1 $2", 
+        "description": "level label"
+    }, 
     "extension_name": {
         "message": "Team Fortress 2 Mochila de acceso", 
         "message-retranslated": "Team Fortress 2 Access Backpack", 
@@ -237,5 +282,15 @@
         "message": "Error", 
         "message-retranslated": "Failure", 
         "description": "error label"
+    }, 
+    "its_msg_13": {
+        "message": "Art\u00edculos Total", 
+        "message-retranslated": "Items Total", 
+        "description": "total item count stats title"
+    }, 
+    "its_msg_0": {
+        "message": "Team Fortress 2 Mochila de acceso (nuevas y mejoradas)", 
+        "message-retranslated": "Team Fortress 2 Access Backpack (new and improved)", 
+        "description": "page title"
     }
 }

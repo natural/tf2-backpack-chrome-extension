@@ -4,6 +4,16 @@
         "message-retranslated": "4", 
         "description": "the number 4"
     }, 
+    "no_change": {
+        "message": "\u0411\u0435\u0437 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0439", 
+        "message-retranslated": "Unchanged", 
+        "description": "nothing changed, but have a label!"
+    }, 
+    "profile_found": {
+        "message": "\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435 Steam ID \u0434\u043b\u044f $1 $2.", 
+        "message-retranslated": "Using Steam ID for $1 $2.", 
+        "description": "steam id found in search"
+    }, 
     "num1": {
         "message": "1", 
         "message-retranslated": "1", 
@@ -19,6 +29,10 @@
         "message-retranslated": "3", 
         "description": "the number 3"
     }, 
+    "language_code": {
+        "message": "ru", 
+        "description": ""
+    }, 
     "second": {
         "message": "\u0432\u0442\u043e\u0440\u043e\u0439", 
         "message-retranslated": "second", 
@@ -29,24 +43,40 @@
         "message-retranslated": "Warning", 
         "description": "warning label"
     }, 
+    "its_msg_31": {
+        "message": "TF2 \u0420\u044e\u043a\u0437\u0430\u043a Viewer - \u0424\u0443\u043d\u043a\u0446\u0438\u0438", 
+        "message-retranslated": "TF2 Backpack Viewer - Options", 
+        "description": "options page title"
+    }, 
     "refresh_nochange": {
         "message": "\u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u043d\u0430\u044f \u043a\u0430\u043d\u0430\u043b - \u0431\u0435\u0437 \u043f\u0435\u0440\u0435\u043c\u0435\u043d", 
         "message-retranslated": "Updated channel - no change", 
         "description": "feed refreshed without changes"
     }, 
-    "language_code": {
-        "message": "ru", 
-        "description": ""
+    "extension_default_title": {
+        "message": "\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440 Team Fortress 2 \u0420\u044e\u043a\u0437\u0430\u043a", 
+        "message-retranslated": "View Team Fortress 2 Backpack", 
+        "description": "Extension default title for browser action"
     }, 
     "its_msg_30": {
         "message": "\u043d\u0430 Steam Community", 
         "message-retranslated": "on Steam Community", 
         "description": "fragment"
     }, 
-    "extension_default_title": {
-        "message": "\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440 Team Fortress 2 \u0420\u044e\u043a\u0437\u0430\u043a", 
-        "message-retranslated": "View Team Fortress 2 Backpack", 
-        "description": "Extension default title for browser action"
+    "parse_error": {
+        "message": "Parse Error", 
+        "message-retranslated": "Parse Error", 
+        "description": "some kind of parse error"
+    }, 
+    "its_msg_32": {
+        "message": "\u0410\u043d\u043a\u0435\u0442\u0430 ID", 
+        "message-retranslated": "Profile ID", 
+        "description": "profile id label"
+    }, 
+    "its_msg_33": {
+        "message": "\u041e\u0442\u043c\u0435\u043d\u0430", 
+        "message-retranslated": "Cancel", 
+        "description": "cancel label, such as for a button"
     }, 
     "its_msg_16": {
         "message": "\u041d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u043e \u041f\u0443\u043d\u043a\u0442\u044b", 
@@ -73,10 +103,10 @@
         "message-retranslated": "Statistics", 
         "description": "stats button"
     }, 
-    "its_msg_13": {
-        "message": "\u0412\u0441\u0435\u0433\u043e \u044d\u043a\u0437\u0435\u043c\u043f\u043b\u044f\u0440\u043e\u0432", 
-        "message-retranslated": "Total Items", 
-        "description": "total item count stats title"
+    "other_error": {
+        "message": "\u041d\u0435\u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0434\u0440\u0443\u0433\u0438\u0435 \u043e\u0448\u0438\u0431\u043a\u0438", 
+        "message-retranslated": "Some other bugs", 
+        "description": "some other kind of error occurred."
     }, 
     "its_msg_10": {
         "message": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u044c", 
@@ -97,6 +127,11 @@
         "message": "\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u044b \u043f\u0440\u043e\u0444\u0438\u043b\u044f", 
         "message-retranslated": "Profile Views", 
         "description": "count of profile views"
+    }, 
+    "request_aborted": {
+        "message": "\u0412\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0435 \u0437\u0430\u043f\u0440\u043e\u0441\u0430 \u043f\u0440\u0435\u0440\u0432\u0430\u043d\u043e \u043f\u043e \u0442\u0430\u0439\u043c\u0430\u0443\u0442\u0443", 
+        "message-retranslated": "Processing Request timed out", 
+        "description": "request aborted label"
     }, 
     "seconds": {
         "message": "\u0441\u0435\u043a\u0443\u043d\u0434", 
@@ -143,10 +178,10 @@
         "message-retranslated": "Information on the nature $1", 
         "description": "character info title"
     }, 
-    "its_msg_0": {
-        "message": "Team Fortress 2 \u0420\u044e\u043a\u0437\u0430\u043a Access (\u041d\u043e\u0432\u044b\u0439 \u0438 \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u043d\u044b\u0439)", 
-        "message-retranslated": "Team Fortress 2 Backpack Access (New and Improved)", 
-        "description": "page title"
+    "network_error": {
+        "message": "\u041e\u0448\u0438\u0431\u043a\u0430 \u0441\u0435\u0442\u0438", 
+        "message-retranslated": "Network Error", 
+        "description": "some kind of network error"
     }, 
     "its_msg_1": {
         "message": "\u0410\u043d\u043a\u0435\u0442\u0430 ID \u041d\u0435 \u0443\u043a\u0430\u0437\u0430\u043d!", 
@@ -167,6 +202,11 @@
         "message": "Bad Data Feed", 
         "message-retranslated": "Bad Data Feed", 
         "description": "bad data feed label"
+    }, 
+    "feed_url_error": {
+        "message": "URL \u043b\u0435\u043d\u0442\u044b", 
+        "message-retranslated": "Feed URL", 
+        "description": "error because the feed url is empty"
     }, 
     "its_msg_29": {
         "message": "\u043e\u043a\u043e\u043b\u043e", 
@@ -223,6 +263,11 @@
         "message-retranslated": "Refreshing", 
         "description": "refreshing text goes here"
     }, 
+    "level": {
+        "message": "\u0423\u0440\u043e\u0432\u0435\u043d\u044c $1 $2", 
+        "message-retranslated": "Level $1 $2", 
+        "description": "level label"
+    }, 
     "extension_name": {
         "message": "Team Fortress 2 \u0420\u044e\u043a\u0437\u0430\u043a \u0434\u043e\u0441\u0442\u0443\u043f\u0430", 
         "message-retranslated": "Team Fortress 2 Backpack access", 
@@ -237,5 +282,15 @@
         "message": "\u041e\u0448\u0438\u0431\u043a\u0430", 
         "message-retranslated": "Mistake", 
         "description": "error label"
+    }, 
+    "its_msg_13": {
+        "message": "\u0412\u0441\u0435\u0433\u043e \u044d\u043a\u0437\u0435\u043c\u043f\u043b\u044f\u0440\u043e\u0432", 
+        "message-retranslated": "Total Items", 
+        "description": "total item count stats title"
+    }, 
+    "its_msg_0": {
+        "message": "Team Fortress 2 \u0420\u044e\u043a\u0437\u0430\u043a Access (\u041d\u043e\u0432\u044b\u0439 \u0438 \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u043d\u044b\u0439)", 
+        "message-retranslated": "Team Fortress 2 Backpack Access (New and Improved)", 
+        "description": "page title"
     }
 }

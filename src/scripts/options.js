@@ -1,42 +1,47 @@
 var originalMsg = "";
 
 
-function markDirty() {
+var markDirty = function() {
     $("#save").attr("disabled", false);
-}
+};
 
 
-function markClean() {
+var markClean = function() {
     $("#save").attr("disabled", true);
-}
+};
 
 
-function save(cb) {
+var save = function(cb) {
     var newProfileId = $("#profileId").attr("value");
     if (newProfileId == storage.profileId()) { return; }
     profile.search(
 	newProfileId,
 	function(foundId) {
 	    if (newProfileId != foundId) {
-		$("#msg").text("Using SteamID " + foundId + " for " + newProfileId + ".")
+		$("#msg").text(_({key: "profile_found", subs:[foundId, newProfileId]}))
 	        .fadeIn()
 	        .delay(5000)
 	        .fadeOut();
             }
             $("#profileId").attr("value", foundId);
+	    storage.clear();
             storage.profileId(foundId);
+	    chrome.extension.sendRequest({type:"driver", message:"refresh"},
+					 function(response) {});
 	    if (cb) { cb() }
 	},
 	function(error) {
-	    error = error ? (error.statusText||"Network error") : "Fetch error";
+	    error = error ? (error.statusText||_("network_error")) : _("other_error");
 	    var msg = "(" + error + ")";
 	    $("#profileId").select().focus();
 	    $("#msg").text("SteamID not found.  Please try again " + msg + ".").fadeIn();
-	});
-}
+	}
+    );
+};
 
 
-function optionsInit(callback) {
+var optionsInit = function(callback) {
+    i18nize();
     if (!originalMsg) {
 	originalMsg = $("#msg").text()
     }
@@ -45,6 +50,8 @@ function optionsInit(callback) {
     $("#profileId").keypress(function(e) {
 	if (e.keyCode==13) {
 	    save(callback);
+	} else {
+	    markDirty();
 	}
     });
     $("#save").click(function() {save(callback)} );
@@ -56,4 +63,4 @@ function optionsInit(callback) {
     } else {
 	markClean();
     }
-}
+};

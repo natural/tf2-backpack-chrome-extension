@@ -113,32 +113,10 @@ source_filename = os.path.abspath("../_locales/en/messages.json")
 ## where we're going to write translations
 target_dir = os.path.abspath("../_locales")
 
-## locale mapping; these are the locales supported by tf2, which form
-## subset of the locales supported by chrome.
-locale_files = [
-    ('en', 'tf2_english.txt'),
-
-    ('da', 'tf_danish.txt'),
-    ('de', 'tf_german.txt'),
-    ('es', 'tf_spanish.txt'),
-    ('fi', 'tf_finnish.txt'),
-    ('fr', 'tf_french.txt'),
-    ('it', 'tf_italian.txt'),
-    ('ja', 'tf_japanese.txt'),
-    ('ko', 'tf_korean.txt'),
-#    ('k?', 'tf_koreana.txt'), ## alternate korean?
-    ('nl', 'tf_dutch.txt'),
-#    ('no', 'tf_norwegian.txt'), ## not yet supported by chrome
-    ('pl', 'tf_polish.txt'),
-    ('pt', 'tf_portuguese.txt'),
-    ('ru', 'tf_russian.txt'),
-    ('sv', 'tf_swedish.txt'),
-    ('zh_CN', 'tf_schinese.txt'),
-    ('zh_TW', 'tf_tchinese.txt'),
-]
 
 
 if __name__ == '__main__':
+    from map_locale import locale_files
     source_msgs = json.load(open(source_filename))
     if len(sys.argv) > 1:
 	locale_map = dict(locale_files)

@@ -150,7 +150,6 @@ var i18nMap = {
 	    var h = $("h2."+id);
 	    var i = $("#steamID").parent().html();
 	    h.html(_({key:id, subs:[i]}));
-	    console.log(h,i);
 	},
 
 };

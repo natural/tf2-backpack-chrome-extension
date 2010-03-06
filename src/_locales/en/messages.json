@@ -71,8 +71,38 @@
 	"message": "Equipped",
 	"description": "equipped label"
     },
-
-
+    "request_aborted": {
+	"message": "Request Aborted by Timeout",
+	"description": "request aborted label"
+    },
+    "parse_error": {
+	"message": "Parse Error",
+	"description": "some kind of parse error"
+    },
+    "network_error": {
+	"message": "Network Error",
+	"description": "some kind of network error"
+    },
+    "feed_url_error": {
+	"message": "No Feed URL",
+	"description": "error because the feed url is empty"
+    },
+    "other_error": {
+	"message": "Some Other Error",
+	"description": "some other kind of error occurred."
+    },
+    "profile_found": {
+	"message": "Using Steam ID $1 for $2.",
+	"description": "steam id found in search"
+    },
+    "no_change": {
+	"message": "No change",
+	"description": "nothing changed, but have a label!"
+    },
+    "level": {
+	"message": "Level $1 $2",
+	"description": "level label"
+    },
 
     "its_msg_0": {
         "message": "Team Fortress 2 Backpack Access (New and Improved)",
@@ -199,7 +229,20 @@
     "its_msg_30": {
         "message": "at the Steam Community",
 	"description": "fragment"
+    },
+    "its_msg_31": {
+	"message": "TF2 Backpack Viewer - Options",
+	"description": "options page title"
+    },
+    "its_msg_32": {
+	"message": "Profile ID",
+	"description": "profile id label"
+    },
+    "its_msg_33": {
+	"message": "Cancel",
+	"description": "cancel label, such as for a button"
     }
+
 
 
 }

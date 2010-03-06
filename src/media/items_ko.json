@@ -1,0 +1,700 @@
+{
+    "133": {
+        "positive": [
+            "\ub85c\ucf13 \uc810\ud504\uc5d0\uc11c -75% \ube14\ub798\uc2a4\ud2b8 \ub370\ubbf8\uc9c0"
+        ], 
+        "type": "\ubd80\uce20", 
+        "description": "\uac74\ubcf4\ud2b8"
+    }, 
+    "132": {
+        "alt": [
+            "\uc774 \ubb34\uae30\ub294 \uadfc\uc811 \uc0ac\uc815 \uac70\ub9ac\uac00 \ub113\uc2b5\ub2c8\ub2e4.\n\uba38\ub9ac\ub97c \ubca8 \ub54c\ub9c8\ub2e4 \uc18d\ub3c4\uc640 HP\uac00 \uc99d\uac00\ud569\ub2c8\ub2e4."
+        ], 
+        "type": "\uce7c", 
+        "negative": [
+            "\ucc29\uc6a9 \uc2dc -25 \ucd5c\ub300 \uccb4\ub825", 
+            "\ub79c\ub364 \uce58\uba85\ud0c0 \uc5c6\uc74c"
+        ], 
+        "description": "\uc544\uc774\ub79c\ub354"
+    }, 
+    "131": {
+        "positive": [
+            "\ucc29\uc6a9 \uc2dc +50% \ud654\uc5fc \ub370\ubbf8\uc9c0 \uc800\ud56d", 
+            "\ucc29\uc6a9 \uc2dc +50% \ud3ed\ubc1c \ub370\ubbf8\uc9c0 \uc800\ud56d"
+        ], 
+        "alt": [
+            "\ubcf4\uc870 \uae30\ub2a5 \uc0ac\uc6a9: \uc801\uc5d0\uac8c \ub3cc\uc9c4\ud568\uc73c\ub85c\uc368 \uacf5\uaca9\ub825\uc774 \ud5a5\uc0c1\ub429\ub2c8\ub2e4."
+        ], 
+        "type": "\ubc29\ud328", 
+        "description": "\ub3cc\uaca9 \ubc29\ud328"
+    }, 
+    "130": {
+        "positive": [
+            "\ucc29\uc6a9 \uc2dc +50% \ucd5c\ub300 \ubcf4\uc870 \ubb34\uae30 \ud0c4\uc57d", 
+            "+6 \ucd5c\ub300 \ud30c\uc774\ud504 \ud3ed\ud0c4 \ubc1c\uc0ac \uc218", 
+            "\uc870\uc900\uc120 \uadfc\ucc98\uc758 \uc810\ucc29 \ud3ed\ud0c4 \ud3ed\ud30c", 
+            "\uc801 \uc810\ucc29 \ud3ed\ud0c4 \ud30c\uad34 \uac00\ub2a5"
+        ], 
+        "type": "\uc810\ucc29 \ud3ed\ud0c4 \ubc1c\uc0ac\uae30", 
+        "negative": [
+            "\ud3ed\ud0c4 \uc7a5\ucc29 \uc2dc\uac04 0.4\ucd08 \uac10\uc18c"
+        ], 
+        "description": "\uc2a4\ucf54\ud2f0\uc2dc \ub808\uc9c0\uc2a4\ud0d5\uc2a4"
+    }, 
+    "137": {
+        "type": "Hat", 
+        "description": "TF_NobleAmassment_Hat"
+    }, 
+    "136": {
+        "alt": [
+            "TF_PropagandaContest_SecondPlace_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_PropagandaContest_SecondPlace"
+    }, 
+    "135": {
+        "type": "Hat", 
+        "description": "TF_ToweringPillar_Hat"
+    }, 
+    "134": {
+        "alt": [
+            "TF_PropagandaContest_FirstPlace_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_PropagandaContest_FirstPlace"
+    }, 
+    "139": {
+        "type": "Hat", 
+        "description": "TF_ModestPile_Hat"
+    }, 
+    "138": {
+        "alt": [
+            "TF_PropagandaContest_ThirdPlace_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_PropagandaContest_ThirdPlace"
+    }, 
+    "24": {
+        "type": "\uad8c\ucd1d", 
+        "description": "\uad8c\ucd1d"
+    }, 
+    "25": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "26": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "27": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "20": {
+        "type": "\uc810\ucc29 \ud3ed\ud0c4 \ubc1c\uc0ac\uae30", 
+        "description": "\uc810\ucc29 \ud3ed\ud0c4 \ubc1c\uc0ac\uae30"
+    }, 
+    "21": {
+        "type": "\ud654\uc5fc \ubc29\uc0ac\uae30", 
+        "description": "\ud654\uc5fc \ubc29\uc0ac\uae30"
+    }, 
+    "22": {
+        "type": "\ud53c\uc2a4\ud1a8", 
+        "description": "\ud53c\uc2a4\ud1a8"
+    }, 
+    "23": {
+        "type": "\ud53c\uc2a4\ud1a8", 
+        "description": "\ud53c\uc2a4\ud1a8"
+    }, 
+    "28": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "29": {
+        "type": "\uba54\ub514 \uac74", 
+        "description": "\uba54\ub514 \uac74"
+    }, 
+    "0": {
+        "type": "\uc57c\uad6c\ubc29\ub9dd\uc774", 
+        "description": "\uc57c\uad6c\ubc29\ub9dd\uc774"
+    }, 
+    "4": {
+        "type": "\uce7c", 
+        "description": "\uce7c"
+    }, 
+    "8": {
+        "type": "\ubcf8\uc3d8\uc6b0", 
+        "description": "\ubcf8\uc3d8\uc6b0"
+    }, 
+    "120": {
+        "type": "Hat", 
+        "description": "\uc2a4\ucf54\ud2b8\ub9e8 \uc2e4\ud06c \ud587"
+    }, 
+    "121": {
+        "type": "\uba54\ub2ec", 
+        "description": "\uc2e0\uc0ac\uc758 \uc11c\ube44\uc2a4 \uba54\ub2ec"
+    }, 
+    "122": {
+        "type": "Cheat Detector", 
+        "description": "\uadc0\ud558\uc758 \uacc4\uc815\uc774 \ubd80\uc815 \ud589\uc704 \uc0ac\uc6a9\uc790\ub85c \ub4f1\ub85d\ub418\uc5c8\uc2b5\ub2c8\ub2e4. \ubd80\uc815 \ud589\uc704\ub85c \uc778\ud55c \uc544\uc774\ud15c\uc774 \uc81c\uac70\ub418\uc5c8\uc2b5\ub2c8\ub2e4.\n\n\ud5a5\ud6c4 \ubd80\uc815 \ud589\uc704\uac00 \uc801\ubc1c\ub418\uba74 \ubaa8\ub4e0 \uc544\uc774\ud15c\uc774 \uc0ac\ub77c\uc9c8 \uc218 \uc788\uc73c\ub2c8 \uc8fc\uc758\ud558\uc2dc\uae30 \ubc14\ub78d\ub2c8\ub2e4."
+    }, 
+    "123": {
+        "type": "Cheat Detector", 
+        "description": "\uadc0\ud558\uc758 \uacc4\uc815\uc774 \ubd80\uc815 \ud589\uc704 \uc0ac\uc6a9\uc790\ub85c \ub4f1\ub85d\ub418\uc5c8\uc2b5\ub2c8\ub2e4. \uc778\ubca4\ud1a0\ub9ac\uc758 \ubaa8\ub4e0 \uc544\uc774\ud15c\uc774 \uc81c\uac70\ub418\uc5c8\uc2b5\ub2c8\ub2e4.\n\n\ud5a5\ud6c4 \ubd80\uc815 \ud589\uc704\uac00 \uc801\ubc1c\ub418\uba74 \uacc4\uc815\uc774 \uc815\uc9c0\ub420 \uc218 \uc788\uc73c\ub2c8 \uc8fc\uc758\ud558\uc2dc\uae30 \ubc14\ub78d\ub2c8\ub2e4."
+    }, 
+    "124": {
+        "type": "Cheat Detector", 
+        "description": "\ucd95\ud558\ud569\ub2c8\ub2e4! \uc815\uc9c1\ud568\uc758 \ub300\uac00\ub85c \uc0c8\ub85c\uc6b4 \ubaa8\uc790\ub97c \ubc1b\uc558\uc2b5\ub2c8\ub2e4!\n\n(\uc77c\ubd80 \ub2e4\ub978 \ud50c\ub808\uc774\uc5b4\ub294 \uc591\uc2ec\uc774 \ubd80\uc871\ud558\uac70\ub098 \uc6b4\uc774 \ub098\uc068)"
+    }, 
+    "125": {
+        "alt": [
+            "%s1% \ub370\ubbf8\uc9c0"
+        ], 
+        "type": "\uc21c\uc218\ud568\uc758 \uc624\ub7ec", 
+        "description": "\uce58\ud130\uc758 \ube44\ud0c4"
+    }, 
+    "126": {
+        "type": "\ucc38\uc804\uc6a9\uc0ac\uc758 \ubca0\ub808\ubaa8", 
+        "description": "\ube4c\uc758 \ubaa8\uc790"
+    }, 
+    "127": {
+        "positive": [
+            "\uc0c1\uacf5\uc758 \ub300\uc0c1\uc5d0\uac8c \ucd5c\uc18c \uce58\uba85\ud0c0\uc728", 
+            "+25% \ub370\ubbf8\uc9c0", 
+            "+80% \ubc1c\uc0ac \uc18d\ub3c4"
+        ], 
+        "type": "\ub85c\ucf13\ud0c4 \ubc1c\uc0ac\uae30", 
+        "negative": [
+            "-70% \ud3ed\ubc1c \ubc94\uc704"
+        ], 
+        "description": "\ub2e4\uc774\ub809\ud2b8 \ud788\ud2b8"
+    }, 
+    "128": {
+        "positive": [
+            "\ud50c\ub808\uc774\uc5b4\uac00 \ubd80\uc0c1\uc744 \ub2f9\ud560\uc218\ub85d \ub370\ubbf8\uc9c0 \ubc0f \uc774\ub3d9 \uc18d\ub3c4 \uc99d\uac00"
+        ], 
+        "type": "\uace1\uad2d\uc774", 
+        "description": "\uc774\ud004\ub77c\uc774\uc800"
+    }, 
+    "129": {
+        "type": "\uc804\ud22c \uae43\ubc1c", 
+        "description": "\ubc84\ud504 \uae43\ubc1c"
+    }, 
+    "59": {
+        "positive": [
+            "+80% \ud074\ub85c\ud0b9 \uc7ac\uc0dd \uc18d\ub3c4"
+        ], 
+        "alt": [
+            "\ud074\ub85c\ud0b9 \uc720\ud615: \ud398\uc778 \ub370\uc2a4"
+        ], 
+        "type": "\ud22c\uba85 \uc2dc\uacc4", 
+        "negative": [
+            "+60% \ud074\ub85c\ud0b9 \uace0\uac08 \uc18d\ub3c4"
+        ], 
+        "description": "\ub370\ub4dc \ub9c1\uc5b4"
+    }, 
+    "58": {
+        "alt": [
+            "\uc790\ub77c\ub370\uc5d0 \ub2f9\ud55c \uc801\uc740 \ucd5c\uc18c \uce58\uba85\ud0c0\uc728\n\ubd88\uc744 \ub044\ub294\ub370\ub3c4 \uc720\uc6a9"
+        ], 
+        "type": "\uc720\ub9ac\ubcd1 \uac00\ub77c\ub370", 
+        "description": "\uc790\ub77c\ub370"
+    }, 
+    "55": {
+        "type": "Hat", 
+        "description": "\uadc0\uc5ec\uc6b4 \uc911\uc808\ubaa8"
+    }, 
+    "54": {
+        "type": "Hat", 
+        "description": "\uc194\uc838 \uc9c0\ud321\uc774"
+    }, 
+    "57": {
+        "positive": [
+            "\ud55c \ubc88\uc758 \ubc31\uc2a4\ud0ed \uc2dc\ub3c4 \ubc29\uc5b4"
+        ], 
+        "type": "\ubc29\ud328", 
+        "description": "\ub808\uc774\uc800\ubc31"
+    }, 
+    "56": {
+        "type": "\ud65c", 
+        "description": "\uc0ac\ub0e5\ud65c"
+    }, 
+    "51": {
+        "type": "Hat", 
+        "description": "\ud30c\uc774\ub85c \ube44\ub2c8"
+    }, 
+    "50": {
+        "type": "Hat", 
+        "description": "\ud504\ub7ec\uc2dc\uc544 \uacbd\ucc30 \ubaa8\uc790"
+    }, 
+    "53": {
+        "type": "Hat", 
+        "description": "\ud2b8\ub85c\ud53c \ubca8\ud2b8"
+    }, 
+    "52": {
+        "type": "Hat", 
+        "description": "\ud0c0\uc790 \ud5ec\uba67"
+    }, 
+    "5010": {
+        "alt": [
+            "\uccad\uc0ac\uc9c4\uc5d0\uc11c \ud074\ub798\uc2a4\ub97c \uc9c0\uc815\ud558\ub294 \ub370 \uc0ac\uc6a9\ub428"
+        ], 
+        "type": "\uc544\uc774\ud15c \uc81c\uc791", 
+        "description": "\ud074\ub798\uc2a4 \ud1a0\ud070 - \uc2a4\ud30c\uc774"
+    }, 
+    "5011": {
+        "alt": [
+            "\uccad\uc0ac\uc9c4\uc5d0\uc11c \ud074\ub798\uc2a4\ub97c \uc9c0\uc815\ud558\ub294 \ub370 \uc0ac\uc6a9\ub428"
+        ], 
+        "type": "\uc544\uc774\ud15c \uc81c\uc791", 
+        "description": "\ud074\ub798\uc2a4 \ud1a0\ud070 - \uc5d4\uc9c0\ub2c8\uc5b4"
+    }, 
+    "5012": {
+        "alt": [
+            "\uccad\uc0ac\uc9c4\uc5d0\uc11c \ub85c\ub4dc\uc544\uc6c3 \uc2ac\ub86f\uc744 \uc9c0\uc815\ud558\ub294 \ub370 \uc0ac\uc6a9\ub428"
+        ], 
+        "type": "\uc544\uc774\ud15c \uc81c\uc791", 
+        "description": "\uc2ac\ub86f \ud1a0\ud070 - \uc8fc"
+    }, 
+    "5013": {
+        "alt": [
+            "\uccad\uc0ac\uc9c4\uc5d0\uc11c \ub85c\ub4dc\uc544\uc6c3 \uc2ac\ub86f\uc744 \uc9c0\uc815\ud558\ub294 \ub370 \uc0ac\uc6a9\ub428"
+        ], 
+        "type": "\uc544\uc774\ud15c \uc81c\uc791", 
+        "description": "\uc2ac\ub86f \ud1a0\ud070 - \ubcf4\uc870"
+    }, 
+    "5014": {
+        "alt": [
+            "\uccad\uc0ac\uc9c4\uc5d0\uc11c \ub85c\ub4dc\uc544\uc6c3 \uc2ac\ub86f\uc744 \uc9c0\uc815\ud558\ub294 \ub370 \uc0ac\uc6a9\ub428"
+        ], 
+        "type": "\uc544\uc774\ud15c \uc81c\uc791", 
+        "description": "\uc2ac\ub86f \ud1a0\ud070 - \uadfc\uc811"
+    }, 
+    "5015": {
+        "alt": [
+            "\uccad\uc0ac\uc9c4\uc5d0\uc11c \ub85c\ub4dc\uc544\uc6c3 \uc2ac\ub86f\uc744 \uc9c0\uc815\ud558\ub294 \ub370 \uc0ac\uc6a9\ub428"
+        ], 
+        "type": "\uc544\uc774\ud15c \uc81c\uc791", 
+        "description": "\uc2ac\ub86f \ud1a0\ud070 - \uc218\ub958\ud0c4"
+    }, 
+    "5016": {
+        "alt": [
+            "\uccad\uc0ac\uc9c4\uc5d0\uc11c \ub85c\ub4dc\uc544\uc6c3 \uc2ac\ub86f\uc744 \uc9c0\uc815\ud558\ub294 \ub370 \uc0ac\uc6a9\ub428"
+        ], 
+        "type": "\uc544\uc774\ud15c \uc81c\uc791", 
+        "description": "\uc2ac\ub86f \ud1a0\ud070 - \uac74\ubb3c"
+    }, 
+    "5017": {
+        "alt": [
+            "\uccad\uc0ac\uc9c4\uc5d0\uc11c \ub85c\ub4dc\uc544\uc6c3 \uc2ac\ub86f\uc744 \uc9c0\uc815\ud558\ub294 \ub370 \uc0ac\uc6a9\ub428"
+        ], 
+        "type": "\uc544\uc774\ud15c \uc81c\uc791", 
+        "description": "\uc2ac\ub86f \ud1a0\ud070 - PDA"
+    }, 
+    "5018": {
+        "alt": [
+            "\uccad\uc0ac\uc9c4\uc5d0\uc11c \ub85c\ub4dc\uc544\uc6c3 \uc2ac\ub86f\uc744 \uc9c0\uc815\ud558\ub294 \ub370 \uc0ac\uc6a9\ub428"
+        ], 
+        "type": "\uc544\uc774\ud15c \uc81c\uc791", 
+        "description": "\uc2ac\ub86f \ud1a0\ud070 - PDA2"
+    }, 
+    "5019": {
+        "alt": [
+            "\uccad\uc0ac\uc9c4\uc5d0\uc11c \ub85c\ub4dc\uc544\uc6c3 \uc2ac\ub86f\uc744 \uc9c0\uc815\ud558\ub294 \ub370 \uc0ac\uc6a9\ub428"
+        ], 
+        "type": "\uc544\uc774\ud15c \uc81c\uc791", 
+        "description": "\uc2ac\ub86f \ud1a0\ud070 - \ud5e4\ub4dc"
+    }, 
+    "115": {
+        "type": "\ucd95\uc81c \ubaa8\uc790", 
+        "description": "\uc57d\uac04 \ubc29\ud574\ub418\ub294 \ud560\ub85c\uc708 \ub9c8\uc2a4\ud06c"
+    }, 
+    "117": {
+        "type": "Hat", 
+        "description": "\ub9bf\uc9c0 \ub9ad \ubaa8\ubc1c \uace0\uc815\uc81c"
+    }, 
+    "116": {
+        "alt": [
+            "\uc774\ub2c8\uc15c 'Z.M.'\uc774 \uc218\ub193\uc544\uc838 \uc788\uc74c"
+        ], 
+        "type": "Hat", 
+        "description": "\ubb34\uc2dc\ubb34\uc2dc\ud55c \uc624\ud398\ub77c \ubaa8\uc790"
+    }, 
+    "111": {
+        "type": "Hat", 
+        "description": "\ubca0\uc774\uc2a4\ubcfc \ube4c \uc2a4\ud3ec\uce20 \uc0e4\uc778"
+    }, 
+    "110": {
+        "type": "Hat", 
+        "description": "\ub9c8\uc2a4\ud130\uc758 \ub178\ub780 \ubca8\ud2b8"
+    }, 
+    "118": {
+        "type": "Hat", 
+        "description": "\ud14d\uc0ac\uc2a4 \uc2ac\ub9bd \ub3d4 \uc0e4\uc778"
+    }, 
+    "3": {
+        "type": "\ucfe0\ud06c\ub9ac", 
+        "description": "\ucfe0\ud06c\ub9ac"
+    }, 
+    "7": {
+        "type": "\ub80c\uce58", 
+        "description": "\ub80c\uce58"
+    }, 
+    "other_attributes": {
+        "133": "Medal no. %s1", 
+        "132": "Given to valuable Community Contributors"
+    }, 
+    "5003": {
+        "alt": [
+            "\uccad\uc0ac\uc9c4\uc5d0\uc11c \ud074\ub798\uc2a4\ub97c \uc9c0\uc815\ud558\ub294 \ub370 \uc0ac\uc6a9\ub428"
+        ], 
+        "type": "\uc544\uc774\ud15c \uc81c\uc791", 
+        "description": "\ud074\ub798\uc2a4 \ud1a0\ud070 - \uc2a4\uce74\uc6c3"
+    }, 
+    "5002": {
+        "type": "\uc544\uc774\ud15c \uc81c\uc791", 
+        "description": "\uc815\uc81c \uae08\uc18d"
+    }, 
+    "5001": {
+        "type": "\uc544\uc774\ud15c \uc81c\uc791", 
+        "description": "\uc7ac\ud65c\uc6a9 \uae08\uc18d"
+    }, 
+    "5000": {
+        "type": "\uc544\uc774\ud15c \uc81c\uc791", 
+        "description": "\ud3d0\uae30 \uae08\uc18d"
+    }, 
+    "5007": {
+        "alt": [
+            "\uccad\uc0ac\uc9c4\uc5d0\uc11c \ud074\ub798\uc2a4\ub97c \uc9c0\uc815\ud558\ub294 \ub370 \uc0ac\uc6a9\ub428"
+        ], 
+        "type": "\uc544\uc774\ud15c \uc81c\uc791", 
+        "description": "\ud074\ub798\uc2a4 \ud1a0\ud070 - \ud5e4\ube44"
+    }, 
+    "5006": {
+        "alt": [
+            "\uccad\uc0ac\uc9c4\uc5d0\uc11c \ud074\ub798\uc2a4\ub97c \uc9c0\uc815\ud558\ub294 \ub370 \uc0ac\uc6a9\ub428"
+        ], 
+        "type": "\uc544\uc774\ud15c \uc81c\uc791", 
+        "description": "\ud074\ub798\uc2a4 \ud1a0\ud070 - \ub370\ubaa8\ub9e8"
+    }, 
+    "5005": {
+        "alt": [
+            "\uccad\uc0ac\uc9c4\uc5d0\uc11c \ud074\ub798\uc2a4\ub97c \uc9c0\uc815\ud558\ub294 \ub370 \uc0ac\uc6a9\ub428"
+        ], 
+        "type": "\uc544\uc774\ud15c \uc81c\uc791", 
+        "description": "\ud074\ub798\uc2a4 \ud1a0\ud070 - \uc194\uc838"
+    }, 
+    "5004": {
+        "alt": [
+            "\uccad\uc0ac\uc9c4\uc5d0\uc11c \ud074\ub798\uc2a4\ub97c \uc9c0\uc815\ud558\ub294 \ub370 \uc0ac\uc6a9\ub428"
+        ], 
+        "type": "\uc544\uc774\ud15c \uc81c\uc791", 
+        "description": "\ud074\ub798\uc2a4 \ud1a0\ud070 - \uc2a4\ub098\uc774\ud37c"
+    }, 
+    "5009": {
+        "alt": [
+            "\uccad\uc0ac\uc9c4\uc5d0\uc11c \ud074\ub798\uc2a4\ub97c \uc9c0\uc815\ud558\ub294 \ub370 \uc0ac\uc6a9\ub428"
+        ], 
+        "type": "\uc544\uc774\ud15c \uc81c\uc791", 
+        "description": "\ud074\ub798\uc2a4 \ud1a0\ud070 - \ud30c\uc774\ub85c"
+    }, 
+    "5008": {
+        "alt": [
+            "\uccad\uc0ac\uc9c4\uc5d0\uc11c \ud074\ub798\uc2a4\ub97c \uc9c0\uc815\ud558\ub294 \ub370 \uc0ac\uc6a9\ub428"
+        ], 
+        "type": "\uc544\uc774\ud15c \uc81c\uc791", 
+        "description": "\ud074\ub798\uc2a4 \ud1a0\ud070 - \uba54\ub515"
+    }, 
+    "108": {
+        "type": "Hat", 
+        "description": "\ub354\ube44 \ubaa8\uc790"
+    }, 
+    "109": {
+        "type": "Hat", 
+        "description": "\ubc00\uc9da \ubaa8\uc790"
+    }, 
+    "9003": {
+        "positive": [
+            "Bans Steam account of players killed", 
+            "This item is not real and is only a joke."
+        ], 
+        "type": "Mallet of Banishment", 
+        "description": "Ban Hammer"
+    }, 
+    "102": {
+        "type": "Hat", 
+        "description": "\uce58\ud0a8 \uc7a5\uac11 \ubaa8\uc790"
+    }, 
+    "103": {
+        "type": "Hat", 
+        "description": "\uce74\uba54\ub77c \ud131\uc218\uc5fc"
+    }, 
+    "100": {
+        "type": "Hat", 
+        "description": "\uc2a4\ucf54\ud2b8 \ubaa8\uc790"
+    }, 
+    "101": {
+        "type": "Hat", 
+        "description": "\ud2f0\ub864\ub9ac\uc5b8 \ubaa8\uc790"
+    }, 
+    "106": {
+        "type": "Hat", 
+        "description": "\ubd09\ud06c \ud5ec\uba67"
+    }, 
+    "107": {
+        "type": "Hat", 
+        "description": "\ub274\uc2a4\ubcf4\uc774 \ubaa8\uc790"
+    }, 
+    "104": {
+        "type": "Hat", 
+        "description": "\uc758\uc0ac \uac70\uc6b8"
+    }, 
+    "105": {
+        "type": "Hat", 
+        "description": "\uc18c\ubc29 \ud5ec\uba67"
+    }, 
+    "39": {
+        "type": "\ud50c\ub808\uc5b4 \uac74", 
+        "description": "\ud50c\ub808\uc5b4 \uac74"
+    }, 
+    "38": {
+        "positive": [
+            "\ubd88\ud0c0\ub294 \uc801\uc5d0\uac8c 100% \uce58\uba85\ud0c0"
+        ], 
+        "type": "\ubd88\ub3c4\ub07c", 
+        "negative": [
+            "\ubd88\ud0c0\uc9c0 \uc54a\ub294 \uc801\uc5d0\uac8c \uce58\uba85\ud0c0 \uc5c6\uc74c", 
+            "\ubd88\ud0c0\uc9c0 \uc54a\ub294 \uc801\uc5d0\uac8c -50% \ub370\ubbf8\uc9c0"
+        ], 
+        "description": "\ub3cc\ub3c4\ub07c"
+    }, 
+    "33": {
+        "type": "\uc8fc\uc0ac\uae30 \uac74", 
+        "description": "\uc8fc\uc0ac\uae30 \uac74"
+    }, 
+    "32": {
+        "type": "\ubcf8\uc3d8\uc6b0", 
+        "description": "\ubcf8\uc3d8\uc6b0"
+    }, 
+    "31": {
+        "type": "\ud50c\ub808\uc5b4 \uac74", 
+        "description": "\ud50c\ub808\uc5b4 \uac74"
+    }, 
+    "30": {
+        "type": "\ud22c\uba85 \uc2dc\uacc4", 
+        "description": "\ud22c\uba85 \uc2dc\uacc4"
+    }, 
+    "37": {
+        "positive": [
+            "\uc801\uc911 \uc2dc: 25% \uc6b0\ubc84\ucc28\uc9c0 \ucd94\uac00"
+        ], 
+        "type": "\ubcf8\uc3d8\uc6b0", 
+        "negative": [
+            "-20% \ub290\ub9b0 \ubc1c\uc0ac \uc18d\ub3c4"
+        ], 
+        "description": "Ubersaw"
+    }, 
+    "36": {
+        "positive": [
+            "\uc801\uc911 \uc2dc: +3 \uccb4\ub825"
+        ], 
+        "type": "\uc8fc\uc0ac\uae30 \uac74", 
+        "negative": [
+            "\ucc29\uc6a9 \uc2dc \ucd08\ub2f9 -2 \uccb4\ub825 \uac10\uc18c"
+        ], 
+        "description": "Blutsauger"
+    }, 
+    "35": {
+        "positive": [
+            "+25% \uc6b0\ubc84\ucc28\uc9c0\uc728"
+        ], 
+        "alt": [
+            "\uc6b0\ubc84\ucc28\uc9c0\ub85c \uce58\uba85\ud0c0\uc728 100%"
+        ], 
+        "type": "\uba54\ub514 \uac74", 
+        "description": "Kritzkrieg"
+    }, 
+    "34": {
+        "type": "\uba54\ub514 \uac74", 
+        "description": "\uba54\ub514 \uac74"
+    }, 
+    "60": {
+        "positive": [
+            "+100% \ud074\ub85c\ud0b9 \uc7ac\uc0dd \uc18d\ub3c4"
+        ], 
+        "alt": [
+            "\ud074\ub85c\ud0b9 \uc720\ud615: \ubaa8\uc158 \uac10\uc9c0"
+        ], 
+        "type": "\ud22c\uba85 \uc2dc\uacc4", 
+        "description": "\ub9dd\ud1a0\uc640 \ub2e8\uac80"
+    }, 
+    "61": {
+        "positive": [
+            "\uc815\ud655\ud55c \ud5e4\ub4dc\uc0f7 \uce58\uba85\ud0c0"
+        ], 
+        "type": "\uad8c\ucd1d", 
+        "negative": [
+            "-15% \ub370\ubbf8\uc9c0", 
+            "-20% \ub290\ub9b0 \ubc1c\uc0ac \uc18d\ub3c4"
+        ], 
+        "description": "\uc570\ubc84\uc11c\ub354"
+    }, 
+    "2": {
+        "type": "\ubd88\ub3c4\ub07c", 
+        "description": "\ubd88\ub3c4\ub07c"
+    }, 
+    "6": {
+        "type": "\uc0bd", 
+        "description": "\uc0bd"
+    }, 
+    "99": {
+        "type": "Hat", 
+        "description": "\ubc14\uc774\ud0b9 \ud5ec\uba67"
+    }, 
+    "98": {
+        "type": "Hat", 
+        "description": "\uc2a4\ud14c\uc778\ub9ac\uc2a4 \ub0c4\ube44"
+    }, 
+    "95": {
+        "type": "Hat", 
+        "description": "\uae30\uc220\uc790 \ubaa8\uc790"
+    }, 
+    "94": {
+        "type": "Hat", 
+        "description": "\ud14d\uc0ac\uc2a4 \uce74\uc6b0\ubaa8\uc774 \ubaa8\uc790"
+    }, 
+    "97": {
+        "type": "Hat", 
+        "description": "\ud130\ud504\uac00\uc774 \ubaa8\uc790"
+    }, 
+    "96": {
+        "type": "Hat", 
+        "description": "\uc7a5\uad50 \ubc29\ud55c\ubaa8"
+    }, 
+    "11": {
+        "type": "\uc0f7\uac74", 
+        "description": "\uc0f7\uac74"
+    }, 
+    "10": {
+        "type": "\uc0f7\uac74", 
+        "description": "\uc0f7\uac74"
+    }, 
+    "13": {
+        "type": "\uc2a4\uce90\ud130\uac74", 
+        "description": "\uc2a4\uce90\ud130\uac74"
+    }, 
+    "12": {
+        "type": "\uc0f7\uac74", 
+        "description": "\uc0f7\uac74"
+    }, 
+    "15": {
+        "type": "\ubbf8\ub2c8\uac74", 
+        "description": "\ubbf8\ub2c8\uac74"
+    }, 
+    "14": {
+        "type": "\uc2a4\ub098\uc774\ud37c \ub77c\uc774\ud50c", 
+        "description": "\uc2a4\ub098\uc774\ud37c \ub77c\uc774\ud50c"
+    }, 
+    "17": {
+        "type": "\uc8fc\uc0ac\uae30 \uac74", 
+        "description": "\uc8fc\uc0ac\uae30 \uac74"
+    }, 
+    "16": {
+        "type": "SMG", 
+        "description": "SMG"
+    }, 
+    "19": {
+        "type": "\uc218\ub958\ud0c4 \ubc1c\uc0ac\uae30", 
+        "description": "\uc218\ub958\ud0c4 \ubc1c\uc0ac\uae30"
+    }, 
+    "18": {
+        "type": "\ub85c\ucf13\ud0c4 \ubc1c\uc0ac\uae30", 
+        "description": "\ub85c\ucf13\ud0c4 \ubc1c\uc0ac\uae30"
+    }, 
+    "48": {
+        "type": "Hat", 
+        "description": "\uad11\ubd80 \ud5ec\uba67"
+    }, 
+    "49": {
+        "type": "Hat", 
+        "description": "\ud48b\ubcfc \ud5ec\uba67"
+    }, 
+    "46": {
+        "type": "\ub3c4\uc2dc\ub77d", 
+        "description": "\ubd09\ud06c! \uc544\ud1a0\ubbf9 \ud380\uce58"
+    }, 
+    "47": {
+        "type": "Hat", 
+        "description": "\ub370\ubaa8\ub9e8 \ud504\ub85c"
+    }, 
+    "44": {
+        "positive": [
+            "\uc774 \ubc29\ub9dd\uc774\ub294 \uc2a4\ud134 \ubcfc\uc744 \uc81c\uac70\ud569\ub2c8\ub2e4."
+        ], 
+        "type": "\uc57c\uad6c\ubc29\ub9dd\uc774", 
+        "negative": [
+            "\ucc29\uc6a9 \uc2dc -15 \ucd5c\ub300 \uccb4\ub825"
+        ], 
+        "description": "\uc0cc\ub4dc\ub9e8"
+    }, 
+    "45": {
+        "positive": [
+            "\ub300\uc0c1 \ubc0f \uacf5\uaca9\uc790 \ub109\ubc31", 
+            "\ubc1c\uc0ac \uac00\uc18d\ub3c4 +50%", 
+            "\uba85\uc911 \uc2dc \uc2e4\ud0c4 +20%"
+        ], 
+        "type": "\uc2a4\uce90\ud130\uac74", 
+        "negative": [
+            "-60% \ud0c4\ucc3d \ud06c\uae30", 
+            "-10% \ub370\ubbf8\uc9c0"
+        ], 
+        "description": "\ud3ec\uc2a4 \uc5b4 \ub124\uc774\ucc98"
+    }, 
+    "42": {
+        "type": "\ub3c4\uc2dc\ub77d", 
+        "description": "\uc0cc\ub4dc\uc704\uce58"
+    }, 
+    "43": {
+        "positive": [
+            "\uc0ac\uc0b4 \uc2dc: 5\ucd08\uac04 \uce58\uba85\ud0c0\uc728 100%"
+        ], 
+        "type": "\uc8fc\uba39", 
+        "negative": [
+            "-20% \ub290\ub9b0 \ubc1c\uc0ac \uc18d\ub3c4"
+        ], 
+        "description": "K.G.B."
+    }, 
+    "40": {
+        "positive": [
+            "\ub4a4\uc5d0\uc11c \uacf5\uaca9 \uc2dc 100% \uce58\uba85\ud0c0"
+        ], 
+        "type": "\ud654\uc5fc \ubc29\uc0ac\uae30", 
+        "negative": [
+            "\ub79c\ub364 \uce58\uba85\ud0c0 \uc5c6\uc74c", 
+            "\uc555\ucd95 \ube14\ub798\uc2a4\ud2b8 \uc5c6\uc74c"
+        ], 
+        "description": "\ubc31\ubc84\ub108"
+    }, 
+    "41": {
+        "positive": [
+            "\uc801\uc911 \uc2dc: 100% \ud655\ub960\ub85c \ub300\uc0c1\uc758 \uc18d\ub3c4 \uac10\uc18c"
+        ], 
+        "type": "\ubbf8\ub2c8\uac74", 
+        "negative": [
+            "-25% \ub370\ubbf8\uc9c0"
+        ], 
+        "description": "\ub098\ud0c0\uc0e4"
+    }, 
+    "1": {
+        "type": "\ubcd1", 
+        "description": "\ubcd1"
+    }, 
+    "5": {
+        "type": "\uc8fc\uba39", 
+        "description": "\uc8fc\uba39"
+    }, 
+    "9": {
+        "type": "\uc0f7\uac74", 
+        "description": "\uc0f7\uac74"
+    }
+}

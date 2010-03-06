@@ -1,0 +1,700 @@
+{
+    "133": {
+        "positive": [
+            "-75% r\u00e4j\u00e4hdysvahinkoa rakettihypyist\u00e4"
+        ], 
+        "type": "Saappaat", 
+        "description": "Ter\u00e4ssaappaat"
+    }, 
+    "132": {
+        "alt": [
+            "T\u00e4ll\u00e4 aseella on pitk\u00e4 kantama l\u00e4hitaistelussa.\nSaat lis\u00e4\u00e4 nopeutta ja terveytt\u00e4 jokaisesta katkaisemastasi p\u00e4\u00e4st\u00e4."
+        ], 
+        "type": "Miekka", 
+        "negative": [
+            "-25 enimm\u00e4isterveys k\u00e4ytt\u00e4j\u00e4lle", 
+            "Ei satunnaisia kriittisi\u00e4 osumia"
+        ], 
+        "description": "Kaulankatkoja"
+    }, 
+    "131": {
+        "positive": [
+            "+50% tulivahingon sietoa k\u00e4ytt\u00e4j\u00e4lle", 
+            "+50% r\u00e4j\u00e4hdysvahingon sietoa k\u00e4ytt\u00e4j\u00e4lle"
+        ], 
+        "alt": [
+            "Vaihtoehtoinen tulitus: Saat lis\u00e4\u00e4 hy\u00f6kk\u00e4ysvoimaa rynn\u00e4k\u00f6im\u00e4ll\u00e4 p\u00e4in vihollisia."
+        ], 
+        "type": "Suoja", 
+        "description": "Rynn\u00e4kk\u00f6kilpi"
+    }, 
+    "130": {
+        "positive": [
+            "+50% kakkosaseen ammusten enimm\u00e4ism\u00e4\u00e4r\u00e4 k\u00e4ytt\u00e4j\u00e4lle", 
+            "+6 putkipommien enimm\u00e4ism\u00e4\u00e4r\u00e4", 
+            "R\u00e4j\u00e4ytt\u00e4\u00e4 t\u00e4ht\u00e4imen l\u00e4hell\u00e4 olevat tahmapommit", 
+            "Pystyy tuhoamaan vihollisen tahmapommeja"
+        ], 
+        "type": "Tahmapommin laukaisin", 
+        "negative": [
+            "0.4 sekuntia hitaampi pommin viritysaika"
+        ], 
+        "description": "Skotlannin vastarinta"
+    }, 
+    "137": {
+        "type": "Hat", 
+        "description": "TF_NobleAmassment_Hat"
+    }, 
+    "136": {
+        "alt": [
+            "TF_PropagandaContest_SecondPlace_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_PropagandaContest_SecondPlace"
+    }, 
+    "135": {
+        "type": "Hat", 
+        "description": "TF_ToweringPillar_Hat"
+    }, 
+    "134": {
+        "alt": [
+            "TF_PropagandaContest_FirstPlace_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_PropagandaContest_FirstPlace"
+    }, 
+    "139": {
+        "type": "Hat", 
+        "description": "TF_ModestPile_Hat"
+    }, 
+    "138": {
+        "alt": [
+            "TF_PropagandaContest_ThirdPlace_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_PropagandaContest_ThirdPlace"
+    }, 
+    "24": {
+        "type": "Revolveri", 
+        "description": "Revolveri"
+    }, 
+    "25": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "26": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "27": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "20": {
+        "type": "Tahmapommin laukaisin", 
+        "description": "Tahmapommin laukaisin"
+    }, 
+    "21": {
+        "type": "Liekinheitin", 
+        "description": "Liekinheitin"
+    }, 
+    "22": {
+        "type": "Pistooli", 
+        "description": "Pistooli"
+    }, 
+    "23": {
+        "type": "Pistooli", 
+        "description": "Pistooli"
+    }, 
+    "28": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "29": {
+        "type": "L\u00e4\u00e4kint\u00e4ase", 
+        "description": "L\u00e4\u00e4kint\u00e4ase"
+    }, 
+    "0": {
+        "type": "Maila", 
+        "description": "Maila"
+    }, 
+    "4": {
+        "type": "Veitsi", 
+        "description": "Veitsi"
+    }, 
+    "8": {
+        "type": "Luusaha", 
+        "description": "Luusaha"
+    }, 
+    "120": {
+        "type": "Hat", 
+        "description": "Skottilainen silinteri"
+    }, 
+    "121": {
+        "type": "Mitali", 
+        "description": "Herrasmiehen kunniamitali"
+    }, 
+    "122": {
+        "type": "Cheat Detector", 
+        "description": "Tilisi on merkitty esineiden jakeluj\u00e4rjestelm\u00e4n kiert\u00e4misen vuoksi. Poistimme laittomasti hankitut esineet.\n\nSeuraavat rikkomukset johtavat kaikkien esineidesi menett\u00e4miseen."
+    }, 
+    "123": {
+        "type": "Cheat Detector", 
+        "description": "Tilisi on merkitty esineiden jakeluj\u00e4rjestelm\u00e4n kiert\u00e4misen vuoksi. Poistimme kaikki esineet tavaraluettelostasi.\n\nSeuraavat rikkomukset voivat johtaa tilisi poistamiseen."
+    }, 
+    "124": {
+        "type": "Cheat Detector", 
+        "description": "Onneksi olkoon! Rehellisyytesi on palkittu uudella p\u00e4\u00e4hineell\u00e4!\n\n(Joillakin muilla v\u00e4hemm\u00e4n tunnollisilla pelaajilla ei ole k\u00e4ynyt yht\u00e4 hyv\u00e4 onni)"
+    }, 
+    "125": {
+        "alt": [
+            "%s1% aiheutettu vahinko"
+        ], 
+        "type": "Lahjomattoman aura", 
+        "description": "S\u00e4dekeh\u00e4"
+    }, 
+    "126": {
+        "type": "Veteraanin baretti", 
+        "description": "Billin hattu"
+    }, 
+    "127": {
+        "positive": [
+            "Mini-kriittisi\u00e4 osumia ilmassa oleviin kohteisiin", 
+            "+25% aiheutettu vahinko", 
+            "+80% ammuksen nopeus"
+        ], 
+        "type": "Raketinheitin", 
+        "negative": [
+            "-70% r\u00e4j\u00e4hdysalue"
+        ], 
+        "description": "Suoraosuma"
+    }, 
+    "128": {
+        "positive": [
+            "Vahinko ja liikkumisnopeus kasvavat k\u00e4ytt\u00e4j\u00e4n vahingoittuessa"
+        ], 
+        "type": "Hakku", 
+        "description": "Tasoittaja"
+    }, 
+    "129": {
+        "type": "Sotalippu", 
+        "description": "Sotalippu"
+    }, 
+    "59": {
+        "positive": [
+            "+80% verhoutumisen palautumisnopeus"
+        ], 
+        "alt": [
+            "Verhoutumisen tyyppi: n\u00e4yttele kuollutta"
+        ], 
+        "type": "N\u00e4kym\u00e4tt\u00f6myyskello", 
+        "negative": [
+            "+60% verhoutumisen katoamisnopeus"
+        ], 
+        "description": "Kuolemankello"
+    }, 
+    "58": {
+        "alt": [
+            "Aineen peitt\u00e4m\u00e4t viholliset k\u00e4rsiv\u00e4t mini-kriittisi\u00e4 osumia\nSopii my\u00f6s palon sammuttamiseen"
+        ], 
+        "type": "Nestekarate", 
+        "description": "Nestekarate"
+    }, 
+    "55": {
+        "type": "Hat", 
+        "description": "Hieno lierihattu"
+    }, 
+    "54": {
+        "type": "Hat", 
+        "description": "Sotilaan viikset"
+    }, 
+    "57": {
+        "positive": [
+            "Est\u00e4\u00e4 yhden selk\u00e4\u00e4npuukotuksen"
+        ], 
+        "type": "Suoja", 
+        "description": "Selk\u00e4suoja"
+    }, 
+    "56": {
+        "type": "Jousi", 
+        "description": "Mets\u00e4mies"
+    }, 
+    "51": {
+        "type": "Hat", 
+        "description": "Pyron lakki"
+    }, 
+    "50": {
+        "type": "Hat", 
+        "description": "Preussilainen pickelhaube"
+    }, 
+    "53": {
+        "type": "Hat", 
+        "description": "Palkintovy\u00f6"
+    }, 
+    "52": {
+        "type": "Hat", 
+        "description": "Ly\u00f6j\u00e4n kyp\u00e4r\u00e4"
+    }, 
+    "5010": {
+        "alt": [
+            "K\u00e4ytet\u00e4\u00e4n hahmoluokan m\u00e4\u00e4ritt\u00e4miseen piirustuksissa"
+        ], 
+        "type": "Luomiskohde", 
+        "description": "Luokkamerkki - Spy"
+    }, 
+    "5011": {
+        "alt": [
+            "K\u00e4ytet\u00e4\u00e4n hahmoluokan m\u00e4\u00e4ritt\u00e4miseen piirustuksissa"
+        ], 
+        "type": "Luomiskohde", 
+        "description": "Luokkamerkki - Engineer"
+    }, 
+    "5012": {
+        "alt": [
+            "K\u00e4ytet\u00e4\u00e4n varustepaikan m\u00e4\u00e4ritt\u00e4miseen piirustuksissa"
+        ], 
+        "type": "Luomiskohde", 
+        "description": "Paikkamerkki - Ensisijainen"
+    }, 
+    "5013": {
+        "alt": [
+            "K\u00e4ytet\u00e4\u00e4n varustepaikan m\u00e4\u00e4ritt\u00e4miseen piirustuksissa"
+        ], 
+        "type": "Luomiskohde", 
+        "description": "Paikkamerkki - Toissijainen"
+    }, 
+    "5014": {
+        "alt": [
+            "K\u00e4ytet\u00e4\u00e4n varustepaikan m\u00e4\u00e4ritt\u00e4miseen piirustuksissa"
+        ], 
+        "type": "Luomiskohde", 
+        "description": "Paikkamerkki - L\u00e4hitaistelu"
+    }, 
+    "5015": {
+        "alt": [
+            "K\u00e4ytet\u00e4\u00e4n varustepaikan m\u00e4\u00e4ritt\u00e4miseen piirustuksissa"
+        ], 
+        "type": "Luomiskohde", 
+        "description": "Paikkamerkki - Kranaatti"
+    }, 
+    "5016": {
+        "alt": [
+            "K\u00e4ytet\u00e4\u00e4n varustepaikan m\u00e4\u00e4ritt\u00e4miseen piirustuksissa"
+        ], 
+        "type": "Luomiskohde", 
+        "description": "Paikkamerkki - Rakennus"
+    }, 
+    "5017": {
+        "alt": [
+            "K\u00e4ytet\u00e4\u00e4n varustepaikan m\u00e4\u00e4ritt\u00e4miseen piirustuksissa"
+        ], 
+        "type": "Luomiskohde", 
+        "description": "Paikkamerkki - PDA"
+    }, 
+    "5018": {
+        "alt": [
+            "K\u00e4ytet\u00e4\u00e4n varustepaikan m\u00e4\u00e4ritt\u00e4miseen piirustuksissa"
+        ], 
+        "type": "Luomiskohde", 
+        "description": "Paikkamerkki - PDA2"
+    }, 
+    "5019": {
+        "alt": [
+            "K\u00e4ytet\u00e4\u00e4n varustepaikan m\u00e4\u00e4ritt\u00e4miseen piirustuksissa"
+        ], 
+        "type": "Luomiskohde", 
+        "description": "Paikkamerkki - P\u00e4\u00e4"
+    }, 
+    "115": {
+        "type": "Juhlahattu", 
+        "description": "Hiukan h\u00e4iritsev\u00e4 Halloween-naamio"
+    }, 
+    "117": {
+        "type": "Hat", 
+        "description": "Ritzy Rick's Hair Fixative"
+    }, 
+    "116": {
+        "alt": [
+            "Kirjaillut nimikirjaimet Z.M."
+        ], 
+        "type": "Hat", 
+        "description": "Hirvityshattu"
+    }, 
+    "111": {
+        "type": "Hat", 
+        "description": "Baseball Bill's Sports Shine"
+    }, 
+    "110": {
+        "type": "Hat", 
+        "description": "Mestarin keltainen vy\u00f6"
+    }, 
+    "118": {
+        "type": "Hat", 
+        "description": "Texas Slim's Dome Shine"
+    }, 
+    "3": {
+        "type": "Kukri-veitsi", 
+        "description": "Kukri-veitsi"
+    }, 
+    "7": {
+        "type": "Jakoavain", 
+        "description": "Jakoavain"
+    }, 
+    "other_attributes": {
+        "133": "Medal no. %s1", 
+        "132": "Given to valuable Community Contributors"
+    }, 
+    "5003": {
+        "alt": [
+            "K\u00e4ytet\u00e4\u00e4n hahmoluokan m\u00e4\u00e4ritt\u00e4miseen piirustuksissa"
+        ], 
+        "type": "Luomiskohde", 
+        "description": "Luokkamerkki - Scout"
+    }, 
+    "5002": {
+        "type": "Luomiskohde", 
+        "description": "Jalostettu metalli"
+    }, 
+    "5001": {
+        "type": "Luomiskohde", 
+        "description": "Kierr\u00e4tysmetalli"
+    }, 
+    "5000": {
+        "type": "Luomiskohde", 
+        "description": "Metalliromu"
+    }, 
+    "5007": {
+        "alt": [
+            "K\u00e4ytet\u00e4\u00e4n hahmoluokan m\u00e4\u00e4ritt\u00e4miseen piirustuksissa"
+        ], 
+        "type": "Luomiskohde", 
+        "description": "Luokkamerkki - Heavy"
+    }, 
+    "5006": {
+        "alt": [
+            "K\u00e4ytet\u00e4\u00e4n hahmoluokan m\u00e4\u00e4ritt\u00e4miseen piirustuksissa"
+        ], 
+        "type": "Luomiskohde", 
+        "description": "Luokkamerkki - Demo"
+    }, 
+    "5005": {
+        "alt": [
+            "K\u00e4ytet\u00e4\u00e4n hahmoluokan m\u00e4\u00e4ritt\u00e4miseen piirustuksissa"
+        ], 
+        "type": "Luomiskohde", 
+        "description": "Luokkamerkki - Soldier"
+    }, 
+    "5004": {
+        "alt": [
+            "K\u00e4ytet\u00e4\u00e4n hahmoluokan m\u00e4\u00e4ritt\u00e4miseen piirustuksissa"
+        ], 
+        "type": "Luomiskohde", 
+        "description": "Luokkamerkki - Sniper"
+    }, 
+    "5009": {
+        "alt": [
+            "K\u00e4ytet\u00e4\u00e4n hahmoluokan m\u00e4\u00e4ritt\u00e4miseen piirustuksissa"
+        ], 
+        "type": "Luomiskohde", 
+        "description": "Luokkamerkki - Pyro"
+    }, 
+    "5008": {
+        "alt": [
+            "K\u00e4ytet\u00e4\u00e4n hahmoluokan m\u00e4\u00e4ritt\u00e4miseen piirustuksissa"
+        ], 
+        "type": "Luomiskohde", 
+        "description": "Luokkamerkki - Medic"
+    }, 
+    "108": {
+        "type": "Hat", 
+        "description": "Selk\u00e4\u00e4npuukottajan knalli"
+    }, 
+    "109": {
+        "type": "Hat", 
+        "description": "Ammattilaisen panamahattu"
+    }, 
+    "9003": {
+        "positive": [
+            "Bans Steam account of players killed", 
+            "This item is not real and is only a joke."
+        ], 
+        "type": "Mallet of Banishment", 
+        "description": "Ban Hammer"
+    }, 
+    "102": {
+        "type": "Hat", 
+        "description": "Kunnioittamaton kumihanska"
+    }, 
+    "103": {
+        "type": "Hat", 
+        "description": "Kameraparta"
+    }, 
+    "100": {
+        "type": "Hat", 
+        "description": "Glengarry-lakki"
+    }, 
+    "101": {
+        "type": "Hat", 
+        "description": "Tirolilaishattu"
+    }, 
+    "106": {
+        "type": "Hat", 
+        "description": "Naps-kyp\u00e4r\u00e4"
+    }, 
+    "107": {
+        "type": "Hat", 
+        "description": "Pappal\u00e4ts\u00e4"
+    }, 
+    "104": {
+        "type": "Hat", 
+        "description": "Korval\u00e4\u00e4k\u00e4rin peili"
+    }, 
+    "105": {
+        "type": "Hat", 
+        "description": "Palomiehen kyp\u00e4r\u00e4"
+    }, 
+    "39": {
+        "type": "Valopistooli", 
+        "description": "Valopistooli"
+    }, 
+    "38": {
+        "positive": [
+            "100% kriittinen osuma palaviin pelaajiin"
+        ], 
+        "type": "Palokirves", 
+        "negative": [
+            "Ei kriittisi\u00e4 osumia pelaajiin, jotka eiv\u00e4t ole tulessa", 
+            "-50% vahinko pelaajiin, jotka eiv\u00e4t ole tulessa"
+        ], 
+        "description": "Sammutuskirves"
+    }, 
+    "33": {
+        "type": "Ruiskuase", 
+        "description": "Ruiskuase"
+    }, 
+    "32": {
+        "type": "Luusaha", 
+        "description": "Luusaha"
+    }, 
+    "31": {
+        "type": "Valopistooli", 
+        "description": "Valopistooli"
+    }, 
+    "30": {
+        "type": "N\u00e4kym\u00e4tt\u00f6myyskello", 
+        "description": "N\u00e4kym\u00e4tt\u00f6myyskello"
+    }, 
+    "37": {
+        "positive": [
+            "Osumasta: 25% lis\u00e4\u00e4 ylilatausta"
+        ], 
+        "type": "Luusaha", 
+        "negative": [
+            "-20% pienempi tulitusnopeus"
+        ], 
+        "description": "Ubersaw"
+    }, 
+    "36": {
+        "positive": [
+            "Osumasta: +3 terveytt\u00e4"
+        ], 
+        "type": "Ruiskuase", 
+        "negative": [
+            "-2 terveytt\u00e4 pois k\u00e4ytt\u00e4j\u00e4lt\u00e4 sekunnissa"
+        ], 
+        "description": "Blutsauger"
+    }, 
+    "35": {
+        "positive": [
+            "+25% Ylilataus"
+        ], 
+        "alt": [
+            "Ylilataus antaa 100% kriittisen osuman mahdollisuuden"
+        ], 
+        "type": "L\u00e4\u00e4kint\u00e4ase", 
+        "description": "Kritzkrieg"
+    }, 
+    "34": {
+        "type": "L\u00e4\u00e4kint\u00e4ase", 
+        "description": "L\u00e4\u00e4kint\u00e4ase"
+    }, 
+    "60": {
+        "positive": [
+            "+100% verhoutumisen palautumisnopeus"
+        ], 
+        "alt": [
+            "Verhoutumisen tyyppi: liikkeen tunnistava"
+        ], 
+        "type": "N\u00e4kym\u00e4tt\u00f6myyskello", 
+        "description": "Viitta ja tikari"
+    }, 
+    "61": {
+        "positive": [
+            "Kriittisen osuman mahdollisuus tarkasta p\u00e4\u00e4osumasta"
+        ], 
+        "type": "Revolveri", 
+        "negative": [
+            "-15% aiheutettu vahinko", 
+            "-20% pienempi tulitusnopeus"
+        ], 
+        "description": "Suurl\u00e4hettil\u00e4s"
+    }, 
+    "2": {
+        "type": "Palokirves", 
+        "description": "Palokirves"
+    }, 
+    "6": {
+        "type": "Lapio", 
+        "description": "Lapio"
+    }, 
+    "99": {
+        "type": "Hat", 
+        "description": "Tyrannin kyp\u00e4r\u00e4"
+    }, 
+    "98": {
+        "type": "Hat", 
+        "description": "Ruostumaton kattila"
+    }, 
+    "95": {
+        "type": "Hat", 
+        "description": "Engineerin lippis"
+    }, 
+    "94": {
+        "type": "Hat", 
+        "description": "Teksasilaishattu"
+    }, 
+    "97": {
+        "type": "Hat", 
+        "description": "Kovan j\u00e4tk\u00e4n pipo"
+    }, 
+    "96": {
+        "type": "Hat", 
+        "description": "Upseerin ushanka"
+    }, 
+    "11": {
+        "type": "Haulikko", 
+        "description": "Haulikko"
+    }, 
+    "10": {
+        "type": "Haulikko", 
+        "description": "Haulikko"
+    }, 
+    "13": {
+        "type": "Haulikko", 
+        "description": "Haulikko"
+    }, 
+    "12": {
+        "type": "Haulikko", 
+        "description": "Haulikko"
+    }, 
+    "15": {
+        "type": "Konekiv\u00e4\u00e4ri", 
+        "description": "Konekiv\u00e4\u00e4ri"
+    }, 
+    "14": {
+        "type": "Tarkkuuskiv\u00e4\u00e4ri", 
+        "description": "Tarkkuuskiv\u00e4\u00e4ri"
+    }, 
+    "17": {
+        "type": "Ruiskuase", 
+        "description": "Ruiskuase"
+    }, 
+    "16": {
+        "type": "Konepistooli", 
+        "description": "Konepistooli"
+    }, 
+    "19": {
+        "type": "Kranaatinheitin", 
+        "description": "Kranaatinheitin"
+    }, 
+    "18": {
+        "type": "Raketinheitin", 
+        "description": "Raketinheitin"
+    }, 
+    "48": {
+        "type": "Hat", 
+        "description": "Kaivosvalo"
+    }, 
+    "49": {
+        "type": "Hat", 
+        "description": "Jalkapallokyp\u00e4r\u00e4"
+    }, 
+    "46": {
+        "type": "Ev\u00e4srasia", 
+        "description": "Naps! Atomi-isku"
+    }, 
+    "47": {
+        "type": "Hat", 
+        "description": "Demon afro"
+    }, 
+    "44": {
+        "positive": [
+            "T\u00e4ll\u00e4 mailalla ly\u00f6t tyrm\u00e4\u00e4vi\u00e4 palloja"
+        ], 
+        "type": "Maila", 
+        "negative": [
+            "-15 enimm\u00e4isterveys k\u00e4ytt\u00e4j\u00e4lle"
+        ], 
+        "description": "Nukkumatti"
+    }, 
+    "45": {
+        "positive": [
+            "Kohteen ja ampujan potkaisu", 
+            "+50% suurempi tulitusnopeus", 
+            "+20% kuulaa laukausta kohti"
+        ], 
+        "type": "Haulikko", 
+        "negative": [
+            "-60% lippaan koko", 
+            "-10% aiheutettu vahinko"
+        ], 
+        "description": "Luonnonvoima"
+    }, 
+    "42": {
+        "type": "Ev\u00e4srasia", 
+        "description": "Voileip\u00e4"
+    }, 
+    "43": {
+        "positive": [
+            "Taposta: 5 sekuntia 100% kriittisen osuman mahdollisuus"
+        ], 
+        "type": "Nyrkit", 
+        "negative": [
+            "-20% pienempi tulitusnopeus"
+        ], 
+        "description": "Kuolettavat nyrkkeilyhanskat"
+    }, 
+    "40": {
+        "positive": [
+            "100% kriittiset osumat takaap\u00e4in"
+        ], 
+        "type": "Liekinheitin", 
+        "negative": [
+            "Ei satunnaisia kriittisi\u00e4 osumia", 
+            "Ei paineaaltoa"
+        ], 
+        "description": "Liekitin"
+    }, 
+    "41": {
+        "positive": [
+            "Osumasta: 100% mahdollisuus hidastaa kohdetta"
+        ], 
+        "type": "Konekiv\u00e4\u00e4ri", 
+        "negative": [
+            "-25% aiheutettu vahinko"
+        ], 
+        "description": "Natasha"
+    }, 
+    "1": {
+        "type": "Pullo", 
+        "description": "Pullo"
+    }, 
+    "5": {
+        "type": "Nyrkit", 
+        "description": "Nyrkit"
+    }, 
+    "9": {
+        "type": "Haulikko", 
+        "description": "Haulikko"
+    }
+}
