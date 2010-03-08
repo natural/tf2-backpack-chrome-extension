@@ -29,9 +29,10 @@
         "message-retranslated": "3", 
         "description": "the number 3"
     }, 
-    "language_code": {
-        "message": "zh_TW", 
-        "description": ""
+    "its_msg_12": {
+        "message": "\u7d71\u8a08", 
+        "message-retranslated": "Statistics", 
+        "description": "stats button"
     }, 
     "second": {
         "message": "\u7b2c\u4e8c", 
@@ -53,10 +54,9 @@
         "message-retranslated": "Feed refresh - no change", 
         "description": "feed refreshed without changes"
     }, 
-    "extension_default_title": {
-        "message": "\u67e5\u770b\u60a8\u7684\u5718\u968a\u8981\u585e2\u80cc\u5305", 
-        "message-retranslated": "View your backpack Team Fortress 2", 
-        "description": "Extension default title for browser action"
+    "language_code": {
+        "message": "zh_TW", 
+        "description": ""
     }, 
     "its_msg_30": {
         "message": "\u5728\u84b8\u6c7d\u793e\u5340", 
@@ -78,6 +78,16 @@
         "message-retranslated": "Cancel", 
         "description": "cancel label, such as for a button"
     }, 
+    "its_msg_34": {
+        "message": "\u4e0d\u6b63\u78ba\u7684\u7ffb\u8b6f\uff1f", 
+        "message-retranslated": "Is not the correct translation?", 
+        "description": ""
+    }, 
+    "its_msg_35": {
+        "message": "\u63a8\u85a6\u4e00\u4e9b\u66f4\u597d", 
+        "message-retranslated": "Recommend some more", 
+        "description": ""
+    }, 
     "its_msg_16": {
         "message": "\u672a\u77e5\u9805\u76ee", 
         "message-retranslated": "Unknown Project", 
@@ -98,10 +108,10 @@
         "message-retranslated": "Hat", 
         "description": "hat count stats title"
     }, 
-    "its_msg_12": {
-        "message": "\u7d71\u8a08", 
-        "message-retranslated": "Statistics", 
-        "description": "stats button"
+    "extension_default_title": {
+        "message": "\u67e5\u770b\u60a8\u7684\u5718\u968a\u8981\u585e2\u80cc\u5305", 
+        "message-retranslated": "View your backpack Team Fortress 2", 
+        "description": "Extension default title for browser action"
     }, 
     "other_error": {
         "message": "\u5176\u4ed6\u4e00\u4e9b\u932f\u8aa4", 

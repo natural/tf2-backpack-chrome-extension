@@ -71,8 +71,6 @@ var feedDriver = {
     countNotHats: 0,
     countTotal: 0,
     pollDuration: 0,
-    pollMax: 1000*60*5,
-    pollMin: 1000*60,
     pollLast: 0,
     pollNext: 0,
     requestBackoff: 0,
@@ -103,8 +101,8 @@ var feedDriver = {
 	if (typeof(delay) == "undefined") {
 	    var rnd = Math.random() * 2;
 	    var exp = Math.pow(2, this.requestBackoff);
-	    delay = Math.min(this.pollMax, rnd * this.pollMin * exp);
-	    delay = Math.max(this.pollMin, delay);
+	    delay = Math.min(storage.pollMax(), rnd * storage.pollMin() * exp);
+	    delay = Math.max(storage.pollMin(), delay);
 	}
 	delay = Math.round(delay)
 	this.pollNext = Date.now() + delay;

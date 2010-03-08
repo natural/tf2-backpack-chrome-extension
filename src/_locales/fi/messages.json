@@ -29,9 +29,10 @@
         "message-retranslated": "3", 
         "description": "the number 3"
     }, 
-    "language_code": {
-        "message": "fi", 
-        "description": ""
+    "its_msg_12": {
+        "message": "Stats", 
+        "message-retranslated": "Stats", 
+        "description": "stats button"
     }, 
     "second": {
         "message": "toinen", 
@@ -53,10 +54,9 @@
         "message-retranslated": "Feed refreshed - no change", 
         "description": "feed refreshed without changes"
     }, 
-    "extension_default_title": {
-        "message": "Katsele Team Fortress 2 reppu", 
-        "message-retranslated": "View Team Fortress 2 Backpack", 
-        "description": "Extension default title for browser action"
+    "language_code": {
+        "message": "fi", 
+        "description": ""
     }, 
     "its_msg_30": {
         "message": "on turkkilainen yhteis\u00f6", 
@@ -78,6 +78,16 @@
         "message-retranslated": "Cancel", 
         "description": "cancel label, such as for a button"
     }, 
+    "its_msg_34": {
+        "message": "V\u00e4\u00e4r\u00e4 k\u00e4\u00e4nn\u00f6s?", 
+        "message-retranslated": "Wrong translation?", 
+        "description": ""
+    }, 
+    "its_msg_35": {
+        "message": "Ehdota Jotain Parempaa", 
+        "message-retranslated": "Suggest something better", 
+        "description": ""
+    }, 
     "its_msg_16": {
         "message": "Tuntematon Items", 
         "message-retranslated": "Unknown Items", 
@@ -98,10 +108,10 @@
         "message-retranslated": "Hats", 
         "description": "hat count stats title"
     }, 
-    "its_msg_12": {
-        "message": "Stats", 
-        "message-retranslated": "Stats", 
-        "description": "stats button"
+    "extension_default_title": {
+        "message": "Katsele Team Fortress 2 reppu", 
+        "message-retranslated": "View Team Fortress 2 Backpack", 
+        "description": "Extension default title for browser action"
     }, 
     "other_error": {
         "message": "Jotkut muu virhe", 

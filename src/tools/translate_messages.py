@@ -41,6 +41,18 @@ pass_thru_keys = ["language_code"]
 proto_message = {"message":'', "description":''}
 
 
+def count_unmasked_subs(text):
+    return len(re.findall(r"\$\d", text))
+
+
+def mask_subs(text):
+    return text.replace("$", "***")
+
+
+def unmask_subs(text):
+    return text.replace("* ", "*").replace("***", "$")
+
+
 def main(source_messages, target_dirname, locales):
     source_lang_code = source_messages["language_code"]["message"]
 
@@ -57,14 +69,6 @@ def main(source_messages, target_dirname, locales):
 	    return txt
 	return v
 
-    def count_unmasked_subs(text):
-	return len(re.findall(r"\$\d", text))
-
-    def mask_subs(text):
-	return text.replace("$", "***")
-
-    def unmask_subs(text):
-	return text.replace("* ", "*").replace("***", "$")
 
     for lang_code, text_filename in locales:
 	out_dir = os.path.join(target_dirname, lang_code)

@@ -29,9 +29,10 @@
         "message-retranslated": "3", 
         "description": "the number 3"
     }, 
-    "language_code": {
-        "message": "ru", 
-        "description": ""
+    "its_msg_12": {
+        "message": "\u0421\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0430", 
+        "message-retranslated": "Statistics", 
+        "description": "stats button"
     }, 
     "second": {
         "message": "\u0432\u0442\u043e\u0440\u043e\u0439", 
@@ -53,10 +54,9 @@
         "message-retranslated": "Updated channel - no change", 
         "description": "feed refreshed without changes"
     }, 
-    "extension_default_title": {
-        "message": "\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440 Team Fortress 2 \u0420\u044e\u043a\u0437\u0430\u043a", 
-        "message-retranslated": "View Team Fortress 2 Backpack", 
-        "description": "Extension default title for browser action"
+    "language_code": {
+        "message": "ru", 
+        "description": ""
     }, 
     "its_msg_30": {
         "message": "\u043d\u0430 Steam Community", 
@@ -78,6 +78,16 @@
         "message-retranslated": "Cancel", 
         "description": "cancel label, such as for a button"
     }, 
+    "its_msg_34": {
+        "message": "\u041d\u0435\u043f\u0440\u0430\u0432\u0438\u043b\u044c\u043d\u044b\u0439 \u043f\u0435\u0440\u0435\u0432\u043e\u0434?", 
+        "message-retranslated": "Wrong translation?", 
+        "description": ""
+    }, 
+    "its_msg_35": {
+        "message": "\u041f\u0440\u0435\u0434\u043b\u043e\u0436\u0438\u0442\u0435 Something Better", 
+        "message-retranslated": "Offer Something Better", 
+        "description": ""
+    }, 
     "its_msg_16": {
         "message": "\u041d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u043e \u041f\u0443\u043d\u043a\u0442\u044b", 
         "message-retranslated": "Unidentified Items", 
@@ -98,10 +108,10 @@
         "message-retranslated": "Hats", 
         "description": "hat count stats title"
     }, 
-    "its_msg_12": {
-        "message": "\u0421\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0430", 
-        "message-retranslated": "Statistics", 
-        "description": "stats button"
+    "extension_default_title": {
+        "message": "\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440 Team Fortress 2 \u0420\u044e\u043a\u0437\u0430\u043a", 
+        "message-retranslated": "View Team Fortress 2 Backpack", 
+        "description": "Extension default title for browser action"
     }, 
     "other_error": {
         "message": "\u041d\u0435\u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0434\u0440\u0443\u0433\u0438\u0435 \u043e\u0448\u0438\u0431\u043a\u0438", 

@@ -341,8 +341,8 @@
         "description": "Skiftnyckel"
     }, 
     "other_attributes": {
-        "133": "Medal no. %s1", 
-        "132": "Given to valuable Community Contributors"
+        "133": "Medal nummer %s1", 
+        "132": "Ges till v\u00e4rdefulla gemenskapen Contributors"
     }, 
     "5003": {
         "alt": [
@@ -415,10 +415,10 @@
     }, 
     "9003": {
         "positive": [
-            "Bans Steam account of players killed", 
-            "This item is not real and is only a joke."
+            "F\u00f6rbud Steam-konto akt\u00f6rer d\u00f6dade", 
+            "Denna punkt \u00e4r inte verklig och \u00e4r bara ett sk\u00e4mt."
         ], 
-        "type": "Mallet of Banishment", 
+        "type": "Mallet av Banishment", 
         "description": "Ban Hammer"
     }, 
     "102": {

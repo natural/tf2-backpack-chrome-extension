@@ -29,9 +29,10 @@
         "message-retranslated": "3", 
         "description": "the number 3"
     }, 
-    "language_code": {
-        "message": "sv", 
-        "description": ""
+    "its_msg_12": {
+        "message": "Stats", 
+        "message-retranslated": "Stats", 
+        "description": "stats button"
     }, 
     "second": {
         "message": "andra", 
@@ -53,10 +54,9 @@
         "message-retranslated": "Feed Refreshed - no changes", 
         "description": "feed refreshed without changes"
     }, 
-    "extension_default_title": {
-        "message": "Visa dina Team Fortress 2 Backpack", 
-        "message-retranslated": "Show your Team Fortress 2 Backpack", 
-        "description": "Extension default title for browser action"
+    "language_code": {
+        "message": "sv", 
+        "description": ""
     }, 
     "its_msg_30": {
         "message": "p\u00e5 Steam Community", 
@@ -78,6 +78,16 @@
         "message-retranslated": "Cancel", 
         "description": "cancel label, such as for a button"
     }, 
+    "its_msg_34": {
+        "message": "Felaktig \u00f6vers\u00e4ttning?", 
+        "message-retranslated": "Mistranslation?", 
+        "description": ""
+    }, 
+    "its_msg_35": {
+        "message": "F\u00f6resl\u00e5 Something Better", 
+        "message-retranslated": "Suggest Something Better", 
+        "description": ""
+    }, 
     "its_msg_16": {
         "message": "Ok\u00e4nd Items", 
         "message-retranslated": "Unknown Items", 
@@ -98,10 +108,10 @@
         "message-retranslated": "Hats", 
         "description": "hat count stats title"
     }, 
-    "its_msg_12": {
-        "message": "Stats", 
-        "message-retranslated": "Stats", 
-        "description": "stats button"
+    "extension_default_title": {
+        "message": "Visa dina Team Fortress 2 Backpack", 
+        "message-retranslated": "Show your Team Fortress 2 Backpack", 
+        "description": "Extension default title for browser action"
     }, 
     "other_error": {
         "message": "Some Other Error", 

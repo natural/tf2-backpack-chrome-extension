@@ -341,8 +341,8 @@
         "description": "Jakoavain"
     }, 
     "other_attributes": {
-        "133": "Medal no. %s1", 
-        "132": "Given to valuable Community Contributors"
+        "133": "Mitali numero %s1", 
+        "132": "Antaa arvokasta yhteis\u00f6n Contributors"
     }, 
     "5003": {
         "alt": [
@@ -415,10 +415,10 @@
     }, 
     "9003": {
         "positive": [
-            "Bans Steam account of players killed", 
-            "This item is not real and is only a joke."
+            "Kiellet\u00e4\u00e4n Steam huomioon pelaajien kuollut", 
+            "T\u00e4m\u00e4 kohta ei ole todellinen, ja on vain vitsi."
         ], 
-        "type": "Mallet of Banishment", 
+        "type": "Mallet ja Maasta karkoituksen", 
         "description": "Ban Hammer"
     }, 
     "102": {

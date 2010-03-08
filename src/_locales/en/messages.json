@@ -241,6 +241,14 @@
     "its_msg_33": {
 	"message": "Cancel",
 	"description": "cancel label, such as for a button"
+    },
+    "its_msg_34": {
+	"message":"Incorrect Translation?",
+	"description":""
+    },
+    "its_msg_35": {
+	"message":"Suggest Something Better",
+	"description":""
     }
 
 

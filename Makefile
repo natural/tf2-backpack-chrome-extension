@@ -1,6 +1,7 @@
 #release_name := $(shell python -c "import json;print json.load(open('src/manifest.json'))['name'].lower().replace(' ', '_')")
 release_num  := $(shell python -c "import json;print json.load(open('src/manifest.json'))['version']")
-release_name = "tf2-backpack-extension-${release_num}"
+base_name := tf2-backpack-extension
+release_name := ${base_name}-${release_num}
 build_dir := build-$(release_num)
 dist_dir  := dist-$(release_num)
 
@@ -65,9 +66,9 @@ $(script_files):
 
 crx:
 	@$(if $(shell pidof $(chrome)),$(error $(chrome) running, cannot create extension) $(exit 1),)
-	@echo "[CRX] building"
-	@ln -s $(build_dir) "$(release_name)"
-	$(chrome) --pack-extension="$(release_name)"
-	@rm $(release_name)
-	@mv $(release_name).crx $(dist_dir)
+	@echo "[CRX] building" $(relase_name).crx
+	@ln -s $(build_dir) $(base_name)
+	$(chrome) --pack-extension=$(base_name)
+	@rm $(base_name)
+	@mv $(base_name).crx $(dist_dir)/${release_name}.crx
 	@echo "[CRX] done.  Distributable at $(dist_dir)/$(release_name).crx"

@@ -29,9 +29,10 @@
         "message-retranslated": "3", 
         "description": "the number 3"
     }, 
-    "language_code": {
-        "message": "pt", 
-        "description": ""
+    "its_msg_12": {
+        "message": "Stats", 
+        "message-retranslated": "Stats", 
+        "description": "stats button"
     }, 
     "second": {
         "message": "segunda", 
@@ -53,10 +54,9 @@
         "message-retranslated": "Feed Refreshed - No Change", 
         "description": "feed refreshed without changes"
     }, 
-    "extension_default_title": {
-        "message": "Ver o Team Fortress 2 Backpack", 
-        "message-retranslated": "View Team Fortress 2 Backpack", 
-        "description": "Extension default title for browser action"
+    "language_code": {
+        "message": "pt", 
+        "description": ""
     }, 
     "its_msg_30": {
         "message": "Comunidade no Steam", 
@@ -78,6 +78,16 @@
         "message-retranslated": "Cancel", 
         "description": "cancel label, such as for a button"
     }, 
+    "its_msg_34": {
+        "message": "Tradu\u00e7\u00e3o incorreta?", 
+        "message-retranslated": "Translation incorrect?", 
+        "description": ""
+    }, 
+    "its_msg_35": {
+        "message": "Sugerir alguma coisa melhor", 
+        "message-retranslated": "Suggest something better", 
+        "description": ""
+    }, 
     "its_msg_16": {
         "message": "Itens Desconhecido", 
         "message-retranslated": "Unknown Items", 
@@ -98,10 +108,10 @@
         "message-retranslated": "Hats", 
         "description": "hat count stats title"
     }, 
-    "its_msg_12": {
-        "message": "Stats", 
-        "message-retranslated": "Stats", 
-        "description": "stats button"
+    "extension_default_title": {
+        "message": "Ver o Team Fortress 2 Backpack", 
+        "message-retranslated": "View Team Fortress 2 Backpack", 
+        "description": "Extension default title for browser action"
     }, 
     "other_error": {
         "message": "Algum outro erro", 

@@ -341,8 +341,8 @@
         "description": "Cl\u00e9"
     }, 
     "other_attributes": {
-        "133": "Medal no. %s1", 
-        "132": "Given to valuable Community Contributors"
+        "133": "M\u00e9daille num\u00e9ro %s1", 
+        "132": "Compte tenu de pr\u00e9cieux collaborateurs communautaires"
     }, 
     "5003": {
         "alt": [
@@ -415,10 +415,10 @@
     }, 
     "9003": {
         "positive": [
-            "Bans Steam account of players killed", 
-            "This item is not real and is only a joke."
+            "Interdictions de compte Steam de joueurs tu\u00e9s", 
+            "Cet \u00e9l\u00e9ment n'est pas r\u00e9el et n'est qu'une plaisanterie."
         ], 
-        "type": "Mallet of Banishment", 
+        "type": "Mallet de bannissement", 
         "description": "Ban Hammer"
     }, 
     "102": {

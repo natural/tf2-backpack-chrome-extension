@@ -341,8 +341,8 @@
         "description": "\ub80c\uce58"
     }, 
     "other_attributes": {
-        "133": "Medal no. %s1", 
-        "132": "Given to valuable Community Contributors"
+        "133": "\uba54\ub2ec \ubc88\ud638 %s1", 
+        "132": "\uc720\uc6a9\ud55c \ucee4\ubba4\ub2c8\ud2f0 \ucc38\uc5ec\uc790\ub294 \uc8fc\uc5b4\uc9c4"
     }, 
     "5003": {
         "alt": [
@@ -415,11 +415,11 @@
     }, 
     "9003": {
         "positive": [
-            "Bans Steam account of players killed", 
-            "This item is not real and is only a joke."
+            "\uc120\uc218 \ubc18 \uc2a4\ud300 \uacc4\uc815\uc744 \uc8fd\uc600\uc5b4", 
+            "\uc774 \uc0c1\ud488\uc740 \uc9c4\uc9dc\uac00 \uc544\ub2cc\uc5d0\uc11c\ub9cc \ub18d\ub2f4."
         ], 
-        "type": "Mallet of Banishment", 
-        "description": "Ban Hammer"
+        "type": "\ub9dd\uce58 \ucd94\ubc29\uc758", 
+        "description": "\ubc18 \uc7a5\uad00\uc740 \ud574\uba38"
     }, 
     "102": {
         "type": "Hat", 

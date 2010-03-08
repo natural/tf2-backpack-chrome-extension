@@ -123,6 +123,10 @@ var showTab = {
 	return this.open(this.isPnaturalUrl, urls.pnatural);
     },
 
+    pnaturalEmail: function(subject) {
+	return window.open("mailto:phineas.natural@gmail.com?subject="+subject);
+    },
+
     options: function() {
 	chrome.tabs.create({url:"./options.html"});
 	window.close();
@@ -178,6 +182,9 @@ var pageOps = {
 	$("table.unplaced td:has(img)")
 	    .live("mouseenter", function() {$(this).addClass("itemHover")})
 	    .live("mouseleave", function() {$(this).removeClass("itemHover")});
+	if (_("language_code") != "en") {
+	    $("#translation_suggestion").show()
+	}
         $("body").mousedown(function(){return false}) //disable text selection
 	var w = $("#controls").width();
 	$("#nav span").each(function(i,x) { w+=$(x).width() });
@@ -383,11 +390,12 @@ var toolTip = {
 	    var item = backpack.defs[type];
 	    var levelType = item.type;
 	    var level = $("level", node).text();
+	    var desc = item.description.replace("\\n", "<br />");
 	} catch (e) {
 	    return;
 	}
 	tooltip.hide().css({left:0, top:0});
-	$("#tooltip h4").text(item.description).removeClass("valve community");
+	$("#tooltip h4").text(desc).removeClass("valve community");
 	$("#tooltip .level").text(_({key:"level", subs:[level, levelType]}));
 
 	// special formatting valve and community weapons
@@ -417,7 +425,7 @@ var toolTip = {
 	// add the various descriptions
 	$(["alt", "positive", "negative"]).each(function(index, key) {
 	    if (item[key]) {
-		var value = item[key].join("<br />");
+		var value = item[key].join("<br />").replace("\\n", "<br />");
 		$("#tooltip ." + key).html(value).show();
 	    } else {
 		$("#tooltip ." + key).text("").hide();
@@ -447,7 +455,6 @@ var toolTip = {
 
 
 var popupInit = function() {
-    // $("html").attr("lang", "ja"); //testing
     i18nize();
     if (!storage.profileId()) {
         $("#main").fadeOut('fast');

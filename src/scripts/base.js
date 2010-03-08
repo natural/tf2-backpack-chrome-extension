@@ -117,6 +117,20 @@ var storage = {
 	this.testFeed("");
     },
 
+    pollMax: function(v) {
+	if (typeof(v) == "undefined") {
+	    return parseInt(localStorage.pollMax || 1000*60*15)
+	}
+	localStorage.pollMax = v;
+    },
+
+    pollMin: function(v) {
+	if (typeof(v) == "undefined") {
+	    return parseInt(localStorage.pollMin || 1000*60*5)
+	}
+	localStorage.pollMin = v;
+    },
+
 };
 
 

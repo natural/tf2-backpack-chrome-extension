@@ -341,8 +341,8 @@
         "description": "Llave inglesa"
     }, 
     "other_attributes": {
-        "133": "Medal no. %s1", 
-        "132": "Given to valuable Community Contributors"
+        "133": "Medalla n\u00famero %s1", 
+        "132": "Teniendo en cuenta a los valiosos contribuyentes de la comunidad"
     }, 
     "5003": {
         "alt": [
@@ -415,10 +415,10 @@
     }, 
     "9003": {
         "positive": [
-            "Bans Steam account of players killed", 
-            "This item is not real and is only a joke."
+            "Las prohibiciones de vapor de los jugadores muertos", 
+            "Este punto no es real y es s\u00f3lo una broma."
         ], 
-        "type": "Mallet of Banishment", 
+        "type": "Mallet de destierro", 
         "description": "Ban Hammer"
     }, 
     "102": {

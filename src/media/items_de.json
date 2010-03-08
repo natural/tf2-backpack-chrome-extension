@@ -341,8 +341,8 @@
         "description": "Schraubenschl\u00fcssel"
     }, 
     "other_attributes": {
-        "133": "Medal no. %s1", 
-        "132": "Given to valuable Community Contributors"
+        "133": "Medaille Nummer %s1", 
+        "132": "Wertvolle Mitarbeiter Angesichts der Gemeinschaft"
     }, 
     "5003": {
         "alt": [
@@ -415,10 +415,10 @@
     }, 
     "9003": {
         "positive": [
-            "Bans Steam account of players killed", 
-            "This item is not real and is only a joke."
+            "Bans Steam account von Spielern get\u00f6tet", 
+            "Dieser Artikel ist nicht real und ist nur ein Witz."
         ], 
-        "type": "Mallet of Banishment", 
+        "type": "Mallet der Verbannung", 
         "description": "Ban Hammer"
     }, 
     "102": {

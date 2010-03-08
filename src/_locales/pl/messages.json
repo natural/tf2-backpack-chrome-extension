@@ -29,9 +29,10 @@
         "message-retranslated": "3", 
         "description": "the number 3"
     }, 
-    "language_code": {
-        "message": "pl", 
-        "description": ""
+    "its_msg_12": {
+        "message": "Statystyki", 
+        "message-retranslated": "Statistics", 
+        "description": "stats button"
     }, 
     "second": {
         "message": "sekund", 
@@ -53,10 +54,9 @@
         "message-retranslated": "Feed Refreshed - without change", 
         "description": "feed refreshed without changes"
     }, 
-    "extension_default_title": {
-        "message": "Wy\u015bwietlanie Team Fortress 2 Plecak", 
-        "message-retranslated": "Display Team Fortress 2 Backpack", 
-        "description": "Extension default title for browser action"
+    "language_code": {
+        "message": "pl", 
+        "description": ""
     }, 
     "its_msg_30": {
         "message": "na parowa Wsp\u00f3lnoty", 
@@ -78,6 +78,16 @@
         "message-retranslated": "Cancel", 
         "description": "cancel label, such as for a button"
     }, 
+    "its_msg_34": {
+        "message": "Nieprawid\u0142owe t\u0142umaczenia?", 
+        "message-retranslated": "Incorrect translations?", 
+        "description": ""
+    }, 
+    "its_msg_35": {
+        "message": "Zaproponuj Something Better", 
+        "message-retranslated": "Suggest Something Better", 
+        "description": ""
+    }, 
     "its_msg_16": {
         "message": "Nieznany przedmioty", 
         "message-retranslated": "Unknown items", 
@@ -98,10 +108,10 @@
         "message-retranslated": "Caps", 
         "description": "hat count stats title"
     }, 
-    "its_msg_12": {
-        "message": "Statystyki", 
-        "message-retranslated": "Statistics", 
-        "description": "stats button"
+    "extension_default_title": {
+        "message": "Wy\u015bwietlanie Team Fortress 2 Plecak", 
+        "message-retranslated": "Display Team Fortress 2 Backpack", 
+        "description": "Extension default title for browser action"
     }, 
     "other_error": {
         "message": "Inny b\u0142\u0105d", 

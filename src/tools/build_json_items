@@ -3,10 +3,17 @@
 """
 
 """
-import sys
+import codecs
 import json
+import os
+import sys
 from functools import partial
 from source_text import parse
+from map_locale import locale_files
+from translate_messages import google_translate
+
+
+sys.stdout = codecs.getwriter('utf8')(sys.stdout)
 
 
 def proto():
@@ -67,14 +74,12 @@ def format_value_is_additive_percentage(v):
 def add_item_type(source, target, lang_data=None, **kwds):
     val = fix_key(source['item_type_name'])
     val = lang_data.get(val, fix_type(val))
-    val = replace_newlines(val)
     target['type'] = val
 
 
 def add_item_desc(source, target, lang_data=None, **kwds):
     val = fix_key(source['item_name'])
     val = lang_data.get(val, val)
-    val = replace_newlines(val)
     target['description'] = val
 
 
@@ -82,12 +87,9 @@ def add_item_alt(source, target, lang_data=None, **kwds):
     alt = source.get('item_description', None)
     if alt is not None:
 	alt = fix_key(alt)
-	alt = replace_newlines(lang_data.get(alt, alt))
-	target['alt'].append(alt)
+	target['alt'].append(lang_data.get(alt, alt))
 
 
-def replace_newlines(v):
-    return v.replace('\\n', '<br />')
 
 
 def add_item_attrs(source, target, lang_data, find_attr=None, **kwds):
@@ -103,7 +105,6 @@ def add_item_attrs(source, target, lang_data, find_attr=None, **kwds):
 		av_type = av['effect_type']
 		desc = lang_data.get(desc, None)
 		if desc is not None:
-		    desc = replace_newlines(desc)
 		    v = setup.get('value', None)
 		    f = glbls.get('format_'+frmt, lambda v:v)
 		    fv = f(v)
@@ -144,6 +145,45 @@ def main(fn, initial):
 	    handler(src, out, **kwds)
     return output
 
+def filename2lang(fn):
+    n = os.path.split(fn)[-1]
+    d = dict([(filename, code) for code, filename in locale_files])
+    return d[n]
+
+
+def mask_subs(text):
+    return text.replace('no.', 'number').replace("%s1", "123")
+
+def unmask_subs(text):
+    return text.replace("123", "%s1")
+
+
+def translate_extras(extras, target_lang, source_lang='en'):
+    translated = {}
+
+    def trans(text):
+	try:
+	    t = google_translate(source_lang, target_lang, mask_subs(text))
+	except:
+	    print '## translation exception'
+	    return text
+	try:
+	    v = t["sentences"][0]["trans"]
+	except:
+	    print '## no translation', target_lang, source_lang, t
+	return unmask_subs(v)
+
+    for key, value in extras.items():
+	translated[key] = inner = {}
+	for ikey, ival in value.items():
+	    if isinstance(ival, (basestring, )):
+		inner[ikey] = trans(ival)
+	    elif isinstance(ival, (list, )):
+		inner[ikey] = iseq = []
+		for v in ival:
+		    iseq.append(trans(v))
+    return translated
+
 
 if __name__ == '__main__':
     try:
@@ -151,7 +191,9 @@ if __name__ == '__main__':
     except (IndexError, ):
 	print 'usage: %s value_filename (e.g., "tf_english.txt")' % sys.argv[0]
     else:
+	lang_code = filename2lang(value_filename)
 	extras = json.load(open('extras.json'))
+	extras = translate_extras(extras, lang_code)
 	result = main(value_filename, extras)
 	print json.dumps(result, indent=4)
 

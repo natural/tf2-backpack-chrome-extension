@@ -341,8 +341,8 @@
         "description": "Chiave inglese"
     }, 
     "other_attributes": {
-        "133": "Medal no. %s1", 
-        "132": "Given to valuable Community Contributors"
+        "133": "Medaglia numero %s1", 
+        "132": "Data di preziosi collaboratori della Comunit\u00e0"
     }, 
     "5003": {
         "alt": [
@@ -415,10 +415,10 @@
     }, 
     "9003": {
         "positive": [
-            "Bans Steam account of players killed", 
-            "This item is not real and is only a joke."
+            "Divieti account di Steam di giocatori uccisi", 
+            "Questa voce non \u00e8 reale ed \u00e8 solo uno scherzo."
         ], 
-        "type": "Mallet of Banishment", 
+        "type": "Mallet del bando", 
         "description": "Ban Hammer"
     }, 
     "102": {

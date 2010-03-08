@@ -317,8 +317,8 @@
         "description": "\u0413\u0430\u0435\u0447\u043d\u044b\u0439 \u043a\u043b\u044e\u0447"
     }, 
     "other_attributes": {
-        "133": "Medal no. %s1", 
-        "132": "Given to valuable Community Contributors"
+        "133": "\u041c\u0435\u0434\u0430\u043b\u044c \u043d\u043e\u043c\u0435\u0440 %s1", 
+        "132": "\u0423\u0447\u0438\u0442\u044b\u0432\u0430\u044f \u0446\u0435\u043d\u043d\u044b\u0439 Community Contributors"
     }, 
     "5003": {
         "alt": [
@@ -391,11 +391,11 @@
     }, 
     "9003": {
         "positive": [
-            "Bans Steam account of players killed", 
-            "This item is not real and is only a joke."
+            "\u041f\u0430\u0440\u043e\u0432\u044b\u0435 \u0437\u0430\u043f\u0440\u0435\u0442\u044b \u0441\u0447\u0435\u0442 \u0438\u0433\u0440\u043e\u043a\u0430 \u0443\u0431\u0438\u043b\u0438", 
+            "\u042d\u0442\u043e\u0442 \u043f\u0443\u043d\u043a\u0442 \u043d\u0435 \u0438\u043c\u0435\u0435\u0442 \u0440\u0435\u0430\u043b\u044c\u043d\u043e\u0439 \u0441\u0438\u043b\u044b \u0438 \u0442\u043e\u043b\u044c\u043a\u043e \u0432 \u0448\u0443\u0442\u043a\u0443."
         ], 
-        "type": "Mallet of Banishment", 
-        "description": "Ban Hammer"
+        "type": "\u041c\u0430\u043b\u043b\u0435 \u0438\u0437\u0433\u043d\u0430\u043d\u0438\u044f", 
+        "description": "\u041f\u0430\u043d Hammer"
     }, 
     "102": {
         "type": "Hat", 

@@ -29,9 +29,10 @@
         "message-retranslated": "3", 
         "description": "the number 3"
     }, 
-    "language_code": {
-        "message": "de", 
-        "description": ""
+    "its_msg_12": {
+        "message": "Statistik:", 
+        "message-retranslated": "Stats", 
+        "description": "stats button"
     }, 
     "second": {
         "message": "Sekunden", 
@@ -53,10 +54,9 @@
         "message-retranslated": "Feed last updated - No changes", 
         "description": "feed refreshed without changes"
     }, 
-    "extension_default_title": {
-        "message": "Zeigen Sie Ihre Team Fortress 2 Backpack", 
-        "message-retranslated": "Show your Team Fortress 2 Backpack", 
-        "description": "Extension default title for browser action"
+    "language_code": {
+        "message": "de", 
+        "description": ""
     }, 
     "its_msg_30": {
         "message": "an der Steam Community", 
@@ -78,6 +78,16 @@
         "message-retranslated": "Cancel", 
         "description": "cancel label, such as for a button"
     }, 
+    "its_msg_34": {
+        "message": "Falsche \u00dcbersetzung?", 
+        "message-retranslated": "Wrong translation?", 
+        "description": ""
+    }, 
+    "its_msg_35": {
+        "message": "Suggest Something Better", 
+        "message-retranslated": "Suggest Something Better", 
+        "description": ""
+    }, 
     "its_msg_16": {
         "message": "Unbekannt Artikel", 
         "message-retranslated": "Unknown Item", 
@@ -98,10 +108,10 @@
         "message-retranslated": "Hats", 
         "description": "hat count stats title"
     }, 
-    "its_msg_12": {
-        "message": "Statistik:", 
-        "message-retranslated": "Stats", 
-        "description": "stats button"
+    "extension_default_title": {
+        "message": "Zeigen Sie Ihre Team Fortress 2 Backpack", 
+        "message-retranslated": "Show your Team Fortress 2 Backpack", 
+        "description": "Extension default title for browser action"
     }, 
     "other_error": {
         "message": "Einige andere Fehler", 
