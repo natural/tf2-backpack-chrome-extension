@@ -56,7 +56,7 @@ color:#c8503c;
 
 
 span.hilite:before {
-content:">> ";
+content:">>";
 }
 
 

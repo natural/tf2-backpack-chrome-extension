@@ -158,12 +158,17 @@ function _ (item) {
 }
 
 
+var steamIdElement = null;
+
 var i18nMap = {
     "its_msg_7":
         function(id) {
+	    if (!steamIdElement) {
+		steamIdElement = $("#steamID").parent().html();
+		$("#steamID").remove();
+	    }
 	    var h = $("h2."+id);
-	    var i = $("#steamID").parent().html();
-	    h.html(_({key:id, subs:[i]}));
+	    h.html(_({key:id, subs:[steamIdElement]}));
 	},
 
 };

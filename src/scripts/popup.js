@@ -257,6 +257,7 @@ var pageOps = {
     },
 
     requestRefresh: function(event) {
+	$("html body").animate({scrollTop: 0});
 	chrome.extension.sendRequest({type:"driver", message:"refresh"}, function(response) {});
 	return false;
     },
