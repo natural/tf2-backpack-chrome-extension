@@ -1,0 +1,76 @@
+Quick overview of how to handle upgrades to TF2.  These steps work so far...
+
+1.  verify you've got the most recent install of tf2 in:
+
+    ~/.wine-steam/drive_c/Program Files/Steam/steamapps
+
+And also verify the GCF files in that dir are still linked here:
+
+    ~/var/tf2content/source
+
+
+2.  Fire up virtualbox (maybe run `modprobe vboxdrv` first) and start
+the virtual windows machine.
+
+3.  Open GCFScape and extract:
+
+    Y:\team fortress 2 materials.gcf\root\tf\materials\backpack
+
+to:
+
+    Z:\
+
+
+4.  Still in GCFScape, open and extract:
+
+    Y:\team fortress 2 content.gcf\root\tf\resource\tf_*.txt
+
+    *AND*
+
+    Y:\team fortress 2 content.gcf\root/tf\scripts\items\items_game.txt
+
+to:
+
+
+    Z:\texts
+
+
+Quit GCFScape.
+
+5.  Open VTFEdit.exe.  Select Tools -> Convert Folder.
+
+In the dialog, select Z:\backpack as the input and output folder.
+
+Select "To png" and make sure "recursive" is checked.  Press "Convert".
+
+Close VTFEdit when finished, and close the VM.
+
+6.  Open each of the *.txt files in emacs and convert line endings.
+Save each and exit.
+
+7.  Copy each text file to the media folder:
+
+    $ cd ~/src/tf2-backpack-chrome-extension/src/media
+    $ cp ~/var/tf2content/output/texts/*.txt .
+
+8.  Make the item files:
+
+    $ cd ~/src/tf2-backpack-chrome-extension/src/tools
+    $ make items
+
+And also the message files:
+
+    $ make messages
+
+
+9.  The images are exported, but we need to copy them into the icons
+directory with the script:
+
+    $ cd ~/src/tf2-backpack-chrome-extension/src/icons
+    $ ../tools/list_item_images ~/var/tf2content/output/|sh
+
+
+10.  Bump the version in src/manifest.json.
+
+11.  rebuild, test, upload!
+

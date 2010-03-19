@@ -611,6 +611,49 @@
         "type": "Rocket Launcher", 
         "description": "Rocket Launcher"
     }, 
+    "151": {
+        "type": "Hat", 
+        "description": "Triboniophorus Tyrannus"
+    }, 
+    "150": {
+        "type": "Hat", 
+        "description": "Troublemaker's Tossle Cap"
+    }, 
+    "153": {
+        "positive": [
+            "100% damage vs buildings"
+        ], 
+        "type": "Sledgehammer", 
+        "negative": [
+            "-25% damage vs players"
+        ], 
+        "description": "The Homewrecker"
+    }, 
+    "152": {
+        "type": "Hat", 
+        "description": "Killer's Kabuto"
+    }, 
+    "154": {
+        "positive": [
+            "+1 capture rate on wearer"
+        ], 
+        "type": "Makeshift Club", 
+        "negative": [
+            "10% bullet damage vulnerability on wearer"
+        ], 
+        "description": "The Pain Train"
+    }, 
+    "159": {
+        "positive": [
+            "Adds +50 max health for 30 seconds"
+        ], 
+        "type": "Lunch Box", 
+        "description": "The Dalokohs Bar"
+    }, 
+    "158": {
+        "type": "Hat", 
+        "description": "Shooter's Sola Topi"
+    }, 
     "48": {
         "type": "Hat", 
         "description": "Mining Light"
@@ -696,5 +739,25 @@
     "9": {
         "type": "Shotgun", 
         "description": "Shotgun"
+    }, 
+    "146": {
+        "type": "Hat", 
+        "description": "Hustler's Hallmark"
+    }, 
+    "147": {
+        "type": "Hat", 
+        "description": "Magistrate's Mullet"
+    }, 
+    "144": {
+        "type": "Hat", 
+        "description": "Physician's Procedure Mask"
+    }, 
+    "145": {
+        "type": "Hat", 
+        "description": "Hound Dog"
+    }, 
+    "148": {
+        "type": "Hat", 
+        "description": "Hotrod"
     }
 }

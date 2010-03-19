@@ -611,6 +611,40 @@
         "type": "\u30ed\u30b1\u30c3\u30c8\u30e9\u30f3\u30c1\u30e3\u30fc", 
         "description": "\u30ed\u30b1\u30c3\u30c8\u30e9\u30f3\u30c1\u30e3\u30fc"
     }, 
+    "151": {
+        "type": "Hat", 
+        "description": "TF_PyroBrainSucker"
+    }, 
+    "150": {
+        "type": "Hat", 
+        "description": "TF_ScoutBeanie"
+    }, 
+    "153": {
+        "type": "TF_Weapon_SledgeHammer", 
+        "description": "TF_Unique_SledgeHammer"
+    }, 
+    "152": {
+        "type": "Hat", 
+        "description": "TF_SoldierSamurai"
+    }, 
+    "154": {
+        "positive": [
+            "\u7740\u7528\u8005\u306e\u596a\u53d6\u30b9\u30d4\u30fc\u30c9 +1"
+        ], 
+        "type": "TF_Weapon_MakeshiftClub", 
+        "negative": [
+            "\u7740\u7528\u8005\u306e\u9283\u5f3e\u30c0\u30e1\u30fc\u30b8\u8010\u6027 10%"
+        ], 
+        "description": "TF_Unique_Makeshiftclub"
+    }, 
+    "159": {
+        "type": "\u30e9\u30f3\u30c1\u30dc\u30c3\u30af\u30b9", 
+        "description": "TF_Unique_Lunchbox_Chocolate"
+    }, 
+    "158": {
+        "type": "Hat", 
+        "description": "TF_SniperPithHelmet"
+    }, 
     "48": {
         "type": "Hat", 
         "description": "\u63a1\u6398\u7528\u30e9\u30a4\u30c8"
@@ -696,5 +730,25 @@
     "9": {
         "type": "\u30b7\u30e7\u30c3\u30c8\u30ac\u30f3", 
         "description": "\u30b7\u30e7\u30c3\u30c8\u30ac\u30f3"
+    }, 
+    "146": {
+        "type": "Hat", 
+        "description": "TF_DemomanHallmark"
+    }, 
+    "147": {
+        "type": "Hat", 
+        "description": "TF_SpyNobleHair"
+    }, 
+    "144": {
+        "type": "Hat", 
+        "description": "TF_MedicMask"
+    }, 
+    "145": {
+        "type": "Hat", 
+        "description": "TF_HeavyHair"
+    }, 
+    "148": {
+        "type": "Hat", 
+        "description": "TF_EngineerWeldingMask"
     }
 }

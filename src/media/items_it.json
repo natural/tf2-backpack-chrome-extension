@@ -611,6 +611,40 @@
         "type": "Lanciarazzi", 
         "description": "Lanciarazzi"
     }, 
+    "151": {
+        "type": "Hat", 
+        "description": "TF_PyroBrainSucker"
+    }, 
+    "150": {
+        "type": "Hat", 
+        "description": "TF_ScoutBeanie"
+    }, 
+    "153": {
+        "type": "TF_Weapon_SledgeHammer", 
+        "description": "TF_Unique_SledgeHammer"
+    }, 
+    "152": {
+        "type": "Hat", 
+        "description": "TF_SoldierSamurai"
+    }, 
+    "154": {
+        "positive": [
+            "Velocit\u00e0 di conquista su chi lo indossa +1"
+        ], 
+        "type": "TF_Weapon_MakeshiftClub", 
+        "negative": [
+            "Vulnerabilit\u00e0 ai danni da proiettili su chi lo indossa 10%"
+        ], 
+        "description": "TF_Unique_Makeshiftclub"
+    }, 
+    "159": {
+        "type": "Cestino del pranzo", 
+        "description": "TF_Unique_Lunchbox_Chocolate"
+    }, 
+    "158": {
+        "type": "Hat", 
+        "description": "TF_SniperPithHelmet"
+    }, 
     "48": {
         "type": "Hat", 
         "description": "Luce da minatore"
@@ -696,5 +730,25 @@
     "9": {
         "type": "Fucile", 
         "description": "Fucile"
+    }, 
+    "146": {
+        "type": "Hat", 
+        "description": "TF_DemomanHallmark"
+    }, 
+    "147": {
+        "type": "Hat", 
+        "description": "TF_SpyNobleHair"
+    }, 
+    "144": {
+        "type": "Hat", 
+        "description": "TF_MedicMask"
+    }, 
+    "145": {
+        "type": "Hat", 
+        "description": "TF_HeavyHair"
+    }, 
+    "148": {
+        "type": "Hat", 
+        "description": "TF_EngineerWeldingMask"
     }
 }

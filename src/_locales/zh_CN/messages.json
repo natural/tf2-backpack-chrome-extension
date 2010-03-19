@@ -284,8 +284,8 @@
         "description": "Extension name"
     }, 
     "from_cache": {
-        "message": "\u4ece\u7f13\u5b58\u52a0\u8f7d\u6570\u636e", 
-        "message-retranslated": "Load data from the cache", 
+        "message": "\u6570\u636e\u52a0\u8f7d\u7684\u7f13\u5b58", 
+        "message-retranslated": "Data loading buffer", 
         "description": "data loaded from cache label"
     }, 
     "error": {

@@ -611,6 +611,40 @@
         "type": "Lance-roquettes", 
         "description": "Lance-roquettes"
     }, 
+    "151": {
+        "type": "Hat", 
+        "description": "TF_PyroBrainSucker"
+    }, 
+    "150": {
+        "type": "Hat", 
+        "description": "TF_ScoutBeanie"
+    }, 
+    "153": {
+        "type": "TF_Weapon_SledgeHammer", 
+        "description": "TF_Unique_SledgeHammer"
+    }, 
+    "152": {
+        "type": "Hat", 
+        "description": "TF_SoldierSamurai"
+    }, 
+    "154": {
+        "positive": [
+            "Vitesse de capture +1 pour le porteur"
+        ], 
+        "type": "TF_Weapon_MakeshiftClub", 
+        "negative": [
+            "Vuln\u00e9rabilit\u00e9 aux d\u00e9g\u00e2ts par balle 10% pour le porteur"
+        ], 
+        "description": "TF_Unique_Makeshiftclub"
+    }, 
+    "159": {
+        "type": "Panier d\u00e9jeuner", 
+        "description": "TF_Unique_Lunchbox_Chocolate"
+    }, 
+    "158": {
+        "type": "Hat", 
+        "description": "TF_SniperPithHelmet"
+    }, 
     "48": {
         "type": "Hat", 
         "description": "Lampe de mineur"
@@ -696,5 +730,25 @@
     "9": {
         "type": "Fusil \u00e0 pompe", 
         "description": "Fusil \u00e0 pompe"
+    }, 
+    "146": {
+        "type": "Hat", 
+        "description": "TF_DemomanHallmark"
+    }, 
+    "147": {
+        "type": "Hat", 
+        "description": "TF_SpyNobleHair"
+    }, 
+    "144": {
+        "type": "Hat", 
+        "description": "TF_MedicMask"
+    }, 
+    "145": {
+        "type": "Hat", 
+        "description": "TF_HeavyHair"
+    }, 
+    "148": {
+        "type": "Hat", 
+        "description": "TF_EngineerWeldingMask"
     }
 }

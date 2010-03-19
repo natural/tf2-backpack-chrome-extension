@@ -1,0 +1,14 @@
+LT=12
+WS=10
+T__15=15
+LETTER=6
+T__14=14
+UnicodeEscape=7
+CHAR=5
+LINECOMMENT=13
+COMMENT=11
+HexDigit=9
+EscapeSequence=8
+STRING=4
+'}'=15
+'{'=14

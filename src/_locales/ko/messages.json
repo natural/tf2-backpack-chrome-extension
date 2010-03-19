@@ -40,8 +40,8 @@
         "description": "second"
     }, 
     "warning": {
-        "message": "\uacbd\uace0", 
-        "message-retranslated": "Warning", 
+        "message": "\uacbd\uace0 :", 
+        "message-retranslated": "Warning:", 
         "description": "warning label"
     }, 
     "its_msg_31": {

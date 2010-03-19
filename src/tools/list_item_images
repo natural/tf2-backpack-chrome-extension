@@ -5,11 +5,13 @@ item images.
 
 """
 import sys
+from os.path import abspath, join, dirname
 from source_text import parse
 
 
 def main(prefix):
-    for key, item in parse('items_game.txt')['items_game']['items'].iteritems():
+    scr = abspath(join('../media', dirname(abspath(__file__)), 'items_game.txt'))
+    for key, item in parse(scr)['items_game']['items'].iteritems():
 	src = item['image_inventory']
 	yield (key, prefix+src)
 
