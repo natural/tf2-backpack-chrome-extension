@@ -5,13 +5,13 @@
         "description": "the number 4"
     }, 
     "no_change": {
-        "message": "Ei muutosta", 
-        "message-retranslated": "No change", 
+        "message": "Без изменений", 
+        "message-retranslated": "Unchanged", 
         "description": "nothing changed, but have a label!"
     }, 
     "profile_found": {
-        "message": "Steamin ID $1 $2.", 
-        "message-retranslated": "Steam ID $1 $2", 
+        "message": "Использование Steam ID для $1 $2.", 
+        "message-retranslated": "Using Steam ID for $1 $2.", 
         "description": "steam id found in search"
     }, 
     "num1": {
@@ -30,182 +30,182 @@
         "description": "the number 3"
     }, 
     "its_msg_12": {
-        "message": "Stats", 
-        "message-retranslated": "Stats", 
+        "message": "Статистика", 
+        "message-retranslated": "Statistics", 
         "description": "stats button"
     }, 
     "second": {
-        "message": "toinen", 
+        "message": "второй", 
         "message-retranslated": "second", 
         "description": "second"
     }, 
     "warning": {
-        "message": "Varoitus", 
+        "message": "Предупреждение", 
         "message-retranslated": "Warning", 
         "description": "warning label"
     }, 
     "its_msg_31": {
-        "message": "TF2 Backpack Viewer - Asetukset", 
-        "message-retranslated": "TF2 Backpack Viewer - Settings", 
+        "message": "TF2 Рюкзак Viewer - Функции", 
+        "message-retranslated": "TF2 Backpack Viewer - Options", 
         "description": "options page title"
     }, 
     "refresh_nochange": {
-        "message": "Feed p\u00e4ivitet\u00e4\u00e4n - ei muutoksia", 
-        "message-retranslated": "Feed updated - no changes", 
+        "message": "Обновленная канал - без перемен", 
+        "message-retranslated": "Updated channel - no change", 
         "description": "feed refreshed without changes"
     }, 
     "language_code": {
-        "message": "fi", 
+        "message": "ru", 
         "description": ""
     }, 
     "its_msg_30": {
-        "message": "klo Steam yhteis\u00f6", 
-        "message-retranslated": "at Steam Community", 
+        "message": "на Steam Community", 
+        "message-retranslated": "on Steam Community", 
         "description": "fragment"
     }, 
     "parse_error": {
-        "message": "J\u00e4sennysvirhe", 
-        "message-retranslated": "Parse", 
+        "message": "Parse Error", 
+        "message-retranslated": "Parse Error", 
         "description": "some kind of parse error"
     }, 
     "its_msg_32": {
-        "message": "Profiili ID", 
+        "message": "Анкета ID", 
         "message-retranslated": "Profile ID", 
         "description": "profile id label"
     }, 
     "its_msg_33": {
-        "message": "Peruuttaa", 
+        "message": "Отмена", 
         "message-retranslated": "Cancel", 
         "description": "cancel label, such as for a button"
     }, 
     "its_msg_34": {
-        "message": "V\u00e4\u00e4r\u00e4 k\u00e4\u00e4nn\u00f6s?", 
+        "message": "Неправильный перевод?", 
         "message-retranslated": "Wrong translation?", 
         "description": ""
     }, 
     "its_msg_35": {
-        "message": "Ehdota jotain parempaa", 
-        "message-retranslated": "Suggest something better", 
+        "message": "Предложите Something Better", 
+        "message-retranslated": "Offer Something Better", 
         "description": ""
     }, 
     "its_msg_16": {
-        "message": "Tuntematon kohteet", 
-        "message-retranslated": "Unknown destinations", 
+        "message": "Неизвестно Пункты", 
+        "message-retranslated": "Unidentified Items", 
         "description": "unknown item count stats title"
     }, 
     "its_msg_17": {
-        "message": "Metal kohteet", 
-        "message-retranslated": "Metal Items", 
+        "message": "Металлические изделия", 
+        "message-retranslated": "Hardware", 
         "description": "metal item count stats title"
     }, 
     "its_msg_14": {
-        "message": "Normaali kohteet", 
-        "message-retranslated": "Normal subjects", 
+        "message": "Нормальные Пункты", 
+        "message-retranslated": "Normal Items", 
         "description": "normal item count stats title"
     }, 
     "its_msg_15": {
-        "message": "Hatut", 
+        "message": "Шляпы", 
         "message-retranslated": "Hats", 
         "description": "hat count stats title"
     }, 
     "extension_default_title": {
-        "message": "Katsele Team Fortress 2 reppu", 
+        "message": "Просмотр Team Fortress 2 Рюкзак", 
         "message-retranslated": "View Team Fortress 2 Backpack", 
         "description": "Extension default title for browser action"
     }, 
     "other_error": {
-        "message": "Jotkut muu virhe", 
-        "message-retranslated": "Some other error", 
+        "message": "Некоторые другие ошибки", 
+        "message-retranslated": "Some other bugs", 
         "description": "some other kind of error occurred."
     }, 
     "its_msg_10": {
-        "message": "Virkist\u00e4\u00e4", 
+        "message": "Обновить", 
         "message-retranslated": "Refresh", 
         "description": "refresh button"
     }, 
     "its_msg_11": {
-        "message": "Valinnat", 
+        "message": "Функции", 
         "message-retranslated": "Options", 
         "description": "options button"
     }, 
     "its_msg_18": {
-        "message": "Metal Worth", 
+        "message": "Металл Worth", 
         "message-retranslated": "Metal Worth", 
         "description": "metal worth item count"
     }, 
     "its_msg_19": {
-        "message": "Profiilia katsottu", 
+        "message": "Просмотры профиля", 
         "message-retranslated": "Profile Views", 
         "description": "count of profile views"
     }, 
     "request_aborted": {
-        "message": "Pyynt\u00f6keskeytetty on aikakatkaisu", 
-        "message-retranslated": "Request Aborted is a timeout", 
+        "message": "Выполнение запроса прервано по таймауту", 
+        "message-retranslated": "Processing Request timed out", 
         "description": "request aborted label"
     }, 
     "seconds": {
-        "message": "sekuntia", 
+        "message": "секунд", 
         "message-retranslated": "seconds", 
         "description": "seconds"
     }, 
     "extension_desc": {
-        "message": "Nopea p\u00e4\u00e4sy kohteita Team Fortress 2 reppu", 
-        "message-retranslated": "Quick access to items in Team Fortress 2 Backpack", 
+        "message": "Быстрый доступ к пунктам в Team Fortress 2 рюкзака", 
+        "message-retranslated": "Quick access to items in Team Fortress 2 backpack", 
         "description": "Extension description"
     }, 
     "its_msg_8": {
-        "message": "Uusia kohteita", 
-        "message-retranslated": "New items", 
+        "message": "Новые поступления", 
+        "message-retranslated": "New Arrivals", 
         "description": "new items title"
     }, 
     "its_msg_9": {
-        "message": "Reppu", 
+        "message": "Рюкзак", 
         "message-retranslated": "Backpack", 
         "description": "backpack title"
     }, 
     "equipped": {
-        "message": "Varustettu", 
+        "message": "Оборудованный", 
         "message-retranslated": "Equipped", 
         "description": "equipped label"
     }, 
     "its_msg_4": {
-        "message": "S\u00e4\u00e4st\u00e4\u00e4", 
+        "message": "Сохранить", 
         "message-retranslated": "Save", 
         "description": "save button"
     }, 
     "its_msg_5": {
-        "message": "Nollaa", 
+        "message": "Сбросить", 
         "message-retranslated": "Reset", 
         "description": "reset button"
     }, 
     "its_msg_6": {
-        "message": "L\u00e4hell\u00e4", 
+        "message": "Закрыть", 
         "message-retranslated": "Close", 
         "description": "close button"
     }, 
     "its_msg_7": {
-        "message": "Luonne Info $1", 
-        "message-retranslated": "Character Info $1", 
+        "message": "Информация о характере $1", 
+        "message-retranslated": "Information on the nature $1", 
         "description": "character info title"
     }, 
     "network_error": {
-        "message": "Verkkovirhe", 
+        "message": "Ошибка сети", 
         "message-retranslated": "Network Error", 
         "description": "some kind of network error"
     }, 
     "its_msg_1": {
-        "message": "Profiili ID Ei Set!", 
-        "message-retranslated": "Profile ID Not Set!", 
+        "message": "Анкета ID Не указан!", 
+        "message-retranslated": "Profile ID is not specified!", 
         "description": "no steam id title"
     }, 
     "its_msg_2": {
-        "message": "Voit k\u00e4ytt\u00e4\u00e4 Team Fortress 2 reppu Access laajentaminen anna yhteis\u00f6lle tai profiilia id t\u00e4\u00e4ll\u00e4", 
-        "message-retranslated": "You can use the Team Fortress 2 backpack Access extension, or let the community here in the profile id", 
+        "message": "Для использования Team Fortress 2 Рюкзак расширения доступа введите имя профиля сообщества или ID здесь", 
+        "message-retranslated": "To use the Team Fortress 2 Backpack access, enter the name of the community or profile ID here", 
         "description": "no steam id help"
     }, 
     "its_msg_3": {
-        "message": "(Esim. pnatural tai 76561197992805111)", 
-        "message-retranslated": "(Eg pnatural or 76561197992805111)", 
+        "message": "(Velcom pnatural или 76561197992805111)", 
+        "message-retranslated": "(Velcom pnatural or 76561197992805111)", 
         "description": "no steam id example"
     }, 
     "bad_feed": {
@@ -214,93 +214,93 @@
         "description": "bad data feed label"
     }, 
     "feed_url_error": {
-        "message": "Sy\u00f6tteen URL", 
+        "message": "URL ленты", 
         "message-retranslated": "Feed URL", 
         "description": "error because the feed url is empty"
     }, 
     "its_msg_29": {
-        "message": "at", 
+        "message": "около", 
         "message-retranslated": "at", 
         "description": "just the word 'at'"
     }, 
     "its_msg_28": {
-        "message": "Laajennus on kirjoittanut", 
-        "message-retranslated": "Expansion is the author of", 
+        "message": "Расширение написана", 
+        "message-retranslated": "The expansion is written", 
         "description": "view pnatural profile link"
     }, 
     "its_msg_27": {
-        "message": "Powered by", 
-        "message-retranslated": "Powered by", 
+        "message": "Powered By", 
+        "message-retranslated": "Powered By", 
         "description": "powered by"
     }, 
     "its_msg_26": {
-        "message": "Katso profiilia", 
-        "message-retranslated": "View Profile", 
+        "message": "Посмотреть профиль", 
+        "message-retranslated": "View Public Profile", 
         "description": "view profile link"
     }, 
     "its_msg_25": {
-        "message": "N\u00e4yt\u00e4 reppu", 
-        "message-retranslated": "View backpack", 
+        "message": "Открыть Рюкзак", 
+        "message-retranslated": "View Backpack", 
         "description": "view backpack link"
     }, 
     "its_msg_24": {
-        "message": "Piilota Stats", 
-        "message-retranslated": "Hide Stats", 
+        "message": "Скрыть статистику", 
+        "message-retranslated": "Hide statistics", 
         "description": "hide stats button"
     }, 
     "its_msg_23": {
-        "message": "Pyyd\u00e4 aika", 
+        "message": "Время запроса", 
         "message-retranslated": "Request Time", 
         "description": "duration of request"
     }, 
     "its_msg_22": {
-        "message": "Seuraava Hae", 
-        "message-retranslated": "Next Search", 
+        "message": "Следующая доставка", 
+        "message-retranslated": "Next delivery", 
         "description": "time of next fetch"
     }, 
     "its_msg_21": {
-        "message": "Edellinen Hae", 
-        "message-retranslated": "Last Search", 
+        "message": "Последний Fetch", 
+        "message-retranslated": "Last Fetch", 
         "description": "time of last fetch"
     }, 
     "its_msg_20": {
-        "message": "Cache aika", 
-        "message-retranslated": "Cache time", 
+        "message": "Время кэширования", 
+        "message-retranslated": "Cache Time", 
         "description": "time feed cached"
     }, 
     "refreshing": {
-        "message": "Virkist\u00e4v\u00e4", 
+        "message": "Освежающий", 
         "message-retranslated": "Refreshing", 
         "description": "refreshing text goes here"
     }, 
     "level": {
-        "message": "Taso $1 $2", 
-        "message-retranslated": "Level 1 $$2", 
+        "message": "Уровень $1 $2", 
+        "message-retranslated": "Level $1 $2", 
         "description": "level label"
     }, 
     "extension_name": {
-        "message": "Team Fortress 2 reppu Access", 
-        "message-retranslated": "Team Fortress 2 backpack Access", 
+        "message": "Team Fortress 2 Рюкзак доступа", 
+        "message-retranslated": "Team Fortress 2 Backpack access", 
         "description": "Extension name"
     }, 
     "from_cache": {
-        "message": "Tiedot ladata Cache", 
-        "message-retranslated": "Cache data download", 
+        "message": "Данных, загруженных из кэша", 
+        "message-retranslated": "Data downloaded from the cache", 
         "description": "data loaded from cache label"
     }, 
     "error": {
-        "message": "Virhe", 
-        "message-retranslated": "Error", 
+        "message": "Ошибка", 
+        "message-retranslated": "Mistake", 
         "description": "error label"
     }, 
     "its_msg_13": {
-        "message": "Yhteens\u00e4 kohteet", 
+        "message": "Всего экземпляров", 
         "message-retranslated": "Total Items", 
         "description": "total item count stats title"
     }, 
     "its_msg_0": {
-        "message": "Team Fortress 2 reppu Access (Uusi ja parannettu)", 
-        "message-retranslated": "Team Fortress 2 backpack Access (New and Improved)", 
+        "message": "Team Fortress 2 Рюкзак Access (Новый и улучшенный)", 
+        "message-retranslated": "Team Fortress 2 Backpack Access (New and Improved)", 
         "description": "page title"
     }
 }

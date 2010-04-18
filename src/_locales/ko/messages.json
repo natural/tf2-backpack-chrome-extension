@@ -5,13 +5,13 @@
         "description": "the number 4"
     }, 
     "no_change": {
-        "message": "\ubcc0\uacbd \uc0ac\ud56d \uc5c6\uc74c", 
+        "message": "\ubcc0\ud654 \uc5c6\uc74c", 
         "message-retranslated": "No change", 
         "description": "nothing changed, but have a label!"
     }, 
     "profile_found": {
-        "message": "$2 \uc99d\uae30 \uc790\ub8cc ID **1\uc744 \uc0ac\uc6a9\ud569\ub2c8\ub2e4.", 
-        "message-retranslated": "Article ID **1 $2 steam is used.", 
+        "message": "\uc99d\uae30 \uc790\ub8cc ID **1 **2 \uc0ac\uc6a9\ud569\ub2c8\ub2e4.", 
+        "message-retranslated": "Article ID **1 **2 steam is used.", 
         "description": "steam id found in search"
     }, 
     "num1": {
@@ -35,23 +35,23 @@
         "description": "stats button"
     }, 
     "second": {
-        "message": "2", 
-        "message-retranslated": "2", 
+        "message": "\ucd08", 
+        "message-retranslated": "Second", 
         "description": "second"
     }, 
     "warning": {
-        "message": "\uacbd\uace0 :", 
-        "message-retranslated": "Warning:", 
+        "message": "\uacbd\uace0", 
+        "message-retranslated": "Warning", 
         "description": "warning label"
     }, 
     "its_msg_31": {
-        "message": "TF2 \ubc30\ub0ad \ubdf0\uc5b4 - \uc635\uc158", 
-        "message-retranslated": "TF2 backpack viewer - options", 
+        "message": "tF2 \ubc30\ub0ad \ubdf0\uc5b4 - \uc635\uc158", 
+        "message-retranslated": "Backpack tF2 viewer - options", 
         "description": "options page title"
     }, 
     "refresh_nochange": {
-        "message": "\ud53c\ub4dc \uc6d0\uae30 - \ubcc0\uacbd \uc0ac\ud56d \uc5c6\uc74c", 
-        "message-retranslated": "Feed spirits - No change", 
+        "message": "\ud53c\ub4dc \uc6d0\uae30 - \uc544\ub1e8 \ubcc0\uacbd", 
+        "message-retranslated": "Feed refresher - No Change", 
         "description": "feed refreshed without changes"
     }, 
     "language_code": {
@@ -64,18 +64,18 @@
         "description": "fragment"
     }, 
     "parse_error": {
-        "message": "\uad6c\ubb38 \ubd84\uc11d \uc624\ub958\uac00 \ubc1c\uc0dd\ud588\uc2b5\ub2c8\ub2e4", 
-        "message-retranslated": "Parse Error", 
+        "message": "\uc758 Parse Error", 
+        "message-retranslated": "Parse Error in", 
         "description": "some kind of parse error"
     }, 
     "its_msg_32": {
-        "message": "\ud504\ub85c\ud544 \uc790\ub8cc ID", 
-        "message-retranslated": "Profile Article ID", 
+        "message": "\ud504\ub85c\ud544 \uc544\uc774\ub514", 
+        "message-retranslated": "Author Profile", 
         "description": "profile id label"
     }, 
     "its_msg_33": {
         "message": "\ucde8\uc18c", 
-        "message-retranslated": "Cancel", 
+        "message-retranslated": "Canceled", 
         "description": "cancel label, such as for a button"
     }, 
     "its_msg_34": {
@@ -84,18 +84,18 @@
         "description": ""
     }, 
     "its_msg_35": {
-        "message": "\ubb54\uac00 \ub354 \ub098\uc740 \uc81c\uc548", 
-        "message-retranslated": "Offer something better", 
+        "message": "\uc81c\uc548 \ub354 \ub098\uc740 \ubb34\uc5b8\uac00\ub97c", 
+        "message-retranslated": "Suggestions for something better", 
         "description": ""
     }, 
     "its_msg_16": {
         "message": "\uc54c \uc218\uc5c6\ub294 \ud56d\ubaa9", 
-        "message-retranslated": "Also unknown", 
+        "message-retranslated": "Unknown item", 
         "description": "unknown item count stats title"
     }, 
     "its_msg_17": {
         "message": "\uae08\uc18d \uc81c\ud488", 
-        "message-retranslated": "Metal Products", 
+        "message-retranslated": "Metal products", 
         "description": "metal item count stats title"
     }, 
     "its_msg_14": {
@@ -109,12 +109,12 @@
         "description": "hat count stats title"
     }, 
     "extension_default_title": {
-        "message": "\ubcf4\uae30 \ud300 \ud3ec\ud2b8\ub9ac\uc2a4 2 \ubc30\ub0ad", 
-        "message-retranslated": "Team Fortress 2 more Backpacking", 
+        "message": "\ubcf4\uae30 \ud300 \uc694\uc0c8 2 Backpack", 
+        "message-retranslated": "View Team Fortress 2 Backpack", 
         "description": "Extension default title for browser action"
     }, 
     "other_error": {
-        "message": "\uc77c\ubd80\ub294 \ub2e4\ub978 \uc624\ub958\uac00 \ubc1c\uc0dd\ud588\uc2b5\ub2c8\ub2e4", 
+        "message": "\uc77c\ubd80 \ub2e4\ub978 \uc624\ub958\uac00 \ubc1c\uc0dd\ud588\uc2b5\ub2c8\ub2e4", 
         "message-retranslated": "Some other error occurred", 
         "description": "some other kind of error occurred."
     }, 
@@ -135,37 +135,37 @@
     }, 
     "its_msg_19": {
         "message": "\ud504\ub85c\ud544\ubcf4\uae30", 
-        "message-retranslated": "View profile", 
+        "message-retranslated": "View Profile", 
         "description": "count of profile views"
     }, 
     "request_aborted": {
-        "message": "\uc694\uccad \uc2dc\uac04 \ucd08\uacfc\uc5d0 \uc758\ud574 \uc911\ub2e8\ub428", 
-        "message-retranslated": "Request aborted by timeout", 
+        "message": "\uc694\uccad\uc774 \uc2dc\uac04 \ucd08\uacfc\ub85c \ucde8\uc18c\ub428", 
+        "message-retranslated": "Cancelled requests timeout", 
         "description": "request aborted label"
     }, 
     "seconds": {
         "message": "\ucd08", 
-        "message-retranslated": "S", 
+        "message-retranslated": "Second", 
         "description": "seconds"
     }, 
     "extension_desc": {
-        "message": "\uadc0\ud558\uc758 \ud300 \ud3ec\ud2b8\ub9ac\uc2a4 2 \uac00\ubc29\uc758 \ud56d\ubaa9\uc5d0 \ube60\ub978 \uc561\uc138\uc2a4", 
+        "message": "\uadc0\ud558\uc758 \ud300 \uc694\uc0c8 2 \uac00\ubc29\uc5d0 \ud56d\ubaa9\uc5d0 \ube60\ub978 \uc561\uc138\uc2a4", 
         "message-retranslated": "Team Fortress 2 items in your bag for quick access", 
         "description": "Extension description"
     }, 
     "its_msg_8": {
         "message": "\uc0c8 \ud56d\ubaa9", 
-        "message-retranslated": "New Items", 
+        "message-retranslated": "New Item", 
         "description": "new items title"
     }, 
     "its_msg_9": {
-        "message": "\uac00\ubc29", 
-        "message-retranslated": "Bags", 
+        "message": "\ubc30\ub0ad", 
+        "message-retranslated": "Backpack", 
         "description": "backpack title"
     }, 
     "equipped": {
-        "message": "\ud0d1\uc7ac", 
-        "message-retranslated": "Mount", 
+        "message": "\uc644\ube44", 
+        "message-retranslated": "Complete", 
         "description": "equipped label"
     }, 
     "its_msg_4": {
@@ -179,53 +179,53 @@
         "description": "reset button"
     }, 
     "its_msg_6": {
-        "message": "\ub2eb\uae30", 
+        "message": "\uac00\uae4c\uc6b4", 
         "message-retranslated": "Close", 
         "description": "close button"
     }, 
     "its_msg_7": {
-        "message": "\uce90\ub9ad\ud130 \uc815\ubcf4 $1", 
-        "message-retranslated": "Character Information $1", 
+        "message": "\uc5d0 \ub300\ud55c \ubb38\uc790 \uc815\ubcf4 $1", 
+        "message-retranslated": "$1 for character information", 
         "description": "character info title"
     }, 
     "network_error": {
-        "message": "\ub124\ud2b8\uc6cc\ud06c \uc624\ub958\uac00 \ubc1c\uc0dd\ud588\uc2b5\ub2c8\ub2e4", 
-        "message-retranslated": "A network error has occurred", 
+        "message": "\ub124\ud2b8\uc6cc\ud06c \uc624\ub958", 
+        "message-retranslated": "Network Error", 
         "description": "some kind of network error"
     }, 
     "its_msg_1": {
-        "message": "\ud504\ub85c\ud544 \uc124\uc815\ub418\uc9c0 \uc54a\uc74c ID\ub97c!", 
-        "message-retranslated": "Profiles are not set to ID!", 
+        "message": "\ud504\ub85c\ud544 \uc124\uc815\ub418\uc9c0 ID\ub97c!", 
+        "message-retranslated": "Profile is set to ID!", 
         "description": "no steam id title"
     }, 
     "its_msg_2": {
-        "message": "\ucee4\ubba4\ub2c8\ud2f0 \uc774\ub984\uc774\ub098 \ud504\ub85c\ud544\uc744 \uc785\ub825 \ud300 \ud3ec\ud2b8\ub9ac\uc2a4 2 \ubc30\ub0ad \uc561\uc138\uc2a4 \ud655\uc7a5 \uae30\ub2a5\uc744 \uc0ac\uc6a9\ud558\ub824\uba74 \uc5ec\uae30\uc5d0 id\ub97c", 
-        "message-retranslated": "Enter the name of the community or profile Team Fortress 2 here to use the backpack to access extended features of the id", 
+        "message": "\ucee4\ubba4\ub2c8\ud2f0 \uc774\ub984\uc774\ub098 \ud504\ub85c\ud544\uc744 \uc785\ub825 \ud300 \ud3ec\ud2b8\ub9ac\uc2a4 2 Backpack \uc561\uc138\uc2a4 \ud655\uc7a5 \uae30\ub2a5\uc744 \uc0ac\uc6a9\ud558\ub824\uba74 \uc774\uacf3 \uc544\uc774\ub514", 
+        "message-retranslated": "Enter the name of the community or profile Team Fortress 2 Backpack here to access the extended feature ID", 
         "description": "no steam id help"
     }, 
     "its_msg_3": {
-        "message": "(e.g. pnatural \ub610\ub294 76,561,197,992,805,111)", 
-        "message-retranslated": "(e.g. pnatural or 76561197992805111)", 
+        "message": "(\uc608\ub97c \ub4e4\uba74 pnatural \ub610\ub294 76,561,197,992,805,111)", 
+        "message-retranslated": "(For example, pnatural or 76561197992805111)", 
         "description": "no steam id example"
     }, 
     "bad_feed": {
-        "message": "\uc798\ubabb\ub41c \ub370\uc774\ud130 \ud53c\ub4dc", 
-        "message-retranslated": "Incorrect Data Feeds", 
+        "message": "\ubd88\ub7c9 \ub370\uc774\ud130 \ud53c\ub4dc", 
+        "message-retranslated": "Bad data feeds", 
         "description": "bad data feed label"
     }, 
     "feed_url_error": {
-        "message": "\uc544\ub2c8 \ud53c\ub4dc URL", 
+        "message": "\uc5c6\uc74c \ud53c\ub4dc URL", 
         "message-retranslated": "No Feed URL", 
         "description": "error because the feed url is empty"
     }, 
     "its_msg_29": {
         "message": "\uc5d0", 
-        "message-retranslated": "At", 
+        "message-retranslated": "In", 
         "description": "just the word 'at'"
     }, 
     "its_msg_28": {
-        "message": "\ud655\uc7a5 \uae30\ub2a5\uc5d0 \uc758\ud574 \uc791\uc131\ub41c", 
-        "message-retranslated": "Written by extension", 
+        "message": "\ud655\uc7a5 \uc791\uc131\ud55c", 
+        "message-retranslated": "By extension", 
         "description": "view pnatural profile link"
     }, 
     "its_msg_27": {
@@ -235,12 +235,12 @@
     }, 
     "its_msg_26": {
         "message": "\ud504\ub85c\ud544\ubcf4\uae30", 
-        "message-retranslated": "View profile", 
+        "message-retranslated": "View Profile", 
         "description": "view profile link"
     }, 
     "its_msg_25": {
-        "message": "\ubc30\ub0ad\ubcf4\uae30", 
-        "message-retranslated": "View backpack", 
+        "message": "\ubcf4\uae30 Backpack", 
+        "message-retranslated": "View Backpack", 
         "description": "view backpack link"
     }, 
     "its_msg_24": {
@@ -254,8 +254,8 @@
         "description": "duration of request"
     }, 
     "its_msg_22": {
-        "message": "\ub2e4\uc74c\uc73c\ub85c \uac00\uc838\uc624\uae30", 
-        "message-retranslated": "Next, import", 
+        "message": "\ub2e4\uc74c \uac00\uc838\uc624\uae30", 
+        "message-retranslated": "The following Import", 
         "description": "time of next fetch"
     }, 
     "its_msg_21": {
@@ -269,23 +269,23 @@
         "description": "time feed cached"
     }, 
     "refreshing": {
-        "message": "\ub9ac\ud504\ub808\uc2f1", 
-        "message-retranslated": "Refreshing", 
+        "message": "\uc0c1\ucf8c", 
+        "message-retranslated": "Refresh", 
         "description": "refreshing text goes here"
     }, 
     "level": {
         "message": "\ub808\ubca8 $1 $2", 
-        "message-retranslated": "Level, $1 $2", 
+        "message-retranslated": "Level 1 $2 $", 
         "description": "level label"
     }, 
     "extension_name": {
-        "message": "\ud300 \ud3ec\ud2b8\ub9ac\uc2a4 2 \ubc30\ub0ad \uad50\ud1b5", 
-        "message-retranslated": "Team Fortress 2 backpack Traffic", 
+        "message": "\ud300 \uc694\uc0c8 2 \ubc30\ub0ad \uad50\ud1b5", 
+        "message-retranslated": "Team Fortress 2 Backpack Transportation", 
         "description": "Extension name"
     }, 
     "from_cache": {
-        "message": "\ub370\uc774\ud130\ub97c\ub85c\ub4dc \uce90\uc2dc\uc5d0\uc11c", 
-        "message-retranslated": "Load data from the cache", 
+        "message": "\uce90\uc2dc\uc5d0\uc11c \ub370\uc774\ud130\ub85c\ub4dc", 
+        "message-retranslated": "Loading data from the cache", 
         "description": "data loaded from cache label"
     }, 
     "error": {
@@ -294,13 +294,13 @@
         "description": "error label"
     }, 
     "its_msg_13": {
-        "message": "\uc804\uccb4 \uc81c\ud488", 
-        "message-retranslated": "All Products", 
+        "message": "\ucd1d \ud56d\ubaa9", 
+        "message-retranslated": "Total entries", 
         "description": "total item count stats title"
     }, 
     "its_msg_0": {
-        "message": "\ud300 \ud3ec\ud2b8\ub9ac\uc2a4 2 \ubc30\ub0ad \uc561\uc138\uc2a4 (\uc0c8\ub85c\uc6b4 \uae30\ub2a5 \ubc0f \ud5a5\uc0c1\ub41c \uae30\ub2a5)", 
-        "message-retranslated": "Team Fortress 2 backpack access (new features and improvements)", 
+        "message": "\ud300 \uc694\uc0c8 2 \ubc30\ub0ad \uc561\uc138\uc2a4 (\uc2e0\uaddc \ubc0f \ud5a5\uc0c1\ub41c \uae30\ub2a5)", 
+        "message-retranslated": "Team Fortress 2 Backpack access (new and improvements)", 
         "description": "page title"
     }
 }

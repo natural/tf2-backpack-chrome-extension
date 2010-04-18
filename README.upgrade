@@ -53,6 +53,9 @@ Save each and exit.
     $ cd ~/src/tf2-backpack-chrome-extension/src/media
     $ cp ~/var/tf2content/output/texts/*.txt .
 
+    $ cd ~/src/tf2-backpack-chrome-extension/src/tools
+    $ cp ~/var/tf2content/output/texts/items_game.txt .
+
 8.  Make the item files:
 
     $ cd ~/src/tf2-backpack-chrome-extension/src/tools

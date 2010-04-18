@@ -367,6 +367,7 @@ Build teleporters to help team mates get to the front lines!"
 "TF_PyroBrainSucker"	"Triboniophorus Tyrannus"
 "TF_SoldierSamurai"		"Killer's Kabuto"
 "TF_SniperPithHelmet"	"Shooter's Sola Topi"
+"TF_TTG_MaxsHat"		"Max's Severed Head"
 
 // Death strings
 "DeathMsg_Suicide"		"bid farewell, cruel world!"
@@ -2424,6 +2425,8 @@ Build teleporters to help team mates get to the front lines!"
 "TF_Unique_SledgeHammer"			"Homewrecker" [$ENGLISH]
 "TF_Unique_Makeshiftclub"			"Pain Train" [$ENGLISH]
 "TF_Unique_Lunchbox_Chocolate"		"Dalokohs Bar" [$ENGLISH]
+"TF_TTG_MaxGun"						"Lugermorph" [$ENGLISH]
+"TF_TTG_SamRevolver"				"Big Kill" [$ENGLISH]
 "TF_NonUnique_Append_Proper"		"(%s1)" [$!ENGLISH]			// Should be !ENGLISH
 
 // LOCALIZERS SHOULD TRANSLATE THIS BLOCK.
@@ -2456,6 +2459,8 @@ Build teleporters to help team mates get to the front lines!"
 
 "TF_Unique_SledgeHammer"			"The Homewrecker" [$!ENGLISH]
 "TF_Unique_Lunchbox_Chocolate"		"The Dalokohs Bar" [$!ENGLISH]
+"TF_TTG_MaxGun"						"The Lugermorph" [$!ENGLISH]
+"TF_TTG_SamRevolver"				"The Big Kill" [$!ENGLISH]
 "TF_Unique_Makeshiftclub"			"The Pain Train" [$!ENGLISH]
 
 //==========================================================================================
@@ -2464,6 +2469,9 @@ Build teleporters to help team mates get to the front lines!"
 "TF_Unique_Achievement_Sword_Desc"	"This weapon has a large melee range.\nGives increased speed and health with every head you take."
 "TF_Unique_Achievement_Shield_Desc"	"Alt-Fire: Gain increased attack power by charging toward your enemies."
 
+"TF_TTG_MaxGun_Desc"				"The ultimate in semi-concealed weaponry.\nThere’s no question you need this gun,\nthe only question is: where will you keep it?"
+"TF_TTG_SamRevolver_Desc"			"Combines style with stopping power.\nLong exclusive to Freelance Police,\nnow available for other blood-thirsty mercenaries."
+"TF_TTG_MaxsHat_Desc"				"Expertly crafted headwear from cruelty-free farms\nin the Philippines. Hollowed-out skull casing wicks\nmoisture away when in the heat of battle."
 
 // Hats
 "TF_Wearable_Headgear"				"Headgear"

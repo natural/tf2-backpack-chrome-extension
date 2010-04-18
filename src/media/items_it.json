@@ -106,6 +106,10 @@
         "type": "Pistola", 
         "description": "Pistola"
     }, 
+    "95": {
+        "type": "Hat", 
+        "description": "Berretto da ingegnere"
+    }, 
     "28": {
         "type": "Computer palmare", 
         "description": "Computer palmare"
@@ -113,6 +117,10 @@
     "29": {
         "type": "Pistola medica", 
         "description": "Pistola medica"
+    }, 
+    "94": {
+        "type": "Hat", 
+        "description": "Cappello texano"
     }, 
     "0": {
         "type": "Mazza", 
@@ -342,7 +350,7 @@
     }, 
     "other_attributes": {
         "133": "Medaglia numero %s1", 
-        "132": "Data di preziosi collaboratori della Comunit\u00e0"
+        "132": "Dato a preziosi collaboratori della Comunit\u00e0"
     }, 
     "5003": {
         "alt": [
@@ -415,10 +423,10 @@
     }, 
     "9003": {
         "positive": [
-            "Divieti account di Steam di giocatori uccisi", 
+            "Divieti account Steam di giocatori uccisi", 
             "Questa voce non \u00e8 reale ed \u00e8 solo uno scherzo."
         ], 
-        "type": "Mallet del bando", 
+        "type": "Mallet di esilio", 
         "description": "Ban Hammer"
     }, 
     "102": {
@@ -539,6 +547,10 @@
         ], 
         "description": "Ambassador"
     }, 
+    "97": {
+        "type": "Hat", 
+        "description": "Berretto da duro"
+    }, 
     "2": {
         "type": "Accetta", 
         "description": "Accetta"
@@ -555,17 +567,26 @@
         "type": "Hat", 
         "description": "Pentola inossidabile"
     }, 
-    "95": {
-        "type": "Hat", 
-        "description": "Berretto da ingegnere"
+    "160": {
+        "alt": [
+            "TF_TTG_MaxGun_Desc"
+        ], 
+        "type": "Pistola", 
+        "description": "TF_TTG_MaxGun"
     }, 
-    "94": {
-        "type": "Hat", 
-        "description": "Cappello texano"
+    "161": {
+        "alt": [
+            "TF_TTG_SamRevolver_Desc"
+        ], 
+        "type": "Revolver", 
+        "description": "TF_TTG_SamRevolver"
     }, 
-    "97": {
+    "162": {
+        "alt": [
+            "TF_TTG_MaxsHat_Desc"
+        ], 
         "type": "Hat", 
-        "description": "Berretto da duro"
+        "description": "TF_TTG_MaxsHat"
     }, 
     "96": {
         "type": "Hat", 

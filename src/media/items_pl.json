@@ -106,6 +106,10 @@
         "type": "Pistolet", 
         "description": "Pistolet"
     }, 
+    "95": {
+        "type": "Hat", 
+        "description": "Czapka Engineera"
+    }, 
     "28": {
         "type": "PDA", 
         "description": "PDA"
@@ -113,6 +117,10 @@
     "29": {
         "type": "Medigun", 
         "description": "Medigun"
+    }, 
+    "94": {
+        "type": "Hat", 
+        "description": "Teksa\u0144ski kapelusz"
     }, 
     "0": {
         "type": "Kij baseballowy", 
@@ -341,8 +349,8 @@
         "description": "Klucz"
     }, 
     "other_attributes": {
-        "133": "Numer Medal %s1", 
-        "132": "Ze wzgl\u0119du na cenne Wsp\u00f3lnoty Uczestnik\u00f3w"
+        "133": "Medal nr %s1", 
+        "132": "Uwag\u0119 na cenne Wsp\u00f3lnoty Uczestnik\u00f3w"
     }, 
     "5003": {
         "alt": [
@@ -415,11 +423,11 @@
     }, 
     "9003": {
         "positive": [
-            "Zakazy konta Steam graczy zabitych", 
-            "Ten element nie jest realne i jest tylko \u017cart."
+            "Zakazy konto Steam zabitych graczy", 
+            "Pozycja nie jest prawdziwe i tylko \u017cart."
         ], 
-        "type": "Mallet wygnania", 
-        "description": "Ban Hammer"
+        "type": "Wygnanie z m\u0142otkiem", 
+        "description": "Zakaz Hammer"
     }, 
     "102": {
         "type": "Hat", 
@@ -539,6 +547,10 @@
         ], 
         "description": "Ambassador"
     }, 
+    "97": {
+        "type": "Hat", 
+        "description": "Czapka twardziela"
+    }, 
     "2": {
         "type": "Ognisty top\u00f3r", 
         "description": "Ognisty top\u00f3r"
@@ -555,17 +567,26 @@
         "type": "Hat", 
         "description": "Rondel nierdzewny"
     }, 
-    "95": {
-        "type": "Hat", 
-        "description": "Czapka Engineera"
+    "160": {
+        "alt": [
+            "TF_TTG_MaxGun_Desc"
+        ], 
+        "type": "Pistolet", 
+        "description": "TF_TTG_MaxGun"
     }, 
-    "94": {
-        "type": "Hat", 
-        "description": "Teksa\u0144ski kapelusz"
+    "161": {
+        "alt": [
+            "TF_TTG_SamRevolver_Desc"
+        ], 
+        "type": "Rewolwer", 
+        "description": "TF_TTG_SamRevolver"
     }, 
-    "97": {
+    "162": {
+        "alt": [
+            "TF_TTG_MaxsHat_Desc"
+        ], 
         "type": "Hat", 
-        "description": "Czapka twardziela"
+        "description": "TF_TTG_MaxsHat"
     }, 
     "96": {
         "type": "Hat", 

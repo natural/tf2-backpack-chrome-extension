@@ -106,6 +106,10 @@
         "type": "Pistol", 
         "description": "Pistol"
     }, 
+    "95": {
+        "type": "Hat", 
+        "description": "Lokomotivf\u00f8rerkasket"
+    }, 
     "28": {
         "type": "PDA", 
         "description": "PDA"
@@ -113,6 +117,10 @@
     "29": {
         "type": "Medi-gev\u00e6r", 
         "description": "Medi-gev\u00e6r"
+    }, 
+    "94": {
+        "type": "Hat", 
+        "description": "Cowboyhat"
     }, 
     "0": {
         "type": "Bat", 
@@ -341,8 +349,8 @@
         "description": "Svenskn\u00f8gle"
     }, 
     "other_attributes": {
-        "133": "Medalje nummer %s1", 
-        "132": "Gives til de v\u00e6rdifulde EU Bidragydere"
+        "133": "Medal nummer %s1", 
+        "132": "Gives til v\u00e6rdifulde EF Bidragydere"
     }, 
     "5003": {
         "alt": [
@@ -415,10 +423,10 @@
     }, 
     "9003": {
         "positive": [
-            "Forbud Steam hensyn til spillere dr\u00e6bt", 
-            "Denne konto er ikke reel, og er kun en joke."
+            "Forbud Steam af dr\u00e6bte spillere", 
+            "Dette punkt er ikke reel og er kun en joke."
         ], 
-        "type": "Mallet af Forvisning", 
+        "type": "Mallet af forvist", 
         "description": "Ban Hammer"
     }, 
     "102": {
@@ -539,6 +547,10 @@
         ], 
         "description": "Ambassador-revolver"
     }, 
+    "97": {
+        "type": "Hat", 
+        "description": "Smart fyrs skihue"
+    }, 
     "2": {
         "type": "\u00d8kse", 
         "description": "\u00d8kse"
@@ -555,17 +567,26 @@
         "type": "Hat", 
         "description": "Rustfri gryde"
     }, 
-    "95": {
-        "type": "Hat", 
-        "description": "Lokomotivf\u00f8rerkasket"
+    "160": {
+        "alt": [
+            "TF_TTG_MaxGun_Desc"
+        ], 
+        "type": "Pistol", 
+        "description": "TF_TTG_MaxGun"
     }, 
-    "94": {
-        "type": "Hat", 
-        "description": "Cowboyhat"
+    "161": {
+        "alt": [
+            "TF_TTG_SamRevolver_Desc"
+        ], 
+        "type": "Revolver", 
+        "description": "TF_TTG_SamRevolver"
     }, 
-    "97": {
+    "162": {
+        "alt": [
+            "TF_TTG_MaxsHat_Desc"
+        ], 
         "type": "Hat", 
-        "description": "Smart fyrs skihue"
+        "description": "TF_TTG_MaxsHat"
     }, 
     "96": {
         "type": "Hat", 

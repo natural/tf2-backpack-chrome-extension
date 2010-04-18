@@ -10,8 +10,8 @@
         "description": "nothing changed, but have a label!"
     }, 
     "profile_found": {
-        "message": "L'utilisation de Steam ID $1 pour $2.", 
-        "message-retranslated": "Using Steam ID $$2 for 1.", 
+        "message": "En utilisant Steam ID $$1 pour 2.", 
+        "message-retranslated": "Using SteamID $$1 for 2.", 
         "description": "steam id found in search"
     }, 
     "num1": {
@@ -36,17 +36,17 @@
     }, 
     "second": {
         "message": "seconde", 
-        "message-retranslated": "seconds", 
+        "message-retranslated": "second", 
         "description": "second"
     }, 
     "warning": {
         "message": "Avertissement", 
-        "message-retranslated": "Disclaimer", 
+        "message-retranslated": "Warning", 
         "description": "warning label"
     }, 
     "its_msg_31": {
-        "message": "TF2 Backpack Viewer - Options", 
-        "message-retranslated": "TF2 Backpack Viewer - Options", 
+        "message": "Sac \u00e0 dos Viewer TF2 - Options", 
+        "message-retranslated": "Backpack Viewer TF2 - Options", 
         "description": "options page title"
     }, 
     "refresh_nochange": {
@@ -59,7 +59,7 @@
         "description": ""
     }, 
     "its_msg_30": {
-        "message": "\u00e0 la Communaut\u00e9 Steam", 
+        "message": "\u00e0 la Steam Community", 
         "message-retranslated": "the Steam Community", 
         "description": "fragment"
     }, 
@@ -80,27 +80,27 @@
     }, 
     "its_msg_34": {
         "message": "Traduction incorrecte?", 
-        "message-retranslated": "Translation incorrect?", 
+        "message-retranslated": "Incorrect Translation?", 
         "description": ""
     }, 
     "its_msg_35": {
-        "message": "Sugg\u00e9rez Something Better", 
-        "message-retranslated": "Suggest Something Better", 
+        "message": "Sugg\u00e9rez-nous un monde meilleur", 
+        "message-retranslated": "Suggest a better world", 
         "description": ""
     }, 
     "its_msg_16": {
-        "message": "Inconnu Items", 
+        "message": "Articles Inconnue", 
         "message-retranslated": "Unknown Items", 
         "description": "unknown item count stats title"
     }, 
     "its_msg_17": {
-        "message": "Metal Items", 
+        "message": "Articles en m\u00e9tal", 
         "message-retranslated": "Metal Items", 
         "description": "metal item count stats title"
     }, 
     "its_msg_14": {
-        "message": "Normal Items", 
-        "message-retranslated": "Normal Items", 
+        "message": "\u00c9l\u00e9ments normaux", 
+        "message-retranslated": "The normal", 
         "description": "normal item count stats title"
     }, 
     "its_msg_15": {
@@ -109,8 +109,8 @@
         "description": "hat count stats title"
     }, 
     "extension_default_title": {
-        "message": "View Team Fortress 2 Sac \u00e0 dos de votre", 
-        "message-retranslated": "View Team Fortress 2 backpack your", 
+        "message": "Acc\u00e9dez \u00e0 votre Team Fortress 2 Sac \u00e0 dos", 
+        "message-retranslated": "Go to your Team Fortress 2 Backpack", 
         "description": "Extension default title for browser action"
     }, 
     "other_error": {
@@ -119,7 +119,7 @@
         "description": "some other kind of error occurred."
     }, 
     "its_msg_10": {
-        "message": "Refresh", 
+        "message": "Rafra\u00eechir", 
         "message-retranslated": "Refresh", 
         "description": "refresh button"
     }, 
@@ -139,23 +139,23 @@
         "description": "count of profile views"
     }, 
     "request_aborted": {
-        "message": "Requ\u00eate interrompue par timeout", 
-        "message-retranslated": "Query interrupted by timeout", 
+        "message": "Demande annul\u00e9e par Timeout", 
+        "message-retranslated": "Request canceled by timeout", 
         "description": "request aborted label"
     }, 
     "seconds": {
         "message": "seconde", 
-        "message-retranslated": "seconds", 
+        "message-retranslated": "second", 
         "description": "seconds"
     }, 
     "extension_desc": {
-        "message": "Acc\u00e8s rapide aux articles dans votre sac \u00e0 dos de Team Fortress 2", 
+        "message": "Acc\u00e8s rapide aux articles dans votre sac \u00e0 dos Team Fortress 2", 
         "message-retranslated": "Quick access to items in your backpack Team Fortress 2", 
         "description": "Extension description"
     }, 
     "its_msg_8": {
-        "message": "Nouveaut\u00e9s dans la boutique", 
-        "message-retranslated": "New Items", 
+        "message": "Nouveaux produits", 
+        "message-retranslated": "New Products", 
         "description": "new items title"
     }, 
     "its_msg_9": {
@@ -164,7 +164,7 @@
         "description": "backpack title"
     }, 
     "equipped": {
-        "message": "Equip\u00e9", 
+        "message": "\u00c9quip\u00e9", 
         "message-retranslated": "Equipped", 
         "description": "equipped label"
     }, 
@@ -174,8 +174,8 @@
         "description": "save button"
     }, 
     "its_msg_5": {
-        "message": "Reset", 
-        "message-retranslated": "Reset", 
+        "message": "Remise", 
+        "message-retranslated": "Remission", 
         "description": "reset button"
     }, 
     "its_msg_6": {
@@ -184,8 +184,8 @@
         "description": "close button"
     }, 
     "its_msg_7": {
-        "message": "Character Info pour $1", 
-        "message-retranslated": "Character Info $1", 
+        "message": "Info de caract\u00e8res pour $1", 
+        "message-retranslated": "Info 1 characters $", 
         "description": "character info title"
     }, 
     "network_error": {
@@ -199,13 +199,13 @@
         "description": "no steam id title"
     }, 
     "its_msg_2": {
-        "message": "Pour utiliser le Team Fortress 2 Backpack Extension d'acc\u00e8s, inscrivez votre nom de communaut\u00e9 ou un profil d'identification ici", 
-        "message-retranslated": "To use the Team Fortress 2 Backpack access extension, enter your community name or profile ID here", 
+        "message": "Pour utiliser le Team Fortress 2 Sac \u00e0 dos d'acc\u00e8s extension entrer votre nom de la communaut\u00e9 ou le profil d'identification ici", 
+        "message-retranslated": "To use the Team Fortress 2 Backpack access extension enter your community name or profile ID here", 
         "description": "no steam id help"
     }, 
     "its_msg_3": {
-        "message": "(par exemple pnatural ou 76561197992805111)", 
-        "message-retranslated": "(eg pnatural or 76561197992805111)", 
+        "message": "(Par exemple, ou pnatural 76561197992805111)", 
+        "message-retranslated": "(For example, or pnatural 76561197992805111)", 
         "description": "no steam id example"
     }, 
     "bad_feed": {
@@ -214,8 +214,8 @@
         "description": "bad data feed label"
     }, 
     "feed_url_error": {
-        "message": "No Feed URL", 
-        "message-retranslated": "No Feed URL", 
+        "message": "Aucune URL RSS", 
+        "message-retranslated": "No RSS URL", 
         "description": "error because the feed url is empty"
     }, 
     "its_msg_29": {
@@ -224,7 +224,7 @@
         "description": "just the word 'at'"
     }, 
     "its_msg_28": {
-        "message": "Extension \u00e9crite par", 
+        "message": "Extension \u00e9crit par", 
         "message-retranslated": "Written by Extension", 
         "description": "view pnatural profile link"
     }, 
@@ -264,8 +264,8 @@
         "description": "time of last fetch"
     }, 
     "its_msg_20": {
-        "message": "Dur\u00e9e du cache", 
-        "message-retranslated": "Time cache", 
+        "message": "Cache Time", 
+        "message-retranslated": "Cache Time", 
         "description": "time feed cached"
     }, 
     "refreshing": {
@@ -279,28 +279,28 @@
         "description": "level label"
     }, 
     "extension_name": {
-        "message": "Team Fortress 2 Sac \u00e0 dos d'acc\u00e8s", 
-        "message-retranslated": "Team Fortress 2 Backpack access", 
+        "message": "Team Fortress 2 Acc\u00e8s \u00e0 dos", 
+        "message-retranslated": "Team Fortress 2 Access Backpack", 
         "description": "Extension name"
     }, 
     "from_cache": {
-        "message": "Donn\u00e9es charg\u00e9es \u00e0 partir de Cache", 
-        "message-retranslated": "Data loaded from cache", 
+        "message": "Les donn\u00e9es charg\u00e9es \u00e0 partir du cache", 
+        "message-retranslated": "The data loaded from the cache", 
         "description": "data loaded from cache label"
     }, 
     "error": {
         "message": "Erreur", 
-        "message-retranslated": "Mistake", 
+        "message-retranslated": "Error", 
         "description": "error label"
     }, 
     "its_msg_13": {
-        "message": "Nombre total d'articles", 
-        "message-retranslated": "Total number of items", 
+        "message": "Total des \u00e9l\u00e9ments", 
+        "message-retranslated": "Total items", 
         "description": "total item count stats title"
     }, 
     "its_msg_0": {
-        "message": "Team Fortress 2 Sac \u00e0 dos d'acc\u00e8s (New and Improved)", 
-        "message-retranslated": "Team Fortress 2 Backpack Access (New and Improved)", 
+        "message": "Team Fortress 2 Acc\u00e8s \u00e0 dos (nouveau et am\u00e9lior\u00e9)", 
+        "message-retranslated": "Team Fortress 2 Access to back (new and improved)", 
         "description": "page title"
     }
 }

@@ -106,6 +106,10 @@
         "type": "Pistol", 
         "description": "Pistol"
     }, 
+    "95": {
+        "type": "Hat", 
+        "description": "Engineer-keps"
+    }, 
     "28": {
         "type": "PDA", 
         "description": "PDA"
@@ -113,6 +117,10 @@
     "29": {
         "type": "H\u00e4lsovapen", 
         "description": "H\u00e4lsovapen"
+    }, 
+    "94": {
+        "type": "Hat", 
+        "description": "Texas cowboy"
     }, 
     "0": {
         "type": "Slagtr\u00e4", 
@@ -341,8 +349,8 @@
         "description": "Skiftnyckel"
     }, 
     "other_attributes": {
-        "133": "Medal nummer %s1", 
-        "132": "Ges till v\u00e4rdefulla gemenskapen Contributors"
+        "133": "Medalj nummer %s1", 
+        "132": "Med tanke p\u00e5 att v\u00e4rdefulla gemenskapen bidragande"
     }, 
     "5003": {
         "alt": [
@@ -415,10 +423,10 @@
     }, 
     "9003": {
         "positive": [
-            "F\u00f6rbud Steam-konto akt\u00f6rer d\u00f6dade", 
+            "F\u00f6rbud Steam-konto d\u00f6dade spelare", 
             "Denna punkt \u00e4r inte verklig och \u00e4r bara ett sk\u00e4mt."
         ], 
-        "type": "Mallet av Banishment", 
+        "type": "Mallet av landsf\u00f6rvisning", 
         "description": "Ban Hammer"
     }, 
     "102": {
@@ -539,6 +547,10 @@
         ], 
         "description": "Ambassador"
     }, 
+    "97": {
+        "type": "Hat", 
+        "description": "Tuffa toppluvan"
+    }, 
     "2": {
         "type": "Brandyxa", 
         "description": "Brandyxa"
@@ -555,17 +567,26 @@
         "type": "Hat", 
         "description": "Rostfri kastrull"
     }, 
-    "95": {
-        "type": "Hat", 
-        "description": "Engineer-keps"
+    "160": {
+        "alt": [
+            "TF_TTG_MaxGun_Desc"
+        ], 
+        "type": "Pistol", 
+        "description": "TF_TTG_MaxGun"
     }, 
-    "94": {
-        "type": "Hat", 
-        "description": "Texas cowboy"
+    "161": {
+        "alt": [
+            "TF_TTG_SamRevolver_Desc"
+        ], 
+        "type": "Revolver", 
+        "description": "TF_TTG_SamRevolver"
     }, 
-    "97": {
+    "162": {
+        "alt": [
+            "TF_TTG_MaxsHat_Desc"
+        ], 
         "type": "Hat", 
-        "description": "Tuffa toppluvan"
+        "description": "TF_TTG_MaxsHat"
     }, 
     "96": {
         "type": "Hat", 

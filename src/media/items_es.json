@@ -106,6 +106,10 @@
         "type": "Pistola", 
         "description": "Pistola"
     }, 
+    "95": {
+        "type": "Hat", 
+        "description": "Gorra de ingeniero"
+    }, 
     "28": {
         "type": "PDA", 
         "description": "PDA"
@@ -113,6 +117,10 @@
     "29": {
         "type": "Pistola m\u00e9dica", 
         "description": "Pistola m\u00e9dica"
+    }, 
+    "94": {
+        "type": "Hat", 
+        "description": "Tejano ostentoso"
     }, 
     "0": {
         "type": "Bate", 
@@ -342,7 +350,7 @@
     }, 
     "other_attributes": {
         "133": "Medalla n\u00famero %s1", 
-        "132": "Teniendo en cuenta a los valiosos contribuyentes de la comunidad"
+        "132": "Dado a valiosos contribuyentes de la Comunidad"
     }, 
     "5003": {
         "alt": [
@@ -415,10 +423,10 @@
     }, 
     "9003": {
         "positive": [
-            "Las prohibiciones de vapor de los jugadores muertos", 
+            "Las prohibiciones de vapor en cuenta los jugadores muertos", 
             "Este punto no es real y es s\u00f3lo una broma."
         ], 
-        "type": "Mallet de destierro", 
+        "type": "Mallet del destierro", 
         "description": "Ban Hammer"
     }, 
     "102": {
@@ -539,6 +547,10 @@
         ], 
         "description": "La Embajadora"
     }, 
+    "97": {
+        "type": "Hat", 
+        "description": "Gorrito de machote"
+    }, 
     "2": {
         "type": "Hacha de bombero", 
         "description": "Hacha de bombero"
@@ -555,17 +567,26 @@
         "type": "Hat", 
         "description": "Olla inoxidable"
     }, 
-    "95": {
-        "type": "Hat", 
-        "description": "Gorra de ingeniero"
+    "160": {
+        "alt": [
+            "TF_TTG_MaxGun_Desc"
+        ], 
+        "type": "Pistola", 
+        "description": "TF_TTG_MaxGun"
     }, 
-    "94": {
-        "type": "Hat", 
-        "description": "Tejano ostentoso"
+    "161": {
+        "alt": [
+            "TF_TTG_SamRevolver_Desc"
+        ], 
+        "type": "Rev\u00f3lver", 
+        "description": "TF_TTG_SamRevolver"
     }, 
-    "97": {
+    "162": {
+        "alt": [
+            "TF_TTG_MaxsHat_Desc"
+        ], 
         "type": "Hat", 
-        "description": "Gorrito de machote"
+        "description": "TF_TTG_MaxsHat"
     }, 
     "96": {
         "type": "Hat", 

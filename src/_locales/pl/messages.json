@@ -10,8 +10,8 @@
         "description": "nothing changed, but have a label!"
     }, 
     "profile_found": {
-        "message": "Korzystanie Steam ID $1 do $2.", 
-        "message-retranslated": "Using Steam ID $1 $2", 
+        "message": "Korzystanie Steam ID $$1 do 2.", 
+        "message-retranslated": "Using Steam ID $$1 to 2", 
         "description": "steam id found in search"
     }, 
     "num1": {
@@ -35,8 +35,8 @@
         "description": "stats button"
     }, 
     "second": {
-        "message": "sekund", 
-        "message-retranslated": "seconds", 
+        "message": "drugi", 
+        "message-retranslated": "second", 
         "description": "second"
     }, 
     "warning": {
@@ -45,13 +45,13 @@
         "description": "warning label"
     }, 
     "its_msg_31": {
-        "message": "TF2 Plecak Viewer - Opcje", 
-        "message-retranslated": "TF2 Backpack Viewer - Options", 
+        "message": "TF2 Viewer Plecak - Opcje", 
+        "message-retranslated": "TF2 Viewer Backpack - Options", 
         "description": "options page title"
     }, 
     "refresh_nochange": {
         "message": "Feed Od\u015bwie\u017cony - bez zmian", 
-        "message-retranslated": "Feed Refreshed - without change", 
+        "message-retranslated": "Feed Refreshed - no change", 
         "description": "feed refreshed without changes"
     }, 
     "language_code": {
@@ -59,8 +59,8 @@
         "description": ""
     }, 
     "its_msg_30": {
-        "message": "na parowa Wsp\u00f3lnoty", 
-        "message-retranslated": "on Steam Community", 
+        "message": "na poziomie Wsp\u00f3lnoty Steam", 
+        "message-retranslated": "Steam Community level", 
         "description": "fragment"
     }, 
     "parse_error": {
@@ -69,38 +69,38 @@
         "description": "some kind of parse error"
     }, 
     "its_msg_32": {
-        "message": "Profil ID", 
+        "message": "ID profilu", 
         "message-retranslated": "Profile ID", 
         "description": "profile id label"
     }, 
     "its_msg_33": {
-        "message": "Anuluj", 
+        "message": "Anulowa\u0107", 
         "message-retranslated": "Cancel", 
         "description": "cancel label, such as for a button"
     }, 
     "its_msg_34": {
-        "message": "Nieprawid\u0142owe t\u0142umaczenia?", 
-        "message-retranslated": "Incorrect translations?", 
+        "message": "Niepoprawne t\u0142umaczenie?", 
+        "message-retranslated": "Wrong translation?", 
         "description": ""
     }, 
     "its_msg_35": {
-        "message": "Zaproponuj Something Better", 
-        "message-retranslated": "Suggest Something Better", 
+        "message": "Zaproponuj co\u015b lepszego", 
+        "message-retranslated": "Suggest something better", 
         "description": ""
     }, 
     "its_msg_16": {
-        "message": "Nieznany przedmioty", 
+        "message": "Nieznane przedmioty", 
         "message-retranslated": "Unknown items", 
         "description": "unknown item count stats title"
     }, 
     "its_msg_17": {
-        "message": "Element\u00f3w metalowych", 
-        "message-retranslated": "Metal", 
+        "message": "Przedmioty metalowe,", 
+        "message-retranslated": "Metal objects,", 
         "description": "metal item count stats title"
     }, 
     "its_msg_14": {
-        "message": "Przedmioty Normal", 
-        "message-retranslated": "Normal Subjects", 
+        "message": "Pozycji Normal", 
+        "message-retranslated": "Normal position", 
         "description": "normal item count stats title"
     }, 
     "its_msg_15": {
@@ -109,17 +109,17 @@
         "description": "hat count stats title"
     }, 
     "extension_default_title": {
-        "message": "Wy\u015bwietlanie Team Fortress 2 Plecak", 
-        "message-retranslated": "Display Team Fortress 2 Backpack", 
+        "message": "Wy\u015bwietli\u0107 Plecak Team Fortress 2", 
+        "message-retranslated": "Backpack Display Team Fortress 2", 
         "description": "Extension default title for browser action"
     }, 
     "other_error": {
-        "message": "Inny b\u0142\u0105d", 
-        "message-retranslated": "Another error", 
+        "message": "Jaki\u015b inny b\u0142\u0105d", 
+        "message-retranslated": "Some other error", 
         "description": "some other kind of error occurred."
     }, 
     "its_msg_10": {
-        "message": "Od\u015bwie\u017c", 
+        "message": "Od\u015bwie\u017ca\u0107", 
         "message-retranslated": "Refresh", 
         "description": "refresh button"
     }, 
@@ -129,28 +129,28 @@
         "description": "options button"
     }, 
     "its_msg_18": {
-        "message": "Metal Worth", 
-        "message-retranslated": "Metal Worth", 
+        "message": "Warto metalu", 
+        "message-retranslated": "Worth of metal", 
         "description": "metal worth item count"
     }, 
     "its_msg_19": {
-        "message": "Profile Views", 
-        "message-retranslated": "Profile Views", 
+        "message": "Wy\u015bwietlenia:", 
+        "message-retranslated": "Views", 
         "description": "count of profile views"
     }, 
     "request_aborted": {
         "message": "\u017b\u0105danie przerwane przez Timeout", 
-        "message-retranslated": "Request aborted by Timeout", 
+        "message-retranslated": "Request aborted by timeout", 
         "description": "request aborted label"
     }, 
     "seconds": {
         "message": "sekund", 
-        "message-retranslated": "seconds", 
+        "message-retranslated": "second", 
         "description": "seconds"
     }, 
     "extension_desc": {
-        "message": "Szybki dost\u0119p do element\u00f3w w Team Fortress 2 plecak", 
-        "message-retranslated": "Quick access to items in the Team Fortress 2 backpack", 
+        "message": "Szybki dost\u0119p do pozycji w Team Fortress 2 plecak", 
+        "message-retranslated": "Quick access to items in the backpack Team Fortress 2", 
         "description": "Extension description"
     }, 
     "its_msg_8": {
@@ -164,12 +164,12 @@
         "description": "backpack title"
     }, 
     "equipped": {
-        "message": "Wyposa\u017cona", 
+        "message": "Wyposa\u017cony", 
         "message-retranslated": "Equipped", 
         "description": "equipped label"
     }, 
     "its_msg_4": {
-        "message": "Zapisa\u0107", 
+        "message": "Zaoszcz\u0119dzi\u0107", 
         "message-retranslated": "Save", 
         "description": "save button"
     }, 
@@ -184,8 +184,8 @@
         "description": "close button"
     }, 
     "its_msg_7": {
-        "message": "Charakter Informacje o $1", 
-        "message-retranslated": "The nature of the information $1", 
+        "message": "Informacje o charakterze dla $1", 
+        "message-retranslated": "Information as to $1", 
         "description": "character info title"
     }, 
     "network_error": {
@@ -194,38 +194,38 @@
         "description": "some kind of network error"
     }, 
     "its_msg_1": {
-        "message": "Profil ID Not Set!", 
-        "message-retranslated": "Profile ID Not Set!", 
+        "message": "Profil ID nie ustawione!", 
+        "message-retranslated": "Profile ID not set!", 
         "description": "no steam id title"
     }, 
     "its_msg_2": {
-        "message": "Aby korzysta\u0107 z Team Fortress 2 Rozszerzenie Plecak dost\u0119pu wpisz nazw\u0119 wsp\u00f3lnoty lub profilu id tutaj", 
-        "message-retranslated": "To use the Team Fortress 2 Extension Backpack community access, type the name or id profile here", 
+        "message": "Aby korzysta\u0107 z Team 2 Fortress Plecak rozszerzenie dost\u0119pu wpisz nazw\u0119 profilu lub spo\u0142eczno\u015bci id tutaj", 
+        "message-retranslated": "To use the Team Fortress 2 Backpack extending access profile, type the name or id of the community here", 
         "description": "no steam id help"
     }, 
     "its_msg_3": {
-        "message": "(np. pnatural lub 76561197992805111)", 
-        "message-retranslated": "(eg pnatural or 76561197992805111)", 
+        "message": "(Np. pnatural lub 76561197992805111)", 
+        "message-retranslated": "(Eg pnatural or 76561197992805111)", 
         "description": "no steam id example"
     }, 
     "bad_feed": {
-        "message": "Z\u0142e dane Feed", 
+        "message": "Dane Bad Feed", 
         "message-retranslated": "Bad Data Feed", 
         "description": "bad data feed label"
     }, 
     "feed_url_error": {
-        "message": "Nr Feed URL", 
-        "message-retranslated": "No Feed URL", 
+        "message": "Nie URL Feed", 
+        "message-retranslated": "Not Feed URL", 
         "description": "error because the feed url is empty"
     }, 
     "its_msg_29": {
-        "message": "na", 
-        "message-retranslated": "at", 
+        "message": "w", 
+        "message-retranslated": "in", 
         "description": "just the word 'at'"
     }, 
     "its_msg_28": {
-        "message": "Rozszerzenie napisany przez", 
-        "message-retranslated": "Extension written by", 
+        "message": "Napisany przez rozszerzenie", 
+        "message-retranslated": "Written by extending", 
         "description": "view pnatural profile link"
     }, 
     "its_msg_27": {
@@ -250,16 +250,16 @@
     }, 
     "its_msg_23": {
         "message": "Wniosek Time", 
-        "message-retranslated": "Proposal Time", 
+        "message-retranslated": "Request Time", 
         "description": "duration of request"
     }, 
     "its_msg_22": {
         "message": "Nast\u0119pna Fetch", 
-        "message-retranslated": "Next Fetch", 
+        "message-retranslated": "Fetch Next", 
         "description": "time of next fetch"
     }, 
     "its_msg_21": {
-        "message": "Ostatnia Fetch", 
+        "message": "Ostatnie Fetch", 
         "message-retranslated": "Last Fetch", 
         "description": "time of last fetch"
     }, 
@@ -269,28 +269,28 @@
         "description": "time feed cached"
     }, 
     "refreshing": {
-        "message": "Od\u015bwie\u017canie", 
-        "message-retranslated": "Refresh", 
+        "message": "Orze\u017awiaj\u0105cy", 
+        "message-retranslated": "Refreshing", 
         "description": "refreshing text goes here"
     }, 
     "level": {
-        "message": "Poziom $1 $2", 
-        "message-retranslated": "Level $1 $2", 
+        "message": "Poziomie $1 $2", 
+        "message-retranslated": "$Level 1 $2", 
         "description": "level label"
     }, 
     "extension_name": {
         "message": "Team Fortress 2 Plecak Access", 
-        "message-retranslated": "Team Fortress 2 Backpack Access", 
+        "message-retranslated": "Team Fortress 2 Access Backpack", 
         "description": "Extension name"
     }, 
     "from_cache": {
-        "message": "Dane wczytywane z pami\u0119ci podr\u0119cznej", 
-        "message-retranslated": "Data loaded from the cache", 
+        "message": "Loaded danych z pami\u0119ci podr\u0119cznej", 
+        "message-retranslated": "Loaded data from the cache", 
         "description": "data loaded from cache label"
     }, 
     "error": {
         "message": "B\u0142\u0105d", 
-        "message-retranslated": "Mistake", 
+        "message-retranslated": "Error", 
         "description": "error label"
     }, 
     "its_msg_13": {
@@ -300,7 +300,7 @@
     }, 
     "its_msg_0": {
         "message": "Team Fortress 2 Plecak Access (Nowe i udoskonalone)", 
-        "message-retranslated": "Team Fortress 2 Backpack Access (New and Improved)", 
+        "message-retranslated": "Team Fortress 2 Access Backpack (New and Improved)", 
         "description": "page title"
     }
 }

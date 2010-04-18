@@ -106,6 +106,10 @@
         "type": "Pistool", 
         "description": "Pistool"
     }, 
+    "95": {
+        "type": "Hat", 
+        "description": "Engineerspet"
+    }, 
     "28": {
         "type": "PDA", 
         "description": "PDA"
@@ -113,6 +117,10 @@
     "29": {
         "type": "Medigun", 
         "description": "Medigun"
+    }, 
+    "94": {
+        "type": "Hat", 
+        "description": "Cowboyhoed"
     }, 
     "0": {
         "type": "Knuppel", 
@@ -342,7 +350,7 @@
     }, 
     "other_attributes": {
         "133": "Medal nummer %s1", 
-        "132": "Gezien waardevolle Gemeenschap Contributors"
+        "132": "Gegeven aan waardevolle Gemeenschap contribuanten"
     }, 
     "5003": {
         "alt": [
@@ -415,10 +423,10 @@
     }, 
     "9003": {
         "positive": [
-            "Bans Steam account van spelers gedood", 
-            "Dit item is niet echt en is slechts een grap."
+            "Verbod Steam account van de spelers gedood", 
+            "Dit item is niet re\u00ebel en is slechts een grap."
         ], 
-        "type": "Mallet van verbanning", 
+        "type": "Mallet de ban", 
         "description": "Ban Hammer"
     }, 
     "102": {
@@ -539,6 +547,10 @@
         ], 
         "description": "De Ambassador"
     }, 
+    "97": {
+        "type": "Hat", 
+        "description": "Altomuts"
+    }, 
     "2": {
         "type": "Vuurbijl", 
         "description": "Vuurbijl"
@@ -555,17 +567,26 @@
         "type": "Hat", 
         "description": "Kookpan"
     }, 
-    "95": {
-        "type": "Hat", 
-        "description": "Engineerspet"
+    "160": {
+        "alt": [
+            "TF_TTG_MaxGun_Desc"
+        ], 
+        "type": "Pistool", 
+        "description": "TF_TTG_MaxGun"
     }, 
-    "94": {
-        "type": "Hat", 
-        "description": "Cowboyhoed"
+    "161": {
+        "alt": [
+            "TF_TTG_SamRevolver_Desc"
+        ], 
+        "type": "Revolver", 
+        "description": "TF_TTG_SamRevolver"
     }, 
-    "97": {
+    "162": {
+        "alt": [
+            "TF_TTG_MaxsHat_Desc"
+        ], 
         "type": "Hat", 
-        "description": "Altomuts"
+        "description": "TF_TTG_MaxsHat"
     }, 
     "96": {
         "type": "Hat", 

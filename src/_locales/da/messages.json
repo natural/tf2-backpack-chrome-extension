@@ -10,7 +10,7 @@
         "description": "nothing changed, but have a label!"
     }, 
     "profile_found": {
-        "message": "Brug Steam ID $1 til $2.", 
+        "message": "Brug Steam ID $1 for $2.", 
         "message-retranslated": "Using Steam ID $$2 for 1", 
         "description": "steam id found in search"
     }, 
@@ -30,13 +30,13 @@
         "description": "the number 3"
     }, 
     "its_msg_12": {
-        "message": "Stats", 
-        "message-retranslated": "Stats", 
+        "message": "Statistik", 
+        "message-retranslated": "Statistics", 
         "description": "stats button"
     }, 
     "second": {
         "message": "sekund", 
-        "message-retranslated": "seconds", 
+        "message-retranslated": "second", 
         "description": "second"
     }, 
     "warning": {
@@ -50,8 +50,8 @@
         "description": "options page title"
     }, 
     "refresh_nochange": {
-        "message": "Feed Refreshed - ingen \u00e6ndringer", 
-        "message-retranslated": "Feed Refreshed - no changes", 
+        "message": "Feed genopfrisket - ingen \u00e6ndringer", 
+        "message-retranslated": "Feed refreshed - no changes", 
         "description": "feed refreshed without changes"
     }, 
     "language_code": {
@@ -79,27 +79,27 @@
         "description": "cancel label, such as for a button"
     }, 
     "its_msg_34": {
-        "message": "Forkert overs\u00e6ttelse?", 
-        "message-retranslated": "Wrong translation?", 
+        "message": "Forkert Overs\u00e6ttelse?", 
+        "message-retranslated": "Faulty Translation?", 
         "description": ""
     }, 
     "its_msg_35": {
-        "message": "Foresl\u00e5 Something Better", 
-        "message-retranslated": "Suggest Something Better", 
+        "message": "Foresl\u00e5 noget bedre", 
+        "message-retranslated": "Suggest something better", 
         "description": ""
     }, 
     "its_msg_16": {
-        "message": "Ukendt Items", 
-        "message-retranslated": "Unknown Items", 
+        "message": "Ukendt Artikler", 
+        "message-retranslated": "Unknown items", 
         "description": "unknown item count stats title"
     }, 
     "its_msg_17": {
         "message": "Metalgenstande", 
-        "message-retranslated": "Metal Objects", 
+        "message-retranslated": "Metal Items", 
         "description": "metal item count stats title"
     }, 
     "its_msg_14": {
-        "message": "Normal Items", 
+        "message": "Normal Artikler", 
         "message-retranslated": "Normal Items", 
         "description": "normal item count stats title"
     }, 
@@ -119,8 +119,8 @@
         "description": "some other kind of error occurred."
     }, 
     "its_msg_10": {
-        "message": "Refresh", 
-        "message-retranslated": "Refresh", 
+        "message": "Opdater", 
+        "message-retranslated": "Update", 
         "description": "refresh button"
     }, 
     "its_msg_11": {
@@ -134,7 +134,7 @@
         "description": "metal worth item count"
     }, 
     "its_msg_19": {
-        "message": "Profile Views", 
+        "message": "Profil visninger", 
         "message-retranslated": "Profile Views", 
         "description": "count of profile views"
     }, 
@@ -145,17 +145,17 @@
     }, 
     "seconds": {
         "message": "sekund", 
-        "message-retranslated": "seconds", 
+        "message-retranslated": "second", 
         "description": "seconds"
     }, 
     "extension_desc": {
-        "message": "Hurtig adgang til poster i din Team Fortress 2 rygs\u00e6k", 
-        "message-retranslated": "Quick access to items in your backpack Team Fortress 2", 
+        "message": "Hurtig adgang til varer i din Team Fortress 2 rygs\u00e6k", 
+        "message-retranslated": "Quick access to products in your Team Fortress 2 backpack", 
         "description": "Extension description"
     }, 
     "its_msg_8": {
-        "message": "Nye varer", 
-        "message-retranslated": "New Products", 
+        "message": "Nyheder", 
+        "message-retranslated": "News", 
         "description": "new items title"
     }, 
     "its_msg_9": {
@@ -169,12 +169,12 @@
         "description": "equipped label"
     }, 
     "its_msg_4": {
-        "message": "Gemme", 
+        "message": "Gem", 
         "message-retranslated": "Save", 
         "description": "save button"
     }, 
     "its_msg_5": {
-        "message": "Nulstil", 
+        "message": "Reset", 
         "message-retranslated": "Reset", 
         "description": "reset button"
     }, 
@@ -184,28 +184,28 @@
         "description": "close button"
     }, 
     "its_msg_7": {
-        "message": "Character Info for $1", 
-        "message-retranslated": "Character Info for $1", 
+        "message": "Tegn Info for $1", 
+        "message-retranslated": "Character Info $1", 
         "description": "character info title"
     }, 
     "network_error": {
-        "message": "Netv\u00e6rksfejl", 
-        "message-retranslated": "Network Failure", 
+        "message": "Netv\u00e6rk Fejl", 
+        "message-retranslated": "Network Error", 
         "description": "some kind of network error"
     }, 
     "its_msg_1": {
-        "message": "Profil ID Not Set!", 
+        "message": "Profil ID Ikke Set!", 
         "message-retranslated": "Profile ID Not Set!", 
         "description": "no steam id title"
     }, 
     "its_msg_2": {
-        "message": "Hvis du vil bruge Team Fortress 2 Backpack Adgang udvidelse indtaste dit community navn eller id profil her", 
-        "message-retranslated": "To use the Team Fortress 2 Backpack Access enlargement enter your community name or ID profile here", 
+        "message": "Hvis du vil bruge Team Fortress 2 Backpack Access udvidelse indtaste dit community navn eller profil id her", 
+        "message-retranslated": "To use the Team Fortress 2 Backpack Access enlargement enter your community name or profile ID here", 
         "description": "no steam id help"
     }, 
     "its_msg_3": {
-        "message": "(f.eks pnatural eller 76561197992805111)", 
-        "message-retranslated": "(eg pnatural or 76561197992805111)", 
+        "message": "(F.eks pnatural eller 76561197992805111)", 
+        "message-retranslated": "(For example pnatural or 76561197992805111)", 
         "description": "no steam id example"
     }, 
     "bad_feed": {
@@ -214,12 +214,12 @@
         "description": "bad data feed label"
     }, 
     "feed_url_error": {
-        "message": "No Feed URL", 
+        "message": "Ingen Feed URL", 
         "message-retranslated": "No Feed URL", 
         "description": "error because the feed url is empty"
     }, 
     "its_msg_29": {
-        "message": "ved", 
+        "message": "p\u00e5", 
         "message-retranslated": "at", 
         "description": "just the word 'at'"
     }, 
@@ -234,33 +234,33 @@
         "description": "powered by"
     }, 
     "its_msg_26": {
-        "message": "Vis profil", 
+        "message": "Se profil", 
         "message-retranslated": "View profile", 
         "description": "view profile link"
     }, 
     "its_msg_25": {
-        "message": "View Backpack", 
+        "message": "Se Backpack", 
         "message-retranslated": "View Backpack", 
         "description": "view backpack link"
     }, 
     "its_msg_24": {
-        "message": "Skjul Stats", 
-        "message-retranslated": "Hide Stats", 
+        "message": "Skjul Statistik", 
+        "message-retranslated": "Hide Statistics", 
         "description": "hide stats button"
     }, 
     "its_msg_23": {
-        "message": "Request Time", 
+        "message": "Anmodning Time", 
         "message-retranslated": "Request Time", 
         "description": "duration of request"
     }, 
     "its_msg_22": {
-        "message": "N\u00e6ste Fetch", 
-        "message-retranslated": "Next Fetch", 
+        "message": "N\u00e6ste Hent", 
+        "message-retranslated": "Next Download", 
         "description": "time of next fetch"
     }, 
     "its_msg_21": {
-        "message": "Seneste Fetch", 
-        "message-retranslated": "Last Fetch", 
+        "message": "Sidste Hent", 
+        "message-retranslated": "Last Download", 
         "description": "time of last fetch"
     }, 
     "its_msg_20": {
@@ -284,23 +284,23 @@
         "description": "Extension name"
     }, 
     "from_cache": {
-        "message": "Data, der indl\u00e6ses fra Cache", 
-        "message-retranslated": "Data loaded from cache", 
+        "message": "Data Loaded fra Cache", 
+        "message-retranslated": "Data Loaded from cache", 
         "description": "data loaded from cache label"
     }, 
     "error": {
         "message": "Fejl", 
-        "message-retranslated": "Failure", 
+        "message-retranslated": "Error", 
         "description": "error label"
     }, 
     "its_msg_13": {
-        "message": "Total Items", 
-        "message-retranslated": "Total Items", 
+        "message": "Total emner", 
+        "message-retranslated": "Total Topics", 
         "description": "total item count stats title"
     }, 
     "its_msg_0": {
-        "message": "Team Fortress 2 Backpack Access (nye og forbedrede)", 
-        "message-retranslated": "Team Fortress 2 Backpack Access (new and improved)", 
+        "message": "Team Fortress 2 Backpack Access (Nye og forbedrede)", 
+        "message-retranslated": "Team Fortress 2 Backpack Access (New and Improved)", 
         "description": "page title"
     }
 }

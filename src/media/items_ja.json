@@ -106,6 +106,10 @@
         "type": "\u30d4\u30b9\u30c8\u30eb", 
         "description": "\u30d4\u30b9\u30c8\u30eb"
     }, 
+    "95": {
+        "type": "Hat", 
+        "description": "\u30a8\u30f3\u30b8\u30cb\u30a2\u30ad\u30e3\u30c3\u30d7"
+    }, 
     "28": {
         "type": "PDA", 
         "description": "PDA"
@@ -113,6 +117,10 @@
     "29": {
         "type": "\u30e1\u30c7\u30a3\u30ac\u30f3", 
         "description": "\u30e1\u30c7\u30a3\u30ac\u30f3"
+    }, 
+    "94": {
+        "type": "Hat", 
+        "description": "\u30c6\u30ad\u30b5\u30b9\u30c6\u30f3\u30ac\u30ed\u30f3"
     }, 
     "0": {
         "type": "\u30d0\u30c3\u30c8", 
@@ -341,8 +349,8 @@
         "description": "\u30b9\u30d1\u30ca"
     }, 
     "other_attributes": {
-        "133": "\u91d1\u30e1\u30c0\u30eb\u6570%s1", 
-        "132": "\u8cb4\u91cd\u306a\u30b3\u30df\u30e5\u30cb\u30c6\u30a3\u306e\u8ca2\u732e\u3092\u8003\u3048\u308c\u3070"
+        "133": "\u30e1\u30c0\u30eb\u306e\u6570\u306f%s1", 
+        "132": "\u8cb4\u91cd\u306a\u30b3\u30df\u30e5\u30cb\u30c6\u30a3\u306e\u8ca2\u732e\u8005\u306b\u4e0e\u3048\u3089\u308c\u305f"
     }, 
     "5003": {
         "alt": [
@@ -415,11 +423,11 @@
     }, 
     "9003": {
         "positive": [
-            "\u9078\u624b\u306e\u7981\u6b62\u306eSteam\u30a2\u30ab\u30a6\u30f3\u30c8\u304c\u6b7b\u4ea1", 
-            "\u3053\u306e\u30a2\u30a4\u30c6\u30e0\u306f\u672c\u7269\u3067\u306f\u306a\u3044\u3068\u306f\u307b\u3093\u306e\u5197\u8ac7\u3002"
+            "\u9078\u624b\u6b7b\u4ea1\u7981\u6b62\u30b9\u30c1\u30fc\u30e0\u30a2\u30ab\u30a6\u30f3\u30c8", 
+            "\u3053\u306e\u30a2\u30a4\u30c6\u30e0\u306f\u3001\u672c\u7269\u3067\u306f\u306a\u3044\u3068\u3060\u3051\u5197\u8ac7\u3067\u3059\u3002"
         ], 
-        "type": "\u69cc\u8ffd\u653e\u306e", 
-        "description": "\u6f58\u30cf\u30f3\u30de\u30fc"
+        "type": "\u30de\u30ec\u30c3\u30c8\u8ffd\u653e\u306e", 
+        "description": "\u30d0\u30f3\u30cf\u30de\u30fc"
     }, 
     "102": {
         "type": "Hat", 
@@ -539,6 +547,10 @@
         ], 
         "description": "Ambassador"
     }, 
+    "97": {
+        "type": "Hat", 
+        "description": "\u30bf\u30d5\u30ac\u30a4\u7528\u30c8\u30fc\u30af\u5e3d"
+    }, 
     "2": {
         "type": "\u6d88\u9632\u65a7", 
         "description": "\u6d88\u9632\u65a7"
@@ -555,17 +567,26 @@
         "type": "Hat", 
         "description": "\u30b9\u30c6\u30f3\u30ec\u30b9\u30dd\u30c3\u30c8"
     }, 
-    "95": {
-        "type": "Hat", 
-        "description": "\u30a8\u30f3\u30b8\u30cb\u30a2\u30ad\u30e3\u30c3\u30d7"
+    "160": {
+        "alt": [
+            "TF_TTG_MaxGun_Desc"
+        ], 
+        "type": "\u30d4\u30b9\u30c8\u30eb", 
+        "description": "TF_TTG_MaxGun"
     }, 
-    "94": {
-        "type": "Hat", 
-        "description": "\u30c6\u30ad\u30b5\u30b9\u30c6\u30f3\u30ac\u30ed\u30f3"
+    "161": {
+        "alt": [
+            "TF_TTG_SamRevolver_Desc"
+        ], 
+        "type": "\u30ea\u30dc\u30eb\u30d0\u30fc", 
+        "description": "TF_TTG_SamRevolver"
     }, 
-    "97": {
+    "162": {
+        "alt": [
+            "TF_TTG_MaxsHat_Desc"
+        ], 
         "type": "Hat", 
-        "description": "\u30bf\u30d5\u30ac\u30a4\u7528\u30c8\u30fc\u30af\u5e3d"
+        "description": "TF_TTG_MaxsHat"
     }, 
     "96": {
         "type": "Hat", 

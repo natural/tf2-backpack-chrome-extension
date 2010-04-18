@@ -5,18 +5,18 @@
         "description": "the number 4"
     }, 
     "no_change": {
-        "message": "\u6c92\u6709\u6539\u8b8a", 
-        "message-retranslated": "No change", 
+        "message": "\u6c92\u6709\u8b8a\u5316", 
+        "message-retranslated": "Unchanged", 
         "description": "nothing changed, but have a label!"
     }, 
     "profile_found": {
         "message": "\u4f7f\u7528\u84b8\u6c7d\u7de8\u865f $1 $2\u3002", 
-        "message-retranslated": "The use of steam ID $1 $2.", 
+        "message-retranslated": "Use steam ID $1 $2.", 
         "description": "steam id found in search"
     }, 
     "num1": {
-        "message": "1", 
-        "message-retranslated": "1", 
+        "message": "\u4e00", 
+        "message-retranslated": "A", 
         "description": "the number 1"
     }, 
     "num2": {
@@ -45,8 +45,8 @@
         "description": "warning label"
     }, 
     "its_msg_31": {
-        "message": "\u4f4dTF2\u80cc\u5305\u5668 - \u9078\u9805", 
-        "message-retranslated": "Bit TF2 backpack device - options", 
+        "message": "\u4f4dTF2\u80cc\u5305\u67e5\u770b\u5668 - \u9078\u9805", 
+        "message-retranslated": "Bit TF2 backpack viewer - options", 
         "description": "options page title"
     }, 
     "refresh_nochange": {
@@ -70,7 +70,7 @@
     }, 
     "its_msg_32": {
         "message": "\u8cc7\u6599\u7de8\u865f", 
-        "message-retranslated": "Data ID", 
+        "message-retranslated": "Information Number", 
         "description": "profile id label"
     }, 
     "its_msg_33": {
@@ -80,12 +80,12 @@
     }, 
     "its_msg_34": {
         "message": "\u4e0d\u6b63\u78ba\u7684\u7ffb\u8b6f\uff1f", 
-        "message-retranslated": "Is not the correct translation?", 
+        "message-retranslated": "Incorrect translation?", 
         "description": ""
     }, 
     "its_msg_35": {
-        "message": "\u63a8\u85a6\u4e00\u4e9b\u66f4\u597d", 
-        "message-retranslated": "Recommend some more", 
+        "message": "\u63a8\u85a6\u66f4\u597d\u7684\u6771\u897f", 
+        "message-retranslated": "Recommended better things", 
         "description": ""
     }, 
     "its_msg_16": {
@@ -110,7 +110,7 @@
     }, 
     "extension_default_title": {
         "message": "\u67e5\u770b\u60a8\u7684\u5718\u968a\u8981\u585e2\u80cc\u5305", 
-        "message-retranslated": "View your backpack Team Fortress 2", 
+        "message-retranslated": "Show your team fortress 2 Backpack", 
         "description": "Extension default title for browser action"
     }, 
     "other_error": {
@@ -134,28 +134,28 @@
         "description": "metal worth item count"
     }, 
     "its_msg_19": {
-        "message": "\u8cc7\u6599\u9ede\u64ca", 
-        "message-retranslated": "Information Click", 
+        "message": "\u8cc7\u6599\u67e5\u770b", 
+        "message-retranslated": "Data View", 
         "description": "count of profile views"
     }, 
     "request_aborted": {
         "message": "\u8acb\u6c42\u4e2d\u6b62\u7684\u8d85\u6642", 
-        "message-retranslated": "Request the suspension of overtime", 
+        "message-retranslated": "Request for suspension of overtime", 
         "description": "request aborted label"
     }, 
     "seconds": {
         "message": "\u79d2", 
-        "message-retranslated": "Seconds", 
+        "message-retranslated": "Second", 
         "description": "seconds"
     }, 
     "extension_desc": {
-        "message": "\u5feb\u901f\u8a2a\u554f\u60a8\u7684\u9805\u76ee\u5718\u968a\u8981\u585e2\u80cc\u5305", 
-        "message-retranslated": "Quick access to your project team fortress 2 Backpack", 
+        "message": "\u5feb\u901f\u8a2a\u554f\u4f60\u7684\u9805\u76ee\u5718\u968a\u8981\u585e2\u80cc\u5305", 
+        "message-retranslated": "Quick access to your team fortress 2 Backpack", 
         "description": "Extension description"
     }, 
     "its_msg_8": {
-        "message": "\u65b0\u9805\u76ee", 
-        "message-retranslated": "New items", 
+        "message": "\u65b0\u7522\u54c1", 
+        "message-retranslated": "New Products", 
         "description": "new items title"
     }, 
     "its_msg_9": {
@@ -164,8 +164,8 @@
         "description": "backpack title"
     }, 
     "equipped": {
-        "message": "\u88dd\u5099", 
-        "message-retranslated": "Equipment", 
+        "message": "\u914d\u5099", 
+        "message-retranslated": "With", 
         "description": "equipped label"
     }, 
     "its_msg_4": {
@@ -184,58 +184,58 @@
         "description": "close button"
     }, 
     "its_msg_7": {
-        "message": "\u5b57\u7b26\u4fe1\u606f\u7684$1", 
-        "message-retranslated": "Character Information $1", 
+        "message": "\u7279\u5fb5\u4fe1\u606f$1", 
+        "message-retranslated": "$1 Feature Information", 
         "description": "character info title"
     }, 
     "network_error": {
         "message": "\u7db2\u7d61\u932f\u8aa4", 
-        "message-retranslated": "Network error", 
+        "message-retranslated": "Network Error", 
         "description": "some kind of network error"
     }, 
     "its_msg_1": {
         "message": "\u8cc7\u6599\u7de8\u865f\u672a\u8a2d\u7f6e\uff01", 
-        "message-retranslated": "Data ID is not set!", 
+        "message-retranslated": "Information number is not set!", 
         "description": "no steam id title"
     }, 
     "its_msg_2": {
-        "message": "\u8981\u4f7f\u7528\u5718\u968a\u8981\u585e2\u80cc\u5305Access\u64f4\u5c55\u8f38\u5165\u4f60\u7684\u793e\u5340\u7684\u540d\u7a31\u6216\u8cc7\u6599\u7de8\u865f\u9019\u88e1", 
-        "message-retranslated": "To use the Access Team Fortress 2 expansion pack enter your name or information to the community numbers here", 
+        "message": "\u8981\u4f7f\u7528\u7684Team Fortress 2\u80cc\u5305Access\u64f4\u5c55\u8f38\u5165\u4f60\u7684\u793e\u5340\u540d\u7a31\u6216\u500b\u4eba\u8eab\u4efd\u8b49\u5728\u9019\u88e1", 
+        "message-retranslated": "To use the Team Fortress 2 expansion pack Access enter your name or personal identity of community here", 
         "description": "no steam id help"
     }, 
     "its_msg_3": {
         "message": "\uff08\u4f8b\u5982pnatural\u621676561197992805111\uff09", 
-        "message-retranslated": "(For example, pnatural or 76561197992805111)", 
+        "message-retranslated": "(Eg pnatural or 76561197992805111)", 
         "description": "no steam id example"
     }, 
     "bad_feed": {
-        "message": "\u58de\u7684\u8cc7\u6599\u63d0\u4f9b", 
-        "message-retranslated": "Bad information", 
+        "message": "\u4e0d\u826f\u6578\u64da\u6e90", 
+        "message-retranslated": "Bad Data Source", 
         "description": "bad data feed label"
     }, 
     "feed_url_error": {
-        "message": "\u7121\u4f9b\u7a3f\u7db2\u5740", 
-        "message-retranslated": "No Feed URL", 
+        "message": "\u6c92\u6709\u8cc7\u6599\u7684\u7db2\u5740", 
+        "message-retranslated": "No information website", 
         "description": "error because the feed url is empty"
     }, 
     "its_msg_29": {
         "message": "\u5728", 
-        "message-retranslated": "At", 
+        "message-retranslated": "In", 
         "description": "just the word 'at'"
     }, 
     "its_msg_28": {
-        "message": "\u64f4\u5c55\u5beb\u7684", 
+        "message": "\u64f4\u5c55\u66f8\u9762", 
         "message-retranslated": "Extended writing", 
         "description": "view pnatural profile link"
     }, 
     "its_msg_27": {
-        "message": "\u672c\u7ad9\u7531", 
-        "message-retranslated": "Powered by", 
+        "message": "\u6280\u8853\u652f\u6301", 
+        "message-retranslated": "Technical Support", 
         "description": "powered by"
     }, 
     "its_msg_26": {
-        "message": "\u67e5\u770b\u8cc7\u6599", 
-        "message-retranslated": "View Data", 
+        "message": "\u67e5\u770b\u5c08\u9801", 
+        "message-retranslated": "View Profile", 
         "description": "view profile link"
     }, 
     "its_msg_25": {
@@ -250,22 +250,22 @@
     }, 
     "its_msg_23": {
         "message": "\u7533\u8acb\u6642\u9593", 
-        "message-retranslated": "Application time", 
+        "message-retranslated": "Application Period", 
         "description": "duration of request"
     }, 
     "its_msg_22": {
         "message": "\u4e0b\u6b21\u63d0\u53d6", 
-        "message-retranslated": "The next extraction", 
+        "message-retranslated": "Next extraction", 
         "description": "time of next fetch"
     }, 
     "its_msg_21": {
-        "message": "\u6700\u5f8c\u53d6\u56de", 
-        "message-retranslated": "Finally back", 
+        "message": "\u6700\u5f8c\u53d6", 
+        "message-retranslated": "End of the day", 
         "description": "time of last fetch"
     }, 
     "its_msg_20": {
         "message": "\u7de9\u5b58\u6642\u9593", 
-        "message-retranslated": "Cache Time", 
+        "message-retranslated": "Cache time", 
         "description": "time feed cached"
     }, 
     "refreshing": {
@@ -275,12 +275,12 @@
     }, 
     "level": {
         "message": "\u7d1a\u5225 $1 $2", 
-        "message-retranslated": "Level $1 $2", 
+        "message-retranslated": "Level 1 $2 $", 
         "description": "level label"
     }, 
     "extension_name": {
         "message": "\u5718\u968a\u8981\u585e2\u80cc\u5305\u8a2a\u554f", 
-        "message-retranslated": "Team Fortress 2 backpack Access", 
+        "message-retranslated": "Team Fortress 2 pack visit", 
         "description": "Extension name"
     }, 
     "from_cache": {
@@ -290,17 +290,17 @@
     }, 
     "error": {
         "message": "\u932f\u8aa4", 
-        "message-retranslated": "Mistake", 
+        "message-retranslated": "Error", 
         "description": "error label"
     }, 
     "its_msg_13": {
-        "message": "\u7e3d\u9805\u76ee", 
-        "message-retranslated": "The total project", 
+        "message": "\u7e3d\u8a08\u7684\u7522\u54c1", 
+        "message-retranslated": "Total product", 
         "description": "total item count stats title"
     }, 
     "its_msg_0": {
-        "message": "\u5718\u968a\u8981\u585e2\u80cc\u5305\u9023\u63a5\uff08\u65b0\u7684\u548c\u6539\u9032\uff09", 
-        "message-retranslated": "Team Fortress 2 backpack connections (new and improved)", 
+        "message": "\u5718\u968a\u8981\u585e2\u80cc\u5305\u8a2a\u554f\uff08\u65b0\u7684\u548c\u6539\u9032\uff09", 
+        "message-retranslated": "Team Fortress 2 backpack visits (new and improved)", 
         "description": "page title"
     }
 }

@@ -106,6 +106,10 @@
         "type": "Pistol", 
         "description": "Pistol"
     }, 
+    "95": {
+        "type": "Hat", 
+        "description": "Engineer's Cap"
+    }, 
     "28": {
         "type": "PDA", 
         "description": "PDA"
@@ -113,6 +117,10 @@
     "29": {
         "type": "Medi Gun", 
         "description": "Medi Gun"
+    }, 
+    "94": {
+        "type": "Hat", 
+        "description": "Texas Ten Gallon"
     }, 
     "0": {
         "type": "Bat", 
@@ -539,6 +547,10 @@
         ], 
         "description": "The Ambassador"
     }, 
+    "97": {
+        "type": "Hat", 
+        "description": "Tough Guy's Toque"
+    }, 
     "2": {
         "type": "Fire Axe", 
         "description": "Fire Axe"
@@ -555,17 +567,26 @@
         "type": "Hat", 
         "description": "Stainless Pot"
     }, 
-    "95": {
-        "type": "Hat", 
-        "description": "Engineer's Cap"
+    "160": {
+        "alt": [
+            "The ultimate in semi-concealed weaponry.\\nThere\u2019s no question you need this gun,\\nthe only question is: where will you keep it?"
+        ], 
+        "type": "Pistol", 
+        "description": "The Lugermorph"
     }, 
-    "94": {
-        "type": "Hat", 
-        "description": "Texas Ten Gallon"
+    "161": {
+        "alt": [
+            "Combines style with stopping power.\\nLong exclusive to Freelance Police,\\nnow available for other blood-thirsty mercenaries."
+        ], 
+        "type": "Revolver", 
+        "description": "The Big Kill"
     }, 
-    "97": {
+    "162": {
+        "alt": [
+            "Expertly crafted headwear from cruelty-free farms\\nin the Philippines. Hollowed-out skull casing wicks\\nmoisture away when in the heat of battle."
+        ], 
         "type": "Hat", 
-        "description": "Tough Guy's Toque"
+        "description": "Max's Severed Head"
     }, 
     "96": {
         "type": "Hat", 

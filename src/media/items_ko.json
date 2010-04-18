@@ -106,6 +106,10 @@
         "type": "\ud53c\uc2a4\ud1a8", 
         "description": "\ud53c\uc2a4\ud1a8"
     }, 
+    "95": {
+        "type": "Hat", 
+        "description": "\uae30\uc220\uc790 \ubaa8\uc790"
+    }, 
     "28": {
         "type": "PDA", 
         "description": "PDA"
@@ -113,6 +117,10 @@
     "29": {
         "type": "\uba54\ub514 \uac74", 
         "description": "\uba54\ub514 \uac74"
+    }, 
+    "94": {
+        "type": "Hat", 
+        "description": "\ud14d\uc0ac\uc2a4 \uce74\uc6b0\ubaa8\uc774 \ubaa8\uc790"
     }, 
     "0": {
         "type": "\uc57c\uad6c\ubc29\ub9dd\uc774", 
@@ -342,7 +350,7 @@
     }, 
     "other_attributes": {
         "133": "\uba54\ub2ec \ubc88\ud638 %s1", 
-        "132": "\uc720\uc6a9\ud55c \ucee4\ubba4\ub2c8\ud2f0 \ucc38\uc5ec\uc790\ub294 \uc8fc\uc5b4\uc9c4"
+        "132": "\uac00\uce58\uc788\ub294 \ucee4\ubba4\ub2c8\ud2f0 \ucc38\uc5ec\uc790 \uc8fc\uc5b4"
     }, 
     "5003": {
         "alt": [
@@ -415,11 +423,11 @@
     }, 
     "9003": {
         "positive": [
-            "\uc120\uc218 \ubc18 \uc2a4\ud300 \uacc4\uc815\uc744 \uc8fd\uc600\uc5b4", 
-            "\uc774 \uc0c1\ud488\uc740 \uc9c4\uc9dc\uac00 \uc544\ub2cc\uc5d0\uc11c\ub9cc \ub18d\ub2f4."
+            "\ud50c\ub808\uc774\uc5b4 \uc0b4\ud574\uc758 \uae08\uc9c0 \uc2a4\ud300 \uacc4\uc815", 
+            "\uc774 \ud56d\ubaa9\uc740 \uc2e4\uc81c\ub418\uc9c0 \uc54a\uc73c\uba70 \ub2e8\uc9c0 \ub18d\ub2f4\uc785\ub2c8\ub2e4."
         ], 
         "type": "\ub9dd\uce58 \ucd94\ubc29\uc758", 
-        "description": "\ubc18 \uc7a5\uad00\uc740 \ud574\uba38"
+        "description": "\uae08\uc9c0 \ud574\uba38"
     }, 
     "102": {
         "type": "Hat", 
@@ -539,6 +547,10 @@
         ], 
         "description": "\uc570\ubc84\uc11c\ub354"
     }, 
+    "97": {
+        "type": "Hat", 
+        "description": "\ud130\ud504\uac00\uc774 \ubaa8\uc790"
+    }, 
     "2": {
         "type": "\ubd88\ub3c4\ub07c", 
         "description": "\ubd88\ub3c4\ub07c"
@@ -555,17 +567,26 @@
         "type": "Hat", 
         "description": "\uc2a4\ud14c\uc778\ub9ac\uc2a4 \ub0c4\ube44"
     }, 
-    "95": {
-        "type": "Hat", 
-        "description": "\uae30\uc220\uc790 \ubaa8\uc790"
+    "160": {
+        "alt": [
+            "TF_TTG_MaxGun_Desc"
+        ], 
+        "type": "\ud53c\uc2a4\ud1a8", 
+        "description": "TF_TTG_MaxGun"
     }, 
-    "94": {
-        "type": "Hat", 
-        "description": "\ud14d\uc0ac\uc2a4 \uce74\uc6b0\ubaa8\uc774 \ubaa8\uc790"
+    "161": {
+        "alt": [
+            "TF_TTG_SamRevolver_Desc"
+        ], 
+        "type": "\uad8c\ucd1d", 
+        "description": "TF_TTG_SamRevolver"
     }, 
-    "97": {
+    "162": {
+        "alt": [
+            "TF_TTG_MaxsHat_Desc"
+        ], 
         "type": "Hat", 
-        "description": "\ud130\ud504\uac00\uc774 \ubaa8\uc790"
+        "description": "TF_TTG_MaxsHat"
     }, 
     "96": {
         "type": "Hat", 
