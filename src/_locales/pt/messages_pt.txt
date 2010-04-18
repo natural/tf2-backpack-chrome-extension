@@ -10,7 +10,7 @@
 	"description": "nothing changed, but have a label!"
     },
     "profile_found": {
-	"message": "Usando Steam ID 1 para $$2.",
+	"message": "Usando Steam ID $1 para $2.",
 	"message-retranslated": "Using Steam ID $$1 to 2.",
 	"description": "steam id found in search"
     },
