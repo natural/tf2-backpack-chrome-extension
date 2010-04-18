@@ -175,6 +175,11 @@ var i18nMap = {
 
 
 function i18nize() {
+    var lang = chrome.i18n.getMessage("language_code");
+    if (lang != "en") {
+	$("[lang="+lang+"]").css("display", "inline")
+	$("[lang="+lang+"]").children().css("display", "inline")
+    }
     var targets = $("[class*='its_msg_'], [id*='its_msg_']");
     targets.each(function(index, node) {
         node = $(node);

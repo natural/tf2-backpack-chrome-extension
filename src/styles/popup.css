@@ -384,3 +384,10 @@ background-color:rgba(56, 92, 120, 0.5);
 border:0.25em solid rgba(91, 122, 140, 0.5);
 }
 
+:lang(ru) {
+display:none;
+}
+
+:lang(pt) {
+display:none;
+}

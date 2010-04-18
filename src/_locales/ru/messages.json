@@ -10,8 +10,8 @@
         "description": "nothing changed, but have a label!"
     }, 
     "profile_found": {
-        "message": "\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435 Steam ID $$1 \u043f\u043e 2.", 
-        "message-retranslated": "Using Steam ID $$1 to 2.", 
+        "message": "\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435 Steam ID \u0434\u043b\u044f $1 $2.", 
+        "message-retranslated": "Using Steam ID for $1 $2.", 
         "description": "steam id found in search"
     }, 
     "num1": {
@@ -29,11 +29,6 @@
         "message-retranslated": "3", 
         "description": "the number 3"
     }, 
-    "its_msg_12": {
-        "message": "\u0421\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0430", 
-        "message-retranslated": "Statistics", 
-        "description": "stats button"
-    }, 
     "second": {
         "message": "\u0432\u0442\u043e\u0440\u043e\u0439", 
         "message-retranslated": "second", 
@@ -45,13 +40,13 @@
         "description": "warning label"
     }, 
     "its_msg_31": {
-        "message": "TF2 Viewer \u0420\u044e\u043a\u0437\u0430\u043a - \u041d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438", 
-        "message-retranslated": "TF2 Viewer Backpack - Settings", 
+        "message": "TF2 \u0418\u043d\u0432\u0435\u043d\u0442\u0430\u0440\u044c - \u0424\u0443\u043d\u043a\u0446\u0438\u0438", 
+        "message-retranslated": "TF2 Backpack Viewer - Options", 
         "description": "options page title"
     }, 
     "refresh_nochange": {
-        "message": "\u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u043d\u0430\u044f Feed - \u0431\u0435\u0437 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0439", 
-        "message-retranslated": "Updated Feed - without change", 
+        "message": "\u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0440\u044e\u043a\u0437\u0430\u043a\u0430 - \u0431\u0435\u0437 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0439", 
+        "message-retranslated": "Updated channel - no change", 
         "description": "feed refreshed without changes"
     }, 
     "language_code": {
@@ -59,8 +54,8 @@
         "description": ""
     }, 
     "its_msg_30": {
-        "message": "\u0432 Steam Community", 
-        "message-retranslated": "in Steam Community", 
+        "message": "\u043d\u0430 Steam Community", 
+        "message-retranslated": "on Steam Community", 
         "description": "fragment"
     }, 
     "parse_error": {
@@ -69,12 +64,12 @@
         "description": "some kind of parse error"
     }, 
     "its_msg_32": {
-        "message": "\u0410\u043d\u043a\u0435\u0442\u0430 ID", 
+        "message": "Profile ID", 
         "message-retranslated": "Profile ID", 
         "description": "profile id label"
     }, 
     "its_msg_33": {
-        "message": "\u041e\u0442\u043c\u0435\u043d\u0438\u0442\u044c", 
+        "message": "\u041e\u0442\u043c\u0435\u043d\u0430", 
         "message-retranslated": "Cancel", 
         "description": "cancel label, such as for a button"
     }, 
@@ -84,34 +79,34 @@
         "description": ""
     }, 
     "its_msg_35": {
-        "message": "\u041b\u0443\u0447\u0448\u0435 \u043f\u0440\u0435\u0434\u043b\u043e\u0436\u0438\u0442\u0435 \u0447\u0442\u043e-\u043d\u0438\u0431\u0443\u0434\u044c", 
-        "message-retranslated": "It is better to suggest something", 
+        "message": "\u041f\u0440\u0435\u0434\u043b\u043e\u0436\u0438\u0442\u0435 \u043f\u043e\u043b\u0443\u0447\u0448\u0435", 
+        "message-retranslated": "Offer Something Better", 
         "description": ""
     }, 
     "its_msg_16": {
-        "message": "\u041d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u044b\u0439 \u041f\u0443\u043d\u043a\u0442\u044b", 
-        "message-retranslated": "Unknown Points", 
+        "message": "\u041d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043d\u044b\u0435 \u043f\u0440\u0435\u0434\u043c\u0435\u0442\u044b", 
+        "message-retranslated": "Unidentified Items", 
         "description": "unknown item count stats title"
     }, 
     "its_msg_17": {
-        "message": "\u041c\u0435\u0442\u0430\u043b\u043b\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0438\u0437\u0434\u0435\u043b\u0438\u044f\u0445", 
-        "message-retranslated": "Metal Items", 
+        "message": "\u041c\u0435\u0442\u0430\u043b\u043b\u044b", 
+        "message-retranslated": "Hardware", 
         "description": "metal item count stats title"
     }, 
     "its_msg_14": {
-        "message": "\u041d\u043e\u0440\u043c\u0430\u043b\u044c\u043d\u044b\u0439 \u041f\u0443\u043d\u043a\u0442\u044b", 
+        "message": "\u041e\u0431\u044b\u0447\u043d\u044b\u0435 \u043f\u0440\u0435\u0434\u043c\u0435\u0442\u044b", 
         "message-retranslated": "Normal Items", 
         "description": "normal item count stats title"
     }, 
     "its_msg_15": {
-        "message": "\u0428\u043b\u044f\u043f\u044b", 
+        "message": "\u0428\u0430\u043f\u043a\u0438", 
         "message-retranslated": "Hats", 
         "description": "hat count stats title"
     }, 
-    "extension_default_title": {
-        "message": "\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440 Team Fortress 2 \u0420\u044e\u043a\u0437\u0430\u043a", 
-        "message-retranslated": "View Team Fortress 2 Backpack", 
-        "description": "Extension default title for browser action"
+    "its_msg_12": {
+        "message": "\u0412\u0441\u0435\u0433\u043e \u043f\u0440\u0435\u0434\u043c\u0435\u0442\u043e\u0432", 
+        "message-retranslated": "Statistics", 
+        "description": "stats button"
     }, 
     "other_error": {
         "message": "\u041d\u0435\u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0434\u0440\u0443\u0433\u0438\u0435 \u043e\u0448\u0438\u0431\u043a\u0438", 
@@ -119,18 +114,23 @@
         "description": "some other kind of error occurred."
     }, 
     "its_msg_10": {
-        "message": "\u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435", 
-        "message-retranslated": "Update", 
+        "message": "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u044c", 
+        "message-retranslated": "Refresh", 
         "description": "refresh button"
     }, 
     "its_msg_11": {
-        "message": "\u041e\u043f\u0446\u0438\u0438", 
+        "message": "\u041d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438", 
         "message-retranslated": "Options", 
         "description": "options button"
     }, 
+    "extension_default_title": {
+        "message": "\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440 Team Fortress 2 \u0418\u043d\u0432\u0435\u043d\u0442\u0430\u0440\u044c", 
+        "message-retranslated": "View Team Fortress 2 Backpack", 
+        "description": "Extension default title for browser action"
+    }, 
     "its_msg_18": {
-        "message": "\u0421\u0442\u043e\u0438\u0442 \u043c\u0435\u0442\u0430\u043b\u043b\u0430", 
-        "message-retranslated": "Should metal", 
+        "message": "\u041c\u0435\u0442\u0430\u043b\u043b\u0430 \u043f\u043e\u0442\u0440\u0430\u0447\u0435\u043d\u043e", 
+        "message-retranslated": "Metal Worth", 
         "description": "metal worth item count"
     }, 
     "its_msg_19": {
@@ -139,23 +139,23 @@
         "description": "count of profile views"
     }, 
     "request_aborted": {
-        "message": "\u0417\u0430\u043f\u0440\u043e\u0441 \u043f\u0440\u0435\u0440\u0432\u0430\u043d\u0430 Timeout", 
-        "message-retranslated": "Request aborted Timeout", 
+        "message": "\u0412\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0435 \u0437\u0430\u043f\u0440\u043e\u0441\u0430 \u043f\u0440\u0435\u0440\u0432\u0430\u043d\u043e \u043f\u043e \u0442\u0430\u0439\u043c\u0430\u0443\u0442\u0443", 
+        "message-retranslated": "Processing Request timed out", 
         "description": "request aborted label"
     }, 
-    "seconds": {
-        "message": "\u0441\u0435\u043a\u0443\u043d\u0434\u044b", 
-        "message-retranslated": "seconds", 
-        "description": "seconds"
+    "bad_feed": {
+        "message": "Bad Data Feed", 
+        "message-retranslated": "Bad Data Feed", 
+        "description": "bad data feed label"
     }, 
     "extension_desc": {
-        "message": "\u0411\u044b\u0441\u0442\u0440\u044b\u0439 \u0434\u043e\u0441\u0442\u0443\u043f \u043a \u044d\u043b\u0435\u043c\u0435\u043d\u0442\u0430\u043c \u0432 Team Fortress 2 \u0440\u044e\u043a\u0437\u0430\u043a\u0430", 
+        "message": "\u0411\u044b\u0441\u0442\u0440\u044b\u0439 \u0434\u043e\u0441\u0442\u0443\u043f \u043a \u043f\u0440\u0435\u0434\u043c\u0435\u0442\u0430\u043c \u0432 \u0438\u043d\u0432\u0435\u043d\u0442\u0430\u0440\u0435", 
         "message-retranslated": "Quick access to items in Team Fortress 2 backpack", 
         "description": "Extension description"
     }, 
     "its_msg_8": {
-        "message": "\u041d\u043e\u0432\u044b\u0435 \u043f\u043e\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u044f", 
-        "message-retranslated": "Latest", 
+        "message": "\u041d\u0430\u0439\u0434\u0435\u043d\u044b \u043d\u043e\u0432\u044b\u0435 \u043f\u0440\u0435\u0434\u043c\u0435\u0442\u044b", 
+        "message-retranslated": "New Arrivals", 
         "description": "new items title"
     }, 
     "its_msg_9": {
@@ -164,28 +164,28 @@
         "description": "backpack title"
     }, 
     "equipped": {
-        "message": "\u041e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u043d\u044b\u0439", 
+        "message": "\u0418\u0441\u043f.", 
         "message-retranslated": "Equipped", 
         "description": "equipped label"
     }, 
     "its_msg_4": {
-        "message": "\u042d\u043a\u043e\u043d\u043e\u043c\u0438\u0442\u044c", 
+        "message": "\u0421\u043e\u0445\u0440\u0430\u043d\u0438\u0442\u044c", 
         "message-retranslated": "Save", 
         "description": "save button"
     }, 
     "its_msg_5": {
-        "message": "\u0421\u0431\u0440\u043e\u0441", 
+        "message": "\u0421\u0431\u0440\u043e\u0441\u0438\u0442\u044c", 
         "message-retranslated": "Reset", 
         "description": "reset button"
     }, 
     "its_msg_6": {
-        "message": "\u0411\u043b\u0438\u0437\u043a\u043e", 
+        "message": "\u0417\u0430\u043a\u0440\u044b\u0442\u044c", 
         "message-retranslated": "Close", 
         "description": "close button"
     }, 
     "its_msg_7": {
-        "message": "\u0425\u0430\u0440\u0430\u043a\u0442\u0435\u0440 \u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f \u043e $1", 
-        "message-retranslated": "Character Info $1", 
+        "message": "\u0420\u044e\u043a\u0437\u0430\u043a \u0438\u0433\u0440\u043e\u043a\u0430 $1", 
+        "message-retranslated": "Information on the nature $1", 
         "description": "character info title"
     }, 
     "network_error": {
@@ -194,13 +194,13 @@
         "description": "some kind of network error"
     }, 
     "its_msg_1": {
-        "message": "\u0410\u043d\u043a\u0435\u0442\u0430 ID \u043d\u0435 \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0430!", 
-        "message-retranslated": "Profile ID is not installed!", 
+        "message": "Profile ID \u041d\u0435 \u0443\u043a\u0430\u0437\u0430\u043d!", 
+        "message-retranslated": "Profile ID is not specified!", 
         "description": "no steam id title"
     }, 
     "its_msg_2": {
-        "message": "\u0414\u043b\u044f \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u044f Team Fortress 2 \u0420\u044e\u043a\u0437\u0430\u043a \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435 \u0434\u043e\u0441\u0442\u0443\u043f\u0430 \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u0438\u043c\u044f \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0430 \u0410\u043d\u043a\u0435\u0442\u0430 ID \u0437\u0434\u0435\u0441\u044c", 
-        "message-retranslated": "To use the Team Fortress 2 Backpack access, enter the name of the community profile ID here", 
+        "message": "\u0414\u043b\u044f \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u044f \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u044f Team Fortress 2 Backpack \u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u0432\u0430\u0448 ID \u043f\u0440\u043e\u0444\u0438\u043b\u044f \u0437\u0434\u0435\u0441\u044c.", 
+        "message-retranslated": "To use the Team Fortress 2 Backpack access, enter the name of the community or profile ID here", 
         "description": "no steam id help"
     }, 
     "its_msg_3": {
@@ -208,44 +208,44 @@
         "message-retranslated": "(Velcom pnatural or 76561197992805111)", 
         "description": "no steam id example"
     }, 
-    "bad_feed": {
-        "message": "Bad Feed \u0434\u0430\u043d\u043d\u044b\u0445", 
-        "message-retranslated": "Bad Feed Data", 
-        "description": "bad data feed label"
+    "seconds": {
+        "message": "\u0441\u0435\u043a\u0443\u043d\u0434", 
+        "message-retranslated": "seconds", 
+        "description": "seconds"
     }, 
     "feed_url_error": {
-        "message": "\u041d\u0435\u0442 Feed URL", 
-        "message-retranslated": "No Feed URL", 
+        "message": "URL-\u043b\u0435\u043d\u0442\u0430", 
+        "message-retranslated": "Feed URL", 
         "description": "error because the feed url is empty"
     }, 
     "its_msg_29": {
-        "message": "\u0432", 
-        "message-retranslated": "in", 
+        "message": "\u043d\u0430", 
+        "message-retranslated": "at", 
         "description": "just the word 'at'"
     }, 
     "its_msg_28": {
-        "message": "\u0420\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435 \u043d\u0430\u043f\u0438\u0441\u0430\u043d\u043e", 
+        "message": "\u0420\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435 \u043d\u0430\u043f\u0438\u0441\u0430\u043b", 
         "message-retranslated": "The expansion is written", 
         "description": "view pnatural profile link"
     }, 
     "its_msg_27": {
-        "message": "\u0420\u0430\u0431\u043e\u0442\u0430\u0435\u0442 \u043d\u0430", 
-        "message-retranslated": "Powered by", 
+        "message": "\u0421\u0434\u0435\u043b\u0430\u043d\u043e \u0434\u043b\u044f", 
+        "message-retranslated": "Powered By", 
         "description": "powered by"
     }, 
     "its_msg_26": {
-        "message": "\u041e\u0442\u043a\u0440\u044b\u0442\u044c \u043f\u0440\u043e\u0444\u0438\u043b\u044c", 
-        "message-retranslated": "View Profile", 
+        "message": "\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u043f\u0440\u043e\u0444\u0438\u043b\u044c", 
+        "message-retranslated": "View Public Profile", 
         "description": "view profile link"
     }, 
     "its_msg_25": {
         "message": "\u041e\u0442\u043a\u0440\u044b\u0442\u044c \u0440\u044e\u043a\u0437\u0430\u043a", 
-        "message-retranslated": "View backpack", 
+        "message-retranslated": "View Backpack", 
         "description": "view backpack link"
     }, 
     "its_msg_24": {
-        "message": "\u0421\u043a\u0440\u044b\u0442\u044c \u0421\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0430", 
-        "message-retranslated": "Hide Statistics", 
+        "message": "\u0421\u043a\u0440\u044b\u0442\u044c \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0443", 
+        "message-retranslated": "Hide statistics", 
         "description": "hide stats button"
     }, 
     "its_msg_23": {
@@ -254,22 +254,22 @@
         "description": "duration of request"
     }, 
     "its_msg_22": {
-        "message": "\u0421\u043b\u0435\u0434\u0443\u044e\u0449\u0430\u044f Fetch", 
-        "message-retranslated": "Next Fetch", 
+        "message": "\u0421\u043b\u0435\u0434\u0443\u044e\u0449\u0435\u0435 \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435", 
+        "message-retranslated": "Next delivery", 
         "description": "time of next fetch"
     }, 
     "its_msg_21": {
-        "message": "\u041f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0435 Fetch", 
+        "message": "\u041f\u043e\u0441\u043b\u0435\u0434\u043d\u044f\u044f \u043f\u0440\u043e\u0432\u0435\u0440\u043a\u0430", 
         "message-retranslated": "Last Fetch", 
         "description": "time of last fetch"
     }, 
     "its_msg_20": {
-        "message": "\u0412\u0440\u0435\u043c\u044f \u043a\u044d\u0448\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f", 
+        "message": "\u041a\u044d\u0448\u0438\u0440\u043e\u0432\u0430\u043d\u043e", 
         "message-retranslated": "Cache Time", 
         "description": "time feed cached"
     }, 
     "refreshing": {
-        "message": "\u041e\u0441\u0432\u0435\u0436\u0430\u044e\u0449\u0438\u0439", 
+        "message": "\u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435", 
         "message-retranslated": "Refreshing", 
         "description": "refreshing text goes here"
     }, 
@@ -279,27 +279,27 @@
         "description": "level label"
     }, 
     "extension_name": {
-        "message": "Team Fortress 2 \u0420\u044e\u043a\u0437\u0430\u043a \u0434\u043e\u0441\u0442\u0443\u043f\u0430", 
+        "message": "Team Fortress 2 \u0418\u043d\u0432\u0435\u043d\u0442\u0430\u0440\u044c", 
         "message-retranslated": "Team Fortress 2 Backpack access", 
         "description": "Extension name"
     }, 
     "from_cache": {
-        "message": "\u0414\u0430\u043d\u043d\u044b\u0445, \u0437\u0430\u0433\u0440\u0443\u0436\u0430\u0435\u043c\u044b\u0445 \u0438\u0437 \u043a\u044d\u0448\u0430", 
-        "message-retranslated": "Data are retrieved from the cache", 
+        "message": "\u0414\u0430\u043d\u043d\u044b\u0435 \u0437\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u0430 \u0438\u0437 \u043a\u044d\u0448\u0430", 
+        "message-retranslated": "Data downloaded from the cache", 
         "description": "data loaded from cache label"
     }, 
     "error": {
         "message": "\u041e\u0448\u0438\u0431\u043a\u0430", 
-        "message-retranslated": "Error", 
+        "message-retranslated": "Mistake", 
         "description": "error label"
     }, 
     "its_msg_13": {
-        "message": "\u0412\u0441\u0435\u0433\u043e \u044d\u043a\u0437\u0435\u043c\u043f\u043b\u044f\u0440\u043e\u0432", 
+        "message": "\u0412\u0441\u0435\u0433\u043e \u043f\u0440\u0435\u0434\u043c\u0435\u0442\u043e\u0432", 
         "message-retranslated": "Total Items", 
         "description": "total item count stats title"
     }, 
     "its_msg_0": {
-        "message": "Team Fortress 2 \u0420\u044e\u043a\u0437\u0430\u043a Access (\u041d\u043e\u0432\u044b\u0435 \u0438 \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u043d\u044b\u0435)", 
+        "message": "Team Fortress 2 \u0418\u043d\u0432\u0435\u043d\u0442\u0430\u0440\u044c (\u041d\u043e\u0432\u044b\u0439 \u0438 \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u043d\u044b\u0439)", 
         "message-retranslated": "Team Fortress 2 Backpack Access (New and Improved)", 
         "description": "page title"
     }

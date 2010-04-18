@@ -1,775 +1,775 @@
 {
     "133": {
-        "positive": [
-            "-75% danos por disparos de saltos com rocket"
-        ], 
-        "type": "Botas", 
-        "description": "Os Barcos com armas"
-    }, 
+	"positive": [
+	    "-75% danos por disparos de saltos com rocket"
+	],
+	"type": "Botas",
+	"description": "Os Barcos com armas"
+    },
     "132": {
-        "alt": [
-            "Esta arma tem um grande alcance para ataques corpo a corpo.\nPermite uma maior velocidade e energia com cada vida que tirar."
-        ], 
-        "type": "Espada", 
-        "negative": [
-            "-25 energia m\u00e1xima por utilizador", 
-            "Sem danos cr\u00edticos aleat\u00f3rios"
-        ], 
-        "description": "O Eyelander"
-    }, 
+	"alt": [
+	    "Esta arma tem um grande alcance para ataques corpo a corpo.\nPermite uma maior velocidade e energia com cada vida que tirar."
+	],
+	"type": "Espada",
+	"negative": [
+	    "-25 energia m\u00e1xima por utilizador",
+	    "Sem danos cr\u00edticos aleat\u00f3rios"
+	],
+	"description": "O Eyelander"
+    },
     "131": {
-        "positive": [
-            "+50% de resist\u00eancia a danos por fogo do utilizador", 
-            "+50% de resist\u00eancia a danos explosivos do utilizador"
-        ], 
-        "alt": [
-            "Disparo alternativo: obtenha uma maior pot\u00eancia de ataque ao investir contra os seus inimigos."
-        ], 
-        "type": "Escudo", 
-        "description": "Chargin' Targe"
-    }, 
+	"positive": [
+	    "+50% de resist\u00eancia a danos por fogo do utilizador",
+	    "+50% de resist\u00eancia a danos explosivos do utilizador"
+	],
+	"alt": [
+	    "Disparo alternativo: obtenha uma maior pot\u00eancia de ataque ao investir contra os seus inimigos."
+	],
+	"type": "Escudo",
+	"description": "Chargin' Targe"
+    },
     "130": {
-        "positive": [
-            "+50% mun. m\u00e1xima secund\u00e1ria do utilizador", 
-            "+6 de bombas colocadas", 
-            "Detonar bombas colantes perto da mina", 
-            "Capazes de destruir bombas colantes inimigas"
-        ], 
-        "type": "Lan\u00e7a-bombas colantes", 
-        "negative": [
-            "Tempo de activa\u00e7\u00e3o de bomba 0.4 segundo mais lento"
-        ], 
-        "description": "A Resist\u00eancia Escocesa"
-    }, 
+	"positive": [
+	    "+50% mun. m\u00e1xima secund\u00e1ria do utilizador",
+	    "+6 de bombas colocadas",
+	    "Detonar bombas colantes perto da mina",
+	    "Capazes de destruir bombas colantes inimigas"
+	],
+	"type": "Lan\u00e7a-bombas colantes",
+	"negative": [
+	    "Tempo de activa\u00e7\u00e3o de bomba 0.4 segundo mais lento"
+	],
+	"description": "A Resist\u00eancia Escocesa"
+    },
     "137": {
-        "type": "Hat", 
-        "description": "TF_NobleAmassment_Hat"
-    }, 
+	"type": "Hat",
+	"description": "TF_NobleAmassment_Hat"
+    },
     "136": {
-        "alt": [
-            "TF_PropagandaContest_SecondPlace_Desc"
-        ], 
-        "type": "Hat", 
-        "description": "TF_PropagandaContest_SecondPlace"
-    }, 
+	"alt": [
+	    "TF_PropagandaContest_SecondPlace_Desc"
+	],
+	"type": "Hat",
+	"description": "TF_PropagandaContest_SecondPlace"
+    },
     "135": {
-        "type": "Hat", 
-        "description": "TF_ToweringPillar_Hat"
-    }, 
+	"type": "Hat",
+	"description": "TF_ToweringPillar_Hat"
+    },
     "134": {
-        "alt": [
-            "TF_PropagandaContest_FirstPlace_Desc"
-        ], 
-        "type": "Hat", 
-        "description": "TF_PropagandaContest_FirstPlace"
-    }, 
+	"alt": [
+	    "TF_PropagandaContest_FirstPlace_Desc"
+	],
+	"type": "Hat",
+	"description": "TF_PropagandaContest_FirstPlace"
+    },
     "139": {
-        "type": "Hat", 
-        "description": "TF_ModestPile_Hat"
-    }, 
+	"type": "Hat",
+	"description": "TF_ModestPile_Hat"
+    },
     "138": {
-        "alt": [
-            "TF_PropagandaContest_ThirdPlace_Desc"
-        ], 
-        "type": "Hat", 
-        "description": "TF_PropagandaContest_ThirdPlace"
-    }, 
+	"alt": [
+	    "TF_PropagandaContest_ThirdPlace_Desc"
+	],
+	"type": "Hat",
+	"description": "TF_PropagandaContest_ThirdPlace"
+    },
     "24": {
-        "type": "Rev\u00f3lver", 
-        "description": "Rev\u00f3lver"
-    }, 
+	"type": "Rev\u00f3lver",
+	"description": "Rev\u00f3lver"
+    },
     "25": {
-        "type": "PDA", 
-        "description": "PDA"
-    }, 
+	"type": "PDA",
+	"description": "PDA"
+    },
     "26": {
-        "type": "PDA", 
-        "description": "PDA"
-    }, 
+	"type": "PDA",
+	"description": "PDA"
+    },
     "27": {
-        "type": "PDA", 
-        "description": "PDA"
-    }, 
+	"type": "PDA",
+	"description": "PDA"
+    },
     "20": {
-        "type": "Lan\u00e7a-bombas colantes", 
-        "description": "Lan\u00e7a-bombas colantes"
-    }, 
+	"type": "Lan\u00e7a-bombas colantes",
+	"description": "Lan\u00e7a-bombas colantes"
+    },
     "21": {
-        "type": "Lan\u00e7a-chamas", 
-        "description": "Lan\u00e7a-chamas"
-    }, 
+	"type": "Lan\u00e7a-chamas",
+	"description": "Lan\u00e7a-chamas"
+    },
     "22": {
-        "type": "Pistola", 
-        "description": "Pistola"
-    }, 
+	"type": "Pistola",
+	"description": "Pistola"
+    },
     "23": {
-        "type": "Pistola", 
-        "description": "Pistola"
-    }, 
+	"type": "Pistola",
+	"description": "Pistola"
+    },
     "95": {
-        "type": "Hat", 
-        "description": "Bon\u00e9 do engineer"
-    }, 
+	"type": "Hat",
+	"description": "Bon\u00e9 do engineer"
+    },
     "28": {
-        "type": "PDA", 
-        "description": "PDA"
-    }, 
+	"type": "PDA",
+	"description": "PDA"
+    },
     "29": {
-        "type": "Arma m\u00e9dica", 
-        "description": "Arma m\u00e9dica"
-    }, 
+	"type": "Arma m\u00e9dica",
+	"description": "Arma m\u00e9dica"
+    },
     "94": {
-        "type": "Hat", 
-        "description": "Chap\u00e9u texano"
-    }, 
+	"type": "Hat",
+	"description": "Chap\u00e9u texano"
+    },
     "0": {
-        "type": "Taco", 
-        "description": "Taco"
-    }, 
+	"type": "Taco",
+	"description": "Taco"
+    },
     "4": {
-        "type": "Faca", 
-        "description": "Faca"
-    }, 
+	"type": "Faca",
+	"description": "Faca"
+    },
     "8": {
-        "type": "Serra de ossos", 
-        "description": "Serra de ossos"
-    }, 
+	"type": "Serra de ossos",
+	"description": "Serra de ossos"
+    },
     "120": {
-        "type": "Hat", 
-        "description": "Cartola escocesa"
-    }, 
+	"type": "Hat",
+	"description": "Cartola escocesa"
+    },
     "121": {
-        "type": "Medalha", 
-        "description": "Medalha de servi\u00e7o do Gentle Manne"
-    }, 
+	"type": "Medalha",
+	"description": "Medalha de servi\u00e7o do Gentle Manne"
+    },
     "122": {
-        "type": "Cheat Detector", 
-        "description": "A sua conta foi identificada como tendo contornado o sistema de atribui\u00e7\u00e3o de itens. Retir\u00e1mos todos os itens obtidos ilegalmente.\n\nFuturas viola\u00e7\u00f5es poder\u00e3o resultar na perda de todos os seus itens."
-    }, 
+	"type": "Cheat Detector",
+	"description": "A sua conta foi identificada como tendo contornado o sistema de atribui\u00e7\u00e3o de itens. Retir\u00e1mos todos os itens obtidos ilegalmente.\n\nFuturas viola\u00e7\u00f5es poder\u00e3o resultar na perda de todos os seus itens."
+    },
     "123": {
-        "type": "Cheat Detector", 
-        "description": "A sua conta foi identificada como tendo contornado o sistema de atribui\u00e7\u00e3o de itens. Retir\u00e1mos todos os itens do seu invent\u00e1rio.\n\nFuturas viola\u00e7\u00f5es poder\u00e3o resultar na desactiva\u00e7\u00e3o da conta."
-    }, 
+	"type": "Cheat Detector",
+	"description": "A sua conta foi identificada como tendo contornado o sistema de atribui\u00e7\u00e3o de itens. Retir\u00e1mos todos os itens do seu invent\u00e1rio.\n\nFuturas viola\u00e7\u00f5es poder\u00e3o resultar na desactiva\u00e7\u00e3o da conta."
+    },
     "124": {
-        "type": "Cheat Detector", 
-        "description": "Parab\u00e9ns! A sua Honestidade foi recompensada com um novo chap\u00e9u!\n\n(Outros jogadores tiveram menos escr\u00fapulos, e n\u00e3o tiveram tanta sorte)"
-    }, 
+	"type": "Cheat Detector",
+	"description": "Parab\u00e9ns! A sua Honestidade foi recompensada com um novo chap\u00e9u!\n\n(Outros jogadores tiveram menos escr\u00fapulos, e n\u00e3o tiveram tanta sorte)"
+    },
     "125": {
-        "alt": [
-            "%s1% de danos provocados"
-        ], 
-        "type": "Aur\u00e9ola de incorruptibilidade", 
-        "description": "Lamento do batoteiro"
-    }, 
+	"alt": [
+	    "%s1% de danos provocados"
+	],
+	"type": "Aur\u00e9ola de incorruptibilidade",
+	"description": "Lamento do batoteiro"
+    },
     "126": {
-        "type": "Boina de veterano", 
-        "description": "O chap\u00e9u do Bill"
-    }, 
+	"type": "Boina de veterano",
+	"description": "O chap\u00e9u do Bill"
+    },
     "127": {
-        "positive": [
-            "Alvos no ar com mini pot\u00eancia de tiros", 
-            "+25% de danos provocados", 
-            "Velocidade de projec\u00e7\u00e3o de +80%"
-        ], 
-        "type": "Lan\u00e7a-rockets", 
-        "negative": [
-            "Raio de explos\u00e3o de -70%"
-        ], 
-        "description": "O Dano Directo"
-    }, 
+	"positive": [
+	    "Alvos no ar com mini pot\u00eancia de tiros",
+	    "+25% de danos provocados",
+	    "Velocidade de projec\u00e7\u00e3o de +80%"
+	],
+	"type": "Lan\u00e7a-rockets",
+	"negative": [
+	    "Raio de explos\u00e3o de -70%"
+	],
+	"description": "O Dano Directo"
+    },
     "128": {
-        "positive": [
-            "Os danos e a velocidade aumentam \u00e0 medida que o utilizador fica ferido"
-        ], 
-        "type": "Picareta", 
-        "description": "O Equalizador"
-    }, 
+	"positive": [
+	    "Os danos e a velocidade aumentam \u00e0 medida que o utilizador fica ferido"
+	],
+	"type": "Picareta",
+	"description": "O Equalizador"
+    },
     "129": {
-        "type": "Estandarte de batalha", 
-        "description": "O Estandarte do Buff"
-    }, 
+	"type": "Estandarte de batalha",
+	"description": "O Estandarte do Buff"
+    },
     "59": {
-        "positive": [
-            "+80% de regenera\u00e7\u00e3o de camuflagem"
-        ], 
-        "alt": [
-            "Tipo de camuflagem: morte simulada"
-        ], 
-        "type": "Rel\u00f3gio de camuflagem", 
-        "negative": [
-            "+60% de consumo de camuflagem"
-        ], 
-        "description": "O Morto"
-    }, 
+	"positive": [
+	    "+80% de regenera\u00e7\u00e3o de camuflagem"
+	],
+	"alt": [
+	    "Tipo de camuflagem: morte simulada"
+	],
+	"type": "Rel\u00f3gio de camuflagem",
+	"negative": [
+	    "+60% de consumo de camuflagem"
+	],
+	"description": "O Morto"
+    },
     "58": {
-        "alt": [
-            "Os inimigos cobertos t\u00eam mini-pot\u00eancia\nTamb\u00e9m \u00e9 \u00fatil para apagar um inc\u00eandio"
-        ], 
-        "type": "Karat\u00e9 Jar", 
-        "description": "Jarate"
-    }, 
+	"alt": [
+	    "Os inimigos cobertos t\u00eam mini-pot\u00eancia\nTamb\u00e9m \u00e9 \u00fatil para apagar um inc\u00eandio"
+	],
+	"type": "Karat\u00e9 Jar",
+	"description": "Jarate"
+    },
     "55": {
-        "type": "Hat", 
-        "description": "Fedora chique"
-    }, 
+	"type": "Hat",
+	"description": "Fedora chique"
+    },
     "54": {
-        "type": "Hat", 
-        "description": "Muni\u00e7\u00f5es de soldado"
-    }, 
+	"type": "Hat",
+	"description": "Muni\u00e7\u00f5es de soldado"
+    },
     "57": {
-        "positive": [
-            "Bloqueia uma \u00fanica tentativa de apunhalar pelas costas"
-        ], 
-        "type": "Escudo", 
-        "description": "O Razorback"
-    }, 
+	"positive": [
+	    "Bloqueia uma \u00fanica tentativa de apunhalar pelas costas"
+	],
+	"type": "Escudo",
+	"description": "O Razorback"
+    },
     "56": {
-        "type": "La\u00e7o", 
-        "description": "O Huntsman"
-    }, 
+	"type": "La\u00e7o",
+	"description": "O Huntsman"
+    },
     "51": {
-        "type": "Hat", 
-        "description": "Beanie do Pyro"
-    }, 
+	"type": "Hat",
+	"description": "Beanie do Pyro"
+    },
     "50": {
-        "type": "Hat", 
-        "description": "Farda Prussiana"
-    }, 
+	"type": "Hat",
+	"description": "Farda Prussiana"
+    },
     "53": {
-        "type": "Hat", 
-        "description": "Cinto de trof\u00e9u"
-    }, 
+	"type": "Hat",
+	"description": "Cinto de trof\u00e9u"
+    },
     "52": {
-        "type": "Hat", 
-        "description": "Capacete de batedor"
-    }, 
+	"type": "Hat",
+	"description": "Capacete de batedor"
+    },
     "5010": {
-        "alt": [
-            "Utilizado para especificar uma classe em plantas"
-        ], 
-        "type": "Criar item", 
-        "description": "Token de classe - Espi\u00e3o"
-    }, 
+	"alt": [
+	    "Utilizado para especificar uma classe em plantas"
+	],
+	"type": "Criar item",
+	"description": "Token de classe - Espi\u00e3o"
+    },
     "5011": {
-        "alt": [
-            "Utilizado para especificar uma classe em plantas"
-        ], 
-        "type": "Criar item", 
-        "description": "Token de classe - Engineer"
-    }, 
+	"alt": [
+	    "Utilizado para especificar uma classe em plantas"
+	],
+	"type": "Criar item",
+	"description": "Token de classe - Engineer"
+    },
     "5012": {
-        "alt": [
-            "Utilizado para especificar um equipamento em plantas"
-        ], 
-        "type": "Criar item", 
-        "description": "Token de ranhura - Principal"
-    }, 
+	"alt": [
+	    "Utilizado para especificar um equipamento em plantas"
+	],
+	"type": "Criar item",
+	"description": "Token de ranhura - Principal"
+    },
     "5013": {
-        "alt": [
-            "Utilizado para especificar um equipamento em plantas"
-        ], 
-        "type": "Criar item", 
-        "description": "Token de ranhura - Secund\u00e1rio"
-    }, 
+	"alt": [
+	    "Utilizado para especificar um equipamento em plantas"
+	],
+	"type": "Criar item",
+	"description": "Token de ranhura - Secund\u00e1rio"
+    },
     "5014": {
-        "alt": [
-            "Utilizado para especificar um equipamento em plantas"
-        ], 
-        "type": "Criar item", 
-        "description": "Token de ranhura - Corpo a corpo"
-    }, 
+	"alt": [
+	    "Utilizado para especificar um equipamento em plantas"
+	],
+	"type": "Criar item",
+	"description": "Token de ranhura - Corpo a corpo"
+    },
     "5015": {
-        "alt": [
-            "Utilizado para especificar um equipamento em plantas"
-        ], 
-        "type": "Criar item", 
-        "description": "Token de ranhura - Granada"
-    }, 
+	"alt": [
+	    "Utilizado para especificar um equipamento em plantas"
+	],
+	"type": "Criar item",
+	"description": "Token de ranhura - Granada"
+    },
     "5016": {
-        "alt": [
-            "Utilizado para especificar um equipamento em plantas"
-        ], 
-        "type": "Criar item", 
-        "description": "Token de ranhura - Edif\u00edcio"
-    }, 
+	"alt": [
+	    "Utilizado para especificar um equipamento em plantas"
+	],
+	"type": "Criar item",
+	"description": "Token de ranhura - Edif\u00edcio"
+    },
     "5017": {
-        "alt": [
-            "Utilizado para especificar um equipamento em plantas"
-        ], 
-        "type": "Criar item", 
-        "description": "Token de ranhura - PDA"
-    }, 
+	"alt": [
+	    "Utilizado para especificar um equipamento em plantas"
+	],
+	"type": "Criar item",
+	"description": "Token de ranhura - PDA"
+    },
     "5018": {
-        "alt": [
-            "Utilizado para especificar um equipamento em plantas"
-        ], 
-        "type": "Criar item", 
-        "description": "Token de ranhura - PDA2"
-    }, 
+	"alt": [
+	    "Utilizado para especificar um equipamento em plantas"
+	],
+	"type": "Criar item",
+	"description": "Token de ranhura - PDA2"
+    },
     "5019": {
-        "alt": [
-            "Utilizado para especificar um equipamento em plantas"
-        ], 
-        "type": "Criar item", 
-        "description": "Token de ranhura - Cabe\u00e7a"
-    }, 
+	"alt": [
+	    "Utilizado para especificar um equipamento em plantas"
+	],
+	"type": "Criar item",
+	"description": "Token de ranhura - Cabe\u00e7a"
+    },
     "115": {
-        "type": "Chap\u00e9u de festa", 
-        "description": "M\u00e1scara do Dia das Bruxas relativamente perturbadora"
-    }, 
+	"type": "Chap\u00e9u de festa",
+	"description": "M\u00e1scara do Dia das Bruxas relativamente perturbadora"
+    },
     "117": {
-        "type": "Hat", 
-        "description": "Cabelo com gel fixador do sniper"
-    }, 
+	"type": "Hat",
+	"description": "Cabelo com gel fixador do sniper"
+    },
     "116": {
-        "alt": [
-            "Iniciais bordadas dizem '\\\"Z.M.\\\""
-        ], 
-        "type": "Hat", 
-        "description": "Chap\u00e9u monstruoso"
-    }, 
+	"alt": [
+	    "Iniciais bordadas dizem '\\\"Z.M.\\\""
+	],
+	"type": "Hat",
+	"description": "Chap\u00e9u monstruoso"
+    },
     "111": {
-        "type": "Hat", 
-        "description": "Cabelo curto do scout"
-    }, 
+	"type": "Hat",
+	"description": "Cabelo curto do scout"
+    },
     "110": {
-        "type": "Hat", 
-        "description": "Cintur\u00e3o amarelo do mestre"
-    }, 
+	"type": "Hat",
+	"description": "Cintur\u00e3o amarelo do mestre"
+    },
     "118": {
-        "type": "Hat", 
-        "description": "Cabe\u00e7a calva do engineer"
-    }, 
+	"type": "Hat",
+	"description": "Cabe\u00e7a calva do engineer"
+    },
     "3": {
-        "type": "Faca Kukri", 
-        "description": "Faca Kukri"
-    }, 
+	"type": "Faca Kukri",
+	"description": "Faca Kukri"
+    },
     "7": {
-        "type": "Chave", 
-        "description": "Chave"
-    }, 
+	"type": "Chave",
+	"description": "Chave"
+    },
     "other_attributes": {
-        "133": "Medalha n\u00famero %s1", 
-        "132": "Tendo em conta a valiosa Comunidade Contribuintes"
-    }, 
+	"133": "Medalha n\u00famero %s1",
+	"132": "Tendo em conta a valiosa Comunidade Contribuintes"
+    },
     "5003": {
-        "alt": [
-            "Utilizado para especificar uma classe em plantas"
-        ], 
-        "type": "Criar item", 
-        "description": "Token de classe - Scout"
-    }, 
+	"alt": [
+	    "Utilizado para especificar uma classe em plantas"
+	],
+	"type": "Criar item",
+	"description": "Token de classe - Scout"
+    },
     "5002": {
-        "type": "Criar item", 
-        "description": "Metal refinado"
-    }, 
+	"type": "Criar item",
+	"description": "Metal refinado"
+    },
     "5001": {
-        "type": "Criar item", 
-        "description": "Metal recuperado"
-    }, 
+	"type": "Criar item",
+	"description": "Metal recuperado"
+    },
     "5000": {
-        "type": "Criar item", 
-        "description": "Sucata"
-    }, 
+	"type": "Criar item",
+	"description": "Sucata"
+    },
     "5007": {
-        "alt": [
-            "Utilizado para especificar uma classe em plantas"
-        ], 
-        "type": "Criar item", 
-        "description": "Token de classe - Heavy"
-    }, 
+	"alt": [
+	    "Utilizado para especificar uma classe em plantas"
+	],
+	"type": "Criar item",
+	"description": "Token de classe - Heavy"
+    },
     "5006": {
-        "alt": [
-            "Utilizado para especificar uma classe em plantas"
-        ], 
-        "type": "Criar item", 
-        "description": "Token de classe - Demoman"
-    }, 
+	"alt": [
+	    "Utilizado para especificar uma classe em plantas"
+	],
+	"type": "Criar item",
+	"description": "Token de classe - Demoman"
+    },
     "5005": {
-        "alt": [
-            "Utilizado para especificar uma classe em plantas"
-        ], 
-        "type": "Criar item", 
-        "description": "Token de classe - Soldado"
-    }, 
+	"alt": [
+	    "Utilizado para especificar uma classe em plantas"
+	],
+	"type": "Criar item",
+	"description": "Token de classe - Soldado"
+    },
     "5004": {
-        "alt": [
-            "Utilizado para especificar uma classe em plantas"
-        ], 
-        "type": "Criar item", 
-        "description": "Token de classe - Sniper"
-    }, 
+	"alt": [
+	    "Utilizado para especificar uma classe em plantas"
+	],
+	"type": "Criar item",
+	"description": "Token de classe - Sniper"
+    },
     "5009": {
-        "alt": [
-            "Utilizado para especificar uma classe em plantas"
-        ], 
-        "type": "Criar item", 
-        "description": "Token de classe - Pyro"
-    }, 
+	"alt": [
+	    "Utilizado para especificar uma classe em plantas"
+	],
+	"type": "Criar item",
+	"description": "Token de classe - Pyro"
+    },
     "5008": {
-        "alt": [
-            "Utilizado para especificar uma classe em plantas"
-        ], 
-        "type": "Criar item", 
-        "description": "Token de classe - M\u00e9dico"
-    }, 
+	"alt": [
+	    "Utilizado para especificar uma classe em plantas"
+	],
+	"type": "Criar item",
+	"description": "Token de classe - M\u00e9dico"
+    },
     "108": {
-        "type": "Hat", 
-        "description": "Chap\u00e9u-coco"
-    }, 
+	"type": "Hat",
+	"description": "Chap\u00e9u-coco"
+    },
     "109": {
-        "type": "Hat", 
-        "description": "Chap\u00e9u-panam\u00e1"
-    }, 
+	"type": "Hat",
+	"description": "Chap\u00e9u-panam\u00e1"
+    },
     "9003": {
-        "positive": [
-            "Bans conta Steam de jogadores mortos", 
-            "Este item n\u00e3o \u00e9 real e \u00e9 apenas uma piada."
-        ], 
-        "type": "Mallet de banimento", 
-        "description": "Ban Hammer"
-    }, 
+	"positive": [
+	    "Bans conta Steam de jogadores mortos",
+	    "Este item n\u00e3o \u00e9 real e \u00e9 apenas uma piada."
+	],
+	"type": "Mallet de banimento",
+	"description": "Ban Hammer"
+    },
     "102": {
-        "type": "Hat", 
-        "description": "Luva de borracha \\\"crista-de-galo\\\""
-    }, 
+	"type": "Hat",
+	"description": "Luva de borracha \\\"crista-de-galo\\\""
+    },
     "103": {
-        "type": "Hat", 
-        "description": "Bon\u00e9 com c\u00e2mara"
-    }, 
+	"type": "Hat",
+	"description": "Bon\u00e9 com c\u00e2mara"
+    },
     "100": {
-        "type": "Hat", 
-        "description": "Gorro escoc\u00eas"
-    }, 
+	"type": "Hat",
+	"description": "Gorro escoc\u00eas"
+    },
     "101": {
-        "type": "Hat", 
-        "description": "Chap\u00e9u tirol\u00eas"
-    }, 
+	"type": "Hat",
+	"description": "Chap\u00e9u tirol\u00eas"
+    },
     "106": {
-        "type": "Hat", 
-        "description": "Capacete com acess\u00f3rio para bebida"
-    }, 
+	"type": "Hat",
+	"description": "Capacete com acess\u00f3rio para bebida"
+    },
     "107": {
-        "type": "Hat", 
-        "description": "Boina"
-    }, 
+	"type": "Hat",
+	"description": "Boina"
+    },
     "104": {
-        "type": "Hat", 
-        "description": "Espelho de otorrinolaringologista"
-    }, 
+	"type": "Hat",
+	"description": "Espelho de otorrinolaringologista"
+    },
     "105": {
-        "type": "Hat", 
-        "description": "Capacete de brigada"
-    }, 
+	"type": "Hat",
+	"description": "Capacete de brigada"
+    },
     "39": {
-        "type": "Pistola de sinaliza\u00e7\u00e3o", 
-        "description": "A Pistola de sinaliza\u00e7\u00e3o"
-    }, 
+	"type": "Pistola de sinaliza\u00e7\u00e3o",
+	"description": "A Pistola de sinaliza\u00e7\u00e3o"
+    },
     "38": {
-        "positive": [
-            "100% de hip\u00f3tese de dano cr\u00edtico contra jogadores a arder"
-        ], 
-        "type": "Machado de fogo", 
-        "negative": [
-            "Sem danos cr\u00edticos contra jogadores que n\u00e3o estejam a arder", 
-            "-50% de danos contra jogadores que n\u00e3o estejam a arder"
-        ], 
-        "description": "O Machado extintor"
-    }, 
+	"positive": [
+	    "100% de hip\u00f3tese de dano cr\u00edtico contra jogadores a arder"
+	],
+	"type": "Machado de fogo",
+	"negative": [
+	    "Sem danos cr\u00edticos contra jogadores que n\u00e3o estejam a arder",
+	    "-50% de danos contra jogadores que n\u00e3o estejam a arder"
+	],
+	"description": "O Machado extintor"
+    },
     "33": {
-        "type": "Pistola de seringa", 
-        "description": "Pistola de seringa"
-    }, 
+	"type": "Pistola de seringa",
+	"description": "Pistola de seringa"
+    },
     "32": {
-        "type": "Serra de ossos", 
-        "description": "Serra de ossos"
-    }, 
+	"type": "Serra de ossos",
+	"description": "Serra de ossos"
+    },
     "31": {
-        "type": "Pistola de sinaliza\u00e7\u00e3o", 
-        "description": "Pistola de sinaliza\u00e7\u00e3o"
-    }, 
+	"type": "Pistola de sinaliza\u00e7\u00e3o",
+	"description": "Pistola de sinaliza\u00e7\u00e3o"
+    },
     "30": {
-        "type": "Rel\u00f3gio de camuflagem", 
-        "description": "Rel\u00f3gio de camuflagem"
-    }, 
+	"type": "Rel\u00f3gio de camuflagem",
+	"description": "Rel\u00f3gio de camuflagem"
+    },
     "37": {
-        "positive": [
-            "Por dano: 25% de sobrecarga adicionada"
-        ], 
-        "type": "Serra de ossos", 
-        "negative": [
-            "Velocidade de disparo -20% mais lenta"
-        ], 
-        "description": "O Ubersaw"
-    }, 
+	"positive": [
+	    "Por dano: 25% de sobrecarga adicionada"
+	],
+	"type": "Serra de ossos",
+	"negative": [
+	    "Velocidade de disparo -20% mais lenta"
+	],
+	"description": "O Ubersaw"
+    },
     "36": {
-        "positive": [
-            "Por dano: energia +3"
-        ], 
-        "type": "Pistola de seringa", 
-        "negative": [
-            "-2 de energia gasta por segundo do utilizador"
-        ], 
-        "description": "O Blutsauger"
-    }, 
+	"positive": [
+	    "Por dano: energia +3"
+	],
+	"type": "Pistola de seringa",
+	"negative": [
+	    "-2 de energia gasta por segundo do utilizador"
+	],
+	"description": "O Blutsauger"
+    },
     "35": {
-        "positive": [
-            "+25% de velocidade de carregamento de SobreCarga"
-        ], 
-        "alt": [
-            "A SobreCarga concede 100% de hip\u00f3tese de dano cr\u00edtico"
-        ], 
-        "type": "Arma m\u00e9dica", 
-        "description": "O Kritzkrieg"
-    }, 
+	"positive": [
+	    "+25% de velocidade de carregamento de SobreCarga"
+	],
+	"alt": [
+	    "A SobreCarga concede 100% de hip\u00f3tese de dano cr\u00edtico"
+	],
+	"type": "Arma m\u00e9dica",
+	"description": "O Kritzkrieg"
+    },
     "34": {
-        "type": "Arma m\u00e9dica", 
-        "description": "Arma m\u00e9dica"
-    }, 
+	"type": "Arma m\u00e9dica",
+	"description": "Arma m\u00e9dica"
+    },
     "60": {
-        "positive": [
-            "+100% de regenera\u00e7\u00e3o de camuflagem"
-        ], 
-        "alt": [
-            "Tipo de camuflagem: sens\u00edvel ao movimento"
-        ], 
-        "type": "Rel\u00f3gio de camuflagem", 
-        "description": "A Capa e o Punhal"
-    }, 
+	"positive": [
+	    "+100% de regenera\u00e7\u00e3o de camuflagem"
+	],
+	"alt": [
+	    "Tipo de camuflagem: sens\u00edvel ao movimento"
+	],
+	"type": "Rel\u00f3gio de camuflagem",
+	"description": "A Capa e o Punhal"
+    },
     "61": {
-        "positive": [
-            "Pot\u00eancia de tiros na cabe\u00e7a precisos"
-        ], 
-        "type": "Rev\u00f3lver", 
-        "negative": [
-            "-15% de danos provocados", 
-            "Velocidade de disparo -20% mais lenta"
-        ], 
-        "description": "O Ambassador"
-    }, 
+	"positive": [
+	    "Pot\u00eancia de tiros na cabe\u00e7a precisos"
+	],
+	"type": "Rev\u00f3lver",
+	"negative": [
+	    "-15% de danos provocados",
+	    "Velocidade de disparo -20% mais lenta"
+	],
+	"description": "O Ambassador"
+    },
     "97": {
-        "type": "Hat", 
-        "description": "Gorro com abas"
-    }, 
+	"type": "Hat",
+	"description": "Gorro com abas"
+    },
     "2": {
-        "type": "Machado de fogo", 
-        "description": "Machado de fogo"
-    }, 
+	"type": "Machado de fogo",
+	"description": "Machado de fogo"
+    },
     "6": {
-        "type": "P\u00e1", 
-        "description": "P\u00e1"
-    }, 
+	"type": "P\u00e1",
+	"description": "P\u00e1"
+    },
     "99": {
-        "type": "Hat", 
-        "description": "Capacete viking"
-    }, 
+	"type": "Hat",
+	"description": "Capacete viking"
+    },
     "98": {
-        "type": "Hat", 
-        "description": "Panela inoxid\u00e1vel"
-    }, 
+	"type": "Hat",
+	"description": "Panela inoxid\u00e1vel"
+    },
     "160": {
-        "alt": [
-            "TF_TTG_MaxGun_Desc"
-        ], 
-        "type": "Pistola", 
-        "description": "TF_TTG_MaxGun"
-    }, 
+	"alt": [
+	    "A \u00faltima palavra em armas semi-oculto.\nN\u00e3o h\u00e1 d\u00favida de que voc\u00ea precisa desta arma,\na \u00fanica pergunta \u00e9: onde voc\u00ea vai mant\u00ea-lo?"
+	],
+	"type": "Pistola",
+	"description": "O Lugermorph"
+    },
     "161": {
-        "alt": [
-            "TF_TTG_SamRevolver_Desc"
-        ], 
-        "type": "Rev\u00f3lver", 
-        "description": "TF_TTG_SamRevolver"
-    }, 
+	"alt": [
+	    "Combina o estilo com o poder de parada.\nLong exclusiva para Freelance Police,\nagora dispon\u00edvel para outros mercen\u00e1rios sedentos de sangue."
+	],
+	"type": "Rev\u00f3lver",
+	"description": "The Big Kill"
+    },
     "162": {
-        "alt": [
-            "TF_TTG_MaxsHat_Desc"
-        ], 
-        "type": "Hat", 
-        "description": "TF_TTG_MaxsHat"
-    }, 
+	"alt": [
+	    "Habilmente headwear de fazendas livres de crueldade\nnas Filipinas. Escavado cr\u00e2nio-out caixa de\numidade pavios longe quando no calor da batalha."
+	],
+	"type": "Hat",
+	"description": "Cabe\u00e7a decepada de Max"
+    },
     "96": {
-        "type": "Hat", 
-        "description": "Gorro russo"
-    }, 
+	"type": "Hat",
+	"description": "Gorro russo"
+    },
     "11": {
-        "type": "Ca\u00e7adeira", 
-        "description": "Ca\u00e7adeira"
-    }, 
+	"type": "Ca\u00e7adeira",
+	"description": "Ca\u00e7adeira"
+    },
     "10": {
-        "type": "Ca\u00e7adeira", 
-        "description": "Ca\u00e7adeira"
-    }, 
+	"type": "Ca\u00e7adeira",
+	"description": "Ca\u00e7adeira"
+    },
     "13": {
-        "type": "Ca\u00e7adeira compacta", 
-        "description": "Ca\u00e7adeira compacta"
-    }, 
+	"type": "Ca\u00e7adeira compacta",
+	"description": "Ca\u00e7adeira compacta"
+    },
     "12": {
-        "type": "Ca\u00e7adeira", 
-        "description": "Ca\u00e7adeira"
-    }, 
+	"type": "Ca\u00e7adeira",
+	"description": "Ca\u00e7adeira"
+    },
     "15": {
-        "type": "Mini-arma", 
-        "description": "Mini-arma"
-    }, 
+	"type": "Mini-arma",
+	"description": "Mini-arma"
+    },
     "14": {
-        "type": "Espingarda de sniper", 
-        "description": "Espingarda de sniper"
-    }, 
+	"type": "Espingarda de sniper",
+	"description": "Espingarda de sniper"
+    },
     "17": {
-        "type": "Pistola de seringa", 
-        "description": "Pistola de seringa"
-    }, 
+	"type": "Pistola de seringa",
+	"description": "Pistola de seringa"
+    },
     "16": {
-        "type": "Metralhadora de m\u00e3o (SMG)", 
-        "description": "Metralhadora de m\u00e3o (SMG)"
-    }, 
+	"type": "Metralhadora de m\u00e3o (SMG)",
+	"description": "Metralhadora de m\u00e3o (SMG)"
+    },
     "19": {
-        "type": "Lan\u00e7a-granadas", 
-        "description": "Lan\u00e7a-granadas"
-    }, 
+	"type": "Lan\u00e7a-granadas",
+	"description": "Lan\u00e7a-granadas"
+    },
     "18": {
-        "type": "Lan\u00e7a-rockets", 
-        "description": "Lan\u00e7a-rockets"
-    }, 
+	"type": "Lan\u00e7a-rockets",
+	"description": "Lan\u00e7a-rockets"
+    },
     "151": {
-        "type": "Hat", 
-        "description": "TF_PyroBrainSucker"
-    }, 
+	"type": "Hat",
+	"description": "TF_PyroBrainSucker"
+    },
     "150": {
-        "type": "Hat", 
-        "description": "TF_ScoutBeanie"
-    }, 
+	"type": "Hat",
+	"description": "TF_ScoutBeanie"
+    },
     "153": {
-        "type": "TF_Weapon_SledgeHammer", 
-        "description": "TF_Unique_SledgeHammer"
-    }, 
+	"type": "TF_Weapon_SledgeHammer",
+	"description": "TF_Unique_SledgeHammer"
+    },
     "152": {
-        "type": "Hat", 
-        "description": "TF_SoldierSamurai"
-    }, 
+	"type": "Hat",
+	"description": "TF_SoldierSamurai"
+    },
     "154": {
-        "positive": [
-            "+1 de capacidade de captura do utilizador"
-        ], 
-        "type": "TF_Weapon_MakeshiftClub", 
-        "negative": [
-            "10% de vulnerabilidade a danos por bala do utilizador"
-        ], 
-        "description": "TF_Unique_Makeshiftclub"
-    }, 
+	"positive": [
+	    "+1 de capacidade de captura do utilizador"
+	],
+	"type": "TF_Weapon_MakeshiftClub",
+	"negative": [
+	    "10% de vulnerabilidade a danos por bala do utilizador"
+	],
+	"description": "TF_Unique_Makeshiftclub"
+    },
     "159": {
-        "type": "Lancheira", 
-        "description": "TF_Unique_Lunchbox_Chocolate"
-    }, 
+	"type": "Lancheira",
+	"description": "TF_Unique_Lunchbox_Chocolate"
+    },
     "158": {
-        "type": "Hat", 
-        "description": "TF_SniperPithHelmet"
-    }, 
+	"type": "Hat",
+	"description": "TF_SniperPithHelmet"
+    },
     "48": {
-        "type": "Hat", 
-        "description": "Luz de mineiro"
-    }, 
+	"type": "Hat",
+	"description": "Luz de mineiro"
+    },
     "49": {
-        "type": "Hat", 
-        "description": "Capacete de futebol americano"
-    }, 
+	"type": "Hat",
+	"description": "Capacete de futebol americano"
+    },
     "46": {
-        "type": "Lancheira", 
-        "description": "Glup! O elixir at\u00f3mico"
-    }, 
+	"type": "Lancheira",
+	"description": "Glup! O elixir at\u00f3mico"
+    },
     "47": {
-        "type": "Hat", 
-        "description": "Fro do Demoman"
-    }, 
+	"type": "Hat",
+	"description": "Fro do Demoman"
+    },
     "44": {
-        "positive": [
-            "Esta pancada lan\u00e7a uma potente bola atordoadora"
-        ], 
-        "type": "Taco", 
-        "negative": [
-            "-15 energia m\u00e1xima por utilizador"
-        ], 
-        "description": "O Sonor\u00edfero"
-    }, 
+	"positive": [
+	    "Esta pancada lan\u00e7a uma potente bola atordoadora"
+	],
+	"type": "Taco",
+	"negative": [
+	    "-15 energia m\u00e1xima por utilizador"
+	],
+	"description": "O Sonor\u00edfero"
+    },
     "45": {
-        "positive": [
-            "Ricochete no alvo e no atirador", 
-            "Velocidade de disparo +50% mais r\u00e1pida", 
-            "+20% balas por disparo"
-        ], 
-        "type": "Ca\u00e7adeira compacta", 
-        "negative": [
-            "-60% de capacidade do carregador", 
-            "-10% de danos provocados"
-        ], 
-        "description": "O For\u00e7a da Natureza"
-    }, 
+	"positive": [
+	    "Ricochete no alvo e no atirador",
+	    "Velocidade de disparo +50% mais r\u00e1pida",
+	    "+20% balas por disparo"
+	],
+	"type": "Ca\u00e7adeira compacta",
+	"negative": [
+	    "-60% de capacidade do carregador",
+	    "-10% de danos provocados"
+	],
+	"description": "O For\u00e7a da Natureza"
+    },
     "42": {
-        "type": "Lancheira", 
-        "description": "O Sandvich"
-    }, 
+	"type": "Lancheira",
+	"description": "O Sandvich"
+    },
     "43": {
-        "positive": [
-            "Por morte: 5 segundos de 100% de hip\u00f3tese de dano cr\u00edtico"
-        ], 
-        "type": "Punhos", 
-        "negative": [
-            "Velocidade de disparo -20% mais lenta"
-        ], 
-        "description": "As Luvas de Box Mortais"
-    }, 
+	"positive": [
+	    "Por morte: 5 segundos de 100% de hip\u00f3tese de dano cr\u00edtico"
+	],
+	"type": "Punhos",
+	"negative": [
+	    "Velocidade de disparo -20% mais lenta"
+	],
+	"description": "As Luvas de Box Mortais"
+    },
     "40": {
-        "positive": [
-            "100% de hip\u00f3tese de dano cr\u00edtico pelas costas"
-        ], 
-        "type": "Lan\u00e7a-chamas", 
-        "negative": [
-            "Sem danos cr\u00edticos aleat\u00f3rios", 
-            "Sem descarga de compress\u00e3o"
-        ], 
-        "description": "O Retro-lan\u00e7a-chamas"
-    }, 
+	"positive": [
+	    "100% de hip\u00f3tese de dano cr\u00edtico pelas costas"
+	],
+	"type": "Lan\u00e7a-chamas",
+	"negative": [
+	    "Sem danos cr\u00edticos aleat\u00f3rios",
+	    "Sem descarga de compress\u00e3o"
+	],
+	"description": "O Retro-lan\u00e7a-chamas"
+    },
     "41": {
-        "positive": [
-            "Por dano: 100% de hip\u00f3tese de tornar o alvo mais lento"
-        ], 
-        "type": "Mini-arma", 
-        "negative": [
-            "-25% de danos provocados"
-        ], 
-        "description": "Natascha"
-    }, 
+	"positive": [
+	    "Por dano: 100% de hip\u00f3tese de tornar o alvo mais lento"
+	],
+	"type": "Mini-arma",
+	"negative": [
+	    "-25% de danos provocados"
+	],
+	"description": "Natascha"
+    },
     "1": {
-        "type": "Garrafa", 
-        "description": "Garrafa"
-    }, 
+	"type": "Garrafa",
+	"description": "Garrafa"
+    },
     "5": {
-        "type": "Punhos", 
-        "description": "Punhos"
-    }, 
+	"type": "Punhos",
+	"description": "Punhos"
+    },
     "9": {
-        "type": "Ca\u00e7adeira", 
-        "description": "Ca\u00e7adeira"
-    }, 
+	"type": "Ca\u00e7adeira",
+	"description": "Ca\u00e7adeira"
+    },
     "146": {
-        "type": "Hat", 
-        "description": "TF_DemomanHallmark"
-    }, 
+	"type": "Hat",
+	"description": "TF_DemomanHallmark"
+    },
     "147": {
-        "type": "Hat", 
-        "description": "TF_SpyNobleHair"
-    }, 
+	"type": "Hat",
+	"description": "TF_SpyNobleHair"
+    },
     "144": {
-        "type": "Hat", 
-        "description": "TF_MedicMask"
-    }, 
+	"type": "Hat",
+	"description": "TF_MedicMask"
+    },
     "145": {
-        "type": "Hat", 
-        "description": "TF_HeavyHair"
-    }, 
+	"type": "Hat",
+	"description": "TF_HeavyHair"
+    },
     "148": {
-        "type": "Hat", 
-        "description": "TF_EngineerWeldingMask"
+	"type": "Hat",
+	"description": "TF_EngineerWeldingMask"
     }
 }
