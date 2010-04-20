@@ -45,8 +45,10 @@ var profile = {
 	return id ? urls.tf2Items + "profiles/" + id : urls.tf2Items;
     },
 
-    communityUrl: function () {
-	var id = storage.profileId();
+    communityUrl: function (id) {
+	if (typeof(id) == "undefined") {
+	    id = storage.profileId();
+	}
 	return id ? urls.steamCommunity + "profiles/" + id : urls.steamCommunity;
     },
 
@@ -74,6 +76,7 @@ var profile = {
 	$.ajax({url: urls.profileSearch + v, dataType: "text",
 		error: onError, success: onSuccess});
     },
+
 
 };
 
@@ -129,6 +132,14 @@ var storage = {
 	    return parseInt(localStorage.pollMin || 1000*60*5)
 	}
 	localStorage.pollMin = v;
+    },
+
+    loadItemDefs: function(success, error) {
+	var url = "media/items_" + _("language_code") + ".json";
+	$.ajax({url: chrome.extension.getURL(url),
+		async: false, dataType: "text",
+		error: error, success: success});
+
     },
 
 };

@@ -33,10 +33,7 @@ var backpack = {
 		error(req, status, data);
 	    }
 	};
-	var url = "media/items_" + _("language_code") + ".json";
-	$.ajax({url: chrome.extension.getURL(url),
-		async: false, dataType: "text",
-		error: error, success: success});
+	storage.loadItemDefs(success, error);
     },
 
     loadAndShow: function () {
@@ -111,8 +108,8 @@ var showTab = {
 	return this.open(this.isTF2ItemsUrl, profile.backpackViewUrl());
     },
 
-    steamProfile: function() {
-	return this.open(this.isSteamCommunityProfileUrl, profile.communityUrl());
+    steamProfile: function(id) {
+	return this.open(this.isSteamCommunityProfileUrl(id), profile.communityUrl(id));
     },
 
     sourceOp: function() {
@@ -143,9 +140,14 @@ var showTab = {
 	    url[urlItems.length] == "#";
     },
 
-    isSteamCommunityProfileUrl: function (url) {
-	var urlProfile = urls.steamCommunity + "profiles/" + storage.profileId();
-	return (url.indexOf(urlProfile) == 0);
+    isSteamCommunityProfileUrl: function (id) {
+	if (typeof(id) == "undefined") {
+	    id = storage.profileId();
+	}
+	return function(url) {
+	    var urlProfile = urls.steamCommunity + "profiles/" + id;
+	    return (url.indexOf(urlProfile) == 0);
+	}
     },
 
     isSourceOpUrl: function (url) {

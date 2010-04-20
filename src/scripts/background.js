@@ -190,19 +190,36 @@ var feedDriver = {
     },
 
     updateCounts: function(xml) {
+	var self = this;
 	var lastTotal = this.countTotal;
-	this.countHats = textNodeInt("totalJustFound hats", xml);
-	this.countNotHats = textNodeInt("totalJustFound nonHats", xml);
-	this.countTotal = this.countHats + this.countNotHats;
-	if (lastTotal != this.countTotal) {
-	    if (this.countTotal) {
-		iconTool.next();
-	    }
+
+	var defsError = function(req, status, error) {
+	    console.log(req, status, error);
+	    self.countHats = 0;
 	}
-	textTool.stop(
-	    this.countTotal ? this.countTotal.toString() : "",
-	    this.countHats > 0 ? colors.green : colors.blue
-       );
+	var defsLoaded = function(data, status, req) {
+	    var defs = JSON.parse(data);
+	    var hc = function (index, node) {
+		return defs[$(node).attr("definitionIndex")]["type"];
+	    }
+            var newNodes = $("item", xml).filter(function (index) {
+                return $("position", this).text() == "0"
+	    }).map(hc);
+	    self.countHats = $.grep(newNodes, function(node, index) {
+		return node=='Hat' }).length
+	    self.countNotHats = textNodeInt("totalJustFound nonHats", xml);
+	    self.countTotal = self.countNotHats; // + self.countHats
+	    if (lastTotal != self.countTotal) {
+		if (self.countTotal) {
+		    iconTool.next();
+		}
+	    }
+	    textTool.stop(
+		self.countTotal ? self.countTotal.toString() : "",
+		self.countHats > 0 ? colors.green : colors.blue
+	    );
+	}
+	storage.loadItemDefs(defsLoaded, defsError);
     },
 
     listen: function(request, sender, sendResponse) {
