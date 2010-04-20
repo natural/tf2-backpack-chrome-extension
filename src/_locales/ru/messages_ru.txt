@@ -30,7 +30,7 @@
 	"description": "the number 3"
     },
     "its_msg_12": {
-	"message": "Всего предметов",
+	"message": "Статистика",
 	"message-retranslated": "Statistics",
 	"description": "stats button"
     },

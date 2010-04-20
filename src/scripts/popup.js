@@ -349,7 +349,7 @@ var pageOps = {
 	img.data("node", node);
 	if (pos & 0x80000000 && pos & 0x0FFF0000) {
 	    // nudge the image up a bit; related to margin-top on the equipped class
-	    img.css("margin-top", "-5px");
+	    img.css("margin-top", pageOps.nudgeMap[typ] || "-8px");
 	    img.after("<span style='display:none' class='equipped'>" + _("equipped") + "</span>");
 	}
     },
@@ -366,6 +366,10 @@ var pageOps = {
 	$("item", feed).filter(function (index) {
 	    return $("position", this).text() != "0" }).each(this.putOldItem);
 	$(itemContentSelector).fadeIn(750);
+    },
+
+    nudgeMap: {
+	"133": "0",
     },
 
 };
