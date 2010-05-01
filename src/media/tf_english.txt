@@ -163,6 +163,7 @@ Build teleporters to help team mates get to the front lines!"
 "TF_Rage"				"RAGE"
 "TF_Berzerk"				"HEADS"
 "TF_Charge"				"CHARGE"
+"TF_EnergyDrink"			"DRINK"
 
 "TF_OUT_OF_AMMO"			"OUT OF AMMO"
 
@@ -202,6 +203,7 @@ Build teleporters to help team mates get to the front lines!"
 "TF_playerid_diffteam"			"%s1Enemy: %s2"
 "TF_playerid_noteam"			"%s1"
 "TF_playerid_object"			"%s1 built by %s2"
+"TF_playerid_object_mode"		"%s1 %s3 built by %s2"
 "TF_playerid_object_level"			"( Level %s1 )"
 "TF_playerid_object_upgrading"			"Upgrade Progress: %s1"
 "TF_playerid_object_upgrading_level"	"( Level %s1 ) Upgrade Progress: %s2"
@@ -212,8 +214,7 @@ Build teleporters to help team mates get to the front lines!"
 "TF_playerid_friendlyspy_disguise"	"Disguised as %s1 %s2"
 "TF_playerid_mediccharge"		"ÜberCharge: %s1%"
 "TF_playerid_mediccharge_wpn"	"ÜberCharge: %s1% (%s2)"
-"TF_playerid_teleporter_entrance_noexit" "No matching exit!"
-"TF_playerid_teleporter_exit_noentrance" "No matching entrance!"
+"TF_playerid_teleporter_entrance_nomatch" "No matching teleporter!"
 "TF_playerid_noheal"			"Equalizer blocks healing!"
 
 "TF_friendly"				"friendly"
@@ -309,6 +310,7 @@ Build teleporters to help team mates get to the front lines!"
 
 "TF_Wearable_Boots"		"Boots"
 "TF_Wearable_Medal"		"Medal"
+"TF_Wearable_Badge"		"Badge"
 "TF_Wearable_Holiday_Hat"	"Holiday Hat"
 "TF_Wearable_HonestyHalo" 	"Aura of Incorruptibility"
 
@@ -393,9 +395,12 @@ Build teleporters to help team mates get to the front lines!"
 
 "TF_Object_Sentry"			"Sentry Gun"
 "TF_Object_Dispenser"		"Dispenser"
-"TF_Object_Tele_Entrance"	"Teleporter Entrance"
+"TF_Object_Tele"		"Teleporter"
 "TF_Object_Tele_Exit"		"Teleporter Exit"
 "TF_object_sapper"			"Sapper"
+
+"TF_Teleporter_Mode_Entrance"	"Entrance"
+"TF_Teleporter_Mode_Exit"	"Exit"
 
 "TF_Object_Sentry_360"			"Sentry"
 "TF_Object_Tele_Entrance_360"	"Entrance"
@@ -408,22 +413,17 @@ Build teleporters to help team mates get to the front lines!"
 "TF_ObjStatus_Dispenser_Building"	"Dispenser  Building... %s1"
 "TF_ObjStatus_Dispenser"			"Dispenser  ( Level %s1 )  Health %s1"
 
-"TF_ObjStatus_Teleporter_Entrance_Building"	"Teleporter Entrance  Building... %s1"
-"TF_ObjStatus_Teleporter_Entrance"			"Teleporter Entrance (Level %s1 )  Health %s1  Status - %s2"
-
-"TF_ObjStatus_Teleporter_Exit_Building"		"Teleporter Exit  Building... %s1"
-"TF_ObjStatus_Teleporter_Exit"				"Teleporter Exit (Level %s1 )  Health %s1  Status - %s2"
+"TF_ObjStatus_Teleporter_Building"	"Teleporter  Building... %s1"
+"TF_ObjStatus_Teleporter"			"Teleporter (Level %s1 )  Health %s1  Status - %s2"
 
 "TF_ObjStatus_Sapper_Building"		"Sapper  Building... %s1"
 "TF_ObjStatus_Sapper"				"Sapper  Health %s1  Target Health %s2"
 
-"TF_Obj_Teleporter_State_Entrance_Idle"		"Looking for Exit"
-"TF_Obj_Teleporter_State_Exit_Idle"			"Looking for Entrance"
+"TF_Obj_Teleporter_State_Idle"		"Looking for Matching Teleporter"
 "TF_Obj_Teleporter_State_Ready"				"Ready"
 "TF_Obj_Teleporter_State_Charging"			"Charging"
 			
-"Teleporter_entrance_idle"					"This teleporter does not have a matching exit."
-"Teleporter_exit_idle"						"This teleporter does not have a matching entrance."
+"Teleporter_idle"					"This teleporter does not have a match."
 
 //
 // Level strings
@@ -1050,8 +1050,9 @@ Build teleporters to help team mates get to the front lines!"
 
 "Building_hud_sentry_not_built"			"Sentry Gun\nNot Built"				
 "Building_hud_dispenser_not_built"		"Dispenser\nNot Built"
-"Building_hud_tele_enter_not_built"		"Teleporter Entrance\nNot Built"
-"Building_hud_tele_exit_not_built"		"Teleporter Exit\nNot Built"
+"Building_hud_tele_enter_not_built"		"Entrance\nNot Built"
+"Building_hud_tele_exit_not_built"		"Exit\nNot Built"
+"Building_hud_tele_not_built"			"Teleporter Entrance\nNot Built"
 
 "Building_hud_sentry_not_built_360"			"Sentry\nNot Built"				
 "Building_hud_tele_enter_not_built_360"		"Entrance\nNot Built"
@@ -1064,6 +1065,7 @@ Build teleporters to help team mates get to the front lines!"
 "Hud_Menu_Build_Cant_Afford"			"Not Enough\nMetal"
 "Hud_Menu_Build_Already_Built"			"Already Built" 
 "Hud_Menu_Build_Cancel"					"Hit '%lastinv%' to Cancel"
+"Hud_Menu_Build_ToggleMode"			"Hit 'e' to Toggle Building Types"
 
 "Hud_Menu_Spy_Minus_Toggle"				"Hit 'e' to Toggle Team"
 
@@ -1669,7 +1671,7 @@ Build teleporters to help team mates get to the front lines!"
 "TF_SCOUT_STUN_SCOUT_WITH_THEIR_BALL_NAME"	"Beanball"
 "TF_SCOUT_STUN_SCOUT_WITH_THEIR_BALL_DESC"	"Stun a Scout with their own ball."
 "TF_SCOUT_KILL_IN_DODGE_COOLDOWN_NAME"	"Retire the Runner"
-"TF_SCOUT_KILL_IN_DODGE_COOLDOWN_DESC"	"Kill a Scout while they are snared by the post-dodge slowdown effect."
+"TF_SCOUT_KILL_IN_DODGE_COOLDOWN_DESC"	"Kill a Scout while they are under the effect of Crit-a-Cola."
 "TF_SCOUT_KILL_FROM_BEHIND_NAME"	"Caught Napping"
 "TF_SCOUT_KILL_FROM_BEHIND_DESC"	"Kill 50 enemies from behind with the Force-A-Nature."
 "TF_SCOUT_CAPTURE_LAST_POINT_NAME"	"Side Retired"
@@ -2084,6 +2086,12 @@ Build teleporters to help team mates get to the front lines!"
 "Stats"					"STATS"
 "Achievements"			"ACHIEVEMENTS"
 
+"Loadout_OpenBackpack"		"Open your Backpack"
+"Loadout_OpenBackpackDesc"	"(%s1 ITEMS INSIDE)"
+"Loadout_OpenBackpackDesc1"	"(1 ITEM INSIDE)"
+"Loadout_OpenCrafting"		"Open the Crafting screen"
+"Loadout_OpenCraftingDesc"	"CONSTRUCT NEW ITEMS BY\nCOMBINING ITEMS IN YOUR BACKPACK"
+
 "CharacterLoadout"		"CHARACTER LOADOUT"
 "EditLoadout"			"EDIT LOADOUT"
 "SelectClassLoadout"	"SELECT A CLASS TO MODIFY LOADOUT"
@@ -2390,6 +2398,7 @@ Build teleporters to help team mates get to the front lines!"
 "Attrib_DmgVsBuilding_Increased"		"%s1% damage vs buildings"
 "Attrib_DmgVsPlayer_Decreased"			"%s1% damage vs players"
 "Attrib_LunchboxAddsMaxHealth"			"Adds +50 max health for 30 seconds"
+"Attrib_EmployeeNumber"					"Hire Date: %s1"
 
 // Unique item names
 //==========================================================================================
@@ -2427,6 +2436,7 @@ Build teleporters to help team mates get to the front lines!"
 "TF_Unique_Lunchbox_Chocolate"		"Dalokohs Bar" [$ENGLISH]
 "TF_TTG_MaxGun"						"Lugermorph" [$ENGLISH]
 "TF_TTG_SamRevolver"				"Big Kill" [$ENGLISH]
+"TF_Unique_EnergyDrink_CritCola"	"Crit-a-Cola" [$ENGLISH]
 "TF_NonUnique_Append_Proper"		"(%s1)" [$!ENGLISH]			// Should be !ENGLISH
 
 // LOCALIZERS SHOULD TRANSLATE THIS BLOCK.
@@ -2462,12 +2472,14 @@ Build teleporters to help team mates get to the front lines!"
 "TF_TTG_MaxGun"						"The Lugermorph" [$!ENGLISH]
 "TF_TTG_SamRevolver"				"The Big Kill" [$!ENGLISH]
 "TF_Unique_Makeshiftclub"			"The Pain Train" [$!ENGLISH]
+"TF_Unique_EnergyDrink_CritCola"	"Crit-a-Cola" [$!ENGLISH]
 
 //==========================================================================================
 
 
 "TF_Unique_Achievement_Sword_Desc"	"This weapon has a large melee range.\nGives increased speed and health with every head you take."
 "TF_Unique_Achievement_Shield_Desc"	"Alt-Fire: Gain increased attack power by charging toward your enemies."
+"TF_Unique_EnergyDrink_CritCola_Desc" "While under the effects, damage done\nand damage taken will be mini-crits."
 
 "TF_TTG_MaxGun_Desc"				"The ultimate in semi-concealed weaponry.\nThere’s no question you need this gun,\nthe only question is: where will you keep it?"
 "TF_TTG_SamRevolver_Desc"			"Combines style with stopping power.\nLong exclusive to Freelance Police,\nnow available for other blood-thirsty mercenaries."
@@ -2487,6 +2499,9 @@ Build teleporters to help team mates get to the front lines!"
 
 // Misc
 "TF_Soldier_Medal_Web_Sleuth"		"Gentle Manne's Service Medal"
+"TF_Employee_Badge_A"				"Grizzled Veteran"
+"TF_Employee_Badge_B"				"Soldier of Fortune"
+"TF_Employee_Badge_C"				"Mercenary"
 
 "Item_Giveaway_NoItem"				"Waiting for item..."
 

@@ -20,7 +20,7 @@
     "131": {
         "positive": [
             "\ucc29\uc6a9 \uc2dc +50% \ud654\uc5fc \ub370\ubbf8\uc9c0 \uc800\ud56d", 
-            "\ucc29\uc6a9 \uc2dc +50% \ud3ed\ubc1c \ub370\ubbf8\uc9c0 \uc800\ud56d"
+            "\ucc29\uc6a9 \uc2dc +40% \ud3ed\ubc1c \ub370\ubbf8\uc9c0 \uc800\ud56d"
         ], 
         "alt": [
             "\ubcf4\uc870 \uae30\ub2a5 \uc0ac\uc6a9: \uc801\uc5d0\uac8c \ub3cc\uc9c4\ud568\uc73c\ub85c\uc368 \uacf5\uaca9\ub825\uc774 \ud5a5\uc0c1\ub429\ub2c8\ub2e4."
@@ -133,6 +133,10 @@
     "8": {
         "type": "\ubcf8\uc3d8\uc6b0", 
         "description": "\ubcf8\uc3d8\uc6b0"
+    }, 
+    "96": {
+        "type": "Hat", 
+        "description": "\uc7a5\uad50 \ubc29\ud55c\ubaa8"
     }, 
     "120": {
         "type": "Hat", 
@@ -350,7 +354,7 @@
     }, 
     "other_attributes": {
         "133": "\uba54\ub2ec \ubc88\ud638 %s1", 
-        "132": "\uac00\uce58\uc788\ub294 \ucee4\ubba4\ub2c8\ud2f0 \ucc38\uc5ec\uc790 \uc8fc\uc5b4"
+        "132": "\uac00\uce58\uc788\ub294 \ucee4\ubba4\ub2c8\ud2f0 \ucc38\uc5ec\uc790 \ubd80\uc5ec"
     }, 
     "5003": {
         "alt": [
@@ -424,7 +428,7 @@
     "9003": {
         "positive": [
             "\ud50c\ub808\uc774\uc5b4 \uc0b4\ud574\uc758 \uae08\uc9c0 \uc2a4\ud300 \uacc4\uc815", 
-            "\uc774 \ud56d\ubaa9\uc740 \uc2e4\uc81c\ub418\uc9c0 \uc54a\uc73c\uba70 \ub2e8\uc9c0 \ub18d\ub2f4\uc785\ub2c8\ub2e4."
+            "\uc774 \uc0c1\ud488\uc740 \uc9c4\uc9dc\uac00 \uc544\ub2cc\uac00\uc694\ub9cc\uc744 \ub18d\ub2f4\uc785\ub2c8\ub2e4."
         ], 
         "type": "\ub9dd\uce58 \ucd94\ubc29\uc758", 
         "description": "\uae08\uc9c0 \ud574\uba38"
@@ -567,6 +571,18 @@
         "type": "Hat", 
         "description": "\uc2a4\ud14c\uc778\ub9ac\uc2a4 \ub0c4\ube44"
     }, 
+    "164": {
+        "type": "TF_Wearable_Badge", 
+        "description": "TF_Employee_Badge_A"
+    }, 
+    "165": {
+        "type": "TF_Wearable_Badge", 
+        "description": "TF_Employee_Badge_B"
+    }, 
+    "166": {
+        "type": "TF_Wearable_Badge", 
+        "description": "TF_Employee_Badge_C"
+    }, 
     "160": {
         "alt": [
             "TF_TTG_MaxGun_Desc"
@@ -588,9 +604,12 @@
         "type": "Hat", 
         "description": "TF_TTG_MaxsHat"
     }, 
-    "96": {
-        "type": "Hat", 
-        "description": "\uc7a5\uad50 \ubc29\ud55c\ubaa8"
+    "163": {
+        "alt": [
+            "TF_Unique_EnergyDrink_CritCola_Desc"
+        ], 
+        "type": "\ub3c4\uc2dc\ub77d", 
+        "description": "TF_Unique_EnergyDrink_CritCola"
     }, 
     "11": {
         "type": "\uc0f7\uac74", 
@@ -721,7 +740,8 @@
     }, 
     "40": {
         "positive": [
-            "\ub4a4\uc5d0\uc11c \uacf5\uaca9 \uc2dc 100% \uce58\uba85\ud0c0"
+            "\ub4a4\uc5d0\uc11c \uacf5\uaca9 \uc2dc 100% \uce58\uba85\ud0c0", 
+            "+20% \ub370\ubbf8\uc9c0"
         ], 
         "type": "\ud654\uc5fc \ubc29\uc0ac\uae30", 
         "negative": [

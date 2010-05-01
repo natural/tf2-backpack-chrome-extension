@@ -20,7 +20,7 @@
     "131": {
         "positive": [
             "+50% motst\u00e5nd mot eldskada f\u00f6r b\u00e4raren", 
-            "+50% motst\u00e5nd mot explosionsskador f\u00f6r b\u00e4raren"
+            "+40% motst\u00e5nd mot explosionsskador f\u00f6r b\u00e4raren"
         ], 
         "alt": [
             "Alternativattack: F\u00e5 \u00f6kad attackstyrka genom att rusa mot dina fiender."
@@ -133,6 +133,10 @@
     "8": {
         "type": "Bens\u00e5g", 
         "description": "Bens\u00e5g"
+    }, 
+    "96": {
+        "type": "Hat", 
+        "description": "Rysk officersm\u00f6ssa"
     }, 
     "120": {
         "type": "Hat", 
@@ -567,6 +571,18 @@
         "type": "Hat", 
         "description": "Rostfri kastrull"
     }, 
+    "164": {
+        "type": "TF_Wearable_Badge", 
+        "description": "TF_Employee_Badge_A"
+    }, 
+    "165": {
+        "type": "TF_Wearable_Badge", 
+        "description": "TF_Employee_Badge_B"
+    }, 
+    "166": {
+        "type": "TF_Wearable_Badge", 
+        "description": "TF_Employee_Badge_C"
+    }, 
     "160": {
         "alt": [
             "TF_TTG_MaxGun_Desc"
@@ -588,9 +604,12 @@
         "type": "Hat", 
         "description": "TF_TTG_MaxsHat"
     }, 
-    "96": {
-        "type": "Hat", 
-        "description": "Rysk officersm\u00f6ssa"
+    "163": {
+        "alt": [
+            "TF_Unique_EnergyDrink_CritCola_Desc"
+        ], 
+        "type": "Lunchl\u00e5da", 
+        "description": "TF_Unique_EnergyDrink_CritCola"
     }, 
     "11": {
         "type": "Gev\u00e4r", 
@@ -721,7 +740,8 @@
     }, 
     "40": {
         "positive": [
-            "100\u00a0% kritiska tr\u00e4ffar bakifr\u00e5n"
+            "100\u00a0% kritiska tr\u00e4ffar bakifr\u00e5n", 
+            "+20% orsakad skada"
         ], 
         "type": "Eldkastare", 
         "negative": [

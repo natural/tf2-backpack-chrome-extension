@@ -20,7 +20,7 @@
     "131": {
         "positive": [
             "+50% modstandsdygtighed mod flammekaster for b\u00e6reren", 
-            "+50% modstandsdygtighed mod eksplosioner for b\u00e6reren"
+            "+40% modstandsdygtighed mod eksplosioner for b\u00e6reren"
         ], 
         "alt": [
             "Sekund\u00e6r funktion: For\u00f8g din angrebsstyrke ved at foretage et angrebsl\u00f8b hen imod dine fjender."
@@ -133,6 +133,10 @@
     "8": {
         "type": "Knoglesav", 
         "description": "Knoglesav"
+    }, 
+    "96": {
+        "type": "Hat", 
+        "description": "Officers pelshue"
     }, 
     "120": {
         "type": "Hat", 
@@ -567,6 +571,18 @@
         "type": "Hat", 
         "description": "Rustfri gryde"
     }, 
+    "164": {
+        "type": "TF_Wearable_Badge", 
+        "description": "TF_Employee_Badge_A"
+    }, 
+    "165": {
+        "type": "TF_Wearable_Badge", 
+        "description": "TF_Employee_Badge_B"
+    }, 
+    "166": {
+        "type": "TF_Wearable_Badge", 
+        "description": "TF_Employee_Badge_C"
+    }, 
     "160": {
         "alt": [
             "TF_TTG_MaxGun_Desc"
@@ -588,9 +604,12 @@
         "type": "Hat", 
         "description": "TF_TTG_MaxsHat"
     }, 
-    "96": {
-        "type": "Hat", 
-        "description": "Officers pelshue"
+    "163": {
+        "alt": [
+            "TF_Unique_EnergyDrink_CritCola_Desc"
+        ], 
+        "type": "Madkasse", 
+        "description": "TF_Unique_EnergyDrink_CritCola"
     }, 
     "11": {
         "type": "Haglgev\u00e6r", 
@@ -721,7 +740,8 @@
     }, 
     "40": {
         "positive": [
-            "100% chance for kritisk skade bagfra"
+            "100% chance for kritisk skade bagfra", 
+            "+20% for\u00e5rsaget skade"
         ], 
         "type": "Flammekaster", 
         "negative": [

@@ -11,7 +11,7 @@
     }, 
     "profile_found": {
         "message": "\u4f7f\u7528\u84b8\u6c7d\u7f16\u53f7$1 $2\u3002", 
-        "message-retranslated": "No use of steam $2 $1.", 
+        "message-retranslated": "Use $1 $2 Steam numbers.", 
         "description": "steam id found in search"
     }, 
     "num1": {

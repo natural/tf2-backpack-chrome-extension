@@ -10,8 +10,8 @@
         "description": "nothing changed, but have a label!"
     }, 
     "profile_found": {
-        "message": "\uc99d\uae30 \uc790\ub8cc ID **1 **2 \uc0ac\uc6a9\ud569\ub2c8\ub2e4.", 
-        "message-retranslated": "Article ID **1 **2 steam is used.", 
+        "message": "\uc99d\uae30 \uc2e0\ubd84\uc99d $1 $2 \uc0ac\uc6a9\ud569\ub2c8\ub2e4.", 
+        "message-retranslated": "Steam ID $1 $2 is used.", 
         "description": "steam id found in search"
     }, 
     "num1": {
@@ -51,7 +51,7 @@
     }, 
     "refresh_nochange": {
         "message": "\ud53c\ub4dc \uc6d0\uae30 - \uc544\ub1e8 \ubcc0\uacbd", 
-        "message-retranslated": "Feed refresher - No Change", 
+        "message-retranslated": "Feed refresher - No change", 
         "description": "feed refreshed without changes"
     }, 
     "language_code": {
@@ -75,7 +75,7 @@
     }, 
     "its_msg_33": {
         "message": "\ucde8\uc18c", 
-        "message-retranslated": "Canceled", 
+        "message-retranslated": "Cancel", 
         "description": "cancel label, such as for a button"
     }, 
     "its_msg_34": {
@@ -85,7 +85,7 @@
     }, 
     "its_msg_35": {
         "message": "\uc81c\uc548 \ub354 \ub098\uc740 \ubb34\uc5b8\uac00\ub97c", 
-        "message-retranslated": "Suggestions for something better", 
+        "message-retranslated": "Offer something better", 
         "description": ""
     }, 
     "its_msg_16": {
@@ -199,8 +199,8 @@
         "description": "no steam id title"
     }, 
     "its_msg_2": {
-        "message": "\ucee4\ubba4\ub2c8\ud2f0 \uc774\ub984\uc774\ub098 \ud504\ub85c\ud544\uc744 \uc785\ub825 \ud300 \ud3ec\ud2b8\ub9ac\uc2a4 2 Backpack \uc561\uc138\uc2a4 \ud655\uc7a5 \uae30\ub2a5\uc744 \uc0ac\uc6a9\ud558\ub824\uba74 \uc774\uacf3 \uc544\uc774\ub514", 
-        "message-retranslated": "Enter the name of the community or profile Team Fortress 2 Backpack here to access the extended feature ID", 
+        "message": "\ucee4\ubba4\ub2c8\ud2f0 \uc774\ub984\uc774\ub098 \ud504\ub85c\ud544\uc744 \uc785\ub825 \ud300 \uc694\uc0c8 2 Backpack \uc561\uc138\uc2a4 \ud655\uc7a5 \uae30\ub2a5\uc744 \uc0ac\uc6a9\ud558\ub824\uba74 \uc5ec\uae30\uc5d0 id\ub97c", 
+        "message-retranslated": "Enter the name of the community or profile Team Fortress 2 Backpack here to enable the extension of access to the id", 
         "description": "no steam id help"
     }, 
     "its_msg_3": {
@@ -284,8 +284,8 @@
         "description": "Extension name"
     }, 
     "from_cache": {
-        "message": "\uce90\uc2dc\uc5d0\uc11c \ub370\uc774\ud130\ub85c\ub4dc", 
-        "message-retranslated": "Loading data from the cache", 
+        "message": "\ub370\uc774\ud130\ub97c\ub85c\ub4dc \uce90\uc2dc\uc5d0\uc11c", 
+        "message-retranslated": "Load data from the cache", 
         "description": "data loaded from cache label"
     }, 
     "error": {

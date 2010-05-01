@@ -20,7 +20,7 @@
     "131": {
         "positive": [
             "+50% fire damage resistance on wearer", 
-            "+50% explosive damage resistance on wearer"
+            "+40% explosive damage resistance on wearer"
         ], 
         "alt": [
             "Alt-Fire: Gain increased attack power by charging toward your enemies."
@@ -133,6 +133,10 @@
     "8": {
         "type": "Bonesaw", 
         "description": "Bonesaw"
+    }, 
+    "96": {
+        "type": "Hat", 
+        "description": "Officer's Ushanka"
     }, 
     "120": {
         "type": "Hat", 
@@ -567,6 +571,27 @@
         "type": "Hat", 
         "description": "Stainless Pot"
     }, 
+    "164": {
+        "alt": [
+            "Hire Date: %s1"
+        ], 
+        "type": "Badge", 
+        "description": "Grizzled Veteran"
+    }, 
+    "165": {
+        "alt": [
+            "Hire Date: %s1"
+        ], 
+        "type": "Badge", 
+        "description": "Soldier of Fortune"
+    }, 
+    "166": {
+        "alt": [
+            "Hire Date: %s1"
+        ], 
+        "type": "Badge", 
+        "description": "Mercenary"
+    }, 
     "160": {
         "alt": [
             "The ultimate in semi-concealed weaponry.\\nThere\u2019s no question you need this gun,\\nthe only question is: where will you keep it?"
@@ -588,9 +613,13 @@
         "type": "Hat", 
         "description": "Max's Severed Head"
     }, 
-    "96": {
-        "type": "Hat", 
-        "description": "Officer's Ushanka"
+    "163": {
+        "alt": [
+            "While under the effects, damage done\\nand damage taken will be mini-crits.", 
+            "Adds +50 max health for 30 seconds"
+        ], 
+        "type": "Lunch Box", 
+        "description": "Crit-a-Cola"
     }, 
     "11": {
         "type": "Shotgun", 
@@ -730,7 +759,8 @@
     }, 
     "40": {
         "positive": [
-            "100% critical hits from behind"
+            "100% critical hits from behind", 
+            "+20% damage done"
         ], 
         "type": "Flame Thrower", 
         "negative": [

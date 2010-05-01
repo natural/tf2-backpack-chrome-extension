@@ -20,7 +20,7 @@
     "131": {
         "positive": [
             "+50% de resistencia al da\u00f1o por fuego al portador", 
-            "+50% de resistencia al da\u00f1o explosivo al portador"
+            "+40% de resistencia al da\u00f1o explosivo al portador"
         ], 
         "alt": [
             "Disparo secundario: confiere mayor potencia de ataque al cargar contra los enemigos."
@@ -133,6 +133,10 @@
     "8": {
         "type": "Serrucho", 
         "description": "Serrucho"
+    }, 
+    "96": {
+        "type": "Hat", 
+        "description": "Ushanka de oficial"
     }, 
     "120": {
         "type": "Hat", 
@@ -567,6 +571,18 @@
         "type": "Hat", 
         "description": "Olla inoxidable"
     }, 
+    "164": {
+        "type": "TF_Wearable_Badge", 
+        "description": "TF_Employee_Badge_A"
+    }, 
+    "165": {
+        "type": "TF_Wearable_Badge", 
+        "description": "TF_Employee_Badge_B"
+    }, 
+    "166": {
+        "type": "TF_Wearable_Badge", 
+        "description": "TF_Employee_Badge_C"
+    }, 
     "160": {
         "alt": [
             "TF_TTG_MaxGun_Desc"
@@ -588,9 +604,12 @@
         "type": "Hat", 
         "description": "TF_TTG_MaxsHat"
     }, 
-    "96": {
-        "type": "Hat", 
-        "description": "Ushanka de oficial"
+    "163": {
+        "alt": [
+            "TF_Unique_EnergyDrink_CritCola_Desc"
+        ], 
+        "type": "Fiambrera", 
+        "description": "TF_Unique_EnergyDrink_CritCola"
     }, 
     "11": {
         "type": "Escopeta", 
@@ -721,7 +740,8 @@
     }, 
     "40": {
         "positive": [
-            "100% de probabilidad de impacto cr\u00edtico por la espalda"
+            "100% de probabilidad de impacto cr\u00edtico por la espalda", 
+            "Da\u00f1os causados +20%"
         ], 
         "type": "Lanzallamas", 
         "negative": [

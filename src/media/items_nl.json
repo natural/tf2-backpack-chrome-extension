@@ -20,7 +20,7 @@
     "131": {
         "positive": [
             "+50% bestendigheid tegen vuurschade voor de drager", 
-            "+50% bestendigheid tegen explosieschade voor de drager"
+            "+40% bestendigheid tegen explosieschade voor de drager"
         ], 
         "alt": [
             "Alt-Fire: verhoogt de aanvalskracht door je vijanden van voren aan te vallen."
@@ -133,6 +133,10 @@
     "8": {
         "type": "Bottenzaag", 
         "description": "Bottenzaag"
+    }, 
+    "96": {
+        "type": "Hat", 
+        "description": "Russische officiersmuts"
     }, 
     "120": {
         "type": "Hat", 
@@ -567,6 +571,18 @@
         "type": "Hat", 
         "description": "Kookpan"
     }, 
+    "164": {
+        "type": "TF_Wearable_Badge", 
+        "description": "TF_Employee_Badge_A"
+    }, 
+    "165": {
+        "type": "TF_Wearable_Badge", 
+        "description": "TF_Employee_Badge_B"
+    }, 
+    "166": {
+        "type": "TF_Wearable_Badge", 
+        "description": "TF_Employee_Badge_C"
+    }, 
     "160": {
         "alt": [
             "TF_TTG_MaxGun_Desc"
@@ -588,9 +604,12 @@
         "type": "Hat", 
         "description": "TF_TTG_MaxsHat"
     }, 
-    "96": {
-        "type": "Hat", 
-        "description": "Russische officiersmuts"
+    "163": {
+        "alt": [
+            "TF_Unique_EnergyDrink_CritCola_Desc"
+        ], 
+        "type": "Lunchtrommel", 
+        "description": "TF_Unique_EnergyDrink_CritCola"
     }, 
     "11": {
         "type": "Shotgun", 
@@ -721,7 +740,8 @@
     }, 
     "40": {
         "positive": [
-            "100% voltreffers in de rug"
+            "100% voltreffers in de rug", 
+            "Toegebrachte schade +20%"
         ], 
         "type": "Vlammenwerper", 
         "negative": [

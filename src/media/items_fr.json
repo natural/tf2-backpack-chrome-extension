@@ -20,7 +20,7 @@
     "131": {
         "positive": [
             "R\u00e9sistance aux d\u00e9g\u00e2ts par le feu +50% pour le porteur", 
-            "R\u00e9sistance aux d\u00e9g\u00e2ts d'explosion +50% pour le porteur"
+            "R\u00e9sistance aux d\u00e9g\u00e2ts d'explosion +40% pour le porteur"
         ], 
         "alt": [
             "TIR SECONDAIRE\u00a0: am\u00e9liore votre puissance d'attaque en chargeant votre ennemi."
@@ -133,6 +133,10 @@
     "8": {
         "type": "Scie \u00e0 amputation", 
         "description": "Scie \u00e0 amputation"
+    }, 
+    "96": {
+        "type": "Hat", 
+        "description": "Ouchanka d'officier"
     }, 
     "120": {
         "type": "Hat", 
@@ -567,6 +571,18 @@
         "type": "Hat", 
         "description": "Casserole en acier"
     }, 
+    "164": {
+        "type": "TF_Wearable_Badge", 
+        "description": "TF_Employee_Badge_A"
+    }, 
+    "165": {
+        "type": "TF_Wearable_Badge", 
+        "description": "TF_Employee_Badge_B"
+    }, 
+    "166": {
+        "type": "TF_Wearable_Badge", 
+        "description": "TF_Employee_Badge_C"
+    }, 
     "160": {
         "alt": [
             "TF_TTG_MaxGun_Desc"
@@ -588,9 +604,12 @@
         "type": "Hat", 
         "description": "TF_TTG_MaxsHat"
     }, 
-    "96": {
-        "type": "Hat", 
-        "description": "Ouchanka d'officier"
+    "163": {
+        "alt": [
+            "TF_Unique_EnergyDrink_CritCola_Desc"
+        ], 
+        "type": "Panier d\u00e9jeuner", 
+        "description": "TF_Unique_EnergyDrink_CritCola"
     }, 
     "11": {
         "type": "Fusil \u00e0 pompe", 
@@ -721,7 +740,8 @@
     }, 
     "40": {
         "positive": [
-            "Tirs critiques 100\u00a0% par derri\u00e8re"
+            "Tirs critiques 100\u00a0% par derri\u00e8re", 
+            "D\u00e9g\u00e2ts caus\u00e9s +20%"
         ], 
         "type": "Lance-flammes", 
         "negative": [

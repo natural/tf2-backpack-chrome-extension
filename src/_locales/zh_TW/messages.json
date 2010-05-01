@@ -6,7 +6,7 @@
     }, 
     "no_change": {
         "message": "\u6c92\u6709\u8b8a\u5316", 
-        "message-retranslated": "Unchanged", 
+        "message-retranslated": "No change", 
         "description": "nothing changed, but have a label!"
     }, 
     "profile_found": {

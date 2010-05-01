@@ -11,7 +11,7 @@
     }, 
     "profile_found": {
         "message": "Brug Steam ID $1 for $2.", 
-        "message-retranslated": "Using Steam ID $$2 for 1", 
+        "message-retranslated": "Using Steam ID $$for a second", 
         "description": "steam id found in search"
     }, 
     "num1": {

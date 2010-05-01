@@ -20,7 +20,7 @@
     "131": {
         "positive": [
             "+50%\u00a0Widerstand gegen\u00fcber Feuer f\u00fcr Tr\u00e4ger", 
-            "+50%\u00a0Widerstand gegen\u00fcber Explosionen f\u00fcr Tr\u00e4ger"
+            "+40%\u00a0Widerstand gegen\u00fcber Explosionen f\u00fcr Tr\u00e4ger"
         ], 
         "alt": [
             "Alt-Feuer: Erhalten Sie erh\u00f6hte Angriffskraft durch Sturmangriff auf Feinde."
@@ -133,6 +133,10 @@
     "8": {
         "type": "Knochens\u00e4ge", 
         "description": "Knochens\u00e4ge"
+    }, 
+    "96": {
+        "type": "Hat", 
+        "description": "Offizier-Uschanka"
     }, 
     "120": {
         "type": "Hat", 
@@ -567,6 +571,18 @@
         "type": "Hat", 
         "description": "Edelstahltopf"
     }, 
+    "164": {
+        "type": "TF_Wearable_Badge", 
+        "description": "TF_Employee_Badge_A"
+    }, 
+    "165": {
+        "type": "TF_Wearable_Badge", 
+        "description": "TF_Employee_Badge_B"
+    }, 
+    "166": {
+        "type": "TF_Wearable_Badge", 
+        "description": "TF_Employee_Badge_C"
+    }, 
     "160": {
         "alt": [
             "TF_TTG_MaxGun_Desc"
@@ -588,9 +604,12 @@
         "type": "Hat", 
         "description": "TF_TTG_MaxsHat"
     }, 
-    "96": {
-        "type": "Hat", 
-        "description": "Offizier-Uschanka"
+    "163": {
+        "alt": [
+            "TF_Unique_EnergyDrink_CritCola_Desc"
+        ], 
+        "type": "Proviant", 
+        "description": "TF_Unique_EnergyDrink_CritCola"
     }, 
     "11": {
         "type": "Schrotflinte", 
@@ -721,7 +740,8 @@
     }, 
     "40": {
         "positive": [
-            "Immer kritische Treffer aus dem Hinterhalt"
+            "Immer kritische Treffer aus dem Hinterhalt", 
+            "+20%\u00a0zugef\u00fcgter Schaden"
         ], 
         "type": "Flammenwerfer", 
         "negative": [

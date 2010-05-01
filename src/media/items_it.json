@@ -20,7 +20,7 @@
     "131": {
         "positive": [
             "Capacit\u00e0 ignifuga su chi lo indossa +50%", 
-            "Resistenza ai danni da esplosivi su chi lo indossa +50%"
+            "Resistenza ai danni da esplosivi su chi lo indossa +40%"
         ], 
         "alt": [
             "Fuoco secondario: ottieni un incremento nella potenza d'attacco caricando in direzione dei nemici."
@@ -133,6 +133,10 @@
     "8": {
         "type": "Segaossa", 
         "description": "Segaossa"
+    }, 
+    "96": {
+        "type": "Hat", 
+        "description": "Colbacco da ufficiale"
     }, 
     "120": {
         "type": "Hat", 
@@ -567,6 +571,18 @@
         "type": "Hat", 
         "description": "Pentola inossidabile"
     }, 
+    "164": {
+        "type": "TF_Wearable_Badge", 
+        "description": "TF_Employee_Badge_A"
+    }, 
+    "165": {
+        "type": "TF_Wearable_Badge", 
+        "description": "TF_Employee_Badge_B"
+    }, 
+    "166": {
+        "type": "TF_Wearable_Badge", 
+        "description": "TF_Employee_Badge_C"
+    }, 
     "160": {
         "alt": [
             "TF_TTG_MaxGun_Desc"
@@ -588,9 +604,12 @@
         "type": "Hat", 
         "description": "TF_TTG_MaxsHat"
     }, 
-    "96": {
-        "type": "Hat", 
-        "description": "Colbacco da ufficiale"
+    "163": {
+        "alt": [
+            "TF_Unique_EnergyDrink_CritCola_Desc"
+        ], 
+        "type": "Cestino del pranzo", 
+        "description": "TF_Unique_EnergyDrink_CritCola"
     }, 
     "11": {
         "type": "Fucile", 
@@ -721,7 +740,8 @@
     }, 
     "40": {
         "positive": [
-            "Colpi critici al 100% se colpisci alle spalle"
+            "Colpi critici al 100% se colpisci alle spalle", 
+            "Danni inflitti +20%"
         ], 
         "type": "Lanciafiamme", 
         "negative": [

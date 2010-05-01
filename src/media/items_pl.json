@@ -20,7 +20,7 @@
     "131": {
         "positive": [
             "+50% odporno\u015bci na obra\u017cenia (ogie\u0144) dla nosz\u0105cego", 
-            "+50% odporno\u015bci na obra\u017cenia (wybuch) dla nosz\u0105cego"
+            "+40% odporno\u015bci na obra\u017cenia (wybuch) dla nosz\u0105cego"
         ], 
         "alt": [
             "Alt-strza\u0142: Wi\u0119ksza si\u0142a ataku poprzez wykonanie szar\u017cy na wroga."
@@ -133,6 +133,10 @@
     "8": {
         "type": "Pi\u0142a do ko\u015bci", 
         "description": "Pi\u0142a do ko\u015bci"
+    }, 
+    "96": {
+        "type": "Hat", 
+        "description": "Uszanka oficerska"
     }, 
     "120": {
         "type": "Hat", 
@@ -567,6 +571,18 @@
         "type": "Hat", 
         "description": "Rondel nierdzewny"
     }, 
+    "164": {
+        "type": "TF_Wearable_Badge", 
+        "description": "TF_Employee_Badge_A"
+    }, 
+    "165": {
+        "type": "TF_Wearable_Badge", 
+        "description": "TF_Employee_Badge_B"
+    }, 
+    "166": {
+        "type": "TF_Wearable_Badge", 
+        "description": "TF_Employee_Badge_C"
+    }, 
     "160": {
         "alt": [
             "TF_TTG_MaxGun_Desc"
@@ -588,9 +604,12 @@
         "type": "Hat", 
         "description": "TF_TTG_MaxsHat"
     }, 
-    "96": {
-        "type": "Hat", 
-        "description": "Uszanka oficerska"
+    "163": {
+        "alt": [
+            "TF_Unique_EnergyDrink_CritCola_Desc"
+        ], 
+        "type": "Pude\u0142ko \u015bniadaniowe", 
+        "description": "TF_Unique_EnergyDrink_CritCola"
     }, 
     "11": {
         "type": "Strzelba.", 
@@ -721,7 +740,8 @@
     }, 
     "40": {
         "positive": [
-            "100% szansy na krytyczne trafienie przy ataku zza plec\u00f3w"
+            "100% szansy na krytyczne trafienie przy ataku zza plec\u00f3w", 
+            "+20% do zadanych obra\u017ce\u0144"
         ], 
         "type": "Miotacz ognia", 
         "negative": [

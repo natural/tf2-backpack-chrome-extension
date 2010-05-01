@@ -393,6 +393,7 @@ var toolTip = {
 	}
 	try {
 	    var node = $($("img", cell).data("node"));
+	    GNODE = node;
 	    var type = node.attr("definitionIndex");
 	    var item = backpack.defs[type];
 	    var levelType = item.type;
@@ -430,9 +431,16 @@ var toolTip = {
 	}
 
 	// add the various descriptions
+	var medals = ["164", "165", "166"]
 	$(["alt", "positive", "negative"]).each(function(index, key) {
 	    if (item[key]) {
 		var value = item[key].join("<br />").replace("\\n", "<br />");
+		// sub out %s1 for date in medals
+		if (key=="alt" && medals.indexOf(type) > -1) {
+		    var ds = $("attribute[definitionIndex='143']", node).text()
+		    var d = new Date(parseInt(ds) * 1000)
+		    value = value.replace("%s1", d)
+		}
 		$("#tooltip ." + key).html(value).show();
 	    } else {
 		$("#tooltip ." + key).text("").hide();

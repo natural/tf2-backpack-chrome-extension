@@ -11,7 +11,7 @@
     }, 
     "profile_found": {
         "message": "Utilizzo di vapore ID $$1 per 2.", 
-        "message-retranslated": "Using Steam for 2 1 $$ID.", 
+        "message-retranslated": "Using Steam ID $$1 for 2.", 
         "description": "steam id found in search"
     }, 
     "num1": {
@@ -185,7 +185,7 @@
     }, 
     "its_msg_7": {
         "message": "Info per carattere $1", 
-        "message-retranslated": "Info for character $1", 
+        "message-retranslated": "Info about a character $", 
         "description": "character info title"
     }, 
     "network_error": {

@@ -214,8 +214,8 @@
         "description": "bad data feed label"
     }, 
     "feed_url_error": {
-        "message": "No hay una URL de transmisi\u00f3n", 
-        "message-retranslated": "There is no transmission URL", 
+        "message": "N URL del feed", 
+        "message-retranslated": "No Feed URL", 
         "description": "error because the feed url is empty"
     }, 
     "its_msg_29": {

@@ -1,3 +1,6 @@
+Upgrade Steps
+=============
+
 Quick overview of how to handle upgrades to TF2.  These steps work so far...
 
 1.  verify you've got the most recent install of tf2 in:
@@ -56,7 +59,12 @@ Save each and exit.
     $ cd ~/src/tf2-backpack-chrome-extension/src/tools
     $ cp ~/var/tf2content/output/texts/items_game.txt .
 
-8.  Make the item files:
+    $ cd ~/src/tf2-backpack-chrome-extension/src/media
+    $ cp ~/var/tf2content/output/texts/items_game.txt .
+
+
+8.  Make the item files.  This will fail if you didn't convert the
+line ending whatevers in the text files.
 
     $ cd ~/src/tf2-backpack-chrome-extension/src/tools
     $ make items
@@ -76,4 +84,13 @@ directory with the script:
 10.  Bump the version in src/manifest.json.
 
 11.  rebuild, test, upload!
+
+Other Stuff
+===========
+
+1.  You don't need to rebuild the translation files unless there is a
+change in the UI strings.
+
+2.  The items_game.txt file is duped in media/ and tools/ but I'm
+unmotivated to fix it.
 

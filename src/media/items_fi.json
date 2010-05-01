@@ -20,7 +20,7 @@
     "131": {
         "positive": [
             "+50% tulivahingon sietoa k\u00e4ytt\u00e4j\u00e4lle", 
-            "+50% r\u00e4j\u00e4hdysvahingon sietoa k\u00e4ytt\u00e4j\u00e4lle"
+            "+40% r\u00e4j\u00e4hdysvahingon sietoa k\u00e4ytt\u00e4j\u00e4lle"
         ], 
         "alt": [
             "Vaihtoehtoinen tulitus: Saat lis\u00e4\u00e4 hy\u00f6kk\u00e4ysvoimaa rynn\u00e4k\u00f6im\u00e4ll\u00e4 p\u00e4in vihollisia."
@@ -133,6 +133,10 @@
     "8": {
         "type": "Luusaha", 
         "description": "Luusaha"
+    }, 
+    "96": {
+        "type": "Hat", 
+        "description": "Upseerin ushanka"
     }, 
     "120": {
         "type": "Hat", 
@@ -567,6 +571,18 @@
         "type": "Hat", 
         "description": "Ruostumaton kattila"
     }, 
+    "164": {
+        "type": "TF_Wearable_Badge", 
+        "description": "TF_Employee_Badge_A"
+    }, 
+    "165": {
+        "type": "TF_Wearable_Badge", 
+        "description": "TF_Employee_Badge_B"
+    }, 
+    "166": {
+        "type": "TF_Wearable_Badge", 
+        "description": "TF_Employee_Badge_C"
+    }, 
     "160": {
         "alt": [
             "TF_TTG_MaxGun_Desc"
@@ -588,9 +604,12 @@
         "type": "Hat", 
         "description": "TF_TTG_MaxsHat"
     }, 
-    "96": {
-        "type": "Hat", 
-        "description": "Upseerin ushanka"
+    "163": {
+        "alt": [
+            "TF_Unique_EnergyDrink_CritCola_Desc"
+        ], 
+        "type": "Ev\u00e4srasia", 
+        "description": "TF_Unique_EnergyDrink_CritCola"
     }, 
     "11": {
         "type": "Haulikko", 
@@ -721,7 +740,8 @@
     }, 
     "40": {
         "positive": [
-            "100% kriittiset osumat takaap\u00e4in"
+            "100% kriittiset osumat takaap\u00e4in", 
+            "+20% aiheutettu vahinko"
         ], 
         "type": "Liekinheitin", 
         "negative": [

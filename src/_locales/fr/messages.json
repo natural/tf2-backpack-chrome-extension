@@ -11,7 +11,7 @@
     }, 
     "profile_found": {
         "message": "En utilisant Steam ID $$1 pour 2.", 
-        "message-retranslated": "Using SteamID $$1 for 2.", 
+        "message-retranslated": "Using Steam ID $$1 for 2.", 
         "description": "steam id found in search"
     }, 
     "num1": {
@@ -35,7 +35,7 @@
         "description": "stats button"
     }, 
     "second": {
-        "message": "seconde", 
+        "message": "deuxi\u00e8me", 
         "message-retranslated": "second", 
         "description": "second"
     }, 
@@ -175,7 +175,7 @@
     }, 
     "its_msg_5": {
         "message": "Remise", 
-        "message-retranslated": "Remission", 
+        "message-retranslated": "Surrender", 
         "description": "reset button"
     }, 
     "its_msg_6": {
@@ -185,7 +185,7 @@
     }, 
     "its_msg_7": {
         "message": "Info de caract\u00e8res pour $1", 
-        "message-retranslated": "Info 1 characters $", 
+        "message-retranslated": "News of characters for a $", 
         "description": "character info title"
     }, 
     "network_error": {

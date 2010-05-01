@@ -185,7 +185,7 @@
     }, 
     "its_msg_7": {
         "message": "Informacje o charakterze dla $1", 
-        "message-retranslated": "Information as to $1", 
+        "message-retranslated": "About the character for a $", 
         "description": "character info title"
     }, 
     "network_error": {
@@ -215,7 +215,7 @@
     }, 
     "feed_url_error": {
         "message": "Nie URL Feed", 
-        "message-retranslated": "Not Feed URL", 
+        "message-retranslated": "Do not Feed URL", 
         "description": "error because the feed url is empty"
     }, 
     "its_msg_29": {
@@ -275,7 +275,7 @@
     }, 
     "level": {
         "message": "Poziomie $1 $2", 
-        "message-retranslated": "$Level 1 $2", 
+        "message-retranslated": "Level, $1 $2", 
         "description": "level label"
     }, 
     "extension_name": {
