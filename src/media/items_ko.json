@@ -555,6 +555,10 @@
         "type": "Hat", 
         "description": "\ud130\ud504\uac00\uc774 \ubaa8\uc790"
     }, 
+    "170": {
+        "type": "TF_Wearable_Badge", 
+        "description": "TF_Employee_Badge_Plat"
+    }, 
     "2": {
         "type": "\ubd88\ub3c4\ub07c", 
         "description": "\ubd88\ub3c4\ub07c"

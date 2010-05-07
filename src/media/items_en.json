@@ -555,6 +555,13 @@
         "type": "Hat", 
         "description": "Tough Guy's Toque"
     }, 
+    "170": {
+        "alt": [
+            "Hire Date: %s1"
+        ], 
+        "type": "Badge", 
+        "description": "Primeval Warrior"
+    }, 
     "2": {
         "type": "Fire Axe", 
         "description": "Fire Axe"

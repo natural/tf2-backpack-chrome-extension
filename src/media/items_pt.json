@@ -555,6 +555,10 @@
         "type": "Hat", 
         "description": "Gorro com abas"
     }, 
+    "170": {
+        "type": "TF_Wearable_Badge", 
+        "description": "TF_Employee_Badge_Plat"
+    }, 
     "2": {
         "type": "Machado de fogo", 
         "description": "Machado de fogo"

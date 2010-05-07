@@ -431,7 +431,7 @@ var toolTip = {
 	}
 
 	// add the various descriptions
-	var medals = ["164", "165", "166"]
+	var medals = ["164", "165", "166", "170"]
 	$(["alt", "positive", "negative"]).each(function(index, key) {
 	    if (item[key]) {
 		var value = item[key].join("<br />").replace("\\n", "<br />");
