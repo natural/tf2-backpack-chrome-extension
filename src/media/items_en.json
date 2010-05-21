@@ -555,6 +555,49 @@
         "type": "Hat", 
         "description": "Tough Guy's Toque"
     }, 
+    "179": {
+        "type": "Hat", 
+        "description": "Tippler's Tricorne"
+    }, 
+    "178": {
+        "type": "Hat", 
+        "description": "Safe'n'Sound"
+    }, 
+    "177": {
+        "alt": [
+            "Nothing"
+        ], 
+        "type": "Hat", 
+        "description": "Ze Goggles"
+    }, 
+    "175": {
+        "type": "Hat", 
+        "description": "Whiskered Gentleman"
+    }, 
+    "174": {
+        "type": "Hat", 
+        "description": "Whoopee Cap"
+    }, 
+    "172": {
+        "positive": [
+            "+20% damage done"
+        ], 
+        "type": "Axe", 
+        "negative": [
+            "15% slower move speed on wearer"
+        ], 
+        "description": "The Scotsman's Skullcutter"
+    }, 
+    "171": {
+        "positive": [
+            "On Hit: Bleed for 8 seconds"
+        ], 
+        "type": "Kukri", 
+        "negative": [
+            "-35% damage done"
+        ], 
+        "description": "The Tribalman's Shiv"
+    }, 
     "170": {
         "alt": [
             "Hire Date: %s1"
@@ -562,13 +605,33 @@
         "type": "Badge", 
         "description": "Primeval Warrior"
     }, 
-    "2": {
-        "type": "Fire Axe", 
-        "description": "Fire Axe"
+    "182": {
+        "type": "Hat", 
+        "description": "Vintage Merryweather"
+    }, 
+    "183": {
+        "type": "Hat", 
+        "description": "Sergeant's Drill Hat"
+    }, 
+    "180": {
+        "type": "Hat", 
+        "description": "Frenchman's Beret"
+    }, 
+    "181": {
+        "type": "Hat", 
+        "description": "Bloke's Bucket Hat"
+    }, 
+    "184": {
+        "type": "Hat", 
+        "description": "Gentleman's Gatsby"
     }, 
     "6": {
         "type": "Shovel", 
         "description": "Shovel"
+    }, 
+    "185": {
+        "type": "Hat", 
+        "description": "Heavy Duty Rag"
     }, 
     "99": {
         "type": "Hat", 
@@ -678,6 +741,7 @@
     }, 
     "153": {
         "positive": [
+            "Damage removes Sappers", 
             "100% damage vs buildings"
         ], 
         "type": "Sledgehammer", 
@@ -767,7 +831,7 @@
     "40": {
         "positive": [
             "100% critical hits from behind", 
-            "+20% damage done"
+            "+14% damage done"
         ], 
         "type": "Flame Thrower", 
         "negative": [
@@ -817,5 +881,9 @@
     "148": {
         "type": "Hat", 
         "description": "Hotrod"
+    }, 
+    "2": {
+        "type": "Fire Axe", 
+        "description": "Fire Axe"
     }
 }

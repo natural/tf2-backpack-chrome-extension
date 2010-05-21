@@ -555,17 +555,77 @@
         "type": "Hat", 
         "description": "Tuque de gros dur"
     }, 
+    "179": {
+        "type": "Hat", 
+        "description": "TF_DemomanTricorne"
+    }, 
+    "178": {
+        "type": "Hat", 
+        "description": "TF_EngineerEarmuffs"
+    }, 
+    "177": {
+        "alt": [
+            "TF_MedicGoggles_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_MedicGoggles"
+    }, 
+    "175": {
+        "type": "Hat", 
+        "description": "TF_PyroMonocle"
+    }, 
+    "174": {
+        "type": "Hat", 
+        "description": "TF_ScoutWhoopee"
+    }, 
+    "172": {
+        "positive": [
+            "D\u00e9g\u00e2ts caus\u00e9s +20%"
+        ], 
+        "type": "TF_Weapon_Axe", 
+        "negative": [
+            "Vitesse de d\u00e9placement 15% plus lente pour le porteur"
+        ], 
+        "description": "TF_Unique_BattleAxe"
+    }, 
+    "171": {
+        "type": "Kukri", 
+        "negative": [
+            "D\u00e9g\u00e2ts caus\u00e9s -35%"
+        ], 
+        "description": "TF_Unique_TribalmanKukri"
+    }, 
     "170": {
         "type": "TF_Wearable_Badge", 
         "description": "TF_Employee_Badge_Plat"
     }, 
-    "2": {
-        "type": "Hache", 
-        "description": "Hache"
+    "182": {
+        "type": "Hat", 
+        "description": "TF_PyroHelm"
+    }, 
+    "183": {
+        "type": "Hat", 
+        "description": "TF_SoldierDrillHat"
+    }, 
+    "180": {
+        "type": "Hat", 
+        "description": "TF_SpyBeret"
+    }, 
+    "181": {
+        "type": "Hat", 
+        "description": "TF_SniperFishingHat"
+    }, 
+    "184": {
+        "type": "Hat", 
+        "description": "TF_MedicGatsby"
     }, 
     "6": {
         "type": "Pelle", 
         "description": "Pelle"
+    }, 
+    "185": {
+        "type": "Hat", 
+        "description": "TF_HeavyDorag"
     }, 
     "99": {
         "type": "Hat", 
@@ -745,7 +805,7 @@
     "40": {
         "positive": [
             "Tirs critiques 100\u00a0% par derri\u00e8re", 
-            "D\u00e9g\u00e2ts caus\u00e9s +20%"
+            "D\u00e9g\u00e2ts caus\u00e9s +14%"
         ], 
         "type": "Lance-flammes", 
         "negative": [
@@ -795,5 +855,9 @@
     "148": {
         "type": "Hat", 
         "description": "TF_EngineerWeldingMask"
+    }, 
+    "2": {
+        "type": "Hache", 
+        "description": "Hache"
     }
 }

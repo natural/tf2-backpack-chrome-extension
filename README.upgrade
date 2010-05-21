@@ -69,7 +69,9 @@ line ending whatevers in the text files.
     $ cd ~/src/tf2-backpack-chrome-extension/src/tools
     $ make items
 
-And also the message files:
+If you've changed any of the HTML files (unlikely), you'll also need
+to update the message files.  Note that this borks the manual
+translations, so use with care (i.e., backup those files first):
 
     $ make messages
 

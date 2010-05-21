@@ -555,17 +555,77 @@
         "type": "Hat", 
         "description": "Kovan j\u00e4tk\u00e4n pipo"
     }, 
+    "179": {
+        "type": "Hat", 
+        "description": "TF_DemomanTricorne"
+    }, 
+    "178": {
+        "type": "Hat", 
+        "description": "TF_EngineerEarmuffs"
+    }, 
+    "177": {
+        "alt": [
+            "TF_MedicGoggles_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_MedicGoggles"
+    }, 
+    "175": {
+        "type": "Hat", 
+        "description": "TF_PyroMonocle"
+    }, 
+    "174": {
+        "type": "Hat", 
+        "description": "TF_ScoutWhoopee"
+    }, 
+    "172": {
+        "positive": [
+            "+20% aiheutettu vahinko"
+        ], 
+        "type": "TF_Weapon_Axe", 
+        "negative": [
+            "15% hitaampi liikkumisnopeus k\u00e4ytt\u00e4j\u00e4lle"
+        ], 
+        "description": "TF_Unique_BattleAxe"
+    }, 
+    "171": {
+        "type": "Kukri-veitsi", 
+        "negative": [
+            "-35% aiheutettu vahinko"
+        ], 
+        "description": "TF_Unique_TribalmanKukri"
+    }, 
     "170": {
         "type": "TF_Wearable_Badge", 
         "description": "TF_Employee_Badge_Plat"
     }, 
-    "2": {
-        "type": "Palokirves", 
-        "description": "Palokirves"
+    "182": {
+        "type": "Hat", 
+        "description": "TF_PyroHelm"
+    }, 
+    "183": {
+        "type": "Hat", 
+        "description": "TF_SoldierDrillHat"
+    }, 
+    "180": {
+        "type": "Hat", 
+        "description": "TF_SpyBeret"
+    }, 
+    "181": {
+        "type": "Hat", 
+        "description": "TF_SniperFishingHat"
+    }, 
+    "184": {
+        "type": "Hat", 
+        "description": "TF_MedicGatsby"
     }, 
     "6": {
         "type": "Lapio", 
         "description": "Lapio"
+    }, 
+    "185": {
+        "type": "Hat", 
+        "description": "TF_HeavyDorag"
     }, 
     "99": {
         "type": "Hat", 
@@ -745,7 +805,7 @@
     "40": {
         "positive": [
             "100% kriittiset osumat takaap\u00e4in", 
-            "+20% aiheutettu vahinko"
+            "+14% aiheutettu vahinko"
         ], 
         "type": "Liekinheitin", 
         "negative": [
@@ -795,5 +855,9 @@
     "148": {
         "type": "Hat", 
         "description": "TF_EngineerWeldingMask"
+    }, 
+    "2": {
+        "type": "Palokirves", 
+        "description": "Palokirves"
     }
 }

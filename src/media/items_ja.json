@@ -555,17 +555,77 @@
         "type": "Hat", 
         "description": "\u30bf\u30d5\u30ac\u30a4\u7528\u30c8\u30fc\u30af\u5e3d"
     }, 
+    "179": {
+        "type": "Hat", 
+        "description": "TF_DemomanTricorne"
+    }, 
+    "178": {
+        "type": "Hat", 
+        "description": "TF_EngineerEarmuffs"
+    }, 
+    "177": {
+        "alt": [
+            "TF_MedicGoggles_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_MedicGoggles"
+    }, 
+    "175": {
+        "type": "Hat", 
+        "description": "TF_PyroMonocle"
+    }, 
+    "174": {
+        "type": "Hat", 
+        "description": "TF_ScoutWhoopee"
+    }, 
+    "172": {
+        "positive": [
+            "\u4e0e\u30c0\u30e1\u30fc\u30b8 + 20%"
+        ], 
+        "type": "TF_Weapon_Axe", 
+        "negative": [
+            "\u7740\u7528\u8005\u306e\u79fb\u52d5\u30b9\u30d4\u30fc\u30c9\u30de\u30a4\u30ca\u30b9 15%"
+        ], 
+        "description": "TF_Unique_BattleAxe"
+    }, 
+    "171": {
+        "type": "\u30af\u30af\u30ea\u5200", 
+        "negative": [
+            "\u4e0e\u30c0\u30e1\u30fc\u30b8 -35%"
+        ], 
+        "description": "TF_Unique_TribalmanKukri"
+    }, 
     "170": {
         "type": "TF_Wearable_Badge", 
         "description": "TF_Employee_Badge_Plat"
     }, 
-    "2": {
-        "type": "\u6d88\u9632\u65a7", 
-        "description": "\u6d88\u9632\u65a7"
+    "182": {
+        "type": "Hat", 
+        "description": "TF_PyroHelm"
+    }, 
+    "183": {
+        "type": "Hat", 
+        "description": "TF_SoldierDrillHat"
+    }, 
+    "180": {
+        "type": "Hat", 
+        "description": "TF_SpyBeret"
+    }, 
+    "181": {
+        "type": "Hat", 
+        "description": "TF_SniperFishingHat"
+    }, 
+    "184": {
+        "type": "Hat", 
+        "description": "TF_MedicGatsby"
     }, 
     "6": {
         "type": "\u30b7\u30e3\u30d9\u30eb", 
         "description": "\u30b7\u30e3\u30d9\u30eb"
+    }, 
+    "185": {
+        "type": "Hat", 
+        "description": "TF_HeavyDorag"
     }, 
     "99": {
         "type": "Hat", 
@@ -745,7 +805,7 @@
     "40": {
         "positive": [
             "\u80cc\u5f8c\u304b\u3089\u306e\u653b\u6483\u3067 100% \u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u30d2\u30c3\u30c8", 
-            "\u4e0e\u30c0\u30e1\u30fc\u30b8 + 20%"
+            "\u4e0e\u30c0\u30e1\u30fc\u30b8 + 14%"
         ], 
         "type": "\u706b\u708e\u653e\u5c04\u5668", 
         "negative": [
@@ -795,5 +855,9 @@
     "148": {
         "type": "Hat", 
         "description": "TF_EngineerWeldingMask"
+    }, 
+    "2": {
+        "type": "\u6d88\u9632\u65a7", 
+        "description": "\u6d88\u9632\u65a7"
     }
 }

@@ -555,17 +555,77 @@
         "type": "Hat", 
         "description": "Smart fyrs skihue"
     }, 
+    "179": {
+        "type": "Hat", 
+        "description": "TF_DemomanTricorne"
+    }, 
+    "178": {
+        "type": "Hat", 
+        "description": "TF_EngineerEarmuffs"
+    }, 
+    "177": {
+        "alt": [
+            "TF_MedicGoggles_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_MedicGoggles"
+    }, 
+    "175": {
+        "type": "Hat", 
+        "description": "TF_PyroMonocle"
+    }, 
+    "174": {
+        "type": "Hat", 
+        "description": "TF_ScoutWhoopee"
+    }, 
+    "172": {
+        "positive": [
+            "+20% for\u00e5rsaget skade"
+        ], 
+        "type": "TF_Weapon_Axe", 
+        "negative": [
+            "15% langsommere bev\u00e6gelseshastighed for b\u00e6reren"
+        ], 
+        "description": "TF_Unique_BattleAxe"
+    }, 
+    "171": {
+        "type": "Kukri", 
+        "negative": [
+            "-35% for\u00e5rsaget skade"
+        ], 
+        "description": "TF_Unique_TribalmanKukri"
+    }, 
     "170": {
         "type": "TF_Wearable_Badge", 
         "description": "TF_Employee_Badge_Plat"
     }, 
-    "2": {
-        "type": "\u00d8kse", 
-        "description": "\u00d8kse"
+    "182": {
+        "type": "Hat", 
+        "description": "TF_PyroHelm"
+    }, 
+    "183": {
+        "type": "Hat", 
+        "description": "TF_SoldierDrillHat"
+    }, 
+    "180": {
+        "type": "Hat", 
+        "description": "TF_SpyBeret"
+    }, 
+    "181": {
+        "type": "Hat", 
+        "description": "TF_SniperFishingHat"
+    }, 
+    "184": {
+        "type": "Hat", 
+        "description": "TF_MedicGatsby"
     }, 
     "6": {
         "type": "Skovl", 
         "description": "Skovl"
+    }, 
+    "185": {
+        "type": "Hat", 
+        "description": "TF_HeavyDorag"
     }, 
     "99": {
         "type": "Hat", 
@@ -745,7 +805,7 @@
     "40": {
         "positive": [
             "100% chance for kritisk skade bagfra", 
-            "+20% for\u00e5rsaget skade"
+            "+14% for\u00e5rsaget skade"
         ], 
         "type": "Flammekaster", 
         "negative": [
@@ -795,5 +855,9 @@
     "148": {
         "type": "Hat", 
         "description": "TF_EngineerWeldingMask"
+    }, 
+    "2": {
+        "type": "\u00d8kse", 
+        "description": "\u00d8kse"
     }
 }

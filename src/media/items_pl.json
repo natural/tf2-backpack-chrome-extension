@@ -555,17 +555,77 @@
         "type": "Hat", 
         "description": "Czapka twardziela"
     }, 
+    "179": {
+        "type": "Hat", 
+        "description": "TF_DemomanTricorne"
+    }, 
+    "178": {
+        "type": "Hat", 
+        "description": "TF_EngineerEarmuffs"
+    }, 
+    "177": {
+        "alt": [
+            "TF_MedicGoggles_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_MedicGoggles"
+    }, 
+    "175": {
+        "type": "Hat", 
+        "description": "TF_PyroMonocle"
+    }, 
+    "174": {
+        "type": "Hat", 
+        "description": "TF_ScoutWhoopee"
+    }, 
+    "172": {
+        "positive": [
+            "+20% do zadanych obra\u017ce\u0144"
+        ], 
+        "type": "TF_Weapon_Axe", 
+        "negative": [
+            "15% wolniejsza pr\u0119dko\u015b\u0107 poruszania si\u0119 nosz\u0105cego"
+        ], 
+        "description": "TF_Unique_BattleAxe"
+    }, 
+    "171": {
+        "type": "Kukri", 
+        "negative": [
+            "-35% zadanych obra\u017ce\u0144"
+        ], 
+        "description": "TF_Unique_TribalmanKukri"
+    }, 
     "170": {
         "type": "TF_Wearable_Badge", 
         "description": "TF_Employee_Badge_Plat"
     }, 
-    "2": {
-        "type": "Ognisty top\u00f3r", 
-        "description": "Ognisty top\u00f3r"
+    "182": {
+        "type": "Hat", 
+        "description": "TF_PyroHelm"
+    }, 
+    "183": {
+        "type": "Hat", 
+        "description": "TF_SoldierDrillHat"
+    }, 
+    "180": {
+        "type": "Hat", 
+        "description": "TF_SpyBeret"
+    }, 
+    "181": {
+        "type": "Hat", 
+        "description": "TF_SniperFishingHat"
+    }, 
+    "184": {
+        "type": "Hat", 
+        "description": "TF_MedicGatsby"
     }, 
     "6": {
         "type": "\u0141opata", 
         "description": "\u0141opata"
+    }, 
+    "185": {
+        "type": "Hat", 
+        "description": "TF_HeavyDorag"
     }, 
     "99": {
         "type": "Hat", 
@@ -745,7 +805,7 @@
     "40": {
         "positive": [
             "100% szansy na krytyczne trafienie przy ataku zza plec\u00f3w", 
-            "+20% do zadanych obra\u017ce\u0144"
+            "+14% do zadanych obra\u017ce\u0144"
         ], 
         "type": "Miotacz ognia", 
         "negative": [
@@ -795,5 +855,9 @@
     "148": {
         "type": "Hat", 
         "description": "TF_EngineerWeldingMask"
+    }, 
+    "2": {
+        "type": "Ognisty top\u00f3r", 
+        "description": "Ognisty top\u00f3r"
     }
 }
