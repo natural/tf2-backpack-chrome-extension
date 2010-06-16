@@ -852,6 +852,13 @@
         "type": "Hat", 
         "description": "TF_HeavyHair"
     }, 
+    "143": {
+        "alt": [
+            "TF_OSXItem_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "TF_OSXItem"
+    }, 
     "148": {
         "type": "Hat", 
         "description": "TF_EngineerWeldingMask"

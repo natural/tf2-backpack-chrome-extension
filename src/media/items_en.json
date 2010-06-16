@@ -878,6 +878,13 @@
         "type": "Hat", 
         "description": "Hound Dog"
     }, 
+    "143": {
+        "alt": [
+            "OSX represent!"
+        ], 
+        "type": "Hat", 
+        "description": "Earbuds"
+    }, 
     "148": {
         "type": "Hat", 
         "description": "Hotrod"
