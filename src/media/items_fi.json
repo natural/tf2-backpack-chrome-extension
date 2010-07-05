@@ -353,8 +353,8 @@
         "description": "Jakoavain"
     }, 
     "other_attributes": {
-        "133": "Mitali numero %s1", 
-        "132": "Antaa arvokasta yhteis\u00f6n osallistujien"
+        "133": "Medal no. %s1", 
+        "132": "Given to valuable Community Contributors"
     }, 
     "5003": {
         "alt": [
@@ -427,10 +427,10 @@
     }, 
     "9003": {
         "positive": [
-            "Kiellot Steam pelaajien kuoli", 
-            "T\u00e4m\u00e4 kohta ei ole todellinen, ja se on vain vitsi."
+            "Bans Steam account of players killed", 
+            "This item is not real and is only a joke."
         ], 
-        "type": "Mallet ja karkoituksen", 
+        "type": "Mallet of Banishment", 
         "description": "Ban Hammer"
     }, 
     "102": {
@@ -634,6 +634,10 @@
     "98": {
         "type": "Hat", 
         "description": "Ruostumaton kattila"
+    }, 
+    "169": {
+        "type": "Jakoavain", 
+        "description": "TF_Unique_Golden_Wrench"
     }, 
     "164": {
         "type": "TF_Wearable_Badge", 

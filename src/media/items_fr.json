@@ -353,8 +353,8 @@
         "description": "Cl\u00e9"
     }, 
     "other_attributes": {
-        "133": "M\u00e9daille num\u00e9ro %s1", 
-        "132": "Compte tenu de pr\u00e9cieux collaborateurs communautaires"
+        "133": "Medal no. %s1", 
+        "132": "Given to valuable Community Contributors"
     }, 
     "5003": {
         "alt": [
@@ -427,10 +427,10 @@
     }, 
     "9003": {
         "positive": [
-            "Les interdictions de Steam compte des joueurs tu\u00e9s", 
-            "Cet article n'est pas r\u00e9el et n'est qu'une plaisanterie."
+            "Bans Steam account of players killed", 
+            "This item is not real and is only a joke."
         ], 
-        "type": "Mallet de bannissement", 
+        "type": "Mallet of Banishment", 
         "description": "Ban Hammer"
     }, 
     "102": {
@@ -634,6 +634,10 @@
     "98": {
         "type": "Hat", 
         "description": "Casserole en acier"
+    }, 
+    "169": {
+        "type": "Cl\u00e9", 
+        "description": "TF_Unique_Golden_Wrench"
     }, 
     "164": {
         "type": "TF_Wearable_Badge", 

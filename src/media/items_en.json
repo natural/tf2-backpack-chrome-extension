@@ -353,7 +353,7 @@
         "description": "Wrench"
     }, 
     "other_attributes": {
-        "133": "Medal number %s1", 
+        "133": "Medal no. %s1", 
         "132": "Given to valuable Community Contributors"
     }, 
     "5003": {
@@ -640,6 +640,13 @@
     "98": {
         "type": "Hat", 
         "description": "Stainless Pot"
+    }, 
+    "169": {
+        "positive": [
+            "Imbued with an ancient power"
+        ], 
+        "type": "Wrench", 
+        "description": "The Golden Wrench"
     }, 
     "164": {
         "alt": [

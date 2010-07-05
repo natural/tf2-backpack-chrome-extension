@@ -353,8 +353,8 @@
         "description": "Chiave inglese"
     }, 
     "other_attributes": {
-        "133": "Medaglia numero %s1", 
-        "132": "Dato a preziosi collaboratori della Comunit\u00e0"
+        "133": "Medal no. %s1", 
+        "132": "Given to valuable Community Contributors"
     }, 
     "5003": {
         "alt": [
@@ -427,10 +427,10 @@
     }, 
     "9003": {
         "positive": [
-            "Divieti account Steam di giocatori uccisi", 
-            "Questa voce non \u00e8 reale ed \u00e8 solo uno scherzo."
+            "Bans Steam account of players killed", 
+            "This item is not real and is only a joke."
         ], 
-        "type": "Mallet di esilio", 
+        "type": "Mallet of Banishment", 
         "description": "Ban Hammer"
     }, 
     "102": {
@@ -634,6 +634,10 @@
     "98": {
         "type": "Hat", 
         "description": "Pentola inossidabile"
+    }, 
+    "169": {
+        "type": "Chiave inglese", 
+        "description": "TF_Unique_Golden_Wrench"
     }, 
     "164": {
         "type": "TF_Wearable_Badge", 

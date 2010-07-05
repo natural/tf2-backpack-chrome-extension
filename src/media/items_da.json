@@ -353,8 +353,8 @@
         "description": "Svenskn\u00f8gle"
     }, 
     "other_attributes": {
-        "133": "Medal nummer %s1", 
-        "132": "Gives til v\u00e6rdifulde EF Bidragydere"
+        "133": "Medal no. %s1", 
+        "132": "Given to valuable Community Contributors"
     }, 
     "5003": {
         "alt": [
@@ -427,10 +427,10 @@
     }, 
     "9003": {
         "positive": [
-            "Forbud Steam af dr\u00e6bte spillere", 
-            "Dette punkt er ikke reel og er kun en joke."
+            "Bans Steam account of players killed", 
+            "This item is not real and is only a joke."
         ], 
-        "type": "Mallet af forvist", 
+        "type": "Mallet of Banishment", 
         "description": "Ban Hammer"
     }, 
     "102": {
@@ -634,6 +634,10 @@
     "98": {
         "type": "Hat", 
         "description": "Rustfri gryde"
+    }, 
+    "169": {
+        "type": "Svenskn\u00f8gle", 
+        "description": "TF_Unique_Golden_Wrench"
     }, 
     "164": {
         "type": "TF_Wearable_Badge", 

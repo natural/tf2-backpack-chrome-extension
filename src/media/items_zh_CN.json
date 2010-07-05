@@ -353,8 +353,8 @@
         "description": "\u6273\u624b"
     }, 
     "other_attributes": {
-        "133": "\u91d1\u724c\u6570%s1", 
-        "132": "\u7531\u4e8e\u6709\u4ef7\u503c\u7684\u793e\u533a\u8d21\u732e\u8005"
+        "133": "Medal no. %s1", 
+        "132": "Given to valuable Community Contributors"
     }, 
     "5003": {
         "alt": [
@@ -427,11 +427,11 @@
     }, 
     "9003": {
         "positive": [
-            "\u7981\u6b62\u6c7d\u5360\u6b7b\u4ea1\u7403\u5458", 
-            "\u8fd9\u4e2a\u9879\u76ee\u662f\u4e0d\u662f\u771f\u5b9e\u7684\uff0c\u5e76\u4e14\u53ea\u662f\u4e00\u4e2a\u73a9\u7b11\u3002"
+            "Bans Steam account of players killed", 
+            "This item is not real and is only a joke."
         ], 
-        "type": "\u9a6c\u96f7\u7279\u7684\u653e\u9010", 
-        "description": "\u73ed\u9524"
+        "type": "Mallet of Banishment", 
+        "description": "Ban Hammer"
     }, 
     "102": {
         "type": "Hat", 
@@ -634,6 +634,10 @@
     "98": {
         "type": "Hat", 
         "description": "\u4e0d\u9508\u7f50"
+    }, 
+    "169": {
+        "type": "\u6273\u624b", 
+        "description": "TF_Unique_Golden_Wrench"
     }, 
     "164": {
         "type": "TF_Wearable_Badge", 

@@ -353,8 +353,8 @@
         "description": "Moersleutel"
     }, 
     "other_attributes": {
-        "133": "Medal nummer %s1", 
-        "132": "Gegeven aan waardevolle Gemeenschap contribuanten"
+        "133": "Medal no. %s1", 
+        "132": "Given to valuable Community Contributors"
     }, 
     "5003": {
         "alt": [
@@ -427,10 +427,10 @@
     }, 
     "9003": {
         "positive": [
-            "Verbod Steam account van de spelers gedood", 
-            "Dit item is niet re\u00ebel en is slechts een grap."
+            "Bans Steam account of players killed", 
+            "This item is not real and is only a joke."
         ], 
-        "type": "Mallet de ban", 
+        "type": "Mallet of Banishment", 
         "description": "Ban Hammer"
     }, 
     "102": {
@@ -634,6 +634,10 @@
     "98": {
         "type": "Hat", 
         "description": "Kookpan"
+    }, 
+    "169": {
+        "type": "Moersleutel", 
+        "description": "TF_Unique_Golden_Wrench"
     }, 
     "164": {
         "type": "TF_Wearable_Badge", 

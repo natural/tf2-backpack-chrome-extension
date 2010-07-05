@@ -171,6 +171,7 @@ def translate_extras(extras, target_lang, source_lang='en'):
 	    v = t["sentences"][0]["trans"]
 	except:
 	    print '## no translation', target_lang, source_lang, t
+	    return text
 	return unmask_subs(v)
 
     for key, value in extras.items():

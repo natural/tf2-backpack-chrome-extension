@@ -61,10 +61,10 @@ content:">>";
 
 
 span.nonav, span.nav a, #controls a, #unknownProfile a, #stats table.stats a {
-background-color:#ece3cb;
+background-color:#766b5e;
 border-bottom:none !important;
 border-radius:0.25em;
-color:#756b5e;
+color:#ece3cb;
 height:1.5em;
 line-height:1.5em;
 padding:0.5em 0.75em 0.5em 0.75em;
@@ -76,13 +76,13 @@ vertical-align:middle;
 }
 
 span.nonav {
-color:#dbad65;
+color:#2a2725;
 }
 
 
 span.nav a:hover,  #controls a:hover, #unknownProfile a:hover, #stats table.stats a:hover {
-background-color:#b25216;
-color:#2e2b2a;
+background-color:#924738;
+color:#ece3cb;
 }
 
 

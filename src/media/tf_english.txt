@@ -2566,8 +2566,10 @@ Build teleporters to help team mates get to the front lines!"
 "Attrib_DmgVsPlayer_Decreased"			"%s1% damage vs players"
 "Attrib_LunchboxAddsMaxHealth"			"Adds +50 max health for 30 seconds"
 "Attrib_EmployeeNumber"				"Hire Date: %s1"
+"Attrib_WrenchNumber"				"Wrench no. %s1"
 "Attrib_DmgAppliesToSappers"			"Damage removes Sappers"
 "Attrib_BleedingDuration"			"On Hit: Bleed for %s1 seconds"
+"Attrib_TurnToGold"				"Imbued with an ancient power"
 
 // Unique item names
 //==========================================================================================
@@ -2607,6 +2609,7 @@ Build teleporters to help team mates get to the front lines!"
 "TF_TTG_SamRevolver"				"Big Kill" [$ENGLISH]
 "TF_Unique_EnergyDrink_CritCola"	"Crit-a-Cola" [$ENGLISH]
 "TF_NonUnique_Append_Proper"		"(%s1)" [$!ENGLISH]			// Should be !ENGLISH
+"TF_Unique_Golden_Wrench"			"Golden Wrench" [$ENGLISH]
 "TF_Unique_TribalmanKukri"			"Tribalman's Shiv" [$ENGLISH]
 "TF_Unique_BattleAxe"				"Scotsman's Skullcutter" [$ENGLISH]
 
@@ -2644,6 +2647,7 @@ Build teleporters to help team mates get to the front lines!"
 "TF_TTG_SamRevolver"				"The Big Kill" [$!ENGLISH]
 "TF_Unique_Makeshiftclub"			"The Pain Train" [$!ENGLISH]
 "TF_Unique_EnergyDrink_CritCola"	"Crit-a-Cola" [$!ENGLISH]
+"TF_Unique_Golden_Wrench"			"The Golden Wrench" [$!ENGLISH]
 "TF_Unique_TribalmanKukri"			"The Tribalman's Shiv" [$!ENGLISH]
 "TF_Unique_BattleAxe"				"The Scotsman's Skullcutter" [$!ENGLISH]
 
@@ -2706,7 +2710,6 @@ Build teleporters to help team mates get to the front lines!"
 "TF_rememberactiveweapon"	"Remember the active weapon between lives."
 "TF_rememberlastweapon"		"Remember the 'last weapon' between lives."
 "TF_colorblindassist"		"Turn on colorblind mode."
-"TF_disableHTMLMOTD"		"Disable HTML MOTDs."
 "TF_SpectateCarriedItems"	"Show non-standard items on spectated player."
 "TF_UseAdvancedTourneyGUI"	"Use advanced spectator HUD in tournament mode."
 "TF_DisableWeatherParticles" "Disable weather effects."
@@ -2843,7 +2846,7 @@ Build teleporters to help team mates get to the front lines!"
 "CraftingStep1Explanation_Title"	"Starting a craft"
 "CraftingStep1Explanation_Text"		"Select two or more items from your pack to combine. Double click or drag them into the crafting area."
 "CraftingStep2Explanation_Title"	"Crafting Area"
-"CraftingStep2Explanation_Text"		"These items will be permanently destroyed if the craft succeeds, after which you'll recieve the item(s) you produced.\n\nIf the craft fails to match a blueprint, the items will not be destroyed."
+"CraftingStep2Explanation_Text"		"These items will be permanently destroyed if the craft succeeds, after which you'll receive the item(s) you produced.\n\nIf the craft fails to match a blueprint, the items will not be destroyed."
 "CraftingStep3Explanation_Title"	"Known Blueprints"
 "CraftingStep3Explanation_Text"		"If the items in the crafting area match the required items for a blueprint you already know, the name of the blueprint will be listed here. Hold your mouse over it for a description of what item(s) the blueprint will produce.\n\nIf the items in the crafting area match multiple blueprints, select the blueprint to use here."
 
@@ -2851,7 +2854,7 @@ Build teleporters to help team mates get to the front lines!"
 "DiscardItemsExplanation_Title"		"Discarding"
 "DiscardItemsExplanation_Text"		"You've found a new item, but don't have any room in your backpack to store it. You must choose between discarding the new item, or deleting one of the items in your backpack."
 "DiscardButtonExplanation_Title"	"Discard New Item"
-"DiscardButtonExplanation_Text"		"To discard the new item you've recieved, click this button. The item will be permanently destroyed."
+"DiscardButtonExplanation_Text"		"To discard the new item you've received, click this button. The item will be permanently destroyed."
 "DiscardDeleteExplanation_Title"	"Deleting Items"
 "DiscardDeleteExplanation_Text"		"To delete an item in your backpack, select an item and click this button to permanently delete it. You can select multiple items by holding down the CTRL key."
 
@@ -2970,6 +2973,11 @@ Build teleporters to help team mates get to the front lines!"
 "TF_Bot_Difficulty2"		"Hard"
 "TF_Bot_Difficulty3"		"Expert"
 "TF_Bot_NumberOfBots"		"Number of Players:"
+
+
+// Golden Wrench
+"TF_HUD_Event_GoldenWrench_C"	"%s1 has found Golden Wrench no. %s2!"
+"TF_HUD_Event_GoldenWrench_D"	"%s1 has destroyed Golden Wrench no. %s2!"
 }
 
 }
