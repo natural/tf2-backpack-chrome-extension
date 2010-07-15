@@ -1,0 +1,29 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+""" quick and dirty script to generate a list of 'cp' commands for
+item images.
+
+"""
+import sys
+from source_text_parser import parse
+from subprocess import Popen
+
+
+filename_format = '{0}{1}.png'.format
+
+
+def iter_images(scr):
+    for key, item in parse(scr)['items_game']['items'].iteritems():
+	yield key, item['image_inventory']
+
+
+if __name__ == '__main__':
+    inp_prefix, out_prefix, items_file = sys.argv[1:4]
+
+    for key, img in iter_images(items_file):
+	if not img:
+	    continue
+	inpfile = filename_format(inp_prefix, img)
+	outfile = filename_format(out_prefix, key)
+	p = Popen('cp {0} {1}'.format(inpfile, outfile), shell=True)
+	p.wait()

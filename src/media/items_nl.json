@@ -352,10 +352,6 @@
         "type": "Moersleutel", 
         "description": "Moersleutel"
     }, 
-    "other_attributes": {
-        "133": "Medal no. %s1", 
-        "132": "Given to valuable Community Contributors"
-    }, 
     "5003": {
         "alt": [
             "Wordt gebruikt om een klasse van blauwdrukken te specificeren"
@@ -424,14 +420,6 @@
     "109": {
         "type": "Hat", 
         "description": "Rieten hoed"
-    }, 
-    "9003": {
-        "positive": [
-            "Bans Steam account of players killed", 
-            "This item is not real and is only a joke."
-        ], 
-        "type": "Mallet of Banishment", 
-        "description": "Ban Hammer"
     }, 
     "102": {
         "type": "Hat", 

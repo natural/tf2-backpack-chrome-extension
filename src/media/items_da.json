@@ -352,10 +352,6 @@
         "type": "Svenskn\u00f8gle", 
         "description": "Svenskn\u00f8gle"
     }, 
-    "other_attributes": {
-        "133": "Medal no. %s1", 
-        "132": "Given to valuable Community Contributors"
-    }, 
     "5003": {
         "alt": [
             "Anvendes til at angive en klasse i planer"
@@ -424,14 +420,6 @@
     "109": {
         "type": "Hat", 
         "description": "Str\u00e5hat"
-    }, 
-    "9003": {
-        "positive": [
-            "Bans Steam account of players killed", 
-            "This item is not real and is only a joke."
-        ], 
-        "type": "Mallet of Banishment", 
-        "description": "Ban Hammer"
     }, 
     "102": {
         "type": "Hat", 

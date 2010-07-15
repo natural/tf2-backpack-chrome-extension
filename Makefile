@@ -72,3 +72,16 @@ crx:
 	@rm $(base_name)
 	@mv $(base_name).crx $(dist_dir)/${release_name}.crx
 	@echo "[CRX] done.  Distributable at $(dist_dir)/$(release_name).crx"
+
+
+update_files:
+	@echo "[UPDATE FILES]"
+	@echo "[UPDATE FILES] text files -> src/rawtext/"
+	@cp ../../var/tf2content/output/texts/*.txt src/rawtext/
+	@echo "[UPDATE FILES] done."
+
+
+update_images:
+	@echo "[UPDATE IMAGES]"
+	@./src/tools/copy_item_images /home/troy/var/tf2content/output/ ./src/icons/ ./src/rawtext/items_game.txt
+	@echo "[UPDATE IMAGES] done"

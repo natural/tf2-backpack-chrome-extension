@@ -352,10 +352,6 @@
         "type": "Jakoavain", 
         "description": "Jakoavain"
     }, 
-    "other_attributes": {
-        "133": "Medal no. %s1", 
-        "132": "Given to valuable Community Contributors"
-    }, 
     "5003": {
         "alt": [
             "K\u00e4ytet\u00e4\u00e4n hahmoluokan m\u00e4\u00e4ritt\u00e4miseen piirustuksissa"
@@ -424,14 +420,6 @@
     "109": {
         "type": "Hat", 
         "description": "Ammattilaisen panamahattu"
-    }, 
-    "9003": {
-        "positive": [
-            "Bans Steam account of players killed", 
-            "This item is not real and is only a joke."
-        ], 
-        "type": "Mallet of Banishment", 
-        "description": "Ban Hammer"
     }, 
     "102": {
         "type": "Hat", 

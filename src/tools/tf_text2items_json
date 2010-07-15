@@ -8,12 +8,11 @@ import json
 import os
 import sys
 from functools import partial
-from source_text import parse
-from map_locale import locale_files
-from translate_messages import google_translate
+from source_text_parser import parse
 
 
 sys.stdout = codecs.getwriter('utf8')(sys.stdout)
+items_game = parse('../rawtext/items_game.txt')['items_game']
 
 
 def proto():
@@ -90,8 +89,6 @@ def add_item_alt(source, target, lang_data=None, **kwds):
 	target['alt'].append(lang_data.get(alt, alt))
 
 
-
-
 def add_item_attrs(source, target, lang_data, find_attr=None, **kwds):
     attrs = source.get('attributes', None)
     glbls = globals()
@@ -123,17 +120,16 @@ def add_item_attrs(source, target, lang_data, find_attr=None, **kwds):
 			target[av_type].append(desc)
 
 
-
 def trim_item(source, target, names=(), **kwds):
     for name in names:
 	if not target[name]:
 	    target.pop(name)
 
 
-def main(fn, initial):
+def main(fn, initial={}):
     output = initial.copy()
-    items = parse('items_game.txt')['items_game']
-    items, qualities, attributes = items['items'], items['qualities'], items['attributes']
+    items, qualities, attributes = \
+	   items_game['items'], items_game['qualities'], items_game['attributes']
     lang_data = parse(fn)['lang']['Tokens']
     find_attr = partial(find_attribute, attributes)
     kwds = dict(find_attr=find_attr, lang_data=lang_data)
@@ -145,56 +141,14 @@ def main(fn, initial):
 	    handler(src, out, **kwds)
     return output
 
-def filename2lang(fn):
-    n = os.path.split(fn)[-1]
-    d = dict([(filename, code) for code, filename in locale_files])
-    return d[n]
-
-
-def mask_subs(text):
-    return text.replace('no.', 'number').replace("%s1", "123")
-
-def unmask_subs(text):
-    return text.replace("123", "%s1")
-
-
-def translate_extras(extras, target_lang, source_lang='en'):
-    translated = {}
-
-    def trans(text):
-	try:
-	    t = google_translate(source_lang, target_lang, mask_subs(text))
-	except:
-	    print >> sys.stderr, '## translation exception'
-	    return text
-	try:
-	    v = t["sentences"][0]["trans"]
-	except:
-	    print >> sys.stderr, '## no translation', target_lang, source_lang, t
-	    return text
-	return unmask_subs(v)
-
-    for key, value in extras.items():
-	translated[key] = inner = {}
-	for ikey, ival in value.items():
-	    if isinstance(ival, (basestring, )):
-		inner[ikey] = trans(ival)
-	    elif isinstance(ival, (list, )):
-		inner[ikey] = iseq = []
-		for v in ival:
-		    iseq.append(trans(v))
-    return translated
-
 
 if __name__ == '__main__':
     try:
-	value_filename = sys.argv[1]
+	source_text_filename = sys.argv[1]
+	items_json_filename = sys.argv[2]
     except (IndexError, ):
-	print 'usage: %s value_filename (e.g., "tf_english.txt")' % sys.argv[0]
+	print 'usage: %s input output (e.g., "../rawtext/tf_english.txt ../media/items_en.json")' % sys.argv[0]
     else:
-	lang_code = filename2lang(value_filename)
-	extras = json.load(open('extras.json'))
-	extras = translate_extras(extras, lang_code)
-	result = main(value_filename, extras)
-	print json.dumps(result, indent=4)
-
+	result = main(source_text_filename)
+	output = codecs.getwriter('utf8')(open(items_json_filename, 'w'))
+	print >> output, json.dumps(result, indent=4)

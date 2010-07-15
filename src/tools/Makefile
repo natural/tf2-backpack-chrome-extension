@@ -1,38 +1,35 @@
-#tf_files := $(filter tf_koreana$,$(wildcard ../media/tf_*.txt))
+json_files = $(shell cat control_files.txt | cut -f 2 -d " "|grep -v NONE)
+tran_files = $(shell cat control_files.txt | cut -f 3 -d " "|grep -v NONE)
 
-noitems := ../media/tf_koreana.txt ../media/tf_norwegian.txt
-tf_files := $(filter-out $(noitems), $(wildcard ../media/tf_*.txt))
 
-notrans := tf_english.txt tf_koreana.txt tf_norwegian.txt
-msg_files := $(filter-out $(notrans), $(notdir $(wildcard ../media/tf_*.txt)))
 
-.PHONY: all clean messages $(tf_files) parser
-
+.PHONY: all check clean messages parser $(json_files) $(tran_files)
 .SILENT: clean
 
 
-
 all:
-	@echo run make parser, make messages, make items, or make clean
-
-
-
-items: $(tf_files)
-
-messages: $(msg_files)
-
-$(tf_files):
-	./build_json_items $@ > ../media/items_$(shell python map_locale.py --file=$@).json
-
-
-$(msg_files):
-	./translate_messages.py $(shell python map_locale.py --file=$@)
+	@echo try make check, make parser, make message_files, make item_files, or make clean
 
 
 parser:
 	@cd source_text_parser && make
 
 
+check:
+	./check_tf_texts
+
+
 clean:
+	@rm -f err.txt out.txt
 	@cd source_text_parser && make clean
 
+
+item_files: $(json_files)
+$(json_files):
+	@echo "[JSON ITEMS]" $@
+	@./tf_text2items_json $(shell grep $@ control_files.txt | cut -f 1 -d " ") $@
+
+
+message_files: $(tran_files)
+$(tran_files):
+	@echo "./tf_text2messages_json $(shell grep $@ control_files.txt | cut -f 1 -d " ") $@"
