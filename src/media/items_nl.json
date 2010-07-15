@@ -1,21 +1,21 @@
 {
     "133": {
         "positive": [
-            "-75% ontploffingschade van raketsprongen"
+            "-60% ontploffingschade van raketsprongen"
         ], 
         "type": "Laarzen", 
-        "description": "De Wapenboten"
+        "description": "Gunboats"
     }, 
     "132": {
         "alt": [
-            "Dit wapen heeft een groot slagbereik.\nZorgt voor een hogere snelheid en gezondheid bij elk leven dat je neemt."
+            "Dit wapen heeft een groot slagbereik.\r\nZorgt voor een hogere snelheid en gezondheid bij elk leven dat je neemt."
         ], 
         "type": "Zwaard", 
         "negative": [
             "-25 maximale gezondheid voor drager", 
             "Geen willekeurige voltreffers"
         ], 
-        "description": "De Eyelander"
+        "description": "Eyelander"
     }, 
     "131": {
         "positive": [
@@ -26,7 +26,7 @@
             "Alt-Fire: verhoogt de aanvalskracht door je vijanden van voren aan te vallen."
         ], 
         "type": "Schild", 
-        "description": "De Chargin' Targe"
+        "description": "Chargin' Targe"
     }, 
     "130": {
         "positive": [
@@ -39,40 +39,40 @@
         "negative": [
             "0.4 sec langere bombewapeningstijd"
         ], 
-        "description": "De Scottish Resistance"
+        "description": "Scottish Resistance"
     }, 
     "137": {
         "type": "Hat", 
-        "description": "TF_NobleAmassment_Hat"
+        "description": "Aardig stapeltje hoeden"
     }, 
     "136": {
         "alt": [
-            "TF_PropagandaContest_SecondPlace_Desc"
+            "Tweede plaats propagandawedstrijd"
         ], 
         "type": "Hat", 
-        "description": "TF_PropagandaContest_SecondPlace"
+        "description": "Amber's Rad As All Hell Hat"
     }, 
     "135": {
         "type": "Hat", 
-        "description": "TF_ToweringPillar_Hat"
+        "description": "Hoedentoren"
     }, 
     "134": {
         "alt": [
-            "TF_PropagandaContest_FirstPlace_Desc"
+            "Eerste plaats propagandawedstrijd"
         ], 
         "type": "Hat", 
-        "description": "TF_PropagandaContest_FirstPlace"
+        "description": "J.Axer's Dapper Topper"
     }, 
     "139": {
         "type": "Hat", 
-        "description": "TF_ModestPile_Hat"
+        "description": "Bescheiden stapeltje hoeden"
     }, 
     "138": {
         "alt": [
-            "TF_PropagandaContest_ThirdPlace_Desc"
+            "Derde plaats propagandawedstrijd"
         ], 
         "type": "Hat", 
-        "description": "TF_PropagandaContest_ThirdPlace"
+        "description": "Uncle Sam"
     }, 
     "24": {
         "type": "Revolver", 
@@ -148,15 +148,15 @@
     }, 
     "122": {
         "type": "Cheat Detector", 
-        "description": "Er is gesignaleerd dat met jouw account het distributiesysteem voor items is omzeild. We hebben de items die illegaal zijn verkregen, verwijderd.\n\nBij verdere overtredingen verlies je al je items."
+        "description": "Er is gesignaleerd dat met jouw account het distributiesysteem voor items is omzeild. We hebben de items die illegaal zijn verkregen, verwijderd.\r\n\r\nBij verdere overtredingen verlies je al je items."
     }, 
     "123": {
         "type": "Cheat Detector", 
-        "description": "Er is gesignaleerd dat met jouw account het distributiesysteem voor items is omzeild. We hebben alle items uit je voorraad verwijderd.\n\nBij verdere overtredingen wordt je account mogelijk geblokkeerd."
+        "description": "Er is gesignaleerd dat met jouw account het distributiesysteem voor items is omzeild. We hebben alle items uit je voorraad verwijderd.\r\n\r\nBij verdere overtredingen wordt je account mogelijk geblokkeerd."
     }, 
     "124": {
         "type": "Cheat Detector", 
-        "description": "Gefeliciteerd! Jouw eerlijkheid is beloond met een nieuw hoofddeksel!\n\n(Een aantal andere spelers was minder gewetensvol en minder fortuinlijk)"
+        "description": "Gefeliciteerd! Jouw eerlijkheid is beloond met een nieuw hoofddeksel!\r\n\r\n(Een aantal andere spelers was minder gewetensvol en minder fortuinlijk)"
     }, 
     "125": {
         "alt": [
@@ -179,18 +179,18 @@
         "negative": [
             "-70% explosiebereik"
         ], 
-        "description": "De Voltreffer"
+        "description": "Direct Hit"
     }, 
     "128": {
         "positive": [
             "Schade en bewegingssnelheid nemen toe naarmate wanneer de gebruiker gewond raakt"
         ], 
         "type": "Pikhouweel", 
-        "description": "De Equalizer"
+        "description": "Equalizer"
     }, 
     "129": {
         "type": "Strijdvaandel", 
-        "description": "De Buffbanner"
+        "description": "Buff Banner"
     }, 
     "59": {
         "positive": [
@@ -203,11 +203,11 @@
         "negative": [
             "+60% vervalsnelheid vermomming"
         ], 
-        "description": "De Dead Ringer"
+        "description": "Dead Ringer"
     }, 
     "58": {
         "alt": [
-            "Uitgeruste vijanden krijgen mini-crits\nOok handig om vuur te doven"
+            "Uitgeruste vijanden krijgen mini-crits\r\nOok handig om vuur te doven"
         ], 
         "type": "Jarate", 
         "description": "Jarate"
@@ -225,11 +225,11 @@
             "Blokkeert \u00e9\u00e9n ruggesteek"
         ], 
         "type": "Schild", 
-        "description": "Het rugschild"
+        "description": "Razorback"
     }, 
     "56": {
         "type": "Boog", 
-        "description": "De Huntsman"
+        "description": "Huntsman"
     }, 
     "51": {
         "type": "Hat", 
@@ -467,7 +467,7 @@
     }, 
     "39": {
         "type": "Lichtpistool", 
-        "description": "Het lichtpistool"
+        "description": "Flare Gun"
     }, 
     "38": {
         "positive": [
@@ -478,7 +478,7 @@
             "Geen voltreffers vs. niet-brandende spelers", 
             "-50% schade vs. niet-brandende spelers"
         ], 
-        "description": "De Axtinguisher"
+        "description": "Axtinguisher"
     }, 
     "33": {
         "type": "Injectiepistool", 
@@ -504,7 +504,7 @@
         "negative": [
             "Vuursnelheid -20% lager"
         ], 
-        "description": "De Ubersaw"
+        "description": "Ubersaw"
     }, 
     "36": {
         "positive": [
@@ -514,7 +514,7 @@
         "negative": [
             "De gezondheid van de drager gaat met -2 per seconde achteruit"
         ], 
-        "description": "De Blutsauger"
+        "description": "Blutsauger"
     }, 
     "35": {
         "positive": [
@@ -524,7 +524,7 @@
             "\u00dcberlading geeft 100% kans op voltreffer"
         ], 
         "type": "Medigun", 
-        "description": "De Kritzkrieg"
+        "description": "Kritzkrieg"
     }, 
     "34": {
         "type": "Medigun", 
@@ -538,7 +538,7 @@
             "Soort vermomming: bewegingsgevoelig"
         ], 
         "type": "Onzichtbaarheidshorloge", 
-        "description": "De vermomming en dolk"
+        "description": "Cloak and Dagger"
     }, 
     "61": {
         "positive": [
@@ -549,7 +549,7 @@
             "Toegebrachte schade -15%", 
             "Vuursnelheid -20% lager"
         ], 
-        "description": "De Ambassador"
+        "description": "Ambassador"
     }, 
     "97": {
         "type": "Hat", 
@@ -557,67 +557,73 @@
     }, 
     "179": {
         "type": "Hat", 
-        "description": "TF_DemomanTricorne"
+        "description": "Tricorne"
     }, 
     "178": {
         "type": "Hat", 
-        "description": "TF_EngineerEarmuffs"
+        "description": "Gehoorbeschermers"
     }, 
     "177": {
         "alt": [
-            "TF_MedicGoggles_Desc"
+            "Niets"
         ], 
         "type": "Hat", 
-        "description": "TF_MedicGoggles"
+        "description": "Die Kaikers"
     }, 
     "175": {
         "type": "Hat", 
-        "description": "TF_PyroMonocle"
+        "description": "Besnorde Heer"
     }, 
     "174": {
         "type": "Hat", 
-        "description": "TF_ScoutWhoopee"
+        "description": "Kroontjespet"
     }, 
     "172": {
         "positive": [
             "Toegebrachte schade +20%"
         ], 
-        "type": "TF_Weapon_Axe", 
+        "type": "Bijl", 
         "negative": [
             "15% lagere bewegingssnelheid bij drager"
         ], 
         "description": "TF_Unique_BattleAxe"
     }, 
     "171": {
+        "positive": [
+            "Bij treffer: 6 seconden bloeden"
+        ], 
         "type": "Kukri-mes", 
         "negative": [
-            "Toegebrachte schade -35%"
+            "Toegebrachte schade -50%"
         ], 
         "description": "TF_Unique_TribalmanKukri"
     }, 
     "170": {
-        "type": "TF_Wearable_Badge", 
-        "description": "TF_Employee_Badge_Plat"
+        "alt": [
+            "Huurdatum: %s1"
+        ], 
+        "type": "Insigne", 
+        "description": "Oerkrijger"
     }, 
     "182": {
         "type": "Hat", 
-        "description": "TF_PyroHelm"
+        "description": "Brandweerhelm"
     }, 
     "183": {
         "type": "Hat", 
-        "description": "TF_SoldierDrillHat"
+        "description": "Drilmeestershoed"
     }, 
     "180": {
         "type": "Hat", 
-        "description": "TF_SpyBeret"
+        "description": "Franse Baret"
     }, 
     "181": {
         "type": "Hat", 
-        "description": "TF_SniperFishingHat"
+        "description": "Vishoedje"
     }, 
     "184": {
         "type": "Hat", 
-        "description": "TF_MedicGatsby"
+        "description": "Gatsby-pet"
     }, 
     "6": {
         "type": "Spade", 
@@ -625,7 +631,7 @@
     }, 
     "185": {
         "type": "Hat", 
-        "description": "TF_HeavyDorag"
+        "description": "Bandana"
     }, 
     "99": {
         "type": "Hat", 
@@ -640,41 +646,51 @@
         "description": "TF_Unique_Golden_Wrench"
     }, 
     "164": {
-        "type": "TF_Wearable_Badge", 
-        "description": "TF_Employee_Badge_A"
+        "alt": [
+            "Huurdatum: %s1"
+        ], 
+        "type": "Insigne", 
+        "description": "Doorwinterde Veteraan"
     }, 
     "165": {
-        "type": "TF_Wearable_Badge", 
-        "description": "TF_Employee_Badge_B"
+        "alt": [
+            "Huurdatum: %s1"
+        ], 
+        "type": "Insigne", 
+        "description": "Fortuinlijke Soldaat"
     }, 
     "166": {
-        "type": "TF_Wearable_Badge", 
-        "description": "TF_Employee_Badge_C"
+        "alt": [
+            "Huurdatum: %s1"
+        ], 
+        "type": "Insigne", 
+        "description": "Huurling"
     }, 
     "160": {
         "alt": [
-            "TF_TTG_MaxGun_Desc"
+            "De ultieme semi-verborgen wapens.\r\nNatuurlijk heb je dit wapen nodig,\r\nmaar waar berg je het op?"
         ], 
         "type": "Pistool", 
-        "description": "TF_TTG_MaxGun"
+        "description": "Lugermorph"
     }, 
     "161": {
         "alt": [
-            "TF_TTG_SamRevolver_Desc"
+            "Combineert stijl met stopkracht.\r\nVroeger exclusief voorbehouden aan politieagenten,\r\nmaar nu ook beschikbaar voor bloeddorstige moordenaars."
         ], 
         "type": "Revolver", 
-        "description": "TF_TTG_SamRevolver"
+        "description": "Big Kill"
     }, 
     "162": {
         "alt": [
-            "TF_TTG_MaxsHat_Desc"
+            "Traditionele hoofddeksels, vervaardigd door vredelievende boeren\r\nuit de Filipijnen. De uitgeholde schedel\r\nneemt het zweet op in het heetst van de strijd."
         ], 
         "type": "Hat", 
-        "description": "TF_TTG_MaxsHat"
+        "description": "Max' halve hoofd"
     }, 
     "163": {
         "alt": [
-            "TF_Unique_EnergyDrink_CritCola_Desc"
+            "Onder invloed hiervan zijn toegebrachte\r\nen opgelopen schade mini-crits", 
+            "Voegt 30 seconden lang +50 maximale gezondheid toe"
         ], 
         "type": "Lunchtrommel", 
         "description": "TF_Unique_EnergyDrink_CritCola"
@@ -721,37 +737,58 @@
     }, 
     "151": {
         "type": "Hat", 
-        "description": "TF_PyroBrainSucker"
+        "description": "Triboniophorus Tyrannus"
     }, 
     "150": {
         "type": "Hat", 
-        "description": "TF_ScoutBeanie"
+        "description": "Beanie"
     }, 
     "153": {
-        "type": "TF_Weapon_SledgeHammer", 
-        "description": "TF_Unique_SledgeHammer"
+        "positive": [
+            "Schade verwijdert Sappers", 
+            "100% schade aan bouwsels"
+        ], 
+        "type": "Moker", 
+        "negative": [
+            "-25% schade aan spelers"
+        ], 
+        "description": "Homewrecker"
     }, 
     "152": {
         "type": "Hat", 
-        "description": "TF_SoldierSamurai"
+        "description": "Kabutohelm"
+    }, 
+    "155": {
+        "positive": [
+            "Bij treffer: 5 seconden bloeden"
+        ], 
+        "type": "Moersleutel", 
+        "negative": [
+            "Geen willekeurige voltreffers", 
+            "20% kwetsbaarheid voor vuurschade voor de drager"
+        ], 
+        "description": "TF_Unique_Combat_Wrench"
     }, 
     "154": {
         "positive": [
             "Veroveringssnelheid van +1 voor de drager"
         ], 
-        "type": "TF_Weapon_MakeshiftClub", 
+        "type": "Ge\u00efmproviseerde knuppel", 
         "negative": [
             "10% kwetsbaarheid voor kogelschade voor de drager"
         ], 
-        "description": "TF_Unique_Makeshiftclub"
+        "description": "Pain Train"
     }, 
     "159": {
+        "positive": [
+            "Voegt 30 seconden lang +50 maximale gezondheid toe"
+        ], 
         "type": "Lunchtrommel", 
-        "description": "TF_Unique_Lunchbox_Chocolate"
+        "description": "Dalokohs Bar"
     }, 
     "158": {
         "type": "Hat", 
-        "description": "TF_SniperPithHelmet"
+        "description": "Tropenhelm"
     }, 
     "48": {
         "type": "Hat", 
@@ -777,7 +814,7 @@
         "negative": [
             "-15 maximale gezondheid voor drager"
         ], 
-        "description": "De Sandman"
+        "description": "Sandman"
     }, 
     "45": {
         "positive": [
@@ -790,11 +827,11 @@
             "Magazijngrootte -60%", 
             "Toegebrachte schade -10%"
         ], 
-        "description": "De Force-A-Nature"
+        "description": "Force-A-Nature"
     }, 
     "42": {
         "type": "Lunchtrommel", 
-        "description": "De Sandvich"
+        "description": "Sandvich"
     }, 
     "43": {
         "positive": [
@@ -804,7 +841,7 @@
         "negative": [
             "Vuursnelheid -20% lager"
         ], 
-        "description": "De Killing Gloves of Boxing"
+        "description": "Killing Gloves of Boxing"
     }, 
     "40": {
         "positive": [
@@ -816,7 +853,7 @@
             "Geen willekeurige voltreffers", 
             "Geen compressiestoot"
         ], 
-        "description": "De Backburner"
+        "description": "Backburner"
     }, 
     "41": {
         "positive": [
@@ -842,30 +879,55 @@
     }, 
     "146": {
         "type": "Hat", 
-        "description": "TF_DemomanHallmark"
+        "description": "Pooierhoed"
     }, 
     "147": {
         "type": "Hat", 
-        "description": "TF_SpyNobleHair"
+        "description": "Rechterspruik"
     }, 
     "144": {
         "type": "Hat", 
-        "description": "TF_MedicMask"
+        "description": "Operatiemasker"
     }, 
     "145": {
         "type": "Hat", 
-        "description": "TF_HeavyHair"
+        "description": "Elvispruik"
+    }, 
+    "142": {
+        "positive": [
+            "+25 maximale gezondheid voor drager"
+        ], 
+        "type": "TF_Weapon_Robot_Arm", 
+        "negative": [
+            "Geen willekeurige voltreffers"
+        ], 
+        "description": "TF_Unique_Robot_Arm"
     }, 
     "143": {
         "alt": [
-            "TF_OSXItem_Desc"
+            "Specifiek besturingssysteem!"
         ], 
         "type": "Hat", 
-        "description": "TF_OSXItem"
+        "description": "Oordopjes"
+    }, 
+    "140": {
+        "alt": [
+            "TF_Wrangler_Desc"
+        ], 
+        "type": "TF_Weapon_Laser_Pointer", 
+        "description": "TF_Unique_Achievement_Laser_Pointer"
+    }, 
+    "141": {
+        "type": "Shotgun", 
+        "negative": [
+            "Geen willekeurige voltreffers", 
+            "Magazijngrootte -50%"
+        ], 
+        "description": "TF_Unique_Sentry_Shotgun"
     }, 
     "148": {
         "type": "Hat", 
-        "description": "TF_EngineerWeldingMask"
+        "description": "Lasmasker"
     }, 
     "2": {
         "type": "Vuurbijl", 

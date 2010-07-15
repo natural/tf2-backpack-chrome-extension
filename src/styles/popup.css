@@ -85,6 +85,10 @@ background-color:#924738;
 color:#ece3cb;
 }
 
+span.nav a:active,  #controls a:active, #unknownProfile a:active, #stats table.stats a:active {
+color:#2a2725 !important;
+}
+
 
 table.unplaced td, table.backpack td {
 max-height:4em !important

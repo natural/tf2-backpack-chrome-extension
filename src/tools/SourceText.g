@@ -3,32 +3,22 @@ options
 {
 language=Python;
 output=AST;
-ASTLabelType=CommonTree;
 }
 
 
-scope current {
-}
-
-
-
-source_mapping[value]
-    : (element[value])*
+source_mapping[m]
+    : (element[m])*
     ;
 
 
-element[mapping]
-    :   item
-        { n = mapping[$item.value] = {} }
-        '{' (element[n])* '}'
-
-    |   i0=item i1=item
-        { mapping[i0.value] = unicode(i1.value) }
+element[d]
+    :   item { n = d[$item.value] = dict() }  '{' (element[n])* '}'
+    |   i0=item i1=item { d[i0.value] = unicode(i1.value) }
     ;
 
 
 item returns [value]
-    :   s0=STRING { $value = $s0.text[1:-1] }
+    :   STRING { $value = $STRING.text[1:-1] }
     ;
 
 

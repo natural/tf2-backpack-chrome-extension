@@ -1,21 +1,21 @@
 {
     "133": {
         "positive": [
-            "-75% r\u00e4j\u00e4hdysvahinkoa rakettihypyist\u00e4"
+            "-60% r\u00e4j\u00e4hdysvahinkoa rakettihypyist\u00e4"
         ], 
         "type": "Saappaat", 
-        "description": "Ter\u00e4ssaappaat"
+        "description": "Gunboats"
     }, 
     "132": {
         "alt": [
-            "T\u00e4ll\u00e4 aseella on pitk\u00e4 kantama l\u00e4hitaistelussa.\nSaat lis\u00e4\u00e4 nopeutta ja terveytt\u00e4 jokaisesta katkaisemastasi p\u00e4\u00e4st\u00e4."
+            "T\u00e4ll\u00e4 aseella on pitk\u00e4 kantama l\u00e4hitaistelussa.\r\nSaat lis\u00e4\u00e4 nopeutta ja terveytt\u00e4 jokaisesta katkaisemastasi p\u00e4\u00e4st\u00e4."
         ], 
         "type": "Miekka", 
         "negative": [
             "-25 enimm\u00e4isterveys k\u00e4ytt\u00e4j\u00e4lle", 
             "Ei satunnaisia kriittisi\u00e4 osumia"
         ], 
-        "description": "Kaulankatkoja"
+        "description": "Eyelander"
     }, 
     "131": {
         "positive": [
@@ -26,7 +26,7 @@
             "Vaihtoehtoinen tulitus: Saat lis\u00e4\u00e4 hy\u00f6kk\u00e4ysvoimaa rynn\u00e4k\u00f6im\u00e4ll\u00e4 p\u00e4in vihollisia."
         ], 
         "type": "Suoja", 
-        "description": "Rynn\u00e4kk\u00f6kilpi"
+        "description": "Chargin' Targe"
     }, 
     "130": {
         "positive": [
@@ -39,40 +39,40 @@
         "negative": [
             "0.4 sekuntia hitaampi pommin viritysaika"
         ], 
-        "description": "Skotlannin vastarinta"
+        "description": "Scottish Resistance"
     }, 
     "137": {
         "type": "Hat", 
-        "description": "TF_NobleAmassment_Hat"
+        "description": "Kelpo kokoelma hattuja"
     }, 
     "136": {
         "alt": [
-            "TF_PropagandaContest_SecondPlace_Desc"
+            "Toinen sija, Propagandakilpailu"
         ], 
         "type": "Hat", 
-        "description": "TF_PropagandaContest_SecondPlace"
+        "description": "Amberin pirun hieno hattu"
     }, 
     "135": {
         "type": "Hat", 
-        "description": "TF_ToweringPillar_Hat"
+        "description": "Valtava hattutorni"
     }, 
     "134": {
         "alt": [
-            "TF_PropagandaContest_FirstPlace_Desc"
+            "Ensimm\u00e4inen sija, Propagandakilpailu"
         ], 
         "type": "Hat", 
-        "description": "TF_PropagandaContest_FirstPlace"
+        "description": "J.Axerin siisti silinteri"
     }, 
     "139": {
         "type": "Hat", 
-        "description": "TF_ModestPile_Hat"
+        "description": "Vaatimaton pino hattua"
     }, 
     "138": {
         "alt": [
-            "TF_PropagandaContest_ThirdPlace_Desc"
+            "Kolmas sija, Propagandakilpailu"
         ], 
         "type": "Hat", 
-        "description": "TF_PropagandaContest_ThirdPlace"
+        "description": "Set\u00e4 Samuli"
     }, 
     "24": {
         "type": "Revolveri", 
@@ -148,15 +148,15 @@
     }, 
     "122": {
         "type": "Cheat Detector", 
-        "description": "Tilisi on merkitty esineiden jakeluj\u00e4rjestelm\u00e4n kiert\u00e4misen vuoksi. Poistimme laittomasti hankitut esineet.\n\nSeuraavat rikkomukset johtavat kaikkien esineidesi menett\u00e4miseen."
+        "description": "Tilisi on merkitty esineiden jakeluj\u00e4rjestelm\u00e4n kiert\u00e4misen vuoksi. Poistimme laittomasti hankitut esineet.\r\n\r\nSeuraavat rikkomukset johtavat kaikkien esineidesi menett\u00e4miseen."
     }, 
     "123": {
         "type": "Cheat Detector", 
-        "description": "Tilisi on merkitty esineiden jakeluj\u00e4rjestelm\u00e4n kiert\u00e4misen vuoksi. Poistimme kaikki esineet tavaraluettelostasi.\n\nSeuraavat rikkomukset voivat johtaa tilisi poistamiseen."
+        "description": "Tilisi on merkitty esineiden jakeluj\u00e4rjestelm\u00e4n kiert\u00e4misen vuoksi. Poistimme kaikki esineet tavaraluettelostasi.\r\n\r\nSeuraavat rikkomukset voivat johtaa tilisi poistamiseen."
     }, 
     "124": {
         "type": "Cheat Detector", 
-        "description": "Onneksi olkoon! Rehellisyytesi on palkittu uudella p\u00e4\u00e4hineell\u00e4!\n\n(Joillakin muilla v\u00e4hemm\u00e4n tunnollisilla pelaajilla ei ole k\u00e4ynyt yht\u00e4 hyv\u00e4 onni)"
+        "description": "Onneksi olkoon! Rehellisyytesi on palkittu uudella p\u00e4\u00e4hineell\u00e4!\r\n\r\n(Joillakin muilla v\u00e4hemm\u00e4n tunnollisilla pelaajilla ei ole k\u00e4ynyt yht\u00e4 hyv\u00e4 onni)"
     }, 
     "125": {
         "alt": [
@@ -179,18 +179,18 @@
         "negative": [
             "-70% r\u00e4j\u00e4hdysalue"
         ], 
-        "description": "Suoraosuma"
+        "description": "Direct Hit"
     }, 
     "128": {
         "positive": [
             "Vahinko ja liikkumisnopeus kasvavat k\u00e4ytt\u00e4j\u00e4n vahingoittuessa"
         ], 
         "type": "Hakku", 
-        "description": "Tasoittaja"
+        "description": "Equalizer"
     }, 
     "129": {
         "type": "Sotalippu", 
-        "description": "Sotalippu"
+        "description": "Buff Banner"
     }, 
     "59": {
         "positive": [
@@ -203,14 +203,14 @@
         "negative": [
             "+60% verhoutumisen katoamisnopeus"
         ], 
-        "description": "Kuolemankello"
+        "description": "Dead Ringer"
     }, 
     "58": {
         "alt": [
-            "Aineen peitt\u00e4m\u00e4t viholliset k\u00e4rsiv\u00e4t mini-kriittisi\u00e4 osumia\nSopii my\u00f6s palon sammuttamiseen"
+            "Aineen peitt\u00e4m\u00e4t viholliset k\u00e4rsiv\u00e4t mini-kriittisi\u00e4 osumia\r\nSopii my\u00f6s palon sammuttamiseen"
         ], 
         "type": "Nestekarate", 
-        "description": "Nestekarate"
+        "description": "Jarate"
     }, 
     "55": {
         "type": "Hat", 
@@ -225,11 +225,11 @@
             "Est\u00e4\u00e4 yhden selk\u00e4\u00e4npuukotuksen"
         ], 
         "type": "Suoja", 
-        "description": "Selk\u00e4suoja"
+        "description": "Razorback"
     }, 
     "56": {
         "type": "Jousi", 
-        "description": "Mets\u00e4mies"
+        "description": "Huntsman"
     }, 
     "51": {
         "type": "Hat", 
@@ -323,7 +323,7 @@
     }, 
     "117": {
         "type": "Hat", 
-        "description": "Ritzy Rick's Hair Fixative"
+        "description": "Luksus-Lassen Hiusliima"
     }, 
     "116": {
         "alt": [
@@ -334,7 +334,7 @@
     }, 
     "111": {
         "type": "Hat", 
-        "description": "Baseball Bill's Sports Shine"
+        "description": "Pes\u00e4pallo-Pekan Sporttivaha"
     }, 
     "110": {
         "type": "Hat", 
@@ -342,7 +342,7 @@
     }, 
     "118": {
         "type": "Hat", 
-        "description": "Texas Slim's Dome Shine"
+        "description": "Teksas-Timon Kupolinkiilloke"
     }, 
     "3": {
         "type": "Kukri-veitsi", 
@@ -467,7 +467,7 @@
     }, 
     "39": {
         "type": "Valopistooli", 
-        "description": "Valopistooli"
+        "description": "Flare Gun"
     }, 
     "38": {
         "positive": [
@@ -478,7 +478,7 @@
             "Ei kriittisi\u00e4 osumia pelaajiin, jotka eiv\u00e4t ole tulessa", 
             "-50% vahinko pelaajiin, jotka eiv\u00e4t ole tulessa"
         ], 
-        "description": "Sammutuskirves"
+        "description": "Axtinguisher"
     }, 
     "33": {
         "type": "Ruiskuase", 
@@ -538,7 +538,7 @@
             "Verhoutumisen tyyppi: liikkeen tunnistava"
         ], 
         "type": "N\u00e4kym\u00e4tt\u00f6myyskello", 
-        "description": "Viitta ja tikari"
+        "description": "Cloak and Dagger"
     }, 
     "61": {
         "positive": [
@@ -549,7 +549,7 @@
             "-15% aiheutettu vahinko", 
             "-20% pienempi tulitusnopeus"
         ], 
-        "description": "Suurl\u00e4hettil\u00e4s"
+        "description": "Ambassador"
     }, 
     "97": {
         "type": "Hat", 
@@ -557,67 +557,73 @@
     }, 
     "179": {
         "type": "Hat", 
-        "description": "TF_DemomanTricorne"
+        "description": "K\u00e4nn\u00e4\u00e4j\u00e4n kolmikolkka"
     }, 
     "178": {
         "type": "Hat", 
-        "description": "TF_EngineerEarmuffs"
+        "description": "Tuki ja turva"
     }, 
     "177": {
         "alt": [
-            "TF_MedicGoggles_Desc"
+            "Ei mit\u00e4\u00e4n"
         ], 
         "type": "Hat", 
-        "description": "TF_MedicGoggles"
+        "description": "Zuojalasit"
     }, 
     "175": {
         "type": "Hat", 
-        "description": "TF_PyroMonocle"
+        "description": "Viiksek\u00e4s herrasmies"
     }, 
     "174": {
         "type": "Hat", 
-        "description": "TF_ScoutWhoopee"
+        "description": "Kruunupipo"
     }, 
     "172": {
         "positive": [
             "+20% aiheutettu vahinko"
         ], 
-        "type": "TF_Weapon_Axe", 
+        "type": "Kirves", 
         "negative": [
             "15% hitaampi liikkumisnopeus k\u00e4ytt\u00e4j\u00e4lle"
         ], 
         "description": "TF_Unique_BattleAxe"
     }, 
     "171": {
+        "positive": [
+            "Osumasta: Verenvuotoa 6 sekunnin ajan"
+        ], 
         "type": "Kukri-veitsi", 
         "negative": [
-            "-35% aiheutettu vahinko"
+            "-50% aiheutettu vahinko"
         ], 
-        "description": "TF_Unique_TribalmanKukri"
+        "description": "The Tribalman's Shiv"
     }, 
     "170": {
-        "type": "TF_Wearable_Badge", 
-        "description": "TF_Employee_Badge_Plat"
+        "alt": [
+            "Palkkausp\u00e4iv\u00e4: %s1"
+        ], 
+        "type": "Tunnus", 
+        "description": "Muinaistaistelija"
     }, 
     "182": {
         "type": "Hat", 
-        "description": "TF_PyroHelm"
+        "description": "Vanha palokyp\u00e4r\u00e4"
     }, 
     "183": {
         "type": "Hat", 
-        "description": "TF_SoldierDrillHat"
+        "description": "Kersantin koulutushattu"
     }, 
     "180": {
         "type": "Hat", 
-        "description": "TF_SpyBeret"
+        "description": "Ranskalainen baskeri"
     }, 
     "181": {
         "type": "Hat", 
-        "description": "TF_SniperFishingHat"
+        "description": "Kaverin kalastajahattu"
     }, 
     "184": {
         "type": "Hat", 
-        "description": "TF_MedicGatsby"
+        "description": "Herrasmiehen golflakki"
     }, 
     "6": {
         "type": "Lapio", 
@@ -625,7 +631,7 @@
     }, 
     "185": {
         "type": "Hat", 
-        "description": "TF_HeavyDorag"
+        "description": "Raskaan ty\u00f6n r\u00e4tti"
     }, 
     "99": {
         "type": "Hat", 
@@ -640,44 +646,54 @@
         "description": "TF_Unique_Golden_Wrench"
     }, 
     "164": {
-        "type": "TF_Wearable_Badge", 
-        "description": "TF_Employee_Badge_A"
+        "alt": [
+            "Palkkausp\u00e4iv\u00e4: %s1"
+        ], 
+        "type": "Tunnus", 
+        "description": "Karski veteraani"
     }, 
     "165": {
-        "type": "TF_Wearable_Badge", 
-        "description": "TF_Employee_Badge_B"
+        "alt": [
+            "Palkkausp\u00e4iv\u00e4: %s1"
+        ], 
+        "type": "Tunnus", 
+        "description": "Onnensoturi"
     }, 
     "166": {
-        "type": "TF_Wearable_Badge", 
-        "description": "TF_Employee_Badge_C"
+        "alt": [
+            "Palkkausp\u00e4iv\u00e4: %s1"
+        ], 
+        "type": "Tunnus", 
+        "description": "Palkkasotilas"
     }, 
     "160": {
         "alt": [
-            "TF_TTG_MaxGun_Desc"
+            "Puolik\u00e4tketyn aseistuksen huipentuma.\r\nAseen tarpeellisuudesta ei ole kysymyst\u00e4k\u00e4\u00e4n,\r\nmutta miss\u00e4 oikein voit s\u00e4ilytt\u00e4\u00e4 sit\u00e4?"
         ], 
         "type": "Pistooli", 
-        "description": "TF_TTG_MaxGun"
+        "description": "Lugermorph"
     }, 
     "161": {
         "alt": [
-            "TF_TTG_SamRevolver_Desc"
+            "Yhdist\u00e4\u00e4 tyylin ja pys\u00e4ytysvoiman.\r\nEnnen yksinoikeudella freelance-poliiseille,\r\nnyt tarjolla muillekin verenhimoisille palkkasotureille."
         ], 
         "type": "Revolveri", 
-        "description": "TF_TTG_SamRevolver"
+        "description": "Big Kill"
     }, 
     "162": {
         "alt": [
-            "TF_TTG_MaxsHat_Desc"
+            "Taidokkaasti rakennettu p\u00e4\u00e4hine Filippiinil\u00e4isilt\u00e4\r\nmaatiloilta. Koverrettu kallop\u00e4\u00e4llyste siirt\u00e4\u00e4 kosteuden\r\npois kesken kuumimmankin taistelun."
         ], 
         "type": "Hat", 
-        "description": "TF_TTG_MaxsHat"
+        "description": "Maxin irtileikattu p\u00e4\u00e4"
     }, 
     "163": {
         "alt": [
-            "TF_Unique_EnergyDrink_CritCola_Desc"
+            "Efektin vaikutuksen alaisena tehty ja otettu vahinko ovat minikriittisi\u00e4.", 
+            "Lis\u00e4\u00e4 +50 maksimiterveytt\u00e4 30 sekunniksi"
         ], 
         "type": "Ev\u00e4srasia", 
-        "description": "TF_Unique_EnergyDrink_CritCola"
+        "description": "Crit-a-Cola"
     }, 
     "11": {
         "type": "Haulikko", 
@@ -725,33 +741,54 @@
     }, 
     "150": {
         "type": "Hat", 
-        "description": "TF_ScoutBeanie"
+        "description": "Pahan pojan pipo"
     }, 
     "153": {
-        "type": "TF_Weapon_SledgeHammer", 
-        "description": "TF_Unique_SledgeHammer"
+        "positive": [
+            "Vahinko irrottaa tyhjent\u00e4j\u00e4t", 
+            "100% vahinkoa rakennuksiin"
+        ], 
+        "type": "Leka", 
+        "negative": [
+            "-25% vahinkoa pelaajiin"
+        ], 
+        "description": "Kodinrikkoja"
     }, 
     "152": {
         "type": "Hat", 
-        "description": "TF_SoldierSamurai"
+        "description": "Teurastajan it\u00e4mainen"
+    }, 
+    "155": {
+        "positive": [
+            "Osumasta: Verenvuotoa 5 sekunnin ajan"
+        ], 
+        "type": "Jakoavain", 
+        "negative": [
+            "Ei satunnaisia kriittisi\u00e4 osumia", 
+            "20% tulivahinkoalttiutta k\u00e4ytt\u00e4j\u00e4lle"
+        ], 
+        "description": "TF_Unique_Combat_Wrench"
     }, 
     "154": {
         "positive": [
             "+1 valtausnopeus kantajalle"
         ], 
-        "type": "TF_Weapon_MakeshiftClub", 
+        "type": "H\u00e4t\u00e4varanuija", 
         "negative": [
             "10% luotivahingolle alttiutta k\u00e4ytt\u00e4j\u00e4lle"
         ], 
-        "description": "TF_Unique_Makeshiftclub"
+        "description": "Pain Train"
     }, 
     "159": {
+        "positive": [
+            "Lis\u00e4\u00e4 +50 maksimiterveytt\u00e4 30 sekunniksi"
+        ], 
         "type": "Ev\u00e4srasia", 
-        "description": "TF_Unique_Lunchbox_Chocolate"
+        "description": "Dalokohs Bar"
     }, 
     "158": {
         "type": "Hat", 
-        "description": "TF_SniperPithHelmet"
+        "description": "Haukkasilm\u00e4n hellekyp\u00e4r\u00e4"
     }, 
     "48": {
         "type": "Hat", 
@@ -763,7 +800,7 @@
     }, 
     "46": {
         "type": "Ev\u00e4srasia", 
-        "description": "Naps! Atomi-isku"
+        "description": "Bonk! Atomic Punch"
     }, 
     "47": {
         "type": "Hat", 
@@ -777,7 +814,7 @@
         "negative": [
             "-15 enimm\u00e4isterveys k\u00e4ytt\u00e4j\u00e4lle"
         ], 
-        "description": "Nukkumatti"
+        "description": "Sandman"
     }, 
     "45": {
         "positive": [
@@ -790,11 +827,11 @@
             "-60% lippaan koko", 
             "-10% aiheutettu vahinko"
         ], 
-        "description": "Luonnonvoima"
+        "description": "Force-A-Nature"
     }, 
     "42": {
         "type": "Ev\u00e4srasia", 
-        "description": "Voileip\u00e4"
+        "description": "Sandvich"
     }, 
     "43": {
         "positive": [
@@ -804,7 +841,7 @@
         "negative": [
             "-20% pienempi tulitusnopeus"
         ], 
-        "description": "Kuolettavat nyrkkeilyhanskat"
+        "description": "Killing Gloves of Boxing"
     }, 
     "40": {
         "positive": [
@@ -816,7 +853,7 @@
             "Ei satunnaisia kriittisi\u00e4 osumia", 
             "Ei paineaaltoa"
         ], 
-        "description": "Liekitin"
+        "description": "Sel\u00e4npoltin"
     }, 
     "41": {
         "positive": [
@@ -826,7 +863,7 @@
         "negative": [
             "-25% aiheutettu vahinko"
         ], 
-        "description": "Natasha"
+        "description": "Natascha"
     }, 
     "1": {
         "type": "Pullo", 
@@ -842,30 +879,55 @@
     }, 
     "146": {
         "type": "Hat", 
-        "description": "TF_DemomanHallmark"
+        "description": "Suten\u00f6\u00f6rin silm\u00e4ter\u00e4"
     }, 
     "147": {
         "type": "Hat", 
-        "description": "TF_SpyNobleHair"
+        "description": "Tuomarin takatukka"
     }, 
     "144": {
         "type": "Hat", 
-        "description": "TF_MedicMask"
+        "description": "Lekurin kirurginen maski"
     }, 
     "145": {
         "type": "Hat", 
-        "description": "TF_HeavyHair"
+        "description": "Kunkku"
+    }, 
+    "142": {
+        "positive": [
+            "+25 enimm\u00e4isterveys k\u00e4ytt\u00e4j\u00e4lle"
+        ], 
+        "type": "TF_Weapon_Robot_Arm", 
+        "negative": [
+            "Ei satunnaisia kriittisi\u00e4 osumia"
+        ], 
+        "description": "TF_Unique_Robot_Arm"
     }, 
     "143": {
         "alt": [
-            "TF_OSXItem_Desc"
+            "OSX kunniaan!"
         ], 
         "type": "Hat", 
-        "description": "TF_OSXItem"
+        "description": "Korvanapit"
+    }, 
+    "140": {
+        "alt": [
+            "TF_Wrangler_Desc"
+        ], 
+        "type": "TF_Weapon_Laser_Pointer", 
+        "description": "TF_Unique_Achievement_Laser_Pointer"
+    }, 
+    "141": {
+        "type": "Haulikko", 
+        "negative": [
+            "Ei satunnaisia kriittisi\u00e4 osumia", 
+            "-50% lippaan koko"
+        ], 
+        "description": "TF_Unique_Sentry_Shotgun"
     }, 
     "148": {
         "type": "Hat", 
-        "description": "TF_EngineerWeldingMask"
+        "description": "Hottentotti"
     }, 
     "2": {
         "type": "Palokirves", 

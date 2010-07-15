@@ -165,6 +165,8 @@ Build teleporters to help team mates get to the front lines!"
 "TF_Berzerk"				"HEADS"
 "TF_Charge"				"CHARGE"
 "TF_EnergyDrink"			"DRINK"
+"TF_Revenge"				"REVENGE"
+"TF_Sandwich"				"FOOD"
 
 "TF_OUT_OF_AMMO"			"OUT OF AMMO"
 
@@ -204,6 +206,7 @@ Build teleporters to help team mates get to the front lines!"
 "TF_playerid_diffteam"			"%s1Enemy: %s2"
 "TF_playerid_noteam"			"%s1"
 "TF_playerid_object"			"%s1 built by %s2"
+"TF_playerid_object_mini"		"Mini-%s1 built by %s2"
 "TF_playerid_object_mode"		"%s1 %s3 built by %s2"
 "TF_playerid_object_level"			"( Level %s1 )"
 "TF_playerid_object_upgrading"			"Upgrade Progress: %s1"
@@ -312,9 +315,10 @@ Build teleporters to help team mates get to the front lines!"
 "TF_Weapon_Sword"		"Sword"
 "TF_Weapon_Axe"			"Axe"
 "TF_Weapon_Pickaxe"		"Pickaxe"
-
+"TF_Weapon_Laser_Pointer"	"Laser Pointer"
 "TF_Weapon_SledgeHammer"	"Sledgehammer"
 "TF_Weapon_MakeshiftClub"	"Makeshift Club"
+"TF_Weapon_Robot_Arm"		"Robot Arm"
 
 "TF_Wearable_Boots"		"Boots"
 "TF_Wearable_Medal"		"Medal"
@@ -391,6 +395,7 @@ Build teleporters to help team mates get to the front lines!"
 "TF_SoldierDrillHat"		"Sergeant's Drill Hat"
 "TF_MedicGatsby"		"Gentleman's Gatsby"
 "TF_HeavyDorag"			"Heavy Duty Rag"
+"TF_Wrangler_Desc"		"Take manual control of your Sentry Gun"
 
 // Death strings
 "DeathMsg_Suicide"		"bid farewell, cruel world!"
@@ -518,6 +523,15 @@ Build teleporters to help team mates get to the front lines!"
 "Badwater_cap_3"		"Third Capture point"
 "Badwater_cap_4"		"Final Capture point"
 
+// Thunder Mountain level strings
+"Thunderm_cap_1_A"		"Ramp deck, Stage One"
+"Thunderm_cap_1_B"		"Main Platform, Stage One"
+"Thunderm_cap_2_A"		"Lumber Mill, Stage Two"
+"Thunderm_cap_2_B"		"The Pit, Stage Two"
+"Thunderm_cap_3_A"		"Building A, Stage Three"
+"Thunderm_cap_3_B"		"Building B, Stage Three"
+"Thunderm_cap_3_C"		"Tower, Final Cap"
+
 // 2fort level strings
 "2fort_red_setup_goal"			"Grab the Intelligence Briefcase from the enemy basement. Return to your basement to win!"
 "2fort_blue_setup_goal"			"Grab the Intelligence Briefcase from the enemy basement. Return to your basement to win!"
@@ -572,6 +586,11 @@ Build teleporters to help team mates get to the front lines!"
 "Pipeline_cap_2_blue"			"Blue's second Capture point"
 "Pipeline_cap_3_red"			"Red's final capture point"
 "Pipeline_cap_3_blue"			"Blue's final capture point"
+
+// Hightower level strings
+"hightower_setup_goal"			"Move your cart to the top of your HighTower to win"
+"hightower_cap_red"			"Red's HighTower"
+"hightower_cap_blue"			"Blue's HighTower"
 
 // Badlands level strings
 "Badlands_cap_cp3"			"the Central Control Point"
@@ -992,7 +1011,7 @@ Build teleporters to help team mates get to the front lines!"
 "Tip_2_7"				"As a Sniper, your shot will miss if the Huntsman is pulled back longer than 5 seconds. Reset it by hitting %attack2%."
 "Tip_2_8"				"As a Sniper, Jarate can reveal hidden Spies. Be wary, as Spies using the Dead Ringer won't be visible if they cloak after being soaked."
 "Tip_2_9"				"As a Sniper, the Razorback breaks after being stabbed. Grab a new one from a resupply locker."
-"Tip_2_10"				"As a Sniper, Your Razorback emits a loud electric sound when a Spy attempts to backstab you. Listen for it!"
+"Tip_2_10"				"As a Sniper, your Razorback emits a loud electric sound when a Spy attempts to backstab you. Listen for it!"
 "Tip_2_11"				"As a Sniper, use Jarate to douse flames on yourself and on teammates."
 "Tip_2_12"				"As a Sniper, all hits on enemies who have been doused with Jarate are minicrits."
 "Tip_2_13"				"As a Sniper, the Tribalman's Shiv causes a bleed on hit.  This can be useful for tracking down Spies."
@@ -1200,7 +1219,9 @@ Build teleporters to help team mates get to the front lines!"
 "Building_hud_sentry_shells"		"Shells:"
 "Building_hud_sentry_rockets"		"Rockets:"
 "Building_hud_sentry_upgrade"		"Upgrade:"
-"Building_hud_sentry_numkills"		"Kills:\n%numkills%"
+"Building_hud_sentry_numkills"		"Kills: %numkills%"
+"Building_hud_sentry_numassists"	"Assists: %numassists%"
+"Building_hud_sentry_kills_assists"	"%numkills% (%numassists%)"
 "Building_hud_dispenser_ammo"		"Metal:"
 "Building_hud_tele_charging"		"Charging..."
 "Building_hud_tele_times_used"		"Times Used:\n%timesused%"
@@ -1223,6 +1244,7 @@ Build teleporters to help team mates get to the front lines!"
 
 "Hud_Menu_Build_Cant_Afford"			"Not Enough\nMetal"
 "Hud_Menu_Build_Already_Built"			"Already Built" 
+"Hud_Menu_Build_Unavailable"			"Not Available" 
 "Hud_Menu_Build_Cancel"					"Hit '%lastinv%' to Cancel"
 "Hud_Menu_Build_ToggleMode"			"Hit 'e' to Toggle Building Types"
 
@@ -2174,6 +2196,84 @@ Build teleporters to help team mates get to the front lines!"
 "TF_DEMOMAN_ACHIEVE_PROGRESS3_NAME"		"Demoman Milestone 3"
 "TF_DEMOMAN_ACHIEVE_PROGRESS3_DESC"		"Achieve 17 of the achievements in the Demoman pack."
 
+// Engineer Achievement Pack
+"TF_ENGINEER_ACHIEVE_PROGRESS1_NAME"				"Engineer Milestone 1"
+"TF_ENGINEER_ACHIEVE_PROGRESS1_DESC"				"Achieve 5 of the achievements in the Engineer pack."
+"TF_ENGINEER_ACHIEVE_PROGRESS2_NAME"				"Engineer Milestone 2"
+"TF_ENGINEER_ACHIEVE_PROGRESS2_DESC"				"Achieve 11 of the achievements in the Engineer pack."
+"TF_ENGINEER_ACHIEVE_PROGRESS3_NAME"				"Engineer Milestone 3"
+"TF_ENGINEER_ACHIEVE_PROGRESS3_DESC"				"Achieve 17 of the achievements in the Engineer pack."
+"TF_ENGINEER_TELEPORT_GRIND_NAME"				"Battle Rustler"
+"TF_ENGINEER_TELEPORT_GRIND_DESC"				"Teleport 100 team members into battle."
+"TF_ENGINEER_DISPENSER_EXTINGUISH_NAME"				"The Extinguished Gentleman"
+"TF_ENGINEER_DISPENSER_EXTINGUISH_DESC"				"Have dispensers you built extinguish 20 burning players."
+"TF_ENGINEER_REVENGE_CRIT_SENTRY_KILLER_NAME"			"Revengineering"
+"TF_ENGINEER_REVENGE_CRIT_SENTRY_KILLER_DESC"			"Use a revenge crit to kill the enemy player that destroyed your sentry gun."
+"TF_ENGINEER_MANUAL_CLOAKED_SPY_KILL_NAME"			"Search Engine"
+"TF_ENGINEER_MANUAL_CLOAKED_SPY_KILL_DESC"			"Kill 3 cloaked Spies with a sentry gun under control of your Wrangler."
+"TF_ENGINEER_MANUAL_SENTRY_KILLS_BEYOND_RANGE_NAME"		"Pownd on the Range"
+"TF_ENGINEER_MANUAL_SENTRY_KILLS_BEYOND_RANGE_DESC"		"Kill 10 enemies outside the normal sentry gun range using the Wrangler."
+"TF_ENGINEER_MANUAL_SENTRY_ABSORB_DMG_NAME"			"Building Block"
+"TF_ENGINEER_MANUAL_SENTRY_ABSORB_DMG_DESC"			"Have a sentry shielded by the Wrangler absorb 500 damage without being destroyed."
+"TF_ENGINEER_REVENGE_CRIT_LIFE_NAME"				"Unforgiven"
+"TF_ENGINEER_REVENGE_CRIT_LIFE_DESC"				"Kill 3 enemies with revenge crits without dying."
+"TF_ENGINEER_KILL_SPY_TWO_SAPPERS_NAME"				"Quick Draw"
+"TF_ENGINEER_KILL_SPY_TWO_SAPPERS_DESC"				"Kill a spy and two sappers within 10 seconds."
+"TF_ENGINEER_KILL_DISGUISED_SPY_NAME"				"The Wrench Connection"
+"TF_ENGINEER_KILL_DISGUISED_SPY_DESC"				"Kill a disguised spy with your Wrench."
+"TF_ENGINEER_UPGRADE_BUILDINGS_NAME"				"Silent Pardner"
+"TF_ENGINEER_UPGRADE_BUILDINGS_DESC"				"Upgrade 50 buildings built by other team members."
+"TF_ENGINEER_DESTROY_SAPPERS_NAME"				"Fistful of Sappers"
+"TF_ENGINEER_DESTROY_SAPPERS_DESC"				"Destroy 25 sappers on buildings built by other team members."
+"TF_ENGINEER_REPAIR_SENTRY_W_MEDIC_NAME"			"Doc, Stock, and Barrel"
+"TF_ENGINEER_REPAIR_SENTRY_W_MEDIC_DESC"			"Repair a sentry gun under fire while being healed by a Medic."
+"TF_ENGINEER_SENTRY_KILL_LIFETIME_GRIND_NAME"			"Best Little Slaughterhouse in Texas"
+"TF_ENGINEER_SENTRY_KILL_LIFETIME_GRIND_DESC"			"Rack up 5000 kills with your sentry guns."
+"TF_ENGINEER_SENTRY_AVENGES_YOU_NAME"				"Frontier Justice"
+"TF_ENGINEER_SENTRY_AVENGES_YOU_DESC"				"Have your sentry kill the enemy that just killed you within 10 seconds."
+"TF_ENGINEER_FREEZECAM_TAUNT_NAME"				"Six-String Stringer"
+"TF_ENGINEER_FREEZECAM_TAUNT_DESC"				"Provide an enemy player with a freeze cam of your guitar playing skills."
+"TF_ENGINEER_FREEZECAM_SENTRY_NAME"				"Uncivil Engineer"
+"TF_ENGINEER_FREEZECAM_SENTRY_DESC"				"Provide an enemy player with a freeze cam of you and the sentry that just killed them."
+"TF_ENGINEER_SHOTGUN_KILL_PREV_SENTRY_TARGET_NAME"		"Texas Two-Step"
+"TF_ENGINEER_SHOTGUN_KILL_PREV_SENTRY_TARGET_DESC"		"Use your shotgun to finish off an enemy recently damaged by your sentry gun."
+"TF_ENGINEER_DISPENSER_HEAL_GROUP_NAME"				"Doc Holiday"
+"TF_ENGINEER_DISPENSER_HEAL_GROUP_DESC"				"Have a dispenser heal 3 teammates at the same time."
+"TF_ENGINEER_SENTRY_KILL_CAPS_NAME"				"No Man's Land"
+"TF_ENGINEER_SENTRY_KILL_CAPS_DESC"				"Use a sentry gun to kill 25 enemy players that are capturing a point."
+"TF_ENGINEER_KILL_FLAG_CARRIERS_NAME"				"Trade Secrets"
+"TF_ENGINEER_KILL_FLAG_CARRIERS_DESC"				"Kill 20 players carrying the intelligence."
+"TF_ENGINEER_WASTE_METAL_GRIND_NAME"				"Death Metal"
+"TF_ENGINEER_WASTE_METAL_GRIND_DESC"				"Pick up 10,000 waste metal from pieces of destroyed buildings."
+"TF_ENGINEER_HELP_BUILD_STRUCTURE_NAME"				"Land Grab"
+"TF_ENGINEER_HELP_BUILD_STRUCTURE_DESC"				"Help a teammate construct a building."
+"TF_ENGINEER_REMOVE_SAPPER_LONG_DIST_NAME"			"Get Along!"
+"TF_ENGINEER_REMOVE_SAPPER_LONG_DIST_DESC"			"Manage to get to and then remove a sapper placed on your building while you were several meters away."
+"TF_ENGINEER_DESTROY_STICKIES_NAME"				"How the Pests Was Gunned"
+"TF_ENGINEER_DESTROY_STICKIES_DESC"				"Destroy 50 enemy stickybombs lying in range of friendly buildings."
+"TF_ENGINEER_TAUNT_KILL_NAME"					"Honky Tonk Man"
+"TF_ENGINEER_TAUNT_KILL_DESC"					"Smash an enemy player's head in with your guitar."
+"TF_ENGINEER_KILL_SNIPERS_SENTRY_NAME"				"Breaking Morant"
+"TF_ENGINEER_KILL_SNIPERS_SENTRY_DESC"				"Kill 10 Snipers with a sentry gun under control of your Wrangler."
+"TF_ENGINEER_HELP_MANUAL_SENTRY_NAME"				"Rio Grind"
+"TF_ENGINEER_HELP_MANUAL_SENTRY_DESC"				"Perform 50 repairs and/or reloads on a Sentry gun being Wrangled by another Engineer."
+"TF_ENGINEER_KILL_SENTRY_WITH_SENTRY_NAME"			"Patent Protection"
+"TF_ENGINEER_KILL_SENTRY_WITH_SENTRY_DESC"			"Destroy an enemy Engineer's sentry gun with a sentry under control of your Wrangler."
+"TF_ENGINEER_MOVE_SENTRY_GET_KILL_NAME"				"If You Build It, They Will Die"
+"TF_ENGINEER_MOVE_SENTRY_GET_KILL_DESC"				"Haul a level 3 sentry gun into a position where it achieves a kill shortly after being redeployed."
+"TF_ENGINEER_BUILDING_CARRY_NAME"				"Texas Ranger"
+"TF_ENGINEER_BUILDING_CARRY_DESC"				"Haul buildings 1 km over your career."
+"TF_ENGINEER_KILL_ASSIST_NAME"					"Deputized"
+"TF_ENGINEER_KILL_ASSIST_DESC"					"Get 10 assists with another Engineer where a sentry gun was involved in the kill."
+"TF_ENGINEER_DISPENSER_HEAL_GRIND_NAME"				"Drugstore Cowboy"
+"TF_ENGINEER_DISPENSER_HEAL_GRIND_DESC"				"Have dispensers you created dispense a combined amount of 100,000 health over your career."
+"TF_ENGINEER_REPAIR_TEAM_GRIND_NAME"				"Circle the Wagons"
+"TF_ENGINEER_REPAIR_TEAM_GRIND_DESC"				"Repair 50,000 damage to friendly buildings constructed by other players."
+"TF_ENGINEER_TANK_DAMAGE_NAME"					"Built to Last"
+"TF_ENGINEER_TANK_DAMAGE_DESC"					"Help a single building tank over 2000 damage without being destroyed."
+"TF_ENGINEER_HEAVY_ASSIST_NAME"					"(Not So) Lonely Are the Brave"
+"TF_ENGINEER_HEAVY_ASSIST_DESC"					"Keep a Heavy healed with your dispenser while he gains 5 kills."
+
 "round_info_header" 		"Territorial Control Map"
 
 "Hydro_BLU_captured_Dam" 		"BLU has captured the Dam"
@@ -2271,6 +2371,7 @@ Build teleporters to help team mates get to the front lines!"
 "ItemSel_PRIMARY_MOD"		"- PRIMARY WEAPON MOD"
 "ItemSel_HEAD"			"- HEADWEAR"
 "ItemSel_MISC"			"- MISC"
+"ItemSel_MISC2"			"- MISC 2"
 "TF_BackCarat"			"<< BACK"
 "TF_CancelCarat"		"<< CANCEL"
 "TF_BackToMainMenu"		"<< BACK TO MAIN MENU"
@@ -2393,6 +2494,10 @@ Build teleporters to help team mates get to the front lines!"
 "RI_W"					"weapon"
 "RI_Mcp"				"miscellaneous items"
 "RI_Mci"				"of the same misc items"
+"RI_Ii"					"item"
+"RI_I"					"Item"
+"RI_Nd"					"Named"
+"RI_c"					", "
 "RI_CTp"				"Class Tokens"
 "RI_STp"				"Slot Tokens"
 "RI_Tp"					"Tokens"
@@ -2544,7 +2649,7 @@ Build teleporters to help team mates get to the front lines!"
 "Attrib_AmmoRegen"						"+%s1% ammo regenerated every 5 seconds on wearer"
 "Attrib_MetalRegen"						"+%s1 metal regenerated every 5 seconds on wearer"
 "Attrib_RocketLauncherSeeker"			"Fires laser guided rockets"
-"Attrib_ShovelDamageBoost"			"Damage and move speed increase as the user becomes injured"
+"Attrib_ShovelDamageBoost"			"Damage and move speed increase\nas the user becomes injured\nBlocks healing when in use"
 "Attrib_Dmg_Falloff_Decreased"			"%s1% splash damage fall off"
 "Attrib_Dmg_Falloff_Increase"			"+%s1% splash damage fall off"
 "Attrib_StickyDetonateMode"			"Detonates stickybombs near the crosshair"
@@ -2554,7 +2659,7 @@ Build teleporters to help team mates get to the front lines!"
 "Attrib_MiniCritAirborneEnemies"		"Mini-crits airborne targets"
 "Attrib_StickiesDetonateStickies"		"Able to destroy enemy stickybombs"
 "Attrib_SpeedBoostWhenActive"			"%s1% speed boost while active weapon"
-"Attrib_WrenchNoUpgrades"			"Unable to upgrade objects"
+"Attrib_WrenchBuildsMiniSentry"			"Replaces the Sentry with a fast building Mini-Sentry"
 "Attrib_ProvideOnActive"			"When weapon is active:"
 "Attrib_MedicRegenBonus"			"+%s1% natural regen rate"
 "Attrib_MedicRegenPenalty"			"-%s1% natural regen rate"
@@ -2562,12 +2667,14 @@ Build teleporters to help team mates get to the front lines!"
 "Attrib_MedalIndex_Description"			"Medal no. %s1"
 "Attrib_RocketJumpDmgReduction"			"%s1% blast damage from rocket jumps"
 "Attrib_Selfmade_Description"			"I made this!"
+"Attrib_SentryKilledRevenge"			"When your sentry is destroyed you\ngain revenge crits for every sentry kill"
 "Attrib_DmgVsBuilding_Increased"		"%s1% damage vs buildings"
 "Attrib_DmgVsPlayer_Decreased"			"%s1% damage vs players"
 "Attrib_LunchboxAddsMaxHealth"			"Adds +50 max health for 30 seconds"
 "Attrib_EmployeeNumber"				"Hire Date: %s1"
 "Attrib_WrenchNumber"				"Wrench no. %s1"
 "Attrib_DmgAppliesToSappers"			"Damage removes Sappers"
+"Attrib_BuildingCostReduction"			"%s1 metal reduction in building cost"
 "Attrib_BleedingDuration"			"On Hit: Bleed for %s1 seconds"
 "Attrib_TurnToGold"				"Imbued with an ancient power"
 
@@ -2602,6 +2709,9 @@ Build teleporters to help team mates get to the front lines!"
 "TF_Unique_Achievement_Shield"		"Chargin' Targe" [$ENGLISH]
 "TF_Unique_Achievement_Sword" 		"Eyelander" [$ENGLISH]
 "TF_Unique_Blast_Boots"			"Gunboats" [$ENGLISH]
+"TF_Unique_Sentry_Shotgun"		"Frontier Justice" [$ENGLISH]
+"TF_Unique_Achievement_Laser_Pointer"	"Wrangler" [$ENGLISH]
+"TF_Unique_Robot_Arm"			"Gunslinger" [$ENGLISH]
 "TF_Unique_SledgeHammer"			"Homewrecker" [$ENGLISH]
 "TF_Unique_Makeshiftclub"			"Pain Train" [$ENGLISH]
 "TF_Unique_Lunchbox_Chocolate"		"Dalokohs Bar" [$ENGLISH]
@@ -2612,6 +2722,7 @@ Build teleporters to help team mates get to the front lines!"
 "TF_Unique_Golden_Wrench"			"Golden Wrench" [$ENGLISH]
 "TF_Unique_TribalmanKukri"			"Tribalman's Shiv" [$ENGLISH]
 "TF_Unique_BattleAxe"				"Scotsman's Skullcutter" [$ENGLISH]
+"TF_Unique_Combat_Wrench"			"Southern Hospitality" [$ENGLISH]
 
 // LOCALIZERS SHOULD TRANSLATE THIS BLOCK.
 "TF_Unique_Achievement_Medigun1"	"The Kritzkrieg" [$!ENGLISH]
@@ -2640,7 +2751,9 @@ Build teleporters to help team mates get to the front lines!"
 "TF_Unique_Achievement_Shield"		"The Chargin' Targe" [$!ENGLISH]
 "TF_Unique_Achievement_Sword" 		"The Eyelander" [$!ENGLISH]
 "TF_Unique_Blast_Boots"			"The Gunboats" [$!ENGLISH]
-
+"TF_Unique_Sentry_Shotgun"		"The Frontier Justice" [$!ENGLISH]
+"TF_Unique_Achievement_Laser_Pointer"	"The Wrangler" [$!ENGLISH]
+"TF_Unique_Robot_Arm"			"The Gunslinger" [$!ENGLISH]
 "TF_Unique_SledgeHammer"			"The Homewrecker" [$!ENGLISH]
 "TF_Unique_Lunchbox_Chocolate"		"The Dalokohs Bar" [$!ENGLISH]
 "TF_TTG_MaxGun"						"The Lugermorph" [$!ENGLISH]
@@ -2650,12 +2763,13 @@ Build teleporters to help team mates get to the front lines!"
 "TF_Unique_Golden_Wrench"			"The Golden Wrench" [$!ENGLISH]
 "TF_Unique_TribalmanKukri"			"The Tribalman's Shiv" [$!ENGLISH]
 "TF_Unique_BattleAxe"				"The Scotsman's Skullcutter" [$!ENGLISH]
+"TF_Unique_Combat_Wrench"			"The Southern Hospitality" [$!ENGLISH]
 
 //==========================================================================================
 
 
-"TF_Unique_Achievement_Sword_Desc"	"This weapon has a large melee range.\nGives increased speed and health with every head you take."
-"TF_Unique_Achievement_Shield_Desc"	"Alt-Fire: Gain increased attack power by charging toward your enemies."
+"TF_Unique_Achievement_Sword_Desc"	"This weapon has a large melee range.\nGives increased speed and health\nwith every head you take."
+"TF_Unique_Achievement_Shield_Desc"	"Alt-Fire: Gain increased attack power by\ncharging toward your enemies."
 "TF_Unique_EnergyDrink_CritCola_Desc" "While under the effects, damage done\nand damage taken will be mini-crits."
 
 "TF_TTG_MaxGun_Desc"				"The ultimate in semi-concealed weaponry.\nThere’s no question you need this gun,\nthe only question is: where will you keep it?"
@@ -2750,6 +2864,8 @@ Build teleporters to help team mates get to the front lines!"
 "TF_ServerNoSteamConn_Title"		"WARNING!"
 "TF_ServerNoSteamConn_Explanation"	"The server you are playing on has lost connection to Steam. As a result, your loadout will not be available on this server."
 
+"TF_UseGlowEffect"		"Use glow effect for Payload objectives."
+
 //----------------------------------------------------------------------------------------
 // TF2 MMO
 "TF_MMO_LFG"		"Looking For Group"
@@ -2792,11 +2908,11 @@ Build teleporters to help team mates get to the front lines!"
 "MMenu_RecentAchievements"		"Your recent achievements:"
 "MMenu_ViewAll"			"View All"
 
-"MMenu_Tooltip_Training"	"Training"
-"MMenu_Tooltip_NewUserForum"	"New User Forum"
-"MMenu_Tooltip_ReportBug"	"Report a Bug"
-"MMenu_Tooltip_MutePlayers"	"Mute Players"
-"MMenu_Tooltip_Commentary"	"Developer Commentary"
+"MMenu_Tooltip_Training"	  "Training"
+"MMenu_Tooltip_NewUserForum"  "New User Forum"
+"MMenu_Tooltip_ReportBug"	  "Report a Bug"
+"MMenu_Tooltip_MutePlayers"	  "Mute Players"
+"MMenu_Tooltip_Commentary"	  "Developer Commentary"
 
 "MMenu_MOTD_URL"			"READ MORE"
 "MMenu_MOTD_Show"			"MESSAGES"
@@ -2962,6 +3078,8 @@ Build teleporters to help team mates get to the front lines!"
 "TF_Training_Prompt_ConfirmButton"	"Yes Please!"
 "TF_Training_Prompt_CancelButton"	"No Thanks"
 
+// Training Dialog
+"TF_Training_Title"		"TRAINING"
 
 // Offline Practice
 "TF_OfflinePractice"		"OFFLINE PRACTICE"

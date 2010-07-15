@@ -1,32 +1,32 @@
 {
     "133": {
         "positive": [
-            "-75% obra\u017ce\u0144 od wybuchu podczas wystrza\u0142owych skok\u00f3w"
+            "-60% obra\u017ce\u0144 od wybuchu podczas wystrza\u0142owych skok\u00f3w"
         ], 
         "type": "Buty", 
-        "description": "Buty bojowe"
+        "description": "Kanonierki"
     }, 
     "132": {
         "alt": [
-            "Ta bro\u0144 ma du\u017cy zasi\u0119g podczas walki wr\u0119cz.\nZwi\u0119ksza szybko\u015b\u0107 i zdrowie z ka\u017cd\u0105 zdj\u0119t\u0105 g\u0142ow\u0105."
+            "Ta bro\u0144 ma du\u017cy zasi\u0119g podczas walki wr\u0119cz.\r\nZwi\u0119ksza szybko\u015b\u0107 i zdrowie z ka\u017cd\u0105 zdj\u0119t\u0105 g\u0142ow\u0105."
         ], 
         "type": "Miecz", 
         "negative": [
             "-25 maks. punkt\u00f3w zdrowia dla nosz\u0105cego", 
             "Bez losowych trafie\u0144 krytycznych"
         ], 
-        "description": "Eyelander"
+        "description": "Miecz dwur\u0119czny"
     }, 
     "131": {
         "positive": [
-            "+50% odporno\u015bci na obra\u017cenia (ogie\u0144) dla nosz\u0105cego", 
-            "+40% odporno\u015bci na obra\u017cenia (wybuch) dla nosz\u0105cego"
+            "+50% odporno\u015bci na obra\u017cenia od ognia dla nosz\u0105cego", 
+            "+40% odporno\u015bci na obra\u017cenia od wybuch\u00f3w dla nosz\u0105cego"
         ], 
         "alt": [
             "Alt-strza\u0142: Wi\u0119ksza si\u0142a ataku poprzez wykonanie szar\u017cy na wroga."
         ], 
         "type": "Tarcza", 
-        "description": "Tarcza szar\u017cy"
+        "description": "Tarcza Szar\u017cy"
     }, 
     "130": {
         "positive": [
@@ -35,44 +35,44 @@
             "Detonacja bomb samoprzylepnych przy celowniku", 
             "Mo\u017cliwo\u015b\u0107 niszczenia bomb samoprzylepnych"
         ], 
-        "type": "Wyrzutnia bomb klej\u0105cych", 
+        "type": "Wyrzutnia bomb samoprzylepnych", 
         "negative": [
-            "0.4 sek. wolniejsze uzbrajanie bomby"
+            "O 0.4 sek. wolniejsze uzbrajanie bomby"
         ], 
         "description": "Szkocki Op\u00f3r"
     }, 
     "137": {
         "type": "Hat", 
-        "description": "TF_NobleAmassment_Hat"
+        "description": "Zacna miara kapeluszy"
     }, 
     "136": {
         "alt": [
-            "TF_PropagandaContest_SecondPlace_Desc"
+            "Zdobywca drugiego miejsca, konkurs propagandowy"
         ], 
         "type": "Hat", 
-        "description": "TF_PropagandaContest_SecondPlace"
+        "description": "Piekielnie odjazdowy kapelusz Ambera"
     }, 
     "135": {
         "type": "Hat", 
-        "description": "TF_ToweringPillar_Hat"
+        "description": "Niebotyczny s\u0142up kapeluszy"
     }, 
     "134": {
         "alt": [
-            "TF_PropagandaContest_FirstPlace_Desc"
+            "Zdobywca pierwszego miejsca, konkurs propagandowy"
         ], 
         "type": "Hat", 
-        "description": "TF_PropagandaContest_FirstPlace"
+        "description": "Wytworny cylinder J.Axera"
     }, 
     "139": {
         "type": "Hat", 
-        "description": "TF_ModestPile_Hat"
+        "description": "Skromny stos kapelusza"
     }, 
     "138": {
         "alt": [
-            "TF_PropagandaContest_ThirdPlace_Desc"
+            "Zdobywca trzeciego miejsca, konkurs propagandowy"
         ], 
         "type": "Hat", 
-        "description": "TF_PropagandaContest_ThirdPlace"
+        "description": "Wujek Sam"
     }, 
     "24": {
         "type": "Rewolwer", 
@@ -91,8 +91,8 @@
         "description": "PDA"
     }, 
     "20": {
-        "type": "Wyrzutnia bomb klej\u0105cych", 
-        "description": "Wyrzutnia bomb klej\u0105cych"
+        "type": "Wyrzutnia bomb samoprzylepnych", 
+        "description": "Wyrzutnia bomb samoprzylepnych"
     }, 
     "21": {
         "type": "Miotacz ognia", 
@@ -108,7 +108,7 @@
     }, 
     "95": {
         "type": "Hat", 
-        "description": "Czapka Engineera"
+        "description": "Czapka In\u017cyniera"
     }, 
     "28": {
         "type": "PDA", 
@@ -136,34 +136,34 @@
     }, 
     "96": {
         "type": "Hat", 
-        "description": "Uszanka oficerska"
+        "description": "Uszanka oficera"
     }, 
     "120": {
         "type": "Hat", 
-        "description": "Szkocki cylinder"
+        "description": "Cylinder Szkota"
     }, 
     "121": {
         "type": "Medal", 
-        "description": "Medal Gentle Manne za zas\u0142ugi"
+        "description": "D\u017centelme\u0144ski medal za zas\u0142ugi"
     }, 
     "122": {
         "type": "Cheat Detector", 
-        "description": "Twoje konto zosta\u0142o zg\u0142oszone za omijanie systemu przyznawania przedmiot\u00f3w. Usun\u0119li\u015bmy nielegalnie zdobyte przedmioty.\n\nDalsze uchybienia spowoduj\u0105 usuni\u0119cie wszystkich Twoich przedmiot\u00f3w."
+        "description": "Twoje konto zosta\u0142o zg\u0142oszone za omijanie systemu przyznawania przedmiot\u00f3w. Usun\u0119li\u015bmy nielegalnie zdobyte przedmioty.\r\n\r\nDalsze uchybienia spowoduj\u0105 usuni\u0119cie wszystkich Twoich przedmiot\u00f3w."
     }, 
     "123": {
         "type": "Cheat Detector", 
-        "description": "Twoje konto zosta\u0142o zg\u0142oszone za omijanie systemu przyznawania przedmiot\u00f3w. Usun\u0119li\u015bmy wszystkie przedmioty z Twojego ekwipunku.\n\nDalsze uchybienia spowoduj\u0105 wy\u0142\u0105czenie konta."
+        "description": "Twoje konto zosta\u0142o zg\u0142oszone za omijanie systemu przyznawania przedmiot\u00f3w. Usun\u0119li\u015bmy wszystkie przedmioty z Twojego ekwipunku.\r\n\r\nDalsze uchybienia spowoduj\u0105 wy\u0142\u0105czenie konta."
     }, 
     "124": {
         "type": "Cheat Detector", 
-        "description": "Gratulujemy! Postanowili\u015bmy nagrodzi\u0107 Twoj\u0105 uczciwo\u015b\u0107, przyznaj\u0105c Ci nowy kapelusz!\n\n(Niekt\u00f3rzy gracze byli mniej uczciwi - nic mi\u0142ego ich nie spotka\u0142o)"
+        "description": "Gratulujemy! Postanowili\u015bmy nagrodzi\u0107 Twoj\u0105 uczciwo\u015b\u0107, przyznaj\u0105c Ci nowy kapelusz!\r\n\r\n(Niekt\u00f3rzy gracze byli mniej uczciwi - nic mi\u0142ego ich nie spotka\u0142o)"
     }, 
     "125": {
         "alt": [
             "%s1% zadanych obra\u017ce\u0144"
         ], 
         "type": "Aura nieprzekupno\u015bci", 
-        "description": "Lament cheatera"
+        "description": "Lament oszusta"
     }, 
     "126": {
         "type": "Beret weterana", 
@@ -171,7 +171,7 @@
     }, 
     "127": {
         "positive": [
-            "Mini-obra\u017cenia krytyczne dla cel\u00f3w w powietrzu", 
+            "Obra\u017cenia minikrytyczne dla cel\u00f3w w powietrzu", 
             "+25% do zadanych obra\u017ce\u0144", 
             "+80% do pr\u0119dko\u015bci pocisku"
         ], 
@@ -179,18 +179,18 @@
         "negative": [
             "-70% pola ra\u017cenia"
         ], 
-        "description": "Trafienie Bezpo\u015brednie"
+        "description": "Celny Strza\u0142"
     }, 
     "128": {
         "positive": [
             "Obra\u017cenia i pr\u0119dko\u015b\u0107 poruszania zwi\u0119kszaj\u0105 si\u0119 wraz z odnoszeniem ran"
         ], 
         "type": "Kilof", 
-        "description": "Equalizer"
+        "description": "Wyr\u00f3wnywacz"
     }, 
     "129": {
         "type": "Sztandar bitewny", 
-        "description": "Sztandar Leczenia"
+        "description": "Sztandar Chwa\u0142y"
     }, 
     "59": {
         "positive": [
@@ -203,18 +203,18 @@
         "negative": [
             "Tempo zu\u017cywania ukrycia: +60%"
         ], 
-        "description": "Dead Ringer"
+        "description": "Dzwon Zmar\u0142ego"
     }, 
     "58": {
         "alt": [
-            "Oblani otrzymuj\u0105 mini-obra\u017cenia\nPrzydatne do gaszenia p\u0142omieni"
+            "Oblani otrzymuj\u0105 obra\u017cenia minikrytyczne\r\nPrzydatne do gaszenia p\u0142omieni"
         ], 
-        "type": "Sikwondo", 
+        "type": "Taekwondo oparte na moczu", 
         "description": "Sikwondo"
     }, 
     "55": {
         "type": "Hat", 
-        "description": "Gustowny kapelusz"
+        "description": "Gustowna Fedora"
     }, 
     "54": {
         "type": "Hat", 
@@ -229,19 +229,19 @@
     }, 
     "56": {
         "type": "\u0141uk", 
-        "description": "Huntsman"
+        "description": "\u0141uk \u0142owcy"
     }, 
     "51": {
         "type": "Hat", 
-        "description": "Czapka Pyro"
+        "description": "Wirniczek Pyro"
     }, 
     "50": {
         "type": "Hat", 
-        "description": "Pruski he\u0142m"
+        "description": "Pruska pikielhauba"
     }, 
     "53": {
         "type": "Hat", 
-        "description": "Pas z trofeami"
+        "description": "Pas zdobyczy"
     }, 
     "52": {
         "type": "Hat", 
@@ -252,14 +252,14 @@
             "U\u017cywane na planach do okre\u015blenia klasy"
         ], 
         "type": "Przedmiot wytwarzany", 
-        "description": "Token klasy - Spy"
+        "description": "\u017beton klasy - Szpieg"
     }, 
     "5011": {
         "alt": [
             "U\u017cywane na planach do okre\u015blenia klasy"
         ], 
         "type": "Przedmiot wytwarzany", 
-        "description": "Token klasy - Engineer"
+        "description": "\u017beton klasy - In\u017cynier"
     }, 
     "5012": {
         "alt": [
@@ -323,7 +323,7 @@
     }, 
     "117": {
         "type": "Hat", 
-        "description": "Utrwalacz do w\u0142os\u00f3w Ritzy Rick"
+        "description": "Utrwalacz do w\u0142os\u00f3w ry\u017cawego Ry\u015bka"
     }, 
     "116": {
         "alt": [
@@ -334,7 +334,7 @@
     }, 
     "111": {
         "type": "Hat", 
-        "description": "Sportowa fryzura baseballisty"
+        "description": "Sportowy po\u0142ysk baseballowego Bogusia"
     }, 
     "110": {
         "type": "Hat", 
@@ -342,7 +342,7 @@
     }, 
     "118": {
         "type": "Hat", 
-        "description": "Teksa\u0144ska \u0142ysina"
+        "description": "B\u0142yszcz\u0105ca glaca teksa\u0144skiego Sta\u015bka"
     }, 
     "3": {
         "type": "Kukri", 
@@ -361,7 +361,7 @@
             "U\u017cywane na planach do okre\u015blenia klasy"
         ], 
         "type": "Przedmiot wytwarzany", 
-        "description": "Token klasy - Scout"
+        "description": "\u017beton klasy - Scout"
     }, 
     "5002": {
         "type": "Przedmiot wytwarzany", 
@@ -380,46 +380,46 @@
             "U\u017cywane na planach do okre\u015blenia klasy"
         ], 
         "type": "Przedmiot wytwarzany", 
-        "description": "Token klasy - Heavy"
+        "description": "\u017beton klasy - Gruby"
     }, 
     "5006": {
         "alt": [
             "U\u017cywane na planach do okre\u015blenia klasy"
         ], 
         "type": "Przedmiot wytwarzany", 
-        "description": "Token klasy - Demoman"
+        "description": "\u017beton klasy - Demoman"
     }, 
     "5005": {
         "alt": [
             "U\u017cywane na planach do okre\u015blenia klasy"
         ], 
         "type": "Przedmiot wytwarzany", 
-        "description": "Token klasy - Soldier"
+        "description": "\u017beton klasy - \u017bo\u0142nierz"
     }, 
     "5004": {
         "alt": [
             "U\u017cywane na planach do okre\u015blenia klasy"
         ], 
         "type": "Przedmiot wytwarzany", 
-        "description": "Token klasy - Sniper"
+        "description": "\u017beton klasy - Snajper"
     }, 
     "5009": {
         "alt": [
             "U\u017cywane na planach do okre\u015blenia klasy"
         ], 
         "type": "Przedmiot wytwarzany", 
-        "description": "Token klasy - Pyro"
+        "description": "\u017beton klasy - Pyro"
     }, 
     "5008": {
         "alt": [
             "U\u017cywane na planach do okre\u015blenia klasy"
         ], 
         "type": "Przedmiot wytwarzany", 
-        "description": "Token klasy - Medic"
+        "description": "\u017beton klasy - Medyk"
     }, 
     "108": {
         "type": "Hat", 
-        "description": "Melonik"
+        "description": "Melonik oszczercy"
     }, 
     "109": {
         "type": "Hat", 
@@ -443,7 +443,7 @@
     }, 
     "100": {
         "type": "Hat", 
-        "description": "Fura\u017cerka Glengarry"
+        "description": "Fura\u017cerka z Glengarry"
     }, 
     "101": {
         "type": "Hat", 
@@ -455,25 +455,25 @@
     }, 
     "107": {
         "type": "Hat", 
-        "description": "Czapka baker boy"
+        "description": "Czapka gazeciarza"
     }, 
     "104": {
         "type": "Hat", 
-        "description": "Lustro laryngologiczne"
+        "description": "Lustro otolaryngologa"
     }, 
     "105": {
         "type": "Hat", 
         "description": "He\u0142m stra\u017cacki"
     }, 
     "39": {
-        "type": "Rakietnica", 
-        "description": "Rakietnica"
+        "type": "Pistolet sygna\u0142owy", 
+        "description": "Pistolet sygna\u0142owy"
     }, 
     "38": {
         "positive": [
             "100% szansy na krytyczne trafienie p\u0142on\u0105cych graczy"
         ], 
-        "type": "Ognisty top\u00f3r", 
+        "type": "Top\u00f3r stra\u017cacki", 
         "negative": [
             "Brak krytycznych trafie\u0144 przy trafieniu niepodpalonych graczy", 
             "-50% obra\u017ce\u0144 przy trafieniu niepodpalonych graczy"
@@ -489,8 +489,8 @@
         "description": "Pi\u0142a do ko\u015bci"
     }, 
     "31": {
-        "type": "Rakietnica", 
-        "description": "Rakietnica"
+        "type": "Pistolet sygna\u0142owy", 
+        "description": "Pistolet sygna\u0142owy"
     }, 
     "30": {
         "type": "Zegarek niewidzialno\u015bci", 
@@ -504,7 +504,7 @@
         "negative": [
             "-20% wolniejszy strza\u0142"
         ], 
-        "description": "Ubersaw"
+        "description": "\u00dcberpi\u0142a"
     }, 
     "36": {
         "positive": [
@@ -538,7 +538,7 @@
             "Typ ukrycia: Wra\u017cliwe na ruch"
         ], 
         "type": "Zegarek niewidzialno\u015bci", 
-        "description": "Cloak and Dagger"
+        "description": "Peleryna No\u017cownika"
     }, 
     "61": {
         "positive": [
@@ -549,83 +549,89 @@
             "-15% zadanych obra\u017ce\u0144", 
             "-20% wolniejszy strza\u0142"
         ], 
-        "description": "Ambassador"
+        "description": "Ambasador"
     }, 
     "97": {
         "type": "Hat", 
-        "description": "Czapka twardziela"
+        "description": "Pomponik twardziela"
     }, 
     "179": {
         "type": "Hat", 
-        "description": "TF_DemomanTricorne"
+        "description": "Trikorn pijaka"
     }, 
     "178": {
         "type": "Hat", 
-        "description": "TF_EngineerEarmuffs"
+        "description": "Nauszniki ochronne"
     }, 
     "177": {
         "alt": [
-            "TF_MedicGoggles_Desc"
+            "One nic nie robi\u0105!"
         ], 
         "type": "Hat", 
-        "description": "TF_MedicGoggles"
+        "description": "G\u00f3gle"
     }, 
     "175": {
         "type": "Hat", 
-        "description": "TF_PyroMonocle"
+        "description": "W\u0105saty d\u017centelmen"
     }, 
     "174": {
         "type": "Hat", 
-        "description": "TF_ScoutWhoopee"
+        "description": "Czapka pierdziuszka"
     }, 
     "172": {
         "positive": [
             "+20% do zadanych obra\u017ce\u0144"
         ], 
-        "type": "TF_Weapon_Axe", 
+        "type": "Top\u00f3r stra\u017cacki", 
         "negative": [
             "15% wolniejsza pr\u0119dko\u015b\u0107 poruszania si\u0119 nosz\u0105cego"
         ], 
-        "description": "TF_Unique_BattleAxe"
+        "description": "Czerepo\u0142amacz Szkota"
     }, 
     "171": {
+        "positive": [
+            "Przy trafieniu: wykrwawianie przez 6 sekund"
+        ], 
         "type": "Kukri", 
         "negative": [
-            "-35% zadanych obra\u017ce\u0144"
+            "-50% zadanych obra\u017ce\u0144"
         ], 
-        "description": "TF_Unique_TribalmanKukri"
+        "description": "Plemienne ostrze"
     }, 
     "170": {
-        "type": "TF_Wearable_Badge", 
-        "description": "TF_Employee_Badge_Plat"
+        "alt": [
+            "Data zatrudnienia: %s1"
+        ], 
+        "type": "Odznaka", 
+        "description": "Prastary wojownik"
     }, 
     "182": {
         "type": "Hat", 
-        "description": "TF_PyroHelm"
+        "description": "Zabytek stra\u017caka"
     }, 
     "183": {
         "type": "Hat", 
-        "description": "TF_SoldierDrillHat"
+        "description": "Kapelusz instruktora musztry"
     }, 
     "180": {
         "type": "Hat", 
-        "description": "TF_SpyBeret"
+        "description": "Beret francuza"
     }, 
     "181": {
         "type": "Hat", 
-        "description": "TF_SniperFishingHat"
+        "description": "Ziomalska czapka w\u0119dkarska"
     }, 
     "184": {
         "type": "Hat", 
-        "description": "TF_MedicGatsby"
+        "description": "Czapka golfisty"
     }, 
     "6": {
-        "type": "\u0141opata", 
-        "description": "\u0141opata"
+        "type": "Saperka", 
+        "description": "Saperka"
     }, 
     "185": {
         "type": "Hat", 
-        "description": "TF_HeavyDorag"
+        "description": "Bandana Grubego"
     }, 
     "99": {
         "type": "Hat", 
@@ -640,64 +646,74 @@
         "description": "TF_Unique_Golden_Wrench"
     }, 
     "164": {
-        "type": "TF_Wearable_Badge", 
-        "description": "TF_Employee_Badge_A"
+        "alt": [
+            "Data zatrudnienia: %s1"
+        ], 
+        "type": "Odznaka", 
+        "description": "Weteran"
     }, 
     "165": {
-        "type": "TF_Wearable_Badge", 
-        "description": "TF_Employee_Badge_B"
+        "alt": [
+            "Data zatrudnienia: %s1"
+        ], 
+        "type": "Odznaka", 
+        "description": "\u0141owca g\u0142\u00f3w"
     }, 
     "166": {
-        "type": "TF_Wearable_Badge", 
-        "description": "TF_Employee_Badge_C"
+        "alt": [
+            "Data zatrudnienia: %s1"
+        ], 
+        "type": "Odznaka", 
+        "description": "Najemnik"
     }, 
     "160": {
         "alt": [
-            "TF_TTG_MaxGun_Desc"
+            "Ostateczno\u015b\u0107 w broni p\u00f3\u0142ukrytej.\r\nNie pytaj po co ci ona potrzebna,\r\nlecz zapytaj: gdzie j\u0105 b\u0119dziesz trzyma\u0142?"
         ], 
         "type": "Pistolet", 
-        "description": "TF_TTG_MaxGun"
+        "description": "Lugerczak"
     }, 
     "161": {
         "alt": [
-            "TF_TTG_SamRevolver_Desc"
+            "\u0141\u0105czy ze sob\u0105 styl i si\u0142\u0119 ra\u017cenia.\r\nNiegdy\u015b na wy\u0142\u0105czno\u015b\u0107 policji we Freelance,\r\nteraz dost\u0119pny dla innych krwio\u017cerczych najemnik\u00f3w."
         ], 
         "type": "Rewolwer", 
-        "description": "TF_TTG_SamRevolver"
+        "description": "Wielkie Zab\u00f3jstwo"
     }, 
     "162": {
         "alt": [
-            "TF_TTG_MaxsHat_Desc"
+            "Fachowo wykonane nakrycie g\u0142owy na filipi\u0144skich farmach\r\nbez przemocy. Futera\u0142 wydr\u0105\u017conej czaszki wch\u0142ania wilgo\u0107,\r\ngdy walczysz w pocie czo\u0142a."
         ], 
         "type": "Hat", 
-        "description": "TF_TTG_MaxsHat"
+        "description": "Zerwana g\u0142owa Maxa"
     }, 
     "163": {
         "alt": [
-            "TF_Unique_EnergyDrink_CritCola_Desc"
+            "Po wypiciu obra\u017cenia otrzymywane \r\noraz zadawane s\u0105 mini-krtyczne.", 
+            "Dodaje 50 do maksymalnego zdrowia na 30 sekund"
         ], 
         "type": "Pude\u0142ko \u015bniadaniowe", 
-        "description": "TF_Unique_EnergyDrink_CritCola"
+        "description": "Kryt-o-Cola"
     }, 
     "11": {
-        "type": "Strzelba.", 
-        "description": "Strzelba."
+        "type": "Strzelba", 
+        "description": "Strzelba"
     }, 
     "10": {
-        "type": "Strzelba.", 
-        "description": "Strzelba."
+        "type": "Strzelba", 
+        "description": "Strzelba"
     }, 
     "13": {
-        "type": "Scattergun", 
-        "description": "Scattergun"
+        "type": "Dubelt\u00f3wka", 
+        "description": "Dubelt\u00f3wka"
     }, 
     "12": {
-        "type": "Strzelba.", 
-        "description": "Strzelba."
+        "type": "Strzelba", 
+        "description": "Strzelba"
     }, 
     "15": {
-        "type": "Minidzia\u0142ko", 
-        "description": "Minidzia\u0142ko"
+        "type": "Minigun", 
+        "description": "Minigun"
     }, 
     "14": {
         "type": "Karabin snajperski", 
@@ -721,37 +737,58 @@
     }, 
     "151": {
         "type": "Hat", 
-        "description": "TF_PyroBrainSucker"
+        "description": "\u017belkus Gigantus"
     }, 
     "150": {
         "type": "Hat", 
-        "description": "TF_ScoutBeanie"
+        "description": "Czapka rozrabiaki"
     }, 
     "153": {
-        "type": "TF_Weapon_SledgeHammer", 
-        "description": "TF_Unique_SledgeHammer"
+        "positive": [
+            "Zadane obra\u017cenia niszcz\u0105 sapery", 
+            "100% obra\u017ce\u0144 przeciwko budowlom"
+        ], 
+        "type": "M\u0142ot kowalski", 
+        "negative": [
+            "-25% obra\u017ce\u0144 przeciwko graczom"
+        ], 
+        "description": "Burzyciel"
     }, 
     "152": {
         "type": "Hat", 
-        "description": "TF_SoldierSamurai"
+        "description": "Kabuto zab\u00f3jcy"
+    }, 
+    "155": {
+        "positive": [
+            "Przy trafieniu: wykrwawianie przez 5 sekund"
+        ], 
+        "type": "Klucz", 
+        "negative": [
+            "Bez losowych trafie\u0144 krytycznych", 
+            "20% podatno\u015bci na obra\u017cenia od ognia u nosz\u0105cego"
+        ], 
+        "description": "TF_Unique_Combat_Wrench"
     }, 
     "154": {
         "positive": [
             "+1 do tempa przej\u0119cia dla nosz\u0105cego"
         ], 
-        "type": "TF_Weapon_MakeshiftClub", 
+        "type": "Prowizoryczna pa\u0142ka", 
         "negative": [
-            "10% podatno\u015bci na obra\u017cenia (pociski) u nosz\u0105cego"
+            "10% podatno\u015bci na obra\u017cenia od pocisk\u00f3w u nosz\u0105cego"
         ], 
-        "description": "TF_Unique_Makeshiftclub"
+        "description": "Poci\u0105g do b\u00f3lu"
     }, 
     "159": {
+        "positive": [
+            "Dodaje 50 do maksymalnego zdrowia na 30 sekund"
+        ], 
         "type": "Pude\u0142ko \u015bniadaniowe", 
-        "description": "TF_Unique_Lunchbox_Chocolate"
+        "description": "Tabliczka Ladyczeko"
     }, 
     "158": {
         "type": "Hat", 
-        "description": "TF_SniperPithHelmet"
+        "description": "He\u0142m kolonialny strzelca"
     }, 
     "48": {
         "type": "Hat", 
@@ -763,7 +800,7 @@
     }, 
     "46": {
         "type": "Pude\u0142ko \u015bniadaniowe", 
-        "description": "Bonk! Atomowy kop"
+        "description": "Bonk! Atomowy Kop"
     }, 
     "47": {
         "type": "Hat", 
@@ -771,7 +808,7 @@
     }, 
     "44": {
         "positive": [
-            "Tym kijem baseballowym mo\u017cna wybi\u0107 gro\u017an\u0105 pi\u0142k\u0119 og\u0142uszaj\u0105c\u0105"
+            "Ten kij wybija pi\u0142k\u0119 og\u0142uszaj\u0105c\u0105"
         ], 
         "type": "Kij baseballowy", 
         "negative": [
@@ -785,12 +822,12 @@
             "+50% szybszy strza\u0142", 
             "+20% naboj\u00f3w na ka\u017cdy strza\u0142"
         ], 
-        "type": "Scattergun", 
+        "type": "Dubelt\u00f3wka", 
         "negative": [
             "-60% rozmiaru magazynka", 
             "-10% zadanych obra\u017ce\u0144"
         ], 
-        "description": "Si\u0142a wy\u017csza"
+        "description": "Si\u0142a Wy\u017csza"
     }, 
     "42": {
         "type": "Pude\u0142ko \u015bniadaniowe", 
@@ -804,7 +841,7 @@
         "negative": [
             "-20% wolniejszy strza\u0142"
         ], 
-        "description": "Zab\u00f3jcze r\u0119kawice bokserskie"
+        "description": "Zab\u00f3jcze R\u0119kawice Bokserskie"
     }, 
     "40": {
         "positive": [
@@ -822,7 +859,7 @@
         "positive": [
             "Przy trafieniu: 100% szansy na spowolnienie celu"
         ], 
-        "type": "Minidzia\u0142ko", 
+        "type": "Minigun", 
         "negative": [
             "-25% zadanych obra\u017ce\u0144"
         ], 
@@ -837,38 +874,63 @@
         "description": "Pi\u0119\u015bci"
     }, 
     "9": {
-        "type": "Strzelba.", 
-        "description": "Strzelba."
+        "type": "Strzelba", 
+        "description": "Strzelba"
     }, 
     "146": {
         "type": "Hat", 
-        "description": "TF_DemomanHallmark"
+        "description": "Wizyt\u00f3wka sutenera"
     }, 
     "147": {
         "type": "Hat", 
-        "description": "TF_SpyNobleHair"
+        "description": "Peruka s\u0119dziego"
     }, 
     "144": {
         "type": "Hat", 
-        "description": "TF_MedicMask"
+        "description": "Maska chirurgiczna lekarza"
     }, 
     "145": {
         "type": "Hat", 
-        "description": "TF_HeavyHair"
+        "description": "Hound Dog"
+    }, 
+    "142": {
+        "positive": [
+            "+25 maks. punkt\u00f3w zdrowia dla nosz\u0105cego"
+        ], 
+        "type": "TF_Weapon_Robot_Arm", 
+        "negative": [
+            "Bez losowych trafie\u0144 krytycznych"
+        ], 
+        "description": "TF_Unique_Robot_Arm"
     }, 
     "143": {
         "alt": [
-            "TF_OSXItem_Desc"
+            "Duma OSX!"
         ], 
         "type": "Hat", 
-        "description": "TF_OSXItem"
+        "description": "S\u0142uchawki"
+    }, 
+    "140": {
+        "alt": [
+            "TF_Wrangler_Desc"
+        ], 
+        "type": "TF_Weapon_Laser_Pointer", 
+        "description": "TF_Unique_Achievement_Laser_Pointer"
+    }, 
+    "141": {
+        "type": "Strzelba", 
+        "negative": [
+            "Bez losowych trafie\u0144 krytycznych", 
+            "-50% rozmiaru magazynka"
+        ], 
+        "description": "TF_Unique_Sentry_Shotgun"
     }, 
     "148": {
         "type": "Hat", 
-        "description": "TF_EngineerWeldingMask"
+        "description": "Maska spawacza"
     }, 
     "2": {
-        "type": "Ognisty top\u00f3r", 
-        "description": "Ognisty top\u00f3r"
+        "type": "Top\u00f3r stra\u017cacki", 
+        "description": "Top\u00f3r stra\u017cacki"
     }
 }

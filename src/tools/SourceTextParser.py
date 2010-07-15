@@ -1,4 +1,4 @@
-# $ANTLR 3.1.1 SourceText.g 2010-03-18 17:48:31
+# $ANTLR 3.1.1 SourceText.g 2010-07-15 10:57:33
 
 import sys
 from antlr3 import *
@@ -78,8 +78,8 @@ class SourceTextParser(Parser):
 
 
     # $ANTLR start "source_mapping"
-    # SourceText.g:15:1: source_mapping[value] : ( element[value] )* ;
-    def source_mapping(self, value):
+    # SourceText.g:9:1: source_mapping[m] : ( element[m] )* ;
+    def source_mapping(self, m):
 
         retval = self.source_mapping_return()
         retval.start = self.input.LT(1)
@@ -92,12 +92,12 @@ class SourceTextParser(Parser):
 
         try:
             try:
-                # SourceText.g:16:5: ( ( element[value] )* )
-                # SourceText.g:16:7: ( element[value] )*
+                # SourceText.g:10:5: ( ( element[m] )* )
+                # SourceText.g:10:7: ( element[m] )*
                 pass 
                 root_0 = self._adaptor.nil()
 
-                # SourceText.g:16:7: ( element[value] )*
+                # SourceText.g:10:7: ( element[m] )*
                 while True: #loop1
                     alt1 = 2
                     LA1_0 = self.input.LA(1)
@@ -107,10 +107,10 @@ class SourceTextParser(Parser):
 
 
                     if alt1 == 1:
-                        # SourceText.g:16:8: element[value]
+                        # SourceText.g:10:8: element[m]
                         pass 
-                        self._state.following.append(self.FOLLOW_element_in_source_mapping45)
-                        element1 = self.element(value)
+                        self._state.following.append(self.FOLLOW_element_in_source_mapping31)
+                        element1 = self.element(m)
 
                         self._state.following.pop()
                         self._adaptor.addChild(root_0, element1.tree)
@@ -152,8 +152,8 @@ class SourceTextParser(Parser):
 
 
     # $ANTLR start "element"
-    # SourceText.g:20:1: element[mapping] : ( item '{' ( element[n] )* '}' | i0= item i1= item );
-    def element(self, mapping):
+    # SourceText.g:14:1: element[d] : ( item '{' ( element[n] )* '}' | i0= item i1= item );
+    def element(self, d):
 
         retval = self.element_return()
         retval.start = self.input.LT(1)
@@ -176,7 +176,7 @@ class SourceTextParser(Parser):
 
         try:
             try:
-                # SourceText.g:21:5: ( item '{' ( element[n] )* '}' | i0= item i1= item )
+                # SourceText.g:15:5: ( item '{' ( element[n] )* '}' | i0= item i1= item )
                 alt3 = 2
                 LA3_0 = self.input.LA(1)
 
@@ -198,24 +198,24 @@ class SourceTextParser(Parser):
                     raise nvae
 
                 if alt3 == 1:
-                    # SourceText.g:21:9: item '{' ( element[n] )* '}'
+                    # SourceText.g:15:9: item '{' ( element[n] )* '}'
                     pass 
                     root_0 = self._adaptor.nil()
 
-                    self._state.following.append(self.FOLLOW_item_in_element69)
+                    self._state.following.append(self.FOLLOW_item_in_element55)
                     item2 = self.item()
 
                     self._state.following.pop()
                     self._adaptor.addChild(root_0, item2.tree)
                     #action start
-                    n = mapping[((item2 is not None) and [item2.value] or [None])[0]] = {} 
+                    n = d[((item2 is not None) and [item2.value] or [None])[0]] = dict() 
                     #action end
-                    char_literal3=self.match(self.input, 14, self.FOLLOW_14_in_element89)
+                    char_literal3=self.match(self.input, 14, self.FOLLOW_14_in_element60)
 
                     char_literal3_tree = self._adaptor.createWithPayload(char_literal3)
                     self._adaptor.addChild(root_0, char_literal3_tree)
 
-                    # SourceText.g:23:13: ( element[n] )*
+                    # SourceText.g:15:51: ( element[n] )*
                     while True: #loop2
                         alt2 = 2
                         LA2_0 = self.input.LA(1)
@@ -225,9 +225,9 @@ class SourceTextParser(Parser):
 
 
                         if alt2 == 1:
-                            # SourceText.g:23:14: element[n]
+                            # SourceText.g:15:52: element[n]
                             pass 
-                            self._state.following.append(self.FOLLOW_element_in_element92)
+                            self._state.following.append(self.FOLLOW_element_in_element63)
                             element4 = self.element(n)
 
                             self._state.following.pop()
@@ -238,7 +238,7 @@ class SourceTextParser(Parser):
                             break #loop2
 
 
-                    char_literal5=self.match(self.input, 15, self.FOLLOW_15_in_element97)
+                    char_literal5=self.match(self.input, 15, self.FOLLOW_15_in_element68)
 
                     char_literal5_tree = self._adaptor.createWithPayload(char_literal5)
                     self._adaptor.addChild(root_0, char_literal5_tree)
@@ -246,22 +246,22 @@ class SourceTextParser(Parser):
 
 
                 elif alt3 == 2:
-                    # SourceText.g:25:9: i0= item i1= item
+                    # SourceText.g:16:9: i0= item i1= item
                     pass 
                     root_0 = self._adaptor.nil()
 
-                    self._state.following.append(self.FOLLOW_item_in_element110)
+                    self._state.following.append(self.FOLLOW_item_in_element80)
                     i0 = self.item()
 
                     self._state.following.pop()
                     self._adaptor.addChild(root_0, i0.tree)
-                    self._state.following.append(self.FOLLOW_item_in_element114)
+                    self._state.following.append(self.FOLLOW_item_in_element84)
                     i1 = self.item()
 
                     self._state.following.pop()
                     self._adaptor.addChild(root_0, i1.tree)
                     #action start
-                    mapping[i0.value] = unicode(i1.value) 
+                    d[i0.value] = unicode(i1.value) 
                     #action end
 
 
@@ -295,7 +295,7 @@ class SourceTextParser(Parser):
 
 
     # $ANTLR start "item"
-    # SourceText.g:30:1: item returns [value] : s0= STRING ;
+    # SourceText.g:20:1: item returns [value] : STRING ;
     def item(self, ):
 
         retval = self.item_return()
@@ -303,24 +303,24 @@ class SourceTextParser(Parser):
 
         root_0 = None
 
-        s0 = None
+        STRING6 = None
 
-        s0_tree = None
+        STRING6_tree = None
 
         try:
             try:
-                # SourceText.g:31:5: (s0= STRING )
-                # SourceText.g:31:9: s0= STRING
+                # SourceText.g:21:5: ( STRING )
+                # SourceText.g:21:9: STRING
                 pass 
                 root_0 = self._adaptor.nil()
 
-                s0=self.match(self.input, STRING, self.FOLLOW_STRING_in_item150)
+                STRING6=self.match(self.input, STRING, self.FOLLOW_STRING_in_item110)
 
-                s0_tree = self._adaptor.createWithPayload(s0)
-                self._adaptor.addChild(root_0, s0_tree)
+                STRING6_tree = self._adaptor.createWithPayload(STRING6)
+                self._adaptor.addChild(root_0, STRING6_tree)
 
                 #action start
-                retval.value = s0.text[1:-1] 
+                retval.value = STRING6.text[1:-1] 
                 #action end
 
 
@@ -350,14 +350,14 @@ class SourceTextParser(Parser):
 
  
 
-    FOLLOW_element_in_source_mapping45 = frozenset([1, 4])
-    FOLLOW_item_in_element69 = frozenset([14])
-    FOLLOW_14_in_element89 = frozenset([4, 15])
-    FOLLOW_element_in_element92 = frozenset([4, 15])
-    FOLLOW_15_in_element97 = frozenset([1])
-    FOLLOW_item_in_element110 = frozenset([4])
-    FOLLOW_item_in_element114 = frozenset([1])
-    FOLLOW_STRING_in_item150 = frozenset([1])
+    FOLLOW_element_in_source_mapping31 = frozenset([1, 4])
+    FOLLOW_item_in_element55 = frozenset([14])
+    FOLLOW_14_in_element60 = frozenset([4, 15])
+    FOLLOW_element_in_element63 = frozenset([4, 15])
+    FOLLOW_15_in_element68 = frozenset([1])
+    FOLLOW_item_in_element80 = frozenset([4])
+    FOLLOW_item_in_element84 = frozenset([1])
+    FOLLOW_STRING_in_item110 = frozenset([1])
 
 
 

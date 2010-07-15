@@ -1,21 +1,21 @@
 {
     "133": {
         "positive": [
-            "-75% Explosionsschaden durch Raketenspr\u00fcnge"
+            "-60% Explosionsschaden durch Raketenspr\u00fcnge"
         ], 
         "type": "Stiefel", 
-        "description": "Die Raketenstiefel"
+        "description": "Gunboats"
     }, 
     "132": {
         "alt": [
-            "Diese Waffe hat eine weite Nahkampfreichweite.\nVerleiht erh\u00f6hte Geschwindigkeit und Gesundheit bei jedem Kill."
+            "Diese Waffe hat eine weite Nahkampfreichweite.\r\nVerleiht erh\u00f6hte Geschwindigkeit und Gesundheit bei jedem Kill."
         ], 
         "type": "Schwert", 
         "negative": [
             "-25\u00a0max. Gesundheit f\u00fcr Tr\u00e4ger", 
             "Keine zuf\u00e4lligen kritischen Treffer"
         ], 
-        "description": "Der Eil\u00e4nder"
+        "description": "Der Eyelander"
     }, 
     "131": {
         "positive": [
@@ -26,7 +26,7 @@
             "Alt-Feuer: Erhalten Sie erh\u00f6hte Angriffskraft durch Sturmangriff auf Feinde."
         ], 
         "type": "Schild", 
-        "description": "Der Angriffsschild"
+        "description": "Der Sturmschild"
     }, 
     "130": {
         "positive": [
@@ -43,36 +43,36 @@
     }, 
     "137": {
         "type": "Hat", 
-        "description": "TF_NobleAmassment_Hat"
+        "description": "Noble H\u00e4ufung von H\u00fcten"
     }, 
     "136": {
         "alt": [
-            "TF_PropagandaContest_SecondPlace_Desc"
+            "Zweiter Platz, Propaganda-Wettbewerb"
         ], 
         "type": "Hat", 
-        "description": "TF_PropagandaContest_SecondPlace"
+        "description": "Ambers h\u00f6llisch toller Hut"
     }, 
     "135": {
         "type": "Hat", 
-        "description": "TF_ToweringPillar_Hat"
+        "description": "Hochragende S\u00e4ule von H\u00fcten"
     }, 
     "134": {
         "alt": [
-            "TF_PropagandaContest_FirstPlace_Desc"
+            "Gewinner, Propaganda-Wettbewerb"
         ], 
         "type": "Hat", 
-        "description": "TF_PropagandaContest_FirstPlace"
+        "description": "J.Axers eleganter Zylinder"
     }, 
     "139": {
         "type": "Hat", 
-        "description": "TF_ModestPile_Hat"
+        "description": "Bescheidener Stapel eines Hutes"
     }, 
     "138": {
         "alt": [
-            "TF_PropagandaContest_ThirdPlace_Desc"
+            "Dritter Platz, Propaganda-Wettbewerb"
         ], 
         "type": "Hat", 
-        "description": "TF_PropagandaContest_ThirdPlace"
+        "description": "Onkel Sam"
     }, 
     "24": {
         "type": "Revolver", 
@@ -148,15 +148,15 @@
     }, 
     "122": {
         "type": "Cheat Detector", 
-        "description": "Es wurde festgestellt, dass \u00fcber Ihren Account das Objekt-Verteilungssystem umgangen wurde. Wir haben die Objekte entfernt, die Sie illegal erlangt haben.\n\nBei weiteren Verst\u00f6\u00dfen verlieren Sie all Ihre bisherigen Objekte."
+        "description": "Es wurde festgestellt, dass \u00fcber Ihren Account das Objekt-Verteilungssystem umgangen wurde. Wir haben die Objekte entfernt, die Sie illegal erlangt haben.\r\n\r\nBei weiteren Verst\u00f6\u00dfen verlieren Sie all Ihre bisherigen Objekte."
     }, 
     "123": {
         "type": "Cheat Detector", 
-        "description": "Es wurde festgestellt, dass \u00fcber Ihren Account das Objekt-Verteilungssystem umgangen wurde. Wir haben alle Objekte in Ihrem Inventar entfernt.\n\nBei weiteren Verst\u00f6\u00dfen wird Ihr Account unter Umst\u00e4nden deaktiviert."
+        "description": "Es wurde festgestellt, dass \u00fcber Ihren Account das Objekt-Verteilungssystem umgangen wurde. Wir haben alle Objekte in Ihrem Inventar entfernt.\r\n\r\nBei weiteren Verst\u00f6\u00dfen wird Ihr Account unter Umst\u00e4nden deaktiviert."
     }, 
     "124": {
         "type": "Cheat Detector", 
-        "description": "Herzlichen Gl\u00fcckwunsch! Ihre Ehrlichkeit wurde mit einem neuen Hut belohnt!\n\n(Einige Spieler hatten weniger Skrupel\u00a0\u2013 und weniger Gl\u00fcck!)"
+        "description": "Herzlichen Gl\u00fcckwunsch! Ihre Ehrlichkeit wurde mit einem neuen Hut belohnt!\r\n\r\n(Einige Spieler hatten weniger Skrupel\u00a0\u2013 und weniger Gl\u00fcck!)"
     }, 
     "125": {
         "alt": [
@@ -203,14 +203,14 @@
         "negative": [
             "Tarnverlustrate: +60%"
         ], 
-        "description": "Die Dead Ringer"
+        "description": "Der Dead Ringer"
     }, 
     "58": {
         "alt": [
-            "Getroffene Gegner erleiden kleine kritische Treffer\nAuch zum Feuerl\u00f6schen geeignet"
+            "Getroffene Gegner erleiden kleine kritische Treffer\r\nAuch zum Feuerl\u00f6schen geeignet"
         ], 
         "type": "Pulleralarm", 
-        "description": "Wurfglas"
+        "description": "Jarate"
     }, 
     "55": {
         "type": "Hat", 
@@ -467,7 +467,7 @@
     }, 
     "39": {
         "type": "Signalpistole", 
-        "description": "Signalpistole"
+        "description": "Die Signalpistole"
     }, 
     "38": {
         "positive": [
@@ -478,7 +478,7 @@
             "Keine kritischen Treffer bei nicht brennenden Spielern", 
             "-50%\u00a0Schaden bei nicht brennenden Spielern"
         ], 
-        "description": "Axtinator"
+        "description": "Der Axtinator"
     }, 
     "33": {
         "type": "Spritzen-MG", 
@@ -504,7 +504,7 @@
         "negative": [
             "-20%\u00a0niedrigere Schussfrequenz"
         ], 
-        "description": "\u00dcbers\u00e4ge"
+        "description": "Die \u00dcbers\u00e4ge"
     }, 
     "36": {
         "positive": [
@@ -514,7 +514,7 @@
         "negative": [
             "-2\u00a0Gesundheitsverlust pro Sekunde f\u00fcr Tr\u00e4ger"
         ], 
-        "description": "Blutsauger"
+        "description": "Der Blutsauger"
     }, 
     "35": {
         "positive": [
@@ -524,7 +524,7 @@
             "Immer kritische Treffer bei \u00dcberladung"
         ], 
         "type": "Medigun", 
-        "description": "Kritiker"
+        "description": "Die Kritzkrieg"
     }, 
     "34": {
         "type": "Medigun", 
@@ -538,7 +538,7 @@
             "Tarnungsart: Bewegungsempfindlich"
         ], 
         "type": "Unsichtbarkeitsuhr", 
-        "description": "Die Cloak and Dagger"
+        "description": "Der Cloak and Dagger"
     }, 
     "61": {
         "positive": [
@@ -557,7 +557,7 @@
     }, 
     "179": {
         "type": "Hat", 
-        "description": "TF_DemomanTricorne"
+        "description": "Dreispitz des S\u00e4ufers"
     }, 
     "178": {
         "type": "Hat", 
@@ -565,39 +565,45 @@
     }, 
     "177": {
         "alt": [
-            "TF_MedicGoggles_Desc"
+            "Nichts"
         ], 
         "type": "Hat", 
         "description": "TF_MedicGoggles"
     }, 
     "175": {
         "type": "Hat", 
-        "description": "TF_PyroMonocle"
+        "description": "Schnurrb\u00e4rtiger Gentleman"
     }, 
     "174": {
         "type": "Hat", 
-        "description": "TF_ScoutWhoopee"
+        "description": "Yippieh-Kappe"
     }, 
     "172": {
         "positive": [
             "+20%\u00a0zugef\u00fcgter Schaden"
         ], 
-        "type": "TF_Weapon_Axe", 
+        "type": "Axt", 
         "negative": [
             "15%\u00a0Geschwindigkeitsabzug f\u00fcr Tr\u00e4ger"
         ], 
-        "description": "TF_Unique_BattleAxe"
+        "description": "Der Schottische Sch\u00e4delspalter"
     }, 
     "171": {
+        "positive": [
+            "Bei Treffer: Bluten f\u00fcr 6 Sekunden"
+        ], 
         "type": "Kukri", 
         "negative": [
-            "-35%\u00a0zugef\u00fcgter Schaden"
+            "-50%\u00a0zugef\u00fcgter Schaden"
         ], 
-        "description": "TF_Unique_TribalmanKukri"
+        "description": "Messer des Stammesk\u00e4mpfers"
     }, 
     "170": {
-        "type": "TF_Wearable_Badge", 
-        "description": "TF_Employee_Badge_Plat"
+        "alt": [
+            "Einstellungsdatum: %s1"
+        ], 
+        "type": "Abzeichen", 
+        "description": "Urzeitkrieger"
     }, 
     "182": {
         "type": "Hat", 
@@ -636,45 +642,58 @@
         "description": "Edelstahltopf"
     }, 
     "169": {
+        "positive": [
+            "Erf\u00fcllt von einer alten Macht"
+        ], 
         "type": "Schraubenschl\u00fcssel", 
-        "description": "TF_Unique_Golden_Wrench"
+        "description": "Der Goldene Schraubenschl\u00fcssel"
     }, 
     "164": {
-        "type": "TF_Wearable_Badge", 
-        "description": "TF_Employee_Badge_A"
+        "alt": [
+            "Einstellungsdatum: %s1"
+        ], 
+        "type": "Abzeichen", 
+        "description": "Ergrauter Veteran"
     }, 
     "165": {
-        "type": "TF_Wearable_Badge", 
-        "description": "TF_Employee_Badge_B"
+        "alt": [
+            "Einstellungsdatum: %s1"
+        ], 
+        "type": "Abzeichen", 
+        "description": "Gl\u00fccksritter"
     }, 
     "166": {
-        "type": "TF_Wearable_Badge", 
-        "description": "TF_Employee_Badge_C"
+        "alt": [
+            "Einstellungsdatum: %s1"
+        ], 
+        "type": "Abzeichen", 
+        "description": "S\u00f6ldner"
     }, 
     "160": {
         "alt": [
             "TF_TTG_MaxGun_Desc"
         ], 
         "type": "Pistole", 
-        "description": "TF_TTG_MaxGun"
+        "description": "Lugermorph"
     }, 
     "161": {
         "alt": [
             "TF_TTG_SamRevolver_Desc"
         ], 
         "type": "Revolver", 
-        "description": "TF_TTG_SamRevolver"
+        "description": "Big Kill"
     }, 
     "162": {
         "alt": [
-            "TF_TTG_MaxsHat_Desc"
+            "Perfekt gearbeiteter Kopfschmuck von Betrieben ohne Tierqu\u00e4lerei\r\nauf den Philippinen. Der ausgeh\u00f6hlte Sch\u00e4del saugt\r\nin der Hitze des Gefechts Feutchtigkeit auf."
         ], 
         "type": "Hat", 
-        "description": "TF_TTG_MaxsHat"
+        "description": "Max' abgetrennter Kopf"
     }, 
     "163": {
         "alt": [
-            "TF_Unique_EnergyDrink_CritCola_Desc"
+            "W\u00e4hrend die Wirkung anh\u00e4lt sind verursachter\r\nund erlittener Schaden Mini-Crits.", 
+            "Erh\u00f6ht die maximalen Lebenspunkte f\u00fcr 30 Sekunden um +50"
         ], 
         "type": "Proviant", 
         "description": "TF_Unique_EnergyDrink_CritCola"
@@ -728,26 +747,47 @@
         "description": "TF_ScoutBeanie"
     }, 
     "153": {
-        "type": "TF_Weapon_SledgeHammer", 
-        "description": "TF_Unique_SledgeHammer"
+        "positive": [
+            "Schaden beseitigt Sapper", 
+            "100% Schaden gegen Geb\u00e4ude"
+        ], 
+        "type": "Vorschlaghammer", 
+        "negative": [
+            "-25% Schaden gegen Spieler"
+        ], 
+        "description": "Der Unruhestifter"
     }, 
     "152": {
         "type": "Hat", 
         "description": "TF_SoldierSamurai"
     }, 
+    "155": {
+        "positive": [
+            "Bei Treffer: Bluten f\u00fcr 5 Sekunden"
+        ], 
+        "type": "Schraubenschl\u00fcssel", 
+        "negative": [
+            "Keine zuf\u00e4lligen kritischen Treffer", 
+            "20%\u00a0Verwundbarkeit bei Feuer f\u00fcr Tr\u00e4ger"
+        ], 
+        "description": "TF_Unique_Combat_Wrench"
+    }, 
     "154": {
         "positive": [
             "+1\u00a0Eroberungsgeschwindigkeit f\u00fcr Tr\u00e4ger"
         ], 
-        "type": "TF_Weapon_MakeshiftClub", 
+        "type": "Aushilfskeule", 
         "negative": [
             "10%\u00a0Verwundbarkeit bei Kugeln f\u00fcr Tr\u00e4ger"
         ], 
-        "description": "TF_Unique_Makeshiftclub"
+        "description": "Pain Train"
     }, 
     "159": {
+        "positive": [
+            "Erh\u00f6ht die maximalen Lebenspunkte f\u00fcr 30 Sekunden um +50"
+        ], 
         "type": "Proviant", 
-        "description": "TF_Unique_Lunchbox_Chocolate"
+        "description": "Dalokohs Bar"
     }, 
     "158": {
         "type": "Hat", 
@@ -763,7 +803,7 @@
     }, 
     "46": {
         "type": "Proviant", 
-        "description": "Bonk! Energydrink"
+        "description": "Bonk! Atomic Punch"
     }, 
     "47": {
         "type": "Hat", 
@@ -777,7 +817,7 @@
         "negative": [
             "-15\u00a0max. Gesundheit f\u00fcr Tr\u00e4ger"
         ], 
-        "description": "Sandman"
+        "description": "Der Sandman"
     }, 
     "45": {
         "positive": [
@@ -790,11 +830,11 @@
             "-60%\u00a0Clipgr\u00f6\u00dfe", 
             "-10%\u00a0zugef\u00fcgter Schaden"
         ], 
-        "description": "Force-A-Nature"
+        "description": "Die Force-A-Nature"
     }, 
     "42": {
         "type": "Proviant", 
-        "description": "Sandvich"
+        "description": "Das Sandvich"
     }, 
     "43": {
         "positive": [
@@ -804,7 +844,7 @@
         "negative": [
             "-20%\u00a0niedrigere Schussfrequenz"
         ], 
-        "description": "Killer-Boxhandschuhe"
+        "description": "Die Killing Gloves of Boxing"
     }, 
     "40": {
         "positive": [
@@ -816,7 +856,7 @@
             "Keine zuf\u00e4lligen kritischen Treffer", 
             "Kein Kompressionsdruck"
         ], 
-        "description": "R\u00fcckenschmorer"
+        "description": "Der R\u00fcckenschmorer"
     }, 
     "41": {
         "positive": [
@@ -846,26 +886,51 @@
     }, 
     "147": {
         "type": "Hat", 
-        "description": "TF_SpyNobleHair"
+        "description": "Adelsperr\u00fccke"
     }, 
     "144": {
         "type": "Hat", 
-        "description": "TF_MedicMask"
+        "description": "Dr. Doktors OP-Maske"
     }, 
     "145": {
         "type": "Hat", 
         "description": "TF_HeavyHair"
     }, 
+    "142": {
+        "positive": [
+            "+25\u00a0max. Gesundheit f\u00fcr Tr\u00e4ger"
+        ], 
+        "type": "TF_Weapon_Robot_Arm", 
+        "negative": [
+            "Keine zuf\u00e4lligen kritischen Treffer"
+        ], 
+        "description": "TF_Unique_Robot_Arm"
+    }, 
     "143": {
         "alt": [
-            "TF_OSXItem_Desc"
+            "OS X Repr\u00e4sentant!"
         ], 
         "type": "Hat", 
-        "description": "TF_OSXItem"
+        "description": "Ohrensch\u00fctzer"
+    }, 
+    "140": {
+        "alt": [
+            "TF_Wrangler_Desc"
+        ], 
+        "type": "TF_Weapon_Laser_Pointer", 
+        "description": "TF_Unique_Achievement_Laser_Pointer"
+    }, 
+    "141": {
+        "type": "Schrotflinte", 
+        "negative": [
+            "Keine zuf\u00e4lligen kritischen Treffer", 
+            "-50%\u00a0Clipgr\u00f6\u00dfe"
+        ], 
+        "description": "TF_Unique_Sentry_Shotgun"
     }, 
     "148": {
         "type": "Hat", 
-        "description": "TF_EngineerWeldingMask"
+        "description": "Schwei\u00df-Maske"
     }, 
     "2": {
         "type": "Feueraxt", 

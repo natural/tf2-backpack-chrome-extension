@@ -1,0 +1,933 @@
+{
+    "133": {
+        "positive": [
+            "-60% pagube de la s\u0103rituri cu rachete"
+        ], 
+        "type": "Bocanci", 
+        "description": "Gunboats"
+    }, 
+    "132": {
+        "alt": [
+            "Aceast\u0103 arm\u0103 are o raz\u0103 de ac\u0163iune mai mare.\nM\u0103re\u015fte viteza \u015fi via\u0163a cu fiecare cap ob\u0163inut."
+        ], 
+        "type": "Sabie", 
+        "negative": [
+            "-25 via\u0163\u0103 maxim\u0103 pentru purt\u0103tor", 
+            "F\u0103r\u0103 lovituri criticale"
+        ], 
+        "description": "Eyelander"
+    }, 
+    "131": {
+        "positive": [
+            "+50% rezisten\u0163\u0103 la foc pentru purt\u0103tor", 
+            "+40% rezisten\u0163\u0103 la explozii pentru purt\u0103tor"
+        ], 
+        "alt": [
+            "Alt-Foc: Arma cre\u015fte \u00een putere odat\u0103 cu\n distan\u0163a parcurs\u0103 de \u015farj\u0103."
+        ], 
+        "type": "Scut de Spate", 
+        "description": "Chargin' Targe"
+    }, 
+    "130": {
+        "positive": [
+            "+50% muni\u0163ie secundar\u0103 maxim\u0103 pentru purt\u0103tor", 
+            "+6 max bombe \u00een teren", 
+            "Detoneaz\u0103 bombele lipicioase de l\u00e2ng\u0103 \u0163int\u0103", 
+            "Pot distruge bombele lipicioase ale inamicului"
+        ], 
+        "type": "Lansator Bombe", 
+        "negative": [
+            "0.4 sec vitez\u0103 mai mic\u0103 de armare a bombelor"
+        ], 
+        "description": "Scottish Resistance"
+    }, 
+    "137": {
+        "type": "Hat", 
+        "description": "Nobila Adunare de P\u0103l\u0103rii"
+    }, 
+    "136": {
+        "alt": [
+            "Locul 2, Concurs Propagand\u0103"
+        ], 
+        "type": "Hat", 
+        "description": "Amber's Rad As All Hell Hat"
+    }, 
+    "135": {
+        "type": "Hat", 
+        "description": "Turnul de P\u0103l\u0103rii"
+    }, 
+    "134": {
+        "alt": [
+            "C\u00e2\u015ftig\u0103tor, Concurs Propagand\u0103 "
+        ], 
+        "type": "Hat", 
+        "description": "J.Axer's Dapper Topper"
+    }, 
+    "139": {
+        "type": "Hat", 
+        "description": "Gr\u0103mada Modest\u0103 de P\u0103l\u0103rii"
+    }, 
+    "138": {
+        "alt": [
+            "Locul 3, Concurs Propagand\u0103"
+        ], 
+        "type": "Hat", 
+        "description": "Unchiul Sam"
+    }, 
+    "24": {
+        "type": "Revolver", 
+        "description": "Revolver"
+    }, 
+    "25": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "26": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "27": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "20": {
+        "type": "Lansator Bombe", 
+        "description": "Lansator Bombe"
+    }, 
+    "21": {
+        "type": "Arunc\u0103tor de Fl\u0103c\u0103ri", 
+        "description": "Arunc\u0103tor de Fl\u0103c\u0103ri"
+    }, 
+    "22": {
+        "type": "Pistol", 
+        "description": "Pistol"
+    }, 
+    "23": {
+        "type": "Pistol", 
+        "description": "Pistol"
+    }, 
+    "95": {
+        "type": "Hat", 
+        "description": "\u015eapca de CFR-ist"
+    }, 
+    "28": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "29": {
+        "type": "Vindec\u0103tor", 
+        "description": "Vindec\u0103tor"
+    }, 
+    "94": {
+        "type": "Hat", 
+        "description": "P\u0103l\u0103ria Texanului"
+    }, 
+    "0": {
+        "type": "B\u00e2t\u0103", 
+        "description": "B\u00e2t\u0103"
+    }, 
+    "4": {
+        "type": "Cu\u0163it", 
+        "description": "Cu\u0163it"
+    }, 
+    "8": {
+        "type": "Fier\u0103str\u0103u", 
+        "description": "Fier\u0103str\u0103u"
+    }, 
+    "96": {
+        "type": "Hat", 
+        "description": "C\u0103ciula Sovietului"
+    }, 
+    "120": {
+        "type": "Hat", 
+        "description": "Burlanul Sco\u0163ianului"
+    }, 
+    "121": {
+        "type": "Medalie", 
+        "description": "Medalia Gentle Manne"
+    }, 
+    "122": {
+        "type": "Cheat Detector", 
+        "description": "Contul dumneavoastr\u0103 a fost \u00eensemnat pentru tri\u015farea sistemului de distribuire a obiectelor. Obiectele ob\u0163inute ilegal au fost \u015fterse.\n\nViitoarele contraven\u0163ii duc la \u015ftergerea tuturor obiectelor."
+    }, 
+    "123": {
+        "type": "Cheat Detector", 
+        "description": "Contul dumneavoastr\u0103 a fost \u00eensemnat pentru tri\u015farea sistemului de distribuire a obiectelor. Toate obiectele au fost \u015fterse.\n\nViitoarele contraven\u0163ii duc la \u00eenchiderea contului."
+    }, 
+    "124": {
+        "type": "Cheat Detector", 
+        "description": "Felicit\u0103ri! Onestitatea dumneavoasta v-a adus o nou\u0103 p\u0103l\u0103rie!\n\n(Unii dintre ceilalti juc\u0103tori au fost mai pu\u0163in scrofulo\u015fi la datorie \u015fi au fost mai putin norocosi)"
+    }, 
+    "125": {
+        "alt": [
+            "%s1% mai pu\u0163ine pagube"
+        ], 
+        "type": "Aur\u0103 a Incoruptibilit\u0103\u0163ii", 
+        "description": "Coroana Sf\u00e2nt\u0103"
+    }, 
+    "126": {
+        "type": "Chipiul Veteranului", 
+        "description": "P\u0103l\u0103ria lui Bill"
+    }, 
+    "127": {
+        "positive": [
+            "\u0162intele \u00een aer primesc mini-crituri", 
+            "+25% mai multe pagube", 
+            "+80% raza de ac\u0163iune a proiectilelor"
+        ], 
+        "type": "Lansator Rachete", 
+        "negative": [
+            "-70% raza exploziei"
+        ], 
+        "description": "Direct Hit"
+    }, 
+    "128": {
+        "positive": [
+            "Daunele \u015fi viteza de mi\u015fcare devin din ce\n \u00een ce mai mari pe m\u0103sur\u0103 ce e\u015fti r\u0103nit"
+        ], 
+        "type": "T\u00e2rn\u0103cop", 
+        "description": "Equalizer"
+    }, 
+    "129": {
+        "type": "Steag de Lupta", 
+        "description": "Buff Banner"
+    }, 
+    "59": {
+        "positive": [
+            "+80% rata de regenerare a invizibilita\u0163ii"
+        ], 
+        "alt": [
+            "Tipul Invizibilit\u0103\u0163ii: Preface Moartea"
+        ], 
+        "type": "Ceas Invizibilitate", 
+        "negative": [
+            "+60% rata de desc\u0103rcare a invizibilita\u0163ii"
+        ], 
+        "description": "Dead Ringer"
+    }, 
+    "58": {
+        "alt": [
+            "Inamicii uzi primesc mini-criticale\nFolosit pentru a stinge incendii"
+        ], 
+        "type": "Borcan Bazat Pe Karate", 
+        "description": "Jarate"
+    }, 
+    "55": {
+        "type": "Hat", 
+        "description": "Fedora Aristocrat\u0103"
+    }, 
+    "54": {
+        "type": "Hat", 
+        "description": "Taina Soldatului"
+    }, 
+    "57": {
+        "positive": [
+            "Blocheaz\u0103 o singur\u0103 \u00eencercare de \u00eenjunghiere"
+        ], 
+        "type": "Scut de Spate", 
+        "description": "Razorback"
+    }, 
+    "56": {
+        "type": "Arc cu S\u0103ge\u0163i", 
+        "description": "Huntsman"
+    }, 
+    "51": {
+        "type": "Hat", 
+        "description": "\u015eepcu\u0163a Pyro-ului"
+    }, 
+    "50": {
+        "type": "Hat", 
+        "description": "Boneta Prusac\u0103"
+    }, 
+    "53": {
+        "type": "Hat", 
+        "description": "Centura Campionului"
+    }, 
+    "52": {
+        "type": "Hat", 
+        "description": "Casca B\u0103t\u0103u\u015fului"
+    }, 
+    "5010": {
+        "alt": [
+            "Folosit pentru a specifica o clas\u0103 \u00een schem\u0103"
+        ], 
+        "type": "Creeaz\u0103 Obiect", 
+        "description": "Jeton Clas\u0103 - Spy"
+    }, 
+    "5011": {
+        "alt": [
+            "Folosit pentru a specifica o clas\u0103 \u00een schem\u0103"
+        ], 
+        "type": "Creeaz\u0103 Obiect", 
+        "description": "Jeton Clas\u0103 - Engineer"
+    }, 
+    "5012": {
+        "alt": [
+            "Folosit pentru a specifica un slot \u00een schem\u0103"
+        ], 
+        "type": "Creeaz\u0103 Obiect", 
+        "description": "Jeton Slot - Primar"
+    }, 
+    "5013": {
+        "alt": [
+            "Folosit pentru a specifica un slot \u00een schem\u0103"
+        ], 
+        "type": "Creeaz\u0103 Obiect", 
+        "description": "Jeton Slot - Secundar"
+    }, 
+    "5014": {
+        "alt": [
+            "Folosit pentru a specifica un slot \u00een schem\u0103"
+        ], 
+        "type": "Creeaz\u0103 Obiect", 
+        "description": "Jeton Slot - Melee"
+    }, 
+    "5015": {
+        "alt": [
+            "Folosit pentru a specifica un slot \u00een schem\u0103"
+        ], 
+        "type": "Creeaz\u0103 Obiect", 
+        "description": "Jeton Slot - Grenad\u0103"
+    }, 
+    "5016": {
+        "alt": [
+            "Folosit pentru a specifica un slot \u00een schem\u0103"
+        ], 
+        "type": "Creeaz\u0103 Obiect", 
+        "description": "Jeton Slot - Construc\u0163ie"
+    }, 
+    "5017": {
+        "alt": [
+            "Folosit pentru a specifica un slot \u00een schem\u0103"
+        ], 
+        "type": "Creeaz\u0103 Obiect", 
+        "description": "Jeton Slot - PDA"
+    }, 
+    "5018": {
+        "alt": [
+            "Folosit pentru a specifica un slot \u00een schem\u0103"
+        ], 
+        "type": "Creeaz\u0103 Obiect", 
+        "description": "Jeton Slot - PDA2"
+    }, 
+    "5019": {
+        "alt": [
+            "Folosit pentru a specifica un slot \u00een schem\u0103"
+        ], 
+        "type": "Creeaz\u0103 Obiect", 
+        "description": "Jeton Slot - Cap"
+    }, 
+    "115": {
+        "type": "P\u0103l\u0103rie de S\u0103rb\u0103toare", 
+        "description": "Punga \u00censp\u0103im\u00e2nt\u0103toare de Halloween"
+    }, 
+    "117": {
+        "type": "Hat", 
+        "description": "Fixativul de P\u0103r a lui Ritzy Rick"
+    }, 
+    "116": {
+        "alt": [
+            "Pe ea sunt scrise ini\u0163ialele 'Z.M.'"
+        ], 
+        "type": "Hat", 
+        "description": "P\u0103l\u0103ria de Co\u015far"
+    }, 
+    "111": {
+        "type": "Hat", 
+        "description": "Cariera Str\u0103lucit\u0103 a Capului Descoperit"
+    }, 
+    "110": {
+        "type": "Hat", 
+        "description": "Centura de Rambo Galben\u0103"
+    }, 
+    "118": {
+        "type": "Hat", 
+        "description": "Domul Str\u0103lucitor din Texas"
+    }, 
+    "3": {
+        "type": "Kukri", 
+        "description": "Kukri"
+    }, 
+    "7": {
+        "type": "Cheie francez\u0103", 
+        "description": "Cheie francez\u0103"
+    }, 
+    "other_attributes": {
+        "133": "Medal no. %s1", 
+        "132": "Given to valuable Community Contributors"
+    }, 
+    "5003": {
+        "alt": [
+            "Folosit pentru a specifica o clas\u0103 \u00een schem\u0103"
+        ], 
+        "type": "Creeaz\u0103 Obiect", 
+        "description": "Jeton Clas\u0103 - Scout"
+    }, 
+    "5002": {
+        "type": "Creeaz\u0103 Obiect", 
+        "description": "Fier Rafinat"
+    }, 
+    "5001": {
+        "type": "Creeaz\u0103 Obiect", 
+        "description": "Fier Prelucrat"
+    }, 
+    "5000": {
+        "type": "Creeaz\u0103 Obiect", 
+        "description": "Fier Vechi"
+    }, 
+    "5007": {
+        "alt": [
+            "Folosit pentru a specifica o clas\u0103 \u00een schem\u0103"
+        ], 
+        "type": "Creeaz\u0103 Obiect", 
+        "description": "Jeton Clas\u0103 - Heavy"
+    }, 
+    "5006": {
+        "alt": [
+            "Folosit pentru a specifica o clas\u0103 \u00een schem\u0103"
+        ], 
+        "type": "Creeaz\u0103 Obiect", 
+        "description": "Jeton Clas\u0103 - Demoman"
+    }, 
+    "5005": {
+        "alt": [
+            "Folosit pentru a specifica o clas\u0103 \u00een schem\u0103"
+        ], 
+        "type": "Creeaz\u0103 Obiect", 
+        "description": "Jeton Clas\u0103 - Soldier"
+    }, 
+    "5004": {
+        "alt": [
+            "Folosit pentru a specifica o clas\u0103 \u00een schem\u0103"
+        ], 
+        "type": "Creeaz\u0103 Obiect", 
+        "description": "Jeton Clas\u0103 - Sniper"
+    }, 
+    "5009": {
+        "alt": [
+            "Folosit pentru a specifica o clas\u0103 \u00een schem\u0103"
+        ], 
+        "type": "Creeaz\u0103 Obiect", 
+        "description": "Jeton Clas\u0103 - Pyro"
+    }, 
+    "5008": {
+        "alt": [
+            "Folosit pentru a specifica o clas\u0103 \u00een schem\u0103"
+        ], 
+        "type": "Creeaz\u0103 Obiect", 
+        "description": "Jeton Clas\u0103 - Medic"
+    }, 
+    "108": {
+        "type": "Hat", 
+        "description": "P\u0103l\u0103ria Mafiotului"
+    }, 
+    "109": {
+        "type": "Hat", 
+        "description": "P\u0103l\u0103ria de Paie Profesional\u0103"
+    }, 
+    "9003": {
+        "positive": [
+            "Bans Steam account of players killed", 
+            "This item is not real and is only a joke."
+        ], 
+        "type": "Mallet of Banishment", 
+        "description": "Ban Hammer"
+    }, 
+    "102": {
+        "type": "Hat", 
+        "description": "M\u0103nu\u015fa de Plastic"
+    }, 
+    "103": {
+        "type": "Hat", 
+        "description": "Camera Foto din Barb\u0103"
+    }, 
+    "100": {
+        "type": "Hat", 
+        "description": "Boneta Glengarry"
+    }, 
+    "101": {
+        "type": "Hat", 
+        "description": "P\u0103l\u0103ria Bavarez\u0103"
+    }, 
+    "106": {
+        "type": "Hat", 
+        "description": "Casca cu Bonk"
+    }, 
+    "107": {
+        "type": "Hat", 
+        "description": "P\u0103l\u0103ria de Livr\u0103ri"
+    }, 
+    "104": {
+        "type": "Hat", 
+        "description": "Oglinda Ontologistului"
+    }, 
+    "105": {
+        "type": "Hat", 
+        "description": "Casca de Pompier"
+    }, 
+    "39": {
+        "type": "Pistol de Semnalizare", 
+        "description": "Flare Gun"
+    }, 
+    "38": {
+        "positive": [
+            "100% lovituri criticale \u00eempotriva juc\u0103torilor ce ard"
+        ], 
+        "type": "Topor", 
+        "negative": [
+            "F\u0103r\u0103 lovituri criticale \u00eempotriva juc\u0103torilor ce nu ard", 
+            "-50% pagube \u00eempotriva juc\u0103torilor ce nu ard"
+        ], 
+        "description": "Axtinguisher"
+    }, 
+    "33": {
+        "type": "Arm\u0103 cu Seringi", 
+        "description": "Arm\u0103 cu Seringi"
+    }, 
+    "32": {
+        "type": "Fier\u0103str\u0103u", 
+        "description": "Fier\u0103str\u0103u"
+    }, 
+    "31": {
+        "type": "Pistol de Semnalizare", 
+        "description": "Pistol de Semnalizare"
+    }, 
+    "30": {
+        "type": "Ceas Invizibilitate", 
+        "description": "Ceas Invizibilitate"
+    }, 
+    "37": {
+        "positive": [
+            "La Atingere: 25% mai mult \u00dcberCharge"
+        ], 
+        "type": "Fier\u0103str\u0103u", 
+        "negative": [
+            "-20% viteza de tragere mai mic\u0103"
+        ], 
+        "description": "Ubersaw"
+    }, 
+    "36": {
+        "positive": [
+            "La atingere: +3 mai mult\u0103 via\u0163\u0103"
+        ], 
+        "type": "Arm\u0103 cu Seringi", 
+        "negative": [
+            "-2 via\u0163\u0103 scurs\u0103 pe secund\u0103 pentru purt\u0103tor"
+        ], 
+        "description": "Blutsauger"
+    }, 
+    "35": {
+        "alt": [
+            "\u00dcberCharge garanteaz\u0103 100% \u015fanse criticale"
+        ], 
+        "type": "Vindec\u0103tor", 
+        "description": "Kritzkrieg"
+    }, 
+    "34": {
+        "type": "Vindec\u0103tor", 
+        "description": "Vindec\u0103tor"
+    }, 
+    "60": {
+        "positive": [
+            "+100% rata de regenerare a invizibilita\u0163ii"
+        ], 
+        "alt": [
+            "Tipul Invizibilit\u0103\u0163ii: Sensibil la Mi\u015fcare"
+        ], 
+        "type": "Ceas Invizibilitate", 
+        "description": "Cloak and Dagger"
+    }, 
+    "61": {
+        "positive": [
+            "Criticale pe o lovitur\u0103 la cap precis\u0103"
+        ], 
+        "type": "Revolver", 
+        "negative": [
+            "-15% mai pu\u0163ine pagube", 
+            "-20% viteza de tragere mai mic\u0103"
+        ], 
+        "description": "Ambassador"
+    }, 
+    "97": {
+        "type": "Hat", 
+        "description": "Fesul Durului"
+    }, 
+    "179": {
+        "type": "Hat", 
+        "description": "P\u0103l\u0103ria C\u0103pitanului"
+    }, 
+    "178": {
+        "type": "Hat", 
+        "description": "C\u0103\u015ftile de Protec\u0163ie"
+    }, 
+    "177": {
+        "alt": [
+            "Nimic"
+        ], 
+        "type": "Hat", 
+        "description": "Ochelarii de Protec\u0163ie"
+    }, 
+    "175": {
+        "type": "Hat", 
+        "description": "Gentleman-ul Must\u0103cios"
+    }, 
+    "174": {
+        "type": "Hat", 
+        "description": "Coroni\u0163a Fericirii"
+    }, 
+    "172": {
+        "positive": [
+            "+20% mai multe pagube"
+        ], 
+        "type": "Topor", 
+        "negative": [
+            "15% mai mic\u0103 vitez\u0103 de deplasare pentru purt\u0103tor"
+        ], 
+        "description": "TF_Unique_BattleAxe"
+    }, 
+    "171": {
+        "positive": [
+            "La Atingere: S\u00e2ngereaz\u0103 pentru 6 secunde"
+        ], 
+        "type": "Kukri", 
+        "negative": [
+            "-50% mai pu\u0163ine pagube"
+        ], 
+        "description": "TF_Unique_TribalmanKukri"
+    }, 
+    "170": {
+        "alt": [
+            "Angajat pe: %s1"
+        ], 
+        "type": "Insign\u0103", 
+        "description": "R\u0103zboinic Primordial"
+    }, 
+    "182": {
+        "type": "Hat", 
+        "description": "Casca de Pojarnic"
+    }, 
+    "183": {
+        "type": "Hat", 
+        "description": "P\u0103l\u0103ria Sergentului"
+    }, 
+    "180": {
+        "type": "Hat", 
+        "description": "Bereta Francezului"
+    }, 
+    "181": {
+        "type": "Hat", 
+        "description": "P\u0103l\u0103ria de Pescar"
+    }, 
+    "184": {
+        "type": "Hat", 
+        "description": "Gentleman-ul de la Livr\u0103ri"
+    }, 
+    "6": {
+        "type": "Lopat\u0103", 
+        "description": "Lopat\u0103"
+    }, 
+    "185": {
+        "type": "Hat", 
+        "description": "Bandana de Motociclist"
+    }, 
+    "99": {
+        "type": "Hat", 
+        "description": "Casca Tiranului"
+    }, 
+    "98": {
+        "type": "Hat", 
+        "description": "Oala de la Popot\u0103"
+    }, 
+    "169": {
+        "type": "Cheie francez\u0103", 
+        "description": "TF_Unique_Golden_Wrench"
+    }, 
+    "164": {
+        "alt": [
+            "Angajat pe: %s1"
+        ], 
+        "type": "Insign\u0103", 
+        "description": "Veteran"
+    }, 
+    "165": {
+        "alt": [
+            "Angajat pe: %s1"
+        ], 
+        "type": "Insign\u0103", 
+        "description": "Aventurier"
+    }, 
+    "166": {
+        "alt": [
+            "Angajat pe: %s1"
+        ], 
+        "type": "Insign\u0103", 
+        "description": "Mercenar"
+    }, 
+    "160": {
+        "alt": [
+            "TF_TTG_MaxGun_Desc"
+        ], 
+        "type": "Pistol", 
+        "description": "Lugermorph"
+    }, 
+    "161": {
+        "alt": [
+            "TF_TTG_SamRevolver_Desc"
+        ], 
+        "type": "Revolver", 
+        "description": "Big Kill"
+    }, 
+    "162": {
+        "alt": [
+            "TF_TTG_MaxsHat_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "Capul T\u0103iat a lui Max"
+    }, 
+    "163": {
+        "alt": [
+            "Sub efectul acestuia daunele provocate\n\u015fi cele primite vor fi mini-critcale.", 
+            "Adaug\u0103 +50 max via\u0163\u0103 pentru 30 de secunde"
+        ], 
+        "type": "Caset\u0103 cu M\u00e2ncare", 
+        "description": "TF_Unique_EnergyDrink_CritCola"
+    }, 
+    "11": {
+        "type": "Pu\u015fc\u0103", 
+        "description": "Pu\u015fc\u0103"
+    }, 
+    "10": {
+        "type": "Pu\u015fc\u0103", 
+        "description": "Pu\u015fc\u0103"
+    }, 
+    "13": {
+        "type": "Pu\u015fc\u0103 cu Alice", 
+        "description": "Pu\u015fc\u0103 cu Alice"
+    }, 
+    "12": {
+        "type": "Pu\u015fc\u0103", 
+        "description": "Pu\u015fc\u0103"
+    }, 
+    "15": {
+        "type": "Minigun", 
+        "description": "Minigun"
+    }, 
+    "14": {
+        "type": "Pu\u015fc\u0103 cu Luneta", 
+        "description": "Pu\u015fc\u0103 cu Luneta"
+    }, 
+    "17": {
+        "type": "Arm\u0103 cu Seringi", 
+        "description": "Arm\u0103 cu Seringi"
+    }, 
+    "16": {
+        "type": "Pistol Mitralier\u0103", 
+        "description": "Pistol Mitralier\u0103"
+    }, 
+    "19": {
+        "type": "Arunc\u0103tor Grenade", 
+        "description": "Arunc\u0103tor Grenade"
+    }, 
+    "18": {
+        "type": "Lansator Rachete", 
+        "description": "Lansator Rachete"
+    }, 
+    "151": {
+        "type": "Hat", 
+        "description": "Tiranul Nemilos"
+    }, 
+    "150": {
+        "type": "Hat", 
+        "description": "Fesul Golanului"
+    }, 
+    "153": {
+        "positive": [
+            "\u00cenl\u0103tur\u0103 Sabotoare", 
+            "100% pagube contra construc\u0163iilor"
+        ], 
+        "type": "Ciocan", 
+        "negative": [
+            "-25% pagube contra altor juc\u0103tori"
+        ], 
+        "description": "Homewrecker"
+    }, 
+    "152": {
+        "type": "Hat", 
+        "description": "Kabuto-ul Uciga\u015fului"
+    }, 
+    "155": {
+        "positive": [
+            "La Atingere: S\u00e2ngereaz\u0103 pentru 5 secunde"
+        ], 
+        "type": "Cheie francez\u0103", 
+        "negative": [
+            "F\u0103r\u0103 lovituri criticale", 
+            "20% vulnerabilitate la foc pentru purt\u0103tor"
+        ], 
+        "description": "TF_Unique_Combat_Wrench"
+    }, 
+    "154": {
+        "positive": [
+            "+1 rat\u0103 de capturare pentru purt\u0103tor"
+        ], 
+        "type": "B\u00e2t\u0103 Improvizat\u0103", 
+        "negative": [
+            "10% vulnerabilitate la gloan\u0163e pentru purt\u0103tor"
+        ], 
+        "description": "Pain Train"
+    }, 
+    "159": {
+        "positive": [
+            "Adaug\u0103 +50 max via\u0163\u0103 pentru 30 de secunde"
+        ], 
+        "type": "Caset\u0103 cu M\u00e2ncare", 
+        "description": "Dalokohs Bar"
+    }, 
+    "158": {
+        "type": "Hat", 
+        "description": "P\u0103l\u0103ria Braconierului"
+    }, 
+    "48": {
+        "type": "Hat", 
+        "description": "Casca de Miner"
+    }, 
+    "49": {
+        "type": "Hat", 
+        "description": "Casca de Fotbal"
+    }, 
+    "46": {
+        "type": "Caset\u0103 cu M\u00e2ncare", 
+        "description": "Bonk! Atomic Punch"
+    }, 
+    "47": {
+        "type": "Hat", 
+        "description": "Afro-Frizura Demomanului"
+    }, 
+    "44": {
+        "positive": [
+            "Aceast\u0103 b\u00e2t\u0103 lanseaz\u0103 o minge ce te n\u0103uce\u015fte."
+        ], 
+        "type": "B\u00e2t\u0103", 
+        "negative": [
+            "-15 via\u0163\u0103 maxim\u0103 pentru purt\u0103tor"
+        ], 
+        "description": "Sandman"
+    }, 
+    "45": {
+        "positive": [
+            "Aruncare pe spate a \u0163intei \u015fi \u0163inta\u015fului ", 
+            "+50% viteza de tragere mai mare", 
+            "+20% gloan\u0163e pe lovitur\u0103"
+        ], 
+        "type": "Pu\u015fc\u0103 cu Alice", 
+        "negative": [
+            "-60% mai pu\u0163ine gloan\u0163e", 
+            "-10% mai pu\u0163ine pagube"
+        ], 
+        "description": "Force-A-Nature"
+    }, 
+    "42": {
+        "type": "Caset\u0103 cu M\u00e2ncare", 
+        "description": "Sandvich"
+    }, 
+    "43": {
+        "positive": [
+            "La Omor: 5 secunde de 100% \u015fanse de criticale"
+        ], 
+        "type": "Pumni", 
+        "negative": [
+            "-20% viteza de tragere mai mic\u0103"
+        ], 
+        "description": "Killing Gloves of Boxing"
+    }, 
+    "40": {
+        "positive": [
+            "100% lovituri criticale din spate", 
+            "+14% mai multe pagube"
+        ], 
+        "type": "Arunc\u0103tor de Fl\u0103c\u0103ri", 
+        "negative": [
+            "F\u0103r\u0103 lovituri criticale", 
+            "F\u0103r\u0103 suflu de compresie"
+        ], 
+        "description": "Backburner"
+    }, 
+    "41": {
+        "positive": [
+            "La Atingere: 100% \u015fansa de a \u00eencetini \u0163inta"
+        ], 
+        "type": "Minigun", 
+        "negative": [
+            "-25% mai pu\u0163ine pagube"
+        ], 
+        "description": "Natascha"
+    }, 
+    "1": {
+        "type": "Sticl\u0103", 
+        "description": "Sticl\u0103"
+    }, 
+    "5": {
+        "type": "Pumni", 
+        "description": "Pumni"
+    }, 
+    "9": {
+        "type": "Pu\u015fc\u0103", 
+        "description": "Pu\u015fc\u0103"
+    }, 
+    "146": {
+        "type": "Hat", 
+        "description": "Marca Hustlerului"
+    }, 
+    "147": {
+        "type": "Hat", 
+        "description": "Peruca Judec\u0103torului"
+    }, 
+    "144": {
+        "type": "Hat", 
+        "description": "Masca de Chirurgie"
+    }, 
+    "145": {
+        "type": "Hat", 
+        "description": "Frizura Elvis"
+    }, 
+    "142": {
+        "positive": [
+            "+25 via\u0163\u0103 maxim\u0103 pentru purt\u0103tor"
+        ], 
+        "type": "TF_Weapon_Robot_Arm", 
+        "negative": [
+            "F\u0103r\u0103 lovituri criticale"
+        ], 
+        "description": "TF_Unique_Robot_Arm"
+    }, 
+    "143": {
+        "alt": [
+            "Reprezin\u0163i OSX!"
+        ], 
+        "type": "Hat", 
+        "description": "C\u0103\u015ftile"
+    }, 
+    "140": {
+        "alt": [
+            "TF_Wrangler_Desc"
+        ], 
+        "type": "TF_Weapon_Laser_Pointer", 
+        "description": "TF_Unique_Achievement_Laser_Pointer"
+    }, 
+    "141": {
+        "type": "Pu\u015fc\u0103", 
+        "negative": [
+            "F\u0103r\u0103 lovituri criticale", 
+            "-50% mai pu\u0163ine gloan\u0163e"
+        ], 
+        "description": "TF_Unique_Sentry_Shotgun"
+    }, 
+    "148": {
+        "type": "Hat", 
+        "description": "Masca de Sudur\u0103"
+    }, 
+    "2": {
+        "type": "Topor", 
+        "description": "Topor"
+    }
+}

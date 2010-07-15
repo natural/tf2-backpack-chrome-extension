@@ -1,4 +1,4 @@
-# $ANTLR 3.1.1 SourceText.g 2010-03-18 17:48:31
+# $ANTLR 3.1.1 SourceText.g 2010-07-15 10:57:33
 
 import sys
 from antlr3 import *
@@ -105,8 +105,8 @@ class SourceTextLexer(Lexer):
     def mCHAR(self, ):
 
         try:
-            # SourceText.g:35:14: (~ ( '\"' | '\\\\' ) )
-            # SourceText.g:35:16: ~ ( '\"' | '\\\\' )
+            # SourceText.g:25:14: (~ ( '\"' | '\\\\' ) )
+            # SourceText.g:25:16: ~ ( '\"' | '\\\\' )
             pass 
             if (0 <= self.input.LA(1) <= 33) or (35 <= self.input.LA(1) <= 91) or (93 <= self.input.LA(1) <= 65535):
                 self.input.consume()
@@ -131,7 +131,7 @@ class SourceTextLexer(Lexer):
     def mLETTER(self, ):
 
         try:
-            # SourceText.g:37:5: ( '\\u0024' | '\\u0041' .. '\\u005a' | '\\u005f' | '\\u0061' .. '\\u007a' | '\\u00c0' .. '\\u00d6' | '\\u00d8' .. '\\u00f6' | '\\u00f8' .. '\\u00ff' | '\\u0100' .. '\\u1fff' | '\\u3040' .. '\\u318f' | '\\u3300' .. '\\u337f' | '\\u3400' .. '\\u3d2d' | '\\u4e00' .. '\\u9fff' | '\\uf900' .. '\\ufaff' | '\\u0030' .. '\\u0039' | '\\u0660' .. '\\u0669' | '\\u06f0' .. '\\u06f9' | '\\u0966' .. '\\u096f' | '\\u09e6' .. '\\u09ef' | '\\u0a66' .. '\\u0a6f' | '\\u0ae6' .. '\\u0aef' | '\\u0b66' .. '\\u0b6f' | '\\u0be7' .. '\\u0bef' | '\\u0c66' .. '\\u0c6f' | '\\u0ce6' .. '\\u0cef' | '\\u0d66' .. '\\u0d6f' | '\\u0e50' .. '\\u0e59' | '\\u0ed0' .. '\\u0ed9' | '\\u1040' .. '\\u1049' )
+            # SourceText.g:27:5: ( '\\u0024' | '\\u0041' .. '\\u005a' | '\\u005f' | '\\u0061' .. '\\u007a' | '\\u00c0' .. '\\u00d6' | '\\u00d8' .. '\\u00f6' | '\\u00f8' .. '\\u00ff' | '\\u0100' .. '\\u1fff' | '\\u3040' .. '\\u318f' | '\\u3300' .. '\\u337f' | '\\u3400' .. '\\u3d2d' | '\\u4e00' .. '\\u9fff' | '\\uf900' .. '\\ufaff' | '\\u0030' .. '\\u0039' | '\\u0660' .. '\\u0669' | '\\u06f0' .. '\\u06f9' | '\\u0966' .. '\\u096f' | '\\u09e6' .. '\\u09ef' | '\\u0a66' .. '\\u0a6f' | '\\u0ae6' .. '\\u0aef' | '\\u0b66' .. '\\u0b6f' | '\\u0be7' .. '\\u0bef' | '\\u0c66' .. '\\u0c6f' | '\\u0ce6' .. '\\u0cef' | '\\u0d66' .. '\\u0d6f' | '\\u0e50' .. '\\u0e59' | '\\u0ed0' .. '\\u0ed9' | '\\u1040' .. '\\u1049' )
             # SourceText.g:
             pass 
             if self.input.LA(1) == 36 or (48 <= self.input.LA(1) <= 57) or (65 <= self.input.LA(1) <= 90) or self.input.LA(1) == 95 or (97 <= self.input.LA(1) <= 122) or (192 <= self.input.LA(1) <= 214) or (216 <= self.input.LA(1) <= 246) or (248 <= self.input.LA(1) <= 8191) or (12352 <= self.input.LA(1) <= 12687) or (13056 <= self.input.LA(1) <= 13183) or (13312 <= self.input.LA(1) <= 15661) or (19968 <= self.input.LA(1) <= 40959) or (63744 <= self.input.LA(1) <= 64255):
@@ -157,7 +157,7 @@ class SourceTextLexer(Lexer):
     def mEscapeSequence(self, ):
 
         try:
-            # SourceText.g:69:5: ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\\\"' | '\\'' | '\\\\' ) | UnicodeEscape )
+            # SourceText.g:59:5: ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\\\"' | '\\'' | '\\\\' ) | UnicodeEscape )
             alt1 = 2
             LA1_0 = self.input.LA(1)
 
@@ -179,7 +179,7 @@ class SourceTextLexer(Lexer):
                 raise nvae
 
             if alt1 == 1:
-                # SourceText.g:69:9: '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\\\"' | '\\'' | '\\\\' )
+                # SourceText.g:59:9: '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\\\"' | '\\'' | '\\\\' )
                 pass 
                 self.match(92)
                 if self.input.LA(1) == 34 or self.input.LA(1) == 39 or self.input.LA(1) == 92 or self.input.LA(1) == 98 or self.input.LA(1) == 102 or self.input.LA(1) == 110 or self.input.LA(1) == 114 or self.input.LA(1) == 116:
@@ -192,7 +192,7 @@ class SourceTextLexer(Lexer):
 
 
             elif alt1 == 2:
-                # SourceText.g:70:9: UnicodeEscape
+                # SourceText.g:60:9: UnicodeEscape
                 pass 
                 self.mUnicodeEscape()
 
@@ -210,8 +210,8 @@ class SourceTextLexer(Lexer):
     def mUnicodeEscape(self, ):
 
         try:
-            # SourceText.g:74:5: ( '\\\\' 'u' HexDigit HexDigit HexDigit HexDigit )
-            # SourceText.g:74:9: '\\\\' 'u' HexDigit HexDigit HexDigit HexDigit
+            # SourceText.g:64:5: ( '\\\\' 'u' HexDigit HexDigit HexDigit HexDigit )
+            # SourceText.g:64:9: '\\\\' 'u' HexDigit HexDigit HexDigit HexDigit
             pass 
             self.match(92)
             self.match(117)
@@ -235,8 +235,8 @@ class SourceTextLexer(Lexer):
     def mHexDigit(self, ):
 
         try:
-            # SourceText.g:78:5: ( ( '0' .. '9' | 'a' .. 'f' | 'A' .. 'F' ) )
-            # SourceText.g:78:7: ( '0' .. '9' | 'a' .. 'f' | 'A' .. 'F' )
+            # SourceText.g:68:5: ( ( '0' .. '9' | 'a' .. 'f' | 'A' .. 'F' ) )
+            # SourceText.g:68:7: ( '0' .. '9' | 'a' .. 'f' | 'A' .. 'F' )
             pass 
             if (48 <= self.input.LA(1) <= 57) or (65 <= self.input.LA(1) <= 70) or (97 <= self.input.LA(1) <= 102):
                 self.input.consume()
@@ -264,8 +264,8 @@ class SourceTextLexer(Lexer):
             _type = WS
             _channel = DEFAULT_CHANNEL
 
-            # SourceText.g:83:3: ( ( ' ' | '\\r' | '\\t' | '\\u000C' | '\\n' ) )
-            # SourceText.g:83:5: ( ' ' | '\\r' | '\\t' | '\\u000C' | '\\n' )
+            # SourceText.g:73:3: ( ( ' ' | '\\r' | '\\t' | '\\u000C' | '\\n' ) )
+            # SourceText.g:73:5: ( ' ' | '\\r' | '\\t' | '\\u000C' | '\\n' )
             pass 
             if (9 <= self.input.LA(1) <= 10) or (12 <= self.input.LA(1) <= 13) or self.input.LA(1) == 32:
                 self.input.consume()
@@ -298,11 +298,11 @@ class SourceTextLexer(Lexer):
             _type = STRING
             _channel = DEFAULT_CHANNEL
 
-            # SourceText.g:85:5: ( '\"' ( EscapeSequence | ~ ( '\\\\' | '\"' ) )* '\"' )
-            # SourceText.g:85:7: '\"' ( EscapeSequence | ~ ( '\\\\' | '\"' ) )* '\"'
+            # SourceText.g:75:5: ( '\"' ( EscapeSequence | ~ ( '\\\\' | '\"' ) )* '\"' )
+            # SourceText.g:75:7: '\"' ( EscapeSequence | ~ ( '\\\\' | '\"' ) )* '\"'
             pass 
             self.match(34)
-            # SourceText.g:85:11: ( EscapeSequence | ~ ( '\\\\' | '\"' ) )*
+            # SourceText.g:75:11: ( EscapeSequence | ~ ( '\\\\' | '\"' ) )*
             while True: #loop2
                 alt2 = 3
                 LA2_0 = self.input.LA(1)
@@ -314,13 +314,13 @@ class SourceTextLexer(Lexer):
 
 
                 if alt2 == 1:
-                    # SourceText.g:85:12: EscapeSequence
+                    # SourceText.g:75:12: EscapeSequence
                     pass 
                     self.mEscapeSequence()
 
 
                 elif alt2 == 2:
-                    # SourceText.g:85:29: ~ ( '\\\\' | '\"' )
+                    # SourceText.g:75:29: ~ ( '\\\\' | '\"' )
                     pass 
                     if (0 <= self.input.LA(1) <= 33) or (35 <= self.input.LA(1) <= 91) or (93 <= self.input.LA(1) <= 65535):
                         self.input.consume()
@@ -357,11 +357,11 @@ class SourceTextLexer(Lexer):
             _type = COMMENT
             _channel = DEFAULT_CHANNEL
 
-            # SourceText.g:91:5: ( '/*' ( options {greedy=false; } : . )* '*/' )
-            # SourceText.g:91:7: '/*' ( options {greedy=false; } : . )* '*/'
+            # SourceText.g:81:5: ( '/*' ( options {greedy=false; } : . )* '*/' )
+            # SourceText.g:81:7: '/*' ( options {greedy=false; } : . )* '*/'
             pass 
             self.match("/*")
-            # SourceText.g:91:12: ( options {greedy=false; } : . )*
+            # SourceText.g:81:12: ( options {greedy=false; } : . )*
             while True: #loop3
                 alt3 = 2
                 LA3_0 = self.input.LA(1)
@@ -380,7 +380,7 @@ class SourceTextLexer(Lexer):
 
 
                 if alt3 == 1:
-                    # SourceText.g:91:39: .
+                    # SourceText.g:81:39: .
                     pass 
                     self.matchAny()
 
@@ -414,7 +414,7 @@ class SourceTextLexer(Lexer):
             _type = LINECOMMENT
             _channel = DEFAULT_CHANNEL
 
-            # SourceText.g:95:5: ( '//' (~ ( LT ) )* | '[$' ( CHAR )* )
+            # SourceText.g:85:5: ( '//' (~ ( LT ) )* | '[$' ( CHAR )* )
             alt6 = 2
             LA6_0 = self.input.LA(1)
 
@@ -428,10 +428,10 @@ class SourceTextLexer(Lexer):
                 raise nvae
 
             if alt6 == 1:
-                # SourceText.g:95:7: '//' (~ ( LT ) )*
+                # SourceText.g:85:7: '//' (~ ( LT ) )*
                 pass 
                 self.match("//")
-                # SourceText.g:95:12: (~ ( LT ) )*
+                # SourceText.g:85:12: (~ ( LT ) )*
                 while True: #loop4
                     alt4 = 2
                     LA4_0 = self.input.LA(1)
@@ -441,7 +441,7 @@ class SourceTextLexer(Lexer):
 
 
                     if alt4 == 1:
-                        # SourceText.g:95:12: ~ ( LT )
+                        # SourceText.g:85:12: ~ ( LT )
                         pass 
                         if (0 <= self.input.LA(1) <= 9) or (11 <= self.input.LA(1) <= 12) or (14 <= self.input.LA(1) <= 8231) or (8234 <= self.input.LA(1) <= 65535):
                             self.input.consume()
@@ -462,10 +462,10 @@ class SourceTextLexer(Lexer):
 
 
             elif alt6 == 2:
-                # SourceText.g:96:7: '[$' ( CHAR )*
+                # SourceText.g:86:7: '[$' ( CHAR )*
                 pass 
                 self.match("[$")
-                # SourceText.g:96:12: ( CHAR )*
+                # SourceText.g:86:12: ( CHAR )*
                 while True: #loop5
                     alt5 = 2
                     LA5_0 = self.input.LA(1)
@@ -475,7 +475,7 @@ class SourceTextLexer(Lexer):
 
 
                     if alt5 == 1:
-                        # SourceText.g:96:12: CHAR
+                        # SourceText.g:86:12: CHAR
                         pass 
                         self.mCHAR()
 
@@ -507,7 +507,7 @@ class SourceTextLexer(Lexer):
             _type = LT
             _channel = DEFAULT_CHANNEL
 
-            # SourceText.g:100:5: ( '\\n' | '\\r' | '\\u2028' | '\\u2029' )
+            # SourceText.g:90:5: ( '\\n' | '\\r' | '\\u2028' | '\\u2029' )
             # SourceText.g:
             pass 
             if self.input.LA(1) == 10 or self.input.LA(1) == 13 or (8232 <= self.input.LA(1) <= 8233):

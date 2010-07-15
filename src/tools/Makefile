@@ -36,4 +36,3 @@ SourceTextParser.py: SourceText.g
 
 clean:
 	@rm -f SourceTextLexer.py SourceTextParser.py SourceText.tokens
-

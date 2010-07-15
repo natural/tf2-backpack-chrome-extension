@@ -165,12 +165,12 @@ def translate_extras(extras, target_lang, source_lang='en'):
 	try:
 	    t = google_translate(source_lang, target_lang, mask_subs(text))
 	except:
-	    print '## translation exception'
+	    print >> sys.stderr, '## translation exception'
 	    return text
 	try:
 	    v = t["sentences"][0]["trans"]
 	except:
-	    print '## no translation', target_lang, source_lang, t
+	    print >> sys.stderr, '## no translation', target_lang, source_lang, t
 	    return text
 	return unmask_subs(v)
 

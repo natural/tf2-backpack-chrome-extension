@@ -1,14 +1,14 @@
 {
     "133": {
         "positive": [
-            "-75% blast damage from rocket jumps"
+            "-60% blast damage from rocket jumps"
         ], 
         "type": "Boots", 
         "description": "The Gunboats"
     }, 
     "132": {
         "alt": [
-            "This weapon has a large melee range.\\nGives increased speed and health with every head you take."
+            "This weapon has a large melee range.\\nGives increased speed and health\\nwith every head you take."
         ], 
         "type": "Sword", 
         "negative": [
@@ -23,7 +23,7 @@
             "+40% explosive damage resistance on wearer"
         ], 
         "alt": [
-            "Alt-Fire: Gain increased attack power by charging toward your enemies."
+            "Alt-Fire: Gain increased attack power by\\ncharging toward your enemies."
         ], 
         "type": "Shield", 
         "description": "The Chargin' Targe"
@@ -183,7 +183,7 @@
     }, 
     "128": {
         "positive": [
-            "Damage and move speed increase as the user becomes injured"
+            "Damage and move speed increase\\nas the user becomes injured\\nBlocks healing when in use"
         ], 
         "type": "Pickaxe", 
         "description": "The Equalizer"
@@ -590,11 +590,11 @@
     }, 
     "171": {
         "positive": [
-            "On Hit: Bleed for 8 seconds"
+            "On Hit: Bleed for 6 seconds"
         ], 
         "type": "Kukri", 
         "negative": [
-            "-35% damage done"
+            "-50% damage done"
         ], 
         "description": "The Tribalman's Shiv"
     }, 
@@ -761,6 +761,17 @@
         "type": "Hat", 
         "description": "Killer's Kabuto"
     }, 
+    "155": {
+        "positive": [
+            "On Hit: Bleed for 5 seconds"
+        ], 
+        "type": "Wrench", 
+        "negative": [
+            "No random critical hits", 
+            "20% fire damage vulnerability on wearer"
+        ], 
+        "description": "The Southern Hospitality"
+    }, 
     "154": {
         "positive": [
             "+1 capture rate on wearer"
@@ -885,12 +896,41 @@
         "type": "Hat", 
         "description": "Hound Dog"
     }, 
+    "142": {
+        "positive": [
+            "+25 max health on wearer"
+        ], 
+        "type": "Robot Arm", 
+        "negative": [
+            "No random critical hits", 
+            "Replaces the Sentry with a fast building Mini-Sentry"
+        ], 
+        "description": "The Gunslinger"
+    }, 
     "143": {
         "alt": [
             "OSX represent!"
         ], 
         "type": "Hat", 
         "description": "Earbuds"
+    }, 
+    "140": {
+        "alt": [
+            "Take manual control of your Sentry Gun"
+        ], 
+        "type": "Laser Pointer", 
+        "description": "The Wrangler"
+    }, 
+    "141": {
+        "positive": [
+            "When your sentry is destroyed you\\ngain revenge crits for every sentry kill"
+        ], 
+        "type": "Shotgun", 
+        "negative": [
+            "No random critical hits", 
+            "-50% clip size"
+        ], 
+        "description": "The Frontier Justice"
     }, 
     "148": {
         "type": "Hat", 

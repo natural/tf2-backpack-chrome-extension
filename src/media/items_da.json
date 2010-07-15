@@ -1,21 +1,21 @@
 {
     "133": {
         "positive": [
-            "-75% eksplosionsskade fra rakethop"
+            "-60% eksplosionsskade fra rakethop"
         ], 
         "type": "St\u00f8vler", 
-        "description": "Raketst\u00f8vlerne"
+        "description": "Gunboats"
     }, 
     "132": {
         "alt": [
-            "Dette v\u00e5ben har en stor n\u00e6rkampsr\u00e6kkevidde.\nHastighed og helbred for\u00f8ges for hvert hoved du h\u00f8ster."
+            "Dette v\u00e5ben har en stor n\u00e6rkampsr\u00e6kkevidde.\r\nHastighed og helbred for\u00f8ges for hvert hoved du h\u00f8ster."
         ], 
         "type": "Sv\u00e6rd", 
         "negative": [
             "-25 maks. helbred for b\u00e6rer", 
             "Ingen tilf\u00e6ldig kritisk skade"
         ], 
-        "description": "Eyelanderen"
+        "description": "Eyelander"
     }, 
     "131": {
         "positive": [
@@ -26,7 +26,7 @@
             "Sekund\u00e6r funktion: For\u00f8g din angrebsstyrke ved at foretage et angrebsl\u00f8b hen imod dine fjender."
         ], 
         "type": "Skjold", 
-        "description": "Angrebsskjoldet"
+        "description": "Chargin' Targe"
     }, 
     "130": {
         "positive": [
@@ -39,40 +39,40 @@
         "negative": [
             "0.4 sek. langsommere bombearmeringstid"
         ], 
-        "description": "Scottish Resistance"
+        "description": "Skotske Modstand"
     }, 
     "137": {
         "type": "Hat", 
-        "description": "TF_NobleAmassment_Hat"
+        "description": "Nobel Forsamling af Hatte"
     }, 
     "136": {
         "alt": [
-            "TF_PropagandaContest_SecondPlace_Desc"
+            "Andenplads, propagandakonkurrence"
         ], 
         "type": "Hat", 
-        "description": "TF_PropagandaContest_SecondPlace"
+        "description": "Amber's Overdrevent Seje Hat"
     }, 
     "135": {
         "type": "Hat", 
-        "description": "TF_ToweringPillar_Hat"
+        "description": "T\u00e5rnh\u00f8j hattestabel"
     }, 
     "134": {
         "alt": [
-            "TF_PropagandaContest_FirstPlace_Desc"
+            "F\u00f8rste Plads, Propaganda Konkurrence"
         ], 
         "type": "Hat", 
-        "description": "TF_PropagandaContest_FirstPlace"
+        "description": "J.Axers stiveste puds"
     }, 
     "139": {
         "type": "Hat", 
-        "description": "TF_ModestPile_Hat"
+        "description": "Beskeden Bunke af Hatte"
     }, 
     "138": {
         "alt": [
-            "TF_PropagandaContest_ThirdPlace_Desc"
+            "Tredjeplads, propagandakonkurrence"
         ], 
         "type": "Hat", 
-        "description": "TF_PropagandaContest_ThirdPlace"
+        "description": "Uncle Sam"
     }, 
     "24": {
         "type": "Revolver", 
@@ -148,15 +148,15 @@
     }, 
     "122": {
         "type": "Cheat Detector", 
-        "description": "Din konto er blevet noteret for omg\u00e5else af systemet for distribuering af genstande. Vi har fjernet de genstande, der blev anskaffet p\u00e5 ulovlig vis.\n\nFremtidige overtr\u00e6delser vil medf\u00f8re tab af alle dine genstande."
+        "description": "Din konto er blevet noteret for omg\u00e5else af systemet for distribuering af genstande. Vi har fjernet de genstande, der blev anskaffet p\u00e5 ulovlig vis.\r\n\r\nFremtidige overtr\u00e6delser vil medf\u00f8re tab af alle dine genstande."
     }, 
     "123": {
         "type": "Cheat Detector", 
-        "description": "Din konto er blevet noteret for omg\u00e5else af systemet for distribuering af genstande. Vi har fjernet alle genstande i din beholdning.\n\nFremtidige overtr\u00e6delser kan medf\u00f8re deaktivering af din konto."
+        "description": "Din konto er blevet noteret for omg\u00e5else af systemet for distribuering af genstande. Vi har fjernet alle genstande i din beholdning.\r\n\r\nFremtidige overtr\u00e6delser kan medf\u00f8re deaktivering af din konto."
     }, 
     "124": {
         "type": "Cheat Detector", 
-        "description": "Tillykke! Din \u00e6rlighed er blevet bel\u00f8nnet med en ny hat!\n\n(Visse andre spillere havde ikke samme skrupler og har v\u00e6ret mindre heldige)"
+        "description": "Tillykke! Din \u00e6rlighed er blevet bel\u00f8nnet med en ny hat!\r\n\r\n(Visse andre spillere havde ikke samme skrupler og har v\u00e6ret mindre heldige)"
     }, 
     "125": {
         "alt": [
@@ -179,35 +179,35 @@
         "negative": [
             "-70% eksplosionsradius"
         ], 
-        "description": "Fuldtr\u00e6fferen"
+        "description": "Direct Hit"
     }, 
     "128": {
         "positive": [
             "Skade og bev\u00e6gelseshastighed \u00f8ges, n\u00e5r brugeren bliver skadet"
         ], 
         "type": "Hakke", 
-        "description": "Equalizeren"
+        "description": "Equalizer"
     }, 
     "129": {
         "type": "Kampbanner", 
-        "description": "Booster-banneret"
+        "description": "Buff Banner"
     }, 
     "59": {
         "positive": [
-            "+80% regenereringshastighed for forkl\u00e6dning"
+            "+80% regenereringshastighed for usynlighed"
         ], 
         "alt": [
             "Forkl\u00e6dningstype: spil d\u00f8d"
         ], 
         "type": "Usynlighedsur", 
         "negative": [
-            "+60% aftapningshastighed for forkl\u00e6dning"
+            "+60% aftapningshastighed for usynlighed"
         ], 
-        "description": "Dead Ringer-spionur"
+        "description": "Dead Ringer"
     }, 
     "58": {
         "alt": [
-            "Ramte fjender f\u00e5r sm\u00e5skader\nKan ogs\u00e5 anvendes til at slukke en ildebrand med"
+            "Ramte fjender f\u00e5r sm\u00e5skader\r\nKan ogs\u00e5 anvendes til at slukke en ildebrand med"
         ], 
         "type": "Krukkebaseret karate", 
         "description": "Jarate"
@@ -225,11 +225,11 @@
             "Blokerer et enkelt rygstikkerfors\u00f8g"
         ], 
         "type": "Skjold", 
-        "description": "Razorback-skjold"
+        "description": "Razorback"
     }, 
     "56": {
         "type": "Bue", 
-        "description": "Bue og pil"
+        "description": "J\u00e6geren"
     }, 
     "51": {
         "type": "Hat", 
@@ -467,7 +467,7 @@
     }, 
     "39": {
         "type": "Signalpistol", 
-        "description": "Signalpistolen"
+        "description": "Flare Gun"
     }, 
     "38": {
         "positive": [
@@ -524,7 +524,7 @@
             "\u00dcberCharge giver 100% chance for kritisk skade"
         ], 
         "type": "Medi-gev\u00e6r", 
-        "description": "Kritzkrieg"
+        "description": "Kritzkriegen"
     }, 
     "34": {
         "type": "Medi-gev\u00e6r", 
@@ -532,13 +532,13 @@
     }, 
     "60": {
         "positive": [
-            "+100% regenereringshastighed for forkl\u00e6dning"
+            "+100% regenereringshastighed for usynlighed"
         ], 
         "alt": [
             "Forkl\u00e6dningstype: bev\u00e6gelsesf\u00f8lsom"
         ], 
         "type": "Usynlighedsur", 
-        "description": "Cloak and Dagger-spionur"
+        "description": "Cloak and Dagger"
     }, 
     "61": {
         "positive": [
@@ -549,7 +549,7 @@
             "-15% for\u00e5rsaget skade", 
             "-20% langsommere affyringshastighed"
         ], 
-        "description": "Ambassador-revolver"
+        "description": "Ambassad\u00f8ren"
     }, 
     "97": {
         "type": "Hat", 
@@ -557,67 +557,73 @@
     }, 
     "179": {
         "type": "Hat", 
-        "description": "TF_DemomanTricorne"
+        "description": "Fyldeb\u00f8ttens trekanthat"
     }, 
     "178": {
         "type": "Hat", 
-        "description": "TF_EngineerEarmuffs"
+        "description": "P\u00e5 den sikre side"
     }, 
     "177": {
         "alt": [
-            "TF_MedicGoggles_Desc"
+            "Ingenting"
         ], 
         "type": "Hat", 
-        "description": "TF_MedicGoggles"
+        "description": "Ze Goggles"
     }, 
     "175": {
         "type": "Hat", 
-        "description": "TF_PyroMonocle"
+        "description": "Gentleman med bakkenbarter"
     }, 
     "174": {
         "type": "Hat", 
-        "description": "TF_ScoutWhoopee"
+        "description": "K\u00e6k krone"
     }, 
     "172": {
         "positive": [
             "+20% for\u00e5rsaget skade"
         ], 
-        "type": "TF_Weapon_Axe", 
+        "type": "\u00d8kse", 
         "negative": [
             "15% langsommere bev\u00e6gelseshastighed for b\u00e6reren"
         ], 
         "description": "TF_Unique_BattleAxe"
     }, 
     "171": {
+        "positive": [
+            "Ved tr\u00e6ffer: Bl\u00f8dning i 6 sekunder"
+        ], 
         "type": "Kukri", 
         "negative": [
-            "-35% for\u00e5rsaget skade"
+            "-50% for\u00e5rsaget skade"
         ], 
         "description": "TF_Unique_TribalmanKukri"
     }, 
     "170": {
-        "type": "TF_Wearable_Badge", 
-        "description": "TF_Employee_Badge_Plat"
+        "alt": [
+            "Hyredato: %s1"
+        ], 
+        "type": "Badge", 
+        "description": "Urtidskriger"
     }, 
     "182": {
         "type": "Hat", 
-        "description": "TF_PyroHelm"
+        "description": "Klassisk brandmandshjelm"
     }, 
     "183": {
         "type": "Hat", 
-        "description": "TF_SoldierDrillHat"
+        "description": "Sergentens eksercitshat"
     }, 
     "180": {
         "type": "Hat", 
-        "description": "TF_SpyBeret"
+        "description": "Franskmandens beret"
     }, 
     "181": {
         "type": "Hat", 
-        "description": "TF_SniperFishingHat"
+        "description": "B\u00f8llehue"
     }, 
     "184": {
         "type": "Hat", 
-        "description": "TF_MedicGatsby"
+        "description": "Gentlemanskasket"
     }, 
     "6": {
         "type": "Skovl", 
@@ -625,7 +631,7 @@
     }, 
     "185": {
         "type": "Hat", 
-        "description": "TF_HeavyDorag"
+        "description": "Bandana"
     }, 
     "99": {
         "type": "Hat", 
@@ -640,41 +646,51 @@
         "description": "TF_Unique_Golden_Wrench"
     }, 
     "164": {
-        "type": "TF_Wearable_Badge", 
-        "description": "TF_Employee_Badge_A"
+        "alt": [
+            "Hyredato: %s1"
+        ], 
+        "type": "Badge", 
+        "description": "Garvet veteran"
     }, 
     "165": {
-        "type": "TF_Wearable_Badge", 
-        "description": "TF_Employee_Badge_B"
+        "alt": [
+            "Hyredato: %s1"
+        ], 
+        "type": "Badge", 
+        "description": "Lykkeridder"
     }, 
     "166": {
-        "type": "TF_Wearable_Badge", 
-        "description": "TF_Employee_Badge_C"
+        "alt": [
+            "Hyredato: %s1"
+        ], 
+        "type": "Badge", 
+        "description": "Lejesoldat"
     }, 
     "160": {
         "alt": [
-            "TF_TTG_MaxGun_Desc"
+            "Det ultimative inden for halvskjulte v\u00e5ben.\r\nDer kan ikke v\u00e6re nogen tvivl om, at du har brug for dette v\u00e5ben.\r\nSp\u00f8rgsm\u00e5let er bare: Hvor vil du gemme det?"
         ], 
         "type": "Pistol", 
-        "description": "TF_TTG_MaxGun"
+        "description": "Lugermorph"
     }, 
     "161": {
         "alt": [
-            "TF_TTG_SamRevolver_Desc"
+            "Forener stil med slagkraft.\r\nVar i lang tid forbeholdt Freelance-politiet,\r\nmen f\u00e5s nu til andre blodt\u00f8rstige lejesoldater."
         ], 
         "type": "Revolver", 
-        "description": "TF_TTG_SamRevolver"
+        "description": "Big Kill"
     }, 
     "162": {
         "alt": [
-            "TF_TTG_MaxsHat_Desc"
+            "Genialt udformet hovedbekl\u00e6dning fra sk\u00e5ne-farme\r\ni Filippinerne. Det udhulede kraniehus leder\r\nfugt bort i kampens hede."
         ], 
         "type": "Hat", 
-        "description": "TF_TTG_MaxsHat"
+        "description": "Max' afhuggede hoved"
     }, 
     "163": {
         "alt": [
-            "TF_Unique_EnergyDrink_CritCola_Desc"
+            "Under indflydelse vil anrettet skade\r\nog modtaget skade v\u00e6re sm\u00e5kritisk skade.", 
+            "Tilf\u00f8jer +50 ekstra liv i 30 sekunder"
         ], 
         "type": "Madkasse", 
         "description": "TF_Unique_EnergyDrink_CritCola"
@@ -721,37 +737,58 @@
     }, 
     "151": {
         "type": "Hat", 
-        "description": "TF_PyroBrainSucker"
+        "description": "Triboniophorus Tyrannus"
     }, 
     "150": {
         "type": "Hat", 
-        "description": "TF_ScoutBeanie"
+        "description": "Ballademagerens hue"
     }, 
     "153": {
-        "type": "TF_Weapon_SledgeHammer", 
-        "description": "TF_Unique_SledgeHammer"
+        "positive": [
+            "Skade fjerner miner", 
+            "100% skade mod bygninger"
+        ], 
+        "type": "Forhammer", 
+        "negative": [
+            "-25% skade mod spillere"
+        ], 
+        "description": "Homewrecker"
     }, 
     "152": {
         "type": "Hat", 
-        "description": "TF_SoldierSamurai"
+        "description": "Dr\u00e6berens samuraihjelm"
+    }, 
+    "155": {
+        "positive": [
+            "Ved tr\u00e6ffer: Bl\u00f8dning i 5 sekunder"
+        ], 
+        "type": "Svenskn\u00f8gle", 
+        "negative": [
+            "Ingen tilf\u00e6ldig kritisk skade", 
+            "20% s\u00e5rbarhed over for flammekaster for b\u00e6reren"
+        ], 
+        "description": "TF_Unique_Combat_Wrench"
     }, 
     "154": {
         "positive": [
             "+1 hurtigere erobringshastighed for b\u00e6reren"
         ], 
-        "type": "TF_Weapon_MakeshiftClub", 
+        "type": "Improviseret k\u00f8lle", 
         "negative": [
             "10% s\u00e5rbarhed over for kugler for b\u00e6reren"
         ], 
-        "description": "TF_Unique_Makeshiftclub"
+        "description": "Pain Train"
     }, 
     "159": {
+        "positive": [
+            "Tilf\u00f8jer +50 ekstra liv i 30 sekunder"
+        ], 
         "type": "Madkasse", 
-        "description": "TF_Unique_Lunchbox_Chocolate"
+        "description": "Dalokohs Bar"
     }, 
     "158": {
         "type": "Hat", 
-        "description": "TF_SniperPithHelmet"
+        "description": "Skyttens tropehjelm"
     }, 
     "48": {
         "type": "Hat", 
@@ -763,7 +800,7 @@
     }, 
     "46": {
         "type": "Madkasse", 
-        "description": "Bonk! Atom-cocktail"
+        "description": "Bonk! Atomic Punch"
     }, 
     "47": {
         "type": "Hat", 
@@ -771,13 +808,13 @@
     }, 
     "44": {
         "positive": [
-            "Dette bat sl\u00e5r en h\u00e5rd bold"
+            "Dette bat sl\u00e5r en h\u00e5rd, lammende bold"
         ], 
         "type": "Bat", 
         "negative": [
             "-15 maks. helbred for b\u00e6rer"
         ], 
-        "description": "Ole luk\u00f8je"
+        "description": "Ole Luk\u00f8je"
     }, 
     "45": {
         "positive": [
@@ -804,7 +841,7 @@
         "negative": [
             "-20% langsommere affyringshastighed"
         ], 
-        "description": "De d\u00f8delige boksehandsker"
+        "description": "De D\u00f8delige Boksehandsker"
     }, 
     "40": {
         "positive": [
@@ -816,7 +853,7 @@
             "Ingen tilf\u00e6ldig kritisk skade", 
             "Ingen trykluft"
         ], 
-        "description": "Efterbr\u00e6nderen"
+        "description": "Bagbr\u00e6nderen"
     }, 
     "41": {
         "positive": [
@@ -842,30 +879,55 @@
     }, 
     "146": {
         "type": "Hat", 
-        "description": "TF_DemomanHallmark"
+        "description": "Svindlerens kendetegn"
     }, 
     "147": {
         "type": "Hat", 
-        "description": "TF_SpyNobleHair"
+        "description": "Magistratens Paryk"
     }, 
     "144": {
         "type": "Hat", 
-        "description": "TF_MedicMask"
+        "description": "L\u00e6gens operationsmaske"
     }, 
     "145": {
         "type": "Hat", 
-        "description": "TF_HeavyHair"
+        "description": "Hound Dog"
+    }, 
+    "142": {
+        "positive": [
+            "+25 maks. helbred for b\u00e6rer"
+        ], 
+        "type": "TF_Weapon_Robot_Arm", 
+        "negative": [
+            "Ingen tilf\u00e6ldig kritisk skade"
+        ], 
+        "description": "TF_Unique_Robot_Arm"
     }, 
     "143": {
         "alt": [
-            "TF_OSXItem_Desc"
+            "OSX-symbol!"
         ], 
         "type": "Hat", 
-        "description": "TF_OSXItem"
+        "description": "H\u00f8retelefoner"
+    }, 
+    "140": {
+        "alt": [
+            "TF_Wrangler_Desc"
+        ], 
+        "type": "TF_Weapon_Laser_Pointer", 
+        "description": "TF_Unique_Achievement_Laser_Pointer"
+    }, 
+    "141": {
+        "type": "Haglgev\u00e6r", 
+        "negative": [
+            "Ingen tilf\u00e6ldig kritisk skade", 
+            "-50% magasinst\u00f8rrelse"
+        ], 
+        "description": "TF_Unique_Sentry_Shotgun"
     }, 
     "148": {
         "type": "Hat", 
-        "description": "TF_EngineerWeldingMask"
+        "description": "Hotrod"
     }, 
     "2": {
         "type": "\u00d8kse", 

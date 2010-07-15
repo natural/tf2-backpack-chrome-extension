@@ -19,6 +19,7 @@ locale_files = [
 #    ('no', 'tf_norwegian.txt'), ## not yet supported by chrome
     ('pl', 'tf_polish.txt'),
     ('pt', 'tf_portuguese.txt'),
+    ('ro', 'tf_romanian.txt'),
     ('ru', 'tf_russian.txt'),
     ('sv', 'tf_swedish.txt'),
     ('zh_CN', 'tf_schinese.txt'),

@@ -1,14 +1,14 @@
 {
     "133": {
         "positive": [
-            "-75% spr\u00e4ngskada fr\u00e5n rakethopp"
+            "-60% spr\u00e4ngskada fr\u00e5n rakethopp"
         ], 
         "type": "St\u00f6vlar", 
         "description": "Gunboats"
     }, 
     "132": {
         "alt": [
-            "Det h\u00e4r vapnet har h\u00f6g r\u00e4ckvidd i n\u00e4rstrid.\nGer \u00f6kad hastighet och h\u00e4lsa f\u00f6r varje huvud du hugger av."
+            "Det h\u00e4r vapnet har h\u00f6g r\u00e4ckvidd i n\u00e4rstrid.\r\nGer \u00f6kad hastighet och h\u00e4lsa f\u00f6r varje huvud du hugger av."
         ], 
         "type": "Sv\u00e4rd", 
         "negative": [
@@ -39,40 +39,40 @@
         "negative": [
             "0.4 sekund l\u00e4ngre bombarmeringstid"
         ], 
-        "description": "Scottish Resistance"
+        "description": "Skottska Resistansen"
     }, 
     "137": {
         "type": "Hat", 
-        "description": "TF_NobleAmassment_Hat"
+        "description": "Nobel Anhopning av Hattar"
     }, 
     "136": {
         "alt": [
-            "TF_PropagandaContest_SecondPlace_Desc"
+            "Andra plats, Propaganda t\u00e4vlingen"
         ], 
         "type": "Hat", 
         "description": "TF_PropagandaContest_SecondPlace"
     }, 
     "135": {
         "type": "Hat", 
-        "description": "TF_ToweringPillar_Hat"
+        "description": "Reslig Pelare av Hattar"
     }, 
     "134": {
         "alt": [
-            "TF_PropagandaContest_FirstPlace_Desc"
+            "F\u00f6rsta plats vinnare, Propaganda t\u00e4vlingen"
         ], 
         "type": "Hat", 
         "description": "TF_PropagandaContest_FirstPlace"
     }, 
     "139": {
         "type": "Hat", 
-        "description": "TF_ModestPile_Hat"
+        "description": "Anspr\u00e5ksl\u00f6s H\u00f6g av Hatt"
     }, 
     "138": {
         "alt": [
-            "TF_PropagandaContest_ThirdPlace_Desc"
+            "Tredje plats, Propaganda t\u00e4vlingen"
         ], 
         "type": "Hat", 
-        "description": "TF_PropagandaContest_ThirdPlace"
+        "description": "Onkel Sam"
     }, 
     "24": {
         "type": "Revolver", 
@@ -140,7 +140,7 @@
     }, 
     "120": {
         "type": "Hat", 
-        "description": "Skottens cylinderhatt"
+        "description": "Skottens Cylinderhatt"
     }, 
     "121": {
         "type": "Medalj", 
@@ -148,26 +148,26 @@
     }, 
     "122": {
         "type": "Cheat Detector", 
-        "description": "Ditt konto har flaggats f\u00f6r att distributionssystemet f\u00f6r f\u00f6rem\u00e5l har \u00e5sidosatts. Vi har tagit bort de f\u00f6rem\u00e5l som inskaffats p\u00e5 otill\u00e5tet s\u00e4tt.\n\nSker fler \u00f6vertr\u00e4delser kommer du att f\u00f6rlora samtliga f\u00f6rem\u00e5l."
+        "description": "Ditt konto har flaggats f\u00f6r att distributionssystemet f\u00f6r f\u00f6rem\u00e5l har \u00e5sidosatts. Vi har tagit bort de f\u00f6rem\u00e5l som inskaffats p\u00e5 otill\u00e5tet s\u00e4tt.\r\n\r\nSker fler \u00f6vertr\u00e4delser kommer du att f\u00f6rlora samtliga f\u00f6rem\u00e5l."
     }, 
     "123": {
         "type": "Cheat Detector", 
-        "description": "Ditt konto har flaggats f\u00f6r att distributionssystemet f\u00f6r f\u00f6rem\u00e5l har \u00e5sidosatts. Vi har tagit bort alla f\u00f6rem\u00e5l i ditt f\u00f6rr\u00e5d.\n\nSker fler \u00f6vertr\u00e4delser kan vi avaktivera ditt konto."
+        "description": "Ditt konto har flaggats f\u00f6r att distributionssystemet f\u00f6r f\u00f6rem\u00e5l har \u00e5sidosatts. Vi har tagit bort alla f\u00f6rem\u00e5l i ditt f\u00f6rr\u00e5d.\r\n\r\nSker fler \u00f6vertr\u00e4delser kan vi avaktivera ditt konto."
     }, 
     "124": {
         "type": "Cheat Detector", 
-        "description": "Grattis! Din \u00e4rlighet har bel\u00f6nats med en ny hatt!\n\n(Vissa andra var mindre nogr\u00e4knade och har blivit mindre lyckligt lottade)"
+        "description": "Grattis! Din \u00e4rlighet har bel\u00f6nats med en ny hatt!\r\n\r\n(Vissa andra var mindre nogr\u00e4knade och har blivit mindre lyckligt lottade)"
     }, 
     "125": {
         "alt": [
             "%s1% orsakad skada"
         ], 
         "type": "R\u00e4ttskaffens aura", 
-        "description": "Fuskarens klagan"
+        "description": "Fuskarens Klagan"
     }, 
     "126": {
         "type": "Veteranbasker", 
-        "description": "Polishatt"
+        "description": "Bills Hatt"
     }, 
     "127": {
         "positive": [
@@ -179,18 +179,18 @@
         "negative": [
             "-70% explosionsradie"
         ], 
-        "description": "Direct Hit"
+        "description": "Direkta Tr\u00e4ffen"
     }, 
     "128": {
         "positive": [
             "Skador och f\u00f6rflyttningshastighet \u00f6kar om anv\u00e4ndaren blir skadad"
         ], 
         "type": "Spetshacka", 
-        "description": "Equalizer"
+        "description": "Utj\u00e4mnaren"
     }, 
     "129": {
         "type": "Stridsban\u00e9r", 
-        "description": "Buff Banner"
+        "description": "Buff Bannern"
     }, 
     "59": {
         "positive": [
@@ -203,11 +203,11 @@
         "negative": [
             "+60% hastighet f\u00f6r d\u00f6ljningsminskning"
         ], 
-        "description": "Dead Ringer"
+        "description": "D\u00f6dsringaren"
     }, 
     "58": {
         "alt": [
-            "Nedst\u00e4nkta fiender tar mini-kritiska tr\u00e4ffar\n\u00c4ven anv\u00e4ndbart till att sl\u00e4cka br\u00e4nder"
+            "Nedst\u00e4nkta fiender tar mini-kritiska tr\u00e4ffar\r\n\u00c4ven anv\u00e4ndbart till att sl\u00e4cka br\u00e4nder"
         ], 
         "type": "Karate i en burk", 
         "description": "Jarate"
@@ -229,7 +229,7 @@
     }, 
     "56": {
         "type": "B\u00e5ge", 
-        "description": "Huntsman"
+        "description": "Jaktmannen"
     }, 
     "51": {
         "type": "Hat", 
@@ -319,30 +319,30 @@
     }, 
     "115": {
         "type": "S\u00e4songshatt", 
-        "description": "Aningen l\u00e4skig Halloween-mask"
+        "description": "Aningen L\u00e4skig Halloween-mask"
     }, 
     "117": {
         "type": "Hat", 
-        "description": "Ritzy Ricks h\u00e5rfixativ"
+        "description": "Ritzy Ricks H\u00e5rfixativ"
     }, 
     "116": {
         "alt": [
             "Med broderat monogram: \\\"Z.M.\\\""
         ], 
         "type": "Hat", 
-        "description": "Sp\u00f6klik stormhatt"
+        "description": "Sp\u00f6klik Stormhatt"
     }, 
     "111": {
         "type": "Hat", 
-        "description": "Baseboll-Bills vaxade v\u00e5gor"
+        "description": "Baseboll-Bills Vaxade V\u00e5gor"
     }, 
     "110": {
         "type": "Hat", 
-        "description": "M\u00e4starens gula b\u00e4lte"
+        "description": "M\u00e4starens Gula B\u00e4lte"
     }, 
     "118": {
         "type": "Hat", 
-        "description": "Texas Slims skallglans"
+        "description": "Texas Slims Skallglans"
     }, 
     "3": {
         "type": "Kukri-kniv", 
@@ -466,8 +466,8 @@
         "description": "Brandmanshj\u00e4lm"
     }, 
     "39": {
-        "type": "Lysraketgev\u00e4r", 
-        "description": "Lysraketgev\u00e4r"
+        "type": "N\u00f6draketsgev\u00e4r", 
+        "description": "Lysraketsgev\u00e4ret"
     }, 
     "38": {
         "positive": [
@@ -478,7 +478,7 @@
             "Inga kritiska tr\u00e4ffar mot spelare som inte brinner", 
             "-50% skada mot spelare som inte brinner"
         ], 
-        "description": "The Axtinguisher"
+        "description": "Brandslaktaren"
     }, 
     "33": {
         "type": "Sprutgev\u00e4r", 
@@ -489,8 +489,8 @@
         "description": "Bens\u00e5g"
     }, 
     "31": {
-        "type": "Lysraketgev\u00e4r", 
-        "description": "Lysraketgev\u00e4r"
+        "type": "N\u00f6draketsgev\u00e4r", 
+        "description": "N\u00f6draketsgev\u00e4r"
     }, 
     "30": {
         "type": "D\u00f6ljningsklocka", 
@@ -504,7 +504,7 @@
         "negative": [
             "-20% l\u00e5ngsammare eldgivningshastighet"
         ], 
-        "description": "Ubersaw"
+        "description": "\u00dcbers\u00e5gen"
     }, 
     "36": {
         "positive": [
@@ -514,7 +514,7 @@
         "negative": [
             "-2 h\u00e4lsa f\u00f6rbrukas per sekund f\u00f6r b\u00e4raren"
         ], 
-        "description": "Blutsauger"
+        "description": "Blutsaugern"
     }, 
     "35": {
         "positive": [
@@ -524,7 +524,7 @@
             "\u00d6verladdning ger 100 % chans till kritisk tr\u00e4ff"
         ], 
         "type": "H\u00e4lsovapen", 
-        "description": "Kritzkrieg"
+        "description": "Kritzkriegen"
     }, 
     "34": {
         "type": "H\u00e4lsovapen", 
@@ -538,7 +538,7 @@
             "D\u00f6ljningstyp: R\u00f6relsek\u00e4nslig"
         ], 
         "type": "D\u00f6ljningsklocka", 
-        "description": "Cloak and Dagger"
+        "description": "Manteln och Dolken"
     }, 
     "61": {
         "positive": [
@@ -549,7 +549,7 @@
             "-15% orsakad skada", 
             "-20% l\u00e5ngsammare eldgivningshastighet"
         ], 
-        "description": "Ambassador"
+        "description": "Ambassad\u00f6ren"
     }, 
     "97": {
         "type": "Hat", 
@@ -557,22 +557,22 @@
     }, 
     "179": {
         "type": "Hat", 
-        "description": "TF_DemomanTricorne"
+        "description": "Sm\u00e5suparens Sj\u00f6r\u00f6varhatt"
     }, 
     "178": {
         "type": "Hat", 
-        "description": "TF_EngineerEarmuffs"
+        "description": "H\u00f6rselskydd"
     }, 
     "177": {
         "alt": [
-            "TF_MedicGoggles_Desc"
+            "Ingenting"
         ], 
         "type": "Hat", 
         "description": "TF_MedicGoggles"
     }, 
     "175": {
         "type": "Hat", 
-        "description": "TF_PyroMonocle"
+        "description": "Polisongprydda Gentlemannen"
     }, 
     "174": {
         "type": "Hat", 
@@ -582,42 +582,48 @@
         "positive": [
             "+20% orsakad skada"
         ], 
-        "type": "TF_Weapon_Axe", 
+        "type": "Yxa", 
         "negative": [
             "15% l\u00e5ngsammare f\u00f6rflyttning f\u00f6r b\u00e4raren"
         ], 
-        "description": "TF_Unique_BattleAxe"
+        "description": "Den Skotska Kraniumfr\u00e4sen"
     }, 
     "171": {
+        "positive": [
+            "P\u00e5 tr\u00e4ff: Bl\u00f6der i 6 sekunder"
+        ], 
         "type": "Kukri-kniv", 
         "negative": [
-            "-35% orsakad skada"
+            "-50% orsakad skada"
         ], 
-        "description": "TF_Unique_TribalmanKukri"
+        "description": "Stamherrens Hemgjorda Kniv"
     }, 
     "170": {
-        "type": "TF_Wearable_Badge", 
-        "description": "TF_Employee_Badge_Plat"
+        "alt": [
+            "Anst\u00e4llningsdatum: %s1"
+        ], 
+        "type": "Bricka", 
+        "description": "Urtida Krigare"
     }, 
     "182": {
         "type": "Hat", 
-        "description": "TF_PyroHelm"
+        "description": "Gammaldags Brandhj\u00e4lm"
     }, 
     "183": {
         "type": "Hat", 
-        "description": "TF_SoldierDrillHat"
+        "description": "Sergeantens \u00d6vningshatt"
     }, 
     "180": {
         "type": "Hat", 
-        "description": "TF_SpyBeret"
+        "description": "Fransmannens Basker"
     }, 
     "181": {
         "type": "Hat", 
-        "description": "TF_SniperFishingHat"
+        "description": "Filurens Fiskarhatt"
     }, 
     "184": {
         "type": "Hat", 
-        "description": "TF_MedicGatsby"
+        "description": "Gentlemannens Golfhatt"
     }, 
     "6": {
         "type": "Skyffel", 
@@ -625,11 +631,11 @@
     }, 
     "185": {
         "type": "Hat", 
-        "description": "TF_HeavyDorag"
+        "description": "Tunga T\u00e5liga Trasan"
     }, 
     "99": {
         "type": "Hat", 
-        "description": "Tyrannhj\u00e4lm"
+        "description": "Tyrannens Hj\u00e4lm"
     }, 
     "98": {
         "type": "Hat", 
@@ -640,64 +646,74 @@
         "description": "TF_Unique_Golden_Wrench"
     }, 
     "164": {
-        "type": "TF_Wearable_Badge", 
-        "description": "TF_Employee_Badge_A"
+        "alt": [
+            "Anst\u00e4llningsdatum: %s1"
+        ], 
+        "type": "Bricka", 
+        "description": "Gr\u00e5h\u00e5rig Veteran"
     }, 
     "165": {
-        "type": "TF_Wearable_Badge", 
-        "description": "TF_Employee_Badge_B"
+        "alt": [
+            "Anst\u00e4llningsdatum: %s1"
+        ], 
+        "type": "Bricka", 
+        "description": "Legoknekt"
     }, 
     "166": {
-        "type": "TF_Wearable_Badge", 
-        "description": "TF_Employee_Badge_C"
+        "alt": [
+            "Anst\u00e4llningsdatum: %s1"
+        ], 
+        "type": "Bricka", 
+        "description": "Legosoldat"
     }, 
     "160": {
         "alt": [
             "TF_TTG_MaxGun_Desc"
         ], 
         "type": "Pistol", 
-        "description": "TF_TTG_MaxGun"
+        "description": "Lugermorph"
     }, 
     "161": {
         "alt": [
-            "TF_TTG_SamRevolver_Desc"
+            "Kombinerar stil med eldkraft.\r\nSedan l\u00e4nge exklusiv f\u00f6r Freelance Polisen\r\nnu ocks\u00e5 tillg\u00e4nglig f\u00f6r andra blodt\u00f6rstiga legosoldater."
         ], 
         "type": "Revolver", 
-        "description": "TF_TTG_SamRevolver"
+        "description": "Big Kill"
     }, 
     "162": {
         "alt": [
             "TF_TTG_MaxsHat_Desc"
         ], 
         "type": "Hat", 
-        "description": "TF_TTG_MaxsHat"
+        "description": "Maxs Avhuggna Huvud"
     }, 
     "163": {
         "alt": [
-            "TF_Unique_EnergyDrink_CritCola_Desc"
+            "Under p\u00e5verkan, blir skada utdelad\r\noch skada tilldelad mini-kritiska tr\u00e4ffar.", 
+            "Adderar +50 max h\u00e4lsa i 30 sekunder"
         ], 
         "type": "Lunchl\u00e5da", 
-        "description": "TF_Unique_EnergyDrink_CritCola"
+        "description": "Krit-p\u00e5-Burk"
     }, 
     "11": {
-        "type": "Gev\u00e4r", 
-        "description": "Gev\u00e4r"
+        "type": "Hagelgev\u00e4r", 
+        "description": "Hagelgev\u00e4r"
     }, 
     "10": {
-        "type": "Gev\u00e4r", 
-        "description": "Gev\u00e4r"
+        "type": "Hagelgev\u00e4r", 
+        "description": "Hagelgev\u00e4r"
     }, 
     "13": {
         "type": "Spr\u00e4ngvapen", 
         "description": "Spr\u00e4ngvapen"
     }, 
     "12": {
-        "type": "Gev\u00e4r", 
-        "description": "Gev\u00e4r"
+        "type": "Hagelgev\u00e4r", 
+        "description": "Hagelgev\u00e4r"
     }, 
     "15": {
-        "type": "Minivapen", 
-        "description": "Minivapen"
+        "type": "Bandkulspruta", 
+        "description": "Bandkulspruta"
     }, 
     "14": {
         "type": "Krypskyttegev\u00e4r", 
@@ -725,33 +741,54 @@
     }, 
     "150": {
         "type": "Hat", 
-        "description": "TF_ScoutBeanie"
+        "description": "Trubbelmakarens M\u00f6ssa"
     }, 
     "153": {
-        "type": "TF_Weapon_SledgeHammer", 
-        "description": "TF_Unique_SledgeHammer"
+        "positive": [
+            "Skada tar bort Sappers", 
+            "100% skada mot byggnader"
+        ], 
+        "type": "Sl\u00e4gga", 
+        "negative": [
+            "-25% skada mot spelare"
+        ], 
+        "description": "Hemrivaren"
     }, 
     "152": {
         "type": "Hat", 
-        "description": "TF_SoldierSamurai"
+        "description": "M\u00f6rdarens Kabuto"
+    }, 
+    "155": {
+        "positive": [
+            "P\u00e5 tr\u00e4ff: Bl\u00f6der i 5 sekunder"
+        ], 
+        "type": "Skiftnyckel", 
+        "negative": [
+            "Inga slumpm\u00e4ssiga kritiska tr\u00e4ffar", 
+            "20% s\u00e5rbarhet f\u00f6r eldskada f\u00f6r b\u00e4raren"
+        ], 
+        "description": "TF_Unique_Combat_Wrench"
     }, 
     "154": {
         "positive": [
             "+1 er\u00f6vringshastighet f\u00f6r b\u00e4raren"
         ], 
-        "type": "TF_Weapon_MakeshiftClub", 
+        "type": "Hemgjord Klubba", 
         "negative": [
             "10% s\u00e5rbarhet f\u00f6r kulskador f\u00f6r b\u00e4raren"
         ], 
-        "description": "TF_Unique_Makeshiftclub"
+        "description": "Sm\u00e4rt T\u00e5get"
     }, 
     "159": {
+        "positive": [
+            "Adderar +50 max h\u00e4lsa i 30 sekunder"
+        ], 
         "type": "Lunchl\u00e5da", 
-        "description": "TF_Unique_Lunchbox_Chocolate"
+        "description": "Dalokohs Chokladkaka"
     }, 
     "158": {
         "type": "Hat", 
-        "description": "TF_SniperPithHelmet"
+        "description": "Skjutarens Sola Topi"
     }, 
     "48": {
         "type": "Hat", 
@@ -763,7 +800,7 @@
     }, 
     "46": {
         "type": "Lunchl\u00e5da", 
-        "description": "Bonk! Atomic Punch"
+        "description": "Bonk! Atom-Slag"
     }, 
     "47": {
         "type": "Hat", 
@@ -790,11 +827,11 @@
             "-60% magasinstorlek", 
             "-10% orsakad skada"
         ], 
-        "description": "Force-A-Nature"
+        "description": "Hagel-Med-Knuff"
     }, 
     "42": {
         "type": "Lunchl\u00e5da", 
-        "description": "Sandvich"
+        "description": "Sm\u00f6rg\u00e5sen"
     }, 
     "43": {
         "positive": [
@@ -804,7 +841,7 @@
         "negative": [
             "-20% l\u00e5ngsammare eldgivningshastighet"
         ], 
-        "description": "K.G.B, the Killing Gloves of Boxing"
+        "description": "Dom D\u00f6dande Boxningshandskarna"
     }, 
     "40": {
         "positive": [
@@ -816,13 +853,13 @@
             "Inga slumpm\u00e4ssiga kritiska tr\u00e4ffar", 
             "Ingen komprimerad luftstr\u00f6m"
         ], 
-        "description": "Backburner"
+        "description": "Bakbr\u00e4nnaren"
     }, 
     "41": {
         "positive": [
             "Vid tr\u00e4ff: 100% chans att sakta ned m\u00e5ltavlan"
         ], 
-        "type": "Minivapen", 
+        "type": "Bandkulspruta", 
         "negative": [
             "-25% orsakad skada"
         ], 
@@ -837,35 +874,60 @@
         "description": "Knytn\u00e4var"
     }, 
     "9": {
-        "type": "Gev\u00e4r", 
-        "description": "Gev\u00e4r"
+        "type": "Hagelgev\u00e4r", 
+        "description": "Hagelgev\u00e4r"
     }, 
     "146": {
         "type": "Hat", 
-        "description": "TF_DemomanHallmark"
+        "description": "Fuskarens Fj\u00e4derhatt"
     }, 
     "147": {
         "type": "Hat", 
-        "description": "TF_SpyNobleHair"
+        "description": "Magisterns Peruk"
     }, 
     "144": {
         "type": "Hat", 
-        "description": "TF_MedicMask"
+        "description": "L\u00e4kares Procedur Mask"
     }, 
     "145": {
         "type": "Hat", 
         "description": "TF_HeavyHair"
     }, 
+    "142": {
+        "positive": [
+            "+25 maximal h\u00e4lsa f\u00f6r b\u00e4raren"
+        ], 
+        "type": "TF_Weapon_Robot_Arm", 
+        "negative": [
+            "Inga slumpm\u00e4ssiga kritiska tr\u00e4ffar"
+        ], 
+        "description": "TF_Unique_Robot_Arm"
+    }, 
     "143": {
         "alt": [
-            "TF_OSXItem_Desc"
+            "OSX represant\u00f6r!"
         ], 
         "type": "Hat", 
-        "description": "TF_OSXItem"
+        "description": "H\u00f6rlurar"
+    }, 
+    "140": {
+        "alt": [
+            "TF_Wrangler_Desc"
+        ], 
+        "type": "TF_Weapon_Laser_Pointer", 
+        "description": "TF_Unique_Achievement_Laser_Pointer"
+    }, 
+    "141": {
+        "type": "Hagelgev\u00e4r", 
+        "negative": [
+            "Inga slumpm\u00e4ssiga kritiska tr\u00e4ffar", 
+            "-50% magasinstorlek"
+        ], 
+        "description": "TF_Unique_Sentry_Shotgun"
     }, 
     "148": {
         "type": "Hat", 
-        "description": "TF_EngineerWeldingMask"
+        "description": "Svetsar-Mask"
     }, 
     "2": {
         "type": "Brandyxa", 

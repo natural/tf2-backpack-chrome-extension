@@ -1,21 +1,21 @@
 {
     "133": {
         "positive": [
-            "-75% danos por disparos de saltos com rocket"
+            "-60% danos por disparos de saltos com rocket"
         ], 
         "type": "Botas", 
-        "description": "Os Barcos com armas"
+        "description": "Gunboats"
     }, 
     "132": {
         "alt": [
-            "Esta arma tem um grande alcance para ataques corpo a corpo.\nPermite uma maior velocidade e energia com cada vida que tirar."
+            "Esta arma tem um grande alcance para ataques corpo a corpo.\r\nPermite uma maior velocidade e energia com cada vida que tirar."
         ], 
         "type": "Espada", 
         "negative": [
             "-25 energia m\u00e1xima por utilizador", 
             "Sem danos cr\u00edticos aleat\u00f3rios"
         ], 
-        "description": "O Eyelander"
+        "description": "Eyelander"
     }, 
     "131": {
         "positive": [
@@ -39,40 +39,40 @@
         "negative": [
             "Tempo de activa\u00e7\u00e3o de bomba 0.4 segundo mais lento"
         ], 
-        "description": "A Resist\u00eancia Escocesa"
+        "description": "Scottish Resistance"
     }, 
     "137": {
         "type": "Hat", 
-        "description": "TF_NobleAmassment_Hat"
+        "description": "Ac\u00famulo Nobre de Chap\u00e9us"
     }, 
     "136": {
         "alt": [
-            "TF_PropagandaContest_SecondPlace_Desc"
+            "Segundo lugar, Concurso de Propaganda"
         ], 
         "type": "Hat", 
-        "description": "TF_PropagandaContest_SecondPlace"
+        "description": "Cartola \\\"Muito Radical\\\" de Amber"
     }, 
     "135": {
         "type": "Hat", 
-        "description": "TF_ToweringPillar_Hat"
+        "description": "Pilha Enorme de Chap\u00e9us"
     }, 
     "134": {
         "alt": [
-            "TF_PropagandaContest_FirstPlace_Desc"
+            "Primeiro lugar, Concurso de Propaganda"
         ], 
         "type": "Hat", 
-        "description": "TF_PropagandaContest_FirstPlace"
+        "description": "Cartola do J.Axer"
     }, 
     "139": {
         "type": "Hat", 
-        "description": "TF_ModestPile_Hat"
+        "description": "Pilha Modesta de Chap\u00e9us"
     }, 
     "138": {
         "alt": [
-            "TF_PropagandaContest_ThirdPlace_Desc"
+            "Terceiro lugar, Concurso de Propaganda"
         ], 
         "type": "Hat", 
-        "description": "TF_PropagandaContest_ThirdPlace"
+        "description": "Tio Sam"
     }, 
     "24": {
         "type": "Rev\u00f3lver", 
@@ -148,15 +148,15 @@
     }, 
     "122": {
         "type": "Cheat Detector", 
-        "description": "A sua conta foi identificada como tendo contornado o sistema de atribui\u00e7\u00e3o de itens. Retir\u00e1mos todos os itens obtidos ilegalmente.\n\nFuturas viola\u00e7\u00f5es poder\u00e3o resultar na perda de todos os seus itens."
+        "description": "A sua conta foi identificada como tendo contornado o sistema de atribui\u00e7\u00e3o de itens. Retir\u00e1mos todos os itens obtidos ilegalmente.\r\n\r\nFuturas viola\u00e7\u00f5es poder\u00e3o resultar na perda de todos os seus itens."
     }, 
     "123": {
         "type": "Cheat Detector", 
-        "description": "A sua conta foi identificada como tendo contornado o sistema de atribui\u00e7\u00e3o de itens. Retir\u00e1mos todos os itens do seu invent\u00e1rio.\n\nFuturas viola\u00e7\u00f5es poder\u00e3o resultar na desactiva\u00e7\u00e3o da conta."
+        "description": "A sua conta foi identificada como tendo contornado o sistema de atribui\u00e7\u00e3o de itens. Retir\u00e1mos todos os itens do seu invent\u00e1rio.\r\n\r\nFuturas viola\u00e7\u00f5es poder\u00e3o resultar na desactiva\u00e7\u00e3o da conta."
     }, 
     "124": {
         "type": "Cheat Detector", 
-        "description": "Parab\u00e9ns! A sua Honestidade foi recompensada com um novo chap\u00e9u!\n\n(Outros jogadores tiveram menos escr\u00fapulos, e n\u00e3o tiveram tanta sorte)"
+        "description": "Parab\u00e9ns! A sua Honestidade foi recompensada com um novo chap\u00e9u!\r\n\r\n(Outros jogadores tiveram menos escr\u00fapulos, e n\u00e3o tiveram tanta sorte)"
     }, 
     "125": {
         "alt": [
@@ -179,18 +179,18 @@
         "negative": [
             "Raio de explos\u00e3o de -70%"
         ], 
-        "description": "O Dano Directo"
+        "description": "Direct Hit"
     }, 
     "128": {
         "positive": [
             "Os danos e a velocidade aumentam \u00e0 medida que o utilizador fica ferido"
         ], 
         "type": "Picareta", 
-        "description": "O Equalizador"
+        "description": "Equalizer"
     }, 
     "129": {
         "type": "Estandarte de batalha", 
-        "description": "O Estandarte do Buff"
+        "description": "Buff Banner"
     }, 
     "59": {
         "positive": [
@@ -203,11 +203,11 @@
         "negative": [
             "+60% de consumo de camuflagem"
         ], 
-        "description": "O Morto"
+        "description": "Dead Ringer"
     }, 
     "58": {
         "alt": [
-            "Os inimigos cobertos t\u00eam mini-pot\u00eancia\nTamb\u00e9m \u00e9 \u00fatil para apagar um inc\u00eandio"
+            "Os inimigos cobertos t\u00eam mini-pot\u00eancia\r\nTamb\u00e9m \u00e9 \u00fatil para apagar um inc\u00eandio"
         ], 
         "type": "Karat\u00e9 Jar", 
         "description": "Jarate"
@@ -225,11 +225,11 @@
             "Bloqueia uma \u00fanica tentativa de apunhalar pelas costas"
         ], 
         "type": "Escudo", 
-        "description": "O Razorback"
+        "description": "Razorback"
     }, 
     "56": {
-        "type": "La\u00e7o", 
-        "description": "O Huntsman"
+        "type": "Arco", 
+        "description": "Huntsman"
     }, 
     "51": {
         "type": "Hat", 
@@ -349,8 +349,8 @@
         "description": "Faca Kukri"
     }, 
     "7": {
-        "type": "Chave", 
-        "description": "Chave"
+        "type": "Chave inglesa", 
+        "description": "Chave inglesa"
     }, 
     "other_attributes": {
         "133": "Medal no. %s1", 
@@ -435,11 +435,11 @@
     }, 
     "102": {
         "type": "Hat", 
-        "description": "Luva de borracha \\\"crista-de-galo\\\""
+        "description": "Luva de borracha Desrespeitada"
     }, 
     "103": {
         "type": "Hat", 
-        "description": "Bon\u00e9 com c\u00e2mara"
+        "description": "Barba com c\u00e2mara"
     }, 
     "100": {
         "type": "Hat", 
@@ -467,7 +467,7 @@
     }, 
     "39": {
         "type": "Pistola de sinaliza\u00e7\u00e3o", 
-        "description": "A Pistola de sinaliza\u00e7\u00e3o"
+        "description": "Flare Gun"
     }, 
     "38": {
         "positive": [
@@ -478,7 +478,7 @@
             "Sem danos cr\u00edticos contra jogadores que n\u00e3o estejam a arder", 
             "-50% de danos contra jogadores que n\u00e3o estejam a arder"
         ], 
-        "description": "O Machado extintor"
+        "description": "Axtinguisher"
     }, 
     "33": {
         "type": "Pistola de seringa", 
@@ -504,7 +504,7 @@
         "negative": [
             "Velocidade de disparo -20% mais lenta"
         ], 
-        "description": "O Ubersaw"
+        "description": "Ubersaw"
     }, 
     "36": {
         "positive": [
@@ -514,7 +514,7 @@
         "negative": [
             "-2 de energia gasta por segundo do utilizador"
         ], 
-        "description": "O Blutsauger"
+        "description": "Blutsauger"
     }, 
     "35": {
         "positive": [
@@ -524,7 +524,7 @@
             "A SobreCarga concede 100% de hip\u00f3tese de dano cr\u00edtico"
         ], 
         "type": "Arma m\u00e9dica", 
-        "description": "O Kritzkrieg"
+        "description": "Kritzkrieg"
     }, 
     "34": {
         "type": "Arma m\u00e9dica", 
@@ -538,7 +538,7 @@
             "Tipo de camuflagem: sens\u00edvel ao movimento"
         ], 
         "type": "Rel\u00f3gio de camuflagem", 
-        "description": "A Capa e o Punhal"
+        "description": "Cloak and Dagger"
     }, 
     "61": {
         "positive": [
@@ -549,7 +549,7 @@
             "-15% de danos provocados", 
             "Velocidade de disparo -20% mais lenta"
         ], 
-        "description": "O Ambassador"
+        "description": "Ambassador"
     }, 
     "97": {
         "type": "Hat", 
@@ -557,67 +557,73 @@
     }, 
     "179": {
         "type": "Hat", 
-        "description": "TF_DemomanTricorne"
+        "description": "Tricorne do B\u00eabedo"
     }, 
     "178": {
         "type": "Hat", 
-        "description": "TF_EngineerEarmuffs"
+        "description": "S\u00e3o e Salvo"
     }, 
     "177": {
         "alt": [
-            "TF_MedicGoggles_Desc"
+            "Nada"
         ], 
         "type": "Hat", 
-        "description": "TF_MedicGoggles"
+        "description": "Os \u00d3culos"
     }, 
     "175": {
         "type": "Hat", 
-        "description": "TF_PyroMonocle"
+        "description": "Cavalheiro de Bigode"
     }, 
     "174": {
         "type": "Hat", 
-        "description": "TF_ScoutWhoopee"
+        "description": "Coroa das Divisas"
     }, 
     "172": {
         "positive": [
             "+20% de danos provocados"
         ], 
-        "type": "TF_Weapon_Axe", 
+        "type": "Machado", 
         "negative": [
             "Velocidade 15% mais lenta do utilizador"
         ], 
         "description": "TF_Unique_BattleAxe"
     }, 
     "171": {
+        "positive": [
+            "Por dano: sangrar durante 6 segundos"
+        ], 
         "type": "Faca Kukri", 
         "negative": [
-            "-35% de danos provocados"
+            "-50% de danos provocados"
         ], 
         "description": "TF_Unique_TribalmanKukri"
     }, 
     "170": {
-        "type": "TF_Wearable_Badge", 
-        "description": "TF_Employee_Badge_Plat"
+        "alt": [
+            "Data de aluguer: %s1"
+        ], 
+        "type": "Divisa", 
+        "description": "Guerreiro Primitivo"
     }, 
     "182": {
         "type": "Hat", 
-        "description": "TF_PyroHelm"
+        "description": "Capacete de Bombeiro Vitoriano"
     }, 
     "183": {
         "type": "Hat", 
-        "description": "TF_SoldierDrillHat"
+        "description": "Chap\u00e9u de Campanha do Sargento"
     }, 
     "180": {
         "type": "Hat", 
-        "description": "TF_SpyBeret"
+        "description": "Boina do Franc\u00eas"
     }, 
     "181": {
         "type": "Hat", 
-        "description": "TF_SniperFishingHat"
+        "description": "Chap\u00e9u de Pescador do Bacano"
     }, 
     "184": {
         "type": "Hat", 
-        "description": "TF_MedicGatsby"
+        "description": "Boina do Cavalheiro"
     }, 
     "6": {
         "type": "P\u00e1", 
@@ -625,7 +631,7 @@
     }, 
     "185": {
         "type": "Hat", 
-        "description": "TF_HeavyDorag"
+        "description": "Len\u00e7o de Cabe\u00e7a"
     }, 
     "99": {
         "type": "Hat", 
@@ -636,45 +642,55 @@
         "description": "Panela inoxid\u00e1vel"
     }, 
     "169": {
-        "type": "Chave", 
+        "type": "Chave inglesa", 
         "description": "TF_Unique_Golden_Wrench"
     }, 
     "164": {
-        "type": "TF_Wearable_Badge", 
-        "description": "TF_Employee_Badge_A"
+        "alt": [
+            "Data de aluguer: %s1"
+        ], 
+        "type": "Divisa", 
+        "description": "Veterano Grisalho"
     }, 
     "165": {
-        "type": "TF_Wearable_Badge", 
-        "description": "TF_Employee_Badge_B"
+        "alt": [
+            "Data de aluguer: %s1"
+        ], 
+        "type": "Divisa", 
+        "description": "Soldado da Fortuna"
     }, 
     "166": {
-        "type": "TF_Wearable_Badge", 
-        "description": "TF_Employee_Badge_C"
+        "alt": [
+            "Data de aluguer: %s1"
+        ], 
+        "type": "Divisa", 
+        "description": "Mercen\u00e1rio"
     }, 
     "160": {
         "alt": [
-            "TF_TTG_MaxGun_Desc"
+            "A mais avan\u00e7ada arma semi-escondida.\r\nN\u00e3o h\u00e1 d\u00favida de que precisas desta arma, a \u00fanica quest\u00e3o \u00e9 a seguinte\r\n: onde guard\u00e1-la?"
         ], 
         "type": "Pistola", 
-        "description": "TF_TTG_MaxGun"
+        "description": "Lugermorph"
     }, 
     "161": {
         "alt": [
-            "TF_TTG_SamRevolver_Desc"
+            "Combina estilo com capacidade de defesa.\r\nEra h\u00e1 muito apenas exclusivo da Pol\u00edcia Independente,\r\nmas agora est\u00e1 tamb\u00e9m nas m\u00e3os de outros mercen\u00e1rios sedentos de sangue."
         ], 
         "type": "Rev\u00f3lver", 
-        "description": "TF_TTG_SamRevolver"
+        "description": "Big Kill"
     }, 
     "162": {
         "alt": [
-            "TF_TTG_MaxsHat_Desc"
+            "Chap\u00e9us concebidos por artes\u00e3os filipinos experientes das quintas sem crueldade para com os animais\r\n. As caveiras vazias libertam\r\nvapor no auge do confronto."
         ], 
         "type": "Hat", 
-        "description": "TF_TTG_MaxsHat"
+        "description": "Cabe\u00e7a Cortada do Max"
     }, 
     "163": {
         "alt": [
-            "TF_Unique_EnergyDrink_CritCola_Desc"
+            "Enquanto estiver sob os efeitos, os danos causados\r\ne sofridos ser\u00e3o minicr\u00edticos.", 
+            "Adiciona um m\u00e1x. de +50 de energia durante 30 segundos"
         ], 
         "type": "Lancheira", 
         "description": "TF_Unique_EnergyDrink_CritCola"
@@ -721,37 +737,58 @@
     }, 
     "151": {
         "type": "Hat", 
-        "description": "TF_PyroBrainSucker"
+        "description": "Caracolus Tiranus"
     }, 
     "150": {
         "type": "Hat", 
-        "description": "TF_ScoutBeanie"
+        "description": "Gorro de Malha com Orelhas do Arruaceiro"
     }, 
     "153": {
-        "type": "TF_Weapon_SledgeHammer", 
-        "description": "TF_Unique_SledgeHammer"
+        "positive": [
+            "Os danos removem os sapadores", 
+            "100% de danos em edif\u00edcios"
+        ], 
+        "type": "Marreta", 
+        "negative": [
+            "-25% de danos em jogadores"
+        ], 
+        "description": "Homewrecker"
     }, 
     "152": {
         "type": "Hat", 
-        "description": "TF_SoldierSamurai"
+        "description": "Kabuto do Assassino"
+    }, 
+    "155": {
+        "positive": [
+            "Por dano: sangrar durante 5 segundos"
+        ], 
+        "type": "Chave inglesa", 
+        "negative": [
+            "Sem danos cr\u00edticos aleat\u00f3rios", 
+            "20% de vulnerabilidade a danos por fogo do utilizador"
+        ], 
+        "description": "TF_Unique_Combat_Wrench"
     }, 
     "154": {
         "positive": [
             "+1 de capacidade de captura do utilizador"
         ], 
-        "type": "TF_Weapon_MakeshiftClub", 
+        "type": "Clava Improvisada", 
         "negative": [
             "10% de vulnerabilidade a danos por bala do utilizador"
         ], 
-        "description": "TF_Unique_Makeshiftclub"
+        "description": "Pain Train"
     }, 
     "159": {
+        "positive": [
+            "Adiciona um m\u00e1x. de +50 de energia durante 30 segundos"
+        ], 
         "type": "Lancheira", 
-        "description": "TF_Unique_Lunchbox_Chocolate"
+        "description": "Dalokohs Bar"
     }, 
     "158": {
         "type": "Hat", 
-        "description": "TF_SniperPithHelmet"
+        "description": "Capacete Colonial do Atirador"
     }, 
     "48": {
         "type": "Hat", 
@@ -763,7 +800,7 @@
     }, 
     "46": {
         "type": "Lancheira", 
-        "description": "Glup! O elixir at\u00f3mico"
+        "description": "Bonk! Atomic Punch"
     }, 
     "47": {
         "type": "Hat", 
@@ -777,7 +814,7 @@
         "negative": [
             "-15 energia m\u00e1xima por utilizador"
         ], 
-        "description": "O Sonor\u00edfero"
+        "description": "Sandman"
     }, 
     "45": {
         "positive": [
@@ -790,11 +827,11 @@
             "-60% de capacidade do carregador", 
             "-10% de danos provocados"
         ], 
-        "description": "O For\u00e7a da Natureza"
+        "description": "Force-A-Nature"
     }, 
     "42": {
         "type": "Lancheira", 
-        "description": "O Sandvich"
+        "description": "Sandvich"
     }, 
     "43": {
         "positive": [
@@ -804,7 +841,7 @@
         "negative": [
             "Velocidade de disparo -20% mais lenta"
         ], 
-        "description": "As Luvas de Box Mortais"
+        "description": "Killing Gloves of Boxing"
     }, 
     "40": {
         "positive": [
@@ -816,7 +853,7 @@
             "Sem danos cr\u00edticos aleat\u00f3rios", 
             "Sem descarga de compress\u00e3o"
         ], 
-        "description": "O Retro-lan\u00e7a-chamas"
+        "description": "Backburner"
     }, 
     "41": {
         "positive": [
@@ -842,30 +879,55 @@
     }, 
     "146": {
         "type": "Hat", 
-        "description": "TF_DemomanHallmark"
+        "description": "Imagem de marca do Hustler"
     }, 
     "147": {
         "type": "Hat", 
-        "description": "TF_SpyNobleHair"
+        "description": "Peruca do Magistrado"
     }, 
     "144": {
         "type": "Hat", 
-        "description": "TF_MedicMask"
+        "description": "M\u00e1scara de Cirurgi\u00e3o"
     }, 
     "145": {
         "type": "Hat", 
-        "description": "TF_HeavyHair"
+        "description": "C\u00e3o de Ca\u00e7a"
+    }, 
+    "142": {
+        "positive": [
+            "+25 energia m\u00e1xima por utilizador"
+        ], 
+        "type": "TF_Weapon_Robot_Arm", 
+        "negative": [
+            "Sem danos cr\u00edticos aleat\u00f3rios"
+        ], 
+        "description": "TF_Unique_Robot_Arm"
     }, 
     "143": {
         "alt": [
-            "TF_OSXItem_Desc"
+            "Compat\u00edvel com OSX!"
         ], 
         "type": "Hat", 
-        "description": "TF_OSXItem"
+        "description": "Auriculares"
+    }, 
+    "140": {
+        "alt": [
+            "TF_Wrangler_Desc"
+        ], 
+        "type": "TF_Weapon_Laser_Pointer", 
+        "description": "TF_Unique_Achievement_Laser_Pointer"
+    }, 
+    "141": {
+        "type": "Ca\u00e7adeira", 
+        "negative": [
+            "Sem danos cr\u00edticos aleat\u00f3rios", 
+            "-50% de capacidade do carregador"
+        ], 
+        "description": "TF_Unique_Sentry_Shotgun"
     }, 
     "148": {
         "type": "Hat", 
-        "description": "TF_EngineerWeldingMask"
+        "description": "Capacete para Soldar"
     }, 
     "2": {
         "type": "Machado de fogo", 

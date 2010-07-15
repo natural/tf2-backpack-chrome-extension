@@ -1,21 +1,21 @@
 {
     "133": {
         "positive": [
-            "\ub85c\ucf13 \uc810\ud504\uc5d0\uc11c -75% \ube14\ub798\uc2a4\ud2b8 \ub370\ubbf8\uc9c0"
+            "\ub85c\ucf13 \uc810\ud504\uc5d0\uc11c -60% \ube14\ub798\uc2a4\ud2b8 \ub370\ubbf8\uc9c0"
         ], 
         "type": "\ubd80\uce20", 
-        "description": "\uac74\ubcf4\ud2b8"
+        "description": "Gunboats"
     }, 
     "132": {
         "alt": [
-            "\uc774 \ubb34\uae30\ub294 \uadfc\uc811 \uc0ac\uc815 \uac70\ub9ac\uac00 \ub113\uc2b5\ub2c8\ub2e4.\n\uba38\ub9ac\ub97c \ubca8 \ub54c\ub9c8\ub2e4 \uc18d\ub3c4\uc640 HP\uac00 \uc99d\uac00\ud569\ub2c8\ub2e4."
+            "\uc774 \ubb34\uae30\ub294 \uadfc\uc811 \uc0ac\uc815 \uac70\ub9ac\uac00 \ub113\uc2b5\ub2c8\ub2e4.\r\n\uba38\ub9ac\ub97c \ubca8 \ub54c\ub9c8\ub2e4 \uc18d\ub3c4\uc640 HP\uac00 \uc99d\uac00\ud569\ub2c8\ub2e4."
         ], 
         "type": "\uce7c", 
         "negative": [
             "\ucc29\uc6a9 \uc2dc -25 \ucd5c\ub300 \uccb4\ub825", 
             "\ub79c\ub364 \uce58\uba85\ud0c0 \uc5c6\uc74c"
         ], 
-        "description": "\uc544\uc774\ub79c\ub354"
+        "description": "Eyelander"
     }, 
     "131": {
         "positive": [
@@ -26,7 +26,7 @@
             "\ubcf4\uc870 \uae30\ub2a5 \uc0ac\uc6a9: \uc801\uc5d0\uac8c \ub3cc\uc9c4\ud568\uc73c\ub85c\uc368 \uacf5\uaca9\ub825\uc774 \ud5a5\uc0c1\ub429\ub2c8\ub2e4."
         ], 
         "type": "\ubc29\ud328", 
-        "description": "\ub3cc\uaca9 \ubc29\ud328"
+        "description": "Chargin' Targe"
     }, 
     "130": {
         "positive": [
@@ -39,40 +39,40 @@
         "negative": [
             "\ud3ed\ud0c4 \uc7a5\ucc29 \uc2dc\uac04 0.4\ucd08 \uac10\uc18c"
         ], 
-        "description": "\uc2a4\ucf54\ud2f0\uc2dc \ub808\uc9c0\uc2a4\ud0d5\uc2a4"
+        "description": "Scottish Resistance"
     }, 
     "137": {
         "type": "Hat", 
-        "description": "TF_NobleAmassment_Hat"
+        "description": "\uace0\uae09\uc2a4\ub7f0 \ubaa8\uc790 \ubaa8\uc74c"
     }, 
     "136": {
         "alt": [
-            "TF_PropagandaContest_SecondPlace_Desc"
+            "\uc120\uc804 \ub300\ud68c \uc900\uc6b0\uc2b9\uc790"
         ], 
         "type": "Hat", 
-        "description": "TF_PropagandaContest_SecondPlace"
+        "description": "\uc570\ubc84\uc758 \ub05d\ub0b4\uc8fc\ub294 \ubaa8\uc790"
     }, 
     "135": {
         "type": "Hat", 
-        "description": "TF_ToweringPillar_Hat"
+        "description": "\uc6b0\ub69d \uc19f\uc740 \ubaa8\uc790 \uae30\ub465"
     }, 
     "134": {
         "alt": [
-            "TF_PropagandaContest_FirstPlace_Desc"
+            "\uc120\uc804 \ub300\ud68c \ucd5c\uace0 \uc6b0\uc2b9\uc790"
         ], 
         "type": "Hat", 
-        "description": "TF_PropagandaContest_FirstPlace"
+        "description": "J.Axer\uc758 \uba4b\uc7c1\uc774 \ubaa8\uc790"
     }, 
     "139": {
         "type": "Hat", 
-        "description": "TF_ModestPile_Hat"
+        "description": "\ubb34\ub09c\ud55c \ubaa8\uc790 \ub354\ubbf8"
     }, 
     "138": {
         "alt": [
-            "TF_PropagandaContest_ThirdPlace_Desc"
+            "\uc120\uc804 \ub300\ud68c 3\uc704"
         ], 
         "type": "Hat", 
-        "description": "TF_PropagandaContest_ThirdPlace"
+        "description": "\uc0d8 \uc0bc\ucd0c"
     }, 
     "24": {
         "type": "\uad8c\ucd1d", 
@@ -148,15 +148,15 @@
     }, 
     "122": {
         "type": "Cheat Detector", 
-        "description": "\uadc0\ud558\uc758 \uacc4\uc815\uc774 \ubd80\uc815 \ud589\uc704 \uc0ac\uc6a9\uc790\ub85c \ub4f1\ub85d\ub418\uc5c8\uc2b5\ub2c8\ub2e4. \ubd80\uc815 \ud589\uc704\ub85c \uc778\ud55c \uc544\uc774\ud15c\uc774 \uc81c\uac70\ub418\uc5c8\uc2b5\ub2c8\ub2e4.\n\n\ud5a5\ud6c4 \ubd80\uc815 \ud589\uc704\uac00 \uc801\ubc1c\ub418\uba74 \ubaa8\ub4e0 \uc544\uc774\ud15c\uc774 \uc0ac\ub77c\uc9c8 \uc218 \uc788\uc73c\ub2c8 \uc8fc\uc758\ud558\uc2dc\uae30 \ubc14\ub78d\ub2c8\ub2e4."
+        "description": "\uadc0\ud558\uc758 \uacc4\uc815\uc774 \ubd80\uc815 \ud589\uc704 \uc0ac\uc6a9\uc790\ub85c \ub4f1\ub85d\ub418\uc5c8\uc2b5\ub2c8\ub2e4. \ubd80\uc815 \ud589\uc704\ub85c \uc778\ud55c \uc544\uc774\ud15c\uc774 \uc81c\uac70\ub418\uc5c8\uc2b5\ub2c8\ub2e4.\r\n\r\n\ud5a5\ud6c4 \ubd80\uc815 \ud589\uc704\uac00 \uc801\ubc1c\ub418\uba74 \ubaa8\ub4e0 \uc544\uc774\ud15c\uc774 \uc0ac\ub77c\uc9c8 \uc218 \uc788\uc73c\ub2c8 \uc8fc\uc758\ud558\uc2dc\uae30 \ubc14\ub78d\ub2c8\ub2e4."
     }, 
     "123": {
         "type": "Cheat Detector", 
-        "description": "\uadc0\ud558\uc758 \uacc4\uc815\uc774 \ubd80\uc815 \ud589\uc704 \uc0ac\uc6a9\uc790\ub85c \ub4f1\ub85d\ub418\uc5c8\uc2b5\ub2c8\ub2e4. \uc778\ubca4\ud1a0\ub9ac\uc758 \ubaa8\ub4e0 \uc544\uc774\ud15c\uc774 \uc81c\uac70\ub418\uc5c8\uc2b5\ub2c8\ub2e4.\n\n\ud5a5\ud6c4 \ubd80\uc815 \ud589\uc704\uac00 \uc801\ubc1c\ub418\uba74 \uacc4\uc815\uc774 \uc815\uc9c0\ub420 \uc218 \uc788\uc73c\ub2c8 \uc8fc\uc758\ud558\uc2dc\uae30 \ubc14\ub78d\ub2c8\ub2e4."
+        "description": "\uadc0\ud558\uc758 \uacc4\uc815\uc774 \ubd80\uc815 \ud589\uc704 \uc0ac\uc6a9\uc790\ub85c \ub4f1\ub85d\ub418\uc5c8\uc2b5\ub2c8\ub2e4. \uc778\ubca4\ud1a0\ub9ac\uc758 \ubaa8\ub4e0 \uc544\uc774\ud15c\uc774 \uc81c\uac70\ub418\uc5c8\uc2b5\ub2c8\ub2e4.\r\n\r\n\ud5a5\ud6c4 \ubd80\uc815 \ud589\uc704\uac00 \uc801\ubc1c\ub418\uba74 \uacc4\uc815\uc774 \uc815\uc9c0\ub420 \uc218 \uc788\uc73c\ub2c8 \uc8fc\uc758\ud558\uc2dc\uae30 \ubc14\ub78d\ub2c8\ub2e4."
     }, 
     "124": {
         "type": "Cheat Detector", 
-        "description": "\ucd95\ud558\ud569\ub2c8\ub2e4! \uc815\uc9c1\ud568\uc758 \ub300\uac00\ub85c \uc0c8\ub85c\uc6b4 \ubaa8\uc790\ub97c \ubc1b\uc558\uc2b5\ub2c8\ub2e4!\n\n(\uc77c\ubd80 \ub2e4\ub978 \ud50c\ub808\uc774\uc5b4\ub294 \uc591\uc2ec\uc774 \ubd80\uc871\ud558\uac70\ub098 \uc6b4\uc774 \ub098\uc068)"
+        "description": "\ucd95\ud558\ud569\ub2c8\ub2e4! \uc815\uc9c1\ud568\uc758 \ub300\uac00\ub85c \uc0c8\ub85c\uc6b4 \ubaa8\uc790\ub97c \ubc1b\uc558\uc2b5\ub2c8\ub2e4!\r\n\r\n(\uc77c\ubd80 \ub2e4\ub978 \ud50c\ub808\uc774\uc5b4\ub294 \uc591\uc2ec\uc774 \ubd80\uc871\ud558\uac70\ub098 \uc6b4\uc774 \ub098\uc068)"
     }, 
     "125": {
         "alt": [
@@ -179,18 +179,18 @@
         "negative": [
             "-70% \ud3ed\ubc1c \ubc94\uc704"
         ], 
-        "description": "\ub2e4\uc774\ub809\ud2b8 \ud788\ud2b8"
+        "description": "Direct Hit"
     }, 
     "128": {
         "positive": [
             "\ud50c\ub808\uc774\uc5b4\uac00 \ubd80\uc0c1\uc744 \ub2f9\ud560\uc218\ub85d \ub370\ubbf8\uc9c0 \ubc0f \uc774\ub3d9 \uc18d\ub3c4 \uc99d\uac00"
         ], 
         "type": "\uace1\uad2d\uc774", 
-        "description": "\uc774\ud004\ub77c\uc774\uc800"
+        "description": "Equalizer"
     }, 
     "129": {
         "type": "\uc804\ud22c \uae43\ubc1c", 
-        "description": "\ubc84\ud504 \uae43\ubc1c"
+        "description": "Buff Banner"
     }, 
     "59": {
         "positive": [
@@ -203,14 +203,14 @@
         "negative": [
             "+60% \ud074\ub85c\ud0b9 \uace0\uac08 \uc18d\ub3c4"
         ], 
-        "description": "\ub370\ub4dc \ub9c1\uc5b4"
+        "description": "Dead Ringer"
     }, 
     "58": {
         "alt": [
-            "\uc790\ub77c\ub370\uc5d0 \ub2f9\ud55c \uc801\uc740 \ucd5c\uc18c \uce58\uba85\ud0c0\uc728\n\ubd88\uc744 \ub044\ub294\ub370\ub3c4 \uc720\uc6a9"
+            "\uc790\ub77c\ub370\uc5d0 \ub2f9\ud55c \uc801\uc740 \ucd5c\uc18c \uce58\uba85\ud0c0\uc728\r\n\ubd88\uc744 \ub044\ub294\ub370\ub3c4 \uc720\uc6a9"
         ], 
         "type": "\uc720\ub9ac\ubcd1 \uac00\ub77c\ub370", 
-        "description": "\uc790\ub77c\ub370"
+        "description": "Jarate"
     }, 
     "55": {
         "type": "Hat", 
@@ -225,11 +225,11 @@
             "\ud55c \ubc88\uc758 \ubc31\uc2a4\ud0ed \uc2dc\ub3c4 \ubc29\uc5b4"
         ], 
         "type": "\ubc29\ud328", 
-        "description": "\ub808\uc774\uc800\ubc31"
+        "description": "Razorback"
     }, 
     "56": {
         "type": "\ud65c", 
-        "description": "\uc0ac\ub0e5\ud65c"
+        "description": "Huntsman"
     }, 
     "51": {
         "type": "Hat", 
@@ -467,7 +467,7 @@
     }, 
     "39": {
         "type": "\ud50c\ub808\uc5b4 \uac74", 
-        "description": "\ud50c\ub808\uc5b4 \uac74"
+        "description": "Flare Gun"
     }, 
     "38": {
         "positive": [
@@ -478,7 +478,7 @@
             "\ubd88\ud0c0\uc9c0 \uc54a\ub294 \uc801\uc5d0\uac8c \uce58\uba85\ud0c0 \uc5c6\uc74c", 
             "\ubd88\ud0c0\uc9c0 \uc54a\ub294 \uc801\uc5d0\uac8c -50% \ub370\ubbf8\uc9c0"
         ], 
-        "description": "\ub3cc\ub3c4\ub07c"
+        "description": "Axtinguisher"
     }, 
     "33": {
         "type": "\uc8fc\uc0ac\uae30 \uac74", 
@@ -538,7 +538,7 @@
             "\ud074\ub85c\ud0b9 \uc720\ud615: \ubaa8\uc158 \uac10\uc9c0"
         ], 
         "type": "\ud22c\uba85 \uc2dc\uacc4", 
-        "description": "\ub9dd\ud1a0\uc640 \ub2e8\uac80"
+        "description": "Cloak and Dagger"
     }, 
     "61": {
         "positive": [
@@ -549,7 +549,7 @@
             "-15% \ub370\ubbf8\uc9c0", 
             "-20% \ub290\ub9b0 \ubc1c\uc0ac \uc18d\ub3c4"
         ], 
-        "description": "\uc570\ubc84\uc11c\ub354"
+        "description": "Ambassador"
     }, 
     "97": {
         "type": "Hat", 
@@ -557,67 +557,73 @@
     }, 
     "179": {
         "type": "Hat", 
-        "description": "TF_DemomanTricorne"
+        "description": "\ud574\uc801 \uc0bc\uac01\ubaa8"
     }, 
     "178": {
         "type": "Hat", 
-        "description": "TF_EngineerEarmuffs"
+        "description": "\uc548\uc804\uacfc \ud3c9\ud654"
     }, 
     "177": {
         "alt": [
-            "TF_MedicGoggles_Desc"
+            "\uc5c6\uc74c"
         ], 
         "type": "Hat", 
-        "description": "TF_MedicGoggles"
+        "description": "\uc81c\ud2b8 \uace0\uae00"
     }, 
     "175": {
         "type": "Hat", 
-        "description": "TF_PyroMonocle"
+        "description": "\uad6c\ub81b\ub098\ub8fb \uc2e0\uc0ac"
     }, 
     "174": {
         "type": "Hat", 
-        "description": "TF_ScoutWhoopee"
+        "description": "\ud6c4\ud53c \ubaa8\uc790"
     }, 
     "172": {
         "positive": [
             "+20% \ub370\ubbf8\uc9c0"
         ], 
-        "type": "TF_Weapon_Axe", 
+        "type": "\ub3c4\ub07c", 
         "negative": [
             "\ucc29\uc6a9 \uc2dc 15% \uc774\ub3d9 \uc18d\ub3c4 \uac10\uc18c"
         ], 
         "description": "TF_Unique_BattleAxe"
     }, 
     "171": {
+        "positive": [
+            "\uc801\uc911 \uc2dc: 6\ucd08 \ub3d9\uc548 \ucd9c\ud608"
+        ], 
         "type": "\ucfe0\ud06c\ub9ac", 
         "negative": [
-            "-35% \ub370\ubbf8\uc9c0"
+            "-50% \ub370\ubbf8\uc9c0"
         ], 
         "description": "TF_Unique_TribalmanKukri"
     }, 
     "170": {
-        "type": "TF_Wearable_Badge", 
-        "description": "TF_Employee_Badge_Plat"
+        "alt": [
+            "\uace0\uc6a9\uc77c: %s1"
+        ], 
+        "type": "\ubc30\uc9c0", 
+        "description": "\ud0dc\uace0\uc758 \uc804\uc0ac"
     }, 
     "182": {
         "type": "Hat", 
-        "description": "TF_PyroHelm"
+        "description": "\ube48\ud2f0\uc9c0 \uc18c\ubc29\ubaa8"
     }, 
     "183": {
         "type": "Hat", 
-        "description": "TF_SoldierDrillHat"
+        "description": "\uad50\uad00 \ud6c8\ub828\ubaa8"
     }, 
     "180": {
         "type": "Hat", 
-        "description": "TF_SpyBeret"
+        "description": "\ud504\ub791\uc2a4 \ubca0\ub808\ubaa8"
     }, 
     "181": {
         "type": "Hat", 
-        "description": "TF_SniperFishingHat"
+        "description": "\ubc84\ucf13 \ubaa8\uc790"
     }, 
     "184": {
         "type": "Hat", 
-        "description": "TF_MedicGatsby"
+        "description": "\uc2e0\uc0ac \uac1c\uce20\ube44"
     }, 
     "6": {
         "type": "\uc0bd", 
@@ -625,7 +631,7 @@
     }, 
     "185": {
         "type": "Hat", 
-        "description": "TF_HeavyDorag"
+        "description": "\ud2bc\ud2bc\ud55c \ub450\uac74"
     }, 
     "99": {
         "type": "Hat", 
@@ -640,41 +646,51 @@
         "description": "TF_Unique_Golden_Wrench"
     }, 
     "164": {
-        "type": "TF_Wearable_Badge", 
-        "description": "TF_Employee_Badge_A"
+        "alt": [
+            "\uace0\uc6a9\uc77c: %s1"
+        ], 
+        "type": "\ubc30\uc9c0", 
+        "description": "\ubc18\ubc31\uc758 \ucc38\uc804 \uc6a9\uc0ac"
     }, 
     "165": {
-        "type": "TF_Wearable_Badge", 
-        "description": "TF_Employee_Badge_B"
+        "alt": [
+            "\uace0\uc6a9\uc77c: %s1"
+        ], 
+        "type": "\ubc30\uc9c0", 
+        "description": "\uace0\uc6a9\ubcd1"
     }, 
     "166": {
-        "type": "TF_Wearable_Badge", 
-        "description": "TF_Employee_Badge_C"
+        "alt": [
+            "\uace0\uc6a9\uc77c: %s1"
+        ], 
+        "type": "\ubc30\uc9c0", 
+        "description": "\uc6a9\ubcd1"
     }, 
     "160": {
         "alt": [
-            "TF_TTG_MaxGun_Desc"
+            "\uc740\ub2c9 \ubb34\uae30\uc758 \uad81\uadf9 \ud615\ud0dc.\r\n\uc88b\uc740 \ucd1d\uc778 \uac74 \ub9d0\ud560 \uac83\ub3c4 \uc5c6\uc9c0\ub9cc\r\n\ub2e8 \ud55c \uac00\uc9c0 \uace0\ubbfc\uc740 \uc5b4\ub514\ub2e4 \ub458 \uac83\uc778\uac00?"
         ], 
         "type": "\ud53c\uc2a4\ud1a8", 
-        "description": "TF_TTG_MaxGun"
+        "description": "Lugermorph"
     }, 
     "161": {
         "alt": [
-            "TF_TTG_SamRevolver_Desc"
+            "\uc800\uc9c0 \ub2a5\ub825\uacfc \uc2a4\ud0c0\uc77c\uc744 \ubaa8\ub450 \uac16\ucd94\ub2e4.\r\n\ud504\ub9ac\ub79c\uc11c \uacbd\ucc30\uc758 \uc624\ub79c \uc804\uc720\ubb3c\uc774\uc5c8\uc73c\ub098\r\n\uc774\uc81c \ud53c\uc5d0 \uad76\uc8fc\ub9b0 \uc6a9\ubcd1\uc5d0\uac8c\ub3c4 \uae30\ud68c\uac00 \uc654\ub2e4."
         ], 
         "type": "\uad8c\ucd1d", 
-        "description": "TF_TTG_SamRevolver"
+        "description": "Big Kill"
     }, 
     "162": {
         "alt": [
-            "TF_TTG_MaxsHat_Desc"
+            "\ub3d9\ubb3c \uc2e4\ud5d8\uc740 \uc808\ub300 \ud558\uc9c0 \uc54a\ub294 \ud544\ub9ac\ud540 \ub18d\uc7a5\uc5d0\uc11c\r\n\ud2b9\uc218 \uc81c\uc791. \uc18d\uc774 \ube48 \uba38\ub9ac\ud1b5\uc774\r\n\uc804\ud22c\uc758 \uc5f4\uae30\ub85c \ub9fa\ud78c \ub540\uc744 \ub0a0\ub824\uc90d\ub2c8\ub2e4."
         ], 
         "type": "Hat", 
-        "description": "TF_TTG_MaxsHat"
+        "description": "\ub9e5\uc2a4\uc758 \uba38\ub9ac"
     }, 
     "163": {
         "alt": [
-            "TF_Unique_EnergyDrink_CritCola_Desc"
+            "\ud6a8\uacfc\ub97c \ubc1b\ub294 \ub3d9\uc548 \uc785\ud788\ub294 \ub370\ubbf8\uc9c0\uc640\r\n\uc785\ub294 \ub370\ubbf8\uc9c0\uac00 \ucd5c\uc18c \uce58\uba85\ud0c0\ub85c \uc801\uc911\ud569\ub2c8\ub2e4.", 
+            "30\ucd08 \ub3d9\uc548 \ucd5c\ub300 \uccb4\ub825 +50"
         ], 
         "type": "\ub3c4\uc2dc\ub77d", 
         "description": "TF_Unique_EnergyDrink_CritCola"
@@ -721,37 +737,58 @@
     }, 
     "151": {
         "type": "Hat", 
-        "description": "TF_PyroBrainSucker"
+        "description": "\ud3ed\uad70 \ubbfc\ub2ec\ud33d\uc774"
     }, 
     "150": {
         "type": "Hat", 
-        "description": "TF_ScoutBeanie"
+        "description": "\ub9d0\uc37d\uafbc\uc758 \ub728\uac1c \ubaa8\uc790"
     }, 
     "153": {
-        "type": "TF_Weapon_SledgeHammer", 
-        "description": "TF_Unique_SledgeHammer"
+        "positive": [
+            "\uacf5\ubcd1\uc5d0\uac8c \ub370\ubbf8\uc9c0", 
+            "\uac74\ubb3c\uc5d0 100% \ub370\ubbf8\uc9c0"
+        ], 
+        "type": "\uc1e0\ub9dd\uce58", 
+        "negative": [
+            "\uc801\uc5d0\uac8c -25% \ub370\ubbf8\uc9c0"
+        ], 
+        "description": "Homewrecker"
     }, 
     "152": {
         "type": "Hat", 
-        "description": "TF_SoldierSamurai"
+        "description": "\ud0ac\ub7ec\uc758 \uce74\ubd80\ud1a0"
+    }, 
+    "155": {
+        "positive": [
+            "\uc801\uc911 \uc2dc: 5\ucd08 \ub3d9\uc548 \ucd9c\ud608"
+        ], 
+        "type": "\ub80c\uce58", 
+        "negative": [
+            "\ub79c\ub364 \uce58\uba85\ud0c0 \uc5c6\uc74c", 
+            "\ucc29\uc6a9 \uc2dc 20% \ud654\uc5fc \ub370\ubbf8\uc9c0 \ucde8\uc57d"
+        ], 
+        "description": "TF_Unique_Combat_Wrench"
     }, 
     "154": {
         "positive": [
             "\ucc29\uc6a9 \uc2dc +1 \uc7a5\uc545 \uc18d\ub3c4"
         ], 
-        "type": "TF_Weapon_MakeshiftClub", 
+        "type": "\uc784\uc2dc \uace4\ubd09", 
         "negative": [
             "\ucc29\uc6a9 \uc2dc 10% \ucd1d\uc54c \ub370\ubbf8\uc9c0 \ucde8\uc57d"
         ], 
-        "description": "TF_Unique_Makeshiftclub"
+        "description": "Pain Train"
     }, 
     "159": {
+        "positive": [
+            "30\ucd08 \ub3d9\uc548 \ucd5c\ub300 \uccb4\ub825 +50"
+        ], 
         "type": "\ub3c4\uc2dc\ub77d", 
-        "description": "TF_Unique_Lunchbox_Chocolate"
+        "description": "Dalokohs Bar"
     }, 
     "158": {
         "type": "Hat", 
-        "description": "TF_SniperPithHelmet"
+        "description": "\ud3ec\uc218\uc758 \ud587\ube5b \uac00\ub9ac\uac1c"
     }, 
     "48": {
         "type": "Hat", 
@@ -763,7 +800,7 @@
     }, 
     "46": {
         "type": "\ub3c4\uc2dc\ub77d", 
-        "description": "\ubd09\ud06c! \uc544\ud1a0\ubbf9 \ud380\uce58"
+        "description": "Bonk! Atomic Punch"
     }, 
     "47": {
         "type": "Hat", 
@@ -777,7 +814,7 @@
         "negative": [
             "\ucc29\uc6a9 \uc2dc -15 \ucd5c\ub300 \uccb4\ub825"
         ], 
-        "description": "\uc0cc\ub4dc\ub9e8"
+        "description": "Sandman"
     }, 
     "45": {
         "positive": [
@@ -790,11 +827,11 @@
             "-60% \ud0c4\ucc3d \ud06c\uae30", 
             "-10% \ub370\ubbf8\uc9c0"
         ], 
-        "description": "\ud3ec\uc2a4 \uc5b4 \ub124\uc774\ucc98"
+        "description": "Force-A-Nature"
     }, 
     "42": {
         "type": "\ub3c4\uc2dc\ub77d", 
-        "description": "\uc0cc\ub4dc\uc704\uce58"
+        "description": "Sandvich"
     }, 
     "43": {
         "positive": [
@@ -804,7 +841,7 @@
         "negative": [
             "-20% \ub290\ub9b0 \ubc1c\uc0ac \uc18d\ub3c4"
         ], 
-        "description": "K.G.B."
+        "description": "Killing Gloves of Boxing"
     }, 
     "40": {
         "positive": [
@@ -816,7 +853,7 @@
             "\ub79c\ub364 \uce58\uba85\ud0c0 \uc5c6\uc74c", 
             "\uc555\ucd95 \ube14\ub798\uc2a4\ud2b8 \uc5c6\uc74c"
         ], 
-        "description": "\ubc31\ubc84\ub108"
+        "description": "Backburner"
     }, 
     "41": {
         "positive": [
@@ -826,7 +863,7 @@
         "negative": [
             "-25% \ub370\ubbf8\uc9c0"
         ], 
-        "description": "\ub098\ud0c0\uc0e4"
+        "description": "Natascha"
     }, 
     "1": {
         "type": "\ubcd1", 
@@ -842,30 +879,55 @@
     }, 
     "146": {
         "type": "Hat", 
-        "description": "TF_DemomanHallmark"
+        "description": "\uc0ac\uae30\uafbc\uc758 \ubaa8\uc790"
     }, 
     "147": {
         "type": "Hat", 
-        "description": "TF_SpyNobleHair"
+        "description": "\uce58\uc548 \ud310\uc0ac\uc758 \uadc0\uc871 \uac00\ubc1c"
     }, 
     "144": {
         "type": "Hat", 
-        "description": "TF_MedicMask"
+        "description": "\uc758\uc0ac\uc758 \uc218\uc220\uc6a9 \ub9c8\uc2a4\ud06c"
     }, 
     "145": {
         "type": "Hat", 
-        "description": "TF_HeavyHair"
+        "description": "\uc0ac\ub0e5\uac1c"
+    }, 
+    "142": {
+        "positive": [
+            "\ucc29\uc6a9 \uc2dc +25 \ucd5c\ub300 \uccb4\ub825"
+        ], 
+        "type": "TF_Weapon_Robot_Arm", 
+        "negative": [
+            "\ub79c\ub364 \uce58\uba85\ud0c0 \uc5c6\uc74c"
+        ], 
+        "description": "TF_Unique_Robot_Arm"
     }, 
     "143": {
         "alt": [
-            "TF_OSXItem_Desc"
+            "OSX \ub4f1\uc7a5!"
         ], 
         "type": "Hat", 
-        "description": "TF_OSXItem"
+        "description": "\uc774\uc5b4\ud3f0"
+    }, 
+    "140": {
+        "alt": [
+            "TF_Wrangler_Desc"
+        ], 
+        "type": "TF_Weapon_Laser_Pointer", 
+        "description": "TF_Unique_Achievement_Laser_Pointer"
+    }, 
+    "141": {
+        "type": "\uc0f7\uac74", 
+        "negative": [
+            "\ub79c\ub364 \uce58\uba85\ud0c0 \uc5c6\uc74c", 
+            "-50% \ud0c4\ucc3d \ud06c\uae30"
+        ], 
+        "description": "TF_Unique_Sentry_Shotgun"
     }, 
     "148": {
         "type": "Hat", 
-        "description": "TF_EngineerWeldingMask"
+        "description": "\uc6a9\uc811 \ub9c8\uc2a4\ud06c"
     }, 
     "2": {
         "type": "\ubd88\ub3c4\ub07c", 
