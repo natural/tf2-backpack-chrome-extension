@@ -1,0 +1,35 @@
+#!/usr/bin/env python
+import codecs
+import json
+import sys
+from antlr3 import ANTLRStringStream, CommonTokenStream
+from source_text_parser.STParser import STParser
+from source_text_parser.STLexer import STLexer
+
+
+def parse(fn):
+    source = codecs.open(fn, encoding='utf-8').read()
+    stream = ANTLRStringStream(source)
+    lexer = STLexer(stream)
+    parser = STParser(CommonTokenStream(lexer))
+    output = {}
+    parser.source_mapping(output)
+    return output
+
+
+def main():
+    try:
+	fn = sys.argv[1]
+    except (IndexError, ):
+	print >> sys.stderr, 'usage: %s filename' % (sys.argv[0], )
+	return
+    try:
+	data = parse(fn)
+	sys.stdout = codecs.getwriter('utf8')(sys.stdout)
+	print json.dumps(data, indent=4)
+    except (Exception, ), exc:
+	print >> sys.stderr, 'exception during parse or output: ', exc
+
+
+if __name__ == '__main__':
+    main()

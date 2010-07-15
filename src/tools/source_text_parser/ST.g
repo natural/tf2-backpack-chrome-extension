@@ -1,4 +1,4 @@
-grammar SourceText;
+grammar ST;
 options
 {
 language=Python;
