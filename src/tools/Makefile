@@ -6,7 +6,7 @@ tf_files := $(filter-out $(noitems), $(wildcard ../media/tf_*.txt))
 notrans := tf_english.txt tf_koreana.txt tf_norwegian.txt
 msg_files := $(filter-out $(notrans), $(notdir $(wildcard ../media/tf_*.txt)))
 
-.PHONY: all clean messages $(tf_files)
+.PHONY: all clean messages $(tf_files) parser
 
 .SILENT: clean
 
@@ -16,7 +16,6 @@ all:
 	@echo run make parser, make messages, make items, or make clean
 
 
-parser: SourceTextParser.py # SourceTextTreeParser.py
 
 items: $(tf_files)
 
@@ -30,9 +29,10 @@ $(msg_files):
 	./translate_messages.py $(shell python map_locale.py --file=$@)
 
 
-SourceTextParser.py: SourceText.g
-	antlr3 SourceText.g
+parser:
+	@cd source_text_parser && make
 
 
 clean:
-	@rm -f SourceTextLexer.py SourceTextParser.py SourceText.tokens
+	@cd source_text_parser && make clean
+

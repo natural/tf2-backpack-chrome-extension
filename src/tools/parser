@@ -1,20 +1,6 @@
 #!/usr/bin/env python
-import codecs
-import json
-import sys
-from antlr3 import ANTLRStringStream, CommonTokenStream
-from source_text_parser.STParser import STParser
-from source_text_parser.STLexer import STLexer
-
-
-def parse(fn):
-    source = codecs.open(fn, encoding='utf-8').read()
-    stream = ANTLRStringStream(source)
-    lexer = STLexer(stream)
-    parser = STParser(CommonTokenStream(lexer))
-    output = {}
-    parser.source_mapping(output)
-    return output
+import codecs, json, sys
+from source_text_parser import parse
 
 
 def main():
