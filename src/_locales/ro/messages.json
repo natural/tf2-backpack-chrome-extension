@@ -1,0 +1,306 @@
+{
+    "num4": {
+        "message": "4", 
+        "message-retranslated": "4", 
+        "description": "the number 4"
+    }, 
+    "no_change": {
+        "message": "Nici o schimbare", 
+        "message-retranslated": "No change", 
+        "description": "nothing changed, but have a label!"
+    }, 
+    "profile_found": {
+        "message": "Folosind Steam ID $1 pentru $2.", 
+        "message-retranslated": "Using a Steam ID $to $2.", 
+        "description": "steam id found in search"
+    }, 
+    "num1": {
+        "message": "1", 
+        "message-retranslated": "1", 
+        "description": "the number 1"
+    }, 
+    "num2": {
+        "message": "2", 
+        "message-retranslated": "2", 
+        "description": "the number 2"
+    }, 
+    "num3": {
+        "message": "3", 
+        "message-retranslated": "3", 
+        "description": "the number 3"
+    }, 
+    "its_msg_12": {
+        "message": "Statistici", 
+        "message-retranslated": "Statistics", 
+        "description": "stats button"
+    }, 
+    "second": {
+        "message": "al doilea", 
+        "message-retranslated": "second", 
+        "description": "second"
+    }, 
+    "warning": {
+        "message": "Avertisment", 
+        "message-retranslated": "Warning", 
+        "description": "warning label"
+    }, 
+    "its_msg_31": {
+        "message": "Privit rucsac tF2 - Op\u0163iuni", 
+        "message-retranslated": "Viewer backpack TF2 - Options", 
+        "description": "options page title"
+    }, 
+    "refresh_nochange": {
+        "message": "Feed odihnit - nr Modific\u0103ri", 
+        "message-retranslated": "Feed rested - No Changes", 
+        "description": "feed refreshed without changes"
+    }, 
+    "language_code": {
+        "message": "ro", 
+        "description": ""
+    }, 
+    "its_msg_30": {
+        "message": "la nivel comunitar de aburi", 
+        "message-retranslated": "Steam Community Level", 
+        "description": "fragment"
+    }, 
+    "parse_error": {
+        "message": "Eroare de analiz\u0103", 
+        "message-retranslated": "Error analysis", 
+        "description": "some kind of parse error"
+    }, 
+    "its_msg_32": {
+        "message": "Profil ID", 
+        "message-retranslated": "Profile ID", 
+        "description": "profile id label"
+    }, 
+    "its_msg_33": {
+        "message": "Anula", 
+        "message-retranslated": "Cancel", 
+        "description": "cancel label, such as for a button"
+    }, 
+    "its_msg_34": {
+        "message": "Traducere incorecte?", 
+        "message-retranslated": "Translation incorrect?", 
+        "description": ""
+    }, 
+    "its_msg_35": {
+        "message": "Sugereaz\u0103 ceva mai bun", 
+        "message-retranslated": "Suggest something better", 
+        "description": ""
+    }, 
+    "its_msg_16": {
+        "message": "Elemente Necunoscut", 
+        "message-retranslated": "Parts Unknown", 
+        "description": "unknown item count stats title"
+    }, 
+    "its_msg_17": {
+        "message": "Elementele din metal", 
+        "message-retranslated": "Metal Items", 
+        "description": "metal item count stats title"
+    }, 
+    "its_msg_14": {
+        "message": "Normal Articole", 
+        "message-retranslated": "Normal Items", 
+        "description": "normal item count stats title"
+    }, 
+    "its_msg_15": {
+        "message": "Palarie", 
+        "message-retranslated": "Hats", 
+        "description": "hat count stats title"
+    }, 
+    "extension_default_title": {
+        "message": "Vizualizarea Team Fortress 2 rucsac", 
+        "message-retranslated": "View Team Fortress 2 Backpack", 
+        "description": "Extension default title for browser action"
+    }, 
+    "other_error": {
+        "message": "Unele Alte Eroare", 
+        "message-retranslated": "Some Other Error", 
+        "description": "some other kind of error occurred."
+    }, 
+    "its_msg_10": {
+        "message": "Re\u00eemprosp\u0103ta", 
+        "message-retranslated": "Refresh", 
+        "description": "refresh button"
+    }, 
+    "its_msg_11": {
+        "message": "Op\u0163iuni", 
+        "message-retranslated": "Options", 
+        "description": "options button"
+    }, 
+    "its_msg_18": {
+        "message": "Metal Worth", 
+        "message-retranslated": "Worth Steel", 
+        "description": "metal worth item count"
+    }, 
+    "its_msg_19": {
+        "message": "Vizualizari Profil", 
+        "message-retranslated": "Profile Views", 
+        "description": "count of profile views"
+    }, 
+    "request_aborted": {
+        "message": "Cerere terminata de Expirare", 
+        "message-retranslated": "Application completed by Timeout", 
+        "description": "request aborted label"
+    }, 
+    "seconds": {
+        "message": "secunde", 
+        "message-retranslated": "seconds", 
+        "description": "seconds"
+    }, 
+    "extension_desc": {
+        "message": "Acces rapid la elementele \u00een Team Fortress 2 rucsac", 
+        "message-retranslated": "Quick elements in Team Fortress 2 Backpack", 
+        "description": "Extension description"
+    }, 
+    "its_msg_8": {
+        "message": "Elemente noi", 
+        "message-retranslated": "New items", 
+        "description": "new items title"
+    }, 
+    "its_msg_9": {
+        "message": "Rucsac", 
+        "message-retranslated": "Backpack", 
+        "description": "backpack title"
+    }, 
+    "equipped": {
+        "message": "Echipat", 
+        "message-retranslated": "Equipped", 
+        "description": "equipped label"
+    }, 
+    "its_msg_4": {
+        "message": "Salva", 
+        "message-retranslated": "Save", 
+        "description": "save button"
+    }, 
+    "its_msg_5": {
+        "message": "Resetare", 
+        "message-retranslated": "Reset", 
+        "description": "reset button"
+    }, 
+    "its_msg_6": {
+        "message": "Aproape", 
+        "message-retranslated": "Close", 
+        "description": "close button"
+    }, 
+    "its_msg_7": {
+        "message": "Info caractere pentru $1", 
+        "message-retranslated": "Info characters $1", 
+        "description": "character info title"
+    }, 
+    "network_error": {
+        "message": "Eroare de re\u0163ea", 
+        "message-retranslated": "Network error", 
+        "description": "some kind of network error"
+    }, 
+    "its_msg_1": {
+        "message": "Profil ID care nu a fost!", 
+        "message-retranslated": "Profile ID that was not!", 
+        "description": "no steam id title"
+    }, 
+    "its_msg_2": {
+        "message": "Pentru a utiliza Team Fortress 2 rucsac extensie Accesul introduce\u0163i numele dvs. de comunitate sau profil id-ul aici", 
+        "message-retranslated": "To use the Team Fortress 2 backpack extension of community access or enter your profile ID here", 
+        "description": "no steam id help"
+    }, 
+    "its_msg_3": {
+        "message": "(De exemplu, sau pnatural 76561197992805111)", 
+        "message-retranslated": "(For example, or pnatural 76561197992805111)", 
+        "description": "no steam id example"
+    }, 
+    "bad_feed": {
+        "message": "Bad date Feed", 
+        "message-retranslated": "Bad Data Feed", 
+        "description": "bad data feed label"
+    }, 
+    "feed_url_error": {
+        "message": "Nr Feed URL-ul", 
+        "message-retranslated": "No Feed URL", 
+        "description": "error because the feed url is empty"
+    }, 
+    "its_msg_29": {
+        "message": "la", 
+        "message-retranslated": "to", 
+        "description": "just the word 'at'"
+    }, 
+    "its_msg_28": {
+        "message": "Extinderea scrise de", 
+        "message-retranslated": "Written extension", 
+        "description": "view pnatural profile link"
+    }, 
+    "its_msg_27": {
+        "message": "Realizat de", 
+        "message-retranslated": "Powered by", 
+        "description": "powered by"
+    }, 
+    "its_msg_26": {
+        "message": "Vezi Profilul", 
+        "message-retranslated": "View Profile", 
+        "description": "view profile link"
+    }, 
+    "its_msg_25": {
+        "message": "Vezi rucsac", 
+        "message-retranslated": "View backpack", 
+        "description": "view backpack link"
+    }, 
+    "its_msg_24": {
+        "message": "Ascunde Statistici", 
+        "message-retranslated": "Hide Statistics", 
+        "description": "hide stats button"
+    }, 
+    "its_msg_23": {
+        "message": "Cerere Ora", 
+        "message-retranslated": "Request Time", 
+        "description": "duration of request"
+    }, 
+    "its_msg_22": {
+        "message": "\u00cenainte Fetch", 
+        "message-retranslated": "Fetch Next", 
+        "description": "time of next fetch"
+    }, 
+    "its_msg_21": {
+        "message": "Ultima Fetch", 
+        "message-retranslated": "Last Fetch", 
+        "description": "time of last fetch"
+    }, 
+    "its_msg_20": {
+        "message": "Cache Ora", 
+        "message-retranslated": "Cache Time", 
+        "description": "time feed cached"
+    }, 
+    "refreshing": {
+        "message": "R\u0103coritor", 
+        "message-retranslated": "Refreshing", 
+        "description": "refreshing text goes here"
+    }, 
+    "level": {
+        "message": "Nivelul $1 $2", 
+        "message-retranslated": "Tier 2 $1 $", 
+        "description": "level label"
+    }, 
+    "extension_name": {
+        "message": "Team Fortress 2 rucsac de acces", 
+        "message-retranslated": "Team Fortress 2 backpack access", 
+        "description": "Extension name"
+    }, 
+    "from_cache": {
+        "message": "Datele \u00eenc\u0103rcate din cache", 
+        "message-retranslated": "Data loaded from the cache", 
+        "description": "data loaded from cache label"
+    }, 
+    "error": {
+        "message": "Eroare", 
+        "message-retranslated": "Error", 
+        "description": "error label"
+    }, 
+    "its_msg_13": {
+        "message": "Obiecte in total", 
+        "message-retranslated": "Items total", 
+        "description": "total item count stats title"
+    }, 
+    "its_msg_0": {
+        "message": "Echipa de acces Fortress 2 rucsac (noi \u015fi \u00eembun\u0103t\u0103\u0163ite)", 
+        "message-retranslated": "Access Team Fortress 2 backpack (new and improved)", 
+        "description": "page title"
+    }
+}

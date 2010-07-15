@@ -32,4 +32,5 @@ $(json_files):
 
 message_files: $(tran_files)
 $(tran_files):
-	@echo "./tf_text2messages_json $(shell grep $@ control_files.txt | cut -f 1 -d " ") $@"
+	@./tf_text2messages_json $@
+

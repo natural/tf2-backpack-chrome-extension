@@ -5,7 +5,10 @@ import os
 import re
 import sys
 import urllib
+from  subprocess import Popen, PIPE
 
+## source (english) messages file
+source_filename = os.path.abspath("../_locales/en/messages.json")
 
 google_translate_url = "http://ajax.googleapis.com/ajax/services/language/translate?v=1.0&q={text}&langpair={sl}|{tl}"
 google_translate_url = "http://translate.google.com/translate_a/t?client=t&pc=0&oc=1&hl=en&ie=UTF-8&oe=UTF-8&text={text}&sl={sl}&tl={tl}"
@@ -24,7 +27,7 @@ def google_translate(sl, tl, text):
     except (Exception, ), exc:
 	return {'status':0, 'text':text, 'reason':'fetch error (%s)' % exc}
     try:
-	result = json.loads(data)
+	result = json.loads(data.replace(',,', ',0,'))
     except (Exception, ), exc:
 	return {'status':0, 'text':text, 'reason':'parse error (%s)' % exc}
     return result
@@ -53,79 +56,60 @@ def unmask_subs(text):
     return text.replace("* ", "*").replace("***", "$")
 
 
-def main(source_messages, target_dirname, locales):
+def main(source_messages, target_filename, lang_code):
     source_lang_code = source_messages["language_code"]["message"]
 
     def translate(sl, tl, txt):
 	try:
 	    t = google_translate(sl, tl, txt)
 	except:
-	    print '# translation exception: %s : %s : %s' % (sl, tl, txt)
+	    print >> sys.stderr, '# translation exception: %s : %s : %s' % (sl, tl, txt)
 	    return txt
 	try:
-	    v = t["sentences"][0]["trans"]
+	    v = t[0][0][0]
 	except:
-	    print '# no translation: %s : %s : %s (%s)' % (sl, tl, txt, t)
+	    print >> sys.stderr,  '# no translation: %s : %s : %s (%s)' % (sl, tl, txt, t)
 	    return txt
 	return v
 
+    translation = {}
+    for msg_id, msg_dict in source_messages.items():
+	if msg_id in pass_thru_keys:
+	    translation[msg_id] = msg_dict.copy()
+	    continue
+	translation[msg_id] = new_msg = proto_message.copy()
 
-    for lang_code, text_filename in locales:
-	out_dir = os.path.join(target_dirname, lang_code)
-	if not os.path.exists(out_dir):
-	    os.mkdir(out_dir)
-	    print 'created', out_dir
+	source_text = msg_dict['message']
+	source_sub_count = count_unmasked_subs(source_text)
 
+	translated_text = translate(source_lang_code, lang_code, mask_subs(source_text))
+	translated_text = unmask_subs(translated_text)
 
-	translation = {}
-	for msg_id, msg_dict in source_messages.items():
-	    if msg_id in pass_thru_keys:
-		translation[msg_id] = msg_dict.copy()
-		continue
-	    translation[msg_id] = new_msg = proto_message.copy()
+	new_msg['message'] = translated_text
+	translated_sub_count = count_unmasked_subs(translated_text)
 
-	    source_text = msg_dict['message']
-	    source_sub_count = count_unmasked_subs(source_text)
+	retran_text = translate(lang_code, source_lang_code, mask_subs(translated_text))
+	retran_text = unmask_subs(retran_text)
+	new_msg['message-retranslated'] = retran_text
+	retran_sub_count = count_unmasked_subs(retran_text)
+	if source_sub_count != translated_sub_count != retran_sub_count:
+	    print >> sys.stderr, '## subsitution placeholder replacement error', source_text
+	    #new_msg['message-placeolder-error'] = True
+	new_msg['description'] = msg_dict['description']
 
-	    translated_text = translate(source_lang_code, lang_code, mask_subs(source_text))
-	    translated_text = unmask_subs(translated_text)
-
-	    new_msg['message'] = translated_text
-	    translated_sub_count = count_unmasked_subs(translated_text)
-
-	    retran_text = translate(lang_code, source_lang_code, mask_subs(translated_text))
-	    retran_text = unmask_subs(retran_text)
-	    new_msg['message-retranslated'] = retran_text
-	    retran_sub_count = count_unmasked_subs(retran_text)
-	    if source_sub_count != translated_sub_count != retran_sub_count:
-		print '## subsitution placeholder replacement error', source_text
-		#new_msg['message-placeolder-error'] = True
-	    new_msg['description'] = msg_dict['description']
-
-	lang_msg = proto_message.copy()
-	lang_msg["message"] = lang_code
-	translation["language_code"] = lang_msg
-	out_file = open(os.path.join(out_dir, "messages.json"), 'w')
-	json.dump(translation, out_file, indent=4)
-	out_file.flush()
-	out_file.close()
-	#print out_dir, text_filename
-
-## source (english) messages file
-source_filename = os.path.abspath("../_locales/en/messages.json")
-
-## where we're going to write translations
-target_dir = os.path.abspath("../_locales")
-
+    lang_msg = proto_message.copy()
+    lang_msg["message"] = lang_code
+    translation["language_code"] = lang_msg
+    out_file = open(target_filename, 'w')
+    print >> out_file, json.dumps(translation, indent=4)
+    out_file.flush()
+    out_file.close()
 
 
 if __name__ == '__main__':
-    from map_locale import locale_files
+    target_file = sys.argv[1]
+    cmd = 'grep '+target_file+' control_files.txt |cut -f 3 -d " "|cut -f 3 -d "/"'
+    target_lang = Popen(cmd, stdout=PIPE,shell=True).stdout.read().strip()
     source_msgs = json.load(open(source_filename))
-    if len(sys.argv) > 1:
-	locale_map = dict(locale_files)
-	locales = [(lc, locale_map[lc]) for lc in sys.argv[1:]]
-    else:
-	locales = locale_files[1:]
-    main(source_msgs, target_dir, locales)
+    main(source_msgs, target_file, target_lang)
 
