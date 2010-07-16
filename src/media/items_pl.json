@@ -352,6 +352,12 @@
         "type": "Klucz", 
         "description": "Klucz"
     }, 
+    "other_attributes": {
+        "133": "Medal nr %s1", 
+        "132": "Uwag\u0119 na cenne Wsp\u00f3lnoty Uczestnik\u00f3w", 
+        "143": "Data Wynajem: %s1", 
+        "147": "Klucz %s1 liczby"
+    }, 
     "5003": {
         "alt": [
             "U\u017cywane na planach do okre\u015blenia klasy"
@@ -420,6 +426,14 @@
     "109": {
         "type": "Hat", 
         "description": "Panama profesjonalisty"
+    }, 
+    "9003": {
+        "positive": [
+            "Zakazy konto Steam zabitych graczy", 
+            "Pozycja nie jest prawdziwe i tylko \u017cart."
+        ], 
+        "type": "Wygnanie z m\u0142otkiem", 
+        "description": "Zakaz Hammer"
     }, 
     "102": {
         "type": "Hat", 
@@ -630,8 +644,11 @@
         "description": "Rondel nierdzewny"
     }, 
     "169": {
+        "positive": [
+            "Drzemie w nim staro\u017cytna moc"
+        ], 
         "type": "Klucz", 
-        "description": "TF_Unique_Golden_Wrench"
+        "description": "Z\u0142oty klucz"
     }, 
     "164": {
         "alt": [
@@ -755,7 +772,7 @@
             "Bez losowych trafie\u0144 krytycznych", 
             "20% podatno\u015bci na obra\u017cenia od ognia u nosz\u0105cego"
         ], 
-        "description": "TF_Unique_Combat_Wrench"
+        "description": "The Southern Hospitality"
     }, 
     "154": {
         "positive": [
@@ -885,11 +902,11 @@
         "positive": [
             "+25 maks. punkt\u00f3w zdrowia dla nosz\u0105cego"
         ], 
-        "type": "TF_Weapon_Robot_Arm", 
+        "type": "Robot Arm", 
         "negative": [
             "Bez losowych trafie\u0144 krytycznych"
         ], 
-        "description": "TF_Unique_Robot_Arm"
+        "description": "The Gunslinger"
     }, 
     "143": {
         "alt": [
@@ -900,10 +917,10 @@
     }, 
     "140": {
         "alt": [
-            "TF_Wrangler_Desc"
+            "Take manual control of your Sentry Gun"
         ], 
-        "type": "TF_Weapon_Laser_Pointer", 
-        "description": "TF_Unique_Achievement_Laser_Pointer"
+        "type": "Laser Pointer", 
+        "description": "The Wrangler"
     }, 
     "141": {
         "type": "Strzelba", 
@@ -911,7 +928,7 @@
             "Bez losowych trafie\u0144 krytycznych", 
             "-50% rozmiaru magazynka"
         ], 
-        "description": "TF_Unique_Sentry_Shotgun"
+        "description": "The Frontier Justice"
     }, 
     "148": {
         "type": "Hat", 

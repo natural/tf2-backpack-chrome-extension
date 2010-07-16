@@ -352,6 +352,12 @@
         "type": "Jakoavain", 
         "description": "Jakoavain"
     }, 
+    "other_attributes": {
+        "133": "Mitali numero %s1", 
+        "132": "Antaa arvokasta yhteis\u00f6n osallistujien", 
+        "143": "Vuokraus Date: %s1", 
+        "147": "Jakoavain numero %s1"
+    }, 
     "5003": {
         "alt": [
             "K\u00e4ytet\u00e4\u00e4n hahmoluokan m\u00e4\u00e4ritt\u00e4miseen piirustuksissa"
@@ -420,6 +426,14 @@
     "109": {
         "type": "Hat", 
         "description": "Ammattilaisen panamahattu"
+    }, 
+    "9003": {
+        "positive": [
+            "Kiellot Steam pelaajien kuoli", 
+            "T\u00e4m\u00e4 kohta ei ole todellinen, ja se on vain vitsi."
+        ], 
+        "type": "Mallet ja karkoituksen", 
+        "description": "Ban Hammer"
     }, 
     "102": {
         "type": "Hat", 
@@ -574,7 +588,7 @@
         "negative": [
             "15% hitaampi liikkumisnopeus k\u00e4ytt\u00e4j\u00e4lle"
         ], 
-        "description": "TF_Unique_BattleAxe"
+        "description": "The Scotsman's Skullcutter"
     }, 
     "171": {
         "positive": [
@@ -631,7 +645,7 @@
     }, 
     "169": {
         "type": "Jakoavain", 
-        "description": "TF_Unique_Golden_Wrench"
+        "description": "The Golden Wrench"
     }, 
     "164": {
         "alt": [
@@ -725,7 +739,7 @@
     }, 
     "151": {
         "type": "Hat", 
-        "description": "TF_PyroBrainSucker"
+        "description": "Triboniophorus Tyrannus"
     }, 
     "150": {
         "type": "Hat", 
@@ -755,7 +769,7 @@
             "Ei satunnaisia kriittisi\u00e4 osumia", 
             "20% tulivahinkoalttiutta k\u00e4ytt\u00e4j\u00e4lle"
         ], 
-        "description": "TF_Unique_Combat_Wrench"
+        "description": "The Southern Hospitality"
     }, 
     "154": {
         "positive": [
@@ -885,11 +899,11 @@
         "positive": [
             "+25 enimm\u00e4isterveys k\u00e4ytt\u00e4j\u00e4lle"
         ], 
-        "type": "TF_Weapon_Robot_Arm", 
+        "type": "Robot Arm", 
         "negative": [
             "Ei satunnaisia kriittisi\u00e4 osumia"
         ], 
-        "description": "TF_Unique_Robot_Arm"
+        "description": "The Gunslinger"
     }, 
     "143": {
         "alt": [
@@ -900,10 +914,10 @@
     }, 
     "140": {
         "alt": [
-            "TF_Wrangler_Desc"
+            "Take manual control of your Sentry Gun"
         ], 
-        "type": "TF_Weapon_Laser_Pointer", 
-        "description": "TF_Unique_Achievement_Laser_Pointer"
+        "type": "Laser Pointer", 
+        "description": "The Wrangler"
     }, 
     "141": {
         "type": "Haulikko", 
@@ -911,7 +925,7 @@
             "Ei satunnaisia kriittisi\u00e4 osumia", 
             "-50% lippaan koko"
         ], 
-        "description": "TF_Unique_Sentry_Shotgun"
+        "description": "The Frontier Justice"
     }, 
     "148": {
         "type": "Hat", 

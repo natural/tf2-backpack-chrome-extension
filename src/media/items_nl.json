@@ -352,6 +352,12 @@
         "type": "Moersleutel", 
         "description": "Moersleutel"
     }, 
+    "other_attributes": {
+        "133": "Medal nummer %s1", 
+        "132": "Gegeven aan waardevolle Gemeenschap contribuanten", 
+        "143": "Huur Datum: %s1", 
+        "147": "Wrench nummer %s1"
+    }, 
     "5003": {
         "alt": [
             "Wordt gebruikt om een klasse van blauwdrukken te specificeren"
@@ -420,6 +426,14 @@
     "109": {
         "type": "Hat", 
         "description": "Rieten hoed"
+    }, 
+    "9003": {
+        "positive": [
+            "Verbod Steam account van de spelers gedood", 
+            "Dit item is niet re\u00ebel en is slechts een grap."
+        ], 
+        "type": "Mallet de ban", 
+        "description": "Ban Hammer"
     }, 
     "102": {
         "type": "Hat", 
@@ -574,7 +588,7 @@
         "negative": [
             "15% lagere bewegingssnelheid bij drager"
         ], 
-        "description": "TF_Unique_BattleAxe"
+        "description": "The Scotsman's Skullcutter"
     }, 
     "171": {
         "positive": [
@@ -584,7 +598,7 @@
         "negative": [
             "Toegebrachte schade -50%"
         ], 
-        "description": "TF_Unique_TribalmanKukri"
+        "description": "The Tribalman's Shiv"
     }, 
     "170": {
         "alt": [
@@ -631,7 +645,7 @@
     }, 
     "169": {
         "type": "Moersleutel", 
-        "description": "TF_Unique_Golden_Wrench"
+        "description": "The Golden Wrench"
     }, 
     "164": {
         "alt": [
@@ -681,7 +695,7 @@
             "Voegt 30 seconden lang +50 maximale gezondheid toe"
         ], 
         "type": "Lunchtrommel", 
-        "description": "TF_Unique_EnergyDrink_CritCola"
+        "description": "Crit-a-Cola"
     }, 
     "11": {
         "type": "Shotgun", 
@@ -755,7 +769,7 @@
             "Geen willekeurige voltreffers", 
             "20% kwetsbaarheid voor vuurschade voor de drager"
         ], 
-        "description": "TF_Unique_Combat_Wrench"
+        "description": "The Southern Hospitality"
     }, 
     "154": {
         "positive": [
@@ -885,11 +899,11 @@
         "positive": [
             "+25 maximale gezondheid voor drager"
         ], 
-        "type": "TF_Weapon_Robot_Arm", 
+        "type": "Robot Arm", 
         "negative": [
             "Geen willekeurige voltreffers"
         ], 
-        "description": "TF_Unique_Robot_Arm"
+        "description": "The Gunslinger"
     }, 
     "143": {
         "alt": [
@@ -900,10 +914,10 @@
     }, 
     "140": {
         "alt": [
-            "TF_Wrangler_Desc"
+            "Take manual control of your Sentry Gun"
         ], 
-        "type": "TF_Weapon_Laser_Pointer", 
-        "description": "TF_Unique_Achievement_Laser_Pointer"
+        "type": "Laser Pointer", 
+        "description": "The Wrangler"
     }, 
     "141": {
         "type": "Shotgun", 
@@ -911,7 +925,7 @@
             "Geen willekeurige voltreffers", 
             "Magazijngrootte -50%"
         ], 
-        "description": "TF_Unique_Sentry_Shotgun"
+        "description": "The Frontier Justice"
     }, 
     "148": {
         "type": "Hat", 

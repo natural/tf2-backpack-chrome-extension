@@ -353,8 +353,10 @@
         "description": "Cheie francez\u0103"
     }, 
     "other_attributes": {
-        "133": "Medal no. %s1", 
-        "132": "Given to valuable Community Contributors"
+        "133": "Medalia de num\u0103rul %s1", 
+        "132": "Av\u00e2nd \u00een vedere s\u0103 valoroase comunitare Contribuabili", 
+        "143": "Data \u00cenchiriez: %s1", 
+        "147": "Wrench num\u0103rul %s1"
     }, 
     "5003": {
         "alt": [
@@ -427,10 +429,10 @@
     }, 
     "9003": {
         "positive": [
-            "Bans Steam account of players killed", 
-            "This item is not real and is only a joke."
+            "Considerare interdic\u0163iile de aburi de juc\u0103tori ucis", 
+            "Acest element nu este real\u0103 \u015fi este doar o glum\u0103."
         ], 
-        "type": "Mallet of Banishment", 
+        "type": "Ciocan de lemn din Alungarea", 
         "description": "Ban Hammer"
     }, 
     "102": {
@@ -583,7 +585,7 @@
         "negative": [
             "15% mai mic\u0103 vitez\u0103 de deplasare pentru purt\u0103tor"
         ], 
-        "description": "TF_Unique_BattleAxe"
+        "description": "The Scotsman's Skullcutter"
     }, 
     "171": {
         "positive": [
@@ -593,7 +595,7 @@
         "negative": [
             "-50% mai pu\u0163ine pagube"
         ], 
-        "description": "TF_Unique_TribalmanKukri"
+        "description": "The Tribalman's Shiv"
     }, 
     "170": {
         "alt": [
@@ -640,7 +642,7 @@
     }, 
     "169": {
         "type": "Cheie francez\u0103", 
-        "description": "TF_Unique_Golden_Wrench"
+        "description": "The Golden Wrench"
     }, 
     "164": {
         "alt": [
@@ -665,21 +667,21 @@
     }, 
     "160": {
         "alt": [
-            "TF_TTG_MaxGun_Desc"
+            "The ultimate in semi-concealed weaponry.\\nThere\u2019s no question you need this gun,\\nthe only question is: where will you keep it?"
         ], 
         "type": "Pistol", 
         "description": "Lugermorph"
     }, 
     "161": {
         "alt": [
-            "TF_TTG_SamRevolver_Desc"
+            "Combines style with stopping power.\\nLong exclusive to Freelance Police,\\nnow available for other blood-thirsty mercenaries."
         ], 
         "type": "Revolver", 
         "description": "Big Kill"
     }, 
     "162": {
         "alt": [
-            "TF_TTG_MaxsHat_Desc"
+            "Expertly crafted headwear from cruelty-free farms\\nin the Philippines. Hollowed-out skull casing wicks\\nmoisture away when in the heat of battle."
         ], 
         "type": "Hat", 
         "description": "Capul T\u0103iat a lui Max"
@@ -690,7 +692,7 @@
             "Adaug\u0103 +50 max via\u0163\u0103 pentru 30 de secunde"
         ], 
         "type": "Caset\u0103 cu M\u00e2ncare", 
-        "description": "TF_Unique_EnergyDrink_CritCola"
+        "description": "Crit-a-Cola"
     }, 
     "11": {
         "type": "Pu\u015fc\u0103", 
@@ -764,7 +766,7 @@
             "F\u0103r\u0103 lovituri criticale", 
             "20% vulnerabilitate la foc pentru purt\u0103tor"
         ], 
-        "description": "TF_Unique_Combat_Wrench"
+        "description": "The Southern Hospitality"
     }, 
     "154": {
         "positive": [
@@ -894,11 +896,11 @@
         "positive": [
             "+25 via\u0163\u0103 maxim\u0103 pentru purt\u0103tor"
         ], 
-        "type": "TF_Weapon_Robot_Arm", 
+        "type": "Robot Arm", 
         "negative": [
             "F\u0103r\u0103 lovituri criticale"
         ], 
-        "description": "TF_Unique_Robot_Arm"
+        "description": "The Gunslinger"
     }, 
     "143": {
         "alt": [
@@ -909,10 +911,10 @@
     }, 
     "140": {
         "alt": [
-            "TF_Wrangler_Desc"
+            "Take manual control of your Sentry Gun"
         ], 
-        "type": "TF_Weapon_Laser_Pointer", 
-        "description": "TF_Unique_Achievement_Laser_Pointer"
+        "type": "Laser Pointer", 
+        "description": "The Wrangler"
     }, 
     "141": {
         "type": "Pu\u015fc\u0103", 
@@ -920,7 +922,7 @@
             "F\u0103r\u0103 lovituri criticale", 
             "-50% mai pu\u0163ine gloan\u0163e"
         ], 
-        "description": "TF_Unique_Sentry_Shotgun"
+        "description": "The Frontier Justice"
     }, 
     "148": {
         "type": "Hat", 

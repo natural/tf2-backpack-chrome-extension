@@ -352,6 +352,12 @@
         "type": "\u30b9\u30d1\u30ca", 
         "description": "\u30b9\u30d1\u30ca"
     }, 
+    "other_attributes": {
+        "133": "\u30e1\u30c0\u30eb\u306e\u6570\u306f%s1", 
+        "132": "\u8cb4\u91cd\u306a\u30b3\u30df\u30e5\u30cb\u30c6\u30a3\u306e\u8ca2\u732e\u8005\u306b\u4e0e\u3048\u3089\u308c\u305f", 
+        "143": "\u30ec\u30f3\u30bf\u30eb\u65e5\uff1a%s1", 
+        "147": "\u30ec\u30f3\u30c1\u756a\u53f7%s1"
+    }, 
     "5003": {
         "alt": [
             "\u8a2d\u8a08\u56f3\u3067\u30af\u30e9\u30b9\u3092\u6307\u5b9a\u3059\u308b\u306e\u306b\u4f7f\u7528"
@@ -420,6 +426,14 @@
     "109": {
         "type": "Hat", 
         "description": "\u7384\u4eba\u7528\u30d1\u30ca\u30de\u5e3d"
+    }, 
+    "9003": {
+        "positive": [
+            "\u9078\u624b\u6b7b\u4ea1\u7981\u6b62\u30b9\u30c1\u30fc\u30e0\u30a2\u30ab\u30a6\u30f3\u30c8", 
+            "\u3053\u306e\u30a2\u30a4\u30c6\u30e0\u306f\u3001\u672c\u7269\u3067\u306f\u306a\u3044\u3068\u3060\u3051\u5197\u8ac7\u3067\u3059\u3002"
+        ], 
+        "type": "\u30de\u30ec\u30c3\u30c8\u8ffd\u653e\u306e", 
+        "description": "\u30d0\u30f3\u30cf\u30de\u30fc"
     }, 
     "102": {
         "type": "Hat", 
@@ -574,7 +588,7 @@
         "negative": [
             "\u7740\u7528\u8005\u306e\u79fb\u52d5\u30b9\u30d4\u30fc\u30c9\u30de\u30a4\u30ca\u30b9 15%"
         ], 
-        "description": "TF_Unique_BattleAxe"
+        "description": "The Scotsman's Skullcutter"
     }, 
     "171": {
         "positive": [
@@ -584,7 +598,7 @@
         "negative": [
             "\u4e0e\u30c0\u30e1\u30fc\u30b8 -50%"
         ], 
-        "description": "TF_Unique_TribalmanKukri"
+        "description": "The Tribalman's Shiv"
     }, 
     "170": {
         "alt": [
@@ -631,7 +645,7 @@
     }, 
     "169": {
         "type": "\u30b9\u30d1\u30ca", 
-        "description": "TF_Unique_Golden_Wrench"
+        "description": "The Golden Wrench"
     }, 
     "164": {
         "alt": [
@@ -681,7 +695,7 @@
             "30 \u79d2\u9593\u6700\u5927\u30d8\u30eb\u30b9 +50"
         ], 
         "type": "\u30e9\u30f3\u30c1\u30dc\u30c3\u30af\u30b9", 
-        "description": "TF_Unique_EnergyDrink_CritCola"
+        "description": "Crit-a-Cola"
     }, 
     "11": {
         "type": "\u30b7\u30e7\u30c3\u30c8\u30ac\u30f3", 
@@ -755,7 +769,7 @@
             "\u30e9\u30f3\u30c0\u30e0\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u30d2\u30c3\u30c8\u306a\u3057", 
             "\u7740\u7528\u8005\u306e\u708e\u30c0\u30e1\u30fc\u30b8\u8010\u6027 20%"
         ], 
-        "description": "TF_Unique_Combat_Wrench"
+        "description": "The Southern Hospitality"
     }, 
     "154": {
         "positive": [
@@ -885,11 +899,11 @@
         "positive": [
             "\u7740\u7528\u8005\u306e\u6700\u5927\u30d8\u30eb\u30b9 +25"
         ], 
-        "type": "TF_Weapon_Robot_Arm", 
+        "type": "Robot Arm", 
         "negative": [
             "\u30e9\u30f3\u30c0\u30e0\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u30d2\u30c3\u30c8\u306a\u3057"
         ], 
-        "description": "TF_Unique_Robot_Arm"
+        "description": "The Gunslinger"
     }, 
     "143": {
         "alt": [
@@ -900,10 +914,10 @@
     }, 
     "140": {
         "alt": [
-            "TF_Wrangler_Desc"
+            "Take manual control of your Sentry Gun"
         ], 
-        "type": "TF_Weapon_Laser_Pointer", 
-        "description": "TF_Unique_Achievement_Laser_Pointer"
+        "type": "Laser Pointer", 
+        "description": "The Wrangler"
     }, 
     "141": {
         "type": "\u30b7\u30e7\u30c3\u30c8\u30ac\u30f3", 
@@ -911,7 +925,7 @@
             "\u30e9\u30f3\u30c0\u30e0\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u30d2\u30c3\u30c8\u306a\u3057", 
             "\u5f3e\u5009\u30b5\u30a4\u30ba -50%"
         ], 
-        "description": "TF_Unique_Sentry_Shotgun"
+        "description": "The Frontier Justice"
     }, 
     "148": {
         "type": "Hat", 

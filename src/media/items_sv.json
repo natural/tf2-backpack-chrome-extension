@@ -50,7 +50,7 @@
             "Andra plats, Propaganda t\u00e4vlingen"
         ], 
         "type": "Hat", 
-        "description": "TF_PropagandaContest_SecondPlace"
+        "description": "Amber's Rad As All Hell Hat"
     }, 
     "135": {
         "type": "Hat", 
@@ -61,7 +61,7 @@
             "F\u00f6rsta plats vinnare, Propaganda t\u00e4vlingen"
         ], 
         "type": "Hat", 
-        "description": "TF_PropagandaContest_FirstPlace"
+        "description": "J.Axer's Dapper Topper"
     }, 
     "139": {
         "type": "Hat", 
@@ -353,8 +353,10 @@
         "description": "Skiftnyckel"
     }, 
     "other_attributes": {
-        "133": "Medal no. %s1", 
-        "132": "Given to valuable Community Contributors"
+        "133": "Medalj nummer %s1", 
+        "132": "Med tanke p\u00e5 att v\u00e4rdefulla gemenskapen bidragande", 
+        "143": "Hyra Datum: %s1", 
+        "147": "Wrench nummer %s1"
     }, 
     "5003": {
         "alt": [
@@ -427,10 +429,10 @@
     }, 
     "9003": {
         "positive": [
-            "Bans Steam account of players killed", 
-            "This item is not real and is only a joke."
+            "F\u00f6rbud Steam-konto d\u00f6dade spelare", 
+            "Denna punkt \u00e4r inte verklig och \u00e4r bara ett sk\u00e4mt."
         ], 
-        "type": "Mallet of Banishment", 
+        "type": "Mallet av landsf\u00f6rvisning", 
         "description": "Ban Hammer"
     }, 
     "102": {
@@ -568,7 +570,7 @@
             "Ingenting"
         ], 
         "type": "Hat", 
-        "description": "TF_MedicGoggles"
+        "description": "Ze Goggles"
     }, 
     "175": {
         "type": "Hat", 
@@ -576,7 +578,7 @@
     }, 
     "174": {
         "type": "Hat", 
-        "description": "TF_ScoutWhoopee"
+        "description": "Whoopee Cap"
     }, 
     "172": {
         "positive": [
@@ -643,7 +645,7 @@
     }, 
     "169": {
         "type": "Skiftnyckel", 
-        "description": "TF_Unique_Golden_Wrench"
+        "description": "The Golden Wrench"
     }, 
     "164": {
         "alt": [
@@ -668,7 +670,7 @@
     }, 
     "160": {
         "alt": [
-            "TF_TTG_MaxGun_Desc"
+            "The ultimate in semi-concealed weaponry.\\nThere\u2019s no question you need this gun,\\nthe only question is: where will you keep it?"
         ], 
         "type": "Pistol", 
         "description": "Lugermorph"
@@ -682,7 +684,7 @@
     }, 
     "162": {
         "alt": [
-            "TF_TTG_MaxsHat_Desc"
+            "Expertly crafted headwear from cruelty-free farms\\nin the Philippines. Hollowed-out skull casing wicks\\nmoisture away when in the heat of battle."
         ], 
         "type": "Hat", 
         "description": "Maxs Avhuggna Huvud"
@@ -737,7 +739,7 @@
     }, 
     "151": {
         "type": "Hat", 
-        "description": "TF_PyroBrainSucker"
+        "description": "Triboniophorus Tyrannus"
     }, 
     "150": {
         "type": "Hat", 
@@ -767,7 +769,7 @@
             "Inga slumpm\u00e4ssiga kritiska tr\u00e4ffar", 
             "20% s\u00e5rbarhet f\u00f6r eldskada f\u00f6r b\u00e4raren"
         ], 
-        "description": "TF_Unique_Combat_Wrench"
+        "description": "The Southern Hospitality"
     }, 
     "154": {
         "positive": [
@@ -891,17 +893,17 @@
     }, 
     "145": {
         "type": "Hat", 
-        "description": "TF_HeavyHair"
+        "description": "Hound Dog"
     }, 
     "142": {
         "positive": [
             "+25 maximal h\u00e4lsa f\u00f6r b\u00e4raren"
         ], 
-        "type": "TF_Weapon_Robot_Arm", 
+        "type": "Robot Arm", 
         "negative": [
             "Inga slumpm\u00e4ssiga kritiska tr\u00e4ffar"
         ], 
-        "description": "TF_Unique_Robot_Arm"
+        "description": "The Gunslinger"
     }, 
     "143": {
         "alt": [
@@ -912,10 +914,10 @@
     }, 
     "140": {
         "alt": [
-            "TF_Wrangler_Desc"
+            "Take manual control of your Sentry Gun"
         ], 
-        "type": "TF_Weapon_Laser_Pointer", 
-        "description": "TF_Unique_Achievement_Laser_Pointer"
+        "type": "Laser Pointer", 
+        "description": "The Wrangler"
     }, 
     "141": {
         "type": "Hagelgev\u00e4r", 
@@ -923,7 +925,7 @@
             "Inga slumpm\u00e4ssiga kritiska tr\u00e4ffar", 
             "-50% magasinstorlek"
         ], 
-        "description": "TF_Unique_Sentry_Shotgun"
+        "description": "The Frontier Justice"
     }, 
     "148": {
         "type": "Hat", 

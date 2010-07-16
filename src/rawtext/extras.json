@@ -10,7 +10,9 @@
 
     "other_attributes": {
 	"132": "Given to valuable Community Contributors",
-        "133": "Medal no. %s1"
+        "133": "Medal no. %s1",
+        "143": "Hire Date: %s1",
+	"147": "Wrench no. %s1"
     }
 
 }

@@ -352,6 +352,12 @@
         "type": "Wrench", 
         "description": "Wrench"
     }, 
+    "other_attributes": {
+        "133": "Medal number %s1", 
+        "132": "Given to valuable Community Contributors", 
+        "143": "Hire Date: %s1", 
+        "147": "Wrench number %s1"
+    }, 
     "5003": {
         "alt": [
             "Used to specify a class in blueprints"
@@ -420,6 +426,14 @@
     "109": {
         "type": "Hat", 
         "description": "Professional's Panama"
+    }, 
+    "9003": {
+        "positive": [
+            "Bans Steam account of players killed", 
+            "This item is not real and is only a joke."
+        ], 
+        "type": "Mallet of Banishment", 
+        "description": "Ban Hammer"
     }, 
     "102": {
         "type": "Hat", 

@@ -27,10 +27,10 @@ clean:
 item_files: $(json_files)
 $(json_files):
 	@echo "[JSON ITEMS]" $@
-	@./tf_text2items_json $(shell grep $@ control_files.txt | cut -f 1 -d " ") $@
+	@./tf_text2items_json.py $(shell grep $@ control_files.txt | cut -f 1 -d " ") $@
 
 
 message_files: $(tran_files)
 $(tran_files):
-	@./tf_text2messages_json $@
+	@./tf_text2messages_json.py $@
 

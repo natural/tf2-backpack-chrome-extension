@@ -352,6 +352,12 @@
         "type": "Chiave inglese", 
         "description": "Chiave inglese"
     }, 
+    "other_attributes": {
+        "133": "Medaglia numero %s1", 
+        "132": "Dato a preziosi collaboratori della Comunit\u00e0", 
+        "143": "Data di noleggio: %s1", 
+        "147": "Chiave numero %s1"
+    }, 
     "5003": {
         "alt": [
             "Utilizzato per specificare una classe nei progetti"
@@ -420,6 +426,14 @@
     "109": {
         "type": "Hat", 
         "description": "Panama professionale"
+    }, 
+    "9003": {
+        "positive": [
+            "Divieti account Steam di giocatori uccisi", 
+            "Questa voce non \u00e8 reale ed \u00e8 solo uno scherzo."
+        ], 
+        "type": "Mallet di esilio", 
+        "description": "Ban Hammer"
     }, 
     "102": {
         "type": "Hat", 
@@ -574,7 +588,7 @@
         "negative": [
             "15% di velocit\u00e0 di spostamento in meno su chi lo indossa"
         ], 
-        "description": "TF_Unique_BattleAxe"
+        "description": "The Scotsman's Skullcutter"
     }, 
     "171": {
         "positive": [
@@ -584,7 +598,7 @@
         "negative": [
             "Danni inflitti -50%"
         ], 
-        "description": "TF_Unique_TribalmanKukri"
+        "description": "The Tribalman's Shiv"
     }, 
     "170": {
         "alt": [
@@ -631,7 +645,7 @@
     }, 
     "169": {
         "type": "Chiave inglese", 
-        "description": "TF_Unique_Golden_Wrench"
+        "description": "The Golden Wrench"
     }, 
     "164": {
         "alt": [
@@ -681,7 +695,7 @@
             "Aggiunge energia massima +50 per 30 secondi"
         ], 
         "type": "Cestino del pranzo", 
-        "description": "TF_Unique_EnergyDrink_CritCola"
+        "description": "Crit-a-Cola"
     }, 
     "11": {
         "type": "Fucile", 
@@ -755,7 +769,7 @@
             "Nessun colpo critico casuale", 
             "Capacit\u00e0 ignifuga su chi lo indossa 20%"
         ], 
-        "description": "TF_Unique_Combat_Wrench"
+        "description": "The Southern Hospitality"
     }, 
     "154": {
         "positive": [
@@ -885,11 +899,11 @@
         "positive": [
             "Energia massima su chi lo indossa +25"
         ], 
-        "type": "TF_Weapon_Robot_Arm", 
+        "type": "Robot Arm", 
         "negative": [
             "Nessun colpo critico casuale"
         ], 
-        "description": "TF_Unique_Robot_Arm"
+        "description": "The Gunslinger"
     }, 
     "143": {
         "alt": [
@@ -900,10 +914,10 @@
     }, 
     "140": {
         "alt": [
-            "TF_Wrangler_Desc"
+            "Take manual control of your Sentry Gun"
         ], 
-        "type": "TF_Weapon_Laser_Pointer", 
-        "description": "TF_Unique_Achievement_Laser_Pointer"
+        "type": "Laser Pointer", 
+        "description": "The Wrangler"
     }, 
     "141": {
         "type": "Fucile", 
@@ -911,7 +925,7 @@
             "Nessun colpo critico casuale", 
             "Dimensioni caricatore -50%"
         ], 
-        "description": "TF_Unique_Sentry_Shotgun"
+        "description": "The Frontier Justice"
     }, 
     "148": {
         "type": "Hat", 

@@ -353,8 +353,10 @@
         "description": "\u6273\u624b"
     }, 
     "other_attributes": {
-        "133": "Medal no. %s1", 
-        "132": "Given to valuable Community Contributors"
+        "133": "\u91d1\u724c\u6570%s1", 
+        "132": "\u7531\u4e8e\u6709\u4ef7\u503c\u7684\u793e\u533a\u8d21\u732e\u8005", 
+        "143": "\u79df\u7528\u65e5\u671f\uff1a%s1", 
+        "147": "\u6273\u624b\u6570%s1"
     }, 
     "5003": {
         "alt": [
@@ -427,11 +429,11 @@
     }, 
     "9003": {
         "positive": [
-            "Bans Steam account of players killed", 
-            "This item is not real and is only a joke."
+            "\u7981\u6b62\u6c7d\u5360\u6b7b\u4ea1\u7403\u5458", 
+            "\u8fd9\u4e2a\u9879\u76ee\u662f\u4e0d\u662f\u771f\u5b9e\u7684\uff0c\u5e76\u4e14\u53ea\u662f\u4e00\u4e2a\u73a9\u7b11\u3002"
         ], 
-        "type": "Mallet of Banishment", 
-        "description": "Ban Hammer"
+        "type": "\u9a6c\u96f7\u7279\u7684\u653e\u9010", 
+        "description": "\u73ed\u9524"
     }, 
     "102": {
         "type": "Hat", 
@@ -643,7 +645,7 @@
     }, 
     "169": {
         "type": "\u6273\u624b", 
-        "description": "TF_Unique_Golden_Wrench"
+        "description": "The Golden Wrench"
     }, 
     "164": {
         "alt": [
@@ -767,7 +769,7 @@
             "\u65e0\u968f\u673a\u66b4\u51fb\u4f24\u5bb3", 
             "20% \u7a7f\u6234\u8005\u7684\u706b\u7130\u4f24\u5bb3\u6613\u4f24"
         ], 
-        "description": "TF_Unique_Combat_Wrench"
+        "description": "The Southern Hospitality"
     }, 
     "154": {
         "positive": [
@@ -897,11 +899,11 @@
         "positive": [
             "\u7a7f\u6234\u8005\u7684\u6700\u5927\u751f\u547d\u503c +25"
         ], 
-        "type": "TF_Weapon_Robot_Arm", 
+        "type": "Robot Arm", 
         "negative": [
             "\u65e0\u968f\u673a\u66b4\u51fb\u4f24\u5bb3"
         ], 
-        "description": "TF_Unique_Robot_Arm"
+        "description": "The Gunslinger"
     }, 
     "143": {
         "alt": [
@@ -912,10 +914,10 @@
     }, 
     "140": {
         "alt": [
-            "TF_Wrangler_Desc"
+            "Take manual control of your Sentry Gun"
         ], 
-        "type": "TF_Weapon_Laser_Pointer", 
-        "description": "TF_Unique_Achievement_Laser_Pointer"
+        "type": "Laser Pointer", 
+        "description": "The Wrangler"
     }, 
     "141": {
         "type": "\u81ea\u536b\u9730\u5f39\u67aa", 
@@ -923,7 +925,7 @@
             "\u65e0\u968f\u673a\u66b4\u51fb\u4f24\u5bb3", 
             "\u5b50\u5f39\u5939\u5927\u5c0f -50%"
         ], 
-        "description": "TF_Unique_Sentry_Shotgun"
+        "description": "The Frontier Justice"
     }, 
     "148": {
         "type": "Hat", 

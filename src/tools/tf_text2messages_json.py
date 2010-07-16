@@ -5,7 +5,7 @@ import os
 import re
 import sys
 import urllib
-from  subprocess import Popen, PIPE
+from subprocess import Popen, PIPE
 
 ## source (english) messages file
 source_filename = os.path.abspath("../_locales/en/messages.json")

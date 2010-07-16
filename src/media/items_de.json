@@ -352,6 +352,12 @@
         "type": "Schraubenschl\u00fcssel", 
         "description": "Schraubenschl\u00fcssel"
     }, 
+    "other_attributes": {
+        "133": "Medaille Nummer %s1", 
+        "132": "Angesichts der Gemeinschaft wertvolle Mitarbeiter", 
+        "143": "Hire Date: %s1", 
+        "147": "Schl\u00fcssel mit der Nummer %s1"
+    }, 
     "5003": {
         "alt": [
             "Zur Angabe einer Klasse in Blaupausen"
@@ -420,6 +426,14 @@
     "109": {
         "type": "Hat", 
         "description": "Panamahut"
+    }, 
+    "9003": {
+        "positive": [
+            "Bans Steam-Konto von Spielern get\u00f6tet", 
+            "Dieser Artikel ist nicht real und ist nur ein Witz."
+        ], 
+        "type": "Mallet der Verbannung", 
+        "description": "Ban Hammer"
     }, 
     "102": {
         "type": "Hat", 
@@ -549,14 +563,14 @@
     }, 
     "178": {
         "type": "Hat", 
-        "description": "TF_EngineerEarmuffs"
+        "description": "Safe'n'Sound"
     }, 
     "177": {
         "alt": [
             "Nichts"
         ], 
         "type": "Hat", 
-        "description": "TF_MedicGoggles"
+        "description": "Ze Goggles"
     }, 
     "175": {
         "type": "Hat", 
@@ -595,23 +609,23 @@
     }, 
     "182": {
         "type": "Hat", 
-        "description": "TF_PyroHelm"
+        "description": "Vintage Merryweather"
     }, 
     "183": {
         "type": "Hat", 
-        "description": "TF_SoldierDrillHat"
+        "description": "Sergeant's Drill Hat"
     }, 
     "180": {
         "type": "Hat", 
-        "description": "TF_SpyBeret"
+        "description": "Frenchman's Beret"
     }, 
     "181": {
         "type": "Hat", 
-        "description": "TF_SniperFishingHat"
+        "description": "Bloke's Bucket Hat"
     }, 
     "184": {
         "type": "Hat", 
-        "description": "TF_MedicGatsby"
+        "description": "Gentleman's Gatsby"
     }, 
     "6": {
         "type": "Schaufel", 
@@ -619,7 +633,7 @@
     }, 
     "185": {
         "type": "Hat", 
-        "description": "TF_HeavyDorag"
+        "description": "Heavy Duty Rag"
     }, 
     "99": {
         "type": "Hat", 
@@ -659,14 +673,14 @@
     }, 
     "160": {
         "alt": [
-            "TF_TTG_MaxGun_Desc"
+            "The ultimate in semi-concealed weaponry.\\nThere\u2019s no question you need this gun,\\nthe only question is: where will you keep it?"
         ], 
         "type": "Pistole", 
         "description": "Lugermorph"
     }, 
     "161": {
         "alt": [
-            "TF_TTG_SamRevolver_Desc"
+            "Combines style with stopping power.\\nLong exclusive to Freelance Police,\\nnow available for other blood-thirsty mercenaries."
         ], 
         "type": "Revolver", 
         "description": "Big Kill"
@@ -684,7 +698,7 @@
             "Erh\u00f6ht die maximalen Lebenspunkte f\u00fcr 30 Sekunden um +50"
         ], 
         "type": "Proviant", 
-        "description": "TF_Unique_EnergyDrink_CritCola"
+        "description": "Crit-a-Cola"
     }, 
     "11": {
         "type": "Schrotflinte", 
@@ -728,11 +742,11 @@
     }, 
     "151": {
         "type": "Hat", 
-        "description": "TF_PyroBrainSucker"
+        "description": "Triboniophorus Tyrannus"
     }, 
     "150": {
         "type": "Hat", 
-        "description": "TF_ScoutBeanie"
+        "description": "Troublemaker's Tossle Cap"
     }, 
     "153": {
         "positive": [
@@ -747,7 +761,7 @@
     }, 
     "152": {
         "type": "Hat", 
-        "description": "TF_SoldierSamurai"
+        "description": "Killer's Kabuto"
     }, 
     "155": {
         "positive": [
@@ -758,7 +772,7 @@
             "Keine zuf\u00e4lligen kritischen Treffer", 
             "20%\u00a0Verwundbarkeit bei Feuer f\u00fcr Tr\u00e4ger"
         ], 
-        "description": "TF_Unique_Combat_Wrench"
+        "description": "The Southern Hospitality"
     }, 
     "154": {
         "positive": [
@@ -779,7 +793,7 @@
     }, 
     "158": {
         "type": "Hat", 
-        "description": "TF_SniperPithHelmet"
+        "description": "Shooter's Sola Topi"
     }, 
     "48": {
         "type": "Hat", 
@@ -870,7 +884,7 @@
     }, 
     "146": {
         "type": "Hat", 
-        "description": "TF_DemomanHallmark"
+        "description": "Hustler's Hallmark"
     }, 
     "147": {
         "type": "Hat", 
@@ -882,17 +896,17 @@
     }, 
     "145": {
         "type": "Hat", 
-        "description": "TF_HeavyHair"
+        "description": "Hound Dog"
     }, 
     "142": {
         "positive": [
             "+25\u00a0max. Gesundheit f\u00fcr Tr\u00e4ger"
         ], 
-        "type": "TF_Weapon_Robot_Arm", 
+        "type": "Robot Arm", 
         "negative": [
             "Keine zuf\u00e4lligen kritischen Treffer"
         ], 
-        "description": "TF_Unique_Robot_Arm"
+        "description": "The Gunslinger"
     }, 
     "143": {
         "alt": [
@@ -903,10 +917,10 @@
     }, 
     "140": {
         "alt": [
-            "TF_Wrangler_Desc"
+            "Take manual control of your Sentry Gun"
         ], 
-        "type": "TF_Weapon_Laser_Pointer", 
-        "description": "TF_Unique_Achievement_Laser_Pointer"
+        "type": "Laser Pointer", 
+        "description": "The Wrangler"
     }, 
     "141": {
         "type": "Schrotflinte", 
@@ -914,7 +928,7 @@
             "Keine zuf\u00e4lligen kritischen Treffer", 
             "-50%\u00a0Clipgr\u00f6\u00dfe"
         ], 
-        "description": "TF_Unique_Sentry_Shotgun"
+        "description": "The Frontier Justice"
     }, 
     "148": {
         "type": "Hat", 

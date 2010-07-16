@@ -14,7 +14,7 @@ script_files := $(addprefix $(build_dir)/scripts/, $(notdir $(wildcard src/scrip
 item_files := $(addprefix $(build_dir)/media/, $(notdir $(wildcard src/media/items_*.json)))
 
 
-.PHONEY: all clean $(style_files) $(script_files) $(item_files)
+.PHONEY: all clean $(style_files) $(script_files) $(item_files) update_texts update_images
 
 all: dist
 
@@ -74,11 +74,10 @@ crx:
 	@echo "[CRX] done.  Distributable at $(dist_dir)/$(release_name).crx"
 
 
-update_files:
-	@echo "[UPDATE FILES]"
-	@echo "[UPDATE FILES] text files -> src/rawtext/"
+update_texts:
+	@echo "[UPDATE TEXTS]"
 	@cp ../../var/tf2content/output/texts/*.txt src/rawtext/
-	@echo "[UPDATE FILES] done."
+	@echo "[UPDATE TEXTS] done."
 
 
 update_images:

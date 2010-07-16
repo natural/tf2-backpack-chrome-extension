@@ -352,6 +352,12 @@
         "type": "\ub80c\uce58", 
         "description": "\ub80c\uce58"
     }, 
+    "other_attributes": {
+        "133": "\uba54\ub2ec \ubc88\ud638 %s1", 
+        "132": "\uac00\uce58\uc788\ub294 \ucee4\ubba4\ub2c8\ud2f0 \ucc38\uc5ec\uc790 \ubd80\uc5ec", 
+        "143": "\ub300\uc5ec \uc77c\uc790 : %s1", 
+        "147": "\ub80c\uce58 \ubc88\ud638 %s1"
+    }, 
     "5003": {
         "alt": [
             "\uccad\uc0ac\uc9c4\uc5d0\uc11c \ud074\ub798\uc2a4\ub97c \uc9c0\uc815\ud558\ub294 \ub370 \uc0ac\uc6a9\ub428"
@@ -420,6 +426,14 @@
     "109": {
         "type": "Hat", 
         "description": "\ubc00\uc9da \ubaa8\uc790"
+    }, 
+    "9003": {
+        "positive": [
+            "\ud50c\ub808\uc774\uc5b4 \uc0b4\ud574\uc758 \uae08\uc9c0 \uc2a4\ud300 \uacc4\uc815", 
+            "\uc774 \uc0c1\ud488\uc740 \uc9c4\uc9dc\uac00 \uc544\ub2cc\uac00\uc694\ub9cc\uc744 \ub18d\ub2f4\uc785\ub2c8\ub2e4."
+        ], 
+        "type": "\ub9dd\uce58 \ucd94\ubc29\uc758", 
+        "description": "\uae08\uc9c0 \ud574\uba38"
     }, 
     "102": {
         "type": "Hat", 
@@ -574,7 +588,7 @@
         "negative": [
             "\ucc29\uc6a9 \uc2dc 15% \uc774\ub3d9 \uc18d\ub3c4 \uac10\uc18c"
         ], 
-        "description": "TF_Unique_BattleAxe"
+        "description": "The Scotsman's Skullcutter"
     }, 
     "171": {
         "positive": [
@@ -584,7 +598,7 @@
         "negative": [
             "-50% \ub370\ubbf8\uc9c0"
         ], 
-        "description": "TF_Unique_TribalmanKukri"
+        "description": "The Tribalman's Shiv"
     }, 
     "170": {
         "alt": [
@@ -631,7 +645,7 @@
     }, 
     "169": {
         "type": "\ub80c\uce58", 
-        "description": "TF_Unique_Golden_Wrench"
+        "description": "The Golden Wrench"
     }, 
     "164": {
         "alt": [
@@ -681,7 +695,7 @@
             "30\ucd08 \ub3d9\uc548 \ucd5c\ub300 \uccb4\ub825 +50"
         ], 
         "type": "\ub3c4\uc2dc\ub77d", 
-        "description": "TF_Unique_EnergyDrink_CritCola"
+        "description": "Crit-a-Cola"
     }, 
     "11": {
         "type": "\uc0f7\uac74", 
@@ -755,7 +769,7 @@
             "\ub79c\ub364 \uce58\uba85\ud0c0 \uc5c6\uc74c", 
             "\ucc29\uc6a9 \uc2dc 20% \ud654\uc5fc \ub370\ubbf8\uc9c0 \ucde8\uc57d"
         ], 
-        "description": "TF_Unique_Combat_Wrench"
+        "description": "The Southern Hospitality"
     }, 
     "154": {
         "positive": [
@@ -885,11 +899,11 @@
         "positive": [
             "\ucc29\uc6a9 \uc2dc +25 \ucd5c\ub300 \uccb4\ub825"
         ], 
-        "type": "TF_Weapon_Robot_Arm", 
+        "type": "Robot Arm", 
         "negative": [
             "\ub79c\ub364 \uce58\uba85\ud0c0 \uc5c6\uc74c"
         ], 
-        "description": "TF_Unique_Robot_Arm"
+        "description": "The Gunslinger"
     }, 
     "143": {
         "alt": [
@@ -900,10 +914,10 @@
     }, 
     "140": {
         "alt": [
-            "TF_Wrangler_Desc"
+            "Take manual control of your Sentry Gun"
         ], 
-        "type": "TF_Weapon_Laser_Pointer", 
-        "description": "TF_Unique_Achievement_Laser_Pointer"
+        "type": "Laser Pointer", 
+        "description": "The Wrangler"
     }, 
     "141": {
         "type": "\uc0f7\uac74", 
@@ -911,7 +925,7 @@
             "\ub79c\ub364 \uce58\uba85\ud0c0 \uc5c6\uc74c", 
             "-50% \ud0c4\ucc3d \ud06c\uae30"
         ], 
-        "description": "TF_Unique_Sentry_Shotgun"
+        "description": "The Frontier Justice"
     }, 
     "148": {
         "type": "Hat", 

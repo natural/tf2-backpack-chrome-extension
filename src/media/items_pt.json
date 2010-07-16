@@ -353,8 +353,10 @@
         "description": "Chave inglesa"
     }, 
     "other_attributes": {
-        "133": "Medal no. %s1", 
-        "132": "Given to valuable Community Contributors"
+        "133": "Medalha n\u00famero %s1", 
+        "132": "Tendo em conta a valiosa Comunidade Contribuintes", 
+        "143": "Contrate Data: %s1", 
+        "147": "Chave de n\u00famero %s1"
     }, 
     "5003": {
         "alt": [
@@ -427,10 +429,10 @@
     }, 
     "9003": {
         "positive": [
-            "Bans Steam account of players killed", 
-            "This item is not real and is only a joke."
+            "Bans conta Steam de jogadores mortos", 
+            "Este item n\u00e3o \u00e9 real e \u00e9 apenas uma piada."
         ], 
-        "type": "Mallet of Banishment", 
+        "type": "Mallet de banimento", 
         "description": "Ban Hammer"
     }, 
     "102": {
@@ -586,7 +588,7 @@
         "negative": [
             "Velocidade 15% mais lenta do utilizador"
         ], 
-        "description": "TF_Unique_BattleAxe"
+        "description": "The Scotsman's Skullcutter"
     }, 
     "171": {
         "positive": [
@@ -596,7 +598,7 @@
         "negative": [
             "-50% de danos provocados"
         ], 
-        "description": "TF_Unique_TribalmanKukri"
+        "description": "The Tribalman's Shiv"
     }, 
     "170": {
         "alt": [
@@ -643,7 +645,7 @@
     }, 
     "169": {
         "type": "Chave inglesa", 
-        "description": "TF_Unique_Golden_Wrench"
+        "description": "The Golden Wrench"
     }, 
     "164": {
         "alt": [
@@ -693,7 +695,7 @@
             "Adiciona um m\u00e1x. de +50 de energia durante 30 segundos"
         ], 
         "type": "Lancheira", 
-        "description": "TF_Unique_EnergyDrink_CritCola"
+        "description": "Crit-a-Cola"
     }, 
     "11": {
         "type": "Ca\u00e7adeira", 
@@ -767,7 +769,7 @@
             "Sem danos cr\u00edticos aleat\u00f3rios", 
             "20% de vulnerabilidade a danos por fogo do utilizador"
         ], 
-        "description": "TF_Unique_Combat_Wrench"
+        "description": "The Southern Hospitality"
     }, 
     "154": {
         "positive": [
@@ -897,11 +899,11 @@
         "positive": [
             "+25 energia m\u00e1xima por utilizador"
         ], 
-        "type": "TF_Weapon_Robot_Arm", 
+        "type": "Robot Arm", 
         "negative": [
             "Sem danos cr\u00edticos aleat\u00f3rios"
         ], 
-        "description": "TF_Unique_Robot_Arm"
+        "description": "The Gunslinger"
     }, 
     "143": {
         "alt": [
@@ -912,10 +914,10 @@
     }, 
     "140": {
         "alt": [
-            "TF_Wrangler_Desc"
+            "Take manual control of your Sentry Gun"
         ], 
-        "type": "TF_Weapon_Laser_Pointer", 
-        "description": "TF_Unique_Achievement_Laser_Pointer"
+        "type": "Laser Pointer", 
+        "description": "The Wrangler"
     }, 
     "141": {
         "type": "Ca\u00e7adeira", 
@@ -923,7 +925,7 @@
             "Sem danos cr\u00edticos aleat\u00f3rios", 
             "-50% de capacidade do carregador"
         ], 
-        "description": "TF_Unique_Sentry_Shotgun"
+        "description": "The Frontier Justice"
     }, 
     "148": {
         "type": "Hat", 

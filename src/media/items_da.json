@@ -352,6 +352,12 @@
         "type": "Svenskn\u00f8gle", 
         "description": "Svenskn\u00f8gle"
     }, 
+    "other_attributes": {
+        "133": "Medal nummer %s1", 
+        "132": "Gives til v\u00e6rdifulde EF Bidragydere", 
+        "143": "Leje Dato: %s1", 
+        "147": "Skruen\u00f8gle nummer %s1"
+    }, 
     "5003": {
         "alt": [
             "Anvendes til at angive en klasse i planer"
@@ -420,6 +426,14 @@
     "109": {
         "type": "Hat", 
         "description": "Str\u00e5hat"
+    }, 
+    "9003": {
+        "positive": [
+            "Forbud Steam af dr\u00e6bte spillere", 
+            "Dette punkt er ikke reel og er kun en joke."
+        ], 
+        "type": "Mallet af forvist", 
+        "description": "Ban Hammer"
     }, 
     "102": {
         "type": "Hat", 
@@ -574,7 +588,7 @@
         "negative": [
             "15% langsommere bev\u00e6gelseshastighed for b\u00e6reren"
         ], 
-        "description": "TF_Unique_BattleAxe"
+        "description": "The Scotsman's Skullcutter"
     }, 
     "171": {
         "positive": [
@@ -584,7 +598,7 @@
         "negative": [
             "-50% for\u00e5rsaget skade"
         ], 
-        "description": "TF_Unique_TribalmanKukri"
+        "description": "The Tribalman's Shiv"
     }, 
     "170": {
         "alt": [
@@ -631,7 +645,7 @@
     }, 
     "169": {
         "type": "Svenskn\u00f8gle", 
-        "description": "TF_Unique_Golden_Wrench"
+        "description": "The Golden Wrench"
     }, 
     "164": {
         "alt": [
@@ -681,7 +695,7 @@
             "Tilf\u00f8jer +50 ekstra liv i 30 sekunder"
         ], 
         "type": "Madkasse", 
-        "description": "TF_Unique_EnergyDrink_CritCola"
+        "description": "Crit-a-Cola"
     }, 
     "11": {
         "type": "Haglgev\u00e6r", 
@@ -755,7 +769,7 @@
             "Ingen tilf\u00e6ldig kritisk skade", 
             "20% s\u00e5rbarhed over for flammekaster for b\u00e6reren"
         ], 
-        "description": "TF_Unique_Combat_Wrench"
+        "description": "The Southern Hospitality"
     }, 
     "154": {
         "positive": [
@@ -885,11 +899,11 @@
         "positive": [
             "+25 maks. helbred for b\u00e6rer"
         ], 
-        "type": "TF_Weapon_Robot_Arm", 
+        "type": "Robot Arm", 
         "negative": [
             "Ingen tilf\u00e6ldig kritisk skade"
         ], 
-        "description": "TF_Unique_Robot_Arm"
+        "description": "The Gunslinger"
     }, 
     "143": {
         "alt": [
@@ -900,10 +914,10 @@
     }, 
     "140": {
         "alt": [
-            "TF_Wrangler_Desc"
+            "Take manual control of your Sentry Gun"
         ], 
-        "type": "TF_Weapon_Laser_Pointer", 
-        "description": "TF_Unique_Achievement_Laser_Pointer"
+        "type": "Laser Pointer", 
+        "description": "The Wrangler"
     }, 
     "141": {
         "type": "Haglgev\u00e6r", 
@@ -911,7 +925,7 @@
             "Ingen tilf\u00e6ldig kritisk skade", 
             "-50% magasinst\u00f8rrelse"
         ], 
-        "description": "TF_Unique_Sentry_Shotgun"
+        "description": "The Frontier Justice"
     }, 
     "148": {
         "type": "Hat", 

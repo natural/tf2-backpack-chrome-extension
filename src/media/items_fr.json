@@ -43,33 +43,33 @@
     }, 
     "137": {
         "type": "Hat", 
-        "description": "TF_NobleAmassment_Hat"
+        "description": "Noble Amassment of Hats"
     }, 
     "136": {
         "alt": [
-            "TF_PropagandaContest_SecondPlace_Desc"
+            "First Runner-Up, Propaganda Contest"
         ], 
         "type": "Hat", 
-        "description": "TF_PropagandaContest_SecondPlace"
+        "description": "Amber's Rad As All Hell Hat"
     }, 
     "135": {
         "type": "Hat", 
-        "description": "TF_ToweringPillar_Hat"
+        "description": "Towering Pillar of Hats"
     }, 
     "134": {
         "alt": [
-            "TF_PropagandaContest_FirstPlace_Desc"
+            "First Place Winner, Propaganda Contest"
         ], 
         "type": "Hat", 
-        "description": "TF_PropagandaContest_FirstPlace"
+        "description": "J.Axer's Dapper Topper"
     }, 
     "139": {
         "type": "Hat", 
-        "description": "TF_ModestPile_Hat"
+        "description": "Modest Pile of Hat"
     }, 
     "138": {
         "alt": [
-            "TF_PropagandaContest_ThirdPlace_Desc"
+            "Second Runner-Up, Propaganda Contest"
         ], 
         "type": "Hat", 
         "description": "Oncle Sam"
@@ -352,6 +352,12 @@
         "type": "Cl\u00e9", 
         "description": "Cl\u00e9"
     }, 
+    "other_attributes": {
+        "133": "M\u00e9daille num\u00e9ro %s1", 
+        "132": "Compte tenu de pr\u00e9cieux collaborateurs communautaires", 
+        "143": "Date de location: %s1", 
+        "147": "Cl\u00e9 num\u00e9ro %s1"
+    }, 
     "5003": {
         "alt": [
             "Utilis\u00e9 pour d\u00e9finir une classe lors de l'utilisation de plans"
@@ -420,6 +426,14 @@
     "109": {
         "type": "Hat", 
         "description": "V\u00e9ritable panama"
+    }, 
+    "9003": {
+        "positive": [
+            "Les interdictions de Steam compte des joueurs tu\u00e9s", 
+            "Cet article n'est pas r\u00e9el et n'est qu'une plaisanterie."
+        ], 
+        "type": "Mallet de bannissement", 
+        "description": "Ban Hammer"
     }, 
     "102": {
         "type": "Hat", 
@@ -545,18 +559,18 @@
     }, 
     "179": {
         "type": "Hat", 
-        "description": "TF_DemomanTricorne"
+        "description": "Tippler's Tricorne"
     }, 
     "178": {
         "type": "Hat", 
-        "description": "TF_EngineerEarmuffs"
+        "description": "Safe'n'Sound"
     }, 
     "177": {
         "alt": [
             "Rien"
         ], 
         "type": "Hat", 
-        "description": "TF_MedicGoggles"
+        "description": "Ze Goggles"
     }, 
     "175": {
         "type": "Hat", 
@@ -564,7 +578,7 @@
     }, 
     "174": {
         "type": "Hat", 
-        "description": "TF_ScoutWhoopee"
+        "description": "Whoopee Cap"
     }, 
     "172": {
         "positive": [
@@ -574,7 +588,7 @@
         "negative": [
             "Vitesse de d\u00e9placement 15% plus lente pour le porteur"
         ], 
-        "description": "TF_Unique_BattleAxe"
+        "description": "The Scotsman's Skullcutter"
     }, 
     "171": {
         "positive": [
@@ -584,22 +598,22 @@
         "negative": [
             "D\u00e9g\u00e2ts caus\u00e9s -50%"
         ], 
-        "description": "TF_Unique_TribalmanKukri"
+        "description": "The Tribalman's Shiv"
     }, 
     "170": {
         "alt": [
             "Date d'embauche : %s1"
         ], 
-        "type": "TF_Wearable_Badge", 
+        "type": "Badge", 
         "description": "Guerrier Primitif"
     }, 
     "182": {
         "type": "Hat", 
-        "description": "TF_PyroHelm"
+        "description": "Vintage Merryweather"
     }, 
     "183": {
         "type": "Hat", 
-        "description": "TF_SoldierDrillHat"
+        "description": "Sergeant's Drill Hat"
     }, 
     "180": {
         "type": "Hat", 
@@ -607,11 +621,11 @@
     }, 
     "181": {
         "type": "Hat", 
-        "description": "TF_SniperFishingHat"
+        "description": "Bloke's Bucket Hat"
     }, 
     "184": {
         "type": "Hat", 
-        "description": "TF_MedicGatsby"
+        "description": "Gentleman's Gatsby"
     }, 
     "6": {
         "type": "Pelle", 
@@ -619,7 +633,7 @@
     }, 
     "185": {
         "type": "Hat", 
-        "description": "TF_HeavyDorag"
+        "description": "Heavy Duty Rag"
     }, 
     "99": {
         "type": "Hat", 
@@ -640,21 +654,21 @@
         "alt": [
             "Date d'embauche : %s1"
         ], 
-        "type": "TF_Wearable_Badge", 
+        "type": "Badge", 
         "description": "V\u00e9t\u00e9ran Grisonnant"
     }, 
     "165": {
         "alt": [
             "Date d'embauche : %s1"
         ], 
-        "type": "TF_Wearable_Badge", 
+        "type": "Badge", 
         "description": "Soldat de fortune"
     }, 
     "166": {
         "alt": [
             "Date d'embauche : %s1"
         ], 
-        "type": "TF_Wearable_Badge", 
+        "type": "Badge", 
         "description": "Mercenaire"
     }, 
     "160": {
@@ -673,10 +687,10 @@
     }, 
     "162": {
         "alt": [
-            "TF_TTG_MaxsHat_Desc"
+            "Expertly crafted headwear from cruelty-free farms\\nin the Philippines. Hollowed-out skull casing wicks\\nmoisture away when in the heat of battle."
         ], 
         "type": "Hat", 
-        "description": "TF_TTG_MaxsHat"
+        "description": "Max's Severed Head"
     }, 
     "163": {
         "alt": [
@@ -684,7 +698,7 @@
             "Ajoute +50 points de vie \u00e0 votre sant\u00e9 maximale pour 30 secondes"
         ], 
         "type": "Panier d\u00e9jeuner", 
-        "description": "TF_Unique_EnergyDrink_CritCola"
+        "description": "Crit-a-Cola"
     }, 
     "11": {
         "type": "Fusil \u00e0 pompe", 
@@ -728,18 +742,18 @@
     }, 
     "151": {
         "type": "Hat", 
-        "description": "TF_PyroBrainSucker"
+        "description": "Triboniophorus Tyrannus"
     }, 
     "150": {
         "type": "Hat", 
-        "description": "TF_ScoutBeanie"
+        "description": "Troublemaker's Tossle Cap"
     }, 
     "153": {
         "positive": [
             "Les d\u00e9g\u00e2ts d\u00e9truisent les Saboteurs", 
             "100% de d\u00e9g\u00e2ts contre les constructions"
         ], 
-        "type": "TF_Weapon_SledgeHammer", 
+        "type": "Sledgehammer", 
         "negative": [
             "-25% de d\u00e9g\u00e2ts contre les joueurs"
         ], 
@@ -747,7 +761,7 @@
     }, 
     "152": {
         "type": "Hat", 
-        "description": "TF_SoldierSamurai"
+        "description": "Killer's Kabuto"
     }, 
     "155": {
         "positive": [
@@ -758,13 +772,13 @@
             "Aucun tir critique al\u00e9atoire", 
             "Vuln\u00e9rabilit\u00e9 aux d\u00e9g\u00e2ts par le feu 20% pour le porteur"
         ], 
-        "description": "TF_Unique_Combat_Wrench"
+        "description": "The Southern Hospitality"
     }, 
     "154": {
         "positive": [
             "Vitesse de capture +1 pour le porteur"
         ], 
-        "type": "TF_Weapon_MakeshiftClub", 
+        "type": "Makeshift Club", 
         "negative": [
             "Vuln\u00e9rabilit\u00e9 aux d\u00e9g\u00e2ts par balle 10% pour le porteur"
         ], 
@@ -779,7 +793,7 @@
     }, 
     "158": {
         "type": "Hat", 
-        "description": "TF_SniperPithHelmet"
+        "description": "Shooter's Sola Topi"
     }, 
     "48": {
         "type": "Hat", 
@@ -870,29 +884,29 @@
     }, 
     "146": {
         "type": "Hat", 
-        "description": "TF_DemomanHallmark"
+        "description": "Hustler's Hallmark"
     }, 
     "147": {
         "type": "Hat", 
-        "description": "TF_SpyNobleHair"
+        "description": "Magistrate's Mullet"
     }, 
     "144": {
         "type": "Hat", 
-        "description": "TF_MedicMask"
+        "description": "Physician's Procedure Mask"
     }, 
     "145": {
         "type": "Hat", 
-        "description": "TF_HeavyHair"
+        "description": "Hound Dog"
     }, 
     "142": {
         "positive": [
             "Sant\u00e9 max. +25 pour le porteur"
         ], 
-        "type": "TF_Weapon_Robot_Arm", 
+        "type": "Robot Arm", 
         "negative": [
             "Aucun tir critique al\u00e9atoire"
         ], 
-        "description": "TF_Unique_Robot_Arm"
+        "description": "The Gunslinger"
     }, 
     "143": {
         "alt": [
@@ -903,10 +917,10 @@
     }, 
     "140": {
         "alt": [
-            "TF_Wrangler_Desc"
+            "Take manual control of your Sentry Gun"
         ], 
-        "type": "TF_Weapon_Laser_Pointer", 
-        "description": "TF_Unique_Achievement_Laser_Pointer"
+        "type": "Laser Pointer", 
+        "description": "The Wrangler"
     }, 
     "141": {
         "type": "Fusil \u00e0 pompe", 
@@ -914,11 +928,11 @@
             "Aucun tir critique al\u00e9atoire", 
             "Capacit\u00e9 chargeur -50%"
         ], 
-        "description": "TF_Unique_Sentry_Shotgun"
+        "description": "The Frontier Justice"
     }, 
     "148": {
         "type": "Hat", 
-        "description": "TF_EngineerWeldingMask"
+        "description": "Hotrod"
     }, 
     "2": {
         "type": "Hache", 
