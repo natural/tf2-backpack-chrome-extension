@@ -53,39 +53,32 @@ Save each and exit.
 
 7.  Copy each text file to the media folder:
 
-    $ cd ~/src/tf2-backpack-chrome-extension/src/media
-    $ cp ~/var/tf2content/output/texts/*.txt .
+    $ cd ~/src/tf2-backpack-chrome-extension/
+    $ make update_texts
+    $ make update_images
+
+8.  Check the text files:
 
     $ cd ~/src/tf2-backpack-chrome-extension/src/tools
-    $ cp ~/var/tf2content/output/texts/items_game.txt .
+    $ make check
 
-    $ cd ~/src/tf2-backpack-chrome-extension/src/media
-    $ cp ~/var/tf2content/output/texts/items_game.txt .
-
-
-8.  Make the item files.  This will fail if you didn't convert the
-line ending whatevers in the text files.
+If everything works, make the item files:
 
     $ cd ~/src/tf2-backpack-chrome-extension/src/tools
-    $ make items
+    $ make item_files
+
+If the check fails, look at the 'err.txt' file, load the text file and
+fix it.
 
 If you've changed any of the HTML files (unlikely), you'll also need
 to update the message files.  Note that this borks the manual
 translations, so use with care (i.e., backup those files first):
 
-    $ make messages
+    $ make message_files
 
+9.  Bump the version in src/manifest.json.
 
-9.  The images are exported, but we need to copy them into the icons
-directory with the script:
-
-    $ cd ~/src/tf2-backpack-chrome-extension/src/icons
-    $ ../tools/list_item_images ~/var/tf2content/output/|sh
-
-
-10.  Bump the version in src/manifest.json.
-
-11.  rebuild, test, upload!
+10.  rebuild, test, upload!
 
 Other Stuff
 ===========

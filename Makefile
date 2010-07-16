@@ -1,6 +1,5 @@
-#release_name := $(shell python -c "import json;print json.load(open('src/manifest.json'))['name'].lower().replace(' ', '_')")
-release_num  := $(shell python -c "import json;print json.load(open('src/manifest.json'))['version']")
 base_name := tf2-backpack-extension
+release_num  := $(shell python -c "import json;print json.load(open('src/manifest.json'))['version']")
 release_name := ${base_name}-${release_num}
 build_dir := build-$(release_num)
 dist_dir  := dist-$(release_num)
@@ -36,7 +35,6 @@ dist: $(style_files) $(script_files) $(item_files)
 	@cp src/scripts/jquery.min.js $(build_dir)/scripts
 	@cp src/*.html src/*.json $(build_dir)
 
-
 	@echo "[DIST] copying font files"
 	@mkdir -p $(build_dir)/media
 	@cp src/media/*.ttf $(build_dir)/media
@@ -50,6 +48,7 @@ dist: $(style_files) $(script_files) $(item_files)
 	@cd $(build_dir) && $(zip) -r ../$(dist_dir)/$(release_name).zip .
 	@echo "[DIST] done.  Distributable at $(dist_dir)/$(release_name).zip"
 
+
 $(item_files):
 	@mkdir -p $(build_dir)/media
 	cat src/media/$(notdir $@) | python -c "import json,sys;d=json.load(sys.stdin);json.dump(d,sys.stdout)" > $(build_dir)/media/$(notdir $@)
@@ -58,6 +57,7 @@ $(item_files):
 $(style_files):
 	@mkdir -p $(build_dir)/styles
 	yuicompressor --type css src/styles/$(notdir $@) -o $(build_dir)/styles/$(notdir $@)
+
 
 $(script_files):
 	@mkdir -p $(build_dir)/scripts
