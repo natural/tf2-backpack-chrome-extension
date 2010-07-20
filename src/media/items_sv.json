@@ -32,14 +32,14 @@
         "positive": [
             "+50% max alternativ ammo f\u00f6r b\u00e4raren", 
             "+6 max r\u00f6rbomber ute", 
-            "Detonerar klisterbomber n\u00e4ra h\u00e5rkorset", 
+            "Detonerar klisterbomber n\u00e4ra siktet", 
             "Kan f\u00f6rst\u00f6ra fiendens klisterbomber"
         ], 
         "type": "Klisterbombskastare", 
         "negative": [
             "0.4 sekund l\u00e4ngre bombarmeringstid"
         ], 
-        "description": "Skottska Resistansen"
+        "description": "Skotska Motst\u00e5ndet"
     }, 
     "137": {
         "type": "Hat", 
@@ -47,7 +47,7 @@
     }, 
     "136": {
         "alt": [
-            "Andra plats, Propaganda t\u00e4vlingen"
+            "Andra plats, Propagandat\u00e4vlingen"
         ], 
         "type": "Hat", 
         "description": "Amber's Rad As All Hell Hat"
@@ -58,7 +58,7 @@
     }, 
     "134": {
         "alt": [
-            "F\u00f6rsta plats vinnare, Propaganda t\u00e4vlingen"
+            "F\u00f6rstaplats-vinnare, Propagandat\u00e4vlingen"
         ], 
         "type": "Hat", 
         "description": "J.Axer's Dapper Topper"
@@ -69,10 +69,10 @@
     }, 
     "138": {
         "alt": [
-            "Tredje plats, Propaganda t\u00e4vlingen"
+            "Tredje plats, Propagandat\u00e4vlingen"
         ], 
         "type": "Hat", 
-        "description": "Onkel Sam"
+        "description": "Uncle Sam"
     }, 
     "24": {
         "type": "Revolver", 
@@ -108,7 +108,7 @@
     }, 
     "95": {
         "type": "Hat", 
-        "description": "Engineer-keps"
+        "description": "Teknikerns keps"
     }, 
     "28": {
         "type": "PDA", 
@@ -136,7 +136,7 @@
     }, 
     "96": {
         "type": "Hat", 
-        "description": "Rysk officersm\u00f6ssa"
+        "description": "Officerens ushanka"
     }, 
     "120": {
         "type": "Hat", 
@@ -183,14 +183,14 @@
     }, 
     "128": {
         "positive": [
-            "Skador och f\u00f6rflyttningshastighet \u00f6kar om anv\u00e4ndaren blir skadad"
+            "Skada och f\u00f6rflyttningshastighet \u00f6kar om anv\u00e4ndaren blir s\u00e5rad"
         ], 
         "type": "Spetshacka", 
         "description": "Utj\u00e4mnaren"
     }, 
     "129": {
-        "type": "Stridsban\u00e9r", 
-        "description": "Buff Bannern"
+        "type": "Stridsbaner", 
+        "description": "Buffbaneret"
     }, 
     "59": {
         "positive": [
@@ -199,7 +199,7 @@
         "alt": [
             "D\u00f6ljningstyp: Falsk d\u00f6d"
         ], 
-        "type": "D\u00f6ljningsklocka", 
+        "type": "Osynlighetsklocka", 
         "negative": [
             "+60% hastighet f\u00f6r d\u00f6ljningsminskning"
         ], 
@@ -214,7 +214,7 @@
     }, 
     "55": {
         "type": "Hat", 
-        "description": "Fl\u00e5dig filthatt"
+        "description": "Fl\u00e5dig fedora"
     }, 
     "54": {
         "type": "Hat", 
@@ -222,18 +222,18 @@
     }, 
     "57": {
         "positive": [
-            "Blockera ett f\u00f6rs\u00f6k till rygghugg"
+            "Blockerar ett f\u00f6rs\u00f6k till rygghugg"
         ], 
         "type": "Sk\u00f6ld", 
         "description": "Razorback"
     }, 
     "56": {
         "type": "B\u00e5ge", 
-        "description": "Jaktmannen"
+        "description": "Huntsman"
     }, 
     "51": {
         "type": "Hat", 
-        "description": "Pyros m\u00f6ssa"
+        "description": "Pyrons m\u00f6ssa"
     }, 
     "50": {
         "type": "Hat", 
@@ -345,8 +345,8 @@
         "description": "Texas Slims Skallglans"
     }, 
     "3": {
-        "type": "Kukri-kniv", 
-        "description": "Kukri-kniv"
+        "type": "Kukri", 
+        "description": "Kukri"
     }, 
     "7": {
         "type": "Skiftnyckel", 
@@ -437,7 +437,7 @@
     }, 
     "102": {
         "type": "Hat", 
-        "description": "F\u00f6rl\u00f6jligande gummihandske"
+        "description": "Respektl\u00f6s gummihandske"
     }, 
     "103": {
         "type": "Hat", 
@@ -445,7 +445,7 @@
     }, 
     "100": {
         "type": "Hat", 
-        "description": "Glengarry-basker"
+        "description": "Glengarry-h\u00e4tta"
     }, 
     "101": {
         "type": "Hat", 
@@ -468,12 +468,12 @@
         "description": "Brandmanshj\u00e4lm"
     }, 
     "39": {
-        "type": "N\u00f6draketsgev\u00e4r", 
-        "description": "Lysraketsgev\u00e4ret"
+        "type": "Signalpistol", 
+        "description": "Signalpistolen"
     }, 
     "38": {
         "positive": [
-            "100\u00a0% kritiska tr\u00e4ffar mot brinnande spelare"
+            "100% kritiska tr\u00e4ffar mot brinnande spelare"
         ], 
         "type": "Brandyxa", 
         "negative": [
@@ -491,16 +491,16 @@
         "description": "Bens\u00e5g"
     }, 
     "31": {
-        "type": "N\u00f6draketsgev\u00e4r", 
-        "description": "N\u00f6draketsgev\u00e4r"
+        "type": "Signalpistol", 
+        "description": "Signalpistol"
     }, 
     "30": {
-        "type": "D\u00f6ljningsklocka", 
-        "description": "D\u00f6ljningsklocka"
+        "type": "Osynlighetsklocka", 
+        "description": "Osynlighetsklocka"
     }, 
     "37": {
         "positive": [
-            "Vid tr\u00e4ff: 25% extra \u00f6verladdning"
+            "Vid tr\u00e4ff: 25% extra \u00dcberLaddning"
         ], 
         "type": "Bens\u00e5g", 
         "negative": [
@@ -520,10 +520,10 @@
     }, 
     "35": {
         "positive": [
-            "+25% \u00f6verladdningshastighet"
+            "+25% \u00dcberLaddningshastighet"
         ], 
         "alt": [
-            "\u00d6verladdning ger 100 % chans till kritisk tr\u00e4ff"
+            "\u00dcberLaddning ger 100 % chans till kritisk tr\u00e4ff"
         ], 
         "type": "H\u00e4lsovapen", 
         "description": "Kritzkriegen"
@@ -539,8 +539,8 @@
         "alt": [
             "D\u00f6ljningstyp: R\u00f6relsek\u00e4nslig"
         ], 
-        "type": "D\u00f6ljningsklocka", 
-        "description": "Manteln och Dolken"
+        "type": "Osynlighetsklocka", 
+        "description": "Dolken och Manteln"
     }, 
     "61": {
         "positive": [
@@ -555,7 +555,7 @@
     }, 
     "97": {
         "type": "Hat", 
-        "description": "Tuffa toppluvan"
+        "description": "Tuffingens toppluva"
     }, 
     "179": {
         "type": "Hat", 
@@ -570,7 +570,7 @@
             "Ingenting"
         ], 
         "type": "Hat", 
-        "description": "Ze Goggles"
+        "description": "Das Skyddsglas\u00f6gon"
     }, 
     "175": {
         "type": "Hat", 
@@ -588,13 +588,13 @@
         "negative": [
             "15% l\u00e5ngsammare f\u00f6rflyttning f\u00f6r b\u00e4raren"
         ], 
-        "description": "Den Skotska Kraniumfr\u00e4sen"
+        "description": "Skottens Skallsk\u00e4rare"
     }, 
     "171": {
         "positive": [
             "P\u00e5 tr\u00e4ff: Bl\u00f6der i 6 sekunder"
         ], 
-        "type": "Kukri-kniv", 
+        "type": "Kukri", 
         "negative": [
             "-50% orsakad skada"
         ], 
@@ -604,7 +604,7 @@
         "alt": [
             "Anst\u00e4llningsdatum: %s1"
         ], 
-        "type": "Bricka", 
+        "type": "M\u00e4rke", 
         "description": "Urtida Krigare"
     }, 
     "182": {
@@ -631,9 +631,13 @@
         "type": "Skyffel", 
         "description": "Skyffel"
     }, 
+    "189": {
+        "type": "Hat", 
+        "description": "Alien Swarm Parasite"
+    }, 
     "185": {
         "type": "Hat", 
-        "description": "Tunga T\u00e5liga Trasan"
+        "description": "Heavy Dutys trasa"
     }, 
     "99": {
         "type": "Hat", 
@@ -644,33 +648,36 @@
         "description": "Rostfri kastrull"
     }, 
     "169": {
+        "positive": [
+            "Genomsyrad med en forntida f\u00f6rm\u00e5ga"
+        ], 
         "type": "Skiftnyckel", 
-        "description": "The Golden Wrench"
+        "description": "Den Gyllene Skiftnyckeln"
     }, 
     "164": {
         "alt": [
             "Anst\u00e4llningsdatum: %s1"
         ], 
-        "type": "Bricka", 
+        "type": "M\u00e4rke", 
         "description": "Gr\u00e5h\u00e5rig Veteran"
     }, 
     "165": {
         "alt": [
             "Anst\u00e4llningsdatum: %s1"
         ], 
-        "type": "Bricka", 
+        "type": "M\u00e4rke", 
         "description": "Legoknekt"
     }, 
     "166": {
         "alt": [
             "Anst\u00e4llningsdatum: %s1"
         ], 
-        "type": "Bricka", 
+        "type": "M\u00e4rke", 
         "description": "Legosoldat"
     }, 
     "160": {
         "alt": [
-            "The ultimate in semi-concealed weaponry.\\nThere\u2019s no question you need this gun,\\nthe only question is: where will you keep it?"
+            "Det ultimata valet inom halv-dolda vapen.\r\nDet r\u00e5der ingen tvekan om att du beh\u00f6ver den h\u00e4r pistolen,\r\nfr\u00e5gan \u00e4r bara: var ska du f\u00f6rvara den?"
         ], 
         "type": "Pistol", 
         "description": "Lugermorph"
@@ -684,10 +691,10 @@
     }, 
     "162": {
         "alt": [
-            "Expertly crafted headwear from cruelty-free farms\\nin the Philippines. Hollowed-out skull casing wicks\\nmoisture away when in the heat of battle."
+            "Skickligt skapad huvudbonad fr\u00e5n djurv\u00e4nliga bondg\u00e5rdar\r\ni Filippinerna. Urholkad skalle som suger upp\r\nfukt i stridens hetta."
         ], 
         "type": "Hat", 
-        "description": "Maxs Avhuggna Huvud"
+        "description": "Max Avhuggna Huvud"
     }, 
     "163": {
         "alt": [
@@ -695,7 +702,7 @@
             "Adderar +50 max h\u00e4lsa i 30 sekunder"
         ], 
         "type": "Lunchl\u00e5da", 
-        "description": "Krit-p\u00e5-Burk"
+        "description": "Crit-a-Cola"
     }, 
     "11": {
         "type": "Hagelgev\u00e4r", 
@@ -714,8 +721,8 @@
         "description": "Hagelgev\u00e4r"
     }, 
     "15": {
-        "type": "Bandkulspruta", 
-        "description": "Bandkulspruta"
+        "type": "Minigun", 
+        "description": "Minigun"
     }, 
     "14": {
         "type": "Krypskyttegev\u00e4r", 
@@ -726,8 +733,8 @@
         "description": "Sprutgev\u00e4r"
     }, 
     "16": {
-        "type": "K-PIST", 
-        "description": "K-PIST"
+        "type": "K-pist", 
+        "description": "K-pist"
     }, 
     "19": {
         "type": "Granatkastare", 
@@ -769,24 +776,24 @@
             "Inga slumpm\u00e4ssiga kritiska tr\u00e4ffar", 
             "20% s\u00e5rbarhet f\u00f6r eldskada f\u00f6r b\u00e4raren"
         ], 
-        "description": "The Southern Hospitality"
+        "description": "S\u00f6derns G\u00e4stfrihet"
     }, 
     "154": {
         "positive": [
             "+1 er\u00f6vringshastighet f\u00f6r b\u00e4raren"
         ], 
-        "type": "Hemgjord Klubba", 
+        "type": "Improviserad klubba", 
         "negative": [
             "10% s\u00e5rbarhet f\u00f6r kulskador f\u00f6r b\u00e4raren"
         ], 
-        "description": "Sm\u00e4rt T\u00e5get"
+        "description": "Sm\u00e4rt-Expressen"
     }, 
     "159": {
         "positive": [
             "Adderar +50 max h\u00e4lsa i 30 sekunder"
         ], 
         "type": "Lunchl\u00e5da", 
-        "description": "Dalokohs Chokladkaka"
+        "description": "Dalokohs-kakan"
     }, 
     "158": {
         "type": "Hat", 
@@ -802,7 +809,7 @@
     }, 
     "46": {
         "type": "Lunchl\u00e5da", 
-        "description": "Bonk! Atom-Slag"
+        "description": "Bonk! Atomic Punch"
     }, 
     "47": {
         "type": "Hat", 
@@ -833,7 +840,7 @@
     }, 
     "42": {
         "type": "Lunchl\u00e5da", 
-        "description": "Sm\u00f6rg\u00e5sen"
+        "description": "Sm\u00f6rgosen"
     }, 
     "43": {
         "positive": [
@@ -843,11 +850,11 @@
         "negative": [
             "-20% l\u00e5ngsammare eldgivningshastighet"
         ], 
-        "description": "Dom D\u00f6dande Boxningshandskarna"
+        "description": "M\u00f6rdar-Handskarna av Boxning"
     }, 
     "40": {
         "positive": [
-            "100\u00a0% kritiska tr\u00e4ffar bakifr\u00e5n", 
+            "100% kritiska tr\u00e4ffar bakifr\u00e5n", 
             "+14% orsakad skada"
         ], 
         "type": "Eldkastare", 
@@ -855,13 +862,13 @@
             "Inga slumpm\u00e4ssiga kritiska tr\u00e4ffar", 
             "Ingen komprimerad luftstr\u00f6m"
         ], 
-        "description": "Bakbr\u00e4nnaren"
+        "description": "Ryggbr\u00e4nnaren"
     }, 
     "41": {
         "positive": [
             "Vid tr\u00e4ff: 100% chans att sakta ned m\u00e5ltavlan"
         ], 
-        "type": "Bandkulspruta", 
+        "type": "Minigun", 
         "negative": [
             "-25% orsakad skada"
         ], 
@@ -889,47 +896,51 @@
     }, 
     "144": {
         "type": "Hat", 
-        "description": "L\u00e4kares Procedur Mask"
+        "description": "L\u00e4karens munskydd"
     }, 
     "145": {
         "type": "Hat", 
-        "description": "Hound Dog"
+        "description": "Hound dog"
     }, 
     "142": {
         "positive": [
             "+25 maximal h\u00e4lsa f\u00f6r b\u00e4raren"
         ], 
-        "type": "Robot Arm", 
+        "type": "Robotarm", 
         "negative": [
-            "Inga slumpm\u00e4ssiga kritiska tr\u00e4ffar"
+            "Inga slumpm\u00e4ssiga kritiska tr\u00e4ffar", 
+            "Ers\u00e4tter vaktgev\u00e4ret med ett snabbyggt mini-vaktgev\u00e4r"
         ], 
         "description": "The Gunslinger"
     }, 
     "143": {
         "alt": [
-            "OSX represant\u00f6r!"
+            "OSX represent!"
         ], 
         "type": "Hat", 
         "description": "H\u00f6rlurar"
     }, 
     "140": {
         "alt": [
-            "Take manual control of your Sentry Gun"
+            "Ta kontrollen manuellt \u00f6ver ditt vaktgev\u00e4r"
         ], 
-        "type": "Laser Pointer", 
-        "description": "The Wrangler"
+        "type": "Laserpekare", 
+        "description": "Gr\u00e4lmakaren"
     }, 
     "141": {
+        "positive": [
+            "N\u00e4r ditt vaktgev\u00e4r f\u00f6rst\u00f6rs f\u00e5r du \r\n\r\nkritiska h\u00e4mndtr\u00e4ffar f\u00f6r varje fiende som d\u00f6das med vaktgev\u00e4ret"
+        ], 
         "type": "Hagelgev\u00e4r", 
         "negative": [
             "Inga slumpm\u00e4ssiga kritiska tr\u00e4ffar", 
             "-50% magasinstorlek"
         ], 
-        "description": "The Frontier Justice"
+        "description": "Frontens R\u00e4ttvisa"
     }, 
     "148": {
         "type": "Hat", 
-        "description": "Svetsar-Mask"
+        "description": "Svetsar-mask"
     }, 
     "2": {
         "type": "Brandyxa", 

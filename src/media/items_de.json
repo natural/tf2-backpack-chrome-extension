@@ -8,7 +8,7 @@
     }, 
     "132": {
         "alt": [
-            "Diese Waffe hat eine weite Nahkampfreichweite.\r\nVerleiht erh\u00f6hte Geschwindigkeit und Gesundheit bei jedem Kill."
+            "Diese Waffe hat eine gr\u00f6\u00dfere Nahkampfreichweite.\r\nVerleiht erh\u00f6hte Geschwindigkeit und Gesundheit\r\nmit jeder K\u00f6pfung."
         ], 
         "type": "Schwert", 
         "negative": [
@@ -23,7 +23,7 @@
             "+40%\u00a0Widerstand gegen\u00fcber Explosionen f\u00fcr Tr\u00e4ger"
         ], 
         "alt": [
-            "Alt-Feuer: Erhalten Sie erh\u00f6hte Angriffskraft durch Sturmangriff auf Feinde."
+            "Alt-Feuer: Erhalten Sie erh\u00f6hte Angriffskraft\r\ndurch Sturmangriff auf Feinde."
         ], 
         "type": "Schild", 
         "description": "Der Sturmschild"
@@ -183,7 +183,7 @@
     }, 
     "128": {
         "positive": [
-            "Bei Verletzungen erh\u00f6hen sich der Schaden und die Bewegungsgeschwindigkeit des Tr\u00e4gers"
+            "Bei Verletzungen erh\u00f6hen\r\nsich der Schaden und die\r\nBewegungsgeschwindigkeit des Tr\u00e4gers"
         ], 
         "type": "Spitzhacke", 
         "description": "Der Equalizer"
@@ -570,7 +570,7 @@
             "Nichts"
         ], 
         "type": "Hat", 
-        "description": "Ze Goggles"
+        "description": "The Nachtsichtbrille"
     }, 
     "175": {
         "type": "Hat", 
@@ -598,7 +598,7 @@
         "negative": [
             "-50%\u00a0zugef\u00fcgter Schaden"
         ], 
-        "description": "Messer des Stammesk\u00e4mpfers"
+        "description": "Die Stammesklinge"
     }, 
     "170": {
         "alt": [
@@ -630,6 +630,10 @@
     "6": {
         "type": "Schaufel", 
         "description": "Schaufel"
+    }, 
+    "189": {
+        "type": "Hat", 
+        "description": "Alien Swarm Parasite"
     }, 
     "185": {
         "type": "Hat", 
@@ -683,7 +687,7 @@
             "Combines style with stopping power.\\nLong exclusive to Freelance Police,\\nnow available for other blood-thirsty mercenaries."
         ], 
         "type": "Revolver", 
-        "description": "Big Kill"
+        "description": "Der Big Kill"
     }, 
     "162": {
         "alt": [
@@ -884,7 +888,7 @@
     }, 
     "146": {
         "type": "Hat", 
-        "description": "Hustler's Hallmark"
+        "description": "Gauner Markenzeichen"
     }, 
     "147": {
         "type": "Hat", 
@@ -902,9 +906,10 @@
         "positive": [
             "+25\u00a0max. Gesundheit f\u00fcr Tr\u00e4ger"
         ], 
-        "type": "Robot Arm", 
+        "type": "Roboterarm", 
         "negative": [
-            "Keine zuf\u00e4lligen kritischen Treffer"
+            "Keine zuf\u00e4lligen kritischen Treffer", 
+            "Ersetzt die Sentrygun mit einer schnell zu errichtenden Mini-Sentrygun."
         ], 
         "description": "The Gunslinger"
     }, 
@@ -917,12 +922,15 @@
     }, 
     "140": {
         "alt": [
-            "Take manual control of your Sentry Gun"
+            "Kontrollieren Sie Ihre Sentrygun manuell."
         ], 
-        "type": "Laser Pointer", 
+        "type": "Laserpointer", 
         "description": "The Wrangler"
     }, 
     "141": {
+        "positive": [
+            "Sie erhalten kritische Rache-Treffer f\u00fcr jeden Sentry-Treffer, \r\n\r\nwenn Ihre Sentrygun zerst\u00f6rt ist."
+        ], 
         "type": "Schrotflinte", 
         "negative": [
             "Keine zuf\u00e4lligen kritischen Treffer", 

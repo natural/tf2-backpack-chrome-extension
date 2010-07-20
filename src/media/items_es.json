@@ -47,7 +47,7 @@
     }, 
     "136": {
         "alt": [
-            "First Runner-Up, Propaganda Contest"
+            "Primer finalista  del Concurso de Carteles"
         ], 
         "type": "Hat", 
         "description": "Amber's Rad As All Hell Hat"
@@ -58,7 +58,7 @@
     }, 
     "134": {
         "alt": [
-            "First Place Winner, Propaganda Contest"
+            "Ganador del Primer Puesto del Concurso de Carteles"
         ], 
         "type": "Hat", 
         "description": "J.Axer's Dapper Topper"
@@ -551,7 +551,7 @@
             "Da\u00f1os causados: -15%", 
             "-20% m\u00e1s de lentitud de disparo"
         ], 
-        "description": "Ambassador"
+        "description": "La Embajadora"
     }, 
     "97": {
         "type": "Hat", 
@@ -559,43 +559,46 @@
     }, 
     "179": {
         "type": "Hat", 
-        "description": "Tippler's Tricorne"
+        "description": "Tricornio Pirata"
     }, 
     "178": {
         "type": "Hat", 
-        "description": "Safe'n'Sound"
+        "description": "Cascos Protectores"
     }, 
     "177": {
         "alt": [
-            "Nothing"
+            "Nada"
         ], 
         "type": "Hat", 
-        "description": "Ze Goggles"
+        "description": "Laz Gafaz"
     }, 
     "175": {
         "type": "Hat", 
-        "description": "Whiskered Gentleman"
+        "description": "Caballero Bigotudo"
     }, 
     "174": {
         "type": "Hat", 
-        "description": "Whoopee Cap"
+        "description": "Corona de Yupi"
     }, 
     "172": {
         "positive": [
             "Da\u00f1os causados +20%"
         ], 
-        "type": "Axe", 
+        "type": "Hacha", 
         "negative": [
             "15% de reducci\u00f3n de velocidad del portador"
         ], 
-        "description": "The Scotsman's Skullcutter"
+        "description": "El  Corta-Cr\u00e1neos Escoc\u00e9s"
     }, 
     "171": {
+        "positive": [
+            "Al impactar: 6 segundos de hemorragia"
+        ], 
         "type": "Kukri", 
         "negative": [
             "Da\u00f1os causados: -50%"
         ], 
-        "description": "The Tribalman's Shiv"
+        "description": "La Cuchilla Tribal"
     }, 
     "170": {
         "alt": [
@@ -610,11 +613,11 @@
     }, 
     "183": {
         "type": "Hat", 
-        "description": "Sergeant's Drill Hat"
+        "description": "Sombrero de Sargento Instructor"
     }, 
     "180": {
         "type": "Hat", 
-        "description": "Frenchman's Beret"
+        "description": "Boina de Franchute"
     }, 
     "181": {
         "type": "Hat", 
@@ -627,6 +630,10 @@
     "6": {
         "type": "Pala", 
         "description": "Pala"
+    }, 
+    "189": {
+        "type": "Hat", 
+        "description": "Alien Swarm Parasite"
     }, 
     "185": {
         "type": "Hat", 
@@ -642,7 +649,7 @@
     }, 
     "169": {
         "type": "Llave inglesa", 
-        "description": "The Golden Wrench"
+        "description": "La Llave Inglesa Dorada"
     }, 
     "164": {
         "alt": [
@@ -670,7 +677,7 @@
             "The ultimate in semi-concealed weaponry.\\nThere\u2019s no question you need this gun,\\nthe only question is: where will you keep it?"
         ], 
         "type": "Pistola", 
-        "description": "Lugermorph"
+        "description": "La Lugermorfa"
     }, 
     "161": {
         "alt": [
@@ -681,18 +688,18 @@
     }, 
     "162": {
         "alt": [
-            "Expertly crafted headwear from cruelty-free farms\\nin the Philippines. Hollowed-out skull casing wicks\\nmoisture away when in the heat of battle."
+            "Sombrero de fabricaci\u00f3n magistral procedente de\r\ngranjas libres de crueldad en Filipinas. Este cr\u00e1neo\r\nhueco previene el sudor en el fragor de la batalla."
         ], 
         "type": "Hat", 
-        "description": "Max's Severed Head"
+        "description": "Cabeza Cortada de Max"
     }, 
     "163": {
         "alt": [
-            "While under the effects, damage done\\nand damage taken will be mini-crits.", 
+            "Mientras se est\u00e1 bajo sus efectos, los da\u00f1os\r\nproducidos y recibidos ser\u00e1n minicr\u00edticos.", 
             "Aumenta tu vida en 50 puntos durante 30 segundos"
         ], 
         "type": "Fiambrera", 
-        "description": "Crit-a-Cola"
+        "description": "CritiCola"
     }, 
     "11": {
         "type": "Escopeta", 
@@ -758,12 +765,15 @@
         "description": "Kabuto de Sun Tzu"
     }, 
     "155": {
+        "positive": [
+            "Al impactar: 5 segundos de hemorragia"
+        ], 
         "type": "Llave inglesa", 
         "negative": [
             "Sin impactos cr\u00edticos aleatorios", 
             "20% de vulnerabilidad al da\u00f1o por fuego al portador"
         ], 
-        "description": "The Southern Hospitality"
+        "description": "La Hospitalidad Sure\u00f1a"
     }, 
     "154": {
         "positive": [
@@ -893,9 +903,10 @@
         "positive": [
             "Salud m\u00e1xima del portador: +25"
         ], 
-        "type": "Robot Arm", 
+        "type": "Brazo rob\u00f3tico", 
         "negative": [
-            "Sin impactos cr\u00edticos aleatorios"
+            "Sin impactos cr\u00edticos aleatorios", 
+            "Sustituye al centinela con un minicentinela de construcci\u00f3n m\u00e1s veloz"
         ], 
         "description": "The Gunslinger"
     }, 
@@ -908,12 +919,15 @@
     }, 
     "140": {
         "alt": [
-            "Take manual control of your Sentry Gun"
+            "Controla manualmente tu centinela"
         ], 
-        "type": "Laser Pointer", 
+        "type": "Puntero l\u00e1ser", 
         "description": "The Wrangler"
     }, 
     "141": {
+        "positive": [
+            "Cada vez que destruyen tu centinela,\r\n\r\nganas cr\u00edticos por venganza"
+        ], 
         "type": "Escopeta", 
         "negative": [
             "Sin impactos cr\u00edticos aleatorios", 

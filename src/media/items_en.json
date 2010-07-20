@@ -631,6 +631,10 @@
         "type": "Shovel", 
         "description": "Shovel"
     }, 
+    "189": {
+        "type": "Hat", 
+        "description": "Alien Swarm Parasite"
+    }, 
     "185": {
         "type": "Hat", 
         "description": "Heavy Duty Rag"

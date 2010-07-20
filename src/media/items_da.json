@@ -4,18 +4,18 @@
             "-60% eksplosionsskade fra rakethop"
         ], 
         "type": "St\u00f8vler", 
-        "description": "Gunboats"
+        "description": "Kanonb\u00e5dene"
     }, 
     "132": {
         "alt": [
-            "Dette v\u00e5ben har en stor n\u00e6rkampsr\u00e6kkevidde.\r\nHastighed og helbred for\u00f8ges for hvert hoved du h\u00f8ster."
+            "Dette v\u00e5ben har en stor n\u00e6rkampsr\u00e6kkevidde.\r\n\r\nHastighed og helbred for\u00f8ges,\r\n\r\nfor hvert hoved du h\u00f8ster."
         ], 
         "type": "Sv\u00e6rd", 
         "negative": [
             "-25 maks. helbred for b\u00e6rer", 
             "Ingen tilf\u00e6ldig kritisk skade"
         ], 
-        "description": "Eyelander"
+        "description": "Eyelanderen"
     }, 
     "131": {
         "positive": [
@@ -23,10 +23,10 @@
             "+40% modstandsdygtighed mod eksplosioner for b\u00e6reren"
         ], 
         "alt": [
-            "Sekund\u00e6r funktion: For\u00f8g din angrebsstyrke ved at foretage et angrebsl\u00f8b hen imod dine fjender."
+            "Sekund\u00e6r funktion: For\u00f8g din angrebsstyrke ved\r\n\r\nat foretage et angrebsl\u00f8b hen imod dine fjender."
         ], 
         "type": "Skjold", 
-        "description": "Chargin' Targe"
+        "description": "Angrebsskjoldet"
     }, 
     "130": {
         "positive": [
@@ -39,7 +39,7 @@
         "negative": [
             "0.4 sek. langsommere bombearmeringstid"
         ], 
-        "description": "Skotske Modstand"
+        "description": "Den Skotske Resistens"
     }, 
     "137": {
         "type": "Hat", 
@@ -54,7 +54,7 @@
     }, 
     "135": {
         "type": "Hat", 
-        "description": "T\u00e5rnh\u00f8j hattestabel"
+        "description": "T\u00e5rnende S\u00f8jle af Hatte"
     }, 
     "134": {
         "alt": [
@@ -179,18 +179,18 @@
         "negative": [
             "-70% eksplosionsradius"
         ], 
-        "description": "Direct Hit"
+        "description": "Fuldtr\u00e6fferen"
     }, 
     "128": {
         "positive": [
             "Skade og bev\u00e6gelseshastighed \u00f8ges, n\u00e5r brugeren bliver skadet"
         ], 
         "type": "Hakke", 
-        "description": "Equalizer"
+        "description": "Equalizeren"
     }, 
     "129": {
         "type": "Kampbanner", 
-        "description": "Buff Banner"
+        "description": "Buff Banneret"
     }, 
     "59": {
         "positive": [
@@ -203,14 +203,14 @@
         "negative": [
             "+60% aftapningshastighed for usynlighed"
         ], 
-        "description": "Dead Ringer"
+        "description": "Gengangeren"
     }, 
     "58": {
         "alt": [
             "Ramte fjender f\u00e5r sm\u00e5skader\r\nKan ogs\u00e5 anvendes til at slukke en ildebrand med"
         ], 
         "type": "Krukkebaseret karate", 
-        "description": "Jarate"
+        "description": "tiskarate"
     }, 
     "55": {
         "type": "Hat", 
@@ -225,7 +225,7 @@
             "Blokerer et enkelt rygstikkerfors\u00f8g"
         ], 
         "type": "Skjold", 
-        "description": "Razorback"
+        "description": "Razorback-skjoldet"
     }, 
     "56": {
         "type": "Bue", 
@@ -469,7 +469,7 @@
     }, 
     "39": {
         "type": "Signalpistol", 
-        "description": "Flare Gun"
+        "description": "Signalpistolen"
     }, 
     "38": {
         "positive": [
@@ -480,7 +480,7 @@
             "Ingen kritisk skade mod ikke-br\u00e6ndende spillere", 
             "-50% skade mod ikke-br\u00e6ndende spillere"
         ], 
-        "description": "Axtinguisher"
+        "description": "Axtinguisheren"
     }, 
     "33": {
         "type": "Spr\u00f8jtepistol", 
@@ -506,7 +506,7 @@
         "negative": [
             "-20% langsommere affyringshastighed"
         ], 
-        "description": "Ubersaw"
+        "description": "Ubersawen"
     }, 
     "36": {
         "positive": [
@@ -516,7 +516,7 @@
         "negative": [
             "-2 helbred tappet pr. sekund for b\u00e6reren"
         ], 
-        "description": "Blutsauger"
+        "description": "Blutsaugeren"
     }, 
     "35": {
         "positive": [
@@ -540,7 +540,7 @@
             "Forkl\u00e6dningstype: bev\u00e6gelsesf\u00f8lsom"
         ], 
         "type": "Usynlighedsur", 
-        "description": "Cloak and Dagger"
+        "description": "Cloak and Daggeren"
     }, 
     "61": {
         "positive": [
@@ -588,7 +588,7 @@
         "negative": [
             "15% langsommere bev\u00e6gelseshastighed for b\u00e6reren"
         ], 
-        "description": "The Scotsman's Skullcutter"
+        "description": "Skottens Kraniekl\u00f8ver"
     }, 
     "171": {
         "positive": [
@@ -598,7 +598,7 @@
         "negative": [
             "-50% for\u00e5rsaget skade"
         ], 
-        "description": "The Tribalman's Shiv"
+        "description": "Stammemandens Machete"
     }, 
     "170": {
         "alt": [
@@ -631,6 +631,10 @@
         "type": "Skovl", 
         "description": "Skovl"
     }, 
+    "189": {
+        "type": "Hat", 
+        "description": "Alien Swarm Parasite"
+    }, 
     "185": {
         "type": "Hat", 
         "description": "Bandana"
@@ -644,8 +648,11 @@
         "description": "Rustfri gryde"
     }, 
     "169": {
+        "positive": [
+            "Gennemsyret af en oldgammel kraft"
+        ], 
         "type": "Svenskn\u00f8gle", 
-        "description": "The Golden Wrench"
+        "description": "Den Gyldne Svenskn\u00f8gle"
     }, 
     "164": {
         "alt": [
@@ -754,7 +761,7 @@
         "negative": [
             "-25% skade mod spillere"
         ], 
-        "description": "Homewrecker"
+        "description": "Hjerteknuseren"
     }, 
     "152": {
         "type": "Hat", 
@@ -769,7 +776,7 @@
             "Ingen tilf\u00e6ldig kritisk skade", 
             "20% s\u00e5rbarhed over for flammekaster for b\u00e6reren"
         ], 
-        "description": "The Southern Hospitality"
+        "description": "Den Sydlige Velkomst"
     }, 
     "154": {
         "positive": [
@@ -786,7 +793,7 @@
             "Tilf\u00f8jer +50 ekstra liv i 30 sekunder"
         ], 
         "type": "Madkasse", 
-        "description": "Dalokohs Bar"
+        "description": "Dalokohs Chokoladebar"
     }, 
     "158": {
         "type": "Hat", 
@@ -802,7 +809,7 @@
     }, 
     "46": {
         "type": "Madkasse", 
-        "description": "Bonk! Atomic Punch"
+        "description": "Bonk! atomdrikken"
     }, 
     "47": {
         "type": "Hat", 
@@ -816,7 +823,7 @@
         "negative": [
             "-15 maks. helbred for b\u00e6rer"
         ], 
-        "description": "Ole Luk\u00f8je"
+        "description": "Ole Luk\u00f8jen"
     }, 
     "45": {
         "positive": [
@@ -881,7 +888,7 @@
     }, 
     "146": {
         "type": "Hat", 
-        "description": "Svindlerens kendetegn"
+        "description": "Hustlers Adelsm\u00e6rke"
     }, 
     "147": {
         "type": "Hat", 
@@ -893,17 +900,18 @@
     }, 
     "145": {
         "type": "Hat", 
-        "description": "Hound Dog"
+        "description": "Elviskr\u00f8lle"
     }, 
     "142": {
         "positive": [
             "+25 maks. helbred for b\u00e6rer"
         ], 
-        "type": "Robot Arm", 
+        "type": "Robotarm", 
         "negative": [
-            "Ingen tilf\u00e6ldig kritisk skade"
+            "Ingen tilf\u00e6ldig kritisk skade", 
+            "Erstatter robotgev\u00e6ret med et hurtigt-byggende Mini-Robotgev\u00e6r"
         ], 
-        "description": "The Gunslinger"
+        "description": "Gunslingeren"
     }, 
     "143": {
         "alt": [
@@ -914,18 +922,21 @@
     }, 
     "140": {
         "alt": [
-            "Take manual control of your Sentry Gun"
+            "F\u00e5 manuel kontrol over dit Robotgev\u00e6r"
         ], 
-        "type": "Laser Pointer", 
-        "description": "The Wrangler"
+        "type": "Laserpointer", 
+        "description": "Wrangleren"
     }, 
     "141": {
+        "positive": [
+            "N\u00e5r dit robotgev\u00e6r bliver \u00f8delagt f\u00e5r\r\ndu h\u00e6vn-kritiske skud for hvert robotgev\u00e6r-drab"
+        ], 
         "type": "Haglgev\u00e6r", 
         "negative": [
             "Ingen tilf\u00e6ldig kritisk skade", 
             "-50% magasinst\u00f8rrelse"
         ], 
-        "description": "The Frontier Justice"
+        "description": "Frontier Justice"
     }, 
     "148": {
         "type": "Hat", 

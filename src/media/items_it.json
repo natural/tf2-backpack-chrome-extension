@@ -65,14 +65,14 @@
     }, 
     "139": {
         "type": "Hat", 
-        "description": "Modesta pila di cappelli"
+        "description": "Pila di Cappelli Decente"
     }, 
     "138": {
         "alt": [
             "Terzo classificato al concorso Propaganda"
         ], 
         "type": "Hat", 
-        "description": "Uncle Sam"
+        "description": "Zio Sam"
     }, 
     "24": {
         "type": "Revolver", 
@@ -588,7 +588,7 @@
         "negative": [
             "15% di velocit\u00e0 di spostamento in meno su chi lo indossa"
         ], 
-        "description": "The Scotsman's Skullcutter"
+        "description": "Scotsman's Skullcutter"
     }, 
     "171": {
         "positive": [
@@ -598,7 +598,7 @@
         "negative": [
             "Danni inflitti -50%"
         ], 
-        "description": "The Tribalman's Shiv"
+        "description": "Tribalman's Shiv"
     }, 
     "170": {
         "alt": [
@@ -631,6 +631,10 @@
         "type": "Pala", 
         "description": "Pala"
     }, 
+    "189": {
+        "type": "Hat", 
+        "description": "Alien Swarm Parasite"
+    }, 
     "185": {
         "type": "Hat", 
         "description": "Bandana da duro"
@@ -645,7 +649,7 @@
     }, 
     "169": {
         "type": "Chiave inglese", 
-        "description": "The Golden Wrench"
+        "description": "Golden Wrench"
     }, 
     "164": {
         "alt": [
@@ -692,7 +696,7 @@
     "163": {
         "alt": [
             "Durante l'effetto, i danni effettuati \r\ne subiti saranno mini critici.", 
-            "Aggiunge energia massima +50 per 30 secondi"
+            "Aumenta la vita massima di 50 punti per 30 secondi"
         ], 
         "type": "Cestino del pranzo", 
         "description": "Crit-a-Cola"
@@ -783,7 +787,7 @@
     }, 
     "159": {
         "positive": [
-            "Aggiunge energia massima +50 per 30 secondi"
+            "Aumenta la vita massima di 50 punti per 30 secondi"
         ], 
         "type": "Cestino del pranzo", 
         "description": "Dalokohs Bar"
@@ -885,11 +889,11 @@
     }, 
     "147": {
         "type": "Hat", 
-        "description": "Parrucca da magistrato"
+        "description": "Parrucca del Magistrato"
     }, 
     "144": {
         "type": "Hat", 
-        "description": "Mascherina da chirurgo"
+        "description": "Mascherina da Chirurgo"
     }, 
     "145": {
         "type": "Hat", 
@@ -899,9 +903,10 @@
         "positive": [
             "Energia massima su chi lo indossa +25"
         ], 
-        "type": "Robot Arm", 
+        "type": "Braccio meccanico", 
         "negative": [
-            "Nessun colpo critico casuale"
+            "Nessun colpo critico casuale", 
+            "Sostituisce un mitra automatico con un mini mitra automatico che viene costruito in fretta"
         ], 
         "description": "The Gunslinger"
     }, 
@@ -914,12 +919,15 @@
     }, 
     "140": {
         "alt": [
-            "Take manual control of your Sentry Gun"
+            "Assumi il comando manuale del mitra automatico"
         ], 
-        "type": "Laser Pointer", 
+        "type": "Puntatore laser", 
         "description": "The Wrangler"
     }, 
     "141": {
+        "positive": [
+            "Quando un tuo mitra automatico viene distrutto\r\n\r\nottieni un numero di critici-vendetta pari alle uccisioni da esso totalizzate"
+        ], 
         "type": "Fucile", 
         "negative": [
             "Nessun colpo critico casuale", 

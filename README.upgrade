@@ -48,19 +48,23 @@ Select "To png" and make sure "recursive" is checked.  Press "Convert".
 
 Close VTFEdit when finished, and close the VM.
 
-6.  Open each of the *.txt files in emacs and convert line endings.
-Save each and exit.
-
-7.  Copy each text file to the media folder:
+6.  Copy each text file to the media folder:
 
     $ cd ~/src/tf2-backpack-chrome-extension/
     $ make update_texts
     $ make update_images
 
+7.  Open each of the *.txt files in emacs and convert line endings.
+Save each and exit.  This step should go into the top-level Makefile.
+
 8.  Check the text files:
 
     $ cd ~/src/tf2-backpack-chrome-extension/src/tools
     $ make check
+
+The tf_polish.txt fails at about 5783; remove those lines as they're not needed.
+The tf_romanian.txt fails at about 1456.  Replace "\ n" with "\n".
+
 
 If everything works, make the item files:
 
@@ -78,7 +82,14 @@ translations, so use with care (i.e., backup those files first):
 
 9.  Bump the version in src/manifest.json.
 
-10.  rebuild, test, upload!
+10.  rebuild
+
+    $ cd ~/src/tf2-backpack-chrome-extension/
+    $ make
+
+11.   test, fix, repeat 1-10 as neccessary, upload.
+
+
 
 Other Stuff
 ===========
@@ -86,6 +97,10 @@ Other Stuff
 1.  You don't need to rebuild the translation files unless there is a
 change in the UI strings.
 
-2.  The items_game.txt file is duped in media/ and tools/ but I'm
-unmotivated to fix it.
+2.  Chinks in the automation-armor:
+
+    a.  download, extract, and convert gcf content
+    b.  line ending and/or file formats on the text files
+    c.  error fixes on the text files.
+
 

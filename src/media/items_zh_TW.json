@@ -631,6 +631,10 @@
         "type": "\u9435\u936c", 
         "description": "\u9435\u936c"
     }, 
+    "189": {
+        "type": "Hat", 
+        "description": "Alien Swarm Parasite"
+    }, 
     "185": {
         "type": "Hat", 
         "description": "\u91cd\u88dd\u4efb\u52d9\u982d\u5dfe"
@@ -899,9 +903,10 @@
         "positive": [
             "\u7a7f\u6234\u8005\u6700\u5927\u751f\u547d\u503c +25"
         ], 
-        "type": "Robot Arm", 
+        "type": "\u6a5f\u5668\u624b\u81c2", 
         "negative": [
-            "\u7121\u96a8\u6a5f\u7206\u64ca"
+            "\u7121\u96a8\u6a5f\u7206\u64ca", 
+            "\u5c07\u6b65\u54e8\u69cd\u63db\u6210\u5feb\u901f\u5efa\u9020\u8ff7\u4f60\u6b65\u54e8\u69cd"
         ], 
         "description": "The Gunslinger"
     }, 
@@ -914,12 +919,15 @@
     }, 
     "140": {
         "alt": [
-            "Take manual control of your Sentry Gun"
+            "\u624b\u52d5\u63a7\u5236\u6b65\u54e8\u9632\u79a6\u69cd"
         ], 
-        "type": "Laser Pointer", 
+        "type": "\u96f7\u5c04\u69cd", 
         "description": "The Wrangler"
     }, 
     "141": {
+        "positive": [
+            "\u6b65\u54e8\u906d\u6467\u6bc0\u6642\uff0c\u53ef\u4f9d\u7167\u6b65\u54e8\u69cd\u6bba\u6575\r\n\r\n\u6578\u7372\u5f97\u540c\u7b49\u7684\u5fa9\u4ec7\u7206\u64ca\u6578"
+        ], 
         "type": "\u6563\u5f48\u69cd", 
         "negative": [
             "\u7121\u96a8\u6a5f\u7206\u64ca", 

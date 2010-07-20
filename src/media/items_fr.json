@@ -631,6 +631,10 @@
         "type": "Pelle", 
         "description": "Pelle"
     }, 
+    "189": {
+        "type": "Hat", 
+        "description": "Alien Swarm Parasite"
+    }, 
     "185": {
         "type": "Hat", 
         "description": "Heavy Duty Rag"
@@ -902,9 +906,10 @@
         "positive": [
             "Sant\u00e9 max. +25 pour le porteur"
         ], 
-        "type": "Robot Arm", 
+        "type": "Bras de robot", 
         "negative": [
-            "Aucun tir critique al\u00e9atoire"
+            "Aucun tir critique al\u00e9atoire", 
+            "Remplace la mitrailleuse par une mini-mitrailleuse \u00e0 construction rapide"
         ], 
         "description": "The Gunslinger"
     }, 
@@ -917,12 +922,15 @@
     }, 
     "140": {
         "alt": [
-            "Take manual control of your Sentry Gun"
+            "Prenez le contr\u00f4le manuel de votre mitrailleuse"
         ], 
-        "type": "Laser Pointer", 
+        "type": "Pointeur laser", 
         "description": "The Wrangler"
     }, 
     "141": {
+        "positive": [
+            "Lorsque votre mitrailleuse est d\u00e9truite, vous\r\n\r\nobtenez des tirs critiques de vengeance pour chaque victime faite avec votre mitrailleuse"
+        ], 
         "type": "Fusil \u00e0 pompe", 
         "negative": [
             "Aucun tir critique al\u00e9atoire", 

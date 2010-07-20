@@ -1,14 +1,14 @@
 {
     "133": {
         "positive": [
-            "-60% obra\u017ce\u0144 od wybuchu podczas wystrza\u0142owych skok\u00f3w"
+            "-60% obra\u017ce\u0144 od wybuchu podczas rakietowych skok\u00f3w"
         ], 
         "type": "Buty", 
         "description": "Kanonierki"
     }, 
     "132": {
         "alt": [
-            "Ta bro\u0144 ma du\u017cy zasi\u0119g podczas walki wr\u0119cz.\r\nZwi\u0119ksza szybko\u015b\u0107 i zdrowie z ka\u017cd\u0105 zdj\u0119t\u0105 g\u0142ow\u0105."
+            "Ta bro\u0144 ma du\u017cy zasi\u0119g podczas walki wr\u0119cz.\r\nZwi\u0119ksza szybko\u015b\u0107 i zdrowie z ka\u017cd\u0105 \u015bci\u0119t\u0105 g\u0142ow\u0105."
         ], 
         "type": "Miecz", 
         "negative": [
@@ -23,7 +23,7 @@
             "+40% odporno\u015bci na obra\u017cenia od wybuch\u00f3w dla nosz\u0105cego"
         ], 
         "alt": [
-            "Alt-strza\u0142: Wi\u0119ksza si\u0142a ataku poprzez wykonanie szar\u017cy na wroga."
+            "Alt-strza\u0142: uzyskaj wi\u0119ksz\u0105 si\u0142\u0119 ataku poprzez wykonanie szar\u017cy na wrog\u00f3w."
         ], 
         "type": "Tarcza", 
         "description": "Tarcza Szar\u017cy"
@@ -183,7 +183,7 @@
     }, 
     "128": {
         "positive": [
-            "Obra\u017cenia i pr\u0119dko\u015b\u0107 poruszania zwi\u0119kszaj\u0105 si\u0119 wraz z odnoszeniem ran"
+            "Obra\u017cenia i pr\u0119dko\u015b\u0107 poruszania \r\nzwi\u0119kszaj\u0105 si\u0119 wraz z odnoszeniem ran\r\nBlokuje leczenie, gdy jest w u\u017cyciu"
         ], 
         "type": "Kilof", 
         "description": "Wyr\u00f3wnywacz"
@@ -249,72 +249,72 @@
     }, 
     "5010": {
         "alt": [
-            "U\u017cywane na planach do okre\u015blenia klasy"
+            "U\u017cywany w planach do okre\u015blenia klasy"
         ], 
-        "type": "Przedmiot wytwarzany", 
+        "type": "Przedmiot wytwarzania", 
         "description": "\u017beton klasy - Szpieg"
     }, 
     "5011": {
         "alt": [
-            "U\u017cywane na planach do okre\u015blenia klasy"
+            "U\u017cywany w planach do okre\u015blenia klasy"
         ], 
-        "type": "Przedmiot wytwarzany", 
+        "type": "Przedmiot wytwarzania", 
         "description": "\u017beton klasy - In\u017cynier"
     }, 
     "5012": {
         "alt": [
-            "U\u017cywane na planach do okre\u015blenia slotu wyposa\u017cenia"
+            "U\u017cywany w planach do okre\u015blenia slotu wyposa\u017cenia"
         ], 
-        "type": "Przedmiot wytwarzany", 
+        "type": "Przedmiot wytwarzania", 
         "description": "Token slotu - Podstawowa"
     }, 
     "5013": {
         "alt": [
-            "U\u017cywane na planach do okre\u015blenia slotu wyposa\u017cenia"
+            "U\u017cywany w planach do okre\u015blenia slotu wyposa\u017cenia"
         ], 
-        "type": "Przedmiot wytwarzany", 
-        "description": "Token slotu - Dodatkowa"
+        "type": "Przedmiot wytwarzania", 
+        "description": "Token slotu - Podrz\u0119dna"
     }, 
     "5014": {
         "alt": [
-            "U\u017cywane na planach do okre\u015blenia slotu wyposa\u017cenia"
+            "U\u017cywany w planach do okre\u015blenia slotu wyposa\u017cenia"
         ], 
-        "type": "Przedmiot wytwarzany", 
+        "type": "Przedmiot wytwarzania", 
         "description": "Token slotu - Do walki wr\u0119cz"
     }, 
     "5015": {
         "alt": [
-            "U\u017cywane na planach do okre\u015blenia slotu wyposa\u017cenia"
+            "U\u017cywany w planach do okre\u015blenia slotu wyposa\u017cenia"
         ], 
-        "type": "Przedmiot wytwarzany", 
+        "type": "Przedmiot wytwarzania", 
         "description": "Token slotu - Granat"
     }, 
     "5016": {
         "alt": [
-            "U\u017cywane na planach do okre\u015blenia slotu wyposa\u017cenia"
+            "U\u017cywany w planach do okre\u015blenia slotu wyposa\u017cenia"
         ], 
-        "type": "Przedmiot wytwarzany", 
+        "type": "Przedmiot wytwarzania", 
         "description": "Token slotu - Budynek"
     }, 
     "5017": {
         "alt": [
-            "U\u017cywane na planach do okre\u015blenia slotu wyposa\u017cenia"
+            "U\u017cywany w planach do okre\u015blenia slotu wyposa\u017cenia"
         ], 
-        "type": "Przedmiot wytwarzany", 
+        "type": "Przedmiot wytwarzania", 
         "description": "Token slotu - PDA"
     }, 
     "5018": {
         "alt": [
-            "U\u017cywane na planach do okre\u015blenia slotu wyposa\u017cenia"
+            "U\u017cywany w planach do okre\u015blenia slotu wyposa\u017cenia"
         ], 
-        "type": "Przedmiot wytwarzany", 
+        "type": "Przedmiot wytwarzania", 
         "description": "Token slotu - PDA2"
     }, 
     "5019": {
         "alt": [
-            "U\u017cywane na planach do okre\u015blenia slotu wyposa\u017cenia"
+            "U\u017cywany w planach do okre\u015blenia slotu wyposa\u017cenia"
         ], 
-        "type": "Przedmiot wytwarzany", 
+        "type": "Przedmiot wytwarzania", 
         "description": "Token slotu - G\u0142owa"
     }, 
     "115": {
@@ -360,63 +360,63 @@
     }, 
     "5003": {
         "alt": [
-            "U\u017cywane na planach do okre\u015blenia klasy"
+            "U\u017cywany w planach do okre\u015blenia klasy"
         ], 
-        "type": "Przedmiot wytwarzany", 
-        "description": "\u017beton klasy - Scout"
+        "type": "Przedmiot wytwarzania", 
+        "description": "\u017beton klasy - Skaut"
     }, 
     "5002": {
-        "type": "Przedmiot wytwarzany", 
+        "type": "Przedmiot wytwarzania", 
         "description": "Metal rafinowany"
     }, 
     "5001": {
-        "type": "Przedmiot wytwarzany", 
+        "type": "Przedmiot wytwarzania", 
         "description": "Metal z odzysku"
     }, 
     "5000": {
-        "type": "Przedmiot wytwarzany", 
+        "type": "Przedmiot wytwarzania", 
         "description": "Metal ze z\u0142omu"
     }, 
     "5007": {
         "alt": [
-            "U\u017cywane na planach do okre\u015blenia klasy"
+            "U\u017cywany w planach do okre\u015blenia klasy"
         ], 
-        "type": "Przedmiot wytwarzany", 
+        "type": "Przedmiot wytwarzania", 
         "description": "\u017beton klasy - Gruby"
     }, 
     "5006": {
         "alt": [
-            "U\u017cywane na planach do okre\u015blenia klasy"
+            "U\u017cywany w planach do okre\u015blenia klasy"
         ], 
-        "type": "Przedmiot wytwarzany", 
+        "type": "Przedmiot wytwarzania", 
         "description": "\u017beton klasy - Demoman"
     }, 
     "5005": {
         "alt": [
-            "U\u017cywane na planach do okre\u015blenia klasy"
+            "U\u017cywany w planach do okre\u015blenia klasy"
         ], 
-        "type": "Przedmiot wytwarzany", 
+        "type": "Przedmiot wytwarzania", 
         "description": "\u017beton klasy - \u017bo\u0142nierz"
     }, 
     "5004": {
         "alt": [
-            "U\u017cywane na planach do okre\u015blenia klasy"
+            "U\u017cywany w planach do okre\u015blenia klasy"
         ], 
-        "type": "Przedmiot wytwarzany", 
+        "type": "Przedmiot wytwarzania", 
         "description": "\u017beton klasy - Snajper"
     }, 
     "5009": {
         "alt": [
-            "U\u017cywane na planach do okre\u015blenia klasy"
+            "U\u017cywany w planach do okre\u015blenia klasy"
         ], 
-        "type": "Przedmiot wytwarzany", 
+        "type": "Przedmiot wytwarzania", 
         "description": "\u017beton klasy - Pyro"
     }, 
     "5008": {
         "alt": [
-            "U\u017cywane na planach do okre\u015blenia klasy"
+            "U\u017cywany w planach do okre\u015blenia klasy"
         ], 
-        "type": "Przedmiot wytwarzany", 
+        "type": "Przedmiot wytwarzania", 
         "description": "\u017beton klasy - Medyk"
     }, 
     "108": {
@@ -514,7 +514,7 @@
         ], 
         "type": "Karabin strzykawkowy", 
         "negative": [
-            "-2 zu\u017cywanego zdrowia co sekund\u0119 u nosz\u0105cego"
+            "-2 utraty zdrowia co sekund\u0119 u nosz\u0105cego"
         ], 
         "description": "Blutsauger"
     }, 
@@ -584,7 +584,7 @@
         "positive": [
             "+20% do zadanych obra\u017ce\u0144"
         ], 
-        "type": "Top\u00f3r stra\u017cacki", 
+        "type": "Top\u00f3r", 
         "negative": [
             "15% wolniejsza pr\u0119dko\u015b\u0107 poruszania si\u0119 nosz\u0105cego"
         ], 
@@ -617,7 +617,7 @@
     }, 
     "180": {
         "type": "Hat", 
-        "description": "Beret francuza"
+        "description": "Beret Francuza"
     }, 
     "181": {
         "type": "Hat", 
@@ -630,6 +630,10 @@
     "6": {
         "type": "Saperka", 
         "description": "Saperka"
+    }, 
+    "189": {
+        "type": "Hat", 
+        "description": "Alien Swarm Parasite"
     }, 
     "185": {
         "type": "Hat", 
@@ -772,7 +776,7 @@
             "Bez losowych trafie\u0144 krytycznych", 
             "20% podatno\u015bci na obra\u017cenia od ognia u nosz\u0105cego"
         ], 
-        "description": "The Southern Hospitality"
+        "description": "Po\u0142udniowa Go\u015bcinno\u015b\u0107"
     }, 
     "154": {
         "positive": [
@@ -832,7 +836,7 @@
             "-60% rozmiaru magazynka", 
             "-10% zadanych obra\u017ce\u0144"
         ], 
-        "description": "Si\u0142a Wy\u017csza"
+        "description": "Si\u0142a Natury"
     }, 
     "42": {
         "type": "Pude\u0142ko \u015bniadaniowe", 
@@ -902,11 +906,12 @@
         "positive": [
             "+25 maks. punkt\u00f3w zdrowia dla nosz\u0105cego"
         ], 
-        "type": "Robot Arm", 
+        "type": "Robotyczne rami\u0119", 
         "negative": [
-            "Bez losowych trafie\u0144 krytycznych"
+            "Bez losowych trafie\u0144 krytycznych", 
+            "Zamienia dzia\u0142ko na szybko buduj\u0105ce si\u0119 mini-dzia\u0142ko"
         ], 
-        "description": "The Gunslinger"
+        "description": "Gunslinger"
     }, 
     "143": {
         "alt": [
@@ -917,18 +922,21 @@
     }, 
     "140": {
         "alt": [
-            "Take manual control of your Sentry Gun"
+            "Przejmij kontrol\u0119 nad swoim dzia\u0142kiem stra\u017cniczym"
         ], 
-        "type": "Laser Pointer", 
-        "description": "The Wrangler"
+        "type": "Wska\u017anik laserowy", 
+        "description": "Wrangler"
     }, 
     "141": {
+        "positive": [
+            "Gdy Twoje dzia\u0142ko zostanie zniszczone,\r\notrzymujesz krytyczne strza\u0142y odwetu za ka\u017cde zab\u00f3jstwo dzia\u0142ka"
+        ], 
         "type": "Strzelba", 
         "negative": [
             "Bez losowych trafie\u0144 krytycznych", 
             "-50% rozmiaru magazynka"
         ], 
-        "description": "The Frontier Justice"
+        "description": "R\u0119ka Sprawiedliwo\u015bci"
     }, 
     "148": {
         "type": "Hat", 

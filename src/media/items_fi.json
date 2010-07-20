@@ -631,6 +631,10 @@
         "type": "Lapio", 
         "description": "Lapio"
     }, 
+    "189": {
+        "type": "Hat", 
+        "description": "Alien Swarm Parasite"
+    }, 
     "185": {
         "type": "Hat", 
         "description": "Raskaan ty\u00f6n r\u00e4tti"
@@ -644,8 +648,11 @@
         "description": "Ruostumaton kattila"
     }, 
     "169": {
+        "positive": [
+            "T\u00e4ynn\u00e4 muinaista voimaa"
+        ], 
         "type": "Jakoavain", 
-        "description": "The Golden Wrench"
+        "description": "Kultainen jakoavain"
     }, 
     "164": {
         "alt": [
@@ -899,9 +906,10 @@
         "positive": [
             "+25 enimm\u00e4isterveys k\u00e4ytt\u00e4j\u00e4lle"
         ], 
-        "type": "Robot Arm", 
+        "type": "Robottik\u00e4si", 
         "negative": [
-            "Ei satunnaisia kriittisi\u00e4 osumia"
+            "Ei satunnaisia kriittisi\u00e4 osumia", 
+            "Korvaa vartiotykin nopeasti rakennettavalla minivartiotykill\u00e4."
         ], 
         "description": "The Gunslinger"
     }, 
@@ -914,12 +922,15 @@
     }, 
     "140": {
         "alt": [
-            "Take manual control of your Sentry Gun"
+            "Ohjaa vartiotykki\u00e4 manuaalisesti"
         ], 
-        "type": "Laser Pointer", 
+        "type": "Laserosoitin", 
         "description": "The Wrangler"
     }, 
     "141": {
+        "positive": [
+            "Kun vartiotykkisi tuhotaan,\r\n\r\nsaat kriittisi\u00e4 kosto-osumia jokaisesta vartiotykin taposta."
+        ], 
         "type": "Haulikko", 
         "negative": [
             "Ei satunnaisia kriittisi\u00e4 osumia", 
