@@ -1453,10 +1453,10 @@ to help them build faster!"
 Al patrulea spaţiu din selecţia ta de arme conţine construcţiile."
 "[english]Hint_Engineer_build_sentrygun"	"Build sentry guns to defend your team's base.
 The fourth slot in your weapon selection holds buildables."
-"Hint_Engineer_build_dispenser"	"Construieşte Distribuitoare pentru a-ţi ajuta coechipierii să se aprovizioneze\nAl patrulea spaţiu din selecţia ta de arme conţine construcţiile."
+"Hint_Engineer_build_dispenser"	"Construieşte Distribuitoare pentru a-ţi ajuta coechipierii să se aprovizioneze\ nAl patrulea spaţiu din selecţia ta de arme conţine construcţiile."
 "[english]Hint_Engineer_build_dispenser"	"Build Dispensers to help your teammates to resupply.
 The fourth slot in your weapon selection holds buildables."
-"Hint_Engineer_build_teleporters"	"Construieşte Teleportoare pentru a-ţi ajuta echipa să apere zone fruntase.\nAl patrulea spaţiu din selecţia ta de arme conţine construcţiile."
+"Hint_Engineer_build_teleporters"	"Construieşte Teleportoare pentru a-ţi ajuta echipa să apere zone fruntase.\ nAl patrulea spaţiu din selecţia ta de arme conţine construcţiile."
 "[english]Hint_Engineer_build_teleporters"	"Build Teleporters to help your team defend forward areas.
 The fourth slot in your weapon selection holds buildables."
 "Hint_Engineer_pickup_metal"	"Adună metal de la armele căzute

@@ -14,11 +14,11 @@ def main():
 	p = Popen("./parser " + text_filename, stdout=stdout, stderr=stderr, shell=True)
 	p.wait()
 	if open('err.txt').read(1024):
-	    print "[ERROR]", text_filename
+	    print "[FAIL]", text_filename
 	    remove('out.txt')
 	    return
 	else:
-	    print "[OKAY]", text_filename
+	    print "[PASS]", text_filename
 	    remove('err.txt')
 	    remove('out.txt')
 

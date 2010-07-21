@@ -5374,6 +5374,15 @@ Press %reload% to RELOAD"
 "[english]TR_Dust_Hint_SetupGate"	"Setup Gate"
 "TR_Target_EndDialog"	"Dobra robota! Ukończyłeś trening Żołnierza! Wykorzystaj nowe umiejętności w praktyce i przejdź do %s2, naciskając przycisk DALEJ."
 "[english]TR_Target_EndDialog"	"Good job!  You've completed the Soldier's weapons training!  Put your skills to work and move on to %s2 by pressing the NEXT button."
+"TR_Dustbowl_EndDialog"	"Dobra robota! Wygrałeś grę na %s1 i ukończyłeś trening.
+\Czy chcesz wypróbować inne klasy, takie jak Inżynier czy Medyk? Dlaczego nie włączysz PRAKTYKI OFFLINE?
+
+Myślisz, że jesteś gotów zmierzyć się z innymi? Wybierz ROZPOCZNIJ GRĘ w głównym menu."
+"[english]TR_Dustbowl_EndDialog"	"Well done! You've won a game in %s1 and completed the training.
+
+Want to try out other classes like the Engineer or Medic?  Why not hop into an OFFLINE PRACTICE session?
+
+Ready to play online against other players? Select START PLAYING at the main menu."
 "TF_IM_Target_Welcome"	"Wybór broni i trening na celach!"
 "[english]TF_IM_Target_Welcome"	"Weapon selection and target practice!"
 "TF_IM_Target_WeaponSwitch"	"Zmień na wyżej wymienioną broń i traf w cele"

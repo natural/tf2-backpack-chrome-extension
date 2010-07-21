@@ -14,8 +14,8 @@ Quick overview of how to handle upgrades to TF2.  These steps work so far...
 
 3.  Check the text files:
 
-    $ cd ~/src/tf2-backpack-chrome-extension/src/tools
-    $ make check
+    $ cd ~/src/tf2-backpack-chrome-extension/
+    $ make check_text_files
 
 The tf_polish.txt fails at about 5783; remove those lines as they're not needed.
 The tf_romanian.txt fails at about 1456.  Replace "\ n" with "\n".
@@ -37,12 +37,16 @@ translations, so use with care (i.e., backup those files first):
 
 5.  Bump the version in src/manifest.json.
 
+    $ cd ~/src/tf2-backpack-chrome-extension/
+    $ make bump_version
+
+
 6.  rebuild
 
     $ cd ~/src/tf2-backpack-chrome-extension/
-    $ make
+    $ make dist
 
-7.   test, fix, repeat 1-10 as neccessary, upload.
+7.   test, fix, repeat 1-6 as neccessary, upload.
 
 
 

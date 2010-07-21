@@ -8,15 +8,12 @@ tran_files = $(shell cat control_files.txt | cut -f 3 -d " "|grep -v NONE)
 
 
 all:
-	@echo try make check, make parser, make message_files, make item_files, or make clean
+	@echo "run these instead:  make parser, make item_files, make message_files, make clean"
 
 
 parser:
 	@cd source_text_parser && make
 
-
-check:
-	./check_tf_texts
 
 
 clean:
