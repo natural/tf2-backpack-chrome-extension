@@ -648,11 +648,8 @@
         "description": "Rondel nierdzewny"
     }, 
     "169": {
-        "positive": [
-            "Drzemie w nim staro\u017cytna moc"
-        ], 
         "type": "Klucz", 
-        "description": "Z\u0142oty klucz"
+        "description": "The Golden Wrench"
     }, 
     "164": {
         "alt": [
@@ -776,7 +773,7 @@
             "Bez losowych trafie\u0144 krytycznych", 
             "20% podatno\u015bci na obra\u017cenia od ognia u nosz\u0105cego"
         ], 
-        "description": "Po\u0142udniowa Go\u015bcinno\u015b\u0107"
+        "description": "The Southern Hospitality"
     }, 
     "154": {
         "positive": [
@@ -906,12 +903,11 @@
         "positive": [
             "+25 maks. punkt\u00f3w zdrowia dla nosz\u0105cego"
         ], 
-        "type": "Robotyczne rami\u0119", 
+        "type": "Robot Arm", 
         "negative": [
-            "Bez losowych trafie\u0144 krytycznych", 
-            "Zamienia dzia\u0142ko na szybko buduj\u0105ce si\u0119 mini-dzia\u0142ko"
+            "Bez losowych trafie\u0144 krytycznych"
         ], 
-        "description": "Gunslinger"
+        "description": "The Gunslinger"
     }, 
     "143": {
         "alt": [
@@ -922,21 +918,18 @@
     }, 
     "140": {
         "alt": [
-            "Przejmij kontrol\u0119 nad swoim dzia\u0142kiem stra\u017cniczym"
+            "Take manual control of your Sentry Gun"
         ], 
-        "type": "Wska\u017anik laserowy", 
-        "description": "Wrangler"
+        "type": "Laser Pointer", 
+        "description": "The Wrangler"
     }, 
     "141": {
-        "positive": [
-            "Gdy Twoje dzia\u0142ko zostanie zniszczone,\r\notrzymujesz krytyczne strza\u0142y odwetu za ka\u017cde zab\u00f3jstwo dzia\u0142ka"
-        ], 
         "type": "Strzelba", 
         "negative": [
             "Bez losowych trafie\u0144 krytycznych", 
             "-50% rozmiaru magazynka"
         ], 
-        "description": "R\u0119ka Sprawiedliwo\u015bci"
+        "description": "The Frontier Justice"
     }, 
     "148": {
         "type": "Hat", 

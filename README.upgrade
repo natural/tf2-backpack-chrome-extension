@@ -1,65 +1,52 @@
-Upgrade Steps
+Update Steps
 =============
 
-Quick overview of how to handle upgrades to TF2.  These steps work so far...
-
-1.  verify you've got the most recent install of tf2 in:
-
-    ~/.wine-steam/drive_c/Program Files/Steam/steamapps
-
-2.  run some make!
-
-    $ cd ~/src/tf2-backpack-chrome-extension/
-    $ make update
-
-3.  Check the text files:
-
-    $ cd ~/src/tf2-backpack-chrome-extension/
-    $ make check_text_files
-
-The tf_polish.txt fails at about 5783; remove those lines as they're not needed.
-The tf_romanian.txt fails at about 1456.  Replace "\ n" with "\n".
+This list describes how to upgrade the extension when TF2 is updated.
 
 
-4.  If everything works, make the item files:
+1.  Start the Steam client to download the TF2 update.  Then verify
+    you've got the most recent install in:
 
-    $ cd ~/src/tf2-backpack-chrome-extension/src/tools
-    $ make item_files
+        $ ls -lh "$TF2_GCF_DIR"/team*.gcf
 
-If the check fails, look at the 'err.txt' file, load the text file and
-fix it.
+2.  Run some make!
 
-If you've changed any of the HTML files (unlikely), you'll also need
-to update the message files.  Note that this borks the manual
-translations, so use with care (i.e., backup those files first):
-
-    $ make message_files
-
-5.  Bump the version in src/manifest.json.
-
-    $ cd ~/src/tf2-backpack-chrome-extension/
-    $ make bump_version
+        $ cd ~/src/tf2-backpack-chrome-extension/
+        $ make update
 
 
-6.  rebuild
+3.  Check the text files for parse errors:
 
-    $ cd ~/src/tf2-backpack-chrome-extension/
-    $ make dist
+        $ make check_text
 
-7.   test, fix, repeat 1-6 as neccessary, upload.
+    If the check fails, look at the 'err.txt' file, load the text file
+    and fix it (or fix the parser).
 
 
+4.  Once the text files pass the check, make the new item files:
 
-Other Stuff
-===========
+        $ make item_files
 
-1.  You don't need to rebuild the translation files unless there is a
-change in the UI strings.
 
-2.  Chinks in the automation-armor:
+5.  In the unlikly event that any of the HTML files have changed, the
+    UI message files will also need an update.  Note that this borks
+    the manual translations, so use with care (i.e., backup those
+    files first):
 
-    a.  download, extract, and convert gcf content
-    b.  line ending and/or file formats on the text files
-    c.  error fixes on the text files.
+        $ make message_files
 
+
+5.  Bump the version in src/manifest.json.  This can be done manually
+    or via a make target:
+
+        $ make bump_version
+
+
+6.  Build the distribution:
+
+        $ make dist
+
+
+7.  Test, fix, lather, rinse and repeat steps 1-6 as neccessary.
+    Upload to google when ready.
 

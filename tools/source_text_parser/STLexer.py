@@ -1,4 +1,4 @@
-# $ANTLR 3.1.1 ST.g 2010-07-15 13:26:45
+# $ANTLR 3.1.1 ST.g 2010-07-21 14:06:53
 
 import sys
 from antlr3 import *
@@ -35,15 +35,15 @@ class STLexer(Lexer):
             state = RecognizerSharedState()
         Lexer.__init__(self, input, state)
 
-        self.dfa7 = self.DFA7(
-            self, 7,
-            eot = self.DFA7_eot,
-            eof = self.DFA7_eof,
-            min = self.DFA7_min,
-            max = self.DFA7_max,
-            accept = self.DFA7_accept,
-            special = self.DFA7_special,
-            transition = self.DFA7_transition
+        self.dfa8 = self.DFA8(
+            self, 8,
+            eot = self.DFA8_eot,
+            eof = self.DFA8_eof,
+            min = self.DFA8_min,
+            max = self.DFA8_max,
+            accept = self.DFA8_accept,
+            special = self.DFA8_special,
+            transition = self.DFA8_transition
             )
 
 
@@ -157,14 +157,14 @@ class STLexer(Lexer):
     def mEscapeSequence(self, ):
 
         try:
-            # ST.g:59:5: ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\\\"' | '\\'' | '\\\\' ) | UnicodeEscape )
+            # ST.g:59:5: ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\\\"' | '\\'' | '\\\\' | ' ' | 'C' ) | UnicodeEscape )
             alt1 = 2
             LA1_0 = self.input.LA(1)
 
             if (LA1_0 == 92) :
                 LA1_1 = self.input.LA(2)
 
-                if (LA1_1 == 34 or LA1_1 == 39 or LA1_1 == 92 or LA1_1 == 98 or LA1_1 == 102 or LA1_1 == 110 or LA1_1 == 114 or LA1_1 == 116) :
+                if (LA1_1 == 32 or LA1_1 == 34 or LA1_1 == 39 or LA1_1 == 67 or LA1_1 == 92 or LA1_1 == 98 or LA1_1 == 102 or LA1_1 == 110 or LA1_1 == 114 or LA1_1 == 116) :
                     alt1 = 1
                 elif (LA1_1 == 117) :
                     alt1 = 2
@@ -179,10 +179,10 @@ class STLexer(Lexer):
                 raise nvae
 
             if alt1 == 1:
-                # ST.g:59:9: '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\\\"' | '\\'' | '\\\\' )
+                # ST.g:59:9: '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\\\"' | '\\'' | '\\\\' | ' ' | 'C' )
                 pass 
                 self.match(92)
-                if self.input.LA(1) == 34 or self.input.LA(1) == 39 or self.input.LA(1) == 92 or self.input.LA(1) == 98 or self.input.LA(1) == 102 or self.input.LA(1) == 110 or self.input.LA(1) == 114 or self.input.LA(1) == 116:
+                if self.input.LA(1) == 32 or self.input.LA(1) == 34 or self.input.LA(1) == 39 or self.input.LA(1) == 67 or self.input.LA(1) == 92 or self.input.LA(1) == 98 or self.input.LA(1) == 102 or self.input.LA(1) == 110 or self.input.LA(1) == 114 or self.input.LA(1) == 116:
                     self.input.consume()
                 else:
                     mse = MismatchedSetException(None, self.input)
@@ -264,15 +264,65 @@ class STLexer(Lexer):
             _type = WS
             _channel = DEFAULT_CHANNEL
 
-            # ST.g:73:3: ( ( ' ' | '\\r' | '\\t' | '\\u000C' | '\\n' ) )
-            # ST.g:73:5: ( ' ' | '\\r' | '\\t' | '\\u000C' | '\\n' )
+            # ST.g:73:3: ( ( ' ' | '\\r' | '\\t' | '\\u000C' | '\\n' | '\\ n' ) )
+            # ST.g:73:5: ( ' ' | '\\r' | '\\t' | '\\u000C' | '\\n' | '\\ n' )
             pass 
-            if (9 <= self.input.LA(1) <= 10) or (12 <= self.input.LA(1) <= 13) or self.input.LA(1) == 32:
-                self.input.consume()
+            # ST.g:73:5: ( ' ' | '\\r' | '\\t' | '\\u000C' | '\\n' | '\\ n' )
+            alt2 = 6
+            LA2 = self.input.LA(1)
+            if LA2 == 32:
+                alt2 = 1
+            elif LA2 == 13:
+                alt2 = 2
+            elif LA2 == 9:
+                alt2 = 3
+            elif LA2 == 12:
+                alt2 = 4
+            elif LA2 == 10:
+                alt2 = 5
+            elif LA2 == 0:
+                alt2 = 6
             else:
-                mse = MismatchedSetException(None, self.input)
-                self.recover(mse)
-                raise mse
+                nvae = NoViableAltException("", 2, 0, self.input)
+
+                raise nvae
+
+            if alt2 == 1:
+                # ST.g:73:6: ' '
+                pass 
+                self.match(32)
+
+
+            elif alt2 == 2:
+                # ST.g:73:12: '\\r'
+                pass 
+                self.match(13)
+
+
+            elif alt2 == 3:
+                # ST.g:73:19: '\\t'
+                pass 
+                self.match(9)
+
+
+            elif alt2 == 4:
+                # ST.g:73:26: '\\u000C'
+                pass 
+                self.match(12)
+
+
+            elif alt2 == 5:
+                # ST.g:73:37: '\\n'
+                pass 
+                self.match(10)
+
+
+            elif alt2 == 6:
+                # ST.g:73:44: '\\ n'
+                pass 
+                self.match("\ n")
+
+
 
             #action start
             _channel=HIDDEN; 
@@ -303,23 +353,23 @@ class STLexer(Lexer):
             pass 
             self.match(34)
             # ST.g:75:11: ( EscapeSequence | ~ ( '\\\\' | '\"' ) )*
-            while True: #loop2
-                alt2 = 3
-                LA2_0 = self.input.LA(1)
+            while True: #loop3
+                alt3 = 3
+                LA3_0 = self.input.LA(1)
 
-                if (LA2_0 == 92) :
-                    alt2 = 1
-                elif ((0 <= LA2_0 <= 33) or (35 <= LA2_0 <= 91) or (93 <= LA2_0 <= 65535)) :
-                    alt2 = 2
+                if (LA3_0 == 92) :
+                    alt3 = 1
+                elif ((0 <= LA3_0 <= 33) or (35 <= LA3_0 <= 91) or (93 <= LA3_0 <= 65535)) :
+                    alt3 = 2
 
 
-                if alt2 == 1:
+                if alt3 == 1:
                     # ST.g:75:12: EscapeSequence
                     pass 
                     self.mEscapeSequence()
 
 
-                elif alt2 == 2:
+                elif alt3 == 2:
                     # ST.g:75:29: ~ ( '\\\\' | '\"' )
                     pass 
                     if (0 <= self.input.LA(1) <= 33) or (35 <= self.input.LA(1) <= 91) or (93 <= self.input.LA(1) <= 65535):
@@ -332,7 +382,7 @@ class STLexer(Lexer):
 
 
                 else:
-                    break #loop2
+                    break #loop3
 
 
             self.match(34)
@@ -362,31 +412,31 @@ class STLexer(Lexer):
             pass 
             self.match("/*")
             # ST.g:81:12: ( options {greedy=false; } : . )*
-            while True: #loop3
-                alt3 = 2
-                LA3_0 = self.input.LA(1)
+            while True: #loop4
+                alt4 = 2
+                LA4_0 = self.input.LA(1)
 
-                if (LA3_0 == 42) :
-                    LA3_1 = self.input.LA(2)
+                if (LA4_0 == 42) :
+                    LA4_1 = self.input.LA(2)
 
-                    if (LA3_1 == 47) :
-                        alt3 = 2
-                    elif ((0 <= LA3_1 <= 46) or (48 <= LA3_1 <= 65535)) :
-                        alt3 = 1
-
-
-                elif ((0 <= LA3_0 <= 41) or (43 <= LA3_0 <= 65535)) :
-                    alt3 = 1
+                    if (LA4_1 == 47) :
+                        alt4 = 2
+                    elif ((0 <= LA4_1 <= 46) or (48 <= LA4_1 <= 65535)) :
+                        alt4 = 1
 
 
-                if alt3 == 1:
+                elif ((0 <= LA4_0 <= 41) or (43 <= LA4_0 <= 65535)) :
+                    alt4 = 1
+
+
+                if alt4 == 1:
                     # ST.g:81:39: .
                     pass 
                     self.matchAny()
 
 
                 else:
-                    break #loop3
+                    break #loop4
 
 
             self.match("*/")
@@ -415,32 +465,32 @@ class STLexer(Lexer):
             _channel = DEFAULT_CHANNEL
 
             # ST.g:85:5: ( '//' (~ ( LT ) )* | '[$' ( CHAR )* )
-            alt6 = 2
-            LA6_0 = self.input.LA(1)
+            alt7 = 2
+            LA7_0 = self.input.LA(1)
 
-            if (LA6_0 == 47) :
-                alt6 = 1
-            elif (LA6_0 == 91) :
-                alt6 = 2
+            if (LA7_0 == 47) :
+                alt7 = 1
+            elif (LA7_0 == 91) :
+                alt7 = 2
             else:
-                nvae = NoViableAltException("", 6, 0, self.input)
+                nvae = NoViableAltException("", 7, 0, self.input)
 
                 raise nvae
 
-            if alt6 == 1:
+            if alt7 == 1:
                 # ST.g:85:7: '//' (~ ( LT ) )*
                 pass 
                 self.match("//")
                 # ST.g:85:12: (~ ( LT ) )*
-                while True: #loop4
-                    alt4 = 2
-                    LA4_0 = self.input.LA(1)
+                while True: #loop5
+                    alt5 = 2
+                    LA5_0 = self.input.LA(1)
 
-                    if ((0 <= LA4_0 <= 9) or (11 <= LA4_0 <= 12) or (14 <= LA4_0 <= 8231) or (8234 <= LA4_0 <= 65535)) :
-                        alt4 = 1
+                    if ((0 <= LA5_0 <= 9) or (11 <= LA5_0 <= 12) or (14 <= LA5_0 <= 8231) or (8234 <= LA5_0 <= 65535)) :
+                        alt5 = 1
 
 
-                    if alt4 == 1:
+                    if alt5 == 1:
                         # ST.g:85:12: ~ ( LT )
                         pass 
                         if (0 <= self.input.LA(1) <= 9) or (11 <= self.input.LA(1) <= 12) or (14 <= self.input.LA(1) <= 8231) or (8234 <= self.input.LA(1) <= 65535):
@@ -453,7 +503,7 @@ class STLexer(Lexer):
 
 
                     else:
-                        break #loop4
+                        break #loop5
 
 
                 #action start
@@ -461,27 +511,27 @@ class STLexer(Lexer):
                 #action end
 
 
-            elif alt6 == 2:
+            elif alt7 == 2:
                 # ST.g:86:7: '[$' ( CHAR )*
                 pass 
                 self.match("[$")
                 # ST.g:86:12: ( CHAR )*
-                while True: #loop5
-                    alt5 = 2
-                    LA5_0 = self.input.LA(1)
+                while True: #loop6
+                    alt6 = 2
+                    LA6_0 = self.input.LA(1)
 
-                    if ((0 <= LA5_0 <= 33) or (35 <= LA5_0 <= 91) or (93 <= LA5_0 <= 65535)) :
-                        alt5 = 1
+                    if ((0 <= LA6_0 <= 33) or (35 <= LA6_0 <= 91) or (93 <= LA6_0 <= 65535)) :
+                        alt6 = 1
 
 
-                    if alt5 == 1:
+                    if alt6 == 1:
                         # ST.g:86:12: CHAR
                         pass 
                         self.mCHAR()
 
 
                     else:
-                        break #loop5
+                        break #loop6
 
 
                 #action start
@@ -533,45 +583,45 @@ class STLexer(Lexer):
 
     def mTokens(self):
         # ST.g:1:8: ( T__14 | T__15 | WS | STRING | COMMENT | LINECOMMENT | LT )
-        alt7 = 7
-        alt7 = self.dfa7.predict(self.input)
-        if alt7 == 1:
+        alt8 = 7
+        alt8 = self.dfa8.predict(self.input)
+        if alt8 == 1:
             # ST.g:1:10: T__14
             pass 
             self.mT__14()
 
 
-        elif alt7 == 2:
+        elif alt8 == 2:
             # ST.g:1:16: T__15
             pass 
             self.mT__15()
 
 
-        elif alt7 == 3:
+        elif alt8 == 3:
             # ST.g:1:22: WS
             pass 
             self.mWS()
 
 
-        elif alt7 == 4:
+        elif alt8 == 4:
             # ST.g:1:25: STRING
             pass 
             self.mSTRING()
 
 
-        elif alt7 == 5:
+        elif alt8 == 5:
             # ST.g:1:32: COMMENT
             pass 
             self.mCOMMENT()
 
 
-        elif alt7 == 6:
+        elif alt8 == 6:
             # ST.g:1:40: LINECOMMENT
             pass 
             self.mLINECOMMENT()
 
 
-        elif alt7 == 7:
+        elif alt8 == 7:
             # ST.g:1:52: LT
             pass 
             self.mLT()
@@ -582,51 +632,52 @@ class STLexer(Lexer):
 
 
 
-    # lookup tables for DFA #7
+    # lookup tables for DFA #8
 
-    DFA7_eot = DFA.unpack(
-        u"\12\uffff"
+    DFA8_eot = DFA.unpack(
+        u"\13\uffff"
         )
 
-    DFA7_eof = DFA.unpack(
-        u"\12\uffff"
+    DFA8_eof = DFA.unpack(
+        u"\13\uffff"
         )
 
-    DFA7_min = DFA.unpack(
-        u"\1\11\4\uffff\1\52\4\uffff"
+    DFA8_min = DFA.unpack(
+        u"\1\0\6\uffff\1\52\3\uffff"
         )
 
-    DFA7_max = DFA.unpack(
-        u"\1\u2029\4\uffff\1\57\4\uffff"
+    DFA8_max = DFA.unpack(
+        u"\1\u2029\6\uffff\1\57\3\uffff"
         )
 
-    DFA7_accept = DFA.unpack(
-        u"\1\uffff\1\1\1\2\1\3\1\4\1\uffff\1\6\1\3\1\7\1\5"
+    DFA8_accept = DFA.unpack(
+        u"\1\uffff\1\1\1\2\3\3\1\4\1\uffff\1\6\1\7\1\5"
         )
 
-    DFA7_special = DFA.unpack(
-        u"\12\uffff"
+    DFA8_special = DFA.unpack(
+        u"\13\uffff"
         )
 
             
-    DFA7_transition = [
-        DFA.unpack(u"\1\7\1\3\1\uffff\1\7\1\3\22\uffff\1\7\1\uffff\1\4\14"
-        u"\uffff\1\5\53\uffff\1\6\37\uffff\1\1\1\uffff\1\2\u1faa\uffff\2"
-        u"\10"),
+    DFA8_transition = [
+        DFA.unpack(u"\1\3\10\uffff\1\3\1\5\1\uffff\1\3\1\4\22\uffff\1\3\1"
+        u"\uffff\1\6\14\uffff\1\7\53\uffff\1\10\37\uffff\1\1\1\uffff\1\2"
+        u"\u1faa\uffff\2\11"),
         DFA.unpack(u""),
         DFA.unpack(u""),
         DFA.unpack(u""),
         DFA.unpack(u""),
-        DFA.unpack(u"\1\11\4\uffff\1\6"),
         DFA.unpack(u""),
+        DFA.unpack(u""),
+        DFA.unpack(u"\1\12\4\uffff\1\10"),
         DFA.unpack(u""),
         DFA.unpack(u""),
         DFA.unpack(u"")
     ]
 
-    # class definition for DFA #7
+    # class definition for DFA #8
 
-    DFA7 = DFA
+    DFA8 = DFA
  
 
 

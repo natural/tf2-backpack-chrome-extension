@@ -14,9 +14,9 @@ from source_text_parser import parse
 from tf_text2messages_json import google_translate
 
 sys.stdout = codecs.getwriter('utf8')(sys.stdout)
-items_game = parse('../rawtext/items_game.txt')['items_game']
-extras_filename = '../rawtext/extras.json'
-en_lang = parse('../rawtext/tf_english.txt')['lang']['Tokens']
+items_game = parse('../src/rawtext/items_game.txt')['items_game']
+extras_filename = '../src/rawtext/extras.json'
+en_lang = parse('../src/rawtext/tf_english.txt')['lang']['Tokens']
 
 def proto():
     return dict(description='', type='', alt=[], positive=[], negative=[])
@@ -167,7 +167,8 @@ def translate_extras(extras, target_lang, source_lang='en'):
 	except:
 	    print >> sys.stderr, '## no translation', target_lang, source_lang, t
 	    return text
-	return unmask_subs(v)
+	txt = unmask_subs(v)
+	return txt
 
     for key, value in extras.items():
 	translated[key] = inner = {}
@@ -186,11 +187,11 @@ if __name__ == '__main__':
 	source_text_filename = sys.argv[1]
 	items_json_filename = sys.argv[2]
     except (IndexError, ):
-	print 'usage: %s input output (e.g., "../rawtext/tf_english.txt ../media/items_en.json")' % sys.argv[0]
+	print 'usage: %s input output (e.g., "../src/rawtext/tf_english.txt ../src/media/items_en.json")' % sys.argv[0]
     else:
 
 	target_file = sys.argv[1]
-	cmd = 'grep '+target_file+' control_files.txt |cut -f 3 -d " "|cut -f 3 -d "/"'
+	cmd = 'grep '+target_file+' control_files.txt |cut -f 3 -d " "|cut -f 4 -d "/"'
 	target_lang = Popen(cmd, stdout=PIPE,shell=True).stdout.read().strip()
 	extras = json.load(open(extras_filename))
 	extras = translate_extras(extras, target_lang)

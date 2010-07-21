@@ -6,7 +6,7 @@ dist_dir  := dist-$(release_num)
 tmp_dir := tmp
 
 
-gcf_dir := /home/troy/.wine-steam/drive_c/Program Files/Steam/steamapps/
+gcf_dir := $(TF2_GCF_DIR)
 chrome := /usr/bin/google-chrome
 crush  := pngcrush -force -l 9 -rem text -rem gAMA -rem cHRM -rem iCCP -rem sRGB -res 96 -rem time -q
 zip    := zip -9 -q
@@ -15,7 +15,7 @@ zip    := zip -9 -q
 dist_style_files := $(addprefix $(build_dir)/styles/, $(notdir $(wildcard src/styles/*.css)))
 dist_script_files := $(addprefix $(build_dir)/scripts/, $(notdir $(wildcard src/scripts/*.js)))
 dist_item_files := $(addprefix $(build_dir)/media/, $(notdir $(wildcard src/media/items_*.json)))
-extract_text_files := $(shell find $(tmp_dir) -type f -name "*.txt" | grep "items_\|tf_")
+extract_text_files := $(shell find -path "./$(tmp_dir)/*" -type f -name "*.txt" | grep "items_\|tf_")
 
 
 .PHONY: all clean $(dist_style_files) $(dist_script_files) $(dist_item_files) update_texts update_images $(extract_text_files) extract_files extract_image_files extract_text_files
@@ -84,11 +84,11 @@ update:
 	@make extract_text_files
 	@echo "[IMAGES] convert."
 	@cd $(tmp_dir) && find -type f -name "*.vtf" > image_files.txt
-	@cd $(tmp_dir) && WINEPREFIX="/home/troy/.wine-steam" wine "/home/troy/.wine-steam/drive_c/Program Files/XnView/nconvert.exe" -in vtf -o '$$%.png' -out png -quiet -overwrite -l ./image_files.txt 2>/dev/null
+	@cd $(tmp_dir) && nvconvert -in vtf -o '$$%.png' -out png -quiet -overwrite -l ./image_files.txt 2>/dev/null
 	@cd $(tmp_dir) && rm image_files.txt
 	@echo "[IMAGES] convert done."
 	@echo "[IMAGES] update."
-	@./src/tools/copy_item_images $(tmp_dir)/ ./src/icons/ ./src/rawtext/items_game.txt
+	@./tools/copy_item_images $(tmp_dir)/ ./src/icons/ ./src/rawtext/items_game.txt
 	@rm -rf $(tmp_dir)
 	@echo "[IMAGES] update done."
 
@@ -96,10 +96,18 @@ update:
 extract_text_files: $(extract_text_files)
 
 $(extract_text_files):
-	@echo "[READ]   $(notdir $@)"
+	@echo "[TEXT] read $(notdir $@)"
 	@emacs -nw -Q --batch --eval '(let (B)(setq B (find-file "$@"))(set-buffer-file-coding-system nil)(save-buffer)(kill-buffer B)))' 2>/dev/null
 	@cp $@ src/rawtext/
-	@echo "[WRITE]  $(addprefix src/rawtext/, $(notdir $@))"
+	@echo "[TEXT] write $(addprefix src/rawtext/, $(notdir $@))"
+
+
+item_files:
+	@cd tools && make item_files
+
+
+message_files:
+	@cd tools && make message_files
 
 
 ## other targets
@@ -124,5 +132,5 @@ bump_version:
 	@python -c "import json; d=json.load(open('src/manifest.json')); v = d['version'].split('.'); v[-1] = str(int(v[-1])+1); fh = open('src/manifest.json', 'w'); d['version'] = u'.'.join(v); json.dump(d, fh, indent=2); fh.flush(); fh.close()"
 
 check_text:
-	@cd src/tools && ./check_tf_texts
+	@cd tools && ./check_tf_texts
 

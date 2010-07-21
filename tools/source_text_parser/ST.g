@@ -56,7 +56,7 @@ fragment LETTER
 
 
 fragment EscapeSequence
-    :   '\\' ('b'|'t'|'n'|'f'|'r'|'\"'|'\''|'\\')
+    :   '\\' ('b'|'t'|'n'|'f'|'r'|'\"'|'\''|'\\'|' '|'C')
     |   UnicodeEscape
     ;
 
@@ -70,7 +70,7 @@ fragment HexDigit
 
 
 
-WS: (' ' | '\r' | '\t' | '\u000C' | '\n') { $channel=HIDDEN; };
+WS: (' ' | '\r' | '\t' | '\u000C' | '\n' | '\ n') { $channel=HIDDEN; };
 STRING
     : '"' (EscapeSequence | ~('\\'|'"') )* '"'
     ;

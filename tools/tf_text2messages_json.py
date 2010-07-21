@@ -8,7 +8,7 @@ import urllib
 from subprocess import Popen, PIPE
 
 ## source (english) messages file
-source_filename = os.path.abspath("../_locales/en/messages.json")
+source_filename = os.path.abspath("../src/_locales/en/messages.json")
 
 google_translate_url = "http://ajax.googleapis.com/ajax/services/language/translate?v=1.0&q={text}&langpair={sl}|{tl}"
 google_translate_url = "http://translate.google.com/translate_a/t?client=t&pc=0&oc=1&hl=en&ie=UTF-8&oe=UTF-8&text={text}&sl={sl}&tl={tl}"

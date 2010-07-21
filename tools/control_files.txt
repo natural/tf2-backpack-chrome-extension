@@ -1,0 +1,21 @@
+../src/rawtext/tf_danish.txt ../src/media/items_da.json ../src/_locales/da/messages.json
+../src/rawtext/tf_dutch.txt ../src/media/items_nl.json ../src/_locales/nl/messages.json
+../src/rawtext/tf_english.txt ../src/media/items_en.json ../src/_locales/en/messages.json
+../src/rawtext/tf_finnish.txt ../src/media/items_fi.json ../src/_locales/fi/messages.json
+../src/rawtext/tf_french.txt ../src/media/items_fr.json ../src/_locales/fr/messages.json
+../src/rawtext/tf_german.txt ../src/media/items_de.json ../src/_locales/de/messages.json
+../src/rawtext/tf_italian.txt ../src/media/items_it.json ../src/_locales/it/messages.json
+../src/rawtext/tf_japanese.txt ../src/media/items_ja.json ../src/_locales/ja/messages.json
+../src/rawtext/tf_koreana.txt NONE NONE
+../src/rawtext/tf_korean.txt ../src/media/items_ko.json ../src/_locales/ko/messages.json
+../src/rawtext/tf_norwegian.txt NONE NONE
+../src/rawtext/tf_polish.txt ../src/media/items_pl.json ../src/_locales/pl/messages.json
+../src/rawtext/tf_portuguese.txt ../src/media/items_pt.json ../src/_locales/pt/messages.json
+../src/rawtext/tf_romanian.txt ../src/media/items_ro.json ../src/_locales/ro/messages.json
+../src/rawtext/tf_russian.txt ../src/media/items_ru.json ../src/_locales/ru/messages.json
+../src/rawtext/tf_schinese.txt ../src/media/items_zh_CN.json ../src/_locales/zh_CN/messages.json
+../src/rawtext/tf_spanish.txt ../src/media/items_es.json ../src/_locales/es/messages.json
+../src/rawtext/tf_swedish.txt ../src/media/items_sv.json ../src/_locales/sv/messages.json
+../src/rawtext/tf_tchinese.txt ../src/media/items_zh_TW.json ../src/_locales/zh_TW/messages.json
+
+
