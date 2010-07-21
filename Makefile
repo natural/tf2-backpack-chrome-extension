@@ -3,25 +3,35 @@ release_num  := $(shell python -c "import json;print json.load(open('src/manifes
 release_name := ${base_name}-${release_num}
 build_dir := build-$(release_num)
 dist_dir  := dist-$(release_num)
+tmp_dir := tmp
 
+
+steam_apps_dir := /home/troy/.wine-steam/drive_c/Program Files/Steam/steamapps/
 chrome := /usr/bin/google-chrome
 crush  := pngcrush -force -l 9 -rem text -rem gAMA -rem cHRM -rem iCCP -rem sRGB -res 96 -rem time -q
 zip    := zip -9 -q
 
+
 style_files := $(addprefix $(build_dir)/styles/, $(notdir $(wildcard src/styles/*.css)))
 script_files := $(addprefix $(build_dir)/scripts/, $(notdir $(wildcard src/scripts/*.js)))
 item_files := $(addprefix $(build_dir)/media/, $(notdir $(wildcard src/media/items_*.json)))
+text_files := $(shell find $(tmp_dir) -type f -name "*.txt" | grep "items_\|tf_")
 
 
-.PHONEY: all clean $(style_files) $(script_files) $(item_files) update_texts update_images
+
+.PHONY: all clean $(style_files) $(script_files) $(item_files) update_texts update_images $(text_files) extract_files image_files text_files
+
 
 all: dist
+
 
 clean:
 	@echo "[CLEAN] starting"
 	@rm -rf $(build_dir)
 	@rm -rf $(dist_dir)
+	@rm -rf $(tmp_dir)/*
 	@echo "[CLEAN] done."
+
 
 dist: $(style_files) $(script_files) $(item_files)
 	@echo "[DIST] building"
@@ -73,14 +83,31 @@ crx:
 	@mv $(base_name).crx $(dist_dir)/${release_name}.crx
 	@echo "[CRX] done.  Distributable at $(dist_dir)/$(release_name).crx"
 
-
-update_texts:
-	@echo "[UPDATE TEXTS]"
-	@cp ../../var/tf2content/output/texts/*.txt src/rawtext/
-	@echo "[UPDATE TEXTS] done."
+update: extract_files text_files image_files
 
 
-update_images:
-	@echo "[UPDATE IMAGES]"
-	@./src/tools/copy_item_images /home/troy/var/tf2content/output/ ./src/icons/ ./src/rawtext/items_game.txt
-	@echo "[UPDATE IMAGES] done"
+extract_files:
+	@hlextract -p "$(steam_apps_dir)/team fortress 2 materials.gcf" -e "root/tf/materials/backpack" -d $(tmp_dir)
+	@hlextract -p "$(steam_apps_dir)/team fortress 2 content.gcf" -e "root/tf/resource/" -d $(tmp_dir)
+	@hlextract -p "$(steam_apps_dir)/team fortress 2 content.gcf" -e "root/tf/scripts/items/items_game.txt" -d $(tmp_dir)
+
+
+text_files: $(text_files)
+
+
+$(text_files):
+	@echo "[READ ]  $(notdir $@)"
+	@emacs -nw -Q --batch --eval '(let (B)(setq B (find-file "$@"))(set-buffer-file-coding-system nil)(save-buffer)(kill-buffer B)))' 2>/dev/null
+	@cp $@ src/rawtext/
+	@echo "[WRITE]  $(addprefix src/rawtext/, $(notdir $@))"
+
+
+image_files:
+	@echo "[CONVERT IMAGES]"
+	@cd $(tmp_dir) && find -type f -name "*.vtf" > image_files.txt
+	@cd $(tmp_dir) && WINEPREFIX="/home/troy/.wine-steam" wine "/home/troy/.wine-steam/drive_c/Program Files/XnView/nconvert.exe" -in vtf -o '$$%.png' -out png -quiet -overwrite -l ./image_files.txt 2>/dev/null
+	@cd $(tmp_dir) && rm image_files.txt
+	@echo "[CONVERT IMAGES] done"
+	@echo "[UPDATE  IMAGES]"
+	@./src/tools/copy_item_images $(tmp_dir)/ ./src/icons/ ./src/rawtext/items_game.txt
+	@echo "[UPDATE  IMAGES] done"

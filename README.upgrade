@@ -7,57 +7,12 @@ Quick overview of how to handle upgrades to TF2.  These steps work so far...
 
     ~/.wine-steam/drive_c/Program Files/Steam/steamapps
 
-And also verify the GCF files in that dir are still linked here:
-
-    ~/var/tf2content/source
-
-
-2.  Fire up virtualbox (maybe run `modprobe vboxdrv` first) and start
-the virtual windows machine.
-
-3.  Open GCFScape and extract:
-
-    Y:\team fortress 2 materials.gcf\root\tf\materials\backpack
-
-to:
-
-    Z:\
-
-
-4.  Still in GCFScape, open and extract:
-
-    Y:\team fortress 2 content.gcf\root\tf\resource\tf_*.txt
-
-    *AND*
-
-    Y:\team fortress 2 content.gcf\root/tf\scripts\items\items_game.txt
-
-to:
-
-
-    Z:\texts
-
-
-Quit GCFScape.
-
-5.  Open VTFEdit.exe.  Select Tools -> Convert Folder.
-
-In the dialog, select Z:\backpack as the input and output folder.
-
-Select "To png" and make sure "recursive" is checked.  Press "Convert".
-
-Close VTFEdit when finished, and close the VM.
-
-6.  Copy each text file to the media folder:
+2.  run some make!
 
     $ cd ~/src/tf2-backpack-chrome-extension/
-    $ make update_texts
-    $ make update_images
+    $ make update
 
-7.  Open each of the *.txt files in emacs and convert line endings.
-Save each and exit.  This step should go into the top-level Makefile.
-
-8.  Check the text files:
+3.  Check the text files:
 
     $ cd ~/src/tf2-backpack-chrome-extension/src/tools
     $ make check
@@ -66,7 +21,7 @@ The tf_polish.txt fails at about 5783; remove those lines as they're not needed.
 The tf_romanian.txt fails at about 1456.  Replace "\ n" with "\n".
 
 
-If everything works, make the item files:
+4.  If everything works, make the item files:
 
     $ cd ~/src/tf2-backpack-chrome-extension/src/tools
     $ make item_files
@@ -80,14 +35,14 @@ translations, so use with care (i.e., backup those files first):
 
     $ make message_files
 
-9.  Bump the version in src/manifest.json.
+5.  Bump the version in src/manifest.json.
 
-10.  rebuild
+6.  rebuild
 
     $ cd ~/src/tf2-backpack-chrome-extension/
     $ make
 
-11.   test, fix, repeat 1-10 as neccessary, upload.
+7.   test, fix, repeat 1-10 as neccessary, upload.
 
 
 
