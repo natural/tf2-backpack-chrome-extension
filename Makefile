@@ -29,7 +29,7 @@ all:
 
 
 dist: $(dist_style_files) $(dist_script_files) $(dist_item_files)
-	@echo "[DIST] building"
+	@echo "[DIST] building..."
 	@mkdir -p $(build_dir)
 	@mkdir -p $(dist_dir)
 	@mkdir -p $(build_dir)/scripts
@@ -40,18 +40,18 @@ dist: $(dist_style_files) $(dist_script_files) $(dist_item_files)
 	@cp src/scripts/jquery.min.js $(build_dir)/scripts
 	@cp src/*.html src/*.json $(build_dir)
 
-	@echo "[DIST] copying font files."
+	@echo "[DIST] copying font files..."
 	@mkdir -p $(build_dir)/media
 	@cp src/media/*.ttf $(build_dir)/media
 
 	@mkdir -p $(build_dir)/icons
-	@echo "[DIST] crushing images and icons."
+	@echo "[DIST] crushing images and icons..."
 	@${crush} -d $(build_dir)/icons src/icons/*.png 2>&1>/dev/null
 	@${crush} -d $(build_dir)/media src/media/*.png 2>&1>/dev/null
 
-	@echo "[DIST] creating distribution."
+	@echo "[DIST] creating distribution..."
 	@cd $(build_dir) && $(zip) -r ../$(dist_dir)/$(release_name).zip .
-	@echo "[DIST] done.  Distributable at $(dist_dir)/$(release_name).zip"
+	@echo "[DIST] build complete.  Distributable at $(dist_dir)/$(release_name).zip"
 
 
 $(dist_item_files):
@@ -74,23 +74,23 @@ $(dist_script_files):
 
 update:
 	@mkdir -p $(tmp_dir)
-	@echo "[EXTRACT] backpack files."
-	@hlextract -p "$(gcf_dir)/team fortress 2 materials.gcf" -e "root/tf/materials/backpack" -d $(tmp_dir)
-	@echo "[EXTRACT] resource files."
-	@hlextract -p "$(gcf_dir)/team fortress 2 content.gcf" -e "root/tf/resource/" -d $(tmp_dir)
-	@echo "[EXTRACT] other text files."
-	@hlextract -p "$(gcf_dir)/team fortress 2 content.gcf" -e "root/tf/scripts/items/items_game.txt" -d $(tmp_dir)
-	@echo "[EXTRACT] done."
+	@echo "[UPDATE] extracting backpack files..."
+	@hlextract -s -p "$(gcf_dir)/team fortress 2 materials.gcf" -e "root/tf/materials/backpack" -d $(tmp_dir)
+	@echo "[UPDATE] extracting resource files..."
+	@hlextract -s -p "$(gcf_dir)/team fortress 2 content.gcf" -e "root/tf/resource/" -d $(tmp_dir)
+	@echo "[UPDATE] extracting other text files..."
+	@hlextract -s -p "$(gcf_dir)/team fortress 2 content.gcf" -e "root/tf/scripts/items/items_game.txt" -d $(tmp_dir)
+	@echo "[UPDATE] converting text files..."
 	@make extract_text_files
-	@echo "[IMAGES] convert."
+	@echo "[UPDATE] converting images..."
 	@cd $(tmp_dir) && find -type f -name "*.vtf" > image_files.txt
 	@cd $(tmp_dir) && nvconvert -in vtf -o '$$%.png' -out png -quiet -overwrite -l ./image_files.txt 2>/dev/null
 	@cd $(tmp_dir) && rm image_files.txt
-	@echo "[IMAGES] convert done."
-	@echo "[IMAGES] update."
+	@echo "[UPDATE] copying new images..."
 	@./tools/copy_item_images $(tmp_dir)/ ./src/icons/ ./src/rawtext/items_game.txt
+	@echo "[UPDATE] cleaning up..."
 	@rm -rf $(tmp_dir)
-	@echo "[IMAGES] update done."
+	@echo "[UPDATE] complete."
 
 
 extract_text_files: $(extract_text_files)
@@ -115,21 +115,23 @@ message_files:
 
 crx:
 	@$(if $(shell pidof $(chrome)),$(error $(chrome) running, cannot create extension) $(exit 1),)
-	@echo "[CRX] building." $(relase_name).crx
+	@echo "[CRX] building..." $(relase_name).crx
 	@ln -s $(build_dir) $(base_name)
 	$(chrome) --pack-extension=$(base_name)
 	@rm $(base_name)
 	@mv $(base_name).crx $(dist_dir)/${release_name}.crx
-	@echo "[CRX] done.  Distributable at $(dist_dir)/$(release_name).crx"
+	@echo "[CRX] complete.  Distributable at $(dist_dir)/$(release_name).crx"
 
 
 clean:
-	@echo "[CLEAN] starting."
+	@echo "[CLEAN] starting..."
 	@rm -rf $(build_dir) $(dist_dir) $(tmp_dir)
-	@echo "[CLEAN] done."
+	@echo "[CLEAN] complete."
 
 bump_version:
+	@python -c "import json; d=json.load(open('src/manifest.json')); print 'Old version:', d['version']"
 	@python -c "import json; d=json.load(open('src/manifest.json')); v = d['version'].split('.'); v[-1] = str(int(v[-1])+1); fh = open('src/manifest.json', 'w'); d['version'] = u'.'.join(v); json.dump(d, fh, indent=2); fh.flush(); fh.close()"
+	@python -c "import json; d=json.load(open('src/manifest.json')); print 'New version:', d['version']"
 
 check_text:
 	@cd tools && ./check_tf_texts
