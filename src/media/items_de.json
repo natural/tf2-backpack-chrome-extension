@@ -4,7 +4,7 @@
             "-60% Explosionsschaden durch Raketenspr\u00fcnge"
         ], 
         "type": "Stiefel", 
-        "description": "Gunboats"
+        "description": "Die Raketenstiefel"
     }, 
     "132": {
         "alt": [
@@ -203,7 +203,7 @@
         "negative": [
             "Tarnverlustrate: +60%"
         ], 
-        "description": "Der Dead Ringer"
+        "description": "Die Scheintoduhr"
     }, 
     "58": {
         "alt": [
@@ -435,6 +435,10 @@
         "type": "Mallet der Verbannung", 
         "description": "Ban Hammer"
     }, 
+    "240": {
+        "type": "Hat", 
+        "description": "Lumbricus Lid"
+    }, 
     "102": {
         "type": "Hat", 
         "description": "Gummihandschuh"
@@ -609,23 +613,23 @@
     }, 
     "182": {
         "type": "Hat", 
-        "description": "Vintage Merryweather"
+        "description": "Altmodischer Feuerwehrhelm"
     }, 
     "183": {
         "type": "Hat", 
-        "description": "Sergeant's Drill Hat"
+        "description": "Ausbilderhut"
     }, 
     "180": {
         "type": "Hat", 
-        "description": "Frenchman's Beret"
+        "description": "Franz\u00f6sische Baskenm\u00fctze"
     }, 
     "181": {
         "type": "Hat", 
-        "description": "Bloke's Bucket Hat"
+        "description": "Fischerhut"
     }, 
     "184": {
         "type": "Hat", 
-        "description": "Gentleman's Gatsby"
+        "description": "Schieberkappe"
     }, 
     "6": {
         "type": "Schaufel", 
@@ -637,7 +641,7 @@
     }, 
     "185": {
         "type": "Hat", 
-        "description": "Heavy Duty Rag"
+        "description": "Hochleistungskopftuch"
     }, 
     "99": {
         "type": "Hat", 
@@ -677,14 +681,14 @@
     }, 
     "160": {
         "alt": [
-            "The ultimate in semi-concealed weaponry.\\nThere\u2019s no question you need this gun,\\nthe only question is: where will you keep it?"
+            "Die ultimative halb-verdeckte Waffe.\r\n Es steht au\u00dfer Frage, dass Sie diese Waffe ben\u00f6tigen werden. Offen bleibt dennoch, wo Sie diese Waffe aufbewahren wollen."
         ], 
         "type": "Pistole", 
-        "description": "Lugermorph"
+        "description": "Die Lugermorph"
     }, 
     "161": {
         "alt": [
-            "Combines style with stopping power.\\nLong exclusive to Freelance Police,\\nnow available for other blood-thirsty mercenaries."
+            "Kombiniert Stil mit Mannstoppwirkung. \r\nLange Zeit war sie exklusiv f\u00fcr die Freelance Police erh\u00e4tlich, \r\njetzt jedoch auch f\u00fcr alle blutdurstigen S\u00f6ldner."
         ], 
         "type": "Revolver", 
         "description": "Der Big Kill"
@@ -702,7 +706,7 @@
             "Erh\u00f6ht die maximalen Lebenspunkte f\u00fcr 30 Sekunden um +50"
         ], 
         "type": "Proviant", 
-        "description": "Crit-a-Cola"
+        "description": "Krit-'n-Cola"
     }, 
     "11": {
         "type": "Schrotflinte", 
@@ -750,7 +754,7 @@
     }, 
     "150": {
         "type": "Hat", 
-        "description": "Troublemaker's Tossle Cap"
+        "description": "Krawallmacherm\u00fctze"
     }, 
     "153": {
         "positive": [
@@ -765,7 +769,7 @@
     }, 
     "152": {
         "type": "Hat", 
-        "description": "Killer's Kabuto"
+        "description": "Killer-Kabuto"
     }, 
     "155": {
         "positive": [
@@ -776,7 +780,7 @@
             "Keine zuf\u00e4lligen kritischen Treffer", 
             "20%\u00a0Verwundbarkeit bei Feuer f\u00fcr Tr\u00e4ger"
         ], 
-        "description": "The Southern Hospitality"
+        "description": "Die Texanische Gastfreundschaft"
     }, 
     "154": {
         "positive": [
@@ -786,18 +790,18 @@
         "negative": [
             "10%\u00a0Verwundbarkeit bei Kugeln f\u00fcr Tr\u00e4ger"
         ], 
-        "description": "Pain Train"
+        "description": "Der Pain Train"
     }, 
     "159": {
         "positive": [
             "Erh\u00f6ht die maximalen Lebenspunkte f\u00fcr 30 Sekunden um +50"
         ], 
         "type": "Proviant", 
-        "description": "Dalokohs Bar"
+        "description": "Der Dalokohs-Riegel"
     }, 
     "158": {
         "type": "Hat", 
-        "description": "Shooter's Sola Topi"
+        "description": "Safarihelm des Sch\u00fctzen"
     }, 
     "48": {
         "type": "Hat", 
@@ -925,7 +929,7 @@
             "Kontrollieren Sie Ihre Sentrygun manuell."
         ], 
         "type": "Laserpointer", 
-        "description": "The Wrangler"
+        "description": "Der Sentry-Fl\u00fcsterer"
     }, 
     "141": {
         "positive": [
@@ -936,7 +940,7 @@
             "Keine zuf\u00e4lligen kritischen Treffer", 
             "-50%\u00a0Clipgr\u00f6\u00dfe"
         ], 
-        "description": "The Frontier Justice"
+        "description": "Die Selbstjustiz"
     }, 
     "148": {
         "type": "Hat", 

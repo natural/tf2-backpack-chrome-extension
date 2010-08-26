@@ -99,12 +99,12 @@
         "description": "\ud654\uc5fc \ubc29\uc0ac\uae30"
     }, 
     "22": {
-        "type": "\ud53c\uc2a4\ud1a8", 
-        "description": "\ud53c\uc2a4\ud1a8"
+        "type": "\uad8c\ucd1d", 
+        "description": "\uad8c\ucd1d"
     }, 
     "23": {
-        "type": "\ud53c\uc2a4\ud1a8", 
-        "description": "\ud53c\uc2a4\ud1a8"
+        "type": "\uad8c\ucd1d", 
+        "description": "\uad8c\ucd1d"
     }, 
     "95": {
         "type": "Hat", 
@@ -175,7 +175,7 @@
             "+25% \ub370\ubbf8\uc9c0", 
             "+80% \ubc1c\uc0ac \uc18d\ub3c4"
         ], 
-        "type": "\ub85c\ucf13\ud0c4 \ubc1c\uc0ac\uae30", 
+        "type": "\ub85c\ucf13 \ubc1c\uc0ac\uae30", 
         "negative": [
             "-70% \ud3ed\ubc1c \ubc94\uc704"
         ], 
@@ -203,14 +203,14 @@
         "negative": [
             "+60% \ud074\ub85c\ud0b9 \uace0\uac08 \uc18d\ub3c4"
         ], 
-        "description": "Dead Ringer"
+        "description": "\ub370\ub4dc \ub9c1\uc5b4"
     }, 
     "58": {
         "alt": [
             "\uc790\ub77c\ub370\uc5d0 \ub2f9\ud55c \uc801\uc740 \ucd5c\uc18c \uce58\uba85\ud0c0\uc728\r\n\ubd88\uc744 \ub044\ub294\ub370\ub3c4 \uc720\uc6a9"
         ], 
         "type": "\uc720\ub9ac\ubcd1 \uac00\ub77c\ub370", 
-        "description": "Jarate"
+        "description": "\uc790\ub77c\ud14c"
     }, 
     "55": {
         "type": "Hat", 
@@ -327,7 +327,7 @@
     }, 
     "116": {
         "alt": [
-            "\uc774\ub2c8\uc15c 'Z.M.'\uc774 \uc218\ub193\uc544\uc838 \uc788\uc74c"
+            "\uc774\ub2c8\uc15c 'Z.M.'\uc774 \uc0c8\uaca8\uc838 \uc788\uc74c"
         ], 
         "type": "Hat", 
         "description": "\ubb34\uc2dc\ubb34\uc2dc\ud55c \uc624\ud398\ub77c \ubaa8\uc790"
@@ -435,6 +435,10 @@
         "type": "\ub9dd\uce58 \ucd94\ubc29\uc758", 
         "description": "\uae08\uc9c0 \ud574\uba38"
     }, 
+    "240": {
+        "type": "Hat", 
+        "description": "Lumbricus Lid"
+    }, 
     "102": {
         "type": "Hat", 
         "description": "\uce58\ud0a8 \uc7a5\uac11 \ubaa8\uc790"
@@ -469,7 +473,7 @@
     }, 
     "39": {
         "type": "\ud50c\ub808\uc5b4 \uac74", 
-        "description": "Flare Gun"
+        "description": "\uc870\uba85\ud0c4"
     }, 
     "38": {
         "positive": [
@@ -480,7 +484,7 @@
             "\ubd88\ud0c0\uc9c0 \uc54a\ub294 \uc801\uc5d0\uac8c \uce58\uba85\ud0c0 \uc5c6\uc74c", 
             "\ubd88\ud0c0\uc9c0 \uc54a\ub294 \uc801\uc5d0\uac8c -50% \ub370\ubbf8\uc9c0"
         ], 
-        "description": "Axtinguisher"
+        "description": "\uc18c\ud654\ub3c4\ub07c"
     }, 
     "33": {
         "type": "\uc8fc\uc0ac\uae30 \uac74", 
@@ -551,7 +555,7 @@
             "-15% \ub370\ubbf8\uc9c0", 
             "-20% \ub290\ub9b0 \ubc1c\uc0ac \uc18d\ub3c4"
         ], 
-        "description": "Ambassador"
+        "description": "\uc570\ubc14\uc0ac\ub354"
     }, 
     "97": {
         "type": "Hat", 
@@ -598,7 +602,7 @@
         "negative": [
             "-50% \ub370\ubbf8\uc9c0"
         ], 
-        "description": "The Tribalman's Shiv"
+        "description": "\ubd80\uc871\ubbfc\uc758 \uce7c"
     }, 
     "170": {
         "alt": [
@@ -649,7 +653,7 @@
     }, 
     "169": {
         "type": "\ub80c\uce58", 
-        "description": "The Golden Wrench"
+        "description": "\ud669\uae08 \ub80c\uce58"
     }, 
     "164": {
         "alt": [
@@ -676,15 +680,15 @@
         "alt": [
             "\uc740\ub2c9 \ubb34\uae30\uc758 \uad81\uadf9 \ud615\ud0dc.\r\n\uc88b\uc740 \ucd1d\uc778 \uac74 \ub9d0\ud560 \uac83\ub3c4 \uc5c6\uc9c0\ub9cc\r\n\ub2e8 \ud55c \uac00\uc9c0 \uace0\ubbfc\uc740 \uc5b4\ub514\ub2e4 \ub458 \uac83\uc778\uac00?"
         ], 
-        "type": "\ud53c\uc2a4\ud1a8", 
-        "description": "Lugermorph"
+        "type": "\uad8c\ucd1d", 
+        "description": "\ub8e8\uac70\ubaa8\ud504"
     }, 
     "161": {
         "alt": [
             "\uc800\uc9c0 \ub2a5\ub825\uacfc \uc2a4\ud0c0\uc77c\uc744 \ubaa8\ub450 \uac16\ucd94\ub2e4.\r\n\ud504\ub9ac\ub79c\uc11c \uacbd\ucc30\uc758 \uc624\ub79c \uc804\uc720\ubb3c\uc774\uc5c8\uc73c\ub098\r\n\uc774\uc81c \ud53c\uc5d0 \uad76\uc8fc\ub9b0 \uc6a9\ubcd1\uc5d0\uac8c\ub3c4 \uae30\ud68c\uac00 \uc654\ub2e4."
         ], 
         "type": "\uad8c\ucd1d", 
-        "description": "Big Kill"
+        "description": "\ube45 \ud0ac"
     }, 
     "162": {
         "alt": [
@@ -722,8 +726,8 @@
         "description": "\ubbf8\ub2c8\uac74"
     }, 
     "14": {
-        "type": "\uc2a4\ub098\uc774\ud37c \ub77c\uc774\ud50c", 
-        "description": "\uc2a4\ub098\uc774\ud37c \ub77c\uc774\ud50c"
+        "type": "\uc800\uaca9\ucd1d", 
+        "description": "\uc800\uaca9\ucd1d"
     }, 
     "17": {
         "type": "\uc8fc\uc0ac\uae30 \uac74", 
@@ -738,8 +742,8 @@
         "description": "\uc218\ub958\ud0c4 \ubc1c\uc0ac\uae30"
     }, 
     "18": {
-        "type": "\ub85c\ucf13\ud0c4 \ubc1c\uc0ac\uae30", 
-        "description": "\ub85c\ucf13\ud0c4 \ubc1c\uc0ac\uae30"
+        "type": "\ub85c\ucf13 \ubc1c\uc0ac\uae30", 
+        "description": "\ub85c\ucf13 \ubc1c\uc0ac\uae30"
     }, 
     "151": {
         "type": "Hat", 
@@ -751,7 +755,7 @@
     }, 
     "153": {
         "positive": [
-            "\uacf5\ubcd1\uc5d0\uac8c \ub370\ubbf8\uc9c0", 
+            "\uc804\uc790\uad50\ub780\uae30\uc5d0\uac8c \ub370\ubbf8\uc9c0", 
             "\uac74\ubb3c\uc5d0 100% \ub370\ubbf8\uc9c0"
         ], 
         "type": "\uc1e0\ub9dd\uce58", 
@@ -820,7 +824,7 @@
         "negative": [
             "\ucc29\uc6a9 \uc2dc -15 \ucd5c\ub300 \uccb4\ub825"
         ], 
-        "description": "Sandman"
+        "description": "\uc0cc\ub4dc\ub9e8"
     }, 
     "45": {
         "positive": [
@@ -847,7 +851,7 @@
         "negative": [
             "-20% \ub290\ub9b0 \ubc1c\uc0ac \uc18d\ub3c4"
         ], 
-        "description": "Killing Gloves of Boxing"
+        "description": "\uc8fd\uc74c\uc758 \uad8c\ud22c \uc7a5\uac11"
     }, 
     "40": {
         "positive": [

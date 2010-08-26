@@ -435,6 +435,10 @@
         "type": "Mallet af forvist", 
         "description": "Ban Hammer"
     }, 
+    "240": {
+        "type": "Hat", 
+        "description": "Lumbricus Lid"
+    }, 
     "102": {
         "type": "Hat", 
         "description": "Fjollet gummihandske"

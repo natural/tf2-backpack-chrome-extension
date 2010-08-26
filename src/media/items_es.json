@@ -4,7 +4,7 @@
             "-60% de da\u00f1o explosivo por saltos con cohete"
         ], 
         "type": "Botas", 
-        "description": "Gunboats"
+        "description": "Las Botas Blindadas"
     }, 
     "132": {
         "alt": [
@@ -15,7 +15,7 @@
             "Salud m\u00e1xima del portador: -25", 
             "Sin impactos cr\u00edticos aleatorios"
         ], 
-        "description": "Eyelander"
+        "description": "La Intuertal"
     }, 
     "131": {
         "positive": [
@@ -26,7 +26,7 @@
             "Disparo secundario: confiere mayor potencia de ataque al cargar contra los enemigos."
         ], 
         "type": "Escudo", 
-        "description": "Chargin' Targe"
+        "description": "El Targe de Carga"
     }, 
     "130": {
         "positive": [
@@ -39,7 +39,7 @@
         "negative": [
             "Per\u00edodo detonable de las bombas 0.4 m\u00e1s lento"
         ], 
-        "description": "Scottish Resistance"
+        "description": "La Resistencia Escocesa"
     }, 
     "137": {
         "type": "Hat", 
@@ -179,18 +179,18 @@
         "negative": [
             "Radio de explosi\u00f3n: -70%"
         ], 
-        "description": "Direct Hit"
+        "description": "El Impacto Directo"
     }, 
     "128": {
         "positive": [
             "El da\u00f1o y la velocidad de movimiento del usuario aumentan a medida que lo hieren"
         ], 
         "type": "Pico", 
-        "description": "Equalizer"
+        "description": "El Ecualizador"
     }, 
     "129": {
         "type": "Estandarte de batalla", 
-        "description": "Buff Banner"
+        "description": "El Estandarte de \u00c1nimo"
     }, 
     "59": {
         "positive": [
@@ -203,14 +203,14 @@
         "negative": [
             "+60% de consumo de invisibilidad"
         ], 
-        "description": "Dead Ringer"
+        "description": "El Duplicante"
     }, 
     "58": {
         "alt": [
             "Los enemigos empapados sufren minicr\u00edticos\r\nTambi\u00e9n es \u00fatil para extinguir llamas"
         ], 
         "type": "Kung-fu con frascos", 
-        "description": "Jarate"
+        "description": "Fraskungf\u00fa"
     }, 
     "55": {
         "type": "Hat", 
@@ -225,11 +225,11 @@
             "Bloquea un \u00fanico intento de pu\u00f1alada por la espalda"
         ], 
         "type": "Escudo", 
-        "description": "Razorback"
+        "description": "El Caparazumbador"
     }, 
     "56": {
         "type": "Arco", 
-        "description": "Huntsman"
+        "description": "El Cazador"
     }, 
     "51": {
         "type": "Hat", 
@@ -435,6 +435,10 @@
         "type": "Mallet del destierro", 
         "description": "Ban Hammer"
     }, 
+    "240": {
+        "type": "Hat", 
+        "description": "Lumbricus Lid"
+    }, 
     "102": {
         "type": "Hat", 
         "description": "Guante de goma irreverente"
@@ -469,7 +473,7 @@
     }, 
     "39": {
         "type": "Pistola de bengalas", 
-        "description": "Flare Gun"
+        "description": "La Pistola de Bengalas"
     }, 
     "38": {
         "positive": [
@@ -480,7 +484,7 @@
             "Sin impactos cr\u00edticos vs jugadores que no est\u00e1n ardiendo", 
             "Da\u00f1o -50% vs jugadores que no est\u00e1n ardiendo"
         ], 
-        "description": "Axtinguisher"
+        "description": "El Hacherminador"
     }, 
     "33": {
         "type": "Pistola de jeringas", 
@@ -506,7 +510,7 @@
         "negative": [
             "-20% m\u00e1s de lentitud de disparo"
         ], 
-        "description": "Ubersaw"
+        "description": "La Ubersaw"
     }, 
     "36": {
         "positive": [
@@ -516,7 +520,7 @@
         "negative": [
             "El portador pierde -2 de salud por segundo"
         ], 
-        "description": "Blutsauger"
+        "description": "La Blutsauger"
     }, 
     "35": {
         "positive": [
@@ -526,7 +530,7 @@
             "La supercarga confiere un 100% de probabilidad de cr\u00edtico"
         ], 
         "type": "Pistola m\u00e9dica", 
-        "description": "Kritzkrieg"
+        "description": "La Kritzkrieg"
     }, 
     "34": {
         "type": "Pistola m\u00e9dica", 
@@ -540,7 +544,7 @@
             "Tipo de invisibilidad: sensible al movimiento"
         ], 
         "type": "Reloj de invisibilidad", 
-        "description": "Cloak and Dagger"
+        "description": "El Embozador"
     }, 
     "61": {
         "positive": [
@@ -609,7 +613,7 @@
     }, 
     "182": {
         "type": "Hat", 
-        "description": "Vintage Merryweather"
+        "description": "Casco de Bombero Victoriano"
     }, 
     "183": {
         "type": "Hat", 
@@ -637,7 +641,7 @@
     }, 
     "185": {
         "type": "Hat", 
-        "description": "Heavy Duty Rag"
+        "description": "Bandana de Motorista"
     }, 
     "99": {
         "type": "Hat", 
@@ -684,7 +688,7 @@
             "Combines style with stopping power.\\nLong exclusive to Freelance Police,\\nnow available for other blood-thirsty mercenaries."
         ], 
         "type": "Rev\u00f3lver", 
-        "description": "Big Kill"
+        "description": "La Gran Masacre"
     }, 
     "162": {
         "alt": [
@@ -806,7 +810,7 @@
     }, 
     "46": {
         "type": "Fiambrera", 
-        "description": "Bonk! Atomic Punch"
+        "description": "\u00a1Plonk! La Bebida Salvavidas"
     }, 
     "47": {
         "type": "Hat", 
@@ -820,7 +824,7 @@
         "negative": [
             "Salud m\u00e1xima del portador: -15"
         ], 
-        "description": "Sandman"
+        "description": "El Somn\u00edfero"
     }, 
     "45": {
         "positive": [
@@ -833,11 +837,11 @@
             "Tama\u00f1o de cargador: -60%", 
             "Da\u00f1os causados: -10%"
         ], 
-        "description": "Force-A-Nature"
+        "description": "La Dispensadora de Ca\u00f1a"
     }, 
     "42": {
         "type": "Fiambrera", 
-        "description": "Sandvich"
+        "description": "El Focata"
     }, 
     "43": {
         "positive": [
@@ -847,7 +851,7 @@
         "negative": [
             "-20% m\u00e1s de lentitud de disparo"
         ], 
-        "description": "Killing Gloves of Boxing"
+        "description": "Los Ka\u00f1eros Guantes de Boxeo"
     }, 
     "40": {
         "positive": [
@@ -859,7 +863,7 @@
             "Sin impactos cr\u00edticos aleatorios", 
             "Sin explosi\u00f3n de aire comprimido"
         ], 
-        "description": "Backburner"
+        "description": "El Drag\u00f3n"
     }, 
     "41": {
         "positive": [

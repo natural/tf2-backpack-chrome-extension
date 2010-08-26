@@ -15,7 +15,7 @@
             "-25 maks. punkt\u00f3w zdrowia dla nosz\u0105cego", 
             "Bez losowych trafie\u0144 krytycznych"
         ], 
-        "description": "Miecz dwur\u0119czny"
+        "description": "Wyszczerbiec"
     }, 
     "131": {
         "positive": [
@@ -23,7 +23,7 @@
             "+40% odporno\u015bci na obra\u017cenia od wybuch\u00f3w dla nosz\u0105cego"
         ], 
         "alt": [
-            "Alt-strza\u0142: uzyskaj wi\u0119ksz\u0105 si\u0142\u0119 ataku poprzez wykonanie szar\u017cy na wrog\u00f3w."
+            "Strza\u0142 drugorz.: uzyskaj wi\u0119ksz\u0105 si\u0142\u0119 ataku\r\nprzez zaszar\u017cowanie na wrog\u00f3w."
         ], 
         "type": "Tarcza", 
         "description": "Tarcza Szar\u017cy"
@@ -108,7 +108,7 @@
     }, 
     "95": {
         "type": "Hat", 
-        "description": "Czapka In\u017cyniera"
+        "description": "Czapka kolejarza"
     }, 
     "28": {
         "type": "PDA", 
@@ -218,18 +218,18 @@
     }, 
     "54": {
         "type": "Hat", 
-        "description": "Skarb \u017co\u0142nierza"
+        "description": "Skarb \u017bo\u0142nierza"
     }, 
     "57": {
         "positive": [
             "Blokuje jedn\u0105 pr\u00f3b\u0119 d\u017agni\u0119cia w plecy"
         ], 
         "type": "Tarcza", 
-        "description": "Razorback"
+        "description": "Antyklinga"
     }, 
     "56": {
         "type": "\u0141uk", 
-        "description": "\u0141uk \u0142owcy"
+        "description": "\u0141owca"
     }, 
     "51": {
         "type": "Hat", 
@@ -294,7 +294,7 @@
             "U\u017cywany w planach do okre\u015blenia slotu wyposa\u017cenia"
         ], 
         "type": "Przedmiot wytwarzania", 
-        "description": "Token slotu - Budynek"
+        "description": "Token slotu - Konstrukcja"
     }, 
     "5017": {
         "alt": [
@@ -435,6 +435,10 @@
         "type": "Wygnanie z m\u0142otkiem", 
         "description": "Zakaz Hammer"
     }, 
+    "240": {
+        "type": "Hat", 
+        "description": "Lumbricus Lid"
+    }, 
     "102": {
         "type": "Hat", 
         "description": "Niepowa\u017cna gumowa r\u0119kawica"
@@ -480,7 +484,7 @@
             "Brak krytycznych trafie\u0144 przy trafieniu niepodpalonych graczy", 
             "-50% obra\u017ce\u0144 przy trafieniu niepodpalonych graczy"
         ], 
-        "description": "Axtinguisher"
+        "description": "Gasitop\u00f3r"
     }, 
     "33": {
         "type": "Karabin strzykawkowy", 
@@ -578,7 +582,7 @@
     }, 
     "174": {
         "type": "Hat", 
-        "description": "Czapka pierdziuszka"
+        "description": "Pierdziuszka"
     }, 
     "172": {
         "positive": [
@@ -625,7 +629,7 @@
     }, 
     "184": {
         "type": "Hat", 
-        "description": "Czapka golfisty"
+        "description": "Beret golfisty"
     }, 
     "6": {
         "type": "Saperka", 
@@ -648,8 +652,11 @@
         "description": "Rondel nierdzewny"
     }, 
     "169": {
+        "positive": [
+            "Drzemie w nim staro\u017cytna moc"
+        ], 
         "type": "Klucz", 
-        "description": "The Golden Wrench"
+        "description": "Z\u0142oty klucz"
     }, 
     "164": {
         "alt": [
@@ -695,7 +702,7 @@
     }, 
     "163": {
         "alt": [
-            "Po wypiciu obra\u017cenia otrzymywane \r\noraz zadawane s\u0105 mini-krtyczne.", 
+            "Po wypiciu obra\u017cenia otrzymywane\r\noraz zadawane s\u0105 minikrytyczne.", 
             "Dodaje 50 do maksymalnego zdrowia na 30 sekund"
         ], 
         "type": "Pude\u0142ko \u015bniadaniowe", 
@@ -752,7 +759,7 @@
     "153": {
         "positive": [
             "Zadane obra\u017cenia niszcz\u0105 sapery", 
-            "100% obra\u017ce\u0144 przeciwko budowlom"
+            "100% obra\u017ce\u0144 przeciwko konstrukcjom"
         ], 
         "type": "M\u0142ot kowalski", 
         "negative": [
@@ -773,7 +780,7 @@
             "Bez losowych trafie\u0144 krytycznych", 
             "20% podatno\u015bci na obra\u017cenia od ognia u nosz\u0105cego"
         ], 
-        "description": "The Southern Hospitality"
+        "description": "Po\u0142udniowa Go\u015bcinno\u015b\u0107"
     }, 
     "154": {
         "positive": [
@@ -783,7 +790,7 @@
         "negative": [
             "10% podatno\u015bci na obra\u017cenia od pocisk\u00f3w u nosz\u0105cego"
         ], 
-        "description": "Poci\u0105g do b\u00f3lu"
+        "description": "Poci\u0105g B\u00f3lu"
     }, 
     "159": {
         "positive": [
@@ -859,7 +866,7 @@
             "Bez losowych trafie\u0144 krytycznych", 
             "Bez strumienia spr\u0119\u017conego powietrza"
         ], 
-        "description": "Backburner"
+        "description": "Opiekacz"
     }, 
     "41": {
         "positive": [
@@ -903,11 +910,12 @@
         "positive": [
             "+25 maks. punkt\u00f3w zdrowia dla nosz\u0105cego"
         ], 
-        "type": "Robot Arm", 
+        "type": "Robotyczne rami\u0119", 
         "negative": [
-            "Bez losowych trafie\u0144 krytycznych"
+            "Bez losowych trafie\u0144 krytycznych", 
+            "Zamienia dzia\u0142ko na szybko buduj\u0105ce si\u0119 mini-dzia\u0142ko"
         ], 
-        "description": "The Gunslinger"
+        "description": "Jednor\u0119ki Bandyta"
     }, 
     "143": {
         "alt": [
@@ -918,18 +926,21 @@
     }, 
     "140": {
         "alt": [
-            "Take manual control of your Sentry Gun"
+            "Przejmij kontrol\u0119 nad swoim dzia\u0142kiem stra\u017cniczym"
         ], 
-        "type": "Laser Pointer", 
-        "description": "The Wrangler"
+        "type": "Wska\u017anik laserowy", 
+        "description": "Poskramiacz"
     }, 
     "141": {
+        "positive": [
+            "Po zniszczeniu dzia\u0142ka dostajesz krytyczne strza\u0142y odwetu za ka\u017cde jego zab\u00f3jstwo"
+        ], 
         "type": "Strzelba", 
         "negative": [
             "Bez losowych trafie\u0144 krytycznych", 
             "-50% rozmiaru magazynka"
         ], 
-        "description": "The Frontier Justice"
+        "description": "R\u0119ka Sprawiedliwo\u015bci"
     }, 
     "148": {
         "type": "Hat", 

@@ -5,18 +5,18 @@
     "128": "media/icon128.png", 
     "48": "media/icon48.png"
   }, 
+  "description": "__MSG_extension_desc__", 
   "version": "1.0.15", 
   "options_page": "options.html", 
   "background_page": "background.html", 
-  "permissions": [
-    "tabs", 
-    "http://steamcommunity.com/", 
-    "http://www.tf2items.com/"
-  ], 
   "browser_action": {
     "popup": "popup.html", 
     "default_icon": "media/icon.png", 
     "default_title": "__MSG_extension_default_title__"
   }, 
-  "description": "__MSG_extension_desc__"
+  "permissions": [
+    "tabs", 
+    "http://steamcommunity.com/", 
+    "http://www.tf2items.com/"
+  ]
 }

@@ -4386,6 +4386,30 @@
 				"hide_player_bodygroup_name"	"headphones"
 			}
 		}
+		"240"
+		{
+			"name"	"Worms Gear"
+			"hidden"	"0"
+			"item_class"	"tf_wearable_item"
+			"item_type_name" "#TF_Wearable_Hat"
+			"item_name"	"#TF_Worms_Gear"
+			"item_slot"	"head"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/soldier/worms_gear"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/soldier/worms_gear.mdl"
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+			}
+			"visuals"
+			{
+				"hide_player_bodygroup_name"	"hat"
+				"hide_player_bodygroup_name"	"grenades"
+			}
+		}		
 		"5000"
 		{
 			"name"	"Craft Bar Level 1"

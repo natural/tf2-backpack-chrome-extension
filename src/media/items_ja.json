@@ -435,6 +435,10 @@
         "type": "\u30de\u30ec\u30c3\u30c8\u8ffd\u653e\u306e", 
         "description": "\u30d0\u30f3\u30cf\u30de\u30fc"
     }, 
+    "240": {
+        "type": "Hat", 
+        "description": "Lumbricus Lid"
+    }, 
     "102": {
         "type": "Hat", 
         "description": "\u3069\u3046\u3067\u3082\u3044\u3044\u30b4\u30e0\u624b\u888b"

@@ -4,7 +4,7 @@
             "-60% r\u00e4j\u00e4hdysvahinkoa rakettihypyist\u00e4"
         ], 
         "type": "Saappaat", 
-        "description": "Gunboats"
+        "description": "Ter\u00e4ssaappaat"
     }, 
     "132": {
         "alt": [
@@ -15,7 +15,7 @@
             "-25 enimm\u00e4isterveys k\u00e4ytt\u00e4j\u00e4lle", 
             "Ei satunnaisia kriittisi\u00e4 osumia"
         ], 
-        "description": "Eyelander"
+        "description": "Kaulankatkoja"
     }, 
     "131": {
         "positive": [
@@ -26,7 +26,7 @@
             "Vaihtoehtoinen tulitus: Saat lis\u00e4\u00e4 hy\u00f6kk\u00e4ysvoimaa rynn\u00e4k\u00f6im\u00e4ll\u00e4 p\u00e4in vihollisia."
         ], 
         "type": "Suoja", 
-        "description": "Chargin' Targe"
+        "description": "Rynn\u00e4kk\u00f6kilpi"
     }, 
     "130": {
         "positive": [
@@ -39,7 +39,7 @@
         "negative": [
             "0.4 sekuntia hitaampi pommin viritysaika"
         ], 
-        "description": "Scottish Resistance"
+        "description": "Skotlannin vastarinta"
     }, 
     "137": {
         "type": "Hat", 
@@ -179,18 +179,18 @@
         "negative": [
             "-70% r\u00e4j\u00e4hdysalue"
         ], 
-        "description": "Direct Hit"
+        "description": "Suoraosuma"
     }, 
     "128": {
         "positive": [
             "Vahinko ja liikkumisnopeus kasvavat k\u00e4ytt\u00e4j\u00e4n vahingoittuessa"
         ], 
         "type": "Hakku", 
-        "description": "Equalizer"
+        "description": "Tasoittaja"
     }, 
     "129": {
         "type": "Sotalippu", 
-        "description": "Buff Banner"
+        "description": "Sotalippu"
     }, 
     "59": {
         "positive": [
@@ -203,14 +203,14 @@
         "negative": [
             "+60% verhoutumisen katoamisnopeus"
         ], 
-        "description": "Dead Ringer"
+        "description": "Kuolemankello"
     }, 
     "58": {
         "alt": [
             "Aineen peitt\u00e4m\u00e4t viholliset k\u00e4rsiv\u00e4t mini-kriittisi\u00e4 osumia\r\nSopii my\u00f6s palon sammuttamiseen"
         ], 
         "type": "Nestekarate", 
-        "description": "Jarate"
+        "description": "Nestekarate"
     }, 
     "55": {
         "type": "Hat", 
@@ -225,11 +225,11 @@
             "Est\u00e4\u00e4 yhden selk\u00e4\u00e4npuukotuksen"
         ], 
         "type": "Suoja", 
-        "description": "Razorback"
+        "description": "Selk\u00e4suoja"
     }, 
     "56": {
         "type": "Jousi", 
-        "description": "Huntsman"
+        "description": "Mets\u00e4mies"
     }, 
     "51": {
         "type": "Hat", 
@@ -435,6 +435,10 @@
         "type": "Mallet ja karkoituksen", 
         "description": "Ban Hammer"
     }, 
+    "240": {
+        "type": "Hat", 
+        "description": "Lumbricus Lid"
+    }, 
     "102": {
         "type": "Hat", 
         "description": "Kunnioittamaton kumihanska"
@@ -469,7 +473,7 @@
     }, 
     "39": {
         "type": "Valopistooli", 
-        "description": "Flare Gun"
+        "description": "Valopistooli"
     }, 
     "38": {
         "positive": [
@@ -480,7 +484,7 @@
             "Ei kriittisi\u00e4 osumia pelaajiin, jotka eiv\u00e4t ole tulessa", 
             "-50% vahinko pelaajiin, jotka eiv\u00e4t ole tulessa"
         ], 
-        "description": "Axtinguisher"
+        "description": "Sammutuskirves"
     }, 
     "33": {
         "type": "Ruiskuase", 
@@ -506,7 +510,7 @@
         "negative": [
             "-20% pienempi tulitusnopeus"
         ], 
-        "description": "Ubersaw"
+        "description": "Ubersaha"
     }, 
     "36": {
         "positive": [
@@ -540,7 +544,7 @@
             "Verhoutumisen tyyppi: liikkeen tunnistava"
         ], 
         "type": "N\u00e4kym\u00e4tt\u00f6myyskello", 
-        "description": "Cloak and Dagger"
+        "description": "Viitta ja Tikari"
     }, 
     "61": {
         "positive": [
@@ -551,7 +555,7 @@
             "-15% aiheutettu vahinko", 
             "-20% pienempi tulitusnopeus"
         ], 
-        "description": "Ambassador"
+        "description": "Suurl\u00e4hettil\u00e4s"
     }, 
     "97": {
         "type": "Hat", 
@@ -563,7 +567,7 @@
     }, 
     "178": {
         "type": "Hat", 
-        "description": "Tuki ja turva"
+        "description": "Tuki & turva"
     }, 
     "177": {
         "alt": [
@@ -588,7 +592,7 @@
         "negative": [
             "15% hitaampi liikkumisnopeus k\u00e4ytt\u00e4j\u00e4lle"
         ], 
-        "description": "The Scotsman's Skullcutter"
+        "description": "Skotlantilainen saksenter\u00e4"
     }, 
     "171": {
         "positive": [
@@ -598,7 +602,7 @@
         "negative": [
             "-50% aiheutettu vahinko"
         ], 
-        "description": "The Tribalman's Shiv"
+        "description": "Heimolaister\u00e4"
     }, 
     "170": {
         "alt": [
@@ -687,7 +691,7 @@
             "Yhdist\u00e4\u00e4 tyylin ja pys\u00e4ytysvoiman.\r\nEnnen yksinoikeudella freelance-poliiseille,\r\nnyt tarjolla muillekin verenhimoisille palkkasotureille."
         ], 
         "type": "Revolveri", 
-        "description": "Big Kill"
+        "description": "Suurmurha"
     }, 
     "162": {
         "alt": [
@@ -702,7 +706,7 @@
             "Lis\u00e4\u00e4 +50 maksimiterveytt\u00e4 30 sekunniksi"
         ], 
         "type": "Ev\u00e4srasia", 
-        "description": "Crit-a-Cola"
+        "description": "Krittikola"
     }, 
     "11": {
         "type": "Haulikko", 
@@ -776,7 +780,7 @@
             "Ei satunnaisia kriittisi\u00e4 osumia", 
             "20% tulivahinkoalttiutta k\u00e4ytt\u00e4j\u00e4lle"
         ], 
-        "description": "The Southern Hospitality"
+        "description": "Etel\u00e4n vieraanvaraisuus"
     }, 
     "154": {
         "positive": [
@@ -786,14 +790,14 @@
         "negative": [
             "10% luotivahingolle alttiutta k\u00e4ytt\u00e4j\u00e4lle"
         ], 
-        "description": "Pain Train"
+        "description": "Kipujuna"
     }, 
     "159": {
         "positive": [
             "Lis\u00e4\u00e4 +50 maksimiterveytt\u00e4 30 sekunniksi"
         ], 
         "type": "Ev\u00e4srasia", 
-        "description": "Dalokohs Bar"
+        "description": "Suklaalevy"
     }, 
     "158": {
         "type": "Hat", 
@@ -809,7 +813,7 @@
     }, 
     "46": {
         "type": "Ev\u00e4srasia", 
-        "description": "Bonk! Atomic Punch"
+        "description": "Naps! Atomi-isku"
     }, 
     "47": {
         "type": "Hat", 
@@ -823,7 +827,7 @@
         "negative": [
             "-15 enimm\u00e4isterveys k\u00e4ytt\u00e4j\u00e4lle"
         ], 
-        "description": "Sandman"
+        "description": "Nukkumatti"
     }, 
     "45": {
         "positive": [
@@ -836,11 +840,11 @@
             "-60% lippaan koko", 
             "-10% aiheutettu vahinko"
         ], 
-        "description": "Force-A-Nature"
+        "description": "Luonnonvoima"
     }, 
     "42": {
         "type": "Ev\u00e4srasia", 
-        "description": "Sandvich"
+        "description": "Voileip\u00e4"
     }, 
     "43": {
         "positive": [
@@ -850,7 +854,7 @@
         "negative": [
             "-20% pienempi tulitusnopeus"
         ], 
-        "description": "Killing Gloves of Boxing"
+        "description": "Kuolettavat Nyrkkeilyhanskat"
     }, 
     "40": {
         "positive": [
@@ -862,7 +866,7 @@
             "Ei satunnaisia kriittisi\u00e4 osumia", 
             "Ei paineaaltoa"
         ], 
-        "description": "Sel\u00e4npoltin"
+        "description": "J\u00e4lkipoltin"
     }, 
     "41": {
         "positive": [
@@ -872,7 +876,7 @@
         "negative": [
             "-25% aiheutettu vahinko"
         ], 
-        "description": "Natascha"
+        "description": "Natasha"
     }, 
     "1": {
         "type": "Pullo", 
@@ -911,7 +915,7 @@
             "Ei satunnaisia kriittisi\u00e4 osumia", 
             "Korvaa vartiotykin nopeasti rakennettavalla minivartiotykill\u00e4."
         ], 
-        "description": "The Gunslinger"
+        "description": "Karjakoura"
     }, 
     "143": {
         "alt": [
@@ -925,18 +929,18 @@
             "Ohjaa vartiotykki\u00e4 manuaalisesti"
         ], 
         "type": "Laserosoitin", 
-        "description": "The Wrangler"
+        "description": "Kaukopaimen"
     }, 
     "141": {
         "positive": [
-            "Kun vartiotykkisi tuhotaan,\r\n\r\nsaat kriittisi\u00e4 kosto-osumia jokaisesta vartiotykin taposta."
+            "Vartiotykkisi tuhoutuessa saat kriittisi\u00e4 kosto-osumia jokaisesta sen tekem\u00e4st\u00e4 taposta."
         ], 
         "type": "Haulikko", 
         "negative": [
             "Ei satunnaisia kriittisi\u00e4 osumia", 
             "-50% lippaan koko"
         ], 
-        "description": "The Frontier Justice"
+        "description": "Rintamaoikeus"
     }, 
     "148": {
         "type": "Hat", 

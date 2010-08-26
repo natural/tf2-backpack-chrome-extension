@@ -47,7 +47,7 @@
     }, 
     "136": {
         "alt": [
-            "First Runner-Up, Propaganda Contest"
+            "Deuxi\u00e8me Place, Concours de Propagande"
         ], 
         "type": "Hat", 
         "description": "Amber's Rad As All Hell Hat"
@@ -58,18 +58,18 @@
     }, 
     "134": {
         "alt": [
-            "First Place Winner, Propaganda Contest"
+            "Gagnant (Premi\u00e8re Place), Concours de Propagande"
         ], 
         "type": "Hat", 
         "description": "J.Axer's Dapper Topper"
     }, 
     "139": {
         "type": "Hat", 
-        "description": "Modest Pile of Hat"
+        "description": "Modique pile de chapeau"
     }, 
     "138": {
         "alt": [
-            "Second Runner-Up, Propaganda Contest"
+            "Troisi\u00e8me Place, Concours de Propagande"
         ], 
         "type": "Hat", 
         "description": "Oncle Sam"
@@ -435,6 +435,10 @@
         "type": "Mallet de bannissement", 
         "description": "Ban Hammer"
     }, 
+    "240": {
+        "type": "Hat", 
+        "description": "Lumbricus Lid"
+    }, 
     "102": {
         "type": "Hat", 
         "description": "Gant en caoutchouc ridicule"
@@ -559,18 +563,18 @@
     }, 
     "179": {
         "type": "Hat", 
-        "description": "Tippler's Tricorne"
+        "description": "Tricorne de l'ivrogne"
     }, 
     "178": {
         "type": "Hat", 
-        "description": "Safe'n'Sound"
+        "description": "Sain et sauf"
     }, 
     "177": {
         "alt": [
             "Rien"
         ], 
         "type": "Hat", 
-        "description": "Ze Goggles"
+        "description": "Les b\u00e9zicles"
     }, 
     "175": {
         "type": "Hat", 
@@ -578,7 +582,7 @@
     }, 
     "174": {
         "type": "Hat", 
-        "description": "Whoopee Cap"
+        "description": "Toque de Fanfaron"
     }, 
     "172": {
         "positive": [
@@ -588,7 +592,7 @@
         "negative": [
             "Vitesse de d\u00e9placement 15% plus lente pour le porteur"
         ], 
-        "description": "The Scotsman's Skullcutter"
+        "description": "La Fendeuse de Cr\u00e2ne \u00c9cossaise"
     }, 
     "171": {
         "positive": [
@@ -598,7 +602,7 @@
         "negative": [
             "D\u00e9g\u00e2ts caus\u00e9s -50%"
         ], 
-        "description": "The Tribalman's Shiv"
+        "description": "Le Couteau Aborig\u00e8ne"
     }, 
     "170": {
         "alt": [
@@ -637,7 +641,7 @@
     }, 
     "185": {
         "type": "Hat", 
-        "description": "Heavy Duty Rag"
+        "description": "Bandeau des lourdes obligations"
     }, 
     "99": {
         "type": "Hat", 
@@ -680,7 +684,7 @@
             "Le nec plus ultra dans la cat\u00e9gorie des armes discr\u00e8tes.\r\nLa question n'est pas de savoir si vous\r\nen avez besoin, mais plut\u00f4t : o\u00f9 le rangerez-vous ?"
         ], 
         "type": "Pistolet", 
-        "description": "Lugermorph"
+        "description": "Le Lugermorph"
     }, 
     "161": {
         "alt": [
@@ -694,7 +698,7 @@
             "Expertly crafted headwear from cruelty-free farms\\nin the Philippines. Hollowed-out skull casing wicks\\nmoisture away when in the heat of battle."
         ], 
         "type": "Hat", 
-        "description": "Max's Severed Head"
+        "description": "T\u00eate coup\u00e9e de Max"
     }, 
     "163": {
         "alt": [
@@ -750,22 +754,22 @@
     }, 
     "150": {
         "type": "Hat", 
-        "description": "Troublemaker's Tossle Cap"
+        "description": "Bonnet de Fauteur de troubles"
     }, 
     "153": {
         "positive": [
             "Les d\u00e9g\u00e2ts d\u00e9truisent les Saboteurs", 
             "100% de d\u00e9g\u00e2ts contre les constructions"
         ], 
-        "type": "Sledgehammer", 
+        "type": "Marteau de forgeron", 
         "negative": [
             "-25% de d\u00e9g\u00e2ts contre les joueurs"
         ], 
-        "description": "Homewrecker"
+        "description": "Le Destructeur de Maison"
     }, 
     "152": {
         "type": "Hat", 
-        "description": "Killer's Kabuto"
+        "description": "Kabuto de tueur"
     }, 
     "155": {
         "positive": [
@@ -776,13 +780,13 @@
             "Aucun tir critique al\u00e9atoire", 
             "Vuln\u00e9rabilit\u00e9 aux d\u00e9g\u00e2ts par le feu 20% pour le porteur"
         ], 
-        "description": "The Southern Hospitality"
+        "description": "L'Hospitalit\u00e9 du Sud"
     }, 
     "154": {
         "positive": [
             "Vitesse de capture +1 pour le porteur"
         ], 
-        "type": "Makeshift Club", 
+        "type": "Gourdin Improvis\u00e9", 
         "negative": [
             "Vuln\u00e9rabilit\u00e9 aux d\u00e9g\u00e2ts par balle 10% pour le porteur"
         ], 
@@ -850,7 +854,7 @@
         "negative": [
             "Tirs -20% plus lents"
         ], 
-        "description": "Killing Gloves of Boxing"
+        "description": "Les gants de boxe de la mort"
     }, 
     "40": {
         "positive": [
@@ -896,7 +900,7 @@
     }, 
     "144": {
         "type": "Hat", 
-        "description": "Physician's Procedure Mask"
+        "description": "Masque de chirurgien"
     }, 
     "145": {
         "type": "Hat", 
@@ -911,7 +915,7 @@
             "Aucun tir critique al\u00e9atoire", 
             "Remplace la mitrailleuse par une mini-mitrailleuse \u00e0 construction rapide"
         ], 
-        "description": "The Gunslinger"
+        "description": "Le Flingueur"
     }, 
     "143": {
         "alt": [
@@ -925,7 +929,7 @@
             "Prenez le contr\u00f4le manuel de votre mitrailleuse"
         ], 
         "type": "Pointeur laser", 
-        "description": "The Wrangler"
+        "description": "Le Dompteur"
     }, 
     "141": {
         "positive": [
@@ -936,7 +940,7 @@
             "Aucun tir critique al\u00e9atoire", 
             "Capacit\u00e9 chargeur -50%"
         ], 
-        "description": "The Frontier Justice"
+        "description": "La Justice Frontali\u00e8re"
     }, 
     "148": {
         "type": "Hat", 

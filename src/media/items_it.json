@@ -43,7 +43,7 @@
     }, 
     "137": {
         "type": "Hat", 
-        "description": "Nobile pila di cappelli"
+        "description": "Nobile Ammasso di Cappelli"
     }, 
     "136": {
         "alt": [
@@ -434,6 +434,10 @@
         ], 
         "type": "Mallet di esilio", 
         "description": "Ban Hammer"
+    }, 
+    "240": {
+        "type": "Hat", 
+        "description": "Lumbricus Lid"
     }, 
     "102": {
         "type": "Hat", 

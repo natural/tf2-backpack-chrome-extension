@@ -8,7 +8,7 @@
     }, 
     "132": {
         "alt": [
-            "Aceast\u0103 arm\u0103 are o raz\u0103 de ac\u0163iune mai mare.\nM\u0103re\u015fte viteza \u015fi via\u0163a cu fiecare cap t\u0103iat ob\u0163inut."
+            "Aceast\u0103 arm\u0103 are o raz\u0103 de ac\u0163iune mai mare.\r\nM\u0103re\u015fte viteza \u015fi via\u0163a cu fiecare cap t\u0103iat ob\u0163inut."
         ], 
         "type": "Sabie", 
         "negative": [
@@ -23,7 +23,7 @@
             "+40% rezisten\u0163\u0103 la explozii pentru purt\u0103tor"
         ], 
         "alt": [
-            "Alt-Foc: Puterea de atac cre\u015fte\n\u015farj\u00e2nd spre inamicii t\u0103i."
+            "Alt-Foc: Puterea de atac cre\u015fte\r\n\u015farj\u00e2nd spre inamicii t\u0103i."
         ], 
         "type": "Scut de Spate", 
         "description": "Scutul \u015earjator"
@@ -148,15 +148,15 @@
     }, 
     "122": {
         "type": "Cheat Detector", 
-        "description": "Contul dumneavoastr\u0103 a fost \u00eensemnat pentru tri\u015farea sistemului de distribuire a obiectelor. Obiectele ob\u0163inute ilegal au fost \u015fterse.\n\nViitoarele contraven\u0163ii duc la \u015ftergerea tuturor obiectelor."
+        "description": "Contul dumneavoastr\u0103 a fost \u00eensemnat pentru tri\u015farea sistemului de distribuire a obiectelor. Obiectele ob\u0163inute ilegal au fost \u015fterse.\r\n\r\nViitoarele contraven\u0163ii duc la \u015ftergerea tuturor obiectelor."
     }, 
     "123": {
         "type": "Cheat Detector", 
-        "description": "Contul dumneavoastr\u0103 a fost \u00eensemnat pentru tri\u015farea sistemului de distribuire a obiectelor. Toate obiectele au fost \u015fterse.\n\nViitoarele contraven\u0163ii duc la \u00eenchiderea contului."
+        "description": "Contul dumneavoastr\u0103 a fost \u00eensemnat pentru tri\u015farea sistemului de distribuire a obiectelor. Toate obiectele au fost \u015fterse.\r\n\r\nViitoarele contraven\u0163ii duc la \u00eenchiderea contului."
     }, 
     "124": {
         "type": "Cheat Detector", 
-        "description": "Felicit\u0103ri! Onestitatea dumneavoasta v-a adus o nou\u0103 p\u0103l\u0103rie!\n\n(Unii dintre ceilalti juc\u0103tori au fost mai pu\u0163in scrofulo\u015fi la datorie \u015fi au fost mai putin norocosi)"
+        "description": "Felicit\u0103ri! Onestitatea dumneavoasta v-a adus o nou\u0103 p\u0103l\u0103rie!\r\n\r\n(Unii dintre ceilalti juc\u0103tori au fost mai pu\u0163in scrofulo\u015fi la datorie \u015fi au fost mai putin norocosi)"
     }, 
     "125": {
         "alt": [
@@ -183,7 +183,7 @@
     }, 
     "128": {
         "positive": [
-            "Daunele \u015fi viteza de mi\u015fcare devin din ce\n\u00een ce mai mari pe m\u0103sur\u0103 ce e\u015fti r\u0103nit"
+            "Daunele \u015fi viteza de mi\u015fcare devin din ce\r\n\u00een ce mai mari pe m\u0103sur\u0103 ce e\u015fti r\u0103nit"
         ], 
         "type": "T\u00e2rn\u0103cop", 
         "description": "Egalizatorul"
@@ -207,7 +207,7 @@
     }, 
     "58": {
         "alt": [
-            "Inamicii uzi primesc mini-criticale\nFolosit pentru a stinge incendii"
+            "Inamicii uzi primesc mini-criticale\r\nFolosit pentru a stinge incendii"
         ], 
         "type": "Borcan Bazat Pe Karate", 
         "description": "\u015eu\u015fu"
@@ -434,6 +434,10 @@
         ], 
         "type": "Ciocan de lemn din Alungarea", 
         "description": "Ban Hammer"
+    }, 
+    "240": {
+        "type": "Hat", 
+        "description": "Lumbricus Lid"
     }, 
     "102": {
         "type": "Hat", 
@@ -677,28 +681,28 @@
     }, 
     "160": {
         "alt": [
-            "Supremul armament semi-ascuns.\nF\u0103r\u0103 de seam\u0103 c\u0103-\u0163i va folosi aceast\u0103 arm\u0103,\n dar \u00eentrebarea r\u0103m\u00e2ne: unde o vei \u0163ine?"
+            "Supremul armament semi-ascuns.\r\nF\u0103r\u0103 de seam\u0103 c\u0103-\u0163i va folosi aceast\u0103 arm\u0103,\r\n dar \u00eentrebarea r\u0103m\u00e2ne: unde o vei \u0163ine?"
         ], 
         "type": "Pistol", 
         "description": "Lugermorph-ul"
     }, 
     "161": {
         "alt": [
-            "Combin\u0103 stilul cu puterea de oprire.\n\u00cenainte exclusiv\u0103 pentru Poli\u0163ia Independent\u0103,\ndar acum disponibil\u0103 \u015fi pentru al\u0163i mercenari \u00eenseta\u0163i de \u015f\u00e2nge."
+            "Combin\u0103 stilul cu puterea de oprire.\r\n\u00cenainte exclusiv\u0103 pentru Poli\u0163ia Independent\u0103,\r\ndar acum disponibil\u0103 \u015fi pentru al\u0163i mercenari \u00eenseta\u0163i de \u015f\u00e2nge."
         ], 
         "type": "Revolver", 
         "description": "Big Kill-ul"
     }, 
     "162": {
         "alt": [
-            "P\u0103l\u0103rie creat\u0103 cu fine\u0163e din ferme f\u0103r\u0103 cruzime\ndin Filipine. Cascheta f\u0103cut\u0103 din craniu scobit pe din\u0103untru\nscap\u0103 de umiditate \u00een focul b\u0103t\u0103liei."
+            "P\u0103l\u0103rie creat\u0103 cu fine\u0163e din ferme f\u0103r\u0103 cruzime\r\ndin Filipine. Cascheta f\u0103cut\u0103 din craniu scobit pe din\u0103untru\r\nscap\u0103 de umiditate \u00een focul b\u0103t\u0103liei."
         ], 
         "type": "Hat", 
         "description": "Capul T\u0103iat a lui Max"
     }, 
     "163": {
         "alt": [
-            "Sub efectul acestuia daunele provocate\n\u015fi cele primite vor fi mini-critcale.", 
+            "Sub efectul acestuia daunele provocate\r\n\u015fi cele primite vor fi mini-critcale.", 
             "Adaug\u0103 +50 max via\u0163\u0103 pentru 30 de secunde"
         ], 
         "type": "Caset\u0103 cu M\u00e2ncare", 
@@ -929,7 +933,7 @@
     }, 
     "141": {
         "positive": [
-            "C\u00e2nd santinela este distrus\u0103 tu\nprime\u015fti criticale de revan\u015f\u0103 pentru fiecare omor a santinelei"
+            "C\u00e2nd santinela este distrus\u0103\r\ntu prime\u015fti criticale de revan\u015f\u0103\r\npentru fiecare omor a santinelei"
         ], 
         "type": "Pu\u015fc\u0103", 
         "negative": [

@@ -32,10 +32,10 @@
         "positive": [
             "+50% mun. m\u00e1xima secund\u00e1ria do utilizador", 
             "+6 de bombas colocadas", 
-            "Detonar bombas colantes perto da mina", 
-            "Capazes de destruir bombas colantes inimigas"
+            "Detona bombas adesivas perto da mira", 
+            "Capazes de destruir bombas adesivas inimigas"
         ], 
-        "type": "Lan\u00e7a-bombas colantes", 
+        "type": "Lan\u00e7a-bombas-adesivas", 
         "negative": [
             "Tempo de activa\u00e7\u00e3o de bomba 0.4 segundo mais lento"
         ], 
@@ -91,8 +91,8 @@
         "description": "PDA"
     }, 
     "20": {
-        "type": "Lan\u00e7a-bombas colantes", 
-        "description": "Lan\u00e7a-bombas colantes"
+        "type": "Lan\u00e7a-bombas-adesivas", 
+        "description": "Lan\u00e7a-bombas-adesivas"
     }, 
     "21": {
         "type": "Lan\u00e7a-chamas", 
@@ -108,7 +108,7 @@
     }, 
     "95": {
         "type": "Hat", 
-        "description": "Bon\u00e9 do engineer"
+        "description": "Bon\u00e9 do Engenheiro"
     }, 
     "28": {
         "type": "PDA", 
@@ -167,7 +167,7 @@
     }, 
     "126": {
         "type": "Boina de veterano", 
-        "description": "O chap\u00e9u do Bill"
+        "description": "Chap\u00e9u do Bill"
     }, 
     "127": {
         "positive": [
@@ -183,7 +183,7 @@
     }, 
     "128": {
         "positive": [
-            "Os danos e a velocidade aumentam \u00e0 medida que o utilizador fica ferido"
+            "Os Danos e Velocidade aumentam\r\n\u00e0 medida que o utilizador \u00e9 ferido\r\nBloqueia a cura quando usado"
         ], 
         "type": "Picareta", 
         "description": "Equalizer"
@@ -209,7 +209,7 @@
         "alt": [
             "Os inimigos cobertos t\u00eam mini-pot\u00eancia\r\nTamb\u00e9m \u00e9 \u00fatil para apagar um inc\u00eandio"
         ], 
-        "type": "Karat\u00e9 Jar", 
+        "type": "Karat\u00e9 baseado num Frasco", 
         "description": "Jarate"
     }, 
     "55": {
@@ -218,7 +218,7 @@
     }, 
     "54": {
         "type": "Hat", 
-        "description": "Muni\u00e7\u00f5es de soldado"
+        "description": "Utens\u00edlios do Soldado"
     }, 
     "57": {
         "positive": [
@@ -237,7 +237,7 @@
     }, 
     "50": {
         "type": "Hat", 
-        "description": "Farda Prussiana"
+        "description": "Pickelhaube Prussiano"
     }, 
     "53": {
         "type": "Hat", 
@@ -330,7 +330,7 @@
             "Iniciais bordadas dizem '\\\"Z.M.\\\""
         ], 
         "type": "Hat", 
-        "description": "Chap\u00e9u monstruoso"
+        "description": "Cartola Sinistra"
     }, 
     "111": {
         "type": "Hat", 
@@ -435,6 +435,10 @@
         "type": "Mallet de banimento", 
         "description": "Ban Hammer"
     }, 
+    "240": {
+        "type": "Hat", 
+        "description": "Lumbricus Lid"
+    }, 
     "102": {
         "type": "Hat", 
         "description": "Luva de borracha Desrespeitada"
@@ -480,11 +484,11 @@
             "Sem danos cr\u00edticos contra jogadores que n\u00e3o estejam a arder", 
             "-50% de danos contra jogadores que n\u00e3o estejam a arder"
         ], 
-        "description": "Axtinguisher"
+        "description": "O Axtinguisher"
     }, 
     "33": {
-        "type": "Pistola de seringa", 
-        "description": "Pistola de seringa"
+        "type": "Pistola de seringas", 
+        "description": "Pistola de seringas"
     }, 
     "32": {
         "type": "Serra de ossos", 
@@ -512,7 +516,7 @@
         "positive": [
             "Por dano: energia +3"
         ], 
-        "type": "Pistola de seringa", 
+        "type": "Pistola de seringas", 
         "negative": [
             "-2 de energia gasta por segundo do utilizador"
         ], 
@@ -526,7 +530,7 @@
             "A SobreCarga concede 100% de hip\u00f3tese de dano cr\u00edtico"
         ], 
         "type": "Arma m\u00e9dica", 
-        "description": "Kritzkrieg"
+        "description": "A Kritzkrieg"
     }, 
     "34": {
         "type": "Arma m\u00e9dica", 
@@ -602,7 +606,7 @@
     }, 
     "170": {
         "alt": [
-            "Data de aluguer: %s1"
+            "Data de contrata\u00e7\u00e3o: %s1"
         ], 
         "type": "Divisa", 
         "description": "Guerreiro Primitivo"
@@ -649,25 +653,25 @@
     }, 
     "169": {
         "type": "Chave inglesa", 
-        "description": "The Golden Wrench"
+        "description": "A Chave Dourada"
     }, 
     "164": {
         "alt": [
-            "Data de aluguer: %s1"
+            "Data de contrata\u00e7\u00e3o: %s1"
         ], 
         "type": "Divisa", 
         "description": "Veterano Grisalho"
     }, 
     "165": {
         "alt": [
-            "Data de aluguer: %s1"
+            "Data de contrata\u00e7\u00e3o: %s1"
         ], 
         "type": "Divisa", 
         "description": "Soldado da Fortuna"
     }, 
     "166": {
         "alt": [
-            "Data de aluguer: %s1"
+            "Data de contrata\u00e7\u00e3o: %s1"
         ], 
         "type": "Divisa", 
         "description": "Mercen\u00e1rio"
@@ -726,8 +730,8 @@
         "description": "Espingarda Sniper"
     }, 
     "17": {
-        "type": "Pistola de seringa", 
-        "description": "Pistola de seringa"
+        "type": "Pistola de seringas", 
+        "description": "Pistola de seringas"
     }, 
     "16": {
         "type": "Metralhadora de m\u00e3o (SMG)", 
@@ -773,7 +777,7 @@
             "Sem danos cr\u00edticos aleat\u00f3rios", 
             "20% de vulnerabilidade a danos por fogo do utilizador"
         ], 
-        "description": "The Southern Hospitality"
+        "description": "A Hospitalidade do Sul"
     }, 
     "154": {
         "positive": [
@@ -820,7 +824,7 @@
         "negative": [
             "-15 energia m\u00e1xima por utilizador"
         ], 
-        "description": "Sandman"
+        "description": "O Sandman"
     }, 
     "45": {
         "positive": [
@@ -833,7 +837,7 @@
             "-60% de capacidade do carregador", 
             "-10% de danos provocados"
         ], 
-        "description": "Force-A-Nature"
+        "description": "A For\u00e7a-da-Natureza"
     }, 
     "42": {
         "type": "Lancheira", 
@@ -893,7 +897,7 @@
     }, 
     "144": {
         "type": "Hat", 
-        "description": "M\u00e1scara de Cirurgi\u00e3o"
+        "description": "M\u00e1scara Cir\u00fargica"
     }, 
     "145": {
         "type": "Hat", 
@@ -908,7 +912,7 @@
             "Sem danos cr\u00edticos aleat\u00f3rios", 
             "Substitui a sentinela com uma mini-sentinela de constru\u00e7\u00e3o r\u00e1pida"
         ], 
-        "description": "The Gunslinger"
+        "description": "O Pistoleiro"
     }, 
     "143": {
         "alt": [
@@ -933,11 +937,11 @@
             "Sem danos cr\u00edticos aleat\u00f3rios", 
             "-50% de capacidade do carregador"
         ], 
-        "description": "The Frontier Justice"
+        "description": "A Justi\u00e7a Fronteira"
     }, 
     "148": {
         "type": "Hat", 
-        "description": "Capacete para Soldar"
+        "description": "M\u00e1scara de Soldar"
     }, 
     "2": {
         "type": "Machado de fogo", 

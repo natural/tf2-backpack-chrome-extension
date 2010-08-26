@@ -4316,8 +4316,6 @@ Blocks healing when in use"
 "[english]Attrib_StickiesDetonateStickies"	"Able to destroy enemy stickybombs"
 "Attrib_SpeedBoostWhenActive"	"%s1% de mejora de velocidad mientras sea el arma activa"
 "[english]Attrib_SpeedBoostWhenActive"	"%s1% speed boost while active weapon"
-"Attrib_WrenchNoUpgrades"	"No se pueden mejorar los objetos"
-"[english]Attrib_WrenchNoUpgrades"	"Unable to upgrade objects"
 "Attrib_ProvideOnActive"	"Cuando el arma está activa:"
 "[english]Attrib_ProvideOnActive"	"When weapon is active:"
 "Attrib_MedicRegenBonus"	"+%s1% a la velocidad de regeneración natural"
@@ -4406,14 +4404,62 @@ Blocks healing when in use"
 "[english]TF_TTG_SamRevolver"	"Big Kill"
 "TF_NonUnique_Append_Proper"	"(%s1)"	[$!ENGLISH]
 "[english]TF_NonUnique_Append_Proper"	"(%s1)"
+"TF_Unique_Achievement_Medigun1"	"La Kritzkrieg"	[$!ENGLISH]
+"[english]TF_Unique_Achievement_Medigun1"	"The Kritzkrieg"
+"TF_Unique_Achievement_Syringegun1"	"La Blutsauger"	[$!ENGLISH]
+"[english]TF_Unique_Achievement_Syringegun1"	"The Blutsauger"
+"TF_Unique_Achievement_Bonesaw1"	"La Ubersaw"	[$!ENGLISH]
+"[english]TF_Unique_Achievement_Bonesaw1"	"The Ubersaw"
+"TF_Unique_Achievement_FireAxe1"	"El Hacherminador"	[$!ENGLISH]
+"[english]TF_Unique_Achievement_FireAxe1"	"The Axtinguisher"
+"TF_Unique_Achievement_FlareGun"	"La Pistola de Bengalas"	[$!ENGLISH]
+"[english]TF_Unique_Achievement_FlareGun"	"The Flare Gun"
+"TF_Unique_Achievement_Flamethrower"	"El Dragón"	[$!ENGLISH]
+"[english]TF_Unique_Achievement_Flamethrower"	"The Backburner"
+"TF_Unique_Achievement_LunchBox"	"El Focata"	[$!ENGLISH]
+"[english]TF_Unique_Achievement_LunchBox"	"The Sandvich"
+"TF_Unique_Achievement_Fists"	"Los Kañeros Guantes de Boxeo"	[$!ENGLISH]
+"[english]TF_Unique_Achievement_Fists"	"The Killing Gloves of Boxing"
+"TF_Unique_Achievement_Bat"	"El Somnífero"	[$!ENGLISH]
+"[english]TF_Unique_Achievement_Bat"	"The Sandman"
+"TF_Unique_Achievement_Scattergun_Double"	"La Dispensadora de Caña"	[$!ENGLISH]
+"[english]TF_Unique_Achievement_Scattergun_Double"	"The Force-A-Nature"
+"TF_Unique_Achievement_EnergyDrink"	"¡Plonk! La Bebida Salvavidas"	[$!ENGLISH]
+"[english]TF_Unique_Achievement_EnergyDrink"	"Bonk! Atomic Punch"
+"TF_Unique_Achievement_CloakWatch"	"El Embozador"	[$!ENGLISH]
+"[english]TF_Unique_Achievement_CloakWatch"	"The Cloak and Dagger"
+"TF_Unique_Achievement_FeignWatch"	"El Duplicante"	[$!ENGLISH]
+"[english]TF_Unique_Achievement_FeignWatch"	"The Dead Ringer"
 "TF_Unique_Achievement_Revolver"	"La Embajadora"	[$!ENGLISH]
 "[english]TF_Unique_Achievement_Revolver"	"The Ambassador"
+"TF_Unique_Backstab_Shield"	"El Caparazumbador"	[$!ENGLISH]
+"[english]TF_Unique_Backstab_Shield"	"The Razorback"
+"TF_Unique_Achievement_Jar"	"Fraskungfú"	[$!ENGLISH]
+"[english]TF_Unique_Achievement_Jar"	"Jarate"
+"TF_Unique_Achievement_CompoundBow"	"El Cazador"	[$!ENGLISH]
+"[english]TF_Unique_Achievement_CompoundBow"	"The Huntsman"
+"TF_Unique_Achievement_SoldierBuff"	"El Estandarte de Ánimo"	[$!ENGLISH]
+"[english]TF_Unique_Achievement_SoldierBuff"	"The Buff Banner"
+"TF_Unique_Achievement_Pickaxe"	"El Ecualizador"	[$!ENGLISH]
+"[english]TF_Unique_Achievement_Pickaxe"	"The Equalizer"
+"TF_Unique_Achievement_RocketLauncher"	"El Impacto Directo"	[$!ENGLISH]
+"[english]TF_Unique_Achievement_RocketLauncher"	"The Direct Hit"
+"TF_Unique_Achievement_StickyLauncher"	"La Resistencia Escocesa"	[$!ENGLISH]
+"[english]TF_Unique_Achievement_StickyLauncher"	"The Scottish Resistance"
+"TF_Unique_Achievement_Shield"	"El Targe de Carga"	[$!ENGLISH]
+"[english]TF_Unique_Achievement_Shield"	"The Chargin' Targe"
+"TF_Unique_Achievement_Sword"	"La Intuertal"	[$!ENGLISH]
+"[english]TF_Unique_Achievement_Sword"	"The Eyelander"
+"TF_Unique_Blast_Boots"	"Las Botas Blindadas"	[$!ENGLISH]
+"[english]TF_Unique_Blast_Boots"	"The Gunboats"
 "TF_Unique_SledgeHammer"	"El Demoledor"	[$!ENGLISH]
 "[english]TF_Unique_SledgeHammer"	"The Homewrecker"
 "TF_Unique_Lunchbox_Chocolate"	"Chocolatina Dalokohs"	[$!ENGLISH]
 "[english]TF_Unique_Lunchbox_Chocolate"	"The Dalokohs Bar"
 "TF_TTG_MaxGun"	"La Lugermorfa"	[$!ENGLISH]
 "[english]TF_TTG_MaxGun"	"The Lugermorph"
+"TF_TTG_SamRevolver"	"La Gran Masacre"	[$!ENGLISH]
+"[english]TF_TTG_SamRevolver"	"The Big Kill"
 "TF_Unique_Makeshiftclub"	"El Tren del Dolor"	[$!ENGLISH]
 "[english]TF_Unique_Makeshiftclub"	"The Pain Train"
 "TF_Unique_Achievement_Sword_Desc"	"Esta arma tiene un amplio alcance cuerpo a cuerpo.
@@ -4602,6 +4648,12 @@ Future violations may result in your account being disabled."
 "[english]ViewBlog"	"View TF2 Blog"
 "ViewUpdate"	"Ver últimas noticias de actualizaciones"
 "[english]ViewUpdate"	"View Latest Update News"
+"ReadAllAboutIt"	"¡Más Información!"
+"[english]ReadAllAboutIt"	"Read all about it!"
+"TF_Highlander_Mode"	"Modo 
+Realista"
+"[english]TF_Highlander_Mode"	"Highlander
+Mode"
 "TF_Teams_Full"	"Los equipos
 están completos"
 "[english]TF_Teams_Full"	"Teams
@@ -4628,14 +4680,28 @@ Are Full"
 "[english]TF_DemomanTricorne"	"Tippler's Tricorne"
 "TF_SpyBeret"	"Boina de Franchute"
 "[english]TF_SpyBeret"	"Frenchman's Beret"
+"TF_PyroHelm"	"Casco de Bombero Victoriano"
+"[english]TF_PyroHelm"	"Vintage Merryweather"
 "TF_SoldierDrillHat"	"Sombrero de Sargento Instructor"
 "[english]TF_SoldierDrillHat"	"Sergeant's Drill Hat"
+"TF_HeavyDorag"	"Bandana de Motorista"
+"[english]TF_HeavyDorag"	"Heavy Duty Rag"
 "TF_Object_Tele"	"Teleportador"
 "[english]TF_Object_Tele"	"Teleporter"
 "TF_Teleporter_Mode_Entrance"	"Entrada"
 "[english]TF_Teleporter_Mode_Entrance"	"Entrance"
 "TF_Teleporter_Mode_Exit"	"Salida"
 "[english]TF_Teleporter_Mode_Exit"	"Exit"
+"TF_ObjStatus_Teleporter"	"Teleportador (Level %s1 ) Salud %s1 Estado - %s2"
+"[english]TF_ObjStatus_Teleporter"	"Teleporter (Level %s1 )  Health %s1  Status - %s2"
+"TF_Obj_Teleporter_State_Idle"	"Buscando Teleportador Vinculado"
+"[english]TF_Obj_Teleporter_State_Idle"	"Looking for Matching Teleporter"
+"Teleporter_idle"	"Este teleportador no está vinculado."
+"[english]Teleporter_idle"	"This teleporter does not have a match."
+"Building_hud_tele_not_built"	"Entrada del Teleportador
+No Construida"
+"[english]Building_hud_tele_not_built"	"Teleporter Entrance
+Not Built"
 "Loadout_OpenBackpack"	"Abrir tu Mochila"
 "[english]Loadout_OpenBackpack"	"Open your Backpack"
 "Loadout_OpenBackpackDesc"	"(%s1 OBJETOS DENTRO)"
@@ -4666,6 +4732,10 @@ COMBINING ITEMS IN YOUR BACKPACK"
 "[english]Attrib_DmgAppliesToSappers"	"Damage removes Sappers"
 "Attrib_BleedingDuration"	"Al impactar: %s1 segundos de hemorragia"
 "[english]Attrib_BleedingDuration"	"On Hit: Bleed for %s1 seconds"
+"TF_Unique_EnergyDrink_CritCola"	"Criticola"	[$ENGLISH]
+"[english]TF_Unique_EnergyDrink_CritCola"	"Crit-a-Cola"
+"TF_Unique_TribalmanKukri"	"Cuchilla Tribal"	[$ENGLISH]
+"[english]TF_Unique_TribalmanKukri"	"Tribalman's Shiv"
 "TF_Unique_EnergyDrink_CritCola"	"CritiCola"	[$!ENGLISH]
 "[english]TF_Unique_EnergyDrink_CritCola"	"Crit-a-Cola"
 "TF_Unique_TribalmanKukri"	"La Cuchilla Tribal"	[$!ENGLISH]
@@ -4732,8 +4802,40 @@ and damage taken will be mini-crits."
 "[english]Tip_2_11"	"As a Sniper, use Jarate to douse flames on yourself and on teammates."
 "Tip_2_13"	"Como Sniper, la Cuchilla Tribal causa hemorragia al enemigo. Puede serte útil para localizar Spies."
 "[english]Tip_2_13"	"As a Sniper, the Tribalman's Shiv causes a bleed on hit.  This can be useful for tracking down Spies."
+"Tip_3_5"	"Dañarte durante el período de preparación no incrementa el porcentaje de Supercarga de tu Medic."
+"[english]Tip_3_5"	"Damaging yourself during Setup time does not increase your Medic's ÜberCharge rate."
 "Tip_3_6"	"Como Soldier, agacharte mientras saltas incrementará la altura de tu salto con cohete."
 "[english]Tip_3_6"	"As a Soldier, a crouch-jump will increase your rocket jump height!"
+"Tip_5_6"	"Como Medic, acumulas Supercarga a velocidad máxima durante el periodo de preparación."
+"[english]Tip_5_6"	"As a Medic, you build ÜberCharge at the maximum rate during setup time."
+"Tip_5_7"	"Como Medic, no puedes capturar puntos de control mientras eres invulnerable."
+"[english]Tip_5_7"	"As a Medic, you cannot capture a Control Point while invulnerable."
+"Tip_5_8"	"Como Medic, cura a Soldiers y Demomen al principio de cada ronda para que puedan emplear sus puntos de vida extra en dar saltos con cohete y bombas lapa a lo largo del mapa."
+"[english]Tip_5_8"	"As a Medic, heal Soldiers and Demomen at the beginning of rounds so they can use the extra health to rocket or sticky jump across the map."
+"Tip_5_9"	"Como Medic, puedes usar tu Supercarga sin un paciente para salvarte a ti mismo en situaciones peliagudas."
+"[english]Tip_5_9"	"As a Medic, you can ÜberCharge without a heal target to save yourself in dire situations."
+"Tip_5_10"	"Como Medic, es mejor usar una Supercarga prematuramente que morir con ella."
+"[english]Tip_5_10"	"As a Medic, it's better to use an ÜberCharge too early than lose it by being killed."
+"Tip_5_11"	"Como Medic, engaña al enemigo usando el comando de voz \"¡Supercarga lista!\" para simular que tienes una Supercarga preparada."
+"[english]Tip_5_11"	"As a Medic, mess with the enemy by using the \"ÜberCharge ready!\" voice command to pretend you have an ÜberCharge prepared."
+"Tip_5_12"	"Como Medic, puedes mantener a varios objetivos por encima de sus puntos de vida normales para así permitir que aguanten más daño."
+"[english]Tip_5_12"	"As a Medic, you can keep multiple targets overhealed allowing them to absorb more damage."
+"Tip_5_13"	"Como Medic, tu serrucho golpea un 20% más rápido que la Übersaw. Usa el serrucho como protección si la Supercarga no es tan importante."
+"[english]Tip_5_13"	"As a Medic, your bonesaw swings 20%% faster than the Übersaw. Use the bonesaw in defensive situations where ÜberCharge isn't as important."
+"Tip_5_14"	"Como Medic, recuerda que las jeringuillas describen una parábola. Apunta un poco más arriba de tu objetivo para darle."
+"[english]Tip_5_14"	"As a Medic, remember that syringes travel in arcs. Aim higher than your intended target to land successful hits."
+"Tip_5_15"	"Como Medic, recuerda que los impactos críticos no surten efecto en armas centinela. Mejor usa la Kritzkrieg en zonas llenas de jugadores."
+"[english]Tip_5_15"	"As a Medic, remember that critical hits have no effect on sentry guns. Use the Kritzkrieg in areas full of players instead."
+"Tip_5_16"	"Como Medic, la Übersaw te proporcionará Supercarga incluso si le das a un Scout bajo los efectos de ¡Plonk! La Bebida Salvavidas."
+"[english]Tip_5_16"	"As a Medic, the Übersaw will still gain you ÜberCharge if the enemy being hit is a Scout phasing with Bonk! Atomic Punch."
+"Tip_5_17"	"Como Medic, usar la Supercarga para volverte invulnerable al daño no significa que estés completamente a salvo. Los Pyros y las explosiones te pueden empujar lejos de tu paciente."
+"[english]Tip_5_17"	"As a Medic, using ÜberCharge to be invulnerable to damage does not mean you are free from harm. Watch out for Pyro air blasts and explosive knock back."
+"Tip_5_18"	"Como Medic, mientras atacas con una Supercarga, intenta acercarte a las armas centinela todo lo posible permitiendo que tus compañeros puedan aproximarse lo suficiente para destruirlas."
+"[english]Tip_5_18"	"As a Medic, when attacking with an ÜberCharge try to get as close to sentries as possible so your teammates can get close enough to destroy them."
+"Tip_5_19"	"Como Medic, tu pistola de jeringuillas normal te cura automáticamente 3 puntos de vida por segundo, al contrario que la Blutsauger, que sólo cura 1 punto de vida por segundo."
+"[english]Tip_5_19"	"As a Medic, your default syringe gun automatically heals you over time by 3 health per second compared to the Blutsauger's 1 health per second."
+"Tip_5_20"	"Como Medic, la Übersaw no te conferirá porcentaje de Supercarga si le golpeas a un Spy enemigo disfrazado."
+"[english]Tip_5_20"	"As a Medic, the Ubersaw will not gain you ÜberCharge if the enemy being hit is a disguised Spy."
 "ConfirmTitle"	"¿ESTÁS SEGURO?"
 "[english]ConfirmTitle"	"ARE YOU SURE?"
 "WelcomeBack"	"Bienvenido de nuevo, %playername%"

@@ -435,6 +435,10 @@
         "type": "Mallet de ban", 
         "description": "Ban Hammer"
     }, 
+    "240": {
+        "type": "Hat", 
+        "description": "Lumbricus Lid"
+    }, 
     "102": {
         "type": "Hat", 
         "description": "Hanekammuts"
@@ -805,7 +809,7 @@
     }, 
     "49": {
         "type": "Hat", 
-        "description": "Rugbyhelm"
+        "description": "Amerikaanse Voetbal Helm"
     }, 
     "46": {
         "type": "Lunchtrommel", 
@@ -940,7 +944,7 @@
     }, 
     "148": {
         "type": "Hat", 
-        "description": "Lasmasker"
+        "description": "Laskap"
     }, 
     "2": {
         "type": "Vuurbijl", 
