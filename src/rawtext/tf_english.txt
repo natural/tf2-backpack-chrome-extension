@@ -2948,7 +2948,7 @@ Build teleporters to help team mates get to the front lines!"
 
 // Backpack panel
 "BackpackItemsExplanation_Title"	"Backpack"
-"BackpackItemsExplanation_Text"		"Here you'll find all your items. You can click and drag them to rearrange to your liking.\n\nItems that are equipped in a class's loadout with be marked as 'equipped'."
+"BackpackItemsExplanation_Text"		"Here you'll find all your items. You can click and drag them to rearrange to your liking.\n\nItems that are equipped in a class's loadout will be marked as 'equipped'."
 "BackpackPagesExplanation_Title"	"Backpack Pages"
 "BackpackPagesExplanation_Text"		"Your backpack has multiple pages of items. Use these buttons to flip between them."
 "BackpackDeleteExplanation_Title"	"Deleting Items"

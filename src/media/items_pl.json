@@ -266,56 +266,56 @@
             "U\u017cywany w planach do okre\u015blenia slotu wyposa\u017cenia"
         ], 
         "type": "Przedmiot wytwarzania", 
-        "description": "Token slotu - Podstawowa"
+        "description": "\u017beton slotu - Podstawowy"
     }, 
     "5013": {
         "alt": [
             "U\u017cywany w planach do okre\u015blenia slotu wyposa\u017cenia"
         ], 
         "type": "Przedmiot wytwarzania", 
-        "description": "Token slotu - Podrz\u0119dna"
+        "description": "\u017beton slotu - Drugorz\u0119dny"
     }, 
     "5014": {
         "alt": [
             "U\u017cywany w planach do okre\u015blenia slotu wyposa\u017cenia"
         ], 
         "type": "Przedmiot wytwarzania", 
-        "description": "Token slotu - Do walki wr\u0119cz"
+        "description": "\u017beton slotu - Do walki wr\u0119cz"
     }, 
     "5015": {
         "alt": [
             "U\u017cywany w planach do okre\u015blenia slotu wyposa\u017cenia"
         ], 
         "type": "Przedmiot wytwarzania", 
-        "description": "Token slotu - Granat"
+        "description": "\u017beton slotu - Granat"
     }, 
     "5016": {
         "alt": [
             "U\u017cywany w planach do okre\u015blenia slotu wyposa\u017cenia"
         ], 
         "type": "Przedmiot wytwarzania", 
-        "description": "Token slotu - Konstrukcja"
+        "description": "\u017beton slotu - Konstrukcja"
     }, 
     "5017": {
         "alt": [
             "U\u017cywany w planach do okre\u015blenia slotu wyposa\u017cenia"
         ], 
         "type": "Przedmiot wytwarzania", 
-        "description": "Token slotu - PDA"
+        "description": "\u017beton slotu - PDA"
     }, 
     "5018": {
         "alt": [
             "U\u017cywany w planach do okre\u015blenia slotu wyposa\u017cenia"
         ], 
         "type": "Przedmiot wytwarzania", 
-        "description": "Token slotu - PDA2"
+        "description": "\u017beton slotu - PDA2"
     }, 
     "5019": {
         "alt": [
             "U\u017cywany w planach do okre\u015blenia slotu wyposa\u017cenia"
         ], 
         "type": "Przedmiot wytwarzania", 
-        "description": "Token slotu - G\u0142owa"
+        "description": "\u017beton slotu - G\u0142owa"
     }, 
     "115": {
         "type": "\u015awi\u0105teczny kapelusz", 
@@ -602,7 +602,7 @@
         "negative": [
             "-50% zadanych obra\u017ce\u0144"
         ], 
-        "description": "Plemienne ostrze"
+        "description": "Plemienne Ostrze"
     }, 
     "170": {
         "alt": [
@@ -637,7 +637,7 @@
     }, 
     "189": {
         "type": "Hat", 
-        "description": "Alien Swarm Parasite"
+        "description": "Paso\u017cyt z Alien Swarm"
     }, 
     "185": {
         "type": "Hat", 
@@ -854,7 +854,7 @@
         "negative": [
             "-20% wolniejszy strza\u0142"
         ], 
-        "description": "Zab\u00f3jcze R\u0119kawice Bokserskie"
+        "description": "Krytyczne Grzmoty Bokserskie"
     }, 
     "40": {
         "positive": [
@@ -940,7 +940,7 @@
             "Bez losowych trafie\u0144 krytycznych", 
             "-50% rozmiaru magazynka"
         ], 
-        "description": "R\u0119ka Sprawiedliwo\u015bci"
+        "description": "Samos\u0105d"
     }, 
     "148": {
         "type": "Hat", 

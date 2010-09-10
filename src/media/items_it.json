@@ -183,7 +183,7 @@
     }, 
     "128": {
         "positive": [
-            "I danni e la velocit\u00e0 di spostamento aumentano con l'aumentare delle ferite sull'utente"
+            "I danni e la velocit\u00e0 di spostamento aumentano\r\n con l'aumentare delle ferite del giocatore\r\nBlocca la guarigione quando in uso"
         ], 
         "type": "Piccone", 
         "description": "Equalizer"
@@ -755,7 +755,7 @@
     }, 
     "153": {
         "positive": [
-            "I danni rimuovono gli artificieri", 
+            "I danni rimuovono i sabotatori", 
             "100% danni contro costruzioni"
         ], 
         "type": "Mazza", 
@@ -824,7 +824,7 @@
         "negative": [
             "Energia massima su chi lo indossa -15"
         ], 
-        "description": "Sandman"
+        "description": "La Sandman"
     }, 
     "45": {
         "positive": [
@@ -912,7 +912,7 @@
             "Nessun colpo critico casuale", 
             "Sostituisce un mitra automatico con un mini mitra automatico che viene costruito in fretta"
         ], 
-        "description": "The Gunslinger"
+        "description": "Il Pugno di Ferro"
     }, 
     "143": {
         "alt": [
@@ -937,7 +937,7 @@
             "Nessun colpo critico casuale", 
             "Dimensioni caricatore -50%"
         ], 
-        "description": "The Frontier Justice"
+        "description": "La Giustizia di Frontiera"
     }, 
     "148": {
         "type": "Hat", 

@@ -249,8 +249,11 @@
     "its_msg_35": {
 	"message":"Suggest Something Better",
 	"description":""
+    },
+    "its_msg_36": {
+	"message":"View Player Stats",
+	"description":""
     }
-
 
 
 }

@@ -108,6 +108,10 @@ var showTab = {
 	return this.open(this.isTF2ItemsUrl, profile.backpackViewUrl());
     },
 
+    externalStats: function() {
+	return this.open(this.isTF2StatsUrl, profile.playerStatsUrl());
+    },
+
     steamProfile: function(id) {
 	return this.open(this.isSteamCommunityProfileUrl(id), profile.communityUrl(id));
     },
@@ -131,13 +135,23 @@ var showTab = {
     },
 
     isTF2ItemsUrl: function (url) {
-	var urlItems = profile.backpackViewUrl();
+	var urlItems = profile.playerStatsUrl();
 	if (url.indexOf(urlItems) != 0) {
 	    return false;
 	}
 	return url.length == urlItems.length ||
             url[urlItems.length] == "?" ||
 	    url[urlItems.length] == "#";
+    },
+
+    isTF2StatsUrl: function (url) {
+	var urlStats = profile.backpackViewUrl();
+	if (url.indexOf(urlStats) != 0) {
+	    return false;
+	}
+	return url.length == urlStats.length ||
+            url[urlStats.length] == "?" ||
+	    url[urlStats.length] == "#";
     },
 
     isSteamCommunityProfileUrl: function (id) {

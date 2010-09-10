@@ -8,7 +8,7 @@
     }, 
     "132": {
         "alt": [
-            "Det h\u00e4r vapnet har h\u00f6g r\u00e4ckvidd i n\u00e4rstrid.\r\nGer \u00f6kad hastighet och h\u00e4lsa f\u00f6r varje huvud du hugger av."
+            "Det h\u00e4r vapnet har h\u00f6g r\u00e4ckvidd i n\u00e4rstrid.\r\nGer \u00f6kad hastighet och h\u00e4lsa\r\nf\u00f6r varje huvud du hugger av."
         ], 
         "type": "Sv\u00e4rd", 
         "negative": [
@@ -43,7 +43,7 @@
     }, 
     "137": {
         "type": "Hat", 
-        "description": "Nobel Anhopning av Hattar"
+        "description": "Nobel Anhopning Av Hattar"
     }, 
     "136": {
         "alt": [
@@ -54,7 +54,7 @@
     }, 
     "135": {
         "type": "Hat", 
-        "description": "Reslig Pelare av Hattar"
+        "description": "Reslig Pelare Av Hattar"
     }, 
     "134": {
         "alt": [
@@ -65,7 +65,7 @@
     }, 
     "139": {
         "type": "Hat", 
-        "description": "Anspr\u00e5ksl\u00f6s H\u00f6g av Hatt"
+        "description": "Anspr\u00e5ksl\u00f6s H\u00f6g Av Hatt"
     }, 
     "138": {
         "alt": [
@@ -183,7 +183,7 @@
     }, 
     "128": {
         "positive": [
-            "Skada och f\u00f6rflyttningshastighet \u00f6kar\r\nom anv\u00e4ndaren blir s\u00e5rad.\r\nBlockerar helande n\u00e4r den anv\u00e4nds"
+            "Skada och f\u00f6rflyttningshastighet \u00f6kar\r\nom anv\u00e4ndaren blir s\u00e5rad.\r\nBlockerar helande vid anv\u00e4ndning"
         ], 
         "type": "Hacka", 
         "description": "Utj\u00e4mnaren"
@@ -209,7 +209,7 @@
         "alt": [
             "Nedst\u00e4nkta fiender tar mini-kritiska tr\u00e4ffar\r\n\u00c4ven anv\u00e4ndbart till att sl\u00e4cka en eld"
         ], 
-        "type": "Karate i burk", 
+        "type": "Burk-Baserad Karate", 
         "description": "Jarate"
     }, 
     "55": {
@@ -449,7 +449,7 @@
     }, 
     "100": {
         "type": "Hat", 
-        "description": "Glengarry-h\u00e4tta"
+        "description": "Glengarry-H\u00e4tta"
     }, 
     "101": {
         "type": "Hat", 
@@ -465,7 +465,7 @@
     }, 
     "104": {
         "type": "Hat", 
-        "description": "\u00d6ron-n\u00e4sa-hals-specialistens Spegel"
+        "description": "\u00d6ron-N\u00e4sa-Hals-Specialistens Spegel"
     }, 
     "105": {
         "type": "Hat", 
@@ -544,7 +544,7 @@
             "D\u00f6ljningstyp: R\u00f6relsek\u00e4nslig"
         ], 
         "type": "Osynlighetsklocka", 
-        "description": "Dolken och Manteln"
+        "description": "Dolken Och Manteln"
     }, 
     "61": {
         "positive": [
@@ -582,7 +582,7 @@
     }, 
     "174": {
         "type": "Hat", 
-        "description": "Whoopee-m\u00f6ssa"
+        "description": "Whoopee-M\u00f6ssa"
     }, 
     "172": {
         "positive": [
@@ -637,7 +637,7 @@
     }, 
     "189": {
         "type": "Hat", 
-        "description": "Alien Swarm Parasite"
+        "description": "Alien Swarm-Parasit"
     }, 
     "185": {
         "type": "Hat", 
@@ -702,7 +702,7 @@
     }, 
     "163": {
         "alt": [
-            "Under p\u00e5verkan blir skada utdelad\r\noch skada tilldelad mini-kritiska tr\u00e4ffar.", 
+            "Under p\u00e5verkan blir skada utdelad\r\noch skada mottagen mini-kritiska tr\u00e4ffar.", 
             "L\u00e4gger till +50 max h\u00e4lsa i 30 sekunder"
         ], 
         "type": "Lunchl\u00e5da", 
@@ -797,7 +797,7 @@
             "L\u00e4gger till +50 max h\u00e4lsa i 30 sekunder"
         ], 
         "type": "Lunchl\u00e5da", 
-        "description": "Dalokohs-kakan"
+        "description": "Dalokohs-Kakan"
     }, 
     "158": {
         "type": "Hat", 
@@ -821,7 +821,7 @@
     }, 
     "44": {
         "positive": [
-            "Det h\u00e4r slagtr\u00e4et sl\u00e5r ut en elak bed\u00f6vningsboll"
+            "Det h\u00e4r slagtr\u00e4t sl\u00e5r ut en elak bed\u00f6vningsboll"
         ], 
         "type": "Slagtr\u00e4", 
         "negative": [
@@ -854,7 +854,7 @@
         "negative": [
             "-20% l\u00e5ngsammare eldgivningshastighet"
         ], 
-        "description": "M\u00f6rdar-Handskarna av Boxning"
+        "description": "M\u00f6rdar-Handskarna Av Boxning"
     }, 
     "40": {
         "positive": [
@@ -933,14 +933,14 @@
     }, 
     "141": {
         "positive": [
-            "N\u00e4r ditt vaktgev\u00e4r f\u00f6rst\u00f6rs f\u00e5r\r\ndu kritiska h\u00e4mndtr\u00e4ffar f\u00f6r varje fiende\r\nsom d\u00f6dats med vaktgev\u00e4ret"
+            "N\u00e4r ditt vaktgev\u00e4r f\u00f6rst\u00f6rs f\u00e5r\r\ndu kritiska h\u00e4mndtr\u00e4ffar f\u00f6r varje fiende som d\u00f6dats med vaktgev\u00e4ret"
         ], 
         "type": "Hagelgev\u00e4r", 
         "negative": [
             "Inga slumpm\u00e4ssiga kritiska tr\u00e4ffar", 
             "-50% magasinstorlek"
         ], 
-        "description": "Frontens R\u00e4ttvisa"
+        "description": "Den Lagl\u00f6ses R\u00e4ttvisa"
     }, 
     "148": {
         "type": "Hat", 

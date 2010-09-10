@@ -174,7 +174,7 @@ Your flamethrower is more effective the closer you are to your target!"
 "classinfo_spy"	"Travestiti da nemico e infiltrati nella loro base!
 Mimetizzati per non essere visto!
 Pugnala alle spalle i nemici con il coltello per ucciderli all'istante!
-Posiziona gli artificieri sui mitra automatici nemici per distruggerli!"
+Posiziona i sabotatori sulle torrette nemici per distruggerli!"
 "[english]classinfo_spy"	"Disguise yourself as a enemy and infiltrate the enemy base!
 cloak yourself to avoid being seen!
 Backstab your enemies with your knife for an instant kill!
@@ -1742,7 +1742,7 @@ They can be upgraded all the way to level 3!"
 "Tip_7_6"	"Premi %voicemenu 0 0% per chiamare un Medico se sei ferito. I Medici vicini verranno avvertiti che hai bisogno di aiuto."
 "[english]Tip_7_6"	"Hit %voicemenu 0 0% to call for a Medic if you get hurt. Nearby Medics will be notified of your need."
 "Tip_8_Count"	"31"
-"[english]Tip_8_Count"	"31"
+"[english]Tip_8_Count"	"30"
 "Tip_8_1"	"Come Spia, usa il coltello per pugnalare alle spalle i nemici uccidendoli all'istante."
 "[english]Tip_8_1"	"As a Spy, use your knife to backstab enemies from behind, killing them instantly."
 "Tip_8_2"	"Come Spia, usa il kit di travestimenti per farti scambiare per un nemico. Ma attenzione, se attacchi il travestimento sarà rimosso."
@@ -1831,8 +1831,7 @@ They can be upgraded all the way to level 3!"
 "[english]Building_hud_sentry_rockets"	"Rockets:"
 "Building_hud_sentry_upgrade"	"Potenziam.:"
 "[english]Building_hud_sentry_upgrade"	"Upgrade:"
-"Building_hud_sentry_numkills"	"Uccisioni:
-%numkills%"
+"Building_hud_sentry_numkills"	"Uccisioni: %numkills%"
 "[english]Building_hud_sentry_numkills"	"Kills: %numkills%"
 "Building_hud_dispenser_ammo"	"Metallo:"
 "[english]Building_hud_dispenser_ammo"	"Metal:"
@@ -1846,8 +1845,8 @@ They can be upgraded all the way to level 3!"
 %timesused%"
 "[english]Building_hud_tele_times_used_360"	"Used:
 %timesused%"
-"Building_hud_sentry_not_built"	"Mitra automatico
-Non costruito"
+"Building_hud_sentry_not_built"	"Torretta
+Non costruita"
 "[english]Building_hud_sentry_not_built"	"Sentry Gun
 Not Built"
 "Building_hud_dispenser_not_built"	"Dispenser
@@ -1855,15 +1854,15 @@ Non costruito"
 "[english]Building_hud_dispenser_not_built"	"Dispenser
 Not Built"
 "Building_hud_tele_enter_not_built"	"Entrata teletrasporto
-Non costruito"
+Non costruita"
 "[english]Building_hud_tele_enter_not_built"	"Entrance
 Not Built"
 "Building_hud_tele_exit_not_built"	"Uscita teletrasporto
-Non costruito"
+Non costruita"
 "[english]Building_hud_tele_exit_not_built"	"Exit
 Not Built"
-"Building_hud_sentry_not_built_360"	"Mitra autom.
-Non costruito"
+"Building_hud_sentry_not_built_360"	"Torretta
+Non costruita"
 "[english]Building_hud_sentry_not_built_360"	"Sentry
 Not Built"
 "Building_hud_tele_enter_not_built_360"	"Ingresso
@@ -1889,7 +1888,7 @@ Metal"
 "Hud_Menu_Build_Cancel"	"Premi '%lastinv%' per Annullare"
 "[english]Hud_Menu_Build_Cancel"	"Hit '%lastinv%' to Cancel"
 "Hud_Menu_Spy_Minus_Toggle"	"Premi \"e\" per cambiare squadra"
-"[english]Hud_Menu_Spy_Minus_Toggle"	"Hit 'e' to Toggle Team"
+"[english]Hud_Menu_Spy_Minus_Toggle"	"Hit '%disguiseteam%' to Toggle Team"
 "Hud_Menu_Spy_Toggle"	"Cambia squadra"
 "[english]Hud_Menu_Spy_Toggle"	"Toggle Teams"
 "Hud_Menu_Spy_Select_Disguise"	"Seleziona travestimento"
@@ -3868,9 +3867,9 @@ NEXT >"
 "[english]MultiDeleteItemConfirmText"	"Deleting these items will permanently destroy all of them. This cannot be undone."
 "X_DeleteConfirmButton"	"X SÌ, ELIMINA"
 "[english]X_DeleteConfirmButton"	"X YEAH, DELETE IT"
-"Backpack_Delete_Item"	"ZAINO - ELIMINA OGGETTO"
+"Backpack_Delete_Item"	"ZAINO - SPAZIO TERMINATO"
 "[english]Backpack_Delete_Item"	"BACKPACK - OUT OF ROOM"
-"DiscardExplanation"	"Hai raccolto questo oggetto ma non hai spazio nello zaino."
+"DiscardExplanation"	"Hai ricevuto questo oggetto, ma non hai spazio nello zaino."
 "[english]DiscardExplanation"	"You've received this item, but you don't have room for it in your backpack."
 "DiscardExplanation2"	"Elimina un oggetto in basso per fare spazio o premi Rifiuta per lasciare il nuovo oggetto."
 "[english]DiscardExplanation2"	"Delete an item below to make room or press discard to throw your new item away."
@@ -4314,7 +4313,9 @@ Also handy for putting out a fire"
 "[english]Attrib_MetalRegen"	"+%s1 metal regenerated every 5 seconds on wearer"
 "Attrib_RocketLauncherSeeker"	"Spara ai razzi guidati tramite laser"
 "[english]Attrib_RocketLauncherSeeker"	"Fires laser guided rockets"
-"Attrib_ShovelDamageBoost"	"I danni e la velocità di spostamento aumentano con l'aumentare delle ferite sull'utente"
+"Attrib_ShovelDamageBoost"	"I danni e la velocità di spostamento aumentano
+ con l'aumentare delle ferite del giocatore
+Blocca la guarigione quando in uso"
 "[english]Attrib_ShovelDamageBoost"	"Damage and move speed increase
 as the user becomes injured
 Blocks healing when in use"
@@ -4424,6 +4425,8 @@ Blocks healing when in use"
 "[english]TF_TTG_SamRevolver"	"Big Kill"
 "TF_NonUnique_Append_Proper"	"(%s1)"	[$!ENGLISH]
 "[english]TF_NonUnique_Append_Proper"	"(%s1)"
+"TF_Unique_Achievement_Bat"	"La Sandman"	[$!ENGLISH]
+"[english]TF_Unique_Achievement_Bat"	"The Sandman"
 "TF_Unique_Achievement_Sword_Desc"	"Quest'arma ha un'ampia gittata corpo a corpo.
 Offre velocità e salute ottimizzate con ogni testa che ottieni."
 "[english]TF_Unique_Achievement_Sword_Desc"	"This weapon has a large melee range.
@@ -4712,7 +4715,7 @@ COMBINING ITEMS IN YOUR BACKPACK"
 "[english]RDO_ABC2"	"Produces: %s1, %s2, %s3"
 "Attrib_EmployeeNumber"	"Data assunzione: %s1"
 "[english]Attrib_EmployeeNumber"	"Hire Date: %s1"
-"Attrib_DmgAppliesToSappers"	"I danni rimuovono gli artificieri"
+"Attrib_DmgAppliesToSappers"	"I danni rimuovono i sabotatori"
 "[english]Attrib_DmgAppliesToSappers"	"Damage removes Sappers"
 "Attrib_BleedingDuration"	"Per colpo: sanguina per %s1 secondi"
 "[english]Attrib_BleedingDuration"	"On Hit: Bleed for %s1 seconds"
@@ -5376,6 +5379,20 @@ Ready to play online against other players? Select START PLAYING at the main men
 "[english]TF_Weapon_Robot_Arm"	"Robot Arm"
 "TF_Wrangler_Desc"	"Assumi il comando manuale del mitra automatico"
 "[english]TF_Wrangler_Desc"	"Take manual control of your Sentry Gun"
+"Thunderm_cap_1_A"	"Rampa di lancio, Fase Uno"
+"[english]Thunderm_cap_1_A"	"Ramp deck, Stage One"
+"Thunderm_cap_1_B"	"Piattaforma Principale, Fase Uno"
+"[english]Thunderm_cap_1_B"	"Main Platform, Stage One"
+"Thunderm_cap_2_A"	"Segheria, Fase Due"
+"[english]Thunderm_cap_2_A"	"Lumber Mill, Stage Two"
+"Thunderm_cap_2_B"	"La Fossa, Fase Due"
+"[english]Thunderm_cap_2_B"	"The Pit, Stage Two"
+"Thunderm_cap_3_A"	"Edificio A, Fase Tre"
+"[english]Thunderm_cap_3_A"	"Building A, Stage Three"
+"Thunderm_cap_3_B"	"Edificio B, Fase Tre"
+"[english]Thunderm_cap_3_B"	"Building B, Stage Three"
+"Thunderm_cap_3_C"	"Torre, Fase Finale"
+"[english]Thunderm_cap_3_C"	"Tower, Final Cap"
 "Building_hud_sentry_numassists"	"Aiuti: %numassists%"
 "[english]Building_hud_sentry_numassists"	"Assists: %numassists%"
 "Building_hud_sentry_kills_assists"	"%numkills% (%numassists%)"
@@ -5534,6 +5551,10 @@ Ready to play online against other players? Select START PLAYING at the main men
 "[english]TF_ENGINEER_HEAVY_ASSIST_NAME"	"(Not So) Lonely Are the Brave"
 "TF_ENGINEER_HEAVY_ASSIST_DESC"	"Cura un Grosso con il tuo dispenser mentre realizza 5 uccisioni."
 "[english]TF_ENGINEER_HEAVY_ASSIST_DESC"	"Keep a Heavy healed with your dispenser while he gains 5 kills."
+"RI_Ii"	"oggetto"
+"[english]RI_Ii"	"item"
+"RI_I"	"Oggetto"
+"[english]RI_I"	"Item"
 "Attrib_WrenchBuildsMiniSentry"	"Sostituisce un mitra automatico con un mini mitra automatico che viene costruito in fretta"
 "[english]Attrib_WrenchBuildsMiniSentry"	"Replaces the Sentry with a fast building Mini-Sentry"
 "Attrib_SentryKilledRevenge"	"Quando un tuo mitra automatico viene distrutto
@@ -5543,7 +5564,17 @@ ottieni un numero di critici-vendetta pari alle uccisioni da esso totalizzate"
 gain revenge crits for every sentry kill"
 "Attrib_BuildingCostReduction"	"Riduzione del metallo pari a %s1 nel costo delle costruzioni"
 "[english]Attrib_BuildingCostReduction"	"%s1 metal reduction in building cost"
+"TF_Unique_Sentry_Shotgun"	"Giustizia di Frontiera"	[$ENGLISH]
+"[english]TF_Unique_Sentry_Shotgun"	"Frontier Justice"
+"TF_Unique_Robot_Arm"	"Pugno di Ferro"	[$ENGLISH]
+"[english]TF_Unique_Robot_Arm"	"Gunslinger"
+"TF_Unique_Sentry_Shotgun"	"La Giustizia di Frontiera"	[$!ENGLISH]
+"[english]TF_Unique_Sentry_Shotgun"	"The Frontier Justice"
+"TF_Unique_Robot_Arm"	"Il Pugno di Ferro"	[$!ENGLISH]
+"[english]TF_Unique_Robot_Arm"	"The Gunslinger"
 "TF_UseGlowEffect"	"Utilizza l'effetto luminoso per gli obiettivi nelle mappe Carico e Cattura la bandiera."
 "[english]TF_UseGlowEffect"	"Use glow effect for Payload objectives."
+"TF_Training_Title"	"ADDESTRAMENTO"
+"[english]TF_Training_Title"	"TRAINING"
 }
 }

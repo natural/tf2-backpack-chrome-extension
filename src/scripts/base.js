@@ -1,3 +1,13 @@
+var itemPos = function(item) {
+    return item['inventory'] & 0xfff;
+};
+var FOO = function() {
+    u = "http://steamcommunity.com/profiles/76561197992805111/tfitems?json=1";
+    x = $.getJSON(u);
+    j = JSON.parse(x.responseText);
+    item = j[1863474];
+    pos = itemPos(item);
+};
 var colors = {
     red: [208, 0, 24, 255],
     blue: [51, 152, 197, 255],
@@ -6,9 +16,10 @@ var colors = {
 };
 var urls = {
     tf2Items:"http://www.tf2items.com/",
+    tf2Stats:"http://tf2stats.net/",
     steamCommunity:"http://steamcommunity.com/",
     sourceOp:"http://www.sourceop.com/",
-
+    steamItems:"http://steamcommunity.com/profiles/76561197992805111/tfitems?json=1"
 };
 urls.profileSearch = urls.tf2Items + "search.php?tf2items_q=";
 urls.pnatural = urls.steamCommunity + "profiles/76561197992805111";
@@ -43,6 +54,11 @@ var profile = {
     backpackViewUrl: function() {
 	var id = storage.profileId();
 	return id ? urls.tf2Items + "profiles/" + id : urls.tf2Items;
+    },
+
+    playerStatsUrl: function() {
+	var id = storage.profileId();
+	return id ? urls.tf2Stats + "player_stats/" + id : urls.tf2Stats;
     },
 
     communityUrl: function (id) {

@@ -8,7 +8,7 @@
     }, 
     "132": {
         "alt": [
-            "T\u00e4ll\u00e4 aseella on pitk\u00e4 kantama l\u00e4hitaistelussa.\r\nSaat lis\u00e4\u00e4 nopeutta ja terveytt\u00e4 jokaisesta katkaisemastasi p\u00e4\u00e4st\u00e4."
+            "T\u00e4ll\u00e4 aseella on pitk\u00e4 kantama l\u00e4hitaistelussa.\r\nSaat lis\u00e4\u00e4 nopeutta ja terveytt\u00e4\r\njokaisesta katkaisemastasi p\u00e4\u00e4st\u00e4."
         ], 
         "type": "Miekka", 
         "negative": [
@@ -23,7 +23,7 @@
             "+40% r\u00e4j\u00e4hdysvahingon sietoa k\u00e4ytt\u00e4j\u00e4lle"
         ], 
         "alt": [
-            "Vaihtoehtoinen tulitus: Saat lis\u00e4\u00e4 hy\u00f6kk\u00e4ysvoimaa rynn\u00e4k\u00f6im\u00e4ll\u00e4 p\u00e4in vihollisia."
+            "Vaihtoehtoinen tulitus: Saat lis\u00e4\u00e4 hy\u00f6kk\u00e4ysvoimaa\r\nrynn\u00e4k\u00f6im\u00e4ll\u00e4 p\u00e4in vihollisia."
         ], 
         "type": "Suoja", 
         "description": "Rynn\u00e4kk\u00f6kilpi"
@@ -183,7 +183,7 @@
     }, 
     "128": {
         "positive": [
-            "Vahinko ja liikkumisnopeus kasvavat k\u00e4ytt\u00e4j\u00e4n vahingoittuessa"
+            "Vahinko ja liikkumisnopeus\r\nkasvavat k\u00e4ytt\u00e4j\u00e4n vahingoittuessa\r\nEst\u00e4\u00e4 parantamisen kun k\u00e4yt\u00f6ss\u00e4"
         ], 
         "type": "Hakku", 
         "description": "Tasoittaja"
@@ -637,7 +637,7 @@
     }, 
     "189": {
         "type": "Hat", 
-        "description": "Alien Swarm Parasite"
+        "description": "Muukalaisloinen"
     }, 
     "185": {
         "type": "Hat", 

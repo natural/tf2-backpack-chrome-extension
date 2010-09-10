@@ -8,7 +8,7 @@
     }, 
     "132": {
         "alt": [
-            "Arme de corps \u00e0 corps \u00e0 longue port\u00e9e.\r\nAm\u00e9liore votre vitesse et votre sant\u00e9 \u00e0 mesure que vous d\u00e9capitez vos ennemis."
+            "Arme de corps \u00e0 corps \u00e0 longue port\u00e9e.\r\nAm\u00e9liore votre vitesse et votre sant\u00e9\r\n\u00e0 mesure que vous d\u00e9capitez vos ennemis."
         ], 
         "type": "Ep\u00e9e", 
         "negative": [
@@ -23,7 +23,7 @@
             "R\u00e9sistance aux d\u00e9g\u00e2ts d'explosion +40% pour le porteur"
         ], 
         "alt": [
-            "TIR SECONDAIRE\u00a0: am\u00e9liore votre puissance d'attaque en chargeant votre ennemi."
+            "TIR SECONDAIRE : am\u00e9liore votre puissance\r\nd'attaque en chargeant votre ennemi."
         ], 
         "type": "Bouclier", 
         "description": "Le Bouclier b\u00e9lier"
@@ -183,7 +183,7 @@
     }, 
     "128": {
         "positive": [
-            "Les d\u00e9g\u00e2ts et la vitesse de d\u00e9placement augmentent lorsque le joueur est bless\u00e9"
+            "Les d\u00e9g\u00e2ts et la vitesse de d\u00e9placement augmentent\r\nlorsque le joueur est bless\u00e9\r\nBloque les soins quand il est utilis\u00e9"
         ], 
         "type": "Pioche", 
         "description": "L'Equalizer"
@@ -637,7 +637,7 @@
     }, 
     "189": {
         "type": "Hat", 
-        "description": "Alien Swarm Parasite"
+        "description": "Parasite d'Alien Swarm"
     }, 
     "185": {
         "type": "Hat", 
@@ -691,11 +691,11 @@
             "Concilie l'\u00e9l\u00e9gance avec la puissance d'attaque.\r\nLongtemps r\u00e9serv\u00e9 \u00e0 la Police Freelance,\r\nil est maintenant accessible \u00e0 d'autres mercenaires assoiff\u00e9s de sang"
         ], 
         "type": "Revolver", 
-        "description": "Big Kill"
+        "description": "The Big Kill"
     }, 
     "162": {
         "alt": [
-            "Expertly crafted headwear from cruelty-free farms\\nin the Philippines. Hollowed-out skull casing wicks\\nmoisture away when in the heat of battle."
+            "Expertly crafted headwear from cruelty-free farms\r\nin the Philippines. Hollowed-out skull casing wicks\r\nmoisture away when in the heat of battle."
         ], 
         "type": "Hat", 
         "description": "T\u00eate coup\u00e9e de Max"
@@ -790,7 +790,7 @@
         "negative": [
             "Vuln\u00e9rabilit\u00e9 aux d\u00e9g\u00e2ts par balle 10% pour le porteur"
         ], 
-        "description": "Pain Train"
+        "description": "The Pain Train"
     }, 
     "159": {
         "positive": [
