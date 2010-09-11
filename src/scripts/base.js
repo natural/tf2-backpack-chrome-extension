@@ -1,6 +1,3 @@
-var itemPos = function(item) {
-    return item['inventory'] & 0xfff;
-};
 var FOO = function() {
     u = "http://steamcommunity.com/profiles/76561197992805111/tfitems?json=1";
     x = $.getJSON(u);
@@ -8,12 +5,21 @@ var FOO = function() {
     item = j[1863474];
     pos = itemPos(item);
 };
+
+
+var itemPos = function(item) {
+    return item['inventory'] & 0xfff;
+};
+
+
 var colors = {
     red: [208, 0, 24, 255],
     blue: [51, 152, 197, 255],
     green: [59, 174, 73, 255],
     grey: [128, 128, 128, 255],
 };
+
+
 var urls = {
     tf2Items:"http://www.tf2items.com/",
     tf2Stats:"http://tf2stats.net/",
@@ -44,8 +50,8 @@ Function.prototype.curry = function() { return curry(this); };
 
 var profile = {
     feedUrl: function () {
-	if (storage.testFeed()) {
-	    return chrome.extension.getURL(storage.testFeed());
+	if (storage.testUrl()) {
+	    return chrome.extension.getURL(storage.testUrl());
 	}
 	var id = storage.profileId();
 	return id ? urls.tf2Items + "packxml.php?profileid=" + id : "";
@@ -101,6 +107,17 @@ var storage = {
 	//chrome.extension.onRequest.addListener(this.refreshHandler)
     },
 
+    useNotifications: function(v) {
+	if (typeof(v) == "undefined") {
+	    if (typeof(localStorage.useNotifications) == "undefined") {
+		return true;
+	    } else {
+		return localStorage.useNotifications == "true";
+	    }
+	}
+	localStorage.useNotifications = v;
+    },
+
     profileId: function(v) {
 	if (typeof(v) == "undefined") {
 	    return localStorage.profileId || "";
@@ -122,18 +139,18 @@ var storage = {
 	localStorage.cachedXml = v;
     },
 
-    testFeed: function(v) {
+    testUrl: function(v) {
 	if (typeof(v) == "undefined") {
-	    return localStorage.testXml || "";
+	    return localStorage.testUrl || "";
 	}
-	localStorage.testXml = v;
+	localStorage.testUrl = v;
     },
 
     clear: function() {
 	this.profileId("");
 	this.cachedFeed("");
 	this.debug(false);
-	this.testFeed("");
+	this.testUrl("");
     },
 
     pollMax: function(v) {

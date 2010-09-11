@@ -205,6 +205,13 @@ var feedDriver = {
             var newNodes = $("item", xml).filter(function (index) {
                 return $("position", this).text() == "0"
 	    }).map(hc);
+
+	    notificationTool.showItems(
+		$("item", xml).filter(function (index) {
+                    return $("position", this).text() == "0"
+		})
+	    );
+
 	    self.countHats = $.grep(newNodes, function(node, index) {
 		return node=='Hat' }).length
 	    self.countNotHats = textNodeInt("totalJustFound nonHats", xml);
@@ -294,8 +301,53 @@ var textTool = {
 };
 
 
+var notificationTool = {
+    cache: {},
+    defs: null,
+
+    init: function() {
+	this.loadItemDefs();
+    },
+
+    loadItemDefs: function() {
+	var error = function(req, status, error) {
+	    console.log(req, status, error)
+	};
+	var success = function(data, status, req) {
+	    try {
+		notificationTool.defs = JSON.parse(data);
+	    } catch (e) {
+		error(req, status, data);
+	    }
+	};
+	storage.loadItemDefs(success, error);
+    },
+
+    showItems: function(items) {
+	if (!storage.useNotifications()) {
+	    return;
+	}
+	items.map(function(index, item) {
+	    var uid = $("uniqueId", item).text();
+	    if (uid in notificationTool.cache) {
+		return
+	    }
+	    notificationTool.cache[uid] = uid;
+	    var idx = $(item).attr("definitionIndex");
+	    var pop = webkitNotifications.createNotification(
+		'icons/' + idx + '.png',
+		notificationTool.defs[idx]['description'],
+		'Level ' + $("level", item).text() + " " + notificationTool.defs[idx]['type']
+	    );
+	    pop.show();
+	})
+    },
+};
+
+
 function backgroundInit() {
     iconTool.init();
+    notificationTool.init();
     textTool.init();
     feedDriver.init();
 }

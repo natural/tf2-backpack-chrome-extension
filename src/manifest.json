@@ -16,6 +16,7 @@
   }, 
   "permissions": [
     "tabs", 
+    "notifications",
     "http://steamcommunity.com/", 
     "http://www.tf2items.com/"
   ]

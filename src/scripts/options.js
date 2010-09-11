@@ -12,6 +12,8 @@ var markClean = function() {
 
 
 var save = function(cb) {
+    storage.useNotifications( $("#useToast").attr("checked") );
+
     var newProfileId = $("#profileId").attr("value");
     if (newProfileId == storage.profileId()) { return; }
     profile.search(
@@ -54,6 +56,10 @@ var optionsInit = function(callback) {
 	    markDirty();
 	}
     });
+
+    $("#useToast").attr("checked", storage.useNotifications());
+    $("#useToast").change(markDirty);
+
     $("#save").click(function() {save(callback)} );
     $("#cancel").click(optionsInit);
     $("#msg").text(originalMsg);
