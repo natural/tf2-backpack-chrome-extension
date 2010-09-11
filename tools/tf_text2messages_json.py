@@ -108,7 +108,7 @@ def main(source_messages, target_filename, lang_code):
 
 if __name__ == '__main__':
     target_file = sys.argv[1]
-    cmd = 'grep '+target_file+' control_files.txt |cut -f 3 -d " "|cut -f 3 -d "/"'
+    cmd = 'grep '+target_file+' control_files.txt |cut -f 3 -d " "|cut -f 4 -d "/"'
     target_lang = Popen(cmd, stdout=PIPE,shell=True).stdout.read().strip()
     source_msgs = json.load(open(source_filename))
     main(source_msgs, target_file, target_lang)

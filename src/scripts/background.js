@@ -108,7 +108,6 @@ var feedDriver = {
 	this.pollNext = Date.now() + delay;
 	window.clearTimeout(this.scheduleId);
 	this.scheduleId = window.setTimeout(this.start, delay);
-	//console.log("Scheduled fetch in", delay/1000, "sec.")
     },
 
     // begin a new xhr request for the backpack feed
@@ -171,7 +170,6 @@ var feedDriver = {
 	iconTool.enabled(false);
         textTool.stop("?", colors.grey);
 	chrome.extension.sendRequest({status: status, type: "refresh", message: message});
-	//console.error("Feed fetch error", message||"", "status:", status||"unknown");
     },
 
     // request successful; xml present but not yet checked
@@ -186,7 +184,6 @@ var feedDriver = {
 	var same = $(cs, storage.cachedFeed()).text() == $(cs, text).text()
 	storage.cachedFeed(text);
 	chrome.extension.sendRequest({status: "okay", type: "refresh", updated: !same});
-	//console.log("Feed fetch success");
     },
 
     updateCounts: function(xml) {
@@ -336,8 +333,8 @@ var notificationTool = {
 	    var idx = $(item).attr("definitionIndex");
 	    var pop = webkitNotifications.createNotification(
 		'icons/' + idx + '.png',
-		notificationTool.defs[idx]['description'],
-		'Level ' + $("level", item).text() + " " + notificationTool.defs[idx]['type']
+		_('New Item!') + ' ' + notificationTool.defs[idx]['description'],
+		_(' Level') + ' ' + $("level", item).text() + " " + notificationTool.defs[idx]['type']
 	    );
 	    pop.show();
 	})

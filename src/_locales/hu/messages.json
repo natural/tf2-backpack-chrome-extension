@@ -1,0 +1,311 @@
+{
+    "num4": {
+        "message": "4", 
+        "message-retranslated": "4", 
+        "description": "the number 4"
+    }, 
+    "no_change": {
+        "message": "Nincs v\u00e1ltoz\u00e1s", 
+        "message-retranslated": "No change", 
+        "description": "nothing changed, but have a label!"
+    }, 
+    "profile_found": {
+        "message": "Seg\u00edts\u00e9g\u00e9vel Steam ID $1 $2.", 
+        "message-retranslated": "Using Steam ID $1 $2", 
+        "description": "steam id found in search"
+    }, 
+    "num1": {
+        "message": "1", 
+        "message-retranslated": "1", 
+        "description": "the number 1"
+    }, 
+    "num2": {
+        "message": "2", 
+        "message-retranslated": "2", 
+        "description": "the number 2"
+    }, 
+    "num3": {
+        "message": "3", 
+        "message-retranslated": "3", 
+        "description": "the number 3"
+    }, 
+    "its_msg_12": {
+        "message": "Statisztika", 
+        "message-retranslated": "Statistics", 
+        "description": "stats button"
+    }, 
+    "second": {
+        "message": "m\u00e1sodik", 
+        "message-retranslated": "second", 
+        "description": "second"
+    }, 
+    "warning": {
+        "message": "Figyelmeztet\u00e9s", 
+        "message-retranslated": "Warning", 
+        "description": "warning label"
+    }, 
+    "its_msg_31": {
+        "message": "TF2 h\u00e1tizs\u00e1k Viewer - Be\u00e1ll\u00edt\u00e1sok", 
+        "message-retranslated": "TF2 backpack Viewer - Settings", 
+        "description": "options page title"
+    }, 
+    "refresh_nochange": {
+        "message": "Feed Friss\u00edt\u00e9s - Nem v\u00e1ltoz\u00e1sok", 
+        "message-retranslated": "Feed Update - No change", 
+        "description": "feed refreshed without changes"
+    }, 
+    "language_code": {
+        "message": "hu", 
+        "description": ""
+    }, 
+    "its_msg_30": {
+        "message": "a Steam K\u00f6z\u00f6ss\u00e9g", 
+        "message-retranslated": "Steam Community", 
+        "description": "fragment"
+    }, 
+    "parse_error": {
+        "message": "Feldolgoz\u00e1si hiba", 
+        "message-retranslated": "Parse error", 
+        "description": "some kind of parse error"
+    }, 
+    "its_msg_32": {
+        "message": "Steam Profil", 
+        "message-retranslated": "Steam Profile", 
+        "description": "profile id label"
+    }, 
+    "its_msg_33": {
+        "message": "M\u00e9gsem", 
+        "message-retranslated": "Cancel", 
+        "description": "cancel label, such as for a button"
+    }, 
+    "its_msg_34": {
+        "message": "Hib\u00e1s ford\u00edt\u00e1s?", 
+        "message-retranslated": "Bad translation?", 
+        "description": ""
+    }, 
+    "its_msg_35": {
+        "message": "Azt sugallj\u00e1k, valami jobbat", 
+        "message-retranslated": "I suggest something better", 
+        "description": ""
+    }, 
+    "its_msg_36": {
+        "message": "J\u00e1t\u00e9kos statisztika megtekint\u00e9se", 
+        "message-retranslated": "View Player Stats", 
+        "description": ""
+    }, 
+    "its_msg_16": {
+        "message": "Ismeretlen t\u00e9telek", 
+        "message-retranslated": "Unknown items", 
+        "description": "unknown item count stats title"
+    }, 
+    "its_msg_17": {
+        "message": "F\u00e9m elemek", 
+        "message-retranslated": "Metal Items", 
+        "description": "metal item count stats title"
+    }, 
+    "its_msg_14": {
+        "message": "Norm\u00e1l t\u00e9telek", 
+        "message-retranslated": "Standard items", 
+        "description": "normal item count stats title"
+    }, 
+    "its_msg_15": {
+        "message": "Kalap", 
+        "message-retranslated": "Hat", 
+        "description": "hat count stats title"
+    }, 
+    "extension_default_title": {
+        "message": "Tekintse meg a Team Fortress 2 h\u00e1tizs\u00e1k", 
+        "message-retranslated": "Watch the Team Fortress 2 Backpack", 
+        "description": "Extension default title for browser action"
+    }, 
+    "other_error": {
+        "message": "N\u00e9h\u00e1ny m\u00e1s hiba", 
+        "message-retranslated": "Some other bugs", 
+        "description": "some other kind of error occurred."
+    }, 
+    "its_msg_10": {
+        "message": "Fel\u00fcd\u00edt", 
+        "message-retranslated": "Refresh", 
+        "description": "refresh button"
+    }, 
+    "its_msg_11": {
+        "message": "Opci\u00f3k", 
+        "message-retranslated": "Options", 
+        "description": "options button"
+    }, 
+    "its_msg_18": {
+        "message": "Metal Worth", 
+        "message-retranslated": "Metal Worth", 
+        "description": "metal worth item count"
+    }, 
+    "its_msg_19": {
+        "message": "Megtekint\u00e9sek sz\u00e1ma", 
+        "message-retranslated": "Views", 
+        "description": "count of profile views"
+    }, 
+    "request_aborted": {
+        "message": "K\u00e9r\u00e9s\u00e9re megszakadt a Timeout", 
+        "message-retranslated": "Interrupted at the request of the Timeout", 
+        "description": "request aborted label"
+    }, 
+    "seconds": {
+        "message": "m\u00e1sodik", 
+        "message-retranslated": "second", 
+        "description": "seconds"
+    }, 
+    "extension_desc": {
+        "message": "Gyors hozz\u00e1f\u00e9r\u00e9s az elemek a Team Fortress 2 h\u00e1tizs\u00e1k", 
+        "message-retranslated": "Easy access to the elements of the Team Fortress 2 Backpack", 
+        "description": "Extension description"
+    }, 
+    "its_msg_8": {
+        "message": "Az \u00faj elemek", 
+        "message-retranslated": "The new elements", 
+        "description": "new items title"
+    }, 
+    "its_msg_9": {
+        "message": "H\u00e1tizs\u00e1k", 
+        "message-retranslated": "Backpack", 
+        "description": "backpack title"
+    }, 
+    "equipped": {
+        "message": "Felszerelt", 
+        "message-retranslated": "Equipped", 
+        "description": "equipped label"
+    }, 
+    "its_msg_4": {
+        "message": "Megment", 
+        "message-retranslated": "Save", 
+        "description": "save button"
+    }, 
+    "its_msg_5": {
+        "message": "Reset", 
+        "message-retranslated": "Reset", 
+        "description": "reset button"
+    }, 
+    "its_msg_6": {
+        "message": "K\u00f6zeli", 
+        "message-retranslated": "Close", 
+        "description": "close button"
+    }, 
+    "its_msg_7": {
+        "message": "Karakter Info for $1", 
+        "message-retranslated": "Character Info for $1", 
+        "description": "character info title"
+    }, 
+    "network_error": {
+        "message": "H\u00e1l\u00f3zati hiba", 
+        "message-retranslated": "Network Error", 
+        "description": "some kind of network error"
+    }, 
+    "its_msg_1": {
+        "message": "Profil ID Nem Set!", 
+        "message-retranslated": "Profile ID Not Set!", 
+        "description": "no steam id title"
+    }, 
+    "its_msg_2": {
+        "message": "Ahhoz, hogy haszn\u00e1lni a Team Fortress 2 h\u00e1tizs\u00e1k hozz\u00e1f\u00e9r\u00e9s kiterjeszt\u00e9se adja meg a k\u00f6z\u00f6ss\u00e9g nev\u00e9t vagy profil id van", 
+        "message-retranslated": "To use the Team Fortress 2 Backpack gives you access to the extension of the community's name or profile ID is", 
+        "description": "no steam id help"
+    }, 
+    "its_msg_3": {
+        "message": "(Pl. pnatural vagy 76561197992805111)", 
+        "message-retranslated": "(Eg pnatural or 76561197992805111)", 
+        "description": "no steam id example"
+    }, 
+    "bad_feed": {
+        "message": "Rossz adatok Feed", 
+        "message-retranslated": "Bad Data Feed", 
+        "description": "bad data feed label"
+    }, 
+    "feed_url_error": {
+        "message": "Nem Feed URL", 
+        "message-retranslated": "No Feed URL", 
+        "description": "error because the feed url is empty"
+    }, 
+    "its_msg_29": {
+        "message": "-on", 
+        "message-retranslated": "At", 
+        "description": "just the word 'at'"
+    }, 
+    "its_msg_28": {
+        "message": "Kiterjeszt\u00e9s\u00e9t \u00edrta", 
+        "message-retranslated": "Extension was written by", 
+        "description": "view pnatural profile link"
+    }, 
+    "its_msg_27": {
+        "message": "Powered by", 
+        "message-retranslated": "Powered by", 
+        "description": "powered by"
+    }, 
+    "its_msg_26": {
+        "message": "Profil megtekint\u00e9se", 
+        "message-retranslated": "View Profile", 
+        "description": "view profile link"
+    }, 
+    "its_msg_25": {
+        "message": "Tekintettel h\u00e1tizs\u00e1k", 
+        "message-retranslated": "Given Backpack", 
+        "description": "view backpack link"
+    }, 
+    "its_msg_24": {
+        "message": "Elrejt\u00e9se statisztika", 
+        "message-retranslated": "Hide Stats", 
+        "description": "hide stats button"
+    }, 
+    "its_msg_23": {
+        "message": "A k\u00e9r\u00e9s ideje", 
+        "message-retranslated": "Request Time", 
+        "description": "duration of request"
+    }, 
+    "its_msg_22": {
+        "message": "K\u00f6vetkez\u0151 let\u00f6lt\u00e9se", 
+        "message-retranslated": "Next Download", 
+        "description": "time of next fetch"
+    }, 
+    "its_msg_21": {
+        "message": "Utols\u00f3 let\u00f6lt\u00e9se", 
+        "message-retranslated": "Last Download", 
+        "description": "time of last fetch"
+    }, 
+    "its_msg_20": {
+        "message": "Cache Time", 
+        "message-retranslated": "Cache Time", 
+        "description": "time feed cached"
+    }, 
+    "refreshing": {
+        "message": "\u00dcd\u00edt\u0151", 
+        "message-retranslated": "Refreshing", 
+        "description": "refreshing text goes here"
+    }, 
+    "level": {
+        "message": "Szint\u0171 $1 $2", 
+        "message-retranslated": "$Level 1 $2", 
+        "description": "level label"
+    }, 
+    "extension_name": {
+        "message": "Team Fortress 2 h\u00e1tizs\u00e1k hozz\u00e1f\u00e9r\u00e9s", 
+        "message-retranslated": "Team Fortress 2 Access Backpack", 
+        "description": "Extension name"
+    }, 
+    "from_cache": {
+        "message": "Adatok bet\u00f6lt\u00f6tt Cache", 
+        "message-retranslated": "Data Cache function", 
+        "description": "data loaded from cache label"
+    }, 
+    "error": {
+        "message": "Hiba", 
+        "message-retranslated": "Error", 
+        "description": "error label"
+    }, 
+    "its_msg_13": {
+        "message": "Teljes elemek", 
+        "message-retranslated": "Total Items", 
+        "description": "total item count stats title"
+    }, 
+    "its_msg_0": {
+        "message": "Team Fortress 2 h\u00e1tizs\u00e1k Access (\u00faj \u00e9s jobb)", 
+        "message-retranslated": "Team Fortress 2 Access Backpack (new and improved)", 
+        "description": "page title"
+    }
+}
