@@ -29,11 +29,6 @@
         "message-retranslated": "3", 
         "description": "the number 3"
     }, 
-    "its_msg_12": {
-        "message": "Statisztika", 
-        "message-retranslated": "Statistics", 
-        "description": "stats button"
-    }, 
     "second": {
         "message": "m\u00e1sodik", 
         "message-retranslated": "second", 
@@ -113,10 +108,10 @@
         "message-retranslated": "Hat", 
         "description": "hat count stats title"
     }, 
-    "extension_default_title": {
-        "message": "Tekintse meg a Team Fortress 2 h\u00e1tizs\u00e1k", 
-        "message-retranslated": "Watch the Team Fortress 2 Backpack", 
-        "description": "Extension default title for browser action"
+    "its_msg_12": {
+        "message": "Statisztika", 
+        "message-retranslated": "Statistics", 
+        "description": "stats button"
     }, 
     "other_error": {
         "message": "N\u00e9h\u00e1ny m\u00e1s hiba", 
@@ -133,6 +128,16 @@
         "message-retranslated": "Options", 
         "description": "options button"
     }, 
+    "extension_default_title": {
+        "message": "Tekintse meg a Team Fortress 2 h\u00e1tizs\u00e1k", 
+        "message-retranslated": "Watch the Team Fortress 2 Backpack", 
+        "description": "Extension default title for browser action"
+    }, 
+    "new_item_title_prefix": {
+        "message": "\u00daj elem!", 
+        "message-retranslated": "New Item!", 
+        "description": ""
+    }, 
     "its_msg_18": {
         "message": "Metal Worth", 
         "message-retranslated": "Metal Worth", 
@@ -148,10 +153,10 @@
         "message-retranslated": "Interrupted at the request of the Timeout", 
         "description": "request aborted label"
     }, 
-    "seconds": {
-        "message": "m\u00e1sodik", 
-        "message-retranslated": "second", 
-        "description": "seconds"
+    "bad_feed": {
+        "message": "Rossz adatok Feed", 
+        "message-retranslated": "Bad Data Feed", 
+        "description": "bad data feed label"
     }, 
     "extension_desc": {
         "message": "Gyors hozz\u00e1f\u00e9r\u00e9s az elemek a Team Fortress 2 h\u00e1tizs\u00e1k", 
@@ -213,10 +218,10 @@
         "message-retranslated": "(Eg pnatural or 76561197992805111)", 
         "description": "no steam id example"
     }, 
-    "bad_feed": {
-        "message": "Rossz adatok Feed", 
-        "message-retranslated": "Bad Data Feed", 
-        "description": "bad data feed label"
+    "seconds": {
+        "message": "m\u00e1sodik", 
+        "message-retranslated": "second", 
+        "description": "seconds"
     }, 
     "feed_url_error": {
         "message": "Nem Feed URL", 
@@ -287,6 +292,11 @@
         "message": "Team Fortress 2 h\u00e1tizs\u00e1k hozz\u00e1f\u00e9r\u00e9s", 
         "message-retranslated": "Team Fortress 2 Access Backpack", 
         "description": "Extension name"
+    }, 
+    "new_item_level_prefix": {
+        "message": "Szint", 
+        "message-retranslated": "Level", 
+        "description": ""
     }, 
     "from_cache": {
         "message": "Adatok bet\u00f6lt\u00f6tt Cache", 

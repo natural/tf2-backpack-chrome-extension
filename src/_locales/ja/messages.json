@@ -29,11 +29,6 @@
         "message-retranslated": "3", 
         "description": "the number 3"
     }, 
-    "its_msg_12": {
-        "message": "\u7d71\u8a08", 
-        "message-retranslated": "Statistics", 
-        "description": "stats button"
-    }, 
     "second": {
         "message": "2\u756a\u76ee\u306e", 
         "message-retranslated": "Second", 
@@ -88,6 +83,11 @@
         "message-retranslated": "Suggest something good", 
         "description": ""
     }, 
+    "its_msg_36": {
+        "message": "\u30d7\u30ed\u30d5\u30a3\u30fc\u30ebPlayer\u306e\u7d71\u8a08", 
+        "message-retranslated": "Player Profiles Statistics", 
+        "description": ""
+    }, 
     "its_msg_16": {
         "message": "\u4e0d\u660e\u30a2\u30a4\u30c6\u30e0", 
         "message-retranslated": "Unknown Item", 
@@ -108,10 +108,10 @@
         "message-retranslated": "Hat", 
         "description": "hat count stats title"
     }, 
-    "extension_default_title": {
-        "message": "\u30d7\u30ed\u30d5\u30a3\u30fc\u30eb\u3042\u306a\u305f\u306e\u30c1\u30fc\u30e0\u306e\u8981\u585e2\u30d1\u30c3\u30af", 
-        "message-retranslated": "Team Fortress 2 packs Profile", 
-        "description": "Extension default title for browser action"
+    "its_msg_12": {
+        "message": "\u7d71\u8a08", 
+        "message-retranslated": "Statistics", 
+        "description": "stats button"
     }, 
     "other_error": {
         "message": "\u3044\u304f\u3064\u304b\u306e\u305d\u306e\u4ed6\u306e\u30a8\u30e9\u30fc", 
@@ -128,6 +128,16 @@
         "message-retranslated": "Option", 
         "description": "options button"
     }, 
+    "extension_default_title": {
+        "message": "\u30d7\u30ed\u30d5\u30a3\u30fc\u30eb\u3042\u306a\u305f\u306e\u30c1\u30fc\u30e0\u306e\u8981\u585e2\u30d1\u30c3\u30af", 
+        "message-retranslated": "Team Fortress 2 packs Profile", 
+        "description": "Extension default title for browser action"
+    }, 
+    "new_item_title_prefix": {
+        "message": "\u65b0\u5546\u54c1\uff01", 
+        "message-retranslated": "New Products!", 
+        "description": ""
+    }, 
     "its_msg_18": {
         "message": "\u91d1\u5c5e\u30ef\u30fc\u30b9", 
         "message-retranslated": "Metal Worth", 
@@ -143,10 +153,10 @@
         "message-retranslated": "Interrupted by the request times out", 
         "description": "request aborted label"
     }, 
-    "seconds": {
-        "message": "\u79d2", 
-        "message-retranslated": "Second", 
-        "description": "seconds"
+    "bad_feed": {
+        "message": "\u7121\u52b9\u306a\u30c7\u30fc\u30bf\u30d5\u30a3\u30fc\u30c9", 
+        "message-retranslated": "Invalid data feeds", 
+        "description": "bad data feed label"
     }, 
     "extension_desc": {
         "message": "\u3042\u306a\u305f\u306e\u30c1\u30fc\u30e0\u306e\u8981\u585e2\u30d1\u30c3\u30af\u5185\u306e\u9805\u76ee\u3078\u306e\u30af\u30a4\u30c3\u30af\u30a2\u30af\u30bb\u30b9", 
@@ -208,10 +218,10 @@
         "message-retranslated": "(Example: pnatural 76561197992805111 or)", 
         "description": "no steam id example"
     }, 
-    "bad_feed": {
-        "message": "\u7121\u52b9\u306a\u30c7\u30fc\u30bf\u30d5\u30a3\u30fc\u30c9", 
-        "message-retranslated": "Invalid data feeds", 
-        "description": "bad data feed label"
+    "seconds": {
+        "message": "\u79d2", 
+        "message-retranslated": "Second", 
+        "description": "seconds"
     }, 
     "feed_url_error": {
         "message": "\u3044\u3044\u3048\u30d5\u30a3\u30fc\u30c9\u306eURL", 
@@ -282,6 +292,11 @@
         "message": "\u30c1\u30fc\u30e0\u30d5\u30a9\u30fc\u30c8\u30ec\u30b92\u30d1\u30c3\u30af\u3078\u306e\u30a2\u30af\u30bb\u30b9", 
         "message-retranslated": "Access Chimufotoresu Shakur", 
         "description": "Extension name"
+    }, 
+    "new_item_level_prefix": {
+        "message": "\u30ec\u30d9\u30eb", 
+        "message-retranslated": "Level", 
+        "description": ""
     }, 
     "from_cache": {
         "message": "\u30c7\u30fc\u30bf\u8aad\u307f\u8fbc\u307f\u30ad\u30e3\u30c3\u30b7\u30e5\u304b\u3089", 

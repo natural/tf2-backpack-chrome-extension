@@ -1,268 +1,258 @@
 {
-    "extension_name": {
-	"message": "Team Fortress 2 Backpack Access",
-	"description": "Extension name"
-    },
-    "extension_desc": {
-	"message": "Quick access to items in your Team Fortress 2 backpack",
-	"description": "Extension description"
-    },
-    "extension_default_title": {
-	"message": "View your Team Fortress 2 Backpack",
-	"description": "Extension default title for browser action"
-    },
-    "language_code": {
-        "message": "en",
-        "description": "easy access to the current language code"
-    },
-
-
-
-
-    "num1": {
-	"message":"1",
-	"description": "the number 1"
-    },
-    "num2": {
-	"message":"2",
-	"description": "the number 2"
-    },
-    "num3": {
-	"message":"3",
-	"description": "the number 3"
-    },
-    "num4": {
-	"message":"4",
-	"description": "the number 4"
-    },
-    "refreshing": {
-	"message": "Refreshing",
-	"description": "refreshing text goes here"
-    },
-    "second": {
-	"message": "second",
-	"description": "second"
-    },
-    "seconds": {
-	"message": "seconds",
-	"description": "seconds"
-    },
-    "refresh_nochange": {
-	"message": "Feed Refreshed - No Changes",
-	"description": "feed refreshed without changes"
-    },
-    "warning": {
-	"message": "Warning",
-	"description": "warning label"
-    },
-    "error": {
-	"message": "Error",
-	"description": "error label"
-    },
-    "bad_feed": {
-	"message":"Bad Data Feed",
-	"description": "bad data feed label"
-    },
-    "from_cache": {
-	"message": "Data Loaded from Cache",
-	"description": "data loaded from cache label"
-    },
-    "equipped": {
-	"message": "Equipped",
-	"description": "equipped label"
-    },
-    "request_aborted": {
-	"message": "Request Aborted by Timeout",
-	"description": "request aborted label"
-    },
-    "parse_error": {
-	"message": "Parse Error",
-	"description": "some kind of parse error"
-    },
-    "network_error": {
-	"message": "Network Error",
-	"description": "some kind of network error"
-    },
-    "feed_url_error": {
-	"message": "No Feed URL",
-	"description": "error because the feed url is empty"
-    },
-    "other_error": {
-	"message": "Some Other Error",
-	"description": "some other kind of error occurred."
-    },
-    "profile_found": {
-	"message": "Using Steam ID $1 for $2.",
-	"description": "steam id found in search"
-    },
-    "no_change": {
-	"message": "No change",
-	"description": "nothing changed, but have a label!"
-    },
-    "level": {
-	"message": "Level $1 $2",
-	"description": "level label"
-    },
-
-    "its_msg_0": {
-        "message": "Team Fortress 2 Backpack Access (New and Improved)",
-        "description": "page title"
-    },
-    "its_msg_1": {
-        "message": "Profile ID Not Set!",
-        "description": "no steam id title"
-    },
-    "its_msg_2": {
-        "message": "To use the Team Fortress 2 Backpack Access extension enter your community name or profile id here",
-        "description": "no steam id help"
-    },
-    "its_msg_3": {
-        "message": "(e.g. pnatural or 76561197992805111)",
-        "description": "no steam id example"
-    },
-    "its_msg_4": {
-        "message": "Save",
-        "description": "save button"
-    },
-    "its_msg_5": {
-        "message": "Reset",
-        "description": "reset button"
-    },
-    "its_msg_6": {
-        "message": "Close",
-        "description": "close button"
-    },
-    "its_msg_7": {
-        "message": "Character Info for $1",
-        "description": "character info title"
-    },
-    "its_msg_8": {
-        "message": "New Items",
-        "description": "new items title"
-    },
-    "its_msg_9": {
-        "message": "Backpack",
-        "description": "backpack title"
-    },
-    "its_msg_10": {
-        "message": "Refresh",
-        "description": "refresh button"
-    },
-    "its_msg_11": {
-        "message": "Options",
-        "description": "options button"
-    },
-    "its_msg_12": {
-        "message": "Stats",
-        "description": "stats button"
-    },
-    "its_msg_13": {
-        "message": "Total Items",
-        "description": "total item count stats title"
-    },
-    "its_msg_14": {
-        "message": "Normal Items",
-        "description": "normal item count stats title"
-    },
-    "its_msg_15": {
-        "message": "Hats",
-        "description": "hat count stats title"
-    },
-    "its_msg_16": {
-        "message": "Unknown Items",
-        "description": "unknown item count stats title"
-    },
-    "its_msg_17": {
-        "message": "Metal Items",
-        "description": "metal item count stats title"
-    },
-    "its_msg_18": {
-        "message": "Metal Worth",
-        "description": "metal worth item count"
-    },
-    "its_msg_19": {
-        "message": "Profile Views",
-        "description": "count of profile views"
-    },
-    "its_msg_20": {
-        "message": "Cache Time",
-        "description": "time feed cached"
-    },
-    "its_msg_21": {
-        "message": "Last Fetch",
-        "description": "time of last fetch"
-    },
-    "its_msg_22": {
-        "message": "Next Fetch",
-        "description": "time of next fetch"
-    },
-    "its_msg_23": {
-        "message": "Request Time",
-        "description": "duration of request"
-    },
-    "its_msg_24": {
-        "message": "Hide Stats",
-        "description": "hide stats button"
-    },
-    "its_msg_25": {
-        "message": "View Backpack",
-        "description": "view backpack link"
-    },
-    "its_msg_26": {
-        "message": "View Profile",
-        "description": "view profile link"
-    },
-    "its_msg_27": {
-        "message": "Powered by",
-        "description": "powered by"
-    },
-    "its_msg_28": {
-        "message": "Extension written by",
-        "description": "view pnatural profile link"
-    },
-
-
-   "its_msg_29": {
-        "message": "at",
-        "description": "just the word 'at'"
-    },
-    "its_msg_30": {
-        "message": "at the Steam Community",
-	"description": "fragment"
-    },
-    "its_msg_31": {
-	"message": "TF2 Backpack Viewer - Options",
-	"description": "options page title"
-    },
-    "its_msg_32": {
-	"message": "Steam Profile",
-	"description": "profile id label"
-    },
-    "its_msg_33": {
-	"message": "Cancel",
-	"description": "cancel label, such as for a button"
-    },
-    "its_msg_34": {
-	"message":"Incorrect Translation?",
-	"description":""
-    },
-    "its_msg_35": {
-	"message":"Suggest Something Better",
-	"description":""
-    },
-    "its_msg_36": {
-	"message":"View Player Stats",
-	"description":""
-    },
-
-    "new_item_title_prefix": {
-	"message":"New Item!",
-	"description":""
-    },
-
-    "new_item_level_prefix": {
-	"message":"Level",
-	"description":""
-    }
-
+  "bad_feed": {
+    "description": "bad data feed label",
+    "message": "Bad Data Feed"
+  },
+  "equipped": {
+    "description": "equipped label",
+    "message": "Equipped"
+  },
+  "error": {
+    "description": "error label",
+    "message": "Error"
+  },
+  "extension_default_title": {
+    "description": "Extension default title for browser action",
+    "message": "View your Team Fortress 2 Backpack"
+  },
+  "extension_desc": {
+    "description": "Extension description",
+    "message": "Quick access to items in your Team Fortress 2 backpack"
+  },
+  "extension_name": {
+    "description": "Extension name",
+    "message": "Team Fortress 2 Backpack Access"
+  },
+  "feed_url_error": {
+    "description": "error because the feed url is empty",
+    "message": "No Feed URL"
+  },
+  "from_cache": {
+    "description": "data loaded from cache label",
+    "message": "Data Loaded from Cache"
+  },
+  "its_msg_0": {
+    "description": "page title",
+    "message": "Team Fortress 2 Backpack Access (New and Improved)"
+  },
+  "its_msg_1": {
+    "description": "no steam id title",
+    "message": "Profile ID Not Set!"
+  },
+  "its_msg_10": {
+    "description": "refresh button",
+    "message": "Refresh"
+  },
+  "its_msg_11": {
+    "description": "options button",
+    "message": "Options"
+  },
+  "its_msg_12": {
+    "description": "stats button",
+    "message": "Stats"
+  },
+  "its_msg_13": {
+    "description": "total item count stats title",
+    "message": "Total Items"
+  },
+  "its_msg_14": {
+    "description": "normal item count stats title",
+    "message": "Normal Items"
+  },
+  "its_msg_15": {
+    "description": "hat count stats title",
+    "message": "Hats"
+  },
+  "its_msg_16": {
+    "description": "unknown item count stats title",
+    "message": "Unknown Items"
+  },
+  "its_msg_17": {
+    "description": "metal item count stats title",
+    "message": "Metal Items"
+  },
+  "its_msg_18": {
+    "description": "metal worth item count",
+    "message": "Metal Worth"
+  },
+  "its_msg_19": {
+    "description": "count of profile views",
+    "message": "Profile Views"
+  },
+  "its_msg_2": {
+    "description": "no steam id help",
+    "message": "To use the Team Fortress 2 Backpack Access extension enter your community name or profile id here"
+  },
+  "its_msg_20": {
+    "description": "time feed cached",
+    "message": "Cache Time"
+  },
+  "its_msg_21": {
+    "description": "time of last fetch",
+    "message": "Last Fetch"
+  },
+  "its_msg_22": {
+    "description": "time of next fetch",
+    "message": "Next Fetch"
+  },
+  "its_msg_23": {
+    "description": "duration of request",
+    "message": "Request Time"
+  },
+  "its_msg_24": {
+    "description": "hide stats button",
+    "message": "Hide Stats"
+  },
+  "its_msg_25": {
+    "description": "view backpack link",
+    "message": "View Backpack"
+  },
+  "its_msg_26": {
+    "description": "view profile link",
+    "message": "View Profile"
+  },
+  "its_msg_27": {
+    "description": "powered by",
+    "message": "Powered by"
+  },
+  "its_msg_28": {
+    "description": "view pnatural profile link",
+    "message": "Extension written by"
+  },
+  "its_msg_29": {
+    "description": "just the word 'at'",
+    "message": "at"
+  },
+  "its_msg_3": {
+    "description": "no steam id example",
+    "message": "(e.g. pnatural or 76561197992805111)"
+  },
+  "its_msg_30": {
+    "description": "fragment",
+    "message": "at the Steam Community"
+  },
+  "its_msg_31": {
+    "description": "options page title",
+    "message": "TF2 Backpack Viewer - Options"
+  },
+  "its_msg_32": {
+    "description": "profile id label",
+    "message": "Steam Profile"
+  },
+  "its_msg_33": {
+    "description": "cancel label, such as for a button",
+    "message": "Cancel"
+  },
+  "its_msg_34": {
+    "description": "",
+    "message": "Incorrect Translation?"
+  },
+  "its_msg_35": {
+    "description": "",
+    "message": "Suggest Something Better"
+  },
+  "its_msg_36": {
+    "description": "",
+    "message": "View Player Stats"
+  },
+  "its_msg_4": {
+    "description": "save button",
+    "message": "Save"
+  },
+  "its_msg_5": {
+    "description": "reset button",
+    "message": "Reset"
+  },
+  "its_msg_6": {
+    "description": "close button",
+    "message": "Close"
+  },
+  "its_msg_7": {
+    "description": "character info title",
+    "message": "Character Info for $1"
+  },
+  "its_msg_8": {
+    "description": "new items title",
+    "message": "New Items"
+  },
+  "its_msg_9": {
+    "description": "backpack title",
+    "message": "Backpack"
+  },
+  "language_code": {
+    "description": "easy access to the current language code",
+    "message": "en"
+  },
+  "level": {
+    "description": "level label",
+    "message": "Level $1 $2"
+  },
+  "network_error": {
+    "description": "some kind of network error",
+    "message": "Network Error"
+  },
+  "new_item_level_prefix": {
+    "description": "",
+    "message": "Level"
+  },
+  "new_item_title_prefix": {
+    "description": "",
+    "message": "New Item!"
+  },
+  "no_change": {
+    "description": "nothing changed, but have a label!",
+    "message": "No change"
+  },
+  "num1": {
+    "description": "the number 1",
+    "message": "1"
+  },
+  "num2": {
+    "description": "the number 2",
+    "message": "2"
+  },
+  "num3": {
+    "description": "the number 3",
+    "message": "3"
+  },
+  "num4": {
+    "description": "the number 4",
+    "message": "4"
+  },
+  "other_error": {
+    "description": "some other kind of error occurred.",
+    "message": "Some Other Error"
+  },
+  "parse_error": {
+    "description": "some kind of parse error",
+    "message": "Parse Error"
+  },
+  "profile_found": {
+    "description": "steam id found in search",
+    "message": "Using Steam ID $1 for $2."
+  },
+  "refresh_nochange": {
+    "description": "feed refreshed without changes",
+    "message": "Feed Refreshed - No Changes"
+  },
+  "refreshing": {
+    "description": "refreshing text goes here",
+    "message": "Refreshing"
+  },
+  "request_aborted": {
+    "description": "request aborted label",
+    "message": "Request Aborted by Timeout"
+  },
+  "second": {
+    "description": "second",
+    "message": "second"
+  },
+  "seconds": {
+    "description": "seconds",
+    "message": "seconds"
+  },
+  "warning": {
+    "description": "warning label",
+    "message": "Warning"
+  }
 }

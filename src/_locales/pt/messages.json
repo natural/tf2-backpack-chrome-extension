@@ -1,311 +1,321 @@
-                                                                     
-                                                                     
-                                                                     
-                                             
 {
     "num4": {
-	"message": "4",
-	"message-retranslated": "4",
-	"description": "the number 4"
-    },
+        "message": "4", 
+        "message-retranslated": "4", 
+        "description": "the number 4"
+    }, 
     "no_change": {
-	"message": "Sem Alterações",
-	"message-retranslated": "Unchanged",
-	"description": "Nada mudou!"
-    },
+        "message": "Sem Altera\u00e7\u00f5es", 
+        "message-retranslated": "Unchanged", 
+        "description": "Nada mudou!"
+    }, 
     "profile_found": {
-	"message": "Usando Steam ID 1 para $$2.",
-	"message-retranslated": "Using Steam ID $$1 to 2.",
-	"description": "Steam ID para pesquisa"
-    },
+        "message": "Usando Steam ID 1 para $$2.", 
+        "message-retranslated": "Using Steam ID $$1 to 2.", 
+        "description": "Steam ID para pesquisa"
+    }, 
     "num1": {
-	"message": "1",
-	"message-retranslated": "1",
-	"description": "the number 1"
-    },
+        "message": "1", 
+        "message-retranslated": "1", 
+        "description": "the number 1"
+    }, 
     "num2": {
-	"message": "2",
-	"message-retranslated": "2",
-	"description": "the number 2"
-    },
+        "message": "2", 
+        "message-retranslated": "2", 
+        "description": "the number 2"
+    }, 
     "num3": {
-	"message": "3",
-	"message-retranslated": "3",
-	"description": "the number 3"
-    },
-    "its_msg_12": {
-	"message": "Stats",
-	"message-retranslated": "Stats",
-	"description": "stats button"
-    },
+        "message": "3", 
+        "message-retranslated": "3", 
+        "description": "the number 3"
+    }, 
     "second": {
-	"message": "segunda",
-	"message-retranslated": "second",
-	"description": "second"
-    },
+        "message": "segunda", 
+        "message-retranslated": "second", 
+        "description": "second"
+    }, 
     "warning": {
-	"message": "Aviso",
-	"message-retranslated": "Notice",
-	"description": "warning label"
-    },
+        "message": "Aviso", 
+        "message-retranslated": "Notice", 
+        "description": "warning label"
+    }, 
     "its_msg_31": {
-	"message": "TF2 Backpack Viewer - Opções",
-	"message-retranslated": "TF2 backpack Viewer - Options",
-	"description": "options page title"
-    },
+        "message": "TF2 Backpack Viewer - Op\u00e7\u00f5es", 
+        "message-retranslated": "TF2 backpack Viewer - Options", 
+        "description": "options page title"
+    }, 
     "refresh_nochange": {
-	"message": "Items Atualizados - Sem Alterações",
-	"message-retranslated": "Feed Refreshed - No Change",
-	"description": "feed refreshed without changes"
-    },
+        "message": "Items Atualizados - Sem Altera\u00e7\u00f5es", 
+        "message-retranslated": "Feed Refreshed - No Change", 
+        "description": "feed refreshed without changes"
+    }, 
     "language_code": {
-	"message": "pt",
-	"description": ""
-    },
+        "message": "pt", 
+        "description": ""
+    }, 
     "its_msg_30": {
-	"message": "Comunidade no Steam",
-	"message-retranslated": "Steam Community",
-	"description": "fragment"
-    },
+        "message": "Comunidade no Steam", 
+        "message-retranslated": "Steam Community", 
+        "description": "fragment"
+    }, 
     "parse_error": {
-	"message": "Erro",
-	"message-retranslated": "Parse Error",
-	"description": "some kind of parse error"
-    },
+        "message": "Erro", 
+        "message-retranslated": "Parse Error", 
+        "description": "some kind of parse error"
+    }, 
     "its_msg_32": {
-	"message": "ID do Profile",
-	"message-retranslated": "Profile ID",
-	"description": "profile id label"
-    },
+        "message": "ID do Profile", 
+        "message-retranslated": "Profile ID", 
+        "description": "profile id label"
+    }, 
     "its_msg_33": {
-	"message": "Cancelar",
-	"message-retranslated": "Cancel",
-	"description": "cancel label, such as for a button"
-    },
+        "message": "Cancelar", 
+        "message-retranslated": "Cancel", 
+        "description": "cancel label, such as for a button"
+    }, 
     "its_msg_34": {
-	"message": "Tradução incorreta?",
-	"message-retranslated": "Translation incorrect?",
-	"description": ""
-    },
+        "message": "Tradu\u00e7\u00e3o incorreta?", 
+        "message-retranslated": "Translation incorrect?", 
+        "description": ""
+    }, 
     "its_msg_35": {
-	"message": "Sugira algo melhor",
-	"message-retranslated": "Suggest something better",
-	"description": ""
-    },
+        "message": "Sugira algo melhor", 
+        "message-retranslated": "Suggest something better", 
+        "description": ""
+    }, 
+    "its_msg_36": {
+        "message": "Player Stats View", 
+        "message-retranslated": "View Player Stats", 
+        "description": ""
+    }, 
     "its_msg_16": {
-	"message": "Item Desconhecido",
-	"message-retranslated": "Unknown Items",
-	"description": "unknown item count stats title"
-    },
+        "message": "Item Desconhecido", 
+        "message-retranslated": "Unknown Items", 
+        "description": "unknown item count stats title"
+    }, 
     "its_msg_17": {
-	"message": "Metais",
-	"message-retranslated": "Metal Items",
-	"description": "metal item count stats title"
-    },
+        "message": "Metais", 
+        "message-retranslated": "Metal Items", 
+        "description": "metal item count stats title"
+    }, 
     "its_msg_14": {
-	"message": "Items Normais",
-	"message-retranslated": "Normal Items",
-	"description": "normal item count stats title"
-    },
+        "message": "Items Normais", 
+        "message-retranslated": "Normal Items", 
+        "description": "normal item count stats title"
+    }, 
     "its_msg_15": {
-	"message": "Hats",
-	"message-retranslated": "Hats",
-	"description": "hat count stats title"
-    },
-    "extension_default_title": {
-	"message": "Ver o Team Fortress 2 Backpack",
-	"message-retranslated": "View Team Fortress 2 Backpack",
-	"description": "Extension default title for browser action"
-    },
+        "message": "Hats", 
+        "message-retranslated": "Hats", 
+        "description": "hat count stats title"
+    }, 
+    "its_msg_12": {
+        "message": "Stats", 
+        "message-retranslated": "Stats", 
+        "description": "stats button"
+    }, 
     "other_error": {
-	"message": "Aconteceu outro erro",
-	"message-retranslated": "Any other error",
-	"description": "some other kind of error occurred."
-    },
+        "message": "Aconteceu outro erro", 
+        "message-retranslated": "Any other error", 
+        "description": "some other kind of error occurred."
+    }, 
     "its_msg_10": {
-	"message": "Atualizar",
-	"message-retranslated": "Refresh",
-	"description": "refresh button"
-    },
+        "message": "Atualizar", 
+        "message-retranslated": "Refresh", 
+        "description": "refresh button"
+    }, 
     "its_msg_11": {
-	"message": "Opções",
-	"message-retranslated": "Options",
-	"description": "options button"
-    },
+        "message": "Op\u00e7\u00f5es", 
+        "message-retranslated": "Options", 
+        "description": "options button"
+    }, 
+    "extension_default_title": {
+        "message": "Ver o Team Fortress 2 Backpack", 
+        "message-retranslated": "View Team Fortress 2 Backpack", 
+        "description": "Extension default title for browser action"
+    }, 
+    "new_item_title_prefix": {
+        "message": "Item Novo!", 
+        "message-retranslated": "New Item!", 
+        "description": ""
+    }, 
     "its_msg_18": {
-	"message": "Metais não criados",
-	"message-retranslated": "Metal Worth",
-	"description": "metal worth item count"
-    },
+        "message": "Metais n\u00e3o criados", 
+        "message-retranslated": "Metal Worth", 
+        "description": "metal worth item count"
+    }, 
     "its_msg_19": {
-	"message": "Visualizações",
-	"message-retranslated": "Views",
-	"description": "count of profile views"
-    },
+        "message": "Visualiza\u00e7\u00f5es", 
+        "message-retranslated": "Views", 
+        "description": "count of profile views"
+    }, 
     "request_aborted": {
-	"message": "Pedido Cancelado por Tempo de espera",
-	"message-retranslated": "Canceled by Request Timeout",
-	"description": "request aborted label"
-    },
-    "seconds": {
-	"message": "segundo",
-	"message-retranslated": "second",
-	"description": "seconds"
-    },
-    "extension_desc": {
-	"message": "Acesso rápido aos items em seu Backpack do Team Fortress 2",
-	"message-retranslated": "Quick access to items in his backpack Team Fortress 2",
-	"description": "Extension description"
-    },
-    "its_msg_8": {
-	"message": "Novos items",
-	"message-retranslated": "New items",
-	"description": "new items title"
-    },
-    "its_msg_9": {
-	"message": "Backpack",
-	"message-retranslated": "Backpack",
-	"description": "backpack title"
-    },
-    "equipped": {
-	"message": "Equipado",
-	"message-retranslated": "Equipped",
-	"description": "equipped label"
-    },
-    "its_msg_4": {
-	"message": "Salvar",
-	"message-retranslated": "Save",
-	"description": "save button"
-    },
-    "its_msg_5": {
-	"message": "Resetar",
-	"message-retranslated": "Reset",
-	"description": "reset button"
-    },
-    "its_msg_6": {
-	"message": "Fechar",
-	"message-retranslated": "Close",
-	"description": "close button"
-    },
-    "its_msg_7": {
-	"message": "InformaÃ§Ãµes do player $1",
-	"message-retranslated": "Character Info for $1",
-	"description": "character info title"
-    },
-    "network_error": {
-	"message": "Erro na rede",
-	"message-retranslated": "Network Error",
-	"description": "some kind of network error"
-    },
-    "its_msg_1": {
-	"message": "Profile ID não encontrado!",
-	"message-retranslated": "Profile ID Not Set!",
-	"description": "no steam id title"
-    },
-    "its_msg_2": {
-	"message": "Para utilizar a extensão Team Fortress 2 coloque o seu nome da community ou profile ID aqui",
-	"message-retranslated": "To use the Team Fortress 2 Backpack extension Access enter your community name or profile ID here",
-	"description": "no steam id help"
-    },
-    "its_msg_3": {
-	"message": "(por exemplo, pnatural ou 76561197992805111)",
-	"message-retranslated": "(eg pnatural or 76561197992805111)",
-	"description": "no steam id example"
-    },
+        "message": "Pedido Cancelado por Tempo de espera", 
+        "message-retranslated": "Canceled by Request Timeout", 
+        "description": "request aborted label"
+    }, 
     "bad_feed": {
-	"message": "Bad Data Feed",
-	"message-retranslated": "Bad Data Feed",
-	"description": "bad data feed label"
-    },
+        "message": "Bad Data Feed", 
+        "message-retranslated": "Bad Data Feed", 
+        "description": "bad data feed label"
+    }, 
+    "extension_desc": {
+        "message": "Acesso r\u00e1pido aos items em seu Backpack do Team Fortress 2", 
+        "message-retranslated": "Quick access to items in his backpack Team Fortress 2", 
+        "description": "Extension description"
+    }, 
+    "its_msg_8": {
+        "message": "Novos items", 
+        "message-retranslated": "New items", 
+        "description": "new items title"
+    }, 
+    "its_msg_9": {
+        "message": "Backpack", 
+        "message-retranslated": "Backpack", 
+        "description": "backpack title"
+    }, 
+    "equipped": {
+        "message": "Equipado", 
+        "message-retranslated": "Equipped", 
+        "description": "equipped label"
+    }, 
+    "its_msg_4": {
+        "message": "Salvar", 
+        "message-retranslated": "Save", 
+        "description": "save button"
+    }, 
+    "its_msg_5": {
+        "message": "Resetar", 
+        "message-retranslated": "Reset", 
+        "description": "reset button"
+    }, 
+    "its_msg_6": {
+        "message": "Fechar", 
+        "message-retranslated": "Close", 
+        "description": "close button"
+    }, 
+    "its_msg_7": {
+        "message": "Informa\u00c3\u00a7\u00c3\u00b5es do player $1", 
+        "message-retranslated": "Character Info for $1", 
+        "description": "character info title"
+    }, 
+    "network_error": {
+        "message": "Erro na rede", 
+        "message-retranslated": "Network Error", 
+        "description": "some kind of network error"
+    }, 
+    "its_msg_1": {
+        "message": "Profile ID n\u00e3o encontrado!", 
+        "message-retranslated": "Profile ID Not Set!", 
+        "description": "no steam id title"
+    }, 
+    "its_msg_2": {
+        "message": "Para utilizar a extens\u00e3o Team Fortress 2 coloque o seu nome da community ou profile ID aqui", 
+        "message-retranslated": "To use the Team Fortress 2 Backpack extension Access enter your community name or profile ID here", 
+        "description": "no steam id help"
+    }, 
+    "its_msg_3": {
+        "message": "(por exemplo, pnatural ou 76561197992805111)", 
+        "message-retranslated": "(eg pnatural or 76561197992805111)", 
+        "description": "no steam id example"
+    }, 
+    "seconds": {
+        "message": "segundo", 
+        "message-retranslated": "second", 
+        "description": "seconds"
+    }, 
     "feed_url_error": {
-	"message": "Sem Feed URL",
-	"message-retranslated": "No Feed URL",
-	"description": "error because the feed url is empty"
-    },
+        "message": "Sem Feed URL", 
+        "message-retranslated": "No Feed URL", 
+        "description": "error because the feed url is empty"
+    }, 
     "its_msg_29": {
-	"message": "em",
-	"message-retranslated": "in",
-	"description": "just the word 'at'"
-    },
+        "message": "em", 
+        "message-retranslated": "in", 
+        "description": "just the word 'at'"
+    }, 
     "its_msg_28": {
-	"message": "ExtensÃ£o por",
-	"message-retranslated": "Extension by",
-	"description": "view pnatural profile link"
-    },
+        "message": "Extens\u00c3\u00a3o por", 
+        "message-retranslated": "Extension by", 
+        "description": "view pnatural profile link"
+    }, 
     "its_msg_27": {
-	"message": "Powered by",
-	"message-retranslated": "Powered",
-	"description": "powered by"
-    },
+        "message": "Powered by", 
+        "message-retranslated": "Powered", 
+        "description": "powered by"
+    }, 
     "its_msg_26": {
-	"message": "Ver Perfil",
-	"message-retranslated": "View Profile",
-	"description": "view profile link"
-    },
+        "message": "Ver Perfil", 
+        "message-retranslated": "View Profile", 
+        "description": "view profile link"
+    }, 
     "its_msg_25": {
-	"message": "Ver Backpack",
-	"message-retranslated": "View Backpack",
-	"description": "view backpack link"
-    },
+        "message": "Ver Backpack", 
+        "message-retranslated": "View Backpack", 
+        "description": "view backpack link"
+    }, 
     "its_msg_24": {
-	"message": "Ocultar Stats",
-	"message-retranslated": "Hide Stats",
-	"description": "hide stats button"
-    },
+        "message": "Ocultar Stats", 
+        "message-retranslated": "Hide Stats", 
+        "description": "hide stats button"
+    }, 
     "its_msg_23": {
-	"message": "Pedido de Horário",
-	"message-retranslated": "Request Time",
-	"description": "duration of request"
-    },
+        "message": "Pedido de Hor\u00e1rio", 
+        "message-retranslated": "Request Time", 
+        "description": "duration of request"
+    }, 
     "its_msg_22": {
-	"message": "Próxima chance",
-	"message-retranslated": "Fetch Next",
-	"description": "time of next fetch"
-    },
+        "message": "Pr\u00f3xima chance", 
+        "message-retranslated": "Fetch Next", 
+        "description": "time of next fetch"
+    }, 
     "its_msg_21": {
-	"message": "Última busca",
-	"message-retranslated": "Last search",
-	"description": "time of last fetch"
-    },
+        "message": "\u00daltima busca", 
+        "message-retranslated": "Last search", 
+        "description": "time of last fetch"
+    }, 
     "its_msg_20": {
-	"message": "Tempo do Cache",
-	"message-retranslated": "Cache Time",
-	"description": "time feed cached"
-    },
+        "message": "Tempo do Cache", 
+        "message-retranslated": "Cache Time", 
+        "description": "time feed cached"
+    }, 
     "refreshing": {
-	"message": "Atualizando",
-	"message-retranslated": "Refreshing",
-	"description": "refreshing text goes here"
-    },
+        "message": "Atualizando", 
+        "message-retranslated": "Refreshing", 
+        "description": "refreshing text goes here"
+    }, 
     "level": {
-	"message": "Le­vel $1 $2",
-	"message-retranslated": "$Level 1 $2",
-	"description": "level label"
-    },
+        "message": "Le\u00advel $1 $2", 
+        "message-retranslated": "$Level 1 $2", 
+        "description": "level label"
+    }, 
     "extension_name": {
-	"message": "Acesso de Team Fortress 2 Backpack",
-	"message-retranslated": "Team Fortress 2 Backpack Access",
-	"description": "Extension name"
-    },
+        "message": "Acesso de Team Fortress 2 Backpack", 
+        "message-retranslated": "Team Fortress 2 Backpack Access", 
+        "description": "Extension name"
+    }, 
+    "new_item_level_prefix": {
+        "message": "N\u00edvel", 
+        "message-retranslated": "Level", 
+        "description": ""
+    }, 
     "from_cache": {
-	"message": "Os dados são carregados do cache",
-	"message-retranslated": "The data loaded from the cache",
-	"description": "data loaded from cache label"
-    },
+        "message": "Os dados s\u00e3o carregados do cache", 
+        "message-retranslated": "The data loaded from the cache", 
+        "description": "data loaded from cache label"
+    }, 
     "error": {
-	"message": "Erro",
-	"message-retranslated": "Error",
-	"description": "error label"
-    },
+        "message": "Erro", 
+        "message-retranslated": "Error", 
+        "description": "error label"
+    }, 
     "its_msg_13": {
-	"message": "Total de Items",
-	"message-retranslated": "Total Items",
-	"description": "total item count stats title"
-    },
+        "message": "Total de Items", 
+        "message-retranslated": "Total Items", 
+        "description": "total item count stats title"
+    }, 
     "its_msg_0": {
-	"message": "Team Fortress 2 Backpack (Acesso novo e melhorada)",
-	"message-retranslated": "Team Fortress 2 Backpack (access new and improved)",
-	"description": "page title"
+        "message": "Team Fortress 2 Backpack (Acesso novo e melhorada)", 
+        "message-retranslated": "Team Fortress 2 Backpack (access new and improved)", 
+        "description": "page title"
     }
 }
-

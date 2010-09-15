@@ -29,11 +29,6 @@
         "message-retranslated": "3", 
         "description": "the number 3"
     }, 
-    "its_msg_12": {
-        "message": "Stats", 
-        "message-retranslated": "Stats", 
-        "description": "stats button"
-    }, 
     "second": {
         "message": "andra", 
         "message-retranslated": "second", 
@@ -88,6 +83,11 @@
         "message-retranslated": "Suggest something better", 
         "description": ""
     }, 
+    "its_msg_36": {
+        "message": "Se Spelarstatistik", 
+        "message-retranslated": "View Player Stats", 
+        "description": ""
+    }, 
     "its_msg_16": {
         "message": "Ok\u00e4nt objekt", 
         "message-retranslated": "Unknown Object", 
@@ -108,10 +108,10 @@
         "message-retranslated": "Hats", 
         "description": "hat count stats title"
     }, 
-    "extension_default_title": {
-        "message": "Visa din Team Fortress 2 Backpack", 
-        "message-retranslated": "Show your Team Fortress 2 Backpack", 
-        "description": "Extension default title for browser action"
+    "its_msg_12": {
+        "message": "Stats", 
+        "message-retranslated": "Stats", 
+        "description": "stats button"
     }, 
     "other_error": {
         "message": "Vissa annat fel", 
@@ -128,6 +128,16 @@
         "message-retranslated": "Options", 
         "description": "options button"
     }, 
+    "extension_default_title": {
+        "message": "Visa din Team Fortress 2 Backpack", 
+        "message-retranslated": "Show your Team Fortress 2 Backpack", 
+        "description": "Extension default title for browser action"
+    }, 
+    "new_item_title_prefix": {
+        "message": "Nytt objekt!", 
+        "message-retranslated": "New Item!", 
+        "description": ""
+    }, 
     "its_msg_18": {
         "message": "Metal Worth", 
         "message-retranslated": "Metal Worth", 
@@ -143,10 +153,10 @@
         "message-retranslated": "The request was canceled by timeout", 
         "description": "request aborted label"
     }, 
-    "seconds": {
-        "message": "sekunder", 
-        "message-retranslated": "seconds", 
-        "description": "seconds"
+    "bad_feed": {
+        "message": "Bad Data Feed", 
+        "message-retranslated": "Bad Data Feed", 
+        "description": "bad data feed label"
     }, 
     "extension_desc": {
         "message": "Snabb tillg\u00e5ng till objekt i din Team Fortress 2 ryggs\u00e4ck", 
@@ -208,10 +218,10 @@
         "message-retranslated": "(Example pnatural or 76561197992805111)", 
         "description": "no steam id example"
     }, 
-    "bad_feed": {
-        "message": "Bad Data Feed", 
-        "message-retranslated": "Bad Data Feed", 
-        "description": "bad data feed label"
+    "seconds": {
+        "message": "sekunder", 
+        "message-retranslated": "seconds", 
+        "description": "seconds"
     }, 
     "feed_url_error": {
         "message": "Inga Feed URL", 
@@ -282,6 +292,11 @@
         "message": "Team Fortress 2 Backpack Access", 
         "message-retranslated": "Team Fortress 2 Backpack Access", 
         "description": "Extension name"
+    }, 
+    "new_item_level_prefix": {
+        "message": "Niv\u00e5", 
+        "message-retranslated": "Level", 
+        "description": ""
     }, 
     "from_cache": {
         "message": "Data laddas fr\u00e5n cache", 

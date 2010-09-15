@@ -29,9 +29,8 @@ This list describes how to upgrade the extension when TF2 is updated.
 
 
 5.  In the unlikly event that any of the HTML files have changed, the
-    UI message files will also need an update.  Note that this borks
-    the manual translations, so use with care (i.e., backup those
-    files first):
+    UI message files will also need an update.  Note that this is safe
+    to run because it only adds missing messages:
 
         $ make message_files
 

@@ -29,11 +29,6 @@
         "message-retranslated": "3", 
         "description": "the number 3"
     }, 
-    "its_msg_12": {
-        "message": "\u7d71\u8a08", 
-        "message-retranslated": "Statistics", 
-        "description": "stats button"
-    }, 
     "second": {
         "message": "\u7b2c\u4e8c", 
         "message-retranslated": "Second", 
@@ -88,6 +83,11 @@
         "message-retranslated": "Recommended better things", 
         "description": ""
     }, 
+    "its_msg_36": {
+        "message": "\u67e5\u770b\u7403\u54e1\u7d71\u8a08", 
+        "message-retranslated": "View player statistics", 
+        "description": ""
+    }, 
     "its_msg_16": {
         "message": "\u672a\u77e5\u9805\u76ee", 
         "message-retranslated": "Unknown Project", 
@@ -108,10 +108,10 @@
         "message-retranslated": "Hat", 
         "description": "hat count stats title"
     }, 
-    "extension_default_title": {
-        "message": "\u67e5\u770b\u60a8\u7684\u5718\u968a\u8981\u585e2\u80cc\u5305", 
-        "message-retranslated": "Show your team fortress 2 Backpack", 
-        "description": "Extension default title for browser action"
+    "its_msg_12": {
+        "message": "\u7d71\u8a08", 
+        "message-retranslated": "Statistics", 
+        "description": "stats button"
     }, 
     "other_error": {
         "message": "\u5176\u4ed6\u4e00\u4e9b\u932f\u8aa4", 
@@ -128,6 +128,16 @@
         "message-retranslated": "Options", 
         "description": "options button"
     }, 
+    "extension_default_title": {
+        "message": "\u67e5\u770b\u60a8\u7684\u5718\u968a\u8981\u585e2\u80cc\u5305", 
+        "message-retranslated": "Show your team fortress 2 Backpack", 
+        "description": "Extension default title for browser action"
+    }, 
+    "new_item_title_prefix": {
+        "message": "\u65b0\u7522\u54c1\uff01", 
+        "message-retranslated": "New!", 
+        "description": ""
+    }, 
     "its_msg_18": {
         "message": "\u91d1\u5c6c\u6c83\u601d", 
         "message-retranslated": "Metal Worth", 
@@ -143,10 +153,10 @@
         "message-retranslated": "Request for suspension of overtime", 
         "description": "request aborted label"
     }, 
-    "seconds": {
-        "message": "\u79d2", 
-        "message-retranslated": "Second", 
-        "description": "seconds"
+    "bad_feed": {
+        "message": "\u4e0d\u826f\u6578\u64da\u6e90", 
+        "message-retranslated": "Bad Data Source", 
+        "description": "bad data feed label"
     }, 
     "extension_desc": {
         "message": "\u5feb\u901f\u8a2a\u554f\u4f60\u7684\u9805\u76ee\u5718\u968a\u8981\u585e2\u80cc\u5305", 
@@ -208,10 +218,10 @@
         "message-retranslated": "(Eg pnatural or 76561197992805111)", 
         "description": "no steam id example"
     }, 
-    "bad_feed": {
-        "message": "\u4e0d\u826f\u6578\u64da\u6e90", 
-        "message-retranslated": "Bad Data Source", 
-        "description": "bad data feed label"
+    "seconds": {
+        "message": "\u79d2", 
+        "message-retranslated": "Second", 
+        "description": "seconds"
     }, 
     "feed_url_error": {
         "message": "\u6c92\u6709\u8cc7\u6599\u7684\u7db2\u5740", 
@@ -282,6 +292,11 @@
         "message": "\u5718\u968a\u8981\u585e2\u80cc\u5305\u8a2a\u554f", 
         "message-retranslated": "Team Fortress 2 pack visit", 
         "description": "Extension name"
+    }, 
+    "new_item_level_prefix": {
+        "message": "\u6c34\u5e73", 
+        "message-retranslated": "Level", 
+        "description": ""
     }, 
     "from_cache": {
         "message": "\u5f9e\u7de9\u5b58\u52a0\u8f09\u6578\u64da", 

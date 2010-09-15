@@ -1,9 +1,10 @@
 json_files = $(shell cat control_files.txt | cut -f 2 -d " "|grep -v NONE)
 tran_files = $(shell cat control_files.txt | cut -f 3 -d " "|grep -v NONE)
+tran_src := ../src/_locales/en/messages.json
 
 
 
-.PHONY: all check clean messages parser $(json_files) $(tran_files)
+.PHONY: all check clean message_files parser $(json_files) $(tran_files)
 .SILENT: clean
 
 
@@ -29,5 +30,7 @@ $(json_files):
 
 message_files: $(tran_files)
 $(tran_files):
-	@./tf_text2messages_json.py $@
+	@echo "[TRANSLATION]" $(tran_src) "->" $@
+	@./tf_tran.py $(tran_src) $@
+#	@./tf_text2messages_json.py $@
 
