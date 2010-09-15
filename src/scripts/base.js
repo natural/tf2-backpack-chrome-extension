@@ -110,7 +110,7 @@ var storage = {
 	    if (typeof(localStorage.useNotifications) == "undefined") {
 		return true;
 	    } else {
-		return localStorage.useNotifications == "true";
+		return typeof(localStorage.useNotifications) == "undefined" ? true : localStorage.useNotifications == "true";
 	    }
 	}
 	localStorage.useNotifications = v;
