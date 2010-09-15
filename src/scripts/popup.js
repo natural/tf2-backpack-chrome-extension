@@ -135,7 +135,7 @@ var showTab = {
     },
 
     isTF2ItemsUrl: function (url) {
-	var urlItems = profile.playerStatsUrl();
+	var urlItems = profile.backpackViewUrl();
 	if (url.indexOf(urlItems) != 0) {
 	    return false;
 	}
@@ -145,7 +145,7 @@ var showTab = {
     },
 
     isTF2StatsUrl: function (url) {
-	var urlStats = profile.backpackViewUrl();
+	var urlStats = profile.playerStatsUrl();
 	if (url.indexOf(urlStats) != 0) {
 	    return false;
 	}

@@ -333,8 +333,8 @@ var notificationTool = {
 	    var idx = $(item).attr("definitionIndex");
 	    var pop = webkitNotifications.createNotification(
 		'icons/' + idx + '.png',
-		_('New Item!') + ' ' + notificationTool.defs[idx]['description'],
-		_(' Level') + ' ' + $("level", item).text() + " " + notificationTool.defs[idx]['type']
+		_('new_item_title_prefix') + ' ' + notificationTool.defs[idx]['description'],
+		_('new_item_level_prefix') + ' ' + $("level", item).text() + " " + notificationTool.defs[idx]['type']
 	    );
 	    pop.show();
 	})

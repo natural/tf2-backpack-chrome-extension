@@ -253,7 +253,16 @@
     "its_msg_36": {
 	"message":"View Player Stats",
 	"description":""
-    }
+    },
 
+    "new_item_title_prefix": {
+	"message":"New Item!",
+	"description":""
+    },
+
+    "new_item_level_prefix": {
+	"message":"Level",
+	"description":""
+    }
 
 }

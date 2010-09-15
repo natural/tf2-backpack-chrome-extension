@@ -1,14 +1,13 @@
 var FOO = function() {
+    var itemPos = function(item) {
+        return item['inventory'] & 0xfff;
+    };
     u = "http://steamcommunity.com/profiles/76561197992805111/tfitems?json=1";
     x = $.getJSON(u);
     j = JSON.parse(x.responseText);
     item = j[1863474];
     pos = itemPos(item);
-};
-
-
-var itemPos = function(item) {
-    return item['inventory'] & 0xfff;
+//    steamItems:"http://steamcommunity.com/profiles/76561197992805111/tfitems?json=1"
 };
 
 
@@ -25,7 +24,6 @@ var urls = {
     tf2Stats:"http://tf2stats.net/",
     steamCommunity:"http://steamcommunity.com/",
     sourceOp:"http://www.sourceop.com/",
-    steamItems:"http://steamcommunity.com/profiles/76561197992805111/tfitems?json=1"
 };
 urls.profileSearch = urls.tf2Items + "search.php?tf2items_q=";
 urls.pnatural = urls.steamCommunity + "profiles/76561197992805111";
@@ -242,5 +240,3 @@ function i18nize() {
 	}
     });
 }
-
-
