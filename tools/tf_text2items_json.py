@@ -11,7 +11,7 @@ from functools import partial
 from subprocess import Popen, PIPE
 
 from source_text_parser import parse
-from tf_text2messages_json import google_translate
+from tf_tran import google_translate
 
 sys.stdout = codecs.getwriter('utf8')(sys.stdout)
 items_game = parse('../src/rawtext/items_game.txt')['items_game']
