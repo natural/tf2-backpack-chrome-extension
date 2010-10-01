@@ -1,5 +1,14 @@
 var itemContentSelector = "#unplaced table.unplaced td img, #backpack table.backpack td img, span.equipped";
 
+var fastForward = function() {
+    var last = storage.lastPage();
+    console.log('fastForward:' + last);
+    if (last > 1) {
+	$("#backpackPage-1").hide();
+	pages.navTo(last);
+    }
+}
+
 
 var formatCountDown = function(value, zero, single, plural) {
     var seconds = Math.round((value  - Date.now())/1000);
@@ -76,10 +85,17 @@ var pages = {
 	    $("#backpackPage-" + self.current).fadeOut(250, function() {
 		self.current += offset;
 		$("#backpackPage-" + self.current).fadeIn(250);
+		storage.lastPage(self.current);
 		self.updateNav();
 	    });
 	}
 	return false;
+    },
+
+    navTo: function(page) {
+	this.current = page;
+	$("#backpackPage-" + this.current).fadeIn(250);
+	this.updateNav();
     },
 
     updateNav: function () {
@@ -436,17 +452,22 @@ var toolTip = {
 	} else if (extras) {
 	    item["alt"] = extras;
 	}
-	$("#tooltip h4").removeClass("vintage");
+
+	$("#tooltip h4").removeClass("vintage").removeClass("valve").removeClass("community");
+	// TODO:  add translated vintage + community prefixes
 	if (attrMap["134"] == "2") {
 	    $("#tooltip h4").text($("#tooltip h4").text().replace("The ", ""));
 	    $("#tooltip h4").addClass("valve");
 	} else if (attrMap["134"] == "4") {
 	    $("#tooltip h4").text($("#tooltip h4").text().replace("The ", ""));
 	    $("#tooltip h4").addClass("community");
-	} else if ($("quality", node).text() == "3") {
-	    $("#tooltip h4").text(_("vintage") + " " + $("#tooltip h4").text().replace("The ", ""));
+	}
+        if ($("quality", node).text() == "3") {
+	    $("#tooltip h4").text($("#tooltip h4").text().replace("The ", ""));
 	    $("#tooltip h4").addClass("vintage");
- 	}
+ 	} /* else if ($("quality", node).text() == "6") {
+	    $("#tooltip h4").text("Q6 " + $("#tooltip h4").text());
+	} */
 
 	// add the various descriptions
 	var medals = ["164", "165", "166", "170"]
@@ -459,6 +480,7 @@ var toolTip = {
 		    var d = new Date(parseInt(ds) * 1000)
 		    value = value.replace("%s1", d)
 		}
+		if (value.indexOf("TF_") == 0) { value = "" }
 		$("#tooltip ." + key).html(value).show();
 	    } else {
 		$("#tooltip ." + key).text("").hide();
@@ -504,5 +526,6 @@ var popupInit = function() {
 	backpack.init();
 	pageOps.init();
 	toolTip.init();
+	fastForward();
     }
 };

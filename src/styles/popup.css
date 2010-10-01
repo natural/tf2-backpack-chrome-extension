@@ -239,15 +239,31 @@ border-bottom:0.125em solid #c8bba2;
 }
 
 
+
 #tooltip {
--webkit-box-shadow:0 0 1em rgba(0,0,0,1);
 background:#000;
-border-radius:0.75em;
-padding:1em;
+border-top:1px solid #786B5C;
+border-bottom:1px solid #1B1815;
+border-left:1px solid #453F36;
+border-right:1px solid #453F36;
+background: -webkit-gradient(linear, left top, left bottom, from(#38332D), to(#221E1A));
+border-radius:3px;
+padding:0;
 position:absolute;
 text-align:center;
 z-index:9002;
 overflow:hidden;
+}
+
+
+#tooltip-top-shim {
+padding-left:4px;
+padding-right:4px;
+border-top:1px solid #24201C;
+}
+
+#tooltip-inner {
+padding:1em;
 }
 
 
@@ -289,6 +305,11 @@ color:#756b5e;
 #tooltip .vintage {
 color:#476291;
 }
+
+#tooltip h4.vintage:before {
+content:"Vintage ";
+}
+
 
 #tooltip .alt {
 color:#e4dbc4;

@@ -1,16 +1,3 @@
-var FOO = function() {
-    var itemPos = function(item) {
-        return item['inventory'] & 0xfff;
-    };
-    u = "http://steamcommunity.com/profiles/76561197992805111/tfitems?json=1";
-    x = $.getJSON(u);
-    j = JSON.parse(x.responseText);
-    item = j[1863474];
-    pos = itemPos(item);
-//    steamItems:"http://steamcommunity.com/profiles/76561197992805111/tfitems?json=1"
-};
-
-
 var colors = {
     red: [208, 0, 24, 255],
     blue: [51, 152, 197, 255],
@@ -27,23 +14,6 @@ var urls = {
 };
 urls.profileSearch = urls.tf2Items + "search.php?tf2items_q=";
 urls.pnatural = urls.steamCommunity + "profiles/76561197992805111";
-
-
-// Function currying
-// Copyright (c) 2008 Ariel Flesler - aflesler(at)gmail(dot)com | http://flesler.blogspot.com
-// Licensed under BSD (http://www.opensource.org/licenses/bsd-license.php)
-function curry(fn) {
-    return function() {
-	var args = curry.args(arguments),
-	    master = arguments.callee,
-	    self = this;
-	return args.length >= fn.length ? fn.apply(self,args) : function() {
-	    return master.apply(self, args.concat(curry.args(arguments)));
-	};
-    };
-};
-curry.args = function(args) { return Array.prototype.slice.call(args); };
-Function.prototype.curry = function() { return curry(this); };
 
 
 var profile = {
@@ -149,6 +119,13 @@ var storage = {
 	this.cachedFeed("");
 	this.debug(false);
 	this.testUrl("");
+    },
+
+    lastPage: function(v) {
+	if (typeof(v) == "undefined") {
+	    return parseInt(localStorage.lastPage) || 1;
+	}
+	localStorage.lastPage = v;
     },
 
     pollMax: function(v) {
