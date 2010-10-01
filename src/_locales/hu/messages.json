@@ -9,6 +9,11 @@
         "message-retranslated": "No change", 
         "description": "nothing changed, but have a label!"
     }, 
+    "num6": {
+        "message": "6", 
+        "message-retranslated": "6", 
+        "description": "the number 6"
+    }, 
     "profile_found": {
         "message": "Seg\u00edts\u00e9g\u00e9vel Steam ID $1 $2.", 
         "message-retranslated": "Using Steam ID $1 $2", 
@@ -28,6 +33,11 @@
         "message": "3", 
         "message-retranslated": "3", 
         "description": "the number 3"
+    }, 
+    "num8": {
+        "message": "8", 
+        "message-retranslated": "8", 
+        "description": "the number 8"
     }, 
     "second": {
         "message": "m\u00e1sodik", 
@@ -128,6 +138,11 @@
         "message-retranslated": "Options", 
         "description": "options button"
     }, 
+    "vintage": {
+        "message": "\u00c9vj\u00e1rat", 
+        "message-retranslated": "Vintage", 
+        "description": "vintage"
+    }, 
     "extension_default_title": {
         "message": "Tekintse meg a Team Fortress 2 h\u00e1tizs\u00e1k", 
         "message-retranslated": "Watch the Team Fortress 2 Backpack", 
@@ -148,10 +163,10 @@
         "message-retranslated": "Views", 
         "description": "count of profile views"
     }, 
-    "request_aborted": {
-        "message": "K\u00e9r\u00e9s\u00e9re megszakadt a Timeout", 
-        "message-retranslated": "Interrupted at the request of the Timeout", 
-        "description": "request aborted label"
+    "num5": {
+        "message": "5", 
+        "message-retranslated": "5", 
+        "description": "the number 5"
     }, 
     "bad_feed": {
         "message": "Rossz adatok Feed", 
@@ -273,6 +288,11 @@
         "message-retranslated": "Last Download", 
         "description": "time of last fetch"
     }, 
+    "request_aborted": {
+        "message": "K\u00e9r\u00e9s\u00e9re megszakadt a Timeout", 
+        "message-retranslated": "Interrupted at the request of the Timeout", 
+        "description": "request aborted label"
+    }, 
     "its_msg_20": {
         "message": "Cache Time", 
         "message-retranslated": "Cache Time", 
@@ -292,6 +312,11 @@
         "message": "Team Fortress 2 h\u00e1tizs\u00e1k hozz\u00e1f\u00e9r\u00e9s", 
         "message-retranslated": "Team Fortress 2 Access Backpack", 
         "description": "Extension name"
+    }, 
+    "num7": {
+        "message": "7", 
+        "message-retranslated": "7", 
+        "description": "the number 7"
     }, 
     "new_item_level_prefix": {
         "message": "Szint", 

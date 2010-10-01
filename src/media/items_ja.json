@@ -1,4 +1,58 @@
 {
+    "214": {
+        "positive": [
+            "\u4e0e\u30c0\u30e1\u30fc\u30b8 + 25%", 
+            "\u30ad\u30eb\u6642\u306b\u30d8\u30eb\u30b9\u304c +75 \u56de\u5fa9"
+        ], 
+        "type": "\u30b9\u30ec\u30c3\u30b8\u30cf\u30f3\u30de\u30fc", 
+        "negative": [
+            "\u30e9\u30f3\u30c0\u30e0\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u30d2\u30c3\u30c8\u306a\u3057"
+        ], 
+        "description": "Powerjack"
+    }, 
+    "215": {
+        "positive": [
+            "\u6b66\u5668\u5207\u308a\u66ff\u3048\u3092 65% \u9ad8\u901f\u5316"
+        ], 
+        "type": "\u706b\u708e\u653e\u5c04\u5668", 
+        "negative": [
+            "\u708e\u30c0\u30e1\u30fc\u30b8 -25%"
+        ], 
+        "description": "Degreaser"
+    }, 
+    "212": {
+        "type": "\u900f\u660e\u30a6\u30a9\u30c3\u30c1", 
+        "description": "\u900f\u660e\u30a6\u30a9\u30c3\u30c1"
+    }, 
+    "213": {
+        "alt": [
+            "Attendant Description"
+        ], 
+        "type": "Hat", 
+        "description": "Attendant"
+    }, 
+    "210": {
+        "type": "\u30ea\u30dc\u30eb\u30d0\u30fc", 
+        "description": "\u30ea\u30dc\u30eb\u30d0\u30fc"
+    }, 
+    "211": {
+        "type": "\u30e1\u30c7\u30a3\u30ac\u30f3", 
+        "description": "\u30e1\u30c7\u30a3\u30ac\u30f3"
+    }, 
+    "264": {
+        "alt": [
+            "\u4ea4\u63db\u4e0d\u53ef"
+        ], 
+        "type": "Frying Pan", 
+        "description": "The Frying Pan"
+    }, 
+    "219": {
+        "alt": [
+            "The Milkman Description"
+        ], 
+        "type": "Hat", 
+        "description": "Milkman"
+    }, 
     "133": {
         "positive": [
             "\u30ed\u30b1\u30c3\u30c8\u30b8\u30e3\u30f3\u30d7\u306e\u7206\u7834\u30c0\u30e1\u30fc\u30b8 -60%"
@@ -31,48 +85,77 @@
     "130": {
         "positive": [
             "\u7740\u7528\u8005\u306e\u30b5\u30d6\u6b66\u5668\u6700\u5927\u5f3e\u85ac\u6570 +50%", 
-            "\u30d1\u30a4\u30d7\u7206\u5f3e\u6700\u5927\u6570 +6", 
             "\u7167\u6e96\u8fd1\u304f\u306e\u7c98\u7740\u7206\u5f3e\u3092\u7206\u7834", 
-            "\u6575\u306e\u7c98\u7740\u7206\u5f3e\u3092\u7834\u58ca\u53ef\u80fd"
+            "\u767a\u5c04\u901f\u5ea6 +25%", 
+            "\u6575\u306e\u7c98\u7740\u7206\u5f3e\u3092\u7834\u58ca\u53ef\u80fd", 
+            "\u30d1\u30a4\u30d7\u7206\u5f3e\u6700\u5927\u6570 +6"
         ], 
         "type": "\u7c98\u7740\u7206\u5f3e\u30e9\u30f3\u30c1\u30e3\u30fc", 
         "negative": [
-            "\u7206\u5f3e\u88c5\u5099 0.4 \u79d2\u4f4e\u901f\u5316"
+            "\u7206\u5f3e\u88c5\u5099 0.8 \u79d2\u4f4e\u901f\u5316"
         ], 
         "description": "Scottish Resistance"
     }, 
     "137": {
+        "alt": [
+            "\u7d33\u58eb\u306e\u5e3d\u5b50\u3082\u5e3d\u5b50\u3092\u304b\u3076\u308b\u3079\u304d\u3060\u3068\u4fe1\u3058\u3066\u3044\u308b\u7d33\u58eb\u305f\u3061\u3078\u3002"
+        ], 
         "type": "Hat", 
         "description": "\u9ad8\u8cb4\u306a\u91cd\u306d\u5e3d\u5b50"
     }, 
     "136": {
         "alt": [
-            "Propaganda Contest 2 \u4f4d"
+            "Propaganda Contest 2 \u4f4d", 
+            "\u4ea4\u63db\u4e0d\u53ef"
         ], 
         "type": "Hat", 
         "description": "Amber's Rad As All Hell Hat"
     }, 
     "135": {
+        "alt": [
+            "\u30de\u30cc\u30b1\uff1f \u76ee\u7acb\u3061\u305f\u304c\u308a\uff1f \u30a2\u30a4\u30eb\u30e9\u30f3\u30c9\u304b\u3076\u308c\uff1f \u4f55\u3068\u3067\u3082\u8a00\u3046\u304c\u3044\u3044\u3002\u3053\u306e\u5e3d\u5b50\u306e\u5a01\u5149\u306e\u524d\u306b\u3072\u3056\u307e\u305a\u3051\uff01"
+        ], 
         "type": "Hat", 
         "description": "\u5e3d\u5b50\u306e\u9ad8\u5c64\u30bf\u30ef\u30fc"
     }, 
     "134": {
         "alt": [
-            "Propaganda Contest \u512a\u52dd"
+            "Propaganda Contest \u512a\u52dd", 
+            "\u4ea4\u63db\u4e0d\u53ef"
         ], 
         "type": "Hat", 
         "description": "J.Axer's Dapper Topper"
     }, 
+    "95": {
+        "alt": [
+            "TF_Engineer_Train_Hat_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "\u30a8\u30f3\u30b8\u30cb\u30a2\u30ad\u30e3\u30c3\u30d7"
+    }, 
     "139": {
+        "alt": [
+            "\u5e3d\u5b50\u306a\u3057\u306e\u7d33\u58eb\u306f\u7d33\u58eb\u3068\u306f\u8a00\u3048\u306a\u3044\u3002"
+        ], 
         "type": "Hat", 
         "description": "\u63a7\u3048\u76ee\u306a\u9ad8\u3055\u306e\u5e3d\u5b50"
     }, 
     "138": {
         "alt": [
-            "Propaganda Contest 3 \u4f4d"
+            "Propaganda Contest 3 \u4f4d", 
+            "\u4ea4\u63db\u4e0d\u53ef"
         ], 
         "type": "Hat", 
         "description": "Uncle Sam"
+    }, 
+    "166": {
+        "alt": [
+            "\u30d1\u30fc\u30c6\u30a3\u30fc\u306b\u9045\u523b\u306f\u3057\u305f\u304c\u3001\u5927\u6d3b\u8e8d\u3060\u3063\u305f\u3002", 
+            "\u96c7\u7528\u65e5\uff1a%s1", 
+            "\u4ea4\u63db\u4e0d\u53ef"
+        ], 
+        "type": "\u30d0\u30c3\u30b8", 
+        "description": "\u50ad\u5175"
     }, 
     "24": {
         "type": "\u30ea\u30dc\u30eb\u30d0\u30fc", 
@@ -106,9 +189,12 @@
         "type": "\u30d4\u30b9\u30c8\u30eb", 
         "description": "\u30d4\u30b9\u30c8\u30eb"
     }, 
-    "95": {
+    "223": {
+        "alt": [
+            "TF_TheFamiliarFez_Desc"
+        ], 
         "type": "Hat", 
-        "description": "\u30a8\u30f3\u30b8\u30cb\u30a2\u30ad\u30e3\u30c3\u30d7"
+        "description": "Familiar Fez"
     }, 
     "28": {
         "type": "PDA", 
@@ -118,9 +204,12 @@
         "type": "\u30e1\u30c7\u30a3\u30ac\u30f3", 
         "description": "\u30e1\u30c7\u30a3\u30ac\u30f3"
     }, 
-    "94": {
-        "type": "Hat", 
-        "description": "\u30c6\u30ad\u30b5\u30b9\u30c6\u30f3\u30ac\u30ed\u30f3"
+    "222": {
+        "alt": [
+            "\u30df\u30eb\u30af\u304c\u304b\u304b\u3063\u305f\u6575\u306b\u4e0e\u3048\u305f\u30c0\u30e1\u30fc\u30b8\u306e \r\n75% \u5206\u3060\u3051\u81ea\u5206\u306e\u30d8\u30eb\u30b9\u304c\u56de\u5fa9\u3059\u308b\u3002"
+        ], 
+        "type": "\u30df\u30eb\u30af\u3067\u306f\u306a\u3044\u4f55\u304b", 
+        "description": "Mad Milk"
     }, 
     "0": {
         "type": "\u30d0\u30c3\u30c8", 
@@ -134,38 +223,63 @@
         "type": "\u9aa8\u7528\u96fb\u30ce\u30b3", 
         "description": "\u9aa8\u7528\u96fb\u30ce\u30b3"
     }, 
-    "96": {
-        "type": "Hat", 
-        "description": "\u5c06\u6821\u7528\u30a6\u30b7\u30e3\u30f3\u30ab"
+    "163": {
+        "alt": [
+            "\u52b9\u679c\u4e2d\u3001\u4e0e\u30c0\u30e1\u30fc\u30b8\u304a\u3088\u3073\u88ab\u30c0\u30e1\u30fc\u30b8\u304c\r\n\u30df\u30cb\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u306b\u306a\u308b\u3002", 
+            "30 \u79d2\u9593\u6700\u5927\u30d8\u30eb\u30b9 +50"
+        ], 
+        "type": "\u30e9\u30f3\u30c1\u30dc\u30c3\u30af\u30b9", 
+        "description": "Crit-a-Cola"
     }, 
     "120": {
+        "alt": [
+            "TF_Demo_Top_Hat_Desc"
+        ], 
         "type": "Hat", 
         "description": "\u30b9\u30b3\u30c3\u30c8\u30e9\u30f3\u30c9\u98a8\u30b9\u30c8\u30fc\u30d6\u30d1\u30a4\u30d7"
     }, 
     "121": {
+        "alt": [
+            "\u5c45\u7720\u308a\u3082\u3001\u98f2\u307f\u98df\u3044\u3082\u3001\u7121\u99c4\u8a71\u3082\u3059\u308b\u3053\u3068\u306a\u304f\u3001\u52c7\u6562\u306b\u9663\u5730\u3092\u5b88\u308a\u629c\u3044\u305f\u6570\u5c11\u306a\u3044\u52c7\u6c17\u3042\u308b\u5175\u58eb\u306b\u3053\u308c\u3092\u8d08\u308d\u3046\u3002", 
+            "\u4ea4\u63db\u4e0d\u53ef"
+        ], 
         "type": "\u30e1\u30c0\u30eb", 
         "description": "\u7d33\u58eb\u306e\u5f93\u8ecd\u8a18\u7ae0"
     }, 
     "122": {
+        "alt": [
+            "\u4ea4\u63db\u4e0d\u53ef"
+        ], 
         "type": "Cheat Detector", 
         "description": "\u3042\u306a\u305f\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u306f\u3001\u30a2\u30a4\u30c6\u30e0\u5206\u914d\u30b7\u30b9\u30c6\u30e0\u3092\u8fc2\u56de\u3057\u305f\u305f\u3081\u30d5\u30e9\u30c3\u30b0\u304c\u4ed8\u3051\u3089\u308c\u307e\u3057\u305f\u3002\u4e0d\u6b63\u306b\u5165\u624b\u3057\u305f\u30a2\u30a4\u30c6\u30e0\u306f\u3059\u3079\u3066\u524a\u9664\u3055\u308c\u3066\u3044\u307e\u3059\u3002\r\n\r\n\u4eca\u5f8c\u4e0d\u6b63\u304c\u884c\u308f\u308c\u305f\u5834\u5408\u306f\u3001\u3059\u3079\u3066\u306e\u30a2\u30a4\u30c6\u30e0\u304c\u524a\u9664\u3055\u308c\u307e\u3059\u3002"
     }, 
     "123": {
+        "alt": [
+            "\u4ea4\u63db\u4e0d\u53ef"
+        ], 
         "type": "Cheat Detector", 
         "description": "\u3042\u306a\u305f\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u306f\u3001\u30a2\u30a4\u30c6\u30e0\u5206\u914d\u30b7\u30b9\u30c6\u30e0\u3092\u8fc2\u56de\u3057\u305f\u305f\u3081\u30d5\u30e9\u30c3\u30b0\u304c\u4ed8\u3051\u3089\u308c\u307e\u3057\u305f\u3002\u4e0d\u6b63\u306b\u5165\u624b\u3057\u305f\u30a2\u30a4\u30c6\u30e0\u306f\u3059\u3079\u3066\u524a\u9664\u3055\u308c\u3066\u3044\u307e\u3059\u3002\r\n\r\n\u4eca\u5f8c\u4e0d\u6b63\u304c\u884c\u308f\u308c\u305f\u5834\u5408\u306f\u3001\u30a2\u30ab\u30a6\u30f3\u30c8\u304c\u505c\u6b62\u3055\u308c\u307e\u3059\u3002"
     }, 
     "124": {
+        "alt": [
+            "\u4ea4\u63db\u4e0d\u53ef"
+        ], 
         "type": "Cheat Detector", 
         "description": "\u304a\u3081\u3067\u3068\u3046\u3054\u3056\u3044\u307e\u3059\uff01\u3042\u306a\u305f\u306e\u8aa0\u5b9f\u3055\u3092\u79f0\u3048\u3066\u3001\u65b0\u3057\u3044\u5e3d\u5b50\u3092\u5dee\u3057\u4e0a\u3052\u307e\u3059\uff01\r\n\r\n\uff08\u4ed6\u306e\u30d7\u30ec\u30a4\u30e4\u30fc\u306f\u614e\u91cd\u3055\u304c\u8db3\u308a\u305a\u3001\u3055\u3089\u306b\u30a2\u30f3\u30e9\u30c3\u30ad\u30fc\u3067\u3057\u305f\uff09"
     }, 
     "125": {
         "alt": [
-            "\u4e0e\u30c0\u30e1\u30fc\u30b8 %s1%"
+            "\u624b\u6bb5\u3092\u9078\u3070\u305a\u5e3d\u5b50\u306e\u7372\u5f97\u306b\u8d70\u3063\u305f\u30d7\u30ec\u30a4\u30e4\u30fc\u3082\u3044\u308b\u4e2d\u3067\u3001\u65ad\u56fa\u3068\u3057\u3066\u6b63\u3057\u3044\u5e3d\u5b50\u53ce\u96c6\u306e\u9053\u304b\u3089\u5916\u308c\u306a\u304b\u3063\u305f\u30d7\u30ec\u30a4\u30e4\u30fc\u306e\u9ad8\u6f54\u3055\u3092\u8a18\u5ff5\u3057\u3066\u3002", 
+            "\u52b9\u679c\uff1a%s1", 
+            "\u4ea4\u63db\u4e0d\u53ef"
         ], 
         "type": "\u9ad8\u6f54\u306e\u30aa\u30fc\u30e9", 
         "description": "\u30a4\u30ab\u30b5\u30de\u5e2b\u306e\u60b2\u54c0"
     }, 
     "126": {
+        "alt": [
+            "Left 4 You\u3002\u5f7c\u306e\u5f62\u898b\u3002"
+        ], 
         "type": "\u6b74\u6226\u306e\u52c7\u58eb\u306e\u30d9\u30ec\u30fc\u5e3d", 
         "description": "\u30d3\u30eb\u306e\u5e3d\u5b50"
     }, 
@@ -189,6 +303,9 @@
         "description": "Equalizer"
     }, 
     "129": {
+        "alt": [
+            "\u653b\u6483\u529b\u5f37\u5316\u306e\u52b9\u679c\u3092\u6301\u3064\u3002\r\n\u5468\u56f2\u306e\u5473\u65b9\u306e\u653b\u6483\u304c\u30df\u30cb\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u5316\u3059\u308b\u3002"
+        ], 
         "type": "\u6226\u65d7", 
         "description": "Buff Banner"
     }, 
@@ -213,10 +330,16 @@
         "description": "Jarate"
     }, 
     "55": {
+        "alt": [
+            "\u30b7\u30eb\u30af\u88cf\u5730\u304c\u5f35\u3089\u308c\u305f\u3001\u624b\u89e6\u308a\u306e\u3088\u3044\u4e0a\u54c1\u306a\u5e3d\u5b50\u3002\u3069\u3093\u306a\u30ba\u30d6\u306e\u7d20\u4eba\u3082\u3044\u3063\u3071\u3057\u306e\u60aa\u515a\u306b\u898b\u305b\u3066\u304f\u308c\u308b\u3002"
+        ], 
         "type": "Hat", 
         "description": "\u30d5\u30a1\u30f3\u30b7\u30fc\u30d5\u30a7\u30c9\u30e9"
     }, 
     "54": {
+        "alt": [
+            "\u3053\u306e\u5e3d\u5b50\u306f\u3069\u3093\u306a\u304b\u3076\u308a\u65b9\u3001\u5f62\u3001\u5f62\u5f0f\u3067\u3082\u7159\u8349\u3084\u30ae\u30e3\u30f3\u30d6\u30eb\u3092\u63a8\u5968\u3059\u308b\u3082\u306e\u3067\u306f\u306a\u3044\u3002"
+        ], 
         "type": "Hat", 
         "description": "\u30bd\u30eb\u30b8\u30e3\u30fc\u30b9\u30bf\u30c3\u30b7\u30e5"
     }, 
@@ -232,18 +355,30 @@
         "description": "Huntsman"
     }, 
     "51": {
+        "alt": [
+            "TF_Pyro_Hat_1_Desc"
+        ], 
         "type": "Hat", 
         "description": "\u30d1\u30a4\u30ed\u306e\u30d3\u30fc\u30cb\u30fc\u30cf\u30c3\u30c8"
     }, 
     "50": {
+        "alt": [
+            "1 \u3064\u306e\u6226\u3044\u306e\u907a\u7269\u304c\u5225\u306e\u6226\u3044\u3078\u3002\r\n\u6575\u3082\u308f\u304b\u3063\u3066\u304f\u308c\u308b\u3060\u308d\u3046\u3002"
+        ], 
         "type": "Hat", 
         "description": "\u30d7\u30ed\u30a4\u30bb\u30f3\u5f0f\u30d4\u30c3\u30b1\u30eb\u30cf\u30a6\u30d9"
     }, 
     "53": {
+        "alt": [
+            "\u30ef\u30cb\u306e\u6b7b\u4f53\u304b\u3089\u6b6f\u3092\u53d6\u308b\u306e\u306f\u8ab0\u306b\u3060\u3063\u3066\u3067\u304d\u308b\u3002\r\n\u751f\u304d\u3066\u308b\u5974\u304b\u3089\u6b6f\u3092\u53d6\u308c\u308b\u306e\u306f\u30db\u30f3\u30e2\u30ce\u306e\u7537\u3060\u3051\u3060\u3002"
+        ], 
         "type": "Hat", 
         "description": "\u30c8\u30ed\u30d5\u30a3\u30fc\u30d9\u30eb\u30c8"
     }, 
     "52": {
+        "alt": [
+            "\u3053\u306e\u8d64\u3044\u30d7\u30e9\u30b9\u30c1\u30c3\u30af\u306e\u5e3d\u5b50\u3092\u304b\u3076\u308c\u3070\u30011000 \u4eba\u529b\u3060\uff01"
+        ], 
         "type": "Hat", 
         "description": "\u30d0\u30c3\u30c6\u30a3\u30f3\u30b0\u7528\u30d8\u30eb\u30e1\u30c3\u30c8"
     }, 
@@ -275,86 +410,192 @@
         "type": "\u4f5c\u6210\u30a2\u30a4\u30c6\u30e0", 
         "description": "\u30b9\u30ed\u30c3\u30c8\u30c8\u30fc\u30af\u30f3 - \u30b5\u30d6"
     }, 
-    "5014": {
-        "alt": [
-            "\u8a2d\u8a08\u56f3\u3067\u88c5\u5099\u30b9\u30ed\u30c3\u30c8\u3092\u6307\u5b9a\u3059\u308b\u306e\u306b\u4f7f\u7528"
-        ], 
-        "type": "\u4f5c\u6210\u30a2\u30a4\u30c6\u30e0", 
-        "description": "\u30b9\u30ed\u30c3\u30c8\u30c8\u30fc\u30af\u30f3 - \u8fd1\u63a5"
+    "199": {
+        "type": "\u30b7\u30e7\u30c3\u30c8\u30ac\u30f3", 
+        "description": "\u30b7\u30e7\u30c3\u30c8\u30ac\u30f3"
     }, 
-    "5015": {
-        "alt": [
-            "\u8a2d\u8a08\u56f3\u3067\u88c5\u5099\u30b9\u30ed\u30c3\u30c8\u3092\u6307\u5b9a\u3059\u308b\u306e\u306b\u4f7f\u7528"
-        ], 
-        "type": "\u4f5c\u6210\u30a2\u30a4\u30c6\u30e0", 
-        "description": "\u30b9\u30ed\u30c3\u30c8\u30c8\u30fc\u30af\u30f3 - \u30b0\u30ec\u30cd\u30fc\u30c9"
+    "198": {
+        "type": "\u9aa8\u7528\u96fb\u30ce\u30b3", 
+        "description": "\u9aa8\u7528\u96fb\u30ce\u30b3"
     }, 
-    "5016": {
+    "147": {
         "alt": [
-            "\u8a2d\u8a08\u56f3\u3067\u88c5\u5099\u30b9\u30ed\u30c3\u30c8\u3092\u6307\u5b9a\u3059\u308b\u306e\u306b\u4f7f\u7528"
+            "\u6b63\u7fa9\u306f\u76f2\u76ee\u3060\u3068\u4eba\u306f\u8a00\u3046\u3002\u5f7c\u3089\u304c\u77e5\u3089\u306a\u3044\u306e\u306f\u3001\u6b63\u7fa9\u306f\u59ff\u304c\u898b\u3048\u305a\u3001\u6b63\u7fa9\u3088\u308a\u6bba\u3057\u306e\u65b9\u306b\u95a2\u5fc3\u304c\u3042\u308b\u3068\u3044\u3046\u3053\u3068\u3060\u3002"
         ], 
-        "type": "\u4f5c\u6210\u30a2\u30a4\u30c6\u30e0", 
-        "description": "\u30b9\u30ed\u30c3\u30c8\u30c8\u30fc\u30af\u30f3 - \u88c5\u7f6e"
+        "type": "Hat", 
+        "description": "\u5224\u4e8b\u306e\u30ab\u30c4\u30e9"
     }, 
-    "5017": {
-        "alt": [
-            "\u8a2d\u8a08\u56f3\u3067\u88c5\u5099\u30b9\u30ed\u30c3\u30c8\u3092\u6307\u5b9a\u3059\u308b\u306e\u306b\u4f7f\u7528"
-        ], 
-        "type": "\u4f5c\u6210\u30a2\u30a4\u30c6\u30e0", 
-        "description": "\u30b9\u30ed\u30c3\u30c8\u30c8\u30fc\u30af\u30f3 - PDA"
+    "195": {
+        "type": "\u62f3", 
+        "description": "\u62f3"
     }, 
-    "5018": {
-        "alt": [
-            "\u8a2d\u8a08\u56f3\u3067\u88c5\u5099\u30b9\u30ed\u30c3\u30c8\u3092\u6307\u5b9a\u3059\u308b\u306e\u306b\u4f7f\u7528"
-        ], 
-        "type": "\u4f5c\u6210\u30a2\u30a4\u30c6\u30e0", 
-        "description": "\u30b9\u30ed\u30c3\u30c8\u30c8\u30fc\u30af\u30f3 - PDA2"
+    "194": {
+        "type": "\u30ca\u30a4\u30d5", 
+        "description": "\u30ca\u30a4\u30d5"
     }, 
-    "5019": {
-        "alt": [
-            "\u8a2d\u8a08\u56f3\u3067\u88c5\u5099\u30b9\u30ed\u30c3\u30c8\u3092\u6307\u5b9a\u3059\u308b\u306e\u306b\u4f7f\u7528"
-        ], 
-        "type": "\u4f5c\u6210\u30a2\u30a4\u30c6\u30e0", 
-        "description": "\u30b9\u30ed\u30c3\u30c8\u30c8\u30fc\u30af\u30f3 - \u982d\u90e8"
+    "197": {
+        "type": "\u30b9\u30d1\u30ca", 
+        "description": "\u30b9\u30d1\u30ca"
+    }, 
+    "196": {
+        "type": "\u30b7\u30e3\u30d9\u30eb", 
+        "description": "\u30b7\u30e3\u30d9\u30eb"
+    }, 
+    "191": {
+        "type": "\u30dc\u30c8\u30eb", 
+        "description": "\u30dc\u30c8\u30eb"
+    }, 
+    "190": {
+        "type": "\u30d0\u30c3\u30c8", 
+        "description": "\u30d0\u30c3\u30c8"
+    }, 
+    "193": {
+        "type": "\u30af\u30af\u30ea\u5200", 
+        "description": "\u30af\u30af\u30ea\u5200"
+    }, 
+    "192": {
+        "type": "\u6d88\u9632\u65a7", 
+        "description": "\u6d88\u9632\u65a7"
     }, 
     "115": {
+        "alt": [
+            "\u3053\u3093\u306a\u306b\u4e2d\u9014\u534a\u7aef\u306b\u30a4\u30e4\u306a\u611f\u3058\u306e\u3059\u308b\u7d19\u888b\u304c\u3001\u304b\u3064\u3066\u5b58\u5728\u3057\u305f\u3060\u308d\u3046\u304b\uff1f"
+        ], 
         "type": "\u30db\u30ea\u30c7\u30fc\u30cf\u30c3\u30c8", 
         "description": "\u3061\u3087\u3063\u3068\u30a4\u30e4\u306a\u611f\u3058\u306e\u30cf\u30ed\u30a6\u30a3\u30fc\u30f3\u30de\u30b9\u30af"
     }, 
+    "177": {
+        "alt": [
+            "\u306a\u3057"
+        ], 
+        "type": "Hat", 
+        "description": "\u30b6 \u30b4\u30fc\u30b0\u30eb"
+    }, 
     "117": {
+        "alt": [
+            "\u5974\u306e\u5f3e\u4e38\u306f\u8fd1\u304f\u3092\u304b\u3059\u3081...\r\n\u4ffa\u306f\u5e3d\u5b50\u3092\u5931\u3063\u305f\u3002\r\n\u4ffa\u306e\u5f3e\u4e38\u306f\u3082\u3063\u3068\u8fd1\u304f\u306b\u98db\u3073...\r\n\u5974\u306f\u982d\u3092\u5931\u3063\u305f\u3002"
+        ], 
         "type": "Hat", 
         "description": "\u30ea\u30c3\u30c4\u30a3\u30fc\u30ea\u30c3\u30af\u306e\u6bdb\u9aea\u56fa\u5b9a\u5264"
     }, 
     "116": {
         "alt": [
-            "\u300cZ.M.\u300d\u3068\u523a\u7e4d\u3055\u308c\u3066\u3044\u308b"
+            "\u300cZ.M.\u300d\u3068\u523a\u7e4d\u3055\u308c\u3066\u3044\u308b", 
+            "\u4ea4\u63db\u4e0d\u53ef"
         ], 
         "type": "Hat", 
         "description": "\u6050\u308d\u3057\u3052\u306a\u30b7\u30eb\u30af\u30cf\u30c3\u30c8"
     }, 
     "111": {
+        "alt": [
+            "\u30b9\u30d4\u30fc\u30c9\u306f\u30b9\u30ab\u30a6\u30c8\u306e\u547d\u3060\u3002\u5e3d\u5b50\u306a\u3069\u306a\u304f\u3066\u3082\u97f3\u901f\u306e\u58c1\u3092\u7834\u308c\u308b\u306e\u3060\u304b\u3089\u3001\u304b\u3055\u3070\u308b\u5e3d\u5b50\u3092\u304b\u3076\u3063\u3066\u30b9\u30d4\u30fc\u30c9\u30c0\u30a6\u30f3\u3055\u305b\u308b\u306a\u3093\u3066\u7121\u99c4\u3060\u3068\u601d\u308f\u306a\u3044\u304b\uff1f"
+        ], 
         "type": "Hat", 
         "description": "\u30d9\u30fc\u30b9\u30dc\u30fc\u30eb\u30d3\u30eb\u306e\u30b9\u30dd\u30fc\u30c4\u30b7\u30e3\u30a4\u30f3"
     }, 
     "110": {
+        "alt": [
+            "Jarate \u306e\u9054\u4eba\u306e\u307f\u304c\u7740\u7528\u3092\u8a31\u3055\u308c\u305f\u7d14\u767d\u306e\u30d0\u30f3\u30c0\u30ca\u3002\u904e\u9177\u306a\u4fee\u884c\u306e\u305f\u3081\u3001\u73fe\u5728\u306f\u9ec4\u8272\u304f\u5909\u8272\u3057\u3066\u3044\u308b...\u3002"
+        ], 
         "type": "Hat", 
         "description": "\u30de\u30b9\u30bf\u30fc\u306e\u30a4\u30a8\u30ed\u30fc\u30d9\u30eb\u30c8\u5e3d"
     }, 
+    "253": {
+        "alt": [
+            "\u3042\u3089\u3086\u308b\u8a70\u307e\u308a\u7269\u3092\u53d6\u308a\u9664\u304f\u3002"
+        ], 
+        "type": "Hat", 
+        "description": "\u6280\u8853\u8005\u306e\u30cf\u30f3\u30c9\u30eb"
+    }, 
+    "205": {
+        "type": "\u30ed\u30b1\u30c3\u30c8\u30e9\u30f3\u30c1\u30e3\u30fc", 
+        "description": "\u30ed\u30b1\u30c3\u30c8\u30e9\u30f3\u30c1\u30e3\u30fc"
+    }, 
     "118": {
+        "alt": [
+            "\u6642\u306b\u306f\u5e3d\u5b50\u304c\u3061\u3087\u3063\u3068\u90aa\u9b54\u306a\u3053\u3068\u3082\u3042\u308b\u3002"
+        ], 
         "type": "Hat", 
         "description": "\u30c6\u30ad\u30b5\u30b9\u30b9\u30ea\u30e0\u306e\u30c9\u30fc\u30e0\u30b7\u30e3\u30a4\u30f3"
+    }, 
+    "165": {
+        "alt": [
+            "\u541b\u3088\u308a\u3082\u9577\u304f\u5b88\u308a\u629c\u3044\u305f\u5175\u58eb\u3082\u3044\u308b\u3060\u308d\u3046\u3002\u3060\u304c\u3001\u541b\u306e\u3088\u3046\u306a\u6226\u3044\u3063\u3077\u308a\u306f\u524d\u4f8b\u304c\u306a\u3044\u3002", 
+            "\u96c7\u7528\u65e5\uff1a%s1", 
+            "\u4ea4\u63db\u4e0d\u53ef"
+        ], 
+        "type": "\u30d0\u30c3\u30b8", 
+        "description": "\u904b\u547d\u306e\u30bd\u30eb\u30b8\u30e3\u30fc"
+    }, 
+    "143": {
+        "alt": [
+            "OSX \u51fa\u73fe\uff01"
+        ], 
+        "type": "Hat", 
+        "description": "\u30a4\u30e4\u30db\u30f3"
+    }, 
+    "174": {
+        "alt": [
+            "\u30ca\u30a6\u306a\u30e4\u30f3\u30b0\u306e\u3042\u3044\u3060\u3067\u5927\u30d2\u30c3\u30c8\u4e2d\u306e\u3053\u306e\u5e3d\u5b50\u3001\u77e5\u3089\u306a\u3044\u306e\u306f\u30e2\u30b0\u30ea\u3060\u305c\u3002"
+        ], 
+        "type": "Hat", 
+        "description": "\u30a6\u30fc\u30d4\u30fc \u30ad\u30e3\u30c3\u30d7"
+    }, 
+    "140": {
+        "alt": [
+            "\u30bb\u30f3\u30c8\u30ea\u30fc\u30ac\u30f3\u3092\u624b\u52d5\u3067\u64cd\u4f5c\u3057\u3088\u3046"
+        ], 
+        "type": "\u30ec\u30fc\u30b6\u30fc\u30dd\u30a4\u30f3\u30bf\u30fc", 
+        "description": "The Wrangler"
+    }, 
+    "141": {
+        "positive": [
+            "\u30bb\u30f3\u30c8\u30ea\u30fc\u30ac\u30f3\u304c\u7834\u58ca\u3055\u308c\u305f\u3068\u304d\u306b\u3001\u30bb\u30f3\u30c8\u30ea\u30fc \u30ad\u30eb\u6570\u5206\u306e\u30ea\u30d9\u30f3\u30b8 \u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u3092\u7372\u5f97\r\n\r\n"
+        ], 
+        "type": "\u30b7\u30e7\u30c3\u30c8\u30ac\u30f3", 
+        "negative": [
+            "\u30e9\u30f3\u30c0\u30e0\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u30d2\u30c3\u30c8\u306a\u3057", 
+            "\u5f3e\u5009\u30b5\u30a4\u30ba -50%"
+        ], 
+        "description": "The Frontier Justice"
     }, 
     "3": {
         "type": "\u30af\u30af\u30ea\u5200", 
         "description": "\u30af\u30af\u30ea\u5200"
     }, 
+    "171": {
+        "positive": [
+            "\u547d\u4e2d\u6642\uff1a6 \u79d2\u9593\u6d41\u8840"
+        ], 
+        "type": "\u30af\u30af\u30ea\u5200", 
+        "negative": [
+            "\u4e0e\u30c0\u30e1\u30fc\u30b8 -50%"
+        ], 
+        "description": "The Tribalman's Shiv"
+    }, 
     "7": {
         "type": "\u30b9\u30d1\u30ca", 
         "description": "\u30b9\u30d1\u30ca"
     }, 
+    "146": {
+        "alt": [
+            "TF_DemomanHallmark_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "\u30cf\u30b9\u30e9\u30fc\u306e\u8a87\u308a"
+    }, 
+    "170": {
+        "alt": [
+            "\u6226\u3044\u304c\u59cb\u307e\u308b\u524d\u304b\u3089\u6226\u3063\u3066\u3044\u305f\u3001\u771f\u306e\u6226\u58eb\u306b\u8d08\u308b\u30e1\u30c0\u30eb\u3002", 
+            "\u96c7\u7528\u65e5\uff1a%s1", 
+            "\u4ea4\u63db\u4e0d\u53ef"
+        ], 
+        "type": "\u30d0\u30c3\u30b8", 
+        "description": "\u3044\u306b\u3057\u3048\u306e\u5175\u58eb"
+    }, 
     "other_attributes": {
-        "133": "\u30e1\u30c0\u30eb\u306e\u6570\u306f%s1", 
-        "132": "\u8cb4\u91cd\u306a\u30b3\u30df\u30e5\u30cb\u30c6\u30a3\u306e\u8ca2\u732e\u8005\u306b\u4e0e\u3048\u3089\u308c\u305f", 
+        "133": "\u30e1\u30c0\u30eb\u756a\u53f7%s1", 
+        "132": "\u8cb4\u91cd\u306a\u30b3\u30df\u30e5\u30cb\u30c6\u30a3\u306e\u8ca2\u732e\u8005\u306b\u4e0e\u3048\u3089\u308c\u308b", 
         "143": "\u30ec\u30f3\u30bf\u30eb\u65e5\uff1a%s1", 
         "147": "\u30ec\u30f3\u30c1\u756a\u53f7%s1"
     }, 
@@ -419,55 +660,120 @@
         "type": "\u4f5c\u6210\u30a2\u30a4\u30c6\u30e0", 
         "description": "\u30af\u30e9\u30b9\u30c8\u30fc\u30af\u30f3 - \u30e1\u30c7\u30a3\u30c3\u30af"
     }, 
-    "108": {
+    "245": {
+        "alt": [
+            "\u30ec\u30d9\u30eb 75 \u3067\u7372\u5f97\u3002\r\n\u6c7a\u95d8\u306e\u6226\u7e3e\u3092\u8868\u3059\u30d0\u30c3\u30b8\u3002\r\n\u52dd\u5229\u3092\u91cd\u306d\u308c\u3070\u30ec\u30d9\u30eb\u30a2\u30c3\u30d7\uff01", 
+            "\u4ea4\u63db\u4e0d\u53ef"
+        ], 
+        "type": "\u30d0\u30c3\u30b8", 
+        "description": "\u30d7\u30e9\u30c1\u30ca\u6c7a\u95d8\u30d0\u30c3\u30b8"
+    }, 
+    "244": {
+        "alt": [
+            "\u30ec\u30d9\u30eb 50 \u3067\u7372\u5f97\u3002\r\n\u6c7a\u95d8\u306e\u6226\u7e3e\u3092\u8868\u3059\u30d0\u30c3\u30b8\u3002\r\n\u52dd\u5229\u3092\u91cd\u306d\u308c\u3070\u30ec\u30d9\u30eb\u30a2\u30c3\u30d7\uff01", 
+            "\u4ea4\u63db\u4e0d\u53ef"
+        ], 
+        "type": "\u30d0\u30c3\u30b8", 
+        "description": "\u30b4\u30fc\u30eb\u30c9\u6c7a\u95d8\u30d0\u30c3\u30b8"
+    }, 
+    "247": {
+        "alt": [
+            "\u3069\u3093\u306a\u5834\u9762\u3067\u3082\u30d4\u30ea\u30c3\u3068\u30b9\u30d1\u30a4\u30b9\u3092\u5229\u304b\u305b\u3066\u304f\u308c\u308b\u30ca\u30a4\u30b9\u306a\u5e3d\u5b50\u3002"
+        ], 
         "type": "Hat", 
-        "description": "\u30d0\u30c3\u30af\u30d0\u30a4\u30bf\u30fc\u306e\u30d3\u30ea\u30fc\u30b3\u30c3\u30af\u5e3d"
+        "description": "\u30aa\u30fc\u30eb\u30c9\u30b0\u30a2\u30c0\u30e9\u30cf\u30e9"
     }, 
     "109": {
+        "alt": [
+            "\u898b\u304b\u3051\u305f\u30e4\u30c4\u3092\u7247\u3063\u3071\u3057\u304b\u3089\u5893\u5834\u9001\u308a\u306b\u3059\u308b\u3068\u304d\u306b\u3061\u3087\u3046\u3069\u3044\u3044\u3001\u30ca\u30a4\u30b9\u306a\u5e3d\u5b50\u3002"
+        ], 
         "type": "Hat", 
         "description": "\u7384\u4eba\u7528\u30d1\u30ca\u30de\u5e3d"
     }, 
     "9003": {
         "positive": [
-            "\u9078\u624b\u6b7b\u4ea1\u7981\u6b62\u30b9\u30c1\u30fc\u30e0\u30a2\u30ab\u30a6\u30f3\u30c8", 
-            "\u3053\u306e\u30a2\u30a4\u30c6\u30e0\u306f\u3001\u672c\u7269\u3067\u306f\u306a\u3044\u3068\u3060\u3051\u5197\u8ac7\u3067\u3059\u3002"
+            "\u6bba\u3055\u308c\u305f\u9078\u624b\u306e\u7981\u6b62\u306eSteam\u30a2\u30ab\u30a6\u30f3\u30c8", 
+            "\u3053\u306e\u5546\u54c1\u306f\u3001\u672c\u7269\u3067\u306f\u306a\u3044\u3068\u5358\u306a\u308b\u5197\u8ac7\u3067\u3059\u3002"
         ], 
-        "type": "\u30de\u30ec\u30c3\u30c8\u8ffd\u653e\u306e", 
-        "description": "\u30d0\u30f3\u30cf\u30de\u30fc"
+        "type": "\u8ffd\u653e\u306e\u30de\u30ec\u30c3\u30c8", 
+        "description": "\u6f58\u30cf\u30f3\u30de\u30fc"
     }, 
     "240": {
+        "alt": [
+            "TF_Worms_Gear_Desc"
+        ], 
         "type": "Hat", 
-        "description": "Lumbricus Lid"
+        "description": "\u30ef\u30fc\u30e0\u306e\u30d8\u30eb\u30e1\u30c3\u30c8"
+    }, 
+    "243": {
+        "alt": [
+            "\u30ec\u30d9\u30eb 25 \u3067\u7372\u5f97\u3002\r\n\u6c7a\u95d8\u306e\u6226\u7e3e\u3092\u8868\u3059\u30d0\u30c3\u30b8\u3002\r\n\u52dd\u5229\u3092\u91cd\u306d\u308c\u3070\u30ec\u30d9\u30eb\u30a2\u30c3\u30d7\uff01", 
+            "\u4ea4\u63db\u4e0d\u53ef"
+        ], 
+        "type": "\u30d0\u30c3\u30b8", 
+        "description": "\u30b7\u30eb\u30d0\u30fc\u6c7a\u95d8\u30d0\u30c3\u30b8"
+    }, 
+    "242": {
+        "alt": [
+            "\u6c7a\u95d8\u306e\u6226\u7e3e\u3092\u8868\u3059\u30d0\u30c3\u30b8\u3002\r\n\u52dd\u5229\u3092\u91cd\u306d\u308c\u3070\u30ec\u30d9\u30eb\u30a2\u30c3\u30d7\uff01", 
+            "\u4ea4\u63db\u4e0d\u53ef"
+        ], 
+        "type": "\u30d0\u30c3\u30b8", 
+        "description": "\u30d6\u30ed\u30f3\u30ba\u6c7a\u95d8\u30d0\u30c3\u30b8"
     }, 
     "102": {
+        "alt": [
+            "\u71c3\u3048\u3066\u308b\u3068\u304d\u306f\u3001\u4ed6\u306e\u4eba\u306b\u4f55\u3092\u8a00\u308f\u308c\u3088\u3046\u304c\u95a2\u4fc2\u306a\u3044\u3002"
+        ], 
         "type": "Hat", 
         "description": "\u3069\u3046\u3067\u3082\u3044\u3044\u30b4\u30e0\u624b\u888b"
     }, 
     "103": {
+        "alt": [
+            "\u3053\u308c\u3060\u3051\u7acb\u6d3e\u306a\u30d2\u30b2\u3092\u3064\u3051\u3066\u308c\u3070\u3001\u8d85\u6a5f\u5bc6\u6587\u66f8\u3092\u8aad\u3093\u3067\u3082\u304b\u307e\u308f\u306a\u3044...\u3060\u308d\uff1f"
+        ], 
         "type": "Hat", 
         "description": "\u30ab\u30e1\u30e9\u30dc\u30fc\u30c9"
     }, 
     "100": {
+        "alt": [
+            "TF_Demo_Scott_Hat_Desc"
+        ], 
         "type": "Hat", 
         "description": "\u30b0\u30ec\u30f3\u30ac\u30ea\u30fc\u5e3d"
     }, 
     "101": {
+        "alt": [
+            "TF_Medic_Tyrolean_Hat_Desc"
+        ], 
         "type": "Hat", 
         "description": "\u30d3\u30f3\u30c6\u30fc\u30b8\u30c1\u30ed\u30eb"
     }, 
     "106": {
+        "alt": [
+            "\u653e\u5c04\u6027\u30c9\u30ea\u30f3\u30af\u304c 1 \u672c\u3067\u306f\u8db3\u308a\u306a\u3044\u3042\u306a\u305f\u306b\u3002"
+        ], 
         "type": "Hat", 
         "description": "Bonk \u30d8\u30eb\u30e1\u30c3\u30c8"
     }, 
     "107": {
+        "alt": [
+            "\u53f7\u5916\uff01 \u7279\u30c0\u30cd\u3060\uff01 \u304a\u524d\u306e\u547d\u306f\u3044\u305f\u3060\u3044\u305f\uff01"
+        ], 
         "type": "Hat", 
         "description": "\u30aa\u30fc\u30eb\u30c9\u30b9\u30af\u30fc\u30eb\u30d9\u30fc\u30ab\u30fc\u30dc\u30fc\u30a4\u5e3d"
     }, 
     "104": {
+        "alt": [
+            "\u82f1\u8a9e\u306e\u6b63\u5f0f\u540d\u79f0\u306f\u3001\u540d\u4ed8\u3051\u89aa\u3082\u8aad\u307f\u65b9\u304c\u308f\u304b\u3089\u306a\u3044\u3089\u3057\u3044\u3002"
+        ], 
         "type": "Hat", 
         "description": "\u8033\u9f3b\u79d1\u533b\u306e\u30df\u30e9\u30fc"
     }, 
     "105": {
+        "alt": [
+            "TF_Pyro_Fireman_Helmet_Desc"
+        ], 
         "type": "Hat", 
         "description": "\u65c5\u56e3\u54e1\u30d8\u30eb\u30e1\u30c3\u30c8"
     }, 
@@ -486,18 +792,6 @@
         ], 
         "description": "Axtinguisher"
     }, 
-    "33": {
-        "type": "\u6ce8\u5c04\u9283", 
-        "description": "\u6ce8\u5c04\u9283"
-    }, 
-    "32": {
-        "type": "\u9aa8\u7528\u96fb\u30ce\u30b3", 
-        "description": "\u9aa8\u7528\u96fb\u30ce\u30b3"
-    }, 
-    "31": {
-        "type": "\u30d5\u30ec\u30a2\u30fc\u30ac\u30f3", 
-        "description": "\u30d5\u30ec\u30a2\u30fc\u30ac\u30f3"
-    }, 
     "30": {
         "type": "\u900f\u660e\u30a6\u30a9\u30c3\u30c1", 
         "description": "\u900f\u660e\u30a6\u30a9\u30c3\u30c1"
@@ -512,15 +806,12 @@
         ], 
         "description": "Ubersaw"
     }, 
-    "36": {
-        "positive": [
-            "\u547d\u4e2d\u6642: \u30d8\u30eb\u30b9 +3"
+    "108": {
+        "alt": [
+            "\u3082\u3046\u3061\u3087\u3063\u3068\u4e0a\u80cc\u304c\u6b32\u3057\u304f\u3066\u3001\u3057\u304b\u3082\u3066\u3063\u307a\u3093\u304c\u4e38\u3044\u307b\u3046\u304c\r\n\u3044\u3044\u3068\u601d\u3063\u3066\u3044\u308b\u30b9\u30d1\u30a4\u306b\u3074\u3063\u305f\u308a\u3002"
         ], 
-        "type": "\u6ce8\u5c04\u9283", 
-        "negative": [
-            "\u7740\u7528\u8005\u306f 1 \u79d2\u3054\u3068\u306b\u30d8\u30eb\u30b9 -2 \u6e1b"
-        ], 
-        "description": "Blutsauger"
+        "type": "Hat", 
+        "description": "\u30d0\u30c3\u30af\u30d0\u30a4\u30bf\u30fc\u306e\u30d3\u30ea\u30fc\u30b3\u30c3\u30af\u5e3d"
     }, 
     "35": {
         "positive": [
@@ -532,9 +823,106 @@
         "type": "\u30e1\u30c7\u30a3\u30ac\u30f3", 
         "description": "Kritzkrieg"
     }, 
-    "34": {
-        "type": "\u30e1\u30c7\u30a3\u30ac\u30f3", 
-        "description": "\u30e1\u30c7\u30a3\u30ac\u30f3"
+    "246": {
+        "alt": [
+            ""
+        ], 
+        "type": "Hat", 
+        "description": "\u30dc\u30af\u30b5\u30fc\u306e\u30d7\u30ed\u30c6\u30af\u30bf\u30fc"
+    }, 
+    "94": {
+        "alt": [
+            "\u3088\u304f\u3042\u308b\u30c6\u30f3\u30ac\u30ed\u30f3\u30cf\u30c3\u30c8\u306e\u3088\u3046\u306b\u898b\u3048\u308b\u304c\u3001\u6280\u8853\u306e\u82f1\u77e5\u306b\u3088\u308a\u3001\u30ec\u30d9\u30eb 2 \u306e\u30bb\u30f3\u30c8\u30ea\u30fc\u30ac\u30f3\u3088\u308a\u591a\u304f\u306e\u53ef\u52d5\u90e8\u54c1\u304c\u7d44\u307f\u8fbc\u307e\u308c\u3066\u3044\u308b\u3002"
+        ], 
+        "type": "Hat", 
+        "description": "\u30c6\u30ad\u30b5\u30b9\u30c6\u30f3\u30ac\u30ed\u30f3"
+    }, 
+    "241": {
+        "alt": [
+            "\u4ed6\u306e\u30d7\u30ec\u30a4\u30e4\u30fc\u306b\u6c7a\u95d8\u3092\u7533\u3057\u8fbc\u3080\u3053\u3068\u304c\u3067\u304d\u308b\uff01\r\n\u8a73\u7d30\u306f Mann Co. \u30ab\u30bf\u30ed\u30b0\u3092\u53c2\u7167\u3002"
+        ], 
+        "type": "\u4f7f\u7528\u53ef\u80fd", 
+        "description": "\u6c7a\u95d8\u30df\u30cb\u30b2\u30fc\u30e0"
+    }, 
+    "5038": {
+        "alt": [
+            "\u4ed6\u306e\u30a2\u30a4\u30c6\u30e0\u306e\u30da\u30a4\u30f3\u30c8\u306b\u4f7f\u7528\u3057\u307e\u3059\u3002", 
+            "\u81ea\u4f5c\u30a2\u30a4\u30c6\u30e0"
+        ], 
+        "type": "\u5de5\u5177", 
+        "description": "Aged Moustache Grey"
+    }, 
+    "5039": {
+        "alt": [
+            "\u4ed6\u306e\u30a2\u30a4\u30c6\u30e0\u306e\u30da\u30a4\u30f3\u30c8\u306b\u4f7f\u7528\u3057\u307e\u3059\u3002", 
+            "\u81ea\u4f5c\u30a2\u30a4\u30c6\u30e0"
+        ], 
+        "type": "\u5de5\u5177", 
+        "description": "An Extraordinary Abundance of Tinge"
+    }, 
+    "5036": {
+        "alt": [
+            "\u4ed6\u306e\u30a2\u30a4\u30c6\u30e0\u306e\u30da\u30a4\u30f3\u30c8\u306b\u4f7f\u7528\u3057\u307e\u3059\u3002", 
+            "\u81ea\u4f5c\u30a2\u30a4\u30c6\u30e0"
+        ], 
+        "type": "\u5de5\u5177", 
+        "description": "Ye Olde Rustic Colour"
+    }, 
+    "5037": {
+        "alt": [
+            "\u4ed6\u306e\u30a2\u30a4\u30c6\u30e0\u306e\u30da\u30a4\u30f3\u30c8\u306b\u4f7f\u7528\u3057\u307e\u3059\u3002", 
+            "\u81ea\u4f5c\u30a2\u30a4\u30c6\u30e0"
+        ], 
+        "type": "\u5de5\u5177", 
+        "description": "Australium Gold"
+    }, 
+    "5034": {
+        "alt": [
+            "\u4ed6\u306e\u30a2\u30a4\u30c6\u30e0\u306e\u30da\u30a4\u30f3\u30c8\u306b\u4f7f\u7528\u3057\u307e\u3059\u3002", 
+            "\u81ea\u4f5c\u30a2\u30a4\u30c6\u30e0"
+        ], 
+        "type": "\u5de5\u5177", 
+        "description": "Peculiarly Drab Tincture"
+    }, 
+    "5035": {
+        "alt": [
+            "\u4ed6\u306e\u30a2\u30a4\u30c6\u30e0\u306e\u30da\u30a4\u30f3\u30c8\u306b\u4f7f\u7528\u3057\u307e\u3059\u3002", 
+            "\u81ea\u4f5c\u30a2\u30a4\u30c6\u30e0"
+        ], 
+        "type": "\u5de5\u5177", 
+        "description": "Radigan Conagher Brown"
+    }, 
+    "5032": {
+        "alt": [
+            "\u4ed6\u306e\u30a2\u30a4\u30c6\u30e0\u306e\u30da\u30a4\u30f3\u30c8\u306b\u4f7f\u7528\u3057\u307e\u3059\u3002", 
+            "\u81ea\u4f5c\u30a2\u30a4\u30c6\u30e0"
+        ], 
+        "type": "\u5de5\u5177", 
+        "description": "Mann Co. Orange"
+    }, 
+    "5033": {
+        "alt": [
+            "\u4ed6\u306e\u30a2\u30a4\u30c6\u30e0\u306e\u30da\u30a4\u30f3\u30c8\u306b\u4f7f\u7528\u3057\u307e\u3059\u3002", 
+            "\u81ea\u4f5c\u30a2\u30a4\u30c6\u30e0"
+        ], 
+        "type": "\u5de5\u5177", 
+        "description": "Muskelmannbraun"
+    }, 
+    "5030": {
+        "alt": [
+            "\u4ed6\u306e\u30a2\u30a4\u30c6\u30e0\u306e\u30da\u30a4\u30f3\u30c8\u306b\u4f7f\u7528\u3057\u307e\u3059\u3002", 
+            "\u81ea\u4f5c\u30a2\u30a4\u30c6\u30e0"
+        ], 
+        "type": "\u5de5\u5177", 
+        "description": "Color No. 216-190-216"
+    }, 
+    "5031": {
+        "alt": [
+            "\u4ed6\u306e\u30a2\u30a4\u30c6\u30e0\u306e\u30da\u30a4\u30f3\u30c8\u306b\u4f7f\u7528\u3057\u307e\u3059\u3002", 
+            "\u81ea\u4f5c\u30a2\u30a4\u30c6\u30e0"
+        ], 
+        "type": "\u5de5\u5177", 
+        "description": "A Deep Commitment to Purple"
     }, 
     "60": {
         "positive": [
@@ -557,32 +945,71 @@
         ], 
         "description": "Ambassador"
     }, 
+    "259": {
+        "alt": [
+            "\u898b\u5f35\u308a\u306e 1 \u4eba\u3082\u9003\u3055\u306a\u3044\u3002"
+        ], 
+        "type": "Hat", 
+        "description": "\u9154\u3044\u3069\u308c\u306e\u80cc\u9ad8\u5e3d"
+    }, 
     "97": {
+        "alt": [
+            "\u30c1\u30fc\u30e0\u4e00\u306e\u66b4\u308c\u3093\u574a\u306f\u3001\u30d5\u30a1\u30c3\u30b7\u30e7\u30f3\u30bb\u30f3\u30b9\u304c\u3069\u308c\u3060\u3051\u30a2\u30ec\u3067\u3082\u4f55\u3082\u8a00\u308f\u308c\u306a\u3044\u3002"
+        ], 
         "type": "Hat", 
         "description": "\u30bf\u30d5\u30ac\u30a4\u7528\u30c8\u30fc\u30af\u5e3d"
     }, 
     "179": {
+        "alt": [
+            "\u3068\u3093\u304c\u3063\u305f\u89d2\u3092 3 \u3064\u6301\u3063\u305f\u3001\u30b7\u30e3\u30fc\u30d7\u306a\u5e3d\u5b50\u3002\r\n\u76ee\u306b\u523a\u3055\u3089\u306a\u3044\u3088\u3046\u306b\u6ce8\u610f\u3002"
+        ], 
         "type": "Hat", 
         "description": "\u5451\u307f\u52a9\u306e\u4e09\u89d2\u5e3d\u5b50"
     }, 
     "178": {
+        "alt": [
+            "\u8033\u3092\u3064\u3093\u3056\u304f\u9283\u58f0\u3068\u65ad\u672b\u9b54\u306e\u53eb\u3073\u306e\u4e2d\u3067\u306f\u3001\u4f53\u306e\u56de\u8ee2\u529b\u3068\u6163\u6027\u30e2\u30fc\u30e1\u30f3\u30c8\u306e\u30d9\u30af\u30c8\u30eb\u3092\u8a08\u7b97\u3059\u308b\u306e\u306f\u96e3\u3057\u3044\u306f\u305a\u3002\u30bb\u30fc\u30d5 \u30a2\u30f3\u30c9 \u30b5\u30a6\u30f3\u30c9\u3092\u88c5\u7740\u3057\u3066\u3001\u5b89\u5168\u3067\u52b9\u679c\u7684\u306a\u30de\u30b7\u30f3\u3092\u69cb\u7bc9\u3057\u3088\u3046\uff01"
+        ], 
         "type": "Hat", 
         "description": "\u30bb\u30fc\u30d5 \u30a2\u30f3\u30c9 \u30b5\u30a6\u30f3\u30c9"
     }, 
-    "177": {
+    "252": {
         "alt": [
-            "\u306a\u3057"
+            ""
         ], 
         "type": "Hat", 
-        "description": "\u30b6 \u30b4\u30fc\u30b0\u30eb"
+        "description": "\u30c9\u30af\u30bf\u30fc\u306e\u30c0\u30c3\u30d1\u30fc\u30c8\u30c3\u30d1\u30fc"
+    }, 
+    "5014": {
+        "alt": [
+            "\u8a2d\u8a08\u56f3\u3067\u88c5\u5099\u30b9\u30ed\u30c3\u30c8\u3092\u6307\u5b9a\u3059\u308b\u306e\u306b\u4f7f\u7528"
+        ], 
+        "type": "\u4f5c\u6210\u30a2\u30a4\u30c6\u30e0", 
+        "description": "\u30b9\u30ed\u30c3\u30c8\u30c8\u30fc\u30af\u30f3 - \u8fd1\u63a5"
     }, 
     "175": {
+        "alt": [
+            "\u5927\u706b\u4e8b\u3092\u597d\u3080\u7d33\u58eb\u5411\u3051\u306e\u3001\u30c6\u30fc\u30d7\u3067\u3064\u3051\u308b\u697d\u3005\u3072\u3052\u30bb\u30c3\u30c8\u3002\u9632\u708e\u52a0\u5de5\u6e08\u307f\u3002"
+        ], 
         "type": "Hat", 
         "description": "\u30b8\u30a7\u30f3\u30c8\u30eb\u30de\u30f3\u7528\u3072\u3052\u30bb\u30c3\u30c8"
     }, 
-    "174": {
+    "251": {
+        "alt": [
+            "\u30d3\u30af\u30c8\u30ea\u30a2\u6642\u4ee3\u306e\u8ecd\u968a\u30d5\u30a1\u30c3\u30b7\u30e7\u30f3\u306e\r\n\u6700\u9ad8\u5cf0\u3002"
+        ], 
         "type": "Hat", 
-        "description": "\u30a6\u30fc\u30d4\u30fc \u30ad\u30e3\u30c3\u30d7"
+        "description": "\u5f37\u976d\u306a\u30b7\u30e3\u30b3\u30fc\u5e3d"
+    }, 
+    "173": {
+        "positive": [
+            "\u6b7b\u4ea1\u6642\u306b\u6700\u5927 20% \u306e\u4fdd\u5b58\r\n\u30e6\u30fc\u30d0\u30fc\u30c1\u30e3\u30fc\u30b8\u3092\u4fdd\u6301\u3059\u308b\u3002"
+        ], 
+        "type": "\u9aa8\u7528\u96fb\u30ce\u30b3", 
+        "negative": [
+            "\u7740\u7528\u8005\u306e\u6700\u5927\u30d8\u30eb\u30b9 -10"
+        ], 
+        "description": "Vita-Saw"
     }, 
     "172": {
         "positive": [
@@ -594,40 +1021,73 @@
         ], 
         "description": "The Scotsman's Skullcutter"
     }, 
-    "171": {
-        "positive": [
-            "\u547d\u4e2d\u6642\uff1a6 \u79d2\u9593\u6d41\u8840"
-        ], 
-        "type": "\u30af\u30af\u30ea\u5200", 
-        "negative": [
-            "\u4e0e\u30c0\u30e1\u30fc\u30b8 -50%"
-        ], 
-        "description": "The Tribalman's Shiv"
-    }, 
-    "170": {
+    "254": {
         "alt": [
-            "\u96c7\u7528\u65e5\uff1a%s1"
+            "Jarate \u4f7f\u3044\u304c\u8fd1\u304f\u306b\u3044\u308b\u3068\u304d\u306f\u3001\r\n\u7528\u5fc3\u3057\u3059\u304e\u308b\u3053\u3068\u306f\u306a\u3044\u3002"
         ], 
-        "type": "\u30d0\u30c3\u30b8", 
-        "description": "\u3044\u306b\u3057\u3048\u306e\u5175\u58eb"
+        "type": "Hat", 
+        "description": "\u30cf\u30fc\u30c9\u30ab\u30a6\u30f3\u30bf\u30fc"
+    }, 
+    "255": {
+        "alt": [
+            "\u7c98\u7740\u7206\u5f3e\u30b8\u30e3\u30f3\u30d1\u30fc\u306e\u5fc5\u9700\u54c1\u3002"
+        ], 
+        "type": "Hat", 
+        "description": "\u3057\u3089\u3075\u306e\u30b9\u30bf\u30f3\u30c8\u30de\u30f3"
+    }, 
+    "249": {
+        "alt": [
+            "\u4e0a\u7a7a\u304b\u3089\u6b7b\u3092\uff01"
+        ], 
+        "type": "Hat", 
+        "description": "\u30dc\u30df\u30f3\u30b0\u30e9\u30f3"
+    }, 
+    "145": {
+        "alt": [
+            "\u306a\u3054\u307f\u7cfb\u306e\u30b7\u30eb\u30a8\u30c3\u30c8\u3067\u3001\u6575\u306e\u52d5\u63fa\u3092\u8a98\u3046\u3002"
+        ], 
+        "type": "Hat", 
+        "description": "\u30cf\u30a6\u30f3\u30c9\u30c9\u30c3\u30b0"
+    }, 
+    "248": {
+        "alt": [
+            "\u4e00\u65e5\u4e2d\u30b9\u30ab\u30a6\u30c8\u3092\u71c3\u3084\u3057\u3066\u75b2\u308c\u679c\u3066\u305f\u3042\u306a\u305f\u306b\u3002"
+        ], 
+        "type": "Hat", 
+        "description": "\u71c3\u3048\u308b\u7537\u306e\u4f11\u606f"
     }, 
     "182": {
+        "alt": [
+            "\u81ea\u5206\u306e\u653e\u3063\u305f\u706b\u3092\u6d88\u3059\u305f\u3081\u306b\u547d\u3092\u843d\u3068\u3057\u305f\u6570\u591a\u304f\u306e\u6d88\u9632\u58eb\u306e\u6804\u8a89\u3092\u305f\u305f\u3048\u3066\u3001\u30d1\u30a4\u30ed\u306f\u3053\u306e\u30d8\u30eb\u30e1\u30c3\u30c8\u3092\u304b\u3076\u308b\u3002"
+        ], 
         "type": "Hat", 
         "description": "\u30d3\u30f3\u30c6\u30fc\u30b8 \u30e1\u30ea\u30a6\u30a7\u30b6\u30fc"
     }, 
     "183": {
+        "alt": [
+            "\u7f75\u5012\u3092\u6d74\u3073\u305b\u304b\u3051\u305f\u3044\u304c\u5927\u58f0\u3092\u51fa\u3057\u305f\u304f\u306a\u3044\u3068\u304d\u306b\u4fbf\u5229\u3002"
+        ], 
         "type": "Hat", 
         "description": "\u8ecd\u66f9\u306e\u6559\u5b98\u5e3d"
     }, 
     "180": {
+        "alt": [
+            "\u771f\u306e\u30b9\u30d1\u30a4\u884c\u70ba\u3068\u306f\u30a2\u30fc\u30c8\u3067\u3042\u308b\u3002\u30a2\u30fc\u30c8\u306e\u56fd\u306b\u656c\u610f\u3092\u8868\u3057\u3066\u3002"
+        ], 
         "type": "Hat", 
         "description": "\u30d5\u30ec\u30f3\u30c1\u30d9\u30ec\u30fc"
     }, 
     "181": {
+        "alt": [
+            "\u91e3\u308a\u5e2b\u3068\u304b\u3051\u3066\u3001\u30b9\u30ca\u30a4\u30d1\u30fc\u3068\u89e3\u304f\u3002\u305d\u306e\u5fc3\u306f\u3001\u3069\u3061\u3089\u3082\u5fcd\u8010\u3068\u4e00\u77ac\u306e\u5224\u65ad\u304c\u3059\u3079\u3066\u3002"
+        ], 
         "type": "Hat", 
         "description": "\u30d6\u30ed\u30fc\u30af\u306e\u30d0\u30b1\u30c3\u30c8\u30cf\u30c3\u30c8"
     }, 
     "184": {
+        "alt": [
+            "\u4ed6\u306e\u5e3d\u5b50\u306e\u3088\u3046\u306b\u76ee\u7acb\u3063\u305f\u6d3e\u624b\u3055\u306f\u306a\u3044\u304c\u3001\u72ec\u81ea\u306e\u30a8\u30ec\u30ac\u30f3\u30b9\u3092\u91b8\u3057\u51fa\u3059\u5e3d\u5b50\u3002\u53cb\u4eba\u3068\u30b4\u30eb\u30d5\u306e\u30e9\u30a6\u30f3\u30c9\u306b\u51fa\u3066\u3044\u308b\u3068\u304d\u3082\u3001\u30d4\u30ab\u30d4\u30ab\u306b\u78e8\u304d\u4e0a\u3052\u305f\u9aa8\u306e\u3053\u304e\u308a\u3067\u7dca\u6025\u624b\u8853\u3092\u3057\u3066\u3044\u308b\u3068\u304d\u3082\u3001\u3042\u305f\u305f\u304b\u306a\u305d\u306e\u9b45\u529b\u306f\u5468\u308a\u306e\u4eba\u3005\u3092\u3068\u308a\u3053\u306b\u3059\u308b\u3002"
+        ], 
         "type": "Hat", 
         "description": "\u7d33\u58eb\u306e\u30ae\u30e3\u30c4\u30d3\u30fc"
     }, 
@@ -635,46 +1095,152 @@
         "type": "\u30b7\u30e3\u30d9\u30eb", 
         "description": "\u30b7\u30e3\u30d9\u30eb"
     }, 
+    "250": {
+        "alt": [
+            ""
+        ], 
+        "type": "Hat", 
+        "description": "\u30c1\u30fc\u30d5\u30bf\u30f3\u30c1\u30e3\u30ec\u30f3\u30b8"
+    }, 
     "189": {
+        "alt": [
+            "\u3053\u306e\u304a\u8336\u76ee\u306a\u30e2\u30f3\u30b9\u30bf\u30fc\u306f\u3042\u308b\u6642\u3001\u3042\u308b\u5834\u6240\u3067\u306f\u4eba\u985e\u306e\u5b58\u7d9a\u3092\u8105\u304b\u3059\u5b58\u5728\u3060\u3063\u305f\u3002\u3057\u304b\u3057\u4eca\u306f\u6226\u58eb\u305f\u3061\u306e\u982d\u306e\u4e0a\u3067\u65e5\u5dee\u3057\u3092\u3055\u3048\u304e\u3063\u3066\u304f\u308c\u308b\u3002"
+        ], 
         "type": "Hat", 
         "description": "Alien Swarm Parasite"
     }, 
+    "5029": {
+        "alt": [
+            "\u4ed6\u306e\u30a2\u30a4\u30c6\u30e0\u306e\u30da\u30a4\u30f3\u30c8\u306b\u4f7f\u7528\u3057\u307e\u3059\u3002", 
+            "\u81ea\u4f5c\u30a2\u30a4\u30c6\u30e0"
+        ], 
+        "type": "\u5de5\u5177", 
+        "description": "Noble Hatter's Violet"
+    }, 
+    "5028": {
+        "alt": [
+            "\u4ed6\u306e\u30a2\u30a4\u30c6\u30e0\u306e\u30da\u30a4\u30f3\u30c8\u306b\u4f7f\u7528\u3057\u307e\u3059\u3002", 
+            "\u81ea\u4f5c\u30a2\u30a4\u30c6\u30e0"
+        ], 
+        "type": "\u5de5\u5177", 
+        "description": "Zephaniah's Greed"
+    }, 
+    "221": {
+        "alt": [
+            "\u30b5\u30ab\u30ca\u3067\u3076\u3093\u6bb4\u3089\u308c\u308b\u306e\u306f\u3001\u304b\u306a\u308a\u5c48\u8fb1\u7684\u306a\u306f\u305a\u3002"
+        ], 
+        "type": "\u30b5\u30ab\u30ca", 
+        "description": "Holy Mackerel"
+    }, 
+    "5021": {
+        "alt": [
+            "\u30ed\u30c3\u30af\u3055\u308c\u305f\u7269\u8cc7\u7bb1\u3092\u958b\u3051\u308b\u305f\u3081\u306b\u4f7f\u7528\u3057\u307e\u3059\u3002"
+        ], 
+        "type": "\u5de5\u5177", 
+        "description": "Mann Co. \u7269\u8cc7\u7bb1\u306e\u30ad\u30fc"
+    }, 
+    "5020": {
+        "alt": [
+            "\u30d0\u30c3\u30af\u30d1\u30c3\u30af\u306b\u5165\u3063\u3066\u3044\u308b\u30a2\u30a4\u30c6\u30e0\u306e\u540d\u524d\u3092\u5909\u66f4\u3059\u308b"
+        ], 
+        "type": "\u5de5\u5177", 
+        "description": "\u540d\u524d\u30bf\u30b0"
+    }, 
+    "5023": {
+        "alt": [
+            "\u4ed6\u306e\u30a2\u30a4\u30c6\u30e0\u306e\u30da\u30a4\u30f3\u30c8\u306b\u4f7f\u7528\u3057\u307e\u3059\u3002", 
+            "\u81ea\u4f5c\u30a2\u30a4\u30c6\u30e0"
+        ], 
+        "type": "\u5de5\u5177", 
+        "description": "\u30da\u30a4\u30f3\u30c8\u7f36"
+    }, 
     "185": {
+        "alt": [
+            "12 \u79d2 $400,000 \u3067\u8eab\u306b\u3064\u3051\u3066\u3044\u305f\u3060\u3051\u307e\u3059\u3002"
+        ], 
         "type": "Hat", 
         "description": "\u5f37\u5316\u30d0\u30f3\u30c0\u30ca"
     }, 
+    "5027": {
+        "alt": [
+            "\u4ed6\u306e\u30a2\u30a4\u30c6\u30e0\u306e\u30da\u30a4\u30f3\u30c8\u306b\u4f7f\u7528\u3057\u307e\u3059\u3002", 
+            "\u81ea\u4f5c\u30a2\u30a4\u30c6\u30e0"
+        ], 
+        "type": "\u5de5\u5177", 
+        "description": "Indubitably Green"
+    }, 
     "99": {
+        "alt": [
+            "\u601d\u3044\u3063\u304d\u308a\u8e74\u3063\u98db\u3070\u3057\u305f\u30b1\u30c4\u304c\u904e\u53bb\u307e\u3067\u98db\u3093\u3067\u3063\u3066\u3001\u30d0\u30a4\u30ad\u30f3\u30b0\u306e\u30d8\u30eb\u30e1\u30c3\u30c8\u3092\u304a\u307e\u3051\u306b\u3064\u3051\u3066\u5e30\u3063\u3066\u304d\u305f\u3002"
+        ], 
         "type": "Hat", 
         "description": "\u66b4\u541b\u306e\u30d8\u30eb\u30e0"
     }, 
     "98": {
+        "alt": [
+            "\u5f3e\u4e38\u3084\u7834\u7247\u304b\u3089\u982d\u3092\u5b88\u308b\u3053\u3068\u304c\u3067\u304d\u308b\u3002\r\n\u3057\u304b\u3082\u30b9\u30fc\u30d7\u3082\u6e29\u3081\u3089\u308c\u308b\u3002"
+        ], 
         "type": "Hat", 
         "description": "\u30b9\u30c6\u30f3\u30ec\u30b9\u30dd\u30c3\u30c8"
     }, 
     "169": {
+        "alt": [
+            "\u4ea4\u63db\u4e0d\u53ef"
+        ], 
         "type": "\u30b9\u30d1\u30ca", 
         "description": "The Golden Wrench"
     }, 
-    "164": {
+    "229": {
         "alt": [
-            "\u96c7\u7528\u65e5\uff1a%s1"
+            "TF_OlSnaggletooth_Desc"
         ], 
-        "type": "\u30d0\u30c3\u30b8", 
-        "description": "\u767d\u9aea\u4ea4\u3058\u308a\u306e\u9000\u5f79\u8ecd\u4eba"
+        "type": "Hat", 
+        "description": "Ol' Snaggletooth"
     }, 
-    "165": {
-        "alt": [
-            "\u96c7\u7528\u65e5\uff1a%s1"
+    "228": {
+        "positive": [
+            "\u547d\u4e2d\u6642: \u30d8\u30eb\u30b9 +15"
         ], 
-        "type": "\u30d0\u30c3\u30b8", 
-        "description": "\u904b\u547d\u306e\u30bd\u30eb\u30b8\u30e3\u30fc"
+        "type": "\u30ed\u30b1\u30c3\u30c8\u30e9\u30f3\u30c1\u30e3\u30fc", 
+        "negative": [
+            "\u5f3e\u5009\u30b5\u30a4\u30ba -25%"
+        ], 
+        "description": "Black Box"
     }, 
-    "166": {
+    "227": {
         "alt": [
-            "\u96c7\u7528\u65e5\uff1a%s1"
+            "TF_TheGrenadiersSoftcap_Desc"
         ], 
-        "type": "\u30d0\u30c3\u30b8", 
-        "description": "\u50ad\u5175"
+        "type": "Hat", 
+        "description": "Grenadier's Softcap"
+    }, 
+    "226": {
+        "alt": [
+            "\u9632\u5fa1\u529b\u5f37\u5316\u306e\u52b9\u679c\u3092\u6301\u3064\u3002\r\n\u5468\u56f2\u306e\u5473\u65b9\u3078\u306e\u30af\u30ea\u30c6\u30a3\u30ab\u30eb \u30d2\u30c3\u30c8\u3092\u9632\u6b62\u3057\u3001\r\n\u30c0\u30e1\u30fc\u30b8\u306e 35% \u3092\u30d6\u30ed\u30c3\u30af\u3059\u308b\u3002\r\n\u307e\u305f\u3001\u88ab\u30c0\u30e1\u30fc\u30b8\u3067\u30ec\u30a4\u30b8\u304c\u4e0a\u6607\u3002"
+        ], 
+        "type": "\u6226\u65d7", 
+        "description": "Battalion's Backup"
+    }, 
+    "225": {
+        "positive": [
+            "\u30d0\u30c3\u30af\u30b9\u30bf\u30d6\u306b\u6210\u529f\u3059\u308b\u3068\u3001\r\n\u3059\u3050\u306b\u72a0\u7272\u8005\u306b\u5909\u88c5\u3067\u304d\u308b", 
+            "\u6d88\u97f3\u6b66\u5668"
+        ], 
+        "type": "\u30ca\u30a4\u30d5", 
+        "negative": [
+            "\u7740\u7528\u8005\u306f\u5909\u88c5\u3067\u304d\u306a\u3044"
+        ], 
+        "description": "Your Eternal Reward"
+    }, 
+    "224": {
+        "positive": [
+            "\u547d\u4e2d\u6642\u306b\u900f\u660e\u30de\u30f3\u30c8 +15"
+        ], 
+        "type": "\u30ea\u30dc\u30eb\u30d0\u30fc", 
+        "negative": [
+            "\u4e0e\u30c0\u30e1\u30fc\u30b8 -20%"
+        ], 
+        "description": "L'Etranger"
     }, 
     "160": {
         "alt": [
@@ -697,13 +1263,15 @@
         "type": "Hat", 
         "description": "\u30de\u30c3\u30af\u30b9\u306e\u565b\u307f\u3064\u304d\u5e3d\u5b50"
     }, 
-    "163": {
-        "alt": [
-            "\u52b9\u679c\u4e2d\u3001\u4e0e\u30c0\u30e1\u30fc\u30b8\u304a\u3088\u3073\u88ab\u30c0\u30e1\u30fc\u30b8\u304c\r\n\u30df\u30cb\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u306b\u306a\u308b\u3002", 
-            "30 \u79d2\u9593\u6700\u5927\u30d8\u30eb\u30b9 +50"
+    "220": {
+        "positive": [
+            "\u547d\u4e2d\u6642\uff1a\u30bf\u30fc\u30b2\u30c3\u30c8\u306e\u52d5\u304d\u3092 40% \u4f4e\u901f\u5316\uff080.5s\uff09"
         ], 
-        "type": "\u30e9\u30f3\u30c1\u30dc\u30c3\u30af\u30b9", 
-        "description": "Crit-a-Cola"
+        "alt": [
+            "Mann Co. \u306e\u6700\u65b0\u4f5c\u3002\r\n\u3084\u308b\u6c17\u6e80\u3005\u306e\u9632\u5fa1\u88c5\u5099\u3002"
+        ], 
+        "type": "\u30da\u30c3\u30d1\u30fc\u30ac\u30f3", 
+        "description": "Shortstop"
     }, 
     "11": {
         "type": "\u30b7\u30e7\u30c3\u30c8\u30ac\u30f3", 
@@ -745,11 +1313,36 @@
         "type": "\u30ed\u30b1\u30c3\u30c8\u30e9\u30f3\u30c1\u30e3\u30fc", 
         "description": "\u30ed\u30b1\u30c3\u30c8\u30e9\u30f3\u30c1\u30e3\u30fc"
     }, 
+    "164": {
+        "alt": [
+            "\u5175\u58eb\u3088\u3002\u8a87\u3089\u3057\u304f\u80f8\u306b\u98fe\u308b\u3079\u3057\u3002\u541b\u304c\u6575\u3092\u5012\u305b\u3070\u3001\u6575\u306f\u81ea\u3089\u304c\u6700\u5f37\u3067\u306f\u306a\u3044\u3068\u5e38\u306b\u601d\u3044\u77e5\u3089\u3055\u308c\u308b\u3060\u308d\u3046\u3002", 
+            "\u96c7\u7528\u65e5\uff1a%s1", 
+            "\u4ea4\u63db\u4e0d\u53ef"
+        ], 
+        "type": "\u30d0\u30c3\u30b8", 
+        "description": "\u767d\u9aea\u4ea4\u3058\u308a\u306e\u9000\u5f79\u8ecd\u4eba"
+    }, 
+    "5022": {
+        "positive": [
+            "\u7bb1\u30b7\u30ea\u30fc\u30ba #1"
+        ], 
+        "alt": [
+            "\u3053\u306e\u7bb1\u3092\u958b\u3051\u308b\u306b\u306f Mann Co. \u7269\u8cc7\u7bb1\u306e\u30ad\u30fc\u304c\u5fc5\u8981\u3067\u3059\u3002"
+        ], 
+        "type": "TF_LockedCrate", 
+        "description": "Mann Co. \u7269\u8cc7\u7bb1"
+    }, 
     "151": {
+        "alt": [
+            "\u5c11\u306a\u304f\u3068\u3082\u300c\u71c3\u3084\u305b\u300d\u3068\u3044\u3046\u6307\u4ee4\u306f\u51fa\u3066\u3044\u308b\u3089\u3057\u3044\u3002"
+        ], 
         "type": "Hat", 
         "description": "\u7dd1\u306e\u5f81\u670d\u8005"
     }, 
     "150": {
+        "alt": [
+            "\u3053\u308c\u3092\u304b\u3076\u308c\u3070\u3001\u8ab0\u306e\u8a00\u3044\u306a\u308a\u306b\u3082\u7d76\u5bfe\u306b\u306a\u3089\u306a\u3044\u3002"
+        ], 
         "type": "Hat", 
         "description": "\u30c8\u30e9\u30d6\u30eb\u30e1\u30fc\u30ab\u30fc \u30ad\u30e3\u30c3\u30d7"
     }, 
@@ -765,6 +1358,9 @@
         "description": "Homewrecker"
     }, 
     "152": {
+        "alt": [
+            "\u6226\u3044\u306e\u524d\u306b\u4e00\u53e5\u3002\r\n\u3084\u305b\u30b9\u30d1\u30a4 \u305d\u3053\u306e\u3051\u305d\u3053\u306e\u3051 \u30ab\u30d6\u30c8\u304c\u901a\u308b"
+        ], 
         "type": "Hat", 
         "description": "\u30ad\u30e9\u30fc \u30ab\u30d6\u30c8"
     }, 
@@ -797,14 +1393,102 @@
         "description": "Dalokohs Bar"
     }, 
     "158": {
+        "alt": [
+            "\u672a\u958b\u306e\u5965\u5730\u3068\u3001\u3064\u3044\u3067\u306b\u4eba\u306e\u982d\u3082\u901a\u308a\u629c\u3051\u308b\u306e\u306b\u3074\u3063\u305f\u308a\u3002"
+        ], 
         "type": "Hat", 
         "description": "\u5c04\u624b\u306e\u30c8\u30fc\u30d4\u30fc"
     }, 
+    "36": {
+        "positive": [
+            "\u547d\u4e2d\u6642: \u30d8\u30eb\u30b9 +3"
+        ], 
+        "type": "\u6ce8\u5c04\u9283", 
+        "negative": [
+            "\u7740\u7528\u8005\u306f 1 \u79d2\u3054\u3068\u306b\u30d8\u30eb\u30b9 -2 \u6e1b"
+        ], 
+        "description": "Blutsauger"
+    }, 
+    "239": {
+        "positive": [
+            "\u7740\u7528\u8005\u306e\u79fb\u52d5\u30b9\u30d4\u30fc\u30c9 +30% \u9ad8\u901f\u5316"
+        ], 
+        "alt": [
+            "\u6b66\u5668\u306e\u88c5\u5099\u4e2d:"
+        ], 
+        "type": "\u62f3", 
+        "negative": [
+            "\u4e0e\u30c0\u30e1\u30fc\u30b8 -50%", 
+            "\u7740\u7528\u8005\u306f 1 \u79d2\u3054\u3068\u306b\u30d8\u30eb\u30b9 -6 \u6e1b"
+        ], 
+        "description": "Gloves of Running Urgently"
+    }, 
+    "234": {
+        "alt": [
+            "\u4f7f\u7528\u3059\u308b\u3068\u3001\u30b5\u30fc\u30d0\u30fc\u4e0a\u306e\u6700\u5927 23 \u4eba\u306e\u30d7\u30ec\u30a4\u30e4\u30fc\u306b\r\n\u30e9\u30f3\u30c0\u30e0\u30ae\u30d5\u30c8\u3092\u30d7\u30ec\u30bc\u30f3\u30c8\uff01"
+        ], 
+        "type": "\u30ae\u30d5\u30c8", 
+        "description": "\u5927\u91cf\u30ae\u30d5\u30c8"
+    }, 
+    "237": {
+        "positive": [
+            "\u81ea\u5206\u306e\u5f3e\u306e\u7206\u7834\u30c0\u30e1\u30fc\u30b8\u3092\u53d7\u3051\u306a\u3044\u3002", 
+            "\u7740\u7528\u8005\u306e\u30e1\u30a4\u30f3\u6b66\u5668\u6700\u5927\u5f3e\u85ac\u6570 +200%"
+        ], 
+        "alt": [
+            "\u30c0\u30e1\u30fc\u30b8 0 \u306e\u7279\u6b8a\u306a\u30ed\u30b1\u30c3\u30c8\u30e9\u30f3\u30c1\u30e3\u30fc\u3002\r\n\u30ed\u30b1\u30c3\u30c8\u30b8\u30e3\u30f3\u30d7\u306e\u6280\u3092\u5b66\u3076\u305f\u3081\u306e\u7df4\u7fd2\u7528\u3002"
+        ], 
+        "type": "\u30ed\u30b1\u30c3\u30c8\u30e9\u30f3\u30c1\u30e3\u30fc", 
+        "negative": [
+            "\u4e0e\u30c0\u30e1\u30fc\u30b8 -100%"
+        ], 
+        "description": "Rocket Jumper"
+    }, 
+    "230": {
+        "positive": [
+            "\u547d\u4e2d\u6642\uff1a\u30bf\u30fc\u30b2\u30c3\u30c8\u306b 8 \u79d2\u9593\r\nJarate \u52b9\u679c"
+        ], 
+        "type": "\u30b9\u30ca\u30a4\u30d1\u30fc\u30e9\u30a4\u30d5\u30eb", 
+        "negative": [
+            "\u30d8\u30c3\u30c9\u30b7\u30e7\u30c3\u30c8\u306a\u3057"
+        ], 
+        "description": "Sydney Sleeper"
+    }, 
+    "231": {
+        "positive": [
+            "\u7740\u7528\u8005\u306e\u6700\u5927\u30d8\u30eb\u30b9 +25"
+        ], 
+        "type": "\u30b7\u30fc\u30eb\u30c9", 
+        "description": "Darwin's Danger Shield"
+    }, 
+    "232": {
+        "positive": [
+            "\u901a\u5e38\u306e\u30df\u30cb\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u30c0\u30e1\u30fc\u30b8\u304c\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u30c0\u30e1\u30fc\u30b8\u306b\u306a\u308b"
+        ], 
+        "type": "\u30af\u30af\u30ea\u5200", 
+        "negative": [
+            "\u7740\u7528\u8005\u306e\u708e\u30c0\u30e1\u30fc\u30b8\u8010\u6027 20%"
+        ], 
+        "description": "Bushwacka"
+    }, 
+    "233": {
+        "alt": [
+            "\u4f7f\u7528\u3059\u308b\u3068\u3001\u30b5\u30fc\u30d0\u30fc\u4e0a\u306e 1 \u4eba\u306e\u30d7\u30ec\u30a4\u30e4\u30fc\u306b\r\n\u30e9\u30f3\u30c0\u30e0\u30ae\u30d5\u30c8\u3092\u30d7\u30ec\u30bc\u30f3\u30c8\uff01"
+        ], 
+        "type": "\u30ae\u30d5\u30c8", 
+        "description": "\u30b7\u30fc\u30af\u30ec\u30c3\u30c8\u30b5\u30f3\u30bf"
+    }, 
     "48": {
+        "alt": [
+            "\u30b7\u30e3\u30fc\u30d7\u306a\u30a2\u30a4\u30c7\u30a2\u306b\u3042\u3075\u308c\u305f\u30a8\u30f3\u30b8\u30cb\u30a2\u5fa1\u7528\u9054\u3002"
+        ], 
         "type": "Hat", 
         "description": "\u63a1\u6398\u7528\u30e9\u30a4\u30c8"
     }, 
     "49": {
+        "alt": [
+            "TF_Heavy_Hat_1_Desc"
+        ], 
         "type": "Hat", 
         "description": "\u30d5\u30c3\u30c8\u30dc\u30fc\u30eb\u30d8\u30eb\u30e1\u30c3\u30c8"
     }, 
@@ -813,6 +1497,9 @@
         "description": "Bonk! Atomic Punch"
     }, 
     "47": {
+        "alt": [
+            "TF_Demo_Hat_1_Desc"
+        ], 
         "type": "Hat", 
         "description": "\u30c7\u30e2\u30de\u30f3\u30a2\u30d5\u30ed"
     }, 
@@ -879,6 +1566,13 @@
         "type": "\u30dc\u30c8\u30eb", 
         "description": "\u30dc\u30c8\u30eb"
     }, 
+    "260": {
+        "alt": [
+            "Web \u30da\u30fc\u30b8\u306e\u7de8\u96c6\u65b9\u6cd5\u3092\u77e5\u308b\u5c11\u6570\u306e\u8ce2\u8005\u304c\u7372\u5f97\u3059\u308b\u5e3d\u5b50\u3002"
+        ], 
+        "type": "Hat", 
+        "description": "Wiki \u30ad\u30e3\u30c3\u30d7"
+    }, 
     "5": {
         "type": "\u62f3", 
         "description": "\u62f3"
@@ -887,21 +1581,21 @@
         "type": "\u30b7\u30e7\u30c3\u30c8\u30ac\u30f3", 
         "description": "\u30b7\u30e7\u30c3\u30c8\u30ac\u30f3"
     }, 
-    "146": {
-        "type": "Hat", 
-        "description": "\u30cf\u30b9\u30e9\u30fc\u306e\u8a87\u308a"
+    "201": {
+        "type": "\u30b9\u30ca\u30a4\u30d1\u30fc\u30e9\u30a4\u30d5\u30eb", 
+        "description": "\u30b9\u30ca\u30a4\u30d1\u30fc\u30e9\u30a4\u30d5\u30eb"
     }, 
-    "147": {
-        "type": "Hat", 
-        "description": "\u5224\u4e8b\u306e\u30ab\u30c4\u30e9"
+    "200": {
+        "type": "\u6563\u5f3e\u9283", 
+        "description": "\u6563\u5f3e\u9283"
     }, 
-    "144": {
-        "type": "Hat", 
-        "description": "\u624b\u8853\u7528\u30de\u30b9\u30af"
+    "203": {
+        "type": "SMG", 
+        "description": "SMG"
     }, 
-    "145": {
-        "type": "Hat", 
-        "description": "\u30cf\u30a6\u30f3\u30c9\u30c9\u30c3\u30b0"
+    "202": {
+        "type": "\u30df\u30cb\u30ac\u30f3", 
+        "description": "\u30df\u30cb\u30ac\u30f3"
     }, 
     "142": {
         "positive": [
@@ -914,37 +1608,123 @@
         ], 
         "description": "The Gunslinger"
     }, 
-    "143": {
-        "alt": [
-            "OSX \u51fa\u73fe\uff01"
-        ], 
-        "type": "Hat", 
-        "description": "\u30a4\u30e4\u30db\u30f3"
+    "204": {
+        "type": "\u6ce8\u5c04\u9283", 
+        "description": "\u6ce8\u5c04\u9283"
     }, 
-    "140": {
-        "alt": [
-            "\u30bb\u30f3\u30c8\u30ea\u30fc\u30ac\u30f3\u3092\u624b\u52d5\u3067\u64cd\u4f5c\u3057\u3088\u3046"
-        ], 
-        "type": "\u30ec\u30fc\u30b6\u30fc\u30dd\u30a4\u30f3\u30bf\u30fc", 
-        "description": "The Wrangler"
+    "207": {
+        "type": "\u7c98\u7740\u7206\u5f3e\u30e9\u30f3\u30c1\u30e3\u30fc", 
+        "description": "\u7c98\u7740\u7206\u5f3e\u30e9\u30f3\u30c1\u30e3\u30fc"
     }, 
-    "141": {
-        "positive": [
-            "\u30bb\u30f3\u30c8\u30ea\u30fc\u30ac\u30f3\u304c\u7834\u58ca\u3055\u308c\u305f\u3068\u304d\u306b\u3001\u30bb\u30f3\u30c8\u30ea\u30fc \u30ad\u30eb\u6570\u5206\u306e\u30ea\u30d9\u30f3\u30b8 \u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u3092\u7372\u5f97\r\n\r\n"
-        ], 
-        "type": "\u30b7\u30e7\u30c3\u30c8\u30ac\u30f3", 
-        "negative": [
-            "\u30e9\u30f3\u30c0\u30e0\u30af\u30ea\u30c6\u30a3\u30ab\u30eb\u30d2\u30c3\u30c8\u306a\u3057", 
-            "\u5f3e\u5009\u30b5\u30a4\u30ba -50%"
-        ], 
-        "description": "The Frontier Justice"
+    "206": {
+        "type": "\u30b0\u30ec\u30cd\u30fc\u30c9\u30e9\u30f3\u30c1\u30e3\u30fc", 
+        "description": "\u30b0\u30ec\u30cd\u30fc\u30c9\u30e9\u30f3\u30c1\u30e3\u30fc"
+    }, 
+    "209": {
+        "type": "\u30d4\u30b9\u30c8\u30eb", 
+        "description": "\u30d4\u30b9\u30c8\u30eb"
+    }, 
+    "208": {
+        "type": "\u706b\u708e\u653e\u5c04\u5668", 
+        "description": "\u706b\u708e\u653e\u5c04\u5668"
     }, 
     "148": {
+        "alt": [
+            "\u3069\u3093\u306a\u306b\u5f37\u3044\u7d2b\u5916\u7dda\u306b\u3082\u3001\u773c\u7403\u304c\u50b7\u3064\u3051\u3089\u308c\u308b\u3053\u3068\u306f\u306a\u3044\u3002\u592a\u967d\u3082\u6094\u3057\u304c\u3063\u3066\u6b6f\u304e\u3057\u308a\u3059\u308b\u3060\u308d\u3046\u3002"
+        ], 
         "type": "Hat", 
         "description": "\u30db\u30c3\u30c8\u30ed\u30c3\u30c9"
+    }, 
+    "96": {
+        "alt": [
+            "\u30af\u30de\u306e\u624b\u3067\u3067\u304d\u305f\u5e3d\u5b50\u3002\r\n\u3082\u3061\u308d\u3093\u9283\u306a\u3069\u306f\u4f7f\u308f\u305a\u3001\u7d20\u624b\u3067\u5012\u3057\u305f\u30af\u30de\u3060\u3002"
+        ], 
+        "type": "Hat", 
+        "description": "\u5c06\u6821\u7528\u30a6\u30b7\u30e3\u30f3\u30ab"
+    }, 
+    "5040": {
+        "alt": [
+            "\u4ed6\u306e\u30a2\u30a4\u30c6\u30e0\u306e\u30da\u30a4\u30f3\u30c8\u306b\u4f7f\u7528\u3057\u307e\u3059\u3002", 
+            "\u81ea\u4f5c\u30a2\u30a4\u30c6\u30e0"
+        ], 
+        "type": "\u5de5\u5177", 
+        "description": "A Distinctive Lack of Hue"
     }, 
     "2": {
         "type": "\u6d88\u9632\u65a7", 
         "description": "\u6d88\u9632\u65a7"
+    }, 
+    "263": {
+        "alt": [
+            "TF_EllisHat_Desc", 
+            "\u4ea4\u63db\u4e0d\u53ef"
+        ], 
+        "type": "Hat", 
+        "description": "Ellis' Cap"
+    }, 
+    "144": {
+        "alt": [
+            "\u624b\u8853\u306e\u6e96\u5099\u3092\u3002\u5927\u91cf\u306e\u8ca0\u50b7\u8005\u304c\u767a\u751f\u4e88\u5b9a\u3002"
+        ], 
+        "type": "Hat", 
+        "description": "\u624b\u8853\u7528\u30de\u30b9\u30af"
+    }, 
+    "262": {
+        "alt": [
+            "Awarded to participants of the Polycount contest.", 
+            "\u4ea4\u63db\u4e0d\u53ef"
+        ], 
+        "type": "\u30d0\u30c3\u30b8", 
+        "description": "Polycount Pin"
+    }, 
+    "261": {
+        "alt": [
+            "TF_MannCoCap_Desc", 
+            "\u4ea4\u63db\u4e0d\u53ef"
+        ], 
+        "type": "Hat", 
+        "description": "Mann Co. Cap"
+    }, 
+    "2002": {
+        "alt": [
+            "\u3059\u3079\u3066\u306e Polycount \u30bd\u30eb\u30b8\u30e3\u30fc\u30a2\u30a4\u30c6\u30e0\u3092\u53ce\u9332\u3002"
+        ], 
+        "type": "\u30a2\u30a4\u30c6\u30e0\u30d0\u30f3\u30c9\u30eb", 
+        "description": "The Tank Buster"
+    }, 
+    "2003": {
+        "alt": [
+            "\u3059\u3079\u3066\u306e Polycount \u30b9\u30ca\u30a4\u30d1\u30fc\u30a2\u30a4\u30c6\u30e0\u3092\u53ce\u9332\u3002"
+        ], 
+        "type": "\u30a2\u30a4\u30c6\u30e0\u30d0\u30f3\u30c9\u30eb", 
+        "description": "The Croc-o-Style Kit"
+    }, 
+    "2000": {
+        "alt": [
+            "\u3059\u3079\u3066\u306e Polycount \u30d1\u30a4\u30ed\u30a2\u30a4\u30c6\u30e0\u3092\u53ce\u9332\u3002"
+        ], 
+        "type": "\u30a2\u30a4\u30c6\u30e0\u30d0\u30f3\u30c9\u30eb", 
+        "description": "The Gas Jockey's Gear"
+    }, 
+    "2001": {
+        "alt": [
+            "\u3059\u3079\u3066\u306e Polycount \u30b9\u30d1\u30a4\u30a2\u30a4\u30c6\u30e0\u3092\u53ce\u9332\u3002"
+        ], 
+        "type": "\u30a2\u30a4\u30c6\u30e0\u30d0\u30f3\u30c9\u30eb", 
+        "description": "The Saharan Spy"
+    }, 
+    "2004": {
+        "alt": [
+            "\u3059\u3079\u3066\u306e Polycount \u30b9\u30ab\u30a6\u30c8\u30a2\u30a4\u30c6\u30e0\u3092\u53ce\u9332\u3002"
+        ], 
+        "type": "\u30a2\u30a4\u30c6\u30e0\u30d0\u30f3\u30c9\u30eb", 
+        "description": "The Special Delivery"
+    }, 
+    "2005": {
+        "alt": [
+            "\u3059\u3079\u3066\u306e Polycount \u30b3\u30f3\u30c6\u30b9\u30c8\u7372\u5f97\u30a8\u30f3\u30c8\u30ea\u3092\u53ce\u9332\u3002"
+        ], 
+        "type": "\u30a2\u30a4\u30c6\u30e0\u30d0\u30f3\u30c9\u30eb", 
+        "description": "Polycount \u30d1\u30c3\u30af"
     }
 }

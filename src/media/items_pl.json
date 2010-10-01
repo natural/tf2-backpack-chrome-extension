@@ -1,4 +1,58 @@
 {
+    "214": {
+        "positive": [
+            "+25% do zadanych obra\u017ce\u0144", 
+            "+75 zdrowia przywr\u00f3conego po zabiciu"
+        ], 
+        "type": "M\u0142ot kowalski", 
+        "negative": [
+            "Bez losowych trafie\u0144 krytycznych"
+        ], 
+        "description": "The Powerjack"
+    }, 
+    "215": {
+        "positive": [
+            "65% szybsza zmiana broni"
+        ], 
+        "type": "Miotacz ognia", 
+        "negative": [
+            "-25% punkt\u00f3w obra\u017ce\u0144 od ognia"
+        ], 
+        "description": "The Degreaser"
+    }, 
+    "212": {
+        "type": "Zegarek niewidzialno\u015bci", 
+        "description": "Zegarek niewidzialno\u015bci"
+    }, 
+    "213": {
+        "alt": [
+            "Attendant Description"
+        ], 
+        "type": "Hat", 
+        "description": "The Attendant"
+    }, 
+    "210": {
+        "type": "Rewolwer", 
+        "description": "Rewolwer"
+    }, 
+    "211": {
+        "type": "Medigun", 
+        "description": "Medigun"
+    }, 
+    "264": {
+        "alt": [
+            "Nie podlega wymianie"
+        ], 
+        "type": "Frying Pan", 
+        "description": "The Frying Pan"
+    }, 
+    "219": {
+        "alt": [
+            "The Milkman Description"
+        ], 
+        "type": "Hat", 
+        "description": "The Milkman"
+    }, 
     "133": {
         "positive": [
             "-60% obra\u017ce\u0144 od wybuchu podczas rakietowych skok\u00f3w"
@@ -31,48 +85,77 @@
     "130": {
         "positive": [
             "+50% do maks. ilo\u015bci dodatkowej amunicji u nosz\u0105cego", 
-            "+6 do maks. liczby mo\u017cliwych do u\u017cycia bomb", 
             "Detonacja bomb samoprzylepnych przy celowniku", 
-            "Mo\u017cliwo\u015b\u0107 niszczenia bomb samoprzylepnych"
+            "+25% szybszy strza\u0142", 
+            "Mo\u017cliwo\u015b\u0107 niszczenia bomb samoprzylepnych", 
+            "+6 do maks. liczby mo\u017cliwych do u\u017cycia bomb"
         ], 
         "type": "Wyrzutnia bomb samoprzylepnych", 
         "negative": [
-            "O 0.4 sek. wolniejsze uzbrajanie bomby"
+            "O 0.8 sek. wolniejsze uzbrajanie bomby"
         ], 
         "description": "Szkocki Op\u00f3r"
     }, 
     "137": {
+        "alt": [
+            "Dla D\u017centelmena, kt\u00f3ry uwa\u017ca, \u017ce jego kapelusz r\u00f3wnie\u017c wymaga kapelusza."
+        ], 
         "type": "Hat", 
         "description": "Zacna miara kapeluszy"
     }, 
     "136": {
         "alt": [
-            "Zdobywca drugiego miejsca, konkurs propagandowy"
+            "Zdobywca drugiego miejsca, konkurs propagandowy", 
+            "Nie podlega wymianie"
         ], 
         "type": "Hat", 
         "description": "Piekielnie odjazdowy kapelusz Ambera"
     }, 
     "135": {
+        "alt": [
+            "A-ha-ha! Jeste\u015b r\u00f3wnie BEZCZELNY, co UBOGI i NIEOKRZESANY. R\u0119ce precz od mej WIE\u017bY KAPELUSZY."
+        ], 
         "type": "Hat", 
         "description": "Niebotyczny s\u0142up kapeluszy"
     }, 
     "134": {
         "alt": [
-            "Zdobywca pierwszego miejsca, konkurs propagandowy"
+            "Zdobywca pierwszego miejsca, konkurs propagandowy", 
+            "Nie podlega wymianie"
         ], 
         "type": "Hat", 
         "description": "Wytworny cylinder J.Axera"
     }, 
+    "95": {
+        "alt": [
+            "TF_Engineer_Train_Hat_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "Czapka kolejarza"
+    }, 
     "139": {
+        "alt": [
+            "Poniewa\u017c ka\u017cdy D\u017centelmen powinien taki mie\u0107."
+        ], 
         "type": "Hat", 
         "description": "Skromny stos kapelusza"
     }, 
     "138": {
         "alt": [
-            "Zdobywca trzeciego miejsca, konkurs propagandowy"
+            "Zdobywca trzeciego miejsca, konkurs propagandowy", 
+            "Nie podlega wymianie"
         ], 
         "type": "Hat", 
         "description": "Wujek Sam"
+    }, 
+    "166": {
+        "alt": [
+            "Mimo, \u017ce sp\u00f3\u017ani\u0142e\u015b si\u0119 na imprez\u0119, jeste\u015b nadal dusz\u0105 towarzystwa.", 
+            "Data zatrudnienia: %s1", 
+            "Nie podlega wymianie"
+        ], 
+        "type": "Odznaka", 
+        "description": "Najemnik"
     }, 
     "24": {
         "type": "Rewolwer", 
@@ -106,9 +189,12 @@
         "type": "Pistolet", 
         "description": "Pistolet"
     }, 
-    "95": {
+    "223": {
+        "alt": [
+            "TF_TheFamiliarFez_Desc"
+        ], 
         "type": "Hat", 
-        "description": "Czapka kolejarza"
+        "description": "Familiar Fez"
     }, 
     "28": {
         "type": "PDA", 
@@ -118,9 +204,12 @@
         "type": "Medigun", 
         "description": "Medigun"
     }, 
-    "94": {
-        "type": "Hat", 
-        "description": "Teksa\u0144ski kapelusz"
+    "222": {
+        "alt": [
+            "Gracze lecz\u0105 75% obra\u017ce\u0144 zadanych\r\nprzeciwnikowi pokrytemu mlekiem."
+        ], 
+        "type": "Substancja nieb\u0119d\u0105ca mlekiem", 
+        "description": "Mad Milk"
     }, 
     "0": {
         "type": "Kij baseballowy", 
@@ -134,38 +223,63 @@
         "type": "Pi\u0142a do ko\u015bci", 
         "description": "Pi\u0142a do ko\u015bci"
     }, 
-    "96": {
-        "type": "Hat", 
-        "description": "Uszanka oficera"
+    "163": {
+        "alt": [
+            "Po wypiciu obra\u017cenia otrzymywane\r\noraz zadawane s\u0105 minikrytyczne.", 
+            "Dodaje 50 do maksymalnego zdrowia na 30 sekund"
+        ], 
+        "type": "Pude\u0142ko \u015bniadaniowe", 
+        "description": "Kryt-o-Cola"
     }, 
     "120": {
+        "alt": [
+            "TF_Demo_Top_Hat_Desc"
+        ], 
         "type": "Hat", 
         "description": "Cylinder Szkota"
     }, 
     "121": {
+        "alt": [
+            "Przyznawane tej garstce dzielnych \u017co\u0142nierzy, kt\u00f3rzy dzielnie stali na stra\u017cy bez snu, posi\u0142ku i \u017cycia towarzyskiego.", 
+            "Nie podlega wymianie"
+        ], 
         "type": "Medal", 
         "description": "D\u017centelme\u0144ski medal za zas\u0142ugi"
     }, 
     "122": {
+        "alt": [
+            "Nie podlega wymianie"
+        ], 
         "type": "Cheat Detector", 
         "description": "Twoje konto zosta\u0142o zg\u0142oszone za omijanie systemu przyznawania przedmiot\u00f3w. Usun\u0119li\u015bmy nielegalnie zdobyte przedmioty.\r\n\r\nDalsze uchybienia spowoduj\u0105 usuni\u0119cie wszystkich Twoich przedmiot\u00f3w."
     }, 
     "123": {
+        "alt": [
+            "Nie podlega wymianie"
+        ], 
         "type": "Cheat Detector", 
         "description": "Twoje konto zosta\u0142o zg\u0142oszone za omijanie systemu przyznawania przedmiot\u00f3w. Usun\u0119li\u015bmy wszystkie przedmioty z Twojego ekwipunku.\r\n\r\nDalsze uchybienia spowoduj\u0105 wy\u0142\u0105czenie konta."
     }, 
     "124": {
+        "alt": [
+            "Nie podlega wymianie"
+        ], 
         "type": "Cheat Detector", 
         "description": "Gratulujemy! Postanowili\u015bmy nagrodzi\u0107 Twoj\u0105 uczciwo\u015b\u0107, przyznaj\u0105c Ci nowy kapelusz!\r\n\r\n(Niekt\u00f3rzy gracze byli mniej uczciwi - nic mi\u0142ego ich nie spotka\u0142o)"
     }, 
     "125": {
         "alt": [
-            "%s1% zadanych obra\u017ce\u0144"
+            "Mimo, i\u017c niekt\u00f3rzy zrobiliby wszystko, aby zdoby\u0107 nakrycie g\u0142owy, Ty pozosta\u0142e\u015b niewzruszony w swym braku d\u0105\u017cenia do posiadania ozd\u00f3b na g\u0142ow\u0119. I za to otrzymujesz nagrod\u0119.", 
+            "Efekt: %s1", 
+            "Nie podlega wymianie"
         ], 
         "type": "Aura nieprzekupno\u015bci", 
         "description": "Lament oszusta"
     }, 
     "126": {
+        "alt": [
+            "Left 4 You."
+        ], 
         "type": "Beret weterana", 
         "description": "Czapka Billa"
     }, 
@@ -189,6 +303,9 @@
         "description": "Wyr\u00f3wnywacz"
     }, 
     "129": {
+        "alt": [
+            "Dodaje ofensywn\u0105 premi\u0119, kt\u00f3ra sprawia,\r\ni\u017c pobliscy cz\u0142onkowie dru\u017cyny zadaj\u0105 minikrytyczne trafienia."
+        ], 
         "type": "Sztandar bitewny", 
         "description": "Sztandar Chwa\u0142y"
     }, 
@@ -213,10 +330,16 @@
         "description": "Sikwondo"
     }, 
     "55": {
+        "alt": [
+            "Ta g\u0142adka, stylowa, podszyta jedwabiem pi\u0119kno\u015b\u0107 mo\u017ce zamieni\u0107 ka\u017cdego sztyleciarza-amatora w przystojnego \u0142otra."
+        ], 
         "type": "Hat", 
         "description": "Gustowna Fedora"
     }, 
     "54": {
+        "alt": [
+            "To nakrycie g\u0142owy nie promuje w \u017caden spos\u00f3b palenia tytoniu lub hazardu."
+        ], 
         "type": "Hat", 
         "description": "Skarb \u017bo\u0142nierza"
     }, 
@@ -232,18 +355,30 @@
         "description": "\u0141owca"
     }, 
     "51": {
+        "alt": [
+            "TF_Pyro_Hat_1_Desc"
+        ], 
         "type": "Hat", 
         "description": "Wirniczek Pyro"
     }, 
     "50": {
+        "alt": [
+            "Relikt z jednej wojny, kt\u00f3ry znalaz\u0142 si\u0119 w kolejnej.\r\nTw\u00f3j przeciwnik wnet zrozumie, o co chodzi."
+        ], 
         "type": "Hat", 
         "description": "Pruska pikielhauba"
     }, 
     "53": {
+        "alt": [
+            "Byle frajer potrafi wyci\u0105gn\u0105\u0107 z\u0119by z paszczy martwego krokodyla.\r\nPrawdziwy facet potrafi je wyci\u0105gn\u0105\u0107 z paszczy \u017cywego."
+        ], 
         "type": "Hat", 
         "description": "Pas zdobyczy"
     }, 
     "52": {
+        "alt": [
+            "Przywdzianie tego kawa\u0142ku czerwonego plastiku pomo\u017ce Ci w pobiciu wszelkich rekord\u00f3w (i przeciwnik\u00f3w)!"
+        ], 
         "type": "Hat", 
         "description": "He\u0142m pa\u0142karza"
     }, 
@@ -275,87 +410,193 @@
         "type": "Przedmiot wytwarzania", 
         "description": "\u017beton slotu - Drugorz\u0119dny"
     }, 
-    "5014": {
-        "alt": [
-            "U\u017cywany w planach do okre\u015blenia slotu wyposa\u017cenia"
-        ], 
-        "type": "Przedmiot wytwarzania", 
-        "description": "\u017beton slotu - Do walki wr\u0119cz"
+    "199": {
+        "type": "Strzelba", 
+        "description": "Strzelba"
     }, 
-    "5015": {
-        "alt": [
-            "U\u017cywany w planach do okre\u015blenia slotu wyposa\u017cenia"
-        ], 
-        "type": "Przedmiot wytwarzania", 
-        "description": "\u017beton slotu - Granat"
+    "198": {
+        "type": "Pi\u0142a do ko\u015bci", 
+        "description": "Pi\u0142a do ko\u015bci"
     }, 
-    "5016": {
+    "147": {
         "alt": [
-            "U\u017cywany w planach do okre\u015blenia slotu wyposa\u017cenia"
+            "Powiadaj\u0105, \u017ce sprawiedliwo\u015b\u0107 jest \u015blepa. Nie m\u00f3wi si\u0119 jednak, \u017ce jest r\u00f3wnie\u017c niewidzialna i \u017ce bardziej j\u0105 interesuje mord, ni\u017c sprawiedliwo\u015b\u0107."
         ], 
-        "type": "Przedmiot wytwarzania", 
-        "description": "\u017beton slotu - Konstrukcja"
+        "type": "Hat", 
+        "description": "Peruka s\u0119dziego"
     }, 
-    "5017": {
-        "alt": [
-            "U\u017cywany w planach do okre\u015blenia slotu wyposa\u017cenia"
-        ], 
-        "type": "Przedmiot wytwarzania", 
-        "description": "\u017beton slotu - PDA"
+    "195": {
+        "type": "Pi\u0119\u015bci", 
+        "description": "Pi\u0119\u015bci"
     }, 
-    "5018": {
-        "alt": [
-            "U\u017cywany w planach do okre\u015blenia slotu wyposa\u017cenia"
-        ], 
-        "type": "Przedmiot wytwarzania", 
-        "description": "\u017beton slotu - PDA2"
+    "194": {
+        "type": "N\u00f3\u017c", 
+        "description": "N\u00f3\u017c"
     }, 
-    "5019": {
-        "alt": [
-            "U\u017cywany w planach do okre\u015blenia slotu wyposa\u017cenia"
-        ], 
-        "type": "Przedmiot wytwarzania", 
-        "description": "\u017beton slotu - G\u0142owa"
+    "197": {
+        "type": "Klucz", 
+        "description": "Klucz"
+    }, 
+    "196": {
+        "type": "Saperka", 
+        "description": "Saperka"
+    }, 
+    "191": {
+        "type": "Butelka", 
+        "description": "Butelka"
+    }, 
+    "190": {
+        "type": "Kij baseballowy", 
+        "description": "Kij baseballowy"
+    }, 
+    "193": {
+        "type": "Kukri", 
+        "description": "Kukri"
+    }, 
+    "192": {
+        "type": "Top\u00f3r stra\u017cacki", 
+        "description": "Top\u00f3r stra\u017cacki"
     }, 
     "115": {
+        "alt": [
+            "Br\u0105zowy papier jeszcze nigdy nie wygl\u0105da\u0142 tak niepokoj\u0105co."
+        ], 
         "type": "\u015awi\u0105teczny kapelusz", 
         "description": "Lekko niepokoj\u0105ca maska halloweenowa"
     }, 
+    "177": {
+        "alt": [
+            "One nic nie robi\u0105!"
+        ], 
+        "type": "Hat", 
+        "description": "G\u00f3gle"
+    }, 
     "117": {
+        "alt": [
+            "Jego pocisk by\u0142 blisko.\r\nStraci\u0142em kapelusz.\r\nM\u00f3j pocisk by\u0142 bli\u017cej.\r\nStraci\u0142 g\u0142ow\u0119."
+        ], 
         "type": "Hat", 
         "description": "Utrwalacz do w\u0142os\u00f3w ry\u017cawego Ry\u015bka"
     }, 
     "116": {
         "alt": [
-            "Wyszyte inicja\u0142y \u201eZ.M.\u201d"
+            "Wyszyte inicja\u0142y \u201eZ.M.\u201d", 
+            "Nie podlega wymianie"
         ], 
         "type": "Hat", 
         "description": "Upiorny cylinder"
     }, 
     "111": {
+        "alt": [
+            "Wszyscy wiedz\u0105, \u017ce najlepszym przyjacielem Scouta jest szybko\u015b\u0107. Po co wi\u0119c obci\u0105\u017ca\u0107 si\u0119 ci\u0119\u017ckimi czapkami, gdy mo\u017cna pokona\u0107 barier\u0119 d\u017awi\u0119ku bez nich?"
+        ], 
         "type": "Hat", 
         "description": "Sportowy po\u0142ysk baseballowego Bogusia"
     }, 
     "110": {
+        "alt": [
+            "Tylko mistrz Sikwondo ma prawo do noszenia tej niegdy\u015b bia\u0142ej bandany, kt\u00f3rej \u017c\u00f3\u0142te zabarwienie jest efektem ci\u0119\u017ckiego treningu."
+        ], 
         "type": "Hat", 
         "description": "\u017b\u00f3\u0142ty pas mistrza"
     }, 
+    "253": {
+        "alt": [
+            "Dobre do przepychania blokad."
+        ], 
+        "type": "Hat", 
+        "description": "Handyman's Handle"
+    }, 
+    "205": {
+        "type": "Wyrzutnia rakiet", 
+        "description": "Wyrzutnia rakiet"
+    }, 
     "118": {
+        "alt": [
+            "Czasem potrzebne jest nieco skromniejsze nakrycie g\u0142owy."
+        ], 
         "type": "Hat", 
         "description": "B\u0142yszcz\u0105ca glaca teksa\u0144skiego Sta\u015bka"
+    }, 
+    "165": {
+        "alt": [
+            "By\u0107 mo\u017ce niekt\u00f3rzy siedz\u0105 w tym ju\u017c d\u0142u\u017cej. Ty jednak udowodni\u0142e\u015b, \u017ce robisz to lepiej.", 
+            "Data zatrudnienia: %s1", 
+            "Nie podlega wymianie"
+        ], 
+        "type": "Odznaka", 
+        "description": "\u0141owca g\u0142\u00f3w"
+    }, 
+    "143": {
+        "alt": [
+            "Duma OSX!"
+        ], 
+        "type": "Hat", 
+        "description": "S\u0142uchawki"
+    }, 
+    "174": {
+        "alt": [
+            "Trzeba by\u0107 nieprzeci\u0119tnym t\u0119pakiem, aby nie zauwa\u017cy\u0107, i\u017c jest to najnowszy krzyk mody dla wymagaj\u0105cej m\u0142odzie\u017cy."
+        ], 
+        "type": "Hat", 
+        "description": "Pierdziuszka"
+    }, 
+    "140": {
+        "alt": [
+            "Przejmij kontrol\u0119 nad swoim dzia\u0142kiem stra\u017cniczym"
+        ], 
+        "type": "Wska\u017anik laserowy", 
+        "description": "Poskramiacz"
+    }, 
+    "141": {
+        "positive": [
+            "Po zniszczeniu dzia\u0142ka dostajesz krytyczne strza\u0142y odwetu za ka\u017cde jego zab\u00f3jstwo"
+        ], 
+        "type": "Strzelba", 
+        "negative": [
+            "Bez losowych trafie\u0144 krytycznych", 
+            "-50% rozmiaru magazynka"
+        ], 
+        "description": "Samos\u0105d"
     }, 
     "3": {
         "type": "Kukri", 
         "description": "Kukri"
     }, 
+    "171": {
+        "positive": [
+            "Przy trafieniu: wykrwawianie przez 6 sekund"
+        ], 
+        "type": "Kukri", 
+        "negative": [
+            "-50% zadanych obra\u017ce\u0144"
+        ], 
+        "description": "Plemienne Ostrze"
+    }, 
     "7": {
         "type": "Klucz", 
         "description": "Klucz"
     }, 
+    "146": {
+        "alt": [
+            "TF_DemomanHallmark_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "Wizyt\u00f3wka sutenera"
+    }, 
+    "170": {
+        "alt": [
+            "Medal prawdziwego wojownika, nadany tym, kt\u00f3rzy walczyli zanim jeszcze walka si\u0119 zacz\u0119\u0142a.", 
+            "Data zatrudnienia: %s1", 
+            "Nie podlega wymianie"
+        ], 
+        "type": "Odznaka", 
+        "description": "Prastary wojownik"
+    }, 
     "other_attributes": {
-        "133": "Medal nr %s1", 
-        "132": "Bior\u0105c pod uwag\u0119 do cennych Wsp\u00f3lnoty Uczestnik\u00f3w", 
-        "143": "Data Wynajem: %s1", 
+        "133": "liczba Medal %s1", 
+        "132": "Ze wzgl\u0119du na cenne Wsp\u00f3lnoty Uczestnik\u00f3w", 
+        "143": "Data wynaj\u0119cia: %s1", 
         "147": "Klucz %s1 liczby"
     }, 
     "5003": {
@@ -419,55 +660,120 @@
         "type": "Przedmiot wytwarzania", 
         "description": "\u017beton klasy - Medyk"
     }, 
-    "108": {
+    "245": {
+        "alt": [
+            "Zdobywana na poziomie 75.\r\nTa odznaka \u015bledzi Twoje statystyki pojedynk\u00f3w.\r\nZwi\u0119ksz jej poziom, wygrywaj\u0105c wi\u0119cej pojedynk\u00f3w!", 
+            "Nie podlega wymianie"
+        ], 
+        "type": "Odznaka", 
+        "description": "Pojedynek - platynowa odznaka"
+    }, 
+    "244": {
+        "alt": [
+            "Zdobywana na poziomie 50.\r\nTa odznaka \u015bledzi Twoje statystyki pojedynk\u00f3w.\r\nZwi\u0119ksz jej poziom, wygrywaj\u0105c wi\u0119cej pojedynk\u00f3w!", 
+            "Nie podlega wymianie"
+        ], 
+        "type": "Odznaka", 
+        "description": "Pojedynek - z\u0142ota odznaka"
+    }, 
+    "247": {
+        "alt": [
+            "To nakrycie dodaje wigoru przy ka\u017cdej okazji."
+        ], 
         "type": "Hat", 
-        "description": "Melonik oszczercy"
+        "description": "Old Guadalajara"
     }, 
     "109": {
+        "alt": [
+            "Elegancki kapelusz u seryjnego mordercy \u015bwiadczy o dobrym wyczuciu stylu."
+        ], 
         "type": "Hat", 
         "description": "Panama profesjonalisty"
     }, 
     "9003": {
         "positive": [
-            "Zakazy konto Steam zabitych graczy", 
-            "Pozycja nie jest prawdziwe i tylko \u017cart."
+            "konto Steam Bany graczy zabitych", 
+            "Pozycja ta nie jest prawdziwa, to tylko \u017cart."
         ], 
-        "type": "Wygnanie z m\u0142otkiem", 
-        "description": "Zakaz Hammer"
+        "type": "Mallet wygnania", 
+        "description": "Ban Hammer"
     }, 
     "240": {
+        "alt": [
+            "TF_Worms_Gear_Desc"
+        ], 
         "type": "Hat", 
         "description": "Lumbricus Lid"
     }, 
+    "243": {
+        "alt": [
+            "Zdobywana na poziomie 25.\r\nTa odznaka \u015bledzi Twoje statystyki pojedynk\u00f3w.\r\nZwi\u0119ksz jej poziom, wygrywaj\u0105c wi\u0119cej pojedynk\u00f3w!", 
+            "Nie podlega wymianie"
+        ], 
+        "type": "Odznaka", 
+        "description": "Pojedynek - srebrna odznaka"
+    }, 
+    "242": {
+        "alt": [
+            "Ta odznaka \u015bledzi Twoje statystyki pojedynk\u00f3w.\r\nZwi\u0119ksz jej poziom, wygrywaj\u0105c wi\u0119cej pojedynk\u00f3w!", 
+            "Nie podlega wymianie"
+        ], 
+        "type": "Odznaka", 
+        "description": "Pojedynek - br\u0105zowa odznaka"
+    }, 
     "102": {
+        "alt": [
+            "Nie ma znaczenia, jak bardzo ludzie Ci\u0119 szanuj\u0105, gdy w\u0142a\u015bnie p\u0142on\u0105."
+        ], 
         "type": "Hat", 
         "description": "Niepowa\u017cna gumowa r\u0119kawica"
     }, 
     "103": {
+        "alt": [
+            "Czy masz co\u015b przeciwko temu, abym odczyta\u0142 te tajne dokumenty moj\u0105 brod\u0105?"
+        ], 
         "type": "Hat", 
         "description": "Broda z aparatem"
     }, 
     "100": {
+        "alt": [
+            "TF_Demo_Scott_Hat_Desc"
+        ], 
         "type": "Hat", 
         "description": "Fura\u017cerka z Glengarry"
     }, 
     "101": {
+        "alt": [
+            "TF_Medic_Tyrolean_Hat_Desc"
+        ], 
         "type": "Hat", 
         "description": "Klasyczny kapelusz tyrolski"
     }, 
     "106": {
+        "alt": [
+            "Gdy jeden nap\u00f3j radioaktywny po prostu nie wystarcza."
+        ], 
         "type": "Hat", 
         "description": "He\u0142m Bonk"
     }, 
     "107": {
+        "alt": [
+            "Sensacja! Sensacja! Jeste\u015b martwy, kole\u015b!"
+        ], 
         "type": "Hat", 
         "description": "Czapka gazeciarza"
     }, 
     "104": {
+        "alt": [
+            "My te\u017c tego nie potrafimy wym\u00f3wi\u0107."
+        ], 
         "type": "Hat", 
         "description": "Lustro otolaryngologa"
     }, 
     "105": {
+        "alt": [
+            "TF_Pyro_Fireman_Helmet_Desc"
+        ], 
         "type": "Hat", 
         "description": "He\u0142m stra\u017cacki"
     }, 
@@ -486,18 +792,6 @@
         ], 
         "description": "Gasitop\u00f3r"
     }, 
-    "33": {
-        "type": "Karabin strzykawkowy", 
-        "description": "Karabin strzykawkowy"
-    }, 
-    "32": {
-        "type": "Pi\u0142a do ko\u015bci", 
-        "description": "Pi\u0142a do ko\u015bci"
-    }, 
-    "31": {
-        "type": "Pistolet sygna\u0142owy", 
-        "description": "Pistolet sygna\u0142owy"
-    }, 
     "30": {
         "type": "Zegarek niewidzialno\u015bci", 
         "description": "Zegarek niewidzialno\u015bci"
@@ -512,15 +806,12 @@
         ], 
         "description": "\u00dcberpi\u0142a"
     }, 
-    "36": {
-        "positive": [
-            "Przy trafieniu: +3 zdrowia"
+    "108": {
+        "alt": [
+            "\u015awietna sprawa, gdy chcesz, aby Twoja g\u0142owa by\u0142a nieco wy\u017csza,\r\nale r\u00f3wnie zaokr\u0105glona na czubku."
         ], 
-        "type": "Karabin strzykawkowy", 
-        "negative": [
-            "-2 utraty zdrowia co sekund\u0119 u nosz\u0105cego"
-        ], 
-        "description": "Blutsauger"
+        "type": "Hat", 
+        "description": "Melonik oszczercy"
     }, 
     "35": {
         "positive": [
@@ -532,9 +823,106 @@
         "type": "Medigun", 
         "description": "Kritzkrieg"
     }, 
-    "34": {
-        "type": "Medigun", 
-        "description": "Medigun"
+    "246": {
+        "alt": [
+            ""
+        ], 
+        "type": "Hat", 
+        "description": "Pugilist's Protector"
+    }, 
+    "94": {
+        "alt": [
+            "Ten kapelusz tylko wygl\u0105da niepozornie. W rzeczywisto\u015bci ten cud techniki zawiera wi\u0119cej ruchomych cz\u0119\u015bci ni\u017c dzia\u0142ko stra\u017cnicze drugiego poziomu."
+        ], 
+        "type": "Hat", 
+        "description": "Teksa\u0144ski kapelusz"
+    }, 
+    "241": {
+        "alt": [
+            "Umo\u017cliwia wyzwanie kogo\u015b na pojedynek!\r\nWi\u0119cej szczeg\u00f3\u0142\u00f3w, patrz Katalog Mann Co."
+        ], 
+        "type": "U\u017cyteczny przedmiot", 
+        "description": "Minigra \u201ePojedynek\u201d"
+    }, 
+    "5038": {
+        "alt": [
+            "U\u017cywana do malowania innych przedmiot\u00f3w.", 
+            "Stworzy\u0142em to!"
+        ], 
+        "type": "Narz\u0119dzie", 
+        "description": "Aged Moustache Grey"
+    }, 
+    "5039": {
+        "alt": [
+            "U\u017cywana do malowania innych przedmiot\u00f3w.", 
+            "Stworzy\u0142em to!"
+        ], 
+        "type": "Narz\u0119dzie", 
+        "description": "An Extraordinary Abundance of Tinge"
+    }, 
+    "5036": {
+        "alt": [
+            "U\u017cywana do malowania innych przedmiot\u00f3w.", 
+            "Stworzy\u0142em to!"
+        ], 
+        "type": "Narz\u0119dzie", 
+        "description": "Ye Olde Rustic Colour"
+    }, 
+    "5037": {
+        "alt": [
+            "U\u017cywana do malowania innych przedmiot\u00f3w.", 
+            "Stworzy\u0142em to!"
+        ], 
+        "type": "Narz\u0119dzie", 
+        "description": "Australium Gold"
+    }, 
+    "5034": {
+        "alt": [
+            "U\u017cywana do malowania innych przedmiot\u00f3w.", 
+            "Stworzy\u0142em to!"
+        ], 
+        "type": "Narz\u0119dzie", 
+        "description": "Peculiarly Drab Tincture"
+    }, 
+    "5035": {
+        "alt": [
+            "U\u017cywana do malowania innych przedmiot\u00f3w.", 
+            "Stworzy\u0142em to!"
+        ], 
+        "type": "Narz\u0119dzie", 
+        "description": "Radigan Conagher Brown"
+    }, 
+    "5032": {
+        "alt": [
+            "U\u017cywana do malowania innych przedmiot\u00f3w.", 
+            "Stworzy\u0142em to!"
+        ], 
+        "type": "Narz\u0119dzie", 
+        "description": "Mann Co. Orange"
+    }, 
+    "5033": {
+        "alt": [
+            "U\u017cywana do malowania innych przedmiot\u00f3w.", 
+            "Stworzy\u0142em to!"
+        ], 
+        "type": "Narz\u0119dzie", 
+        "description": "Muskelmannbraun"
+    }, 
+    "5030": {
+        "alt": [
+            "U\u017cywana do malowania innych przedmiot\u00f3w.", 
+            "Stworzy\u0142em to!"
+        ], 
+        "type": "Narz\u0119dzie", 
+        "description": "Color No. 216-190-216"
+    }, 
+    "5031": {
+        "alt": [
+            "U\u017cywana do malowania innych przedmiot\u00f3w.", 
+            "Stworzy\u0142em to!"
+        ], 
+        "type": "Narz\u0119dzie", 
+        "description": "A Deep Commitment to Purple"
     }, 
     "60": {
         "positive": [
@@ -557,32 +945,71 @@
         ], 
         "description": "Ambasador"
     }, 
+    "259": {
+        "alt": [
+            "\u015amier\u0107 dzia\u0142kom stra\u017cniczym."
+        ], 
+        "type": "Hat", 
+        "description": "Carouser's Capotain"
+    }, 
     "97": {
+        "alt": [
+            "Poniewa\u017c, gdy jeste\u015b najtwardszym sk\u00f3rkowa\u0144cem w forcie, nikt nie o\u015bmieli si\u0119 krytykowa\u0107 Twojego zmys\u0142u estetycznego."
+        ], 
         "type": "Hat", 
         "description": "Pomponik twardziela"
     }, 
     "179": {
+        "alt": [
+            "Trzy ostre rogi to cecha charakterystyczna tego ostrego kapelusza.\r\nTylko nie wyk\u0142uj sobie oka."
+        ], 
         "type": "Hat", 
         "description": "Trikorn pijaka"
     }, 
     "178": {
+        "alt": [
+            "Trudno jest obliczy\u0107 moment obrotowy cia\u0142a z uwzgl\u0119dnieniem wektora momentu p\u0119du, gdy rozprasza Ci\u0119 odg\u0142os wymiany ognia i wrog\u00f3w konaj\u0105cych dooko\u0142a Ciebie. Zbuduj lepsze, bezpieczniejsze urz\u0105dzenie, w ciszy zapewnianej przez Safe'n'sound!"
+        ], 
         "type": "Hat", 
         "description": "Nauszniki ochronne"
     }, 
-    "177": {
+    "252": {
         "alt": [
-            "One nic nie robi\u0105!"
+            ""
         ], 
         "type": "Hat", 
-        "description": "G\u00f3gle"
+        "description": "Dr's Dapper Topper"
+    }, 
+    "5014": {
+        "alt": [
+            "U\u017cywany w planach do okre\u015blenia slotu wyposa\u017cenia"
+        ], 
+        "type": "Przedmiot wytwarzania", 
+        "description": "\u017beton slotu - Do walki wr\u0119cz"
     }, 
     "175": {
+        "alt": [
+            "Najbardziej znany, samoprzylepny i ognioodporny zarost, dost\u0119pny w sprzeda\u017cy dla wymagaj\u0105cego d\u017centelmena-pirotechnika."
+        ], 
         "type": "Hat", 
         "description": "W\u0105saty d\u017centelmen"
     }, 
-    "174": {
+    "251": {
+        "alt": [
+            "Najwi\u0119ksze osi\u0105gni\u0119cie\r\nwiktoria\u0144skiej mody militarnej."
+        ], 
         "type": "Hat", 
-        "description": "Pierdziuszka"
+        "description": "Stout Shako"
+    }, 
+    "173": {
+        "positive": [
+            "Po \u015bmierci do 20% pozosta\u0142ego \u0142adunku \r\n\u00dcberCharge zostanie zachowane."
+        ], 
+        "type": "Pi\u0142a do ko\u015bci", 
+        "negative": [
+            "-10 maks. punkt\u00f3w zdrowia dla nosz\u0105cego"
+        ], 
+        "description": "The Vita-Saw"
     }, 
     "172": {
         "positive": [
@@ -594,40 +1021,73 @@
         ], 
         "description": "Czerepo\u0142amacz Szkota"
     }, 
-    "171": {
-        "positive": [
-            "Przy trafieniu: wykrwawianie przez 6 sekund"
-        ], 
-        "type": "Kukri", 
-        "negative": [
-            "-50% zadanych obra\u017ce\u0144"
-        ], 
-        "description": "Plemienne Ostrze"
-    }, 
-    "170": {
+    "254": {
         "alt": [
-            "Data zatrudnienia: %s1"
+            "Nie mo\u017cna by\u0107 zbyt ostro\u017cnym,\r\ngdy staje si\u0119 przeciw Sikwondo."
         ], 
-        "type": "Odznaka", 
-        "description": "Prastary wojownik"
+        "type": "Hat", 
+        "description": "Hard Counter"
+    }, 
+    "255": {
+        "alt": [
+            "Najlepszy przyjaciel skoczka na bombie samoprzylepnej."
+        ], 
+        "type": "Hat", 
+        "description": "Sober Stuntman"
+    }, 
+    "249": {
+        "alt": [
+            "\u015amier\u0107 nadchodzi z g\u00f3ry!"
+        ], 
+        "type": "Hat", 
+        "description": "Bombing Run"
+    }, 
+    "145": {
+        "alt": [
+            "Tw\u00f3j przeciwnik dozna wstrz\u0105su, gdy ujrzy te pi\u0119kne okulary i Tw\u00f3j fryz."
+        ], 
+        "type": "Hat", 
+        "description": "Hound Dog"
+    }, 
+    "248": {
+        "alt": [
+            "Odpoczynek po d\u0142ugim dniu palenia Scout\u00f3w."
+        ], 
+        "type": "Hat", 
+        "description": "Napper's Respite"
     }, 
     "182": {
+        "alt": [
+            "Pyro nosi to nakrycie ku pami\u0119ci wielu stra\u017cak\u00f3w, kt\u00f3rzy polegli, pr\u00f3buj\u0105c ugasi\u0107 jego po\u017cary."
+        ], 
         "type": "Hat", 
         "description": "Zabytek stra\u017caka"
     }, 
     "183": {
+        "alt": [
+            "To nakrycie g\u0142owy jest przydatnym zamiennikiem wulgarnych komentarzy, gdy nie chcesz zedrze\u0107 sobie gard\u0142a."
+        ], 
         "type": "Hat", 
         "description": "Kapelusz instruktora musztry"
     }, 
     "180": {
+        "alt": [
+            "Poniewa\u017c prawdziwe szpiegostwo to forma sztuki."
+        ], 
         "type": "Hat", 
         "description": "Beret Francuza"
     }, 
     "181": {
+        "alt": [
+            "Gone Snipin'."
+        ], 
         "type": "Hat", 
         "description": "Ziomalska czapka w\u0119dkarska"
     }, 
     "184": {
+        "alt": [
+            "Gatsby, cho\u0107 brakuje mu presti\u017cu innych kapeluszy, charakteryzuje si\u0119 w\u0142asn\u0105, ekscentryczn\u0105 elegancj\u0105. Jego niedoceniony i przyjazny urok trafia do wszystkich, niezale\u017cnie od tego czy rozgrywasz w\u0142a\u015bnie rundk\u0119 golfa ze znajomymi, czy przeprowadzasz pilny zabieg z u\u017cyciem wypolerowanej pi\u0142y do ko\u015bci."
+        ], 
         "type": "Hat", 
         "description": "Beret golfisty"
     }, 
@@ -635,19 +1095,91 @@
         "type": "Saperka", 
         "description": "Saperka"
     }, 
+    "250": {
+        "alt": [
+            ""
+        ], 
+        "type": "Hat", 
+        "description": "Chieftan's Challenge"
+    }, 
     "189": {
+        "alt": [
+            "W innym czasie i miejscu ten malec by\u0142 zaka\u0142\u0105 ludzko\u015bci. Teraz cieszy si\u0119, \u017ce mo\u017ce spocz\u0105\u0107 na Twojej g\u0142owie i nie dopuszcza\u0107 do niej s\u0142o\u0144ca."
+        ], 
         "type": "Hat", 
         "description": "Paso\u017cyt z Alien Swarm"
     }, 
+    "5029": {
+        "alt": [
+            "U\u017cywana do malowania innych przedmiot\u00f3w.", 
+            "Stworzy\u0142em to!"
+        ], 
+        "type": "Narz\u0119dzie", 
+        "description": "Noble Hatter's Violet"
+    }, 
+    "5028": {
+        "alt": [
+            "U\u017cywana do malowania innych przedmiot\u00f3w.", 
+            "Stworzy\u0142em to!"
+        ], 
+        "type": "Narz\u0119dzie", 
+        "description": "Zephaniah's Greed"
+    }, 
+    "221": {
+        "alt": [
+            "Otrzymanie ciosu ryb\u0105 musi by\u0107 upokarzaj\u0105ce."
+        ], 
+        "type": "Ryba", 
+        "description": "The Holy Mackerel"
+    }, 
+    "5021": {
+        "alt": [
+            "U\u017cywany do otwierania zamkni\u0119tych skrzynek."
+        ], 
+        "type": "Narz\u0119dzie", 
+        "description": "Klucz do skrzynki firmy Mann Co."
+    }, 
+    "5020": {
+        "alt": [
+            "Zmiana nazwy przedmiotu w Twoim plecaku"
+        ], 
+        "type": "Narz\u0119dzie", 
+        "description": "Etykieta z nazw\u0105"
+    }, 
+    "5023": {
+        "alt": [
+            "U\u017cywana do malowania innych przedmiot\u00f3w.", 
+            "Stworzy\u0142em to!"
+        ], 
+        "type": "Narz\u0119dzie", 
+        "description": "Puszka z farb\u0105"
+    }, 
     "185": {
+        "alt": [
+            "Koszt noszenia tej bandany przez 12\u00a0sekund wynosi 400\u00a0000\u00a0USD."
+        ], 
         "type": "Hat", 
         "description": "Bandana Grubego"
     }, 
+    "5027": {
+        "alt": [
+            "U\u017cywana do malowania innych przedmiot\u00f3w.", 
+            "Stworzy\u0142em to!"
+        ], 
+        "type": "Narz\u0119dzie", 
+        "description": "Indubitably Green"
+    }, 
     "99": {
+        "alt": [
+            "Skopa\u0142em Tw\u00f3j ty\u0142ek tak mocno, \u017ce cofn\u0105\u0142 si\u0119 w czasie i kupi\u0142 mi czapk\u0119 VIKING HAT."
+        ], 
         "type": "Hat", 
         "description": "He\u0142m tyrana"
     }, 
     "98": {
+        "alt": [
+            "Chroni czaszk\u0119 przed pociskami i szrapnelami.\r\nS\u0142u\u017cy te\u017c do podgrzewania zupy."
+        ], 
         "type": "Hat", 
         "description": "Rondel nierdzewny"
     }, 
@@ -655,29 +1187,63 @@
         "positive": [
             "Drzemie w nim staro\u017cytna moc"
         ], 
+        "alt": [
+            "Nie podlega wymianie"
+        ], 
         "type": "Klucz", 
         "description": "Z\u0142oty klucz"
     }, 
-    "164": {
+    "229": {
         "alt": [
-            "Data zatrudnienia: %s1"
+            "TF_OlSnaggletooth_Desc"
         ], 
-        "type": "Odznaka", 
-        "description": "Weteran"
+        "type": "Hat", 
+        "description": "Ol' Snaggletooth"
     }, 
-    "165": {
-        "alt": [
-            "Data zatrudnienia: %s1"
+    "228": {
+        "positive": [
+            "Przy trafieniu: +15 zdrowia"
         ], 
-        "type": "Odznaka", 
-        "description": "\u0141owca g\u0142\u00f3w"
+        "type": "Wyrzutnia rakiet", 
+        "negative": [
+            "-25% rozmiaru magazynka"
+        ], 
+        "description": "The Black Box"
     }, 
-    "166": {
+    "227": {
         "alt": [
-            "Data zatrudnienia: %s1"
+            "TF_TheGrenadiersSoftcap_Desc"
         ], 
-        "type": "Odznaka", 
-        "description": "Najemnik"
+        "type": "Hat", 
+        "description": "Grenadier's Softcap"
+    }, 
+    "226": {
+        "alt": [
+            "Dodaje defensywn\u0105 premi\u0119, kt\u00f3ra chroni\r\npobliskich cz\u0142onk\u00f3w dru\u017cyny przed krytycznymi trafieniami\r\ni blokuje 35% zadanych obra\u017ce\u0144.\r\nFuria zwi\u0119ksza si\u0119 wraz z zadanymi obra\u017ceniami."
+        ], 
+        "type": "Sztandar bitewny", 
+        "description": "The Battalion's Backup"
+    }, 
+    "225": {
+        "positive": [
+            "Po udanym d\u017agni\u0119ciu w plecy\r\nszybko przebierasz si\u0119 za ofiar\u0119", 
+            "Ta bro\u0144 to cichy zab\u00f3jca"
+        ], 
+        "type": "N\u00f3\u017c", 
+        "negative": [
+            "Nosz\u0105cy nie mo\u017ce si\u0119 przebra\u0107"
+        ], 
+        "description": "Your Eternal Reward"
+    }, 
+    "224": {
+        "positive": [
+            "+15 do ukrycia przy trafieniu"
+        ], 
+        "type": "Rewolwer", 
+        "negative": [
+            "-20% zadanych obra\u017ce\u0144"
+        ], 
+        "description": "L'Etranger"
     }, 
     "160": {
         "alt": [
@@ -700,13 +1266,15 @@
         "type": "Hat", 
         "description": "Zerwana g\u0142owa Maxa"
     }, 
-    "163": {
-        "alt": [
-            "Po wypiciu obra\u017cenia otrzymywane\r\noraz zadawane s\u0105 minikrytyczne.", 
-            "Dodaje 50 do maksymalnego zdrowia na 30 sekund"
+    "220": {
+        "positive": [
+            "Przy trafieniu: Spowolnienie celu o 40% przez 0.5\u00a0s"
         ], 
-        "type": "Pude\u0142ko \u015bniadaniowe", 
-        "description": "Kryt-o-Cola"
+        "alt": [
+            "Najnowsza oferta firmy Mann Co. z zakresu\r\nochrony osobistej."
+        ], 
+        "type": "Peppergun", 
+        "description": "The Shortstop"
     }, 
     "11": {
         "type": "Strzelba", 
@@ -748,11 +1316,36 @@
         "type": "Wyrzutnia rakiet", 
         "description": "Wyrzutnia rakiet"
     }, 
+    "164": {
+        "alt": [
+            "No\u015b to dumnie na swej piersi, \u017co\u0142nierzu. Za ka\u017cdym razem, gdy zabijesz gracza, b\u0119dzie on wiedzia\u0142, \u017ce nie jest Twoj\u0105 pierwsz\u0105 ofiar\u0105.", 
+            "Data zatrudnienia: %s1", 
+            "Nie podlega wymianie"
+        ], 
+        "type": "Odznaka", 
+        "description": "Weteran"
+    }, 
+    "5022": {
+        "positive": [
+            "Skrzynka, seria #1"
+        ], 
+        "alt": [
+            "Aby j\u0105 otworzy\u0107, potrzebny jest Klucz do skrzynki firmy Mann Co."
+        ], 
+        "type": "TF_LockedCrate", 
+        "description": "Skrzynka MannCo."
+    }, 
     "151": {
+        "alt": [
+            "Przynajmniej nadal ka\u017ce Ci podk\u0142ada\u0107 ogie\u0144."
+        ], 
         "type": "Hat", 
         "description": "\u017belkus Gigantus"
     }, 
     "150": {
+        "alt": [
+            "Prosto z punktu kontrolnego."
+        ], 
         "type": "Hat", 
         "description": "Czapka rozrabiaki"
     }, 
@@ -768,6 +1361,9 @@
         "description": "Burzyciel"
     }, 
     "152": {
+        "alt": [
+            "Wojenne haiku.\r\nPokonaj przeciwnika.\r\nPo\u015blij rakiet\u0119."
+        ], 
         "type": "Hat", 
         "description": "Kabuto zab\u00f3jcy"
     }, 
@@ -800,14 +1396,102 @@
         "description": "Tabliczka Ladyczeko"
     }, 
     "158": {
+        "alt": [
+            "Idealne rozwi\u0105zanie, gdy chcesz bli\u017cej pozna\u0107 bezkresne pustkowia lub czyje\u015b wn\u0119trzno\u015bci."
+        ], 
         "type": "Hat", 
         "description": "He\u0142m kolonialny strzelca"
     }, 
+    "36": {
+        "positive": [
+            "Przy trafieniu: +3 zdrowia"
+        ], 
+        "type": "Karabin strzykawkowy", 
+        "negative": [
+            "-2 utraty zdrowia co sekund\u0119 u nosz\u0105cego"
+        ], 
+        "description": "Blutsauger"
+    }, 
+    "239": {
+        "positive": [
+            "+30% do pr\u0119dko\u015bci poruszania si\u0119 dla nosz\u0105cego"
+        ], 
+        "alt": [
+            "Gdy bro\u0144 jest aktywna:"
+        ], 
+        "type": "Pi\u0119\u015bci", 
+        "negative": [
+            "-50% zadanych obra\u017ce\u0144", 
+            "-6 utraty zdrowia co sekund\u0119 u nosz\u0105cego"
+        ], 
+        "description": "Gloves of Running Urgently"
+    }, 
+    "234": {
+        "alt": [
+            "U\u017cycie tego przedmiotu akcji powoduje przekazanie losowego upominku\r\nnawet 23 innym graczom na serwerze!"
+        ], 
+        "type": "Upominek", 
+        "description": "Fura prezent\u00f3w"
+    }, 
+    "237": {
+        "positive": [
+            "Brak zadanych sobie obra\u017ce\u0144 od wybuchu.", 
+            "+200% do maks. ilo\u015bci g\u0142\u00f3wnej amunicji u nosz\u0105cego"
+        ], 
+        "alt": [
+            "Specjalna wyrzutnia rakiet niezadaj\u0105ca obra\u017ce\u0144,\r\ns\u0142u\u017c\u0105ca do nauki wystrza\u0142owego skoku."
+        ], 
+        "type": "Wyrzutnia rakiet", 
+        "negative": [
+            "-100% zadanych obra\u017ce\u0144"
+        ], 
+        "description": "The Rocket Jumper"
+    }, 
+    "230": {
+        "positive": [
+            "Przy trafieniu: Sikwondo zastosowane\r\nwobec celu na 8 s"
+        ], 
+        "type": "Karabin snajperski", 
+        "negative": [
+            "Bez strza\u0142\u00f3w w g\u0142ow\u0119"
+        ], 
+        "description": "The Sydney Sleeper"
+    }, 
+    "231": {
+        "positive": [
+            "+25 maks. punkt\u00f3w zdrowia dla nosz\u0105cego"
+        ], 
+        "type": "Tarcza", 
+        "description": "Darwin's Danger Shield"
+    }, 
+    "232": {
+        "positive": [
+            "Bro\u0144 zadaje obra\u017cenia krytyczne zawsze, gdy normalnie zadawa\u0142aby mini-krytyczne."
+        ], 
+        "type": "Kukri", 
+        "negative": [
+            "20% podatno\u015bci na obra\u017cenia od ognia u nosz\u0105cego"
+        ], 
+        "description": "The Bushwacka"
+    }, 
+    "233": {
+        "alt": [
+            "U\u017cycie tego przedmiotu akcji powoduje przekazanie losowego upominku\r\nlosowemu graczowi na serwerze!"
+        ], 
+        "type": "Upominek", 
+        "description": "Sekretny Miko\u0142aj"
+    }, 
     "48": {
+        "alt": [
+            "Dla pomys\u0142owych in\u017cynier\u00f3w."
+        ], 
         "type": "Hat", 
         "description": "Lampa g\u00f3rnicza"
     }, 
     "49": {
+        "alt": [
+            "TF_Heavy_Hat_1_Desc"
+        ], 
         "type": "Hat", 
         "description": "Kask futbolowy"
     }, 
@@ -816,6 +1500,9 @@
         "description": "Bonk! Atomowy Kop"
     }, 
     "47": {
+        "alt": [
+            "TF_Demo_Hat_1_Desc"
+        ], 
         "type": "Hat", 
         "description": "Afro Demomana"
     }, 
@@ -833,7 +1520,7 @@
         "positive": [
             "Odrzucenie trafionego i strzelaj\u0105cego", 
             "+50% szybszy strza\u0142", 
-            "+20% naboj\u00f3w na ka\u017cdy strza\u0142"
+            "+20% \u015brutu na ka\u017cdy strza\u0142"
         ], 
         "type": "Dubelt\u00f3wka", 
         "negative": [
@@ -882,6 +1569,13 @@
         "type": "Butelka", 
         "description": "Butelka"
     }, 
+    "260": {
+        "alt": [
+            "Dla tej garstki poinformowanych, kt\u00f3rzy wiedz\u0105, w jaki spos\u00f3b edytowa\u0107 stron\u0119 internetow\u0105."
+        ], 
+        "type": "Hat", 
+        "description": "Wiki Cap"
+    }, 
     "5": {
         "type": "Pi\u0119\u015bci", 
         "description": "Pi\u0119\u015bci"
@@ -890,21 +1584,21 @@
         "type": "Strzelba", 
         "description": "Strzelba"
     }, 
-    "146": {
-        "type": "Hat", 
-        "description": "Wizyt\u00f3wka sutenera"
+    "201": {
+        "type": "Karabin snajperski", 
+        "description": "Karabin snajperski"
     }, 
-    "147": {
-        "type": "Hat", 
-        "description": "Peruka s\u0119dziego"
+    "200": {
+        "type": "Dubelt\u00f3wka", 
+        "description": "Dubelt\u00f3wka"
     }, 
-    "144": {
-        "type": "Hat", 
-        "description": "Maska chirurgiczna lekarza"
+    "203": {
+        "type": "LKM", 
+        "description": "LKM"
     }, 
-    "145": {
-        "type": "Hat", 
-        "description": "Hound Dog"
+    "202": {
+        "type": "Minigun", 
+        "description": "Minigun"
     }, 
     "142": {
         "positive": [
@@ -917,37 +1611,123 @@
         ], 
         "description": "Jednor\u0119ki Bandyta"
     }, 
-    "143": {
-        "alt": [
-            "Duma OSX!"
-        ], 
-        "type": "Hat", 
-        "description": "S\u0142uchawki"
+    "204": {
+        "type": "Karabin strzykawkowy", 
+        "description": "Karabin strzykawkowy"
     }, 
-    "140": {
-        "alt": [
-            "Przejmij kontrol\u0119 nad swoim dzia\u0142kiem stra\u017cniczym"
-        ], 
-        "type": "Wska\u017anik laserowy", 
-        "description": "Poskramiacz"
+    "207": {
+        "type": "Wyrzutnia bomb samoprzylepnych", 
+        "description": "Wyrzutnia bomb samoprzylepnych"
     }, 
-    "141": {
-        "positive": [
-            "Po zniszczeniu dzia\u0142ka dostajesz krytyczne strza\u0142y odwetu za ka\u017cde jego zab\u00f3jstwo"
-        ], 
-        "type": "Strzelba", 
-        "negative": [
-            "Bez losowych trafie\u0144 krytycznych", 
-            "-50% rozmiaru magazynka"
-        ], 
-        "description": "Samos\u0105d"
+    "206": {
+        "type": "Granatnik", 
+        "description": "Granatnik"
+    }, 
+    "209": {
+        "type": "Pistolet", 
+        "description": "Pistolet"
+    }, 
+    "208": {
+        "type": "Miotacz ognia", 
+        "description": "Miotacz ognia"
     }, 
     "148": {
+        "alt": [
+            "Zadrwij ze s\u0142o\u0144ca strumieniami ognia, podczas gdy promienie UV odbijaj\u0105 si\u0119 nieszkodliwie od Twoich oczu."
+        ], 
         "type": "Hat", 
         "description": "Maska spawacza"
+    }, 
+    "96": {
+        "alt": [
+            "Kapelusz wykonano z \u0142ap nied\u017awiedzia.\r\nNied\u017awiedzia z\u0142apano go\u0142ymi r\u0119kami."
+        ], 
+        "type": "Hat", 
+        "description": "Uszanka oficera"
+    }, 
+    "5040": {
+        "alt": [
+            "U\u017cywana do malowania innych przedmiot\u00f3w.", 
+            "Stworzy\u0142em to!"
+        ], 
+        "type": "Narz\u0119dzie", 
+        "description": "A Distinctive Lack of Hue"
     }, 
     "2": {
         "type": "Top\u00f3r stra\u017cacki", 
         "description": "Top\u00f3r stra\u017cacki"
+    }, 
+    "263": {
+        "alt": [
+            "TF_EllisHat_Desc", 
+            "Nie podlega wymianie"
+        ], 
+        "type": "Hat", 
+        "description": "Ellis' Cap"
+    }, 
+    "144": {
+        "alt": [
+            "Ogarnij si\u0119... Zaraz b\u0119dzie tu niez\u0142y ba\u0142agan."
+        ], 
+        "type": "Hat", 
+        "description": "Maska chirurgiczna lekarza"
+    }, 
+    "262": {
+        "alt": [
+            "Awarded to participants of the Polycount contest.", 
+            "Nie podlega wymianie"
+        ], 
+        "type": "Odznaka", 
+        "description": "Polycount Pin"
+    }, 
+    "261": {
+        "alt": [
+            "TF_MannCoCap_Desc", 
+            "Nie podlega wymianie"
+        ], 
+        "type": "Hat", 
+        "description": "Mann Co. Cap"
+    }, 
+    "2002": {
+        "alt": [
+            "Zawiera wszystkie przedmioty Polycount dla postaci Soldier:"
+        ], 
+        "type": "Pakiet przedmiot\u00f3w", 
+        "description": "The Tank Buster"
+    }, 
+    "2003": {
+        "alt": [
+            "Zawiera wszystkie przedmioty Polycount dla postaci Sniper:"
+        ], 
+        "type": "Pakiet przedmiot\u00f3w", 
+        "description": "The Croc-o-Style Kit"
+    }, 
+    "2000": {
+        "alt": [
+            "Zawiera wszystkie przedmioty Polycount dla postaci Pyro:"
+        ], 
+        "type": "Pakiet przedmiot\u00f3w", 
+        "description": "The Gas Jockey's Gear"
+    }, 
+    "2001": {
+        "alt": [
+            "Zawiera wszystkie przedmioty Polycount dla postaci Spy:"
+        ], 
+        "type": "Pakiet przedmiot\u00f3w", 
+        "description": "The Saharan Spy"
+    }, 
+    "2004": {
+        "alt": [
+            "Zawiera wszystkie przedmioty Polycount dla postaci Scout:"
+        ], 
+        "type": "Pakiet przedmiot\u00f3w", 
+        "description": "The Special Delivery"
+    }, 
+    "2005": {
+        "alt": [
+            "Zawiera wszystkie zwyci\u0119skie przedmioty konkursu Polycount:"
+        ], 
+        "type": "Pakiet przedmiot\u00f3w", 
+        "description": "Pakiet Polycount"
     }
 }

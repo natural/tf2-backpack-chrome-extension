@@ -1,4 +1,58 @@
 {
+    "214": {
+        "positive": [
+            "D\u00e9g\u00e2ts caus\u00e9s +25%", 
+            "+75 de sant\u00e9 rendue lorsque vous tuez"
+        ], 
+        "type": "Marteau de forgeron", 
+        "negative": [
+            "Aucun tir critique al\u00e9atoire"
+        ], 
+        "description": "Powerjack"
+    }, 
+    "215": {
+        "positive": [
+            "Temps de changement d'arme r\u00e9duit de 65\u00a0%"
+        ], 
+        "type": "Lance-flammes", 
+        "negative": [
+            "D\u00e9g\u00e2ts par br\u00fblure -25%"
+        ], 
+        "description": "Degreaser"
+    }, 
+    "212": {
+        "type": "Montre d'invisibilit\u00e9", 
+        "description": "Montre d'invisibilit\u00e9"
+    }, 
+    "213": {
+        "alt": [
+            "Attendant Description"
+        ], 
+        "type": "Hat", 
+        "description": "Attendant"
+    }, 
+    "210": {
+        "type": "Revolver", 
+        "description": "Revolver"
+    }, 
+    "211": {
+        "type": "Medigun", 
+        "description": "Medigun"
+    }, 
+    "264": {
+        "alt": [
+            "Non \u00e9changeable"
+        ], 
+        "type": "Frying Pan", 
+        "description": "The Frying Pan"
+    }, 
+    "219": {
+        "alt": [
+            "The Milkman Description"
+        ], 
+        "type": "Hat", 
+        "description": "Milkman"
+    }, 
     "133": {
         "positive": [
             "-60% d\u00e9g\u00e2ts de d\u00e9flagration des sauts propuls\u00e9s"
@@ -31,48 +85,77 @@
     "130": {
         "positive": [
             "Munitions secondaires max. +50% pour le porteur", 
-            "Nombre max. de bombes artisanales lanc\u00e9es +6", 
             "Fait sauter des bombes collantes \u00e0 proximit\u00e9 du viseur", 
-            "Capable de d\u00e9truire les bombes collantes ennemies"
+            "Tirs +25% plus rapides", 
+            "Capable de d\u00e9truire les bombes collantes ennemies", 
+            "Nombre max. de bombes artisanales lanc\u00e9es +6"
         ], 
         "type": "Lanceur de bombes collantes", 
         "negative": [
-            "Temps d'activation de la bombe 0.4 s moins rapide"
+            "Temps d'activation de la bombe 0.8 s moins rapide"
         ], 
         "description": "La Scottish Resistance"
     }, 
     "137": {
+        "alt": [
+            "Pour le gentleman qui estime que m\u00eame son chapeau m\u00e9rite d'\u00eatre couvert."
+        ], 
         "type": "Hat", 
         "description": "Noble Amassment of Hats"
     }, 
     "136": {
         "alt": [
-            "Deuxi\u00e8me Place, Concours de Propagande"
+            "Deuxi\u00e8me Place, Concours de Propagande", 
+            "Non \u00e9changeable"
         ], 
         "type": "Hat", 
         "description": "Amber's Rad As All Hell Hat"
     }, 
     "135": {
+        "alt": [
+            "Ha ha ha\u00a0! Tu es aussi PRETENTIEUX que PAUVRE et IRLANDAIS. Ne viens pas ternir la superbe de ma PILE de CHAPEAUX."
+        ], 
         "type": "Hat", 
         "description": "Towering Pillar of Hats"
     }, 
     "134": {
         "alt": [
-            "Gagnant (Premi\u00e8re Place), Concours de Propagande"
+            "Gagnant (Premi\u00e8re Place), Concours de Propagande", 
+            "Non \u00e9changeable"
         ], 
         "type": "Hat", 
         "description": "J.Axer's Dapper Topper"
     }, 
+    "95": {
+        "alt": [
+            "TF_Engineer_Train_Hat_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "Casquette de l'Engineer"
+    }, 
     "139": {
+        "alt": [
+            "Parce qu'un gentleman se reconna\u00eet \u00e0 son chapeau."
+        ], 
         "type": "Hat", 
         "description": "Modique pile de chapeau"
     }, 
     "138": {
         "alt": [
-            "Troisi\u00e8me Place, Concours de Propagande"
+            "Troisi\u00e8me Place, Concours de Propagande", 
+            "Non \u00e9changeable"
         ], 
         "type": "Hat", 
         "description": "Oncle Sam"
+    }, 
+    "166": {
+        "alt": [
+            "Bien que tu sois arriv\u00e9 en retard, c'est toi qui as anim\u00e9 cette f\u00eate.", 
+            "Date d'embauche : %s1", 
+            "Non \u00e9changeable"
+        ], 
+        "type": "Badge", 
+        "description": "Mercenaire"
     }, 
     "24": {
         "type": "Revolver", 
@@ -106,9 +189,12 @@
         "type": "Pistolet", 
         "description": "Pistolet"
     }, 
-    "95": {
+    "223": {
+        "alt": [
+            "TF_TheFamiliarFez_Desc"
+        ], 
         "type": "Hat", 
-        "description": "Casquette de l'Engineer"
+        "description": "Fez et gestes"
     }, 
     "28": {
         "type": "PDA", 
@@ -118,9 +204,12 @@
         "type": "Medigun", 
         "description": "Medigun"
     }, 
-    "94": {
-        "type": "Hat", 
-        "description": "Chapeau de cowboy"
+    "222": {
+        "alt": [
+            "Les joueurs r\u00e9cup\u00e8rent en points de vie 75\u00a0%\r\ndes d\u00e9g\u00e2ts inflig\u00e9s \u00e0 un adversaire couvert de lait."
+        ], 
+        "type": "Substance non lact\u00e9e", 
+        "description": "Mad Milk"
     }, 
     "0": {
         "type": "Matraque", 
@@ -134,38 +223,63 @@
         "type": "Scie \u00e0 amputation", 
         "description": "Scie \u00e0 amputation"
     }, 
-    "96": {
-        "type": "Hat", 
-        "description": "Ouchanka d'officier"
+    "163": {
+        "alt": [
+            "Lorsqu'il est utilis\u00e9, les d\u00e9g\u00e2ts re\u00e7us\r\net les d\u00e9g\u00e2ts caus\u00e9s seront des mini-crits.", 
+            "Ajoute +50 points de vie \u00e0 votre sant\u00e9 maximale pour 30 secondes"
+        ], 
+        "type": "Panier d\u00e9jeuner", 
+        "description": "Crit-a-Cola"
     }, 
     "120": {
+        "alt": [
+            "TF_Demo_Top_Hat_Desc"
+        ], 
         "type": "Hat", 
         "description": "Chapeau haut de forme"
     }, 
     "121": {
+        "alt": [
+            "Remise aux quelques soldats d'exception qui ont tenu bon sans sommeil, nourriture ou vie sociale.", 
+            "Non \u00e9changeable"
+        ], 
         "type": "M\u00e9daille", 
         "description": "M\u00e9daille de service pour les braves"
     }, 
     "122": {
+        "alt": [
+            "Non \u00e9changeable"
+        ], 
         "type": "Cheat Detector", 
         "description": "Nous avons remarqu\u00e9 un contournement du syst\u00e8me de distribution d'objets sur votre compte. Les objets ill\u00e9galement obtenus ont \u00e9t\u00e9 supprim\u00e9s.\r\n\r\nToute prochaine violation entra\u00eenera la perte de tous vos objets."
     }, 
     "123": {
+        "alt": [
+            "Non \u00e9changeable"
+        ], 
         "type": "Cheat Detector", 
         "description": "Nous avons remarqu\u00e9 un contournement du syst\u00e8me de distribution d'objets sur votre compte. Tous les objets de votre inventaire ont \u00e9t\u00e9 supprim\u00e9s.\r\n\r\nToute prochaine violation entra\u00eenera la d\u00e9sactivation de votre compte."
     }, 
     "124": {
+        "alt": [
+            "Non \u00e9changeable"
+        ], 
         "type": "Cheat Detector", 
         "description": "F\u00e9licitations\u00a0! Vous \u00eates r\u00e9compens\u00e9 pour votre honn\u00eatet\u00e9\u00a0: voici un nouveau chapeau\u00a0!\r\n\r\n(D'autres joueurs ont eu moins de scrupules et n'ont pas eu autant de chances)"
     }, 
     "125": {
         "alt": [
-            "D\u00e9g\u00e2ts caus\u00e9s %s1%"
+            "Alors que certains vendraient p\u00e8re et m\u00e8re, ou pire, pour un malheureux chapeau, vous avez suivi le chemin de la droiture dans votre qu\u00eate de couvre-chef. F\u00e9licitations.", 
+            "Effet\u00a0: %s1", 
+            "Non \u00e9changeable"
         ], 
         "type": "Aura d'incorruptibilit\u00e9", 
         "description": "Aur\u00e9ole"
     }, 
     "126": {
+        "alt": [
+            "Trouv\u00e9 sur un zombie."
+        ], 
         "type": "B\u00e9ret de v\u00e9t\u00e9ran", 
         "description": "Chapeau de Bill"
     }, 
@@ -189,6 +303,9 @@
         "description": "L'Equalizer"
     }, 
     "129": {
+        "alt": [
+            "Offre un bonus d'attaque qui donne\r\naux membres de l'\u00e9quipe proches des mini tirs critiques."
+        ], 
         "type": "Etendard de bataille", 
         "description": "Le Buff drapeau"
     }, 
@@ -207,16 +324,22 @@
     }, 
     "58": {
         "alt": [
-            "Les ennemis recouverts de cette substance re\u00e7oivent des mini tirs critiques\r\nEgalement utile pour \u00e9teindre un feu"
+            "Les ennemis recouverts de cette substance re\u00e7oivent des mini tirs critiques\r\n\u00c9galement utile pour \u00e9teindre un feu"
         ], 
         "type": "Karat\u00e9 \u00e0 base de bocaux", 
         "description": "Jarat\u00e9"
     }, 
     "55": {
+        "alt": [
+            "La beaut\u00e9 et l'\u00e9l\u00e9gance suave de ce chapeau bord\u00e9 de soie transforment le vulgaire assassin en gentleman du poignardage."
+        ], 
         "type": "Hat", 
         "description": "Chapeau de feutre"
     }, 
     "54": {
+        "alt": [
+            "Ce chapeau n'incite en aucun cas \u00e0 s'adonner aux joies du tabagisme ou des jeux d'argent."
+        ], 
         "type": "Hat", 
         "description": "Planque du Soldier"
     }, 
@@ -232,18 +355,30 @@
         "description": "Le Huntsman"
     }, 
     "51": {
+        "alt": [
+            "TF_Pyro_Hat_1_Desc"
+        ], 
         "type": "Hat", 
         "description": "Bonnet du Pyro"
     }, 
     "50": {
+        "alt": [
+            "Une relique d'une autre guerre\r\npour piquer vos ennemis au vif (ou ailleurs)."
+        ], 
         "type": "Hat", 
         "description": "Casque \u00e0 pointe prussien"
     }, 
     "53": {
+        "alt": [
+            "N'importe quelle lavette peut arracher les dents d'un crocodile mort.\r\nMais les arracher sur un crocodile vivant, \u00e7a, c'est un travail d'homme."
+        ], 
         "type": "Hat", 
         "description": "Ceinture troph\u00e9e"
     }, 
     "52": {
+        "alt": [
+            "D\u00e9foncez des milliers de cr\u00e2nes gr\u00e2ce \u00e0 ce bout de plastique rouge."
+        ], 
         "type": "Hat", 
         "description": "Casque de batteur"
     }, 
@@ -275,82 +410,188 @@
         "type": "Fabriquer un objet", 
         "description": "Jeton d'emplacement\u00a0- Secondaire"
     }, 
-    "5014": {
-        "alt": [
-            "Utilis\u00e9 pour d\u00e9finir un emplacement d'\u00e9quipement lors de l'utilisation de plans"
-        ], 
-        "type": "Fabriquer un objet", 
-        "description": "Jeton d'emplacement\u00a0- Corps \u00e0 corps"
+    "199": {
+        "type": "Fusil \u00e0 pompe", 
+        "description": "Fusil \u00e0 pompe"
     }, 
-    "5015": {
-        "alt": [
-            "Utilis\u00e9 pour d\u00e9finir un emplacement d'\u00e9quipement lors de l'utilisation de plans"
-        ], 
-        "type": "Fabriquer un objet", 
-        "description": "Jeton d'emplacement\u00a0- Grenade"
+    "198": {
+        "type": "Scie \u00e0 amputation", 
+        "description": "Scie \u00e0 amputation"
     }, 
-    "5016": {
+    "147": {
         "alt": [
-            "Utilis\u00e9 pour d\u00e9finir un emplacement d'\u00e9quipement lors de l'utilisation de plans"
+            "On dit que la Justice est aveugle. Ce qu'on ne dit pas, c'est qu'elle est aussi invisible et qu'elle se passionne davantage pour le meurtre que pour la justice."
         ], 
-        "type": "Fabriquer un objet", 
-        "description": "Jeton d'emplacement\u00a0- Montage"
+        "type": "Hat", 
+        "description": "Magistrate's Mullet"
     }, 
-    "5017": {
-        "alt": [
-            "Utilis\u00e9 pour d\u00e9finir un emplacement d'\u00e9quipement lors de l'utilisation de plans"
-        ], 
-        "type": "Fabriquer un objet", 
-        "description": "Jeton d'emplacement\u00a0- PDA"
+    "195": {
+        "type": "Poings", 
+        "description": "Poings"
     }, 
-    "5018": {
-        "alt": [
-            "Utilis\u00e9 pour d\u00e9finir un emplacement d'\u00e9quipement lors de l'utilisation de plans"
-        ], 
-        "type": "Fabriquer un objet", 
-        "description": "Jeton d'emplacement\u00a0- PDA2"
+    "194": {
+        "type": "Couteau", 
+        "description": "Couteau"
     }, 
-    "5019": {
-        "alt": [
-            "Utilis\u00e9 pour d\u00e9finir un emplacement d'\u00e9quipement lors de l'utilisation de plans"
-        ], 
-        "type": "Fabriquer un objet", 
-        "description": "Jeton d'emplacement\u00a0- T\u00eate"
+    "197": {
+        "type": "Cl\u00e9", 
+        "description": "Cl\u00e9"
+    }, 
+    "196": {
+        "type": "Pelle", 
+        "description": "Pelle"
+    }, 
+    "191": {
+        "type": "Bouteille", 
+        "description": "Bouteille"
+    }, 
+    "190": {
+        "type": "Matraque", 
+        "description": "Matraque"
+    }, 
+    "193": {
+        "type": "Kukri", 
+        "description": "Kukri"
+    }, 
+    "192": {
+        "type": "Hache", 
+        "description": "Hache"
     }, 
     "115": {
+        "alt": [
+            "Le papier Kraft n'a jamais paru aussi glauque."
+        ], 
         "type": "Chapeau de f\u00eate", 
         "description": "Masque d'Halloween un peu d\u00e9rangeant"
     }, 
+    "177": {
+        "alt": [
+            "Rien"
+        ], 
+        "type": "Hat", 
+        "description": "Les B\u00e9zicles"
+    }, 
     "117": {
+        "alt": [
+            "Sa balle n'est pas pass\u00e9e loin.\r\nJ'ai perdu mon chapeau.\r\nMa balle est pass\u00e9e plus pr\u00e8s\u00a0:\r\nlui n'a plus de t\u00eate."
+        ], 
         "type": "Hat", 
         "description": "Coupe parfaite, fixation extr\u00eame"
     }, 
     "116": {
         "alt": [
-            "Initiales brod\u00e9es : \u00ab Z.M. \u00bb"
+            "L'\u00e9l\u00e9gante simplicit\u00e9 et le charme du vieux monde combin\u00e9s avec les ar\u00f4mes enivrants de la moisissure et de la poussi\u00e8re.", 
+            "Non \u00e9changeable"
         ], 
         "type": "Hat", 
         "description": "Horrible Gibus"
     }, 
     "111": {
+        "alt": [
+            "Tout le monde sait que le Scout est un malade de la vitesse. Pourquoi s'embarrasser d'un chapeau\u00a0? Mieux vaut passer le mur du son les cheveux au vent."
+        ], 
         "type": "Hat", 
         "description": "Cheveux gomin\u00e9s"
     }, 
     "110": {
+        "alt": [
+            "Seul un ma\u00eetre du jarat\u00e9 est digne de porter ce bandana autrefois blanc qui a tourn\u00e9 au jaune crasse \u00e0 force d'entra\u00eenements rigoureux."
+        ], 
         "type": "Hat", 
         "description": "Ceinture jaune du ma\u00eetre"
     }, 
+    "253": {
+        "alt": [
+            "Permet de supprimer toutes sortes d'encombrement."
+        ], 
+        "type": "Hat", 
+        "description": "Poign\u00e9e multifonction"
+    }, 
+    "205": {
+        "type": "Lance-roquettes", 
+        "description": "Lance-roquettes"
+    }, 
     "118": {
+        "alt": [
+            "Il est parfois bon de se d\u00e9couvrir."
+        ], 
         "type": "Hat", 
         "description": "Cr\u00e2ne chauve et luisant"
+    }, 
+    "165": {
+        "alt": [
+            "Certains sont peut-\u00eatre plus endurants, mais tu as montr\u00e9 que peu te surpassent.", 
+            "Date d'embauche : %s1", 
+            "Non \u00e9changeable"
+        ], 
+        "type": "Badge", 
+        "description": "Soldat de fortune"
+    }, 
+    "143": {
+        "alt": [
+            "OSX en force !"
+        ], 
+        "type": "Hat", 
+        "description": "\u00c9couteurs"
+    }, 
+    "174": {
+        "alt": [
+            "Ce chapeau est le plus tendance, \u00e7a cr\u00e8ve les yeux. Il fait fureur chez les jeunes qui ont du go\u00fbt."
+        ], 
+        "type": "Hat", 
+        "description": "Toque de Fanfaron"
+    }, 
+    "140": {
+        "alt": [
+            "Prenez le contr\u00f4le manuel de votre mitrailleuse"
+        ], 
+        "type": "Pointeur laser", 
+        "description": "Le Dompteur"
+    }, 
+    "141": {
+        "positive": [
+            "Lorsque votre mitrailleuse est d\u00e9truite, vous\r\n\r\nobtenez des tirs critiques de vengeance pour chaque victime faite avec votre mitrailleuse"
+        ], 
+        "type": "Fusil \u00e0 pompe", 
+        "negative": [
+            "Aucun tir critique al\u00e9atoire", 
+            "Capacit\u00e9 chargeur -50%"
+        ], 
+        "description": "La Justice Frontali\u00e8re"
     }, 
     "3": {
         "type": "Kukri", 
         "description": "Kukri"
     }, 
+    "171": {
+        "positive": [
+            "Lorsque vous touchez : Saigne pendant 6 secondes"
+        ], 
+        "type": "Kukri", 
+        "negative": [
+            "D\u00e9g\u00e2ts caus\u00e9s -50%"
+        ], 
+        "description": "Le Couteau Aborig\u00e8ne"
+    }, 
     "7": {
         "type": "Cl\u00e9", 
         "description": "Cl\u00e9"
+    }, 
+    "146": {
+        "alt": [
+            "TF_DemomanHallmark_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "Hustler's Hallmark"
+    }, 
+    "170": {
+        "alt": [
+            "Une vraie m\u00e9daille de soldat\u00a0: remise \u00e0 ceux qui se battaient avant m\u00eame le d\u00e9but des combats.", 
+            "Date d'embauche : %s1", 
+            "Non \u00e9changeable"
+        ], 
+        "type": "Badge", 
+        "description": "Guerrier Primitif"
     }, 
     "other_attributes": {
         "133": "M\u00e9daille num\u00e9ro %s1", 
@@ -419,55 +660,120 @@
         "type": "Fabriquer un objet", 
         "description": "Jeton de classe\u00a0- Medic"
     }, 
-    "108": {
+    "245": {
+        "alt": [
+            "Gagn\u00e9 au niveau\u00a075.\r\nCe badge suit vos statistiques en duel.\r\nRemportez plus de duels pour l'am\u00e9liorer.", 
+            "Non \u00e9changeable"
+        ], 
+        "type": "Badge", 
+        "description": "Badge de duelliste de platine"
+    }, 
+    "244": {
+        "alt": [
+            "Gagn\u00e9 au niveau\u00a050.\r\nCe badge suit vos statistiques en duel.\r\nRemportez plus de duels pour l'am\u00e9liorer.", 
+            "Non \u00e9changeable"
+        ], 
+        "type": "Badge", 
+        "description": "Badge de duelliste d'or"
+    }, 
+    "247": {
+        "alt": [
+            "Mettez un peu de piment dans votre jeu."
+        ], 
         "type": "Hat", 
-        "description": "Chapeau melon"
+        "description": "Guadalajara d'antan"
     }, 
     "109": {
+        "alt": [
+            "Un chapeau digne et fonctionnel id\u00e9al pour un v\u00e9ritable homme fatal."
+        ], 
         "type": "Hat", 
         "description": "V\u00e9ritable panama"
     }, 
     "9003": {
         "positive": [
-            "Les interdictions de Steam compte des joueurs tu\u00e9s", 
+            "compte Steam Bans de joueurs tu\u00e9s", 
             "Cet article n'est pas r\u00e9el et n'est qu'une plaisanterie."
         ], 
-        "type": "Mallet de bannissement", 
+        "type": "Mallet du Bannissement", 
         "description": "Ban Hammer"
     }, 
     "240": {
+        "alt": [
+            "TF_Worms_Gear_Desc"
+        ], 
         "type": "Hat", 
         "description": "Lumbricus Lid"
     }, 
+    "243": {
+        "alt": [
+            "Gagn\u00e9 au niveau\u00a025.\r\nCe badge suit vos statistiques en duel.\r\nRemportez plus de duels pour l'am\u00e9liorer.", 
+            "Non \u00e9changeable"
+        ], 
+        "type": "Badge", 
+        "description": "Badge de duelliste d'argent"
+    }, 
+    "242": {
+        "alt": [
+            "Ce badge suit vos statistiques en duel.\r\nRemportez plus de duels pour l'am\u00e9liorer.", 
+            "Non \u00e9changeable"
+        ], 
+        "type": "Badge", 
+        "description": "Badge de duelliste de bronze"
+    }, 
     "102": {
+        "alt": [
+            "Pourquoi se soucier du respect de personnes en train de br\u00fbler\u00a0?"
+        ], 
         "type": "Hat", 
         "description": "Gant en caoutchouc ridicule"
     }, 
     "103": {
+        "alt": [
+            "Vous permettez que je lise ce document top-secret avec ma barbe\u00a0?"
+        ], 
         "type": "Hat", 
         "description": "Barbe avec cam\u00e9ra"
     }, 
     "100": {
+        "alt": [
+            "TF_Demo_Scott_Hat_Desc"
+        ], 
         "type": "Hat", 
         "description": "Chapeau Glengarry"
     }, 
     "101": {
+        "alt": [
+            "TF_Medic_Tyrolean_Hat_Desc"
+        ], 
         "type": "Hat", 
         "description": "Chapeau tyrolien"
     }, 
     "106": {
+        "alt": [
+            "Lorsqu'une seule boisson radioactive ne suffit plus."
+        ], 
         "type": "Hat", 
         "description": "Casque de chantier"
     }, 
     "107": {
+        "alt": [
+            "Derni\u00e8res nouvelles\u00a0! T'es d\u00e9j\u00e0 mort\u00a0!"
+        ], 
         "type": "Hat", 
         "description": "Casquette de gavroche"
     }, 
     "104": {
+        "alt": [
+            "Impossible d'\u00e9tablir un diagnostic."
+        ], 
         "type": "Hat", 
         "description": "Miroir d'oto-rhino-laryngologiste"
     }, 
     "105": {
+        "alt": [
+            "TF_Pyro_Fireman_Helmet_Desc"
+        ], 
         "type": "Hat", 
         "description": "Casque de pompier"
     }, 
@@ -486,18 +792,6 @@
         ], 
         "description": "L'Hachtincteur"
     }, 
-    "33": {
-        "type": "Pistolet \u00e0 seringues", 
-        "description": "Pistolet \u00e0 seringues"
-    }, 
-    "32": {
-        "type": "Scie \u00e0 amputation", 
-        "description": "Scie \u00e0 amputation"
-    }, 
-    "31": {
-        "type": "Pistolet de d\u00e9tresse", 
-        "description": "Pistolet de d\u00e9tresse"
-    }, 
     "30": {
         "type": "Montre d'invisibilit\u00e9", 
         "description": "Montre d'invisibilit\u00e9"
@@ -512,15 +806,12 @@
         ], 
         "description": "L'Ubersaw"
     }, 
-    "36": {
-        "positive": [
-            "Lorsque vous touchez\u00a0: +3\u00a0pts sant\u00e9"
+    "108": {
+        "alt": [
+            "Pour ceux qui aimeraient avoir un cr\u00e2ne plus grand,\r\nmais au sommet tout aussi rond."
         ], 
-        "type": "Pistolet \u00e0 seringues", 
-        "negative": [
-            "-2 pts sant\u00e9 utilis\u00e9s par seconde pour le porteur"
-        ], 
-        "description": "Le Blutsauger"
+        "type": "Hat", 
+        "description": "Chapeau melon"
     }, 
     "35": {
         "positive": [
@@ -532,9 +823,106 @@
         "type": "Medigun", 
         "description": "Le Kritzkrieg"
     }, 
-    "34": {
-        "type": "Medigun", 
-        "description": "Medigun"
+    "246": {
+        "alt": [
+            ""
+        ], 
+        "type": "Hat", 
+        "description": "Protecteur du pugiliste"
+    }, 
+    "94": {
+        "alt": [
+            "Bien qu'il ressemble \u00e0 un simple chapeau de cowboy, ce petit bijou d'ing\u00e9nierie compte plus de pi\u00e8ces mobiles qu'une mitrailleuse de niveau\u00a02."
+        ], 
+        "type": "Hat", 
+        "description": "Chapeau de cowboy"
+    }, 
+    "241": {
+        "alt": [
+            "D\u00e9fiez un autre joueur en duel\u00a0!\r\nPour en savoir plus, consultez le catalogue de la Mann Co."
+        ], 
+        "type": "Objet utilisable", 
+        "description": "Mini-jeu de duel"
+    }, 
+    "5038": {
+        "alt": [
+            "Permet de peindre d'autres objets.", 
+            "C'est moi qui l'ai fait !"
+        ], 
+        "type": "Outil", 
+        "description": "Aged Moustache Grey"
+    }, 
+    "5039": {
+        "alt": [
+            "Permet de peindre d'autres objets.", 
+            "C'est moi qui l'ai fait !"
+        ], 
+        "type": "Outil", 
+        "description": "An Extraordinary Abundance of Tinge"
+    }, 
+    "5036": {
+        "alt": [
+            "Permet de peindre d'autres objets.", 
+            "C'est moi qui l'ai fait !"
+        ], 
+        "type": "Outil", 
+        "description": "Ye Olde Rustic Colour"
+    }, 
+    "5037": {
+        "alt": [
+            "Permet de peindre d'autres objets.", 
+            "C'est moi qui l'ai fait !"
+        ], 
+        "type": "Outil", 
+        "description": "Australium Gold"
+    }, 
+    "5034": {
+        "alt": [
+            "Permet de peindre d'autres objets.", 
+            "C'est moi qui l'ai fait !"
+        ], 
+        "type": "Outil", 
+        "description": "Peculiarly Drab Tincture"
+    }, 
+    "5035": {
+        "alt": [
+            "Permet de peindre d'autres objets.", 
+            "C'est moi qui l'ai fait !"
+        ], 
+        "type": "Outil", 
+        "description": "Radigan Conagher Brown"
+    }, 
+    "5032": {
+        "alt": [
+            "Permet de peindre d'autres objets.", 
+            "C'est moi qui l'ai fait !"
+        ], 
+        "type": "Outil", 
+        "description": "Mann Co. Orange"
+    }, 
+    "5033": {
+        "alt": [
+            "Permet de peindre d'autres objets.", 
+            "C'est moi qui l'ai fait !"
+        ], 
+        "type": "Outil", 
+        "description": "Muskelmannbraun"
+    }, 
+    "5030": {
+        "alt": [
+            "Permet de peindre d'autres objets.", 
+            "C'est moi qui l'ai fait !"
+        ], 
+        "type": "Outil", 
+        "description": "Color No. 216-190-216"
+    }, 
+    "5031": {
+        "alt": [
+            "Permet de peindre d'autres objets.", 
+            "C'est moi qui l'ai fait !"
+        ], 
+        "type": "Outil", 
+        "description": "A Deep Commitment to Purple"
     }, 
     "60": {
         "positive": [
@@ -557,32 +945,71 @@
         ], 
         "description": "L'Ambassadeur"
     }, 
+    "259": {
+        "alt": [
+            "Il n'y a pas de raison que les mitrailleuses tiennent encore debout, elles."
+        ], 
+        "type": "Hat", 
+        "description": "Chapeau de beuverie"
+    }, 
     "97": {
+        "alt": [
+            "Quand vous \u00eates le plus bal\u00e8ze du coin, personne ne se moque de votre look."
+        ], 
         "type": "Hat", 
         "description": "Tuque de gros dur"
     }, 
     "179": {
+        "alt": [
+            "Le tricorne est un chapeau tape-\u00e0-l'\u0153il.\r\nSi vous voyez ce que je veux dire."
+        ], 
         "type": "Hat", 
         "description": "Tricorne de l'ivrogne"
     }, 
     "178": {
+        "alt": [
+            "Pas toujours \u00e9vident de faire abstraction des tirs et des cris d'agonie lorsqu'on calcule la force externe totale appliqu\u00e9e au mouvement rotatif d'un corps selon son vecteur paroxysmique. Construisez mieux en silence gr\u00e2ce au Safe'n'sound\u00a0!"
+        ], 
         "type": "Hat", 
         "description": "Sain et sauf"
     }, 
-    "177": {
+    "252": {
         "alt": [
-            "Rien"
+            ""
         ], 
         "type": "Hat", 
-        "description": "Les b\u00e9zicles"
+        "description": "Haut-de-forme du docteur"
+    }, 
+    "5014": {
+        "alt": [
+            "Utilis\u00e9 pour d\u00e9finir un emplacement d'\u00e9quipement lors de l'utilisation de plans"
+        ], 
+        "type": "Fabriquer un objet", 
+        "description": "Jeton d'emplacement\u00a0- Corps \u00e0 corps"
     }, 
     "175": {
+        "alt": [
+            "La barbe postiche ignifug\u00e9e la plus distingu\u00e9e que puisse porter un gentleman carboniseur."
+        ], 
         "type": "Hat", 
         "description": "Gentilhomme Barbu"
     }, 
-    "174": {
+    "251": {
+        "alt": [
+            "La mode militaire de l'\u00e9poque victorienne\r\nau sommet de sa gloire."
+        ], 
         "type": "Hat", 
-        "description": "Toque de Fanfaron"
+        "description": "Fier shako"
+    }, 
+    "173": {
+        "positive": [
+            "Si vous mourez, jusqu'\u00e0 20\u00a0% de votre\r\n\u00dcberCharge est conserv\u00e9e."
+        ], 
+        "type": "Scie \u00e0 amputation", 
+        "negative": [
+            "Sant\u00e9 max. -10 pour le porteur"
+        ], 
+        "description": "Vita-Saw"
     }, 
     "172": {
         "positive": [
@@ -594,60 +1021,165 @@
         ], 
         "description": "La Fendeuse de Cr\u00e2ne \u00c9cossaise"
     }, 
-    "171": {
-        "positive": [
-            "Lorsque vous touchez : Saigne pendant 6 secondes"
-        ], 
-        "type": "Kukri", 
-        "negative": [
-            "D\u00e9g\u00e2ts caus\u00e9s -50%"
-        ], 
-        "description": "Le Couteau Aborig\u00e8ne"
-    }, 
-    "170": {
+    "254": {
         "alt": [
-            "Date d'embauche : %s1"
+            "On n'est jamais trop prudent\r\navec toutes ces effusions de jarat\u00e9."
         ], 
-        "type": "Badge", 
-        "description": "Guerrier Primitif"
+        "type": "Hat", 
+        "description": "Grands moyens"
+    }, 
+    "255": {
+        "alt": [
+            "Le meilleur ami des adeptes du saut explosif."
+        ], 
+        "type": "Hat", 
+        "description": "Cascadeur sobre"
+    }, 
+    "249": {
+        "alt": [
+            "La mort venue du ciel\u00a0!"
+        ], 
+        "type": "Hat", 
+        "description": "Frappe a\u00e9rienne"
+    }, 
+    "145": {
+        "alt": [
+            "Vos adversaires resteront bouche b\u00e9e devant ce superbe couvre-chef et ces sublimes lunettes de soleil."
+        ], 
+        "type": "Hat", 
+        "description": "Hound Dog"
+    }, 
+    "248": {
+        "alt": [
+            "Apr\u00e8s avoir grill\u00e9 du Scout toute la journ\u00e9e."
+        ], 
+        "type": "Hat", 
+        "description": "Neurones au repos"
     }, 
     "182": {
+        "alt": [
+            "Pyro le porte en hommage aux nombreux pompiers d\u00e9c\u00e9d\u00e9s en tentant d'\u00e9teindre ses flammes."
+        ], 
         "type": "Hat", 
-        "description": "Vintage Merryweather"
+        "description": "Casque Mill\u00e9sim\u00e9"
     }, 
     "183": {
+        "alt": [
+            "Ce chapeau en dit aussi long qu'un chapelet d'insultes lorsque vous craignez l'extinction de voix."
+        ], 
         "type": "Hat", 
-        "description": "Sergeant's Drill Hat"
+        "description": "Chapeau d'Entra\u00eenement du Sergent"
     }, 
     "180": {
+        "alt": [
+            "Parce que l'espionnage est avant tout un art de vivre."
+        ], 
         "type": "Hat", 
         "description": "B\u00e9ret du Fran\u00e7ais"
     }, 
     "181": {
+        "alt": [
+            "Parti sniper."
+        ], 
         "type": "Hat", 
-        "description": "Bloke's Bucket Hat"
+        "description": "Bob de Mec"
     }, 
     "184": {
+        "alt": [
+            "Bien qu'elle n'ait pas autant de chien que d'autres chapeaux, la casquette Gatsby poss\u00e8de tout de m\u00eame une certaine \u00e9l\u00e9gance. Personne ne r\u00e9siste \u00e0 son charme d\u00e9bordant et pourtant si discret, que ce soit pendant une partie de golf entre amis ou une amputation forc\u00e9e \u00e0 coups de scie."
+        ], 
         "type": "Hat", 
-        "description": "Gentleman's Gatsby"
+        "description": "Gatsby du Gentleman"
     }, 
     "6": {
         "type": "Pelle", 
         "description": "Pelle"
     }, 
+    "250": {
+        "alt": [
+            ""
+        ], 
+        "type": "Hat", 
+        "description": "D\u00e9fi du chef"
+    }, 
     "189": {
+        "alt": [
+            "Bien qu'autrefois rel\u00e9gu\u00e9e au rang de vermine, cette jolie petite bestiole voyage volontiers sur votre cr\u00e2ne, le prot\u00e9geant du soleil."
+        ], 
         "type": "Hat", 
         "description": "Parasite d'Alien Swarm"
     }, 
+    "5029": {
+        "alt": [
+            "Permet de peindre d'autres objets.", 
+            "C'est moi qui l'ai fait !"
+        ], 
+        "type": "Outil", 
+        "description": "Noble Hatter's Violet"
+    }, 
+    "5028": {
+        "alt": [
+            "Permet de peindre d'autres objets.", 
+            "C'est moi qui l'ai fait !"
+        ], 
+        "type": "Outil", 
+        "description": "Zephaniah's Greed"
+    }, 
+    "221": {
+        "alt": [
+            "Se faire frapper \u00e0 coups de poisson doit \u00eatre un tantinet humiliant."
+        ], 
+        "type": "Poisson", 
+        "description": "Holy Mackerel"
+    }, 
+    "5021": {
+        "alt": [
+            "Permet d'ouvrir les caisses verrouill\u00e9es."
+        ], 
+        "type": "Outil", 
+        "description": "Cl\u00e9 de caisse Mann\u00a0Co."
+    }, 
+    "5020": {
+        "alt": [
+            "Permet de modifier le nom d'un objet de votre sac \u00e0 dos."
+        ], 
+        "type": "Outil", 
+        "description": "Etiquette"
+    }, 
+    "5023": {
+        "alt": [
+            "Permet de peindre d'autres objets.", 
+            "C'est moi qui l'ai fait !"
+        ], 
+        "type": "Outil", 
+        "description": "Bidon de peinture"
+    }, 
     "185": {
+        "alt": [
+            "Le port de ce bandana pendant 12\u00a0secondes co\u00fbte 400\u00a0000\u00a0$."
+        ], 
         "type": "Hat", 
         "description": "Bandeau des lourdes obligations"
     }, 
+    "5027": {
+        "alt": [
+            "Permet de peindre d'autres objets.", 
+            "C'est moi qui l'ai fait !"
+        ], 
+        "type": "Outil", 
+        "description": "Indubitably Green"
+    }, 
     "99": {
+        "alt": [
+            "Je t'ai bott\u00e9 le train si fort qu'il a remont\u00e9 le temps pour me rapporter ce CASQUE DE VIKING."
+        ], 
         "type": "Hat", 
         "description": "Casque de viking"
     }, 
     "98": {
+        "alt": [
+            "Prot\u00e8ge le cr\u00e2ne des balles et \u00e9clats d'obus.\r\nR\u00e9chauffe aussi la soupe."
+        ], 
         "type": "Hat", 
         "description": "Casserole en acier"
     }, 
@@ -655,29 +1187,63 @@
         "positive": [
             "Impr\u00e9gn\u00e9e d'un pouvoir imm\u00e9morial"
         ], 
+        "alt": [
+            "Non \u00e9changeable"
+        ], 
         "type": "Cl\u00e9", 
         "description": "La Cl\u00e9 Dor\u00e9e"
     }, 
-    "164": {
+    "229": {
         "alt": [
-            "Date d'embauche : %s1"
+            "TF_OlSnaggletooth_Desc"
         ], 
-        "type": "Badge", 
-        "description": "V\u00e9t\u00e9ran Grisonnant"
+        "type": "Hat", 
+        "description": "Sacr\u00e9 dentier"
     }, 
-    "165": {
-        "alt": [
-            "Date d'embauche : %s1"
+    "228": {
+        "positive": [
+            "Lorsque vous touchez\u00a0: +15\u00a0pts sant\u00e9"
         ], 
-        "type": "Badge", 
-        "description": "Soldat de fortune"
+        "type": "Lance-roquettes", 
+        "negative": [
+            "Capacit\u00e9 chargeur -25%"
+        ], 
+        "description": "Black Box"
     }, 
-    "166": {
+    "227": {
         "alt": [
-            "Date d'embauche : %s1"
+            "TF_TheGrenadiersSoftcap_Desc"
         ], 
-        "type": "Badge", 
-        "description": "Mercenaire"
+        "type": "Hat", 
+        "description": "Casquette de grenadier"
+    }, 
+    "226": {
+        "alt": [
+            "Offre un bonus d\u00e9fensif qui prot\u00e8ge\r\nles membres de l'\u00e9quipe proches des\r\ntirs critiques et bloque 35\u00a0% des d\u00e9g\u00e2ts subis.\r\nLe niveau de rage augmente en fonction des d\u00e9g\u00e2ts subis."
+        ], 
+        "type": "Etendard de bataille", 
+        "description": "Battalion's Backup"
+    }, 
+    "225": {
+        "positive": [
+            "Apr\u00e8s un coup de poignard dans le dos,\r\nprenez imm\u00e9diatement l'apparence de votre victime.", 
+            "Cette arme tue en silence."
+        ], 
+        "type": "Couteau", 
+        "negative": [
+            "Impossible de se d\u00e9guiser en le portant"
+        ], 
+        "description": "Your Eternal Reward"
+    }, 
+    "224": {
+        "positive": [
+            "+15 d'invisibilit\u00e9 lorsque vous touchez un ennemi"
+        ], 
+        "type": "Revolver", 
+        "negative": [
+            "D\u00e9g\u00e2ts caus\u00e9s -20%"
+        ], 
+        "description": "L'Etranger"
     }, 
     "160": {
         "alt": [
@@ -700,13 +1266,15 @@
         "type": "Hat", 
         "description": "T\u00eate coup\u00e9e de Max"
     }, 
-    "163": {
-        "alt": [
-            "Lorsqu'il est utilis\u00e9, les d\u00e9g\u00e2ts re\u00e7us\r\net les d\u00e9g\u00e2ts caus\u00e9s seront des mini-crits.", 
-            "Ajoute +50 points de vie \u00e0 votre sant\u00e9 maximale pour 30 secondes"
+    "220": {
+        "positive": [
+            "Lorsque vous touchez un ennemi\u00a0: vitesse de la cible r\u00e9duite de 40\u00a0% pendant 0.5\u00a0s"
         ], 
-        "type": "Panier d\u00e9jeuner", 
-        "description": "Crit-a-Cola"
+        "alt": [
+            "Derni\u00e8res cr\u00e9ations de la Mann Co.\r\npour une d\u00e9fense personnelle imparable."
+        ], 
+        "type": "Peppergun", 
+        "description": "Shortstop"
     }, 
     "11": {
         "type": "Fusil \u00e0 pompe", 
@@ -748,11 +1316,36 @@
         "type": "Lance-roquettes", 
         "description": "Lance-roquettes"
     }, 
+    "164": {
+        "alt": [
+            "Arbore-le fi\u00e8rement, soldat. Chacune de tes victimes saura qu'elle n'est pas la premi\u00e8re.", 
+            "Date d'embauche : %s1", 
+            "Non \u00e9changeable"
+        ], 
+        "type": "Badge", 
+        "description": "V\u00e9t\u00e9ran Grisonnant"
+    }, 
+    "5022": {
+        "positive": [
+            "Caisse S\u00e9rie N\u00ba\u00a01"
+        ], 
+        "alt": [
+            "Une cl\u00e9 de caisse Mann\u00a0Co. est n\u00e9cessaire pour l'ouvrir."
+        ], 
+        "type": "TF_LockedCrate", 
+        "description": "Caisse Mann\u00a0Co."
+    }, 
     "151": {
+        "alt": [
+            "Au moins, il vous dit toujours de tout carboniser."
+        ], 
         "type": "Hat", 
         "description": "Triboniophorus Tyrannus"
     }, 
     "150": {
+        "alt": [
+            "Droit au point de contr\u00f4le."
+        ], 
         "type": "Hat", 
         "description": "Bonnet de Fauteur de troubles"
     }, 
@@ -768,6 +1361,9 @@
         "description": "Le Destructeur de Maison"
     }, 
     "152": {
+        "alt": [
+            "Ha\u00efku pour la guerre.\r\nPour vaincre ton ennemi.\r\nPare-toi d'une fleur."
+        ], 
         "type": "Hat", 
         "description": "Kabuto de tueur"
     }, 
@@ -800,14 +1396,102 @@
         "description": "La Barre de Dalokohs"
     }, 
     "158": {
+        "alt": [
+            "Parfait pour partir en terre inconnue et \u00e9tudier le cerveau des autochtones."
+        ], 
         "type": "Hat", 
         "description": "Shooter's Sola Topi"
     }, 
+    "36": {
+        "positive": [
+            "Lorsque vous touchez\u00a0: +3\u00a0pts sant\u00e9"
+        ], 
+        "type": "Pistolet \u00e0 seringues", 
+        "negative": [
+            "-2 pts sant\u00e9 utilis\u00e9s par seconde pour le porteur"
+        ], 
+        "description": "Le Blutsauger"
+    }, 
+    "239": {
+        "positive": [
+            "Vitesse de d\u00e9placement +30% plus rapide pour le porteur"
+        ], 
+        "alt": [
+            "Avec une arme active\u00a0:"
+        ], 
+        "type": "Poings", 
+        "negative": [
+            "D\u00e9g\u00e2ts caus\u00e9s -50%", 
+            "-6 pts sant\u00e9 utilis\u00e9s par seconde pour le porteur"
+        ], 
+        "description": "Gants de d\u00e9talage d'urgence"
+    }, 
+    "234": {
+        "alt": [
+            "Cet objet d'action permet d'offrir un cadeau al\u00e9atoire\r\n\u00e0 23\u00a0autres joueurs du serveur\u00a0!"
+        ], 
+        "type": "Cadeau", 
+        "description": "Tas de cadeaux"
+    }, 
+    "237": {
+        "positive": [
+            "Aucun d\u00e9g\u00e2t caus\u00e9 par vos propres explosions.", 
+            "Munitions principales max. +200% pour le porteur"
+        ], 
+        "alt": [
+            "Lance-roquettes sp\u00e9cialement con\u00e7u pour\r\nl'entra\u00eenement au saut propuls\u00e9, sans rien casser."
+        ], 
+        "type": "Lance-roquettes", 
+        "negative": [
+            "D\u00e9g\u00e2ts caus\u00e9s -100%"
+        ], 
+        "description": "Rocket Jumper"
+    }, 
+    "230": {
+        "positive": [
+            "Lorsque vous touchez un ennemi\u00a0: cible couverte de jarat\u00e9\r\npendant 8\u00a0secondes"
+        ], 
+        "type": "Fusil de sniper", 
+        "negative": [
+            "Pas de tirs \u00e0 la t\u00eate"
+        ], 
+        "description": "Sydney Sleeper"
+    }, 
+    "231": {
+        "positive": [
+            "Sant\u00e9 max. +25 pour le porteur"
+        ], 
+        "type": "Bouclier", 
+        "description": "Darwin's Danger Shield"
+    }, 
+    "232": {
+        "positive": [
+            "Tous les mini tirs critiques de cette arme sont des tirs critiques."
+        ], 
+        "type": "Kukri", 
+        "negative": [
+            "Vuln\u00e9rabilit\u00e9 aux d\u00e9g\u00e2ts par le feu 20% pour le porteur"
+        ], 
+        "description": "Bushwacka"
+    }, 
+    "233": {
+        "alt": [
+            "Cet objet d'action permet d'offrir un cadeau al\u00e9atoire\r\n\u00e0 un joueur du serveur choisi au hasard\u00a0!"
+        ], 
+        "type": "Cadeau", 
+        "description": "P\u00e8re No\u00ebl secret"
+    }, 
     "48": {
+        "alt": [
+            "Pour les Engineers qui ont des id\u00e9es lumineuses."
+        ], 
         "type": "Hat", 
         "description": "Lampe de mineur"
     }, 
     "49": {
+        "alt": [
+            "TF_Heavy_Hat_1_Desc"
+        ], 
         "type": "Hat", 
         "description": "Casque de football"
     }, 
@@ -816,6 +1500,9 @@
         "description": "Bonk! Atomic Punch"
     }, 
     "47": {
+        "alt": [
+            "TF_Demo_Hat_1_Desc"
+        ], 
         "type": "Hat", 
         "description": "Coupe afro du Demoman"
     }, 
@@ -882,6 +1569,13 @@
         "type": "Bouteille", 
         "description": "Bouteille"
     }, 
+    "260": {
+        "alt": [
+            "R\u00e9compense offerte aux quelques petits g\u00e9nies qui savent modifier une page\u00a0Web."
+        ], 
+        "type": "Hat", 
+        "description": "Chapeau Wiki"
+    }, 
     "5": {
         "type": "Poings", 
         "description": "Poings"
@@ -890,21 +1584,21 @@
         "type": "Fusil \u00e0 pompe", 
         "description": "Fusil \u00e0 pompe"
     }, 
-    "146": {
-        "type": "Hat", 
-        "description": "Hustler's Hallmark"
+    "201": {
+        "type": "Fusil de sniper", 
+        "description": "Fusil de sniper"
     }, 
-    "147": {
-        "type": "Hat", 
-        "description": "Magistrate's Mullet"
+    "200": {
+        "type": "Fusil \u00e0 dispersion", 
+        "description": "Fusil \u00e0 dispersion"
     }, 
-    "144": {
-        "type": "Hat", 
-        "description": "Masque de chirurgien"
+    "203": {
+        "type": "Mitrailleuse.", 
+        "description": "Mitrailleuse."
     }, 
-    "145": {
-        "type": "Hat", 
-        "description": "Hound Dog"
+    "202": {
+        "type": "Minigun", 
+        "description": "Minigun"
     }, 
     "142": {
         "positive": [
@@ -917,37 +1611,123 @@
         ], 
         "description": "Le Flingueur"
     }, 
-    "143": {
-        "alt": [
-            "OSX en force !"
-        ], 
-        "type": "Hat", 
-        "description": "\u00c9couteurs"
+    "204": {
+        "type": "Pistolet \u00e0 seringues", 
+        "description": "Pistolet \u00e0 seringues"
     }, 
-    "140": {
-        "alt": [
-            "Prenez le contr\u00f4le manuel de votre mitrailleuse"
-        ], 
-        "type": "Pointeur laser", 
-        "description": "Le Dompteur"
+    "207": {
+        "type": "Lanceur de bombes collantes", 
+        "description": "Lanceur de bombes collantes"
     }, 
-    "141": {
-        "positive": [
-            "Lorsque votre mitrailleuse est d\u00e9truite, vous\r\n\r\nobtenez des tirs critiques de vengeance pour chaque victime faite avec votre mitrailleuse"
-        ], 
-        "type": "Fusil \u00e0 pompe", 
-        "negative": [
-            "Aucun tir critique al\u00e9atoire", 
-            "Capacit\u00e9 chargeur -50%"
-        ], 
-        "description": "La Justice Frontali\u00e8re"
+    "206": {
+        "type": "Lance-grenades", 
+        "description": "Lance-grenades"
+    }, 
+    "209": {
+        "type": "Pistolet", 
+        "description": "Pistolet"
+    }, 
+    "208": {
+        "type": "Lance-flammes", 
+        "description": "Lance-flammes"
     }, 
     "148": {
+        "alt": [
+            "Faites de l'ombre au soleil avec votre chalumeau sans vous griller la r\u00e9tine (les UV n'ont aucune chance)."
+        ], 
         "type": "Hat", 
         "description": "Hotrod"
+    }, 
+    "96": {
+        "alt": [
+            "Pour ce chapeau, il a fallu mettre la main \u00e0 la patte.\r\nL'ours a \u00e9t\u00e9 tu\u00e9 \u00e0 mains nues."
+        ], 
+        "type": "Hat", 
+        "description": "Ouchanka d'officier"
+    }, 
+    "5040": {
+        "alt": [
+            "Permet de peindre d'autres objets.", 
+            "C'est moi qui l'ai fait !"
+        ], 
+        "type": "Outil", 
+        "description": "A Distinctive Lack of Hue"
     }, 
     "2": {
         "type": "Hache", 
         "description": "Hache"
+    }, 
+    "263": {
+        "alt": [
+            "TF_EllisHat_Desc", 
+            "Non \u00e9changeable"
+        ], 
+        "type": "Hat", 
+        "description": "Ellis' Cap"
+    }, 
+    "144": {
+        "alt": [
+            "Achtung, \u00e7a va se g\u00e2ter."
+        ], 
+        "type": "Hat", 
+        "description": "Masque de chirurgien"
+    }, 
+    "262": {
+        "alt": [
+            "Awarded to participants of the Polycount contest.", 
+            "Non \u00e9changeable"
+        ], 
+        "type": "Badge", 
+        "description": "Polycount Pin"
+    }, 
+    "261": {
+        "alt": [
+            "TF_MannCoCap_Desc", 
+            "Non \u00e9changeable"
+        ], 
+        "type": "Hat", 
+        "description": "Mann Co. Cap"
+    }, 
+    "2002": {
+        "alt": [
+            "Inclut tous les objets Polycount pour le Soldier\u00a0:"
+        ], 
+        "type": "Lot d'objets", 
+        "description": "Antichar latent"
+    }, 
+    "2003": {
+        "alt": [
+            "Inclut tous les objets Polycount pour le Sniper\u00a0:"
+        ], 
+        "type": "Lot d'objets", 
+        "description": "Crocostyle"
+    }, 
+    "2000": {
+        "alt": [
+            "Inclut tous les objets Polycount pour le Pyro\u00a0:"
+        ], 
+        "type": "Lot d'objets", 
+        "description": "Matos du pompiste"
+    }, 
+    "2001": {
+        "alt": [
+            "Inclut tous les objets Polycount pour le Spy\u00a0:"
+        ], 
+        "type": "Lot d'objets", 
+        "description": "Spy du Caire"
+    }, 
+    "2004": {
+        "alt": [
+            "Inclut tous les objets Polycount pour le Scout\u00a0:"
+        ], 
+        "type": "Lot d'objets", 
+        "description": "Livraison sp\u00e9ciale"
+    }, 
+    "2005": {
+        "alt": [
+            "Inclut toutes les cr\u00e9ations laur\u00e9ates du concours Polycount\u00a0:"
+        ], 
+        "type": "Lot d'objets", 
+        "description": "Pack Polycount"
     }
 }

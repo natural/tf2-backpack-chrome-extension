@@ -219,6 +219,23 @@
     "description": "the number 4",
     "message": "4"
   },
+  "num5": {
+    "description": "the number 5",
+    "message": "5"
+  },
+  "num6": {
+    "description": "the number 6",
+    "message": "6"
+  },
+  "num7": {
+    "description": "the number 7",
+    "message": "7"
+  },
+  "num8": {
+    "description": "the number 8",
+    "message": "8"
+  },
+
   "other_error": {
     "description": "some other kind of error occurred.",
     "message": "Some Other Error"
@@ -250,6 +267,10 @@
   "seconds": {
     "description": "seconds",
     "message": "seconds"
+  },
+  "vintage": {
+    "description": "vintage",
+    "message": "Vintage"
   },
   "warning": {
     "description": "warning label",

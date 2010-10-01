@@ -1,4 +1,58 @@
 {
+    "214": {
+        "positive": [
+            "+25% damage done", 
+            "+75 health restored on kill"
+        ], 
+        "type": "Sledgehammer", 
+        "negative": [
+            "No random critical hits"
+        ], 
+        "description": "The Powerjack"
+    }, 
+    "215": {
+        "positive": [
+            "65% faster weapon switch"
+        ], 
+        "type": "Flame Thrower", 
+        "negative": [
+            "-25% burn damage"
+        ], 
+        "description": "The Degreaser"
+    }, 
+    "212": {
+        "type": "Invis Watch", 
+        "description": "Invis Watch"
+    }, 
+    "213": {
+        "alt": [
+            "Attendant Description"
+        ], 
+        "type": "Hat", 
+        "description": "The Attendant"
+    }, 
+    "210": {
+        "type": "Revolver", 
+        "description": "Revolver"
+    }, 
+    "211": {
+        "type": "Medi Gun", 
+        "description": "Medi Gun"
+    }, 
+    "264": {
+        "alt": [
+            "Not Tradable"
+        ], 
+        "type": "Frying Pan", 
+        "description": "The Frying Pan"
+    }, 
+    "219": {
+        "alt": [
+            "The Milkman Description"
+        ], 
+        "type": "Hat", 
+        "description": "The Milkman"
+    }, 
     "133": {
         "positive": [
             "-60% blast damage from rocket jumps"
@@ -31,48 +85,77 @@
     "130": {
         "positive": [
             "+50% max secondary ammo on wearer", 
-            "+6 max pipebombs out", 
             "Detonates stickybombs near the crosshair", 
-            "Able to destroy enemy stickybombs"
+            "+25% faster firing speed", 
+            "Able to destroy enemy stickybombs", 
+            "+6 max pipebombs out"
         ], 
         "type": "Stickybomb Launcher", 
         "negative": [
-            "0.4 sec slower bomb arm time"
+            "0.8 sec slower bomb arm time"
         ], 
         "description": "The Scottish Resistance"
     }, 
     "137": {
+        "alt": [
+            "For the Gentleman who believes even his hat deserves a hat."
+        ], 
         "type": "Hat", 
         "description": "Noble Amassment of Hats"
     }, 
     "136": {
         "alt": [
-            "First Runner-Up, Propaganda Contest"
+            "First Runner-Up, Propaganda Contest", 
+            "Not Tradable"
         ], 
         "type": "Hat", 
         "description": "Amber's Rad As All Hell Hat"
     }, 
     "135": {
+        "alt": [
+            "A-ha-ha! You are as PRESUMPTUOUS as you are POOR and IRISH. Tarnish notte the majesty of my TOWER of HATS."
+        ], 
         "type": "Hat", 
         "description": "Towering Pillar of Hats"
     }, 
     "134": {
         "alt": [
-            "First Place Winner, Propaganda Contest"
+            "First Place Winner, Propaganda Contest", 
+            "Not Tradable"
         ], 
         "type": "Hat", 
         "description": "J.Axer's Dapper Topper"
     }, 
+    "95": {
+        "alt": [
+            "TF_Engineer_Train_Hat_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "Engineer's Cap"
+    }, 
     "139": {
+        "alt": [
+            "Because a Gentleman is not one without one."
+        ], 
         "type": "Hat", 
         "description": "Modest Pile of Hat"
     }, 
     "138": {
         "alt": [
-            "Second Runner-Up, Propaganda Contest"
+            "Second Runner-Up, Propaganda Contest", 
+            "Not Tradable"
         ], 
         "type": "Hat", 
         "description": "Uncle Sam"
+    }, 
+    "166": {
+        "alt": [
+            "Even though you were late to the party, you were still the life of it.", 
+            "Hire Date: %s1", 
+            "Not Tradable"
+        ], 
+        "type": "Badge", 
+        "description": "Mercenary"
     }, 
     "24": {
         "type": "Revolver", 
@@ -106,9 +189,12 @@
         "type": "Pistol", 
         "description": "Pistol"
     }, 
-    "95": {
+    "223": {
+        "alt": [
+            "TF_TheFamiliarFez_Desc"
+        ], 
         "type": "Hat", 
-        "description": "Engineer's Cap"
+        "description": "Familiar Fez"
     }, 
     "28": {
         "type": "PDA", 
@@ -118,9 +204,12 @@
         "type": "Medi Gun", 
         "description": "Medi Gun"
     }, 
-    "94": {
-        "type": "Hat", 
-        "description": "Texas Ten Gallon"
+    "222": {
+        "alt": [
+            "Players heal 75% of the damage done\\nto an enemy covered with milk."
+        ], 
+        "type": "Non-Milk Substance", 
+        "description": "Mad Milk"
     }, 
     "0": {
         "type": "Bat", 
@@ -134,38 +223,63 @@
         "type": "Bonesaw", 
         "description": "Bonesaw"
     }, 
-    "96": {
-        "type": "Hat", 
-        "description": "Officer's Ushanka"
+    "163": {
+        "alt": [
+            "While under the effects, damage done\\nand damage taken will be mini-crits.", 
+            "Adds +50 max health for 30 seconds"
+        ], 
+        "type": "Lunch Box", 
+        "description": "Crit-a-Cola"
     }, 
     "120": {
+        "alt": [
+            "TF_Demo_Top_Hat_Desc"
+        ], 
         "type": "Hat", 
         "description": "Scotsman's Stove Pipe"
     }, 
     "121": {
+        "alt": [
+            "Given to those few brave soldiers whom stood guard valiantly without sleep, nourishment, or a social life.", 
+            "Not Tradable"
+        ], 
         "type": "Medal", 
         "description": "Gentle Manne's Service Medal"
     }, 
     "122": {
+        "alt": [
+            "Not Tradable"
+        ], 
         "type": "Cheat Detector", 
         "description": "Your account has been flagged for circumventing the item distribution system. We have removed the items that were illegally obtained.\\n\\nFuture violations will result in the loss of all your items."
     }, 
     "123": {
+        "alt": [
+            "Not Tradable"
+        ], 
         "type": "Cheat Detector", 
         "description": "Your account has been flagged for circumventing the item distribution system. We have removed all items in your inventory.\\n\\nFuture violations may result in your account being disabled."
     }, 
     "124": {
+        "alt": [
+            "Not Tradable"
+        ], 
         "type": "Cheat Detector", 
         "description": "Congratulations! Your Honesty has been rewarded with a new hat!\\n\\n(Some other players were less scrupulous, and have been less fortunate)"
     }, 
     "125": {
         "alt": [
-            "%s1% damage done"
+            "Though some would stop at nothing to achieve hats, you remained resolute and incorruptible in your quest for head decorations. For that, you have been rewarded.", 
+            "Effect: %s1", 
+            "Not Tradable"
         ], 
         "type": "Aura of Incorruptibility", 
         "description": "Cheater's Lament"
     }, 
     "126": {
+        "alt": [
+            "Left 4 You."
+        ], 
         "type": "Veteran's Beret", 
         "description": "Bill's Hat"
     }, 
@@ -189,6 +303,9 @@
         "description": "The Equalizer"
     }, 
     "129": {
+        "alt": [
+            "Provides an offensive buff that causes\\nnearby team members to do mini-crits."
+        ], 
         "type": "Battle Banner", 
         "description": "The Buff Banner"
     }, 
@@ -213,10 +330,16 @@
         "description": "Jarate"
     }, 
     "55": {
+        "alt": [
+            "This smooth, suave, silk-lined beauty can turn any amateur backstabber into a handsome rogue."
+        ], 
         "type": "Hat", 
         "description": "Fancy Fedora"
     }, 
     "54": {
+        "alt": [
+            "This hat does not in any way, shape, or form, promote smoking or gambling."
+        ], 
         "type": "Hat", 
         "description": "Soldier's Stash"
     }, 
@@ -232,18 +355,30 @@
         "description": "The Huntsman"
     }, 
     "51": {
+        "alt": [
+            "TF_Pyro_Hat_1_Desc"
+        ], 
         "type": "Hat", 
         "description": "Pyro's Beanie"
     }, 
     "50": {
+        "alt": [
+            "A relic from one war brought into another.\\nYour enemy will get the point."
+        ], 
         "type": "Hat", 
         "description": "Prussian Pickelhaube"
     }, 
     "53": {
+        "alt": [
+            "Any old sap can pull teeth from a dead crocodile.\\nIt takes a man to pull teeth from a live one."
+        ], 
         "type": "Hat", 
         "description": "Trophy Belt"
     }, 
     "52": {
+        "alt": [
+            "You'll be batting a thousand (skulls in) when you don this red piece of plastic!"
+        ], 
         "type": "Hat", 
         "description": "Batter's Helmet"
     }, 
@@ -275,82 +410,188 @@
         "type": "Craft Item", 
         "description": "Slot Token - Secondary"
     }, 
-    "5014": {
-        "alt": [
-            "Used to specify a loadout slot in blueprints"
-        ], 
-        "type": "Craft Item", 
-        "description": "Slot Token - Melee"
+    "199": {
+        "type": "Shotgun", 
+        "description": "Shotgun"
     }, 
-    "5015": {
-        "alt": [
-            "Used to specify a loadout slot in blueprints"
-        ], 
-        "type": "Craft Item", 
-        "description": "Slot Token - Grenade"
+    "198": {
+        "type": "Bonesaw", 
+        "description": "Bonesaw"
     }, 
-    "5016": {
+    "147": {
         "alt": [
-            "Used to specify a loadout slot in blueprints"
+            "They say justice is blind. What they don't tell you is that justice is also invisible, and also less interested in justice than murder."
         ], 
-        "type": "Craft Item", 
-        "description": "Slot Token - Building"
+        "type": "Hat", 
+        "description": "Magistrate's Mullet"
     }, 
-    "5017": {
-        "alt": [
-            "Used to specify a loadout slot in blueprints"
-        ], 
-        "type": "Craft Item", 
-        "description": "Slot Token - PDA"
+    "195": {
+        "type": "Fists", 
+        "description": "Fists"
     }, 
-    "5018": {
-        "alt": [
-            "Used to specify a loadout slot in blueprints"
-        ], 
-        "type": "Craft Item", 
-        "description": "Slot Token - PDA2"
+    "194": {
+        "type": "Knife", 
+        "description": "Knife"
     }, 
-    "5019": {
-        "alt": [
-            "Used to specify a loadout slot in blueprints"
-        ], 
-        "type": "Craft Item", 
-        "description": "Slot Token - Head"
+    "197": {
+        "type": "Wrench", 
+        "description": "Wrench"
+    }, 
+    "196": {
+        "type": "Shovel", 
+        "description": "Shovel"
+    }, 
+    "191": {
+        "type": "Bottle", 
+        "description": "Bottle"
+    }, 
+    "190": {
+        "type": "Bat", 
+        "description": "Bat"
+    }, 
+    "193": {
+        "type": "Kukri", 
+        "description": "Kukri"
+    }, 
+    "192": {
+        "type": "Fire Axe", 
+        "description": "Fire Axe"
     }, 
     "115": {
+        "alt": [
+            "Brown paper never looked so mildly disturbing."
+        ], 
         "type": "Holiday Hat", 
         "description": "Mildly Disturbing Halloween Mask"
     }, 
+    "177": {
+        "alt": [
+            "Nothing"
+        ], 
+        "type": "Hat", 
+        "description": "Ze Goggles"
+    }, 
     "117": {
+        "alt": [
+            "His bullet was close.\\nI lost my hat.\\nMy bullet was closer.\\nHe lost his head."
+        ], 
         "type": "Hat", 
         "description": "Ritzy Rick's Hair Fixative"
     }, 
     "116": {
         "alt": [
-            "Embroidered initials say 'Z.M.'"
+            "Elegant simplicity and old-world charm combined with the heady aromas of mould and grave dust.", 
+            "Not Tradable"
         ], 
         "type": "Hat", 
         "description": "Ghastly Gibus"
     }, 
     "111": {
+        "alt": [
+            "Everyone knows that speed is a Scout\u2019s best friend. Why weigh yourself down with bulky hats when you can break the sound barrier without them?"
+        ], 
         "type": "Hat", 
         "description": "Baseball Bill's Sports Shine"
     }, 
     "110": {
+        "alt": [
+            "Only a master of Jarate earns the right to wear this once-white bandanna, stained yellow from the rigors of a harsh training regimen."
+        ], 
         "type": "Hat", 
         "description": "Master's Yellow Belt"
     }, 
+    "253": {
+        "alt": [
+            "Clears all sorts of blockage."
+        ], 
+        "type": "Hat", 
+        "description": "Handyman's Handle"
+    }, 
+    "205": {
+        "type": "Rocket Launcher", 
+        "description": "Rocket Launcher"
+    }, 
     "118": {
+        "alt": [
+            "Sometimes you just need a little less hat."
+        ], 
         "type": "Hat", 
         "description": "Texas Slim's Dome Shine"
+    }, 
+    "165": {
+        "alt": [
+            "Sure, some may have been doing it longer. But you've proven few can do it better.", 
+            "Hire Date: %s1", 
+            "Not Tradable"
+        ], 
+        "type": "Badge", 
+        "description": "Soldier of Fortune"
+    }, 
+    "143": {
+        "alt": [
+            "OSX represent!"
+        ], 
+        "type": "Hat", 
+        "description": "Earbuds"
+    }, 
+    "174": {
+        "alt": [
+            "You'd have to be a jughead not to realize this cap is the pinnacle of fashion for the discerning youth."
+        ], 
+        "type": "Hat", 
+        "description": "Whoopee Cap"
+    }, 
+    "140": {
+        "alt": [
+            "Take manual control of your Sentry Gun"
+        ], 
+        "type": "Laser Pointer", 
+        "description": "The Wrangler"
+    }, 
+    "141": {
+        "positive": [
+            "When your sentry is destroyed you\\ngain revenge crits for every sentry kill"
+        ], 
+        "type": "Shotgun", 
+        "negative": [
+            "No random critical hits", 
+            "-50% clip size"
+        ], 
+        "description": "The Frontier Justice"
     }, 
     "3": {
         "type": "Kukri", 
         "description": "Kukri"
     }, 
+    "171": {
+        "positive": [
+            "On Hit: Bleed for 6 seconds"
+        ], 
+        "type": "Kukri", 
+        "negative": [
+            "-50% damage done"
+        ], 
+        "description": "The Tribalman's Shiv"
+    }, 
     "7": {
         "type": "Wrench", 
         "description": "Wrench"
+    }, 
+    "146": {
+        "alt": [
+            "TF_DemomanHallmark_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "Hustler's Hallmark"
+    }, 
+    "170": {
+        "alt": [
+            "A true warrior's medal, given to those who fought before the battle even started.", 
+            "Hire Date: %s1", 
+            "Not Tradable"
+        ], 
+        "type": "Badge", 
+        "description": "Primeval Warrior"
     }, 
     "other_attributes": {
         "133": "Medal number %s1", 
@@ -419,11 +660,33 @@
         "type": "Craft Item", 
         "description": "Class Token - Medic"
     }, 
-    "108": {
+    "245": {
+        "alt": [
+            "Earned at level 75.\\nThis badge tracks your duel statistics.\\nIncrease its level by winning duels!", 
+            "Not Tradable"
+        ], 
+        "type": "Badge", 
+        "description": "Platinum Dueling Badge"
+    }, 
+    "244": {
+        "alt": [
+            "Earned at level 50.\\nThis badge tracks your duel statistics.\\nIncrease its level by winning duels!", 
+            "Not Tradable"
+        ], 
+        "type": "Badge", 
+        "description": "Gold Dueling Badge"
+    }, 
+    "247": {
+        "alt": [
+            "This hat adds spice to any occasion."
+        ], 
         "type": "Hat", 
-        "description": "Backbiter's Billycock"
+        "description": "Old Guadalajara"
     }, 
     "109": {
+        "alt": [
+            "A polite, efficient hat to wear when killing everyone you meet."
+        ], 
         "type": "Hat", 
         "description": "Professional's Panama"
     }, 
@@ -436,38 +699,81 @@
         "description": "Ban Hammer"
     }, 
     "240": {
+        "alt": [
+            "TF_Worms_Gear_Desc"
+        ], 
         "type": "Hat", 
         "description": "Lumbricus Lid"
     }, 
+    "243": {
+        "alt": [
+            "Earned at level 25.\\nThis badge tracks your duel statistics.\\nIncrease its level by winning duels!", 
+            "Not Tradable"
+        ], 
+        "type": "Badge", 
+        "description": "Silver Dueling Badge"
+    }, 
+    "242": {
+        "alt": [
+            "This badge tracks your duel statistics.\\nIncrease its level by winning duels!", 
+            "Not Tradable"
+        ], 
+        "type": "Badge", 
+        "description": "Bronze Dueling Badge"
+    }, 
     "102": {
+        "alt": [
+            "It doesn't matter how much people respect you when they're on fire."
+        ], 
         "type": "Hat", 
         "description": "Respectless Rubber Glove"
     }, 
     "103": {
+        "alt": [
+            "You wouldn't mind if I read this top secret document with my beard, would you?"
+        ], 
         "type": "Hat", 
         "description": "Camera Beard"
     }, 
     "100": {
+        "alt": [
+            "TF_Demo_Scott_Hat_Desc"
+        ], 
         "type": "Hat", 
         "description": "Glengarry Bonnet"
     }, 
     "101": {
+        "alt": [
+            "TF_Medic_Tyrolean_Hat_Desc"
+        ], 
         "type": "Hat", 
         "description": "Vintage Tyrolean"
     }, 
     "106": {
+        "alt": [
+            "When drinking one radioactive beverage at a time is not enough."
+        ], 
         "type": "Hat", 
         "description": "Bonk Helm"
     }, 
     "107": {
+        "alt": [
+            "Extra! Extra! You're frickin' dead!"
+        ], 
         "type": "Hat", 
         "description": "Ye Olde Baker Boy"
     }, 
     "104": {
+        "alt": [
+            "We can't pronounce it either."
+        ], 
         "type": "Hat", 
         "description": "Otolaryngologist's Mirror"
     }, 
     "105": {
+        "alt": [
+            "TF_Pyro_Fireman_Helmet_Desc"
+        ], 
         "type": "Hat", 
         "description": "Brigade Helm"
     }, 
@@ -486,18 +792,6 @@
         ], 
         "description": "The Axtinguisher"
     }, 
-    "33": {
-        "type": "Syringe Gun", 
-        "description": "Syringe Gun"
-    }, 
-    "32": {
-        "type": "Bonesaw", 
-        "description": "Bonesaw"
-    }, 
-    "31": {
-        "type": "Flare Gun", 
-        "description": "Flare Gun"
-    }, 
     "30": {
         "type": "Invis Watch", 
         "description": "Invis Watch"
@@ -512,15 +806,12 @@
         ], 
         "description": "The Ubersaw"
     }, 
-    "36": {
-        "positive": [
-            "On Hit: +3 health"
+    "108": {
+        "alt": [
+            "For when you wish your head was a little taller,\\nbut just as round on top."
         ], 
-        "type": "Syringe Gun", 
-        "negative": [
-            "-2 health drained per second on wearer"
-        ], 
-        "description": "The Blutsauger"
+        "type": "Hat", 
+        "description": "Backbiter's Billycock"
     }, 
     "35": {
         "positive": [
@@ -532,9 +823,106 @@
         "type": "Medi Gun", 
         "description": "The Kritzkrieg"
     }, 
-    "34": {
-        "type": "Medi Gun", 
-        "description": "Medi Gun"
+    "246": {
+        "alt": [
+            ""
+        ], 
+        "type": "Hat", 
+        "description": "Pugilist's Protector"
+    }, 
+    "94": {
+        "alt": [
+            "Though it looks like a simple ten-gallon hat, this modern feat of engineering actually contains more moving parts than a level 2 Sentry Gun."
+        ], 
+        "type": "Hat", 
+        "description": "Texas Ten Gallon"
+    }, 
+    "241": {
+        "alt": [
+            "Is an enemy player questioning your skills, personal hygiene, and/or ancestry?\\nUse these stylish firearms to challenge them to a duel!\\nSee the Mann Co. Catalog for full details."
+        ], 
+        "type": "Usable Item", 
+        "description": "Dueling Mini-Game"
+    }, 
+    "5038": {
+        "alt": [
+            "Used to paint other items.", 
+            "I made this!"
+        ], 
+        "type": "Tool", 
+        "description": "Aged Moustache Grey"
+    }, 
+    "5039": {
+        "alt": [
+            "Used to paint other items.", 
+            "I made this!"
+        ], 
+        "type": "Tool", 
+        "description": "An Extraordinary Abundance of Tinge"
+    }, 
+    "5036": {
+        "alt": [
+            "Used to paint other items.", 
+            "I made this!"
+        ], 
+        "type": "Tool", 
+        "description": "Ye Olde Rustic Colour"
+    }, 
+    "5037": {
+        "alt": [
+            "Used to paint other items.", 
+            "I made this!"
+        ], 
+        "type": "Tool", 
+        "description": "Australium Gold"
+    }, 
+    "5034": {
+        "alt": [
+            "Used to paint other items.", 
+            "I made this!"
+        ], 
+        "type": "Tool", 
+        "description": "Peculiarly Drab Tincture"
+    }, 
+    "5035": {
+        "alt": [
+            "Used to paint other items.", 
+            "I made this!"
+        ], 
+        "type": "Tool", 
+        "description": "Radigan Conagher Brown"
+    }, 
+    "5032": {
+        "alt": [
+            "Used to paint other items.", 
+            "I made this!"
+        ], 
+        "type": "Tool", 
+        "description": "Mann Co. Orange"
+    }, 
+    "5033": {
+        "alt": [
+            "Used to paint other items.", 
+            "I made this!"
+        ], 
+        "type": "Tool", 
+        "description": "Muskelmannbraun"
+    }, 
+    "5030": {
+        "alt": [
+            "Used to paint other items.", 
+            "I made this!"
+        ], 
+        "type": "Tool", 
+        "description": "Color No. 216-190-216"
+    }, 
+    "5031": {
+        "alt": [
+            "Used to paint other items.", 
+            "I made this!"
+        ], 
+        "type": "Tool", 
+        "description": "A Deep Commitment to Purple"
     }, 
     "60": {
         "positive": [
@@ -557,32 +945,71 @@
         ], 
         "description": "The Ambassador"
     }, 
+    "259": {
+        "alt": [
+            "Suffer not a sentry to live."
+        ], 
+        "type": "Hat", 
+        "description": "Carouser's Capotain"
+    }, 
     "97": {
+        "alt": [
+            "Because when you're the toughest Mother Hubbard in the fort, nobody's criticizing your fashion sense."
+        ], 
         "type": "Hat", 
         "description": "Tough Guy's Toque"
     }, 
     "179": {
+        "alt": [
+            "Three sharp corners mean one sharp hat.\\nDon't poke your eye out."
+        ], 
         "type": "Hat", 
         "description": "Tippler's Tricorne"
     }, 
     "178": {
+        "alt": [
+            "It gets difficult trying to calculate the total external applied torque to a body's rotational motion through its moment of momentum vector while the distracting sounds of gunfire and death are all around you. Build a better, safer machine with the silence of the Safe'n'sound!"
+        ], 
         "type": "Hat", 
         "description": "Safe'n'Sound"
     }, 
-    "177": {
+    "252": {
         "alt": [
-            "Nothing"
+            ""
         ], 
         "type": "Hat", 
-        "description": "Ze Goggles"
+        "description": "Dr's Dapper Topper"
+    }, 
+    "5014": {
+        "alt": [
+            "Used to specify a loadout slot in blueprints"
+        ], 
+        "type": "Craft Item", 
+        "description": "Slot Token - Melee"
     }, 
     "175": {
+        "alt": [
+            "The most distinguished tape-on fire-retardant facial hair available, for the discerning gentleman of conflagration."
+        ], 
         "type": "Hat", 
         "description": "Whiskered Gentleman"
     }, 
-    "174": {
+    "251": {
+        "alt": [
+            "The grand achievement of\\nVictorian military fashion."
+        ], 
         "type": "Hat", 
-        "description": "Whoopee Cap"
+        "description": "Stout Shako"
+    }, 
+    "173": {
+        "positive": [
+            "On death up to 20% of your stored\\n\u00dcberCharge is retained."
+        ], 
+        "type": "Bonesaw", 
+        "negative": [
+            "-10 max health on wearer"
+        ], 
+        "description": "The Vita-Saw"
     }, 
     "172": {
         "positive": [
@@ -594,40 +1021,73 @@
         ], 
         "description": "The Scotsman's Skullcutter"
     }, 
-    "171": {
-        "positive": [
-            "On Hit: Bleed for 6 seconds"
-        ], 
-        "type": "Kukri", 
-        "negative": [
-            "-50% damage done"
-        ], 
-        "description": "The Tribalman's Shiv"
-    }, 
-    "170": {
+    "254": {
         "alt": [
-            "Hire Date: %s1"
+            "You can never be too careful\\nwith Jarate around."
         ], 
-        "type": "Badge", 
-        "description": "Primeval Warrior"
+        "type": "Hat", 
+        "description": "Hard Counter"
+    }, 
+    "255": {
+        "alt": [
+            "A sticky-jumper's best friend."
+        ], 
+        "type": "Hat", 
+        "description": "Sober Stuntman"
+    }, 
+    "249": {
+        "alt": [
+            "Death from above!"
+        ], 
+        "type": "Hat", 
+        "description": "Bombing Run"
+    }, 
+    "145": {
+        "alt": [
+            "Your opponents will be all shook up when they see these sweet shades and coif."
+        ], 
+        "type": "Hat", 
+        "description": "Hound Dog"
+    }, 
+    "248": {
+        "alt": [
+            "After a long day of burning scouts."
+        ], 
+        "type": "Hat", 
+        "description": "Napper's Respite"
     }, 
     "182": {
+        "alt": [
+            "Pyro wears this in tribute to the many firefighters who have perished trying to quell his flames."
+        ], 
         "type": "Hat", 
         "description": "Vintage Merryweather"
     }, 
     "183": {
+        "alt": [
+            "This hat is a handy replacement for profanity-filled ranting when you don't feel like shouting yourself hoarse."
+        ], 
         "type": "Hat", 
         "description": "Sergeant's Drill Hat"
     }, 
     "180": {
+        "alt": [
+            "Because real espionage is an artform."
+        ], 
         "type": "Hat", 
         "description": "Frenchman's Beret"
     }, 
     "181": {
+        "alt": [
+            "Gone Snipin'."
+        ], 
         "type": "Hat", 
         "description": "Bloke's Bucket Hat"
     }, 
     "184": {
+        "alt": [
+            "While lacking the cachet of other hats, the Gatsby nonetheless possesses its own sartorial elegance. Its understated and affable charm appeals to everyone, whether playing a round of golf with friends or performing non-elective surgery with a well-polished bonesaw."
+        ], 
         "type": "Hat", 
         "description": "Gentleman's Gatsby"
     }, 
@@ -635,19 +1095,91 @@
         "type": "Shovel", 
         "description": "Shovel"
     }, 
+    "250": {
+        "alt": [
+            ""
+        ], 
+        "type": "Hat", 
+        "description": "Chieftan's Challenge"
+    }, 
     "189": {
+        "alt": [
+            "This cute little guy was once the scourge of humanity in another time and place. Now he's content to ride on your head and keep the sun off."
+        ], 
         "type": "Hat", 
         "description": "Alien Swarm Parasite"
     }, 
+    "5029": {
+        "alt": [
+            "Used to paint other items.", 
+            "I made this!"
+        ], 
+        "type": "Tool", 
+        "description": "Noble Hatter's Violet"
+    }, 
+    "5028": {
+        "alt": [
+            "Used to paint other items.", 
+            "I made this!"
+        ], 
+        "type": "Tool", 
+        "description": "Zephaniah's Greed"
+    }, 
+    "221": {
+        "alt": [
+            "Getting hit by a fish has got to be humiliating."
+        ], 
+        "type": "Fish", 
+        "description": "The Holy Mackerel"
+    }, 
+    "5021": {
+        "alt": [
+            "Used to open locked supply crates."
+        ], 
+        "type": "Tool", 
+        "description": "Mann Co. Supply Crate Key"
+    }, 
+    "5020": {
+        "alt": [
+            "Changes the name of an item in your backpack"
+        ], 
+        "type": "Tool", 
+        "description": "Name Tag"
+    }, 
+    "5023": {
+        "alt": [
+            "Used to paint other items.", 
+            "I made this!"
+        ], 
+        "type": "Tool", 
+        "description": "Paint Can"
+    }, 
     "185": {
+        "alt": [
+            "It costs $400,000 to wear this bandanna for 12 seconds."
+        ], 
         "type": "Hat", 
         "description": "Heavy Duty Rag"
     }, 
+    "5027": {
+        "alt": [
+            "Used to paint other items.", 
+            "I made this!"
+        ], 
+        "type": "Tool", 
+        "description": "Indubitably Green"
+    }, 
     "99": {
+        "alt": [
+            "I kicked your ass so hard it went back in time and got me this VIKING HAT."
+        ], 
         "type": "Hat", 
         "description": "Tyrant's Helm"
     }, 
     "98": {
+        "alt": [
+            "Protects cranium from bullets and shrapnel.\\nAlso heats soup."
+        ], 
         "type": "Hat", 
         "description": "Stainless Pot"
     }, 
@@ -655,29 +1187,63 @@
         "positive": [
             "Imbued with an ancient power"
         ], 
+        "alt": [
+            "Not Tradable"
+        ], 
         "type": "Wrench", 
         "description": "The Golden Wrench"
     }, 
-    "164": {
+    "229": {
         "alt": [
-            "Hire Date: %s1"
+            "TF_OlSnaggletooth_Desc"
         ], 
-        "type": "Badge", 
-        "description": "Grizzled Veteran"
+        "type": "Hat", 
+        "description": "Ol' Snaggletooth"
     }, 
-    "165": {
-        "alt": [
-            "Hire Date: %s1"
+    "228": {
+        "positive": [
+            "On Hit: +15 health"
         ], 
-        "type": "Badge", 
-        "description": "Soldier of Fortune"
+        "type": "Rocket Launcher", 
+        "negative": [
+            "-25% clip size"
+        ], 
+        "description": "The Black Box"
     }, 
-    "166": {
+    "227": {
         "alt": [
-            "Hire Date: %s1"
+            "TF_TheGrenadiersSoftcap_Desc"
         ], 
-        "type": "Badge", 
-        "description": "Mercenary"
+        "type": "Hat", 
+        "description": "Grenadier's Softcap"
+    }, 
+    "226": {
+        "alt": [
+            "Provides a defensive buff that protects\\nnearby team members from crits\\nand blocks 35% of incoming damage.\\nRage increases through damage taken."
+        ], 
+        "type": "Battle Banner", 
+        "description": "The Battalion's Backup"
+    }, 
+    "225": {
+        "positive": [
+            "Upon a successful backstab you rapidly disguise as your victim", 
+            "This weapon is a silent killer"
+        ], 
+        "type": "Knife", 
+        "negative": [
+            "Wearer cannot disguise"
+        ], 
+        "description": "Your Eternal Reward"
+    }, 
+    "224": {
+        "positive": [
+            "+15 cloak on hit"
+        ], 
+        "type": "Revolver", 
+        "negative": [
+            "-20% damage done"
+        ], 
+        "description": "L'Etranger"
     }, 
     "160": {
         "alt": [
@@ -700,13 +1266,15 @@
         "type": "Hat", 
         "description": "Max's Severed Head"
     }, 
-    "163": {
-        "alt": [
-            "While under the effects, damage done\\nand damage taken will be mini-crits.", 
-            "Adds +50 max health for 30 seconds"
+    "220": {
+        "positive": [
+            "On Hit: Slow target movement by 40% for 0.5s"
         ], 
-        "type": "Lunch Box", 
-        "description": "Crit-a-Cola"
+        "alt": [
+            "Mann Co.'s latest in high attitude\\nbreak-action personal defense."
+        ], 
+        "type": "Peppergun", 
+        "description": "The Shortstop"
     }, 
     "11": {
         "type": "Shotgun", 
@@ -748,11 +1316,36 @@
         "type": "Rocket Launcher", 
         "description": "Rocket Launcher"
     }, 
+    "164": {
+        "alt": [
+            "Display this on your chest proudly, soldier. Each time you kill someone, they'll know they weren't the first.", 
+            "Hire Date: %s1", 
+            "Not Tradable"
+        ], 
+        "type": "Badge", 
+        "description": "Grizzled Veteran"
+    }, 
+    "5022": {
+        "positive": [
+            "Crate Series #1"
+        ], 
+        "alt": [
+            "You need a Mann Co. Supply Crate Key to open this.\\nYou can pick one up at the Mann Co. Store."
+        ], 
+        "type": "TF_LockedCrate", 
+        "description": "Mann Co. Supply Crate"
+    }, 
     "151": {
+        "alt": [
+            "At least he's still telling you to burn things."
+        ], 
         "type": "Hat", 
         "description": "Triboniophorus Tyrannus"
     }, 
     "150": {
+        "alt": [
+            "Straight outta control point."
+        ], 
         "type": "Hat", 
         "description": "Troublemaker's Tossle Cap"
     }, 
@@ -768,6 +1361,9 @@
         "description": "The Homewrecker"
     }, 
     "152": {
+        "alt": [
+            "A Haiku for war.\\nTo defeat one's enemies.\\nHonor the crocket."
+        ], 
         "type": "Hat", 
         "description": "Killer's Kabuto"
     }, 
@@ -800,14 +1396,102 @@
         "description": "The Dalokohs Bar"
     }, 
     "158": {
+        "alt": [
+            "Perfect for exploring the outback and the inside of people's heads."
+        ], 
         "type": "Hat", 
         "description": "Shooter's Sola Topi"
     }, 
+    "36": {
+        "positive": [
+            "On Hit: +3 health"
+        ], 
+        "type": "Syringe Gun", 
+        "negative": [
+            "-2 health drained per second on wearer"
+        ], 
+        "description": "The Blutsauger"
+    }, 
+    "239": {
+        "positive": [
+            "+30% faster move speed on wearer"
+        ], 
+        "alt": [
+            "When weapon is active:"
+        ], 
+        "type": "Fists", 
+        "negative": [
+            "-50% damage done", 
+            "-6 health drained per second on wearer"
+        ], 
+        "description": "Gloves of Running Urgently"
+    }, 
+    "234": {
+        "alt": [
+            "When used, this Action Item gives a random gift\\nto up to 23 other people on the server!"
+        ], 
+        "type": "Gift", 
+        "description": "Pile o' Gifts"
+    }, 
+    "237": {
+        "positive": [
+            "No self inflicted blast damage taken.", 
+            "+200% max primary ammo on wearer"
+        ], 
+        "alt": [
+            "A special no-damage rocket launcher for learning\\nrocket jump tricks and patterns."
+        ], 
+        "type": "Rocket Launcher", 
+        "negative": [
+            "-100% damage done"
+        ], 
+        "description": "The Rocket Jumper"
+    }, 
+    "230": {
+        "positive": [
+            "On Hit: Jarate applied to target for 8 seconds"
+        ], 
+        "type": "Sniper Rifle", 
+        "negative": [
+            "No headshots"
+        ], 
+        "description": "The Sydney Sleeper"
+    }, 
+    "231": {
+        "positive": [
+            "+25 max health on wearer"
+        ], 
+        "type": "Shield", 
+        "description": "Darwin's Danger Shield"
+    }, 
+    "232": {
+        "positive": [
+            "This weapon crits whenever it would normally mini-crit."
+        ], 
+        "type": "Kukri", 
+        "negative": [
+            "20% fire damage vulnerability on wearer"
+        ], 
+        "description": "The Bushwacka"
+    }, 
+    "233": {
+        "alt": [
+            "When used, this Action Item gives a random gift\\nto a random person on the server!"
+        ], 
+        "type": "Gift", 
+        "description": "Secret Saxton"
+    }, 
     "48": {
+        "alt": [
+            "For Engineers with bright ideas."
+        ], 
         "type": "Hat", 
         "description": "Mining Light"
     }, 
     "49": {
+        "alt": [
+            "TF_Heavy_Hat_1_Desc"
+        ], 
         "type": "Hat", 
         "description": "Football Helmet"
     }, 
@@ -816,6 +1500,9 @@
         "description": "Bonk! Atomic Punch"
     }, 
     "47": {
+        "alt": [
+            "TF_Demo_Hat_1_Desc"
+        ], 
         "type": "Hat", 
         "description": "Demoman's Fro"
     }, 
@@ -882,6 +1569,13 @@
         "type": "Bottle", 
         "description": "Bottle"
     }, 
+    "260": {
+        "alt": [
+            "Earned by those knowledgeable few who know how to edit a web page."
+        ], 
+        "type": "Hat", 
+        "description": "Wiki Cap"
+    }, 
     "5": {
         "type": "Fists", 
         "description": "Fists"
@@ -890,21 +1584,21 @@
         "type": "Shotgun", 
         "description": "Shotgun"
     }, 
-    "146": {
-        "type": "Hat", 
-        "description": "Hustler's Hallmark"
+    "201": {
+        "type": "Sniper Rifle", 
+        "description": "Sniper Rifle"
     }, 
-    "147": {
-        "type": "Hat", 
-        "description": "Magistrate's Mullet"
+    "200": {
+        "type": "Scattergun", 
+        "description": "Scattergun"
     }, 
-    "144": {
-        "type": "Hat", 
-        "description": "Physician's Procedure Mask"
+    "203": {
+        "type": "SMG", 
+        "description": "SMG"
     }, 
-    "145": {
-        "type": "Hat", 
-        "description": "Hound Dog"
+    "202": {
+        "type": "Minigun", 
+        "description": "Minigun"
     }, 
     "142": {
         "positive": [
@@ -917,37 +1611,123 @@
         ], 
         "description": "The Gunslinger"
     }, 
-    "143": {
-        "alt": [
-            "OSX represent!"
-        ], 
-        "type": "Hat", 
-        "description": "Earbuds"
+    "204": {
+        "type": "Syringe Gun", 
+        "description": "Syringe Gun"
     }, 
-    "140": {
-        "alt": [
-            "Take manual control of your Sentry Gun"
-        ], 
-        "type": "Laser Pointer", 
-        "description": "The Wrangler"
+    "207": {
+        "type": "Stickybomb Launcher", 
+        "description": "Stickybomb Launcher"
     }, 
-    "141": {
-        "positive": [
-            "When your sentry is destroyed you\\ngain revenge crits for every sentry kill"
-        ], 
-        "type": "Shotgun", 
-        "negative": [
-            "No random critical hits", 
-            "-50% clip size"
-        ], 
-        "description": "The Frontier Justice"
+    "206": {
+        "type": "Grenade Launcher", 
+        "description": "Grenade Launcher"
+    }, 
+    "209": {
+        "type": "Pistol", 
+        "description": "Pistol"
+    }, 
+    "208": {
+        "type": "Flame Thrower", 
+        "description": "Flame Thrower"
     }, 
     "148": {
+        "alt": [
+            "Mock the sun with streaks of flame as the UV rays bounce harmlessly away from your eyeballs."
+        ], 
         "type": "Hat", 
         "description": "Hotrod"
+    }, 
+    "96": {
+        "alt": [
+            "This hat was made of bear hands.\\nThat bear was killed with bare hands."
+        ], 
+        "type": "Hat", 
+        "description": "Officer's Ushanka"
+    }, 
+    "5040": {
+        "alt": [
+            "Used to paint other items.", 
+            "I made this!"
+        ], 
+        "type": "Tool", 
+        "description": "A Distinctive Lack of Hue"
     }, 
     "2": {
         "type": "Fire Axe", 
         "description": "Fire Axe"
+    }, 
+    "263": {
+        "alt": [
+            "TF_EllisHat_Desc", 
+            "Not Tradable"
+        ], 
+        "type": "Hat", 
+        "description": "Ellis' Cap"
+    }, 
+    "144": {
+        "alt": [
+            "Scrub in... things are about to get messy."
+        ], 
+        "type": "Hat", 
+        "description": "Physician's Procedure Mask"
+    }, 
+    "262": {
+        "alt": [
+            "Awarded to participants of the Polycount contest.", 
+            "Not Tradable"
+        ], 
+        "type": "Badge", 
+        "description": "Polycount Pin"
+    }, 
+    "261": {
+        "alt": [
+            "TF_MannCoCap_Desc", 
+            "Not Tradable"
+        ], 
+        "type": "Hat", 
+        "description": "Mann Co. Cap"
+    }, 
+    "2002": {
+        "alt": [
+            "Includes all the Polycount Soldier Items:"
+        ], 
+        "type": "Item Bundle", 
+        "description": "The Tank Buster"
+    }, 
+    "2003": {
+        "alt": [
+            "Includes all the Polycount Sniper Items:"
+        ], 
+        "type": "Item Bundle", 
+        "description": "The Croc-o-Style Kit"
+    }, 
+    "2000": {
+        "alt": [
+            "Includes all the Polycount Pyro Items:"
+        ], 
+        "type": "Item Bundle", 
+        "description": "The Gas Jockey's Gear"
+    }, 
+    "2001": {
+        "alt": [
+            "Includes all the Polycount Spy Items:"
+        ], 
+        "type": "Item Bundle", 
+        "description": "The Saharan Spy"
+    }, 
+    "2004": {
+        "alt": [
+            "Includes all the Polycount Scout Items:"
+        ], 
+        "type": "Item Bundle", 
+        "description": "The Special Delivery"
+    }, 
+    "2005": {
+        "alt": [
+            "Includes all the Polycount Contest winning entries:"
+        ], 
+        "type": "Item Bundle", 
+        "description": "Polycount Pack"
     }
 }

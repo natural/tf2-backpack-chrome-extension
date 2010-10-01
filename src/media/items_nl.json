@@ -1,4 +1,58 @@
 {
+    "214": {
+        "positive": [
+            "Toegebrachte schade +25%", 
+            "+75 gezondheid hersteld bij eliminatie"
+        ], 
+        "type": "Moker", 
+        "negative": [
+            "Geen willekeurige voltreffers"
+        ], 
+        "description": "De Powerjack"
+    }, 
+    "215": {
+        "positive": [
+            "65% snellere wapenwissel"
+        ], 
+        "type": "Vlammenwerper", 
+        "negative": [
+            "-25% brandschade"
+        ], 
+        "description": "De Ontvetter"
+    }, 
+    "212": {
+        "type": "Onzichtbaarheidshorloge", 
+        "description": "Onzichtbaarheidshorloge"
+    }, 
+    "213": {
+        "alt": [
+            "Attendant Description"
+        ], 
+        "type": "Hat", 
+        "description": "De Bezoeker"
+    }, 
+    "210": {
+        "type": "Revolver", 
+        "description": "Revolver"
+    }, 
+    "211": {
+        "type": "Medigun", 
+        "description": "Medigun"
+    }, 
+    "264": {
+        "alt": [
+            "Niet verhandelbaar"
+        ], 
+        "type": "Frying Pan", 
+        "description": "The Frying Pan"
+    }, 
+    "219": {
+        "alt": [
+            "The Milkman Description"
+        ], 
+        "type": "Hat", 
+        "description": "De Melkboer"
+    }, 
     "133": {
         "positive": [
             "-60% ontploffingschade van raketsprongen"
@@ -31,48 +85,77 @@
     "130": {
         "positive": [
             "+50% max. secundaire munitie voor de drager", 
-            "+6 max. pijpbommen", 
             "Laat kleefbommen vlak bij het richtmerk ontploffen", 
-            "Kan kleefbommen van de vijand vernietigen"
+            "Vuursnelheid +25% hoger", 
+            "Kan kleefbommen van de vijand vernietigen", 
+            "+6 max. pijpbommen"
         ], 
         "type": "Kleefbommenwerper", 
         "negative": [
-            "0.4 sec langere bombewapeningstijd"
+            "0.8 sec langere bombewapeningstijd"
         ], 
         "description": "De Schotse Weerstand"
     }, 
     "137": {
+        "alt": [
+            "Voor de heer die denkt dat zelfs zijn hoed een hoed verdient."
+        ], 
         "type": "Hat", 
         "description": "Aardig stapeltje hoeden"
     }, 
     "136": {
         "alt": [
-            "Tweede plaats propagandawedstrijd"
+            "Tweede plaats propagandawedstrijd", 
+            "Niet verhandelbaar"
         ], 
         "type": "Hat", 
         "description": "Amber's Rad As All Hell Hat"
     }, 
     "135": {
+        "alt": [
+            "A-ha-ha! Jij bent VERWAAND, maar ook ARM en IERS. Buig voor mijn koninklijke Hoedentoren."
+        ], 
         "type": "Hat", 
         "description": "Hoedentoren"
     }, 
     "134": {
         "alt": [
-            "Eerste plaats propagandawedstrijd"
+            "Eerste plaats propagandawedstrijd", 
+            "Niet verhandelbaar"
         ], 
         "type": "Hat", 
         "description": "J.Axer's Dapper Topper"
     }, 
+    "95": {
+        "alt": [
+            "TF_Engineer_Train_Hat_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "Engineerspet"
+    }, 
     "139": {
+        "alt": [
+            "Omdat een heer zonder geen heer is."
+        ], 
         "type": "Hat", 
         "description": "Bescheiden stapeltje hoeden"
     }, 
     "138": {
         "alt": [
-            "Derde plaats propagandawedstrijd"
+            "Derde plaats propagandawedstrijd", 
+            "Niet verhandelbaar"
         ], 
         "type": "Hat", 
         "description": "Uncle Sam"
+    }, 
+    "166": {
+        "alt": [
+            "Hoewel je laat op het feestje aankwam, was je toch het middelpunt.", 
+            "Huurdatum: %s1", 
+            "Niet verhandelbaar"
+        ], 
+        "type": "Insigne", 
+        "description": "Huurling"
     }, 
     "24": {
         "type": "Revolver", 
@@ -106,9 +189,12 @@
         "type": "Pistool", 
         "description": "Pistool"
     }, 
-    "95": {
+    "223": {
+        "alt": [
+            "TF_TheFamiliarFez_Desc"
+        ], 
         "type": "Hat", 
-        "description": "Engineerspet"
+        "description": "Familiaire Fez"
     }, 
     "28": {
         "type": "PDA", 
@@ -118,9 +204,12 @@
         "type": "Medigun", 
         "description": "Medigun"
     }, 
-    "94": {
-        "type": "Hat", 
-        "description": "Cowboyhoed"
+    "222": {
+        "alt": [
+            "Spelers herstellen 75% van de schade aan een met melk bedekte\r\nvijand."
+        ], 
+        "type": "Melkfles", 
+        "description": "Maffe Melk"
     }, 
     "0": {
         "type": "Knuppel", 
@@ -134,38 +223,63 @@
         "type": "Bottenzaag", 
         "description": "Bottenzaag"
     }, 
-    "96": {
-        "type": "Hat", 
-        "description": "Russische officiersmuts"
+    "163": {
+        "alt": [
+            "Onder invloed hiervan zijn toegebrachte\r\nen opgelopen schade mini-crits", 
+            "Voegt 30 seconden lang +50 maximale gezondheid toe"
+        ], 
+        "type": "Lunchtrommel", 
+        "description": "Crit-de-Cola"
     }, 
     "120": {
+        "alt": [
+            "TF_Demo_Top_Hat_Desc"
+        ], 
         "type": "Hat", 
         "description": "Hoge hoed"
     }, 
     "121": {
+        "alt": [
+            "Wordt gegeven aan die paar dappere soldaten die zonder slaap, voedsel of een sociaal leven wacht hebben gehouden.", 
+            "Niet verhandelbaar"
+        ], 
         "type": "Medaille", 
         "description": "Medaille voor bewezen diensten"
     }, 
     "122": {
+        "alt": [
+            "Niet verhandelbaar"
+        ], 
         "type": "Cheat Detector", 
         "description": "Er is gesignaleerd dat met jouw account het distributiesysteem voor items is omzeild. We hebben de items die illegaal zijn verkregen, verwijderd.\r\n\r\nBij verdere overtredingen verlies je al je items."
     }, 
     "123": {
+        "alt": [
+            "Niet verhandelbaar"
+        ], 
         "type": "Cheat Detector", 
         "description": "Er is gesignaleerd dat met jouw account het distributiesysteem voor items is omzeild. We hebben alle items uit je voorraad verwijderd.\r\n\r\nBij verdere overtredingen wordt je account mogelijk geblokkeerd."
     }, 
     "124": {
+        "alt": [
+            "Niet verhandelbaar"
+        ], 
         "type": "Cheat Detector", 
         "description": "Gefeliciteerd! Jouw eerlijkheid is beloond met een nieuw hoofddeksel!\r\n\r\n(Een aantal andere spelers was minder gewetensvol en minder fortuinlijk)"
     }, 
     "125": {
         "alt": [
-            "Toegebrachte schade %s1%"
+            "Hoewel sommigen alles op alles zetten om hoeden te verdienen, bleef jij standvastig en onomkoopbaar in je zoektocht naar hoofdversieringen. Daarom krijg jij deze beloning.", 
+            "Effect: %s1", 
+            "Niet verhandelbaar"
         ], 
         "type": "Integriteitsaureool", 
         "description": "Aureool"
     }, 
     "126": {
+        "alt": [
+            "Left 4 You."
+        ], 
         "type": "Veteranenbaret", 
         "description": "Bill's pet"
     }, 
@@ -189,6 +303,9 @@
         "description": "De Gelijkmaker"
     }, 
     "129": {
+        "alt": [
+            "Biedt een aanvallende boost waardoor teamgenoten\r\nin de buurt mini-crits kunnen uitvoeren."
+        ], 
         "type": "Strijdvaandel", 
         "description": "De Help Banner"
     }, 
@@ -213,10 +330,16 @@
         "description": "Jarate"
     }, 
     "55": {
+        "alt": [
+            "Deze strakke, gestroomlijnde met zijde beklede beauty kan elke amateur-rugsteker in een woest aantrekkelijke schurk veranderen."
+        ], 
         "type": "Hat", 
         "description": "Gleufhoed"
     }, 
     "54": {
+        "alt": [
+            "Deze hoed ondersteunt op geen enkele manier of wijze en in geen enkele vorm roken of gokken."
+        ], 
         "type": "Hat", 
         "description": "Voorraad soldaat"
     }, 
@@ -232,18 +355,30 @@
         "description": "De Jaagman"
     }, 
     "51": {
+        "alt": [
+            "TF_Pyro_Hat_1_Desc"
+        ], 
         "type": "Hat", 
         "description": "Pyro's petje"
     }, 
     "50": {
+        "alt": [
+            "Een relikwie uit een voorgaande oorlog.\r\nEen overduidelijke boodschap voor de vijand."
+        ], 
         "type": "Hat", 
         "description": "Pruisische helm"
     }, 
     "53": {
+        "alt": [
+            "Elke oude knars kan tanden uit een dode krokodil trekken.\r\nMaar een echte man trekt de tanden uit een levend exemplaar."
+        ], 
         "type": "Hat", 
         "description": "Trofee\u00ebnriem"
     }, 
     "52": {
+        "alt": [
+            "Je zult duizenden (schedels) inslaan als je dit rode pronkstuk draagt!"
+        ], 
         "type": "Hat", 
         "description": "Slagmanhelm"
     }, 
@@ -275,88 +410,194 @@
         "type": "Item ontwerpen", 
         "description": "Positieteken - Secundair"
     }, 
-    "5014": {
-        "alt": [
-            "Wordt gebruikt om een uitrustingspositie van blauwdrukken te specificeren"
-        ], 
-        "type": "Item ontwerpen", 
-        "description": "Positieteken - Slagwapen"
+    "199": {
+        "type": "Shotgun", 
+        "description": "Shotgun"
     }, 
-    "5015": {
-        "alt": [
-            "Wordt gebruikt om een uitrustingspositie van blauwdrukken te specificeren"
-        ], 
-        "type": "Item ontwerpen", 
-        "description": "Positieteken - Granaat"
+    "198": {
+        "type": "Bottenzaag", 
+        "description": "Bottenzaag"
     }, 
-    "5016": {
+    "147": {
         "alt": [
-            "Wordt gebruikt om een uitrustingspositie van blauwdrukken te specificeren"
+            "Ze zeggen dat Vrouwe Justitia blind is. Ze kunnen beter zeggen dat ze onzichtbaar is en ook minder ge\u00efnteresseerd in recht dan moord."
         ], 
-        "type": "Item ontwerpen", 
-        "description": "Positieteken - Gebouw"
+        "type": "Hat", 
+        "description": "Rechterspruik"
     }, 
-    "5017": {
-        "alt": [
-            "Wordt gebruikt om een uitrustingspositie van blauwdrukken te specificeren"
-        ], 
-        "type": "Item ontwerpen", 
-        "description": "Positieteken - PDA"
+    "195": {
+        "type": "Vuisten", 
+        "description": "Vuisten"
     }, 
-    "5018": {
-        "alt": [
-            "Wordt gebruikt om een uitrustingspositie van blauwdrukken te specificeren"
-        ], 
-        "type": "Item ontwerpen", 
-        "description": "Positieteken - PDA2"
+    "194": {
+        "type": "Mes", 
+        "description": "Mes"
     }, 
-    "5019": {
-        "alt": [
-            "Wordt gebruikt om een uitrustingspositie van blauwdrukken te specificeren"
-        ], 
-        "type": "Item ontwerpen", 
-        "description": "Positieteken - Hoofd"
+    "197": {
+        "type": "Moersleutel", 
+        "description": "Moersleutel"
+    }, 
+    "196": {
+        "type": "Spade", 
+        "description": "Spade"
+    }, 
+    "191": {
+        "type": "Fles", 
+        "description": "Fles"
+    }, 
+    "190": {
+        "type": "Knuppel", 
+        "description": "Knuppel"
+    }, 
+    "193": {
+        "type": "Kukri-mes", 
+        "description": "Kukri-mes"
+    }, 
+    "192": {
+        "type": "Vuurbijl", 
+        "description": "Vuurbijl"
     }, 
     "115": {
+        "alt": [
+            "Bruin papier heeft er nog nooit zo eng uitgezien."
+        ], 
         "type": "Feestdaghoed", 
         "description": "Licht verontrustende papieren zak"
     }, 
+    "177": {
+        "alt": [
+            "Niets"
+        ], 
+        "type": "Hat", 
+        "description": "Die Kaikers"
+    }, 
     "117": {
+        "alt": [
+            "Zijn kogel was bijna raak.\r\nIk ben mijn hoed kwijt.\r\nMijn kogel was bijna raak.\r\nHij is zijn hoofd kwijt."
+        ], 
         "type": "Hat", 
         "description": "Coole coupe"
     }, 
     "116": {
         "alt": [
-            "Met geborduurde initialen 'Z.M.'"
+            "Met geborduurde initialen 'Z.M.'", 
+            "Niet verhandelbaar"
         ], 
         "type": "Hat", 
         "description": "Gruwelijke gibus"
     }, 
     "111": {
+        "alt": [
+            "Iedereen weet dat snelheid en Scouts een onlosmakelijk verbond vormen. Dus waarom zou je enorme hoeden met je meezeulen als je ook zonder hoeden de geluidsbarri\u00e8re kunt doorbreken?"
+        ], 
         "type": "Hat", 
         "description": "Glimmende gelcoupe"
     }, 
     "110": {
+        "alt": [
+            "Alleen een meester in Jarate heeft het recht om deze eens zo witte bandana te dragen, nu doordrenkt met gele trainingszweetvlekken."
+        ], 
         "type": "Hat", 
         "description": "Gele hoofdband"
     }, 
+    "253": {
+        "alt": [
+            "Ruimt alle blokkades uit de weg."
+        ], 
+        "type": "Hat", 
+        "description": "Handige Hendel"
+    }, 
+    "205": {
+        "type": "Raketwerper", 
+        "description": "Raketwerper"
+    }, 
     "118": {
+        "alt": [
+            "Soms heb je gewoon iets minder hoed nodig."
+        ], 
         "type": "Hat", 
         "description": "Kale knar"
+    }, 
+    "165": {
+        "alt": [
+            "Tuurlijk, sommigen doen dit al veel langer. Maar jij hebt bewezen het beter te kunnen.", 
+            "Huurdatum: %s1", 
+            "Niet verhandelbaar"
+        ], 
+        "type": "Insigne", 
+        "description": "Fortuinlijke Soldaat"
+    }, 
+    "143": {
+        "alt": [
+            "Specifiek besturingssysteem!"
+        ], 
+        "type": "Hat", 
+        "description": "Oordopjes"
+    }, 
+    "174": {
+        "alt": [
+            "Je moet echt een holbewoner zijn als je niet begrijpt dat dit pet het toppunt van stijl is voor de kritische tiener."
+        ], 
+        "type": "Hat", 
+        "description": "Kroontjespet"
+    }, 
+    "140": {
+        "alt": [
+            "Je sentrygun handmatig besturen"
+        ], 
+        "type": "Laserpen", 
+        "description": "De Verstikker"
+    }, 
+    "141": {
+        "positive": [
+            "Als jouw sentry is vernietigd, krijg\r\n\r\nje revenge crits voor elke sentry die je vernietigt"
+        ], 
+        "type": "Shotgun", 
+        "negative": [
+            "Geen willekeurige voltreffers", 
+            "Magazijngrootte -50%"
+        ], 
+        "description": "De Frontale Gerechtigheid"
     }, 
     "3": {
         "type": "Kukri-mes", 
         "description": "Kukri-mes"
     }, 
+    "171": {
+        "positive": [
+            "Bij treffer: 6 seconden bloeden"
+        ], 
+        "type": "Kukri-mes", 
+        "negative": [
+            "Toegebrachte schade -50%"
+        ], 
+        "description": "Stammenman zijn Shiv"
+    }, 
     "7": {
         "type": "Moersleutel", 
         "description": "Moersleutel"
     }, 
+    "146": {
+        "alt": [
+            "TF_DemomanHallmark_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "Pooierhoed"
+    }, 
+    "170": {
+        "alt": [
+            "Een echte krijgersmedaille, gegeven aan diegenen die al vechten voor het gevecht is begonnen.", 
+            "Huurdatum: %s1", 
+            "Niet verhandelbaar"
+        ], 
+        "type": "Insigne", 
+        "description": "Oerkrijger"
+    }, 
     "other_attributes": {
-        "133": "Medal nummer %s1", 
+        "133": "Medaille nummer %s1", 
         "132": "Gegeven aan waardevolle Gemeenschap contribuanten", 
         "143": "Huur Datum: %s1", 
-        "147": "Wrench nummer %s1"
+        "147": "Steeksleutel nummer %s1"
     }, 
     "5003": {
         "alt": [
@@ -419,55 +660,120 @@
         "type": "Item ontwerpen", 
         "description": "Klasseteken - Medic"
     }, 
-    "108": {
+    "245": {
+        "alt": [
+            "Verdiend op level 75.\r\nDeze medaille houdt je duelstatistieken bij.\r\nVerhoog het level door meer duels te winnen!", 
+            "Niet verhandelbaar"
+        ], 
+        "type": "Insigne", 
+        "description": "Platina duelmedaille"
+    }, 
+    "244": {
+        "alt": [
+            "Verdiend op level 50.\r\nDeze medaille houdt je duelstatistieken bij.\r\nVerhoog het level door meer duels te winnen!", 
+            "Niet verhandelbaar"
+        ], 
+        "type": "Insigne", 
+        "description": "Gouden duelmedaille"
+    }, 
+    "247": {
+        "alt": [
+            "Deze hoed geeft elke situatie extra pit."
+        ], 
         "type": "Hat", 
-        "description": "Bolhoed"
+        "description": "Oude Guadalajara"
     }, 
     "109": {
+        "alt": [
+            "Een nette, effici\u00ebnte hoed om tijdens het doden te dragen."
+        ], 
         "type": "Hat", 
         "description": "Rieten hoed"
     }, 
     "9003": {
         "positive": [
-            "Verbod Steam account van de spelers gedood", 
-            "Dit item is niet re\u00ebel en is slechts een grap."
+            "Bans Steam account van de spelers gedood", 
+            "Dit item is niet re\u00ebel en is alleen een grap."
         ], 
         "type": "Mallet de ban", 
         "description": "Ban Hammer"
     }, 
     "240": {
+        "alt": [
+            "TF_Worms_Gear_Desc"
+        ], 
         "type": "Hat", 
-        "description": "Lumbricus Lid"
+        "description": "Lumbricuspet"
+    }, 
+    "243": {
+        "alt": [
+            "Verdiend op level 25.\r\nDeze medaille houdt je duelstatistieken bij.\r\nVerhoog het level door meer duels te winnen!", 
+            "Niet verhandelbaar"
+        ], 
+        "type": "Insigne", 
+        "description": "Zilveren duelmedaille"
+    }, 
+    "242": {
+        "alt": [
+            "Deze medaille houdt je duelstatistieken bij.\r\nVerhoog het level door meer duels te winnen!", 
+            "Niet verhandelbaar"
+        ], 
+        "type": "Insigne", 
+        "description": "Bronzen duelmedaille"
     }, 
     "102": {
+        "alt": [
+            "Het maakt niet uit hoezeer mensen je respecteren als je in de hens staat."
+        ], 
         "type": "Hat", 
         "description": "Hanekammuts"
     }, 
     "103": {
+        "alt": [
+            "Je vindt het toch niet erg als ik dit supergeheime document met mijn baard lees, of wel?"
+        ], 
         "type": "Hat", 
         "description": "Camerabaard"
     }, 
     "100": {
+        "alt": [
+            "TF_Demo_Scott_Hat_Desc"
+        ], 
         "type": "Hat", 
         "description": "Schotse muts"
     }, 
     "101": {
+        "alt": [
+            "TF_Medic_Tyrolean_Hat_Desc"
+        ], 
         "type": "Hat", 
         "description": "Tirolerhoed"
     }, 
     "106": {
+        "alt": [
+            "Op \u00e9\u00e9n radioactief been kun je niet staan."
+        ], 
         "type": "Hat", 
         "description": "Bonk-helm"
     }, 
     "107": {
+        "alt": [
+            "Extra! Extra! Je bent hartstikke dood!"
+        ], 
         "type": "Hat", 
         "description": "Schavuitenpet"
     }, 
     "104": {
+        "alt": [
+            "Wij kunnen het ook niet uitspreken."
+        ], 
         "type": "Hat", 
         "description": "Doktersspiegel"
     }, 
     "105": {
+        "alt": [
+            "TF_Pyro_Fireman_Helmet_Desc"
+        ], 
         "type": "Hat", 
         "description": "Korpshelm"
     }, 
@@ -486,18 +792,6 @@
         ], 
         "description": "De Bijlblusser"
     }, 
-    "33": {
-        "type": "Injectiepistool", 
-        "description": "Injectiepistool"
-    }, 
-    "32": {
-        "type": "Bottenzaag", 
-        "description": "Bottenzaag"
-    }, 
-    "31": {
-        "type": "Lichtpistool", 
-        "description": "Lichtpistool"
-    }, 
     "30": {
         "type": "Onzichtbaarheidshorloge", 
         "description": "Onzichtbaarheidshorloge"
@@ -512,15 +806,12 @@
         ], 
         "description": "De \u00dcberzaag"
     }, 
-    "36": {
-        "positive": [
-            "Bij treffer: +3 gezondheid"
+    "108": {
+        "alt": [
+            "Voor als je een wat groter hoofd zou willen hebben,\r\nmaar aan de bovenkant net zo rond."
         ], 
-        "type": "Injectiepistool", 
-        "negative": [
-            "De gezondheid van de drager gaat met -2 per seconde achteruit"
-        ], 
-        "description": "De Bloedzuiger"
+        "type": "Hat", 
+        "description": "Bolhoed"
     }, 
     "35": {
         "positive": [
@@ -532,9 +823,106 @@
         "type": "Medigun", 
         "description": "De Kritzkrieg"
     }, 
-    "34": {
-        "type": "Medigun", 
-        "description": "Medigun"
+    "246": {
+        "alt": [
+            ""
+        ], 
+        "type": "Hat", 
+        "description": "Bokser Bescherming"
+    }, 
+    "94": {
+        "alt": [
+            "Hoewel het eruit ziet als een simpele cowboyhoed, bevat dit moderne engineerontwerp meer bewegende onderdelen dan een level 2 sentrygun."
+        ], 
+        "type": "Hat", 
+        "description": "Cowboyhoed"
+    }, 
+    "241": {
+        "alt": [
+            "Hiermee kun je iemand tot een duel uitdagen!\r\nBekijk de Mann Co. Catalogus voor meer details."
+        ], 
+        "type": "Bruikbaar voorwerp", 
+        "description": "Duel-minigame"
+    }, 
+    "5038": {
+        "alt": [
+            "Wordt gebruikt om andere voorwerpen mee te verven.", 
+            "Ik heb dit gemaakt!"
+        ], 
+        "type": "Tool", 
+        "description": "Aged Moustache Grey"
+    }, 
+    "5039": {
+        "alt": [
+            "Wordt gebruikt om andere voorwerpen mee te verven.", 
+            "Ik heb dit gemaakt!"
+        ], 
+        "type": "Tool", 
+        "description": "An Extraordinary Abundance of Tinge"
+    }, 
+    "5036": {
+        "alt": [
+            "Wordt gebruikt om andere voorwerpen mee te verven.", 
+            "Ik heb dit gemaakt!"
+        ], 
+        "type": "Tool", 
+        "description": "Ye Olde Rustic Colour"
+    }, 
+    "5037": {
+        "alt": [
+            "Wordt gebruikt om andere voorwerpen mee te verven.", 
+            "Ik heb dit gemaakt!"
+        ], 
+        "type": "Tool", 
+        "description": "Australium Gold"
+    }, 
+    "5034": {
+        "alt": [
+            "Wordt gebruikt om andere voorwerpen mee te verven.", 
+            "Ik heb dit gemaakt!"
+        ], 
+        "type": "Tool", 
+        "description": "Peculiarly Drab Tincture"
+    }, 
+    "5035": {
+        "alt": [
+            "Wordt gebruikt om andere voorwerpen mee te verven.", 
+            "Ik heb dit gemaakt!"
+        ], 
+        "type": "Tool", 
+        "description": "Radigan Conagher Brown"
+    }, 
+    "5032": {
+        "alt": [
+            "Wordt gebruikt om andere voorwerpen mee te verven.", 
+            "Ik heb dit gemaakt!"
+        ], 
+        "type": "Tool", 
+        "description": "Mann Co. Orange"
+    }, 
+    "5033": {
+        "alt": [
+            "Wordt gebruikt om andere voorwerpen mee te verven.", 
+            "Ik heb dit gemaakt!"
+        ], 
+        "type": "Tool", 
+        "description": "Muskelmannbraun"
+    }, 
+    "5030": {
+        "alt": [
+            "Wordt gebruikt om andere voorwerpen mee te verven.", 
+            "Ik heb dit gemaakt!"
+        ], 
+        "type": "Tool", 
+        "description": "Color No. 216-190-216"
+    }, 
+    "5031": {
+        "alt": [
+            "Wordt gebruikt om andere voorwerpen mee te verven.", 
+            "Ik heb dit gemaakt!"
+        ], 
+        "type": "Tool", 
+        "description": "A Deep Commitment to Purple"
     }, 
     "60": {
         "positive": [
@@ -557,32 +945,71 @@
         ], 
         "description": "De Ambassadeur"
     }, 
+    "259": {
+        "alt": [
+            "Laat geen sentry in leven."
+        ], 
+        "type": "Hat", 
+        "description": "Chaos Capotain"
+    }, 
     "97": {
+        "alt": [
+            "Omdat je de stoerste Moeder Overste van het fort bent, zal niemand je gevoel voor mode in twijfel trekken."
+        ], 
         "type": "Hat", 
         "description": "Altomuts"
     }, 
     "179": {
+        "alt": [
+            "Drie scherpe hoeken betekenen \u00e9\u00e9n scherpe hoed.\r\nSteek er niet mee in je ogen."
+        ], 
         "type": "Hat", 
         "description": "Tricorne"
     }, 
     "178": {
+        "alt": [
+            "Het wordt steeds moeilijker om de totale hoeveelheid draaibewegingen van een lichaam te berekenen als je door wapengekletter en rochelende doodsgeluiden wordt afgeleid. Bouw een betere en veiligere machine met de stilte van de Safe'n'sound!"
+        ], 
         "type": "Hat", 
         "description": "Gehoorbeschermers"
     }, 
-    "177": {
+    "252": {
         "alt": [
-            "Niets"
+            ""
         ], 
         "type": "Hat", 
-        "description": "Die Kaikers"
+        "description": "Dr's Dapper Topper"
+    }, 
+    "5014": {
+        "alt": [
+            "Wordt gebruikt om een uitrustingspositie van blauwdrukken te specificeren"
+        ], 
+        "type": "Item ontwerpen", 
+        "description": "Positieteken - Slagwapen"
     }, 
     "175": {
+        "alt": [
+            "Het deftigste opplakbare en vuurbestendige gezichtshaar dat er bestaat, voor de scherpzinnige vlammenman."
+        ], 
         "type": "Hat", 
         "description": "Besnorde Heer"
     }, 
-    "174": {
+    "251": {
+        "alt": [
+            "Het neusje van de zalm in\r\nVictoriaanse soldaatkledij."
+        ], 
         "type": "Hat", 
-        "description": "Kroontjespet"
+        "description": "Stoere Shako"
+    }, 
+    "173": {
+        "positive": [
+            "Bij eliminatie wordt tot 20% van je opgeslagen\r\n\u00fcberlading bewaard."
+        ], 
+        "type": "Bottenzaag", 
+        "negative": [
+            "-10 maximale gezondheid voor drager"
+        ], 
+        "description": "De Vita-Zaag"
     }, 
     "172": {
         "positive": [
@@ -594,40 +1021,73 @@
         ], 
         "description": "De Schotsman zijn Schedelbreker"
     }, 
-    "171": {
-        "positive": [
-            "Bij treffer: 6 seconden bloeden"
-        ], 
-        "type": "Kukri-mes", 
-        "negative": [
-            "Toegebrachte schade -50%"
-        ], 
-        "description": "Stammenman zijn Shiv"
-    }, 
-    "170": {
+    "254": {
         "alt": [
-            "Huurdatum: %s1"
+            "Voorzichtigheid is geboden met\r\neen Jarate in de buurt."
         ], 
-        "type": "Insigne", 
-        "description": "Oerkrijger"
+        "type": "Hat", 
+        "description": "Stevige Ontmoeting"
+    }, 
+    "255": {
+        "alt": [
+            "De beste vriend van een kleefbomsprong."
+        ], 
+        "type": "Hat", 
+        "description": "Sobere Stuntman"
+    }, 
+    "249": {
+        "alt": [
+            "Dood van boven!"
+        ], 
+        "type": "Hat", 
+        "description": "Bombarderende Run"
+    }, 
+    "145": {
+        "alt": [
+            "Je tegenstanders zullen helemaal van slag zijn als ze deze hippe helm met bril zien."
+        ], 
+        "type": "Hat", 
+        "description": "Elvispruik"
+    }, 
+    "248": {
+        "alt": [
+            "Na een lange dag van Scouts verbranden."
+        ], 
+        "type": "Hat", 
+        "description": "Snurkers Slaapje"
     }, 
     "182": {
+        "alt": [
+            "Pyro draagt dit als aandenken aan de vele brandweerlieden die tijdens het bedwingen van de vlammen zijn gestorven."
+        ], 
         "type": "Hat", 
         "description": "Brandweerhelm"
     }, 
     "183": {
+        "alt": [
+            "Deze hoed is een handige vervanging voor lukraak geraaskal voor als je jezelf niet hees wilt schreeuwen."
+        ], 
         "type": "Hat", 
         "description": "Drilmeestershoed"
     }, 
     "180": {
+        "alt": [
+            "Omdat echt spionagewerk een vorm van kunst is."
+        ], 
         "type": "Hat", 
         "description": "Franse Baret"
     }, 
     "181": {
+        "alt": [
+            "Aan het Snipen."
+        ], 
         "type": "Hat", 
         "description": "Vishoedje"
     }, 
     "184": {
+        "alt": [
+            "Hoewel hij de uitstraling van andere hoeden mist, bezit de Gatsby toch zijn eigen soort elegantie. Zijn gematigde en vriendelijke charme spreekt iedereen aan, of je nu een rondje golft speelt met vrienden of een niet-levensbedreigende operatie uitvoert met een goed opgepoetste bottenzaag."
+        ], 
         "type": "Hat", 
         "description": "Gatsby-pet"
     }, 
@@ -635,19 +1095,91 @@
         "type": "Spade", 
         "description": "Spade"
     }, 
+    "250": {
+        "alt": [
+            ""
+        ], 
+        "type": "Hat", 
+        "description": "Chieftain Challenge"
+    }, 
     "189": {
+        "alt": [
+            "Dit schatje was in een andere tijd en op een andere plek het dieptepunt van het menselijk ras. Nu is hij meer dan blij als hij op je hoofd mee mag reizen en de zon tegenhouden."
+        ], 
         "type": "Hat", 
         "description": "Alien Swarm Parasite"
     }, 
+    "5029": {
+        "alt": [
+            "Wordt gebruikt om andere voorwerpen mee te verven.", 
+            "Ik heb dit gemaakt!"
+        ], 
+        "type": "Tool", 
+        "description": "Noble Hatter's Violet"
+    }, 
+    "5028": {
+        "alt": [
+            "Wordt gebruikt om andere voorwerpen mee te verven.", 
+            "Ik heb dit gemaakt!"
+        ], 
+        "type": "Tool", 
+        "description": "Zephaniah's Greed"
+    }, 
+    "221": {
+        "alt": [
+            "Er is niets g\u00eananter dan door een vis te worden geraakt."
+        ], 
+        "type": "Vis", 
+        "description": "De Heilige Makreel"
+    }, 
+    "5021": {
+        "alt": [
+            "Wordt gebruikt voor het openen van gesloten voorraadkisten."
+        ], 
+        "type": "Tool", 
+        "description": "Mann Co. Voorraadkistsleutel"
+    }, 
+    "5020": {
+        "alt": [
+            "Verandert de naam van een voorwerp in je rugzak"
+        ], 
+        "type": "Tool", 
+        "description": "Naamplaatje"
+    }, 
+    "5023": {
+        "alt": [
+            "Wordt gebruikt om andere voorwerpen mee te verven.", 
+            "Ik heb dit gemaakt!"
+        ], 
+        "type": "Tool", 
+        "description": "Verfblik"
+    }, 
     "185": {
+        "alt": [
+            "Het kost $\u00a0400.000 om deze bandana 12 seconden te dragen."
+        ], 
         "type": "Hat", 
         "description": "Bandana"
     }, 
+    "5027": {
+        "alt": [
+            "Wordt gebruikt om andere voorwerpen mee te verven.", 
+            "Ik heb dit gemaakt!"
+        ], 
+        "type": "Tool", 
+        "description": "Indubitably Green"
+    }, 
     "99": {
+        "alt": [
+            "Ik heb je zo'n harde trap onder je kont gegeven dat hij terug de tijd is ingegaan en deze Vikinghoed heeft meegenomen."
+        ], 
         "type": "Hat", 
         "description": "Vikinghelm"
     }, 
     "98": {
+        "alt": [
+            "Beschermt de schedel tegen kogels en granaatscherven.\r\nVerwarmt ook soep."
+        ], 
         "type": "Hat", 
         "description": "Kookpan"
     }, 
@@ -655,29 +1187,63 @@
         "positive": [
             "Gemaakt met een eeuwenoude kracht"
         ], 
+        "alt": [
+            "Niet verhandelbaar"
+        ], 
         "type": "Moersleutel", 
         "description": "De Gouden Moersleutel"
     }, 
-    "164": {
+    "229": {
         "alt": [
-            "Huurdatum: %s1"
+            "TF_OlSnaggletooth_Desc"
         ], 
-        "type": "Insigne", 
-        "description": "Doorwinterde Veteraan"
+        "type": "Hat", 
+        "description": "Ol' Snaggletooth"
     }, 
-    "165": {
-        "alt": [
-            "Huurdatum: %s1"
+    "228": {
+        "positive": [
+            "Bij treffer: +15 gezondheid"
         ], 
-        "type": "Insigne", 
-        "description": "Fortuinlijke Soldaat"
+        "type": "Raketwerper", 
+        "negative": [
+            "Magazijngrootte -25%"
+        ], 
+        "description": "De Zwarte Doos"
     }, 
-    "166": {
+    "227": {
         "alt": [
-            "Huurdatum: %s1"
+            "TF_TheGrenadiersSoftcap_Desc"
         ], 
-        "type": "Insigne", 
-        "description": "Huurling"
+        "type": "Hat", 
+        "description": "Grenadiers Softcap"
+    }, 
+    "226": {
+        "alt": [
+            "Biedt een verdedigende boost die teamgenoten\r\nin de buurt tegen crits beschermt en\r\ninkomende schade met 35% vermindert.\r\nWoede neemt toe met opgelopen schade."
+        ], 
+        "type": "Strijdvaandel", 
+        "description": "Back-up van het Bataljon"
+    }, 
+    "225": {
+        "positive": [
+            "Bij een succesvolle steek in de rug\r\nneem je snel de vermomming van je slachtoffer aan", 
+            "Dit wapen is een geluidloze moordenaar"
+        ], 
+        "type": "Mes", 
+        "negative": [
+            "Drager kan zich niet vermommen"
+        ], 
+        "description": "Je Eeuwige Beloning"
+    }, 
+    "224": {
+        "positive": [
+            "+15 verbergen bij een treffer"
+        ], 
+        "type": "Revolver", 
+        "negative": [
+            "Toegebrachte schade -20%"
+        ], 
+        "description": "L'\u00c9tranger"
     }, 
     "160": {
         "alt": [
@@ -700,13 +1266,15 @@
         "type": "Hat", 
         "description": "Max' halve hoofd"
     }, 
-    "163": {
-        "alt": [
-            "Onder invloed hiervan zijn toegebrachte\r\nen opgelopen schade mini-crits", 
-            "Voegt 30 seconden lang +50 maximale gezondheid toe"
+    "220": {
+        "positive": [
+            "Bij treffer: doelwit beweegt zich 40% langzamer voor 0.5s"
         ], 
-        "type": "Lunchtrommel", 
-        "description": "Crit-de-Cola"
+        "alt": [
+            "Mann Co.'s nieuwste op het gebied van vernietigende \r\npersoonlijke verdediging met stijl."
+        ], 
+        "type": "Peppergun", 
+        "description": "De Shortstop"
     }, 
     "11": {
         "type": "Shotgun", 
@@ -748,11 +1316,36 @@
         "type": "Raketwerper", 
         "description": "Raketwerper"
     }, 
+    "164": {
+        "alt": [
+            "Spel deze met trots op je borst, soldaat. Elke keer als je iemand doodt, weten ze dat ze niet de eerste waren.", 
+            "Huurdatum: %s1", 
+            "Niet verhandelbaar"
+        ], 
+        "type": "Insigne", 
+        "description": "Doorwinterde Veteraan"
+    }, 
+    "5022": {
+        "positive": [
+            "Kistserie #1"
+        ], 
+        "alt": [
+            "Je hebt een Mann Co. Voorraadkistsleutel nodig om deze te openen."
+        ], 
+        "type": "TF_LockedCrate", 
+        "description": "Mann Co. Voorraadkist"
+    }, 
     "151": {
+        "alt": [
+            "Gelukkig vraagt hij je nog om dingen in de fik te steken."
+        ], 
         "type": "Hat", 
         "description": "Triboniophorus Tyrannus"
     }, 
     "150": {
+        "alt": [
+            "Volledig van het padje."
+        ], 
         "type": "Hat", 
         "description": "Beanie"
     }, 
@@ -768,6 +1361,9 @@
         "description": "De Huizenbreker"
     }, 
     "152": {
+        "alt": [
+            "Een oorlog haiku.\r\nOm vijanden te verslaan.\r\nEer nu de raakkunst."
+        ], 
         "type": "Hat", 
         "description": "Kabutohelm"
     }, 
@@ -800,14 +1396,102 @@
         "description": "De Dalokohs Reep"
     }, 
     "158": {
+        "alt": [
+            "Perfect voor het verkennen van de vrije natuur en het binnenste van het menselijk brein."
+        ], 
         "type": "Hat", 
         "description": "Tropenhelm"
     }, 
+    "36": {
+        "positive": [
+            "Bij treffer: +3 gezondheid"
+        ], 
+        "type": "Injectiepistool", 
+        "negative": [
+            "De gezondheid van de drager gaat met -2 per seconde achteruit"
+        ], 
+        "description": "De Bloedzuiger"
+    }, 
+    "239": {
+        "positive": [
+            "+30% hogere bewegingssnelheid voor drager"
+        ], 
+        "alt": [
+            "Wanneer wapen actief is:"
+        ], 
+        "type": "Vuisten", 
+        "negative": [
+            "Toegebrachte schade -50%", 
+            "De gezondheid van de drager gaat met -6 per seconde achteruit"
+        ], 
+        "description": "De Haastige Handschoenen"
+    }, 
+    "234": {
+        "alt": [
+            "Als je dit actievoorwerp gebruikt, wordt er een willekeurig geschenk gegeven aan\r\nmaximaal 23 andere mensen op de server!"
+        ], 
+        "type": "Geschenk", 
+        "description": "Pakjesavond"
+    }, 
+    "237": {
+        "positive": [
+            "Je loopt geen zelftoegebrachte ontploffingsschade op.", 
+            "+200% max. primaire munitie voor de drager"
+        ], 
+        "alt": [
+            "Een speciale onschadelijke raketwerper voor het leren van\r\nraketsprongtrucs en patronen."
+        ], 
+        "type": "Raketwerper", 
+        "negative": [
+            "Toegebrachte schade -100%"
+        ], 
+        "description": "De Raketspringer"
+    }, 
+    "230": {
+        "positive": [
+            "Bij treffer: Jarate wordt 8 seconde op het\r\ndoelwit toegepast"
+        ], 
+        "type": "Snipergeweer", 
+        "negative": [
+            "Geen hoofdschoten"
+        ], 
+        "description": "De Sydney Slaper"
+    }, 
+    "231": {
+        "positive": [
+            "+25 maximale gezondheid voor drager"
+        ], 
+        "type": "Schild", 
+        "description": "Darwins Gevaarschild"
+    }, 
+    "232": {
+        "positive": [
+            "Dit wapen crit waar het normaal een mini-crit zou uitvoeren."
+        ], 
+        "type": "Kukri-mes", 
+        "negative": [
+            "20% kwetsbaarheid voor vuurschade voor de drager"
+        ], 
+        "description": "De Bushwacka"
+    }, 
+    "233": {
+        "alt": [
+            "Als je dit actievoorwerp gebruikt, wordt er een willekeurig geschenk gegeven\r\naan een willekeurige persoon op de server!"
+        ], 
+        "type": "Geschenk", 
+        "description": "Goedheiligman"
+    }, 
     "48": {
+        "alt": [
+            "Voor Engineers met slimme idee\u00ebn."
+        ], 
         "type": "Hat", 
         "description": "Mijnlamp"
     }, 
     "49": {
+        "alt": [
+            "TF_Heavy_Hat_1_Desc"
+        ], 
         "type": "Hat", 
         "description": "Amerikaanse Voetbal Helm"
     }, 
@@ -816,6 +1500,9 @@
         "description": "Bonk! Atomische Vuist"
     }, 
     "47": {
+        "alt": [
+            "TF_Demo_Hat_1_Desc"
+        ], 
         "type": "Hat", 
         "description": "Demoman's Fro"
     }, 
@@ -882,6 +1569,13 @@
         "type": "Fles", 
         "description": "Fles"
     }, 
+    "260": {
+        "alt": [
+            "Verdiend door de weinigen die weten hoe ze een webpagina moeten bewerken."
+        ], 
+        "type": "Hat", 
+        "description": "Wiki Cap"
+    }, 
     "5": {
         "type": "Vuisten", 
         "description": "Vuisten"
@@ -890,21 +1584,21 @@
         "type": "Shotgun", 
         "description": "Shotgun"
     }, 
-    "146": {
-        "type": "Hat", 
-        "description": "Pooierhoed"
+    "201": {
+        "type": "Snipergeweer", 
+        "description": "Snipergeweer"
     }, 
-    "147": {
-        "type": "Hat", 
-        "description": "Rechterspruik"
+    "200": {
+        "type": "Scattergun", 
+        "description": "Scattergun"
     }, 
-    "144": {
-        "type": "Hat", 
-        "description": "Operatiemasker"
+    "203": {
+        "type": "SMG", 
+        "description": "SMG"
     }, 
-    "145": {
-        "type": "Hat", 
-        "description": "Elvispruik"
+    "202": {
+        "type": "Minigun", 
+        "description": "Minigun"
     }, 
     "142": {
         "positive": [
@@ -917,37 +1611,123 @@
         ], 
         "description": "De Geweerslinger"
     }, 
-    "143": {
-        "alt": [
-            "Specifiek besturingssysteem!"
-        ], 
-        "type": "Hat", 
-        "description": "Oordopjes"
+    "204": {
+        "type": "Injectiepistool", 
+        "description": "Injectiepistool"
     }, 
-    "140": {
-        "alt": [
-            "Je sentrygun handmatig besturen"
-        ], 
-        "type": "Laserpen", 
-        "description": "De Verstikker"
+    "207": {
+        "type": "Kleefbommenwerper", 
+        "description": "Kleefbommenwerper"
     }, 
-    "141": {
-        "positive": [
-            "Als jouw sentry is vernietigd, krijg\r\n\r\nje revenge crits voor elke sentry die je vernietigt"
-        ], 
-        "type": "Shotgun", 
-        "negative": [
-            "Geen willekeurige voltreffers", 
-            "Magazijngrootte -50%"
-        ], 
-        "description": "De Frontale Gerechtigheid"
+    "206": {
+        "type": "Granaatwerper", 
+        "description": "Granaatwerper"
+    }, 
+    "209": {
+        "type": "Pistool", 
+        "description": "Pistool"
+    }, 
+    "208": {
+        "type": "Vlammenwerper", 
+        "description": "Vlammenwerper"
     }, 
     "148": {
+        "alt": [
+            "Trek een neus naar de zon met een vlammenstroom wanneer de uv-stralen van je oogballen afstuiteren zonder schade aan te richten."
+        ], 
         "type": "Hat", 
         "description": "Laskap"
+    }, 
+    "96": {
+        "alt": [
+            "Deze hoed werd met blote handen gemaakt.\r\nDie beer werd met blote handen gedood."
+        ], 
+        "type": "Hat", 
+        "description": "Russische officiersmuts"
+    }, 
+    "5040": {
+        "alt": [
+            "Wordt gebruikt om andere voorwerpen mee te verven.", 
+            "Ik heb dit gemaakt!"
+        ], 
+        "type": "Tool", 
+        "description": "A Distinctive Lack of Hue"
     }, 
     "2": {
         "type": "Vuurbijl", 
         "description": "Vuurbijl"
+    }, 
+    "263": {
+        "alt": [
+            "TF_EllisHat_Desc", 
+            "Niet verhandelbaar"
+        ], 
+        "type": "Hat", 
+        "description": "Ellis' Cap"
+    }, 
+    "144": {
+        "alt": [
+            "Stroop je mouwen maar op... dit wordt bloederig."
+        ], 
+        "type": "Hat", 
+        "description": "Operatiemasker"
+    }, 
+    "262": {
+        "alt": [
+            "Awarded to participants of the Polycount contest.", 
+            "Niet verhandelbaar"
+        ], 
+        "type": "Insigne", 
+        "description": "Polycount Pin"
+    }, 
+    "261": {
+        "alt": [
+            "TF_MannCoCap_Desc", 
+            "Niet verhandelbaar"
+        ], 
+        "type": "Hat", 
+        "description": "Mann Co. Cap"
+    }, 
+    "2002": {
+        "alt": [
+            "Bevat alle Polycount Soldier-voorwerpen:"
+        ], 
+        "type": "Voorwerppakket", 
+        "description": "De Tank Buster"
+    }, 
+    "2003": {
+        "alt": [
+            "Bevat alle Polycount Sniper-voorwerpen:"
+        ], 
+        "type": "Voorwerppakket", 
+        "description": "De Croc-o-Style Kit"
+    }, 
+    "2000": {
+        "alt": [
+            "Bevat alle Polycount Pyro-voorwerpen:"
+        ], 
+        "type": "Voorwerppakket", 
+        "description": "De Gas Jockey's Gear"
+    }, 
+    "2001": {
+        "alt": [
+            "Bevat alle Polycount Spy-voorwerpen:"
+        ], 
+        "type": "Voorwerppakket", 
+        "description": "De Sahara Spy"
+    }, 
+    "2004": {
+        "alt": [
+            "Bevat alle Polycount Scout-voorwerpen:"
+        ], 
+        "type": "Voorwerppakket", 
+        "description": "De Special Delivery"
+    }, 
+    "2005": {
+        "alt": [
+            "Bevat alle winnende deelnames aan de Polycount-prijsvraag:"
+        ], 
+        "type": "Voorwerppakket", 
+        "description": "Polycount Pakket"
     }
 }

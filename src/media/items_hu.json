@@ -1,21 +1,68 @@
 {
+    "214": {
+        "positive": [
+            "+25% okozott sebz\u00e9s"
+        ], 
+        "type": "P\u00f6r\u00f6lykalap\u00e1cs", 
+        "negative": [
+            "Nincs v\u00e9letlenszer\u0171 kritikus tal\u00e1lat"
+        ], 
+        "description": "Powerjack"
+    }, 
+    "215": {
+        "type": "L\u00e1ngsz\u00f3r\u00f3", 
+        "negative": [
+            "-25% t\u0171zsebz\u00e9s"
+        ], 
+        "description": "Degreaser"
+    }, 
+    "212": {
+        "type": "\u00c1lca-\u00f3ra", 
+        "description": "\u00c1lca-\u00f3ra"
+    }, 
+    "213": {
+        "alt": [
+            "Attendant Description"
+        ], 
+        "type": "Hat", 
+        "description": "Attendant"
+    }, 
+    "210": {
+        "type": "Forg\u00f3pisztoly", 
+        "description": "Forg\u00f3pisztoly"
+    }, 
+    "211": {
+        "type": "Gy\u00f3gypuska", 
+        "description": "Gy\u00f3gypuska"
+    }, 
+    "264": {
+        "type": "Frying Pan", 
+        "description": "The Frying Pan"
+    }, 
+    "219": {
+        "alt": [
+            "The Milkman Description"
+        ], 
+        "type": "Hat", 
+        "description": "Milkman"
+    }, 
     "133": {
         "positive": [
             "-60% sebz\u00e9s rak\u00e9taugr\u00e1skor"
         ], 
-        "type": "Boots", 
-        "description": "The Gunboats"
+        "type": "Csizma", 
+        "description": "Gunboats"
     }, 
     "132": {
         "alt": [
-            "This weapon has a large melee range.\\nGives increased speed and health\\nwith every head you take."
+            "Ennek a fegyvernek nagy a hat\u00e1sos t\u00e1vols\u00e1ga.\r\nMinden lev\u00e1gott fej ut\u00e1n n\u0151\r\na sebess\u00e9ged \u00e9s az eg\u00e9szs\u00e9ged."
         ], 
-        "type": "Sword", 
+        "type": "Kard", 
         "negative": [
             "-25 maxim\u00e1lis eg\u00e9szs\u00e9g a visel\u0151nek", 
             "Nincs v\u00e9letlenszer\u0171 kritikus tal\u00e1lat"
         ], 
-        "description": "The Eyelander"
+        "description": "Eyelander"
     }, 
     "131": {
         "positive": [
@@ -23,27 +70,31 @@
             "+40% robban\u00e1ssal szembeni ellen\u00e1ll\u00e1s visel\u00e9skor"
         ], 
         "alt": [
-            "Alt-Fire: Gain increased attack power by\\ncharging toward your enemies."
+            "Alternat\u00edv t\u0171z: Lerohanod az ellens\u00e9get,\r\nami megn\u00f6veli a t\u00e1mad\u00f3er\u0151det."
         ], 
-        "type": "Shield", 
-        "description": "The Chargin' Targe"
+        "type": "Pajzs", 
+        "description": "Chargin' Targe"
     }, 
     "130": {
         "positive": [
             "+50% maxim\u00e1lis m\u00e1sodlagos l\u0151szer visel\u00e9skor", 
-            "+6 maxim\u00e1lis telep\u00edtett cs\u0151bomba", 
             "Felrobbantja a c\u00e9lkereszt k\u00f6zel\u00e9ben lev\u0151 tapad\u00f3bomb\u00e1kat", 
-            "Meg tudja semmis\u00edteni az ellens\u00e9ges tapad\u00f3bomb\u00e1kat"
+            "+25% magasabb t\u0171zgyorsas\u00e1g", 
+            "Meg tudja semmis\u00edteni az ellens\u00e9ges tapad\u00f3bomb\u00e1kat", 
+            "+6 maxim\u00e1lis telep\u00edtett cs\u0151bomba"
         ], 
-        "type": "Stickybomb Launcher", 
+        "type": "Tapad\u00f3bomba-vet\u0151", 
         "negative": [
-            "0.4 m\u00e1sodperccel hosszabb bomba\u00e9les\u00edt\u00e9s"
+            "0.8 m\u00e1sodperccel hosszabb bomba\u00e9les\u00edt\u00e9s"
         ], 
-        "description": "The Scottish Resistance"
+        "description": "Scottish Resistance"
     }, 
     "137": {
+        "alt": [
+            "For the Gentleman who believes even his hat deserves a hat."
+        ], 
         "type": "Hat", 
-        "description": "Noble Amassment of Hats"
+        "description": "Nemes kalapok gy\u0171jtem\u00e9nye"
     }, 
     "136": {
         "alt": [
@@ -53,8 +104,11 @@
         "description": "Amber's Rad As All Hell Hat"
     }, 
     "135": {
+        "alt": [
+            "A-ha-ha! You are as PRESUMPTUOUS as you are POOR and IRISH. Tarnish notte the majesty of my TOWER of HATS."
+        ], 
         "type": "Hat", 
-        "description": "Towering Pillar of Hats"
+        "description": "Kalaptorony-kalap"
     }, 
     "134": {
         "alt": [
@@ -63,9 +117,19 @@
         "type": "Hat", 
         "description": "J.Axer's Dapper Topper"
     }, 
-    "139": {
+    "95": {
+        "alt": [
+            "TF_Engineer_Train_Hat_Desc"
+        ], 
         "type": "Hat", 
-        "description": "Modest Pile of Hat"
+        "description": "Masiniszta-sapka"
+    }, 
+    "139": {
+        "alt": [
+            "Because a Gentleman is not one without one."
+        ], 
+        "type": "Hat", 
+        "description": "Szer\u00e9ny kalapkupac"
     }, 
     "138": {
         "alt": [
@@ -74,9 +138,16 @@
         "type": "Hat", 
         "description": "Uncle Sam"
     }, 
+    "166": {
+        "alt": [
+            "Even though you were late to the party, you were still the life of it."
+        ], 
+        "type": "Badge", 
+        "description": "Mercenary"
+    }, 
     "24": {
-        "type": "Revolver", 
-        "description": "Revolver"
+        "type": "Forg\u00f3pisztoly", 
+        "description": "Forg\u00f3pisztoly"
     }, 
     "25": {
         "type": "PDA", 
@@ -91,83 +162,102 @@
         "description": "PDA"
     }, 
     "20": {
-        "type": "Stickybomb Launcher", 
-        "description": "Stickybomb Launcher"
+        "type": "Tapad\u00f3bomba-vet\u0151", 
+        "description": "Tapad\u00f3bomba-vet\u0151"
     }, 
     "21": {
-        "type": "Flame Thrower", 
-        "description": "Flame Thrower"
+        "type": "L\u00e1ngsz\u00f3r\u00f3", 
+        "description": "L\u00e1ngsz\u00f3r\u00f3"
     }, 
     "22": {
-        "type": "Pistol", 
-        "description": "Pistol"
+        "type": "Pisztoly", 
+        "description": "Pisztoly"
     }, 
     "23": {
-        "type": "Pistol", 
-        "description": "Pistol"
+        "type": "Pisztoly", 
+        "description": "Pisztoly"
     }, 
-    "95": {
+    "223": {
+        "alt": [
+            "TF_TheFamiliarFez_Desc"
+        ], 
         "type": "Hat", 
-        "description": "Engineer's Cap"
+        "description": "Familiar Fez"
     }, 
     "28": {
         "type": "PDA", 
         "description": "PDA"
     }, 
     "29": {
-        "type": "Medi Gun", 
-        "description": "Medi Gun"
+        "type": "Gy\u00f3gypuska", 
+        "description": "Gy\u00f3gypuska"
     }, 
-    "94": {
-        "type": "Hat", 
-        "description": "Texas Ten Gallon"
+    "222": {
+        "alt": [
+            "Players heal 75% of the damage done\\nto an enemy covered with milk."
+        ], 
+        "type": "Non-Milk Substance", 
+        "description": "Mad Milk"
     }, 
     "0": {
-        "type": "Bat", 
-        "description": "Bat"
+        "type": "\u00dct\u0151", 
+        "description": "\u00dct\u0151"
     }, 
     "4": {
-        "type": "Knife", 
-        "description": "Knife"
+        "type": "K\u00e9s", 
+        "description": "K\u00e9s"
     }, 
     "8": {
-        "type": "Bonesaw", 
-        "description": "Bonesaw"
+        "type": "Csontf\u0171r\u00e9sz", 
+        "description": "Csontf\u0171r\u00e9sz"
     }, 
-    "96": {
-        "type": "Hat", 
-        "description": "Officer's Ushanka"
+    "163": {
+        "alt": [
+            "A hat\u00e1sa alatt \u00e1llva mind az elszenvedett,\r\nmind az okozott sebz\u00e9s mini kritikus tal\u00e1lat lesz.", 
+            "+50 maxim\u00e1lis eg\u00e9szs\u00e9get ad 30 m\u00e1sodpercig"
+        ], 
+        "type": "Uzsonn\u00e1s doboz", 
+        "description": "Crit-a-Cola"
     }, 
     "120": {
+        "alt": [
+            "TF_Demo_Top_Hat_Desc"
+        ], 
         "type": "Hat", 
-        "description": "Scotsman's Stove Pipe"
+        "description": "Sk\u00f3t cilinder"
     }, 
     "121": {
-        "type": "Medal", 
-        "description": "Gentle Manne's Service Medal"
+        "alt": [
+            "Given to those few brave soldiers whom stood guard valiantly without sleep, nourishment, or a social life."
+        ], 
+        "type": "Kit\u00fcntet\u00e9s", 
+        "description": "Gentle Manne szolg\u00e1lati kit\u00fcntet\u00e9se"
     }, 
     "122": {
         "type": "Cheat Detector", 
-        "description": "Your account has been flagged for circumventing the item distribution system. We have removed the items that were illegally obtained.\\n\\nFuture violations will result in the loss of all your items."
+        "description": "A fi\u00f3kod megjel\u00f6l\u00e9sre ker\u00fclt a t\u00e1rgymegoszt\u00f3 rendszer kij\u00e1tsz\u00e1sa miatt. Az illeg\u00e1lisan szerzett t\u00e1rgyaidat elt\u00e1vol\u00edtottuk.\r\n\r\nA tov\u00e1bbi vissza\u00e9l\u00e9sek az \u00f6sszes t\u00e1rgyad elveszt\u00e9s\u00e9t vonj\u00e1k maguk ut\u00e1n."
     }, 
     "123": {
         "type": "Cheat Detector", 
-        "description": "Your account has been flagged for circumventing the item distribution system. We have removed all items in your inventory.\\n\\nFuture violations may result in your account being disabled."
+        "description": "A fi\u00f3kod megjel\u00f6l\u00e9sre ker\u00fclt a t\u00e1rgymegoszt\u00f3 rendszer kij\u00e1tsz\u00e1sa miatt. Minden t\u00e1rgyadat elt\u00e1vol\u00edtottuk.\r\n\r\nA tov\u00e1bbi vissza\u00e9l\u00e9sek a fi\u00f3kod letilt\u00e1s\u00e1t vonhatj\u00e1k maguk ut\u00e1n."
     }, 
     "124": {
         "type": "Cheat Detector", 
-        "description": "Congratulations! Your Honesty has been rewarded with a new hat!\\n\\n(Some other players were less scrupulous, and have been less fortunate)"
+        "description": "Gratul\u00e1lunk! Becs\u00fcletess\u00e9ged egy \u00faj sapk\u00e1val jutalmaztuk!\r\n\r\n(Bizonyos j\u00e1t\u00e9kosok kev\u00e9sb\u00e9 voltak lelkiismeretesek, \u00e9s \u00edgy rosszabbul j\u00e1rtak.)"
     }, 
     "125": {
         "alt": [
-            "%s1% okozott sebz\u00e9s"
+            "Though some would stop at nothing to achieve hats, you remained resolute and incorruptible in your quest for head decorations. For that, you have been rewarded."
         ], 
-        "type": "Aura of Incorruptibility", 
-        "description": "Cheater's Lament"
+        "type": "A feddhetetlens\u00e9g aur\u00e1ja", 
+        "description": "Csal\u00f3k v\u00e9gzete"
     }, 
     "126": {
-        "type": "Veteran's Beret", 
-        "description": "Bill's Hat"
+        "alt": [
+            "Left 4 You."
+        ], 
+        "type": "Veter\u00e1n barett", 
+        "description": "Bill sapk\u00e1ja"
     }, 
     "127": {
         "positive": [
@@ -175,22 +265,25 @@
             "+25% okozott sebz\u00e9s", 
             "+80% l\u00f6ved\u00e9ksebess\u00e9g"
         ], 
-        "type": "Rocket Launcher", 
+        "type": "Rak\u00e9tavet\u0151", 
         "negative": [
             "-70% robban\u00e1si sug\u00e1r"
         ], 
-        "description": "The Direct Hit"
+        "description": "Direct Hit"
     }, 
     "128": {
         "positive": [
             "Ahogy a visel\u0151 sebz\u0151dik, n\u0151 a mozg\u00e1si\r\nsebess\u00e9ge \u00e9s az okozott sebz\u00e9se\r\nHaszn\u00e1latkor blokkolja a gy\u00f3gy\u00edt\u00e1st"
         ], 
-        "type": "Pickaxe", 
-        "description": "The Equalizer"
+        "type": "Cs\u00e1k\u00e1ny", 
+        "description": "Equalizer"
     }, 
     "129": {
+        "alt": [
+            "Provides an offensive buff that causes\\nnearby team members to do mini-crits."
+        ], 
         "type": "Battle Banner", 
-        "description": "The Buff Banner"
+        "description": "Buff Banner"
     }, 
     "59": {
         "positive": [
@@ -199,165 +292,287 @@
         "alt": [
             "\u00c1lcat\u00edpus: Tettetett hal\u00e1l"
         ], 
-        "type": "Invis Watch", 
+        "type": "\u00c1lca-\u00f3ra", 
         "negative": [
             "+60% l\u00e1thatatlans\u00e1g-fogy\u00e1si sebess\u00e9g"
         ], 
-        "description": "The Dead Ringer"
+        "description": "A Hal\u00e1li Ketyeg\u0151"
     }, 
     "58": {
         "alt": [
             "Mini kritikus tal\u00e1latok a beter\u00edtett ellenf\u00e9len\r\nT\u0171zolt\u00e1shoz is j\u00f3l j\u00f6n"
         ], 
-        "type": "Jar Based Karate", 
-        "description": "Jarate"
+        "type": "Dunsztos\u00fcveg-harc", 
+        "description": "Dunsztol\u00e1s"
     }, 
     "55": {
+        "alt": [
+            "This smooth, suave, silk-lined beauty can turn any amateur backstabber into a handsome rogue."
+        ], 
         "type": "Hat", 
-        "description": "Fancy Fedora"
+        "description": "Eleg\u00e1ns puhakalap"
     }, 
     "54": {
+        "alt": [
+            "This hat does not in any way, shape, or form, promote smoking or gambling."
+        ], 
         "type": "Hat", 
-        "description": "Soldier's Stash"
+        "description": "Katonai v\u00e9sztartal\u00e9k"
     }, 
     "57": {
-        "type": "Shield", 
-        "description": "The Razorback"
+        "positive": [
+            "Elh\u00e1r\u00edt egyetlen h\u00e1tbad\u00f6f\u00e9si k\u00eds\u00e9rletet"
+        ], 
+        "type": "Pajzs", 
+        "description": "A Visszav\u00e1g\u00f3"
     }, 
     "56": {
-        "type": "Bow", 
-        "description": "The Huntsman"
+        "type": "\u00cdj", 
+        "description": "A Levad\u00e1sz"
     }, 
     "51": {
+        "alt": [
+            "TF_Pyro_Hat_1_Desc"
+        ], 
         "type": "Hat", 
-        "description": "Pyro's Beanie"
+        "description": "Pyro-t\u00f6kfed\u0151"
     }, 
     "50": {
+        "alt": [
+            "A relic from one war brought into another.\\nYour enemy will get the point."
+        ], 
         "type": "Hat", 
-        "description": "Prussian Pickelhaube"
+        "description": "Porosz d\u00edszsisak"
     }, 
     "53": {
+        "alt": [
+            "Any old sap can pull teeth from a dead crocodile.\\nIt takes a man to pull teeth from a live one."
+        ], 
         "type": "Hat", 
-        "description": "Trophy Belt"
+        "description": "Fogas d\u00edszszalag"
     }, 
     "52": {
+        "alt": [
+            "You'll be batting a thousand (skulls in) when you don this red piece of plastic!"
+        ], 
         "type": "Hat", 
-        "description": "Batter's Helmet"
+        "description": "Baseball-sisak"
     }, 
     "5010": {
         "alt": [
-            "Used to specify a class in blueprints"
+            "A tervrajzok oszt\u00e1ly-meghat\u00e1roz\u00e1s\u00e1ra szolg\u00e1l"
         ], 
         "type": "Craft Item", 
         "description": "Class Token - Spy"
     }, 
     "5011": {
         "alt": [
-            "Used to specify a class in blueprints"
+            "A tervrajzok oszt\u00e1ly-meghat\u00e1roz\u00e1s\u00e1ra szolg\u00e1l"
         ], 
         "type": "Craft Item", 
         "description": "Class Token - Engineer"
     }, 
     "5012": {
         "alt": [
-            "Used to specify a loadout slot in blueprints"
+            "A tervrajzok felszerel\u00e9shely-meghat\u00e1roz\u00e1s\u00e1ra szolg\u00e1l"
         ], 
         "type": "Craft Item", 
         "description": "Hely-token - Els\u0151dleges"
     }, 
     "5013": {
         "alt": [
-            "Used to specify a loadout slot in blueprints"
+            "A tervrajzok felszerel\u00e9shely-meghat\u00e1roz\u00e1s\u00e1ra szolg\u00e1l"
         ], 
         "type": "Craft Item", 
         "description": "Hely-token - M\u00e1sodlagos"
     }, 
-    "5014": {
-        "alt": [
-            "Used to specify a loadout slot in blueprints"
-        ], 
-        "type": "Craft Item", 
-        "description": "Hely-token - K\u00f6zelharc"
+    "199": {
+        "type": "S\u00f6r\u00e9tes puska", 
+        "description": "S\u00f6r\u00e9tes puska"
     }, 
-    "5015": {
-        "alt": [
-            "Used to specify a loadout slot in blueprints"
-        ], 
-        "type": "Craft Item", 
-        "description": "Hely-token - Gr\u00e1n\u00e1t"
+    "198": {
+        "type": "Csontf\u0171r\u00e9sz", 
+        "description": "Csontf\u0171r\u00e9sz"
     }, 
-    "5016": {
+    "147": {
         "alt": [
-            "Used to specify a loadout slot in blueprints"
+            "They say justice is blind. What they don't tell you is that justice is also invisible, and also less interested in justice than murder."
         ], 
-        "type": "Craft Item", 
-        "description": "Hely-token - \u00c9p\u00edtm\u00e9ny"
+        "type": "Hat", 
+        "description": "Uras\u00e1g par\u00f3k\u00e1ja"
     }, 
-    "5017": {
-        "alt": [
-            "Used to specify a loadout slot in blueprints"
-        ], 
-        "type": "Craft Item", 
-        "description": "Hely-token - PDA"
+    "195": {
+        "type": "\u00d6k\u00f6l", 
+        "description": "\u00d6k\u00f6l"
     }, 
-    "5018": {
-        "alt": [
-            "Used to specify a loadout slot in blueprints"
-        ], 
-        "type": "Craft Item", 
-        "description": "Hely-token - PDA2"
+    "194": {
+        "type": "K\u00e9s", 
+        "description": "K\u00e9s"
     }, 
-    "5019": {
-        "alt": [
-            "Used to specify a loadout slot in blueprints"
-        ], 
-        "type": "Craft Item", 
-        "description": "Hely-token - Fej"
+    "197": {
+        "type": "Franciakulcs", 
+        "description": "Franciakulcs"
+    }, 
+    "196": {
+        "type": "\u00c1s\u00f3", 
+        "description": "\u00c1s\u00f3"
+    }, 
+    "191": {
+        "type": "Palack", 
+        "description": "Palack"
+    }, 
+    "190": {
+        "type": "\u00dct\u0151", 
+        "description": "\u00dct\u0151"
+    }, 
+    "193": {
+        "type": "Kukri", 
+        "description": "Kukri"
+    }, 
+    "192": {
+        "type": "T\u0171zolt\u00f3fejsze", 
+        "description": "T\u0171zolt\u00f3fejsze"
     }, 
     "115": {
-        "type": "Holiday Hat", 
-        "description": "Mildly Disturbing Halloween Mask"
+        "alt": [
+            "Brown paper never looked so mildly disturbing."
+        ], 
+        "type": "\u00dcnnepi sapka", 
+        "description": "Enyh\u00e9n ijeszt\u0151 Halloween-\u00e1larc"
+    }, 
+    "177": {
+        "alt": [
+            "Semmi"
+        ], 
+        "type": "Hat", 
+        "description": "Ze Goggles"
     }, 
     "117": {
+        "alt": [
+            "His bullet was close.\\nI lost my hat.\\nMy bullet was closer.\\nHe lost his head."
+        ], 
         "type": "Hat", 
-        "description": "Ritzy Rick's Hair Fixative"
+        "description": "Ritzy Rick sir\u00e1ly s\u00e9r\u00f3ja"
     }, 
     "116": {
         "alt": [
-            "Embroidered initials say 'Z.M.'"
+            "A 'Z.M.' monogram van beleh\u00edmezve"
         ], 
         "type": "Hat", 
-        "description": "Ghastly Gibus"
+        "description": "Roggyant cilinder"
     }, 
     "111": {
+        "alt": [
+            "Everyone knows that speed is a Scout\u2019s best friend. Why weigh yourself down with bulky hats when you can break the sound barrier without them?"
+        ], 
         "type": "Hat", 
-        "description": "Baseball Bill's Sports Shine"
+        "description": "Baseball Bill bel\u0151tt b\u00far\u00e1ja"
     }, 
     "110": {
+        "alt": [
+            "Only a master of Jarate earns the right to wear this once-white bandanna, stained yellow from the rigors of a harsh training regimen."
+        ], 
         "type": "Hat", 
-        "description": "Master's Yellow Belt"
+        "description": "Mesteri s\u00e1rga kend\u0151"
+    }, 
+    "253": {
+        "alt": [
+            "Clears all sorts of blockage."
+        ], 
+        "type": "Hat", 
+        "description": "Handyman's Handle"
+    }, 
+    "205": {
+        "type": "Rak\u00e9tavet\u0151", 
+        "description": "Rak\u00e9tavet\u0151"
     }, 
     "118": {
+        "alt": [
+            "Sometimes you just need a little less hat."
+        ], 
         "type": "Hat", 
-        "description": "Texas Slim's Dome Shine"
+        "description": "Texas Slim kop\u00e1r kobakja"
+    }, 
+    "165": {
+        "alt": [
+            "Sure, some may have been doing it longer. But you've proven few can do it better."
+        ], 
+        "type": "Badge", 
+        "description": "Soldier of Fortune"
+    }, 
+    "143": {
+        "alt": [
+            "OSX represent!"
+        ], 
+        "type": "Hat", 
+        "description": "Earbuds"
+    }, 
+    "174": {
+        "alt": [
+            "You'd have to be a jughead not to realize this cap is the pinnacle of fashion for the discerning youth."
+        ], 
+        "type": "Hat", 
+        "description": "Whoopee Cap"
+    }, 
+    "140": {
+        "alt": [
+            "K\u00e9zi ir\u00e1ny\u00edt\u00e1sra kapcsolhatod az \u0151rtornyodat"
+        ], 
+        "type": "Laser Pointer", 
+        "description": "Wrangler"
+    }, 
+    "141": {
+        "positive": [
+            "Ha elpuszt\u00edtj\u00e1k az \u0151rtornyodat, minden, az \u0151rtorony\r\n\u00e1ltal meg\u00f6lt ellens\u00e9g\u00e9rt kritikus tal\u00e1latot kapsz"
+        ], 
+        "type": "S\u00f6r\u00e9tes puska", 
+        "negative": [
+            "Nincs v\u00e9letlenszer\u0171 kritikus tal\u00e1lat", 
+            "-50% t\u00e1rm\u00e9ret"
+        ], 
+        "description": "Frontier Justice"
     }, 
     "3": {
         "type": "Kukri", 
         "description": "Kukri"
     }, 
+    "171": {
+        "positive": [
+            "Tal\u00e1latkor: V\u00e9rz\u00e9s 6 m\u00e1sodpercig"
+        ], 
+        "type": "Kukri", 
+        "negative": [
+            "-50% okozott sebz\u00e9s"
+        ], 
+        "description": "Tribalman's Shiv"
+    }, 
     "7": {
-        "type": "Wrench", 
-        "description": "Wrench"
+        "type": "Franciakulcs", 
+        "description": "Franciakulcs"
+    }, 
+    "146": {
+        "alt": [
+            "TF_DemomanHallmark_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "Hustler's Hallmark"
+    }, 
+    "170": {
+        "alt": [
+            "A true warrior's medal, given to those who fought before the battle even started."
+        ], 
+        "type": "Badge", 
+        "description": "Primeval Warrior"
     }, 
     "other_attributes": {
-        "133": "\u00c9rem sz\u00e1ma %s1", 
-        "132": "Tekintettel arra, hogy \u00e9rt\u00e9kes k\u00f6z\u00f6ss\u00e9gi Szerz\u0151k", 
-        "143": "Hire Date: %s1", 
+        "133": "Medal sz\u00e1ma %s1", 
+        "132": "Tekintettel arra, hogy \u00e9rt\u00e9kes k\u00f6z\u00f6ss\u00e9gi hozz\u00e1j\u00e1rul\u00f3", 
+        "143": "Hire D\u00e1tum: %s1", 
         "147": "Csavarkulcs sz\u00e1ma %s1"
     }, 
     "5003": {
         "alt": [
-            "Used to specify a class in blueprints"
+            "A tervrajzok oszt\u00e1ly-meghat\u00e1roz\u00e1s\u00e1ra szolg\u00e1l"
         ], 
         "type": "Craft Item", 
         "description": "Class Token - Scout"
@@ -376,150 +591,296 @@
     }, 
     "5007": {
         "alt": [
-            "Used to specify a class in blueprints"
+            "A tervrajzok oszt\u00e1ly-meghat\u00e1roz\u00e1s\u00e1ra szolg\u00e1l"
         ], 
         "type": "Craft Item", 
         "description": "Class Token - Heavy"
     }, 
     "5006": {
         "alt": [
-            "Used to specify a class in blueprints"
+            "A tervrajzok oszt\u00e1ly-meghat\u00e1roz\u00e1s\u00e1ra szolg\u00e1l"
         ], 
         "type": "Craft Item", 
         "description": "Class Token - Demoman"
     }, 
     "5005": {
         "alt": [
-            "Used to specify a class in blueprints"
+            "A tervrajzok oszt\u00e1ly-meghat\u00e1roz\u00e1s\u00e1ra szolg\u00e1l"
         ], 
         "type": "Craft Item", 
         "description": "Class Token - Soldier"
     }, 
     "5004": {
         "alt": [
-            "Used to specify a class in blueprints"
+            "A tervrajzok oszt\u00e1ly-meghat\u00e1roz\u00e1s\u00e1ra szolg\u00e1l"
         ], 
         "type": "Craft Item", 
         "description": "Class Token - Sniper"
     }, 
     "5009": {
         "alt": [
-            "Used to specify a class in blueprints"
+            "A tervrajzok oszt\u00e1ly-meghat\u00e1roz\u00e1s\u00e1ra szolg\u00e1l"
         ], 
         "type": "Craft Item", 
         "description": "Class Token - Pyro"
     }, 
     "5008": {
         "alt": [
-            "Used to specify a class in blueprints"
+            "A tervrajzok oszt\u00e1ly-meghat\u00e1roz\u00e1s\u00e1ra szolg\u00e1l"
         ], 
         "type": "Craft Item", 
         "description": "Class Token - Medic"
     }, 
-    "108": {
+    "245": {
+        "alt": [
+            "Earned at level 75.\\nThis badge tracks your duel statistics.\\nIncrease its level by winning duels!"
+        ], 
+        "type": "Badge", 
+        "description": "Platinum Dueling Badge"
+    }, 
+    "244": {
+        "alt": [
+            "Earned at level 50.\\nThis badge tracks your duel statistics.\\nIncrease its level by winning duels!"
+        ], 
+        "type": "Badge", 
+        "description": "Gold Dueling Badge"
+    }, 
+    "247": {
+        "alt": [
+            "This hat adds spice to any occasion."
+        ], 
         "type": "Hat", 
-        "description": "Backbiter's Billycock"
+        "description": "Old Guadalajara"
     }, 
     "109": {
+        "alt": [
+            "A polite, efficient hat to wear when killing everyone you meet."
+        ], 
         "type": "Hat", 
-        "description": "Professional's Panama"
+        "description": "Profi panamakalap"
     }, 
     "9003": {
         "positive": [
-            "Kitiltja Steam v\u00e9ve j\u00e1t\u00e9kos meghalt", 
-            "Ez a t\u00e9tel nem val\u00f3s\u00e1gos, \u00e9s csak egy vicc."
+            "Kitiltja Steam fi\u00f3k a j\u00e1t\u00e9kos meghalt", 
+            "Ez az elem nem val\u00f3s, \u00e9s csak egy vicc."
         ], 
         "type": "Mallet a sz\u00e1m\u0171zet\u00e9s", 
         "description": "Ban Hammer"
     }, 
     "240": {
+        "alt": [
+            "TF_Worms_Gear_Desc"
+        ], 
         "type": "Hat", 
         "description": "Lumbricus Lid"
     }, 
+    "243": {
+        "alt": [
+            "Earned at level 25.\\nThis badge tracks your duel statistics.\\nIncrease its level by winning duels!"
+        ], 
+        "type": "Badge", 
+        "description": "Silver Dueling Badge"
+    }, 
+    "242": {
+        "alt": [
+            "This badge tracks your duel statistics.\\nIncrease its level by winning duels!"
+        ], 
+        "type": "Badge", 
+        "description": "Bronze Dueling Badge"
+    }, 
     "102": {
+        "alt": [
+            "It doesn't matter how much people respect you when they're on fire."
+        ], 
         "type": "Hat", 
-        "description": "Respectless Rubber Glove"
+        "description": "G\u00fanyos gumikeszty\u0171"
     }, 
     "103": {
+        "alt": [
+            "You wouldn't mind if I read this top secret document with my beard, would you?"
+        ], 
         "type": "Hat", 
-        "description": "Camera Beard"
+        "description": "F\u00e9nyk\u00e9pez\u0151-szak\u00e1ll"
     }, 
     "100": {
+        "alt": [
+            "TF_Demo_Scott_Hat_Desc"
+        ], 
         "type": "Hat", 
-        "description": "Glengarry Bonnet"
+        "description": "Glengarry sapka"
     }, 
     "101": {
+        "alt": [
+            "TF_Medic_Tyrolean_Hat_Desc"
+        ], 
         "type": "Hat", 
-        "description": "Vintage Tyrolean"
+        "description": "Tiroli kalap"
     }, 
     "106": {
+        "alt": [
+            "When drinking one radioactive beverage at a time is not enough."
+        ], 
         "type": "Hat", 
-        "description": "Bonk Helm"
+        "description": "Poff! Sisak"
     }, 
     "107": {
+        "alt": [
+            "Extra! Extra! You're frickin' dead!"
+        ], 
         "type": "Hat", 
-        "description": "Ye Olde Baker Boy"
+        "description": "Rikkancs-sapka"
     }, 
     "104": {
+        "alt": [
+            "We can't pronounce it either."
+        ], 
         "type": "Hat", 
-        "description": "Otolaryngologist's Mirror"
+        "description": "F\u00fclorrg\u00e9g\u00e9sz-t\u00fck\u00f6r"
     }, 
     "105": {
+        "alt": [
+            "TF_Pyro_Fireman_Helmet_Desc"
+        ], 
         "type": "Hat", 
-        "description": "Brigade Helm"
+        "description": "T\u0171zolt\u00f3siak"
     }, 
     "39": {
-        "type": "Flare Gun", 
-        "description": "The Flare Gun"
+        "type": "Rak\u00e9tapisztoly", 
+        "description": "A Rak\u00e9tapisztoly"
     }, 
     "38": {
         "positive": [
             "100% kritikus tal\u00e1lat \u00e9g\u0151 j\u00e1t\u00e9kosokon"
         ], 
-        "type": "Fire Axe", 
+        "type": "T\u0171zolt\u00f3fejsze", 
         "negative": [
             "Nincs kritikus tal\u00e1lat nem \u00e9g\u0151 j\u00e1t\u00e9kosokon", 
             "-50% sebz\u00e9s nem \u00e9g\u0151 j\u00e1t\u00e9kosokon"
         ], 
-        "description": "The Axtinguisher"
-    }, 
-    "33": {
-        "type": "Syringe Gun", 
-        "description": "Syringe Gun"
-    }, 
-    "32": {
-        "type": "Bonesaw", 
-        "description": "Bonesaw"
-    }, 
-    "31": {
-        "type": "Flare Gun", 
-        "description": "Flare Gun"
+        "description": "A Fejhasogat\u00f3"
     }, 
     "30": {
-        "type": "Invis Watch", 
-        "description": "Invis Watch"
+        "type": "\u00c1lca-\u00f3ra", 
+        "description": "\u00c1lca-\u00f3ra"
     }, 
     "37": {
-        "type": "Bonesaw", 
+        "type": "Csontf\u0171r\u00e9sz", 
         "negative": [
             "-20% alacsonyabb t\u0171zgyorsas\u00e1g"
         ], 
-        "description": "The Ubersaw"
+        "description": "Az Agyonf\u0171r\u00e9sz"
     }, 
-    "36": {
-        "positive": [
-            "Tal\u00e1latkor: +3 eg\u00e9szs\u00e9g"
+    "108": {
+        "alt": [
+            "For when you wish your head was a little taller,\\nbut just as round on top."
         ], 
-        "type": "Syringe Gun", 
-        "description": "The Blutsauger"
+        "type": "Hat", 
+        "description": "Kem\u00e9nykalap, h\u00e1tbad\u00f6f"
     }, 
     "35": {
-        "type": "Medi Gun", 
-        "description": "The Kritzkrieg"
+        "type": "Gy\u00f3gypuska", 
+        "description": "A F\u0151Gy\u00f3gy\u00c1sz"
     }, 
-    "34": {
-        "type": "Medi Gun", 
-        "description": "Medi Gun"
+    "246": {
+        "alt": [
+            ""
+        ], 
+        "type": "Hat", 
+        "description": "Pugilist's Protector"
+    }, 
+    "94": {
+        "alt": [
+            "Though it looks like a simple ten-gallon hat, this modern feat of engineering actually contains more moving parts than a level 2 Sentry Gun."
+        ], 
+        "type": "Hat", 
+        "description": "Texasi cowboykalap"
+    }, 
+    "241": {
+        "alt": [
+            "Is an enemy player questioning your skills, personal hygiene, and/or ancestry?\\nUse these stylish firearms to challenge them to a duel!\\nSee the Mann Co. Catalog for full details."
+        ], 
+        "type": "Usable Item", 
+        "description": "Dueling Mini-Game"
+    }, 
+    "5038": {
+        "alt": [
+            "Used to paint other items.", 
+            "Ezt \u00e9n csin\u00e1ltam!"
+        ], 
+        "type": "Tool", 
+        "description": "Aged Moustache Grey"
+    }, 
+    "5039": {
+        "alt": [
+            "Used to paint other items.", 
+            "Ezt \u00e9n csin\u00e1ltam!"
+        ], 
+        "type": "Tool", 
+        "description": "An Extraordinary Abundance of Tinge"
+    }, 
+    "5036": {
+        "alt": [
+            "Used to paint other items.", 
+            "Ezt \u00e9n csin\u00e1ltam!"
+        ], 
+        "type": "Tool", 
+        "description": "Ye Olde Rustic Colour"
+    }, 
+    "5037": {
+        "alt": [
+            "Used to paint other items.", 
+            "Ezt \u00e9n csin\u00e1ltam!"
+        ], 
+        "type": "Tool", 
+        "description": "Australium Gold"
+    }, 
+    "5034": {
+        "alt": [
+            "Used to paint other items.", 
+            "Ezt \u00e9n csin\u00e1ltam!"
+        ], 
+        "type": "Tool", 
+        "description": "Peculiarly Drab Tincture"
+    }, 
+    "5035": {
+        "alt": [
+            "Used to paint other items.", 
+            "Ezt \u00e9n csin\u00e1ltam!"
+        ], 
+        "type": "Tool", 
+        "description": "Radigan Conagher Brown"
+    }, 
+    "5032": {
+        "alt": [
+            "Used to paint other items.", 
+            "Ezt \u00e9n csin\u00e1ltam!"
+        ], 
+        "type": "Tool", 
+        "description": "Mann Co. Orange"
+    }, 
+    "5033": {
+        "alt": [
+            "Used to paint other items.", 
+            "Ezt \u00e9n csin\u00e1ltam!"
+        ], 
+        "type": "Tool", 
+        "description": "Muskelmannbraun"
+    }, 
+    "5030": {
+        "alt": [
+            "Used to paint other items.", 
+            "Ezt \u00e9n csin\u00e1ltam!"
+        ], 
+        "type": "Tool", 
+        "description": "Color No. 216-190-216"
+    }, 
+    "5031": {
+        "alt": [
+            "Used to paint other items.", 
+            "Ezt \u00e9n csin\u00e1ltam!"
+        ], 
+        "type": "Tool", 
+        "description": "A Deep Commitment to Purple"
     }, 
     "60": {
         "positive": [
@@ -528,279 +889,559 @@
         "alt": [
             "\u00c1lcat\u00edpus: Mozg\u00e1s\u00e9rz\u00e9kenys\u00e9g"
         ], 
-        "type": "Invis Watch", 
-        "description": "The Cloak and Dagger"
+        "type": "\u00c1lca-\u00f3ra", 
+        "description": "Az \u00c1llva\u00e1lca"
     }, 
     "61": {
         "positive": [
             "A pontos fejl\u00f6v\u00e9s kritikus sebz\u00e9st okoz"
         ], 
-        "type": "Revolver", 
+        "type": "Forg\u00f3pisztoly", 
         "negative": [
             "-15% okozott sebz\u00e9s", 
             "-20% alacsonyabb t\u0171zgyorsas\u00e1g"
         ], 
-        "description": "The Ambassador"
+        "description": "A Nagyk\u00f6vet"
+    }, 
+    "259": {
+        "alt": [
+            "Suffer not a sentry to live."
+        ], 
+        "type": "Hat", 
+        "description": "Carouser's Capotain"
     }, 
     "97": {
+        "alt": [
+            "Because when you're the toughest Mother Hubbard in the fort, nobody's criticizing your fashion sense."
+        ], 
         "type": "Hat", 
-        "description": "Tough Guy's Toque"
+        "description": "A nagyfi\u00fa sapija"
     }, 
     "179": {
+        "alt": [
+            "Three sharp corners mean one sharp hat.\\nDon't poke your eye out."
+        ], 
         "type": "Hat", 
         "description": "Tippler's Tricorne"
     }, 
     "178": {
+        "alt": [
+            "It gets difficult trying to calculate the total external applied torque to a body's rotational motion through its moment of momentum vector while the distracting sounds of gunfire and death are all around you. Build a better, safer machine with the silence of the Safe'n'sound!"
+        ], 
         "type": "Hat", 
         "description": "Safe'n'Sound"
     }, 
-    "177": {
+    "252": {
         "alt": [
-            "Nothing"
+            ""
         ], 
         "type": "Hat", 
-        "description": "Ze Goggles"
+        "description": "Dr's Dapper Topper"
+    }, 
+    "5014": {
+        "alt": [
+            "A tervrajzok felszerel\u00e9shely-meghat\u00e1roz\u00e1s\u00e1ra szolg\u00e1l"
+        ], 
+        "type": "Craft Item", 
+        "description": "Hely-token - K\u00f6zelharc"
     }, 
     "175": {
+        "alt": [
+            "The most distinguished tape-on fire-retardant facial hair available, for the discerning gentleman of conflagration."
+        ], 
         "type": "Hat", 
         "description": "Whiskered Gentleman"
     }, 
-    "174": {
+    "251": {
+        "alt": [
+            "The grand achievement of\\nVictorian military fashion."
+        ], 
         "type": "Hat", 
-        "description": "Whoopee Cap"
+        "description": "Stout Shako"
+    }, 
+    "173": {
+        "type": "Csontf\u0171r\u00e9sz", 
+        "negative": [
+            "-10 maxim\u00e1lis eg\u00e9szs\u00e9g a visel\u0151nek"
+        ], 
+        "description": "Vita-Saw"
     }, 
     "172": {
         "positive": [
             "+20% okozott sebz\u00e9s"
         ], 
-        "type": "Axe", 
+        "type": "Fejsze", 
         "negative": [
             "15% lassabb mozg\u00e1s visel\u00e9skor"
         ], 
-        "description": "The Scotsman's Skullcutter"
+        "description": "Scotsman's Skullcutter"
     }, 
-    "171": {
-        "positive": [
-            "Tal\u00e1latkor: V\u00e9rz\u00e9s 6 m\u00e1sodpercig"
+    "254": {
+        "alt": [
+            "You can never be too careful\\nwith Jarate around."
         ], 
-        "type": "Kukri", 
-        "negative": [
-            "-50% okozott sebz\u00e9s"
-        ], 
-        "description": "The Tribalman's Shiv"
+        "type": "Hat", 
+        "description": "Hard Counter"
     }, 
-    "170": {
-        "type": "Badge", 
-        "description": "Primeval Warrior"
+    "255": {
+        "alt": [
+            "A sticky-jumper's best friend."
+        ], 
+        "type": "Hat", 
+        "description": "Sober Stuntman"
+    }, 
+    "249": {
+        "alt": [
+            "Death from above!"
+        ], 
+        "type": "Hat", 
+        "description": "Bombing Run"
+    }, 
+    "145": {
+        "alt": [
+            "Your opponents will be all shook up when they see these sweet shades and coif."
+        ], 
+        "type": "Hat", 
+        "description": "S\u00e9r\u00f3"
+    }, 
+    "248": {
+        "alt": [
+            "After a long day of burning scouts."
+        ], 
+        "type": "Hat", 
+        "description": "Napper's Respite"
     }, 
     "182": {
+        "alt": [
+            "Pyro wears this in tribute to the many firefighters who have perished trying to quell his flames."
+        ], 
         "type": "Hat", 
         "description": "Vintage Merryweather"
     }, 
     "183": {
+        "alt": [
+            "This hat is a handy replacement for profanity-filled ranting when you don't feel like shouting yourself hoarse."
+        ], 
         "type": "Hat", 
         "description": "Sergeant's Drill Hat"
     }, 
     "180": {
+        "alt": [
+            "Because real espionage is an artform."
+        ], 
         "type": "Hat", 
         "description": "Frenchman's Beret"
     }, 
     "181": {
+        "alt": [
+            "Gone Snipin'."
+        ], 
         "type": "Hat", 
         "description": "Bloke's Bucket Hat"
     }, 
     "184": {
+        "alt": [
+            "While lacking the cachet of other hats, the Gatsby nonetheless possesses its own sartorial elegance. Its understated and affable charm appeals to everyone, whether playing a round of golf with friends or performing non-elective surgery with a well-polished bonesaw."
+        ], 
         "type": "Hat", 
         "description": "Gentleman's Gatsby"
     }, 
     "6": {
-        "type": "Shovel", 
-        "description": "Shovel"
+        "type": "\u00c1s\u00f3", 
+        "description": "\u00c1s\u00f3"
+    }, 
+    "250": {
+        "alt": [
+            ""
+        ], 
+        "type": "Hat", 
+        "description": "Chieftan's Challenge"
     }, 
     "189": {
+        "alt": [
+            "This cute little guy was once the scourge of humanity in another time and place. Now he's content to ride on your head and keep the sun off."
+        ], 
         "type": "Hat", 
-        "description": "Alien Swarm Parasite"
+        "description": "Alien Swarm Parazita"
+    }, 
+    "5029": {
+        "alt": [
+            "Used to paint other items.", 
+            "Ezt \u00e9n csin\u00e1ltam!"
+        ], 
+        "type": "Tool", 
+        "description": "Noble Hatter's Violet"
+    }, 
+    "5028": {
+        "alt": [
+            "Used to paint other items.", 
+            "Ezt \u00e9n csin\u00e1ltam!"
+        ], 
+        "type": "Tool", 
+        "description": "Zephaniah's Greed"
+    }, 
+    "221": {
+        "alt": [
+            "Getting hit by a fish has got to be humiliating."
+        ], 
+        "type": "Fish", 
+        "description": "Holy Mackerel"
+    }, 
+    "5021": {
+        "alt": [
+            "Used to open locked supply crates."
+        ], 
+        "type": "Tool", 
+        "description": "Mann Co. Supply Crate Key"
+    }, 
+    "5020": {
+        "alt": [
+            "Changes the name of an item in your backpack"
+        ], 
+        "type": "Tool", 
+        "description": "Name Tag"
+    }, 
+    "5023": {
+        "alt": [
+            "Used to paint other items.", 
+            "Ezt \u00e9n csin\u00e1ltam!"
+        ], 
+        "type": "Tool", 
+        "description": "Paint Can"
     }, 
     "185": {
+        "alt": [
+            "It costs $400,000 to wear this bandanna for 12 seconds."
+        ], 
         "type": "Hat", 
         "description": "Heavy Duty Rag"
     }, 
+    "5027": {
+        "alt": [
+            "Used to paint other items.", 
+            "Ezt \u00e9n csin\u00e1ltam!"
+        ], 
+        "type": "Tool", 
+        "description": "Indubitably Green"
+    }, 
     "99": {
+        "alt": [
+            "I kicked your ass so hard it went back in time and got me this VIKING HAT."
+        ], 
         "type": "Hat", 
-        "description": "Tyrant's Helm"
+        "description": "Zsarnok-sisak"
     }, 
     "98": {
+        "alt": [
+            "Protects cranium from bullets and shrapnel.\\nAlso heats soup."
+        ], 
         "type": "Hat", 
-        "description": "Stainless Pot"
+        "description": "Rohamfaz\u00e9k"
     }, 
     "169": {
         "positive": [
             "\u0150si hatalommal felv\u00e9rtezve"
         ], 
-        "type": "Wrench", 
-        "description": "The Golden Wrench"
+        "type": "Franciakulcs", 
+        "description": "Az Arany franciakulcs"
     }, 
-    "164": {
-        "type": "Badge", 
-        "description": "Grizzled Veteran"
+    "229": {
+        "alt": [
+            "TF_OlSnaggletooth_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "Ol' Snaggletooth"
     }, 
-    "165": {
-        "type": "Badge", 
-        "description": "Soldier of Fortune"
+    "228": {
+        "positive": [
+            "Tal\u00e1latkor: +15 eg\u00e9szs\u00e9g"
+        ], 
+        "type": "Rak\u00e9tavet\u0151", 
+        "negative": [
+            "-25% t\u00e1rm\u00e9ret"
+        ], 
+        "description": "Black Box"
     }, 
-    "166": {
-        "type": "Badge", 
-        "description": "Mercenary"
+    "227": {
+        "alt": [
+            "TF_TheGrenadiersSoftcap_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "Grenadier's Softcap"
+    }, 
+    "226": {
+        "alt": [
+            "Provides a defensive buff that protects\\nnearby team members from crits\\nand blocks 35% of incoming damage.\\nRage increases through damage taken."
+        ], 
+        "type": "Battle Banner", 
+        "description": "Battalion's Backup"
+    }, 
+    "225": {
+        "type": "K\u00e9s", 
+        "description": "Your Eternal Reward"
+    }, 
+    "224": {
+        "type": "Forg\u00f3pisztoly", 
+        "negative": [
+            "-20% okozott sebz\u00e9s"
+        ], 
+        "description": "L'Etranger"
     }, 
     "160": {
         "alt": [
-            "The ultimate in semi-concealed weaponry.\\nThere\u2019s no question you need this gun,\\nthe only question is: where will you keep it?"
+            "A legt\u00f6k\u00e9letesebb r\u00e9szben fedve hordhat\u00f3 fegyver.\r\nAz nem k\u00e9rd\u00e9s, hogy sz\u00fcks\u00e9ged van-e\r\nr\u00e1, az viszont igen, hogy hol fogod tartani."
         ], 
-        "type": "Pistol", 
-        "description": "The Lugermorph"
+        "type": "Pisztoly", 
+        "description": "Lugermorph"
     }, 
     "161": {
         "alt": [
-            "Combines style with stopping power.\\nLong exclusive to Freelance Police,\\nnow available for other blood-thirsty mercenaries."
+            "St\u00edlus \u00e9s puszt\u00edt\u00f3er\u0151 egyben.\r\nSok\u00e1ig csak az \u00d6njel\u00f6lt Rend\u0151rs\u00e9g haszn\u00e1lhatta, de mostant\u00f3l\r\nminden v\u00e9rszomjas zsoldos sz\u00e1m\u00e1ra el\u00e9rhet\u0151."
         ], 
-        "type": "Revolver", 
-        "description": "The Big Kill"
+        "type": "Forg\u00f3pisztoly", 
+        "description": "A Nagy Gyilok"
     }, 
     "162": {
         "alt": [
             "Expertly crafted headwear from cruelty-free farms\\nin the Philippines. Hollowed-out skull casing wicks\\nmoisture away when in the heat of battle."
         ], 
         "type": "Hat", 
-        "description": "Max's Severed Head"
+        "description": "Max lev\u00e1gott feje"
     }, 
-    "163": {
+    "220": {
         "alt": [
-            "While under the effects, damage done\\nand damage taken will be mini-crits.", 
-            "+50 maxim\u00e1lis eg\u00e9szs\u00e9get ad 30 m\u00e1sodpercig"
+            "Mann Co.'s latest in high attitude\\nbreak-action personal defense."
         ], 
-        "type": "Lunch Box", 
-        "description": "Crit-a-Cola"
+        "type": "Peppergun", 
+        "description": "Shortstop"
     }, 
     "11": {
-        "type": "Shotgun", 
-        "description": "Shotgun"
+        "type": "S\u00f6r\u00e9tes puska", 
+        "description": "S\u00f6r\u00e9tes puska"
     }, 
     "10": {
-        "type": "Shotgun", 
-        "description": "Shotgun"
+        "type": "S\u00f6r\u00e9tes puska", 
+        "description": "S\u00f6r\u00e9tes puska"
     }, 
     "13": {
-        "type": "Scattergun", 
-        "description": "Scattergun"
+        "type": "Repeszpuska", 
+        "description": "Repeszpuska"
     }, 
     "12": {
-        "type": "Shotgun", 
-        "description": "Shotgun"
+        "type": "S\u00f6r\u00e9tes puska", 
+        "description": "S\u00f6r\u00e9tes puska"
     }, 
     "15": {
-        "type": "Minigun", 
-        "description": "Minigun"
+        "type": "G\u00e9p\u00e1gy\u00fa", 
+        "description": "G\u00e9p\u00e1gy\u00fa"
     }, 
     "14": {
-        "type": "Sniper Rifle", 
-        "description": "Sniper Rifle"
+        "type": "Mesterl\u00f6v\u00e9sz-puska", 
+        "description": "Mesterl\u00f6v\u00e9sz-puska"
     }, 
     "17": {
-        "type": "Syringe Gun", 
-        "description": "Syringe Gun"
+        "type": "Olt\u00f3pisztoly", 
+        "description": "Olt\u00f3pisztoly"
     }, 
     "16": {
-        "type": "SMG", 
-        "description": "SMG"
+        "type": "G\u00e9ppisztoly", 
+        "description": "G\u00e9ppisztoly"
     }, 
     "19": {
-        "type": "Grenade Launcher", 
-        "description": "Grenade Launcher"
+        "type": "Gr\u00e1n\u00e1tvet\u0151", 
+        "description": "Gr\u00e1n\u00e1tvet\u0151"
     }, 
     "18": {
-        "type": "Rocket Launcher", 
-        "description": "Rocket Launcher"
+        "type": "Rak\u00e9tavet\u0151", 
+        "description": "Rak\u00e9tavet\u0151"
+    }, 
+    "164": {
+        "alt": [
+            "Display this on your chest proudly, soldier. Each time you kill someone, they'll know they weren't the first."
+        ], 
+        "type": "Badge", 
+        "description": "Grizzled Veteran"
+    }, 
+    "5022": {
+        "alt": [
+            "You need a Mann Co. Supply Crate Key to open this.\\nYou can pick one up at the Mann Co. Store."
+        ], 
+        "type": "TF_LockedCrate", 
+        "description": "Mann Co. Supply Crate"
     }, 
     "151": {
+        "alt": [
+            "At least he's still telling you to burn things."
+        ], 
         "type": "Hat", 
         "description": "Triboniophorus Tyrannus"
     }, 
     "150": {
+        "alt": [
+            "Straight outta control point."
+        ], 
         "type": "Hat", 
-        "description": "Troublemaker's Tossle Cap"
+        "description": "K\u00f6t\u00f6tt k\u00f6teked\u0151"
     }, 
     "153": {
         "positive": [
             "A sebz\u00e9s elt\u00e1vol\u00edtja a mentes\u00edt\u0151ket", 
             "100% sebz\u00e9s \u00e9p\u00edtm\u00e9nyek ellen"
         ], 
-        "type": "Sledgehammer", 
+        "type": "P\u00f6r\u00f6lykalap\u00e1cs", 
         "negative": [
             "-25% sebz\u00e9s j\u00e1t\u00e9kosok ellen"
         ], 
-        "description": "The Homewrecker"
+        "description": "A Laklerendez\u0151"
     }, 
     "152": {
+        "alt": [
+            "A Haiku for war.\\nTo defeat one's enemies.\\nHonor the crocket."
+        ], 
         "type": "Hat", 
-        "description": "Killer's Kabuto"
+        "description": "Gyilkos kabuto"
     }, 
     "155": {
         "positive": [
             "Tal\u00e1latkor: V\u00e9rz\u00e9s 5 m\u00e1sodpercig"
         ], 
-        "type": "Wrench", 
+        "type": "Franciakulcs", 
         "negative": [
             "Nincs v\u00e9letlenszer\u0171 kritikus tal\u00e1lat", 
             "20% t\u0171zzel szembeni sebezhet\u0151s\u00e9g visel\u00e9skor"
         ], 
-        "description": "The Southern Hospitality"
+        "description": "Southern Hospitality"
     }, 
     "154": {
         "positive": [
             "+1 foglal\u00e1si sebess\u00e9g visel\u00e9skor"
         ], 
-        "type": "Makeshift Club", 
+        "type": "R\u00f6gt\u00f6nz\u00f6tt bunk\u00f3", 
         "negative": [
             "10% l\u00f6ved\u00e9kekkel szembeni sebezhet\u0151s\u00e9g visel\u00e9skor"
         ], 
-        "description": "The Pain Train"
+        "description": "Pain Train"
     }, 
     "159": {
         "positive": [
             "+50 maxim\u00e1lis eg\u00e9szs\u00e9get ad 30 m\u00e1sodpercig"
         ], 
-        "type": "Lunch Box", 
-        "description": "The Dalokohs Bar"
+        "type": "Uzsonn\u00e1s doboz", 
+        "description": "Dalokohs Bar"
     }, 
     "158": {
+        "alt": [
+            "Perfect for exploring the outback and the inside of people's heads."
+        ], 
         "type": "Hat", 
-        "description": "Shooter's Sola Topi"
+        "description": "Szafari-kalap"
+    }, 
+    "36": {
+        "positive": [
+            "Tal\u00e1latkor: +3 eg\u00e9szs\u00e9g"
+        ], 
+        "type": "Olt\u00f3pisztoly", 
+        "negative": [
+            "-2 m\u00e1sodpercenk\u00e9nti eg\u00e9szs\u00e9gelvon\u00e1s visel\u00e9skor"
+        ], 
+        "description": "A V\u00e9rszivatty\u00fa"
+    }, 
+    "239": {
+        "positive": [
+            "+30% gyorsabb mozg\u00e1s visel\u00e9skor"
+        ], 
+        "alt": [
+            "M\u00edg a fegyver akt\u00edv:"
+        ], 
+        "type": "\u00d6k\u00f6l", 
+        "negative": [
+            "-50% okozott sebz\u00e9s", 
+            "-6 m\u00e1sodpercenk\u00e9nti eg\u00e9szs\u00e9gelvon\u00e1s visel\u00e9skor"
+        ], 
+        "description": "Gloves of Running Urgently"
+    }, 
+    "234": {
+        "alt": [
+            "When used, this Action Item gives a random gift\\nto up to 23 other people on the server!"
+        ], 
+        "type": "Gift", 
+        "description": "Pile o' Gifts"
+    }, 
+    "237": {
+        "positive": [
+            "+200% maxim\u00e1lis els\u0151dleges l\u0151szer visel\u00e9skor"
+        ], 
+        "alt": [
+            "A special no-damage rocket launcher for learning\\nrocket jump tricks and patterns."
+        ], 
+        "type": "Rak\u00e9tavet\u0151", 
+        "negative": [
+            "-100% okozott sebz\u00e9s"
+        ], 
+        "description": "Rocket Jumper"
+    }, 
+    "230": {
+        "type": "Mesterl\u00f6v\u00e9sz-puska", 
+        "negative": [
+            "Nincs fejl\u00f6v\u00e9s"
+        ], 
+        "description": "Sydney Sleeper"
+    }, 
+    "231": {
+        "positive": [
+            "+25 maxim\u00e1lis eg\u00e9szs\u00e9g a visel\u0151nek"
+        ], 
+        "type": "Pajzs", 
+        "description": "Darwin's Danger Shield"
+    }, 
+    "232": {
+        "type": "Kukri", 
+        "negative": [
+            "20% t\u0171zzel szembeni sebezhet\u0151s\u00e9g visel\u00e9skor"
+        ], 
+        "description": "Bushwacka"
+    }, 
+    "233": {
+        "alt": [
+            "When used, this Action Item gives a random gift\\nto a random person on the server!"
+        ], 
+        "type": "Gift", 
+        "description": "Secret Saxton"
     }, 
     "48": {
+        "alt": [
+            "For Engineers with bright ideas."
+        ], 
         "type": "Hat", 
-        "description": "Mining Light"
+        "description": "B\u00e1ny\u00e1szl\u00e1mpa"
     }, 
     "49": {
+        "alt": [
+            "TF_Heavy_Hat_1_Desc"
+        ], 
         "type": "Hat", 
-        "description": "Football Helmet"
+        "description": "Amerikaifoci-sisak"
     }, 
     "46": {
-        "type": "Lunch Box", 
-        "description": "Bonk! Atomic Punch"
+        "type": "Uzsonn\u00e1s doboz", 
+        "description": "Poff! Atompuncs"
     }, 
     "47": {
+        "alt": [
+            "TF_Demo_Hat_1_Desc"
+        ], 
         "type": "Hat", 
-        "description": "Demoman's Fro"
+        "description": "Kirobban-a-fr\u00f3"
     }, 
     "44": {
         "positive": [
             "Ez az \u00fct\u0151 er\u0151s k\u00e1b\u00edt\u00f3 labd\u00e1t l\u0151 ki"
         ], 
-        "type": "Bat", 
+        "type": "\u00dct\u0151", 
         "negative": [
             "-15 maxim\u00e1lis eg\u00e9szs\u00e9g a visel\u0151nek"
         ], 
-        "description": "The Sandman"
+        "description": "A Test\u00e1pol\u00f3"
     }, 
     "45": {
         "positive": [
@@ -808,76 +1449,83 @@
             "+50% magasabb t\u0171zgyorsas\u00e1g", 
             "+20% l\u00f6ved\u00e9k l\u00f6v\u00e9senk\u00e9nt"
         ], 
-        "type": "Scattergun", 
+        "type": "Repeszpuska", 
         "negative": [
             "-60% t\u00e1rm\u00e9ret", 
             "-10% okozott sebz\u00e9s"
         ], 
-        "description": "The Force-A-Nature"
+        "description": "Az Els\u00f6pr\u00f6get\u0151"
     }, 
     "42": {
-        "type": "Lunch Box", 
-        "description": "The Sandvich"
+        "type": "Uzsonn\u00e1s doboz", 
+        "description": "A Szendvics"
     }, 
     "43": {
         "positive": [
             "\u00d6l\u00e9skor: 5 m\u00e1sodpercig 100% kritikus tal\u00e1lat"
         ], 
-        "type": "Fists", 
+        "type": "\u00d6k\u00f6l", 
         "negative": [
             "-20% alacsonyabb t\u0171zgyorsas\u00e1g"
         ], 
-        "description": "The Killing Gloves of Boxing"
+        "description": "A Gyilkos Bokszkeszty\u0171k"
     }, 
     "40": {
         "positive": [
             "100% kritikus tal\u00e1lat h\u00e1tulr\u00f3l", 
             "+14% okozott sebz\u00e9s"
         ], 
-        "type": "Flame Thrower", 
+        "type": "L\u00e1ngsz\u00f3r\u00f3", 
         "negative": [
             "Nincs v\u00e9letlenszer\u0171 kritikus tal\u00e1lat", 
             "Nincs s\u0171r\u00edtett leveg\u0151"
         ], 
-        "description": "The Backburner"
+        "description": "A Be\u00e9get\u0151"
     }, 
     "41": {
         "positive": [
             "Tal\u00e1latkor: 100% es\u00e9ly a c\u00e9lpont lass\u00edt\u00e1s\u00e1ra"
         ], 
-        "type": "Minigun", 
+        "type": "G\u00e9p\u00e1gy\u00fa", 
         "negative": [
             "-25% okozott sebz\u00e9s"
         ], 
-        "description": "Natascha"
+        "description": "Natasa"
     }, 
     "1": {
-        "type": "Bottle", 
-        "description": "Bottle"
+        "type": "Palack", 
+        "description": "Palack"
+    }, 
+    "260": {
+        "alt": [
+            "Earned by those knowledgeable few who know how to edit a web page."
+        ], 
+        "type": "Hat", 
+        "description": "Wiki Cap"
     }, 
     "5": {
-        "type": "Fists", 
-        "description": "Fists"
+        "type": "\u00d6k\u00f6l", 
+        "description": "\u00d6k\u00f6l"
     }, 
     "9": {
-        "type": "Shotgun", 
-        "description": "Shotgun"
+        "type": "S\u00f6r\u00e9tes puska", 
+        "description": "S\u00f6r\u00e9tes puska"
     }, 
-    "146": {
-        "type": "Hat", 
-        "description": "Hustler's Hallmark"
+    "201": {
+        "type": "Mesterl\u00f6v\u00e9sz-puska", 
+        "description": "Mesterl\u00f6v\u00e9sz-puska"
     }, 
-    "147": {
-        "type": "Hat", 
-        "description": "Magistrate's Mullet"
+    "200": {
+        "type": "Repeszpuska", 
+        "description": "Repeszpuska"
     }, 
-    "144": {
-        "type": "Hat", 
-        "description": "Physician's Procedure Mask"
+    "203": {
+        "type": "G\u00e9ppisztoly", 
+        "description": "G\u00e9ppisztoly"
     }, 
-    "145": {
-        "type": "Hat", 
-        "description": "Hound Dog"
+    "202": {
+        "type": "G\u00e9p\u00e1gy\u00fa", 
+        "description": "G\u00e9p\u00e1gy\u00fa"
     }, 
     "142": {
         "positive": [
@@ -885,38 +1533,125 @@
         ], 
         "type": "Robot Arm", 
         "negative": [
-            "Nincs v\u00e9letlenszer\u0171 kritikus tal\u00e1lat"
-        ], 
-        "description": "The Gunslinger"
-    }, 
-    "143": {
-        "alt": [
-            "OSX represent!"
-        ], 
-        "type": "Hat", 
-        "description": "Earbuds"
-    }, 
-    "140": {
-        "alt": [
-            "Take manual control of your Sentry Gun"
-        ], 
-        "type": "Laser Pointer", 
-        "description": "The Wrangler"
-    }, 
-    "141": {
-        "type": "Shotgun", 
-        "negative": [
             "Nincs v\u00e9letlenszer\u0171 kritikus tal\u00e1lat", 
-            "-50% t\u00e1rm\u00e9ret"
+            "Lecser\u00e9li az \u0151rtornyot egy gyorsabban \u00e9p\u00fcl\u0151 mini-\u0151rtoronyra"
         ], 
-        "description": "The Frontier Justice"
+        "description": "Gunslinger"
+    }, 
+    "204": {
+        "type": "Olt\u00f3pisztoly", 
+        "description": "Olt\u00f3pisztoly"
+    }, 
+    "207": {
+        "type": "Tapad\u00f3bomba-vet\u0151", 
+        "description": "Tapad\u00f3bomba-vet\u0151"
+    }, 
+    "206": {
+        "type": "Gr\u00e1n\u00e1tvet\u0151", 
+        "description": "Gr\u00e1n\u00e1tvet\u0151"
+    }, 
+    "209": {
+        "type": "Pisztoly", 
+        "description": "Pisztoly"
+    }, 
+    "208": {
+        "type": "L\u00e1ngsz\u00f3r\u00f3", 
+        "description": "L\u00e1ngsz\u00f3r\u00f3"
     }, 
     "148": {
+        "alt": [
+            "Mock the sun with streaks of flame as the UV rays bounce harmlessly away from your eyeballs."
+        ], 
         "type": "Hat", 
-        "description": "Hotrod"
+        "description": "\u00cdvad\u00f3"
+    }, 
+    "96": {
+        "alt": [
+            "This hat was made of bear hands.\\nThat bear was killed with bare hands."
+        ], 
+        "type": "Hat", 
+        "description": "Tiszti usanka"
+    }, 
+    "5040": {
+        "alt": [
+            "Used to paint other items.", 
+            "Ezt \u00e9n csin\u00e1ltam!"
+        ], 
+        "type": "Tool", 
+        "description": "A Distinctive Lack of Hue"
     }, 
     "2": {
-        "type": "Fire Axe", 
-        "description": "Fire Axe"
+        "type": "T\u0171zolt\u00f3fejsze", 
+        "description": "T\u0171zolt\u00f3fejsze"
+    }, 
+    "263": {
+        "alt": [
+            "TF_EllisHat_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "Ellis' Cap"
+    }, 
+    "144": {
+        "alt": [
+            "Scrub in... things are about to get messy."
+        ], 
+        "type": "Hat", 
+        "description": "Seb\u00e9szeti maszk"
+    }, 
+    "262": {
+        "alt": [
+            "Awarded to participants of the Polycount contest."
+        ], 
+        "type": "Badge", 
+        "description": "Polycount Pin"
+    }, 
+    "261": {
+        "alt": [
+            "TF_MannCoCap_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "Mann Co. Cap"
+    }, 
+    "2002": {
+        "alt": [
+            "Includes all the Polycount Soldier Items:"
+        ], 
+        "type": "Item Bundle", 
+        "description": "The Tank Buster"
+    }, 
+    "2003": {
+        "alt": [
+            "Includes all the Polycount Sniper Items:"
+        ], 
+        "type": "Item Bundle", 
+        "description": "The Croc-o-Style Kit"
+    }, 
+    "2000": {
+        "alt": [
+            "Includes all the Polycount Pyro Items:"
+        ], 
+        "type": "Item Bundle", 
+        "description": "The Gas Jockey's Gear"
+    }, 
+    "2001": {
+        "alt": [
+            "Includes all the Polycount Spy Items:"
+        ], 
+        "type": "Item Bundle", 
+        "description": "The Saharan Spy"
+    }, 
+    "2004": {
+        "alt": [
+            "Includes all the Polycount Scout Items:"
+        ], 
+        "type": "Item Bundle", 
+        "description": "The Special Delivery"
+    }, 
+    "2005": {
+        "alt": [
+            "Includes all the Polycount Contest winning entries:"
+        ], 
+        "type": "Item Bundle", 
+        "description": "Polycount Pack"
     }
 }

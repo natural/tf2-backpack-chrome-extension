@@ -436,13 +436,17 @@ var toolTip = {
 	} else if (extras) {
 	    item["alt"] = extras;
 	}
+	$("#tooltip h4").removeClass("vintage");
 	if (attrMap["134"] == "2") {
 	    $("#tooltip h4").text($("#tooltip h4").text().replace("The ", ""));
 	    $("#tooltip h4").addClass("valve");
 	} else if (attrMap["134"] == "4") {
 	    $("#tooltip h4").text($("#tooltip h4").text().replace("The ", ""));
 	    $("#tooltip h4").addClass("community");
-	}
+	} else if ($("quality", node).text() == "3") {
+	    $("#tooltip h4").text(_("vintage") + " " + $("#tooltip h4").text().replace("The ", ""));
+	    $("#tooltip h4").addClass("vintage");
+ 	}
 
 	// add the various descriptions
 	var medals = ["164", "165", "166", "170"]

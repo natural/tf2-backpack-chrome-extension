@@ -9,6 +9,11 @@
         "message-retranslated": "No change", 
         "description": "nothing changed, but have a label!"
     }, 
+    "num6": {
+        "message": "6", 
+        "message-retranslated": "6", 
+        "description": "the number 6"
+    }, 
     "profile_found": {
         "message": "\uc99d\uae30 \uc2e0\ubd84\uc99d $1 $2 \uc0ac\uc6a9\ud569\ub2c8\ub2e4.", 
         "message-retranslated": "Steam ID $1 $2 is used.", 
@@ -28,6 +33,11 @@
         "message": "3", 
         "message-retranslated": "3", 
         "description": "the number 3"
+    }, 
+    "num8": {
+        "message": "8", 
+        "message-retranslated": "8", 
+        "description": "the number 8"
     }, 
     "second": {
         "message": "\ucd08", 
@@ -128,6 +138,11 @@
         "message-retranslated": "Options", 
         "description": "options button"
     }, 
+    "vintage": {
+        "message": "\ud3ec\ub3c4\uc8fc", 
+        "message-retranslated": "Wine", 
+        "description": "vintage"
+    }, 
     "extension_default_title": {
         "message": "\ubcf4\uae30 \ud300 \uc694\uc0c8 2 Backpack", 
         "message-retranslated": "View Team Fortress 2 Backpack", 
@@ -148,10 +163,10 @@
         "message-retranslated": "View Profile", 
         "description": "count of profile views"
     }, 
-    "request_aborted": {
-        "message": "\uc694\uccad\uc774 \uc2dc\uac04 \ucd08\uacfc\ub85c \ucde8\uc18c\ub428", 
-        "message-retranslated": "Cancelled requests timeout", 
-        "description": "request aborted label"
+    "num5": {
+        "message": "5", 
+        "message-retranslated": "5", 
+        "description": "the number 5"
     }, 
     "bad_feed": {
         "message": "\ubd88\ub7c9 \ub370\uc774\ud130 \ud53c\ub4dc", 
@@ -273,6 +288,11 @@
         "message-retranslated": "Finally, the import", 
         "description": "time of last fetch"
     }, 
+    "request_aborted": {
+        "message": "\uc694\uccad\uc774 \uc2dc\uac04 \ucd08\uacfc\ub85c \ucde8\uc18c\ub428", 
+        "message-retranslated": "Cancelled requests timeout", 
+        "description": "request aborted label"
+    }, 
     "its_msg_20": {
         "message": "\uce90\uc2dc \uc2dc\uac04", 
         "message-retranslated": "Cache Time", 
@@ -292,6 +312,11 @@
         "message": "\ud300 \uc694\uc0c8 2 \ubc30\ub0ad \uad50\ud1b5", 
         "message-retranslated": "Team Fortress 2 Backpack Transportation", 
         "description": "Extension name"
+    }, 
+    "num7": {
+        "message": "7", 
+        "message-retranslated": "7", 
+        "description": "the number 7"
     }, 
     "new_item_level_prefix": {
         "message": "\ub808\ubca8", 

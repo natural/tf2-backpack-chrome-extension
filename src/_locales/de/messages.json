@@ -9,6 +9,11 @@
         "message-retranslated": "No change", 
         "description": "nothing changed, but have a label!"
     }, 
+    "num6": {
+        "message": "6", 
+        "message-retranslated": "6", 
+        "description": "the number 6"
+    }, 
     "profile_found": {
         "message": "Mit Steam ID $$2 1 f\u00fcr.", 
         "message-retranslated": "With Steam ID $$2 for 1.", 
@@ -28,6 +33,11 @@
         "message": "3", 
         "message-retranslated": "3", 
         "description": "the number 3"
+    }, 
+    "num8": {
+        "message": "8", 
+        "message-retranslated": "8", 
+        "description": "the number 8"
     }, 
     "second": {
         "message": "zweite", 
@@ -128,6 +138,11 @@
         "message-retranslated": "Options", 
         "description": "options button"
     }, 
+    "vintage": {
+        "message": "Vintage", 
+        "message-retranslated": "Vintage", 
+        "description": "vintage"
+    }, 
     "extension_default_title": {
         "message": "Zeigen Sie Ihre Team Fortress 2 Backpack", 
         "message-retranslated": "Show your Team Fortress 2 Back Pack", 
@@ -148,10 +163,10 @@
         "message-retranslated": "Profile Views", 
         "description": "count of profile views"
     }, 
-    "request_aborted": {
-        "message": "Request durch Zeit\u00fcberschreitung", 
-        "message-retranslated": "Request timed out", 
-        "description": "request aborted label"
+    "num5": {
+        "message": "5", 
+        "message-retranslated": "5", 
+        "description": "the number 5"
     }, 
     "bad_feed": {
         "message": "Bad Data Feed", 
@@ -273,6 +288,11 @@
         "message-retranslated": "Last Fetch", 
         "description": "time of last fetch"
     }, 
+    "request_aborted": {
+        "message": "Request durch Zeit\u00fcberschreitung", 
+        "message-retranslated": "Request timed out", 
+        "description": "request aborted label"
+    }, 
     "its_msg_20": {
         "message": "Cache Time", 
         "message-retranslated": "Cache Time", 
@@ -292,6 +312,11 @@
         "message": "Team Fortress 2 Backpack Access", 
         "message-retranslated": "Team Fortress 2 Back Pack Access", 
         "description": "Extension name"
+    }, 
+    "num7": {
+        "message": "7", 
+        "message-retranslated": "7", 
+        "description": "the number 7"
     }, 
     "new_item_level_prefix": {
         "message": "Ebene", 

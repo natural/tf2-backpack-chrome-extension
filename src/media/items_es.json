@@ -1,4 +1,58 @@
 {
+    "214": {
+        "positive": [
+            "Da\u00f1os causados +25%", 
+            "+75 salud recuperada al causar baja"
+        ], 
+        "type": "Martillo de Demolici\u00f3n", 
+        "negative": [
+            "Sin impactos cr\u00edticos aleatorios"
+        ], 
+        "description": "El batemartillo"
+    }, 
+    "215": {
+        "positive": [
+            "Cambio de armas 65% m\u00e1s r\u00e1pido"
+        ], 
+        "type": "Lanzallamas", 
+        "negative": [
+            "Da\u00f1o por fuego a otros: -25%"
+        ], 
+        "description": "El desengrasador"
+    }, 
+    "212": {
+        "type": "Reloj de invisibilidad", 
+        "description": "Reloj de invisibilidad"
+    }, 
+    "213": {
+        "alt": [
+            "Attendant Description"
+        ], 
+        "type": "Hat", 
+        "description": "El dependiente"
+    }, 
+    "210": {
+        "type": "Rev\u00f3lver", 
+        "description": "Rev\u00f3lver"
+    }, 
+    "211": {
+        "type": "Pistola m\u00e9dica", 
+        "description": "Pistola m\u00e9dica"
+    }, 
+    "264": {
+        "alt": [
+            "No intercambiable"
+        ], 
+        "type": "Frying Pan", 
+        "description": "The Frying Pan"
+    }, 
+    "219": {
+        "alt": [
+            "The Milkman Description"
+        ], 
+        "type": "Hat", 
+        "description": "El lechero"
+    }, 
     "133": {
         "positive": [
             "-60% de da\u00f1o explosivo por saltos con cohete"
@@ -31,48 +85,77 @@
     "130": {
         "positive": [
             "Munici\u00f3n secundaria m\u00e1xima del portador: +50%", 
-            "M\u00e1ximo de bombas desplegadas +6", 
             "Detona las bombas lapa junto a la mira", 
-            "Puede destruir las bombas lapa enemigas"
+            "+25% a la velocidad de disparo", 
+            "Puede destruir las bombas lapa enemigas", 
+            "M\u00e1ximo de bombas desplegadas +6"
         ], 
         "type": "Lanzabombas lapa", 
         "negative": [
-            "Per\u00edodo detonable de las bombas 0.4 m\u00e1s lento"
+            "Per\u00edodo detonable de las bombas 0.8 m\u00e1s lento"
         ], 
         "description": "La Resistencia Escocesa"
     }, 
     "137": {
+        "alt": [
+            "Para el caballero que considera que incluso su sombrero merece un sombrero."
+        ], 
         "type": "Hat", 
         "description": "Noble Amassment of Hats"
     }, 
     "136": {
         "alt": [
-            "Primer finalista  del Concurso de Carteles"
+            "Primer finalista  del Concurso de Carteles", 
+            "No intercambiable"
         ], 
         "type": "Hat", 
         "description": "Amber's Rad As All Hell Hat"
     }, 
     "135": {
+        "alt": [
+            "\u00a1Ja, ja, ja! Eres tan PRESUNTUOSO como POBRET\u00d3N e IRLAND\u00c9S. No mancilles mi majestuosa TORRE de SOMBREROS."
+        ], 
         "type": "Hat", 
         "description": "Towering Pillar of Hats"
     }, 
     "134": {
         "alt": [
-            "Ganador del Primer Puesto del Concurso de Carteles"
+            "Ganador del Primer Puesto del Concurso de Carteles", 
+            "No intercambiable"
         ], 
         "type": "Hat", 
         "description": "J.Axer's Dapper Topper"
     }, 
+    "95": {
+        "alt": [
+            "TF_Engineer_Train_Hat_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "Gorra de ingeniero"
+    }, 
     "139": {
+        "alt": [
+            "Y es que un caballero no es un caballero si no tiene uno as\u00ed."
+        ], 
         "type": "Hat", 
         "description": "Modest Pile of Hat"
     }, 
     "138": {
         "alt": [
-            "Second Runner-Up, Propaganda Contest"
+            "Second Runner-Up, Propaganda Contest", 
+            "No intercambiable"
         ], 
         "type": "Hat", 
         "description": "Uncle Sam"
+    }, 
+    "166": {
+        "alt": [
+            "Aunque llegaste tarde, t\u00fa fuiste el rey de la fiesta.", 
+            "Fecha de Contrataci\u00f3n: %s1", 
+            "No intercambiable"
+        ], 
+        "type": "Insignia", 
+        "description": "Mercenario"
     }, 
     "24": {
         "type": "Rev\u00f3lver", 
@@ -106,9 +189,12 @@
         "type": "Pistola", 
         "description": "Pistola"
     }, 
-    "95": {
+    "223": {
+        "alt": [
+            "TF_TheFamiliarFez_Desc"
+        ], 
         "type": "Hat", 
-        "description": "Gorra de ingeniero"
+        "description": "Fez Familiar"
     }, 
     "28": {
         "type": "PDA", 
@@ -118,9 +204,12 @@
         "type": "Pistola m\u00e9dica", 
         "description": "Pistola m\u00e9dica"
     }, 
-    "94": {
-        "type": "Hat", 
-        "description": "Tejano ostentoso"
+    "222": {
+        "alt": [
+            "El jugador se cura del 75% de los da\u00f1os infligidos\r\na un enemigo cubierto de leche."
+        ], 
+        "type": "Sustancia no l\u00e1ctea", 
+        "description": "Leche loca"
     }, 
     "0": {
         "type": "Bate", 
@@ -134,38 +223,63 @@
         "type": "Serrucho", 
         "description": "Serrucho"
     }, 
-    "96": {
-        "type": "Hat", 
-        "description": "Ushanka de oficial"
+    "163": {
+        "alt": [
+            "Mientras se est\u00e1 bajo sus efectos, los da\u00f1os\r\nproducidos y recibidos ser\u00e1n minicr\u00edticos.", 
+            "Aumenta tu vida en 50 puntos durante 30 segundos"
+        ], 
+        "type": "Fiambrera", 
+        "description": "CritiCola"
     }, 
     "120": {
+        "alt": [
+            "TF_Demo_Top_Hat_Desc"
+        ], 
         "type": "Hat", 
         "description": "Copa escoc\u00e9s"
     }, 
     "121": {
+        "alt": [
+            "Otorgada a los bravos soldados que hicieron guardia con valent\u00eda, sin reposo, sin sustento, sin vida social.", 
+            "No intercambiable"
+        ], 
         "type": "Medalla", 
         "description": "Medalla al servicio de Cab A. Llero"
     }, 
     "122": {
+        "alt": [
+            "No intercambiable"
+        ], 
         "type": "Cheat Detector", 
         "description": "Hemos marcado tu cuenta por burlar el sistema de distribuci\u00f3n de objetos y hemos eliminado los que obtuviste de forma ilegal.\r\n\r\nCualquier infracci\u00f3n futura provocar\u00e1 la p\u00e9rdida de todos tus objetos."
     }, 
     "123": {
+        "alt": [
+            "No intercambiable"
+        ], 
         "type": "Cheat Detector", 
         "description": "Hemos marcado tu cuenta por burlar el sistema de distribuci\u00f3n de objetos y hemos eliminado todos los objetos de tu inventario.\r\n\r\nCualquier infracci\u00f3n futura provocar\u00e1 que desactivemos tu cuenta."
     }, 
     "124": {
+        "alt": [
+            "No intercambiable"
+        ], 
         "type": "Cheat Detector", 
         "description": "\u00a1Enhorabuena! \u00a1Hemos recompensado tu honradez con un nuevo sombrero!\r\n\r\n(Otros jugadores tuvieron menos escr\u00fapulos y no han sido tan afortunados)."
     }, 
     "125": {
         "alt": [
-            "Da\u00f1os causados: %s1%"
+            "Aunque algunos no se detienen ante nada para conseguir sombreros, t\u00fa te has comportado con decisi\u00f3n y honradez en tu b\u00fasqueda de decoraciones capilares, por lo que has sido recompensado.", 
+            "Efecto: %s1", 
+            "No intercambiable"
         ], 
         "type": "Aura de incorruptibilidad", 
         "description": "Lamento del tramposo"
     }, 
     "126": {
+        "alt": [
+            "Dejado pa ti."
+        ], 
         "type": "Boina de veterano", 
         "description": "Boina de Bill"
     }, 
@@ -189,6 +303,9 @@
         "description": "El Ecualizador"
     }, 
     "129": {
+        "alt": [
+            "Proporciona un subid\u00f3n ofensivo que\r\nprovoca minicr\u00edticos en los compa\u00f1eros de equipo cercanos."
+        ], 
         "type": "Estandarte de batalla", 
         "description": "El Estandarte de \u00c1nimo"
     }, 
@@ -213,10 +330,16 @@
         "description": "Fraskungf\u00fa"
     }, 
     "55": {
+        "alt": [
+            "Esta belleza suave, delicada y de sedoso interior puede transformar a cualquier traidorzuelo aficionado en un apuesto truh\u00e1n."
+        ], 
         "type": "Hat", 
         "description": "Sombrero elegante"
     }, 
     "54": {
+        "alt": [
+            "Este sombrero no constituye bajo ning\u00fan concepto una invitaci\u00f3n al consumo de tabaco o al juego."
+        ], 
         "type": "Hat", 
         "description": "Avituallamiento de Soldier"
     }, 
@@ -232,18 +355,30 @@
         "description": "El Cazador"
     }, 
     "51": {
+        "alt": [
+            "TF_Pyro_Hat_1_Desc"
+        ], 
         "type": "Hat", 
         "description": "Gorra de h\u00e9lice de Pyro"
     }, 
     "50": {
+        "alt": [
+            "Una reliquia de una guerra, en otra guerra.\r\nTu enemigo lo entender\u00e1."
+        ], 
         "type": "Hat", 
         "description": "Pickelhaube prusiano"
     }, 
     "53": {
+        "alt": [
+            "Hasta el m\u00e1s lelo puede arrancarle los dientes a un cocodrilo muerto.\r\nPero para arranc\u00e1rselos a uno vivo, \u00a1hay que ser un hombre de verdad!"
+        ], 
         "type": "Hat", 
         "description": "Cinta de trofeos"
     }, 
     "52": {
+        "alt": [
+            "\u00a1Aplastar\u00e1s multitud de cr\u00e1neos cuando te plantes este cacharro rojo de pl\u00e1stico!"
+        ], 
         "type": "Hat", 
         "description": "Casco de bateador"
     }, 
@@ -275,86 +410,192 @@
         "type": "Material de fabricaci\u00f3n", 
         "description": "S\u00edmbolo de espacio: secundaria"
     }, 
-    "5014": {
-        "alt": [
-            "Se usa para especificar el espacio de equipamiento en los planos"
-        ], 
-        "type": "Material de fabricaci\u00f3n", 
-        "description": "S\u00edmbolo de espacio:: cuerpo a cuerpo"
+    "199": {
+        "type": "Escopeta", 
+        "description": "Escopeta"
     }, 
-    "5015": {
-        "alt": [
-            "Se usa para especificar el espacio de equipamiento en los planos"
-        ], 
-        "type": "Material de fabricaci\u00f3n", 
-        "description": "S\u00edmbolo de espacio: granada"
+    "198": {
+        "type": "Serrucho", 
+        "description": "Serrucho"
     }, 
-    "5016": {
+    "147": {
         "alt": [
-            "Se usa para especificar el espacio de equipamiento en los planos"
+            "Dicen que la justicia es ciega. Lo que no dicen es que tambi\u00e9n es invisible y que, adem\u00e1s, est\u00e1 menos interesada en s\u00ed misma que en un buen asesinato."
         ], 
-        "type": "Material de fabricaci\u00f3n", 
-        "description": "S\u00edmbolo de espacio: construcci\u00f3n"
+        "type": "Hat", 
+        "description": "Peluqu\u00edn de Magistrado"
     }, 
-    "5017": {
-        "alt": [
-            "Se usa para especificar el espacio de equipamiento en los planos"
-        ], 
-        "type": "Material de fabricaci\u00f3n", 
-        "description": "S\u00edmbolo de espacio: PDA"
+    "195": {
+        "type": "Pu\u00f1os", 
+        "description": "Pu\u00f1os"
     }, 
-    "5018": {
-        "alt": [
-            "Se usa para especificar el espacio de equipamiento en los planos"
-        ], 
-        "type": "Material de fabricaci\u00f3n", 
-        "description": "S\u00edmbolo de espacio: PDA secundaria"
+    "194": {
+        "type": "Mariposa", 
+        "description": "Mariposa"
     }, 
-    "5019": {
-        "alt": [
-            "Se usa para especificar el espacio de equipamiento en los planos"
-        ], 
-        "type": "Material de fabricaci\u00f3n", 
-        "description": "S\u00edmbolo de espacio: cabeza"
+    "197": {
+        "type": "Llave inglesa", 
+        "description": "Llave inglesa"
+    }, 
+    "196": {
+        "type": "Pala", 
+        "description": "Pala"
+    }, 
+    "191": {
+        "type": "Botella", 
+        "description": "Botella"
+    }, 
+    "190": {
+        "type": "Bate", 
+        "description": "Bate"
+    }, 
+    "193": {
+        "type": "Kukri", 
+        "description": "Kukri"
+    }, 
+    "192": {
+        "type": "Hacha de bombero", 
+        "description": "Hacha de bombero"
     }, 
     "115": {
+        "alt": [
+            "El papel de estraza nunca ha tenido un aspecto tan sutilmente perturbador."
+        ], 
         "type": "Sombrero de fiesta", 
         "description": "M\u00e1scara de Halloween ligeramente perturbadora"
     }, 
+    "177": {
+        "alt": [
+            "Nada"
+        ], 
+        "type": "Hat", 
+        "description": "Laz Gafaz"
+    }, 
     "117": {
+        "alt": [
+            "Su bala me pas\u00f3 rozando\r\ny perd\u00ed mi sombrero.\r\nMi bala fue m\u00e1s certera\r\ny \u00e9l perdi\u00f3 la cabeza."
+        ], 
         "type": "Hat", 
         "description": "Fijador de cabellera de caballero"
     }, 
     "116": {
         "alt": [
-            "Lleva bordadas las iniciales 'Z.M.'."
+            "Lleva bordadas las iniciales 'Z.M.'.", 
+            "No intercambiable"
         ], 
         "type": "Hat", 
         "description": "Chistera chunga"
     }, 
     "111": {
+        "alt": [
+            "Todo el mundo sabe que la velocidad es el mejor aliado de un Scout. \u00bfPor qu\u00e9 entorpecerte entonces con sombreros pesados y voluminosos si puedes romper la barrera del sonido sin ellos?"
+        ], 
         "type": "Hat", 
         "description": "Gomina Bill el Beisbolero"
     }, 
     "110": {
+        "alt": [
+            "S\u00f3lo un maestro del fraskungf\u00fa tiene derecho a llevar este pa\u00f1uelo, otrora blanco pero ajado hoy por los sudores de un duro r\u00e9gimen de entrenamiento."
+        ], 
         "type": "Hat", 
         "description": "Cintur\u00f3n amarillo de maestro"
     }, 
+    "253": {
+        "alt": [
+            "Desatasca todo tipo de atascos."
+        ], 
+        "type": "Hat", 
+        "description": "El desatascador del manitas"
+    }, 
+    "205": {
+        "type": "Lanzacohetes", 
+        "description": "Lanzacohetes"
+    }, 
     "118": {
+        "alt": [
+            "Hay ocasiones en las que se agradece un sombrero un poco menos aparatoso."
+        ], 
         "type": "Hat", 
         "description": "Abrillantador de c\u00fapulas Texas Slim"
+    }, 
+    "165": {
+        "alt": [
+            "Es posible que haya quien lleve m\u00e1s tiempo haci\u00e9ndolo, pero t\u00fa has demostrado que pocos pueden hacerlo mejor.", 
+            "Fecha de Contrataci\u00f3n: %s1", 
+            "No intercambiable"
+        ], 
+        "type": "Insignia", 
+        "description": "Soldado de Fortuna"
+    }, 
+    "143": {
+        "alt": [
+            "\u00a1Representaci\u00f3n de OSX!"
+        ], 
+        "type": "Hat", 
+        "description": "Auriculares"
+    }, 
+    "174": {
+        "alt": [
+            "Habr\u00eda que ser un aut\u00e9ntico tarugo para no darse cuenta de que este gorro es el no va m\u00e1s de la moda para los j\u00f3venes de buen gusto."
+        ], 
+        "type": "Hat", 
+        "description": "Corona de Yupi"
+    }, 
+    "140": {
+        "alt": [
+            "Controla manualmente tu centinela"
+        ], 
+        "type": "Puntero l\u00e1ser", 
+        "description": "The Wrangler"
+    }, 
+    "141": {
+        "positive": [
+            "Cada vez que destruyen tu centinela,\r\n\r\nganas cr\u00edticos por venganza"
+        ], 
+        "type": "Escopeta", 
+        "negative": [
+            "Sin impactos cr\u00edticos aleatorios", 
+            "Tama\u00f1o de cargador: -50%"
+        ], 
+        "description": "The Frontier Justice"
     }, 
     "3": {
         "type": "Kukri", 
         "description": "Kukri"
     }, 
+    "171": {
+        "positive": [
+            "Al impactar: 6 segundos de hemorragia"
+        ], 
+        "type": "Kukri", 
+        "negative": [
+            "Da\u00f1os causados: -50%"
+        ], 
+        "description": "La Cuchilla Tribal"
+    }, 
     "7": {
         "type": "Llave inglesa", 
         "description": "Llave inglesa"
     }, 
+    "146": {
+        "alt": [
+            "TF_DemomanHallmark_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "Distintivo de Gigol\u00f3"
+    }, 
+    "170": {
+        "alt": [
+            "Una medalla para guerreros de verdad, otorgada a quienes empiezan a pelear incluso antes de que se inicie la batalla.", 
+            "Fecha de Contrataci\u00f3n: %s1", 
+            "No intercambiable"
+        ], 
+        "type": "Insignia", 
+        "description": "Guerrero Innato"
+    }, 
     "other_attributes": {
         "133": "Medalla n\u00famero %s1", 
-        "132": "Dado a valiosos contribuyentes de la Comunidad", 
+        "132": "Dado a valiosos colaboradores de la Comunidad", 
         "143": "Fecha de alquiler: %s1", 
         "147": "Llave n\u00famero %s1"
     }, 
@@ -419,55 +660,120 @@
         "type": "Material de fabricaci\u00f3n", 
         "description": "S\u00edmbolo de clase: Medic"
     }, 
-    "108": {
+    "245": {
+        "alt": [
+            "Se otorga al alcanzar el nivel 75.\r\nEsta medalla muestra las estad\u00edsticas de tus duelos.\r\nGana duelos para subir su nivel.", 
+            "No intercambiable"
+        ], 
+        "type": "Insignia", 
+        "description": "Medalla de platino de duelista"
+    }, 
+    "244": {
+        "alt": [
+            "Se otorga al alcanzar el nivel 50.\r\nEsta medalla muestra las estad\u00edsticas de tus duelos.\r\nGana duelos para subir su nivel.", 
+            "No intercambiable"
+        ], 
+        "type": "Insignia", 
+        "description": "Medalla de oro de duelista"
+    }, 
+    "247": {
+        "alt": [
+            "Un sombrero que a\u00f1ade picante a cualquier ocasi\u00f3n."
+        ], 
         "type": "Hat", 
-        "description": "Bomb\u00edn del bastardo"
+        "description": "Viejo Guadalajara"
     }, 
     "109": {
+        "alt": [
+            "Un sombrero educado y eficaz cuando te quieras cargar a todo lo que se mueva."
+        ], 
         "type": "Hat", 
         "description": "Panam\u00e1 profesional"
     }, 
     "9003": {
         "positive": [
-            "Las prohibiciones de vapor en cuenta los jugadores muertos", 
-            "Este punto no es real y es s\u00f3lo una broma."
+            "Consideraci\u00f3n las prohibiciones de vapor de jugadores muertos", 
+            "Este art\u00edculo no es real y es s\u00f3lo una broma."
         ], 
-        "type": "Mallet del destierro", 
-        "description": "Ban Hammer"
+        "type": "Mazo de destierro", 
+        "description": "Prohibici\u00f3n de martillo"
     }, 
     "240": {
+        "alt": [
+            "TF_Worms_Gear_Desc"
+        ], 
         "type": "Hat", 
-        "description": "Lumbricus Lid"
+        "description": "El casco de la lombriz"
+    }, 
+    "243": {
+        "alt": [
+            "Se otorga al alcanzar el nivel 25.\r\nEsta medalla muestra las estad\u00edsticas de tus duelos.\r\nGana duelos para subir su nivel.", 
+            "No intercambiable"
+        ], 
+        "type": "Insignia", 
+        "description": "Medalla de plata de duelista"
+    }, 
+    "242": {
+        "alt": [
+            "Esta medalla muestra las estad\u00edsticas de tus duelos.\r\nGana duelos para subir su nivel.", 
+            "No intercambiable"
+        ], 
+        "type": "Insignia", 
+        "description": "Medalla de bronce de duelista"
     }, 
     "102": {
+        "alt": [
+            "No importa si te respetan o no cuando est\u00e1n en llamas."
+        ], 
         "type": "Hat", 
         "description": "Guante de goma irreverente"
     }, 
     "103": {
+        "alt": [
+            "\u00bfNo te molesta si leo este documento supersecreto con mi barba, verdad?"
+        ], 
         "type": "Hat", 
         "description": "Barba con c\u00e1mara"
     }, 
     "100": {
+        "alt": [
+            "TF_Demo_Scott_Hat_Desc"
+        ], 
         "type": "Hat", 
         "description": "Boina escocesa"
     }, 
     "101": {
+        "alt": [
+            "TF_Medic_Tyrolean_Hat_Desc"
+        ], 
         "type": "Hat", 
         "description": "Tirol\u00e9s cl\u00e1sico"
     }, 
     "106": {
+        "alt": [
+            "Cuando los tragos radiactivos no son suficientes de uno en uno..."
+        ], 
         "type": "Hat", 
         "description": "Casco \u00a1Plonk!"
     }, 
     "107": {
+        "alt": [
+            "\u00a1Noticia extra: eres hombre muerto!"
+        ], 
         "type": "Hat", 
         "description": "Gorra dickensiana"
     }, 
     "104": {
+        "alt": [
+            "Nosotros tampoco sabemos c\u00f3mo se pronuncia."
+        ], 
         "type": "Hat", 
         "description": "Espejo de otorrinolaring\u00f3logo"
     }, 
     "105": {
+        "alt": [
+            "TF_Pyro_Fireman_Helmet_Desc"
+        ], 
         "type": "Hat", 
         "description": "Casco de brigada"
     }, 
@@ -486,18 +792,6 @@
         ], 
         "description": "El Hacherminador"
     }, 
-    "33": {
-        "type": "Pistola de jeringas", 
-        "description": "Pistola de jeringas"
-    }, 
-    "32": {
-        "type": "Serrucho", 
-        "description": "Serrucho"
-    }, 
-    "31": {
-        "type": "Pistola de bengalas", 
-        "description": "Pistola de bengalas"
-    }, 
     "30": {
         "type": "Reloj de invisibilidad", 
         "description": "Reloj de invisibilidad"
@@ -512,15 +806,12 @@
         ], 
         "description": "La Ubersaw"
     }, 
-    "36": {
-        "positive": [
-            "Por impacto: +3 de salud"
+    "108": {
+        "alt": [
+            "Para cuando desees una cabeza un poco m\u00e1s alta\r\npero con una coronilla igual de redonda."
         ], 
-        "type": "Pistola de jeringas", 
-        "negative": [
-            "El portador pierde -2 de salud por segundo"
-        ], 
-        "description": "La Blutsauger"
+        "type": "Hat", 
+        "description": "Bomb\u00edn del bastardo"
     }, 
     "35": {
         "positive": [
@@ -532,9 +823,106 @@
         "type": "Pistola m\u00e9dica", 
         "description": "La Kritzkrieg"
     }, 
-    "34": {
-        "type": "Pistola m\u00e9dica", 
-        "description": "Pistola m\u00e9dica"
+    "246": {
+        "alt": [
+            ""
+        ], 
+        "type": "Hat", 
+        "description": "Protector del pugilista"
+    }, 
+    "94": {
+        "alt": [
+            "Aunque parece un simple Stetson, esta moderna maravilla de la t\u00e9cnica contiene m\u00e1s piezas articuladas que un arma centinela de nivel 2."
+        ], 
+        "type": "Hat", 
+        "description": "Tejano ostentoso"
+    }, 
+    "241": {
+        "alt": [
+            "Te permite retar a alguien a un duelo.\r\nPara obtener m\u00e1s informaci\u00f3n, consulta el cat\u00e1logo de Mann Co."
+        ], 
+        "type": "Objeto utilizable", 
+        "description": "Minipartida con duelo"
+    }, 
+    "5038": {
+        "alt": [
+            "Se usa para pintar otros objetos.", 
+            "\u00a1Lo hice yo!"
+        ], 
+        "type": "Herramienta", 
+        "description": "Aged Moustache Grey"
+    }, 
+    "5039": {
+        "alt": [
+            "Se usa para pintar otros objetos.", 
+            "\u00a1Lo hice yo!"
+        ], 
+        "type": "Herramienta", 
+        "description": "An Extraordinary Abundance of Tinge"
+    }, 
+    "5036": {
+        "alt": [
+            "Se usa para pintar otros objetos.", 
+            "\u00a1Lo hice yo!"
+        ], 
+        "type": "Herramienta", 
+        "description": "Ye Olde Rustic Colour"
+    }, 
+    "5037": {
+        "alt": [
+            "Se usa para pintar otros objetos.", 
+            "\u00a1Lo hice yo!"
+        ], 
+        "type": "Herramienta", 
+        "description": "Australium Gold"
+    }, 
+    "5034": {
+        "alt": [
+            "Se usa para pintar otros objetos.", 
+            "\u00a1Lo hice yo!"
+        ], 
+        "type": "Herramienta", 
+        "description": "Peculiarly Drab Tincture"
+    }, 
+    "5035": {
+        "alt": [
+            "Se usa para pintar otros objetos.", 
+            "\u00a1Lo hice yo!"
+        ], 
+        "type": "Herramienta", 
+        "description": "Radigan Conagher Brown"
+    }, 
+    "5032": {
+        "alt": [
+            "Se usa para pintar otros objetos.", 
+            "\u00a1Lo hice yo!"
+        ], 
+        "type": "Herramienta", 
+        "description": "Mann Co. Orange"
+    }, 
+    "5033": {
+        "alt": [
+            "Se usa para pintar otros objetos.", 
+            "\u00a1Lo hice yo!"
+        ], 
+        "type": "Herramienta", 
+        "description": "Muskelmannbraun"
+    }, 
+    "5030": {
+        "alt": [
+            "Se usa para pintar otros objetos.", 
+            "\u00a1Lo hice yo!"
+        ], 
+        "type": "Herramienta", 
+        "description": "Color No. 216-190-216"
+    }, 
+    "5031": {
+        "alt": [
+            "Se usa para pintar otros objetos.", 
+            "\u00a1Lo hice yo!"
+        ], 
+        "type": "Herramienta", 
+        "description": "A Deep Commitment to Purple"
     }, 
     "60": {
         "positive": [
@@ -557,32 +945,71 @@
         ], 
         "description": "La Embajadora"
     }, 
+    "259": {
+        "alt": [
+            "Que no quede un centinela vivo."
+        ], 
+        "type": "Hat", 
+        "description": "Tricornio del juerguista"
+    }, 
     "97": {
+        "alt": [
+            "Porque cuando eres el duro m\u00e1s correoso de la fortaleza nadie va atreverse a criticar tu atuendo."
+        ], 
         "type": "Hat", 
         "description": "Gorrito de machote"
     }, 
     "179": {
+        "alt": [
+            "Un elegante sombrero de tres afilados picos.\r\nNo te saques el ojo."
+        ], 
         "type": "Hat", 
         "description": "Tricornio Pirata"
     }, 
     "178": {
+        "alt": [
+            "Resulta complejo calcular el par de fuerzas externo total del impulso vectorial al que se ve sometido un cuerpo en movimiento rotacional mientras te rodea una algarab\u00eda de tiros y destrucci\u00f3n. Construye una m\u00e1quina m\u00e1s grande y mejor con el silencio garantizado de los auriculares."
+        ], 
         "type": "Hat", 
         "description": "Cascos Protectores"
     }, 
-    "177": {
+    "252": {
         "alt": [
-            "Nada"
+            ""
         ], 
         "type": "Hat", 
-        "description": "Laz Gafaz"
+        "description": "El colof\u00f3n del dr. Dapper"
+    }, 
+    "5014": {
+        "alt": [
+            "Se usa para especificar el espacio de equipamiento en los planos"
+        ], 
+        "type": "Material de fabricaci\u00f3n", 
+        "description": "S\u00edmbolo de espacio:: cuerpo a cuerpo"
     }, 
     "175": {
+        "alt": [
+            "El vello facial adhesivo ign\u00edfugo m\u00e1s distinguido del mercado, para elegantes caballeros conflagrantes."
+        ], 
         "type": "Hat", 
         "description": "Caballero Bigotudo"
     }, 
-    "174": {
+    "251": {
+        "alt": [
+            "El pin\u00e1culo de la moda militar\r\nvictoriana."
+        ], 
         "type": "Hat", 
-        "description": "Corona de Yupi"
+        "description": "Shako el gordo"
+    }, 
+    "173": {
+        "positive": [
+            "Con la muerte, retienes hasta el 20% de tu\r\nsupercarga almacenada."
+        ], 
+        "type": "Serrucho", 
+        "negative": [
+            "Salud m\u00e1xima del portador: -10"
+        ], 
+        "description": "La vitasierra"
     }, 
     "172": {
         "positive": [
@@ -594,40 +1021,73 @@
         ], 
         "description": "El  Corta-Cr\u00e1neos Escoc\u00e9s"
     }, 
-    "171": {
-        "positive": [
-            "Al impactar: 6 segundos de hemorragia"
-        ], 
-        "type": "Kukri", 
-        "negative": [
-            "Da\u00f1os causados: -50%"
-        ], 
-        "description": "La Cuchilla Tribal"
-    }, 
-    "170": {
+    "254": {
         "alt": [
-            "Fecha de Contrataci\u00f3n: %s1"
+            "Toda precauci\u00f3n es poca\r\ncon fraskungf\u00fa en los alrededores."
         ], 
-        "type": "Insignia", 
-        "description": "Guerrero Innato"
+        "type": "Hat", 
+        "description": "Duro de roer"
+    }, 
+    "255": {
+        "alt": [
+            "El mejor amigo de un saltador con bombas lapa."
+        ], 
+        "type": "Hat", 
+        "description": "El especialista sobrio"
+    }, 
+    "249": {
+        "alt": [
+            "Muerte aerotransportada"
+        ], 
+        "type": "Hat", 
+        "description": "Bombardeo"
+    }, 
+    "145": {
+        "alt": [
+            "Tus oponentes quedar\u00e1n estremecidos al verte con esas exquisitas gafas de sol y ese tocado."
+        ], 
+        "type": "Hat", 
+        "description": "Tup\u00e9 de Rockero"
+    }, 
+    "248": {
+        "alt": [
+            "Al final de una ajetreada jornada quemando Scouts."
+        ], 
+        "type": "Hat", 
+        "description": "El respiro de Napper"
     }, 
     "182": {
+        "alt": [
+            "Pyro lo lleva como tributo a los numerosos bomberos fallecidos en el ejercicio de su deber."
+        ], 
         "type": "Hat", 
         "description": "Casco de Bombero Victoriano"
     }, 
     "183": {
+        "alt": [
+            "Este sombrero es un pr\u00e1ctico sustituto de una sarta de blasfemias e insultos si no tienes ganas de quedarte af\u00f3nico gritando."
+        ], 
         "type": "Hat", 
         "description": "Sombrero de Sargento Instructor"
     }, 
     "180": {
+        "alt": [
+            "Porque el espionaje bien practicado es una de las Bellas Artes."
+        ], 
         "type": "Hat", 
         "description": "Boina de Franchute"
     }, 
     "181": {
+        "alt": [
+            "\\\"Estoy francotirando\\\"."
+        ], 
         "type": "Hat", 
         "description": "Bloke's Bucket Hat"
     }, 
     "184": {
+        "alt": [
+            "Aunque no tiene el prestigio de otros tocados, el Gatsby posee indudablemente un car\u00e1cter propio. Su encanto discreto y afable seduce a todos y vale para todas las ocasiones, desde una relajada partida de golf entre amigos hasta una intervenci\u00f3n quir\u00fargica no electiva ejecutada con un serrucho bien limpio."
+        ], 
         "type": "Hat", 
         "description": "Gentleman's Gatsby"
     }, 
@@ -635,46 +1095,152 @@
         "type": "Pala", 
         "description": "Pala"
     }, 
+    "250": {
+        "alt": [
+            ""
+        ], 
+        "type": "Hat", 
+        "description": "Desaf\u00edo del caudillo"
+    }, 
     "189": {
+        "alt": [
+            "Esta monada de t\u00edo fue, en otra \u00e9poca y en otro lugar, el azote de la humanidad. Hoy, sin embargo, le basta con montar en tu cabeza y protegerla del sol."
+        ], 
         "type": "Hat", 
         "description": "Alien Swarm Parasite"
     }, 
+    "5029": {
+        "alt": [
+            "Se usa para pintar otros objetos.", 
+            "\u00a1Lo hice yo!"
+        ], 
+        "type": "Herramienta", 
+        "description": "Noble Hatter's Violet"
+    }, 
+    "5028": {
+        "alt": [
+            "Se usa para pintar otros objetos.", 
+            "\u00a1Lo hice yo!"
+        ], 
+        "type": "Herramienta", 
+        "description": "Zephaniah's Greed"
+    }, 
+    "221": {
+        "alt": [
+            "Que te peguen con un pez debe ser de lo m\u00e1s humillante."
+        ], 
+        "type": "Pez", 
+        "description": "El arenque sagrado"
+    }, 
+    "5021": {
+        "alt": [
+            "Se usa para abrir cajas de suministros cerradas con llave."
+        ], 
+        "type": "Herramienta", 
+        "description": "Llave de caja de suministros de Mann Co."
+    }, 
+    "5020": {
+        "alt": [
+            "Cambia el nombre de un objeto de tu mochila"
+        ], 
+        "type": "Herramienta", 
+        "description": "Etiqueta del nombre"
+    }, 
+    "5023": {
+        "alt": [
+            "Se usa para pintar otros objetos.", 
+            "\u00a1Lo hice yo!"
+        ], 
+        "type": "Herramienta", 
+        "description": "Bote de pintura"
+    }, 
     "185": {
+        "alt": [
+            "Llevar este pa\u00f1uelo durante 12 segundos cuesta 400.000 $."
+        ], 
         "type": "Hat", 
         "description": "Bandana de Motorista"
     }, 
+    "5027": {
+        "alt": [
+            "Se usa para pintar otros objetos.", 
+            "\u00a1Lo hice yo!"
+        ], 
+        "type": "Herramienta", 
+        "description": "Indubitably Green"
+    }, 
     "99": {
+        "alt": [
+            "Te pate\u00e9 el trasero de tal manera que retrocedi\u00f3 en el tiempo y me consigui\u00f3 este gorro vikingo."
+        ], 
         "type": "Hat", 
         "description": "Yelmo de tirano"
     }, 
     "98": {
+        "alt": [
+            "Protege la cocorota contra balas y metralla.\r\nY sirve para calentar la sopa."
+        ], 
         "type": "Hat", 
         "description": "Olla inoxidable"
     }, 
     "169": {
+        "alt": [
+            "No intercambiable"
+        ], 
         "type": "Llave inglesa", 
         "description": "La Llave Inglesa Dorada"
     }, 
-    "164": {
+    "229": {
         "alt": [
-            "Fecha de Contrataci\u00f3n: %s1"
+            "TF_OlSnaggletooth_Desc"
         ], 
-        "type": "Insignia", 
-        "description": "Veterano Curtido"
+        "type": "Hat", 
+        "description": "El viejo dentudo"
     }, 
-    "165": {
-        "alt": [
-            "Fecha de Contrataci\u00f3n: %s1"
+    "228": {
+        "positive": [
+            "Por impacto: +15 de salud"
         ], 
-        "type": "Insignia", 
-        "description": "Soldado de Fortuna"
+        "type": "Lanzacohetes", 
+        "negative": [
+            "Tama\u00f1o de cargador: -25%"
+        ], 
+        "description": "La caja negra"
     }, 
-    "166": {
+    "227": {
         "alt": [
-            "Fecha de Contrataci\u00f3n: %s1"
+            "TF_TheGrenadiersSoftcap_Desc"
         ], 
-        "type": "Insignia", 
-        "description": "Mercenario"
+        "type": "Hat", 
+        "description": "Gorro de granadero"
+    }, 
+    "226": {
+        "alt": [
+            "Proporciona un subid\u00f3n defensivo que protege\r\na los compa\u00f1eros de equipo cercanos ante los cr\u00edticos\r\ny bloquea el 35% de los da\u00f1os de las agresiones.\r\nLa furia aumenta con los da\u00f1os sufridos."
+        ], 
+        "type": "Estandarte de batalla", 
+        "description": "El refuerzo del batall\u00f3n"
+    }, 
+    "225": {
+        "positive": [
+            "Despu\u00e9s de una pu\u00f1alada certera en la espalda\r\npuedes disfrazarte r\u00e1pidamente como tu v\u00edctima", 
+            "Esta arma es un asesino silencioso"
+        ], 
+        "type": "Mariposa", 
+        "negative": [
+            "El portador no puede disfrazarse"
+        ], 
+        "description": "La recompensa eterna"
+    }, 
+    "224": {
+        "positive": [
+            "+15 invisibilidad por impacto"
+        ], 
+        "type": "Rev\u00f3lver", 
+        "negative": [
+            "Da\u00f1os causados: -20%"
+        ], 
+        "description": "El extranjero"
     }, 
     "160": {
         "alt": [
@@ -697,13 +1263,15 @@
         "type": "Hat", 
         "description": "Cabeza Cortada de Max"
     }, 
-    "163": {
-        "alt": [
-            "Mientras se est\u00e1 bajo sus efectos, los da\u00f1os\r\nproducidos y recibidos ser\u00e1n minicr\u00edticos.", 
-            "Aumenta tu vida en 50 puntos durante 30 segundos"
+    "220": {
+        "positive": [
+            "Por impacto: reducci\u00f3n del 40% de la velocidad del objetivo durante 0.5 s"
         ], 
-        "type": "Fiambrera", 
-        "description": "CritiCola"
+        "alt": [
+            "Lo \u00faltimo de Mann Co. en defensa personal,\r\nlleno de car\u00e1cter y dinamismo."
+        ], 
+        "type": "Lanzapimienta", 
+        "description": "El paratenseco"
     }, 
     "11": {
         "type": "Escopeta", 
@@ -745,11 +1313,36 @@
         "type": "Lanzacohetes", 
         "description": "Lanzacohetes"
     }, 
+    "164": {
+        "alt": [
+            "Mu\u00e9strala con orgullo en tu pecho, soldado, y cuando mates a alguien, sabr\u00e1 que no es el primero.", 
+            "Fecha de Contrataci\u00f3n: %s1", 
+            "No intercambiable"
+        ], 
+        "type": "Insignia", 
+        "description": "Veterano Curtido"
+    }, 
+    "5022": {
+        "positive": [
+            "N\u00ba de serie de la caja 1"
+        ], 
+        "alt": [
+            "Necesitar\u00e1s una llave de caja de suministros de Mann Co. para abrirla."
+        ], 
+        "type": "TF_LockedCrate", 
+        "description": "Caja de suministros de Mann Co."
+    }, 
     "151": {
+        "alt": [
+            "Por lo menos te est\u00e1 pidiendo que quemes cosas."
+        ], 
         "type": "Hat", 
         "description": "Babosus Tyrannus"
     }, 
     "150": {
+        "alt": [
+            "Directamente desde el punto de control."
+        ], 
         "type": "Hat", 
         "description": "Gorro de Rapero"
     }, 
@@ -765,6 +1358,9 @@
         "description": "El Demoledor"
     }, 
     "152": {
+        "alt": [
+            "Haiku guerrero.\r\nVence al enemigo,\r\n\u00a1honra al cohete!"
+        ], 
         "type": "Hat", 
         "description": "Kabuto de Sun Tzu"
     }, 
@@ -797,14 +1393,102 @@
         "description": "Chocolatina Dalokohs"
     }, 
     "158": {
+        "alt": [
+            "Perfecto para explorar p\u00e1ramos o el interior del coco de la gente."
+        ], 
         "type": "Hat", 
         "description": "Salacot de Cazador"
     }, 
+    "36": {
+        "positive": [
+            "Por impacto: +3 de salud"
+        ], 
+        "type": "Pistola de jeringas", 
+        "negative": [
+            "El portador pierde -2 de salud por segundo"
+        ], 
+        "description": "La Blutsauger"
+    }, 
+    "239": {
+        "positive": [
+            "Velocidad de movimiento del portador: +30%"
+        ], 
+        "alt": [
+            "Cuando el arma est\u00e1 activa:"
+        ], 
+        "type": "Pu\u00f1os", 
+        "negative": [
+            "Da\u00f1os causados: -50%", 
+            "El portador pierde -6 de salud por segundo"
+        ], 
+        "description": "Guantes de Rapidez Ultraterrena"
+    }, 
+    "234": {
+        "alt": [
+            "Cuando se usa este objeto de acci\u00f3n, se ofrece un regalo al azar a un m\u00e1ximo de \r\n23 jugadores m\u00e1s del servidor."
+        ], 
+        "type": "Regalo", 
+        "description": "Mont\u00f3n de regalos"
+    }, 
+    "237": {
+        "positive": [
+            "No se reciben da\u00f1os de explosi\u00f3n autoinfligidos.", 
+            "Munici\u00f3n principal m\u00e1xima del portador: +200%"
+        ], 
+        "alt": [
+            "Un lanzacohetes especial sin da\u00f1os para aprender\r\ntrucos y patrones de salto con cohete."
+        ], 
+        "type": "Lanzacohetes", 
+        "negative": [
+            "Da\u00f1os causados: -100%"
+        ], 
+        "description": "El saltador de cohetes"
+    }, 
+    "230": {
+        "positive": [
+            "Por impacto: fraskungf\u00fa aplicado a\r\nobjetivo durante 8 segundos"
+        ], 
+        "type": "Rifle de francotirador", 
+        "negative": [
+            "Sin tiros a la cabeza"
+        ], 
+        "description": "El adormecedor de S\u00eddney"
+    }, 
+    "231": {
+        "positive": [
+            "Salud m\u00e1xima del portador: +25"
+        ], 
+        "type": "Escudo", 
+        "description": "El escudo de Darwin"
+    }, 
+    "232": {
+        "positive": [
+            "Esta arma provoca un cr\u00edtico cuando normalmente provocar\u00eda un minicr\u00edtico."
+        ], 
+        "type": "Kukri", 
+        "negative": [
+            "20% de vulnerabilidad al da\u00f1o por fuego al portador"
+        ], 
+        "description": "El machet\u00f3n"
+    }, 
+    "233": {
+        "alt": [
+            "Cuando se usa este objeto de acci\u00f3n, se ofrece un regalo al azar \r\na una persona al azar del servidor."
+        ], 
+        "type": "Regalo", 
+        "description": "Amigo secreto"
+    }, 
     "48": {
+        "alt": [
+            "Para Engineers de ideas brillantes."
+        ], 
         "type": "Hat", 
         "description": "Linterna frontal"
     }, 
     "49": {
+        "alt": [
+            "TF_Heavy_Hat_1_Desc"
+        ], 
         "type": "Hat", 
         "description": "Casco de f\u00fatbol americano"
     }, 
@@ -813,6 +1497,9 @@
         "description": "\u00a1Plonk! La Bebida Salvavidas"
     }, 
     "47": {
+        "alt": [
+            "TF_Demo_Hat_1_Desc"
+        ], 
         "type": "Hat", 
         "description": "Afro de Demoman"
     }, 
@@ -879,6 +1566,13 @@
         "type": "Botella", 
         "description": "Botella"
     }, 
+    "260": {
+        "alt": [
+            "Adorna las testas del selecto grupo de sabios capaces de editar una p\u00e1gina web."
+        ], 
+        "type": "Hat", 
+        "description": "Wikicopete"
+    }, 
     "5": {
         "type": "Pu\u00f1os", 
         "description": "Pu\u00f1os"
@@ -887,21 +1581,21 @@
         "type": "Escopeta", 
         "description": "Escopeta"
     }, 
-    "146": {
-        "type": "Hat", 
-        "description": "Distintivo de Gigol\u00f3"
+    "201": {
+        "type": "Rifle de francotirador", 
+        "description": "Rifle de francotirador"
     }, 
-    "147": {
-        "type": "Hat", 
-        "description": "Peluqu\u00edn de Magistrado"
+    "200": {
+        "type": "Escopeta", 
+        "description": "Escopeta"
     }, 
-    "144": {
-        "type": "Hat", 
-        "description": "Mascarilla de Cirujano"
+    "203": {
+        "type": "Metralleta", 
+        "description": "Metralleta"
     }, 
-    "145": {
-        "type": "Hat", 
-        "description": "Tup\u00e9 de Rockero"
+    "202": {
+        "type": "Ametralladora", 
+        "description": "Ametralladora"
     }, 
     "142": {
         "positive": [
@@ -914,37 +1608,123 @@
         ], 
         "description": "The Gunslinger"
     }, 
-    "143": {
-        "alt": [
-            "\u00a1Representaci\u00f3n de OSX!"
-        ], 
-        "type": "Hat", 
-        "description": "Auriculares"
+    "204": {
+        "type": "Pistola de jeringas", 
+        "description": "Pistola de jeringas"
     }, 
-    "140": {
-        "alt": [
-            "Controla manualmente tu centinela"
-        ], 
-        "type": "Puntero l\u00e1ser", 
-        "description": "The Wrangler"
+    "207": {
+        "type": "Lanzabombas lapa", 
+        "description": "Lanzabombas lapa"
     }, 
-    "141": {
-        "positive": [
-            "Cada vez que destruyen tu centinela,\r\n\r\nganas cr\u00edticos por venganza"
-        ], 
-        "type": "Escopeta", 
-        "negative": [
-            "Sin impactos cr\u00edticos aleatorios", 
-            "Tama\u00f1o de cargador: -50%"
-        ], 
-        "description": "The Frontier Justice"
+    "206": {
+        "type": "Lanzagranadas", 
+        "description": "Lanzagranadas"
+    }, 
+    "209": {
+        "type": "Pistola", 
+        "description": "Pistola"
+    }, 
+    "208": {
+        "type": "Lanzallamas", 
+        "description": "Lanzallamas"
     }, 
     "148": {
+        "alt": [
+            "Imita burlonamente al sol con regueros de llamas. Haz que los rayos UV reboten inocuamente lejos de tus pupilas."
+        ], 
         "type": "Hat", 
         "description": "Protector Llameante"
+    }, 
+    "96": {
+        "alt": [
+            "Este sombrero est\u00e1 hecho de manos de oso.\r\nDe un oso cazado por un tipo muy osado."
+        ], 
+        "type": "Hat", 
+        "description": "Ushanka de oficial"
+    }, 
+    "5040": {
+        "alt": [
+            "Se usa para pintar otros objetos.", 
+            "\u00a1Lo hice yo!"
+        ], 
+        "type": "Herramienta", 
+        "description": "A Distinctive Lack of Hue"
     }, 
     "2": {
         "type": "Hacha de bombero", 
         "description": "Hacha de bombero"
+    }, 
+    "263": {
+        "alt": [
+            "TF_EllisHat_Desc", 
+            "No intercambiable"
+        ], 
+        "type": "Hat", 
+        "description": "Ellis' Cap"
+    }, 
+    "144": {
+        "alt": [
+            "Prep\u00e1rate para operar... La cosa va a ponerse fea."
+        ], 
+        "type": "Hat", 
+        "description": "Mascarilla de Cirujano"
+    }, 
+    "262": {
+        "alt": [
+            "Awarded to participants of the Polycount contest.", 
+            "No intercambiable"
+        ], 
+        "type": "Insignia", 
+        "description": "Polycount Pin"
+    }, 
+    "261": {
+        "alt": [
+            "TF_MannCoCap_Desc", 
+            "No intercambiable"
+        ], 
+        "type": "Hat", 
+        "description": "Mann Co. Cap"
+    }, 
+    "2002": {
+        "alt": [
+            "Incluye todos los elementos del Soldier de Polycount:"
+        ], 
+        "type": "Paquete de objetos", 
+        "description": "Revientatanques"
+    }, 
+    "2003": {
+        "alt": [
+            "Incluye todos los elementos del Sniper de Polycount:"
+        ], 
+        "type": "Paquete de objetos", 
+        "description": "Kit crocoestilo"
+    }, 
+    "2000": {
+        "alt": [
+            "Incluye todos los elementos del Pyro de Polycount:"
+        ], 
+        "type": "Paquete de objetos", 
+        "description": "Equipo de Gasolinero"
+    }, 
+    "2001": {
+        "alt": [
+            "Incluye todos los elementos del Spy de Polycount:"
+        ], 
+        "type": "Paquete de objetos", 
+        "description": "Esp\u00eda Sahariano"
+    }, 
+    "2004": {
+        "alt": [
+            "Incluye todos los elementos del Scout de Polycount:"
+        ], 
+        "type": "Paquete de objetos", 
+        "description": "Entrega especial"
+    }, 
+    "2005": {
+        "alt": [
+            "Incluye todas las participaciones ganadoras del concurso Polycount:"
+        ], 
+        "type": "Paquete de objetos", 
+        "description": "Pack Polycount"
     }
 }

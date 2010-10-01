@@ -1,4 +1,58 @@
 {
+    "214": {
+        "positive": [
+            "+25% aiheutettu vahinko", 
+            "+75 terveytt\u00e4 palautetaan taposta"
+        ], 
+        "type": "Leka", 
+        "negative": [
+            "Ei satunnaisia kriittisi\u00e4 osumia"
+        ], 
+        "description": "Tunkki"
+    }, 
+    "215": {
+        "positive": [
+            "65% nopeampi aseen vaihto"
+        ], 
+        "type": "Liekinheitin", 
+        "negative": [
+            "-25% palovahinkoa"
+        ], 
+        "description": "Rasvanpolttaja"
+    }, 
+    "212": {
+        "type": "N\u00e4kym\u00e4tt\u00f6myyskello", 
+        "description": "N\u00e4kym\u00e4tt\u00f6myyskello"
+    }, 
+    "213": {
+        "alt": [
+            "Attendant Description"
+        ], 
+        "type": "Hat", 
+        "description": "Palvelija"
+    }, 
+    "210": {
+        "type": "Revolveri", 
+        "description": "Revolveri"
+    }, 
+    "211": {
+        "type": "L\u00e4\u00e4kint\u00e4ase", 
+        "description": "L\u00e4\u00e4kint\u00e4ase"
+    }, 
+    "264": {
+        "alt": [
+            "Ei vaihdettavissa"
+        ], 
+        "type": "Frying Pan", 
+        "description": "The Frying Pan"
+    }, 
+    "219": {
+        "alt": [
+            "The Milkman Description"
+        ], 
+        "type": "Hat", 
+        "description": "Maitomies"
+    }, 
     "133": {
         "positive": [
             "-60% r\u00e4j\u00e4hdysvahinkoa rakettihypyist\u00e4"
@@ -31,48 +85,77 @@
     "130": {
         "positive": [
             "+50% kakkosaseen ammusten enimm\u00e4ism\u00e4\u00e4r\u00e4 k\u00e4ytt\u00e4j\u00e4lle", 
-            "+6 putkipommien enimm\u00e4ism\u00e4\u00e4r\u00e4", 
             "R\u00e4j\u00e4ytt\u00e4\u00e4 t\u00e4ht\u00e4imen l\u00e4hell\u00e4 olevat tahmapommit", 
-            "Pystyy tuhoamaan vihollisen tahmapommeja"
+            "+25% suurempi tulitusnopeus", 
+            "Pystyy tuhoamaan vihollisen tahmapommeja", 
+            "+6 putkipommien enimm\u00e4ism\u00e4\u00e4r\u00e4"
         ], 
         "type": "Tahmapommin laukaisin", 
         "negative": [
-            "0.4 sekuntia hitaampi pommin viritysaika"
+            "0.8 sekuntia hitaampi pommin viritysaika"
         ], 
         "description": "Skotlannin vastarinta"
     }, 
     "137": {
+        "alt": [
+            "Herrasmiehelle, jonka mielest\u00e4 h\u00e4nen hattunsakin ansaitsee hatun."
+        ], 
         "type": "Hat", 
         "description": "Kelpo kokoelma hattuja"
     }, 
     "136": {
         "alt": [
-            "Toinen sija, Propagandakilpailu"
+            "Toinen sija, Propagandakilpailu", 
+            "Ei vaihdettavissa"
         ], 
         "type": "Hat", 
         "description": "Amberin pirun hieno hattu"
     }, 
     "135": {
+        "alt": [
+            "Hahaa! Olet JULKEA sek\u00e4 K\u00d6YH\u00c4 ja PIHI. \u00c4ll\u00f6s tahraa majesteetillista HATTUTORNIANI."
+        ], 
         "type": "Hat", 
         "description": "Valtava hattutorni"
     }, 
     "134": {
         "alt": [
-            "Ensimm\u00e4inen sija, Propagandakilpailu"
+            "Ensimm\u00e4inen sija, Propagandakilpailu", 
+            "Ei vaihdettavissa"
         ], 
         "type": "Hat", 
         "description": "J.Axerin siisti silinteri"
     }, 
+    "95": {
+        "alt": [
+            "TF_Engineer_Train_Hat_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "Engineerin lippis"
+    }, 
     "139": {
+        "alt": [
+            "Koska herrasmies ei ole herrasmies ilman hattua."
+        ], 
         "type": "Hat", 
         "description": "Vaatimaton pino hattua"
     }, 
     "138": {
         "alt": [
-            "Kolmas sija, Propagandakilpailu"
+            "Kolmas sija, Propagandakilpailu", 
+            "Ei vaihdettavissa"
         ], 
         "type": "Hat", 
         "description": "Set\u00e4 Samuli"
+    }, 
+    "166": {
+        "alt": [
+            "Vaikka saavuit juhliin my\u00f6h\u00e4ss\u00e4, olit koko bileiden keskipiste.", 
+            "Palkkausp\u00e4iv\u00e4: %s1", 
+            "Ei vaihdettavissa"
+        ], 
+        "type": "Tunnus", 
+        "description": "Palkkasotilas"
     }, 
     "24": {
         "type": "Revolveri", 
@@ -106,9 +189,12 @@
         "type": "Pistooli", 
         "description": "Pistooli"
     }, 
-    "95": {
+    "223": {
+        "alt": [
+            "TF_TheFamiliarFez_Desc"
+        ], 
         "type": "Hat", 
-        "description": "Engineerin lippis"
+        "description": "Fantastinen fetsi"
     }, 
     "28": {
         "type": "PDA", 
@@ -118,9 +204,12 @@
         "type": "L\u00e4\u00e4kint\u00e4ase", 
         "description": "L\u00e4\u00e4kint\u00e4ase"
     }, 
-    "94": {
-        "type": "Hat", 
-        "description": "Teksasilaishattu"
+    "222": {
+        "alt": [
+            "Pelaajat parantavat 75 % vahingoista, jotka\r\naiheutetaan maidon peitossa oleville vihollisille."
+        ], 
+        "type": "Aine, joka ei ole maitoa", 
+        "description": "Hullu maito"
     }, 
     "0": {
         "type": "Maila", 
@@ -134,38 +223,63 @@
         "type": "Luusaha", 
         "description": "Luusaha"
     }, 
-    "96": {
-        "type": "Hat", 
-        "description": "Upseerin ushanka"
+    "163": {
+        "alt": [
+            "Efektin vaikutuksen alaisena tehty ja otettu vahinko ovat minikriittisi\u00e4.", 
+            "Lis\u00e4\u00e4 +50 maksimiterveytt\u00e4 30 sekunniksi"
+        ], 
+        "type": "Ev\u00e4srasia", 
+        "description": "Krittikola"
     }, 
     "120": {
+        "alt": [
+            "TF_Demo_Top_Hat_Desc"
+        ], 
         "type": "Hat", 
         "description": "Skottilainen silinteri"
     }, 
     "121": {
+        "alt": [
+            "Annetaan niille rohkeille sotilaille, jotka seisovat vartiossa urheasti ilman unta, ravintoa tai sosiaalista el\u00e4m\u00e4\u00e4.", 
+            "Ei vaihdettavissa"
+        ], 
         "type": "Mitali", 
         "description": "Herrasmiehen kunniamitali"
     }, 
     "122": {
+        "alt": [
+            "Ei vaihdettavissa"
+        ], 
         "type": "Cheat Detector", 
         "description": "Tilisi on merkitty esineiden jakeluj\u00e4rjestelm\u00e4n kiert\u00e4misen vuoksi. Poistimme laittomasti hankitut esineet.\r\n\r\nSeuraavat rikkomukset johtavat kaikkien esineidesi menett\u00e4miseen."
     }, 
     "123": {
+        "alt": [
+            "Ei vaihdettavissa"
+        ], 
         "type": "Cheat Detector", 
         "description": "Tilisi on merkitty esineiden jakeluj\u00e4rjestelm\u00e4n kiert\u00e4misen vuoksi. Poistimme kaikki esineet tavaraluettelostasi.\r\n\r\nSeuraavat rikkomukset voivat johtaa tilisi poistamiseen."
     }, 
     "124": {
+        "alt": [
+            "Ei vaihdettavissa"
+        ], 
         "type": "Cheat Detector", 
         "description": "Onneksi olkoon! Rehellisyytesi on palkittu uudella p\u00e4\u00e4hineell\u00e4!\r\n\r\n(Joillakin muilla v\u00e4hemm\u00e4n tunnollisilla pelaajilla ei ole k\u00e4ynyt yht\u00e4 hyv\u00e4 onni)"
     }, 
     "125": {
         "alt": [
-            "%s1% aiheutettu vahinko"
+            "Jotkut tekev\u00e4t kaikkensa saadakseen hattuja, mutta sin\u00e4 pysyit m\u00e4\u00e4r\u00e4tietoisena ja turmeltumattomana tavoitellessasi p\u00e4\u00e4hineit\u00e4. Siit\u00e4 sinut palkitaan.", 
+            "Vaikutus: %s1", 
+            "Ei vaihdettavissa"
         ], 
         "type": "Lahjomattoman aura", 
         "description": "S\u00e4dekeh\u00e4"
     }, 
     "126": {
+        "alt": [
+            "Left 4 Dead -hattu sinulle."
+        ], 
         "type": "Veteraanin baretti", 
         "description": "Billin hattu"
     }, 
@@ -189,6 +303,9 @@
         "description": "Tasoittaja"
     }, 
     "129": {
+        "alt": [
+            "Tarjoaa hy\u00f6kk\u00e4ysbuustin, joka avulla\r\nl\u00e4hell\u00e4 olevat tiimil\u00e4iset voivat aiheuttaa kriittisi\u00e4 osumia."
+        ], 
         "type": "Sotalippu", 
         "description": "Sotalippu"
     }, 
@@ -213,10 +330,16 @@
         "description": "Nestekarate"
     }, 
     "55": {
+        "alt": [
+            "T\u00e4m\u00e4 tyylik\u00e4s ja silkill\u00e4 koristeltu kaunotar tekee aloittelevasta selk\u00e4\u00e4npuukottajasta komean rosvon."
+        ], 
         "type": "Hat", 
         "description": "Hieno lierihattu"
     }, 
     "54": {
+        "alt": [
+            "T\u00e4m\u00e4 hattu ei mill\u00e4\u00e4n tavalla mainosta tupakointia tai uhkapelej\u00e4."
+        ], 
         "type": "Hat", 
         "description": "Sotilaan viikset"
     }, 
@@ -232,18 +355,30 @@
         "description": "Mets\u00e4mies"
     }, 
     "51": {
+        "alt": [
+            "TF_Pyro_Hat_1_Desc"
+        ], 
         "type": "Hat", 
         "description": "Pyron lakki"
     }, 
     "50": {
+        "alt": [
+            "Yhden sodan j\u00e4\u00e4nne toiseen sotaan tuotuna.\r\nVihollisesi kyll\u00e4 ymm\u00e4rt\u00e4\u00e4."
+        ], 
         "type": "Hat", 
         "description": "Preussilainen pickelhaube"
     }, 
     "53": {
+        "alt": [
+            "Kuka tahansa saa vedetty\u00e4 hampaat kuolleelta krokotiililta.\r\nTosimies vet\u00e4\u00e4 hampaan irti el\u00e4v\u00e4lt\u00e4."
+        ], 
         "type": "Hat", 
         "description": "Palkintovy\u00f6"
     }, 
     "52": {
+        "alt": [
+            "T\u00e4m\u00e4 punainen muovinpala p\u00e4\u00e4ss\u00e4 murskaat tuhansittain kalloja!"
+        ], 
         "type": "Hat", 
         "description": "Ly\u00f6j\u00e4n kyp\u00e4r\u00e4"
     }, 
@@ -275,87 +410,193 @@
         "type": "Luomiskohde", 
         "description": "Paikkamerkki - Toissijainen"
     }, 
-    "5014": {
-        "alt": [
-            "K\u00e4ytet\u00e4\u00e4n varustepaikan m\u00e4\u00e4ritt\u00e4miseen piirustuksissa"
-        ], 
-        "type": "Luomiskohde", 
-        "description": "Paikkamerkki - L\u00e4hitaistelu"
+    "199": {
+        "type": "Haulikko", 
+        "description": "Haulikko"
     }, 
-    "5015": {
-        "alt": [
-            "K\u00e4ytet\u00e4\u00e4n varustepaikan m\u00e4\u00e4ritt\u00e4miseen piirustuksissa"
-        ], 
-        "type": "Luomiskohde", 
-        "description": "Paikkamerkki - Kranaatti"
+    "198": {
+        "type": "Luusaha", 
+        "description": "Luusaha"
     }, 
-    "5016": {
+    "147": {
         "alt": [
-            "K\u00e4ytet\u00e4\u00e4n varustepaikan m\u00e4\u00e4ritt\u00e4miseen piirustuksissa"
+            "Oikeus on sokea, sanotaan. Sit\u00e4 ei sanota, ett\u00e4 oikeus on my\u00f6s n\u00e4kym\u00e4t\u00f6n ja kiinnostunut murhaamisesta pikemminkin kuin oikeudesta."
         ], 
-        "type": "Luomiskohde", 
-        "description": "Paikkamerkki - Rakennus"
+        "type": "Hat", 
+        "description": "Tuomarin takatukka"
     }, 
-    "5017": {
-        "alt": [
-            "K\u00e4ytet\u00e4\u00e4n varustepaikan m\u00e4\u00e4ritt\u00e4miseen piirustuksissa"
-        ], 
-        "type": "Luomiskohde", 
-        "description": "Paikkamerkki - PDA"
+    "195": {
+        "type": "Nyrkit", 
+        "description": "Nyrkit"
     }, 
-    "5018": {
-        "alt": [
-            "K\u00e4ytet\u00e4\u00e4n varustepaikan m\u00e4\u00e4ritt\u00e4miseen piirustuksissa"
-        ], 
-        "type": "Luomiskohde", 
-        "description": "Paikkamerkki - PDA2"
+    "194": {
+        "type": "Veitsi", 
+        "description": "Veitsi"
     }, 
-    "5019": {
-        "alt": [
-            "K\u00e4ytet\u00e4\u00e4n varustepaikan m\u00e4\u00e4ritt\u00e4miseen piirustuksissa"
-        ], 
-        "type": "Luomiskohde", 
-        "description": "Paikkamerkki - P\u00e4\u00e4"
+    "197": {
+        "type": "Jakoavain", 
+        "description": "Jakoavain"
+    }, 
+    "196": {
+        "type": "Lapio", 
+        "description": "Lapio"
+    }, 
+    "191": {
+        "type": "Pullo", 
+        "description": "Pullo"
+    }, 
+    "190": {
+        "type": "Maila", 
+        "description": "Maila"
+    }, 
+    "193": {
+        "type": "Kukri-veitsi", 
+        "description": "Kukri-veitsi"
+    }, 
+    "192": {
+        "type": "Palokirves", 
+        "description": "Palokirves"
     }, 
     "115": {
+        "alt": [
+            "Ruskea paperi ei koskaan ole n\u00e4ytt\u00e4nyt yht\u00e4 liev\u00e4sti h\u00e4iriintyneelt\u00e4."
+        ], 
         "type": "Juhlahattu", 
         "description": "Hiukan h\u00e4iritsev\u00e4 Halloween-naamio"
     }, 
+    "177": {
+        "alt": [
+            "Ei mit\u00e4\u00e4n"
+        ], 
+        "type": "Hat", 
+        "description": "Zuojalasit"
+    }, 
     "117": {
+        "alt": [
+            "H\u00e4nen luotinsa osui l\u00e4helle.\r\nMenetin hattuni.\r\nMinun luotini osui l\u00e4hemm\u00e4s.\r\nH\u00e4n menetti p\u00e4\u00e4ns\u00e4."
+        ], 
         "type": "Hat", 
         "description": "Luksus-Lassen Hiusliima"
     }, 
     "116": {
         "alt": [
-            "Kirjaillut nimikirjaimet Z.M."
+            "Kirjaillut nimikirjaimet Z.M.", 
+            "Ei vaihdettavissa"
         ], 
         "type": "Hat", 
         "description": "Hirvityshattu"
     }, 
     "111": {
+        "alt": [
+            "Kaikki tiet\u00e4v\u00e4t, ett\u00e4 nopeus on Scoutin paras yst\u00e4v\u00e4. Miksi hidastaisit kulkuasi isoilla hatuilla, kun ilman hattuja voit rikkoa \u00e4\u00e4nivallin?"
+        ], 
         "type": "Hat", 
         "description": "Pes\u00e4pallo-Pekan Sporttivaha"
     }, 
     "110": {
+        "alt": [
+            "Vain nestekaraten mestarilla on oikeus k\u00e4ytt\u00e4\u00e4 t\u00e4t\u00e4 aiemmin valkoista huivia, jonka ankara harjoittelu on kellastuttanut."
+        ], 
         "type": "Hat", 
         "description": "Mestarin keltainen vy\u00f6"
     }, 
+    "253": {
+        "alt": [
+            "Poistaa kaikenlaiset tukkeet."
+        ], 
+        "type": "Hat", 
+        "description": "Putkimiehen pelastus"
+    }, 
+    "205": {
+        "type": "Raketinheitin", 
+        "description": "Raketinheitin"
+    }, 
     "118": {
+        "alt": [
+            "Joskus tarvitaan v\u00e4h\u00e4n v\u00e4hemm\u00e4n hattua."
+        ], 
         "type": "Hat", 
         "description": "Teksas-Timon Kupolinkiilloke"
+    }, 
+    "165": {
+        "alt": [
+            "Toki jotkut ovat tehneet sit\u00e4 kauemmin, mutta vain harva voi tehd\u00e4 sen paremmin kuin sin\u00e4.", 
+            "Palkkausp\u00e4iv\u00e4: %s1", 
+            "Ei vaihdettavissa"
+        ], 
+        "type": "Tunnus", 
+        "description": "Onnensoturi"
+    }, 
+    "143": {
+        "alt": [
+            "OSX kunniaan!"
+        ], 
+        "type": "Hat", 
+        "description": "Korvanapit"
+    }, 
+    "174": {
+        "alt": [
+            "Vain p\u00f6ntt\u00f6 ei ymm\u00e4rr\u00e4, ett\u00e4 t\u00e4m\u00e4 p\u00e4\u00e4hine on tyylitietoisen nuorison silmiss\u00e4 viimeisint\u00e4 huutoa."
+        ], 
+        "type": "Hat", 
+        "description": "Kruunupipo"
+    }, 
+    "140": {
+        "alt": [
+            "Ohjaa vartiotykki\u00e4 manuaalisesti"
+        ], 
+        "type": "Laserosoitin", 
+        "description": "Kaukopaimen"
+    }, 
+    "141": {
+        "positive": [
+            "Vartiotykkisi tuhoutuessa saat kriittisi\u00e4 kosto-osumia jokaisesta sen tekem\u00e4st\u00e4 taposta."
+        ], 
+        "type": "Haulikko", 
+        "negative": [
+            "Ei satunnaisia kriittisi\u00e4 osumia", 
+            "-50% lippaan koko"
+        ], 
+        "description": "Rintamaoikeus"
     }, 
     "3": {
         "type": "Kukri-veitsi", 
         "description": "Kukri-veitsi"
     }, 
+    "171": {
+        "positive": [
+            "Osumasta: Verenvuotoa 6 sekunnin ajan"
+        ], 
+        "type": "Kukri-veitsi", 
+        "negative": [
+            "-50% aiheutettu vahinko"
+        ], 
+        "description": "Heimolaister\u00e4"
+    }, 
     "7": {
         "type": "Jakoavain", 
         "description": "Jakoavain"
     }, 
+    "146": {
+        "alt": [
+            "TF_DemomanHallmark_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "Suten\u00f6\u00f6rin silm\u00e4ter\u00e4"
+    }, 
+    "170": {
+        "alt": [
+            "Aidon soturin mitali, joka annetaan niille, jotka rupesivat sotimaan jo ennen taistelun alkua.", 
+            "Palkkausp\u00e4iv\u00e4: %s1", 
+            "Ei vaihdettavissa"
+        ], 
+        "type": "Tunnus", 
+        "description": "Muinaistaistelija"
+    }, 
     "other_attributes": {
         "133": "Mitali numero %s1", 
-        "132": "Antaa arvokasta yhteis\u00f6n osallistujien", 
-        "143": "Vuokraus Date: %s1", 
+        "132": "Koska arvokkaita yhteis\u00f6n osallistujien", 
+        "143": "Hire Date: %s1", 
         "147": "Jakoavain numero %s1"
     }, 
     "5003": {
@@ -419,55 +660,120 @@
         "type": "Luomiskohde", 
         "description": "Luokkamerkki - Medic"
     }, 
-    "108": {
+    "245": {
+        "alt": [
+            "Ansaittu tasolla 75.\r\nT\u00e4m\u00e4 merkki pit\u00e4\u00e4 kirjaa kaksintaistelutilastoistasi.\r\nLis\u00e4\u00e4 sen tasoa voittamalla lis\u00e4\u00e4 kaksintaisteluita!", 
+            "Ei vaihdettavissa"
+        ], 
+        "type": "Tunnus", 
+        "description": "Platinainen kaksintaistelumerkki"
+    }, 
+    "244": {
+        "alt": [
+            "Ansaittu tasolla 50.\r\nT\u00e4m\u00e4 merkki pit\u00e4\u00e4 kirjaa kaksintaistelutilastoistasi.\r\nLis\u00e4\u00e4 sen tasoa voittamalla lis\u00e4\u00e4 kaksintaisteluita!", 
+            "Ei vaihdettavissa"
+        ], 
+        "type": "Tunnus", 
+        "description": "Kultainen kaksintaistelumerkki"
+    }, 
+    "247": {
+        "alt": [
+            "T\u00e4m\u00e4 hattu lis\u00e4\u00e4 tulisuutta jokaiseen tilanteeseen."
+        ], 
         "type": "Hat", 
-        "description": "Selk\u00e4\u00e4npuukottajan knalli"
+        "description": "Vanha meksikolainen"
     }, 
     "109": {
+        "alt": [
+            "Kohtelias ja tehokas hattu pidett\u00e4v\u00e4ksi silloin, kun tapat kaikki vastaantulijat."
+        ], 
         "type": "Hat", 
         "description": "Ammattilaisen panamahattu"
     }, 
     "9003": {
         "positive": [
-            "Kiellot Steam pelaajien kuoli", 
+            "Kiellot Steam pelaajat kuoli", 
             "T\u00e4m\u00e4 kohta ei ole todellinen, ja se on vain vitsi."
         ], 
         "type": "Mallet ja karkoituksen", 
         "description": "Ban Hammer"
     }, 
     "240": {
+        "alt": [
+            "TF_Worms_Gear_Desc"
+        ], 
         "type": "Hat", 
-        "description": "Lumbricus Lid"
+        "description": "Matomainen myssy"
+    }, 
+    "243": {
+        "alt": [
+            "Ansaittu tasolla 25.\r\nT\u00e4m\u00e4 merkki pit\u00e4\u00e4 kirjaa kaksintaistelutilastoistasi.\r\nLis\u00e4\u00e4 sen tasoa voittamalla lis\u00e4\u00e4 kaksintaisteluita!", 
+            "Ei vaihdettavissa"
+        ], 
+        "type": "Tunnus", 
+        "description": "Hopeinen kaksintaistelumerkki"
+    }, 
+    "242": {
+        "alt": [
+            "T\u00e4m\u00e4 merkki pit\u00e4\u00e4 kirjaa kaksintaistelutilastoistasi.\r\nLis\u00e4\u00e4 sen tasoa voittamalla lis\u00e4\u00e4 kaksintaisteluita!", 
+            "Ei vaihdettavissa"
+        ], 
+        "type": "Tunnus", 
+        "description": "Pronssinen kaksintaistelumerkki"
     }, 
     "102": {
+        "alt": [
+            "Ihmisten kunnioitusta ei tarvitse ansaita, jos heid\u00e4t voi sytytt\u00e4\u00e4 tuleen."
+        ], 
         "type": "Hat", 
         "description": "Kunnioittamaton kumihanska"
     }, 
     "103": {
+        "alt": [
+            "Sinua ei varmaan haittaa, ett\u00e4 luen t\u00e4m\u00e4n huippusalaisen asiakirjan parrallani?"
+        ], 
         "type": "Hat", 
         "description": "Kameraparta"
     }, 
     "100": {
+        "alt": [
+            "TF_Demo_Scott_Hat_Desc"
+        ], 
         "type": "Hat", 
         "description": "Glengarry-lakki"
     }, 
     "101": {
+        "alt": [
+            "TF_Medic_Tyrolean_Hat_Desc"
+        ], 
         "type": "Hat", 
         "description": "Tirolilaishattu"
     }, 
     "106": {
+        "alt": [
+            "Joskus yksi radioaktiivinen juoma kerrallaan ei riit\u00e4."
+        ], 
         "type": "Hat", 
         "description": "Naps-kyp\u00e4r\u00e4"
     }, 
     "107": {
+        "alt": [
+            "Uutisia! Olet kuollut!"
+        ], 
         "type": "Hat", 
         "description": "Pappal\u00e4ts\u00e4"
     }, 
     "104": {
+        "alt": [
+            "Emme mek\u00e4\u00e4n osaa \u00e4\u00e4nt\u00e4\u00e4 sit\u00e4."
+        ], 
         "type": "Hat", 
         "description": "Korval\u00e4\u00e4k\u00e4rin peili"
     }, 
     "105": {
+        "alt": [
+            "TF_Pyro_Fireman_Helmet_Desc"
+        ], 
         "type": "Hat", 
         "description": "Palomiehen kyp\u00e4r\u00e4"
     }, 
@@ -486,18 +792,6 @@
         ], 
         "description": "Sammutuskirves"
     }, 
-    "33": {
-        "type": "Ruiskuase", 
-        "description": "Ruiskuase"
-    }, 
-    "32": {
-        "type": "Luusaha", 
-        "description": "Luusaha"
-    }, 
-    "31": {
-        "type": "Valopistooli", 
-        "description": "Valopistooli"
-    }, 
     "30": {
         "type": "N\u00e4kym\u00e4tt\u00f6myyskello", 
         "description": "N\u00e4kym\u00e4tt\u00f6myyskello"
@@ -512,15 +806,12 @@
         ], 
         "description": "Ubersaha"
     }, 
-    "36": {
-        "positive": [
-            "Osumasta: +3 terveytt\u00e4"
+    "108": {
+        "alt": [
+            "Niihin tilanteisiin, kun haluaisit p\u00e4\u00e4si olevan v\u00e4h\u00e4n pidempi,\r\nmutta yht\u00e4 py\u00f6re\u00e4n muotoinen."
         ], 
-        "type": "Ruiskuase", 
-        "negative": [
-            "-2 terveytt\u00e4 pois k\u00e4ytt\u00e4j\u00e4lt\u00e4 sekunnissa"
-        ], 
-        "description": "Blutsauger"
+        "type": "Hat", 
+        "description": "Selk\u00e4\u00e4npuukottajan knalli"
     }, 
     "35": {
         "positive": [
@@ -532,9 +823,106 @@
         "type": "L\u00e4\u00e4kint\u00e4ase", 
         "description": "Kritzkrieg"
     }, 
-    "34": {
-        "type": "L\u00e4\u00e4kint\u00e4ase", 
-        "description": "L\u00e4\u00e4kint\u00e4ase"
+    "246": {
+        "alt": [
+            ""
+        ], 
+        "type": "Hat", 
+        "description": "Pugilistin puolustaja"
+    }, 
+    "94": {
+        "alt": [
+            "Tavalliselta lehmipojan hatulta n\u00e4ytt\u00e4v\u00e4 modernin insin\u00f6\u00f6ritaidon n\u00e4yte sis\u00e4lt\u00e4\u00e4 enemm\u00e4n liikkuvia osia kuin kakkostason vartiotykiss\u00e4."
+        ], 
+        "type": "Hat", 
+        "description": "Teksasilaishattu"
+    }, 
+    "241": {
+        "alt": [
+            "Voit haastaa jonkun kaksintaisteluun!\r\nLis\u00e4tietoja on Mann Co. -tuoteluettelossa."
+        ], 
+        "type": "K\u00e4ytett\u00e4v\u00e4 esine", 
+        "description": "Kaksintaistelu-minipeli"
+    }, 
+    "5038": {
+        "alt": [
+            "T\u00e4t\u00e4 k\u00e4ytet\u00e4\u00e4n muiden esineiden maalaamiseen.", 
+            "Min\u00e4 tein t\u00e4m\u00e4n!"
+        ], 
+        "type": "Ty\u00f6kalu", 
+        "description": "Aged Moustache Grey"
+    }, 
+    "5039": {
+        "alt": [
+            "T\u00e4t\u00e4 k\u00e4ytet\u00e4\u00e4n muiden esineiden maalaamiseen.", 
+            "Min\u00e4 tein t\u00e4m\u00e4n!"
+        ], 
+        "type": "Ty\u00f6kalu", 
+        "description": "An Extraordinary Abundance of Tinge"
+    }, 
+    "5036": {
+        "alt": [
+            "T\u00e4t\u00e4 k\u00e4ytet\u00e4\u00e4n muiden esineiden maalaamiseen.", 
+            "Min\u00e4 tein t\u00e4m\u00e4n!"
+        ], 
+        "type": "Ty\u00f6kalu", 
+        "description": "Ye Olde Rustic Colour"
+    }, 
+    "5037": {
+        "alt": [
+            "T\u00e4t\u00e4 k\u00e4ytet\u00e4\u00e4n muiden esineiden maalaamiseen.", 
+            "Min\u00e4 tein t\u00e4m\u00e4n!"
+        ], 
+        "type": "Ty\u00f6kalu", 
+        "description": "Australium Gold"
+    }, 
+    "5034": {
+        "alt": [
+            "T\u00e4t\u00e4 k\u00e4ytet\u00e4\u00e4n muiden esineiden maalaamiseen.", 
+            "Min\u00e4 tein t\u00e4m\u00e4n!"
+        ], 
+        "type": "Ty\u00f6kalu", 
+        "description": "Peculiarly Drab Tincture"
+    }, 
+    "5035": {
+        "alt": [
+            "T\u00e4t\u00e4 k\u00e4ytet\u00e4\u00e4n muiden esineiden maalaamiseen.", 
+            "Min\u00e4 tein t\u00e4m\u00e4n!"
+        ], 
+        "type": "Ty\u00f6kalu", 
+        "description": "Radigan Conagher Brown"
+    }, 
+    "5032": {
+        "alt": [
+            "T\u00e4t\u00e4 k\u00e4ytet\u00e4\u00e4n muiden esineiden maalaamiseen.", 
+            "Min\u00e4 tein t\u00e4m\u00e4n!"
+        ], 
+        "type": "Ty\u00f6kalu", 
+        "description": "Mann Co. Orange"
+    }, 
+    "5033": {
+        "alt": [
+            "T\u00e4t\u00e4 k\u00e4ytet\u00e4\u00e4n muiden esineiden maalaamiseen.", 
+            "Min\u00e4 tein t\u00e4m\u00e4n!"
+        ], 
+        "type": "Ty\u00f6kalu", 
+        "description": "Muskelmannbraun"
+    }, 
+    "5030": {
+        "alt": [
+            "T\u00e4t\u00e4 k\u00e4ytet\u00e4\u00e4n muiden esineiden maalaamiseen.", 
+            "Min\u00e4 tein t\u00e4m\u00e4n!"
+        ], 
+        "type": "Ty\u00f6kalu", 
+        "description": "Color No. 216-190-216"
+    }, 
+    "5031": {
+        "alt": [
+            "T\u00e4t\u00e4 k\u00e4ytet\u00e4\u00e4n muiden esineiden maalaamiseen.", 
+            "Min\u00e4 tein t\u00e4m\u00e4n!"
+        ], 
+        "type": "Ty\u00f6kalu", 
+        "description": "A Deep Commitment to Purple"
     }, 
     "60": {
         "positive": [
@@ -557,32 +945,71 @@
         ], 
         "description": "Suurl\u00e4hettil\u00e4s"
     }, 
+    "259": {
+        "alt": [
+            "\u00c4lk\u00f6\u00f6n yksik\u00e4\u00e4n vartio selviytyk\u00f6."
+        ], 
+        "type": "Hat", 
+        "description": "Juomarin y\u00f6myssy"
+    }, 
     "97": {
+        "alt": [
+            "Koska sin\u00e4 olet koko tukikohdan kovin kaveri, kukaan ei arvostele tyyli\u00e4si."
+        ], 
         "type": "Hat", 
         "description": "Kovan j\u00e4tk\u00e4n pipo"
     }, 
     "179": {
+        "alt": [
+            "Kolme kulmaa ja yksi skarppi hattu.\r\n\u00c4l\u00e4 puhkaise silm\u00e4\u00e4si."
+        ], 
         "type": "Hat", 
         "description": "K\u00e4nn\u00e4\u00e4j\u00e4n kolmikolkka"
     }, 
     "178": {
+        "alt": [
+            "On hankalaa yritt\u00e4\u00e4 laskea ulkoisen v\u00e4\u00e4nn\u00f6n kokonaisarvoa vartalon kiertoliikkeeseen sen liikevoimavektorin momentin suhteen, kun tulitaistelun ja kuoleman \u00e4\u00e4net h\u00e4iritsev\u00e4t. Rakenna siis parempi ja turvallisempi kone Safe'n'sound-kuulokkeiden hiljaisuudessa!"
+        ], 
         "type": "Hat", 
         "description": "Tuki & turva"
     }, 
-    "177": {
+    "252": {
         "alt": [
-            "Ei mit\u00e4\u00e4n"
+            ""
         ], 
         "type": "Hat", 
-        "description": "Zuojalasit"
+        "description": "Tohtorin hienompi hattu"
+    }, 
+    "5014": {
+        "alt": [
+            "K\u00e4ytet\u00e4\u00e4n varustepaikan m\u00e4\u00e4ritt\u00e4miseen piirustuksissa"
+        ], 
+        "type": "Luomiskohde", 
+        "description": "Paikkamerkki - L\u00e4hitaistelu"
     }, 
     "175": {
+        "alt": [
+            "Markkinoiden hienostunein naamaan liimattava tulenkest\u00e4v\u00e4 karvoitus lieskoilla leikkiville herrasmiehille."
+        ], 
         "type": "Hat", 
         "description": "Viiksek\u00e4s herrasmies"
     }, 
-    "174": {
+    "251": {
+        "alt": [
+            "Viktoriaanisen sotilasmuodin\r\nsuuri saavutus."
+        ], 
         "type": "Hat", 
-        "description": "Kruunupipo"
+        "description": "Rohkea Shako"
+    }, 
+    "173": {
+        "positive": [
+            "Kuolemassa 20% tallennetusta \r\nylilatauksesta s\u00e4ilytet\u00e4\u00e4n."
+        ], 
+        "type": "Luusaha", 
+        "negative": [
+            "-10 enimm\u00e4isterveys k\u00e4ytt\u00e4j\u00e4lle"
+        ], 
+        "description": "Vita-saha"
     }, 
     "172": {
         "positive": [
@@ -594,40 +1021,73 @@
         ], 
         "description": "Skotlantilainen saksenter\u00e4"
     }, 
-    "171": {
-        "positive": [
-            "Osumasta: Verenvuotoa 6 sekunnin ajan"
-        ], 
-        "type": "Kukri-veitsi", 
-        "negative": [
-            "-50% aiheutettu vahinko"
-        ], 
-        "description": "Heimolaister\u00e4"
-    }, 
-    "170": {
+    "254": {
         "alt": [
-            "Palkkausp\u00e4iv\u00e4: %s1"
+            "Nestekaraten kanssa ei voi olla\r\nliian varovainen."
         ], 
-        "type": "Tunnus", 
-        "description": "Muinaistaistelija"
+        "type": "Hat", 
+        "description": "Kova vastus"
+    }, 
+    "255": {
+        "alt": [
+            "Tahmahypp\u00e4\u00e4j\u00e4n paras kaveri."
+        ], 
+        "type": "Hat", 
+        "description": "Selv\u00e4 stuntmies"
+    }, 
+    "249": {
+        "alt": [
+            "Kuolema ylh\u00e4\u00e4lt\u00e4!"
+        ], 
+        "type": "Hat", 
+        "description": "Pommituslento"
+    }, 
+    "145": {
+        "alt": [
+            "Vastustajasi j\u00e4rkyttyv\u00e4t n\u00e4hdess\u00e4\u00e4n s\u00e4vykk\u00e4\u00e4t kiehkurasi."
+        ], 
+        "type": "Hat", 
+        "description": "Kunkku"
+    }, 
+    "248": {
+        "alt": [
+            "Kun takana on pitk\u00e4 p\u00e4iv\u00e4 tiedustelijoiden polttamista."
+        ], 
+        "type": "Hat", 
+        "description": "Torkkujan aikalis\u00e4"
     }, 
     "182": {
+        "alt": [
+            "Pyro k\u00e4ytt\u00e4\u00e4 t\u00e4t\u00e4 kunnianosoituksena niille palomiehille, jotka ovat menehtyneet h\u00e4nen sytytt\u00e4miins\u00e4 liekkeihin."
+        ], 
         "type": "Hat", 
         "description": "Vanha palokyp\u00e4r\u00e4"
     }, 
     "183": {
+        "alt": [
+            "T\u00e4m\u00e4 hattu on n\u00e4pp\u00e4r\u00e4 apu silloin, kun et itse halua karjua t\u00f6rkeyksill\u00e4 kurkkuasi k\u00e4he\u00e4ksi."
+        ], 
         "type": "Hat", 
         "description": "Kersantin koulutushattu"
     }, 
     "180": {
+        "alt": [
+            "Koska todellinen vakoilu on taidetta."
+        ], 
         "type": "Hat", 
         "description": "Ranskalainen baskeri"
     }, 
     "181": {
+        "alt": [
+            "L\u00e4hdin tarkka-ampumaan."
+        ], 
         "type": "Hat", 
         "description": "Kaverin kalastajahattu"
     }, 
     "184": {
+        "alt": [
+            "Lakki ei ehk\u00e4 ole yht\u00e4 arvovaltainen kuin muut hatut, mutta siin\u00e4 on omanlaistaan vieh\u00e4tysvoimaa. Sen hillitty ja hyv\u00e4ntahtoinen charmi vetoaa jokaiseen niin yst\u00e4vien kesken golfkent\u00e4ll\u00e4 kuin hyvin kiillotetulla luusahalla suoritetuissa satunnaisissa leikkauksissa."
+        ], 
         "type": "Hat", 
         "description": "Herrasmiehen golflakki"
     }, 
@@ -635,19 +1095,91 @@
         "type": "Lapio", 
         "description": "Lapio"
     }, 
+    "250": {
+        "alt": [
+            ""
+        ], 
+        "type": "Hat", 
+        "description": "Heimop\u00e4\u00e4llik\u00f6n haaste"
+    }, 
     "189": {
+        "alt": [
+            "T\u00e4m\u00e4 s\u00f6p\u00f6 pikku kaveri oli toisessa ajassa ja paikassa vitsaus ihmiskunnalle. Nyt se on tyytyv\u00e4inen vain istuessaan p\u00e4\u00e4si p\u00e4\u00e4ll\u00e4 pit\u00e4m\u00e4ss\u00e4 aurinkoa loitolla."
+        ], 
         "type": "Hat", 
         "description": "Muukalaisloinen"
     }, 
+    "5029": {
+        "alt": [
+            "T\u00e4t\u00e4 k\u00e4ytet\u00e4\u00e4n muiden esineiden maalaamiseen.", 
+            "Min\u00e4 tein t\u00e4m\u00e4n!"
+        ], 
+        "type": "Ty\u00f6kalu", 
+        "description": "Noble Hatter's Violet"
+    }, 
+    "5028": {
+        "alt": [
+            "T\u00e4t\u00e4 k\u00e4ytet\u00e4\u00e4n muiden esineiden maalaamiseen.", 
+            "Min\u00e4 tein t\u00e4m\u00e4n!"
+        ], 
+        "type": "Ty\u00f6kalu", 
+        "description": "Zephaniah's Greed"
+    }, 
+    "221": {
+        "alt": [
+            "On varmasti n\u00f6yryytt\u00e4v\u00e4\u00e4 saada osuma kalasta."
+        ], 
+        "type": "Kala", 
+        "description": "Pyh\u00e4 makrilli"
+    }, 
+    "5021": {
+        "alt": [
+            "K\u00e4ytet\u00e4\u00e4n lukittujen tarvikelaatikkojen avaamiseen."
+        ], 
+        "type": "Ty\u00f6kalu", 
+        "description": "Mann Co:n tarvikelaatikon avain"
+    }, 
+    "5020": {
+        "alt": [
+            "Muuttaa repussasi olevan esineen nime\u00e4"
+        ], 
+        "type": "Ty\u00f6kalu", 
+        "description": "Nimitunniste"
+    }, 
+    "5023": {
+        "alt": [
+            "T\u00e4t\u00e4 k\u00e4ytet\u00e4\u00e4n muiden esineiden maalaamiseen.", 
+            "Min\u00e4 tein t\u00e4m\u00e4n!"
+        ], 
+        "type": "Ty\u00f6kalu", 
+        "description": "Maalipurkki"
+    }, 
     "185": {
+        "alt": [
+            "T\u00e4m\u00e4n huivin pit\u00e4minen 12 sekunnin ajan maksaa 400 000 dollaria."
+        ], 
         "type": "Hat", 
         "description": "Raskaan ty\u00f6n r\u00e4tti"
     }, 
+    "5027": {
+        "alt": [
+            "T\u00e4t\u00e4 k\u00e4ytet\u00e4\u00e4n muiden esineiden maalaamiseen.", 
+            "Min\u00e4 tein t\u00e4m\u00e4n!"
+        ], 
+        "type": "Ty\u00f6kalu", 
+        "description": "Indubitably Green"
+    }, 
     "99": {
+        "alt": [
+            "Potkin sinua takamuksellesi niin lujaa, ett\u00e4 se lensi ajassa taaksep\u00e4in ja haki minulle t\u00e4m\u00e4n viikinkikyp\u00e4r\u00e4n."
+        ], 
         "type": "Hat", 
         "description": "Tyrannin kyp\u00e4r\u00e4"
     }, 
     "98": {
+        "alt": [
+            "Suojaa kalloa luodeilta ja sirpaleilta.\r\nL\u00e4mmitt\u00e4\u00e4 my\u00f6s keiton."
+        ], 
         "type": "Hat", 
         "description": "Ruostumaton kattila"
     }, 
@@ -655,29 +1187,63 @@
         "positive": [
             "T\u00e4ynn\u00e4 muinaista voimaa"
         ], 
+        "alt": [
+            "Ei vaihdettavissa"
+        ], 
         "type": "Jakoavain", 
         "description": "Kultainen jakoavain"
     }, 
-    "164": {
+    "229": {
         "alt": [
-            "Palkkausp\u00e4iv\u00e4: %s1"
+            "TF_OlSnaggletooth_Desc"
         ], 
-        "type": "Tunnus", 
-        "description": "Karski veteraani"
+        "type": "Hat", 
+        "description": "Vanha kierohammas"
     }, 
-    "165": {
-        "alt": [
-            "Palkkausp\u00e4iv\u00e4: %s1"
+    "228": {
+        "positive": [
+            "Osumasta: +15 terveytt\u00e4"
         ], 
-        "type": "Tunnus", 
-        "description": "Onnensoturi"
+        "type": "Raketinheitin", 
+        "negative": [
+            "-25% lippaan koko"
+        ], 
+        "description": "Musta laatikko"
     }, 
-    "166": {
+    "227": {
         "alt": [
-            "Palkkausp\u00e4iv\u00e4: %s1"
+            "TF_TheGrenadiersSoftcap_Desc"
         ], 
-        "type": "Tunnus", 
-        "description": "Palkkasotilas"
+        "type": "Hat", 
+        "description": "Krenat\u00f6\u00f6rin p\u00e4\u00e4hine"
+    }, 
+    "226": {
+        "alt": [
+            "Tarjoaa puolustusbuustin, joka suojaa\r\nl\u00e4hell\u00e4 olevia tiimil\u00e4isi\u00e4 kriittisilt\u00e4 osumilta\r\nja torjuu 35 % vastaanotetuista vahingoista.\r\nRaivo lis\u00e4\u00e4ntyy vahinkojen my\u00f6t\u00e4."
+        ], 
+        "type": "Sotalippu", 
+        "description": "Pataljoonan taustatuki"
+    }, 
+    "225": {
+        "positive": [
+            "Onnistuneen selk\u00e4\u00e4npuukotuksen j\u00e4lkeen\r\nnaamioidut nopeasti uhriksesi", 
+            "T\u00e4m\u00e4 ase on hiljainen tappaja"
+        ], 
+        "type": "Veitsi", 
+        "negative": [
+            "K\u00e4ytt\u00e4j\u00e4 ei voi naamioitua"
+        ], 
+        "description": "Ikuinen palkkiosi"
+    }, 
+    "224": {
+        "positive": [
+            "+15 verhoutumista osumasta"
+        ], 
+        "type": "Revolveri", 
+        "negative": [
+            "-20% aiheutettu vahinko"
+        ], 
+        "description": "L'Etranger-revolveri"
     }, 
     "160": {
         "alt": [
@@ -700,13 +1266,15 @@
         "type": "Hat", 
         "description": "Maxin irtileikattu p\u00e4\u00e4"
     }, 
-    "163": {
-        "alt": [
-            "Efektin vaikutuksen alaisena tehty ja otettu vahinko ovat minikriittisi\u00e4.", 
-            "Lis\u00e4\u00e4 +50 maksimiterveytt\u00e4 30 sekunniksi"
+    "220": {
+        "positive": [
+            "Osumasta: hidastaa kohteen liikett\u00e4 40 %:lla kohteelle 0.5s"
         ], 
-        "type": "Ev\u00e4srasia", 
-        "description": "Krittikola"
+        "alt": [
+            "Mann Co:n uusin kovalla asenteella\r\nvarustettu taittuvapiippuinen puolustuslaite."
+        ], 
+        "type": "Pippuriase", 
+        "description": "Pys\u00e4ytt\u00e4j\u00e4"
     }, 
     "11": {
         "type": "Haulikko", 
@@ -748,11 +1316,36 @@
         "type": "Raketinheitin", 
         "description": "Raketinheitin"
     }, 
+    "164": {
+        "alt": [
+            "Esittele t\u00e4t\u00e4 rinnassasi ylpe\u00e4n\u00e4, sotilas. Aina kun tapat jonkun, h\u00e4n tiet\u00e4\u00e4, ettei ollut ensimm\u00e4inen tapposi.", 
+            "Palkkausp\u00e4iv\u00e4: %s1", 
+            "Ei vaihdettavissa"
+        ], 
+        "type": "Tunnus", 
+        "description": "Karski veteraani"
+    }, 
+    "5022": {
+        "positive": [
+            "Laatikkosarjan nro: 1"
+        ], 
+        "alt": [
+            "T\u00e4m\u00e4n avaamiseen tarvitaan Mann Co:n tarvikelaatikon avain."
+        ], 
+        "type": "TF_LockedCrate", 
+        "description": "Mann Co:n tarvikelaatikko"
+    }, 
     "151": {
+        "alt": [
+            "Ainakin h\u00e4n k\u00e4skee sinua viel\u00e4 polttamaan asioita."
+        ], 
         "type": "Hat", 
         "description": "Triboniophorus Tyrannus"
     }, 
     "150": {
+        "alt": [
+            "Komentopiste iin p\u00e4\u00e4lle."
+        ], 
         "type": "Hat", 
         "description": "Pahan pojan pipo"
     }, 
@@ -768,6 +1361,9 @@
         "description": "Kodinrikkoja"
     }, 
     "152": {
+        "alt": [
+            "Haiku sodalle.\r\nVoita vastustajasi.\r\nHatun avulla."
+        ], 
         "type": "Hat", 
         "description": "Teurastajan it\u00e4mainen"
     }, 
@@ -800,14 +1396,102 @@
         "description": "Suklaalevy"
     }, 
     "158": {
+        "alt": [
+            "Sopii er\u00e4maassa samoiluun ja vastustajan kallon sisuksien tutkimiseen."
+        ], 
         "type": "Hat", 
         "description": "Haukkasilm\u00e4n hellekyp\u00e4r\u00e4"
     }, 
+    "36": {
+        "positive": [
+            "Osumasta: +3 terveytt\u00e4"
+        ], 
+        "type": "Ruiskuase", 
+        "negative": [
+            "-2 terveytt\u00e4 pois k\u00e4ytt\u00e4j\u00e4lt\u00e4 sekunnissa"
+        ], 
+        "description": "Blutsauger"
+    }, 
+    "239": {
+        "positive": [
+            "+30% nopeampi liikkumisnopeus k\u00e4ytt\u00e4j\u00e4lle"
+        ], 
+        "alt": [
+            "Aseen ollessa aktiivisena:"
+        ], 
+        "type": "Nyrkit", 
+        "negative": [
+            "-50% aiheutettu vahinko", 
+            "-6 terveytt\u00e4 pois k\u00e4ytt\u00e4j\u00e4lt\u00e4 sekunnissa"
+        ], 
+        "description": "Pikajuoksuhanskat"
+    }, 
+    "234": {
+        "alt": [
+            "K\u00e4ytett\u00e4ess\u00e4 t\u00e4m\u00e4 toimintoesine antaa satunnaisen lahjan\r\njopa 23 muulle pelaajalle palvelimella!"
+        ], 
+        "type": "Lahja", 
+        "description": "Lahjakasa"
+    }, 
+    "237": {
+        "positive": [
+            "Ei itse aiheutettua r\u00e4j\u00e4hdysvahinkoa.", 
+            "+200% ykk\u00f6saseen ammusten enimm\u00e4ism\u00e4\u00e4r\u00e4 k\u00e4ytt\u00e4j\u00e4lle"
+        ], 
+        "alt": [
+            "Erityinen vahinkoa aiheuttamaton raketinheitin, jolla voi opetella\r\nrakettihyppytemppuja ja -kuvioita."
+        ], 
+        "type": "Raketinheitin", 
+        "negative": [
+            "-100% aiheutettu vahinko"
+        ], 
+        "description": "Rakettihypp\u00e4\u00e4j\u00e4"
+    }, 
+    "230": {
+        "positive": [
+            "Osumasta: nestekaratea k\u00e4ytet\u00e4\u00e4n\r\nkohteeseen 8 sekunnin ajan"
+        ], 
+        "type": "Tarkkuuskiv\u00e4\u00e4ri", 
+        "negative": [
+            "Ei p\u00e4\u00e4osumia"
+        ], 
+        "description": "Sydney Sleeper -nukutuskiv\u00e4\u00e4ri"
+    }, 
+    "231": {
+        "positive": [
+            "+25 enimm\u00e4isterveys k\u00e4ytt\u00e4j\u00e4lle"
+        ], 
+        "type": "Suoja", 
+        "description": "Darwinin vaarakilpi"
+    }, 
+    "232": {
+        "positive": [
+            "Ase aiheuttaa kriittisen osuman tavallisen mini-kriittisen sijaan."
+        ], 
+        "type": "Kukri-veitsi", 
+        "negative": [
+            "20% tulivahinkoalttiutta k\u00e4ytt\u00e4j\u00e4lle"
+        ], 
+        "description": "Bushwacka-veitsi"
+    }, 
+    "233": {
+        "alt": [
+            "K\u00e4ytett\u00e4ess\u00e4 t\u00e4m\u00e4 toimintoesine antaa satunnaisen lahjan\r\nsatunnaiselle pelaajalle palvelimella!"
+        ], 
+        "type": "Lahja", 
+        "description": "Salainen lahja"
+    }, 
     "48": {
+        "alt": [
+            "Engineereille, joilla on v\u00e4lkkyj\u00e4 ideoita."
+        ], 
         "type": "Hat", 
         "description": "Kaivosvalo"
     }, 
     "49": {
+        "alt": [
+            "TF_Heavy_Hat_1_Desc"
+        ], 
         "type": "Hat", 
         "description": "Jalkapallokyp\u00e4r\u00e4"
     }, 
@@ -816,6 +1500,9 @@
         "description": "Naps! Atomi-isku"
     }, 
     "47": {
+        "alt": [
+            "TF_Demo_Hat_1_Desc"
+        ], 
         "type": "Hat", 
         "description": "Demon afro"
     }, 
@@ -882,6 +1569,13 @@
         "type": "Pullo", 
         "description": "Pullo"
     }, 
+    "260": {
+        "alt": [
+            "Harvoille fiksuille, jotka osaavat muokata verkkosivua."
+        ], 
+        "type": "Hat", 
+        "description": "Wiki-lakki"
+    }, 
     "5": {
         "type": "Nyrkit", 
         "description": "Nyrkit"
@@ -890,21 +1584,21 @@
         "type": "Haulikko", 
         "description": "Haulikko"
     }, 
-    "146": {
-        "type": "Hat", 
-        "description": "Suten\u00f6\u00f6rin silm\u00e4ter\u00e4"
+    "201": {
+        "type": "Tarkkuuskiv\u00e4\u00e4ri", 
+        "description": "Tarkkuuskiv\u00e4\u00e4ri"
     }, 
-    "147": {
-        "type": "Hat", 
-        "description": "Tuomarin takatukka"
+    "200": {
+        "type": "Haulikko", 
+        "description": "Haulikko"
     }, 
-    "144": {
-        "type": "Hat", 
-        "description": "Lekurin kirurginen maski"
+    "203": {
+        "type": "Konepistooli", 
+        "description": "Konepistooli"
     }, 
-    "145": {
-        "type": "Hat", 
-        "description": "Kunkku"
+    "202": {
+        "type": "Konekiv\u00e4\u00e4ri", 
+        "description": "Konekiv\u00e4\u00e4ri"
     }, 
     "142": {
         "positive": [
@@ -917,37 +1611,123 @@
         ], 
         "description": "Karjakoura"
     }, 
-    "143": {
-        "alt": [
-            "OSX kunniaan!"
-        ], 
-        "type": "Hat", 
-        "description": "Korvanapit"
+    "204": {
+        "type": "Ruiskuase", 
+        "description": "Ruiskuase"
     }, 
-    "140": {
-        "alt": [
-            "Ohjaa vartiotykki\u00e4 manuaalisesti"
-        ], 
-        "type": "Laserosoitin", 
-        "description": "Kaukopaimen"
+    "207": {
+        "type": "Tahmapommin laukaisin", 
+        "description": "Tahmapommin laukaisin"
     }, 
-    "141": {
-        "positive": [
-            "Vartiotykkisi tuhoutuessa saat kriittisi\u00e4 kosto-osumia jokaisesta sen tekem\u00e4st\u00e4 taposta."
-        ], 
-        "type": "Haulikko", 
-        "negative": [
-            "Ei satunnaisia kriittisi\u00e4 osumia", 
-            "-50% lippaan koko"
-        ], 
-        "description": "Rintamaoikeus"
+    "206": {
+        "type": "Kranaatinheitin", 
+        "description": "Kranaatinheitin"
+    }, 
+    "209": {
+        "type": "Pistooli", 
+        "description": "Pistooli"
+    }, 
+    "208": {
+        "type": "Liekinheitin", 
+        "description": "Liekinheitin"
     }, 
     "148": {
+        "alt": [
+            "Pilkkaa aurinkoa liekkisuihkuillasi, kun UV-s\u00e4teet kimmahtelevat harmittomina pois silmist\u00e4si."
+        ], 
         "type": "Hat", 
         "description": "Hottentotti"
+    }, 
+    "96": {
+        "alt": [
+            "T\u00e4m\u00e4 on hattu on tehty karhun k\u00e4sist\u00e4.\r\nKarhu tapettiin paljain k\u00e4sin."
+        ], 
+        "type": "Hat", 
+        "description": "Upseerin ushanka"
+    }, 
+    "5040": {
+        "alt": [
+            "T\u00e4t\u00e4 k\u00e4ytet\u00e4\u00e4n muiden esineiden maalaamiseen.", 
+            "Min\u00e4 tein t\u00e4m\u00e4n!"
+        ], 
+        "type": "Ty\u00f6kalu", 
+        "description": "A Distinctive Lack of Hue"
     }, 
     "2": {
         "type": "Palokirves", 
         "description": "Palokirves"
+    }, 
+    "263": {
+        "alt": [
+            "TF_EllisHat_Desc", 
+            "Ei vaihdettavissa"
+        ], 
+        "type": "Hat", 
+        "description": "Ellis' Cap"
+    }, 
+    "144": {
+        "alt": [
+            "Suojaudu. Kohta tulee sotkua."
+        ], 
+        "type": "Hat", 
+        "description": "Lekurin kirurginen maski"
+    }, 
+    "262": {
+        "alt": [
+            "Awarded to participants of the Polycount contest.", 
+            "Ei vaihdettavissa"
+        ], 
+        "type": "Tunnus", 
+        "description": "Polycount Pin"
+    }, 
+    "261": {
+        "alt": [
+            "TF_MannCoCap_Desc", 
+            "Ei vaihdettavissa"
+        ], 
+        "type": "Hat", 
+        "description": "Mann Co. Cap"
+    }, 
+    "2002": {
+        "alt": [
+            "Sis\u00e4lt\u00e4\u00e4 kaikki Polycountin Soldier-esineet:"
+        ], 
+        "type": "Esinepaketti", 
+        "description": "Tankintuhoaja"
+    }, 
+    "2003": {
+        "alt": [
+            "Sis\u00e4lt\u00e4\u00e4 kaikki Polycountin Sniper-esineet:"
+        ], 
+        "type": "Esinepaketti", 
+        "description": "Krokotyyli-pakkaus"
+    }, 
+    "2000": {
+        "alt": [
+            "Sis\u00e4lt\u00e4\u00e4 kaikki Polycountin Pyro-esineet:"
+        ], 
+        "type": "Esinepaketti", 
+        "description": "Bensapojan varusteet"
+    }, 
+    "2001": {
+        "alt": [
+            "Sis\u00e4lt\u00e4\u00e4 kaikki Polycountin Spy-esineet:"
+        ], 
+        "type": "Esinepaketti", 
+        "description": "Saharan Spy"
+    }, 
+    "2004": {
+        "alt": [
+            "Sis\u00e4lt\u00e4\u00e4 kaikki Polycountin Scout-esineet:"
+        ], 
+        "type": "Esinepaketti", 
+        "description": "Erikoistoimitus"
+    }, 
+    "2005": {
+        "alt": [
+            "Sis\u00e4lt\u00e4\u00e4 kaikki Polycount-kisan voittajat:"
+        ], 
+        "type": "Esinepaketti", 
+        "description": "Polycount-pakkaus"
     }
 }

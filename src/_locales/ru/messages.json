@@ -9,6 +9,11 @@
         "message-retranslated": "Unchanged", 
         "description": "nothing changed, but have a label!"
     }, 
+    "num6": {
+        "message": "6", 
+        "message-retranslated": "6", 
+        "description": "the number 6"
+    }, 
     "profile_found": {
         "message": "\u0418\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435 Steam ID \u0434\u043b\u044f $1 $2.", 
         "message-retranslated": "Using Steam ID for $1 $2.", 
@@ -28,6 +33,11 @@
         "message": "3", 
         "message-retranslated": "3", 
         "description": "the number 3"
+    }, 
+    "num8": {
+        "message": "8", 
+        "message-retranslated": "8", 
+        "description": "the number 8"
     }, 
     "second": {
         "message": "\u0432\u0442\u043e\u0440\u043e\u0439", 
@@ -128,6 +138,11 @@
         "message-retranslated": "Options", 
         "description": "options button"
     }, 
+    "vintage": {
+        "message": "\u0421\u0431\u043e\u0440 \u0432\u0438\u043d\u043e\u0433\u0440\u0430\u0434\u0430", 
+        "message-retranslated": "Vintage", 
+        "description": "vintage"
+    }, 
     "extension_default_title": {
         "message": "\u041f\u0440\u043e\u0441\u043c\u043e\u0442\u0440 Team Fortress 2 \u0418\u043d\u0432\u0435\u043d\u0442\u0430\u0440\u044c", 
         "message-retranslated": "View Team Fortress 2 Backpack", 
@@ -148,10 +163,10 @@
         "message-retranslated": "Profile Views", 
         "description": "count of profile views"
     }, 
-    "request_aborted": {
-        "message": "\u0412\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0435 \u0437\u0430\u043f\u0440\u043e\u0441\u0430 \u043f\u0440\u0435\u0440\u0432\u0430\u043d\u043e \u043f\u043e \u0442\u0430\u0439\u043c\u0430\u0443\u0442\u0443", 
-        "message-retranslated": "Processing Request timed out", 
-        "description": "request aborted label"
+    "num5": {
+        "message": "5", 
+        "message-retranslated": "5", 
+        "description": "the number 5"
     }, 
     "bad_feed": {
         "message": "Bad Data Feed", 
@@ -273,6 +288,11 @@
         "message-retranslated": "Last Fetch", 
         "description": "time of last fetch"
     }, 
+    "request_aborted": {
+        "message": "\u0412\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u0435 \u0437\u0430\u043f\u0440\u043e\u0441\u0430 \u043f\u0440\u0435\u0440\u0432\u0430\u043d\u043e \u043f\u043e \u0442\u0430\u0439\u043c\u0430\u0443\u0442\u0443", 
+        "message-retranslated": "Processing Request timed out", 
+        "description": "request aborted label"
+    }, 
     "its_msg_20": {
         "message": "\u041a\u044d\u0448\u0438\u0440\u043e\u0432\u0430\u043d\u043e", 
         "message-retranslated": "Cache Time", 
@@ -292,6 +312,11 @@
         "message": "Team Fortress 2 \u0418\u043d\u0432\u0435\u043d\u0442\u0430\u0440\u044c", 
         "message-retranslated": "Team Fortress 2 Backpack access", 
         "description": "Extension name"
+    }, 
+    "num7": {
+        "message": "7", 
+        "message-retranslated": "7", 
+        "description": "the number 7"
     }, 
     "new_item_level_prefix": {
         "message": "\u0423\u0440\u043e\u0432\u0435\u043d\u044c", 

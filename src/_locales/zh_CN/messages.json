@@ -9,6 +9,11 @@
         "message-retranslated": "No change", 
         "description": "nothing changed, but have a label!"
     }, 
+    "num6": {
+        "message": "6", 
+        "message-retranslated": "6", 
+        "description": "the number 6"
+    }, 
     "profile_found": {
         "message": "\u4f7f\u7528\u84b8\u6c7d\u7f16\u53f7$1 $2\u3002", 
         "message-retranslated": "Use $1 $2 Steam numbers.", 
@@ -28,6 +33,11 @@
         "message": "3", 
         "message-retranslated": "3", 
         "description": "the number 3"
+    }, 
+    "num8": {
+        "message": "8", 
+        "message-retranslated": "8", 
+        "description": "the number 8"
     }, 
     "second": {
         "message": "\u7b2c\u4e8c", 
@@ -128,6 +138,11 @@
         "message-retranslated": "Options", 
         "description": "options button"
     }, 
+    "vintage": {
+        "message": "\u917f\u9152", 
+        "message-retranslated": "Wine", 
+        "description": "vintage"
+    }, 
     "extension_default_title": {
         "message": "\u67e5\u770b\u60a8\u7684\u56e2\u961f\u8981\u585e2\u80cc\u5305", 
         "message-retranslated": "Show your team fortress 2 Backpack", 
@@ -148,10 +163,10 @@
         "message-retranslated": "Data View", 
         "description": "count of profile views"
     }, 
-    "request_aborted": {
-        "message": "\u8bf7\u6c42\u4e2d\u6b62\u7684\u8d85\u65f6", 
-        "message-retranslated": "Request for suspension of overtime", 
-        "description": "request aborted label"
+    "num5": {
+        "message": "5", 
+        "message-retranslated": "5", 
+        "description": "the number 5"
     }, 
     "bad_feed": {
         "message": "\u9972\u6599\u4e0d\u826f\u6570\u636e", 
@@ -273,6 +288,11 @@
         "message-retranslated": "End of the day", 
         "description": "time of last fetch"
     }, 
+    "request_aborted": {
+        "message": "\u8bf7\u6c42\u4e2d\u6b62\u7684\u8d85\u65f6", 
+        "message-retranslated": "Request for suspension of overtime", 
+        "description": "request aborted label"
+    }, 
     "its_msg_20": {
         "message": "\u7f13\u5b58\u65f6\u95f4", 
         "message-retranslated": "Cache time", 
@@ -292,6 +312,11 @@
         "message": "\u56e2\u961f\u8981\u585e2\u80cc\u5305\u8bbf\u95ee", 
         "message-retranslated": "Team Fortress 2 pack visit", 
         "description": "Extension name"
+    }, 
+    "num7": {
+        "message": "7", 
+        "message-retranslated": "7", 
+        "description": "the number 7"
     }, 
     "new_item_level_prefix": {
         "message": "\u6c34\u5e73", 

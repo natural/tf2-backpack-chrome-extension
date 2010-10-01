@@ -9,6 +9,11 @@
         "message-retranslated": "No change", 
         "description": "nothing changed, but have a label!"
     }, 
+    "num6": {
+        "message": "6", 
+        "message-retranslated": "6", 
+        "description": "the number 6"
+    }, 
     "profile_found": {
         "message": "Folosind Steam ID $1 pentru $2.", 
         "message-retranslated": "Using a Steam ID $to $2.", 
@@ -28,6 +33,11 @@
         "message": "3", 
         "message-retranslated": "3", 
         "description": "the number 3"
+    }, 
+    "num8": {
+        "message": "8", 
+        "message-retranslated": "8", 
+        "description": "the number 8"
     }, 
     "second": {
         "message": "al doilea", 
@@ -128,6 +138,11 @@
         "message-retranslated": "Options", 
         "description": "options button"
     }, 
+    "vintage": {
+        "message": "Vintage", 
+        "message-retranslated": "Vintage", 
+        "description": "vintage"
+    }, 
     "extension_default_title": {
         "message": "Vizualizarea Team Fortress 2 rucsac", 
         "message-retranslated": "View Team Fortress 2 Backpack", 
@@ -148,10 +163,10 @@
         "message-retranslated": "Profile Views", 
         "description": "count of profile views"
     }, 
-    "request_aborted": {
-        "message": "Cerere terminata de Expirare", 
-        "message-retranslated": "Application completed by Timeout", 
-        "description": "request aborted label"
+    "num5": {
+        "message": "5", 
+        "message-retranslated": "5", 
+        "description": "the number 5"
     }, 
     "bad_feed": {
         "message": "Bad date Feed", 
@@ -273,6 +288,11 @@
         "message-retranslated": "Last Fetch", 
         "description": "time of last fetch"
     }, 
+    "request_aborted": {
+        "message": "Cerere terminata de Expirare", 
+        "message-retranslated": "Application completed by Timeout", 
+        "description": "request aborted label"
+    }, 
     "its_msg_20": {
         "message": "Cache Ora", 
         "message-retranslated": "Cache Time", 
@@ -292,6 +312,11 @@
         "message": "Team Fortress 2 rucsac de acces", 
         "message-retranslated": "Team Fortress 2 backpack access", 
         "description": "Extension name"
+    }, 
+    "num7": {
+        "message": "7", 
+        "message-retranslated": "7", 
+        "description": "the number 7"
     }, 
     "new_item_level_prefix": {
         "message": "Nivel", 

@@ -1,4 +1,51 @@
 {
+    "214": {
+        "positive": [
+            "+25% mai multe pagube"
+        ], 
+        "type": "Ciocan", 
+        "negative": [
+            "F\u0103r\u0103 lovituri criticale"
+        ], 
+        "description": "Powerjack"
+    }, 
+    "215": {
+        "type": "Arunc\u0103tor de Fl\u0103c\u0103ri", 
+        "negative": [
+            "-25% pagube foc"
+        ], 
+        "description": "Degreaser"
+    }, 
+    "212": {
+        "type": "Ceas Invizibilitate", 
+        "description": "Ceas Invizibilitate"
+    }, 
+    "213": {
+        "alt": [
+            "Attendant Description"
+        ], 
+        "type": "Hat", 
+        "description": "Attendant"
+    }, 
+    "210": {
+        "type": "Revolver", 
+        "description": "Revolver"
+    }, 
+    "211": {
+        "type": "Vindec\u0103tor", 
+        "description": "Vindec\u0103tor"
+    }, 
+    "264": {
+        "type": "Frying Pan", 
+        "description": "The Frying Pan"
+    }, 
+    "219": {
+        "alt": [
+            "The Milkman Description"
+        ], 
+        "type": "Hat", 
+        "description": "Milkman"
+    }, 
     "133": {
         "positive": [
             "-60% pagube de la s\u0103rituri cu rachete"
@@ -31,17 +78,21 @@
     "130": {
         "positive": [
             "+50% muni\u0163ie secundar\u0103 maxim\u0103 pentru purt\u0103tor", 
-            "+6 max bombe \u00een teren", 
             "Detoneaz\u0103 bombele lipicioase de l\u00e2ng\u0103 \u0163int\u0103", 
-            "Pot distruge bombele lipicioase ale inamicului"
+            "+25% viteza de tragere mai mare", 
+            "Pot distruge bombele lipicioase ale inamicului", 
+            "+6 max bombe \u00een teren"
         ], 
         "type": "Lansator Bombe Lipicioase", 
         "negative": [
-            "0.4 sec vitez\u0103 mai mic\u0103 de armare a bombelor"
+            "0.8 sec vitez\u0103 mai mic\u0103 de armare a bombelor"
         ], 
         "description": "Rezisten\u0163a Sco\u0163ian\u0103"
     }, 
     "137": {
+        "alt": [
+            "For the Gentleman who believes even his hat deserves a hat."
+        ], 
         "type": "Hat", 
         "description": "Nobila Adunare de P\u0103l\u0103rii"
     }, 
@@ -53,6 +104,9 @@
         "description": "Amber's Rad As All Hell Hat"
     }, 
     "135": {
+        "alt": [
+            "A-ha-ha! You are as PRESUMPTUOUS as you are POOR and IRISH. Tarnish notte the majesty of my TOWER of HATS."
+        ], 
         "type": "Hat", 
         "description": "Turnul de P\u0103l\u0103rii"
     }, 
@@ -63,7 +117,17 @@
         "type": "Hat", 
         "description": "J.Axer's Dapper Topper"
     }, 
+    "95": {
+        "alt": [
+            "TF_Engineer_Train_Hat_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "\u015eapca de CFR-ist"
+    }, 
     "139": {
+        "alt": [
+            "Because a Gentleman is not one without one."
+        ], 
         "type": "Hat", 
         "description": "Gr\u0103mada Modest\u0103 de P\u0103l\u0103rii"
     }, 
@@ -73,6 +137,14 @@
         ], 
         "type": "Hat", 
         "description": "Unchiul Sam"
+    }, 
+    "166": {
+        "alt": [
+            "Even though you were late to the party, you were still the life of it.", 
+            "Angajat pe: %s1"
+        ], 
+        "type": "Insign\u0103", 
+        "description": "Mercenar"
     }, 
     "24": {
         "type": "Revolver", 
@@ -106,9 +178,12 @@
         "type": "Pistol", 
         "description": "Pistol"
     }, 
-    "95": {
+    "223": {
+        "alt": [
+            "TF_TheFamiliarFez_Desc"
+        ], 
         "type": "Hat", 
-        "description": "\u015eapca de CFR-ist"
+        "description": "Familiar Fez"
     }, 
     "28": {
         "type": "PDA", 
@@ -118,9 +193,12 @@
         "type": "Vindec\u0103tor", 
         "description": "Vindec\u0103tor"
     }, 
-    "94": {
-        "type": "Hat", 
-        "description": "P\u0103l\u0103ria Texanului"
+    "222": {
+        "alt": [
+            "Players heal 75% of the damage done\\nto an enemy covered with milk."
+        ], 
+        "type": "Non-Milk Substance", 
+        "description": "Mad Milk"
     }, 
     "0": {
         "type": "B\u00e2t\u0103", 
@@ -134,15 +212,25 @@
         "type": "Fier\u0103str\u0103u", 
         "description": "Fier\u0103str\u0103u"
     }, 
-    "96": {
-        "type": "Hat", 
-        "description": "C\u0103ciula Sovietului"
+    "163": {
+        "alt": [
+            "Sub efectul acestuia daunele provocate\r\n\u015fi cele primite vor fi mini-critcale.", 
+            "Adaug\u0103 +50 max via\u0163\u0103 pentru 30 de secunde"
+        ], 
+        "type": "Caset\u0103 cu M\u00e2ncare", 
+        "description": "Crit-a-Cola"
     }, 
     "120": {
+        "alt": [
+            "TF_Demo_Top_Hat_Desc"
+        ], 
         "type": "Hat", 
         "description": "Burlanul Sco\u0163ianului"
     }, 
     "121": {
+        "alt": [
+            "Given to those few brave soldiers whom stood guard valiantly without sleep, nourishment, or a social life."
+        ], 
         "type": "Medalie", 
         "description": "Medalia Gentle Manne"
     }, 
@@ -160,12 +248,15 @@
     }, 
     "125": {
         "alt": [
-            "%s1% mai pu\u0163ine pagube"
+            "Though some would stop at nothing to achieve hats, you remained resolute and incorruptible in your quest for head decorations. For that, you have been rewarded."
         ], 
         "type": "Aur\u0103 a Incoruptibilit\u0103\u0163ii", 
         "description": "Coroana Sf\u00e2nt\u0103"
     }, 
     "126": {
+        "alt": [
+            "Left 4 You."
+        ], 
         "type": "Chipiul Veteranului", 
         "description": "P\u0103l\u0103ria lui Bill"
     }, 
@@ -189,6 +280,9 @@
         "description": "Egalizatorul"
     }, 
     "129": {
+        "alt": [
+            "Provides an offensive buff that causes\\nnearby team members to do mini-crits."
+        ], 
         "type": "Steag de Lupt\u0103", 
         "description": "Stegule\u0163ul"
     }, 
@@ -213,10 +307,16 @@
         "description": "\u015eu\u015fu"
     }, 
     "55": {
+        "alt": [
+            "This smooth, suave, silk-lined beauty can turn any amateur backstabber into a handsome rogue."
+        ], 
         "type": "Hat", 
         "description": "Fedora Aristocrat\u0103"
     }, 
     "54": {
+        "alt": [
+            "This hat does not in any way, shape, or form, promote smoking or gambling."
+        ], 
         "type": "Hat", 
         "description": "Taina Soldatului"
     }, 
@@ -232,18 +332,30 @@
         "description": "V\u00e2n\u0103torul de Oameni"
     }, 
     "51": {
+        "alt": [
+            "TF_Pyro_Hat_1_Desc"
+        ], 
         "type": "Hat", 
         "description": "\u015eepcu\u0163a Pyro-ului"
     }, 
     "50": {
+        "alt": [
+            "A relic from one war brought into another.\\nYour enemy will get the point."
+        ], 
         "type": "Hat", 
         "description": "Boneta Prusac\u0103"
     }, 
     "53": {
+        "alt": [
+            "Any old sap can pull teeth from a dead crocodile.\\nIt takes a man to pull teeth from a live one."
+        ], 
         "type": "Hat", 
         "description": "Centura Campionului"
     }, 
     "52": {
+        "alt": [
+            "You'll be batting a thousand (skulls in) when you don this red piece of plastic!"
+        ], 
         "type": "Hat", 
         "description": "Casca B\u0103t\u0103u\u015fului"
     }, 
@@ -275,53 +387,71 @@
         "type": "Creeaz\u0103 Obiect", 
         "description": "Jeton Slot - Secundar"
     }, 
-    "5014": {
-        "alt": [
-            "Folosit pentru a specifica un slot \u00een schem\u0103"
-        ], 
-        "type": "Creeaz\u0103 Obiect", 
-        "description": "Jeton Slot - Melee"
+    "199": {
+        "type": "Pu\u015fc\u0103", 
+        "description": "Pu\u015fc\u0103"
     }, 
-    "5015": {
-        "alt": [
-            "Folosit pentru a specifica un slot \u00een schem\u0103"
-        ], 
-        "type": "Creeaz\u0103 Obiect", 
-        "description": "Jeton Slot - Grenad\u0103"
+    "198": {
+        "type": "Fier\u0103str\u0103u", 
+        "description": "Fier\u0103str\u0103u"
     }, 
-    "5016": {
+    "147": {
         "alt": [
-            "Folosit pentru a specifica un slot \u00een schem\u0103"
+            "They say justice is blind. What they don't tell you is that justice is also invisible, and also less interested in justice than murder."
         ], 
-        "type": "Creeaz\u0103 Obiect", 
-        "description": "Jeton Slot - Construc\u0163ie"
+        "type": "Hat", 
+        "description": "Peruca Judec\u0103torului"
     }, 
-    "5017": {
-        "alt": [
-            "Folosit pentru a specifica un slot \u00een schem\u0103"
-        ], 
-        "type": "Creeaz\u0103 Obiect", 
-        "description": "Jeton Slot - PDA"
+    "195": {
+        "type": "Pumni", 
+        "description": "Pumni"
     }, 
-    "5018": {
-        "alt": [
-            "Folosit pentru a specifica un slot \u00een schem\u0103"
-        ], 
-        "type": "Creeaz\u0103 Obiect", 
-        "description": "Jeton Slot - PDA2"
+    "194": {
+        "type": "Cu\u0163it", 
+        "description": "Cu\u0163it"
     }, 
-    "5019": {
-        "alt": [
-            "Folosit pentru a specifica un slot \u00een schem\u0103"
-        ], 
-        "type": "Creeaz\u0103 Obiect", 
-        "description": "Jeton Slot - Cap"
+    "197": {
+        "type": "Cheie Francez\u0103", 
+        "description": "Cheie Francez\u0103"
+    }, 
+    "196": {
+        "type": "Lopat\u0103", 
+        "description": "Lopat\u0103"
+    }, 
+    "191": {
+        "type": "Sticl\u0103", 
+        "description": "Sticl\u0103"
+    }, 
+    "190": {
+        "type": "B\u00e2t\u0103", 
+        "description": "B\u00e2t\u0103"
+    }, 
+    "193": {
+        "type": "Kukri", 
+        "description": "Kukri"
+    }, 
+    "192": {
+        "type": "Topor", 
+        "description": "Topor"
     }, 
     "115": {
+        "alt": [
+            "Brown paper never looked so mildly disturbing."
+        ], 
         "type": "P\u0103l\u0103rie de S\u0103rb\u0103toare", 
         "description": "Punga \u00censp\u0103im\u00e2nt\u0103toare de Halloween"
     }, 
+    "177": {
+        "alt": [
+            "Nimic"
+        ], 
+        "type": "Hat", 
+        "description": "Ochelarii de Protec\u0163ie"
+    }, 
     "117": {
+        "alt": [
+            "His bullet was close.\\nI lost my hat.\\nMy bullet was closer.\\nHe lost his head."
+        ], 
         "type": "Hat", 
         "description": "Fixativul de P\u0103r a lui Ritzy Rick"
     }, 
@@ -333,28 +463,113 @@
         "description": "P\u0103l\u0103ria de Co\u015far"
     }, 
     "111": {
+        "alt": [
+            "Everyone knows that speed is a Scout\u2019s best friend. Why weigh yourself down with bulky hats when you can break the sound barrier without them?"
+        ], 
         "type": "Hat", 
         "description": "Cariera Str\u0103lucit\u0103 a Capului Descoperit"
     }, 
     "110": {
+        "alt": [
+            "Only a master of Jarate earns the right to wear this once-white bandanna, stained yellow from the rigors of a harsh training regimen."
+        ], 
         "type": "Hat", 
         "description": "Centura de Rambo Galben\u0103"
     }, 
+    "253": {
+        "alt": [
+            "Clears all sorts of blockage."
+        ], 
+        "type": "Hat", 
+        "description": "Handyman's Handle"
+    }, 
+    "205": {
+        "type": "Lansator Rachete", 
+        "description": "Lansator Rachete"
+    }, 
     "118": {
+        "alt": [
+            "Sometimes you just need a little less hat."
+        ], 
         "type": "Hat", 
         "description": "Domul Str\u0103lucitor din Texas"
+    }, 
+    "165": {
+        "alt": [
+            "Sure, some may have been doing it longer. But you've proven few can do it better.", 
+            "Angajat pe: %s1"
+        ], 
+        "type": "Insign\u0103", 
+        "description": "Aventurier"
+    }, 
+    "143": {
+        "alt": [
+            "Reprezin\u0163i OSX!"
+        ], 
+        "type": "Hat", 
+        "description": "C\u0103\u015ftile"
+    }, 
+    "174": {
+        "alt": [
+            "You'd have to be a jughead not to realize this cap is the pinnacle of fashion for the discerning youth."
+        ], 
+        "type": "Hat", 
+        "description": "Coroni\u0163a Fericirii"
+    }, 
+    "140": {
+        "alt": [
+            "Preia controlul manual a Santinelei tale"
+        ], 
+        "type": "Indicator Laser", 
+        "description": "Controlorul"
+    }, 
+    "141": {
+        "positive": [
+            "C\u00e2nd santinela este distrus\u0103\r\ntu prime\u015fti criticale de revan\u015f\u0103\r\npentru fiecare omor a santinelei"
+        ], 
+        "type": "Pu\u015fc\u0103", 
+        "negative": [
+            "F\u0103r\u0103 lovituri criticale", 
+            "-50% mai pu\u0163ine gloan\u0163e"
+        ], 
+        "description": "Justi\u0163iarul Frontierei"
     }, 
     "3": {
         "type": "Kukri", 
         "description": "Kukri"
     }, 
+    "171": {
+        "positive": [
+            "La Atingere: S\u00e2ngereaz\u0103 pentru 6 secunde"
+        ], 
+        "type": "Kukri", 
+        "negative": [
+            "-50% mai pu\u0163ine pagube"
+        ], 
+        "description": "Cu\u0163itul Nativului"
+    }, 
     "7": {
         "type": "Cheie Francez\u0103", 
         "description": "Cheie Francez\u0103"
     }, 
+    "146": {
+        "alt": [
+            "TF_DemomanHallmark_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "Marca Hustlerului"
+    }, 
+    "170": {
+        "alt": [
+            "A true warrior's medal, given to those who fought before the battle even started.", 
+            "Angajat pe: %s1"
+        ], 
+        "type": "Insign\u0103", 
+        "description": "R\u0103zboinic Primordial"
+    }, 
     "other_attributes": {
-        "133": "Medalia de num\u0103rul %s1", 
-        "132": "Av\u00e2nd \u00een vedere s\u0103 valoroase comunitare Contribuabili", 
+        "133": "Medalia num\u0103rul %s1", 
+        "132": "Av\u00e2nd \u00een vedere valoroase comunitare care au contribuit la", 
         "143": "Data \u00cenchiriez: %s1", 
         "147": "Wrench num\u0103rul %s1"
     }, 
@@ -419,55 +634,116 @@
         "type": "Creeaz\u0103 Obiect", 
         "description": "Jeton Clas\u0103 - Medic"
     }, 
-    "108": {
+    "245": {
+        "alt": [
+            "Earned at level 75.\\nThis badge tracks your duel statistics.\\nIncrease its level by winning duels!"
+        ], 
+        "type": "Insign\u0103", 
+        "description": "Platinum Dueling Badge"
+    }, 
+    "244": {
+        "alt": [
+            "Earned at level 50.\\nThis badge tracks your duel statistics.\\nIncrease its level by winning duels!"
+        ], 
+        "type": "Insign\u0103", 
+        "description": "Gold Dueling Badge"
+    }, 
+    "247": {
+        "alt": [
+            "This hat adds spice to any occasion."
+        ], 
         "type": "Hat", 
-        "description": "P\u0103l\u0103ria Mafiotului"
+        "description": "Old Guadalajara"
     }, 
     "109": {
+        "alt": [
+            "A polite, efficient hat to wear when killing everyone you meet."
+        ], 
         "type": "Hat", 
         "description": "P\u0103l\u0103ria de Paie Profesional\u0103"
     }, 
     "9003": {
         "positive": [
-            "Considerare interdic\u0163iile de aburi de juc\u0103tori ucis", 
-            "Acest element nu este real\u0103 \u015fi este doar o glum\u0103."
+            "Considerare interdic\u0163iile Steam de juc\u0103tori ucis", 
+            "Acest element nu este real\u0103 \u015fi este doar o gluma."
         ], 
-        "type": "Ciocan de lemn din Alungarea", 
+        "type": "Mallet a Alungarea", 
         "description": "Ban Hammer"
     }, 
     "240": {
+        "alt": [
+            "TF_Worms_Gear_Desc"
+        ], 
         "type": "Hat", 
         "description": "Lumbricus Lid"
     }, 
+    "243": {
+        "alt": [
+            "Earned at level 25.\\nThis badge tracks your duel statistics.\\nIncrease its level by winning duels!"
+        ], 
+        "type": "Insign\u0103", 
+        "description": "Silver Dueling Badge"
+    }, 
+    "242": {
+        "alt": [
+            "This badge tracks your duel statistics.\\nIncrease its level by winning duels!"
+        ], 
+        "type": "Insign\u0103", 
+        "description": "Bronze Dueling Badge"
+    }, 
     "102": {
+        "alt": [
+            "It doesn't matter how much people respect you when they're on fire."
+        ], 
         "type": "Hat", 
         "description": "M\u0103nu\u015fa de Plastic"
     }, 
     "103": {
+        "alt": [
+            "You wouldn't mind if I read this top secret document with my beard, would you?"
+        ], 
         "type": "Hat", 
         "description": "Camera Foto din Barb\u0103"
     }, 
     "100": {
+        "alt": [
+            "TF_Demo_Scott_Hat_Desc"
+        ], 
         "type": "Hat", 
         "description": "Boneta Glengarry"
     }, 
     "101": {
+        "alt": [
+            "TF_Medic_Tyrolean_Hat_Desc"
+        ], 
         "type": "Hat", 
         "description": "P\u0103l\u0103ria Bavarez\u0103"
     }, 
     "106": {
+        "alt": [
+            "When drinking one radioactive beverage at a time is not enough."
+        ], 
         "type": "Hat", 
         "description": "Casca cu Bonk"
     }, 
     "107": {
+        "alt": [
+            "Extra! Extra! You're frickin' dead!"
+        ], 
         "type": "Hat", 
         "description": "P\u0103l\u0103ria de Livr\u0103ri"
     }, 
     "104": {
+        "alt": [
+            "We can't pronounce it either."
+        ], 
         "type": "Hat", 
         "description": "Oglinda Ontologistului"
     }, 
     "105": {
+        "alt": [
+            "TF_Pyro_Fireman_Helmet_Desc"
+        ], 
         "type": "Hat", 
         "description": "Casca de Pompier"
     }, 
@@ -486,18 +762,6 @@
         ], 
         "description": "Extinctoporul"
     }, 
-    "33": {
-        "type": "Arm\u0103 cu Seringi", 
-        "description": "Arm\u0103 cu Seringi"
-    }, 
-    "32": {
-        "type": "Fier\u0103str\u0103u", 
-        "description": "Fier\u0103str\u0103u"
-    }, 
-    "31": {
-        "type": "Pistol de Semnalizare", 
-        "description": "Pistol de Semnalizare"
-    }, 
     "30": {
         "type": "Ceas Invizibilitate", 
         "description": "Ceas Invizibilitate"
@@ -512,15 +776,12 @@
         ], 
         "description": "\u00dcber Fier\u0103str\u0103ul"
     }, 
-    "36": {
-        "positive": [
-            "La Atingere: +3 mai mult\u0103 via\u0163\u0103"
+    "108": {
+        "alt": [
+            "For when you wish your head was a little taller,\\nbut just as round on top."
         ], 
-        "type": "Arm\u0103 cu Seringi", 
-        "negative": [
-            "-2 via\u0163\u0103 scurs\u0103 pe secund\u0103 pentru purt\u0103tor"
-        ], 
-        "description": "Blutsauger-ul"
+        "type": "Hat", 
+        "description": "P\u0103l\u0103ria Mafiotului"
     }, 
     "35": {
         "positive": [
@@ -532,9 +793,106 @@
         "type": "Vindec\u0103tor", 
         "description": "Kritzkrieg-ul"
     }, 
-    "34": {
-        "type": "Vindec\u0103tor", 
-        "description": "Vindec\u0103tor"
+    "246": {
+        "alt": [
+            ""
+        ], 
+        "type": "Hat", 
+        "description": "Pugilist's Protector"
+    }, 
+    "94": {
+        "alt": [
+            "Though it looks like a simple ten-gallon hat, this modern feat of engineering actually contains more moving parts than a level 2 Sentry Gun."
+        ], 
+        "type": "Hat", 
+        "description": "P\u0103l\u0103ria Texanului"
+    }, 
+    "241": {
+        "alt": [
+            "Is an enemy player questioning your skills, personal hygiene, and/or ancestry?\\nUse these stylish firearms to challenge them to a duel!\\nSee the Mann Co. Catalog for full details."
+        ], 
+        "type": "Usable Item", 
+        "description": "Dueling Mini-Game"
+    }, 
+    "5038": {
+        "alt": [
+            "Used to paint other items.", 
+            "Eu l-am f\u0103cut!"
+        ], 
+        "type": "Tool", 
+        "description": "Aged Moustache Grey"
+    }, 
+    "5039": {
+        "alt": [
+            "Used to paint other items.", 
+            "Eu l-am f\u0103cut!"
+        ], 
+        "type": "Tool", 
+        "description": "An Extraordinary Abundance of Tinge"
+    }, 
+    "5036": {
+        "alt": [
+            "Used to paint other items.", 
+            "Eu l-am f\u0103cut!"
+        ], 
+        "type": "Tool", 
+        "description": "Ye Olde Rustic Colour"
+    }, 
+    "5037": {
+        "alt": [
+            "Used to paint other items.", 
+            "Eu l-am f\u0103cut!"
+        ], 
+        "type": "Tool", 
+        "description": "Australium Gold"
+    }, 
+    "5034": {
+        "alt": [
+            "Used to paint other items.", 
+            "Eu l-am f\u0103cut!"
+        ], 
+        "type": "Tool", 
+        "description": "Peculiarly Drab Tincture"
+    }, 
+    "5035": {
+        "alt": [
+            "Used to paint other items.", 
+            "Eu l-am f\u0103cut!"
+        ], 
+        "type": "Tool", 
+        "description": "Radigan Conagher Brown"
+    }, 
+    "5032": {
+        "alt": [
+            "Used to paint other items.", 
+            "Eu l-am f\u0103cut!"
+        ], 
+        "type": "Tool", 
+        "description": "Mann Co. Orange"
+    }, 
+    "5033": {
+        "alt": [
+            "Used to paint other items.", 
+            "Eu l-am f\u0103cut!"
+        ], 
+        "type": "Tool", 
+        "description": "Muskelmannbraun"
+    }, 
+    "5030": {
+        "alt": [
+            "Used to paint other items.", 
+            "Eu l-am f\u0103cut!"
+        ], 
+        "type": "Tool", 
+        "description": "Color No. 216-190-216"
+    }, 
+    "5031": {
+        "alt": [
+            "Used to paint other items.", 
+            "Eu l-am f\u0103cut!"
+        ], 
+        "type": "Tool", 
+        "description": "A Deep Commitment to Purple"
     }, 
     "60": {
         "positive": [
@@ -557,32 +915,68 @@
         ], 
         "description": "Ambasadorul"
     }, 
+    "259": {
+        "alt": [
+            "Suffer not a sentry to live."
+        ], 
+        "type": "Hat", 
+        "description": "Carouser's Capotain"
+    }, 
     "97": {
+        "alt": [
+            "Because when you're the toughest Mother Hubbard in the fort, nobody's criticizing your fashion sense."
+        ], 
         "type": "Hat", 
         "description": "Fesul Durului"
     }, 
     "179": {
+        "alt": [
+            "Three sharp corners mean one sharp hat.\\nDon't poke your eye out."
+        ], 
         "type": "Hat", 
         "description": "P\u0103l\u0103ria C\u0103pitanului"
     }, 
     "178": {
+        "alt": [
+            "It gets difficult trying to calculate the total external applied torque to a body's rotational motion through its moment of momentum vector while the distracting sounds of gunfire and death are all around you. Build a better, safer machine with the silence of the Safe'n'sound!"
+        ], 
         "type": "Hat", 
         "description": "C\u0103\u015ftile de Protec\u0163ie"
     }, 
-    "177": {
+    "252": {
         "alt": [
-            "Nimic"
+            ""
         ], 
         "type": "Hat", 
-        "description": "Ochelarii de Protec\u0163ie"
+        "description": "Dr's Dapper Topper"
+    }, 
+    "5014": {
+        "alt": [
+            "Folosit pentru a specifica un slot \u00een schem\u0103"
+        ], 
+        "type": "Creeaz\u0103 Obiect", 
+        "description": "Jeton Slot - Melee"
     }, 
     "175": {
+        "alt": [
+            "The most distinguished tape-on fire-retardant facial hair available, for the discerning gentleman of conflagration."
+        ], 
         "type": "Hat", 
         "description": "Gentleman-ul Must\u0103cios"
     }, 
-    "174": {
+    "251": {
+        "alt": [
+            "The grand achievement of\\nVictorian military fashion."
+        ], 
         "type": "Hat", 
-        "description": "Coroni\u0163a Fericirii"
+        "description": "Stout Shako"
+    }, 
+    "173": {
+        "type": "Fier\u0103str\u0103u", 
+        "negative": [
+            "-10 via\u0163\u0103 maxim\u0103 pentru purt\u0103tor"
+        ], 
+        "description": "Vita-Saw"
     }, 
     "172": {
         "positive": [
@@ -594,40 +988,73 @@
         ], 
         "description": "C\u0103l\u0103ul Sco\u0163ianului"
     }, 
-    "171": {
-        "positive": [
-            "La Atingere: S\u00e2ngereaz\u0103 pentru 6 secunde"
-        ], 
-        "type": "Kukri", 
-        "negative": [
-            "-50% mai pu\u0163ine pagube"
-        ], 
-        "description": "Cu\u0163itul Nativului"
-    }, 
-    "170": {
+    "254": {
         "alt": [
-            "Angajat pe: %s1"
+            "You can never be too careful\\nwith Jarate around."
         ], 
-        "type": "Insign\u0103", 
-        "description": "R\u0103zboinic Primordial"
+        "type": "Hat", 
+        "description": "Hard Counter"
+    }, 
+    "255": {
+        "alt": [
+            "A sticky-jumper's best friend."
+        ], 
+        "type": "Hat", 
+        "description": "Sober Stuntman"
+    }, 
+    "249": {
+        "alt": [
+            "Death from above!"
+        ], 
+        "type": "Hat", 
+        "description": "Bombing Run"
+    }, 
+    "145": {
+        "alt": [
+            "Your opponents will be all shook up when they see these sweet shades and coif."
+        ], 
+        "type": "Hat", 
+        "description": "Frizura Elvis"
+    }, 
+    "248": {
+        "alt": [
+            "After a long day of burning scouts."
+        ], 
+        "type": "Hat", 
+        "description": "Napper's Respite"
     }, 
     "182": {
+        "alt": [
+            "Pyro wears this in tribute to the many firefighters who have perished trying to quell his flames."
+        ], 
         "type": "Hat", 
         "description": "Casca de Pojarnic"
     }, 
     "183": {
+        "alt": [
+            "This hat is a handy replacement for profanity-filled ranting when you don't feel like shouting yourself hoarse."
+        ], 
         "type": "Hat", 
         "description": "P\u0103l\u0103ria Sergentului"
     }, 
     "180": {
+        "alt": [
+            "Because real espionage is an artform."
+        ], 
         "type": "Hat", 
         "description": "Bereta Francezului"
     }, 
     "181": {
+        "alt": [
+            "Gone Snipin'."
+        ], 
         "type": "Hat", 
         "description": "P\u0103l\u0103ria de Pescar"
     }, 
     "184": {
+        "alt": [
+            "While lacking the cachet of other hats, the Gatsby nonetheless possesses its own sartorial elegance. Its understated and affable charm appeals to everyone, whether playing a round of golf with friends or performing non-elective surgery with a well-polished bonesaw."
+        ], 
         "type": "Hat", 
         "description": "Gentleman-ul de la Livr\u0103ri"
     }, 
@@ -635,19 +1062,91 @@
         "type": "Lopat\u0103", 
         "description": "Lopat\u0103"
     }, 
+    "250": {
+        "alt": [
+            ""
+        ], 
+        "type": "Hat", 
+        "description": "Chieftan's Challenge"
+    }, 
     "189": {
+        "alt": [
+            "This cute little guy was once the scourge of humanity in another time and place. Now he's content to ride on your head and keep the sun off."
+        ], 
         "type": "Hat", 
         "description": "Parazitul Alien Swarm"
     }, 
+    "5029": {
+        "alt": [
+            "Used to paint other items.", 
+            "Eu l-am f\u0103cut!"
+        ], 
+        "type": "Tool", 
+        "description": "Noble Hatter's Violet"
+    }, 
+    "5028": {
+        "alt": [
+            "Used to paint other items.", 
+            "Eu l-am f\u0103cut!"
+        ], 
+        "type": "Tool", 
+        "description": "Zephaniah's Greed"
+    }, 
+    "221": {
+        "alt": [
+            "Getting hit by a fish has got to be humiliating."
+        ], 
+        "type": "Fish", 
+        "description": "Holy Mackerel"
+    }, 
+    "5021": {
+        "alt": [
+            "Used to open locked supply crates."
+        ], 
+        "type": "Tool", 
+        "description": "Mann Co. Supply Crate Key"
+    }, 
+    "5020": {
+        "alt": [
+            "Changes the name of an item in your backpack"
+        ], 
+        "type": "Tool", 
+        "description": "Name Tag"
+    }, 
+    "5023": {
+        "alt": [
+            "Used to paint other items.", 
+            "Eu l-am f\u0103cut!"
+        ], 
+        "type": "Tool", 
+        "description": "Paint Can"
+    }, 
     "185": {
+        "alt": [
+            "It costs $400,000 to wear this bandanna for 12 seconds."
+        ], 
         "type": "Hat", 
         "description": "Bandana de Motociclist"
     }, 
+    "5027": {
+        "alt": [
+            "Used to paint other items.", 
+            "Eu l-am f\u0103cut!"
+        ], 
+        "type": "Tool", 
+        "description": "Indubitably Green"
+    }, 
     "99": {
+        "alt": [
+            "I kicked your ass so hard it went back in time and got me this VIKING HAT."
+        ], 
         "type": "Hat", 
         "description": "Casca Tiranului"
     }, 
     "98": {
+        "alt": [
+            "Protects cranium from bullets and shrapnel.\\nAlso heats soup."
+        ], 
         "type": "Hat", 
         "description": "Oala de la Popot\u0103"
     }, 
@@ -658,26 +1157,47 @@
         "type": "Cheie Francez\u0103", 
         "description": "Cheia Francez\u0103 de Aur"
     }, 
-    "164": {
+    "229": {
         "alt": [
-            "Angajat pe: %s1"
+            "TF_OlSnaggletooth_Desc"
         ], 
-        "type": "Insign\u0103", 
-        "description": "Veteran"
+        "type": "Hat", 
+        "description": "Ol' Snaggletooth"
     }, 
-    "165": {
-        "alt": [
-            "Angajat pe: %s1"
+    "228": {
+        "positive": [
+            "La Atingere: +15 mai mult\u0103 via\u0163\u0103"
         ], 
-        "type": "Insign\u0103", 
-        "description": "Aventurier"
+        "type": "Lansator Rachete", 
+        "negative": [
+            "-25% mai pu\u0163ine gloan\u0163e"
+        ], 
+        "description": "Black Box"
     }, 
-    "166": {
+    "227": {
         "alt": [
-            "Angajat pe: %s1"
+            "TF_TheGrenadiersSoftcap_Desc"
         ], 
-        "type": "Insign\u0103", 
-        "description": "Mercenar"
+        "type": "Hat", 
+        "description": "Grenadier's Softcap"
+    }, 
+    "226": {
+        "alt": [
+            "Provides a defensive buff that protects\\nnearby team members from crits\\nand blocks 35% of incoming damage.\\nRage increases through damage taken."
+        ], 
+        "type": "Steag de Lupt\u0103", 
+        "description": "Battalion's Backup"
+    }, 
+    "225": {
+        "type": "Cu\u0163it", 
+        "description": "Your Eternal Reward"
+    }, 
+    "224": {
+        "type": "Revolver", 
+        "negative": [
+            "-20% mai pu\u0163ine pagube"
+        ], 
+        "description": "L'Etranger"
     }, 
     "160": {
         "alt": [
@@ -700,13 +1220,12 @@
         "type": "Hat", 
         "description": "Capul T\u0103iat a lui Max"
     }, 
-    "163": {
+    "220": {
         "alt": [
-            "Sub efectul acestuia daunele provocate\r\n\u015fi cele primite vor fi mini-critcale.", 
-            "Adaug\u0103 +50 max via\u0163\u0103 pentru 30 de secunde"
+            "Mann Co.'s latest in high attitude\\nbreak-action personal defense."
         ], 
-        "type": "Caset\u0103 cu M\u00e2ncare", 
-        "description": "Crit-a-Cola"
+        "type": "Peppergun", 
+        "description": "Shortstop"
     }, 
     "11": {
         "type": "Pu\u015fc\u0103", 
@@ -748,11 +1267,32 @@
         "type": "Lansator Rachete", 
         "description": "Lansator Rachete"
     }, 
+    "164": {
+        "alt": [
+            "Display this on your chest proudly, soldier. Each time you kill someone, they'll know they weren't the first.", 
+            "Angajat pe: %s1"
+        ], 
+        "type": "Insign\u0103", 
+        "description": "Veteran"
+    }, 
+    "5022": {
+        "alt": [
+            "You need a Mann Co. Supply Crate Key to open this.\\nYou can pick one up at the Mann Co. Store."
+        ], 
+        "type": "TF_LockedCrate", 
+        "description": "Mann Co. Supply Crate"
+    }, 
     "151": {
+        "alt": [
+            "At least he's still telling you to burn things."
+        ], 
         "type": "Hat", 
         "description": "Tiranul Nemilos"
     }, 
     "150": {
+        "alt": [
+            "Straight outta control point."
+        ], 
         "type": "Hat", 
         "description": "Fesul Golanului"
     }, 
@@ -768,6 +1308,9 @@
         "description": "Homewrecker-ul"
     }, 
     "152": {
+        "alt": [
+            "A Haiku for war.\\nTo defeat one's enemies.\\nHonor the crocket."
+        ], 
         "type": "Hat", 
         "description": "Kabuto-ul Uciga\u015fului"
     }, 
@@ -800,14 +1343,95 @@
         "description": "Ciocolata Dalokohs"
     }, 
     "158": {
+        "alt": [
+            "Perfect for exploring the outback and the inside of people's heads."
+        ], 
         "type": "Hat", 
         "description": "P\u0103l\u0103ria Braconierului"
     }, 
+    "36": {
+        "positive": [
+            "La Atingere: +3 mai mult\u0103 via\u0163\u0103"
+        ], 
+        "type": "Arm\u0103 cu Seringi", 
+        "negative": [
+            "-2 via\u0163\u0103 scurs\u0103 pe secund\u0103 pentru purt\u0103tor"
+        ], 
+        "description": "Blutsauger-ul"
+    }, 
+    "239": {
+        "positive": [
+            "+30% vitez\u0103 pe purt\u0103tor"
+        ], 
+        "alt": [
+            "C\u00e2nd arma este activ\u0103:"
+        ], 
+        "type": "Pumni", 
+        "negative": [
+            "-50% mai pu\u0163ine pagube", 
+            "-6 via\u0163\u0103 scurs\u0103 pe secund\u0103 pentru purt\u0103tor"
+        ], 
+        "description": "Gloves of Running Urgently"
+    }, 
+    "234": {
+        "alt": [
+            "When used, this Action Item gives a random gift\\nto up to 23 other people on the server!"
+        ], 
+        "type": "Gift", 
+        "description": "Pile o' Gifts"
+    }, 
+    "237": {
+        "positive": [
+            "+200% muni\u0163ie primar\u0103 maxim\u0103 pentru purt\u0103tor"
+        ], 
+        "alt": [
+            "A special no-damage rocket launcher for learning\\nrocket jump tricks and patterns."
+        ], 
+        "type": "Lansator Rachete", 
+        "negative": [
+            "-100% mai pu\u0163ine pagube"
+        ], 
+        "description": "Rocket Jumper"
+    }, 
+    "230": {
+        "type": "Pu\u015fc\u0103 cu Luneta", 
+        "negative": [
+            "F\u0103r\u0103 lovituri la cap"
+        ], 
+        "description": "Sydney Sleeper"
+    }, 
+    "231": {
+        "positive": [
+            "+25 via\u0163\u0103 maxim\u0103 pentru purt\u0103tor"
+        ], 
+        "type": "Scut de Spate", 
+        "description": "Darwin's Danger Shield"
+    }, 
+    "232": {
+        "type": "Kukri", 
+        "negative": [
+            "20% vulnerabilitate la foc pentru purt\u0103tor"
+        ], 
+        "description": "Bushwacka"
+    }, 
+    "233": {
+        "alt": [
+            "When used, this Action Item gives a random gift\\nto a random person on the server!"
+        ], 
+        "type": "Gift", 
+        "description": "Secret Saxton"
+    }, 
     "48": {
+        "alt": [
+            "For Engineers with bright ideas."
+        ], 
         "type": "Hat", 
         "description": "Casca de Miner"
     }, 
     "49": {
+        "alt": [
+            "TF_Heavy_Hat_1_Desc"
+        ], 
         "type": "Hat", 
         "description": "Casca de Fotbal"
     }, 
@@ -816,6 +1440,9 @@
         "description": "Bonk! Energizantul Atomic"
     }, 
     "47": {
+        "alt": [
+            "TF_Demo_Hat_1_Desc"
+        ], 
         "type": "Hat", 
         "description": "Afro-Frizura Demomanului"
     }, 
@@ -882,6 +1509,13 @@
         "type": "Sticl\u0103", 
         "description": "Sticl\u0103"
     }, 
+    "260": {
+        "alt": [
+            "Earned by those knowledgeable few who know how to edit a web page."
+        ], 
+        "type": "Hat", 
+        "description": "Wiki Cap"
+    }, 
     "5": {
         "type": "Pumni", 
         "description": "Pumni"
@@ -890,21 +1524,21 @@
         "type": "Pu\u015fc\u0103", 
         "description": "Pu\u015fc\u0103"
     }, 
-    "146": {
-        "type": "Hat", 
-        "description": "Marca Hustlerului"
+    "201": {
+        "type": "Pu\u015fc\u0103 cu Luneta", 
+        "description": "Pu\u015fc\u0103 cu Luneta"
     }, 
-    "147": {
-        "type": "Hat", 
-        "description": "Peruca Judec\u0103torului"
+    "200": {
+        "type": "Pu\u015fc\u0103 cu Alice", 
+        "description": "Pu\u015fc\u0103 cu Alice"
     }, 
-    "144": {
-        "type": "Hat", 
-        "description": "Masca de Chirurgie"
+    "203": {
+        "type": "Pistol Mitralier\u0103", 
+        "description": "Pistol Mitralier\u0103"
     }, 
-    "145": {
-        "type": "Hat", 
-        "description": "Frizura Elvis"
+    "202": {
+        "type": "Minigun", 
+        "description": "Minigun"
     }, 
     "142": {
         "positive": [
@@ -917,37 +1551,120 @@
         ], 
         "description": "Pistolarul"
     }, 
-    "143": {
-        "alt": [
-            "Reprezin\u0163i OSX!"
-        ], 
-        "type": "Hat", 
-        "description": "C\u0103\u015ftile"
+    "204": {
+        "type": "Arm\u0103 cu Seringi", 
+        "description": "Arm\u0103 cu Seringi"
     }, 
-    "140": {
-        "alt": [
-            "Preia controlul manual a Santinelei tale"
-        ], 
-        "type": "Indicator Laser", 
-        "description": "Controlorul"
+    "207": {
+        "type": "Lansator Bombe Lipicioase", 
+        "description": "Lansator Bombe Lipicioase"
     }, 
-    "141": {
-        "positive": [
-            "C\u00e2nd santinela este distrus\u0103\r\ntu prime\u015fti criticale de revan\u015f\u0103\r\npentru fiecare omor a santinelei"
-        ], 
-        "type": "Pu\u015fc\u0103", 
-        "negative": [
-            "F\u0103r\u0103 lovituri criticale", 
-            "-50% mai pu\u0163ine gloan\u0163e"
-        ], 
-        "description": "Justi\u0163iarul Frontierei"
+    "206": {
+        "type": "Arunc\u0103tor Grenade", 
+        "description": "Arunc\u0103tor Grenade"
+    }, 
+    "209": {
+        "type": "Pistol", 
+        "description": "Pistol"
+    }, 
+    "208": {
+        "type": "Arunc\u0103tor de Fl\u0103c\u0103ri", 
+        "description": "Arunc\u0103tor de Fl\u0103c\u0103ri"
     }, 
     "148": {
+        "alt": [
+            "Mock the sun with streaks of flame as the UV rays bounce harmlessly away from your eyeballs."
+        ], 
         "type": "Hat", 
         "description": "Masca de Sudur\u0103"
+    }, 
+    "96": {
+        "alt": [
+            "This hat was made of bear hands.\\nThat bear was killed with bare hands."
+        ], 
+        "type": "Hat", 
+        "description": "C\u0103ciula Sovietului"
+    }, 
+    "5040": {
+        "alt": [
+            "Used to paint other items.", 
+            "Eu l-am f\u0103cut!"
+        ], 
+        "type": "Tool", 
+        "description": "A Distinctive Lack of Hue"
     }, 
     "2": {
         "type": "Topor", 
         "description": "Topor"
+    }, 
+    "263": {
+        "alt": [
+            "TF_EllisHat_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "Ellis' Cap"
+    }, 
+    "144": {
+        "alt": [
+            "Scrub in... things are about to get messy."
+        ], 
+        "type": "Hat", 
+        "description": "Masca de Chirurgie"
+    }, 
+    "262": {
+        "alt": [
+            "Awarded to participants of the Polycount contest."
+        ], 
+        "type": "Insign\u0103", 
+        "description": "Polycount Pin"
+    }, 
+    "261": {
+        "alt": [
+            "TF_MannCoCap_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "Mann Co. Cap"
+    }, 
+    "2002": {
+        "alt": [
+            "Includes all the Polycount Soldier Items:"
+        ], 
+        "type": "Item Bundle", 
+        "description": "The Tank Buster"
+    }, 
+    "2003": {
+        "alt": [
+            "Includes all the Polycount Sniper Items:"
+        ], 
+        "type": "Item Bundle", 
+        "description": "The Croc-o-Style Kit"
+    }, 
+    "2000": {
+        "alt": [
+            "Includes all the Polycount Pyro Items:"
+        ], 
+        "type": "Item Bundle", 
+        "description": "The Gas Jockey's Gear"
+    }, 
+    "2001": {
+        "alt": [
+            "Includes all the Polycount Spy Items:"
+        ], 
+        "type": "Item Bundle", 
+        "description": "The Saharan Spy"
+    }, 
+    "2004": {
+        "alt": [
+            "Includes all the Polycount Scout Items:"
+        ], 
+        "type": "Item Bundle", 
+        "description": "The Special Delivery"
+    }, 
+    "2005": {
+        "alt": [
+            "Includes all the Polycount Contest winning entries:"
+        ], 
+        "type": "Item Bundle", 
+        "description": "Polycount Pack"
     }
 }

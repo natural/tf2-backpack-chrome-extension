@@ -1,4 +1,58 @@
 {
+    "214": {
+        "positive": [
+            "+25% for\u00e5rsaget skade", 
+            "+75 helbred gendannet ved drab"
+        ], 
+        "type": "Forhammer", 
+        "negative": [
+            "Ingen tilf\u00e6ldig kritisk skade"
+        ], 
+        "description": "Donkraften"
+    }, 
+    "215": {
+        "positive": [
+            "65% hurtigere v\u00e5benskifte"
+        ], 
+        "type": "Flammekaster", 
+        "negative": [
+            "-25% brandskade"
+        ], 
+        "description": "Affedteren"
+    }, 
+    "212": {
+        "type": "Usynlighedsur", 
+        "description": "Usynlighedsur"
+    }, 
+    "213": {
+        "alt": [
+            "Attendant Description"
+        ], 
+        "type": "Hat", 
+        "description": "Kontroll\u00f8ren"
+    }, 
+    "210": {
+        "type": "Revolver", 
+        "description": "Revolver"
+    }, 
+    "211": {
+        "type": "Medi-gev\u00e6r", 
+        "description": "Medi-gev\u00e6r"
+    }, 
+    "264": {
+        "alt": [
+            "Kan ikke handles"
+        ], 
+        "type": "Frying Pan", 
+        "description": "The Frying Pan"
+    }, 
+    "219": {
+        "alt": [
+            "The Milkman Description"
+        ], 
+        "type": "Hat", 
+        "description": "M\u00e6lkemanden"
+    }, 
     "133": {
         "positive": [
             "-60% eksplosionsskade fra rakethop"
@@ -31,48 +85,77 @@
     "130": {
         "positive": [
             "+50% maks. sekund\u00e6r ammunition for b\u00e6reren", 
-            "+6 maks. r\u00f8rbomber lagt ud", 
             "Detonerer kl\u00e6bebomber t\u00e6t p\u00e5 tr\u00e5dkorset", 
-            "Kan destruere fjendens kl\u00e6bebomber"
+            "+25% hurtigere affyringshastighed", 
+            "Kan destruere fjendens kl\u00e6bebomber", 
+            "+6 maks. r\u00f8rbomber lagt ud"
         ], 
         "type": "Kl\u00e6bebombekaster", 
         "negative": [
-            "0.4 sek. langsommere bombearmeringstid"
+            "0.8 sek. langsommere bombearmeringstid"
         ], 
         "description": "Den Skotske Resistens"
     }, 
     "137": {
+        "alt": [
+            "Til herren, der mener, at selv hans hat fortjener en hat."
+        ], 
         "type": "Hat", 
         "description": "Nobel Forsamling af Hatte"
     }, 
     "136": {
         "alt": [
-            "Andenplads, propagandakonkurrence"
+            "Andenplads, propagandakonkurrence", 
+            "Kan ikke handles"
         ], 
         "type": "Hat", 
         "description": "Amber's Overdrevent Seje Hat"
     }, 
     "135": {
+        "alt": [
+            "A-ha-ha! Du er lige s\u00e5 OVERMODIG som du er FATTIG og IRSK. Besku storheden i mit T\u00c5RN af HATTE."
+        ], 
         "type": "Hat", 
         "description": "T\u00e5rnende S\u00f8jle af Hatte"
     }, 
     "134": {
         "alt": [
-            "F\u00f8rste Plads, Propaganda Konkurrence"
+            "F\u00f8rste Plads, Propaganda Konkurrence", 
+            "Kan ikke handles"
         ], 
         "type": "Hat", 
         "description": "J.Axers stiveste puds"
     }, 
+    "95": {
+        "alt": [
+            "TF_Engineer_Train_Hat_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "Lokomotivf\u00f8rerkasket"
+    }, 
     "139": {
+        "alt": [
+            "Fordi en gentleman ikke er noget uden en."
+        ], 
         "type": "Hat", 
         "description": "Beskeden Bunke af Hatte"
     }, 
     "138": {
         "alt": [
-            "Tredjeplads, propagandakonkurrence"
+            "Tredjeplads, propagandakonkurrence", 
+            "Kan ikke handles"
         ], 
         "type": "Hat", 
         "description": "Uncle Sam"
+    }, 
+    "166": {
+        "alt": [
+            "Selvom du kom for sent til festen, var du stadig dens midtpunkt.", 
+            "Hyredato: %s1", 
+            "Kan ikke handles"
+        ], 
+        "type": "Badge", 
+        "description": "Lejesoldat"
     }, 
     "24": {
         "type": "Revolver", 
@@ -106,9 +189,12 @@
         "type": "Pistol", 
         "description": "Pistol"
     }, 
-    "95": {
+    "223": {
+        "alt": [
+            "TF_TheFamiliarFez_Desc"
+        ], 
         "type": "Hat", 
-        "description": "Lokomotivf\u00f8rerkasket"
+        "description": "Velkendt Fez"
     }, 
     "28": {
         "type": "PDA", 
@@ -118,9 +204,12 @@
         "type": "Medi-gev\u00e6r", 
         "description": "Medi-gev\u00e6r"
     }, 
-    "94": {
-        "type": "Hat", 
-        "description": "Cowboyhat"
+    "222": {
+        "alt": [
+            "Spillere helbreder 75% af den forvoldte skade\r\np\u00e5 en fjende d\u00e6kket af m\u00e6lk."
+        ], 
+        "type": "Ikke-m\u00e6lkemasse", 
+        "description": "Tossem\u00e6lk"
     }, 
     "0": {
         "type": "Bat", 
@@ -134,38 +223,63 @@
         "type": "Knoglesav", 
         "description": "Knoglesav"
     }, 
-    "96": {
-        "type": "Hat", 
-        "description": "Officers pelshue"
+    "163": {
+        "alt": [
+            "Under indflydelse vil anrettet skade\r\nog modtaget skade v\u00e6re sm\u00e5kritisk skade.", 
+            "Tilf\u00f8jer +50 ekstra liv i 30 sekunder"
+        ], 
+        "type": "Madkasse", 
+        "description": "Crit-a-Cola"
     }, 
     "120": {
+        "alt": [
+            "TF_Demo_Top_Hat_Desc"
+        ], 
         "type": "Hat", 
         "description": "Skotsk skorstensr\u00f8r"
     }, 
     "121": {
+        "alt": [
+            "Gives til de f\u00e5 tapre soldater, som frygtl\u00f8st stod vagt uden s\u00f8vn, f\u00f8de eller socialt samv\u00e6r.", 
+            "Kan ikke handles"
+        ], 
         "type": "Medalje", 
         "description": "GentleManne's tjenestemedalje"
     }, 
     "122": {
+        "alt": [
+            "Kan ikke handles"
+        ], 
         "type": "Cheat Detector", 
         "description": "Din konto er blevet noteret for omg\u00e5else af systemet for distribuering af genstande. Vi har fjernet de genstande, der blev anskaffet p\u00e5 ulovlig vis.\r\n\r\nFremtidige overtr\u00e6delser vil medf\u00f8re tab af alle dine genstande."
     }, 
     "123": {
+        "alt": [
+            "Kan ikke handles"
+        ], 
         "type": "Cheat Detector", 
         "description": "Din konto er blevet noteret for omg\u00e5else af systemet for distribuering af genstande. Vi har fjernet alle genstande i din beholdning.\r\n\r\nFremtidige overtr\u00e6delser kan medf\u00f8re deaktivering af din konto."
     }, 
     "124": {
+        "alt": [
+            "Kan ikke handles"
+        ], 
         "type": "Cheat Detector", 
         "description": "Tillykke! Din \u00e6rlighed er blevet bel\u00f8nnet med en ny hat!\r\n\r\n(Visse andre spillere havde ikke samme skrupler og har v\u00e6ret mindre heldige)"
     }, 
     "125": {
         "alt": [
-            "%s1% for\u00e5rsaget skade"
+            "Nogle vil g\u00f8re hvad som helst for at f\u00e5 en hat. Du var m\u00e5lrettet og ubestikkelig i din s\u00f8gen efter hovedpynt. Det bliver du nu bel\u00f8nnet for.", 
+            "Effekt: %s1", 
+            "Kan ikke handles"
         ], 
         "type": "Aura af ubestikkelighed", 
         "description": "Snyderens klagesang"
     }, 
     "126": {
+        "alt": [
+            "Left 4 You."
+        ], 
         "type": "Soldaterhue", 
         "description": "Bills hat"
     }, 
@@ -189,6 +303,9 @@
         "description": "Equalizeren"
     }, 
     "129": {
+        "alt": [
+            "Har en offensiv udstr\u00e5ling buff, der f\u00e5r\r\nholdmedlemmer til at levere mini-crits."
+        ], 
         "type": "Kampbanner", 
         "description": "Buff Banneret"
     }, 
@@ -213,10 +330,16 @@
         "description": "tiskarate"
     }, 
     "55": {
+        "alt": [
+            "Dette l\u00e6kre, lille silkeforede mesterv\u00e6rk forvandler enhver knivamat\u00f8r til den flotteste slyngel."
+        ], 
         "type": "Hat", 
         "description": "Filthat"
     }, 
     "54": {
+        "alt": [
+            "Denne hat st\u00f8tter p\u00e5 ingen t\u00e6nkelig m\u00e5de hverken rygning eller spil."
+        ], 
         "type": "Hat", 
         "description": "Soldatergemmested"
     }, 
@@ -232,18 +355,30 @@
         "description": "J\u00e6geren"
     }, 
     "51": {
+        "alt": [
+            "TF_Pyro_Hat_1_Desc"
+        ], 
         "type": "Hat", 
         "description": "Pyro-hue"
     }, 
     "50": {
+        "alt": [
+            "Et fortidslevn fra en tidligere krig.\r\nDin fjende f\u00e5r pointet."
+        ], 
         "type": "Hat", 
         "description": "Preussisk pikkelhjelm"
     }, 
     "53": {
+        "alt": [
+            "Ethvert fjols kan tr\u00e6kke t\u00e6nder ud af en d\u00f8d krokodille.\r\nDet kr\u00e6ver en mand at tr\u00e6kke t\u00e6nder ud af en levende."
+        ], 
         "type": "Hat", 
         "description": "Trof\u00e6b\u00e6lte"
     }, 
     "52": {
+        "alt": [
+            "Du vil banke tusind (kranier ind), n\u00e5r du if\u00f8rer dig dette r\u00f8de stykke plastik!"
+        ], 
         "type": "Hat", 
         "description": "Batter-hjelm"
     }, 
@@ -275,86 +410,192 @@
         "type": "Smedegenstand", 
         "description": "Position-emblem - Sekund\u00e6r"
     }, 
-    "5014": {
-        "alt": [
-            "Anvendes til at angive en udstyrsposition i planer"
-        ], 
-        "type": "Smedegenstand", 
-        "description": "Position-emblem - N\u00e6rkamp"
+    "199": {
+        "type": "Haglgev\u00e6r", 
+        "description": "Haglgev\u00e6r"
     }, 
-    "5015": {
-        "alt": [
-            "Anvendes til at angive en udstyrsposition i planer"
-        ], 
-        "type": "Smedegenstand", 
-        "description": "Position-emblem - Granat"
+    "198": {
+        "type": "Knoglesav", 
+        "description": "Knoglesav"
     }, 
-    "5016": {
+    "147": {
         "alt": [
-            "Anvendes til at angive en udstyrsposition i planer"
+            "Man siger, at retf\u00e6rdigheden er blind. Men man glemmer at fort\u00e6lle, at retf\u00e6rdigheden ogs\u00e5 er usynlig og i \u00f8vrigt mindre interesseret i retf\u00e6rdighed end i mord."
         ], 
-        "type": "Smedegenstand", 
-        "description": "Position-emblem - Bygning"
+        "type": "Hat", 
+        "description": "Magistratens Paryk"
     }, 
-    "5017": {
-        "alt": [
-            "Anvendes til at angive en udstyrsposition i planer"
-        ], 
-        "type": "Smedegenstand", 
-        "description": "Position-emblem - PDA"
+    "195": {
+        "type": "N\u00e6ver", 
+        "description": "N\u00e6ver"
     }, 
-    "5018": {
-        "alt": [
-            "Anvendes til at angive en udstyrsposition i planer"
-        ], 
-        "type": "Smedegenstand", 
-        "description": "Position-emblem - PDA2"
+    "194": {
+        "type": "Kniv", 
+        "description": "Kniv"
     }, 
-    "5019": {
-        "alt": [
-            "Anvendes til at angive en udstyrsposition i planer"
-        ], 
-        "type": "Smedegenstand", 
-        "description": "Position-emblem - Hoved"
+    "197": {
+        "type": "Svenskn\u00f8gle", 
+        "description": "Svenskn\u00f8gle"
+    }, 
+    "196": {
+        "type": "Skovl", 
+        "description": "Skovl"
+    }, 
+    "191": {
+        "type": "Flaske", 
+        "description": "Flaske"
+    }, 
+    "190": {
+        "type": "Bat", 
+        "description": "Bat"
+    }, 
+    "193": {
+        "type": "Kukri", 
+        "description": "Kukri"
+    }, 
+    "192": {
+        "type": "\u00d8kse", 
+        "description": "\u00d8kse"
     }, 
     "115": {
+        "alt": [
+            "Brunt papir har aldrig set s\u00e5 forholdsvis foruroligende ud."
+        ], 
         "type": "Helligdagshat", 
         "description": "Lettere foruroligende halloween-maske"
     }, 
+    "177": {
+        "alt": [
+            "Ingenting"
+        ], 
+        "type": "Hat", 
+        "description": "Ze Goggles"
+    }, 
     "117": {
+        "alt": [
+            "Hans kugle var t\u00e6t p\u00e5.\r\nJeg tabte hatten.\r\nMin kugle var t\u00e6ttere p\u00e5.\r\nHan tabte hovedet."
+        ], 
         "type": "Hat", 
         "description": "Ritzy Ricks h\u00e5rplejemiddel"
     }, 
     "116": {
         "alt": [
-            "Broderede initialer: 'Z.M.'"
+            "Broderede initialer: 'Z.M.'", 
+            "Kan ikke handles"
         ], 
         "type": "Hat", 
         "description": "H\u00f8j sp\u00f8gelseshat"
     }, 
     "111": {
+        "alt": [
+            "Alle ved, at hastigheden er en Scouts bedste ven. Hvorfor tynge dig med klodsede hatte, n\u00e5r du kan bryde lydmuren uden?"
+        ], 
         "type": "Hat", 
         "description": "Baseball Bills h\u00e5rgel\u00e9"
     }, 
     "110": {
+        "alt": [
+            "Kun en mester i Jarate optjener retten til at b\u00e6re denne en gang hvide bandanna, som er blevet gul gennem ud\u00f8velse af h\u00e5rd tr\u00e6ning."
+        ], 
         "type": "Hat", 
         "description": "Mesterens gule b\u00e6lte"
     }, 
+    "253": {
+        "alt": [
+            "Rydder enhver blokade."
+        ], 
+        "type": "Hat", 
+        "description": "Handymandens h\u00e5ndtag"
+    }, 
+    "205": {
+        "type": "Raketstyr", 
+        "description": "Raketstyr"
+    }, 
     "118": {
+        "alt": [
+            "Nogle gange har man bare brug for lidt mindre hat."
+        ], 
         "type": "Hat", 
         "description": "Texas Slims polervoks"
+    }, 
+    "165": {
+        "alt": [
+            "Jo, nogle har m\u00e5ske gjort det i l\u00e6ngere tid. Men du har bevist, at f\u00e5 kan g\u00f8re det bedre.", 
+            "Hyredato: %s1", 
+            "Kan ikke handles"
+        ], 
+        "type": "Badge", 
+        "description": "Lykkeridder"
+    }, 
+    "143": {
+        "alt": [
+            "OSX-symbol!"
+        ], 
+        "type": "Hat", 
+        "description": "H\u00f8retelefoner"
+    }, 
+    "174": {
+        "alt": [
+            "Man skal v\u00e6re tungnem for ikke at indse, at denne kasket er h\u00f8jeste mode til den kr\u00e6sne ungdom."
+        ], 
+        "type": "Hat", 
+        "description": "K\u00e6k krone"
+    }, 
+    "140": {
+        "alt": [
+            "F\u00e5 manuel kontrol over dit Robotgev\u00e6r"
+        ], 
+        "type": "Laserpointer", 
+        "description": "Wrangleren"
+    }, 
+    "141": {
+        "positive": [
+            "N\u00e5r dit robotgev\u00e6r bliver \u00f8delagt f\u00e5r\r\ndu h\u00e6vn-kritiske skud for hvert robotgev\u00e6r-drab"
+        ], 
+        "type": "Haglgev\u00e6r", 
+        "negative": [
+            "Ingen tilf\u00e6ldig kritisk skade", 
+            "-50% magasinst\u00f8rrelse"
+        ], 
+        "description": "Frontier Justice"
     }, 
     "3": {
         "type": "Kukri", 
         "description": "Kukri"
     }, 
+    "171": {
+        "positive": [
+            "Ved tr\u00e6ffer: Bl\u00f8dning i 6 sekunder"
+        ], 
+        "type": "Kukri", 
+        "negative": [
+            "-50% for\u00e5rsaget skade"
+        ], 
+        "description": "Stammemandens Machete"
+    }, 
     "7": {
         "type": "Svenskn\u00f8gle", 
         "description": "Svenskn\u00f8gle"
     }, 
+    "146": {
+        "alt": [
+            "TF_DemomanHallmark_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "Hustlers Adelsm\u00e6rke"
+    }, 
+    "170": {
+        "alt": [
+            "Den sande krigers medalje, der gives til dem, der k\u00e6mpede, f\u00f8r slaget overhovedet begyndte.", 
+            "Hyredato: %s1", 
+            "Kan ikke handles"
+        ], 
+        "type": "Badge", 
+        "description": "Urtidskriger"
+    }, 
     "other_attributes": {
-        "133": "Medal nummer %s1", 
-        "132": "Gives til v\u00e6rdifulde EF Bidragydere", 
+        "133": "Medalje nummer %s1", 
+        "132": "Givet til v\u00e6rdifulde EF Bidragydere", 
         "143": "Leje Dato: %s1", 
         "147": "Skruen\u00f8gle nummer %s1"
     }, 
@@ -419,55 +660,120 @@
         "type": "Smedegenstand", 
         "description": "Klasse-emblem - Medic"
     }, 
-    "108": {
+    "245": {
+        "alt": [
+            "Optjent p\u00e5 niveau 75.\r\nDette emblem sporer din duelstatistik.\r\n\u00d8g dets niveau ved at vinde flere dueller!", 
+            "Kan ikke handles"
+        ], 
+        "type": "Badge", 
+        "description": "Platin-duelemblem"
+    }, 
+    "244": {
+        "alt": [
+            "Optjent p\u00e5 niveau 50.\r\nDette emblem sporer din duelstatistik.\r\n\u00d8g dets niveau ved at vinde flere dueller!", 
+            "Kan ikke handles"
+        ], 
+        "type": "Badge", 
+        "description": "Guld-duelemblem"
+    }, 
+    "247": {
+        "alt": [
+            "Hatten, der g\u00f8r alting hot."
+        ], 
         "type": "Hat", 
-        "description": "Bowler"
+        "description": "Gamle Guadalajara"
     }, 
     "109": {
+        "alt": [
+            "Denne nydelige og effektive hat tager du p\u00e5, n\u00e5r du skal aflive alle p\u00e5 din vej."
+        ], 
         "type": "Hat", 
         "description": "Str\u00e5hat"
     }, 
     "9003": {
         "positive": [
-            "Forbud Steam af dr\u00e6bte spillere", 
+            "Forbud Steam konto akt\u00f8rer dr\u00e6bt", 
             "Dette punkt er ikke reel og er kun en joke."
         ], 
-        "type": "Mallet af forvist", 
+        "type": "K\u00f8lle af Forvisning", 
         "description": "Ban Hammer"
     }, 
     "240": {
+        "alt": [
+            "TF_Worms_Gear_Desc"
+        ], 
         "type": "Hat", 
-        "description": "Lumbricus Lid"
+        "description": "Lumbricus-l\u00e5g"
+    }, 
+    "243": {
+        "alt": [
+            "Optjent p\u00e5 niveau 25.\r\nDette emblem sporer din duelstatistik.\r\n\u00d8g dets niveau ved at vinde flere dueller!", 
+            "Kan ikke handles"
+        ], 
+        "type": "Badge", 
+        "description": "S\u00f8lv-duelemblem"
+    }, 
+    "242": {
+        "alt": [
+            "Dette emblem sporer din duelstatistik.\r\n\u00d8g dets niveau ved at vinde flere dueller!", 
+            "Kan ikke handles"
+        ], 
+        "type": "Badge", 
+        "description": "Bronze-duelemblem"
     }, 
     "102": {
+        "alt": [
+            "Det er lige meget, om folk respekterer dig, hvis de br\u00e6nder."
+        ], 
         "type": "Hat", 
         "description": "Fjollet gummihandske"
     }, 
     "103": {
+        "alt": [
+            "Du har da ikke noget imod, at jeg l\u00e6ser det her tophemmelige dokument med mit sk\u00e6g, vel?"
+        ], 
         "type": "Hat", 
         "description": "Kamerask\u00e6g"
     }, 
     "100": {
+        "alt": [
+            "TF_Demo_Scott_Hat_Desc"
+        ], 
         "type": "Hat", 
         "description": "Skottehue"
     }, 
     "101": {
+        "alt": [
+            "TF_Medic_Tyrolean_Hat_Desc"
+        ], 
         "type": "Hat", 
         "description": "Gammel tyrolerhat"
     }, 
     "106": {
+        "alt": [
+            "N\u00e5r man drikker, s\u00e5 er \u00e9n radioaktiv drik  ad gangen ikke nok."
+        ], 
         "type": "Hat", 
         "description": "\u00d8lhjelm"
     }, 
     "107": {
+        "alt": [
+            "Ekstra! Ekstra! Du er stend\u00f8d!"
+        ], 
         "type": "Hat", 
         "description": "Sixpence"
     }, 
     "104": {
+        "alt": [
+            "Vi kan heller ikke udtale det."
+        ], 
         "type": "Hat", 
         "description": "Pandespejl"
     }, 
     "105": {
+        "alt": [
+            "TF_Pyro_Fireman_Helmet_Desc"
+        ], 
         "type": "Hat", 
         "description": "Brandmandshjelm"
     }, 
@@ -486,18 +792,6 @@
         ], 
         "description": "Axtinguisheren"
     }, 
-    "33": {
-        "type": "Spr\u00f8jtepistol", 
-        "description": "Spr\u00f8jtepistol"
-    }, 
-    "32": {
-        "type": "Knoglesav", 
-        "description": "Knoglesav"
-    }, 
-    "31": {
-        "type": "Signalpistol", 
-        "description": "Signalpistol"
-    }, 
     "30": {
         "type": "Usynlighedsur", 
         "description": "Usynlighedsur"
@@ -512,15 +806,12 @@
         ], 
         "description": "Ubersawen"
     }, 
-    "36": {
-        "positive": [
-            "Ved tr\u00e6ffer: +3 helbred"
+    "108": {
+        "alt": [
+            "Bruges, n\u00e5r du ville \u00f8nske, at dit hoved var lidt h\u00f8jere,\r\n men lige s\u00e5 rundt p\u00e5 toppen."
         ], 
-        "type": "Spr\u00f8jtepistol", 
-        "negative": [
-            "-2 helbred tappet pr. sekund for b\u00e6reren"
-        ], 
-        "description": "Blutsaugeren"
+        "type": "Hat", 
+        "description": "Bowler"
     }, 
     "35": {
         "positive": [
@@ -532,9 +823,106 @@
         "type": "Medi-gev\u00e6r", 
         "description": "Kritzkriegen"
     }, 
-    "34": {
-        "type": "Medi-gev\u00e6r", 
-        "description": "Medi-gev\u00e6r"
+    "246": {
+        "alt": [
+            ""
+        ], 
+        "type": "Hat", 
+        "description": "Bokserens beskytter"
+    }, 
+    "94": {
+        "alt": [
+            "Den ligner en cowboyhat, men dette moderne stykke ingeni\u00f8rkunst indeholder reelt flere bev\u00e6gelige dele end en Sentry Gun p\u00e5 niveau 2."
+        ], 
+        "type": "Hat", 
+        "description": "Cowboyhat"
+    }, 
+    "241": {
+        "alt": [
+            "Giver dig mulighed for at udfordre en person til en duel!\r\nSe Mann Co.-kataloget for flere oplysninger."
+        ], 
+        "type": "Brugbar genstand", 
+        "description": "Duelminispil"
+    }, 
+    "5038": {
+        "alt": [
+            "Bruges til at male andre genstande.", 
+            "Jeg lavede dette!"
+        ], 
+        "type": "V\u00e6rkt\u00f8j", 
+        "description": "Aged Moustache Grey"
+    }, 
+    "5039": {
+        "alt": [
+            "Bruges til at male andre genstande.", 
+            "Jeg lavede dette!"
+        ], 
+        "type": "V\u00e6rkt\u00f8j", 
+        "description": "An Extraordinary Abundance of Tinge"
+    }, 
+    "5036": {
+        "alt": [
+            "Bruges til at male andre genstande.", 
+            "Jeg lavede dette!"
+        ], 
+        "type": "V\u00e6rkt\u00f8j", 
+        "description": "Ye Olde Rustic Colour"
+    }, 
+    "5037": {
+        "alt": [
+            "Bruges til at male andre genstande.", 
+            "Jeg lavede dette!"
+        ], 
+        "type": "V\u00e6rkt\u00f8j", 
+        "description": "Australium Gold"
+    }, 
+    "5034": {
+        "alt": [
+            "Bruges til at male andre genstande.", 
+            "Jeg lavede dette!"
+        ], 
+        "type": "V\u00e6rkt\u00f8j", 
+        "description": "Peculiarly Drab Tincture"
+    }, 
+    "5035": {
+        "alt": [
+            "Bruges til at male andre genstande.", 
+            "Jeg lavede dette!"
+        ], 
+        "type": "V\u00e6rkt\u00f8j", 
+        "description": "Radigan Conagher Brown"
+    }, 
+    "5032": {
+        "alt": [
+            "Bruges til at male andre genstande.", 
+            "Jeg lavede dette!"
+        ], 
+        "type": "V\u00e6rkt\u00f8j", 
+        "description": "Mann Co. Orange"
+    }, 
+    "5033": {
+        "alt": [
+            "Bruges til at male andre genstande.", 
+            "Jeg lavede dette!"
+        ], 
+        "type": "V\u00e6rkt\u00f8j", 
+        "description": "Muskelmannbraun"
+    }, 
+    "5030": {
+        "alt": [
+            "Bruges til at male andre genstande.", 
+            "Jeg lavede dette!"
+        ], 
+        "type": "V\u00e6rkt\u00f8j", 
+        "description": "Color No. 216-190-216"
+    }, 
+    "5031": {
+        "alt": [
+            "Bruges til at male andre genstande.", 
+            "Jeg lavede dette!"
+        ], 
+        "type": "V\u00e6rkt\u00f8j", 
+        "description": "A Deep Commitment to Purple"
     }, 
     "60": {
         "positive": [
@@ -557,32 +945,71 @@
         ], 
         "description": "Ambassad\u00f8ren"
     }, 
+    "259": {
+        "alt": [
+            "Lad ikke en eneste skildvagt overleve."
+        ], 
+        "type": "Hat", 
+        "description": "Drankerens capotain"
+    }, 
     "97": {
+        "alt": [
+            "Du er det sejeste uhyre p\u00e5 fortet, s\u00e5 der vil ikke v\u00e6re nogen, der kritiserer din smag."
+        ], 
         "type": "Hat", 
         "description": "Smart fyrs skihue"
     }, 
     "179": {
+        "alt": [
+            "Tre skarpe hj\u00f8rner giver en skarp hat.\r\nLad v\u00e6re med at stikke \u00f8jet ud."
+        ], 
         "type": "Hat", 
         "description": "Fyldeb\u00f8ttens trekanthat"
     }, 
     "178": {
+        "alt": [
+            "Det bliver sv\u00e6rt at beregne det samlede drejningsmoment p\u00e5f\u00f8rt kroppens rotationsbev\u00e6gelse gennem dens momentane momentvektor med de distraherende lyde af d\u00f8d og \u00f8del\u00e6ggelse omkring dig. Lav en bedre og mere sikker maskine med stilheden fra Safe'n'sound!"
+        ], 
         "type": "Hat", 
         "description": "P\u00e5 den sikre side"
     }, 
-    "177": {
+    "252": {
         "alt": [
-            "Ingenting"
+            ""
         ], 
         "type": "Hat", 
-        "description": "Ze Goggles"
+        "description": "Dr's stiveste puds"
+    }, 
+    "5014": {
+        "alt": [
+            "Anvendes til at angive en udstyrsposition i planer"
+        ], 
+        "type": "Smedegenstand", 
+        "description": "Position-emblem - N\u00e6rkamp"
     }, 
     "175": {
+        "alt": [
+            "Det mest uds\u00f8gte, selvkl\u00e6bende og brandh\u00e6mmende sk\u00e6g til den kr\u00e6sne storbrandsherre."
+        ], 
         "type": "Hat", 
         "description": "Gentleman med bakkenbarter"
     }, 
-    "174": {
+    "251": {
+        "alt": [
+            "Viktoriansk milit\u00e6rmodes\r\nst\u00f8rste bedrift."
+        ], 
         "type": "Hat", 
-        "description": "K\u00e6k krone"
+        "description": "Charmerende chakot"
+    }, 
+    "173": {
+        "positive": [
+            "Ved d\u00f8dsfald bevares op til 20% af din\r\nlagrede \u00dcberCharge."
+        ], 
+        "type": "Knoglesav", 
+        "negative": [
+            "-10 maks. helbred for b\u00e6rer"
+        ], 
+        "description": "Vita-saven"
     }, 
     "172": {
         "positive": [
@@ -594,40 +1021,73 @@
         ], 
         "description": "Skottens Kraniekl\u00f8ver"
     }, 
-    "171": {
-        "positive": [
-            "Ved tr\u00e6ffer: Bl\u00f8dning i 6 sekunder"
-        ], 
-        "type": "Kukri", 
-        "negative": [
-            "-50% for\u00e5rsaget skade"
-        ], 
-        "description": "Stammemandens Machete"
-    }, 
-    "170": {
+    "254": {
         "alt": [
-            "Hyredato: %s1"
+            "Man kan aldrig v\u00e6re for forsigtig,\r\nn\u00e5r der er Jarate i n\u00e6rheden."
         ], 
-        "type": "Badge", 
-        "description": "Urtidskriger"
+        "type": "Hat", 
+        "description": "Hard Counter"
+    }, 
+    "255": {
+        "alt": [
+            "En sticky-jumpers bedste ven."
+        ], 
+        "type": "Hat", 
+        "description": "St\u00e6dig stuntman"
+    }, 
+    "249": {
+        "alt": [
+            "D\u00f8den fra oven!"
+        ], 
+        "type": "Hat", 
+        "description": "Bombel\u00f8b"
+    }, 
+    "145": {
+        "alt": [
+            "Dine modstandere vil blive rystet ved synet af de fede solbriller og huen."
+        ], 
+        "type": "Hat", 
+        "description": "Elviskr\u00f8lle"
+    }, 
+    "248": {
+        "alt": [
+            "Efter en lang dags spejderafbr\u00e6nding."
+        ], 
+        "type": "Hat", 
+        "description": "Soverens pusterum"
     }, 
     "182": {
+        "alt": [
+            "Pyro b\u00e6rer dette som en hyldest til de mange brandfolk, der er omkommet i fors\u00f8get p\u00e5 at slukke hans ild."
+        ], 
         "type": "Hat", 
         "description": "Klassisk brandmandshjelm"
     }, 
     "183": {
+        "alt": [
+            "Denne hat er en praktisk erstatning for blasfemisk r\u00e5ben, n\u00e5r man ikke har lyst til at skrige sig h\u00e6s."
+        ], 
         "type": "Hat", 
         "description": "Sergentens eksercitshat"
     }, 
     "180": {
+        "alt": [
+            "Fordi \u00e6gte spionage er en kunstart."
+        ], 
         "type": "Hat", 
         "description": "Franskmandens beret"
     }, 
     "181": {
+        "alt": [
+            "Ude at Snipe."
+        ], 
         "type": "Hat", 
         "description": "B\u00f8llehue"
     }, 
     "184": {
+        "alt": [
+            "Selvom den mangler andre hattes s\u00e6rpr\u00e6g, s\u00e5 har Gatsby ikke desto mindre sin egen uds\u00f8gte elegance. Dens diskrete og im\u00f8dekommende charme appellerer til enhver, uanset om man g\u00e5r golf med vennerne eller ud\u00f8ver grovkirurgi med en velslebet bensav."
+        ], 
         "type": "Hat", 
         "description": "Gentlemanskasket"
     }, 
@@ -635,19 +1095,91 @@
         "type": "Skovl", 
         "description": "Skovl"
     }, 
+    "250": {
+        "alt": [
+            ""
+        ], 
+        "type": "Hat", 
+        "description": "H\u00f8vdingens hovedpryd"
+    }, 
     "189": {
+        "alt": [
+            "Denne s\u00f8de lille fyr var i svunden tid og sted menneskehedens sv\u00f8be. Nu g\u00f8r det ham lykkelig at sidde p\u00e5 dit hoved og holde solen v\u00e6k."
+        ], 
         "type": "Hat", 
         "description": "Alien Swarm Parasite"
     }, 
+    "5029": {
+        "alt": [
+            "Bruges til at male andre genstande.", 
+            "Jeg lavede dette!"
+        ], 
+        "type": "V\u00e6rkt\u00f8j", 
+        "description": "Noble Hatter's Violet"
+    }, 
+    "5028": {
+        "alt": [
+            "Bruges til at male andre genstande.", 
+            "Jeg lavede dette!"
+        ], 
+        "type": "V\u00e6rkt\u00f8j", 
+        "description": "Zephaniah's Greed"
+    }, 
+    "221": {
+        "alt": [
+            "Det m\u00e5 v\u00e6re ydmygende at blive sl\u00e5et med en fisk."
+        ], 
+        "type": "Fisk", 
+        "description": "Den hellige makrel"
+    }, 
+    "5021": {
+        "alt": [
+            "Bruges til at \u00e5bne l\u00e5ste forsyningskasser."
+        ], 
+        "type": "V\u00e6rkt\u00f8j", 
+        "description": "Mann Co.-forsyningskassen\u00f8gle"
+    }, 
+    "5020": {
+        "alt": [
+            "\u00c6ndrer navnet p\u00e5 en genstand i din rygs\u00e6k"
+        ], 
+        "type": "V\u00e6rkt\u00f8j", 
+        "description": "Navneskilt"
+    }, 
+    "5023": {
+        "alt": [
+            "Bruges til at male andre genstande.", 
+            "Jeg lavede dette!"
+        ], 
+        "type": "V\u00e6rkt\u00f8j", 
+        "description": "Malingsd\u00e5se"
+    }, 
     "185": {
+        "alt": [
+            "Det koster 400.000 $ at b\u00e6re denne bandanna i 12 sekunder."
+        ], 
         "type": "Hat", 
         "description": "Bandana"
     }, 
+    "5027": {
+        "alt": [
+            "Bruges til at male andre genstande.", 
+            "Jeg lavede dette!"
+        ], 
+        "type": "V\u00e6rkt\u00f8j", 
+        "description": "Indubitably Green"
+    }, 
     "99": {
+        "alt": [
+            "Jeg sparkede din r\u00f8v s\u00e5 h\u00e5rdt, at den rejste tilbage i tiden og hentede denne VIKING HAT til mig."
+        ], 
         "type": "Hat", 
         "description": "Vikingehjelm"
     }, 
     "98": {
+        "alt": [
+            "Beskytter kraniet mod kugler og granatsplinter.\r\nKan ogs\u00e5 lave kaffe."
+        ], 
         "type": "Hat", 
         "description": "Rustfri gryde"
     }, 
@@ -655,29 +1187,63 @@
         "positive": [
             "Gennemsyret af en oldgammel kraft"
         ], 
+        "alt": [
+            "Kan ikke handles"
+        ], 
         "type": "Svenskn\u00f8gle", 
         "description": "Den Gyldne Svenskn\u00f8gle"
     }, 
-    "164": {
+    "229": {
         "alt": [
-            "Hyredato: %s1"
+            "TF_OlSnaggletooth_Desc"
         ], 
-        "type": "Badge", 
-        "description": "Garvet veteran"
+        "type": "Hat", 
+        "description": "Gamle Hugtand"
     }, 
-    "165": {
-        "alt": [
-            "Hyredato: %s1"
+    "228": {
+        "positive": [
+            "Ved tr\u00e6ffer: +15 helbred"
         ], 
-        "type": "Badge", 
-        "description": "Lykkeridder"
+        "type": "Raketstyr", 
+        "negative": [
+            "-25% magasinst\u00f8rrelse"
+        ], 
+        "description": "Den sorte boks"
     }, 
-    "166": {
+    "227": {
         "alt": [
-            "Hyredato: %s1"
+            "TF_TheGrenadiersSoftcap_Desc"
         ], 
-        "type": "Badge", 
-        "description": "Lejesoldat"
+        "type": "Hat", 
+        "description": "Grenaderens bl\u00f8de hat"
+    }, 
+    "226": {
+        "alt": [
+            "Har en defensiv udstr\u00e5lling, der beskytter\r\nholdmedlemmer mod crits\r\nog blokerer 35% af indg\u00e5ende skade.\r\nRage stiger, n\u00e5r man tager skade."
+        ], 
+        "type": "Kampbanner", 
+        "description": "Bataljonens opbakning"
+    }, 
+    "225": {
+        "positive": [
+            "Efter et succesfuld backstab kan du\r\nhurtigt forkl\u00e6de dig som dit offer", 
+            "Dette v\u00e5ben er en lydl\u00f8s dr\u00e6ber"
+        ], 
+        "type": "Kniv", 
+        "negative": [
+            "B\u00e6reren kan ikke forkl\u00e6de sig"
+        ], 
+        "description": "Din evige bel\u00f8nning"
+    }, 
+    "224": {
+        "positive": [
+            "+15 kappe ved slag"
+        ], 
+        "type": "Revolver", 
+        "negative": [
+            "-20% for\u00e5rsaget skade"
+        ], 
+        "description": "L'\u00e9tranger"
     }, 
     "160": {
         "alt": [
@@ -700,13 +1266,15 @@
         "type": "Hat", 
         "description": "Max' afhuggede hoved"
     }, 
-    "163": {
-        "alt": [
-            "Under indflydelse vil anrettet skade\r\nog modtaget skade v\u00e6re sm\u00e5kritisk skade.", 
-            "Tilf\u00f8jer +50 ekstra liv i 30 sekunder"
+    "220": {
+        "positive": [
+            "Ved slag: s\u00e6nk m\u00e5lbev\u00e6gelse med 40% for 0.5s"
         ], 
-        "type": "Madkasse", 
-        "description": "Crit-a-Cola"
+        "alt": [
+            "Mann Co.'s allernyeste inden for offensivt\r\npersonligt forsvar med attitude."
+        ], 
+        "type": "Peberpistol", 
+        "description": "Markspilleren"
     }, 
     "11": {
         "type": "Haglgev\u00e6r", 
@@ -748,11 +1316,36 @@
         "type": "Raketstyr", 
         "description": "Raketstyr"
     }, 
+    "164": {
+        "alt": [
+            "B\u00e6r stolt dette p\u00e5 dit bryst, soldat. Hver gang du dr\u00e6ber nogen, vil de vide, at de ikke var den f\u00f8rste.", 
+            "Hyredato: %s1", 
+            "Kan ikke handles"
+        ], 
+        "type": "Badge", 
+        "description": "Garvet veteran"
+    }, 
+    "5022": {
+        "positive": [
+            "Kasseserie #1"
+        ], 
+        "alt": [
+            "Du skal bruge en Mann Co.-forsyningskassen\u00f8gle til at \u00e5bne denne."
+        ], 
+        "type": "TF_LockedCrate", 
+        "description": "MannCo-forsyningskasse"
+    }, 
     "151": {
+        "alt": [
+            "I det mindste beder han dig stadig om at br\u00e6nde ting."
+        ], 
         "type": "Hat", 
         "description": "Triboniophorus Tyrannus"
     }, 
     "150": {
+        "alt": [
+            "Helt ude af kontrolpunkt."
+        ], 
         "type": "Hat", 
         "description": "Ballademagerens hue"
     }, 
@@ -768,6 +1361,9 @@
         "description": "Hjerteknuseren"
     }, 
     "152": {
+        "alt": [
+            "Et Haiku til krig.\r\nAt besejre fjenderne.\r\n\u00c6ret v\u00e6re krabben."
+        ], 
         "type": "Hat", 
         "description": "Dr\u00e6berens samuraihjelm"
     }, 
@@ -800,14 +1396,102 @@
         "description": "Dalokohs Chokoladebar"
     }, 
     "158": {
+        "alt": [
+            "Perfekt til udforskning af \u00f8demarken og indersiden af folks hoveder."
+        ], 
         "type": "Hat", 
         "description": "Skyttens tropehjelm"
     }, 
+    "36": {
+        "positive": [
+            "Ved tr\u00e6ffer: +3 helbred"
+        ], 
+        "type": "Spr\u00f8jtepistol", 
+        "negative": [
+            "-2 helbred tappet pr. sekund for b\u00e6reren"
+        ], 
+        "description": "Blutsaugeren"
+    }, 
+    "239": {
+        "positive": [
+            "+30% hurtigere bev\u00e6gelseshastighed for b\u00e6reren"
+        ], 
+        "alt": [
+            "N\u00e5r v\u00e5benet er aktivt:"
+        ], 
+        "type": "N\u00e6ver", 
+        "negative": [
+            "-50% for\u00e5rsaget skade", 
+            "-6 helbred tappet pr. sekund for b\u00e6reren"
+        ], 
+        "description": "De hurtige boksehandsker"
+    }, 
+    "234": {
+        "alt": [
+            "N\u00e5r denne Action-genstand bruges, giver den en tilf\u00e6ldig gave\r\ntil op til 23 andre personer p\u00e5 serveren!"
+        ], 
+        "type": "Gave", 
+        "description": "Gavestak"
+    }, 
+    "237": {
+        "positive": [
+            "Ingen selvforskyldt spr\u00e6ngskade taget.", 
+            "+200% maks. prim\u00e6r ammunition for b\u00e6reren"
+        ], 
+        "alt": [
+            "Raketkaster med blindmissiler\r\ntil \u00f8vning i raketkunster."
+        ], 
+        "type": "Raketstyr", 
+        "negative": [
+            "-100% for\u00e5rsaget skade"
+        ], 
+        "description": "Rakethopperen"
+    }, 
+    "230": {
+        "positive": [
+            "Ved slag: Jarate anvendes p\u00e5\r\nm\u00e5let i 8 sekunder"
+        ], 
+        "type": "Snigskytteriffel", 
+        "negative": [
+            "Ingen hovedskud"
+        ], 
+        "description": "Sydney-soveren"
+    }, 
+    "231": {
+        "positive": [
+            "+25 maks. helbred for b\u00e6rer"
+        ], 
+        "type": "Skjold", 
+        "description": "Darwins fareskjold"
+    }, 
+    "232": {
+        "positive": [
+            "Dette v\u00e5ben critter, n\u00e5r det normalt ville mini-critte."
+        ], 
+        "type": "Kukri", 
+        "negative": [
+            "20% s\u00e5rbarhed over for flammekaster for b\u00e6reren"
+        ], 
+        "description": "Bushwackaen"
+    }, 
+    "233": {
+        "alt": [
+            "N\u00e5r denne Action-genstand bruges, giver den en tilf\u00e6ldig gave\r\ntil en tilf\u00e6ldig person p\u00e5 serveren!"
+        ], 
+        "type": "Gave", 
+        "description": "Hemmelig Julemand"
+    }, 
     "48": {
+        "alt": [
+            "Til teknikere med gode ideer."
+        ], 
         "type": "Hat", 
         "description": "Pandelampe"
     }, 
     "49": {
+        "alt": [
+            "TF_Heavy_Hat_1_Desc"
+        ], 
         "type": "Hat", 
         "description": "Football-hjelm"
     }, 
@@ -816,6 +1500,9 @@
         "description": "Bonk! atomdrikken"
     }, 
     "47": {
+        "alt": [
+            "TF_Demo_Hat_1_Desc"
+        ], 
         "type": "Hat", 
         "description": "Demoman-frisure"
     }, 
@@ -882,6 +1569,13 @@
         "type": "Flaske", 
         "description": "Flaske"
     }, 
+    "260": {
+        "alt": [
+            "Vindes af de f\u00e5 kyndige, der ved, hvordan man redigerer en webside."
+        ], 
+        "type": "Hat", 
+        "description": "Wiki-kasket"
+    }, 
     "5": {
         "type": "N\u00e6ver", 
         "description": "N\u00e6ver"
@@ -890,21 +1584,21 @@
         "type": "Haglgev\u00e6r", 
         "description": "Haglgev\u00e6r"
     }, 
-    "146": {
-        "type": "Hat", 
-        "description": "Hustlers Adelsm\u00e6rke"
+    "201": {
+        "type": "Snigskytteriffel", 
+        "description": "Snigskytteriffel"
     }, 
-    "147": {
-        "type": "Hat", 
-        "description": "Magistratens Paryk"
+    "200": {
+        "type": "Scattergev\u00e6r", 
+        "description": "Scattergev\u00e6r"
     }, 
-    "144": {
-        "type": "Hat", 
-        "description": "L\u00e6gens operationsmaske"
+    "203": {
+        "type": "Maskinpistol", 
+        "description": "Maskinpistol"
     }, 
-    "145": {
-        "type": "Hat", 
-        "description": "Elviskr\u00f8lle"
+    "202": {
+        "type": "Minikanon", 
+        "description": "Minikanon"
     }, 
     "142": {
         "positive": [
@@ -917,37 +1611,123 @@
         ], 
         "description": "Gunslingeren"
     }, 
-    "143": {
-        "alt": [
-            "OSX-symbol!"
-        ], 
-        "type": "Hat", 
-        "description": "H\u00f8retelefoner"
+    "204": {
+        "type": "Spr\u00f8jtepistol", 
+        "description": "Spr\u00f8jtepistol"
     }, 
-    "140": {
-        "alt": [
-            "F\u00e5 manuel kontrol over dit Robotgev\u00e6r"
-        ], 
-        "type": "Laserpointer", 
-        "description": "Wrangleren"
+    "207": {
+        "type": "Kl\u00e6bebombekaster", 
+        "description": "Kl\u00e6bebombekaster"
     }, 
-    "141": {
-        "positive": [
-            "N\u00e5r dit robotgev\u00e6r bliver \u00f8delagt f\u00e5r\r\ndu h\u00e6vn-kritiske skud for hvert robotgev\u00e6r-drab"
-        ], 
-        "type": "Haglgev\u00e6r", 
-        "negative": [
-            "Ingen tilf\u00e6ldig kritisk skade", 
-            "-50% magasinst\u00f8rrelse"
-        ], 
-        "description": "Frontier Justice"
+    "206": {
+        "type": "Granatkaster", 
+        "description": "Granatkaster"
+    }, 
+    "209": {
+        "type": "Pistol", 
+        "description": "Pistol"
+    }, 
+    "208": {
+        "type": "Flammekaster", 
+        "description": "Flammekaster"
     }, 
     "148": {
+        "alt": [
+            "G\u00f8r solen skamfuld med str\u00e5ler af ild, mens UV-str\u00e5lerne preller uskyldigt af p\u00e5 dine \u00f8jne."
+        ], 
         "type": "Hat", 
         "description": "Hotrod"
+    }, 
+    "96": {
+        "alt": [
+            "Denne hat er lavet af bj\u00f8rnen\u00e6ver.\r\nBj\u00f8rnen blev dr\u00e6bt med de bare n\u00e6ver."
+        ], 
+        "type": "Hat", 
+        "description": "Officers pelshue"
+    }, 
+    "5040": {
+        "alt": [
+            "Bruges til at male andre genstande.", 
+            "Jeg lavede dette!"
+        ], 
+        "type": "V\u00e6rkt\u00f8j", 
+        "description": "A Distinctive Lack of Hue"
     }, 
     "2": {
         "type": "\u00d8kse", 
         "description": "\u00d8kse"
+    }, 
+    "263": {
+        "alt": [
+            "TF_EllisHat_Desc", 
+            "Kan ikke handles"
+        ], 
+        "type": "Hat", 
+        "description": "Ellis' Cap"
+    }, 
+    "144": {
+        "alt": [
+            "Skrub l\u00f8s... nu begynder det at blive rodet."
+        ], 
+        "type": "Hat", 
+        "description": "L\u00e6gens operationsmaske"
+    }, 
+    "262": {
+        "alt": [
+            "Awarded to participants of the Polycount contest.", 
+            "Kan ikke handles"
+        ], 
+        "type": "Badge", 
+        "description": "Polycount Pin"
+    }, 
+    "261": {
+        "alt": [
+            "TF_MannCoCap_Desc", 
+            "Kan ikke handles"
+        ], 
+        "type": "Hat", 
+        "description": "Mann Co. Cap"
+    }, 
+    "2002": {
+        "alt": [
+            "Indeholder alle Polycount Soldier-genstandene:"
+        ], 
+        "type": "Bundt af genstande", 
+        "description": "Kampvogns-\u00f8del\u00e6ggeren"
+    }, 
+    "2003": {
+        "alt": [
+            "Indeholder alle Polycount Sniper-genstandene:"
+        ], 
+        "type": "Bundt af genstande", 
+        "description": "Croc-o-Style-s\u00e6ttet"
+    }, 
+    "2000": {
+        "alt": [
+            "Indeholder alle Polycount Pyro-genstandene:"
+        ], 
+        "type": "Bundt af genstande", 
+        "description": "Benzinjockeyens udstyr"
+    }, 
+    "2001": {
+        "alt": [
+            "Indeholder alle Polycount Spy-genstandene:"
+        ], 
+        "type": "Bundt af genstande", 
+        "description": "Spionen fra Sahara"
+    }, 
+    "2004": {
+        "alt": [
+            "Indeholder alle Polycount Scout-genstandene:"
+        ], 
+        "type": "Bundt af genstande", 
+        "description": "Den s\u00e6rlige levering"
+    }, 
+    "2005": {
+        "alt": [
+            "Indeholder alle vinderbidrag i Polycount Contest:"
+        ], 
+        "type": "Bundt af genstande", 
+        "description": "Polycount-pakke"
     }
 }
