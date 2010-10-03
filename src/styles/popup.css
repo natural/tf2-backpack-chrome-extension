@@ -41,12 +41,13 @@ border-top:0.25em solid #84756b;
 span.equipped {
 background-color:black;
 border-radius:0.5em;
-bottom:1.2em;
+bottom:1.3em;
 color:#c8503c;
 font-family:"TF2secondary";
-left:0.25em;
+left:0.7em;
 padding:0.25em 0.4em 0.25em 0.4em;
 position:relative;
+font-size:0.85em;
 }
 
 

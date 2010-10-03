@@ -519,16 +519,16 @@ var toolTip = {
 	var minleft = cell.parent().position().left;
 	var cellw = cell.width();
 	var toolw = tooltip.width();
-	var left = pos.left - (toolw/2.0) + (cellw/2.0) - 4; // 4 == half border?
-	    left = left < minleft ? minleft : left;
+	var left = pos.left - (toolw/2.0) + (cellw/2.0); // - 4; // 4 == half border?
+	left = left < minleft ? minleft : left;
 	var maxright = cell.parent().position().left + cell.parent().width();
 	if (left + toolw > maxright) {
-    	    left = cell.position().left + cellw - toolw - 12;
+    	    left = cell.position().left + cellw - toolw + 4; // - 12;
 	}
 	left = left < 0 ? (window.innerWidth/2)-toolw/2 : left;
 	var top = pos.top + cell.height() + 12;
 	if (top + tooltip.height() > (window.innerHeight+window.scrollY)) {
-    	    top = pos.top - tooltip.height() - 36;
+    	    top = pos.top - tooltip.height() - 8; // - 36;
 	}
 	tooltip.css({left:left, top:top});
 	tooltip.show();
