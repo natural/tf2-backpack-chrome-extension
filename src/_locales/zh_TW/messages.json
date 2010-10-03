@@ -39,6 +39,11 @@
         "message-retranslated": "8", 
         "description": "the number 8"
     }, 
+    "community": {
+        "message": "\u793e\u5340", 
+        "message-retranslated": "Community", 
+        "description": "community"
+    }, 
     "second": {
         "message": "\u7b2c\u4e8c", 
         "message-retranslated": "Second", 
@@ -97,6 +102,11 @@
         "message": "\u67e5\u770b\u7403\u54e1\u7d71\u8a08", 
         "message-retranslated": "View player statistics", 
         "description": ""
+    }, 
+    "its_msg_37": {
+        "message": "\u986f\u793a\u5eab\u5b58\u7522\u54c1", 
+        "message-retranslated": "Show inventory", 
+        "description": "show stock items"
     }, 
     "its_msg_16": {
         "message": "\u672a\u77e5\u9805\u76ee", 
@@ -168,10 +178,10 @@
         "message-retranslated": "5", 
         "description": "the number 5"
     }, 
-    "bad_feed": {
-        "message": "\u4e0d\u826f\u6578\u64da\u6e90", 
-        "message-retranslated": "Bad Data Source", 
-        "description": "bad data feed label"
+    "seconds": {
+        "message": "\u79d2", 
+        "message-retranslated": "Second", 
+        "description": "seconds"
     }, 
     "extension_desc": {
         "message": "\u5feb\u901f\u8a2a\u554f\u4f60\u7684\u9805\u76ee\u5718\u968a\u8981\u585e2\u80cc\u5305", 
@@ -233,10 +243,10 @@
         "message-retranslated": "(Eg pnatural or 76561197992805111)", 
         "description": "no steam id example"
     }, 
-    "seconds": {
-        "message": "\u79d2", 
-        "message-retranslated": "Second", 
-        "description": "seconds"
+    "bad_feed": {
+        "message": "\u4e0d\u826f\u6578\u64da\u6e90", 
+        "message-retranslated": "Bad Data Source", 
+        "description": "bad data feed label"
     }, 
     "feed_url_error": {
         "message": "\u6c92\u6709\u8cc7\u6599\u7684\u7db2\u5740", 

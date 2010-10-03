@@ -39,6 +39,11 @@
         "message-retranslated": "8", 
         "description": "the number 8"
     }, 
+    "community": {
+        "message": "Comunidade", 
+        "message-retranslated": "Community", 
+        "description": "community"
+    }, 
     "second": {
         "message": "segunda", 
         "message-retranslated": "second", 
@@ -97,6 +102,11 @@
         "message": "Player Stats View", 
         "message-retranslated": "View Player Stats", 
         "description": ""
+    }, 
+    "its_msg_37": {
+        "message": "Estoque Show", 
+        "message-retranslated": "Stock Show", 
+        "description": "show stock items"
     }, 
     "its_msg_16": {
         "message": "Item Desconhecido", 
@@ -168,10 +178,10 @@
         "message-retranslated": "5", 
         "description": "the number 5"
     }, 
-    "bad_feed": {
-        "message": "Bad Data Feed", 
-        "message-retranslated": "Bad Data Feed", 
-        "description": "bad data feed label"
+    "seconds": {
+        "message": "segundo", 
+        "message-retranslated": "second", 
+        "description": "seconds"
     }, 
     "extension_desc": {
         "message": "Acesso r\u00e1pido aos items em seu Backpack do Team Fortress 2", 
@@ -233,10 +243,10 @@
         "message-retranslated": "(eg pnatural or 76561197992805111)", 
         "description": "no steam id example"
     }, 
-    "seconds": {
-        "message": "segundo", 
-        "message-retranslated": "second", 
-        "description": "seconds"
+    "bad_feed": {
+        "message": "Bad Data Feed", 
+        "message-retranslated": "Bad Data Feed", 
+        "description": "bad data feed label"
     }, 
     "feed_url_error": {
         "message": "Sem Feed URL", 

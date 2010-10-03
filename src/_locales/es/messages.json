@@ -39,6 +39,11 @@
         "message-retranslated": "8", 
         "description": "the number 8"
     }, 
+    "community": {
+        "message": "Comunidad", 
+        "message-retranslated": "Community", 
+        "description": "community"
+    }, 
     "second": {
         "message": "segundo", 
         "message-retranslated": "second", 
@@ -97,6 +102,11 @@
         "message": "Ver Estad\u00edsticas del jugador", 
         "message-retranslated": "View Player Stats", 
         "description": ""
+    }, 
+    "its_msg_37": {
+        "message": "Mostrar elementos de archivo", 
+        "message-retranslated": "Stock Show items", 
+        "description": "show stock items"
     }, 
     "its_msg_16": {
         "message": "Art\u00edculos Desconocida", 
@@ -168,10 +178,10 @@
         "message-retranslated": "5", 
         "description": "the number 5"
     }, 
-    "bad_feed": {
-        "message": "Flujo de datos inadecuado", 
-        "message-retranslated": "Bad Data Flow", 
-        "description": "bad data feed label"
+    "seconds": {
+        "message": "segundo", 
+        "message-retranslated": "second", 
+        "description": "seconds"
     }, 
     "extension_desc": {
         "message": "Acceso r\u00e1pido a los art\u00edculos en su mochila de Team Fortress 2", 
@@ -233,10 +243,10 @@
         "message-retranslated": "(For example, or pnatural 76561197992805111)", 
         "description": "no steam id example"
     }, 
-    "seconds": {
-        "message": "segundo", 
-        "message-retranslated": "second", 
-        "description": "seconds"
+    "bad_feed": {
+        "message": "Flujo de datos inadecuado", 
+        "message-retranslated": "Bad Data Flow", 
+        "description": "bad data feed label"
     }, 
     "feed_url_error": {
         "message": "N URL del feed", 

@@ -39,6 +39,11 @@
         "message-retranslated": "8", 
         "description": "the number 8"
     }, 
+    "community": {
+        "message": "Communaut\u00e9", 
+        "message-retranslated": "Community", 
+        "description": "community"
+    }, 
     "second": {
         "message": "deuxi\u00e8me", 
         "message-retranslated": "second", 
@@ -97,6 +102,11 @@
         "message": "Stats Player", 
         "message-retranslated": "Player Stats", 
         "description": ""
+    }, 
+    "its_msg_37": {
+        "message": "Articles Stock Show", 
+        "message-retranslated": "Headlines Stock Show", 
+        "description": "show stock items"
     }, 
     "its_msg_16": {
         "message": "Articles Inconnue", 
@@ -168,10 +178,10 @@
         "message-retranslated": "5", 
         "description": "the number 5"
     }, 
-    "bad_feed": {
-        "message": "Bad Data Feed", 
-        "message-retranslated": "Bad Data Feed", 
-        "description": "bad data feed label"
+    "seconds": {
+        "message": "seconde", 
+        "message-retranslated": "second", 
+        "description": "seconds"
     }, 
     "extension_desc": {
         "message": "Acc\u00e8s rapide aux articles dans votre sac \u00e0 dos Team Fortress 2", 
@@ -233,10 +243,10 @@
         "message-retranslated": "(For example, or pnatural 76561197992805111)", 
         "description": "no steam id example"
     }, 
-    "seconds": {
-        "message": "seconde", 
-        "message-retranslated": "second", 
-        "description": "seconds"
+    "bad_feed": {
+        "message": "Bad Data Feed", 
+        "message-retranslated": "Bad Data Feed", 
+        "description": "bad data feed label"
     }, 
     "feed_url_error": {
         "message": "Aucune URL RSS", 

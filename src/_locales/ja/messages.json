@@ -39,6 +39,11 @@
         "message-retranslated": "08", 
         "description": "the number 8"
     }, 
+    "community": {
+        "message": "\u30b3\u30df\u30e5\u30cb\u30c6\u30a3", 
+        "message-retranslated": "Community", 
+        "description": "community"
+    }, 
     "second": {
         "message": "2\u756a\u76ee\u306e", 
         "message-retranslated": "Second", 
@@ -97,6 +102,11 @@
         "message": "\u30d7\u30ed\u30d5\u30a3\u30fc\u30ebPlayer\u306e\u7d71\u8a08", 
         "message-retranslated": "Player Profiles Statistics", 
         "description": ""
+    }, 
+    "its_msg_37": {
+        "message": "\u5730\u56f3\u30b9\u30c8\u30c3\u30af\u30a2\u30a4\u30c6\u30e0", 
+        "message-retranslated": "Map of Stock Items", 
+        "description": "show stock items"
     }, 
     "its_msg_16": {
         "message": "\u4e0d\u660e\u30a2\u30a4\u30c6\u30e0", 
@@ -168,10 +178,10 @@
         "message-retranslated": "5", 
         "description": "the number 5"
     }, 
-    "bad_feed": {
-        "message": "\u7121\u52b9\u306a\u30c7\u30fc\u30bf\u30d5\u30a3\u30fc\u30c9", 
-        "message-retranslated": "Invalid data feeds", 
-        "description": "bad data feed label"
+    "seconds": {
+        "message": "\u79d2", 
+        "message-retranslated": "Second", 
+        "description": "seconds"
     }, 
     "extension_desc": {
         "message": "\u3042\u306a\u305f\u306e\u30c1\u30fc\u30e0\u306e\u8981\u585e2\u30d1\u30c3\u30af\u5185\u306e\u9805\u76ee\u3078\u306e\u30af\u30a4\u30c3\u30af\u30a2\u30af\u30bb\u30b9", 
@@ -233,10 +243,10 @@
         "message-retranslated": "(Example: pnatural 76561197992805111 or)", 
         "description": "no steam id example"
     }, 
-    "seconds": {
-        "message": "\u79d2", 
-        "message-retranslated": "Second", 
-        "description": "seconds"
+    "bad_feed": {
+        "message": "\u7121\u52b9\u306a\u30c7\u30fc\u30bf\u30d5\u30a3\u30fc\u30c9", 
+        "message-retranslated": "Invalid data feeds", 
+        "description": "bad data feed label"
     }, 
     "feed_url_error": {
         "message": "\u3044\u3044\u3048\u30d5\u30a3\u30fc\u30c9\u306eURL", 

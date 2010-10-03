@@ -39,6 +39,11 @@
         "message-retranslated": "8", 
         "description": "the number 8"
     }, 
+    "community": {
+        "message": "Comunitate", 
+        "message-retranslated": "Community", 
+        "description": "community"
+    }, 
     "second": {
         "message": "al doilea", 
         "message-retranslated": "second", 
@@ -97,6 +102,11 @@
         "message": "Vezi Player Statistici", 
         "message-retranslated": "View Player Stats", 
         "description": ""
+    }, 
+    "its_msg_37": {
+        "message": "Arat\u0103 stoc Produse", 
+        "message-retranslated": "Show stock items", 
+        "description": "show stock items"
     }, 
     "its_msg_16": {
         "message": "Elemente Necunoscut", 
@@ -168,10 +178,10 @@
         "message-retranslated": "5", 
         "description": "the number 5"
     }, 
-    "bad_feed": {
-        "message": "Bad date Feed", 
-        "message-retranslated": "Bad Data Feed", 
-        "description": "bad data feed label"
+    "seconds": {
+        "message": "secunde", 
+        "message-retranslated": "seconds", 
+        "description": "seconds"
     }, 
     "extension_desc": {
         "message": "Acces rapid la elementele \u00een Team Fortress 2 rucsac", 
@@ -233,10 +243,10 @@
         "message-retranslated": "(For example, or pnatural 76561197992805111)", 
         "description": "no steam id example"
     }, 
-    "seconds": {
-        "message": "secunde", 
-        "message-retranslated": "seconds", 
-        "description": "seconds"
+    "bad_feed": {
+        "message": "Bad date Feed", 
+        "message-retranslated": "Bad Data Feed", 
+        "description": "bad data feed label"
     }, 
     "feed_url_error": {
         "message": "Nr Feed URL-ul", 

@@ -3,6 +3,10 @@
     "description": "bad data feed label",
     "message": "Bad Data Feed"
   },
+  "community": {
+    "description": "community",
+    "message": "Community"
+  },
   "equipped": {
     "description": "equipped label",
     "message": "Equipped"
@@ -154,6 +158,10 @@
   "its_msg_36": {
     "description": "",
     "message": "View Player Stats"
+  },
+  "its_msg_37": {
+    "description": "show stock items",
+    "message": "Show Stock Items"
   },
   "its_msg_4": {
     "description": "save button",

@@ -287,11 +287,6 @@ content:"Valve ";
 color:#00aa00;
 }
 
-#tooltip h4.community:before {
-content:"Community ";
-}
-
-
 #tooltip .level, #tooltip .alt, #tooltip .positive, #tooltip .negative {
 font-family:"TF2secondary";
 font-size:11pt;
@@ -305,11 +300,6 @@ color:#756b5e;
 #tooltip .vintage {
 color:#476291;
 }
-
-#tooltip h4.vintage:before {
-content:"Vintage ";
-}
-
 
 #tooltip .alt {
 color:#e4dbc4;
@@ -418,4 +408,26 @@ display:none;
 
 :lang(pt) {
 display:none;
+}
+
+
+div.backpack-header {
+padding-bottom:0.125em;
+padding-top:0.125em;
+}
+
+div.backpack-header h1 {
+display:inline
+}
+
+
+span.showstock {
+color:#ebe2ca;
+font-size:110%;
+padding-left:5em;
+}
+
+#showstock {
+vertical-align:middle;
+cursor:pointer;
 }

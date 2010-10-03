@@ -39,6 +39,11 @@
         "message-retranslated": "8", 
         "description": "the number 8"
     }, 
+    "community": {
+        "message": "\ucee4\ubba4\ub2c8\ud2f0", 
+        "message-retranslated": "Community", 
+        "description": "community"
+    }, 
     "second": {
         "message": "\ucd08", 
         "message-retranslated": "Second", 
@@ -97,6 +102,11 @@
         "message": "\ubcf4\uae30 \ud50c\ub808\uc774\uc5b4 \ud1b5\uacc4", 
         "message-retranslated": "View Player Stats", 
         "description": ""
+    }, 
+    "its_msg_37": {
+        "message": "\ud45c\uc2dc \uc99d\uad8c \uc0c1\ud488", 
+        "message-retranslated": "Securities products", 
+        "description": "show stock items"
     }, 
     "its_msg_16": {
         "message": "\uc54c \uc218\uc5c6\ub294 \ud56d\ubaa9", 
@@ -168,10 +178,10 @@
         "message-retranslated": "5", 
         "description": "the number 5"
     }, 
-    "bad_feed": {
-        "message": "\ubd88\ub7c9 \ub370\uc774\ud130 \ud53c\ub4dc", 
-        "message-retranslated": "Bad data feeds", 
-        "description": "bad data feed label"
+    "seconds": {
+        "message": "\ucd08", 
+        "message-retranslated": "Second", 
+        "description": "seconds"
     }, 
     "extension_desc": {
         "message": "\uadc0\ud558\uc758 \ud300 \uc694\uc0c8 2 \uac00\ubc29\uc5d0 \ud56d\ubaa9\uc5d0 \ube60\ub978 \uc561\uc138\uc2a4", 
@@ -233,10 +243,10 @@
         "message-retranslated": "(For example, pnatural or 76561197992805111)", 
         "description": "no steam id example"
     }, 
-    "seconds": {
-        "message": "\ucd08", 
-        "message-retranslated": "Second", 
-        "description": "seconds"
+    "bad_feed": {
+        "message": "\ubd88\ub7c9 \ub370\uc774\ud130 \ud53c\ub4dc", 
+        "message-retranslated": "Bad data feeds", 
+        "description": "bad data feed label"
     }, 
     "feed_url_error": {
         "message": "\uc5c6\uc74c \ud53c\ub4dc URL", 

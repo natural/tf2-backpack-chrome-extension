@@ -5,168 +5,139 @@
       <level>1</level>
       <position>1</position>
       <quantity>1</quantity>
-      <attributes/>
+      <attributes />
     </item>
     <item definitionIndex="1">
       <level>1</level>
       <position>2</position>
       <quantity>1</quantity>
-      <attributes/>
+      <attributes />
     </item>
     <item definitionIndex="2">
       <level>1</level>
       <position>3</position>
       <quantity>1</quantity>
-      <attributes/>
+      <attributes />
     </item>
     <item definitionIndex="3">
       <level>1</level>
       <position>4</position>
       <quantity>1</quantity>
-      <attributes/>
+      <attributes />
     </item>
     <item definitionIndex="4">
       <level>1</level>
       <position>5</position>
       <quantity>1</quantity>
-      <attributes/>
+      <attributes />
     </item>
     <item definitionIndex="5">
       <level>1</level>
       <position>6</position>
       <quantity>1</quantity>
-      <attributes/>
+      <attributes />
     </item>
     <item definitionIndex="6">
       <level>1</level>
       <position>7</position>
       <quantity>1</quantity>
-      <attributes/>
+      <attributes />
     </item>
     <item definitionIndex="7">
       <level>1</level>
       <position>8</position>
       <quantity>1</quantity>
-      <attributes/>
+      <attributes />
     </item>
     <item definitionIndex="8">
       <level>1</level>
       <position>9</position>
       <quantity>1</quantity>
-      <attributes/>
+      <attributes />
     </item>
     <item definitionIndex="9">
       <level>1</level>
       <position>10</position>
       <quantity>1</quantity>
-      <attributes/>
+      <attributes />
     </item>
     <item definitionIndex="13">
       <level>1</level>
       <position>11</position>
       <quantity>1</quantity>
-      <attributes/>
+      <attributes />
     </item>
     <item definitionIndex="14">
       <level>1</level>
       <position>12</position>
       <quantity>1</quantity>
-      <attributes/>
+      <attributes />
     </item>
     <item definitionIndex="15">
       <level>1</level>
       <position>13</position>
       <quantity>1</quantity>
-      <attributes/>
+      <attributes />
     </item>
     <item definitionIndex="16">
       <level>1</level>
       <position>14</position>
       <quantity>1</quantity>
-      <attributes/>
+      <attributes />
     </item>
     <item definitionIndex="17">
       <level>1</level>
       <position>15</position>
       <quantity>1</quantity>
-      <attributes/>
+      <attributes />
     </item>
     <item definitionIndex="18">
       <level>1</level>
       <position>16</position>
       <quantity>1</quantity>
-      <attributes/>
+      <attributes />
     </item>
     <item definitionIndex="19">
       <level>1</level>
       <position>17</position>
       <quantity>1</quantity>
-      <attributes/>
+      <attributes />
     </item>
     <item definitionIndex="20">
       <level>1</level>
       <position>18</position>
       <quantity>1</quantity>
-      <attributes/>
+      <attributes />
     </item>
     <item definitionIndex="21">
       <level>1</level>
       <position>19</position>
       <quantity>1</quantity>
-      <attributes/>
+      <attributes />
     </item>
     <item definitionIndex="22">
       <level>1</level>
       <position>20</position>
       <quantity>1</quantity>
-      <attributes/>
+      <attributes />
     </item>
     <item definitionIndex="24">
       <level>1</level>
       <position>21</position>
       <quantity>1</quantity>
-      <attributes/>
+      <attributes />
     </item>
     <item definitionIndex="29">
       <level>1</level>
       <position>22</position>
       <quantity>1</quantity>
-      <attributes/>
+      <attributes />
     </item>
     <item definitionIndex="30">
       <level>1</level>
       <position>23</position>
       <quantity>1</quantity>
-      <attributes/>
+      <attributes />
     </item>
-
-
 </items>
-
-<!-- foooooooooooooooo
-
-0:	"TF_Weapon_Bat"			"Bat"
-1:	"TF_Weapon_Bottle"		"Bottle"
-2:	"TF_Weapon_FireAxe"		"Fire Axe"
-3:	"TF_Weapon_Club"		"Kukri"
-4:	"TF_Weapon_Knife"		"Knife"
-5:	"TF_Weapon_Fists"		"Fists"
-6:	"TF_Weapon_Shovel"		"Shovel"
-7:	"TF_Weapon_Wrench"		"Wrench"
-8:	"TF_Weapon_Bonesaw"		"Bonesaw"
-9:	"TF_Weapon_Shotgun"		"Shotgun"
-13:	"TF_Weapon_Scattergun"		"Scattergun"
-14:	"TF_Weapon_SniperRifle"		"Sniper Rifle"
-15:	"TF_Weapon_Minigun"		"Minigun"
-16:	"TF_Weapon_SMG"			"SMG"
-17:	"TF_Weapon_SyringeGun"		"Syringe Gun"
-18:	"TF_Weapon_RocketLauncher"	"Rocket Launcher"
-19:	"TF_Weapon_GrenadeLauncher"	"Grenade Launcher"
-20:	"TF_Weapon_StickybombLauncher"	"Stickybomb Launcher" (or pipebomb)
-21:	"TF_Weapon_FlameThrower"	"Flame Thrower"
-22:	"TF_Weapon_Pistol"		"Pistol"
-24:	"TF_Weapon_Revolver"		"Revolver"
-29:	"TF_Weapon_Medigun"		"Medi Gun"
-30:	"TF_Weapon_Watch"		"Invis Watch"
--->
 </backpack>

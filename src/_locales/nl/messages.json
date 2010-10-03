@@ -39,6 +39,11 @@
         "message-retranslated": "8", 
         "description": "the number 8"
     }, 
+    "community": {
+        "message": "Gemeenschap", 
+        "message-retranslated": "Community", 
+        "description": "community"
+    }, 
     "second": {
         "message": "tweede", 
         "message-retranslated": "second", 
@@ -97,6 +102,11 @@
         "message": "Bekijk Player Stats", 
         "message-retranslated": "View Player Stats", 
         "description": ""
+    }, 
+    "its_msg_37": {
+        "message": "Toon voorraad items", 
+        "message-retranslated": "Show stock items", 
+        "description": "show stock items"
     }, 
     "its_msg_16": {
         "message": "Onbekend Items", 
@@ -168,10 +178,10 @@
         "message-retranslated": "5", 
         "description": "the number 5"
     }, 
-    "bad_feed": {
-        "message": "Bad Data Feed", 
-        "message-retranslated": "Bad Data Feed", 
-        "description": "bad data feed label"
+    "seconds": {
+        "message": "seconden", 
+        "message-retranslated": "seconds", 
+        "description": "seconds"
     }, 
     "extension_desc": {
         "message": "Snelle toegang tot items in uw rugzak Team Fortress 2", 
@@ -233,10 +243,10 @@
         "message-retranslated": "(Eg pnatural or 76561197992805111)", 
         "description": "no steam id example"
     }, 
-    "seconds": {
-        "message": "seconden", 
-        "message-retranslated": "seconds", 
-        "description": "seconds"
+    "bad_feed": {
+        "message": "Bad Data Feed", 
+        "message-retranslated": "Bad Data Feed", 
+        "description": "bad data feed label"
     }, 
     "feed_url_error": {
         "message": "Geen feed url", 

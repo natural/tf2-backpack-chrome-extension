@@ -1,8 +1,10 @@
-var itemContentSelector = "#unplaced table.unplaced td img, #backpack table.backpack td img, span.equipped";
+var unplacedItemSelector = "#unplaced table.unplaced td img";
+var placedItemSelector = "#backpack table.backpack td img";
+var equippedItemSelector = "span.equipped";
+var itemContentSelector = [unplacedItemSelector, placedItemSelector, equippedItemSelector].join(", ");
 
 var fastForward = function() {
     var last = storage.lastPage();
-    console.log('fastForward:' + last);
     if (last > 1) {
 	$("#backpackPage-1").hide();
 	pages.navTo(last);
@@ -48,12 +50,6 @@ var backpack = {
     loadAndShow: function () {
 	var xml = storage.cachedFeed();
 	var self = this;
-	// this block doesn't work like it should.
-	if (0) { // (!($("steamID", xml).text())) {
-	    console.warn("bad feed");
-	    pageOps.showMessage("error", _("bad_feed"));
-	    return;
-	}
 	if (xml) {
 	    $(itemContentSelector).fadeOut().remove();
 	    self.feed = (new DOMParser()).parseFromString(xml, "text/xml");
@@ -63,6 +59,25 @@ var backpack = {
 	    console.warning("empty xml");
 	}
     },
+
+    showStock: function() {
+	var showStock = function(req, status) {
+	    var xml = req.responseXML;
+	    $(itemContentSelector).fadeOut().remove();
+	    pageOps.putItems(xml);
+	}
+	$.ajax({url:"media/stock_items.xml", complete:showStock});
+    },
+
+    hideStock: function() {
+	var xml = this.feed;
+	if (xml) {
+	    $(itemContentSelector).fadeOut().remove();
+	    pageOps.putItems(xml);
+	} else {
+	    console.warning("empty xml");
+	}
+    }
 };
 
 
@@ -224,6 +239,16 @@ var pageOps = {
 	    $("#toolbar, #stats").css("width", -6 + $("#backpack tr:first").width());
 	}
 	$("table.backpack td").click(this.itemClicked);
+	$("#showstock").click(function() {
+	    if ($(this).attr("src").indexOf("unchecked") > -1) {
+		$(this).attr("src", "media/checkbox-checked.png");
+		backpack.showStock();
+	    } else {
+		$(this).attr("src", "media/checkbox-unchecked.png");
+		backpack.hideStock();
+	    }
+	})
+
 	window.setInterval(this.updateRefreshTime, 1000);
     },
 
@@ -423,7 +448,6 @@ var toolTip = {
 	}
 	try {
 	    var node = $($("img", cell).data("node"));
-	    GNODE = node;
 	    var type = node.attr("definitionIndex");
 	    var item = backpack.defs[type];
 	    var levelType = item.type;
@@ -447,6 +471,10 @@ var toolTip = {
 	    }
 	    attrMap[index] = $(value).text();
 	});
+	if (type=="128") {
+	    GNODE = node;
+	    GATTRMAP = attrMap;
+	}
 	if (item["alt"]) {
 	    item["alt"].concat(extras);
 	} else if (extras) {
@@ -454,16 +482,15 @@ var toolTip = {
 	}
 
 	$("#tooltip h4").removeClass("vintage").removeClass("valve").removeClass("community");
-	// TODO:  add translated vintage + community prefixes
 	if (attrMap["134"] == "2") {
 	    $("#tooltip h4").text($("#tooltip h4").text().replace("The ", ""));
 	    $("#tooltip h4").addClass("valve");
-	} else if (attrMap["134"] == "4") {
-	    $("#tooltip h4").text($("#tooltip h4").text().replace("The ", ""));
+	} else if ( typeof(attrMap["134"]) != "undefined") {
+	    $("#tooltip h4").text(_("community") + " " + $("#tooltip h4").text().replace("The ", ""));
 	    $("#tooltip h4").addClass("community");
 	}
         if ($("quality", node).text() == "3") {
-	    $("#tooltip h4").text($("#tooltip h4").text().replace("The ", ""));
+	    $("#tooltip h4").text(_("vintage") + " " + $("#tooltip h4").text().replace("The ", ""));
 	    $("#tooltip h4").addClass("vintage");
  	} /* else if ($("quality", node).text() == "6") {
 	    $("#tooltip h4").text("Q6 " + $("#tooltip h4").text());

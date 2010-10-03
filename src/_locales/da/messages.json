@@ -39,6 +39,11 @@
         "message-retranslated": "8", 
         "description": "the number 8"
     }, 
+    "community": {
+        "message": "Samfund", 
+        "message-retranslated": "Community", 
+        "description": "community"
+    }, 
     "second": {
         "message": "sekund", 
         "message-retranslated": "second", 
@@ -97,6 +102,11 @@
         "message": "Se Player Stats", 
         "message-retranslated": "View Player Stats", 
         "description": ""
+    }, 
+    "its_msg_37": {
+        "message": "Vis lagervarer", 
+        "message-retranslated": "View inventory", 
+        "description": "show stock items"
     }, 
     "its_msg_16": {
         "message": "Ukendt Artikler", 
@@ -168,10 +178,10 @@
         "message-retranslated": "5", 
         "description": "the number 5"
     }, 
-    "bad_feed": {
-        "message": "Bad Data Feed", 
-        "message-retranslated": "Bad Data Feed", 
-        "description": "bad data feed label"
+    "seconds": {
+        "message": "sekund", 
+        "message-retranslated": "second", 
+        "description": "seconds"
     }, 
     "extension_desc": {
         "message": "Hurtig adgang til varer i din Team Fortress 2 rygs\u00e6k", 
@@ -233,10 +243,10 @@
         "message-retranslated": "(For example pnatural or 76561197992805111)", 
         "description": "no steam id example"
     }, 
-    "seconds": {
-        "message": "sekund", 
-        "message-retranslated": "second", 
-        "description": "seconds"
+    "bad_feed": {
+        "message": "Bad Data Feed", 
+        "message-retranslated": "Bad Data Feed", 
+        "description": "bad data feed label"
     }, 
     "feed_url_error": {
         "message": "Ingen Feed URL", 
