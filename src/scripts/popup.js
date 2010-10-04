@@ -407,6 +407,14 @@ var pageOps = {
 	    img.css("margin-top", pageOps.nudgeMap[typ] || "-8px");
 	    img.after("<span style='display:none' class='equipped'>" + _("equipped") + "</span>");
 	}
+
+	// TODO:  need to determine how and when to indicate a quantity...
+	// TODO:  swap paint can images by color
+	var quan = $("quantity", node).text()
+	if (quan != "1") {
+		img.before("<span style='' class='quantity'>" + _(quan) + "</span>");
+	        img.css("margin-top", "-1em");
+	}
     },
 
     putItems: function(feed) {

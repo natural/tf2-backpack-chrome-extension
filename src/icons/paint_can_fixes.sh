@@ -1,0 +1,14 @@
+cp TF_Tool_PaintCan_1.png 5027.png
+cp TF_Tool_PaintCan_2.png 5028.png
+cp TF_Tool_PaintCan_3.png 5029.png
+cp TF_Tool_PaintCan_4.png 5030.png
+cp TF_Tool_PaintCan_5.png 5031.png
+cp TF_Tool_PaintCan_6.png 5032.png
+cp TF_Tool_PaintCan_7.png 5033.png
+cp TF_Tool_PaintCan_8.png 5034.png
+cp TF_Tool_PaintCan_9.png 5035.png
+cp TF_Tool_PaintCan_10.png 5036.png
+cp TF_Tool_PaintCan_11.png 5037.png
+cp TF_Tool_PaintCan_12.png 5038.png
+cp TF_Tool_PaintCan_13.png 5039.png
+cp TF_Tool_PaintCan_14.png 5040.png
