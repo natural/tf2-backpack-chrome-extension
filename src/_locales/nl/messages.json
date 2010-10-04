@@ -94,7 +94,7 @@
         "description": ""
     }, 
     "its_msg_35": {
-        "message": "Stuur Something Better", 
+        "message": "Stuur Iets Beter", 
         "message-retranslated": "Send Something Better", 
         "description": ""
     }, 
@@ -134,7 +134,7 @@
         "description": "stats button"
     }, 
     "other_error": {
-        "message": "Sommige andere fout", 
+        "message": "\u00c9en of andere fout is opgetreden", 
         "message-retranslated": "Some other error", 
         "description": "some other kind of error occurred."
     }, 
@@ -154,7 +154,7 @@
         "description": "vintage"
     }, 
     "extension_default_title": {
-        "message": "Bekijk je Team Fortress 2 Backpack", 
+        "message": "Bekijk je Team Fortress 2 Rugzak", 
         "message-retranslated": "View your Team Fortress 2 Backpack", 
         "description": "Extension default title for browser action"
     }, 
@@ -199,12 +199,12 @@
         "description": "backpack title"
     }, 
     "equipped": {
-        "message": "Ingericht", 
+        "message": "Uitgerust", 
         "message-retranslated": "Equipped", 
         "description": "equipped label"
     }, 
     "its_msg_4": {
-        "message": "Besparen", 
+        "message": "Opslaan", 
         "message-retranslated": "Save", 
         "description": "save button"
     }, 
@@ -214,7 +214,7 @@
         "description": "reset button"
     }, 
     "its_msg_6": {
-        "message": "Dicht", 
+        "message": "Sluiten", 
         "message-retranslated": "Close", 
         "description": "close button"
     }, 
@@ -229,17 +229,17 @@
         "description": "some kind of network error"
     }, 
     "its_msg_1": {
-        "message": "Profiel-ID niet instellen!", 
+        "message": "Profiel-ID is niet ingesteld!", 
         "message-retranslated": "Profile ID not set!", 
         "description": "no steam id title"
     }, 
     "its_msg_2": {
-        "message": "Om gebruik te maken van de Team Fortress 2 Backpack Toegang extensie voer uw community-naam of profiel id hier", 
+        "message": "Om gebruik te maken van de Team Fortress 2 Rugzak extensie voert u hier uw community-naam of profiel id in", 
         "message-retranslated": "To use the Team Fortress 2 Backpack Access extension enter your community name or profile ID here", 
         "description": "no steam id help"
     }, 
     "its_msg_3": {
-        "message": "(Bv. pnatural of 76561197992805111)", 
+        "message": "(Bijvoorbeeld: 'pnatural' of '76561197992805111')", 
         "message-retranslated": "(Eg pnatural or 76561197992805111)", 
         "description": "no steam id example"
     }, 
@@ -264,7 +264,7 @@
         "description": "view pnatural profile link"
     }, 
     "its_msg_27": {
-        "message": "Aangedreven door", 
+        "message": "Mede mogelijk gemaakt door", 
         "message-retranslated": "Powered by", 
         "description": "powered by"
     }, 
@@ -274,7 +274,7 @@
         "description": "view profile link"
     }, 
     "its_msg_25": {
-        "message": "Bekijk Backpack", 
+        "message": "Bekijk Rugzak", 
         "message-retranslated": "View Backpack", 
         "description": "view backpack link"
     }, 
@@ -284,7 +284,7 @@
         "description": "hide stats button"
     }, 
     "its_msg_23": {
-        "message": "Request Time", 
+        "message": "Ophaal tijd", 
         "message-retranslated": "Request Time", 
         "description": "duration of request"
     }, 
@@ -309,7 +309,7 @@
         "description": "time feed cached"
     }, 
     "refreshing": {
-        "message": "Verfrissend", 
+        "message": "Ververs", 
         "message-retranslated": "Refreshing", 
         "description": "refreshing text goes here"
     }, 
@@ -319,7 +319,7 @@
         "description": "level label"
     }, 
     "extension_name": {
-        "message": "Team Fortress 2 Backpack Access", 
+        "message": "Team Fortress 2 Rugzak Toegang", 
         "message-retranslated": "Team Fortress 2 Access Backpack", 
         "description": "Extension name"
     }, 
@@ -344,12 +344,12 @@
         "description": "error label"
     }, 
     "its_msg_13": {
-        "message": "Totaal aantal artikelen", 
+        "message": "Totaal aantal Items", 
         "message-retranslated": "Total Items", 
         "description": "total item count stats title"
     }, 
     "its_msg_0": {
-        "message": "Team Fortress 2 Backpack Access (Nieuwe en verbeterde)", 
+        "message": "Team Fortress 2 Rugzak Toegang (Nieuw en verbeterd)", 
         "message-retranslated": "Team Fortress 2 Access Backpack (New and improved)", 
         "description": "page title"
     }

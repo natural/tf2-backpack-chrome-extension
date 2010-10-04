@@ -411,6 +411,10 @@ display:none;
 display:none;
 }
 
+:lang(nl) {
+display:none;
+}
+
 
 div.backpack-header {
 padding-bottom:0.125em;
