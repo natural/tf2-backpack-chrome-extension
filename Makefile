@@ -40,9 +40,10 @@ dist: $(dist_style_files) $(dist_script_files) $(dist_item_files)
 	@cp src/scripts/jquery.min.js $(build_dir)/scripts
 	@cp src/*.html src/*.json $(build_dir)
 
-	@echo "[DIST] copying font files..."
+	@echo "[DIST] copying media files..."
 	@mkdir -p $(build_dir)/media
 	@cp src/media/*.ttf $(build_dir)/media
+	@cp src/media/*.xml $(build_dir)/media
 
 	@mkdir -p $(build_dir)/icons
 	@echo "[DIST] crushing images and icons..."
