@@ -54,7 +54,8 @@ var backpack = {
 	    $(itemContentSelector).fadeOut().remove();
 	    self.feed = (new DOMParser()).parseFromString(xml, "text/xml");
 	    pageOps.putItems(self.feed);
-	    pageOps.putCharInfo(self.feed);
+	    //pageOps.putCharInfo(self.feed);
+	    pageOps.loadAndShowProfile();
 	} else {
 	    console.warning("empty xml");
 	}
@@ -356,6 +357,26 @@ var pageOps = {
 		    pageOps.showMessage("warning", _("from_cache"));
 		};
 	    });
+    },
+
+    loadAndShowProfile: function() {
+	var feed = storage.profileFeed();
+	var load = function(data) {
+	    $('#steamID a').text(data['personaname'])
+	    var avatar = data['avatarfull']
+	    if (avatar) {
+		$('#avatar img').fadeOut().remove();
+		$('#avatar').append("<img src='" + avatar + "' />");
+	    }
+	}
+	if (feed) {
+	    load(feed);
+	} else {
+	    var error = function(v) {
+		console.log(v)
+	    }
+	    profile.load(storage.profileId(), load, error);
+	}
     },
 
     putCharInfo: function(feed) {

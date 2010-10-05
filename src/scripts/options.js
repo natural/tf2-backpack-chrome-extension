@@ -18,7 +18,8 @@ var save = function(cb) {
     if (newProfileId == storage.profileId()) { return; }
     profile.search(
 	newProfileId,
-	function(foundId) {
+	function(profiles) {
+	    var foundId = profiles[0]['id'];
 	    if (newProfileId != foundId) {
 		$("#msg").text(_({key: "profile_found", subs:[foundId, newProfileId]}))
 	        .fadeIn()
