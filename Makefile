@@ -47,6 +47,7 @@ dist: $(dist_style_files) $(dist_script_files) $(dist_item_files)
 	@mkdir -p $(build_dir)/icons
 	@echo "[DIST] crushing images and icons..."
 	@${crush} -d $(build_dir)/icons src/icons/*.png 2>&1>/dev/null
+	@rm $(build_dir)/icons/TF_*.png
 	@${crush} -d $(build_dir)/media src/media/*.png 2>&1>/dev/null
 
 	@echo "[DIST] creating distribution..."
