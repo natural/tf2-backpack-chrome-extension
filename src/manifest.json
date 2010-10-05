@@ -1,23 +1,23 @@
 {
-  "description": "__MSG_extension_desc__", 
+  "name": "__MSG_extension_name__", 
   "default_locale": "en", 
   "icons": {
     "128": "media/icon128.png", 
     "48": "media/icon48.png"
   }, 
-  "name": "__MSG_extension_name__", 
-  "version": "1.0.17", 
+  "version": "1.0.18", 
   "options_page": "options.html", 
   "background_page": "background.html", 
-  "browser_action": {
-    "popup": "popup.html", 
-    "default_icon": "media/icon.png", 
-    "default_title": "__MSG_extension_default_title__"
-  }, 
   "permissions": [
     "tabs", 
     "notifications", 
     "http://steamcommunity.com/", 
     "http://www.tf2items.com/"
-  ]
+  ], 
+  "browser_action": {
+    "popup": "popup.html", 
+    "default_icon": "media/icon.png", 
+    "default_title": "__MSG_extension_default_title__"
+  }, 
+  "description": "__MSG_extension_desc__"
 }

@@ -1,5 +1,5 @@
 base_name := tf2-backpack-extension
-release_num  := $(shell python -c "import json;print json.load(open('src/manifest.json'))['version']")
+release_num  := $(shell python2 -c "import json;print json.load(open('src/manifest.json'))['version']")
 release_name := ${base_name}-${release_num}
 build_dir := build-$(release_num)
 dist_dir  := dist-$(release_num)
@@ -56,7 +56,7 @@ dist: $(dist_style_files) $(dist_script_files) $(dist_item_files)
 
 $(dist_item_files):
 	@mkdir -p $(build_dir)/media
-	cat src/media/$(notdir $@) | python -c "import json,sys;d=json.load(sys.stdin);json.dump(d,sys.stdout)" > $(build_dir)/media/$(notdir $@)
+	cat src/media/$(notdir $@) | python2 -c "import json,sys;d=json.load(sys.stdin);json.dump(d,sys.stdout)" > $(build_dir)/media/$(notdir $@)
 
 
 $(dist_style_files):
@@ -129,9 +129,9 @@ clean:
 	@echo "[CLEAN] complete."
 
 bump_version:
-	@python -c "import json; d=json.load(open('src/manifest.json')); print 'Old version:', d['version']"
-	@python -c "import json; d=json.load(open('src/manifest.json')); v = d['version'].split('.'); v[-1] = str(int(v[-1])+1); fh = open('src/manifest.json', 'w'); d['version'] = u'.'.join(v); json.dump(d, fh, indent=2); fh.flush(); fh.close()"
-	@python -c "import json; d=json.load(open('src/manifest.json')); print 'New version:', d['version']"
+	@python2 -c "import json; d=json.load(open('src/manifest.json')); print 'Old version:', d['version']"
+	@python2 -c "import json; d=json.load(open('src/manifest.json')); v = d['version'].split('.'); v[-1] = str(int(v[-1])+1); fh = open('src/manifest.json', 'w'); d['version'] = u'.'.join(v); json.dump(d, fh, indent=2); fh.flush(); fh.close()"
+	@python2 -c "import json; d=json.load(open('src/manifest.json')); print 'New version:', d['version']"
 
 check_text:
 	@cd tools && ./check_tf_texts
