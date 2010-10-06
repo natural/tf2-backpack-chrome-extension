@@ -1,3 +1,62 @@
+/*
+
+items = JSON.parse(WebDataTool.items)
+schema = JSON.parse(WebDataTool.schema['en'])
+
+
+*/
+var SchemaTool = {
+    raw: null, items: null,
+
+    init: function(source) {
+        this.raw = source
+        this.items = this.load(JSON.parse(source))
+    },
+
+    load: function(rawSchema) {
+        var res = {}, items = rawSchema['result']['items']['item']
+        for (idx in items) {
+            res['' + items[idx]['defindex']] = items[idx]
+        }
+        return res
+    },
+
+    select: function(key, match) {
+        var res = {}
+        var matchf = (typeof(match) == typeof('')) ? function(v) { return v == match } : match
+        for (idx in this.items) {
+            if (matchf(this.items[idx][key])) { res[idx] = this.items[idx] }
+        }
+        return res
+    },
+
+    crates: function() { return this.select('craft_class', 'supply_crate') },
+    hats: function() { return this.select('item_slot', 'head')  },
+    metal: function() { return this.select('craft_class', 'craft_bar') },
+    misc: function() { return this.select('item_slot', 'misc')},
+    stock: function() {
+	return this.select('defindex', function(v) { return (v>190 && v<213) })
+    },
+    tokens: function() { return this.select('craft_class', 'craft_token') },
+    tools: function() {  return this.select('craft_class', 'tool') },
+    uncraftable: function() {
+	return this.select('craft_class', function(v) { return (v==undefined)})
+    },
+    weapons: function() { return this.select('craft_class', 'weapon') },
+
+    mapPlayerItems: function(playerItems) {
+	var res = []
+	for (idx in playerItems) {
+	    copy = $.extend(true, {}, playerItems[idx])
+	    $.extend(copy, this.items[ playerItems[idx]['defindex']])
+	    res[idx] = copy
+	}
+	return res
+    }
+
+}
+
+
 //  named colors
 var Colors = {
     blue:  [ 51, 152, 197, 255],
@@ -51,7 +110,6 @@ var WebDataTool = {
 	options = options || {}
 	var id64 = options['id64'], onSuccess = options['success'], onError = options['error']
 	if (!id64) {
-	    console.warn('getPlayerProfile no id64 parameter given')
 	    if (onError) { onError('no id64 parameter given') }
 	    return
 	}
@@ -64,7 +122,23 @@ var WebDataTool = {
 			if (onError) { onError(error) }
 		    })
 
-    }
+    },
+
+    searchPlayers: function(options) {
+	options = options || {}
+	var q = options['q'], onSuccess = options['success'], onError = options['error']
+	if (!q) {
+	    if (onError) { onError('no search query given') }
+	    return
+	}
+	NetTool.get(urls.apiSearch+q,
+		    function(results) {
+			if (onSuccess) { onSuccess({results: results}) }
+		    },
+		    function(error) {
+			if (onError) { onError(error) }
+		    })
+    },
 }
 
 
@@ -433,7 +507,12 @@ var Background = {
 		    {id64: request.id64, success: sendResponse, error: request.errorResponse}
 		)
 	        break
-	    // case 'searchPlayer'
+	    case 'searchPlayers':
+	        WebDataTool.searchPlayers(
+		    {q: request.q, success: sendResponse, error: request.errorResponse}
+		)
+	        break
+
 	}
     },
 }

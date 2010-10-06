@@ -11,38 +11,6 @@ var urls = {
 };
 
 
-// this belongs with the WebDataTool, but since that object runs
-// within 'background.js' and caches its results, we can't put it
-// there.  to resolve this, background.js should grow a responder for
-// 'searchPlayer'.
-var ProfileTool = {
-    search: function(v, okay, error) {
-	var onError = function(req, status, err) {
-	    error({statusText: err});
-	};
-	var onSuccess = function(data, status, req) {
-	    if (!data) {
-		error({statusText: "Network failure"});
-		return;
-	    }
-	    try {
-		var results = JSON.parse(data)
-	    } catch (e) {
-		error({statusText: "Parse error"});
-		return;
-	    }
-	    if (results.length) {
-		okay(results);
-	    } else {
-		error({statusText: "Search failed"});
-	    }
-	};
-	$.ajax({url: urls.apiSearch + v, dataType: 'text',
-		error: onError, success: onSuccess});
-    }
-};
-
-
 /*
     this object provides transparent seralization and deseralization
     of values via the localStorage interface.
