@@ -42,7 +42,7 @@ var PopupStorage = {
 	    $(itemContentSelector).fadeOut().remove()
 	    self.feed = (new DOMParser()).parseFromString(xml, "text/xml")
 	    PopupView.putItems(self.feed)
-	    PopupView.putCharInfo(self.feed)
+	    //PopupView.putCharInfo(self.feed)
 	    //PopupView.loadAndShowProfile()
 	} else {
 	    console.error("empty xml")
@@ -360,6 +360,15 @@ var PopupView = {
     },
 
     putCharInfo: function(feed) {
+	feed = JSON.parse(feed)
+	$("#steamID a").text(feed['personaname'])
+	if (feed['avatarfull']) {
+	    $("#avatar img").fadeOut().remove()
+	    $("#avatar").append("<img src='" + feed['avatarfull'] + "' />")
+	}
+    },
+
+    putCharInfo__: function(feed) {
 	$("#steamID a").text($("steamID", feed).text())
 	var avatarUrl = $("avatarFull", feed).text()
 	if (avatarUrl) {
@@ -545,39 +554,51 @@ var TooltipView = {
 }
 
 
-var popupInit = function() {
-    i18nize()
-    if (!BaseStorage.profileId()) {
+var Popup = {
+    schema: {}, profile: {}, items: {},
+
+    init: function() {
+	i18nize()
+	if (!BaseStorage.profileId()) {
+	    this.emptyInit()
+	} else {
+	    this.mainInit()
+	}
+    },
+
+    mainInit: function() {
+	$.map([PopupStorage, PopupView, TooltipView, BackpackView], function(c) { c.init() })
+	chrome.extension.sendRequest(
+	    {type: 'getSchema', lang: _('language_code')},
+	    function (response) {
+		Popup.schema = JSON.parse(response.schema)
+		console.log('item schema:', Popup.schema)
+	    })
+	chrome.extension.sendRequest(
+	    {type: 'getPlayerItems', id64: BaseStorage.profileId()},
+	    function (response) {
+		Popup.items = JSON.parse(response.items)
+		console.log('player items:', Popup.items.length)
+	    })
+	chrome.extension.sendRequest(
+	    {type: 'getPlayerProfile', id64: BaseStorage.profileId()},
+	    function (response) {
+		Popup.profile = JSON.parse(response.profile)
+		PopupView.putCharInfo(response.profile)
+		console.log('player profile:', Popup.profile)
+	    })
+	console.log('Popup.mainInit complete')
+    },
+
+    emptyInit: function() {
         $("#main").fadeOut('fast')
 	$("#unknownProfile").fadeIn('fast')
 	optionsInit(function() {
 	    $("#unknownProfile").fadeOut('fast', function() {
 	        $("#main").fadeIn().delay(1000)
-	        popupInit()
+		Popup.mainInit()
 	        PopupView.requestRefresh()
 	    })
 	})
-    } else {
-	chrome.extension.sendRequest(
-	    {type: 'getSchema', lang: _('language_code')},
-	    function (response) {
-		console.log('have schema:', response.schema)
-	    })
-	chrome.extension.sendRequest(
-	    {type: 'getPlayerItems', id64: BaseStorage.profileId()},
-	    function (response) {
-		console.log('have items:', response.items)
-	    })
-	chrome.extension.sendRequest(
-	    {type: 'getPlayerProfile', id64: BaseStorage.profileId()},
-	    function (response) {
-		console.log('have profile:', response.profile)
-	    })
-	PopupStorage.init()
-	PopupView.init()
-	TooltipView.init()
-	BackpackView.init()
-
-	console.log('popupInit() complete')
-    }
+    },
 }

@@ -9,72 +9,63 @@ var Colors = {
 //
 // encapsulates the tf2 item schema and the players backpack items.
 //
-var Items = {
-    schema: {}, player: null, profile: null,
+var WebDataTool = {
+    schema: {}, items: null, profile: null,
 
     init: function() {
-	console.info('Items.init complete')
+	console.info('WebDataTool.init complete')
     },
 
     getSchema: function(options) {
-	console.log('getSchema')
 	options = options || {}
-	var lang = options['lang'] ||  _('language_code')
-
-	var okay = function(schema) {
-	    Items.schema[lang] = schema = JSON.parse(schema)
-	    var cb = options['success']
-	    if (cb) { cb({schema:schema}) }
-	}
-	var err = function(error) {
-	    var cb = options['error']
-	    if (cb) { cb(error) }
-	}
-	NetTool.get(urls.apiSchema+'?=lang='+lang, okay, err)
+	var lang = options['lang'], onSuccess = options['success'], onError = options['error']
+	lang = lang ||  _('language_code')
+	NetTool.get(urls.apiSchema+'?lang='+lang,
+		    function(schema) {
+			WebDataTool.schema[lang] = schema
+			if (onSuccess) { onSuccess({schema: schema}) }
+		    },
+		    function(error) {
+			if (onError) { onError(error) }
+		    })
     },
 
     getPlayerItems: function(options) {
 	options = options || {}
-	var id64 = options['id64']
+	var id64 = options['id64'], onSuccess = options['success'], onError = options['error']
 	if (!id64) {
-	    console.warn('getPlayerItems no id64 given')
+	    if (onError) { onError('no id64 parameter given') }
 	    return
 	}
-	var okay = function(items) {
-	    Items.player = items = JSON.parse(items)
-	    var cb = options['success']
-	    if (cb) { cb({items: items}) }
-	}
-	var err = function(error) {
-	    console.log('Items.getPlayerItems error:', error)
-	    var cb = options['error']
-	    if (cb) { cb(error) }
-	}
-	NetTool.get(urls.apiPlayerItems+id64, okay, err);
+	NetTool.get(urls.apiPlayerItems+id64,
+		    function(items) {
+			WebDataTool.items = items
+			if (onSuccess) { onSuccess({items: items}) }
+		    },
+		    function(error) {
+			if (onError) { onError(error) }
+		    })
     },
 
     getPlayerProfile: function(options) {
 	options = options || {}
-	var id64 = options['id64']
+	var id64 = options['id64'], onSuccess = options['success'], onError = options['error']
 	if (!id64) {
-	    console.warn('getPlayerProfile no id64 given')
+	    console.warn('getPlayerProfile no id64 parameter given')
+	    if (onError) { onError('no id64 parameter given') }
 	    return
 	}
-	var okay = function(profile) {
-	    Items.profile = profile = JSON.parse(profile)
-	    console.log("profile steamid:", profile['steamid'])
-	    var cb = options['success']
-	    if (cb) { cb({profile: profile}) }
-	}
-	var err = function(error) {
-	    console.log('getPlayerItems error:', error)
-	    var cb = options['error']
-	    if (cb) { cb(error) }
-	}
-	NetTool.get(urls.apiProfile+id64, okay, err);
-    },
+	NetTool.get(urls.apiProfile+id64,
+		    function(profile) {
+			WebDataTool.profile = profile
+			if (onSuccess) { onSuccess({profile: profile}) }
+		    },
+		    function(error) {
+			if (onError) { onError(error) }
+		    })
 
-};
+    }
+}
 
 
 //
@@ -395,24 +386,12 @@ var Toaster = {
 	console.info('Toaster.init complete')
     },
 
-    loadItemDefs: function() {
-	var error = function(req, status, error) {
-	    console.log(req, status, error)
-	}
-	var success = function(data, status, req) {
-	    try {
-		Toaster.defs = JSON.parse(data)
-	    } catch (e) {
-		error(req, status, data)
-	    }
-	}
-	BaseStorage.loadItemDefs(success, error)
-    },
-
     showItems: function(items) {
+	// TODO:  decoder doesn't work
 	if (!BaseStorage.get('useNotifications', {missing:false, decoder:Boolean})) {
 	    return
 	}
+	// TODO:  this is broken, too
 	items.map(function(index, item) {
 	    var uid = $('uniqueId', item).text()
 	    if (uid in Toaster.cache) {
@@ -430,43 +409,34 @@ var Toaster = {
     },
 }
 
+
 var Background = {
     init: function() {
-	console.info('Background.init start')
+	$.map([WebDataTool, BadgeIcon, BadgeText, Toaster, FeedDriver], function(c) { c.init() })
 	chrome.extension.onRequest.addListener(Background.itemsResponder)
-	Items.init()
-	BadgeIcon.init()
-	BadgeText.init()
-	Toaster.init()
-	FeedDriver.init()
-	console.info('Background.init complete')
     },
 
     itemsResponder: function(request, sender, sendResponse) {
 	switch (request.type) {
             case 'getSchema':
-	        Items.getSchema(
+	        WebDataTool.getSchema(
 		    {lang: request.lang, success: sendResponse, error: request.errorResponse}
 		)
 	        break
 	    case 'getPlayerProfile':
-	        Items.getPlayerProfile(
+	        WebDataTool.getPlayerProfile(
 		    {id64: request.id64, success: sendResponse, error: request.errorResponse}
 	        )
 	        break
 	    case 'getPlayerItems':
-	        Items.getPlayerItems(
+	        WebDataTool.getPlayerItems(
 		    {id64: request.id64, success: sendResponse, error: request.errorResponse}
 		)
 	        break
+	    // case 'searchPlayer'
 	}
     },
-
-
 }
 
 
-backgroundInit = function() {
-    Background.init()
-}
 

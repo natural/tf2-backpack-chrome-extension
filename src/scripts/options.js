@@ -16,7 +16,7 @@ var save = function(cb) {
 
     var newProfileId = $("#profileId").attr("value");
     if (newProfileId == BaseStorage.profileId()) { return; }
-    profile.search(
+    ProfileTool.search(
 	newProfileId,
 	function(profiles) {
 	    var foundId = profiles[0]['id'];
