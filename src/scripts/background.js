@@ -10,49 +10,40 @@ var Colors = {
 // encapsulates the tf2 item schema and the players backpack items.
 //
 var Items = {
-    schema: {},
-    player: null,
+    schema: {}, player: null, profile: null,
 
     init: function() {
-	//this.getSchema();
+	console.info('Items.init complete')
     },
 
     getSchema: function(options) {
 	console.log('getSchema')
 	options = options || {}
-	var lang = options['lang']
-	//lang = (typeof(lang) == 'undefined') ? _('language_code') : lang
-	lang = 'en'
+	var lang = options['lang'] ||  _('language_code')
 
 	var okay = function(schema) {
 	    Items.schema[lang] = schema = JSON.parse(schema)
-	    console.log('schema get ok', schema)
-	    DebugTool.schema = schema
 	    var cb = options['success']
-	    console.log('getSchema okay cb', cb)
 	    if (cb) { cb({schema:schema}) }
 	}
 	var err = function(error) {
-	    console.log('Items.getSchema error:', error)
 	    var cb = options['error']
 	    if (cb) { cb(error) }
 	}
-	console.log('nettool', urls.apiSchema+'?=lang='+lang)
-	//NetTool.get(urls.apiSchema+'?=lang='+lang, okay, err)
+	NetTool.get(urls.apiSchema+'?=lang='+lang, okay, err)
     },
 
     getPlayerItems: function(options) {
 	options = options || {}
 	var id64 = options['id64']
 	if (!id64) {
-	    console.warn('Items.getPlayerItems no id64 given')
+	    console.warn('getPlayerItems no id64 given')
 	    return
 	}
 	var okay = function(items) {
 	    Items.player = items = JSON.parse(items)
 	    var cb = options['success']
-	    if (cb) { cb(items) }
-	    //BaseStorage.set('player-items', items);
+	    if (cb) { cb({items: items}) }
 	}
 	var err = function(error) {
 	    console.log('Items.getPlayerItems error:', error)
@@ -61,6 +52,28 @@ var Items = {
 	}
 	NetTool.get(urls.apiPlayerItems+id64, okay, err);
     },
+
+    getPlayerProfile: function(options) {
+	options = options || {}
+	var id64 = options['id64']
+	if (!id64) {
+	    console.warn('getPlayerProfile no id64 given')
+	    return
+	}
+	var okay = function(profile) {
+	    Items.profile = profile = JSON.parse(profile)
+	    console.log("profile steamid:", profile['steamid'])
+	    var cb = options['success']
+	    if (cb) { cb({profile: profile}) }
+	}
+	var err = function(error) {
+	    console.log('getPlayerItems error:', error)
+	    var cb = options['error']
+	    if (cb) { cb(error) }
+	}
+	NetTool.get(urls.apiProfile+id64, okay, err);
+    },
+
 };
 
 
@@ -80,6 +93,7 @@ var BadgeIcon = {
 	this.icon = $('#icon')[0]
 	this.context = this.canvas.getContext('2d')
 	this.enabled(false)
+	console.info('BadgeIcon.init complete')
     },
 
     // nice easing
@@ -144,8 +158,8 @@ var FeedDriver = {
 
     init: function() {
 	chrome.extension.onRequest.addListener(this.listen)
-	chrome.extension.onRequest.addListener(this.sendData)
 	this.start()
+	console.info('FeedDriver.init complete')
     },
 
     toJSON: function() {
@@ -299,6 +313,7 @@ var FeedDriver = {
     },
 
     listen: function(request, sender, sendResponse) {
+	return
 	var response = {}
 	if (request.type == 'driver') {
             switch (request.message) {
@@ -322,6 +337,7 @@ var BadgeText = {
 
     init: function() {
 	this.start(Colors.grey)
+	console.info('BadgeText.init complete')
     },
 
     draw: function() {
@@ -376,6 +392,7 @@ var Toaster = {
     defs: null,
 
     init: function() {
+	console.info('Toaster.init complete')
     },
 
     loadItemDefs: function() {
@@ -416,43 +433,40 @@ var Toaster = {
 var Background = {
     init: function() {
 	console.info('Background.init start')
-	chrome.extension.onRequest.addListener(Background.listen)
-
+	chrome.extension.onRequest.addListener(Background.itemsResponder)
 	Items.init()
-	console.info('Items.init complete')
-
 	BadgeIcon.init()
-	console.info('BadgeIcon.init complete')
-
 	BadgeText.init()
-	console.info('BadgeText.init complete')
-
 	Toaster.init()
-	console.info('Toaster.init complete')
-
 	FeedDriver.init()
-	console.info('FeedDriver.init complete')
-
 	console.info('Background.init complete')
     },
 
-    listen: function(request, sender, sendResponse) {
-	console.log('listen:', request, sender, typeof(sendResponse))
-	if (request.type == 'bg') {
-	    switch (request.message) {
-	        case 'Items.getSchema':
-		    Items.getSchema({success: sendResponse, lang: request['lang']})
-		    break
-	        case 'Items.getPlayerItems':
-		    Items.getPlayerItems({success: sendResponse, id64: request['id64']})
-                    break
-	        default:
-		    console.log('unhandled request:', sender, request.message)
-	    }
+    itemsResponder: function(request, sender, sendResponse) {
+	switch (request.type) {
+            case 'getSchema':
+	        Items.getSchema(
+		    {lang: request.lang, success: sendResponse, error: request.errorResponse}
+		)
+	        break
+	    case 'getPlayerProfile':
+	        Items.getPlayerProfile(
+		    {id64: request.id64, success: sendResponse, error: request.errorResponse}
+	        )
+	        break
+	    case 'getPlayerItems':
+	        Items.getPlayerItems(
+		    {id64: request.id64, success: sendResponse, error: request.errorResponse}
+		)
+	        break
 	}
-    }
+    },
+
 
 }
 
 
-backgroundInit = Background.init
+backgroundInit = function() {
+    Background.init()
+}
+

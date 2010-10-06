@@ -97,7 +97,11 @@ var BaseStorage = {
 	if (value == null) {
 	    value = missing;
 	}
-	return factory(value);
+	try {
+	    return factory(value);
+	} catch (e) {
+	    return value
+	}
     },
 
     clear: function() {

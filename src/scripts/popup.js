@@ -35,6 +35,7 @@ var PopupStorage = {
 
     // this doesn't belong here.  not.  one.  bit.
     loadAndShow: function () {
+	return
 	var xml = BaseStorage.get('xmlCache', {missing:''})
 	var self = this
 	if (xml) {
@@ -147,7 +148,7 @@ var BackpackView = {
 */
 var BrowserTool = {
     betterTranslation: function() {
-	return window.open("mailto:phineas.natural@gmail.com?subject=Better Translation")
+	return window.open('mailto:phineas.natural@gmail.com?subject=Better Translation')
     },
 
     externalBackpack: function() {
@@ -159,7 +160,7 @@ var BrowserTool = {
     },
 
     showOptions: function() {
-	chrome.tabs.create({url:"./options.html"})
+	chrome.tabs.create({url:'./options.html'})
 	window.close()
 	return false
     },
@@ -557,27 +558,26 @@ var popupInit = function() {
 	    })
 	})
     } else {
-	//var lang = _('language_code')
-	return
-	lang = 'en'
-
-	//chrome.extension.sendRequest({type:"driver", message:"refresh"}, function(response) {})
 	chrome.extension.sendRequest(
-	    {type: 'bg', message: 'Items.getSchema'},
-	    function(response) {
-		console.log('schema loaded', response.schema)
-		BaseStorage.set('schema-'+lang, response.schema)
-	     }
-        )
-	console.log("mkay3")
-	return
-
-
-/*
+	    {type: 'getSchema', lang: _('language_code')},
+	    function (response) {
+		console.log('have schema:', response.schema)
+	    })
+	chrome.extension.sendRequest(
+	    {type: 'getPlayerItems', id64: BaseStorage.profileId()},
+	    function (response) {
+		console.log('have items:', response.items)
+	    })
+	chrome.extension.sendRequest(
+	    {type: 'getPlayerProfile', id64: BaseStorage.profileId()},
+	    function (response) {
+		console.log('have profile:', response.profile)
+	    })
 	PopupStorage.init()
 	PopupView.init()
 	TooltipView.init()
 	BackpackView.init()
-*/
+
+	console.log('popupInit() complete')
     }
 }
