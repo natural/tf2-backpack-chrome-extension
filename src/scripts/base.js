@@ -1,73 +1,17 @@
-var colors = {
-    blue: [51, 152, 197, 255],
-    green: [59, 174, 73, 255],
-    grey: [128, 128, 128, 255],
-};
-
-
 var apiUrlBase = 'http://tf2apiproxy.appspot.com/';
 var urls = {
-    apiSearch:      apiUrlBase + 'api/v1/search/',
+    apiPlayerItems: apiUrlBase + 'api/v1/items/',
     apiProfile:     apiUrlBase + 'api/v1/profile/',
+    apiSchema:      apiUrlBase + 'api/v1/schema',
+    apiSearch:      apiUrlBase + 'api/v1/search/',
     sourceOp:       'http://www.sourceop.com/',
     steamCommunity: 'http://steamcommunity.com/',
     tf2Items:       'http://www.tf2items.com/',
     tf2Stats:       'http://tf2stats.net/'
 };
-urls.pnatural = urls.steamCommunity + "profiles/76561197992805111";
 
 
-var profile = {
-    feedUrl: function () {
-	if (storage.testUrl()) {
-	    return chrome.extension.getURL(storage.testUrl());
-	}
-	var id = storage.profileId();
-	return id ? urls.tf2Items + "packxml.php?profileid=" + id : "";
-    },
-
-    backpackViewUrl: function() {
-	var id = storage.profileId();
-	return id ? urls.tf2Items + "profiles/" + id : urls.tf2Items;
-    },
-
-    playerStatsUrl: function() {
-	var id = storage.profileId();
-	return id ? urls.tf2Stats + "player_stats/" + id : urls.tf2Stats;
-    },
-
-    communityUrl: function (id) {
-	if (typeof(id) == "undefined") {
-	    id = storage.profileId();
-	}
-	return id ? urls.steamCommunity + "profiles/" + id : urls.steamCommunity;
-    },
-
-    search: function(v, okay, error) {
-	var onError = function(req, status, err) {
-	    error({statusText: err});
-	};
-	var onSuccess = function(data, status, req) {
-	    if (!data) {
-		error({statusText: "Network failure"});
-		return;
-	    }
-	    try {
-		var results = JSON.parse(data)
-	    } catch (e) {
-		error({statusText: "Parse error"});
-		return;
-	    }
-	    if (results.length) {
-		okay(results);
-	    } else {
-		error({statusText: "Search failed"});
-	    }
-	};
-	$.ajax({url: urls.apiSearch + v, dataType: 'text',
-		error: onError, success: onSuccess});
-    },
-
+var ProfileTool = {
     load: function(v, okay, error) {
 	var onError = function(req, status, err) {
 	    error({statusText: err});
@@ -93,89 +37,73 @@ var profile = {
 	};
 	$.ajax({url: urls.apiProfile + v, dataType: "text",
 		error: onError, success: onSuccess})
-    }
-
-
-};
-
-var storage = {
-    init: function() {
-	//chrome.extension.onRequest.addListener(this.refreshHandler)
     },
 
-    useNotifications: function(v) {
-	if (typeof(v) == "undefined") {
-	    if (typeof(localStorage.useNotifications) == "undefined") {
-		return true;
-	    } else {
-		return typeof(localStorage.useNotifications) == "undefined" ? true : localStorage.useNotifications == "true";
+    search: function(v, okay, error) {
+	var onError = function(req, status, err) {
+	    error({statusText: err});
+	};
+	var onSuccess = function(data, status, req) {
+	    if (!data) {
+		error({statusText: "Network failure"});
+		return;
 	    }
-	}
-	localStorage.useNotifications = v;
+	    try {
+		var results = JSON.parse(data)
+	    } catch (e) {
+		error({statusText: "Parse error"});
+		return;
+	    }
+	    if (results.length) {
+		okay(results);
+	    } else {
+		error({statusText: "Search failed"});
+	    }
+	};
+	$.ajax({url: urls.apiSearch + v, dataType: 'text',
+		error: onError, success: onSuccess});
+    }
+};
+
+
+/*
+    this object provides transparent seralization and deseralization
+    of values via the localStorage interface.
+
+    this might be useful:  chrome.extension.onRequest.addListener(this.refreshHandler)
+*/
+var BaseStorage = {
+    init: function() {
     },
 
     profileId: function(v) {
 	if (typeof(v) == "undefined") {
-	    return localStorage.profileId || "";
+	    return this.get('profileId');
 	}
-	localStorage.profileId = v;
+	this.set('profileId', v);
     },
 
-    profileFeed: function(v) {
-	if (typeof(v) == "undefined") {
-	    return localStorage.profileFeed || "";
-	}
-	localStorage.profileFeed = v;
+    set: function(key, value, options) {
+	options = options || {};
+	var encoder = options['encoder'] || JSON.stringify;
+	localStorage.setItem(key, encoder(value));
     },
 
-    cachedFeed: function(v) {
-	if (typeof(v) == "undefined") {
-	    return localStorage.cachedXml || "";
+    get: function(key, options) {
+	options = options || {};
+	var factory = options['decoder'] || JSON.parse;
+	var missing = options['missing'] || '';
+	var value = localStorage.getItem(key);
+	if (value == null) {
+	    value = missing;
 	}
-	localStorage.cachedXml = v;
-    },
-
-    debug: function(v) {
-	if (typeof(v) == "undefined") {
-	    return localStorage.debug == "true" || false;
-	}
-	localStorage.cachedXml = v;
-    },
-
-    testUrl: function(v) {
-	if (typeof(v) == "undefined") {
-	    return localStorage.testUrl || "";
-	}
-	localStorage.testUrl = v;
+	return factory(value);
     },
 
     clear: function() {
-	this.profileId("");
-	this.cachedFeed("");
-	this.debug(false);
-	this.testUrl("");
+	localStorage.clear()
     },
 
-    lastPage: function(v) {
-	if (typeof(v) == "undefined") {
-	    return parseInt(localStorage.lastPage) || 1;
-	}
-	localStorage.lastPage = v;
-    },
-
-    pollMax: function(v) {
-	if (typeof(v) == "undefined") {
-	    return parseInt(localStorage.pollMax || 1000*60*15)
-	}
-	localStorage.pollMax = v;
-    },
-
-    pollMin: function(v) {
-	if (typeof(v) == "undefined") {
-	    return parseInt(localStorage.pollMin || 1000*60*5)
-	}
-	localStorage.pollMin = v;
-    },
 
     loadItemDefs: function(success, error) {
 	var url = "media/items_" + _("language_code") + ".json";
@@ -187,6 +115,30 @@ var storage = {
 
 };
 
+var DebugTool = {};
+
+
+
+var NetTool = {
+    timeout: 1000*10,
+
+    get: function(url, success, error, async, timeout) {
+	var successW = function(data, status, req) {
+	    DebugTool.lastReq = [data, status, req];
+	    success(req.responseText);
+	}
+	var errorW = function(req, status, err) {
+	    DebugTool.lastErr = [req, status, err];
+	    console.error(status, err, req);
+	    error({error: err, status: status})
+	}
+	async = (typeof(async) == 'undefined') ? true : async;
+	timeout = (typeof(timeout) == 'undefined') ? this.timeout : timeout;
+	$.ajax({url: url, async: async, dataType: 'text',
+		success: successW, error: errorW,
+		timeout: timeout});
+    },
+}
 
 function textNodeInt(selector, xml) {
     v = parseInt($(selector, xml).text());

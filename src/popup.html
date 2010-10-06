@@ -51,7 +51,7 @@
 	    <!-- next node has no text for i18n to pull out all of the contents -->
 	    <h2 class="its_msg_7">
 		<span id="steamID">
-		    <a href="#" onclick="showTab.steamProfile()"></a>
+		    <a href="#" onclick="BrowserTool.showProfile()"></a>
 	        </span>
 	    </h2>
 	    <div id="avatar"></div>
@@ -142,9 +142,9 @@
 
 	    <div id="toolbar">
 		<div id="controls">
-		    <a href="#" class="its_msg_10" onclick="return pageOps.requestRefresh()">(refresh)</a>
-		    <a href="#" class="its_msg_11" onclick="return showTab.options()">(options)</a>
-		    <a href="#" class="its_msg_12" onclick="return pageOps.showStats()">(stats)</a>
+		    <a href="#" class="its_msg_10" onclick="return PopupView.requestRefresh()">(refresh)</a>
+		    <a href="#" class="its_msg_11" onclick="return BrowserTool.showOptions()">(options)</a>
+		    <a href="#" class="its_msg_12" onclick="return PopupView.showStats()">(stats)</a>
 		</div>
 		<div id="nav">
 		    <span class="nonav">&lt;</span>
@@ -179,7 +179,7 @@
 		    <tr><td colspan="2"><strong class="its_msg_23">(request time)</strong>: <div id="requestTime"></div></td></tr>
 		    <tr>
 			<td colspan="2">
-			    <a href="#" class="its_msg_24" onclick="return pageOps.hideStats()">(hide stats)</a>
+			    <a href="#" class="its_msg_24" onclick="return PopupView.hideStats()">(hide stats)</a>
 			</td>
 		    </tr>
 		</table>
@@ -192,55 +192,55 @@
 	<div id="footer">
 	    <div class="links">
 		<span>
-		    <a class="its_msg_25" href="#" onclick="showTab.externalBackpack()">(view backpack)</a>
+		    <a class="its_msg_25" href="#" onclick="BrowserTool.externalBackpack()">(view backpack)</a>
 		    <span class="its_msg_29">(at)</span> TF2Items.com
 		</span>
 		<br />
 		<span>
-		    <a class="its_msg_36" href="#" onclick="showTab.externalStats()">(view stats)</a>
+		    <a class="its_msg_36" href="#" onclick="BrowserTool.externalStats()">(view stats)</a>
 		    <span class="its_msg_29">(at)</span> TF2Stats.com
 		</span>
 		<br />
 		<span>
-		    <a class="its_msg_26" href="#" onclick="showTab.steamProfile()">(view profile)</a>
+		    <a class="its_msg_26" href="#" onclick="BrowserTool.showProfile()">(view profile)</a>
 		    <span class="its_msg_30">(... at the steam community)</span>
 		</span>
 		<br />
 		<br />
 		<span>
 		    <span class="its_msg_27">(powered by)</span>
-		    <a href="#" onclick="showTab.sourceOp()">SourceOP.com</a>
+		    <a href="#" onclick="BrowserTool.show(urls.sourceOp)">SourceOP.com</a>
 		</span>
 		<br />
 		<span>
 		    <span class="its_msg_28">(extension written by)</span>
-		    <a href="#" onclick="showTab.pnaturalProfile()">pnatural</a>
+		    <a href="#" onclick="BrowserTool.showProfile('76561197992805111')">pnatural</a>
 	        </span>
 
 		<span lang="nl">
 		    <br />
                     Vertaling Uitgevoerd door 
-		    <a href="#" onclick="showTab.steamProfile('Lummer')">Lummer</a>
+		    <a href="#" onclick="BrowserTool.showProfile('Lummer')">Lummer</a>
 		</span>
 
 		<span lang="pt">
 		    <br />
 		    Tradução fornecida po
-		    <a href="#" onclick="showTab.steamProfile('76561197982604392')">BrunoBsB</a>
+		    <a href="#" onclick="BrowserTool.showProfile('76561197982604392')">BrunoBsB</a>
 		</span>
 		<span lang="ru">
 		    <br />
 		    Перевод предоставляемые
-		    <a href="#" onclick="showTab.steamProfile('76561198003634439')">Mr. Meidi</a>
+		    <a href="#" onclick="BrowserTool.showProfile('76561198003634439')">Mr. Meidi</a>
 		    и
-		    <a href="#" onclick="showTab.steamProfile('76561197992486708')">^1SHARRP</a>
+		    <a href="#" onclick="BrowserTool.showProfile('76561197992486708')">^1SHARRP</a>
 		</span>
 		<br />
 		<br />
 		<span id="translation_suggestion" style="display:none">
 		    <span class="its_msg_34">(incorrect translation)</span>
 		    <a class="its_msg_35"
-			 href="#" onclick="showTab.pnaturalEmail('Better Translation')">
+			 href="#" onclick="BrowserTool.betterTranslation()">
 			 (suggest better)
 		    </a>
 		</span>

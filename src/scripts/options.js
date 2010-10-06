@@ -12,10 +12,10 @@ var markClean = function() {
 
 
 var save = function(cb) {
-    storage.useNotifications( $("#useToast").attr("checked") );
+    BaseStorage.set('useNotifications', $("#useToast").attr("checked"));
 
     var newProfileId = $("#profileId").attr("value");
-    if (newProfileId == storage.profileId()) { return; }
+    if (newProfileId == BaseStorage.profileId()) { return; }
     profile.search(
 	newProfileId,
 	function(profiles) {
@@ -27,8 +27,8 @@ var save = function(cb) {
 	        .fadeOut();
             }
             $("#profileId").attr("value", foundId);
-	    storage.clear();
-            storage.profileId(foundId);
+	    BaseStorage.clear();
+            BaseStorage.profileId(foundId);
 	    chrome.extension.sendRequest({type:"driver", message:"refresh"},
 					 function(response) {});
 	    if (cb) { cb() }
@@ -48,7 +48,7 @@ var optionsInit = function(callback) {
     if (!originalMsg) {
 	originalMsg = $("#msg").text()
     }
-    $("#profileId").attr("value", storage.profileId()).select();
+    $("#profileId").attr("value", BaseStorage.profileId()).select();
     $("#profileId").change(markDirty);
     $("#profileId").keypress(function(e) {
 	if (e.keyCode==13) {
@@ -58,7 +58,7 @@ var optionsInit = function(callback) {
 	}
     });
 
-    $("#useToast").attr("checked", storage.useNotifications());
+    $("#useToast").attr("checked", BaseStorage.get('useNotifications', {missing:false}));
     $("#useToast").change(markDirty);
 
     $("#save").click(function() {save(callback)} );
