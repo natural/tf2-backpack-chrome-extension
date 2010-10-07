@@ -5,55 +5,6 @@ var itemContentSelector = [unplacedItemSelector, placedItemSelector, equippedIte
 
 
 /*
-    this object encapsulates storing and providing data for the popup.
-    it uses the BaseStorage class for serialization/deserialization,
-    and the NetTool class for network data.
-
-*/
-var PopupStorage = {
-    feed: null,
-    defs: null,
-
-    init: function() {
-	this.loadItemDefs()
-	this.loadAndShow()
-    },
-
-    loadItemDefs: function() {
-	var error = function(req, status, error) {
-	    console.log(req, status, error)
-	}
-	var success = function(data, status, req) {
-	    try {
-		PopupStorage.defs = JSON.parse(data)
-	    } catch (e) {
-		error(req, status, data)
-	    }
-	}
-	BaseStorage.loadItemDefs(success, error)
-    },
-
-    // this doesn't belong here.  not.  one.  bit.
-    loadAndShow: function () {
-	return
-	var xml = BaseStorage.get('xmlCache', {missing:''})
-	var self = this
-	if (xml) {
-	    $(itemContentSelector).fadeOut().remove()
-	    self.feed = (new DOMParser()).parseFromString(xml, 'text/xml')
-	    //PopupView.putItems(self.feed)
-	    //PopupView.putCharInfo(self.feed)
-	    //PopupView.loadAndShowProfile()
-	} else {
-	    console.error('empty xml')
-	}
-    },
-
-
-}
-
-
-/*
 
     this object encapsulates the state and behavior of the backpack
     view: the items, their locations, current page, etc.
@@ -64,12 +15,13 @@ var BackpackView = {
     count: 1,
 
     init: function() {
-	this.count = $('#backpack table.backpack tbody').length
-	this.current = 1 + $('#backpack tbody').filter(':visible').index()
-	this.updateNav()
-	$('.nav:first a').live('click', function (e) {return BackpackView.nav(e, -1)})
-	$('.nav:last a').live('click',  function (e) {return BackpackView.nav(e, 1)})
-	this.fastForward()
+	var self = this
+	self.count = $('#backpack table.backpack tbody').length
+	self.current = 1 + $('#backpack tbody').filter(':visible').index()
+	self.updateNav()
+	$('.nav:first a').live('click', function (e) {return self.nav(e, -1)})
+	$('.nav:last a').live('click',  function (e) {return self.nav(e, 1)})
+	self.fastForward()
     },
 
     nav: function(event, offset) {
@@ -79,7 +31,7 @@ var BackpackView = {
 	    $('#backpackPage-' + self.current).fadeOut(250, function() {
 		self.current += offset
 		$('#backpackPage-' + self.current).fadeIn(250)
-		BaseStorage.set('lastPage', self.current)
+		BaseStorage.set('previousPage', self.current)
 		self.updateNav()
 	    })
 	}
@@ -88,7 +40,7 @@ var BackpackView = {
 
     navTo: function(page) {
 	this.current = page
-	$('#backpackPage-' + this.current).fadeIn(250)
+	$('#backpackPage-' + page).fadeIn(250)
 	this.updateNav()
     },
 
@@ -112,10 +64,10 @@ var BackpackView = {
     },
 
     fastForward: function() {
-	var last = BaseStorage.get('lastPage', {missing:1})
-	if (last > 1) {
+	var prev = BaseStorage.get('previousPage', {missing:1})
+	if (prev > 1) {
 	    $('#backpackPage-1').hide()
-	    BackpackView.navTo(last)
+	    this.navTo(prev)
 	}
     },
 
@@ -194,6 +146,14 @@ var BrowserTool = {
 
 
 var PopupView = {
+
+/*
+	    //$(itemContentSelector).fadeOut().remove()
+	    //PopupView.putItems(self.feed)
+	    //PopupView.putCharInfo(self.feed)
+	    //PopupView.loadAndShowProfile()
+
+*/
     init: function() {
 	chrome.extension.onRequest.addListener(this.handleRefresh)
 	$('table.unplaced td:has(img)')
@@ -222,40 +182,53 @@ var PopupView = {
 	window.setInterval(this.updateRefreshTime, 1000)
     },
 
+
     newItems: null,
+    equippedTag: '<span style="display:none" class="equipped">' + _('equipped')  + '</span>',
+
+    itemImg: function(item) {
+	return '<img style="display:none" src="' + item['image_url'] + '" />'
+    },
+
+    itemInv: function(item) { return item['inventory']  },
+    itemPos: function(item) { return item['inventory'] & 0xFFFF },
+    itemEquipped: function(item) { return (item['inventory'] & 0xff0000) != 0 },
 
     init2: function(schema, items) {
 	if (schema.itemDefs && items.items && !(this.newItems)) {
 	    this.newItems = ItemsTool.mergeSchema(SchemaTool.itemDefs, items.items)
-	    this.loadItems2(this.newItems)
+	    this.placeItems(this.newItems)
 	}
     },
 
-    loadItems2: function(items) {
-	//console.log(items)
-	var equipped = '<span style="display:none" class="equipped">' + _('equipped')  + '</span>'
-	var itemImg = function(i) {
-	    return '<img style="display:none" src="' + i['image_url'] + '" />'
-	}
+    placeItems: function(items) {
+	var newItemIndex = -1
 	for (index in items) {
 	    var item = items[index]
-	    var inv = item['inventory']
-	    var pos = inv & 0xFFFF
-	    if (pos) {
-		var ele = $('#c' + pos + ' div')
-		ele.append(itemImg(item))
-		var img = $('img:last', ele)
-		img.data('node', item)
-		if ((inv & 0xff0000) != 0 ) {
-		    // nudge the image up a bit related to margin-top on the equipped class
-		    img.css('margin-top', PopupView.nudgeMap[item['defindex']] || '-8px')
-		    img.after(equipped)
+	    var pos = this.itemPos(item) // var inv = item['inventory'], inv & 0xFFFF
+	    if (pos > 0) {
+		var ele = $('#c' + pos + ' div').append(this.itemImg(item))
+		var img = $('img:last', ele).data('node', item)
+		if (this.itemEquipped(item)) {
+		    img.addClass(this.tweakEquipImgClass[item['defindex']] || 'equipped')
+		       .after(this.equippedTag)
+		} else {
+		    img.addClass(this.tweakUnequipImgClass[item['defindex']])
 		}
-	    } // else it's a new item
-	    GITEM = item
+	    } else {
+		newItemIndex += 1
+		if ($('table.unplaced td:not(:has(img))').length == 0) {
+		    var cells = new Array(5+1).join('<td><div></div></td>')
+		    $('table.unplaced').append('<tbody><tr>' + cells + '</tr></tbody>')
+		}
+		$('table.unplaced td:eq('+newItemIndex+') div').append(this.itemImg(item))
+		$('table.unplaced td img:last').data('node', item)
+	    }
 	}
+	$('#unplaced, hr.unplaced').toggle(newItemIndex > -1)
 	$(itemContentSelector).fadeIn(750)
     },
+
 
     showMessage: function(type, message, duration) {
 	if (type=='warning' && message.toLowerCase().indexOf('warning') != 0) {
@@ -267,6 +240,7 @@ var PopupView = {
         $('#'+type).text(message).slideDown().delay(duration||5000).slideUp()
     },
 
+
     updateRefreshTime: function() {
 	var data = $('#nextFetch').data()
 	if (data && data.next) {
@@ -276,6 +250,7 @@ var PopupView = {
 	}
 	$('#nextFetch').text(show)
     },
+
 
     formatCountDown: function(value, zero, single, plural) {
 	var seconds = Math.round((value  - Date.now())/1000)
@@ -296,7 +271,7 @@ var PopupView = {
                     // empty, and it will help if the page is just loading
                     // via the options div.
                     if (request.updated || $('#backpack img').length==0) {
-	                PopupStorage.loadAndShow()
+	                //PopupStorage.loadAndShow()
 	                BackpackView.init()
 		    } else {
 			PopupView.putTimings()
@@ -480,6 +455,12 @@ var PopupView = {
 	'133': '0',
     },
 
+    tweakEquipImgClass: {
+	'133': 'equipped-133',
+    },
+    tweakUnequipImgClass: {
+	'133': 'unequipped-133',
+    },
 }
 
 
@@ -500,12 +481,14 @@ var TooltipView = {
 	    return
 	}
 	try {
-	    var node = $($('img', cell).data('node'))
-	    var type = node.attr('definitionIndex')
-	    var item = PopupStorage.defs[type]
-	    var levelType = item.type
-	    var level = $('level', node).text()
-	    var desc = item.description.replace('\\n', '<br />')
+	    var node = $($('img', cell).data('node'))[0]
+	    var type = node['defindex']
+	    var item = node
+	    var levelType = node['item_type_name'].replace('TF_Wearable_Hat', 'Hat')
+	    var level = node['level']
+	    var desc = '' //item.description.replace('\\n', '<br />')
+	    //var desc = '' + node['quality'] + ' ' + node['item_name']
+	    var desc = node['item_name']
 	} catch (e) {
 	    return
 	}
@@ -518,23 +501,24 @@ var TooltipView = {
 	var attrMap = {}
 	$.each($('attributes attribute', node), function(index, value) {
 	    var index = $(value).attr('definitionIndex')
-            var format = PopupStorage.defs['other_attributes'][index] || ''
+            //var format = PopupStorage.defs['other_attributes'][index] || ''
+	    var format = ''
 	    if (format) {
 		extras.push( format.replace('%s1', $(value).text()) )
 	    }
 	    attrMap[index] = $(value).text()
 	})
-	if (type=='128') {
-	    GNODE = node
-	    GATTRMAP = attrMap
-	}
 	if (item['alt']) {
 	    item['alt'].concat(extras)
 	} else if (extras) {
 	    item['alt'] = extras
 	}
 
-	$('#tooltip h4').removeClass('vintage').removeClass('valve').removeClass('community')
+	$('#tooltip h4').removeClass('vintage valve community')
+        if (node['quality'] == 3) {
+	    $('#tooltip h4').text(_('vintage') + ' ' + $('#tooltip h4').text().replace('The ', ''))
+	    $('#tooltip h4').addClass('vintage')
+	}
 	if (attrMap['134'] == '2') {
 	    $('#tooltip h4').text($('#tooltip h4').text().replace('The ', ''))
 	    $('#tooltip h4').addClass('valve')
@@ -542,12 +526,6 @@ var TooltipView = {
 	    $('#tooltip h4').text(_('community') + ' ' + $('#tooltip h4').text().replace('The ', ''))
 	    $('#tooltip h4').addClass('community')
 	}
-        if ($('quality', node).text() == '3') {
-	    $('#tooltip h4').text(_('vintage') + ' ' + $('#tooltip h4').text().replace('The ', ''))
-	    $('#tooltip h4').addClass('vintage')
- 	} /* else if ($('quality', node).text() == '6') {
-	    $('#tooltip h4').text('Q6 ' + $('#tooltip h4').text())
-	} */
 
 	// add the various descriptions
 	var medals = ['164', '165', '166', '170']
@@ -594,35 +572,30 @@ var Popup = {
 
     init: function() {
 	i18nize()
-	if (!BaseStorage.profileId()) {
-	    this.emptyInit()
-	} else {
-	    this.mainInit()
-	}
+	BaseStorage.profileId() ? this.mainInit() : this.emptyInit()
     },
 
     mainInit: function() {
-	$.map([PopupStorage, PopupView, TooltipView, BackpackView], function(c) { c.init() })
+	$.map([PopupView, TooltipView, BackpackView], function(c) { c.init() })
 	chrome.extension.sendRequest(
 	    {type: 'getSchema', lang: _('language_code')},
-	    function (response) {
-                SchemaTool.init(response.schema)
+	    function (schema) {
+                SchemaTool.init(schema)
 		PopupView.init2(SchemaTool, ItemsTool)
 		console.log('schema tool loaded:', SchemaTool)
 	    })
 	chrome.extension.sendRequest(
 	    {type: 'getPlayerItems', id64: BaseStorage.profileId()},
-	    function (response) {
-		ItemsTool.init(response.items)
+	    function (items) {
+		ItemsTool.init(items)
 		PopupView.init2(SchemaTool, ItemsTool)
 		console.log('items tool loaded:', ItemsTool)
-
 	    })
 	chrome.extension.sendRequest(
 	    {type: 'getPlayerProfile', id64: BaseStorage.profileId()},
-	    function (response) {
-		Popup.profile = JSON.parse(response.profile)
-		PopupView.putCharInfo(response.profile)
+	    function (profile) {
+		Popup.profile = JSON.parse(profile)
+		PopupView.putCharInfo(profile)
 		PopupView.init2(SchemaTool, ItemsTool)
 		console.log('player profile:', Popup.profile)
 	    })

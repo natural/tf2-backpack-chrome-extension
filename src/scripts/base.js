@@ -4,20 +4,18 @@ var urls = {
     apiProfile:     apiUrlBase + 'api/v1/profile/',
     apiSchema:      apiUrlBase + 'api/v1/schema',
     apiSearch:      apiUrlBase + 'api/v1/search/',
-    sourceOp:       'http://www.sourceop.com/',
     steamCommunity: 'http://steamcommunity.com/',
+    steam:          'http://steampowered.com/',
     tf2Items:       'http://www.tf2items.com/',
     tf2Stats:       'http://tf2stats.net/'
 }
 
 
 
-/*
-    this object provides transparent seralization and deseralization
-    of values via the localStorage interface.
-
-    this might be useful:  chrome.extension.onRequest.addListener(this.refreshHandler)
-*/
+//    this object provides transparent seralization and deseralization
+//    of values via the localStorage interface.
+//
+//    this might be useful:  chrome.extension.onRequest.addListener(this.refreshHandler)
 var BaseStorage = {
     init: function() {
     },
@@ -65,28 +63,26 @@ var BaseStorage = {
 
 }
 
-var DebugTool = {}
-
-
 
 var NetTool = {
-    timeout: 1000*10,
+    timeout: 1000*10, lastReq: null, lastErr: null,
 
-    get: function(url, success, error, async, timeout) {
-	var successW = function(data, status, req) {
-	    DebugTool.lastReq = [data, status, req]
-	    success(req.responseText)
+    get: function(options) {
+	var success = function(data, status, req) {
+	    var cb = options['success']
+	    if (cb) { cb(req.responseText) }
 	}
-	var errorW = function(req, status, err) {
-	    DebugTool.lastErr = [req, status, err]
+	var error = function(req, status, err) {
 	    console.error(status, err, req)
-	    error({error: err, status: status})
+	    var eb = options['error']
+	    if (eb) eb({error: err, status: status})
 	}
-	async = undef(async) ? true : async
-	timeout = undef(timeout) ? this.timeout : timeout
-	$.ajax({url: url, async: async, dataType: 'text',
-		success: successW, error: errorW,
-		timeout: timeout})
+	$.ajax({url: options['url'],
+		async: undef(options['async']) ? true : undef(options['async']),
+		timeout: undef(options['timeout']) ? this.timeout : undef(options['timeout']),
+		dataType: 'text',
+		success: success,
+		error: error})
     },
 }
 
@@ -156,13 +152,9 @@ function i18nize() {
 }
 
 
-
-/*
-
-items = JSON.parse(WebDataTool.items)
-schema = JSON.parse(WebDataTool.schema['en'])
-
-*/
+//
+//
+//
 var SchemaTool = {
     raw: null, itemDefs: null,
 

@@ -1,4 +1,3 @@
-
 //  named colors
 var Colors = {
     blue:  [ 51, 152, 197, 255],
@@ -11,8 +10,6 @@ var Colors = {
 // encapsulates the tf2 item schema and the players backpack items.
 //
 var WebDataTool = {
-    schema: {}, items: null, profile: null,
-
     init: function() {
 	console.info('WebDataTool.init complete')
     },
@@ -21,14 +18,22 @@ var WebDataTool = {
 	options = options || {}
 	var lang = options['lang'], onSuccess = options['success'], onError = options['error']
 	lang = lang ||  _('language_code')
-	NetTool.get(urls.apiSchema+'?lang='+lang,
-		    function(schema) {
-			WebDataTool.schema[lang] = schema
-			if (onSuccess) { onSuccess({schema: schema}) }
-		    },
-		    function(error) {
-			if (onError) { onError(error) }
-		    })
+	// TODO:  cache with checks, not blindly
+	var schema = BaseStorage.get('schema-'+lang, {decoder: function(v) { return v }})
+	if (schema) {
+	    if (onSuccess) { onSuccess(schema) }
+	} else {
+	    NetTool.get({
+		url: urls.apiSchema+'?lang='+lang,
+		success: function(schema) {
+		    BaseStorage.set('schema-'+lang, schema, {encoder:function(v) { return v} })
+		    if (onSuccess) { onSuccess(schema) }
+		},
+		error: function(error) {
+		    if (onError) { onError(error) }
+		}
+	    })
+	}
     },
 
     getPlayerItems: function(options) {
@@ -36,16 +41,21 @@ var WebDataTool = {
 	var id64 = options['id64'], onSuccess = options['success'], onError = options['error']
 	if (!id64) {
 	    if (onError) { onError('no id64 parameter given') }
-	    return
+	} else {
+	    var items = BaseStorage.get('items-'+id64, {decoder: function(v) { return v }})
+	    if (items) {
+		if (onSuccess) { onSuccess(items) }
+		return
+	    }
+	    NetTool.get({
+		url: urls.apiPlayerItems+id64,
+		success: function(items) {
+		    BaseStorage.set('items-'+id64, items, {encoder:function(v) { return v} })
+		    if (onSuccess) { onSuccess(items) }
+		},
+		error: function(error) { if (onError) { onError(error) }}
+	    })
 	}
-	NetTool.get(urls.apiPlayerItems+id64,
-		    function(items) {
-			WebDataTool.items = items
-			if (onSuccess) { onSuccess({items: items}) }
-		    },
-		    function(error) {
-			if (onError) { onError(error) }
-		    })
     },
 
     getPlayerProfile: function(options) {
@@ -53,17 +63,21 @@ var WebDataTool = {
 	var id64 = options['id64'], onSuccess = options['success'], onError = options['error']
 	if (!id64) {
 	    if (onError) { onError('no id64 parameter given') }
-	    return
+	} else {
+	    var profile = BaseStorage.get('profile-'+id64, {decoder: function(v) { return v }})
+	    if (profile) {
+		if (onSuccess) { onSuccess(profile) }
+		return
+	    }
+	    NetTool.get({
+		url: urls.apiProfile+id64,
+		success: function(profile) {
+		    BaseStorage.set('profile-'+id64, profile, {encoder:function(v) { return v} })
+		    if (onSuccess) { onSuccess(profile) }
+		},
+		error: function(error) { if (onError) { onError(error) }}
+	    })
 	}
-	NetTool.get(urls.apiProfile+id64,
-		    function(profile) {
-			WebDataTool.profile = profile
-			if (onSuccess) { onSuccess({profile: profile}) }
-		    },
-		    function(error) {
-			if (onError) { onError(error) }
-		    })
-
     },
 
     searchPlayers: function(options) {
@@ -71,16 +85,15 @@ var WebDataTool = {
 	var q = options['q'], onSuccess = options['success'], onError = options['error']
 	if (!q) {
 	    if (onError) { onError('no search query given') }
-	    return
+	} else {
+	    NetTool.get({
+		url: urls.apiSearch+q,
+		success: function(results) { if (onSuccess) { onSuccess({results: results}) }},
+		error: function(error) { if (onError) { onError(error) }}
+	    })
 	}
-	NetTool.get(urls.apiSearch+q,
-		    function(results) {
-			if (onSuccess) { onSuccess({results: results}) }
-		    },
-		    function(error) {
-			if (onError) { onError(error) }
-		    })
-    },
+    }
+
 }
 
 

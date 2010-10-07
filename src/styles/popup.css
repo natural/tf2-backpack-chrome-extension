@@ -38,6 +38,24 @@ border-top:0.25em solid #84756b;
 }
 
 
+img.equipped {
+margin-top:-8px;
+}
+
+img.equipped-133 {
+margin-top:0;
+}
+
+img.equipped-183 {
+margin-top:0;
+}
+
+img.unequipped-133 {
+padding-top:0.5em;
+}
+
+
+
 span.equipped {
 background-color:black;
 border-radius:0.5em;

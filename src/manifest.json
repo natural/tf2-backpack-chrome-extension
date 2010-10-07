@@ -6,7 +6,7 @@
     "48": "media/icon48.png"
   },
   "description": "__MSG_extension_desc__",
-  "version": "1.0.19",
+  "version": "1.1.0",
   "options_page": "options.html",
   "background_page": "background.html",
   "browser_action": {
@@ -17,8 +17,6 @@
   "permissions": [
     "tabs",
     "notifications",
-    "http://steamcommunity.com/",
-    "http://www.tf2items.com/",
-    "http://tf2apiproxy.appspot.com/"
+     "http://tf2apiproxy.appspot.com/"
   ]
 }
