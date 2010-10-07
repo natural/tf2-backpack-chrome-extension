@@ -370,7 +370,7 @@ var BadgeText = {
 	}
 	if (!this.timerId) {
 	    var ani = this
-	    this.timerId = window.setInterval(function() { ani.draw() }, 100)
+	    //this.timerId = window.setInterval(function() { ani.draw() }, 100)
 	}
     },
 
