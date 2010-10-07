@@ -355,7 +355,7 @@ var PopupView = {
 	    var error = function(v) {
 		console.log(v)
 	    }
-	    profile.load(BaseStorage.profileId(), load, error)
+	    //profile.load(BaseStorage.profileId(), load, error)
 	}
     },
 
@@ -571,14 +571,14 @@ var Popup = {
 	chrome.extension.sendRequest(
 	    {type: 'getSchema', lang: _('language_code')},
 	    function (response) {
-		Popup.schema = JSON.parse(response.schema)
-		console.log('item schema:', Popup.schema)
+                SchemaTool.init(response.schema)
+		console.log('schema tool loaded:', SchemaTool)
 	    })
 	chrome.extension.sendRequest(
 	    {type: 'getPlayerItems', id64: BaseStorage.profileId()},
 	    function (response) {
-		Popup.items = JSON.parse(response.items)
-		console.log('player items:', Popup.items.length)
+		ItemsTool.init(response.items)
+		console.log('items tool loaded:', ItemsTool)
 	    })
 	chrome.extension.sendRequest(
 	    {type: 'getPlayerProfile', id64: BaseStorage.profileId()},
