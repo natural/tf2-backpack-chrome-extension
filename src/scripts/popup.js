@@ -1,3 +1,11 @@
+/*
+
+Useful steam ids for testing:
+    * 76561197960435530 - valve weapons - robin walker
+    * 76561197960355609 - medal no. 59 - DimitriPopov
+
+*/
+
 var unplacedItemSelector = '#unplaced table.unplaced td img'
 var placedItemSelector = '#backpack table.backpack td img'
 var equippedItemSelector = 'span.equipped'
@@ -146,7 +154,6 @@ var BrowserTool = {
 
 
 var PopupView = {
-
 /*
 	    //$(itemContentSelector).fadeOut().remove()
 	    //PopupView.putItems(self.feed)
@@ -187,7 +194,8 @@ var PopupView = {
     equippedTag: '<span style="display:none" class="equipped">' + _('equipped')  + '</span>',
 
     itemImg: function(item) {
-	return '<img style="display:none" src="' + item['image_url'] + '" />'
+	var def = SchemaTool.itemDefs[item['defindex']]
+	return '<img style="display:none" src="' + def['image_url'] + '" />'
     },
 
     itemInv: function(item) { return item['inventory']  },
@@ -196,7 +204,7 @@ var PopupView = {
 
     init2: function(schema, items) {
 	if (schema.itemDefs && items.items && !(this.newItems)) {
-	    this.newItems = ItemsTool.mergeSchema(SchemaTool.itemDefs, items.items)
+	    this.newItems = items.items // ItemsTool.mergeSchema(SchemaTool.itemDefs, items.items)
 	    this.placeItems(this.newItems)
 	}
     },
@@ -464,8 +472,12 @@ var PopupView = {
 
 }
 
-var     qualityStyles = {
- 	0: 'color-normal',
+
+var ident = function(v) {return v}
+
+var TooltipView = {
+    qualityStyles: {
+	0: 'color-normal',
 	1: 'color-common',
 	2: 'color-rare',
 	3: 'color-vintage',
@@ -475,10 +487,69 @@ var     qualityStyles = {
 	8: 'color-dev',
 	9: 'color-self',
 	10: 'color-custom',
-}
+    },
 
+    extraLineMap: {0:'alt', 1:'positive', 2:'negative'},
+    effectTypeMap: {negative: 'negative', neutral:'alt', positive: 'positive'},
+    prefixCheckMap: {3:'vint', 5:'unusual', 7:'com', 8:'dev', 9:'self'},
+    formatCalcMap: {
 
-var TooltipView = {
+	// for values that translate into percentages and are
+	// represented by that percentage (eg. changes to the blast
+	// radius).  good test is Dead Ringer.
+	value_is_percentage: function (v) { return Math.round(v*100 - 100) },
+
+	//for values that translate into percentages and are
+	//represented by the difference in that percentage from 100%
+	//(eg. changes to the fire rate), good test is Ubersaw.
+	value_is_inverted_percentage: function (v) { return Math.round(100 - (v*100)) },
+
+	//for values that are a specific number (eg. max health
+	//bonuses and bleed durations) and boolean attributes (such as
+	//The Sandman's ability to knock out balls).
+	// good test is Scottish Resistance. TEST SANDMAN
+	value_is_additive: ident,
+
+	// for values that add to an existing percentage (e.g. The
+	// Ubersaw adding 25% charge every hit).  good test is the Ubersaw.
+	value_is_additive_percentage: function (v) { return Math.round(100*v) },
+
+	// for values that are a unix timestamp
+	value_is_date: function (v) { return new Date(v * 1000) },
+
+	// for values that are a particle effect type.
+	value_is_particle_index: ident,
+
+	// for values that are a Steam account ID, e.g., 'Gift from
+	// %s1' Add 1197960265728 to this value and prefix the string
+	// representation of the result with "7656" for a 64 bit Steam
+	// Community ID
+	value_is_account_id: function (v) { return '7656' + (v + 1197960265728) },
+
+	// possibly for values that get applied if a condition is true (e.g. player is on fire)
+	value_is_or: ident,
+    },
+
+    formatDesc: function(node, def, attr) {
+	var line = def['description_string'].replace(/\n/gi, '<br>')
+	// we only look for (and sub) one '%s1'; that's the most there is (as of oct 2010)
+	if (line.indexOf('%s1') > -1) {
+	    var fCalc = this.formatCalcMap[def['description_format']] // || ident
+	    if (node['attributes']) {
+		// WRONG.  find the value by looping over the node attributes and
+		// matching one to the attribute defindex.
+		try {
+		    var val = node['attributes']['attribute'][attr['value']]['value']
+		} catch (e) { val = 0 }
+	    } else {
+		var val = attr['value']
+	    }
+	    line = line.replace('%s1', fCalc(val))
+	}
+	console.log(node, def, attr, line)
+	return line
+    },
+
     init: function() {
 	$('table.backpack td, table.unplaced td')
             .live('mouseenter', this.show)
@@ -486,54 +557,54 @@ var TooltipView = {
     },
 
     hide: function(event) {
-	$('#tooltip').hide()
+	$('#tooltip').hide().css({left:0, top:0})
     },
 
     show: function(event) {
 	var cell = $(this), tooltip = $('#tooltip')
 	if (!cell.children().length) { return }
 	try {
-	    var node = $($('img', cell).data('node'))[0]
-	    var type = node['defindex']
-	    var levelType = node['item_type_name'] //.replace('TF_Wearable_Hat', 'Hat')
-	    var level = node['level']
-	    var desc = node['item_name']
-	    var quals = SchemaTool.qualityMap()
+	    var node = $($('img', cell).data('node'))[0], quals = SchemaTool.qualityMap()
+	    var type = node['defindex'] // empty cells will raise an exception
 	} catch (e) {
 	    return
 	}
+	var sdef = SchemaTool.itemDefs[type]
+	var self = TooltipView, level = node['level'], desc = sdef['item_name']
+	// this doesn't match the game behavior exactly, but it is nice.
+	var levelType = sdef['item_type_name'].replace('TF_Wearable_Hat', _('Hat'))
+	var h4 = $('#tooltip h4')
+
 	// hide the darn thing first
-	tooltip.hide().css({left:0, top:0})
+	self.hide()
 
 	// set the main title and maybe adjust its style and prefix
-	$('#tooltip h4').text(desc)
-	$('#tooltip h4').attr('class', qualityStyles[node['quality']])
-	if (node['quality'] in [5, 6, 7, 8, 9]) {
-	    $('#tooltip h4').text( quals[node['quality']] + ' ' + $('#tooltip h4').text() )
+	h4.text(desc)
+	h4.attr('class', self.qualityStyles[node['quality']])
+	if (node['quality'] in self.prefixCheckMap) {
+	    h4.text(quals[node['quality']] + ' ' + h4.text())
 	}
 
 	// set the level
 	$('#tooltip .level').text(_({key:'level', subs:[level, levelType]}))
 
-	// set the extra text
-	try {
-	    var extraLineMap = {0:'alt', 1:'positive', 2:'negative'}
-	    var effectTypeMap = {negative: 'negative', neutral:'alt', positive: 'positive'}
-	    for (key in extraLineMap) { $('#tooltip .'+ extraLineMap[key]).text('') }
-	    var attrVals = node['attributes']['attribute']
+	// clear and set the extra text
+	for (key in self.extraLineMap) {
+	    $('#tooltip .'+ self.extraLineMap[key]).text('')
+	}
+	if (sdef['attributes']) {
+	    var attrVals = sdef['attributes']['attribute']
 	    for (aidx in attrVals) {
 		var attrDef = SchemaTool.attributes[attrVals[aidx]['name']]
-		console.log(attrDef, node)
-		extra = attrDef['description_string'].replace('\n', '<br>')
-		var etype = effectTypeMap[attrDef['effect_type']]
-		try {
-		    // gah, close but no cigar; see description_format
-		    extra = extra.replace('%s1', (100*attrVals[aidx]['value']) - (etype == 'negative' ? 100 : 0))
-		} catch (e) {}
-		var line = effectTypeMap[attrDef['effect_type']]
-		$('#tooltip .' + line).html(extra)
+		if (!attrDef) { continue }
+		if (attrDef['description_string']=='unused') { continue }
+		var extra = self.formatDesc(node, attrDef, attrVals[aidx])
+		var etype = self.effectTypeMap[attrDef['effect_type']]
+		var current = $('#tooltip .' + etype).html()
+		$('#tooltip .' + etype).html( current ? current + '<br>' + extra : extra)
 	    }
-	} catch (e) {
+	} else {
+	    //console.log(node, 'noattrs')
 	}
 
 	// calculate the position
