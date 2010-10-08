@@ -461,6 +461,20 @@ var PopupView = {
     tweakUnequipImgClass: {
 	'133': 'unequipped-133',
     },
+
+}
+
+var     qualityStyles = {
+ 	0: 'color-normal',
+	1: 'color-common',
+	2: 'color-rare',
+	3: 'color-vintage',
+	5: 'color-unusual',
+	6: 'color-unique',
+	7: 'color-comm',
+	8: 'color-dev',
+	9: 'color-self',
+	10: 'color-custom',
 }
 
 
@@ -495,7 +509,6 @@ var TooltipView = {
 	tooltip.hide().css({left:0, top:0})
 	$('#tooltip h4').text(desc).removeClass('valve community')
 	$('#tooltip .level').text(_({key:'level', subs:[level, levelType]}))
-
 	// special formatting valve and community weapons
 	var extras = []
 	var attrMap = {}
@@ -514,11 +527,13 @@ var TooltipView = {
 	    item['alt'] = extras
 	}
 
-	$('#tooltip h4').removeClass('vintage valve community')
-        if (node['quality'] == 3) {
+
+	$('#tooltip h4').attr('class', qualityStyles[node['quality']])
+        /* if (node['quality'] == 3) {
 	    $('#tooltip h4').text(_('vintage') + ' ' + $('#tooltip h4').text().replace('The ', ''))
 	    $('#tooltip h4').addClass('vintage')
 	}
+	*/
 	if (attrMap['134'] == '2') {
 	    $('#tooltip h4').text($('#tooltip h4').text().replace('The ', ''))
 	    $('#tooltip h4').addClass('valve')

@@ -299,7 +299,7 @@ padding:1em;
 
 
 #tooltip h4 {
-color:#ffd700;
+//color:#ffd700;
 font-family:"TF2Build";
 margin-bottom:1em;
 white-space:nowrap;
@@ -323,6 +323,39 @@ font-family:"TF2secondary";
 font-size:11pt;
 }
 
+/*
+from the tf2 wiki:
+
+Colour Rarity Name
+B2B2B2 Standard
+476291 Vintage
+FFD800 Unique
+70B04A Community
+A50F79 Developer
+874FAD Unusual
+
+*/
+
+
+.color-normal { color:#B2B2B2 }
+.color-common { color:#B2B2B2 }
+.color-rare { color:#B2B2B2 }
+
+.color-vintage {color: #476291; }
+.color-unusual {color: #874FAD; }
+.color-unique { color: #FFD800;  }
+.color-comm {color: #70B04A; }
+.color-dev {color: #A50F79;  }
+.color-self {color:#70B04A }
+.color-custom {color:#70B04A }
+
+.color-vintage:before {
+content:"Vintage ";
+}
+
+.color-dev:before {
+content:"Valve ";
+}
 
 #tooltip .level {
 color:#756b5e;
