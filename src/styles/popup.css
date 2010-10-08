@@ -310,9 +310,6 @@ font-size:12pt;
 color:#aa00aa;
 }
 
-#tooltip h4.valve:before {
-content:"Valve ";
-}
 
 #tooltip h4.community {
 color:#00aa00;
@@ -348,14 +345,6 @@ A50F79 Developer
 .color-dev {color: #A50F79;  }
 .color-self {color:#70B04A }
 .color-custom {color:#70B04A }
-
-.color-vintage:before {
-content:"Vintage ";
-}
-
-.color-dev:before {
-content:"Valve ";
-}
 
 #tooltip .level {
 color:#756b5e;

@@ -77,6 +77,7 @@ var NetTool = {
 	    var eb = options['error']
 	    if (eb) eb({error: err, status: status})
 	}
+	// Add caching based on option 'cache'; use url as storage key
 	$.ajax({url: options['url'],
 		async: undef(options['async']) ? true : undef(options['async']),
 		timeout: undef(options['timeout']) ? this.timeout : undef(options['timeout']),
@@ -160,15 +161,17 @@ var SchemaTool = {
 
     init: function(source) {
         this.raw = source
-        this.itemDefs = this.load(JSON.parse(source))
-    },
-
-    load: function(rawSchema) {
-        var res = {}, defs = rawSchema['result']['items']['item']
+	this.schema = JSON.parse(source)
+        this.itemDefs = {}
+	var defs = this.schema['result']['items']['item']
         for (idx in defs) {
-            res['' + defs[idx]['defindex']] = defs[idx]
+            this.itemDefs['' + defs[idx]['defindex']] = defs[idx]
         }
-        return res
+	this.attributes = {}
+	var attrs = this.schema['result']['attributes']['attribute']
+	for (idx in attrs) {
+	    this.attributes[attrs[idx]['name']] = attrs[idx]
+	}
     },
 
     select: function(key, match, defs) {
@@ -191,6 +194,17 @@ var SchemaTool = {
     uncraftable: function(defs) {
 	return this.select('craft_class', function(v) { return (v==undefined)}, defs)
     },
+
+    qualityMap: function() {
+	var map = {}, quals = this.schema['result']['qualities'], names = this.schema['result']['qualityNames']
+	for (key in quals) {
+	    map[quals[key]] = names[key]
+	}
+	return map
+    },
+
+
+
 
 }
 

@@ -491,76 +491,52 @@ var TooltipView = {
 
     show: function(event) {
 	var cell = $(this), tooltip = $('#tooltip')
-	if (!cell.children().length) {
-	    return
-	}
+	if (!cell.children().length) { return }
 	try {
 	    var node = $($('img', cell).data('node'))[0]
 	    var type = node['defindex']
-	    var item = node
-	    var levelType = node['item_type_name'].replace('TF_Wearable_Hat', 'Hat')
+	    var levelType = node['item_type_name'] //.replace('TF_Wearable_Hat', 'Hat')
 	    var level = node['level']
-	    var desc = '' //item.description.replace('\\n', '<br />')
-	    //var desc = '' + node['quality'] + ' ' + node['item_name']
 	    var desc = node['item_name']
+	    var quals = SchemaTool.qualityMap()
 	} catch (e) {
 	    return
 	}
+	// hide the darn thing first
 	tooltip.hide().css({left:0, top:0})
-	$('#tooltip h4').text(desc).removeClass('valve community')
-	$('#tooltip .level').text(_({key:'level', subs:[level, levelType]}))
-	// special formatting valve and community weapons
-	var extras = []
-	var attrMap = {}
-	$.each($('attributes attribute', node), function(index, value) {
-	    var index = $(value).attr('definitionIndex')
-            //var format = PopupStorage.defs['other_attributes'][index] || ''
-	    var format = ''
-	    if (format) {
-		extras.push( format.replace('%s1', $(value).text()) )
-	    }
-	    attrMap[index] = $(value).text()
-	})
-	if (item['alt']) {
-	    item['alt'].concat(extras)
-	} else if (extras) {
-	    item['alt'] = extras
-	}
 
-
+	// set the main title and maybe adjust its style and prefix
+	$('#tooltip h4').text(desc)
 	$('#tooltip h4').attr('class', qualityStyles[node['quality']])
-        /* if (node['quality'] == 3) {
-	    $('#tooltip h4').text(_('vintage') + ' ' + $('#tooltip h4').text().replace('The ', ''))
-	    $('#tooltip h4').addClass('vintage')
-	}
-	*/
-	if (attrMap['134'] == '2') {
-	    $('#tooltip h4').text($('#tooltip h4').text().replace('The ', ''))
-	    $('#tooltip h4').addClass('valve')
-	} else if ( typeof(attrMap['134']) != 'undefined') {
-	    $('#tooltip h4').text(_('community') + ' ' + $('#tooltip h4').text().replace('The ', ''))
-	    $('#tooltip h4').addClass('community')
+	if (node['quality'] in [5, 6, 7, 8, 9]) {
+	    $('#tooltip h4').text( quals[node['quality']] + ' ' + $('#tooltip h4').text() )
 	}
 
-	// add the various descriptions
-	var medals = ['164', '165', '166', '170']
-	$(['alt', 'positive', 'negative']).each(function(index, key) {
-	    if (item[key]) {
-		var value = item[key].join('<br />').replace('\\n', '<br />')
-		// sub out %s1 for date in medals
-		if (key=='alt' && medals.indexOf(type) > -1) {
-		    var ds = $("attribute[definitionIndex='143']", node).text()
-		    var d = new Date(parseInt(ds) * 1000)
-		    value = value.replace('%s1', d)
-		}
-		if (value.indexOf('TF_') == 0) { value = '' }
-		$('#tooltip .' + key).html(value).show()
-	    } else {
-		$('#tooltip .' + key).text('').hide()
+	// set the level
+	$('#tooltip .level').text(_({key:'level', subs:[level, levelType]}))
+
+	// set the extra text
+	try {
+	    var extraLineMap = {0:'alt', 1:'positive', 2:'negative'}
+	    var effectTypeMap = {negative: 'negative', neutral:'alt', positive: 'positive'}
+	    for (key in extraLineMap) { $('#tooltip .'+ extraLineMap[key]).text('') }
+	    var attrVals = node['attributes']['attribute']
+	    for (aidx in attrVals) {
+		var attrDef = SchemaTool.attributes[attrVals[aidx]['name']]
+		console.log(attrDef, node)
+		extra = attrDef['description_string'].replace('\n', '<br>')
+		var etype = effectTypeMap[attrDef['effect_type']]
+		try {
+		    // gah, close but no cigar; see description_format
+		    extra = extra.replace('%s1', (100*attrVals[aidx]['value']) - (etype == 'negative' ? 100 : 0))
+		} catch (e) {}
+		var line = effectTypeMap[attrDef['effect_type']]
+		$('#tooltip .' + line).html(extra)
 	    }
-	})
-	tooltip.show().hide()
-	// position and show the tooltip
+	} catch (e) {
+	}
+
+	// calculate the position
 	var pos = cell.position()
 	var minleft = cell.parent().position().left
 	var cellw = cell.width()
@@ -576,6 +552,8 @@ var TooltipView = {
 	if (top + tooltip.height() > (window.innerHeight+window.scrollY)) {
     	    top = pos.top - tooltip.height() - 8 // - 36
 	}
+
+	// position and show
 	tooltip.css({left:left, top:top})
 	tooltip.show()
     },
