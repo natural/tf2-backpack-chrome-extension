@@ -414,6 +414,7 @@ margin:1em auto 1em auto;
 
 #stats table.stats {
 padding-top:1em;
+width:100%;
 }
 
 table.stats td {

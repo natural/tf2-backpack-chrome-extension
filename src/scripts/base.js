@@ -2,6 +2,7 @@
 
 */
 var ident = function(v) {return v}
+var undef = function(v) { return typeof(v) == 'undefined' }
 var apiUrlBase = 'http://tf2apiproxy.appspot.com/'
 var urls = {
     apiPlayerItems: apiUrlBase + 'api/v1/items/',
@@ -13,7 +14,11 @@ var urls = {
     tf2Items:       'http://www.tf2items.com/',
     tf2Stats:       'http://tf2stats.net/'
 }
-
+var colors = {
+    blue:  [ 51, 152, 197, 255],
+    green: [ 59, 174,  73, 255],
+    grey:  [128, 128, 128, 255],
+}
 
 
 // this object provides transparent seralization and deseralization
@@ -161,46 +166,48 @@ function i18nize() {
 //
 //
 var SchemaTool = {
-    raw: null, itemDefs: null,
+    itemDefs: null,
 
     init: function(source) {
-        this.raw = source
-	this.schema = JSON.parse(source)
+	this.schema = JSON.parse(source)['result']
+	// a way to lazily compute these would be nice
         this.itemDefs = {}
-	var defs = this.schema['result']['items']['item']
+	this.attributesByName = {}
+	this.attributesById = {}
+	var defs = this.schema['items']['item']
         for (idx in defs) {
             this.itemDefs['' + defs[idx]['defindex']] = defs[idx]
         }
-	this.attributes = {}
-	var attrs = this.schema['result']['attributes']['attribute']
+	var attrs = this.schema['attributes']['attribute']
 	for (idx in attrs) {
-	    this.attributes[attrs[idx]['name']] = attrs[idx]
+	    this.attributesByName[attrs[idx]['name']] = attrs[idx]
+	    this.attributesById[attrs[idx]['defindex']] = attrs[idx]
 	}
     },
 
-    select: function(key, match, defs) {
-        var res = {}, defs = (typeof(defs) == 'undefined') ? this.itemDefs : defs
+    select: function(key, match) {
+        var res = {}, defs = this.itemDefs
         var matchf = (typeof(match) == typeof('')) ? function(v) { return v == match } : match
         for (idx in defs) {if (matchf(defs[idx][key])) {res[idx] = defs[idx]}}
         return res
     },
 
-    crates:  function(defs) {return this.select('craft_class', 'supply_crate', defs)},
-    hats:    function(defs) {return this.select('item_slot', 'head', defs)},
-    metal:   function(defs) {return this.select('craft_class', 'craft_bar', defs)},
-    misc:    function(defs) {return this.select('item_slot', 'misc', defs)},
-    tokens:  function(defs) {return this.select('craft_class', 'craft_token', defs)},
-    tools:   function(defs) {return this.select('craft_class', 'tool', defs)},
-    weapons: function(defs) {return this.select('craft_class', 'weapon', defs)},
-    stock:   function(defs) {
-	return this.select('defindex', function(v) { return (v>190 && v<213) }, defs)
+    crates:  function() {return this.select('craft_class', 'supply_crate')},
+    hats:    function() {return this.select('item_slot', 'head')},
+    metal:   function() {return this.select('craft_class', 'craft_bar')},
+    misc:    function() {return this.select('item_slot', 'misc')},
+    tokens:  function() {return this.select('craft_class', 'craft_token')},
+    tools:   function() {return this.select('craft_class', 'tool')},
+    weapons: function() {return this.select('craft_class', 'weapon')},
+    stock:   function() {
+	return this.select('defindex', function(v) { return (v>190 && v<213) })
     },
-    uncraftable: function(defs) {
-	return this.select('craft_class', function(v) { return (v==undefined)}, defs)
+    uncraftable: function() {
+	return this.select('craft_class', function(v) { return (v==undefined) })
     },
 
     qualityMap: function() {
-	var map = {}, quals = this.schema['result']['qualities'], names = this.schema['result']['qualityNames']
+	var map = {}, quals = this.schema['qualities'], names = this.schema['qualityNames']
 	for (key in quals) {
 	    map[quals[key]] = names[key]
 	}
@@ -214,26 +221,70 @@ var SchemaTool = {
 
 
 var ItemsTool = {
-    raw: null, items: null,
+    items: null,
 
     init: function(source) {
-        this.raw = source
         this.items = JSON.parse(source)
+	// can't call the schema tool directly because it might not be
+	// ready, so we supply small wrappers.
+	this.hats = this.makeFilter(function() { return SchemaTool.hats() })
+	this.metal = this.makeFilter(function() { return SchemaTool.metal() })
+	this.misc = this.makeFilter(function() { return SchemaTool.misc() })
     },
 
-    mergeSchema: function(schema, items) {
-	var res = [], items = (typeof(items)=='undefined') ? this.items : items
-	for (idx in items) {
-	    copy = $.extend(true, {}, items[idx])
-	    $.extend(copy, schema[items[idx]['defindex']])
-	    res[idx] = copy
+    makeFilter: function(schemaCall) {
+	return function() {
+	    var defs = schemaCall()
+	    return this.items.filter(function(item) { return item['defindex'] in defs })
 	}
-	return res
-    }
-
+    },
 }
 
 
+// this object encapsulates the interaction between this extension and
+// the web browser; opening tabs and windows, etc.
+//
+var BrowserTool = {
+    betterTranslation: function() {
+	return window.open('mailto:phineas.natural@gmail.com?subject=Better Translation')
+    },
 
+    externalBackpack: function() {
+	return this.show(urls.tf2Items + 'profiles/' + BaseStorage.profileId())
+    },
 
-var undef = function(v) { return typeof(v) == 'undefined' }
+    externalStats: function() {
+	return this.show(urls.tf2Stats + 'player_stats/' + BaseStorage.profileId())
+    },
+
+    showOptions: function() {
+	chrome.tabs.create({url:'./options.html'})
+	window.close()
+	return false
+    },
+
+    showProfile: function(id64) {
+	id64 = (typeof(id64) == 'undefined') ? BaseStorage.profileId() : id64
+        return this.show(urls.steamCommunity + 'profiles/' + id64)
+    },
+
+    show: function(url) {
+	this.open(function (m) { return m.indexOf(url) == 0 }, url)
+    },
+
+    open: function(match, newUrl) {
+	chrome.tabs.getAllInWindow(undefined,
+            function(tabs) {
+                for (var i = 0, tab; tab = tabs[i]; i++) {
+                    if (tab.url && match(tab.url)) {
+		        window.close()
+                        chrome.tabs.update(tab.id, {selected:true})
+                        return false
+                    }
+                }
+	        window.close()
+                chrome.tabs.create({url:newUrl})
+	        return false
+            })
+    },
+}

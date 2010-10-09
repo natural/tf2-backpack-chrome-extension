@@ -1,22 +1,18 @@
 /*
-
-Useful steam ids for testing:
+    Some useful steam ids for testing:
 
     * 76561197960435530 - valve weapons - robin walker
     * 76561197968459473 - community item, gw, medal 4021 - df
 
 */
-
 var unplacedItemSelector = '#unplaced table.unplaced td img'
 var placedItemSelector = '#backpack table.backpack td img'
 var equippedItemSelector = 'span.equipped'
 var itemContentSelector = [unplacedItemSelector, placedItemSelector, equippedItemSelector].join(', ')
 
 
-//
 // this object encapsulates the state and behavior of the backpack
 // view: the items, their locations, current page, etc.
-//
 var BackpackView = {
     current: 1, count: 1,
 
@@ -26,8 +22,16 @@ var BackpackView = {
 	self.current = 1 + $('#backpack tbody').filter(':visible').index()
 	$('.nav:first a').live('click', function (e) {return self.nav(e, -1)})
 	$('.nav:last a').live('click',  function (e) {return self.nav(e, 1)})
-	self.updateNav()
 	self.fastForward()
+	self.navChanged()
+    },
+
+    fastForward: function() {
+	var prev = BaseStorage.get('previousPage', {missing:1})
+	if (prev > 1) {
+	    $('#backpackPage-1').hide()
+	    this.navTo(prev)
+	}
     },
 
     nav: function(event, offset) {
@@ -37,8 +41,7 @@ var BackpackView = {
 	    $('#backpackPage-' + self.current).fadeOut(250, function() {
 		self.current += offset
 		$('#backpackPage-' + self.current).fadeIn(250)
-		BaseStorage.set('previousPage', self.current)
-		self.updateNav()
+		self.navChanged()
 	    })
 	}
 	return false
@@ -47,10 +50,11 @@ var BackpackView = {
     navTo: function(page) {
 	this.current = page
 	$('#backpackPage-' + page).fadeIn(250)
-	this.updateNav()
+	this.navChanged()
     },
 
-    updateNav: function () {
+    navChanged: function () {
+	BaseStorage.set('previousPage', this.current)
 	var current = _('num'+this.current), count = _('num'+this.count)
 	$('#pages').text(current + '/' + count)
 	if (this.current == 1) {
@@ -69,96 +73,30 @@ var BackpackView = {
 	}
     },
 
-    fastForward: function() {
-	var prev = BaseStorage.get('previousPage', {missing:1})
-	if (prev > 1) {
-	    $('#backpackPage-1').hide()
-	    this.navTo(prev)
-	}
-    },
-
     showStock: function() {
 	var showStock = function(req, status) {
-	    var xml = req.responseXML
+	    //var xml = req.responseXML
 	    $(itemContentSelector).fadeOut().remove()
-	    PopupView.putItems(xml)
+	    //placeItems(...)
 	}
-	$.ajax({url:'media/stock_items.xml', complete:showStock})
+	//$.ajax({url:'media/stock_items.xml', complete:showStock})
     },
 
     hideStock: function() {
-	var xml = this.feed
-	if (xml) {
-	    $(itemContentSelector).fadeOut().remove()
-	    PopupView.putItems(xml)
+	//var xml = this.feed
+	if (true) {
+	    //$(itemContentSelector).fadeOut().remove()
+	    //placeIems(...)
 	} else {
-	    console.warning('empty xml')
+	    //console.warning('empty xml')
 	}
     },
-
-
 }
 
 
-//
-// this object encapsulates the interaction between this extension and the 
-// web browser; opening tabs and windows, etc.
-//
-var BrowserTool = {
-    betterTranslation: function() {
-	return window.open('mailto:phineas.natural@gmail.com?subject=Better Translation')
-    },
-
-    externalBackpack: function() {
-	return this.show(urls.tf2Items + 'profiles/' + BaseStorage.profileId())
-    },
-
-    externalStats: function() {
-	return this.show(urls.tf2Stats + 'player_stats/' + BaseStorage.profileId())
-    },
-
-    showOptions: function() {
-	chrome.tabs.create({url:'./options.html'})
-	window.close()
-	return false
-    },
-
-    showProfile: function(id64) {
-	id64 = (typeof(id64) == 'undefined') ? BaseStorage.profileId() : id64
-        return this.show(urls.steamCommunity + 'profiles/' + id64)
-    },
-
-    show: function(url) {
-	this.open(function (m) { return m.indexOf(url) == 0 }, url)
-    },
-
-    open: function(match, newUrl) {
-	chrome.tabs.getAllInWindow(undefined,
-            function(tabs) {
-                for (var i = 0, tab; tab = tabs[i]; i++) {
-                    if (tab.url && match(tab.url)) {
-		        window.close()
-                        chrome.tabs.update(tab.id, {selected:true})
-                        return false
-                    }
-                }
-	        window.close()
-                chrome.tabs.create({url:newUrl})
-	        return false
-            })
-    },
-}
-
-
-//
 // this object encapsulates the state and behavior of the popup window
 // as a whole.
 //
-
-//	some cruft:
-//	    $(itemContentSelector).fadeOut().remove()
-//	    PopupView.putItems(self.feed)
-//	    PopupView.putCharInfo(self.feed)
 var PopupView = {
     playerItems: null,
     equippedTag: '<span style="display:none" class="equipped">' + _('equipped')  + '</span>',
@@ -194,7 +132,8 @@ var PopupView = {
 	var schema = SchemaTool, items = ItemsTool
 	if (schema.itemDefs && items.items && !(this.playerItems)) {
 	    this.playerItems = items.items
-	    this.placeItems(this.playerItems)
+	    this.placeItems()
+	    this.placeStats()
 	}
     },
 
@@ -205,20 +144,18 @@ var PopupView = {
 	$(this).addClass('selected')
     },
 
+    itemEquipped: function(item) { return (item['inventory'] & 0xff0000) != 0 },
     itemImg: function(item) {
 	var src = SchemaTool.itemDefs[item['defindex']]['image_url']
 	return '<img style="display:none" src="' + (src ? src : 'icons/missing.png') + '" />'
     },
-
     itemInv: function(item) { return item['inventory']  },
     itemPos: function(item) { return item['inventory'] & 0xFFFF },
-    itemEquipped: function(item) { return (item['inventory'] & 0xff0000) != 0 },
 
-
-    placeItems: function(items) {
+    placeItems: function() {
 	var newIdx = -1
-	for (index in items) {
-	    var item = items[index]
+	for (index in ItemsTool.items) {
+	    var item = ItemsTool.items[index]
 	    var pos = this.itemPos(item) // var inv = item['inventory'], inv & 0xFFFF
 	    if (pos > 0) {
 		var ele = $('#c' + pos + ' div').append(this.itemImg(item))
@@ -246,6 +183,35 @@ var PopupView = {
     },
 
 
+    placeProfile: function(profile) {
+	$('#steamID a').text(profile['personaname'])
+	if (profile['avatarfull']) {
+	    $('#avatar img').fadeOut().remove()
+	    $('#avatar').append("<img src='" + profile['avatarfull'] + "' />")
+	}
+    },
+
+    placeStats: function() {
+	var totalItems = ItemsTool.items.length
+	var hatItems = ItemsTool.hats()
+	var metalItems = ItemsTool.metal()
+	var metalWorth = metalItems.map(
+	    function(v) { return (v['level']==3) ? 9 : (v['level']==2 ? 3 : 1) }).reduce(
+		function(a, b) { return a+b })
+	var miscItems = ItemsTool.misc()
+	$('#totalItems').text(totalItems)
+	$('#numHats').text(hatItems.length)
+	$('#numMetal').text(metalItems.length)
+	$('#metalWorth').text(metalWorth)
+	$('#numMisc').text(miscItems.length)
+	$('#numNormal').text(totalItems - hatItems.length - metalItems.length - miscItems.length)
+	// TODO:  add counts of paint, etc.
+        // give the first timing row (cache time) and the hide button
+	// some extra top padding
+        $("table.stats td:has(strong[class='its_msg_20']), table.stats td:has(a)")
+	    .css('padding-top', '1.5em')
+    },
+
     showMessage: function(type, message, duration) {
 	if (type=='warning' && message.toLowerCase().indexOf('warning') != 0) {
 	    message = _('warning') + ': ' +  _(message)
@@ -256,7 +222,6 @@ var PopupView = {
         $('#'+type).text(message).slideDown().delay(duration||5000).slideUp()
     },
 
-
     updateRefreshTime: function() {
 	var data = $('#nextFetch').data()
 	if (data && data.next) {
@@ -266,7 +231,6 @@ var PopupView = {
 	}
 	$('#nextFetch').text(show)
     },
-
 
     formatCountDown: function(value, zero, single, plural) {
 	var seconds = Math.round((value  - Date.now())/1000)
@@ -308,29 +272,6 @@ var PopupView = {
 	sendResponse({})
     },
 
-    requestRefresh: function(event) {
-	$('html body').animate({scrollTop: 0})
-	chrome.extension.sendRequest({type:'driver', message:'refresh'}, function(response) {})
-	return false
-    },
-
-    showStats: function() {
-	$('#stats').slideDown(400, function() {
-	    $("#controls a:contains('Stats')").fadeOut()
-	    var ele = $('table.backpack')
-	    $('html body').animate({scrollTop: ele.position().top + ele.height()})
-	})
-	return false
-    },
-
-    hideStats: function() {
-	$('#stats').slideUp(400, function() {
-	    $("#controls a:contains('Stats')").fadeIn()
-	    $('html body').animate({scrollTop: 0})
-	})
-	return false
-    },
-
     putTimings: function() {
 	chrome.extension.sendRequest(
 	    {type: 'driver', message: 'params'},
@@ -343,33 +284,6 @@ var PopupView = {
 		    PopupView.showMessage('warning', _('from_cache'))
 		}
 	    })
-    },
-
-    putCharInfo: function(feed) {
-	feed = JSON.parse(feed)
-	$('#steamID a').text(feed['personaname'])
-	if (feed['avatarfull']) {
-	    $('#avatar img').fadeOut().remove()
-	    $('#avatar').append("<img src='" + feed['avatarfull'] + "' />")
-	}
-    },
-
-    putCharInfo__: function(feed) {
-	$(['numHats', 'numNormal', 'numMisc',
-	   'numMetal', 'numUnknown', 'totalItems',
-	   'metalWorth', 'profileViews']).each(function(index, key) {
-	       $('#'+key).text( $('backpack '+key, feed).text() )
-	})
-	if ($('backpack fromCache', feed).text()=='1') {
-	    $('#cacheTime').text(Date($('backpack cacheTime').text()))
-	} else {
-	    $('#cacheTime').text('Not from cache.')
-	}
-        // give the first timing row (cache time) and the hide button
-	// some extra top padding
-        $("table.stats td:has(strong[class='its_msg_20']), table.stats td:has(a)")
-	    .css('padding-top', '1.5em')
-	this.putTimings()
     },
 }
 
@@ -416,16 +330,15 @@ var TooltipView = {
 	value_is_or: ident,
     },
 
-    formatSchemaAttr: function(node, def, attr) {
+    formatSchemaAttr: function(def, val) {
 	var line = def['description_string'].replace(/\n/gi, '<br>')
 	// we only look for (and sub) one '%s1'; that's the most there is (as of oct 2010)
 	if (line.indexOf('%s1') > -1) {
 	    var fCalc = this.formatCalcMap[def['description_format']]
-	    var val = attr['value']
 	    line = line.replace('%s1', fCalc(val))
 	}
-	console.log(node, def, attr, line)
-	return line
+	console.log(def, line)
+	return line.indexOf('Attrib_') > -1 ? '' : line
     },
 
     init: function() {
@@ -473,10 +386,11 @@ var TooltipView = {
 	if (schemaItem['attributes']) {
 	    var schemaAttrs = schemaItem['attributes']['attribute']
 	    for (aidx in schemaAttrs) {
-		var attrDef = SchemaTool.attributes[schemaAttrs[aidx]['name']]
+		var attrDef = SchemaTool.attributesByName[schemaAttrs[aidx]['name']]
 		if (!attrDef) { console.log('missing attr def', schemaAttrs[aidx]); continue }
 		if (attrDef['description_string']=='unused') { continue }
-		var extra = self.formatSchemaAttr(playerItem, attrDef, schemaAttrs[aidx])
+		if (attrDef['attribute_class']=='set_employee_number') { continue }
+		var extra = self.formatSchemaAttr(attrDef, schemaAttrs[aidx]['value'])
 		var etype = self.effectTypeMap[attrDef['effect_type']]
 		var current = $('#tooltip .' + etype).html()
 		$('#tooltip .' + etype).html( current ? current + '<br>' + extra : extra)
@@ -485,10 +399,12 @@ var TooltipView = {
 	if (playerItem['attributes']) {
 	    itemAttrs = playerItem['attributes']['attribute']
 	    for (aidx in itemAttrs) {
-		// TODO: need a better way to select an attribute
-		// definition by its defindex.
-		//var attrDef = SchemaTool.attributes[itemAttrs[aidx]['defindex']]
-		console.log('custom item attributes', itemAttrs[aidx])
+		//console.log('custom item attributes', itemAttrs[aidx], playerItem)
+		var attrDef = SchemaTool.attributesById[itemAttrs[aidx]['defindex']]
+		var extra = self.formatSchemaAttr(attrDef, itemAttrs[aidx]['value'])
+		var etype = self.effectTypeMap[attrDef['effect_type']]
+		var current = $('#tooltip .' + etype).html()
+		$('#tooltip .' + etype).html( current ? current + '<br>' + extra : extra)
 	    }
 	}
 
@@ -515,7 +431,8 @@ var TooltipView = {
     },
 }
 
-
+// this object abstracts the external interface to the entire popup window.  
+// it's more th
 var Popup = {
     schema: {}, profile: {}, items: {},
 
@@ -544,7 +461,7 @@ var Popup = {
 	    {type: 'getPlayerProfile', id64: BaseStorage.profileId()},
 	    function (profile) {
 		Popup.profile = JSON.parse(profile)
-		PopupView.putCharInfo(profile)
+		PopupView.placeProfile(Popup.profile)
 		PopupView.reconfigure()
 		console.log('player profile:', Popup.profile)
 	    })
@@ -562,4 +479,28 @@ var Popup = {
 	    })
 	})
     },
+
+    requestRefresh: function(event) {
+	$('html body').animate({scrollTop: 0})
+	//chrome.extension.sendRequest({type:'driver', message:'refresh'}, function(response) {})
+	return false
+    },
+
+    showStats: function() {
+	$('#stats').slideDown(400, function() {
+	    $("#controls a:contains('Stats')").fadeOut()
+	    var ele = $('table.backpack')
+	    $('html body').animate({scrollTop: ele.position().top + ele.height()})
+	})
+	return false
+    },
+
+    hideStats: function() {
+	$('#stats').slideUp(400, function() {
+	    $("#controls a:contains('Stats')").fadeIn()
+	    $('html body').animate({scrollTop: 0})
+	})
+	return false
+    },
 }
+

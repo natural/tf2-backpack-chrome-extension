@@ -14,11 +14,10 @@ var markClean = function() {
 var save = function(cb) {
     var newProfileId = $('#profileId').attr('value')
     if (newProfileId == BaseStorage.profileId()) { return }
-    console.log('entering sendRequest')
 
     var okay = function(response) {
-	var profiles = JSON.parse(response.results)
-	var foundId = profiles[0]['id']
+	var profiles = JSON.parse(response)
+	var foundId = profiles.filter(function(p) { return p['id_type']=='id64'})[0]['id']
 	if (newProfileId != foundId) {
 	    $('#msg').text(_({key: 'profile_found', subs:[foundId, newProfileId]}))
 		.fadeIn()
@@ -37,8 +36,7 @@ var save = function(cb) {
 	$('#msg').text('SteamID not found.  Please try again ' + msg + '.').fadeIn()
     }
     chrome.extension.sendRequest(
-	{type: 'searchPlayers',q: newProfileId, errorResponse:err}, okay
-    )
+	{type: 'searchPlayers', q: newProfileId, errorResponse:err}, okay)
 }
 
 

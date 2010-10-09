@@ -163,6 +163,10 @@
     "description": "show stock items",
     "message": "Show Stock Items"
   },
+  "its_msg_38": {
+    "description": "misc. itesm",
+    "message": "Misc. Items"
+  },
   "its_msg_4": {
     "description": "save button",
     "message": "Save"

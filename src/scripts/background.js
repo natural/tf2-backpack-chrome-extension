@@ -1,17 +1,9 @@
-//  named colors
-var Colors = {
-    blue:  [ 51, 152, 197, 255],
-    green: [ 59, 174,  73, 255],
-    grey:  [128, 128, 128, 255],
-}
+/*
+
+*/
 
 
-
-
-
-//
 // encapsulates the tf2 item schema and the players backpack items.
-//
 var WebDataTool = {
     init: function() {
 	console.info('WebDataTool.init complete')
@@ -91,19 +83,16 @@ var WebDataTool = {
 	} else {
 	    NetTool.get({
 		url: urls.apiSearch+q,
-		success: function(results) { if (onSuccess) { onSuccess({results: results}) }},
+		success: function(results) { if (onSuccess) { onSuccess(results) }},
 		error: function(error) { if (onError) { onError(error) }}
 	    })
 	}
     }
-
 }
 
 
-//
 // animation to spin the badge icon; based on the gmail checker
 // extension.
-//
 var BadgeIcon = {
     canvas: null,
     context: null,
@@ -162,9 +151,7 @@ var BadgeIcon = {
 }
 
 
-//
-// encapsulates feed checking and the scheduling of those checks.
-//
+// encapsulates feed checking and the scheduling.
 var FeedDriver = {
     countHats: 0,
     countNotHats: 0,
@@ -276,7 +263,7 @@ var FeedDriver = {
 	this.requestBackoff++
 	this.requestError = message
 	BadgeIcon.enabled(false)
-        BadgeText.stop('?', Colors.grey)
+        BadgeText.stop('?', colors.grey)
 	chrome.extension.sendRequest({status: status, type: 'refresh', message: message})
     },
 
@@ -329,7 +316,7 @@ var FeedDriver = {
 	    }
 	    BadgeText.stop(
 		self.countTotal ? self.countTotal.toString() : '',
-		self.countHats > 0 ? Colors.green : Colors.blue
+		self.countHats > 0 ? colors.green : colors.blue
 	    )
 	}
 	BaseStorage.loadItemDefs(defsLoaded, defsError)
@@ -359,7 +346,7 @@ var BadgeText = {
     timerId: 0, maxCount: 6, current: 0, maxDot: 3,
 
     init: function() {
-	this.start(Colors.grey)
+	this.start(colors.grey)
 	console.info('BadgeText.init complete')
     },
 
@@ -466,6 +453,7 @@ var Background = {
 		)
 	        break
 	    case 'searchPlayers':
+	        console.log('search players case')
 	        WebDataTool.searchPlayers(
 		    {q: request.q, success: sendResponse, error: request.errorResponse}
 		)
@@ -474,6 +462,3 @@ var Background = {
 	}
     },
 }
-
-
-
