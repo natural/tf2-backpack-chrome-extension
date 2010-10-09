@@ -169,29 +169,28 @@ var SchemaTool = {
     itemDefs: null,
 
     init: function(source) {
-	this.schema = JSON.parse(source)['result']
+	var self = this
+	self.schema = JSON.parse(source)['result']
 	// a way to lazily compute these would be nice
-        this.itemDefs = {}
-	this.attributesByName = {}
-	this.attributesById = {}
-	var defs = this.schema['items']['item']
-        for (idx in defs) {
-            this.itemDefs['' + defs[idx]['defindex']] = defs[idx]
-        }
-	var attrs = this.schema['attributes']['attribute']
-	for (idx in attrs) {
-	    this.attributesByName[attrs[idx]['name']] = attrs[idx]
-	    this.attributesById[attrs[idx]['defindex']] = attrs[idx]
-	}
+        self.itemDefs = {}, self.attributesByName = {}, self.attributesById = {}
+
+	$.each(self.schema['items']['item'], function(idx, def) {
+	    self.itemDefs[def['defindex']] = def
+	})
+        $.each(self.schema['attributes']['attribute'], function(idx, def) {
+	    self.attributesByName[def['name']] = def
+	    self.attributesById[def['defindex']] = def
+        })
     },
 
     select: function(key, match) {
-        var res = {}, defs = this.itemDefs
+        var res = {}
         var matchf = (typeof(match) == typeof('')) ? function(v) { return v == match } : match
-        for (idx in defs) {if (matchf(defs[idx][key])) {res[idx] = defs[idx]}}
+	$.each(this.itemDefs, function(idx, def) { if (matchf(def[key])) {res[idx] = def }})
         return res
     },
 
+    actions: function() {return this.select('item_slot', 'action')},
     crates:  function() {return this.select('craft_class', 'supply_crate')},
     hats:    function() {return this.select('item_slot', 'head')},
     metal:   function() {return this.select('craft_class', 'craft_bar')},
@@ -207,10 +206,8 @@ var SchemaTool = {
     },
 
     qualityMap: function() {
-	var map = {}, quals = this.schema['qualities'], names = this.schema['qualityNames']
-	for (key in quals) {
-	    map[quals[key]] = names[key]
-	}
+	var map = {}, names = this.schema['qualityNames']
+	$.each(this.schema['qualities'], function(name, key) { map[key] = names[name] })
 	return map
     },
 

@@ -153,16 +153,16 @@ var PopupView = {
     itemPos: function(item) { return item['inventory'] & 0xFFFF },
 
     placeItems: function() {
-	var newIdx = -1
-	for (index in ItemsTool.items) {
-	    var item = ItemsTool.items[index]
-	    var pos = this.itemPos(item) // var inv = item['inventory'], inv & 0xFFFF
+	var newIdx = -1, self = this
+	var toolDefs = SchemaTool.tools(), actionDefs = SchemaTool.actions()
+	$.each(ItemsTool.items, function(index, item) {
+	    var pos = self.itemPos(item)
 	    if (pos > 0) {
-		var ele = $('#c' + pos + ' div').append(this.itemImg(item))
+		var ele = $('#c' + pos + ' div').append(self.itemImg(item))
 		var img = $('img:last', ele).data('node', item)
 		var def = item['defindex']
-		if (this.itemEquipped(item)) {
-		    img.addClass('equipped equipped-'+def).after(this.equippedTag)
+		if (self.itemEquipped(item)) {
+		    img.addClass('equipped equipped-'+def).after(self.equippedTag)
 		    img.removeClass('unequipped-'+def)
 		} else {
 		    img.addClass('unequipped-'+def)
@@ -174,10 +174,15 @@ var PopupView = {
 		    var cells = new Array(5+1).join('<td><div></div></td>')
 		    $('table.unplaced').append('<tbody><tr>' + cells + '</tr></tbody>')
 		}
-		$('table.unplaced td:eq('+newIdx+') div').append(this.itemImg(item))
+		$('table.unplaced td:eq('+newIdx+') div').append(self.itemImg(item))
 		$('table.unplaced td img:last').data('node', item)
 	    }
-	}
+	    // add the dohicky for item quanity
+	    if ((item['defindex'] in toolDefs) || (item['defindex'] in actionDefs)) {
+		img.before('<span class="quantity">' + _('' + item['quantity']) + '</span>')
+		img.css('margin-top', '-1em')
+	    }
+	})
 	$('#unplaced, hr.unplaced').toggle(newIdx > -1)
 	$(itemContentSelector).fadeIn(750)
     },
@@ -331,7 +336,7 @@ var TooltipView = {
     },
 
     formatSchemaAttr: function(def, val) {
-	var line = def['description_string'].replace(/\n/gi, '<br>')
+	var line = def['description_string'].replace(/\n/gi, '<br />')
 	// we only look for (and sub) one '%s1'; that's the most there is (as of oct 2010)
 	if (line.indexOf('%s1') > -1) {
 	    var fCalc = this.formatCalcMap[def['description_format']]
@@ -380,32 +385,30 @@ var TooltipView = {
 	$('#tooltip .level').text(_({key:'level', subs:[level, levelType]}))
 
 	// clear and set the extra text
-	for (key in self.extraLineMap) {
-	    $('#tooltip .'+ self.extraLineMap[key]).text('')
+	$.each(self.extraLineMap, function(k, v) { $('#tooltip .'+ self.extraLineMap[k]).text('') })
+
+	if (playerItem['attributes']) {
+	    $.each(playerItem['attributes']['attribute'], function(aidx, itemAttr) {
+		var attrDef = SchemaTool.attributesById[itemAttr['defindex']]
+		console.log(playerItem, itemAttr, attrDef)
+		var extra = self.formatSchemaAttr(attrDef, itemAttr['value'])
+		var etype = self.effectTypeMap[attrDef['effect_type']]
+		var current = $('#tooltip .' + etype).html()
+		$('#tooltip .' + etype).html( current ? current + '<br />' + extra : extra)
+	    })
 	}
 	if (schemaItem['attributes']) {
-	    var schemaAttrs = schemaItem['attributes']['attribute']
-	    for (aidx in schemaAttrs) {
-		var attrDef = SchemaTool.attributesByName[schemaAttrs[aidx]['name']]
-		if (!attrDef) { console.log('missing attr def', schemaAttrs[aidx]); continue }
-		if (attrDef['description_string']=='unused') { continue }
-		if (attrDef['attribute_class']=='set_employee_number') { continue }
-		var extra = self.formatSchemaAttr(attrDef, schemaAttrs[aidx]['value'])
+	    $.each(schemaItem['attributes']['attribute'], function(aidx, schemaAttr) {
+		var attrDef = SchemaTool.attributesByName[schemaAttr['name']]
+		console.log(playerItem, schemaAttr, attrDef)
+		if (!attrDef) { return }
+		if (attrDef['description_string']=='unused') { return }
+		if (attrDef['attribute_class']=='set_employee_number') { return }
+		var extra = self.formatSchemaAttr(attrDef, schemaAttr['value'])
 		var etype = self.effectTypeMap[attrDef['effect_type']]
 		var current = $('#tooltip .' + etype).html()
-		$('#tooltip .' + etype).html( current ? current + '<br>' + extra : extra)
-	    }
-	}
-	if (playerItem['attributes']) {
-	    itemAttrs = playerItem['attributes']['attribute']
-	    for (aidx in itemAttrs) {
-		//console.log('custom item attributes', itemAttrs[aidx], playerItem)
-		var attrDef = SchemaTool.attributesById[itemAttrs[aidx]['defindex']]
-		var extra = self.formatSchemaAttr(attrDef, itemAttrs[aidx]['value'])
-		var etype = self.effectTypeMap[attrDef['effect_type']]
-		var current = $('#tooltip .' + etype).html()
-		$('#tooltip .' + etype).html( current ? current + '<br>' + extra : extra)
-	    }
+		$('#tooltip .' + etype).html( current ? current + '<br />' + extra : extra)
+	    })
 	}
 
 	// calculate the position
