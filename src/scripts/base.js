@@ -1,3 +1,7 @@
+/*
+
+*/
+var ident = function(v) {return v}
 var apiUrlBase = 'http://tf2apiproxy.appspot.com/'
 var urls = {
     apiPlayerItems: apiUrlBase + 'api/v1/items/',
@@ -12,10 +16,10 @@ var urls = {
 
 
 
-//    this object provides transparent seralization and deseralization
-//    of values via the localStorage interface.
+// this object provides transparent seralization and deseralization
+// of values via the localStorage interface.
 //
-//    this might be useful:  chrome.extension.onRequest.addListener(this.refreshHandler)
+// this might be useful:  chrome.extension.onRequest.addListener(this.refreshHandler)
 var BaseStorage = {
     init: function() {
     },

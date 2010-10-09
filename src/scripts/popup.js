@@ -1,8 +1,9 @@
 /*
 
 Useful steam ids for testing:
+
     * 76561197960435530 - valve weapons - robin walker
-    * 76561197960355609 - medal no. 59 - DimitriPopov
+    * 76561197968459473 - community item, gw, medal 4021 - df
 
 */
 
@@ -12,23 +13,20 @@ var equippedItemSelector = 'span.equipped'
 var itemContentSelector = [unplacedItemSelector, placedItemSelector, equippedItemSelector].join(', ')
 
 
-/*
-
-    this object encapsulates the state and behavior of the backpack
-    view: the items, their locations, current page, etc.
-
-*/
+//
+// this object encapsulates the state and behavior of the backpack
+// view: the items, their locations, current page, etc.
+//
 var BackpackView = {
-    current: 1,
-    count: 1,
+    current: 1, count: 1,
 
     init: function() {
 	var self = this
 	self.count = $('#backpack table.backpack tbody').length
 	self.current = 1 + $('#backpack tbody').filter(':visible').index()
-	self.updateNav()
 	$('.nav:first a').live('click', function (e) {return self.nav(e, -1)})
 	$('.nav:last a').live('click',  function (e) {return self.nav(e, 1)})
+	self.updateNav()
 	self.fastForward()
     },
 
@@ -102,10 +100,10 @@ var BackpackView = {
 }
 
 
-/*
-
-
-*/
+//
+// this object encapsulates the interaction between this extension and the 
+// web browser; opening tabs and windows, etc.
+//
 var BrowserTool = {
     betterTranslation: function() {
 	return window.open('mailto:phineas.natural@gmail.com?subject=Better Translation')
@@ -149,18 +147,22 @@ var BrowserTool = {
 	        return false
             })
     },
-
 }
 
 
-var PopupView = {
-/*
-	    //$(itemContentSelector).fadeOut().remove()
-	    //PopupView.putItems(self.feed)
-	    //PopupView.putCharInfo(self.feed)
-	    //PopupView.loadAndShowProfile()
+//
+// this object encapsulates the state and behavior of the popup window
+// as a whole.
+//
 
-*/
+//	some cruft:
+//	    $(itemContentSelector).fadeOut().remove()
+//	    PopupView.putItems(self.feed)
+//	    PopupView.putCharInfo(self.feed)
+var PopupView = {
+    playerItems: null,
+    equippedTag: '<span style="display:none" class="equipped">' + _('equipped')  + '</span>',
+
     init: function() {
 	chrome.extension.onRequest.addListener(this.handleRefresh)
 	$('table.unplaced td:has(img)')
@@ -185,55 +187,61 @@ var PopupView = {
 		BackpackView.hideStock()
 	    }
 	})
-
 	window.setInterval(this.updateRefreshTime, 1000)
     },
 
+    reconfigure: function() {
+	var schema = SchemaTool, items = ItemsTool
+	if (schema.itemDefs && items.items && !(this.playerItems)) {
+	    this.playerItems = items.items
+	    this.placeItems(this.playerItems)
+	}
+    },
 
-    newItems: null,
-    equippedTag: '<span style="display:none" class="equipped">' + _('equipped')  + '</span>',
+    itemClicked: function(event) {
+	if (!event.ctrlKey) {
+	    $('table.backpack td').removeClass('selected')
+	}
+	$(this).addClass('selected')
+    },
 
     itemImg: function(item) {
-	var def = SchemaTool.itemDefs[item['defindex']]
-	return '<img style="display:none" src="' + def['image_url'] + '" />'
+	var src = SchemaTool.itemDefs[item['defindex']]['image_url']
+	return '<img style="display:none" src="' + (src ? src : 'icons/missing.png') + '" />'
     },
 
     itemInv: function(item) { return item['inventory']  },
     itemPos: function(item) { return item['inventory'] & 0xFFFF },
     itemEquipped: function(item) { return (item['inventory'] & 0xff0000) != 0 },
 
-    init2: function(schema, items) {
-	if (schema.itemDefs && items.items && !(this.newItems)) {
-	    this.newItems = items.items // ItemsTool.mergeSchema(SchemaTool.itemDefs, items.items)
-	    this.placeItems(this.newItems)
-	}
-    },
 
     placeItems: function(items) {
-	var newItemIndex = -1
+	var newIdx = -1
 	for (index in items) {
 	    var item = items[index]
 	    var pos = this.itemPos(item) // var inv = item['inventory'], inv & 0xFFFF
 	    if (pos > 0) {
 		var ele = $('#c' + pos + ' div').append(this.itemImg(item))
 		var img = $('img:last', ele).data('node', item)
+		var def = item['defindex']
 		if (this.itemEquipped(item)) {
-		    img.addClass(this.tweakEquipImgClass[item['defindex']] || 'equipped')
-		       .after(this.equippedTag)
+		    img.addClass('equipped equipped-'+def).after(this.equippedTag)
+		    img.removeClass('unequipped-'+def)
 		} else {
-		    img.addClass(this.tweakUnequipImgClass[item['defindex']])
+		    img.addClass('unequipped-'+def)
+		    img.removeClass('equipped equipped-'+def)
 		}
 	    } else {
-		newItemIndex += 1
+		newIdx += 1
 		if ($('table.unplaced td:not(:has(img))').length == 0) {
 		    var cells = new Array(5+1).join('<td><div></div></td>')
 		    $('table.unplaced').append('<tbody><tr>' + cells + '</tr></tbody>')
 		}
-		$('table.unplaced td:eq('+newItemIndex+') div').append(this.itemImg(item))
+		$('table.unplaced td:eq('+newIdx+') div').append(this.itemImg(item))
 		$('table.unplaced td img:last').data('node', item)
 	    }
 	}
-	$('#unplaced, hr.unplaced').toggle(newItemIndex > -1)
+	$('#unplaced, hr.unplaced').toggle(newIdx > -1)
 	$(itemContentSelector).fadeIn(750)
     },
 
@@ -279,7 +287,6 @@ var PopupView = {
                     // empty, and it will help if the page is just loading
                     // via the options div.
                     if (request.updated || $('#backpack img').length==0) {
-	                //PopupStorage.loadAndShow()
 	                BackpackView.init()
 		    } else {
 			PopupView.putTimings()
@@ -301,29 +308,10 @@ var PopupView = {
 	sendResponse({})
     },
 
-    itemImage: function(t) {
-	return "<img style='display:none' src='icons/"+t+".png' onerror='PopupView.missingImage(this, "+t+")' />"
-    },
-
-    itemClicked: function(event) {
-	if (!event.ctrlKey) {
-	    $('table.backpack td').removeClass('selected')
-	}
-	$(this).addClass('selected')
-    },
-
     requestRefresh: function(event) {
 	$('html body').animate({scrollTop: 0})
 	chrome.extension.sendRequest({type:'driver', message:'refresh'}, function(response) {})
 	return false
-    },
-
-    missingImage: function(img, typ) {
-	if (img) {
-	    img.src = 'icons/missing.png'
-	    img.onerror = null
-	    return true
-	}
     },
 
     showStats: function() {
@@ -357,26 +345,6 @@ var PopupView = {
 	    })
     },
 
-    loadAndShowProfile: function() {
-	var feed = BaseStorage.profileFeed()
-	var load = function(data) {
-	    $('#steamID a').text(data['personaname'])
-	    var avatar = data['avatarfull']
-	    if (avatar) {
-		$('#avatar img').fadeOut().remove()
-		$('#avatar').append("<img src='" + avatar + "' />")
-	    }
-	}
-	if (feed) {
-	    load(feed)
-	} else {
-	    var error = function(v) {
-		console.log(v)
-	    }
-	    //profile.load(BaseStorage.profileId(), load, error)
-	}
-    },
-
     putCharInfo: function(feed) {
 	feed = JSON.parse(feed)
 	$('#steamID a').text(feed['personaname'])
@@ -387,12 +355,6 @@ var PopupView = {
     },
 
     putCharInfo__: function(feed) {
-	$('#steamID a').text($('steamID', feed).text())
-	var avatarUrl = $('avatarFull', feed).text()
-	if (avatarUrl) {
-	    $('#avatar img').fadeOut().remove()
-	    $('#avatar').append("<img src='" + avatarUrl + "' />")
-	}
 	$(['numHats', 'numNormal', 'numMisc',
 	   'numMetal', 'numUnknown', 'totalItems',
 	   'metalWorth', 'profileViews']).each(function(index, key) {
@@ -409,86 +371,10 @@ var PopupView = {
 	    .css('padding-top', '1.5em')
 	this.putTimings()
     },
-
-    putNewItem: function(index, node) {
-	var type = $(node).attr('definitionIndex')
-	if (!type) {
-	    return
-	}
-	if ($('table.unplaced td:not(:has(img))').length == 0) {
-	    var cells = new Array(5+1).join('<td><div></div></td>')
-	    $('table.unplaced').append('<tbody><tr>' + cells + '</tr></tbody>')
-	}
-	$('table.unplaced td:eq('+index+') div').append(PopupView.itemImage(type))
-	$('table.unplaced td img:last').data('node', node)
-    },
-
-    putOldItem: function(index, node) {
-	var pos = $('position', node).text()
-	var typ = $(node).attr('definitionIndex')
-	var ele = $('#c' + (pos & 0xffff) + ' div')
-	ele.append(PopupView.itemImage(typ))
-	var img = $('img:last', ele)
-	img.data('node', node)
-	if (pos & 0x80000000 && pos & 0x0FFF0000) {
-	    // nudge the image up a bit related to margin-top on the equipped class
-	    img.css('margin-top', PopupView.nudgeMap[typ] || '-8px')
-	    img.after("<span style='display:none' class='equipped'>" + _("equipped") + "</span>")
-	}
-
-	// TODO:  need to determine how and when to indicate a quantity...
-	// TODO:  swap paint can images by color
-	var quan = $('quantity', node).text()
-	if (quan != '1') {
-		img.before("<span style='' class='quantity'>" + _(quan) + "</span>")
-	        img.css('margin-top', '-1em')
-	}
-    },
-
-    putItems: function(feed) {
-	$(itemContentSelector).fadeOut().remove()
-	if (!feed) {
-	    console.log('empty feed')
-	    return
-	}
-	var newNodes = $('item', feed).filter(function (index) {
-	    return $('position', this).text() == '0' }).each(this.putNewItem)
-	$('#unplaced, hr.unplaced').toggle(newNodes.length > 0)
-	$('item', feed).filter(function (index) {
-	    return $('position', this).text() != '0' }).each(this.putOldItem)
-	$(itemContentSelector).fadeIn(750)
-    },
-
-    nudgeMap: {
-	'133': '0',
-    },
-
-    tweakEquipImgClass: {
-	'133': 'equipped-133',
-    },
-    tweakUnequipImgClass: {
-	'133': 'unequipped-133',
-    },
-
 }
 
 
-var ident = function(v) {return v}
-
 var TooltipView = {
-    qualityStyles: {
-	0: 'color-normal',
-	1: 'color-common',
-	2: 'color-rare',
-	3: 'color-vintage',
-	5: 'color-unusual',
-	6: 'color-unique',
-	7: 'color-comm',
-	8: 'color-dev',
-	9: 'color-self',
-	10: 'color-custom',
-    },
-
     extraLineMap: {0:'alt', 1:'positive', 2:'negative'},
     effectTypeMap: {negative: 'negative', neutral:'alt', positive: 'positive'},
     prefixCheckMap: {3:'vint', 5:'unusual', 7:'com', 8:'dev', 9:'self'},
@@ -530,20 +416,12 @@ var TooltipView = {
 	value_is_or: ident,
     },
 
-    formatDesc: function(node, def, attr) {
+    formatSchemaAttr: function(node, def, attr) {
 	var line = def['description_string'].replace(/\n/gi, '<br>')
 	// we only look for (and sub) one '%s1'; that's the most there is (as of oct 2010)
 	if (line.indexOf('%s1') > -1) {
-	    var fCalc = this.formatCalcMap[def['description_format']] // || ident
-	    if (node['attributes']) {
-		// WRONG.  find the value by looping over the node attributes and
-		// matching one to the attribute defindex.
-		try {
-		    var val = node['attributes']['attribute'][attr['value']]['value']
-		} catch (e) { val = 0 }
-	    } else {
-		var val = attr['value']
-	    }
+	    var fCalc = this.formatCalcMap[def['description_format']]
+	    var val = attr['value']
 	    line = line.replace('%s1', fCalc(val))
 	}
 	console.log(node, def, attr, line)
@@ -564,15 +442,15 @@ var TooltipView = {
 	var cell = $(this), tooltip = $('#tooltip')
 	if (!cell.children().length) { return }
 	try {
-	    var node = $($('img', cell).data('node'))[0], quals = SchemaTool.qualityMap()
-	    var type = node['defindex'] // empty cells will raise an exception
+	    var playerItem = $($('img', cell).data('node'))[0], quals = SchemaTool.qualityMap()
+	    var type = playerItem['defindex'] // empty cells will raise an exception
 	} catch (e) {
 	    return
 	}
-	var sdef = SchemaTool.itemDefs[type]
-	var self = TooltipView, level = node['level'], desc = sdef['item_name']
+	var schemaItem = SchemaTool.itemDefs[type]
+	var self = TooltipView, level = playerItem['level'], desc = schemaItem['item_name']
 	// this doesn't match the game behavior exactly, but it is nice.
-	var levelType = sdef['item_type_name'].replace('TF_Wearable_Hat', _('Hat'))
+	var levelType = schemaItem['item_type_name'].replace('TF_Wearable_Hat', _('Hat'))
 	var h4 = $('#tooltip h4')
 
 	// hide the darn thing first
@@ -580,9 +458,9 @@ var TooltipView = {
 
 	// set the main title and maybe adjust its style and prefix
 	h4.text(desc)
-	h4.attr('class', self.qualityStyles[node['quality']])
-	if (node['quality'] in self.prefixCheckMap) {
-	    h4.text(quals[node['quality']] + ' ' + h4.text())
+	h4.attr('class', 'quality-'+playerItem['quality'])
+	if (playerItem['quality'] in self.prefixCheckMap) {
+	    h4.text(quals[playerItem['quality']] + ' ' + h4.text())
 	}
 
 	// set the level
@@ -592,19 +470,26 @@ var TooltipView = {
 	for (key in self.extraLineMap) {
 	    $('#tooltip .'+ self.extraLineMap[key]).text('')
 	}
-	if (sdef['attributes']) {
-	    var attrVals = sdef['attributes']['attribute']
-	    for (aidx in attrVals) {
-		var attrDef = SchemaTool.attributes[attrVals[aidx]['name']]
-		if (!attrDef) { continue }
+	if (schemaItem['attributes']) {
+	    var schemaAttrs = schemaItem['attributes']['attribute']
+	    for (aidx in schemaAttrs) {
+		var attrDef = SchemaTool.attributes[schemaAttrs[aidx]['name']]
+		if (!attrDef) { console.log('missing attr def', schemaAttrs[aidx]); continue }
 		if (attrDef['description_string']=='unused') { continue }
-		var extra = self.formatDesc(node, attrDef, attrVals[aidx])
+		var extra = self.formatSchemaAttr(playerItem, attrDef, schemaAttrs[aidx])
 		var etype = self.effectTypeMap[attrDef['effect_type']]
 		var current = $('#tooltip .' + etype).html()
 		$('#tooltip .' + etype).html( current ? current + '<br>' + extra : extra)
 	    }
-	} else {
-	    //console.log(node, 'noattrs')
+	}
+	if (playerItem['attributes']) {
+	    itemAttrs = playerItem['attributes']['attribute']
+	    for (aidx in itemAttrs) {
+		// TODO: need a better way to select an attribute
+		// definition by its defindex.
+		//var attrDef = SchemaTool.attributes[itemAttrs[aidx]['defindex']]
+		console.log('custom item attributes', itemAttrs[aidx])
+	    }
 	}
 
 	// calculate the position
@@ -645,14 +530,14 @@ var Popup = {
 	    {type: 'getSchema', lang: _('language_code')},
 	    function (schema) {
                 SchemaTool.init(schema)
-		PopupView.init2(SchemaTool, ItemsTool)
+		PopupView.reconfigure()
 		console.log('schema tool loaded:', SchemaTool)
 	    })
 	chrome.extension.sendRequest(
 	    {type: 'getPlayerItems', id64: BaseStorage.profileId()},
 	    function (items) {
 		ItemsTool.init(items)
-		PopupView.init2(SchemaTool, ItemsTool)
+		PopupView.reconfigure()
 		console.log('items tool loaded:', ItemsTool)
 	    })
 	chrome.extension.sendRequest(
@@ -660,7 +545,7 @@ var Popup = {
 	    function (profile) {
 		Popup.profile = JSON.parse(profile)
 		PopupView.putCharInfo(profile)
-		PopupView.init2(SchemaTool, ItemsTool)
+		PopupView.reconfigure()
 		console.log('player profile:', Popup.profile)
 	    })
 	console.log('Popup.mainInit complete')

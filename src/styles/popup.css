@@ -55,7 +55,6 @@ padding-top:0.5em;
 }
 
 
-
 span.equipped {
 background-color:black;
 border-radius:0.5em;
@@ -332,19 +331,16 @@ A50F79 Developer
 874FAD Unusual
 
 */
-
-
-.color-normal { color:#B2B2B2 }
-.color-common { color:#B2B2B2 }
-.color-rare { color:#B2B2B2 }
-
-.color-vintage {color: #476291; }
-.color-unusual {color: #874FAD; }
-.color-unique { color: #FFD800;  }
-.color-comm {color: #70B04A; }
-.color-dev {color: #A50F79;  }
-.color-self {color:#70B04A }
-.color-custom {color:#70B04A }
+.quality-0  { color:#B2B2B2; } /* normal */
+.quality-1  { color:#B2B2B2; } /* common */
+.quality-2  { color:#B2B2B2; } /* rare */
+.quality-3  {color: #476291; } /* vintage */
+.quality-5  {color: #874FAD; } /* unusual */
+.quality-6  {color: #FFD800; } /* unique */
+.quality-7  {color: #70B04A; } /* community */
+.quality-8  {color: #A50F79; } /* developer */
+.quality-9  {color: #70B04A; } /* self-made */
+.quality-10 {color: #70B04A; } /* custom */
 
 #tooltip .level {
 color:#756b5e;
