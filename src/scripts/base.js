@@ -1,18 +1,19 @@
 var colors = {
-    red: [208, 0, 24, 255],
     blue: [51, 152, 197, 255],
     green: [59, 174, 73, 255],
     grey: [128, 128, 128, 255],
 };
 
 
+var apiUrlBase = 'http://tf2apiproxy.appspot.com/';
 var urls = {
-    tf2Items:"http://www.tf2items.com/",
-    tf2Stats:"http://tf2stats.net/",
-    steamCommunity:"http://steamcommunity.com/",
-    sourceOp:"http://www.sourceop.com/",
+    apiSearch:      apiUrlBase + 'api/v1/search/',
+    apiProfile:     apiUrlBase + 'api/v1/profile/',
+    sourceOp:       'http://www.sourceop.com/',
+    steamCommunity: 'http://steamcommunity.com/',
+    tf2Items:       'http://www.tf2items.com/',
+    tf2Stats:       'http://tf2stats.net/'
 };
-urls.profileSearch = urls.tf2Items + "search.php?tf2items_q=";
 urls.pnatural = urls.steamCommunity + "profiles/76561197992805111";
 
 
@@ -52,20 +53,47 @@ var profile = {
 		return;
 	    }
 	    try {
-		var msg = JSON.parse(data)
+		var results = JSON.parse(data)
 	    } catch (e) {
 		error({statusText: "Parse error"});
 		return;
 	    }
-	    if (msg.success == "true") {
-		okay(msg.profile);
+	    if (results.length) {
+		okay(results);
 	    } else {
 		error({statusText: "Search failed"});
 	    }
 	};
-	$.ajax({url: urls.profileSearch + v, dataType: "text",
+	$.ajax({url: urls.apiSearch + v, dataType: 'text',
 		error: onError, success: onSuccess});
     },
+
+    load: function(v, okay, error) {
+	var onError = function(req, status, err) {
+	    error({statusText: err});
+	};
+	var onSuccess = function(data, status, req) {
+	    if (!data) {
+		error({statusText: 'Network failure'});
+		return;
+	    }
+	    try {
+		var results = JSON.parse(data)
+	    } catch (e) {
+		error({statusText: 'Parse error'});
+		return;
+	    }
+	    if (results['steamid']) {
+		okay(results);
+	    } else {
+		GRES = results;
+		console.log(results);
+		error({statusText: 'Fetch failed'});
+	    }
+	};
+	$.ajax({url: urls.apiProfile + v, dataType: "text",
+		error: onError, success: onSuccess})
+    }
 
 
 };
@@ -91,6 +119,13 @@ var storage = {
 	    return localStorage.profileId || "";
 	}
 	localStorage.profileId = v;
+    },
+
+    profileFeed: function(v) {
+	if (typeof(v) == "undefined") {
+	    return localStorage.profileFeed || "";
+	}
+	localStorage.profileFeed = v;
     },
 
     cachedFeed: function(v) {
@@ -176,7 +211,7 @@ function _ (item) {
     return !val ? options.missing || "" : val;
 }
 
-
+// wha?
 var steamIdElement = null;
 
 var i18nMap = {
