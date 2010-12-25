@@ -77,21 +77,21 @@ $(dist_script_files):
 update:
 	@mkdir -p $(tmp_dir)
 	@echo "[UPDATE] extracting backpack files..."
-	@hlextract -s -p "$(gcf_dir)/team fortress 2 materials.gcf" -e "root/tf/materials/backpack" -d $(tmp_dir)
+#	@hlextract -s -p "$(gcf_dir)/team fortress 2 materials.gcf" -e "root/tf/materials/backpack" -d $(tmp_dir)
 	@echo "[UPDATE] extracting resource files..."
-	@hlextract -s -p "$(gcf_dir)/team fortress 2 content.gcf" -e "root/tf/resource/" -d $(tmp_dir)
+#	@hlextract -s -p "$(gcf_dir)/team fortress 2 content.gcf" -e "root/tf/resource/" -d $(tmp_dir)
 	@echo "[UPDATE] extracting other text files..."
-	@hlextract -s -p "$(gcf_dir)/team fortress 2 content.gcf" -e "root/tf/scripts/items/items_game.txt" -d $(tmp_dir)
+#	@hlextract -s -p "$(gcf_dir)/team fortress 2 content.gcf" -e "root/tf/scripts/items/items_game.txt" -d $(tmp_dir)
 	@echo "[UPDATE] converting text files..."
 	@make extract_text_files
 	@echo "[UPDATE] converting images..."
-	@cd $(tmp_dir) && find -type f -name "*.vtf" > image_files.txt
+	@cd $(tmp_dir) && find -L -type f -name "*.vtf" > image_files.txt
 	@cd $(tmp_dir) && nvconvert -in vtf -o '$$%.png' -out png -quiet -overwrite -l ./image_files.txt 2>/dev/null
 	@cd $(tmp_dir) && rm image_files.txt
 	@echo "[UPDATE] copying new images..."
 	@./tools/copy_item_images $(tmp_dir)/ ./src/icons/ ./src/rawtext/items_game.txt
 	@echo "[UPDATE] cleaning up..."
-	@rm -rf $(tmp_dir)
+#	@rm -rf $(tmp_dir)
 	@echo "[UPDATE] complete."
 
 

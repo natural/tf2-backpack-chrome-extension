@@ -594,10 +594,10 @@
         "description": "Urzeitkrieger"
     }, 
     "other_attributes": {
-        "133": "Medaille Nummer %s1", 
-        "132": "Angesichts wertvolle Gemeinschaft Mitwirkende", 
-        "143": "Einstellungsdatum: %s1", 
-        "147": "Schl\u00fcssel mit der Nummer %s1"
+        "133": "Medal no. %s1", 
+        "132": "Given to valuable Community Contributors", 
+        "143": "Hire Date: %s1", 
+        "147": "Wrench no. %s1"
     }, 
     "5003": {
         "alt": [
@@ -692,10 +692,10 @@
     }, 
     "9003": {
         "positive": [
-            "Bans Steam Account von Spielern get\u00f6tet", 
-            "Dieser Artikel ist nicht real und ist nur ein Witz."
+            "Bans Steam account of players killed", 
+            "This item is not real and is only a joke."
         ], 
-        "type": "Mallet der Verbannung", 
+        "type": "Mallet of Banishment", 
         "description": "Ban Hammer"
     }, 
     "240": {

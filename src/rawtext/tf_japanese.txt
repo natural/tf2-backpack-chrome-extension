@@ -576,9 +576,9 @@ The game will restart in %s1 seconds"
 "TF_Halloween_Hat"	"ちょっとイヤな感じのハロウィーンマスク"
 "[english]TF_Halloween_Hat"	"Mildly Disturbing Halloween Mask"
 "TF_Domination_Hat"	"恐ろしげなシルクハット"
-"[english]TF_Domination_Hat"	"Ghastly Gibus"
+"[english]TF_Domination_Hat"	"Ghastlier Gibus"
 "TF_Domination_Hat_Desc"	"「Z.M.」と刺繍されている"
-"[english]TF_Domination_Hat_Desc"	"Elegant simplicity and old-world charm combined with the heady aromas of mould and grave dust."
+"[english]TF_Domination_Hat_Desc"	"Even more ghastly."
 "TF_L4DHat"	"ビルの帽子"
 "[english]TF_L4DHat"	"Bill's Hat"
 "TF_Wearable_L4DHat"	"歴戦の勇士のベレー帽"
@@ -3347,7 +3347,7 @@ Would you like to host a game?"
 "TF_HALLOWEEN_KILL_SCARED_PLAYER_NAME"	"立ちすくみ"
 "[english]TF_HALLOWEEN_KILL_SCARED_PLAYER_NAME"	"Scared Stiff"
 "TF_HALLOWEEN_KILL_SCARED_PLAYER_DESC"	"キングオブザヒルのハーベストに取り付いたゴーストにおびえているプレイヤーを 1 人倒す。"
-"[english]TF_HALLOWEEN_KILL_SCARED_PLAYER_DESC"	"Kill a player scared by the ghost haunting KOTH Harvest."
+"[english]TF_HALLOWEEN_KILL_SCARED_PLAYER_DESC"	"Kill a player scared by a ghost."
 "TF_HALLOWEEN_PUMPKIN_KILL_NAME"	"アタックオーランタン"
 "[english]TF_HALLOWEEN_PUMPKIN_KILL_NAME"	"Attack o' Lantern"
 "TF_HALLOWEEN_PUMPKIN_KILL_DESC"	"プレイヤーを 5 人、カボチャ爆弾を近くで炸裂させて倒す。"
@@ -4241,7 +4241,7 @@ Also handy for putting out a fire"
 "Attrib_WpnBurnTime_Reduced"	"炎の持続時間 %s1%"
 "[english]Attrib_WpnBurnTime_Reduced"	"%s1% burn duration"
 "Attrib_AimingMoveSpeed_Increased"	"着用者の移動スピード +%s1%"
-"[english]Attrib_AimingMoveSpeed_Increased"	"+%s1% faster deployed movespeed on wearer"
+"[english]Attrib_AimingMoveSpeed_Increased"	"+%s1% faster move speed while deployed"
 "Attrib_MaxammoPrimary_Increased"	"着用者のメイン武器最大弾薬数 +%s1%"
 "[english]Attrib_MaxammoPrimary_Increased"	"+%s1% max primary ammo on wearer"
 "Attrib_MaxammoPrimary_Reduced"	"着用者のメイン武器最大弾薬数 %s1%"
@@ -4354,72 +4354,6 @@ Blocks healing when in use"
 "[english]Attrib_DmgVsPlayer_Decreased"	"%s1% damage vs players"
 "Attrib_LunchboxAddsMaxHealth"	"30 秒間最大ヘルス +50"
 "[english]Attrib_LunchboxAddsMaxHealth"	"Adds +50 max health for 30 seconds"
-"TF_Unique_Prepend_Proper"	"The"	[$ENGLISH]
-"[english]TF_Unique_Prepend_Proper"	"The"
-"TF_NonUnique_Prepend_Proper"	"A"	[$ENGLISH]
-"[english]TF_NonUnique_Prepend_Proper"	"A"
-"TF_Unique_Achievement_Medigun1"	"Kritzkrieg"	[$ENGLISH]
-"[english]TF_Unique_Achievement_Medigun1"	"Kritzkrieg"
-"TF_Unique_Achievement_Syringegun1"	"Blutsauger"	[$ENGLISH]
-"[english]TF_Unique_Achievement_Syringegun1"	"Blutsauger"
-"TF_Unique_Achievement_Bonesaw1"	"Ubersaw"	[$ENGLISH]
-"[english]TF_Unique_Achievement_Bonesaw1"	"Ubersaw"
-"TF_Unique_Achievement_FireAxe1"	"Axtinguisher"	[$ENGLISH]
-"[english]TF_Unique_Achievement_FireAxe1"	"Axtinguisher"
-"TF_Unique_Achievement_FlareGun"	"Flare Gun"	[$ENGLISH]
-"[english]TF_Unique_Achievement_FlareGun"	"Flare Gun"
-"TF_Unique_Achievement_Flamethrower"	"Backburner"	[$ENGLISH]
-"[english]TF_Unique_Achievement_Flamethrower"	"Backburner"
-"TF_Unique_Achievement_LunchBox"	"Sandvich"	[$ENGLISH]
-"[english]TF_Unique_Achievement_LunchBox"	"Sandvich"
-"TF_Unique_Achievement_Minigun"	"Natascha"	[$ENGLISH]
-"[english]TF_Unique_Achievement_Minigun"	"Natascha"
-"TF_Unique_Achievement_Fists"	"Killing Gloves of Boxing"	[$ENGLISH]
-"[english]TF_Unique_Achievement_Fists"	"Killing Gloves of Boxing"
-"TF_Unique_Achievement_Bat"	"Sandman"	[$ENGLISH]
-"[english]TF_Unique_Achievement_Bat"	"Sandman"
-"TF_Unique_Achievement_Scattergun_Double"	"Force-A-Nature"	[$ENGLISH]
-"[english]TF_Unique_Achievement_Scattergun_Double"	"Force-A-Nature"
-"TF_Unique_Achievement_EnergyDrink"	"Bonk! Atomic Punch"	[$ENGLISH]
-"[english]TF_Unique_Achievement_EnergyDrink"	"Bonk! Atomic Punch"
-"TF_Unique_Achievement_SniperRifle"	"Walkabout"	[$ENGLISH]
-"[english]TF_Unique_Achievement_SniperRifle"	"Walkabout"
-"TF_Unique_Achievement_CloakWatch"	"Cloak and Dagger"	[$ENGLISH]
-"[english]TF_Unique_Achievement_CloakWatch"	"Cloak and Dagger"
-"TF_Unique_Achievement_FeignWatch"	"Dead Ringer"	[$ENGLISH]
-"[english]TF_Unique_Achievement_FeignWatch"	"Dead Ringer"
-"TF_Unique_Achievement_Revolver"	"Ambassador"	[$ENGLISH]
-"[english]TF_Unique_Achievement_Revolver"	"Ambassador"
-"TF_Unique_Backstab_Shield"	"Razorback"	[$ENGLISH]
-"[english]TF_Unique_Backstab_Shield"	"Razorback"
-"TF_Unique_Achievement_Jar"	"Jarate"	[$ENGLISH]
-"[english]TF_Unique_Achievement_Jar"	"Jarate"
-"TF_Unique_Achievement_CompoundBow"	"Huntsman"	[$ENGLISH]
-"[english]TF_Unique_Achievement_CompoundBow"	"Huntsman"
-"TF_Unique_Achievement_SoldierBuff"	"Buff Banner"	[$ENGLISH]
-"[english]TF_Unique_Achievement_SoldierBuff"	"Buff Banner"
-"TF_Unique_Achievement_Pickaxe"	"Equalizer"	[$ENGLISH]
-"[english]TF_Unique_Achievement_Pickaxe"	"Equalizer"
-"TF_Unique_Achievement_RocketLauncher"	"Direct Hit"	[$ENGLISH]
-"[english]TF_Unique_Achievement_RocketLauncher"	"Direct Hit"
-"TF_Unique_Achievement_StickyLauncher"	"Scottish Resistance"	[$ENGLISH]
-"[english]TF_Unique_Achievement_StickyLauncher"	"Scottish Resistance"
-"TF_Unique_Achievement_Shield"	"Chargin' Targe"	[$ENGLISH]
-"[english]TF_Unique_Achievement_Shield"	"Chargin' Targe"
-"TF_Unique_Achievement_Sword"	"Eyelander"	[$ENGLISH]
-"[english]TF_Unique_Achievement_Sword"	"Eyelander"
-"TF_Unique_Blast_Boots"	"Gunboats"	[$ENGLISH]
-"[english]TF_Unique_Blast_Boots"	"Gunboats"
-"TF_Unique_SledgeHammer"	"Homewrecker"	[$ENGLISH]
-"[english]TF_Unique_SledgeHammer"	"Homewrecker"
-"TF_Unique_Makeshiftclub"	"Pain Train"	[$ENGLISH]
-"[english]TF_Unique_Makeshiftclub"	"Pain Train"
-"TF_Unique_Lunchbox_Chocolate"	"Dalokohs Bar"	[$ENGLISH]
-"[english]TF_Unique_Lunchbox_Chocolate"	"Dalokohs Bar"
-"TF_TTG_MaxGun"	"Lugermorph"	[$ENGLISH]
-"[english]TF_TTG_MaxGun"	"Lugermorph"
-"TF_TTG_SamRevolver"	"Big Kill"	[$ENGLISH]
-"[english]TF_TTG_SamRevolver"	"Big Kill"
 "TF_NonUnique_Append_Proper"	"(%s1)"	[$!ENGLISH]
 "[english]TF_NonUnique_Append_Proper"	"(%s1)"
 "TF_Unique_Achievement_Sword_Desc"	"近接攻撃範囲が非常に広い。
@@ -5035,7 +4969,7 @@ and damage taken will be mini-crits."
 "MMenu_ChangeServer"	"サーバー変更"
 "[english]MMenu_ChangeServer"	"Change Server"
 "MMenu_CharacterSetup"	"キャラクターセットアップ"
-"[english]MMenu_CharacterSetup"	"Character Setup"
+"[english]MMenu_CharacterSetup"	"Manage Items"
 "MMenu_Achievements"	"実績とデータ"
 "[english]MMenu_Achievements"	"Achievements & Stats"
 "MMenu_NoRecentAchievements"	"全 %totalachievements% 個中 %currentachievements% 個の実績を獲得しています。"
@@ -5556,7 +5490,7 @@ gain revenge crits for every sentry kill"
 "[english]TF_Gift_EntireServer_Desc"	"When used, this Action Item gives a random gift
 to up to 23 other people on the server!"
 "TF_Gift_RandomPerson"	"シークレットサンタ"
-"[english]TF_Gift_RandomPerson"	"Secret Santa"
+"[english]TF_Gift_RandomPerson"	"Secret Saxton"
 "TF_Gift_RandomPerson_Desc"	"使用すると、サーバー上の 1 人のプレイヤーに
 ランダムギフトをプレゼント！"
 "[english]TF_Gift_RandomPerson_Desc"	"When used, this Action Item gives a random gift
@@ -5567,34 +5501,31 @@ to a random person on the server!"
 "[english]TF_Usable_Duel"	"Dueling Mini-Game"
 "TF_Usable_Duel_Desc"	"他のプレイヤーに決闘を申し込むことができる！
 詳細は Mann Co. カタログを参照。"
-"[english]TF_Usable_Duel_Desc"	"Allows you to challenge someone to a duel!
+"[english]TF_Usable_Duel_Desc"	"Is an enemy player questioning your skills, personal hygiene, and/or ancestry?
+Use these stylish firearms to challenge them to a duel!
 See the Mann Co. Catalog for full details."
 "TF_Duel_Request"	"%initiator% が決闘を申し込んできた！申し込みを受けますか？"
 "[english]TF_Duel_Request"	"%initiator% has challenged you to a duel! Will you defend your honor?"
 "TF_Duel_Challenge"	"%initiator% が %target% に決闘を申し込んだ！"
 "[english]TF_Duel_Challenge"	"%initiator% has challenged %target% to a duel!"
 "TF_Duel_Accept"	"%initiator% が %target% に決闘を申し込み、成立した！"
-"[english]TF_Duel_Accept"	"%initiator% has challenged %target% to a duel and they have accepted the challenge!"
+"[english]TF_Duel_Accept"	"%target% has agreed to duel with %initiator%!"
 "TF_Duel_Decline"	"%initiator% が %target% に決闘を申し込み、拒否された！"
-"[english]TF_Duel_Decline"	"%initiator% has challenged %target% to a duel, but they declined!"
+"[english]TF_Duel_Decline"	"Cowardly %target% has rejected a duel with the Honorable %initiator%!"
 "TF_Duel_Win"	"%winner_score% 対 %loser_score% で %winner% が %loser% に勝利した！"
-"[english]TF_Duel_Win"	"%winner% has beaten %loser% in a duel with a score of %winner_score% to %loser_score%!"
+"[english]TF_Duel_Win"	"%winner% defeated %loser% in a duel with a score of %winner_score% to %loser_score%!"
 "TF_Duel_Win_SwappedTeams"	"%loser% がチームを変更したため、%winner% が %loser% に勝利した。"
-"[english]TF_Duel_Win_SwappedTeams"	"%winner% has beaten %loser% in a duel, because %loser% has changed teams."
+"[english]TF_Duel_Win_SwappedTeams"	"%winner% defeated %loser% in a duel because %loser% changed teams."
 "TF_Duel_Win_Disconnect"	"%loser% がゲームを終了したため、%winner% が %loser% に勝利した。"
-"[english]TF_Duel_Win_Disconnect"	"%winner% has beaten %loser% in a duel, because %loser% has left the game."
+"[english]TF_Duel_Win_Disconnect"	"%winner% defeated %loser% in a duel because %loser% left the game."
 "TF_Duel_Tie"	"%initiator% と %target% の決闘は引き分けに終わった！"
-"[english]TF_Duel_Tie"	"The duel between %initiator% and %target% has ended in a draw!"
-"TF_Duel_Status"	"決闘のステータス - %initiator%：%initiator_score% - %target%：%target_score%"
-"[english]TF_Duel_Status"	"Duel Status:
-%initiator%: %initiator_score%
-%target%: %target_score%"
+"[english]TF_Duel_Tie"	"The duel between %initiator% and %target% ended in a draw with %score% points each!"
 "TF_Duel_Title"	"死をかけた決闘！"
-"[english]TF_Duel_Title"	"Duel to the Deaths!"
+"[english]TF_Duel_Title"	"Duel to the Death!"
 "TF_Duel_JoinCancel"	"やめておく"
 "[english]TF_Duel_JoinCancel"	"No Thanks"
 "TF_Duel_Cancelled"	"%initiator% と %target% の決闘はキャンセルされた。"
-"[english]TF_Duel_Cancelled"	"The duel between %initiator% and %target% has been cancelled."
+"[english]TF_Duel_Cancelled"	"The duel between %initiator% and %target% has been cancelled. A Dueling Mini-Game owned by %initiator% has not been consumed."
 "TF_Duel_Medal_Bronze"	"ブロンズ決闘バッジ"
 "[english]TF_Duel_Medal_Bronze"	"Bronze Dueling Badge"
 "TF_Duel_Medal_Silver"	"シルバー決闘バッジ"
@@ -5606,25 +5537,25 @@ See the Mann Co. Catalog for full details."
 "TF_Duel_Medal_Bronze_Desc"	"決闘の戦績を表すバッジ。
 勝利を重ねればレベルアップ！"
 "[english]TF_Duel_Medal_Bronze_Desc"	"This badge tracks your duel statistics.
-Increase its level by winning more duels!"
+Increase its level by winning duels!"
 "TF_Duel_Medal_Silver_Desc"	"レベル 25 で獲得。
 決闘の戦績を表すバッジ。
 勝利を重ねればレベルアップ！"
 "[english]TF_Duel_Medal_Silver_Desc"	"Earned at level 25.
 This badge tracks your duel statistics.
-Increase its level by winning more duels!"
+Increase its level by winning duels!"
 "TF_Duel_Medal_Gold_Desc"	"レベル 50 で獲得。
 決闘の戦績を表すバッジ。
 勝利を重ねればレベルアップ！"
 "[english]TF_Duel_Medal_Gold_Desc"	"Earned at level 50.
 This badge tracks your duel statistics.
-Increase its level by winning more duels!"
+Increase its level by winning duels!"
 "TF_Duel_Medal_Plat_Desc"	"レベル 75 で獲得。
 決闘の戦績を表すバッジ。
 勝利を重ねればレベルアップ！"
 "[english]TF_Duel_Medal_Plat_Desc"	"Earned at level 75.
 This badge tracks your duel statistics.
-Increase its level by winning more duels!"
+Increase its level by winning duels!"
 "TF_Duel_Desc_Won"	"勝利数：%wins%
 勝率：%ratio%%%
 前回の決闘：%last_target% に勝利
@@ -5794,10 +5725,6 @@ Don't poke your eye out."
 "[english]TF_HeavyDorag_Desc"	"It costs $400,000 to wear this bandanna for 12 seconds."
 "TF_Parasite_Hat_Desc"	"このお茶目なモンスターはある時、ある場所では人類の存続を脅かす存在だった。しかし今は戦士たちの頭の上で日差しをさえぎってくれる。"
 "[english]TF_Parasite_Hat_Desc"	"This cute little guy was once the scourge of humanity in another time and place. Now he's content to ride on your head and keep the sun off."
-"TF_TheAttendant"	"Attendant"	[$ENGLISH]
-"[english]TF_TheAttendant"	"Attendant"
-"TF_TheMilkman"	"Milkman"	[$ENGLISH]
-"[english]TF_TheMilkman"	"Milkman"
 "TF_TheFamiliarFez"	"Familiar Fez"
 "[english]TF_TheFamiliarFez"	"Familiar Fez"
 "TF_TheGrenadiersSoftcap"	"Grenadier's Softcap"
@@ -5881,19 +5808,20 @@ with Jarate around."
 "TF_HeavyPugilistProtector_Desc"	""
 "[english]TF_HeavyPugilistProtector_Desc"	""
 "TF_SoldierChiefRocketeer"	"チーフタンチャレンジ"
-"[english]TF_SoldierChiefRocketeer"	"Chieftan's Challenge"
+"[english]TF_SoldierChiefRocketeer"	"Chieftain's Challenge"
 "TF_SoldierChiefRocketeer_Desc"	""
 "[english]TF_SoldierChiefRocketeer_Desc"	""
 "TF_WikiCap"	"Wiki キャップ"
 "[english]TF_WikiCap"	"Wiki Cap"
 "TF_WikiCap_Desc"	"Web ページの編集方法を知る少数の賢者が獲得する帽子。"
-"[english]TF_WikiCap_Desc"	"Earned by those knowledgeable few who know how to edit a web page."
+"[english]TF_WikiCap_Desc"	"Given to valuable contributors to the official TF2 wiki
+http://wiki.teamfortress.com/"
 "NewItemMethod_Dropped"	"発見しました："
 "[english]NewItemMethod_Dropped"	"You Found:"
 "NewItemMethod_Crafted"	"作成しました："
 "[english]NewItemMethod_Crafted"	"You Crafted:"
 "NewItemMethod_Traded"	"交換しました："
-"[english]NewItemMethod_Traded"	"You Traded:"
+"[english]NewItemMethod_Traded"	"You Traded for:"
 "NewItemMethod_Purchased"	"購入しました："
 "[english]NewItemMethod_Purchased"	"You Purchased:"
 "NewItemMethod_FoundInCrate"	"開梱しました："
@@ -5985,7 +5913,8 @@ IN THE TF2 UNIVERSE"
 "TF_SupplyCrate"	"Mann Co. 物資箱"
 "[english]TF_SupplyCrate"	"Mann Co. Supply Crate"
 "TF_SupplyCrate_Desc"	"この箱を開けるには Mann Co. 物資箱のキーが必要です。"
-"[english]TF_SupplyCrate_Desc"	"You need a Mann Co. Supply Crate Key to open this."
+"[english]TF_SupplyCrate_Desc"	"You need a Mann Co. Supply Crate Key to open this.
+You can pick one up at the Mann Co. Store."
 "TF_Tool_PaintCan"	"ペイント缶"
 "[english]TF_Tool_PaintCan"	"Paint Can"
 "TF_Tool_PaintCan_Desc"	"他のアイテムのペイントに使用します。"
@@ -5998,8 +5927,6 @@ IN THE TF2 UNIVERSE"
 "[english]TF_Revolving_Loot_List"	"This crate contains one of the following items:"
 "TF_Revolving_Loot_List_Rare_Item"	"あるいは、非常にレアなスペシャルアイテムが入っている可能性も！"
 "[english]TF_Revolving_Loot_List_Rare_Item"	"or an Exceedingly Rare Special Item!"
-"TF_Set_Bonus"	"アイテムセットボーナス："
-"[english]TF_Set_Bonus"	"Item Set Bonus:"
 "TF_Set_Polycount_Pyro"	"The Gas Jockey's Gear"
 "[english]TF_Set_Polycount_Pyro"	"The Gas Jockey's Gear"
 "TF_Set_Polycount_Scout"	"The Special Delivery"
@@ -6016,8 +5943,7 @@ IN THE TF2 UNIVERSE"
 "[english]Attrib_CannotTrade"	"Not Tradable"
 "Attrib_DisguiseOnBackstab"	"バックスタブに成功すると、
 すぐに犠牲者に変装できる"
-"[english]Attrib_DisguiseOnBackstab"	"Upon a successful backstab you
-rapidly disguise as your victim"
+"[english]Attrib_DisguiseOnBackstab"	"Upon a successful backstab you rapidly disguise as your victim"
 "Attrib_CannotDisguise"	"着用者は変装できない"
 "[english]Attrib_CannotDisguise"	"Wearer cannot disguise"
 "Attrib_SilentKiller"	"消音武器"
@@ -6051,23 +5977,22 @@ rapidly disguise as your victim"
 "Attrib_AirblastCost_Decreased"	"エアーブラストのコスト %s1%"
 "[english]Attrib_AirblastCost_Decreased"	"%s1% airblast cost"
 "Attrib_Purchased"	"購入アイテム：交換および作成不可"
-"[english]Attrib_Purchased"	"Purchased: Not Tradable or Craftable"
+"[english]Attrib_Purchased"	"Purchased: Not Tradable or Usable in Crafting"
 "Attrib_Promotion"	"プロモーションアイテム：交換および作成不可"
-"[english]Attrib_Promotion"	"Store Promotion Item: Not Tradable or Craftable"
+"[english]Attrib_Promotion"	"Store Promotion Item: Not Tradable"
 "Attrib_FlameAmmoPerSec_Increased"	"火炎放射器 1 秒当たりの弾薬消費数 +%s1%"
 "[english]Attrib_FlameAmmoPerSec_Increased"	"+%s1% flamethrower ammo consumed per second"
 "Attrib_FlameAmmoPerSec_Decreased"	"火炎放射器 1 秒当たりの弾薬消費数 %s1%"
 "[english]Attrib_FlameAmmoPerSec_Decreased"	"%s1% flamethrower ammo consumed per second"
 "Attrib_JarateDuration"	"命中時：ターゲットに %s1 秒間
 Jarate 効果"
-"[english]Attrib_JarateDuration"	"On Hit: Jarate applied to
-target for %s1 seconds"
+"[english]Attrib_JarateDuration"	"On Hit: Jarate applied to target for %s1 seconds"
 "Attrib_NoDeathFromHeadshots"	"着用者はヘッドショットで倒されない。"
 "[english]Attrib_NoDeathFromHeadshots"	"The wearer cannot be killed by headshots."
 "Attrib_AchievementItem"	"実績アイテム：交換および作成不可"
-"[english]Attrib_AchievementItem"	"Achievement Item: Not Tradable or Craftable"
+"[english]Attrib_AchievementItem"	"Achievement Item: Not Tradable"
 "Attrib_CannotCraft"	"作成不可"
-"[english]Attrib_CannotCraft"	"Not Craftable"
+"[english]Attrib_CannotCraft"	"Not Usable in Crafting"
 "Attrib_DeployTime_Increased"	"武器切り替えを %s1% 延長"
 "[english]Attrib_DeployTime_Increased"	"%s1% longer weapon switch"
 "Attrib_DeployTime_Decreased"	"武器切り替えを %s1% 高速化"
@@ -6081,7 +6006,7 @@ target for %s1 seconds"
 "Attrib_Slow_Enemy_OnHit_Major"	"命中時：ターゲットの動きを 40% 低速化（%s1s）"
 "[english]Attrib_Slow_Enemy_OnHit_Major"	"On Hit: Slow target movement by 40% for %s1s"
 "Attrib_LimitedUse"	"使用回数制限アイテム。残り使用回数：%s1。"
-"[english]Attrib_LimitedUse"	"This is a limited use item.  Uses: %s1."
+"[english]Attrib_LimitedUse"	"This is a limited use item.  Uses: %s1"
 "Attrib_EventDate"	"受領日：%s1"
 "[english]Attrib_EventDate"	"Date Received: %s1"
 "Attrib_GifterAccountID"	"ギフト提供者：%s1。"
@@ -6127,73 +6052,43 @@ Gift from: %s1"
 "[english]Attrib_Particle14"	"Scorching Flames"
 "Attrib_Particle15"	"灼熱のプラズマ"
 "[english]Attrib_Particle15"	"Searing Plasma"
-"Attrib_Particle16"	"鮮やかなプラズマ"
-"[english]Attrib_Particle16"	"Vivid Plasma"
 "Attrib_Particle17"	"サンビーム"
 "[english]Attrib_Particle17"	"Sunbeams"
 "Attrib_Particle18"	"回転するピースサイン"
 "[english]Attrib_Particle18"	"Circling Peace Sign"
 "Attrib_Particle19"	"回転するハート"
 "[english]Attrib_Particle19"	"Circling Heart"
-"TF_Unique_BattleSaw"	"Vita-Saw"	[$ENGLISH]
-"[english]TF_Unique_BattleSaw"	"Vita-Saw"
-"TF_ThePowerjack"	"Powerjack"	[$ENGLISH]
-"[english]TF_ThePowerjack"	"Powerjack"
-"TF_TheDegreaser"	"Degreaser"	[$ENGLISH]
-"[english]TF_TheDegreaser"	"Degreaser"
-"TF_TheShortstop"	"Shortstop"	[$ENGLISH]
-"[english]TF_TheShortstop"	"Shortstop"
-"TF_LEtranger"	"L'Etranger"	[$ENGLISH]
-"[english]TF_LEtranger"	"L'Etranger"
-"TF_EternalReward"	"Your Eternal Reward"	[$ENGLISH]
-"[english]TF_EternalReward"	"Your Eternal Reward"
-"TF_TheBattalionsBackup"	"Battalion's Backup"	[$ENGLISH]
-"[english]TF_TheBattalionsBackup"	"Battalion's Backup"
-"TF_TheBlackBox"	"Black Box"	[$ENGLISH]
-"[english]TF_TheBlackBox"	"Black Box"
-"TF_SydneySleeper"	"Sydney Sleeper"	[$ENGLISH]
-"[english]TF_SydneySleeper"	"Sydney Sleeper"
-"TF_DarwinsDangerShield"	"Darwin's Danger Shield"	[$ENGLISH]
-"[english]TF_DarwinsDangerShield"	"Darwin's Danger Shield"
-"TF_TheBushwacka"	"Bushwacka"	[$ENGLISH]
-"[english]TF_TheBushwacka"	"Bushwacka"
-"TF_TheHolyMackerel"	"Holy Mackerel"	[$ENGLISH]
-"[english]TF_TheHolyMackerel"	"Holy Mackerel"
-"TF_MadMilk"	"Mad Milk"	[$ENGLISH]
-"[english]TF_MadMilk"	"Mad Milk"
-"TF_Weapon_RocketLauncher_Jump"	"Rocket Jumper"	[$ENGLISH]
-"[english]TF_Weapon_RocketLauncher_Jump"	"Rocket Jumper"
-"TF_Unique_BattleSaw"	"Vita-Saw"	[$!ENGLISH]
+"TF_Unique_BattleSaw"	"Vita-Saw"
 "[english]TF_Unique_BattleSaw"	"The Vita-Saw"
-"TF_TheAttendant"	"Attendant"	[$!ENGLISH]
+"TF_TheAttendant"	"Attendant"
 "[english]TF_TheAttendant"	"The Attendant"
-"TF_TheMilkman"	"Milkman"	[$!ENGLISH]
+"TF_TheMilkman"	"Milkman"
 "[english]TF_TheMilkman"	"The Milkman"
-"TF_ThePowerjack"	"Powerjack"	[$!ENGLISH]
+"TF_ThePowerjack"	"Powerjack"
 "[english]TF_ThePowerjack"	"The Powerjack"
-"TF_TheDegreaser"	"Degreaser"	[$!ENGLISH]
+"TF_TheDegreaser"	"Degreaser"
 "[english]TF_TheDegreaser"	"The Degreaser"
-"TF_TheShortstop"	"Shortstop"	[$!ENGLISH]
+"TF_TheShortstop"	"Shortstop"
 "[english]TF_TheShortstop"	"The Shortstop"
-"TF_LEtranger"	"L'Etranger"	[$!ENGLISH]
+"TF_LEtranger"	"L'Etranger"
 "[english]TF_LEtranger"	"L'Etranger"
-"TF_EternalReward"	"Your Eternal Reward"	[$!ENGLISH]
+"TF_EternalReward"	"Your Eternal Reward"
 "[english]TF_EternalReward"	"Your Eternal Reward"
-"TF_TheBattalionsBackup"	"Battalion's Backup"	[$!ENGLISH]
+"TF_TheBattalionsBackup"	"Battalion's Backup"
 "[english]TF_TheBattalionsBackup"	"The Battalion's Backup"
-"TF_TheBlackBox"	"Black Box"	[$!ENGLISH]
+"TF_TheBlackBox"	"Black Box"
 "[english]TF_TheBlackBox"	"The Black Box"
-"TF_SydneySleeper"	"Sydney Sleeper"	[$!ENGLISH]
+"TF_SydneySleeper"	"Sydney Sleeper"
 "[english]TF_SydneySleeper"	"The Sydney Sleeper"
-"TF_DarwinsDangerShield"	"Darwin's Danger Shield"	[$!ENGLISH]
+"TF_DarwinsDangerShield"	"Darwin's Danger Shield"
 "[english]TF_DarwinsDangerShield"	"Darwin's Danger Shield"
-"TF_TheBushwacka"	"Bushwacka"	[$!ENGLISH]
+"TF_TheBushwacka"	"Bushwacka"
 "[english]TF_TheBushwacka"	"The Bushwacka"
-"TF_TheHolyMackerel"	"Holy Mackerel"	[$!ENGLISH]
+"TF_TheHolyMackerel"	"Holy Mackerel"
 "[english]TF_TheHolyMackerel"	"The Holy Mackerel"
-"TF_MadMilk"	"Mad Milk"	[$!ENGLISH]
+"TF_MadMilk"	"Mad Milk"
 "[english]TF_MadMilk"	"Mad Milk"
-"TF_Weapon_RocketLauncher_Jump"	"Rocket Jumper"	[$!ENGLISH]
+"TF_Weapon_RocketLauncher_Jump"	"Rocket Jumper"
 "[english]TF_Weapon_RocketLauncher_Jump"	"The Rocket Jumper"
 "TF_Unique_Gloves_of_Running_Urgently"	"Gloves of Running Urgently"
 "[english]TF_Unique_Gloves_of_Running_Urgently"	"Gloves of Running Urgently"
@@ -6245,10 +6140,24 @@ Gift from: %s1"
 "[english]TradingExplanation_Title"	"Trading"
 "TradingExplanation_Text"	"ここでは、バックパックに入っているアイテムを他の TF2 プレイヤーと交換できます。"
 "[english]TradingExplanation_Text"	"Here you're able to trade with other TF2 players, swapping items in your backpack for items in theirs."
+"StoreWelcomeExplanation_Title"	"Mann Co. ストアへようこそ！"
+"[english]StoreWelcomeExplanation_Title"	"Welcome to the Mann Co. Store!"
+"StoreItemsExplanation_Title"	"アイテムを購入する"
+"[english]StoreItemsExplanation_Title"	"Purchasable Item"
+"StoreDetailsExplanation_Title"	"アイテムの詳細"
+"[english]StoreDetailsExplanation_Title"	"Item Details"
+"StoreDetailsExplanation_Text"	"アイテム詳細ウィンドウでは、そのアイテムの効果や使用方法が表示されます。"
+"[english]StoreDetailsExplanation_Text"	"The item details window describes the item's specific characteristics, such as gameplay effects the item has or how it's used."
+"StorePreviewExplanation_Title"	"アイテムのプレビュー"
+"[english]StorePreviewExplanation_Title"	"Item Preview"
+"StoreAddToCartExplanation_Text"	"購入したいアイテムを見つけたら、選択して'カートに追加'ボタンを押してください。"
+"[english]StoreAddToCartExplanation_Text"	"If you find an item you want to buy, select it and press the ADD TO CART button."
+"StoreCartStatusExplanation_Text"	"ショッピングカーとの中身を確認します。アイテムをカートから外す場合、ショッピングカートのアイコンをクリックしてください。またバックパックの空きスロット数も表示されます。アイテム1個につき、バックパックのスロットを一つ占有します。"
+"[english]StoreCartStatusExplanation_Text"	"You can view the status of your shopping cart here. If you want to remove an item, click the shopping cart icon. You are also told how much empty backpack space you have. You need one empty slot for each new item you buy."
 "StoreTitle"	"Mann Co. ストア"
 "[english]StoreTitle"	"MANN CO. STORE"
 "Store_Headgear"	"ヘッドギア"
-"[english]Store_Headgear"	"Headgear"
+"[english]Store_Headgear"	"Hats"
 "Store_Weapons"	"武器"
 "[english]Store_Weapons"	"Weapons"
 "Store_Misc"	"その他"
@@ -6419,6 +6328,8 @@ FOR EVERY %s1* YOU SPEND!"
 "Store_Promotion_FirstPurchaseGift"	"P.P.S. さらに、商品を問わず、初回ご購入時には %s1 を無料でプレゼント！"
 "[english]Store_Promotion_FirstPurchaseGift"	"GET A FREE HAT
 WITH YOUR FIRST PURCHASE!"
+"Store_Promotion_FirstPurchaseGift_Sub"	"期間限定！"
+"[english]Store_Promotion_FirstPurchaseGift_Sub"	"Limited Time Only!"
 "TR_ClassInfo_Soldier"	"ロケットランチャーで敵の脚を撃て！
 ロケットランチャーを使ってロケットジャンプ！
 ロケットランチャーでダメージを受けた敵はショットガンでとどめの一撃だ！"
@@ -6440,11 +6351,11 @@ The shotgun is useful for finishing off enemies damaged by the rocket launcher"
 "TF_UseItem_MiniGameAlreadyStarted"	"ミニゲームは既に開始されています。"
 "[english]TF_UseItem_MiniGameAlreadyStarted"	"That mini-game has already been started."
 "TF_GiftedItems"	"%s1 が %s2 にプレゼントを贈った！"
-"[english]TF_GiftedItems"	"%s1 has given a gift to %s2!"
+"[english]TF_GiftedItems"	"%s1 has given a gift to %s2!"
 "TF_GifterText_Random"	"%giver% からのプレゼントを受け取る人がランダムに選択された！"
-"[english]TF_GifterText_Random"	"A person was selected at random to receive a gift from %giver%!"
+"[english]TF_GifterText_Random"	"%recipient% was selected at random to receive a gift from %giver%!"
 "TF_GifterText_All"	"%giver% は多くのプレゼントを贈った！"
-"[english]TF_GifterText_All"	"%giver% has given out a bunch of gifts!"
+"[english]TF_GifterText_All"	"%giver% has given out a bunch of gifts!"
 "TF_Trading_StatusTitle"	"交換のステータス"
 "[english]TF_Trading_StatusTitle"	"Trade Status"
 "TF_Trading_Timeout_Title"	"応答なし"
@@ -6509,6 +6420,14 @@ The shotgun is useful for finishing off enemies damaged by the rocket launcher"
 "[english]TF_TradeWindow_Step4"	"Showcase Area"
 "TF_TradeWindow_Step4Desc"	"これらのアイテムは交換されません。"
 "[english]TF_TradeWindow_Step4Desc"	"These items will NOT be traded."
+"TF_TradeWindow_Ellipsis1"	" "
+"[english]TF_TradeWindow_Ellipsis1"	""
+"TF_TradeWindow_Ellipsis2"	"."
+"[english]TF_TradeWindow_Ellipsis2"	"."
+"TF_TradeWindow_Ellipsis3"	".."
+"[english]TF_TradeWindow_Ellipsis3"	".."
+"TF_TradeWindow_Ellipsis4"	"..."
+"[english]TF_TradeWindow_Ellipsis4"	"..."
 "TF_TradeWindow_NotReady"	"交換準備中"
 "[english]TF_TradeWindow_NotReady"	"NOT ready to trade"
 "TF_TradeWindow_Ready"	"準備完了"
@@ -6607,8 +6526,6 @@ or the player may not be running TF2."
 "[english]TF_Armory_Item_Attrib_OnWearer"	"This item has an ON WEARER attribute. The effect of this attribute is applied to a player whenever this item is in their loadout, even when this item is not their actively wielded weapon."
 "TF_Armory_Item_Attrib_CloakType"	"このアイテムは、スパイの透明マントの効果に変化を与えます。このアイテムをスパイの装備に含めると、透明マントの効果が属性の説明にリストされたマントタイプに変化します。"
 "[english]TF_Armory_Item_Attrib_CloakType"	"This item modifies the SPY CLOAK. When this item is equipped in a Spy's loadout, the cloak changes its behavior to the cloak type listed in the attribute description."
-"TF_Armory_Item_Attrib_OnActive"	"この武器には、装備中の場合にのみ適用される着用者属性があります。ほとんどの着用者属性は、そのアイテムを装備に含めるだけでプレイヤーに適用されますが、これらの属性は、プレイヤーがその武器を実際に装備して使用している場合に限って適用されます。"
-"[english]TF_Armory_Item_Attrib_OnActive"	"This weapon has ON WEARER attributes that only apply when it's ACTIVE. Whereas most On Wearer attributes are applied to the player when the item is equipped in the loadout, these attributes only apply when this weapon is the player's actively wielded weapon."
 "TF_Armory_Item_Attrib_NoCrits"	"この武器では、ランダムクリティカルヒットの攻撃ができません。通常の武器では、何回かに一度、致命的な一撃がランダムに繰り出されますが、この武器にはその一撃がありません。ただし、Kritzkrieg ように、クリティカルヒットを誘発するその他のアイテムや効果があれば、この武器でも強制的にクリティカルヒットが出るようになります。"
 "[english]TF_Armory_Item_Attrib_NoCrits"	"This weapon cannot perform RANDOM CRITICAL HITS. Normal weapons have a chance to perform critical hits randomly, but this one does not. Other items and effects that cause critical hits to occur, like The Kritzkrieg, can still force this weapon to perform critical hits."
 "TF_Armory_Item_Attrib_Bleed"	"この武器で攻撃すると、敵は負傷して出血します。出血しているプレイヤーは、一定時間の間、ヘルスポイントを毎秒失っていきます。出血中のプレイヤーは何らかの方法で傷をいやすと、出血は止まります。"
@@ -6619,7 +6536,7 @@ or the player may not be running TF2."
 "[english]TF_Armory_Item_AchievementReward"	"This item is an Achievement Reward for completing the '%s1' achievement."
 "TF_Armory_Item_InSet"	"このアイテムは、%s1アイテムセットに属しています。アイテムセット全体を同時に着用すると、そのアイテムセットのボーナスが加算されます。%s1セットには、このアイテムセットボーナスがあります。
 "
-"[english]TF_Armory_Item_InSet"	"This item is part of %s1 item set. Item sets provide extra bonuses when the entire set is worn at the same time. The %s1 set will provide this Item Set Bonus:
+"[english]TF_Armory_Item_InSet"	"This item is part of %s1 item set. Item sets provide extra bonuses when the entire set is worn at the same time. The %s1 set will provide this Item Set Bonus:
 "
 "TF_Armory_Item_Type_TauntEnabler"	"このアクションアイテムを使用すると、カスタムの罵倒が再生されます。"
 "[english]TF_Armory_Item_Type_TauntEnabler"	"This Action Item plays a Custom Taunt when used."
@@ -6630,7 +6547,7 @@ or the player may not be running TF2."
 "TF_Armory_Item_Class_CraftItem"	"このアイテムは、作成アイテムです。このアイテムは、作成手順書の中でのみ使用します。他のアイテムと組み合わせて、さらに価値が高いアイテムを作成できます。"
 "[english]TF_Armory_Item_Class_CraftItem"	"This item is a Craft Item. It's only used inside crafting recipes, where it can be combined with other items to create more valuable items."
 "TF_Armory_Item_Class_Tool"	"このアイテムは、工具です。このアイテムは、バックパック内の別のアイテムに適用できます。適用すると、このアイテムはなくなります。バックパック内で［適用対象...］ボタンをクリックすると、アイテムの適用が開始されます。"
-"[english]TF_Armory_Item_Class_Tool"	"This item is a Tool. It can be applied to another item in your backpack, and is consumed in the process. Click the 'Use With...' button in the backpack to start the process of applying it."
+"[english]TF_Armory_Item_Class_Tool"	"This item is a Tool. It can used on its own or be applied to another item in your backpack, and is consumed in the process. Click the 'Use' or 'Use With...' button in the backpack to start the process of applying it."
 "TF_Armory_Item_ClassUsageAllBundle"	"このバンドルには、全クラスが利用できるアイテムが含まれています。"
 "[english]TF_Armory_Item_ClassUsageAllBundle"	"This bundle contains items that can be used by all classes."
 "TF_Armory_Item_ClassUsageBundle"	"このバンドルのアイテムを利用できるクラス： "
@@ -6650,9 +6567,13 @@ or the player may not be running TF2."
 "TF_Armory_Item_Bundle"	"このバンドルには、次のアイテムが含まれています。 "
 "[english]TF_Armory_Item_Bundle"	"This bundle contains the following items: "
 "TF_Armory_Item_Action"	"このアイテムは、アクションアイテムです。クラス装備のアクションスロットに装備して、［アクションスロットのアイテムを使用］キーを押します。このキーは、キーボードの設定で割り当てることができます。"
-"[english]TF_Armory_Item_Action"	"This item is an Action Item. Equip it in the Action slot of a class loadout, and then press the 'Use Item in Action Slot' key, which can be bound in the Keyboard Settings."
+"[english]TF_Armory_Item_Action"	"This item is an Action Item. Click on the backpack's 'Use' button to use it. Alternatively, equip it in the Action slot of a class loadout and press the 'Use Item in Action Slot' key, which can be bound in the Keyboard Settings."
 "TF_Armory_Item_Duel"	"このアクションアイテムを使用すると、決闘ミニゲームが可能になります。使用時には、決闘のためにサーバー内の別のプレイヤーに挑戦状をたたきつけることができます。挑戦が受け入れられると、決闘が始まります。決闘が終わると、相手よりもキル数が多いプレイヤーがその決闘を制したと見なされ、勝利を称えるメダルを受け取ります。このアイテムは、相手のプレイヤーが決闘を拒否した場合は使用されません。"
-"[english]TF_Armory_Item_Duel"	"This Action Item enables the Duelling Mini-game. When used, it allows you to challenge another player in the server to a duel. If they accept, the duel begins. At the end of the round, whoever has killed the other the most wins the duel.  Both players will receive a medal that will keep track of their dueling statistics. This item will not be consumed if the other player refuses the duel."
+"[english]TF_Armory_Item_Duel"	"This Action Item enables the Dueling Mini-Game. When used, it allows you to challenge a player on the opposite team to a duel. If they accept, the duel begins. This item will not be consumed if the other player refuses the duel.
+
+At the end of the round, whoever has more duel points wins. Kills and assists against your opponent are worth 1 point.
+
+This item will be consumed if the server changes level or the score is tied 0-0 at the end of the round."
 "TF_Armory_Item_Supply_Crate"	"この物資箱には、説明にリストされたアイテムの 1 つが入っています。物資箱のロックを解除して、アイテムを取り出すには、Mann Co. 物資箱キーを使用する必要があります。このキーは、Mann Co. ストアで購入できます。これらの物資箱には、ゲームに登場するアイテムの中でも特にレアなアイテムが入っています。物資箱のロックを解除するときは、幸運を祈りましょう！"
 "[english]TF_Armory_Item_Supply_Crate"	"This crate contains one of the items listed in its description. To unlock the crate and retrieve the item, you must use a Mann Co. Supply Crate Key, which can be purchased inside the Mann Co. Store. These crates contain one of the rarest and most valuable items in the game, so cross your fingers before you unlock them!"
 "TF_Armory_Item_Key"	"このキーは、Mann Co. 物資箱を開くために利用できます。物資箱を開くと、物資箱のアイテムリストに載っているアイテムの 1 つを受け取ることができます。"
@@ -6703,5 +6624,25 @@ on your server."
 "[english]TF_Serverlist_Ask_Yes"	"Yes"
 "TF_Serverlist_Ask_No"	"いいえ"
 "[english]TF_Serverlist_Ask_No"	"No"
+"Craft_Untradable_Title"	"警告"
+"[english]Craft_Untradable_Title"	"Warning"
+"TF_Worms_Gear_Desc"	""
+"[english]TF_Worms_Gear_Desc"	""
+"TF_TheAttendant_Desc"	""
+"[english]TF_TheAttendant_Desc"	""
+"TF_TheMilkman_Desc"	""
+"[english]TF_TheMilkman_Desc"	""
+"TF_TheFamiliarFez_Desc"	""
+"[english]TF_TheFamiliarFez_Desc"	""
+"TF_TheGrenadiersSoftcap_Desc"	""
+"[english]TF_TheGrenadiersSoftcap_Desc"	""
+"TF_OlSnaggletooth_Desc"	""
+"[english]TF_OlSnaggletooth_Desc"	""
+"TF_MannCoCap_Desc"	""
+"[english]TF_MannCoCap_Desc"	""
+"Store_Halloween"	"ハロウィーン"
+"[english]Store_Halloween"	"Halloween"
+"IT_NoModel"	"<none selected>"
+"[english]IT_NoModel"	"<none selected>"
 }
 }

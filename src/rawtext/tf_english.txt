@@ -326,21 +326,49 @@ Build teleporters to help team mates get to the front lines!"
 "TF_Weapon_Peppergun"		"Peppergun"
 "TF_Weapon_Fish"		"Fish"
 "TF_Weapon_FryingPan"		"Frying Pan"
+"TF_Weapon_Gloves"		"Boxing Gloves"
+"TF_Weapon_Crossbow"		"Crossbow"
+"TF_Weapon_StickBomb"		"Stick Bomb"
+"TF_Weapon_GardenRake"		"Garden Rake"
+
+"TF_MapToken"			"Map Stamp"
 
 "TF_Wearable_Boots"		"Boots"
 "TF_Wearable_Medal"		"Medal"
 "TF_Wearable_Badge"		"Badge"
 "TF_Wearable_Holiday_Hat"	"Holiday Hat"
 "TF_Wearable_HonestyHalo" 	"Aura of Incorruptibility"
+"TF_Wearable_Glasses"	"Glasses"
 
 "Humiliation_Count"		"x%s1"
 "Humiliation_Kill"		"FISH KILL!"
+
 
 "TF_Gift"					"Gift"
 "TF_Gift_EntireServer"	   	"Pile o' Gifts"
 "TF_Gift_EntireServer_Desc"	"When used, this Action Item gives a random gift\nto up to 23 other people on the server!"
 "TF_Gift_RandomPerson"		"Secret Saxton"
 "TF_Gift_RandomPerson_Desc"	"When used, this Action Item gives a random gift\nto a random person on the server!"
+
+"TF_NoiseMaker"			"Noise Maker"
+"TF_NoiseMaker_CrazyLaugh"	"Noise Maker - Crazy Laugh"
+"TF_NoiseMaker_Werewolf"	"Noise Maker - Werewolf"
+"TF_NoiseMaker_BlackCat"	"Noise Maker - Black Cat"
+"TF_NoiseMaker_Banshee"		"Noise Maker - Banshee"
+"TF_NoiseMaker_Witch"		"Noise Maker - Witch"
+"TF_NoiseMaker_Gremlin"		"Noise Maker - Gremlin"
+"TF_NoiseMaker_Stabby"		"Noise Maker - Stabby"
+"TF_NoiseMaker_Exhausted"	"You have used all of your Noise Maker's charges."
+
+"TF_Party_Favor"		"Party Favor"
+"TF_Armory_Item_Type_NoiseMaker""Plays a Halloween themed sound when used. Equip this item in your action slot and use it during a game. A charge will be consumed when the item is used."
+
+
+"TF_DeliverGiftDialog_Title"	"Deliver a Gift"
+"TF_DeliverGiftResultDialog_Title" "Gift Delivery"
+"TF_DeliverGiftResultDialog_Success"  "The gift has been delivered!"
+"TF_DeliverGiftResultDialog_Fail"  "Unable to deliver the gift."
+"TF_DeliverGiftResultDialog_VAC"  "The recipient does not have privileges to receive a gift."
 
 "TF_UseFail_NotInGame_Title"	"Join A Game First!"
 "TF_UseFail_NotInGame"			"This item can only be used from within a game."
@@ -361,17 +389,20 @@ Build teleporters to help team mates get to the front lines!"
 "TF_Duel_Win_SwappedTeams"	"%winner% defeated %loser% in a duel because %loser% changed teams."
 "TF_Duel_Win_Disconnect"	"%winner% defeated %loser% in a duel because %loser% left the game."
 "TF_Duel_Tie"				"The duel between %initiator% and %target% ended in a draw with %score% points each!"
-"TF_Duel_Refund_LevelShutdown"			"The duel between %initiator% and %target% has ended, because the level has changed. A Dueling Mini-Game has been refunded to %initiator%."
-"TF_Duel_Refund_ScoreTiedAtZero"		"The duel between %initiator% and %target% has ended, because they tied at 0-0. A Dueling Mini-Game has been refunded to %initiator%."
+"TF_Duel_Refund_LevelShutdown"			"The duel between %initiator% and %target% has ended, because the level has changed. A Dueling Mini-Game owned by %initiator% has not been consumed."
+"TF_Duel_Refund_ScoreTiedAtZero"		"The duel between %initiator% and %target% has ended, because they tied at 0-0. A Dueling Mini-Game owned by %initiator% has not been consumed."
+"TF_Duel_Refund_Kicked"		"The duel between %initiator% and %target% has ended, because a player has been kicked. A Dueling Mini-Game owned by %initiator% has not been consumed."
+"TF_Duel_Refund_ForceTeamSwap"		"The duel between %initiator% and %target% has ended, because a player has been switched to another team. A Dueling Mini-Game owned by %initiator% has not been consumed."
 "TF_Duel_StatusKill"		"Duel Status:\n%initiator%: %initiator_score%\n%target%: %target_score%"
 "TF_Duel_StatusAssist"		"Duel Status:\n%initiator%: %initiator_score%\n%target%: %target_score%"
 "TF_Duel_StatusForChat_Kill"	"Duel Status - %initiator%: %initiator_score% - %target%: %target_score%."
 "TF_Duel_StatusForChat_Assist"	"Duel Status - %initiator%: %initiator_score% - %target%: %target_score%."
 "TF_Duel_Title"				"Duel to the Death!"
 "TF_Duel_JoinCancel"		"No Thanks"
-"TF_Duel_Cancelled"			"The duel between %initiator% and %target% has been cancelled."
+"TF_Duel_Cancelled"			"The duel between %initiator% and %target% has been cancelled. A Dueling Mini-Game owned by %initiator% has not been consumed."
 "TF_Duel_InADuel_Initiator"	"You have already challenged someone to a duel or are currently in a duel."
 "TF_Duel_InADuel_Target"	"%target% is already in a duel."
+"TF_Duel_CannotUse"			"Cannot initiate a duel at this time."
 "TF_Duel_Medal_Bronze"		"Bronze Dueling Badge"
 "TF_Duel_Medal_Silver"		"Silver Dueling Badge"
 "TF_Duel_Medal_Gold"		"Gold Dueling Badge"
@@ -384,6 +415,8 @@ Build teleporters to help team mates get to the front lines!"
 "TF_Duel_Desc_Lost"		"Wins: %wins%\nWinning Percentage: %ratio%%%\nLast Duel: You lost to %last_target%\non %last_date%"
 "TF_Duel_Desc_Tied"		"Wins: %wins%\nWinning Percentage: %ratio%%%\nLast Duel: You tied with %last_target%\non %last_date%"
 "TF_DuelDialog_Title"	"Challenge to a Duel"
+
+"TF_ItemExpiration"		"This item will expire on %s1."
 
 "TF_StoreBundle"		"Item Bundle"
 
@@ -399,6 +432,27 @@ Build teleporters to help team mates get to the front lines!"
 "TF_Bundle_PolycountSniper_Desc"		"Includes all the Polycount Sniper Items:"
 "TF_Bundle_PolycountScout"			"The Special Delivery"
 "TF_Bundle_PolycountScout_Desc"			"Includes all the Polycount Scout Items:"
+
+"TF_Bundle_ExcessiveBundle"			"A Bargaining Manne's Bundle of Bargains"
+"TF_Bundle_ExcessiveBundle_Desc"		"Includes all items from the Polycount Pack and the Winter Update Pack:"
+"TF_Bundle_WinterUpdate"			"Winter Update Pack"
+"TF_Bundle_WinterUpdate_Desc"			"Includes all of the Winter Update class set items:"
+"TF_Bundle_MedievalMedic"			"The Medieval Medic"
+"TF_Bundle_MedievalMedic_Desc"			"Includes these medieval themed Medic items:"
+"TF_Bundle_HibernatingBear"			"The Hibernating Bear"
+"TF_Bundle_HibernatingBear_Desc"		"Includes these Heavy items:"
+"TF_Bundle_ExpertsOrdnance"			"The Expert's Ordnance"
+"TF_Bundle_ExpertsOrdnance_Desc"		"Includes these Demoman items:"
+"TF_Bundle_FancyHats"				"Box of Fancy Hats"
+"TF_Bundle_FancyHats_Desc"			"Contains a variety of incredibly fancy hats:"
+"TF_Bundle_NastyWeapons"			"Pile of Nasty Weapons"
+"TF_Bundle_NastyWeapons_Desc"			"An assortment of particularly nasty weapons:"
+
+"TF_Bundle_HalloweenNoiseMaker"			"Noise Maker Bundle"
+"TF_Bundle_HalloweenNoiseMaker_Desc"		"Includes one of each Halloween Noise Maker. Each Noise Maker has 25 charges."
+
+"TF_Bundle_MapTokens"			"Map Stamps Collection"
+"TF_Bundle_MapTokens_Desc"		"Includes one a stamp for each community made map."
 
 "TF_Scout_Hat_1"		"Batter's Helmet"
 "TF_Scout_Hat_1_Desc"		"You'll be batting a thousand (skulls in) when you don this red piece of plastic!"
@@ -464,8 +518,12 @@ Build teleporters to help team mates get to the front lines!"
 "TF_HonestyHalo_Desc"		"Though some would stop at nothing to achieve hats, you remained resolute and incorruptible in your quest for head decorations. For that, you have been rewarded."
 "TF_Halloween_Hat"		"Mildly Disturbing Halloween Mask"
 "TF_Halloween_Hat_Desc"		"Brown paper never looked so mildly disturbing."
-"TF_Domination_Hat"		"Ghastly Gibus"
-"TF_Domination_Hat_Desc"	"Elegant simplicity and old-world charm combined with the heady aromas of mould and grave dust."
+"TF_Halloween_Head"		"Horseless Headless Horsemann's Head"
+"TF_Halloween_Head_Desc"	"He had one all along..."
+"TF_Domination_Hat"		"Ghastlier Gibus"
+"TF_Domination_Hat_Desc"	"Even more ghastly."
+"TF_Domination_Hat_2010"		"Ghastly Gibus"
+"TF_Domination_Hat_2010_Desc"	"Elegant simplicity and old-world charm combined with the heady aromas of mould and grave dust."
 "TF_L4DHat"			"Bill's Hat"
 "TF_L4DHat_Desc"			"Left 4 You."
 "TF_Wearable_L4DHat"		"Veteran's Beret"
@@ -505,7 +563,7 @@ Build teleporters to help team mates get to the front lines!"
 "TF_ScoutWhoopee"		"Whoopee Cap"
 "TF_ScoutWhoopee_Desc"		"You'd have to be a jughead not to realize this cap is the pinnacle of fashion for the discerning youth."
 "TF_Worms_Gear"			"Lumbricus Lid"
-//"TF_Worms_Gear_Desc"			"Lumbricus Lid Description"
+"TF_Worms_Gear_Desc"			""
 "TF_PyroMonocle"		"Whiskered Gentleman"
 "TF_PyroMonocle_Desc"		"The most distinguished tape-on fire-retardant facial hair available, for the discerning gentleman of conflagration."
 "TF_MedicGoggles"		"Ze Goggles"
@@ -513,7 +571,9 @@ Build teleporters to help team mates get to the front lines!"
 "TF_EngineerEarmuffs"		"Safe'n'Sound"
 "TF_EngineerEarmuffs_Desc"		"It gets difficult trying to calculate the total external applied torque to a body's rotational motion through its moment of momentum vector while the distracting sounds of gunfire and death are all around you. Build a better, safer machine with the silence of the Safe'n'sound!"
 "TF_DemomanTricorne"		"Tippler's Tricorne"
-"TF_DemomanTricorne_Desc"		"Three sharp corners mean one sharp hat.\nDon't poke your eye out."
+"TF_DemomanTricorne_Desc"	"Three sharp corners mean one sharp hat.\nDon't poke your eye out."
+"TF_DemomanPirate"		"Rimmed Raincatcher"
+"TF_DemomanPirate_Desc"		"Because there's no alliteration\nlike alliteration with an 'ARR!'"
 "TF_SpyBeret"			"Frenchman's Beret"
 "TF_SpyBeret_Desc"			"Because real espionage is an artform."
 "TF_SniperFishingHat"		"Bloke's Bucket Hat"
@@ -528,22 +588,23 @@ Build teleporters to help team mates get to the front lines!"
 "TF_HeavyDorag_Desc"			"It costs $400,000 to wear this bandanna for 12 seconds."
 "TF_Parasite_Hat"		"Alien Swarm Parasite"
 "TF_Parasite_Hat_Desc"		"This cute little guy was once the scourge of humanity in another time and place. Now he's content to ride on your head and keep the sun off."
-"TF_TheAttendant"		"Attendant" [$ENGLISH]
-//"TF_TheAttendant_Desc"		"Attendant Description"
-"TF_TheMilkman"			"Milkman" [$ENGLISH]
-//"TF_TheMilkman_Desc"			"The Milkman Description"
+"TF_TheAttendant"		"Attendant"	// ADD THE
+"TF_TheAttendant_Desc"		""
+"TF_TheMilkman"			"Milkman"	// ADD THE
+"TF_TheMilkman_Desc"			""
 "TF_TheFamiliarFez"		"Familiar Fez"
-//"TF_TheFamiliarFez_Desc"		"The Familiar Fez Description"
+"TF_TheFamiliarFez_Desc"		""
 "TF_TheGrenadiersSoftcap"	"Grenadier's Softcap"
-//"TF_TheGrenadiersSoftcap_Desc"	"The Grenadier's Softcap Description"
+"TF_TheGrenadiersSoftcap_Desc"	""
 "TF_Unique_Achievement_SoldierBuff_Desc"	"Provides an offensive buff that causes\nnearby team members to do mini-crits."
 "TF_TheBattalionsBackup_Desc"	"Provides a defensive buff that protects\nnearby team members from crits\nand blocks 35% of incoming damage.\nRage increases through damage taken."
 "TF_OlSnaggletooth"		"Ol' Snaggletooth"
-//"TF_OlSnaggletooth_Desc"		"Ol' Snaggletooth Description"
+"TF_OlSnaggletooth_Desc"		""
 "TF_TheShortstop_Desc"		"Mann Co.'s latest in high attitude\nbreak-action personal defense."
 "TF_TheHolyMackerel_Desc"	"Getting hit by a fish has got to be humiliating."
 "TF_MadMilk_Desc"		"Players heal 75% of the damage done\nto an enemy covered with milk."
 "TF_Weapon_RocketLauncher_Jump_Desc" "A special no-damage rocket launcher for learning\nrocket jump tricks and patterns."
+"TF_Weapon_StickyBomb_Jump_Desc" "A special no-damage stickybomb launcher for learning stickybomb jump tricks and patterns."
 "TF_Wrangler_Desc"		"Take manual control of your Sentry Gun"
 "TF_ScoutBombingRun"		"Bombing Run"
 "TF_ScoutBombingRun_Desc"	"Death from above!"
@@ -567,16 +628,147 @@ Build teleporters to help team mates get to the front lines!"
 "TF_PyroBeanie_Desc"		"After a long day of burning scouts."
 "TF_HeavyPugilistProtector"	"Pugilist's Protector"
 "TF_HeavyPugilistProtector_Desc"""
-"TF_SoldierChiefRocketeer"	"Chieftan's Challenge"
+"TF_SoldierChiefRocketeer"	"Chieftain's Challenge"
 "TF_SoldierChiefRocketeer_Desc"	""
 "TF_WikiCap"			"Wiki Cap"
-"TF_WikiCap_Desc"		"Earned by those knowledgeable few who know how to edit a web page."
+"TF_WikiCap_Desc"		"Given to valuable contributors to the official TF2 wiki\nhttp://wiki.teamfortress.com/"
 "TF_MannCoCap"			"Mann Co. Cap"
-//"TF_MannCoCap_Desc"		""
+"TF_MannCoCap_Desc"		""
 "TF_Polycount_Pin"			"Polycount Pin"
 "TF_Polycount_Pin_Desc"		"Awarded to participants of the Polycount contest."
 "TF_EllisHat"			"Ellis' Cap"
 //"TF_EllisHat_Desc"		""
+"TF_FlippedTrilby"		"Flipped Trilby"
+"TF_GermanGonzila"		"German Gonzila"
+"TF_BuckaroosHat"		"Buckaroos Hat"
+"TF_MadameDixie"		"Madame Dixie"
+"TF_DetectiveNoir"		"Détective Noir"
+"TF_CoupeDisaster"		"Coupe D'isaster"
+"TF_PartyPhantom"		"Le Party Phantom"
+"TF_ColoredLights"		"Industrial Festivizer"
+"TF_ExquisiteRack"		"Exquisite Rack"
+"TF_DefiantSpartan"		"Defiant Spartan"
+"TF_FestiveTree"		"A Rather Festive Tree"
+"TF_TavishCrown"		"Prince Tavish's Crown"
+
+"TF_MagnificentMongolian"	"Magnificent Mongolian"
+"TF_LarrikinRobin"		"Larrikin Robin"
+"TF_BlightedBeak"		"Blighted Beak"
+"TF_KF_Pyro_Mask"		"Foster's Facade"
+"TF_KF_Pyro_Tie"		"Stockbroker's Scarf"
+"TF_PyromancersMask"		"Pyromancer's Mask"
+"TF_PrancersPride"		"Prancer's Pride"
+
+
+"TF_BigChief"			"Big Chief" // ADD THE
+"TF_BigChief_Desc"		""
+
+"TF_BerlinersBucketHelm"	"Berliner's Bucket Helm"
+"TF_BerlinersBucketHelm_Desc"	""
+"TF_ScotchBonnet"		"Scotch Bonnet"
+"TF_ScotchBOnnet_Desc"		"Don't let those ninnies take yer good eye!"
+
+
+"TF_Cadavers_Cranium"		"Cadaver's Cranium"
+//"TF_Cadavers_Cranium_Desc"	""
+"TF_Horrific_Headsplitter"	"Horrific Headsplitter"
+"TF_Horrific_Headsplitter_Desc"	"When wearing such a piece of headgear it is best to keep an open mind."
+"TF_Halloween_Skullcap"		"Spine-Chilling Skull"
+"TF_Halloween_Skullcap_Desc"	"Express your undying hatred for the living."
+"TF_Halloween_Voodoo"		"Voodoo Juju"
+"TF_Halloween_Voodoo_Desc"	"Only the finest leather hats come with tattoos and piercings."
+"TF_TTG_PokerVisor"		"Dealer's Visor"
+"TF_TTG_PokerVisor_Desc"		"Do not try to bluff Sasha."
+"TF_TTG_Glasses"		"Dangeresque, Too?"
+"TF_TTG_Glasses_Desc"		"Splash the pot with all you got."
+"TF_TTG_Badge"			"License to Maim"
+"TF_TTG_Badge_Desc"		"And kill, and break, and smash, and bite. Mainly maim, though."
+
+"TF_Portal2_Pin"		"Companion Cube Pin"
+
+"TF_Halloween_Mask_Scout"		"Scout Mask"
+"TF_Halloween_Mask_Sniper"		"Sniper Mask"
+"TF_Halloween_Mask_Soldier"		"Soldier Mask"
+"TF_Halloween_Mask_Demoman"		"Demoman Mask"
+"TF_Halloween_Mask_Medic"		"Medic Mask"
+"TF_Halloween_Mask_Heavy"		"Heavy Mask"
+"TF_Halloween_Mask_Spy"			"Spy Mask"
+"TF_Halloween_Mask_Engineer"		"Engineer Mask"
+"TF_Halloween_Mask_Pyro"			"Pyro Mask"
+"TF_Halloween_Mask_SaxtonHale"		"Saxton Hale Mask"
+
+"cp_fastlane_authors"	"Arttu 'SK' Mäki"
+"ctf_turbine_authors"	"Flobster"
+"cp_steel_authors"		"Jamie 'Fishbus' Manson\nDan 'Irish Taxi Driver' Merboth\nFLOOR_MASTER"
+"cp_egypt_final_authors"		"Sean 'Heyo' Cutino"
+"cp_junction_final_authors"		"Sean 'Heyo' Cutino"
+"arena_watchtower_authors"		"Joshua 'JoshuaC' Shiflet"
+"pl_hoodoo_final_authors"		"Tim 'YM' Johnson\nJeroen 'Snipergen' Dessaux\nWade 'Nineaxis' Fabry\nDrew 'Oxy' Fletcher"
+"arena_offblast_final_authors"	"Magnar 'insta' Jenssen"
+"cp_yukon_final_authors"		"Patrick 'MangyCarface' Mulholland\nJoachim 'Acegikmo' Holmér"
+"koth_harvest_final_authors"	"Sean 'Heyo' Cutino"
+"cp_freight_final1_authors"		"Jamie 'Fishbus' Manson\nMitch 'ol' Robb"
+"cp_coldfront_authors"			"Eric 'Icarus' Wong\nDavid 'Selentic' Simon\nAeon 'Void' Bollig\nTim 'YM'Johnson"
+"cp_mountainlab"				"Valentin '3DNJ' Levillain"
+"cp_manor_event_authors"		"Tim 'YM' Johnson\nAlex 'Rexy' Kreeger"
+
+"TF_Contributed"				"Thanks %playername% for supporting this map!"
+"TF_DuelLeaderboard_Title"		"Top Duel Wins This Season"
+"TF_MapAuthors_Community_Title"		"A Community Map Made By"
+"TF_MapDonators_Title"			"Supporters (%s1 Worldwide!)"
+"TF_WorldTraveler"				"World Traveler's Hat"
+"TF_WorldTraveler_Desc"			"Given to generous souls who have donated to community map makers. The effect will only be visible while on a map that has been donated towards!"
+"TF_Egypt"						"Egypt"
+"TF_MapToken_Egypt"				"Map Stamp - Egypt"
+"TF_MapToken_Egypt_Desc"		"An Attack/Defend Control Point Map\n\nMade by Sean 'Heyo' Cutino\n\nPurchasing this item directly supports the creators of the Egypt community map.  Show your support today!"
+"TF_Coldfront"					"Coldfront"
+"TF_MapToken_Coldfront"			"Map Stamp - Coldfront"
+"TF_MapToken_Coldfront_Desc"	"A Control Point Map\n\nMade by Eric 'Icarus' Wong, David 'Selentic' Simon, Aeon 'Void' Bollig, and Tim 'YM'Johnson\n\nPurchasing this item directly supports the creators of the Coldfront community map.  Show your support today!"
+"TF_Fastlane"					"Fastlane"
+"TF_MapToken_Fastlane"			"Map Stamp - Fastlane"
+"TF_MapToken_Fastlane_Desc"		"A Control Point Map\n\nMade by Arttu 'SK' Mäki\n\nPurchasing this item directly supports the creators of the Fastlane community map.  Show your support today!"
+"TF_Turbine"					"Turbine"
+"TF_MapToken_Turbine"			"Map Stamp - Turbine"
+"TF_MapToken_Turbine_Desc"		"A Capture the Flag Map\n\nMade by Flobster\n\nPurchasing this item directly supports the creators of the Turbine community map.  Show your support today!"
+"TF_Steel"						"Steel"
+"TF_MapToken_Steel"				"Map Stamp - Steel"
+"TF_MapToken_Steel_Desc"		"An Attack/Defence Control Point Map\n\nMade by Jamie 'Fishbus' Manson, Dan 'Irish Taxi Driver' Merboth and FLOOR_MASTER\n\nPurchasing this item directly supports the creators of the Steel community map.  Show your support today!"
+"TF_Junction"					"Junction"
+"TF_MapToken_Junction"			"Map Stamp - Junction"
+"TF_MapToken_Junction_Desc"		"An Attack/Defend Control Point Map\n\nMade by Sean 'Heyo' Cutino\n\nPurchasing this item directly supports the creators of the Junction community map.  Show your support today!"
+"TF_Watchtower"					"Watchtower"
+"TF_MapToken_Watchtower"		"Map Stamp - Watchtower"
+"TF_MapToken_Watchtower_Desc"	"An Arena Map\n\nMade by Joshua 'JoshuaC' Shiflet\n\nPurchasing this item directly supports the creators of the Watchtower community map.  Show your support today!"
+"TF_Hoodoo"						"Hoodoo"
+"TF_MapToken_Hoodoo"			"Map Stamp - Hoodoo"
+"TF_MapToken_Hoodoo_Desc"		"A Payload Map\n\nMade by Tim 'YM' Johnson, Jeroen 'Snipergen' Dessaux, Wade 'Nineaxis' Fabry and Drew 'Oxy' Fletcher\n\nPurchasing this item directly supports the creators of the Hoodoo community map.  Show your support today!"
+"TF_Offblast"					"Offblast"
+"TF_MapToken_Offblast"			"Map Stamp - Offblast"
+"TF_MapToken_Offblast_Desc"		"Ab Arena Map\n\nMade by Magnar 'insta' Jenssen\n\nPurchasing this item directly supports the creators of the Offblast community map.  Show your support today!"
+"TF_Yukon"						"Yukon"
+"TF_MapToken_Yukon"				"Map Stamp - Yukon"
+"TF_MapToken_Yukon_Desc"		"A Control Point Map\n\nMade by Patrick 'MangyCarface' Mulholland and Joachim 'Acegikmo' Holmér\n\nPurchasing this item directly supports the creators of the Yukon community map.  Show your support today!"
+"TF_Harvest"					"Harvest"
+"TF_MapToken_Harvest"			"Map Stamp - Harvest"
+"TF_MapToken_Harvest_Desc"		"A King of the Hill Map\n\nMade by Sean 'Heyo' Cutino\n\nPurchasing this item directly supports the creators of the Harvest community map.  Show your support today!"
+"TF_Freight"					"Freight"
+"TF_MapToken_Freight"			"Map Stamp - Freight"
+"TF_MapToken_Freight_Desc"		"A Control Point Map\n\nMade by Jamie 'Fishbus' Manson and Mitch 'ol' Robb\n\nPurchasing this item directly supports the creators of the Freight community map.  Show your support today!"
+"TF_MountainLab"				"Mountain Lab"
+"TF_MapToken_MountainLab"		"Map Stamp - Mountain Lab"
+"TF_MapToken_MountainLab_Desc"	"An Attack/Defence Control Point Map\n\nMade by Valentin '3DNJ' Levillain\n\nPurchasing this item directly supports the creators of the Mountain Lab community map.  Show your support today!"
+"TF_ManorEvent"					"Mann Manor"
+"TF_MapToken_ManorEvent"		"Map Stamp - Mann Manor"
+"TF_MapToken_ManorEvent_Desc"	"An Attack/Defend Control Point Map\n\nMade by Tim 'YM' Johnson and Alex 'Rexy' Kreeger\n\nPurchasing this item directly supports the creators of the Mann Manor community map.  Show your support today!"
+"TF_MapDonationLevel_Bronze"	"Bronze:"
+"TF_MapDonationLevel_Silver"	"Silver:"
+"TF_MapDonationLevel_Gold"	"Gold:"
+"TF_MapDonationLevel_Platinum"	"Platinum:"
+"TF_MapDonationLevel_Diamond"	"Diamond:"
+"TF_MapDonationLevel_Australium1"	"12-karat Australium:"
+"TF_MapDonationLevel_Australium2"	"18-karat Australium:"
+"TF_MapDonationLevel_Australium3"	"24-karat Australium:"
+"TF_MapDonationLevel_Unobtainium"	"Unobtanium:"
 
 // Death strings
 "DeathMsg_Suicide"		"bid farewell, cruel world!"
@@ -769,7 +961,7 @@ Build teleporters to help team mates get to the front lines!"
 "Pipeline_cap_3_blue"			"Blue's final capture point"
 
 // Hightower level strings
-"hightower_setup_goal"			"Move your cart to the top of your HighTower to win"
+"hightower_setup_goal"			"Move your cart to the top of your HighTower to win!"
 "hightower_cap_red"			"Red's HighTower"
 "hightower_cap_blue"			"Blue's HighTower"
 
@@ -783,6 +975,13 @@ Build teleporters to help team mates get to the front lines!"
 // KOTH Viaduct strings
 "koth_setup_goal"			"Capture and hold the Control Point to win the game!"
 "koth_viaduct_cap"			"the Control Point"
+
+// Medieval
+"medieval_setup_goal_red"		"Capture and hold the final Control Point to win the game!"
+"medieval_setup_goal_blue"		"Open the gate and capture the final Control Point to win the game!"
+"medieval_cap_a"			"the Town"
+"medieval_cap_b"			"the Cliffside"
+"medieval_cap_c"			"Red's Keep"
 
 "Arena_cap"			"the Control Point"
 
@@ -1473,6 +1672,7 @@ Build teleporters to help team mates get to the front lines!"
 "Voice_Menu_Thanks"		"Thanks!"
 
 "TF_classautokill"		"Suicide after choosing a player class"
+"TF_loadoutrespawn"		"Automatically respawn after loadout changes in respawn zones."
 
 "TF_CurrentPlayers"		"Current Players"
 
@@ -1570,6 +1770,7 @@ Build teleporters to help team mates get to the front lines!"
 "TF_ViewGamercard"		"View Gamercard"
 "TF_KickPlayer"			"Kick Player"
 "TF_AttackDefend"		"Attack / Defend"
+"TF_MedievalAttackDefend"		"Medieval Attack / Defend"
 "TF_TerritoryControl"	"Territorial Control"
 "TF_GameState_InLobby"	"Status: In Lobby"
 "TF_GameState_InLobby_lodef"	"Status:\nIn Lobby"
@@ -2213,11 +2414,26 @@ Build teleporters to help team mates get to the front lines!"
 "TF_HALLOWEEN_DOMINATE_FOR_HAT_NAME"		"Ghastly Gibus Grab"
 "TF_HALLOWEEN_DOMINATE_FOR_HAT_DESC"		"Dominate a player wearing the Ghastly Gibus to earn your own."
 "TF_HALLOWEEN_KILL_SCARED_PLAYER_NAME"		"Scared Stiff"
-"TF_HALLOWEEN_KILL_SCARED_PLAYER_DESC"		"Kill a player scared by the ghost haunting KOTH Harvest."
+"TF_HALLOWEEN_KILL_SCARED_PLAYER_DESC"		"Kill a player scared by a ghost."
 "TF_HALLOWEEN_PUMPKIN_KILL_NAME"		"Attack o' Lantern"
 "TF_HALLOWEEN_PUMPKIN_KILL_DESC"		"Cause the deaths of 5 players by exploding nearby pumpkin bombs."
 "TF_HALLOWEEN_DISGUISED_SPY_KILL_NAME"		"Costume Contest"
 "TF_HALLOWEEN_DISGUISED_SPY_KILL_DESC"		"Kill a Spy disguised as your current class."
+"TF_HALLOWEEN_BOSS_KILL_NAME"                   "Sleepy Holl0WND"
+"TF_HALLOWEEN_BOSS_KILL_DESC"                   "Kill the Horseless Headless Horsemann."
+"TF_HALLOWEEN_BOSS_KILL_MELEE_NAME"             "Gored!"
+"TF_HALLOWEEN_BOSS_KILL_MELEE_DESC"             "Collect the Horseless Headless Horsemann's Haunted Metal."
+"TF_HALLOWEEN_COLLECT_GOODY_BAG_NAME"           "Masked Mann"
+"TF_HALLOWEEN_COLLECT_GOODY_BAG_DESC"           "Collect the Haunted Halloween Gift in Mann Manor."
+"TF_HALLOWEEN_CRAFT_SAXTON_MASK_NAME"           "Sackston Hale"
+"TF_HALLOWEEN_CRAFT_SAXTON_MASK_DESC"           "Craft the Saxton Hale Mask."
+
+"TF_HALLOWEEN_BOSS_DEATHCAM_NAME"			"The Horseless Headless Horsemann"
+"TF_HALLOWEEN_BOSS_ANNOUNCE_VICTIM"			"%s1 is IT!"
+"TF_HALLOWEEN_BOSS_WARN_VICTIM"				"YOU ARE IT!  MELEE HIT AN ENEMY TO TAG THEM IT!"
+"TF_HALLOWEEN_BOSS_ANNOUNCE_TAG"			"%s1 tagged %s2 as IT!"
+"TF_HALLOWEEN_BOSS_WARN_AGGRO"				"You have angered the Horseless Headless Horsemann!"
+"TF_HALLOWEEN_BOSS_LOST_AGGRO"				"You are no longer IT."
 
 // Soldier Achievement Pack
 "TF_SOLDIER_ACHIEVE_PROGRESS1_NAME"		"Soldier Milestone 1"
@@ -2514,6 +2730,7 @@ Build teleporters to help team mates get to the front lines!"
 "NewItemAcquired"		"NEW ITEM ACQUIRED!"
 "NewItemsCrafted"		"%numitems% NEW ITEMS CRAFTED!"
 "NewItemCrafted"		"NEW ITEM CRAFTED!"
+"TF_HasNewItems"		"You have new items!"
 
 // These pickup strings have control characters embedded to set colors.
 // The control characters can be copied and pasted in notepad.
@@ -2615,15 +2832,35 @@ Build teleporters to help team mates get to the front lines!"
 "BackpackApplyTool"		"Select the item to apply the %s1 to:"
 "ApplyOnItem"			"USE WITH..."
 "ConsumeItem"			"USE"
+"RefurbishItem"			"RESTORE"
 "CustomizeItem"			"CUSTOMIZE"
 "ShowBaseItems"			"STOCK ITEMS"
 "ShowBackpackItems"		"SPECIAL ITEMS"
 "ShowBaseItemsCheckBox"	"Show Stock Items"
+"WrapGift"			"WRAP GIFT"
+"UnwrapGift"			"UNWRAP GIFT"
+"DeliverGift"			"DELIVER GIFT"
+"NoAction"			"NO ACTION"
+
+"RefurbishItem_RemovePaintTitle"	"Remove Paint?"
+"RefurbishItem_RemovePaint"			"Remove the custom color from this item, restoring its original color?\n\n(Paint will be discarded)"
+
+"RefurbishItem_RemoveNameTitle"		"Remove Name?"
+"RefurbishItem_RemoveName"			"Remove the custom name from this item, restoring its original name?\n\n(Name Tag will be discarded)"
+
+"RefurbishItem_RemoveDescTitle"		"Remove Desc?"
+"RefurbishItem_RemoveDesc"			"Remove the description from this item, restoring its original description?\n\n(Description Tag will be discarded)"
+
+"RefurbishItem_Yes"					"Yes, Wipe It"
+"RefurbishItem_No"					"No, Leave It"
 
 "ToolConfirmWarning"	"Remember, once you have used a tool, it's gone!"
 
 "ToolItemRenameOldItemName"	"Current Item Name:"
 "ToolItemRenameNewItemName"	"New Item Name:"
+
+"ToolItemRenameOldItemDesc"	"Current Item Desc:"
+"ToolItemRenameNewItemDesc"	"New Item Desc:"
 
 // This string has control characters embedded to set colors.
 // The control characters can be copied and pasted in notepad.
@@ -2635,6 +2872,7 @@ Build teleporters to help team mates get to the front lines!"
 // Item naming
 "CraftAskName"			"Enter this Item's New Name:"
 "CraftNameOk"			"Name It!"
+"CraftDescribeOk"		"Describe It!"
 "CraftNameCancel"		"No Thanks"
 "CraftAskNameConfirm"	"Are you sure you want to use this name?"
 "CraftAskNameWarning"	"(This name will be publicly visible and permanent)"
@@ -2646,7 +2884,15 @@ Build teleporters to help team mates get to the front lines!"
 "ToolPaintConfirm"		  "Are you sure you want to paint the item this color?"
 "ToolPaintConfirmWarning" "(This color will be publicly visible and permanent)"
 "ToolDecodeConfirm"		  "Are you sure you want to open this crate?"
+
+
 "ToolDecodeInProgress"    "Uncrating your Loot"
+"ToolGiftWrapConfirm"		  "Are you sure you want to gift wrap this item?"
+"ToolGiftWrapInProgress"    "Wrapping your Gift"
+"ToolGiftUnwrapInProgress"    "Unwrapping the Gift"
+
+"TF_UnwrapGift_Title"		"Unwrap a Gift"
+"TF_UnwrapGift_Text"		"Are you sure you want to unwrap this gift?"
 
 "LoadoutSlot_Primary"	"Primary weapon"
 "LoadoutSlot_Secondary"	"Secondary weapon"
@@ -2684,11 +2930,14 @@ Build teleporters to help team mates get to the front lines!"
 "CraftNoknownRecipes"		"No blueprints known."
 "CraftTryYourLuck"		"Hit Craft to try your luck."
 "CraftReady"			"You have the items needed for this blueprint.\nClick the check to move the items into the craft area."
+"Craft_Untradable_Title" "Warning"
+"Craft_Untradable_Text" "At least one item you are attempting to craft is not tradable. As a result, any crafted items will also be not tradable. Are you sure you want to continue?"
 
 "CraftUpdate_Start"		"Crafting"
 "CraftUpdate_Success"	"Crafting Succeeded!"
 "CraftUpdate_NoMatch"	"Crafting failed:\n\nNo matching blueprint."
 "CraftUpdate_Failed"	"Crafting failed:\n\nCraft server is unavailable."
+"CraftUpdate_Denied"	"You do not have sufficient privileges to craft."
 
 "NewRecipeFound"		"New Blueprint Found!"
 
@@ -2728,6 +2977,7 @@ Build teleporters to help team mates get to the front lines!"
 "RD_RND"				"random"
 "RI_Cw"					"class weapons"
 "RI_Ch"					"class headgear"
+"RI_Sh"					"set headgear"
 "RI_Aw"					"primary, secondary, and melee weapon"
 "RI_FAC"				"of a class"
 "RI_Hg"					"headgear"
@@ -2744,6 +2994,9 @@ Build teleporters to help team mates get to the front lines!"
 "RI_CTp"				"Class Tokens"
 "RI_STp"				"Slot Tokens"
 "RI_Tp"					"Tokens"
+"RI_SIc"				", 1 Set weapon"
+"RO_SH"					"specific piece of Set headgear"
+"RI_HHg"				"Haunted Headgear"
 
 // Craft items
 // Key names are sent over the net, so we use short names
@@ -2757,6 +3010,9 @@ Build teleporters to help team mates get to the front lines!"
 "CI_T_C"				"Class Token"
 "CI_T_S"				"Slot Token"
 "CI_T_G"				"Gadget Token"
+
+"TF_Haunted_Metal"			"Haunted Metal Scrap"
+"TF_Haunted_Metal_Desc"			"This is metal scrap taken from the Horseless Headless Horsemann. It whispers faintly...'heads'..."
 
 "CI_T_C_1"				"Class Token - Scout"
 "CI_T_C_2"				"Class Token - Sniper"
@@ -2780,18 +3036,40 @@ Build teleporters to help team mates get to the front lines!"
 "TF_CraftItem_Token_C_Desc"	"Used to specify a class in blueprints"
 "TF_CraftItem_Token_S_Desc"	"Used to specify a loadout slot in blueprints"
 
+"RI_Mask"				"Requires: 9 Unique Halloween Masks"
+"RO_Mask"				"Produces: 1 Saxton Hale Halloween Mask"
+"RT_SaxtonMask"				"Fabricate Saxton Hale Halloween Mask"
 
 "TF_T"					"Tool"
 "TF_T_Nt"				"Name Tag"
-"TF_Tool_Nametag_Desc"	"Changes the name of an item in your backpack"
+"TF_T_Dt"				"Description Tag"
+"TF_Tool_Nametag_Desc"			"Changes the name of an item in your backpack"
+"TF_Tool_Desctag_Desc"			"Changes the description of an item in your backpack"
 "TF_Tool_DecoderRing"			"Mann Co. Supply Crate Key"
 "TF_Tool_DecoderRing_Desc"		"Used to open locked supply crates."
 "TF_SupplyCrate"			"Mann Co. Supply Crate"
 "TF_SupplyCrate_Desc"			"You need a Mann Co. Supply Crate Key to open this.\nYou can pick one up at the Mann Co. Store."
-"TF_Tool_PaintCan"			"Paint Can"
-"TF_Tool_PaintCan_Desc"		"Used to paint other items."
-"TF_Tool_Paint_Warning"		"Paint will not be visible on your computer.\n(DX9+ required)"
 
+"TF_Tool_WinterKey"			"Festive Winter Crate Key"
+"TF_Tool_WinterKey_Desc"		"Used to open unusually festive locked winter crates.\nAfter 12/31/2010 this will turn into a normal key."
+"TF_WinterCrate"			"Festive Winter Crate"
+"TF_WinterCrate_Desc"			"This crate is unusually festive.\nIts contents are unknown and\nnormal keys don't fit the lock.\n\nYou'd better hold onto it.\nThere'll probably be a way to open it later."
+
+"TF_Tool_ChristmasKey2010"		"Stocking Stuffer Key"
+"TF_Tool_ChristmasKey2010_Desc"		"Someone left this key in your best pair of fightin' socks.\nIt looks like it will open any festive or normal crate."
+
+"TF_Tool_PaintCan"			"Paint Can"
+"TF_Tool_PaintCan_Desc"			"Used to paint other items."
+"TF_Tool_PaintCan_TeamColor_Desc"	"Used to paint other items the color of your current team."
+"TF_Tool_Paint_Warning"			"Paint will not be visible on your computer.\n(DX9+ required)"
+"TF_Tool_Giftwrap"			"Gift Wrap"
+"TF_Tool_Giftwrap_Desc"			"Used to wrap other items for gifting."
+"TF_Tool_Gift"				"A Carefully Wrapped Gift"
+"TF_Gift"				"Gift"
+"TF_Tool_BackpackExpander"		"Backpack Expander"
+"TF_Tool_BackpackExpander_Desc"	"Add 100 extra slots to your backpack!\n(1000 spaces maximum)"
+
+"TF_Tool_PaintCan_TeamColor"		"Team Spirit"
 "TF_Tool_PaintCan_1"			"Indubitably Green"
 "TF_Tool_PaintCan_2"			"Zephaniah's Greed"
 "TF_Tool_PaintCan_3"			"Noble Hatter's Violet"
@@ -2806,17 +3084,27 @@ Build teleporters to help team mates get to the front lines!"
 "TF_Tool_PaintCan_12"			"Aged Moustache Grey"
 "TF_Tool_PaintCan_13"			"An Extraordinary Abundance of Tinge"
 "TF_Tool_PaintCan_14"			"A Distinctive Lack of Hue"
+"TF_Tool_PaintCan_15"			"Pink as Hell"
+"TF_Tool_PaintCan_16"			"A Color Similar to Slate"
+"TF_Tool_PaintCan_17"			"Drably Olive"
+"TF_Tool_PaintCan_18"			"The Bitter Taste of Defeat and Lime"
+"TF_Tool_PaintCan_19"			"The Color of a Gentlemann's Business Pants"
+"TF_Tool_PaintCan_20"			"Dark Salmon Injustice"
 
 "TF_Revolving_Loot_List"		"This crate contains one of the following items:"
 "TF_Revolving_Loot_List_Rare_Item"	"or an Exceedingly Rare Special Item!"
 
 //--------------------------------
 // Item Sets
+"TF_Set_Bonus"					"Item Set Bonus:"
 "TF_Set_Polycount_Pyro"			"The Gas Jockey's Gear"
 "TF_Set_Polycount_Scout"		"The Special Delivery"
 "TF_Set_Polycount_Spy"			"The Saharan Spy"
 "TF_Set_Polycount_Soldier"		"The Tank Buster"
 "TF_Set_Polycount_Sniper"		"The Croc-o-Style Kit"
+"TF_Set_Medieval_Medic"			"The Medieval Medic"
+"TF_Set_Hibernating_Bear"		"The Hibernating Bear"
+"TF_Set_Experts_Ordnance"		"The Expert's Ordnance"
 
 "TF_Date_GMT"					" GMT"
 
@@ -2894,7 +3182,9 @@ Build teleporters to help team mates get to the front lines!"
 "Attrib_WpnBurnDmg_Reduced"				"%s1% burn damage"
 "Attrib_WpnBurnTime_Increased"			"+%s1% burn duration"
 "Attrib_WpnBurnTime_Reduced"			"%s1% burn duration"
-"Attrib_AimingMoveSpeed_Increased"		"+%s1% faster deployed movespeed on wearer"
+"Attrib_GestureSpeed_Increase"			"+%s1% faster taunt speed on wearer"
+"Attrib_AimingMoveSpeed_Increased"		"+%s1% faster move speed while deployed"
+"Attrib_AimingMoveSpeed_Decreased"		"%s1% slower move speed while deployed"
 "Attrib_MaxammoPrimary_Increased"		"+%s1% max primary ammo on wearer"
 "Attrib_MaxammoPrimary_Reduced"			"%s1% max primary ammo on wearer"
 "Attrib_MaxammoSecondary_Increased"		"+%s1% max secondary ammo on wearer"
@@ -2976,26 +3266,41 @@ Build teleporters to help team mates get to the front lines!"
 "Attrib_DmgFromSentryReduced"		"+%s1% sentry damage resistance on wearer"
 "Attrib_AirblastCost_Increased"		"+%s1% airblast cost"
 "Attrib_AirblastCost_Decreased"		"%s1% airblast cost"
-"Attrib_Purchased"					"Purchased: Not Tradable or Craftable"
-"Attrib_Promotion"					"Store Promotion Item: Not Tradable or Craftable"
+"Attrib_Purchased"					"Purchased: Not Tradable or Usable in Crafting"
+"Attrib_Promotion"					"Store Promotion Item: Not Tradable"
+"Attrib_InUse"						"Currently In Use"
+"Attrib_SpecialItem"				"Not Tradable or Usable in Crafting"
 "Attrib_FlameAmmoPerSec_Increased"	"+%s1% flamethrower ammo consumed per second"
 "Attrib_FlameAmmoPerSec_Decreased"	"%s1% flamethrower ammo consumed per second"
 "Attrib_JarateDuration"				"On Hit: Jarate applied to target for %s1 seconds"
 "Attrib_NoDeathFromHeadshots"		"The wearer cannot be killed by headshots."
-"Attrib_AchievementItem"			"Achievement Item: Not Tradable or Craftable"
-"Attrib_CannotCraft"				"Not Craftable"
+"Attrib_AchievementItem"			"Achievement Item: Not Tradable"
+"Attrib_CannotCraft"				"Not Usable in Crafting"
 "Attrib_DeployTime_Increased"		"%s1% longer weapon switch"
 "Attrib_DeployTime_Decreased"		"%s1% faster weapon switch"
 "Attrib_MinicritsBecomeCrits"		"This weapon crits whenever it would normally mini-crit."
 "Attrib_HealOnKill"					"+%s1 health restored on kill"
 "Attrib_NoSelfBlastDmg"			"No self inflicted blast damage taken."
 "Attrib_Slow_Enemy_OnHit_Major"		"On Hit: Slow target movement by 40% for %s1s"
-"Attrib_LimitedUse"				"This is a limited use item.  Uses: %s1."
+"Attrib_LimitedUse"				"This is a limited use item.  Uses: %s1"
 "Attrib_EventDate"				"Date Received: %s1"
 "Attrib_GifterAccountID"		"\nGift from: %s1"
 "Attrib_AttachedParticle"		"Effect: %s1"
 "Attrib_SupplyCrateSeries"		"Crate Series #%s1"
 "Attrib_PreserveUbercharge"		"On death up to %s1% of your stored\nÜberCharge is retained."
+"Attrib_ReferencedItem"			"Contains: %s1"
+"Attrib_Renamed"				"This item has been renamed.\nOriginal name: \"%s1\""
+"Attrib_CustomDesc"				"This item has a user written description:"
+"Attrib_Halloween_Item"			"This is a special Halloween %s1 item."
+"Attrib_MapDonation"			"%s1 - %s2"
+"Attrib_FiresHealingBolts"		"Fires special bolts that heal teammates and deal damage based on distance traveled"
+"Attrib_EnablesAOEHeal"			"On Taunt: Applies a healing effect to all nearby teammates"
+"Attrib_ChargeTime_Increase"		"%s1 sec increase in charge duration"
+"Attrib_DropHealthPackOnKill"		"On Kill: A small health pack is dropped"
+"Attrib_HitSelfOnMiss"			"On Miss: Hit yourself. Idiot."
+"Attrib_DmgFromRanged_Reduced"		"%s1% damage from ranged sources while active"
+"Attrib_DmgFromMelee_Increased"		"+%s1% damage from melee sources while active"
+"Attrib_BlastDamageToSelf_Increased"	"+%s1% damage to self"
 
 "Attrib_Particle0"			"Invalid Particle"
 "Attrib_Particle1"			"Particle 1"
@@ -3017,138 +3322,119 @@ Build teleporters to help team mates get to the front lines!"
 "Attrib_Particle17"			"Sunbeams"
 "Attrib_Particle18"			"Circling Peace Sign"
 "Attrib_Particle19"			"Circling Heart"
+"Attrib_Particle20"			"Map Stamps"
 
 // Unique item names
-//==========================================================================================
-// LOCALIZERS SHOULD IGNORE THIS BLOCK. TRANSLATE THE BLOCK BELOW.
-"TF_Unique_Prepend_Proper"			"The" [$ENGLISH]
-"TF_NonUnique_Prepend_Proper"		"A" [$ENGLISH]
-"TF_Unique_Achievement_Medigun1"	"Kritzkrieg" [$ENGLISH]
-"TF_Unique_Achievement_Syringegun1"	"Blutsauger" [$ENGLISH]
-"TF_Unique_Achievement_Bonesaw1"	"Ubersaw" [$ENGLISH]
-"TF_Unique_Achievement_FireAxe1"	"Axtinguisher" [$ENGLISH]
-"TF_Unique_Achievement_FlareGun"	"Flare Gun" [$ENGLISH]
-"TF_Unique_Achievement_Flamethrower"	"Backburner" [$ENGLISH]
-"TF_Unique_Achievement_LunchBox"	"Sandvich" [$ENGLISH]
-"TF_Unique_Achievement_Minigun"		"Natascha" [$ENGLISH]
-"TF_Unique_Achievement_Fists"		"Killing Gloves of Boxing" [$ENGLISH]
-"TF_Unique_Achievement_Bat"		"Sandman" [$ENGLISH]
-"TF_Unique_Achievement_Scattergun_Double" "Force-A-Nature" [$ENGLISH]
-"TF_Unique_Achievement_EnergyDrink"	"Bonk! Atomic Punch" [$ENGLISH]
-"TF_Unique_Achievement_SniperRifle"	"Walkabout" [$ENGLISH]
-"TF_Unique_Achievement_CloakWatch"	"Cloak and Dagger" [$ENGLISH]
-"TF_Unique_Achievement_FeignWatch"	"Dead Ringer" [$ENGLISH]
-"TF_Unique_Achievement_Revolver"	"Ambassador" [$ENGLISH]
-"TF_Unique_Backstab_Shield"		"Razorback" [$ENGLISH]
-"TF_Unique_Achievement_Jar"		"Jarate" [$ENGLISH]
-"TF_Unique_Achievement_CompoundBow"	"Huntsman" [$ENGLISH]
-"TF_Unique_Achievement_SoldierBuff"	"Buff Banner" [$ENGLISH]
-"TF_Unique_Achievement_Pickaxe"		"Equalizer" [$ENGLISH]
-"TF_Unique_Achievement_RocketLauncher" 	"Direct Hit" [$ENGLISH]
-"TF_Unique_Achievement_StickyLauncher"	"Scottish Resistance" [$ENGLISH]
-"TF_Unique_Achievement_Shield"		"Chargin' Targe" [$ENGLISH]
-"TF_Unique_Achievement_Sword" 		"Eyelander" [$ENGLISH]
-"TF_Unique_Blast_Boots"			"Gunboats" [$ENGLISH]
-"TF_Unique_Sentry_Shotgun"		"Frontier Justice" [$ENGLISH]
-"TF_Unique_Achievement_Laser_Pointer"	"Wrangler" [$ENGLISH]
-"TF_Unique_Robot_Arm"			"Gunslinger" [$ENGLISH]
-"TF_Unique_SledgeHammer"			"Homewrecker" [$ENGLISH]
-"TF_Unique_Makeshiftclub"			"Pain Train" [$ENGLISH]
-"TF_Unique_Lunchbox_Chocolate"		"Dalokohs Bar" [$ENGLISH]
-"TF_TTG_MaxGun"						"Lugermorph" [$ENGLISH]
-"TF_TTG_SamRevolver"				"Big Kill" [$ENGLISH]
-"TF_Unique_EnergyDrink_CritCola"	"Crit-a-Cola" [$ENGLISH]
-"TF_NonUnique_Append_Proper"		"(%s1)" [$!ENGLISH]			// Should be !ENGLISH
-"TF_Unique_Golden_Wrench"			"Golden Wrench" [$ENGLISH]
-"TF_Unique_TribalmanKukri"			"Tribalman's Shiv" [$ENGLISH]
-"TF_Unique_BattleAxe"				"Scotsman's Skullcutter" [$ENGLISH]
-"TF_Unique_BattleSaw"				"Vita-Saw" [$ENGLISH]
-"TF_Unique_Combat_Wrench"			"Southern Hospitality" [$ENGLISH]
-"TF_ThePowerjack"			"Powerjack" [$ENGLISH]
-"TF_TheDegreaser"			"Degreaser" [$ENGLISH]
-"TF_TheShortstop"			"Shortstop" [$ENGLISH]
-"TF_LEtranger"				"L'Etranger" [$ENGLISH]
-"TF_EternalReward"			"Your Eternal Reward" [$ENGLISH]
-"TF_TheBattalionsBackup"		"Battalion's Backup" [$ENGLISH]
-"TF_TheBlackBox"			"Black Box" [$ENGLISH]
-"TF_SydneySleeper"			"Sydney Sleeper" [$ENGLISH]
-"TF_DarwinsDangerShield"		"Darwin's Danger Shield" [$ENGLISH]
-"TF_TheBushwacka"			"Bushwacka" [$ENGLISH]
-"TF_TheHolyMackerel"			"Holy Mackerel" [$ENGLISH]
-"TF_MadMilk"				"Mad Milk" [$ENGLISH]
-"TF_Weapon_RocketLauncher_Jump"		"Rocket Jumper" [$ENGLISH]
-"TF_Unique_FryingPan"		"Frying Pan" [$ENGLISH]
+"TF_Unique_Prepend_Proper"			"The"	[$ENGLISH]
+"TF_NonUnique_Prepend_Proper"		"A"	[$ENGLISH]
+"TF_NonUnique_Append_Proper"	"(%s1)"	[$!ENGLISH]
+"TF_Unique_Achievement_Medigun1"	"Kritzkrieg"	// ADD THE
+"TF_Unique_Achievement_Syringegun1"	"Blutsauger"	// ADD THE
+"TF_Unique_Achievement_Bonesaw1"	"Ubersaw"	// ADD THE
+"TF_Unique_Achievement_FireAxe1"	"Axtinguisher"	// ADD THE
+"TF_Unique_Achievement_FlareGun"	"Flare Gun"	// ADD THE
+"TF_Unique_Achievement_Flamethrower"	"Backburner"	// ADD THE
+"TF_Unique_Achievement_LunchBox"	"Sandvich"	// ADD THE
+"TF_Unique_Achievement_Minigun"		"Natascha"
+"TF_Unique_Achievement_Fists"		"Killing Gloves of Boxing"	// ADD THE
+"TF_Unique_Achievement_Bat"		"Sandman"	// ADD THE
+"TF_Unique_Achievement_Scattergun_Double" "Force-A-Nature"	// ADD THE
+"TF_Unique_Achievement_EnergyDrink"	"Bonk! Atomic Punch"
+"TF_Unique_Achievement_SniperRifle"	"Walkabout"	// ADD THE
+"TF_Unique_Achievement_CloakWatch"	"Cloak and Dagger"	// ADD THE
+"TF_Unique_Achievement_FeignWatch"	"Dead Ringer"	// ADD THE
+"TF_Unique_Achievement_Revolver"	"Ambassador"	// ADD THE
+"TF_Unique_Backstab_Shield"		"Razorback"	// ADD THE
+"TF_Unique_Achievement_Jar"		"Jarate"
+"TF_Unique_Achievement_CompoundBow"	"Huntsman"	// ADD THE
+"TF_Unique_Achievement_SoldierBuff"	"Buff Banner"	// ADD THE
+"TF_Unique_Achievement_Pickaxe"		"Equalizer"	// ADD THE
+"TF_Unique_Achievement_RocketLauncher" 	"Direct Hit"	// ADD THE
+"TF_Unique_Achievement_StickyLauncher"	"Scottish Resistance"	// ADD THE
+"TF_Unique_Achievement_Shield"		"Chargin' Targe"	// ADD THE
+"TF_Unique_Logo_Shield"				"Heraldic Targe"	// ADD THE
+"TF_Unique_Achievement_Sword" 		"Eyelander"	// ADD THE
+"TF_Unique_Blast_Boots"			"Gunboats"	// ADD THE
+"TF_Unique_Sentry_Shotgun"		"Frontier Justice"	// ADD THE
+"TF_Unique_Achievement_Laser_Pointer"	"Wrangler"	// ADD THE
+"TF_Unique_Robot_Arm"			"Gunslinger"	// ADD THE
+"TF_Unique_SledgeHammer"			"Homewrecker"	// ADD THE
+"TF_Unique_Makeshiftclub"			"Pain Train"	// ADD THE
+"TF_Unique_Lunchbox_Chocolate"		"Dalokohs Bar"	// ADD THE
+"TF_TTG_MaxGun"						"Lugermorph"	// ADD THE
+"TF_TTG_SamRevolver"				"Big Kill"	// ADD THE
+"TF_Unique_EnergyDrink_CritCola"	"Crit-a-Cola"
+"TF_Unique_Golden_Wrench"			"Golden Wrench"	// ADD THE
+"TF_Unique_TribalmanKukri"			"Tribalman's Shiv"	// ADD THE
+"TF_Unique_BattleAxe"				"Scotsman's Skullcutter"	// ADD THE
+"TF_Unique_BattleSaw"				"Vita-Saw"	// ADD THE
+"TF_Unique_Combat_Wrench"			"Southern Hospitality"	// ADD THE
+"TF_Unique_MediGun_QuickFix"		"Quick-Fix"	// ADD THE
+"TF_Unique_BleedingSocketItem"		"Leakium"
+"TF_Unique_BulletResistItem"		"Bulletproofium"
+"TF_Unique_FireResistItem"			"Fireproofium"
+"TF_Unique_BlastResistItem"			"Blastproofium"
+"TF_Unique_HealthRegenItem"			"Firstaidium"
+"TF_Unique_SpeedBoostItem"			"Sprintium"
+"TF_Unique_MetalRegenItem"			"Harvestine"
+"TF_Unique_CloakRegenItem"			"Invisine"
+"TF_Unique_CloakConsumeItem"		"Longvisine"
+"TF_Unique_RepairRateItem"			"Wrenchine"
+"TF_Unique_ConstructionRateItem"	"Constructine"
+"TF_ThePowerjack"			"Powerjack"	// ADD THE
+"TF_TheDegreaser"			"Degreaser"	// ADD THE
+"TF_TheShortstop"			"Shortstop"	// ADD THE
+"TF_LEtranger"				"L'Etranger"
+"TF_EternalReward"			"Your Eternal Reward"
+"TF_TheBattalionsBackup"		"Battalion's Backup"	// ADD THE
+"TF_TheBlackBox"			"Black Box"	// ADD THE
+"TF_SydneySleeper"			"Sydney Sleeper"	// ADD THE
+"TF_DarwinsDangerShield"		"Darwin's Danger Shield"
+"TF_TheBushwacka"			"Bushwacka"	// ADD THE
+"TF_TheHolyMackerel"			"Holy Mackerel"	// ADD THE
+"TF_MadMilk"				"Mad Milk"
+"TF_Weapon_RocketLauncher_Jump"		"Rocket Jumper"	// ADD THE
+"TF_Weapon_StickyBomb_Jump"		"Sticky Jumper"	// ADD THE
+"TF_Unique_FryingPan"		"Frying Pan"	// ADD THE
+"TF_HalloweenBoss_Axe"			"Horseless Headless Horsemann's Headtaker"	// ADD THE
+"TF_Iron_Curtain"			"Iron Curtain"	// ADD THE
+"TF_TTG_Watch"				"Enthusiast's Timepiece"	// ADD THE
+"TF_Amputator"				"Amputator"	// ADD THE
+"TF_CrusadersCrossbow"			"Crusader's Crossbow"	// ADD THE
+"TF_UllapoolCaber"			"Ullapool Caber" // ADD THE
+"TF_LochNLoad"				"Loch-n-Load" // ADD THE
+"TF_BuffaloSteak"			"Buffalo Steak Sandvich" // ADD THE
+"TF_GatlingGun"				"Brass Beast" // ADD THE
+"TF_WarriorsSpirit"			"Warrior's Spirit" // ADD THE
+"TF_CandyCane"				"Candy Cane" // ADD THE
+"TF_Jag"				"Jag" // ADD THE
+"TF_Claidheamohmor"			"Claidheamh Mòr" // ADD THE
+"TF_BackScratcher"			"Back Scratcher" // ADD THE
+"TF_BostonBasher"			"Boston Basher" // ADD THE
+"TF_FistsOfSteel"			"Fists of Steel" // ADD THE
+"TF_TreasureHat_1"			"Bounty Hat"
+"TF_TreasureHat_2"			"Treasure Hat"
+"TF_TreasureHat_3"			"Hat of Undeniable Wealth And Respect"
 
-// LOCALIZERS SHOULD TRANSLATE THIS BLOCK.
-"TF_Unique_Achievement_Medigun1"	"The Kritzkrieg" [$!ENGLISH]
-"TF_Unique_Achievement_Syringegun1"	"The Blutsauger" [$!ENGLISH]
-"TF_Unique_Achievement_Bonesaw1"	"The Ubersaw" [$!ENGLISH]
-"TF_Unique_Achievement_FireAxe1"	"The Axtinguisher" [$!ENGLISH]
-"TF_Unique_Achievement_FlareGun"	"The Flare Gun" [$!ENGLISH]
-"TF_Unique_Achievement_Flamethrower"	"The Backburner" [$!ENGLISH]
-"TF_Unique_Achievement_LunchBox"	"The Sandvich" [$!ENGLISH]
-"TF_Unique_Achievement_Minigun"		"Natascha" [$!ENGLISH]
-"TF_Unique_Achievement_Fists"		"The Killing Gloves of Boxing" [$!ENGLISH]
-"TF_Unique_Achievement_Bat"		"The Sandman" [$!ENGLISH]
-"TF_Unique_Achievement_Scattergun_Double" "The Force-A-Nature" [$!ENGLISH]
-"TF_Unique_Achievement_EnergyDrink"	"Bonk! Atomic Punch" [$!ENGLISH]
-"TF_Unique_Achievement_SniperRifle"	"The Walkabout" [$!ENGLISH]
-"TF_Unique_Achievement_CloakWatch"	"The Cloak and Dagger" [$!ENGLISH]
-"TF_Unique_Achievement_FeignWatch"	"The Dead Ringer" [$!ENGLISH]
-"TF_Unique_Achievement_Revolver"	"The Ambassador" [$!ENGLISH]
-"TF_Unique_Backstab_Shield"		"The Razorback" [$!ENGLISH]
-"TF_Unique_Achievement_Jar"		"Jarate" [$!ENGLISH]
-"TF_Unique_Achievement_CompoundBow"	"The Huntsman" [$!ENGLISH]
-"TF_Unique_Achievement_SoldierBuff"	"The Buff Banner" [$!ENGLISH]
-"TF_Unique_Achievement_Pickaxe"		"The Equalizer" [$!ENGLISH]
-"TF_Unique_Achievement_RocketLauncher" 	"The Direct Hit" [$!ENGLISH]
-"TF_Unique_Achievement_StickyLauncher"	"The Scottish Resistance" [$!ENGLISH]
-"TF_Unique_Achievement_Shield"		"The Chargin' Targe" [$!ENGLISH]
-"TF_Unique_Achievement_Sword" 		"The Eyelander" [$!ENGLISH]
-"TF_Unique_Blast_Boots"			"The Gunboats" [$!ENGLISH]
-"TF_Unique_Sentry_Shotgun"		"The Frontier Justice" [$!ENGLISH]
-"TF_Unique_Achievement_Laser_Pointer"	"The Wrangler" [$!ENGLISH]
-"TF_Unique_Robot_Arm"			"The Gunslinger" [$!ENGLISH]
-"TF_Unique_SledgeHammer"			"The Homewrecker" [$!ENGLISH]
-"TF_Unique_Lunchbox_Chocolate"		"The Dalokohs Bar" [$!ENGLISH]
-"TF_TTG_MaxGun"						"The Lugermorph" [$!ENGLISH]
-"TF_TTG_SamRevolver"				"The Big Kill" [$!ENGLISH]
-"TF_Unique_Makeshiftclub"			"The Pain Train" [$!ENGLISH]
-"TF_Unique_EnergyDrink_CritCola"	"Crit-a-Cola" [$!ENGLISH]
-"TF_Unique_Golden_Wrench"			"The Golden Wrench" [$!ENGLISH]
-"TF_Unique_TribalmanKukri"			"The Tribalman's Shiv" [$!ENGLISH]
-"TF_Unique_BattleAxe"				"The Scotsman's Skullcutter" [$!ENGLISH]
-"TF_Unique_BattleSaw"				"The Vita-Saw" [$!ENGLISH]
-"TF_Unique_Combat_Wrench"			"The Southern Hospitality" [$!ENGLISH]
-"TF_TheAttendant"		"The Attendant" [$!ENGLISH]
-"TF_TheMilkman"			"The Milkman" [$!ENGLISH]
-"TF_ThePowerjack"			"The Powerjack" [$!ENGLISH]
-"TF_TheDegreaser"			"The Degreaser" [$!ENGLISH]
-"TF_TheShortstop"			"The Shortstop" [$!ENGLISH]
-"TF_LEtranger"				"L'Etranger" [$!ENGLISH]
-"TF_EternalReward"			"Your Eternal Reward" [$!ENGLISH]
-"TF_TheBattalionsBackup"		"The Battalion's Backup" [$!ENGLISH]
-"TF_TheBlackBox"			"The Black Box" [$!ENGLISH]
-"TF_SydneySleeper"			"The Sydney Sleeper" [$!ENGLISH]
-"TF_DarwinsDangerShield"		"Darwin's Danger Shield" [$!ENGLISH]
-"TF_TheBushwacka"			"The Bushwacka" [$!ENGLISH]
-"TF_TheHolyMackerel"			"The Holy Mackerel" [$!ENGLISH]
-"TF_MadMilk"				"Mad Milk" [$!ENGLISH]
-"TF_Weapon_RocketLauncher_Jump"		"The Rocket Jumper" [$!ENGLISH]
-"TF_Unique_FryingPan"		"The Frying Pan" [$!ENGLISH]
 
-//==========================================================================================
-
+"TF_UllapoolCaber_Desc"			"High-yield Scottish face removal.\nA sober person would throw it..."
+"TF_BuffaloSteak_Desc"			"While under the effects, move speed is increased,\ndamage done and taken will be mini-crits,\nand the player may only use melee weapons.\n\nWho needs bread?"
+"TF_TreasureHat_1_Desc"			"Earned by completing 5 objectives in 'The Great Steam Treasure Hunt'"
+"TF_TreasureHat_2_Desc"			"Earned by completing 15 objectives in 'The Great Steam Treasure Hunt'"
+"TF_TreasureHat_3_Desc"			"Earned by completing 28 objectives in 'The Great Steam Treasure Hunt.'  Beware the Cephalopod padlock."
 
 "TF_Unique_Achievement_Sword_Desc"	"This weapon has a large melee range.\nGives increased speed and health\nwith every head you take."
 "TF_Unique_Achievement_Shield_Desc"	"Alt-Fire: Gain increased attack power by\ncharging toward your enemies."
 "TF_Unique_EnergyDrink_CritCola_Desc" "While under the effects, damage done\nand damage taken will be mini-crits."
+"TF_Unique_MediGun_QuickFix_Desc"	"Can't overheal.\nMove at the speed of any faster heal target."
+"TF_HalloweenBoss_Axe_Desc"		"Cursed by dark spirits similar to\nthose that dwell within the Eyelander."
+"TF_SacredMedicine_Desc" "While under the effects, damage done\nand damage taken will be mini-crits.\nYou will also move much faster."
 
 "TF_TTG_MaxGun_Desc"				"The ultimate in semi-concealed weaponry.\nThere’s no question you need this gun,\nthe only question is: where will you keep it?"
 "TF_TTG_SamRevolver_Desc"			"Combines style with stopping power.\nLong exclusive to Freelance Police,\nnow available for other blood-thirsty mercenaries."
 "TF_TTG_MaxsHat_Desc"				"Expertly crafted headwear from cruelty-free farms\nin the Philippines. Hollowed-out skull casing wicks\nmoisture away when in the heat of battle."
 
-"TF_Unique_Gloves_of_Running_Urgently"	"Gloves of Running Urgently"
+"TF_Unique_Gloves_of_Running_Urgently"	"Gloves of Running Urgently"	// ADD THE
 
 // Hats
 "TF_Wearable_Headgear"				"Headgear"
@@ -3185,6 +3471,7 @@ Build teleporters to help team mates get to the front lines!"
 "Item_Gifted"						"%s1 has received a gift:: %s2 %s3"
 "Item_Earned"						"%s1 has earned:: %s2 %s3"
 "Item_Refunded"						"%s1 has been refunded:: %s2 %s3"
+"Item_GiftWrapped"					"%s1 has wrapped a gift:: %s2 %s3"
 
 "Item_BlacklistedInMatch"			"Item '%s1' has been disabled in this tournament match by the server whitelist."
 
@@ -3359,7 +3646,7 @@ Build teleporters to help team mates get to the front lines!"
 "BackpackArmoryExplanation_Title"	"Mann Co. Catalog"
 "BackpackArmoryExplanation_Text"	"Select an item and press the DETAILS button to view that item in the Mann Co. Catalog. The catalog provides additional information on how items work and how they are used."
 "BackpackToolsExplanation_Title"	"Using Tools"
-"BackpackToolsExplanation_Text"		"Items that interact with other items in your inventory are called 'tools'. Tools can rename weapons, paint hats with a new color, or add special properties to your items. To activate a tool, select it and press the 'Use With...' button."
+"BackpackToolsExplanation_Text"		"Items that can be used in your inventory are called 'tools'. Tools can rename weapons, paint hats with a new color, or add special properties to your items. To activate a tool, select it and press the 'Use' or 'Use With...' button."
 "BackpackStockExplanation_Title"	"Stock Items"
 "BackpackStockExplanation_Text"		"If you want to look at the default items for each class, toggle the 'SHOW STOCK ITEMS' checkbox. Stock items can be modified by some tools, so if you want to rename a basic item use this checkbox."
 "BackpackSortExplanation_Title"		"Sorting Items"
@@ -3410,7 +3697,7 @@ Build teleporters to help team mates get to the front lines!"
 //----------------------------------------------------------------------------------------
 // Store
 "StoreTitle"			"MANN CO. STORE"
-"Store_Headgear"		"Headgear"
+"Store_Headgear"		"Hats"
 "Store_Weapons"			"Weapons"
 "Store_Misc"			"Misc"
 "Store_Tokens"			"Tokens"
@@ -3419,6 +3706,11 @@ Build teleporters to help team mates get to the front lines!"
 "Store_New_Items"		"New!"
 "Store_Home"			"Home"
 "Store_Bundles"			"Bundles"
+"Store_Halloween"		"Halloween"
+"Store_Maps"			"Support Map Makers!"
+
+"Store_Price_New"		"NEW!"
+"Store_Price_Sale"		"SALE!"
 
 "Store_OK"			"Okay"
 "Store_CANCEL"			"Cancel"
@@ -3444,6 +3736,9 @@ Build teleporters to help team mates get to the front lines!"
 "Store_ClassImageMouseoverAll"	"This item can be used by all classes."
 "Store_ClassImageMouseoverBundle"		"This bundle contains items that can be used by the %s1."
 "Store_ClassImageMouseoverAllBundle"	"This bundle contains items that can be used by all classes."
+
+"Store_HalloweenSale"		"This ghostly Halloween sale lasts until November 8th. Some of these items will no longer be available once the sale ends!"
+"Store_MapsDesc"			"When you purchase a map stamp, all the proceeds (net of any applicable tax) will go directly to the creators of the map.\n\nIn addition, you'll also receive this nifty World Traveler's Hat for free! Not only does it track your contributions, but also a special particle effect will be visible  when you play on a map you've contributed towards."
 
 "Store_Cart"			"(%s1)"
 "Store_Checkout"		"Checkout"
@@ -3480,6 +3775,7 @@ Build teleporters to help team mates get to the front lines!"
 "StoreCheckout_Fail"			"The Mann Co. Store is currently closed."
 "StoreCheckout_InvalidParam"		"A programmer messed up! An invalid parameter was passed to the game coordinator. Try the purchase again."
 "StoreCheckout_InternalError"		"There seems to have been an error initializing or updating your transaction. Please wait a minute and try again or contact support for assistance."
+"StoreCheckout_ContactSupport"	"There was an error with your transaction. Please contact support for assistance."
 "StoreCheckout_NotApproved"		"The game coordinator was unable to approve your transaction with Steam. Please try the purchase again later."
 "StoreCheckout_NotLoggedin"		"You must be logged in to Steam in order to complete a purchase."
 "StoreCheckout_WrongCurrency"		"This transaction's currency doesn't match your wallet currency."
@@ -3494,12 +3790,20 @@ Build teleporters to help team mates get to the front lines!"
 "StoreCheckout_TransactionCompleted"	"Transaction completed! Enjoy your loot!"
 "StoreCheckout_CompleteButUnfinalized"	"Unable to confirm success. If successful, your items will be delivered at a later date."
 "StoreCheckout_NotEnoughRoom"		"You don't have enough room in your backpack to buy that many items."
+"StoreCheckout_ContactSupport_Dialog_Title"	"Warning"
+"StoreCheckout_ContactSupport_Dialog_Btn"	"Contact"
 
 "Store_NextWeapon"					"Next Weapon"
 
 "Store_StartShopping"				"START SHOPPING"
 "Store_IntroTitle"					"THE STORE IS NOW OPEN!"
 "Store_IntroText"					"Hello, little boy and/or girl! I'm Saxton Hale, CEO of Mann Co.--the #1 weapons, munitions, and war-themed fashion accessory manufacturer in the Greater Badlands area!\n\nBLU? RED? As long as your money's green, I WILL sell you items you can use to MAKE THEM PAY! And ancillary items you can wear, so you'll look CLASSY AS ALL HELL doing it! Kill whoever you like. I won't judge you!\n"
+"Store_IntroTitle_Winter1"			"Happy Australian Christmas!"
+"Store_IntroText_Winter1"			"Christmas?  Hanukkah? Kwaanzaa? Non-Occasional Get-Together at Ayn Rand’s House? Whatever you’re celebrating this year, we’ll be here, open twenty-four hours a day, every day! That’s right! We are ready to take your money.  This weekend the Mann Co. Store is having deep discounts on our Polycount Pack items, weapons, hats and more.  Buy them now, before the accountants realize what we're doing!\n\nHurry, because this offer ends soon!"
+"Store_IntroTitle_Winter2"			"Team Fortress Kritzmas Sale!"
+"Store_IntroText_Winter2"			"The Mann Co. Store is having another sale! In honor of the holiday season, for a limited time, the prices on a staggering number of hats are UNREASONABLY LOW!  Why wait until prices are reasonable again?\n\nWe’re cleaning out the entire Team Fortress inventory, from H to Ha! Finally, give yourself the hat you always wanted but could never afford (even though it was sensibly priced)."
+"Store_IntroTitle_Winter3"			"Final Cold Weather Sale!"
+"Store_IntroText_Winter3"			"It’s the final sale of the decade, possibly, and that means we’re selling all the stuff we were prevented from selling… at LUDICROUS PRICES! That’s right – the European Union Paint Sale Treaty of 2001 has finally expired, and the European Union Paint Sale Treaty of 2011 has yet to be ratified.\n\nGrab these items now, before the fat cats in Brussels get wind of it!"
 "Store_Promotions"					"SPECIAL OFFERS!"
 "Store_Promotion_SpendForGift"		"GET A SURPRISE BONUS ITEM\nFOR EVERY %s1* YOU SPEND!"
 "Store_Promotion_SpendForGift_Sub"	"*In a single purchase"
@@ -3631,6 +3935,8 @@ Build teleporters to help team mates get to the front lines!"
 "TF_HUD_Event_GoldenWrench_C"	"%s1 has found Golden Wrench no. %s2!"
 "TF_HUD_Event_GoldenWrench_D"	"%s1 has destroyed Golden Wrench no. %s2!"
 
+"Notification_System_Message"	"System Message: %message%"
+
 // Notifications
 "Notification_CanTrigger_Help"	"Press [ %cl_trigger_first_notification% ] to VIEW.\nPress [ %cl_decline_first_notification% ] to REMOVE."
 "Notification_Remove_Help"		"Press [ %cl_decline_first_notification% ] to REMOVE."
@@ -3653,6 +3959,10 @@ Build teleporters to help team mates get to the front lines!"
 "TF_GiftedItems"					   "%s1 has given a gift to %s2!"
 "TF_GifterText_Random"				   "%recipient% was selected at random to receive a gift from %giver%!"
 "TF_GifterText_All"					   "%giver% has given out a bunch of gifts!"
+"TF_UseBackpackExpander_Title"		   "Expand Backpack?"
+"TF_UseBackpackExpander_Text"		   "Are you sure expand your backpack to %new_size% slots? (%item_name% has %uses_left% use(s) before it will be removed from your inventory)"
+"TF_UseBackpackExpanderFail_Title"	   "Cannot Expand!"
+"TF_UseBackpackExpanderFail_Text"	   "Your backpack has already been expanded to maximum capacity."
 
 
 //----------------------------------------------------------------------------------------
@@ -3718,7 +4028,17 @@ Build teleporters to help team mates get to the front lines!"
 "TF_TradeWindow_Verifying"		"Offer changed, waiting..."
 "TF_TradeWindow_ChatPrompt"		"Chat :"
 "TF_TradeWindow_WarnPassword"	"Never tell your password to anyone."
-"TF_TradeWindow_WarnProfile"	"Click on the other player's avatar to the right of their name to view their profile and verify their identity."
+
+"TF_TradeWindow_Tip_1"			"Click on the other player's avatar to the right of their name to view their profile and verify their identity."
+"TF_TradeWindow_Tip_2"			"Avoid making deals that involve more than a single trade. Scammers may not follow through on the successive trades."
+"TF_TradeWindow_Tip_3"			"Verify that the items you're trading for aren't renamed items masquerading as rare items. Inspect each item carefully. Renamed items will have quotation marks around their names."
+
+"TF_TradeWindow_Scam_MaxTrade"	"Scam warning: never make deals that involve more than a single trade. Scammers will vanish after the first trade is completed!\n"
+"TF_TradeWindow_Scam_Renamed"	"Scam warning: the other person is offering an item that has been renamed to look like a higher quality item!\n"
+
+"TF_TradeWindow_Change_Added"	"%s1 added: %s2\n"
+"TF_TradeWindow_Change_Removed"	"%s1 removed: %s2\n"
+"TF_TradeWindow_Change_Name"	"%s1 (a renamed %s2)"
 
 "TF_TradeStartDialog_Title"				"Trading"
 "TF_TradeStartDialog_Select"			"Find a trading partner from..."
@@ -3755,6 +4075,7 @@ Build teleporters to help team mates get to the front lines!"
 "ArmoryFilter_Spy"			"Spy Items"
 "ArmoryFilter_Engineer"		"Engineer Items"
 "ArmoryFilter_ItemSets"		"Items in %s1"
+"ArmoryFilter_Donationitems"	"Map Stamp Items"
 
 "ArmoryButton_Wiki"			"Community Comments..."
 "ArmoryButton_SetDetails"	"Examine Set"
@@ -3785,8 +4106,9 @@ Build teleporters to help team mates get to the front lines!"
 "TF_Armory_Item_Class_ClassToken"	"This item is a Class Token. It's used in crafting recipes to specify which class's items should be crafted. For example: putting a Soldier class token into a recipe will ensure only Soldier items will be produced by the craft."
 "TF_Armory_Item_Class_SlotToken"	"This item is a Slot Token. It's used in crafting recipes to specify which loadout slot's items should be crafted. For example: putting a Primary slot token into a recipe will ensure only items equipped in the Primary loadout slot will be produced by the craft."
 "TF_Armory_Item_Class_CraftItem"	"This item is a Craft Item. It's only used inside crafting recipes, where it can be combined with other items to create more valuable items."
-"TF_Armory_Item_Class_Tool"			"This item is a Tool. It can be applied to another item in your backpack, and is consumed in the process. Click the 'Use With...' button in the backpack to start the process of applying it."
+"TF_Armory_Item_Class_Tool"			"This item is a Tool. It can used on its own or be applied to another item in your backpack, and is consumed in the process. Click the 'Use' or 'Use With...' button in the backpack to start the process of applying it."
 "TF_Armory_Item_StockItem"			"This item is a Stock Item. Stock items are the default weapons for a player class, and are considered 'special' items in that they cannot be destroyed, and take up no space in your backpack. You can still customize them with tools, and doing so will create a customized clone of the Stock Item."
+"TF_Armory_Item_Class_BackpackExpander"		"This item is a Backpack Expander. When used, it will expand the size of your backpack and be consumed in the process. Click the 'Use' button in the backpack to start the process of applying it."
 
 "TF_Armory_Item_ClassUsageAllBundle"	"This bundle contains items that can be used by all classes."
 "TF_Armory_Item_ClassUsageBundle"		"This bundle contains items that can be used by the: "
@@ -3800,16 +4122,31 @@ Build teleporters to help team mates get to the front lines!"
 "TF_Armory_Item_Action"					"This item is an Action Item. Click on the backpack's 'Use' button to use it. Alternatively, equip it in the Action slot of a class loadout and press the 'Use Item in Action Slot' key, which can be bound in the Keyboard Settings."
 
 "TF_Armory_Item_Duel_Medal"			"This item keeps track of lifetime dueling statistics and the results of the last duel. For every 10 duel wins, it will increase in level by 1 (up to level 100), earning you a new Dueling Mini-Game and a free item. Every 25 levels it will be upgraded to the next tier."
-"TF_Armory_Item_Duel"				"This Action Item enables the Dueling Mini-Game. When used, it allows you to challenge a player on the opposite team to a duel. If they accept, the duel begins. This item will not be consumed if the other player refuses the duel.\n\nAt the end of the round, whoever has more duel points wins. Kills and assists against your opponent are worth 1 point.\n\nThis item will be refunded if the server changes level or the score is tied 0-0 at the end of the round."
+"TF_Armory_Item_Duel"				"This Action Item enables the Dueling Mini-Game. When used, it allows you to challenge a player on the opposite team to a duel. If they accept, the duel begins. This item will not be consumed if the other player refuses the duel.\n\nAt the end of the round, whoever has more duel points wins. Kills and assists against your opponent are worth 1 point.\n\nThis item will not be consumed if the server changes level or the score is tied 0-0 at the end of the round."
 "TF_Armory_Item_Supply_Crate"		"This crate contains one of the items listed in its description. To unlock the crate and retrieve the item, you must use a Mann Co. Supply Crate Key, which can be purchased inside the Mann Co. Store. These crates contain one of the rarest and most valuable items in the game, so cross your fingers before you unlock them!"
+"TF_Armory_Item_Winter_Crate"		"This crate contains an item, but it isn't clear what. The crate will disappear at the end of the year, so you should open it before it's gone!"
 "TF_Armory_Item_Key"				"This key can be used to open one Mann Co. Supply Crate. When opened, you will receive one of the items on the Supply Crate's item list."
 "TF_Armory_Item_NameTag"			"This item can be used to permanently modify the name of a single item. Other players will see the name you choose instead of the original name."
+"TF_Armory_Item_DescTag"			"This item can be used to permanently modify the description of a single item. Other players will see the description you choose instead of the original description. A custom description can be added to items that don't normally have one."
 "TF_Armory_Item_PaintCan"			"This item can be used to permanently change the color of a single item. Not all items are paintable, so if you're purchasing an item to paint it, ensure the details of that item lists 'Paint Cans' as tools that can be used on it."
 "TF_Armory_Item_Gift1"				"This Action Item gives a random item to a single other player on your server."
 "TF_Armory_Item_Gift24"				"This Action Item gives a random item to every other player on your server, up to a maximum of 23 other players."
+"TF_Armory_Item_Gift_Wrap"			"This gift wrap can be used to package an item as a gift for another player. Wrapped gifts can be delivered to offline players. Items that are normally not tradable can be wrapped and gifted using gift wrap."
+"TF_Armory_Item_Gift"				"This is a wrapped gift. The person who wrapped it can deliver the gift to someone or another player can open it and receive the item inside."
+
+"TF_Armory_Item_Limited"			"This item is only available in the store for a limited time! This item is not currently available as a loot or crate drop."
+"TF_Armory_Item_MapToken"			"When this item is purchased, all the proceeds (net of any applicable tax) will go directly to the community members who made the map.\n\nMembership level for a map will increase for every 25 map stamps.\n\nA World Traveler's Hat will also be given out the first time any map stamp has been purchased."
+"TF_Armory_Item_BackpackExpander"	"When this item is used, it will add 100 extra slots to your backpack.  Note that there is a maximum of 1000 slots."
 
 "TF_PassiveAttribs"					"Current on-wearer attributes:"
 "TF_PassiveAttribs_None"			"None"
+
+//----------------------------------------------------------------------------------------
+"TF_HalloweenItem_Reserved"			"The Haunted Halloween Gift has mysteriously appeared somewhere. The first one to find it gets to keep it!"
+"TF_HalloweenItem_Granted"			"%recipient% found the Haunted Halloween Gift!"
+"TF_Halloween_Boss_Appeared"		"The Horseless Headless Horsemann has appeared!\n"
+"TF_Halloween_Boss_Killed"			"The Horseless Headless Horsemann has been defeated!\n"
+"TF_Halloween_Boss_Killers"			"%s1 has defeated the Horseless Headless Horsemann!\n"
 
 //----------------------------------------------------------------------------------------
 "TF_SelectPlayer_Select"			"Find a player from..."
@@ -3831,6 +4168,81 @@ Build teleporters to help team mates get to the front lines!"
 "TF_Serverlist_Ask_No"					"No"
 
 
-}
 
+//----------------------------------------------------------------------------------------
+// Item Testing
+"IT_Title"				"Item Testing"
+"IT_CurrentlyTesting"	"Currently Testing:"
+"IT_ClassUsage"			"Testing Classes:"
+"IT_Classes_All"		"All classes"
+"IT_Ok"					"Apply Test Items"
+"IT_Apply"				"Apply"
+
+"IT_TestingSlot_Weapon"		"Weapon:"
+"IT_TestingSlot_Headgear"	"Headgear:"
+"IT_TestingSlot_Misc1"		"Cosmetic 1:"
+"IT_TestingSlot_Misc2"		"Cosmetic 2:"
+"IT_TestingSlot_Empty"		"<none>"
+
+"IT_BotAddition_Title"		"Bots:"
+"IT_Bot_AutoAdd"			"Automatically add testing bots"
+"IT_Bot_Add"				"Add a:"
+"IT_Bot_RemoveAll"			"Remove all bots"
+
+"IT_BotControl_Title"		"Bot Controls:"
+"IT_BotAnim_Title"			"Bots should:"
+"IT_BotAnim_Idle"			"Stand"
+"IT_BotAnim_Crouch_Idle"	"Crouch"
+"IT_BotAnim_Run"			"Run"
+"IT_BotAnim_Crouch_Walk"	"Crouch walk"
+"IT_BotAnim_Jump"			"Jump"
+"IT_BotAnim_ForceFire"		"Fire weapons"
+"IT_BotAnim_Turntable"		"Rotate on the spot"
+"IT_BotAnim_ViewScan"		"Look around"
+"IT_BotAnimSpeed_Title"		"Anim speed:"
+
+"IT_ExportLoadout"		"Save Test Setup"
+"IT_ImportLoadout"		"Load Test Setup"
+"IT_ImportLast"			"Load most recent"
+"IT_TestingFiles"		"Item Testing files (*.itf)"
+
+"IT_Item_Add"			"Add"
+"IT_Item_Edit"			"Edit"
+"IT_Item_Remove"		"X"
+
+"IT_Title_0"	"Test Weapon"
+"IT_Title_1"	"Test Headgear"
+"IT_Title_2"	"Test Cosmetic 1"
+"IT_Title_3"	"Test Cosmetic 2"
+
+"IT_YourModel"		"Your New Model:"
+"IT_MDL_Files"		"Model files (*.mdl)"
+"IT_NoModel"		"<none selected>"
+"IT_SelectModel"	"Select Model"
+"IT_ItemType"		"Item Type:"
+"IT_ItemReplaces"	"Replaces:"
+"IT_Bodygroups"		"Geometry to hide:"
+
+"IT_Bodygroup_Hat"			"Hat"
+"IT_Bodygroup_Headphone"	"Headphones (Scout)"
+"IT_Bodygroup_Medals"		"Chest Medals (Soldier)"
+"IT_Bodygroup_Grenades"		"Chest Grenades (Soldier)"
+
+"IT_OtherOptions"			"Other Options:"
+"IT_PerClassSequences"		"Set sequence to match player class"
+
+"IT_PaintTitle"				"Painted with:"
+"IT_PaintNone"				"Nothing"
+
+"IT_ItemReplaced_Select"	"Select item"
+"IT_ItemReplaced_Invalid"	"These classes have no shared weapons"
+
+"IT_Explanation_SelectModel"	"Hit this button, and select your new model.\n\nBased on the type of item you've chosen, the dialog will start in the appropriate directory. Your model should be in that directory, or within a sub directory below it."
+"IT_Explanation_Bodygroups"		"Select geometry pieces on the player model that should be hidden. Most hats need to hide the base hat."
+"IT_Explanation_PerClassSequences"	"If you have an item worn by multiple classes, but you'd like it attached differently on each class, check this option. Then, add 9 single frame, looping animation sequences to your model, corresponding to: scout, sniper, soldier, demo, medic, heavy, pyro, spy, and engineer."
+
+"SystemMessage_WinterCrateWarning_2Hour"	"Festive Winter Crates will disappear soon! You have less than two hours to open yours!"
+"SystemMessage_WinterCrateWarning_30Minute"	"Festive Winter Crates will disappear soon! Only thirty minutes until they are gone forever!"
+
+}
 }

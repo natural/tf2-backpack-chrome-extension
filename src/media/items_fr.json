@@ -594,10 +594,10 @@
         "description": "Guerrier Primitif"
     }, 
     "other_attributes": {
-        "133": "M\u00e9daille num\u00e9ro %s1", 
-        "132": "Compte tenu de pr\u00e9cieux collaborateurs communautaires", 
-        "143": "Date de location: %s1", 
-        "147": "Cl\u00e9 num\u00e9ro %s1"
+        "133": "Medal no. %s1", 
+        "132": "Given to valuable Community Contributors", 
+        "143": "Hire Date: %s1", 
+        "147": "Wrench no. %s1"
     }, 
     "5003": {
         "alt": [
@@ -692,10 +692,10 @@
     }, 
     "9003": {
         "positive": [
-            "compte Steam Bans de joueurs tu\u00e9s", 
-            "Cet article n'est pas r\u00e9el et n'est qu'une plaisanterie."
+            "Bans Steam account of players killed", 
+            "This item is not real and is only a joke."
         ], 
-        "type": "Mallet du Bannissement", 
+        "type": "Mallet of Banishment", 
         "description": "Ban Hammer"
     }, 
     "240": {

@@ -565,10 +565,10 @@
         "description": "Primeval Warrior"
     }, 
     "other_attributes": {
-        "133": "Medal sz\u00e1ma %s1", 
-        "132": "Tekintettel arra, hogy \u00e9rt\u00e9kes k\u00f6z\u00f6ss\u00e9gi hozz\u00e1j\u00e1rul\u00f3", 
-        "143": "Hire D\u00e1tum: %s1", 
-        "147": "Csavarkulcs sz\u00e1ma %s1"
+        "133": "Medal no. %s1", 
+        "132": "Given to valuable Community Contributors", 
+        "143": "Hire Date: %s1", 
+        "147": "Wrench no. %s1"
     }, 
     "5003": {
         "alt": [
@@ -661,10 +661,10 @@
     }, 
     "9003": {
         "positive": [
-            "Kitiltja Steam fi\u00f3k a j\u00e1t\u00e9kos meghalt", 
-            "Ez az elem nem val\u00f3s, \u00e9s csak egy vicc."
+            "Bans Steam account of players killed", 
+            "This item is not real and is only a joke."
         ], 
-        "type": "Mallet a sz\u00e1m\u0171zet\u00e9s", 
+        "type": "Mallet of Banishment", 
         "description": "Ban Hammer"
     }, 
     "240": {

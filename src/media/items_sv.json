@@ -594,10 +594,10 @@
         "description": "Urtida Krigare"
     }, 
     "other_attributes": {
-        "133": "Medalj nummer %s1", 
-        "132": "Med tanke p\u00e5 att v\u00e4rdefulla gemenskapen bidragande", 
-        "143": "Hyra Datum: %s1", 
-        "147": "Nyckel nummer %s1"
+        "133": "Medal no. %s1", 
+        "132": "Given to valuable Community Contributors", 
+        "143": "Hire Date: %s1", 
+        "147": "Wrench no. %s1"
     }, 
     "5003": {
         "alt": [
@@ -692,10 +692,10 @@
     }, 
     "9003": {
         "positive": [
-            "F\u00f6rbud Steam-konto akt\u00f6rer d\u00f6dade", 
-            "Denna punkt \u00e4r inte verklig och \u00e4r bara ett sk\u00e4mt."
+            "Bans Steam account of players killed", 
+            "This item is not real and is only a joke."
         ], 
-        "type": "Mallet av Banishment", 
+        "type": "Mallet of Banishment", 
         "description": "Ban Hammer"
     }, 
     "240": {

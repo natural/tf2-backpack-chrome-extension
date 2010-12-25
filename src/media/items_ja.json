@@ -594,10 +594,10 @@
         "description": "\u3044\u306b\u3057\u3048\u306e\u5175\u58eb"
     }, 
     "other_attributes": {
-        "133": "\u30e1\u30c0\u30eb\u756a\u53f7%s1", 
-        "132": "\u8cb4\u91cd\u306a\u30b3\u30df\u30e5\u30cb\u30c6\u30a3\u306e\u8ca2\u732e\u8005\u306b\u4e0e\u3048\u3089\u308c\u308b", 
-        "143": "\u30ec\u30f3\u30bf\u30eb\u65e5\uff1a%s1", 
-        "147": "\u30ec\u30f3\u30c1\u756a\u53f7%s1"
+        "133": "Medal no. %s1", 
+        "132": "Given to valuable Community Contributors", 
+        "143": "Hire Date: %s1", 
+        "147": "Wrench no. %s1"
     }, 
     "5003": {
         "alt": [
@@ -692,11 +692,11 @@
     }, 
     "9003": {
         "positive": [
-            "\u6bba\u3055\u308c\u305f\u9078\u624b\u306e\u7981\u6b62\u306eSteam\u30a2\u30ab\u30a6\u30f3\u30c8", 
-            "\u3053\u306e\u5546\u54c1\u306f\u3001\u672c\u7269\u3067\u306f\u306a\u3044\u3068\u5358\u306a\u308b\u5197\u8ac7\u3067\u3059\u3002"
+            "Bans Steam account of players killed", 
+            "This item is not real and is only a joke."
         ], 
-        "type": "\u8ffd\u653e\u306e\u30de\u30ec\u30c3\u30c8", 
-        "description": "\u6f58\u30cf\u30f3\u30de\u30fc"
+        "type": "Mallet of Banishment", 
+        "description": "Ban Hammer"
     }, 
     "240": {
         "alt": [

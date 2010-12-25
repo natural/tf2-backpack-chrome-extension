@@ -594,10 +594,10 @@
         "description": "Primeval Warrior"
     }, 
     "other_attributes": {
-        "133": "Medal number %s1", 
+        "133": "Medal no. %s1", 
         "132": "Given to valuable Community Contributors", 
         "143": "Hire Date: %s1", 
-        "147": "Wrench number %s1"
+        "147": "Wrench no. %s1"
     }, 
     "5003": {
         "alt": [

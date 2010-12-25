@@ -114,7 +114,8 @@ var pages = {
     },
 
     updateNav: function () {
-	var current = _("num"+this.current), count = _("num"+this.count);
+	//var current = _("num"+this.current), count = _("num"+this.count);
+	var current = this.current, count = this.count
 	$("#pages").text(current + "/" + count);
 	if (this.current == 1) {
 	    $(".nonav:first").show();

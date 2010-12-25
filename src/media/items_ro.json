@@ -568,10 +568,10 @@
         "description": "R\u0103zboinic Primordial"
     }, 
     "other_attributes": {
-        "133": "Medalia num\u0103rul %s1", 
-        "132": "Av\u00e2nd \u00een vedere valoroase comunitare care au contribuit la", 
-        "143": "Data \u00cenchiriez: %s1", 
-        "147": "Wrench num\u0103rul %s1"
+        "133": "Medal no. %s1", 
+        "132": "Given to valuable Community Contributors", 
+        "143": "Hire Date: %s1", 
+        "147": "Wrench no. %s1"
     }, 
     "5003": {
         "alt": [
@@ -664,10 +664,10 @@
     }, 
     "9003": {
         "positive": [
-            "Considerare interdic\u0163iile Steam de juc\u0103tori ucis", 
-            "Acest element nu este real\u0103 \u015fi este doar o gluma."
+            "Bans Steam account of players killed", 
+            "This item is not real and is only a joke."
         ], 
-        "type": "Mallet a Alungarea", 
+        "type": "Mallet of Banishment", 
         "description": "Ban Hammer"
     }, 
     "240": {

@@ -594,10 +594,10 @@
         "description": "Urtidskriger"
     }, 
     "other_attributes": {
-        "133": "Medalje nummer %s1", 
-        "132": "Givet til v\u00e6rdifulde EF Bidragydere", 
-        "143": "Leje Dato: %s1", 
-        "147": "Skruen\u00f8gle nummer %s1"
+        "133": "Medal no. %s1", 
+        "132": "Given to valuable Community Contributors", 
+        "143": "Hire Date: %s1", 
+        "147": "Wrench no. %s1"
     }, 
     "5003": {
         "alt": [
@@ -692,10 +692,10 @@
     }, 
     "9003": {
         "positive": [
-            "Forbud Steam konto akt\u00f8rer dr\u00e6bt", 
-            "Dette punkt er ikke reel og er kun en joke."
+            "Bans Steam account of players killed", 
+            "This item is not real and is only a joke."
         ], 
-        "type": "K\u00f8lle af Forvisning", 
+        "type": "Mallet of Banishment", 
         "description": "Ban Hammer"
     }, 
     "240": {
