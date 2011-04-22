@@ -1,0 +1,7 @@
+*.pyc
+*~
+*.nodist
+tmp
+dist-*
+src/testdata
+src/testdata/*
