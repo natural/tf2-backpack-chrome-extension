@@ -5,19 +5,20 @@
     "128": "media/icon128.png", 
     "48": "media/icon48.png"
   }, 
-  "version": "1.0.20", 
+  "name": "__MSG_extension_name__", 
+  "version": "1.0.21", 
   "options_page": "options.html", 
   "background_page": "background.html", 
-  "permissions": [
-    "tabs", 
-    "notifications", 
-    "http://steamcommunity.com/", 
-    "http://www.tf2items.com/"
-  ], 
   "browser_action": {
     "popup": "popup.html", 
     "default_icon": "media/icon.png", 
     "default_title": "__MSG_extension_default_title__"
   }, 
-  "name": "__MSG_extension_name__"
+  "permissions": [
+    "tabs", 
+    "notifications", 
+    "http://steamcommunity.com/", 
+    "http://www.tf2items.com/",
+    "http://tf2apiproxy.appspot.com/"
+  ]
 }

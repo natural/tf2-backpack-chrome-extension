@@ -54,7 +54,7 @@ var backpack = {
 	    $(itemContentSelector).fadeOut().remove();
 	    self.feed = (new DOMParser()).parseFromString(xml, "text/xml");
 	    pageOps.putItems(self.feed);
-	    //pageOps.putCharInfo(self.feed);
+	    pageOps.putCharInfo(self.feed);
 	    pageOps.loadAndShowProfile();
 	} else {
 	    console.warning("empty xml");
