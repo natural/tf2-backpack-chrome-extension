@@ -36,7 +36,8 @@ def google_translate(sl, tl, text):
     except (Exception, ), exc:
 	return {'status':0, 'text':text, 'reason':'fetch error (%s)' % exc}
     try:
-	result = json.loads(data.replace(',,', ',0,'))
+        data = data.replace(',,,', ',0,').replace(',,', ',0,')
+	result = json.loads(data)
     except (Exception, ), exc:
 	return {'status':0, 'text':text, 'reason':'parse error (%s)' % exc}
     return result

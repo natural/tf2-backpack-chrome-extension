@@ -77,11 +77,11 @@ $(dist_script_files):
 update:
 	@mkdir -p $(tmp_dir)
 	@echo "[UPDATE] extracting backpack files..."
-#	@hlextract -s -p "$(gcf_dir)/team fortress 2 materials.gcf" -e "root/tf/materials/backpack" -d $(tmp_dir)
+	@hlextract -s -p "$(gcf_dir)/team fortress 2 materials.gcf" -e "root/tf/materials/backpack" -d $(tmp_dir)
 	@echo "[UPDATE] extracting resource files..."
-#	@hlextract -s -p "$(gcf_dir)/team fortress 2 content.gcf" -e "root/tf/resource/" -d $(tmp_dir)
+	@hlextract -s -p "$(gcf_dir)/team fortress 2 content.gcf" -e "root/tf/resource/" -d $(tmp_dir)
 	@echo "[UPDATE] extracting other text files..."
-#	@hlextract -s -p "$(gcf_dir)/team fortress 2 content.gcf" -e "root/tf/scripts/items/items_game.txt" -d $(tmp_dir)
+	@hlextract -s -p "$(gcf_dir)/team fortress 2 content.gcf" -e "root/tf/scripts/items/items_game.txt" -d $(tmp_dir)
 	@echo "[UPDATE] converting text files..."
 	@make extract_text_files
 	@echo "[UPDATE] converting images..."

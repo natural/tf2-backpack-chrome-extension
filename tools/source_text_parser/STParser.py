@@ -1,4 +1,4 @@
-# $ANTLR 3.1.1 ST.g 2010-07-21 14:06:53
+# $ANTLR 3.1.3 Mar 18, 2009 10:09:25 ST.g 2011-04-27 15:06:19
 
 import sys
 from antlr3 import *
@@ -38,24 +38,24 @@ tokenNames = [
 
 class STParser(Parser):
     grammarFileName = "ST.g"
-    antlr_version = version_str_to_tuple("3.1.1")
-    antlr_version_str = "3.1.1"
+    antlr_version = version_str_to_tuple("3.1.3 Mar 18, 2009 10:09:25")
+    antlr_version_str = "3.1.3 Mar 18, 2009 10:09:25"
     tokenNames = tokenNames
 
-    def __init__(self, input, state=None):
+    def __init__(self, input, state=None, *args, **kwargs):
         if state is None:
             state = RecognizerSharedState()
 
-        Parser.__init__(self, input, state)
+        super(STParser, self).__init__(input, state, *args, **kwargs)
 
 
 
 
 
 
-
+        self._adaptor = None
+        self.adaptor = CommonTreeAdaptor()
                 
-        self._adaptor = CommonTreeAdaptor()
 
 
         
@@ -70,7 +70,7 @@ class STParser(Parser):
 
     class source_mapping_return(ParserRuleReturnScope):
         def __init__(self):
-            ParserRuleReturnScope.__init__(self)
+            super(STParser.source_mapping_return, self).__init__()
 
             self.tree = None
 
@@ -121,8 +121,6 @@ class STParser(Parser):
 
 
 
-
-
                 retval.stop = self.input.LT(-1)
 
 
@@ -137,14 +135,13 @@ class STParser(Parser):
         finally:
 
             pass
-
         return retval
 
     # $ANTLR end "source_mapping"
 
     class element_return(ParserRuleReturnScope):
         def __init__(self):
-            ParserRuleReturnScope.__init__(self)
+            super(STParser.element_return, self).__init__()
 
             self.tree = None
 
@@ -236,8 +233,6 @@ class STParser(Parser):
 
                         else:
                             break #loop2
-
-
                     char_literal5=self.match(self.input, 15, self.FOLLOW_15_in_element68)
 
                     char_literal5_tree = self._adaptor.createWithPayload(char_literal5)
@@ -279,14 +274,13 @@ class STParser(Parser):
         finally:
 
             pass
-
         return retval
 
     # $ANTLR end "element"
 
     class item_return(ParserRuleReturnScope):
         def __init__(self):
-            ParserRuleReturnScope.__init__(self)
+            super(STParser.item_return, self).__init__()
 
             self.value = None
             self.tree = None
@@ -339,7 +333,6 @@ class STParser(Parser):
         finally:
 
             pass
-
         return retval
 
     # $ANTLR end "item"

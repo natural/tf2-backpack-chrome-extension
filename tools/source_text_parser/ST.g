@@ -56,7 +56,7 @@ fragment LETTER
 
 
 fragment EscapeSequence
-    :   '\\' ('b'|'t'|'n'|'f'|'r'|'\"'|'\''|'\\'|' '|'C')
+    :   '\\' ('B' | 'b'|'t'|'n'|'f'|'r'|'\"'|'\''|'\\'|' '|'C' | 'D' | 'i' | 'N' | 'A' | 'P' | 'M' | 'a')
     |   UnicodeEscape
     ;
 

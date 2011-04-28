@@ -31,6 +31,6 @@ $(json_files):
 message_files: $(tran_files)
 $(tran_files):
 	@echo "[TRANSLATION]" $(tran_src) "->" $@
-	@./tf_tran.py $(tran_src) $@
-#	@./tf_text2messages_json.py $@
+	@echo ./tf_tran.py $(tran_src) $@
+	@echo ./tf_text2messages_json.py $@
 

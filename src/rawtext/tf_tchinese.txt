@@ -75,7 +75,7 @@
 "[english]TF_Scoreboard_Score"	"Score"
 "TF_Scoreboard_Ping"	"延遲"
 "[english]TF_Scoreboard_Ping"	"Ping"
-"TF_Scoreboard_Bot"	"電腦控制玩家"
+"TF_Scoreboard_Bot"	"BOT"
 "[english]TF_Scoreboard_Bot"	"BOT"
 "TF_ScoreBoard_Point"	"%s1 分"
 "[english]TF_ScoreBoard_Point"	"%s1 point"
@@ -1000,7 +1000,7 @@ been successfully defended !!"
 "Tournament_WaitingForTeams"	"正在等待整隊"
 "[english]Tournament_WaitingForTeams"	"Waiting for teams to organize"
 "Tournament_Countdown"	"遊戲將於 %s1 秒後開始... 按 F4 取消遊戲"
-"[english]Tournament_Countdown"	"Starting in %s1 seconds... Press 'F4' to cancel"
+"[english]Tournament_Countdown"	"Starting in %s1 seconds... 'F4' to cancel"
 "Tournament_TeamReady"	"準備就緒"
 "[english]Tournament_TeamReady"	"Ready"
 "Tournament_TeamNotReady"	"尚未備妥"
@@ -1625,9 +1625,9 @@ They can be upgraded all the way to level 3!"
 "[english]StatPanel_Label_SentryKills"	"# Kills by sentry: "
 "StatPanel_Label_Teleports"	"# 使用傳送次數： "
 "[english]StatPanel_Label_Teleports"	"# uses of teleport: "
-"StatSummary_Label_PerformanceReport"	"你的表現報告"
+"StatSummary_Label_PerformanceReport"	"您的表現報告"
 "[english]StatSummary_Label_PerformanceReport"	"YOUR PERFORMANCE REPORT"
-"StatSummary_Label_BestMoments"	"你的最佳時刻"
+"StatSummary_Label_BestMoments"	"您的最佳時刻"
 "[english]StatSummary_Label_BestMoments"	"YOUR BEST MOMENTS"
 "StatSummary_Label_AsAnyClass"	"所有兵種："
 "[english]StatSummary_Label_AsAnyClass"	"As any class:"
@@ -2153,9 +2153,9 @@ In Game"
 "[english]TF_Players"	"Players"
 "TF_Top"	"最高排名"
 "[english]TF_Top"	"Top Rank"
-"TF_YourRank"	"你的排名"
+"TF_YourRank"	"您的排名"
 "[english]TF_YourRank"	"Your Rank"
-"TF_YourBest"	"你的最佳："
+"TF_YourBest"	"您的最佳："
 "[english]TF_YourBest"	"Your Best:"
 "TF_Icon_Ping_Red"	"M"
 "[english]TF_Icon_Ping_Red"	"M"
@@ -2559,7 +2559,7 @@ Would you like to host a game?"
 "[english]TF_MEDIC_CHARGE_FRIENDS_NAME"	"Family Practice"
 "TF_MEDIC_CHARGE_FRIENDS_DESC"	"ÜberCharge 您的 5 個 Steam 社群好友。"
 "[english]TF_MEDIC_CHARGE_FRIENDS_DESC"	"ÜberCharge 5 of your Steam Community Friends."
-"TF_MEDIC_INVITE_JOIN_CHARGE_NAME"	"House Call"
+"TF_MEDIC_INVITE_JOIN_CHARGE_NAME"	"到府急診"
 "[english]TF_MEDIC_INVITE_JOIN_CHARGE_NAME"	"House Call"
 "TF_MEDIC_INVITE_JOIN_CHARGE_DESC"	"加入你的好友所在之一的遊戲，然後幫他補充 ÜberCharge。"
 "[english]TF_MEDIC_INVITE_JOIN_CHARGE_DESC"	"Join a game that one of your friends is in and then deploy an ÜberCharge on him."
@@ -4239,7 +4239,7 @@ Also handy for putting out a fire"
 "[english]Attrib_WpnBurnTime_Increased"	"+%s1% burn duration"
 "Attrib_WpnBurnTime_Reduced"	"燃燒時間 %s1%"
 "[english]Attrib_WpnBurnTime_Reduced"	"%s1% burn duration"
-"Attrib_AimingMoveSpeed_Increased"	"穿戴者處於部署狀態時加快 +%s1% 移動速度"
+"Attrib_AimingMoveSpeed_Increased"	"部署狀態時加快 +%s1% 移動速度"
 "[english]Attrib_AimingMoveSpeed_Increased"	"+%s1% faster move speed while deployed"
 "Attrib_MaxammoPrimary_Increased"	"穿戴者最大主要武器彈藥 +%s1%"
 "[english]Attrib_MaxammoPrimary_Increased"	"+%s1% max primary ammo on wearer"
@@ -4319,8 +4319,8 @@ Blocks healing when in use"
 "[english]Attrib_Dmg_Falloff_Decreased"	"%s1% splash damage fall off"
 "Attrib_Dmg_Falloff_Increase"	"擴散傷害降低 +%s1%"
 "[english]Attrib_Dmg_Falloff_Increase"	"+%s1% splash damage fall off"
-"Attrib_StickyDetonateMode"	"引爆準心附近的黏性炸彈"
-"[english]Attrib_StickyDetonateMode"	"Detonates stickybombs near the crosshair"
+"Attrib_StickyDetonateMode"	"直接在您腳下引爆準心附近的黏性炸彈"
+"[english]Attrib_StickyDetonateMode"	"Detonates stickybombs near the crosshair and directly under your feet"
 "Attrib_StickyAirBurstMode"	"發射的炸彈碰到物體表面後會炸個粉碎"
 "[english]Attrib_StickyAirBurstMode"	"Launched bombs shatter on surfaces"
 "Attrib_StickyArmTimePenalty"	"炸彈遙控引爆時間變慢 %s1 秒"
@@ -4345,7 +4345,7 @@ Blocks healing when in use"
 "[english]Attrib_MedalIndex_Description"	"Medal no. %s1"
 "Attrib_RocketJumpDmgReduction"	"%s1% 火箭跳躍爆破傷害"
 "[english]Attrib_RocketJumpDmgReduction"	"%s1% blast damage from rocket jumps"
-"Attrib_Selfmade_Description"	"我成功了！"
+"Attrib_Selfmade_Description"	"我製作了這個！"
 "[english]Attrib_Selfmade_Description"	"I made this!"
 "Attrib_DmgVsBuilding_Increased"	"對建築造成 %s1% 傷害"
 "[english]Attrib_DmgVsBuilding_Increased"	"%s1% damage vs buildings"
@@ -4644,7 +4644,7 @@ Are Full"
 "[english]TF_PyroMonocle"	"Whiskered Gentleman"
 "TF_MedicGoggles"	"夜視鏡"
 "[english]TF_MedicGoggles"	"Ze Goggles"
-"TF_MedicGoggles_Desc"	"無"
+"TF_MedicGoggles_Desc"	"沒用"
 "[english]TF_MedicGoggles_Desc"	"Nothing"
 "TF_EngineerEarmuffs"	"安全聲機"
 "[english]TF_EngineerEarmuffs"	"Safe'n'Sound"
@@ -5069,7 +5069,7 @@ and damage taken will be mini-crits."
 "MMenu_TutorialHighlight_Text"	"何不花點時間並"
 "[english]MMenu_TutorialHighlight_Text"	"Why not take a minute and"
 "MMenu_TutorialHighlight_Button"	"開始教學課程"
-"[english]MMenu_TutorialHighlight_Button"	"PLAY THE TUTORIAL"
+"[english]MMenu_TutorialHighlight_Button"	"PLAY A TUTORIAL"
 "MMenu_PracticeHighlight_Title"	"如果您已完成教學課程..."
 "[english]MMenu_PracticeHighlight_Title"	"If you're done with the tutorial..."
 "MMenu_PracticeHighlight_Text"	"何不試試"
@@ -5100,7 +5100,7 @@ To open a class's loadout, click on its image."
 "[english]CraftingExplanation_Text"	"Here you're able to construct new items out of the items in your backpack."
 "ExplanationExplanation_Title"	"有什麼忘記了嗎？"
 "[english]ExplanationExplanation_Title"	"Missed something?"
-"ExplanationExplanation_Text"	"按一下這個按鈕就能再次顯示材料資訊。"
+"ExplanationExplanation_Text"	"按一下這個按鈕就能再次顯示提示資訊。"
 "[english]ExplanationExplanation_Text"	"Clicking this button will show these popups again."
 "BackpackItemsExplanation_Title"	"背包"
 "[english]BackpackItemsExplanation_Title"	"Backpack"
@@ -5294,12 +5294,12 @@ Press %reload% to RELOAD"
 "[english]TR_Dust_Hint_SetupGate"	"Setup Gate"
 "TR_Target_EndDialog"	"非常好！您已完成 Soldier 的武器訓練課程！快將您的技術投入實際演練，按「下一步」按鈕即可前往 %s2。"
 "[english]TR_Target_EndDialog"	"Good job!  You've completed the Soldier's weapons training!  Put your skills to work and move on to %s2 by pressing the NEXT button."
-"TR_Dustbowl_EndDialog"	"太棒了！您已贏得 %s1 的一場遊戲，並完成訓練。
+"TR_Dustbowl_EndDialog"	"太棒了！您已經贏得 %s1 的第一場遊戲並解鎖了 Demoman 訓練！
 
 想要試試像是 Engineer 或 Medic 等其他兵種嗎？何不直接跳到「離線練習」階段？
 
 準備好上線對抗其他玩家了嗎？請到主選單選擇「開始遊戲」。"
-"[english]TR_Dustbowl_EndDialog"	"Well done! You've won a game in %s1 and completed the training.
+"[english]TR_Dustbowl_EndDialog"	"Well done!  You've won a game in %s1 and unlocked Demoman training!
 
 Want to try out other classes like the Engineer or Medic?  Why not hop into an OFFLINE PRACTICE session?
 
@@ -5328,14 +5328,14 @@ Ready to play online against other players? Select START PLAYING at the main men
 "[english]TF_Training_Prompt_Title"	"Start Training?"
 "TF_Training_Prompt"	"是否確定要離開目前遊戲，開始訓練課程？"
 "[english]TF_Training_Prompt"	"Are you sure you want to quit your current game and start training?"
-"TF_Training_Restart_Title"	"重新開始訓練？"
-"[english]TF_Training_Restart_Title"	"Restart Training?"
-"TF_Training_Restart_Text"	"是否確定要重新開始訓練？"
-"[english]TF_Training_Restart_Text"	"Are you sure you want to restart training?"
+"TF_Training_Restart_Title"	"變更訓練？"
+"[english]TF_Training_Restart_Title"	"Change Training?"
+"TF_Training_Restart_Text"	"是否確定要選擇不同訓練教程？"
+"[english]TF_Training_Restart_Text"	"Are you sure you want to choose a different training course?"
 "TF_Training_Prompt_ConfirmButton"	"是，請重新開始！"
 "[english]TF_Training_Prompt_ConfirmButton"	"Yes Please!"
-"TF_Training_Prompt_CancelButton"	"否，我不想參加，謝謝。"
-"[english]TF_Training_Prompt_CancelButton"	"No Thanks"
+"TF_Training_Prompt_CancelButton"	"否"
+"[english]TF_Training_Prompt_CancelButton"	"No"
 "TF_OfflinePractice"	"離線練習"
 "[english]TF_OfflinePractice"	"OFFLINE PRACTICE"
 "TF_OfflinePractice_Settings"	"設定"
@@ -5390,7 +5390,7 @@ Ready to play online against other players? Select START PLAYING at the main men
 "[english]Thunderm_cap_3_B"	"Building B, Stage Three"
 "Thunderm_cap_3_C"	"高塔，最終據點Tower, Final Cap"
 "[english]Thunderm_cap_3_C"	"Tower, Final Cap"
-"hightower_setup_goal"	"將您隊伍的推車推至高塔的頂端來獲得勝利"
+"hightower_setup_goal"	"將您隊伍的推車推至高塔的頂端來獲得勝利！"
 "[english]hightower_setup_goal"	"Move your cart to the top of your HighTower to win!"
 "hightower_cap_red"	"紅隊高塔"
 "[english]hightower_cap_red"	"Red's HighTower"
@@ -5910,8 +5910,8 @@ break-action personal defense."
 "TF_TheHolyMackerel_Desc"	"被魚攻擊一定很丟臉。"
 "[english]TF_TheHolyMackerel_Desc"	"Getting hit by a fish has got to be humiliating."
 "TF_MadMilk_Desc"	"玩家可以替浸泡在牛奶中的敵人
-治癒 75% 的傷害。"
-"[english]TF_MadMilk_Desc"	"Players heal 75% of the damage done
+治癒 60% 的傷害。"
+"[english]TF_MadMilk_Desc"	"Players heal 60% of the damage done
 to an enemy covered with milk."
 "TF_Weapon_RocketLauncher_Jump_Desc"	"特殊的無殺傷性火箭發射器，可供學習
 火箭跳躍技巧和方法。"
@@ -6290,7 +6290,7 @@ Gift from: %s1"
 "TF_TheBattalionsBackup"	"營隊後援"
 "[english]TF_TheBattalionsBackup"	"The Battalion's Backup"
 "TF_TheBlackBox"	"黑盒子"
-"[english]TF_TheBlackBox"	"The Black Box"
+"[english]TF_TheBlackBox"	"Black Box"
 "TF_SydneySleeper"	"雪梨沉睡者"
 "[english]TF_SydneySleeper"	"The Sydney Sleeper"
 "TF_DarwinsDangerShield"	"達爾文市的危險護盾"
@@ -6306,7 +6306,7 @@ Gift from: %s1"
 "TF_Unique_FryingPan"	"油炸平底鍋"
 "[english]TF_Unique_FryingPan"	"The Frying Pan"
 "TF_Unique_Gloves_of_Running_Urgently"	"狂奔手套"
-"[english]TF_Unique_Gloves_of_Running_Urgently"	"Gloves of Running Urgently"
+"[english]TF_Unique_Gloves_of_Running_Urgently"	"The Gloves of Running Urgently"
 "TF_Soldier_Medal_Web_Sleuth_Desc"	"賜給不眠不休、不吃不喝、犧牲社交生活的英勇站崗士兵。"
 "[english]TF_Soldier_Medal_Web_Sleuth_Desc"	"Given to those few brave soldiers whom stood guard valiantly without sleep, nourishment, or a social life."
 "TF_Employee_Badge_A_Desc"	"大兵，在胸前盡情炫耀一番吧。每次殺死一名敵人，對方就會知道他不是你的第一次。"
@@ -6333,7 +6333,7 @@ Gift from: %s1"
 "[english]Normal"	"Normal"
 "Unique"	"獨特"
 "[english]Unique"	"Unique"
-"rarity4"	"異常"
+"rarity4"	"稀有"
 "[english]rarity4"	"Unusual"
 "vintage"	"復古"
 "[english]vintage"	"Vintage"
@@ -6365,7 +6365,7 @@ Gift from: %s1"
 "[english]BackpackArmoryExplanation_Text"	"Select an item and press the DETAILS button to view that item in the Mann Co. Catalog. The catalog provides additional information on how items work and how they are used."
 "BackpackToolsExplanation_Title"	"使用工具"
 "[english]BackpackToolsExplanation_Title"	"Using Tools"
-"BackpackToolsExplanation_Text"	"可以和你裝備欄中其他物品互相作用的道具被稱作「工具」。工具可以用來重新命名武器、用不同顏色去彩繪帽子，或是增加特殊的屬性於你的物品上。如要使用工具物品，選擇它並且按下「搭配使用...」按鈕。"
+"BackpackToolsExplanation_Text"	"可以在您的裝備欄中使用的的道具被稱作「工具」。工具可以用來重新命名武器、用不同顏色去彩繪帽子，或是增加特殊的屬性於你的物品上。如要使用工具物品，選擇它並且按下「搭配使用...」按鈕。"
 "[english]BackpackToolsExplanation_Text"	"Items that can be used in your inventory are called 'tools'. Tools can rename weapons, paint hats with a new color, or add special properties to your items. To activate a tool, select it and press the 'Use' or 'Use With...' button."
 "BackpackStockExplanation_Title"	"基本物品"
 "[english]BackpackStockExplanation_Title"	"Stock Items"
@@ -6600,9 +6600,10 @@ WITH YOUR FIRST PURCHASE!"
 "TR_ClassInfo_Soldier"	"將火箭發射器朝敵人的腳邊發射
 使用您的火箭發射器進行火箭跳躍
 散彈槍適合用來了結受到火箭發射器傷害的敵人"
-"[english]TR_ClassInfo_Soldier"	"Shoot your rocket launcher at enemy's feet
-Use your rocket launcher to rocket jump
-The shotgun is useful for finishing off enemies damaged by the rocket launcher"
+"[english]TR_ClassInfo_Soldier"	"The Soldier is a good offensive and defensive class whose primary weapon
+is the rocket launcher.  He can do a large amount of damage in a short
+period of time but has to remember to keep his rocket launcher loaded
+at all times or be caught off guard."
 "Notification_CanTrigger_Help"	"點選 [ %cl_trigger_first_notification% ] 來檢視。
 點選 [ %cl_decline_first_notification% ] 來進行移除。"
 "[english]Notification_CanTrigger_Help"	"Press [ %cl_trigger_first_notification% ] to VIEW.
@@ -6866,7 +6867,7 @@ or the player may not be running TF2."
 "[english]TF_Armory_Item_Class_SlotToken"	"This item is a Slot Token. It's used in crafting recipes to specify which loadout slot's items should be crafted. For example: putting a Primary slot token into a recipe will ensure only items equipped in the Primary loadout slot will be produced by the craft."
 "TF_Armory_Item_Class_CraftItem"	"此物品是一項精製物品。它只能在精製配方內使用，在其中它可以與其他物品結合，以製作更珍貴的物品。"
 "[english]TF_Armory_Item_Class_CraftItem"	"This item is a Craft Item. It's only used inside crafting recipes, where it can be combined with other items to create more valuable items."
-"TF_Armory_Item_Class_Tool"	"此物品是一項工具。它可以對您背包中的其他物品發揮作用，過程中就會消耗殆盡。按一下背包中的「搭配使用...」按鈕就可以開始發揮作用。"
+"TF_Armory_Item_Class_Tool"	"此物品是一項工具。它可以對您背包中的其他物品發揮作用，過程中就會消耗殆盡。按一下背包中的「使用」或「搭配使用...」按鈕就可以開始發揮作用。"
 "[english]TF_Armory_Item_Class_Tool"	"This item is a Tool. It can used on its own or be applied to another item in your backpack, and is consumed in the process. Click the 'Use' or 'Use With...' button in the backpack to start the process of applying it."
 "TF_Armory_Item_StockItem"	"這項物品是基本物品。基本物品是每個職業預設的武器，也是無法被摧毀以及佔據任何背包空間的「特殊」物品。您依然能夠使用工具來自訂他們，如此會建立一份自訂化複製版的基本物品。"
 "[english]TF_Armory_Item_StockItem"	"This item is a Stock Item. Stock items are the default weapons for a player class, and are considered 'special' items in that they cannot be destroyed, and take up no space in your backpack. You can still customize them with tools, and doing so will create a customized clone of the Stock Item."
@@ -6901,7 +6902,7 @@ or the player may not be running TF2."
 
 At the end of the round, whoever has more duel points wins. Kills and assists against your opponent are worth 1 point.
 
-This item will be consumed if the server changes level or the score is tied 0-0 at the end of the round."
+This item will not be consumed if the server changes level or the score is tied 0-0 at the end of the round."
 "TF_Armory_Item_Supply_Crate"	"這個箱子內含其描述中所列的其中一件物品。若要將箱子解鎖並取得物品，您必須使用Mann Co. 補給箱金鑰 (可於 Mann Co. 商店購得)。這些箱子內含遊戲中的稀世珍寶，因此祝您好運，獲得開箱大獎！"
 "[english]TF_Armory_Item_Supply_Crate"	"This crate contains one of the items listed in its description. To unlock the crate and retrieve the item, you must use a Mann Co. Supply Crate Key, which can be purchased inside the Mann Co. Store. These crates contain one of the rarest and most valuable items in the game, so cross your fingers before you unlock them!"
 "TF_Armory_Item_Key"	"這把鑰匙可以用來開啟一只 Mann Co. 補給箱。開啟時，您將獲得補給箱物品清單中的其中一件物品。"
@@ -7067,7 +7068,7 @@ Original name: \"%s1\""
 "TF_Party_Favor"	"派對禮物"
 "[english]TF_Party_Favor"	"Party Favor"
 "TF_Armory_Item_Type_NoiseMaker"	"使用時會播放萬聖節主題音效。在遊戲中將此物品裝備於動作欄。每次使用會減少一個可用次數。"
-"[english]TF_Armory_Item_Type_NoiseMaker"	"Plays a Halloween themed sound when used. Equip this item in your action slot and use it during a game. A charge will be consumed when the item is used."
+"[english]TF_Armory_Item_Type_NoiseMaker"	"Plays a themed sound when used. Equip this item in your action slot and use it during a game. A charge will be consumed when the item is used."
 "TF_Bundle_HalloweenNoiseMaker"	"噪音製造器組合"
 "[english]TF_Bundle_HalloweenNoiseMaker"	"Noise Maker Bundle"
 "TF_Bundle_HalloweenNoiseMaker_Desc"	"包含所有的萬聖節噪音製造器。每一個噪音製造器有 25 次使用次數。"
@@ -7138,7 +7139,7 @@ Original name: \"%s1\""
 "[english]TF_HALLOWEEN_BOSS_KILL_MELEE_DESC"	"Collect the Horseless Headless Horsemann's Haunted Metal."
 "TF_HALLOWEEN_COLLECT_GOODY_BAG_NAME"	"蒙面者"
 "[english]TF_HALLOWEEN_COLLECT_GOODY_BAG_NAME"	"Masked Mann"
-"TF_HALLOWEEN_COLLECT_GOODY_BAG_DESC"	"收集 Mann Manor 地圖中鬧鬼的萬聖節金屬。"
+"TF_HALLOWEEN_COLLECT_GOODY_BAG_DESC"	"收集 Mann Manor 地圖中鬧鬼的萬聖節禮物。"
 "[english]TF_HALLOWEEN_COLLECT_GOODY_BAG_DESC"	"Collect the Haunted Halloween Gift in Mann Manor."
 "TF_HALLOWEEN_CRAFT_SAXTON_MASK_NAME"	"「袋」克斯頓．海爾"
 "[english]TF_HALLOWEEN_CRAFT_SAXTON_MASK_NAME"	"Sackston Hale"
@@ -7156,11 +7157,11 @@ Original name: \"%s1\""
 "[english]TF_HALLOWEEN_BOSS_WARN_AGGRO"	"You have angered the Horseless Headless Horsemann!"
 "TF_HALLOWEEN_BOSS_LOST_AGGRO"	"您已不再是目標了。"
 "[english]TF_HALLOWEEN_BOSS_LOST_AGGRO"	"You are no longer IT."
-"WrapGift"	"包裝禮品"
+"WrapGift"	"包裝禮物"
 "[english]WrapGift"	"WRAP GIFT"
-"UnwrapGift"	"拆開禮品"
+"UnwrapGift"	"拆開禮物"
 "[english]UnwrapGift"	"UNWRAP GIFT"
-"DeliverGift"	"遞送禮品"
+"DeliverGift"	"贈予禮物"
 "[english]DeliverGift"	"DELIVER GIFT"
 "NoAction"	"不做任何動作"
 "[english]NoAction"	"NO ACTION"
@@ -7178,9 +7179,9 @@ Original name: \"%s1\""
 "[english]ToolItemRenameNewItemDesc"	"New Item Desc:"
 "CraftDescribeOk"	"替它描述！"
 "[english]CraftDescribeOk"	"Describe It!"
-"ToolGiftUnwrapInProgress"	"拆開禮品中"
+"ToolGiftUnwrapInProgress"	"拆開禮物中"
 "[english]ToolGiftUnwrapInProgress"	"Unwrapping the Gift"
-"TF_UnwrapGift_Title"	"拆開一份禮品"
+"TF_UnwrapGift_Title"	"拆開一份禮物"
 "[english]TF_UnwrapGift_Title"	"Unwrap a Gift"
 "TF_UnwrapGift_Text"	"您確定要拆開禮品嗎？"
 "[english]TF_UnwrapGift_Text"	"Are you sure you want to unwrap this gift?"
@@ -7237,7 +7238,791 @@ those that dwell within the Eyelander."
 "
 "[english]TF_Halloween_Boss_Killers"	"%s1 has defeated the Horseless Headless Horsemann!
 "
+"TF_Wearable_Glasses"	"眼鏡"
+"[english]TF_Wearable_Glasses"	"Glasses"
+"TF_DeliverGiftResultDialog_Title"	"贈予禮物"
+"[english]TF_DeliverGiftResultDialog_Title"	"Gift Delivery"
+"TF_DeliverGiftResultDialog_Success"	"禮物已經遞送！"
+"[english]TF_DeliverGiftResultDialog_Success"	"The gift has been delivered!"
+"TF_DeliverGiftResultDialog_Fail"	"無法贈予禮物。"
+"[english]TF_DeliverGiftResultDialog_Fail"	"Unable to deliver the gift."
+"TF_DeliverGiftResultDialog_VAC"	"收件者沒有權限接收禮物。"
+"[english]TF_DeliverGiftResultDialog_VAC"	"The recipient does not have privileges to receive a gift."
+"TF_Duel_Refund_Kicked"	"%initiator% 和 %target% 的決鬥因其中一位玩家被踢除而結束。%initiator% 擁有的決鬥小遊戲不會被消耗掉。"
+"[english]TF_Duel_Refund_Kicked"	"The duel between %initiator% and %target% has ended, because a player has been kicked. A Dueling Mini-Game owned by %initiator% has not been consumed."
+"TF_ItemExpiration"	"此物品將於 %s1 過期。"
+"[english]TF_ItemExpiration"	"This item will expire on %s1."
+"TF_KF_Pyro_Mask"	"Foster 的面罩"
+"[english]TF_KF_Pyro_Mask"	"Foster's Facade"
+"TF_KF_Pyro_Tie"	"證券經紀人的領帶"
+"[english]TF_KF_Pyro_Tie"	"Stockbroker's Scarf"
+"TF_Horrific_Headsplitter_Desc"	"帶著這項頭飾時最好是保持開放的思想。"
+"[english]TF_Horrific_Headsplitter_Desc"	"When wearing such a piece of headgear it is best to keep an open mind."
+"TF_TTG_PokerVisor"	"攤販的遮陽帽"
+"[english]TF_TTG_PokerVisor"	"Dealer's Visor"
+"TF_TTG_PokerVisor_Desc"	"別想愚弄 Sasha。"
+"[english]TF_TTG_PokerVisor_Desc"	"Do not try to bluff Sasha."
+"TF_TTG_Glasses"	"超危險偵探的太陽眼鏡...嗎?"
+"[english]TF_TTG_Glasses"	"Dangeresque, Too?"
+"TF_TTG_Glasses_Desc"	"把你的籌碼全都偷塞進底錢吧。"
+"[english]TF_TTG_Glasses_Desc"	"Splash the pot with all you got."
+"TF_TTG_Badge"	"殘害許可證"
+"[english]TF_TTG_Badge"	"License to Maim"
+"TF_TTG_Badge_Desc"	"允許殺害、折斷、擊倒、啃咬。主要還是允許使人殘廢。"
+"[english]TF_TTG_Badge_Desc"	"And kill, and break, and smash, and bite. Mainly maim, though."
+"TF_Portal2_Pin"	"同伴方塊胸針"
+"[english]TF_Portal2_Pin"	"Companion Cube Pin"
+"CraftUpdate_Denied"	"您沒有足夠的權限來精製。"
+"[english]CraftUpdate_Denied"	"You do not have sufficient privileges to craft."
+"TF_WinterCrate"	"冬季聖誕補給箱"
+"[english]TF_WinterCrate"	"Festive Winter Crate"
+"TF_WinterCrate_Desc"	"此箱子有特別的歡樂氣氛。
+裡面不知道裝了什麼而且
+普通的金鑰無法打開它。
+
+您最好先保留它。
+之後應該會有辦法打開它。"
+"[english]TF_WinterCrate_Desc"	"This crate is unusually festive.
+Its contents are unknown and
+normal keys don't fit the lock.
+
+You'd better hold onto it.
+There'll probably be a way to open it later."
+"TF_Tool_PaintCan_TeamColor_Desc"	"用來為其他物品漆上您當前隊伍的顏色。"
+"[english]TF_Tool_PaintCan_TeamColor_Desc"	"Used to paint other items the color of your current team."
+"TF_Tool_PaintCan_TeamColor"	"團隊精神"
+"[english]TF_Tool_PaintCan_TeamColor"	"Team Spirit"
+"TF_Tool_PaintCan_15"	"閃死人的粉紅色"
+"[english]TF_Tool_PaintCan_15"	"Pink as Hell"
+"TF_Tool_PaintCan_16"	"石板似的顏色"
+"[english]TF_Tool_PaintCan_16"	"A Color Similar to Slate"
+"TF_Tool_PaintCan_17"	"單調乏味的橄欖綠"
+"[english]TF_Tool_PaintCan_17"	"Drably Olive"
+"TF_Tool_PaintCan_18"	"帶著敗北苦澀味的萊姆綠"
+"[english]TF_Tool_PaintCan_18"	"The Bitter Taste of Defeat and Lime"
+"TF_Tool_PaintCan_19"	"紳士西裝褲的卡其色"
+"[english]TF_Tool_PaintCan_19"	"The Color of a Gentlemann's Business Pants"
+"TF_Tool_PaintCan_20"	"不太客觀的深肉色"
+"[english]TF_Tool_PaintCan_20"	"Dark Salmon Injustice"
+"TF_Unique_Prepend_Proper"	"The"	[$ENGLISH]
+"[english]TF_Unique_Prepend_Proper"	"The"
+"TF_NonUnique_Prepend_Proper"	"A"	[$ENGLISH]
+"[english]TF_NonUnique_Prepend_Proper"	"A"
+"TF_TreasureHat_1"	"賞金帽"
+"[english]TF_TreasureHat_1"	"Bounty Hat"
+"TF_TreasureHat_2"	"金銀財寶之帽"
+"[english]TF_TreasureHat_2"	"Treasure Hat"
+"TF_TreasureHat_3"	"無可否認的財富之帽"
+"[english]TF_TreasureHat_3"	"Hat of Undeniable Wealth And Respect"
+"TF_TreasureHat_1_Desc"	"完成「偉大的 STEAM 尋寶行動」中的 5 項目標。"
+"[english]TF_TreasureHat_1_Desc"	"Earned by completing 5 objectives in 'The Great Steam Treasure Hunt'"
+"TF_TreasureHat_2_Desc"	"完成「偉大的 STEAM 尋寶行動」中的 15 項目標。"
+"[english]TF_TreasureHat_2_Desc"	"Earned by completing 15 objectives in 'The Great Steam Treasure Hunt'"
+"TF_TreasureHat_3_Desc"	"完成「偉大的 STEAM 尋寶行動」中的 28 項目標。注意那隻被當作掛鎖的八爪動物。"
+"[english]TF_TreasureHat_3_Desc"	"Earned by completing 28 objectives in 'The Great Steam Treasure Hunt.'  Beware the Cephalopod padlock."
+"StoreCheckout_ContactSupport"	"您的交易發生錯誤。請與支援部門聯絡以取得協助。"
+"[english]StoreCheckout_ContactSupport"	"There was an error with your transaction. Please contact support for assistance."
+"StoreCheckout_ContactSupport_Dialog_Title"	"警告"
+"[english]StoreCheckout_ContactSupport_Dialog_Title"	"Warning"
+"StoreCheckout_ContactSupport_Dialog_Btn"	"聯絡"
+"[english]StoreCheckout_ContactSupport_Dialog_Btn"	"Contact"
+"TF_Armory_Item_Winter_Crate"	"這箱子內含一件物品，但是不清楚是什麼。此箱子將於年底消失，所以您應該在這之前打開它！"
+"[english]TF_Armory_Item_Winter_Crate"	"This crate contains an item, but it isn't clear what. The crate will disappear at the end of the year, so you should open it before it's gone!"
+"TF_Weapon_Crossbow"	"十字弓"
+"[english]TF_Weapon_Crossbow"	"Crossbow"
+"TF_Weapon_StickBomb"	"柄狀手榴彈"
+"[english]TF_Weapon_StickBomb"	"Stick Bomb"
+"TF_Weapon_GardenRake"	"草耙"
+"[english]TF_Weapon_GardenRake"	"Garden Rake"
+"TF_MapToken"	"地圖郵票"
+"[english]TF_MapToken"	"Map Stamp"
+"TF_Bundle_ExcessiveBundle"	"超划算的討價還價 Manne 套裝組合包"
+"[english]TF_Bundle_ExcessiveBundle"	"A Bargaining Manne's Bundle of Bargains"
+"TF_Bundle_ExcessiveBundle_Desc"	"包括 Polycount 組合包和冬季更新組合包裡的所有物品："
+"[english]TF_Bundle_ExcessiveBundle_Desc"	"Includes all items from the Polycount Pack and the Winter Update Pack:"
+"TF_Bundle_WinterUpdate"	"冬季更新組合包"
+"[english]TF_Bundle_WinterUpdate"	"Winter Update Pack"
+"TF_Bundle_WinterUpdate_Desc"	"包括所有冬季更新的職業套裝組合："
+"[english]TF_Bundle_WinterUpdate_Desc"	"Includes all of the Winter Update class set items:"
+"TF_Bundle_MedievalMedic"	"中世紀醫護兵"
+"[english]TF_Bundle_MedievalMedic"	"The Medieval Medic"
+"TF_Bundle_MedievalMedic_Desc"	"包括這些 Medic 的中世紀物品："
+"[english]TF_Bundle_MedievalMedic_Desc"	"Includes these medieval themed Medic items:"
+"TF_Bundle_HibernatingBear"	"冬眠蟄伏之熊"
+"[english]TF_Bundle_HibernatingBear"	"The Hibernating Bear"
+"TF_Bundle_HibernatingBear_Desc"	"包括這些 Heavy 物品："
+"[english]TF_Bundle_HibernatingBear_Desc"	"Includes these Heavy items:"
+"TF_Bundle_ExpertsOrdnance"	"專家的火砲軍械"
+"[english]TF_Bundle_ExpertsOrdnance"	"The Expert's Ordnance"
+"TF_Bundle_ExpertsOrdnance_Desc"	"包括這些 Demoman 物品："
+"[english]TF_Bundle_ExpertsOrdnance_Desc"	"Includes these Demoman items:"
+"TF_Bundle_FancyHats"	"精美頭飾箱"
+"[english]TF_Bundle_FancyHats"	"Box of Fancy Hats"
+"TF_Bundle_FancyHats_Desc"	"包括各式各樣不可思議的精美頭飾："
+"[english]TF_Bundle_FancyHats_Desc"	"Contains a variety of incredibly fancy hats:"
+"TF_Bundle_MapTokens"	"地圖集郵組"
+"[english]TF_Bundle_MapTokens"	"Map Stamps Collection"
+"TF_Bundle_MapTokens_Desc"	"包括每一張由社群玩家製作地圖的郵票。"
+"[english]TF_Bundle_MapTokens_Desc"	"Includes one a stamp for each community made map."
+"TF_FlippedTrilby"	"翻轉的軟氈帽"
+"[english]TF_FlippedTrilby"	"Flipped Trilby"
+"TF_GermanGonzila"	"德國圓帽"
+"[english]TF_GermanGonzila"	"German Gonzila"
+"TF_BuckaroosHat"	"西班牙牛仔帽"
+"[english]TF_BuckaroosHat"	"Buckaroos Hat"
+"TF_MadameDixie"	"Dixie 夫人"
+"[english]TF_MadameDixie"	"Madame Dixie"
+"TF_DetectiveNoir"	"黑色偵探帽"
+"[english]TF_DetectiveNoir"	"Détective Noir"
+"TF_CoupeDisaster"	"災難一擊"
+"[english]TF_CoupeDisaster"	"Coupe D'isaster"
+"TF_PartyPhantom"	"派對魅影"
+"[english]TF_PartyPhantom"	"Le Party Phantom"
+"TF_ColoredLights"	"歡樂礦工帽"
+"[english]TF_ColoredLights"	"Industrial Festivizer"
+"TF_ExquisiteRack"	"精緻馴鹿角"
+"[english]TF_ExquisiteRack"	"Exquisite Rack"
+"TF_DefiantSpartan"	"這就是斯巴達！"
+"[english]TF_DefiantSpartan"	"Defiant Spartan"
+"TF_FestiveTree"	"相當歡樂的聖誕樹"
+"[english]TF_FestiveTree"	"A Rather Festive Tree"
+"TF_TavishCrown"	"Tavish 王子的皇冠"
+"[english]TF_TavishCrown"	"Prince Tavish's Crown"
+"TF_MagnificentMongolian"	"宏偉的蒙古人"
+"[english]TF_MagnificentMongolian"	"Magnificent Mongolian"
+"TF_LarrikinRobin"	"惡徒羅賓漢"
+"[english]TF_LarrikinRobin"	"Larrikin Robin"
+"TF_BlightedBeak"	"殘摧的鳥喙面具"
+"[english]TF_BlightedBeak"	"Blighted Beak"
+"TF_PyromancersMask"	"火術士面具"
+"[english]TF_PyromancersMask"	"Pyromancer's Mask"
+"TF_PrancersPride"	"Prancer 的驕傲"
+"[english]TF_PrancersPride"	"Prancer's Pride"
+"TF_BerlinersBucketHelm"	"柏林人的騎士頭盔"
+"[english]TF_BerlinersBucketHelm"	"Berliner's Bucket Helm"
+"TF_BerlinersBucketHelm_Desc"	" "
+"[english]TF_BerlinersBucketHelm_Desc"	""
+"TF_ScotchBonnet"	"蘇格蘭防爆頭盔"
+"[english]TF_ScotchBonnet"	"Scotch Bonnet"
+"TF_ScotchBOnnet_Desc"	"別讓那些傻蛋奪走了你的慧眼！"
+"[english]TF_ScotchBOnnet_Desc"	"Don't let those ninnies take yer good eye!"
+"TF_Contributed"	"感謝 %playername% 贊助這張地圖！"
+"[english]TF_Contributed"	"Thanks %playername% for supporting this map!"
+"TF_DuelLeaderboard_Title"	"本季頂尖決鬥優勝者"
+"[english]TF_DuelLeaderboard_Title"	"Top Duel Wins This Season"
+"TF_MapAuthors_Community_Title"	"此社群地圖製作者是"
+"[english]TF_MapAuthors_Community_Title"	"A Community Map Made By"
+"TF_MapDonators_Title"	"最近的熱門贊助者"
+"[english]TF_MapDonators_Title"	"Supporters (%s1 Worldwide!)"
+"TF_WorldTraveler"	"環球旅行者之帽"
+"[english]TF_WorldTraveler"	"World Traveler's Hat"
+"TF_WorldTraveler_Desc"	"給那些慷慨捐贈給社群地圖製作者的人。只有在您所贊助的地圖中會呈現出特殊效果！"
+"[english]TF_WorldTraveler_Desc"	"Given to generous souls who have donated to community map makers. The effect will only be visible while on a map that has been donated towards!"
+"TF_MapToken_Egypt"	"地圖郵票 - Egypt"
+"[english]TF_MapToken_Egypt"	"Map Stamp - Egypt"
+"TF_MapToken_Egypt_Desc"	"攻擊/防守控制點地圖
+
+由 Sean 'Heyo' Cutino 製作
+
+購買此物品以贊助 Egypt 社群地圖的製作者。馬上來表達您的支持吧！"
+"[english]TF_MapToken_Egypt_Desc"	"An Attack/Defend Control Point Map
+
+Made by Sean 'Heyo' Cutino
+
+Purchasing this item directly supports the creators of the Egypt community map.  Show your support today!"
+"TF_MapToken_Coldfront"	"地圖郵票 - Coldfront"
+"[english]TF_MapToken_Coldfront"	"Map Stamp - Coldfront"
+"TF_MapToken_Coldfront_Desc"	"控制點地圖
+
+由 Eric 'Icarus' Wong, David 'Selentic' Simon, Aeon 'Void' Bollig 和 Tim 'YM'Johnson 製作
+
+購買此物品以贊助 Coldfront 社群地圖的製作者。馬上來表達您的支持吧！"
+"[english]TF_MapToken_Coldfront_Desc"	"A Control Point Map
+
+Made by Eric 'Icarus' Wong, David 'Selentic' Simon, Aeon 'Void' Bollig, and Tim 'YM'Johnson
+
+Purchasing this item directly supports the creators of the Coldfront community map.  Show your support today!"
+"TF_MapToken_Fastlane"	"地圖郵票 - Fastlane"
+"[english]TF_MapToken_Fastlane"	"Map Stamp - Fastlane"
+"TF_MapToken_Fastlane_Desc"	"控制點地圖
+
+由 Arttu 'SK' Mäki 製作
+
+購買此物品以贊助 Fastlane 社群地圖的製作者。馬上來表達您的支持吧！"
+"[english]TF_MapToken_Fastlane_Desc"	"A Control Point Map
+
+Made by Arttu 'SK' Mäki
+
+Purchasing this item directly supports the creators of the Fastlane community map.  Show your support today!"
+"TF_MapToken_Turbine"	"地圖郵票 - Turbine"
+"[english]TF_MapToken_Turbine"	"Map Stamp - Turbine"
+"TF_MapToken_Turbine_Desc"	"取得旗幟地圖
+
+由 Flobster 製作
+
+購買此物品以贊助 Turbine 社群製作者。馬上來表達您的支持吧！"
+"[english]TF_MapToken_Turbine_Desc"	"A Capture the Flag Map
+
+Made by Flobster
+
+Purchasing this item directly supports the creators of the Turbine community map.  Show your support today!"
+"TF_MapToken_Steel"	"地圖郵票 - Steel"
+"[english]TF_MapToken_Steel"	"Map Stamp - Steel"
+"TF_MapToken_Steel_Desc"	"攻擊/防守控制點地圖
+
+由 Jamie 'Fishbus' Manson、Dan 'Irish Taxi Driver' Merboth 和 FLOOR_MASTER 製作
+
+購買此物品以贊助 Steel 社群地圖製作者。馬上來表達您的支持吧！"
+"[english]TF_MapToken_Steel_Desc"	"An Attack/Defence Control Point Map
+
+Made by Jamie 'Fishbus' Manson, Dan 'Irish Taxi Driver' Merboth and FLOOR_MASTER
+
+Purchasing this item directly supports the creators of the Steel community map.  Show your support today!"
+"TF_MapToken_Junction"	"地圖郵票 - Junction"
+"[english]TF_MapToken_Junction"	"Map Stamp - Junction"
+"TF_MapToken_Junction_Desc"	"攻擊/防守控制點地圖
+
+由 Sean 'Heyo' Cutino 製作
+
+購買此物品以贊助 Junction 社群地圖製作者。馬上來表達您的支持吧！"
+"[english]TF_MapToken_Junction_Desc"	"An Attack/Defend Control Point Map
+
+Made by Sean 'Heyo' Cutino
+
+Purchasing this item directly supports the creators of the Junction community map.  Show your support today!"
+"TF_MapToken_Watchtower"	"地圖郵票 - Watchtower"
+"[english]TF_MapToken_Watchtower"	"Map Stamp - Watchtower"
+"TF_MapToken_Watchtower_Desc"	"競技場地圖
+
+由 Joshua 'JoshuaC' Shiflet 製作
+
+購買此物品以贊助 Watchtower 社群地圖製作者。馬上來表達您的支持吧！"
+"[english]TF_MapToken_Watchtower_Desc"	"An Arena Map
+
+Made by Joshua 'JoshuaC' Shiflet
+
+Purchasing this item directly supports the creators of the Watchtower community map.  Show your support today!"
+"TF_MapToken_Hoodoo"	"地圖郵票 - Hoodoo"
+"[english]TF_MapToken_Hoodoo"	"Map Stamp - Hoodoo"
+"TF_MapToken_Hoodoo_Desc"	"推車護送地圖
+
+由 Tim 'YM' Johnson、 Jeroen 'Snipergen' Dessaux、Wade 'Nineaxis' Fabry 和 Drew 'Oxy' Fletcher 製作
+
+購買此物品以贊助 Hoodoo 社群地圖製作者。馬上來表達您的支持吧！"
+"[english]TF_MapToken_Hoodoo_Desc"	"A Payload Map
+
+Made by Tim 'YM' Johnson, Jeroen 'Snipergen' Dessaux, Wade 'Nineaxis' Fabry and Drew 'Oxy' Fletcher
+
+Purchasing this item directly supports the creators of the Hoodoo community map.  Show your support today!"
+"TF_MapToken_Offblast"	"地圖郵票 - Offblast"
+"[english]TF_MapToken_Offblast"	"Map Stamp - Offblast"
+"TF_MapToken_Offblast_Desc"	"競技場地圖
+
+由 Magnar 'insta' Jenssen 製作
+
+購買此物品以贊助 Offblast 社群地圖製作者。馬上來表達您的支持吧！"
+"[english]TF_MapToken_Offblast_Desc"	"An Arena Map
+
+Made by Magnar 'insta' Jenssen
+
+Purchasing this item directly supports the creators of the Offblast community map.  Show your support today!"
+"TF_MapToken_Yukon"	"地圖郵票 - Yukon"
+"[english]TF_MapToken_Yukon"	"Map Stamp - Yukon"
+"TF_MapToken_Yukon_Desc"	"控制點地圖
+
+由 Patrick 'MangyCarface' Mulholland 和 Joachim 'Acegikmo' Holmér 製作
+
+購買此物品以贊助 Yukon 社群地圖製作者。馬上來表達您的支持吧！"
+"[english]TF_MapToken_Yukon_Desc"	"A Control Point Map
+
+Made by Patrick 'MangyCarface' Mulholland and Joachim 'Acegikmo' Holmér
+
+Purchasing this item directly supports the creators of the Yukon community map.  Show your support today!"
+"TF_MapToken_Harvest"	"地圖郵票 - Harvest"
+"[english]TF_MapToken_Harvest"	"Map Stamp - Harvest"
+"TF_MapToken_Harvest_Desc"	"山丘之王地圖
+
+由 Sean 'Heyo' Cutino 製作
+
+購買此物品以贊助 Harvest 社群地圖製作者。馬上來表達您的支持吧！"
+"[english]TF_MapToken_Harvest_Desc"	"A King of the Hill Map
+
+Made by Sean 'Heyo' Cutino
+
+Purchasing this item directly supports the creators of the Harvest community map.  Show your support today!"
+"TF_MapToken_Freight"	"地圖郵票 - Freight"
+"[english]TF_MapToken_Freight"	"Map Stamp - Freight"
+"TF_MapToken_Freight_Desc"	"控制點地圖
+
+由 Jamie 'Fishbus' Manson 和 Robb Mitch 製作
+
+購買此物品以贊助 Freight 社群地圖製作者。馬上來表達您的支持吧！"
+"[english]TF_MapToken_Freight_Desc"	"A Control Point Map
+
+Made by Jamie 'Fishbus' Manson and Mitch 'ol' Robb
+
+Purchasing this item directly supports the creators of the Freight community map.  Show your support today!"
+"TF_MapToken_MountainLab"	"地圖郵票 - Mountain Lab"
+"[english]TF_MapToken_MountainLab"	"Map Stamp - Mountain Lab"
+"TF_MapToken_MountainLab_Desc"	"攻擊/防守控制點地圖
+
+由 Valentin '3DNJ' Levillain 製作
+
+購買此物品以贊助 Mountain Lab 社群地圖製作者。馬上來表達您的支持吧！"
+"[english]TF_MapToken_MountainLab_Desc"	"An Attack/Defence Control Point Map
+
+Made by Valentin '3DNJ' Levillain
+
+Purchasing this item directly supports the creators of the Mountain Lab community map.  Show your support today!"
+"TF_MapToken_ManorEvent"	"地圖郵票 - Mann Manor"
+"[english]TF_MapToken_ManorEvent"	"Map Stamp - Mann Manor"
+"TF_MapToken_ManorEvent_Desc"	"攻擊/防守控制點地圖
+
+由 Tim 'YM' Johnson 和 Alex 'Rexy' Kreeger 製作
+
+購買此物品以贊助 Mann Manor 社群地圖製作者。馬上來表達您的支持吧！"
+"[english]TF_MapToken_ManorEvent_Desc"	"An Attack/Defend Control Point Map
+
+Made by Tim 'YM' Johnson and Alex 'Rexy' Kreeger
+
+Purchasing this item directly supports the creators of the Mann Manor community map.  Show your support today!"
+"TF_MapDonationLevel_Bronze"	"銅牌："
+"[english]TF_MapDonationLevel_Bronze"	"Bronze:"
+"TF_MapDonationLevel_Silver"	"銀牌："
+"[english]TF_MapDonationLevel_Silver"	"Silver:"
+"TF_MapDonationLevel_Gold"	"金牌："
+"[english]TF_MapDonationLevel_Gold"	"Gold:"
+"TF_MapDonationLevel_Platinum"	"白金牌："
+"[english]TF_MapDonationLevel_Platinum"	"Platinum:"
+"TF_MapDonationLevel_Diamond"	"鑽石："
+"[english]TF_MapDonationLevel_Diamond"	"Diamond:"
+"TF_MapDonationLevel_Australium1"	"12克拉澳元素："
+"[english]TF_MapDonationLevel_Australium1"	"12-karat Australium:"
+"TF_MapDonationLevel_Australium2"	"18克拉澳元素："
+"[english]TF_MapDonationLevel_Australium2"	"18-karat Australium:"
+"TF_MapDonationLevel_Australium3"	"24克拉澳元素："
+"[english]TF_MapDonationLevel_Australium3"	"24-karat Australium:"
+"medieval_setup_goal_red"	"占領完成最後一個控制點以贏得勝利！"
+"[english]medieval_setup_goal_red"	"Capture and hold the final Control Point to win the game!"
+"medieval_setup_goal_blue"	"開啟大門並占領最後的控制點以贏得勝利！"
+"[english]medieval_setup_goal_blue"	"Open the gate and capture the final Control Point to win the game!"
+"medieval_cap_a"	"鎮區"
+"[english]medieval_cap_a"	"the Town"
+"medieval_cap_b"	"懸崖邊"
+"[english]medieval_cap_b"	"the Cliffside"
+"medieval_cap_c"	"紅隊城堡主樓"
+"[english]medieval_cap_c"	"Red's Keep"
+"TF_MedievalAttackDefend"	"中世紀 攻擊/防禦"
+"[english]TF_MedievalAttackDefend"	"Medieval Attack / Defend"
+"TF_Tool_WinterKey"	"冬季聖誕補給箱鑰匙"
+"[english]TF_Tool_WinterKey"	"Festive Winter Crate Key"
+"TF_Tool_WinterKey_Desc"	"用來開啟特別的冬季聖誕補給箱。
+在 12/31/2010 後會變回正常的鑰匙。"
+"[english]TF_Tool_WinterKey_Desc"	"Used to open unusually festive locked winter crates.
+After 12/31/2010 this will turn into a normal key."
+"TF_Tool_BackpackExpander"	"背包擴充器"
+"[english]TF_Tool_BackpackExpander"	"Backpack Expander"
+"TF_Tool_BackpackExpander_Desc"	"於您的背包中新增 100 個額外的空位！
+（最多1000 個空位）"
+"[english]TF_Tool_BackpackExpander_Desc"	"Add 100 extra slots to your backpack!
+(1000 spaces maximum)"
+"TF_Set_Medieval_Medic"	"中世紀醫護兵"
+"[english]TF_Set_Medieval_Medic"	"The Medieval Medic"
+"TF_Set_Hibernating_Bear"	"冬眠蟄伏之熊"
+"[english]TF_Set_Hibernating_Bear"	"The Hibernating Bear"
+"TF_Set_Experts_Ordnance"	"專家的火砲軍械"
+"[english]TF_Set_Experts_Ordnance"	"The Expert's Ordnance"
+"Attrib_GestureSpeed_Increase"	"穿戴者嘲諷速度 +%s1%"
+"[english]Attrib_GestureSpeed_Increase"	"+%s1% faster taunt speed on wearer"
+"Attrib_AimingMoveSpeed_Decreased"	"穿戴者處於部署狀態時變慢 %s1%"
+"[english]Attrib_AimingMoveSpeed_Decreased"	"%s1% slower move speed while deployed"
+"Attrib_MapDonation"	"%s1 - %s2"
+"[english]Attrib_MapDonation"	"%s1 - %s2"
+"Attrib_FiresHealingBolts"	"發射的特殊箭矢可依距離決定治療隊友的血量及對敵人造成的傷害"
+"[english]Attrib_FiresHealingBolts"	"Fires special bolts that heal teammates and deal damage based on distance traveled"
+"Attrib_EnablesAOEHeal"	"嘲諷效果：治療鄰近的所有隊友"
+"[english]Attrib_EnablesAOEHeal"	"On Taunt: Applies a healing effect to all nearby teammates"
+"Attrib_ChargeTime_Increase"	"增加 %s1 秒衝刺時間"
+"[english]Attrib_ChargeTime_Increase"	"%s1 sec increase in charge duration"
+"Attrib_DropHealthPackOnKill"	"殺敵效果：殺敵後會掉落小型補血包"
+"[english]Attrib_DropHealthPackOnKill"	"On Kill: A small health pack is dropped"
+"Attrib_HitSelfOnMiss"	"揮空效果：打到你自己啦。蠢蛋。"
+"[english]Attrib_HitSelfOnMiss"	"On Miss: Hit yourself. Idiot."
+"Attrib_DmgFromRanged_Reduced"	"使用時 %s1% 遠距離武器傷害"
+"[english]Attrib_DmgFromRanged_Reduced"	"%s1% damage from ranged sources while active"
+"Attrib_DmgFromMelee_Increased"	"使用時 +%s1% 近距離武器傷害"
+"[english]Attrib_DmgFromMelee_Increased"	"+%s1% damage from melee sources while active"
+"Attrib_BlastDamageToSelf_Increased"	"+%s1% 自身傷害"
+"[english]Attrib_BlastDamageToSelf_Increased"	"+%s1% damage to self"
+"Attrib_Particle20"	"地圖郵票"
+"[english]Attrib_Particle20"	"Map Stamps"
+"TF_UllapoolCaber_Desc"	"內含蘇格蘭高效卸妝液。
+沒喝醉的人會選擇丟掉它..."
+"[english]TF_UllapoolCaber_Desc"	"High-yield Scottish face removal.
+A sober person would throw it..."
+"TF_BuffaloSteak_Desc"	"發生作用時，移動速度會增加，
+造成的傷害和承受的傷害都會有小爆擊，
+而且玩家只能使用近戰武器。
+
+有了它，誰還要麵包呢？"
+"[english]TF_BuffaloSteak_Desc"	"While under the effects, move speed is increased,
+damage done and taken will be mini-crits,
+and the player may only use melee weapons.
+
+Who needs bread?"
+"TF_Unique_MediGun_QuickFix_Desc"	"無法超量治療。
+可獲得與治療目標相同的速度。"
+"[english]TF_Unique_MediGun_QuickFix_Desc"	"Can't overheal.
+Move at the speed of any faster heal target."
+"TF_SacredMedicine_Desc"	"發生作用時，造成的傷害
+和承受的傷害都會有小爆擊。
+您的移動速度也會加快。"
+"[english]TF_SacredMedicine_Desc"	"While under the effects, damage done
+and damage taken will be mini-crits.
+You will also move much faster."
+"Store_Maps"	"贊助地圖製作者！"
+"[english]Store_Maps"	"Support Map Makers!"
+"Store_Price_New"	"新玩意！"
+"[english]Store_Price_New"	"NEW!"
+"Store_Price_Sale"	"特價中！"
+"[english]Store_Price_Sale"	"SALE!"
+"Store_MapsDesc"	"當您購買一張地圖郵票時， 所有收入（扣除任何適用稅率）將直接給該地圖的製作者。
+
+除此之外， 您還能免費獲得漂亮的環球旅行者之帽！ 它不僅會記下您的貢獻，還會在您捐獻的地圖上呈現出特殊粒子效果。"
+"[english]Store_MapsDesc"	"When you purchase a map stamp, all the proceeds (net of any applicable tax) will go directly to the creators of the map.
+
+In addition, you'll also receive this nifty World Traveler's Hat for free! Not only does it track your contributions, but also a special particle effect will be visible when you play on a map you've contributed towards."
+"Store_IntroTitle_Winter1"	"澳洲聖誕節快樂！"
+"[english]Store_IntroTitle_Winter1"	"Happy Australian Christmas!"
+"Store_IntroText_Winter1"	"聖誕節？光明節？非洲豐收節？客觀主義奉行者？不管您今年是在哪裡慶祝，我們會在這裡，每一天，二十四小時不打烊！ 沒錯！我們準備好拿走您的錢了。本週末 Mann Co. 商店有超優惠的折扣，包括 Polycount 組合包物品、武器、帽子還有更多。在會計師發現我們在辦這活動時趕快買下來！
+
+快點，因為優惠將要截止了！"
+"[english]Store_IntroText_Winter1"	"Christmas? Hanukkah? Kwanzaa? Non-Occasional Get-Together at Ayn Rand’s House? Whatever you’re celebrating this year, we’ll be here, open twenty-four hours a day, every day! That’s right! We are ready to take your money.  This weekend the Mann Co. Store is having deep discounts on our Polycount Pack items, weapons, hats and more.  Buy them now, before the accountants realize what we're doing!
+
+Hurry, because this offer ends soon!"
+"Store_IntroText_Winter2"	"Mann Co. 商店又有另一項特賣了！在這個紀念的節日，在這有限的時間，多到爆的帽子將瘋狂大特價！為何又要再一次等到平時的價格？
+
+我們正在整理整個 Team Fortress 的庫存，從 H 到 Ha！最後，為您自己買頂您一直很想要卻付不起的帽子（即使它原本是合理的價格）。"
+"[english]Store_IntroText_Winter2"	"The Mann Co. Store is having another sale! In honor of the holiday season, for a limited time, the prices on a staggering number of hats are UNREASONABLY LOW!  Why wait until prices are reasonable again?
+
+We’re cleaning out the entire Team Fortress inventory, from H to Ha! Finally, give yourself the hat you always wanted but could never afford (even though it was sensibly priced)."
+"Store_IntroTitle_Winter3"	"最終寒冬特價！"
+"[english]Store_IntroTitle_Winter3"	"Final Cold Weather Sale!"
+"Store_IntroText_Winter3"	"可能的話，這會是十年來最後一次大特價了，也就是說我們正以我們原本不希望的「荒唐價格」銷售東西！沒錯！ – 歐盟在 2001 年簽署的貿易協議即將失效，而 2011 年的貿易協議則還未正式生效。
+
+在布魯塞爾那些肥貓們搜刮它們之前，趕快搶購這些道具吧！"
+"[english]Store_IntroText_Winter3"	"It’s the final sale of the decade, possibly, and that means we’re selling all the stuff we were prevented from selling… at LUDICROUS PRICES! That’s right – the European Union Paint Sale Treaty of 2001 has finally expired, and the European Union Paint Sale Treaty of 2011 has yet to be ratified.
+
+Grab these items now, before the fat cats in Brussels get wind of it!"
+"Notification_System_Message"	"系統訊息： %message%"
+"[english]Notification_System_Message"	"System Message: %message%"
+"TF_UseBackpackExpander_Title"	"擴充背包？"
+"[english]TF_UseBackpackExpander_Title"	"Expand Backpack?"
+"TF_UseBackpackExpander_Text"	"您確定要擴充您的背包至 %new_size% 個空位嗎？（在%item_name% 從您的庫存移除之前它還有 %uses_left% 次使用次數）"
+"[english]TF_UseBackpackExpander_Text"	"Are you sure you want to expand your backpack to %new_size% slots? (%item_name% has %uses_left% use(s) before it will be removed from your inventory)"
+"TF_UseBackpackExpanderFail_Title"	"無法擴充！"
+"[english]TF_UseBackpackExpanderFail_Title"	"Cannot Expand!"
+"TF_UseBackpackExpanderFail_Text"	"您的背包已經擴充至最大容量了。"
+"[english]TF_UseBackpackExpanderFail_Text"	"Your backpack has already been expanded to maximum capacity."
+"ArmoryFilter_Donationitems"	"地圖郵票物品"
+"[english]ArmoryFilter_Donationitems"	"Map Stamp Items"
+"TF_Armory_Item_Class_BackpackExpander"	"這物品是背包擴充器。當使用它時，它會擴充您背包的尺寸然後被消耗掉。 點擊「使用」按鈕來開始為背包擴充。"
+"[english]TF_Armory_Item_Class_BackpackExpander"	"This item is a Backpack Expander. When used, it will expand the size of your backpack and be consumed in the process. Click the 'Use' button in the backpack to start the process of applying it."
+"TF_Armory_Item_BackpackExpander"	"當使用此物品時，它會於您的背包中新增 100 個額外的空位。注意，最多可以增加至 1000 個空位。"
+"[english]TF_Armory_Item_BackpackExpander"	"When this item is used, it will add 100 extra slots to your backpack.  Note that there is a maximum of 1000 slots."
 "IT_NoModel"	"<none selected>"
 "[english]IT_NoModel"	"<none selected>"
+"SystemMessage_WinterCrateWarning_2Hour"	"冬季聖誕補給箱將要消失了！您只剩下不到兩小時來開啟您的！"
+"[english]SystemMessage_WinterCrateWarning_2Hour"	"Festive Winter Crates will disappear soon! You have less than two hours to open yours!"
+"SystemMessage_WinterCrateWarning_30Minute"	"冬季聖誕補給箱將要消失了！再過30分鐘它們就會永遠不見了！"
+"[english]SystemMessage_WinterCrateWarning_30Minute"	"Festive Winter Crates will disappear soon! Only thirty minutes until they are gone forever!"
+"TF_Duel_Refund_ForceTeamSwap"	"%initiator% 和 %target% 之間的決鬥已經結束，因為其中一位玩家被換至另一個隊伍。%initiator% 擁有的決鬥小遊戲不會被消耗掉。"
+"[english]TF_Duel_Refund_ForceTeamSwap"	"The duel between %initiator% and %target% has ended, because a player has been switched to another team. A Dueling Mini-Game owned by %initiator% has not been consumed."
+"TF_Duel_CannotUse"	"此時還不能發出挑戰狀。"
+"[english]TF_Duel_CannotUse"	"Cannot initiate a duel at this time."
+"TF_Bundle_NastyWeapons"	"危險的武器組"
+"[english]TF_Bundle_NastyWeapons"	"Pile of Nasty Weapons"
+"TF_Bundle_NastyWeapons_Desc"	"包括各式各樣特別的危險武器："
+"[english]TF_Bundle_NastyWeapons_Desc"	"An assortment of particularly nasty weapons:"
+"TF_BigChief"	"大酋長"
+"[english]TF_BigChief"	"The Big Chief"
+"TF_BigChief_Desc"	" "
+"[english]TF_BigChief_Desc"	""
+"TF_Tool_ChristmasKey2010"	"聖誕襪禮物鑰匙"
+"[english]TF_Tool_ChristmasKey2010"	"Stocking Stuffer Key"
+"TF_Tool_ChristmasKey2010_Desc"	"有人把這把鑰匙放進您最優的戰鬥襪裡。
+看起來可以打開聖誕箱或任何普通補給箱。"
+"[english]TF_Tool_ChristmasKey2010_Desc"	"Someone left this key in your best pair of fightin' socks.
+It looks like it will open any festive or normal crate."
+"TF_Unique_Logo_Shield"	"紋章式盾牌"
+"[english]TF_Unique_Logo_Shield"	"The Heraldic Targe"
+"TF_Unique_MediGun_QuickFix"	"快治好"
+"[english]TF_Unique_MediGun_QuickFix"	"The Quick-Fix"
+"TF_Unique_BleedingSocketItem"	"失血屬性"
+"[english]TF_Unique_BleedingSocketItem"	"Leakium"
+"TF_Unique_BulletResistItem"	"防彈屬性"
+"[english]TF_Unique_BulletResistItem"	"Bulletproofium"
+"TF_Unique_FireResistItem"	"防火屬性"
+"[english]TF_Unique_FireResistItem"	"Fireproofium"
+"TF_Unique_BlastResistItem"	"防爆屬性"
+"[english]TF_Unique_BlastResistItem"	"Blastproofium"
+"TF_Unique_HealthRegenItem"	"急救屬性"
+"[english]TF_Unique_HealthRegenItem"	"Firstaidium"
+"TF_Unique_SpeedBoostItem"	"衝刺屬性"
+"[english]TF_Unique_SpeedBoostItem"	"Sprintium"
+"TF_Unique_MetalRegenItem"	"收割屬性"
+"[english]TF_Unique_MetalRegenItem"	"Harvestine"
+"TF_Unique_CloakRegenItem"	"隱匿屬性"
+"[english]TF_Unique_CloakRegenItem"	"Invisine"
+"TF_Unique_CloakConsumeItem"	"長效隱匿屬性"
+"[english]TF_Unique_CloakConsumeItem"	"Longvisine"
+"TF_Unique_RepairRateItem"	"扳手屬性"
+"[english]TF_Unique_RepairRateItem"	"Wrenchine"
+"TF_Unique_ConstructionRateItem"	"建造屬性"
+"[english]TF_Unique_ConstructionRateItem"	"Constructine"
+"TF_Iron_Curtain"	"鐵幕"
+"[english]TF_Iron_Curtain"	"The Iron Curtain"
+"TF_TTG_Watch"	"熱衷粉絲的手錶"
+"[english]TF_TTG_Watch"	"The Enthusiast's Timepiece"
+"TF_Amputator"	"截肢鋸"
+"[english]TF_Amputator"	"The Amputator"
+"TF_CrusadersCrossbow"	"聖十字弩弓"
+"[english]TF_CrusadersCrossbow"	"The Crusader's Crossbow"
+"TF_UllapoolCaber"	"阿勒浦木製手榴彈"
+"[english]TF_UllapoolCaber"	"The Ullapool Caber"
+"TF_BuffaloSteak"	"水牛排三明治"
+"[english]TF_BuffaloSteak"	"The Buffalo Steak Sandvich"
+"TF_GatlingGun"	"黃銅野獸"
+"[english]TF_GatlingGun"	"The Brass Beast"
+"TF_WarriorsSpirit"	"戰士之魂"
+"[english]TF_WarriorsSpirit"	"The Warrior's Spirit"
+"TF_CandyCane"	"拐杖糖"
+"[english]TF_CandyCane"	"The Candy Cane"
+"TF_Jag"	"鉤爪扳手"
+"[english]TF_Jag"	"The Jag"
+"TF_Claidheamohmor"	"蓋爾巨劍"
+"[english]TF_Claidheamohmor"	"The Claidheamh Mòr"
+"TF_BackScratcher"	"不求人"
+"[english]TF_BackScratcher"	"The Back Scratcher"
+"TF_BostonBasher"	"波士頓狼牙棒"
+"[english]TF_BostonBasher"	"The Boston Basher"
+"TF_FistsOfSteel"	"鐵拳"
+"[english]TF_FistsOfSteel"	"The Fists of Steel"
+"TF_Weapon_RiftFireAxe"	"RIFT 火斧"
+"[english]TF_Weapon_RiftFireAxe"	"RIFT Fire Axe"
+"TF_Weapon_RiftFireMace"	"RIFT 火錘"
+"[english]TF_Weapon_RiftFireMace"	"RIFT Fire Mace"
+"TF_Wearable_Apparel"	"服裝"
+"[english]TF_Wearable_Apparel"	"Apparel"
+"TF_Homefront_Blindfold"	"英雄頭巾"
+"[english]TF_Homefront_Blindfold"	"Hero's Hachimaki"
+"TF_Homefront_Blindfold_Desc"	""
+"[english]TF_Homefront_Blindfold_Desc"	""
+"TF_MNC_Hat"	"贊助商運動鴨舌帽"
+"[english]TF_MNC_Hat"	"The Athletic Supporter"
+"TF_MNC_Hat_Desc"	"[在此輸入最喜歡的隊伍]"
+"[english]TF_MNC_Hat_Desc"	"[Insert Favorite Regional Team Here]"
+"TF_MNC_Mascot_Hat"	"超級粉絲鴨舌帽"
+"[english]TF_MNC_Mascot_Hat"	"The Superfan"
+"TF_MNC_Mascot_Hat_Desc"	""
+"[english]TF_MNC_Mascot_Hat_Desc"	""
+"TF_MNC_Mascot_Outfit"	"基礎配備"
+"[english]TF_MNC_Mascot_Outfit"	"The Essential Accessories"
+"TF_MNC_Mascot_Outfit_Desc"	""
+"[english]TF_MNC_Mascot_Outfit_Desc"	""
+"TF_MapToken_Nightfall"	"地圖郵票 - Nightfall"
+"[english]TF_MapToken_Nightfall"	"Map Stamp - Nightfall"
+"TF_MapToken_Nightfall_Desc"	"推車護送比賽地圖
+
+由 Aaron 'Psy' Garcha 和 Paul Good 製作
+
+購買此物品以贊助 Nightfall 社群地圖製作者。馬上來表達您的支持吧！"
+"[english]TF_MapToken_Nightfall_Desc"	"A Payload Race map
+
+Made by Aaron 'Psy' Garcha and Paul Good
+
+Purchasing this item directly supports the creators of the Nightfall community map.  Show your support today!"
+"TF_MapToken_Frontier"	"地圖郵票 - Frontier"
+"[english]TF_MapToken_Frontier"	"Map Stamp - Frontier"
+"TF_MapToken_Frontier_Desc"	"推車護送地圖
+
+由 Patrick 'MangyCarface' Mulholland 和 Arhurt 製作
+
+購買此物品以贊助 Frontier 社群地圖製作者。馬上來表達您的支持吧！"
+"[english]TF_MapToken_Frontier_Desc"	"A Payload map
+
+Made by Patrick 'MangyCarface' Mulholland and Arhurt
+
+Purchasing this item directly supports the creators of the Frontier community map.  Show your support today!"
+"TF_MapToken_Lakeside"	"地圖郵票 - Lakeside"
+"[english]TF_MapToken_Lakeside"	"Map Stamp - Lakeside"
+"TF_MapToken_Lakeside_Desc"	"山丘之王地圖
+
+由 Valentin '3DNJ' Levillain 製作
+
+購買此物品以贊助 Lakeside 社群地圖製作者。馬上來表達您的支持吧！"
+"[english]TF_MapToken_Lakeside_Desc"	"A King of the Hill map
+
+Made by Valentin '3DNJ' Levillain
+
+Purchasing this item directly supports the creators of the Lakeside community map.  Show your support today!"
+"TF_GENERAL_KILL_ENEMIES_AFTER_TELEPORTING_DESC"	"使用 Engineer 的傳送裝置後的 5 秒內殺掉一名敵人。"
+"[english]TF_GENERAL_KILL_ENEMIES_AFTER_TELEPORTING_DESC"	"Kill an enemy within 5 seconds of you traveling through an Engineer's teleporter."
+"TF_Tool_ClaimCode_Desc"	"此物品將會給予您一組索取代碼。"
+"[english]TF_Tool_ClaimCode_Desc"	"This item will grant you one claim code."
+"TF_RIFT_SpiderHat_ClaimCode"	"RIFT Well Spun Hat 索取密碼"
+"[english]TF_RIFT_SpiderHat_ClaimCode"	"RIFT Well Spun Hat Claim Code"
+"TF_RIFT_SpiderHat_ClaimCode_Desc"	"此物品將會給予您一組索取密碼兌換 Rift 裡的一頂帽子。 從您的背包使用它來索取密碼。"
+"[english]TF_RIFT_SpiderHat_ClaimCode_Desc"	"This item will grant you a code to receive a hat in Rift. Use it from your backpack to claim the code."
+"Attrib_SetDamageType_Ignite"	"命中時：使目標著火"
+"[english]Attrib_SetDamageType_Ignite"	"On Hit: target is engulfed in flames"
+"Attrib_Minicrit_Vs_Burning_Player"	"對著火玩家造成小爆擊"
+"[english]Attrib_Minicrit_Vs_Burning_Player"	"100% minicrits vs burning players"
+"TF_Unique_RiftFireAxe"	"熔岩巨斧"
+"[english]TF_Unique_RiftFireAxe"	"Sharpened Volcano Fragment"
+"TF_Unique_RiftFireMace"	"炎日法杖"
+"[english]TF_Unique_RiftFireMace"	"The Sun-on-a-Stick"
+"TF_RiftFireAxe_Desc"	"改善對於大自然火山
+原始設計的輕便性。
+現代科學無法確切解釋
+岩漿從何而來。"
+"[english]TF_RiftFireAxe_Desc"	"Improves upon Mother Nature's original
+design for volcanos by increasing portability.
+Modern science is unable to explain exactly
+where the lava is coming from."
+"TF_RiftFireMace_Desc"	"尖銳的末端刺入敵人血肉之中。"
+"[english]TF_RiftFireMace_Desc"	"Spiky end goes into other man."
+"rarity1"	"正統"
+"[english]rarity1"	"Genuine"
+"MMenu_ShowPromoCodes"	"檢視促銷代碼"
+"[english]MMenu_ShowPromoCodes"	"View Promotional Codes"
+"TF_UseClaimCode_Title"	"索取代碼？"
+"[english]TF_UseClaimCode_Title"	"Claim Code?"
+"TF_UseClaimCode_Text"	"您確定要索取次密碼： %claim_type%？ 索取密碼將會永久附加至您的帳號。"
+"[english]TF_UseClaimCode_Text"	"Are you sure you want to claim this code: %claim_type%? The claim code will be permanently attached to your account."
+"TF_TradeWindow_PartnerIsTyping"	"%s1 正在輸入訊息。"
+"[english]TF_TradeWindow_PartnerIsTyping"	"%s1 is typing a message."
+"GameUI_CrosshairNone"	"預設"
+"[english]GameUI_CrosshairNone"	"Default"
+"Attrib_Particle16"	"生動的等離子"
+"[english]Attrib_Particle16"	"Vivid Plasma"
+"TF_Weapon_SoldierSashimono"	"指物"
+"[english]TF_Weapon_SoldierSashimono"	"Sashimono"
+"TF_Weapon_Gunbai"	"軍配"
+"[english]TF_Weapon_Gunbai"	"Gunbai"
+"TF_Weapon_Kunai"	"苦無"
+"[english]TF_Weapon_Kunai"	"Kunai"
+"TF_Weapon_SoldierKatana"	"武士刀"
+"[english]TF_Weapon_SoldierKatana"	"Katana"
+"TF_Tool_Gift_Desc"	"此物品是一項包裝好的禮物。如果您包裝好它可以贈送給他人，如果您收到它則可以拆開來！"
+"[english]TF_Tool_Gift_Desc"	"This item is a wrapped gift. You can give to someone if you wrapped it, or unwrap it if you received it!"
+"TF_NoiseMaker_Shogun"	"噪音製造器 - 古箏"
+"[english]TF_NoiseMaker_Shogun"	"Noise Maker - Koto"
+"TF_Bundle_ShogunPromoComplete"	"天皇的什錦"
+"[english]TF_Bundle_ShogunPromoComplete"	"The Emperor's Assortment"
+"TF_Bundle_ShogunPromoComplete_Desc"	"得到全部八樣物品。
+這俳句沒有騙人。
+得到· 全部· 八樣· 物品："
+"[english]TF_Bundle_ShogunPromoComplete_Desc"	"Get all eight items.
+This haiku is not lying.
+Get. All. Eight. Items:"
+"TF_SoldierSashimono"	"家徽旗"
+"[english]TF_SoldierSashimono"	"Concheror"
+"TF_SoldierSashimono_Desc"	"爆氣時，附近隊友
+對敵人造成的一些
+傷害可以轉為治療"
+"[english]TF_SoldierSashimono_Desc"	"With buff, some damage
+Dished out by nearby teammates
+Comes back as healing"
+"TF_Gunbai"	"鐵軍扇"
+"[english]TF_Gunbai"	"Fan O'War"
+"TF_Gunbai_Desc"	"碎石坑的陣陣狂風
+Scout 拿出鐵軍扇！
+您已被死亡標記了"
+"[english]TF_Gunbai_Desc"	"Winds of Gravel Pit
+Scout brings on his fan!
+You are marked for death"
+"TF_Kunai"	"陰謀苦無"
+"[english]TF_Kunai"	"Conniver's Kunai"
+"TF_Kunai_Desc"	"以低生命值開始
+用這把利刃殺人
+竊光他們的血量"
+"[english]TF_Kunai_Desc"	"Start off with low health
+Kill somebody with this knife
+Steal all of their health"
+"TF_SpyOniMask"	"般若能面"
+"[english]TF_SpyOniMask"	"Noh Mercy"
+"TF_SpyOniMask_Desc"	"一直抽菸的法國人
+潛行於影中來襲擊 
+戴著恐怖的面具"
+"[english]TF_SpyOniMask_Desc"	"Chain-smoking Frenchman
+Skulks in shadows, then attacks 
+Terrifying mask"
+"TF_MedicGeishaHair"	"藝妓男孩"
+"[english]TF_MedicGeishaHair"	"Geisha Boy"
+"TF_MedicGeishaHair_Desc"	"青蛙跳進池塘裡
+蓮花花開水池裡
+Medic 的藝妓頭也在這裡"
+"[english]TF_MedicGeishaHair_Desc"	"Frog leaps into pond
+Lotus blossoms fall to earth
+Medic has girl's hair"
+"TF_HeavyTopknot"	"無畏丁髷"
+"[english]TF_HeavyTopknot"	"Dread Knot"
+"TF_HeavyTopknot_Desc"	"頂著可怕頭髮的胖子
+一步一步的接近之下
+哭泣的嬰兒更退縮了"
+"[english]TF_HeavyTopknot_Desc"	"Crybabies cower
+At the approach of fat man
+With terrible hair"
+"TF_SoldierKatana"	"半盲劍俠"
+"[english]TF_SoldierKatana"	"Half-Zatoichi"
+"TF_SoldierKatana_Desc"	"Soldiers 和 Demos
+各拿一把刀對決
+施展出致命一擊"
+"[english]TF_SoldierKatana_Desc"	"Soldiers and Demos
+Can duel with katanas
+For a one-hit kill"
+"TF_DemoKabuto"	"武士之眼"
+"[english]TF_DemoKabuto"	"Samur-Eye"
+"TF_DemoKabuto_Desc"	"獨眼的蘇格蘭醉漢
+戴上他的戰鬥頭盔
+天黑了，錯過了戰爭"
+"[english]TF_DemoKabuto_Desc"	"One-eyed Scottish drunk
+Dons his helmet for battle
+Blacks out, misses war"
+"Gametype_AttackDefense"	"攻擊 ／ 防守"
+"[english]Gametype_AttackDefense"	"Attack / Defense"
+"ShowDuplicateItemsCheckbox"	"顯示重複物品"
+"[english]ShowDuplicateItemsCheckbox"	"Show Duplicate Items"
+"Replay_YouTubeUpload"	"YOUTUBE 它"
+"[english]Replay_YouTubeUpload"	"YOUTUBE IT"
+"Replay_Stat_Label_0"	""
+"[english]Replay_Stat_Label_0"	""
+"YouTube_Uploading"	"上傳影片至 YouTube™"
+"[english]YouTube_Uploading"	"Uploading Movie to YouTube™"
+"YouTube_UploadFinishing1"	"上傳完成"
+"[english]YouTube_UploadFinishing1"	"Finishing Upload"
+"YouTube_LoginDlg_Title"	"登入至 YouTube™"
+"[english]YouTube_LoginDlg_Title"	"Log into YouTube™"
+"YouTube_LoginDlg_UserName"	"帳戶名稱"
+"[english]YouTube_LoginDlg_UserName"	"Username"
+"YouTube_LoginDlg_Password"	"密碼"
+"[english]YouTube_LoginDlg_Password"	"Password"
+"YouTube_LoginDlg_Register"	"註冊"
+"[english]YouTube_LoginDlg_Register"	"Register"
+"YouTube_LoginDlg_Login"	"登入"
+"[english]YouTube_LoginDlg_Login"	"Login"
+"TF_VoteKickReason"	"踢除原因："
+"[english]TF_VoteKickReason"	"Kick Reason:"
+"TF_VoteKickReason_Other"	"沒有原因"
+"[english]TF_VoteKickReason_Other"	"No Reason Given"
+"TF_VoteKickReason_Cheating"	"玩家作弊"
+"[english]TF_VoteKickReason_Cheating"	"Player is Cheating"
+"TF_VoteKickReason_Idle"	"玩家閒置"
+"[english]TF_VoteKickReason_Idle"	"Player is Idle"
+"TF_VoteKickReason_Scamming"	"玩家詐騙"
+"[english]TF_VoteKickReason_Scamming"	"Player is Scamming"
+"IT_Bot_BlueTeam"	"藍隊"
+"[english]IT_Bot_BlueTeam"	"BLU Team"
 }
 }

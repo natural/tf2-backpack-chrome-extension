@@ -18,3 +18,4 @@
 ../src/rawtext/tf_swedish.txt ../src/media/items_sv.json ../src/_locales/sv/messages.json
 ../src/rawtext/tf_tchinese.txt ../src/media/items_zh_TW.json ../src/_locales/zh_TW/messages.json
 ../src/rawtext/tf_hungarian.txt ../src/media/items_hu.json ../src/_locales/hu/messages.json
+../src/rawtext/tf_hungarian.txt ../src/media/items_tr.json ../src/_locales/tr/messages.json

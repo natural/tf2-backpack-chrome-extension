@@ -1,0 +1,3021 @@
+{
+    "0": {
+        "type": "SOPA", 
+        "description": "SOPA"
+    }, 
+    "346": {
+        "alt": [
+            "\u00a0"
+        ], 
+        "type": "Hat", 
+        "description": "FANAT\u0130K TARAFTAR"
+    }, 
+    "347": {
+        "alt": [
+            "\u00a0"
+        ], 
+        "type": "K\u0131yafet", 
+        "description": "GEREKL\u0130 AKSESUARLAR"
+    }, 
+    "340": {
+        "type": "Hat", 
+        "description": "AS\u0130 SPARTALI"
+    }, 
+    "341": {
+        "type": "Hat", 
+        "description": "OLDUK\u00c7A KEY\u0130FL\u0130 B\u0130R A\u011eA\u00c7"
+    }, 
+    "342": {
+        "type": "Hat", 
+        "description": "PRENS TAVISH'\u0130N TACI"
+    }, 
+    "348": {
+        "positive": [
+            "\u0130sabet H\u00e2linde: hedef alevler i\u00e7inde kal\u0131r"
+        ], 
+        "alt": [
+            "Do\u011fa Ana'n\u0131n orijinal volkan tasar\u0131m\u0131n\u0131\r\nta\u015f\u0131nabilir hale getirerek daha da geli\u015ftiriyor.\r\nModern teknoloji lavlar\u0131n nereden geldi\u011fini\r\na\u00e7\u0131klamakta yetersiz kal\u0131yor."
+        ], 
+        "type": "RIFT YANGIN BALTASI", 
+        "negative": [
+            "-20% hasar verir"
+        ], 
+        "description": "S\u0130VRELT\u0130LM\u0130\u015e VOLKAN PAR\u00c7ASI"
+    }, 
+    "349": {
+        "positive": [
+            "Yanan oyunculara kritik hasar verir"
+        ], 
+        "alt": [
+            "Not: Dikenli taraf di\u011fer ki\u015fiye do\u011fru tutulacak."
+        ], 
+        "type": "RIFT ALEV TOPUZU", 
+        "negative": [
+            "-25% hasar verir"
+        ], 
+        "description": "G\u00dcNE\u015e ASASI"
+    }, 
+    "298": {
+        "alt": [
+            "Takas Edilemez"
+        ], 
+        "type": "MINIGUN", 
+        "description": "DEM\u0130R PERDE"
+    }, 
+    "299": {
+        "alt": [
+            "TF_Portal2_Pin_Desc", 
+            "Takas Edilemez"
+        ], 
+        "type": "Rozet", 
+        "description": "YOLDA\u015e K\u00dcP BRO\u015eU"
+    }, 
+    "296": {
+        "alt": [
+            "Ve \u00f6ld\u00fcrme, k\u0131rma, d\u00f6kme, \u0131s\u0131rma. Olduk\u00e7a geni\u015f \u00e7apl\u0131 bir lisans."
+        ], 
+        "type": "Rozet", 
+        "description": "SALDIRI L\u0130SANSI"
+    }, 
+    "297": {
+        "alt": [
+            "Takas Edilemez"
+        ], 
+        "type": "G\u00d6R\u00dcNMEZL\u0130K SAAT\u0130", 
+        "description": "KOLEKS\u0130YONCUNUN SAAT\u0130"
+    }, 
+    "294": {
+        "alt": [
+            "Yar\u0131 gizlenmi\u015f silahlanmada son nokta.\r\nBu silaha ihtiyac\u0131n\u0131z oldu\u011fu kesin,\r\ntek sorun: nerede saklayacaks\u0131n\u0131z?"
+        ], 
+        "type": "TABANCA", 
+        "description": "LUGERMORPH"
+    }, 
+    "295": {
+        "alt": [
+            "Elinde ne varsa, onunla b\u00fcy\u00fck oyna."
+        ], 
+        "type": "G\u00f6zl\u00fckler", 
+        "description": "DANGERESQUE, SEN DE M\u0130?"
+    }, 
+    "292": {
+        "alt": [
+            "Sasha'ya bl\u00f6f yapmay\u0131 deneme."
+        ], 
+        "type": "Hat", 
+        "description": "KRUP\u0130YEN\u0130N G\u00dcNE\u015eL\u0130\u011e\u0130"
+    }, 
+    "290": {
+        "alt": [
+            "TF_Cadavers_Cranium_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "KADAVRANIN KAFATASI"
+    }, 
+    "291": {
+        "alt": [
+            "B\u00f6yle m\u00fcthi\u015f bir ba\u015fl\u0131\u011f\u0131 giyerken a\u00e7\u0131k fikirli olmak en iyisi."
+        ], 
+        "type": "Hat", 
+        "description": "KORKUN\u00c7 KAFAYARAN"
+    }, 
+    "199": {
+        "type": "AV T\u00dcFE\u011e\u0130", 
+        "description": "AV T\u00dcFE\u011e\u0130"
+    }, 
+    "198": {
+        "type": "KEM\u0130K TESTERES\u0130", 
+        "description": "KEM\u0130K TESTERES\u0130"
+    }, 
+    "195": {
+        "type": "YUMRUK", 
+        "description": "YUMRUK"
+    }, 
+    "194": {
+        "type": "BI\u00c7AK", 
+        "description": "BI\u00c7AK"
+    }, 
+    "197": {
+        "type": "\u0130NG\u0130L\u0130Z ANAHTARI", 
+        "description": "\u0130NG\u0130L\u0130Z ANAHTARI"
+    }, 
+    "196": {
+        "type": "K\u00dcREK", 
+        "description": "K\u00dcREK"
+    }, 
+    "191": {
+        "type": "\u015e\u0130\u015eE", 
+        "description": "\u015e\u0130\u015eE"
+    }, 
+    "190": {
+        "type": "SOPA", 
+        "description": "SOPA"
+    }, 
+    "193": {
+        "type": "GURKA KAMASI", 
+        "description": "GURKA KAMASI"
+    }, 
+    "192": {
+        "type": "YANGIN BALTASI", 
+        "description": "YANGIN BALTASI"
+    }, 
+    "270": {
+        "alt": [
+            "TF_Halloween_Mask_Soldier_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "SOLDIER MASKES\u0130"
+    }, 
+    "271": {
+        "alt": [
+            "TF_Halloween_Mask_Demoman_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "DEMOMAN MASKES\u0130"
+    }, 
+    "272": {
+        "alt": [
+            "TF_Halloween_Mask_Medic_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "MEDIC MASKES\u0130"
+    }, 
+    "273": {
+        "alt": [
+            "TF_Halloween_Mask_Heavy_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "HEAVY MASKES\u0130"
+    }, 
+    "274": {
+        "alt": [
+            "TF_Halloween_Mask_Spy_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "SPY MASKES\u0130"
+    }, 
+    "275": {
+        "alt": [
+            "TF_Halloween_Mask_Engineer_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "ENGINEER MASKES\u0130"
+    }, 
+    "276": {
+        "alt": [
+            "TF_Halloween_Mask_Pyro_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "PYRO MASKES\u0130"
+    }, 
+    "277": {
+        "alt": [
+            "TF_Halloween_Mask_SaxtonHale_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "SAXTON HALE MASKES\u0130"
+    }, 
+    "278": {
+        "alt": [
+            "Ona ba\u015f\u0131ndan beri sahipti..."
+        ], 
+        "type": "Hat", 
+        "description": "HORSELESS HEADLESS HORSEMANN'IN KAFASI"
+    }, 
+    "279": {
+        "positive": [
+            "Bu \u00f6zel bir Cad\u0131lar Bayram\u0131 2010 e\u015fyas\u0131d\u0131r."
+        ], 
+        "alt": [
+            "Ya\u015fl\u0131 bir bayan\u0131n zarifli\u011fi ile kafaya yapan k\u00fcf ve mezar tozunun kar\u0131\u015f\u0131m\u0131.", 
+            "Takas Edilemez"
+        ], 
+        "type": "Hat", 
+        "description": "Korkun\u00e7 Kambur \u015eapka"
+    }, 
+    "5003": {
+        "alt": [
+            "S\u0131n\u0131f\u0131 form\u00fcllerde belirtmek i\u00e7in kullan\u0131l\u0131r"
+        ], 
+        "type": "\u0130\u015fleme E\u015fyas\u0131", 
+        "description": "SINIF F\u0130\u015e\u0130 - SCOUT"
+    }, 
+    "5002": {
+        "type": "\u0130\u015fleme E\u015fyas\u0131", 
+        "description": "SAFLA\u015eTIRILMI\u015e METAL"
+    }, 
+    "5001": {
+        "type": "\u0130\u015fleme E\u015fyas\u0131", 
+        "description": "DE\u011eERLEND\u0130R\u0130LM\u0130\u015e METAL"
+    }, 
+    "5000": {
+        "type": "\u0130\u015fleme E\u015fyas\u0131", 
+        "description": "HURDA METAL"
+    }, 
+    "5007": {
+        "alt": [
+            "S\u0131n\u0131f\u0131 form\u00fcllerde belirtmek i\u00e7in kullan\u0131l\u0131r"
+        ], 
+        "type": "\u0130\u015fleme E\u015fyas\u0131", 
+        "description": "SINIF F\u0130\u015e\u0130 - HEAVY"
+    }, 
+    "5006": {
+        "alt": [
+            "S\u0131n\u0131f\u0131 form\u00fcllerde belirtmek i\u00e7in kullan\u0131l\u0131r"
+        ], 
+        "type": "\u0130\u015fleme E\u015fyas\u0131", 
+        "description": "SINIF F\u0130\u015e\u0130 - DEMOMAN"
+    }, 
+    "5005": {
+        "alt": [
+            "S\u0131n\u0131f\u0131 form\u00fcllerde belirtmek i\u00e7in kullan\u0131l\u0131r"
+        ], 
+        "type": "\u0130\u015fleme E\u015fyas\u0131", 
+        "description": "SINIF F\u0130\u015e\u0130 - SOLDIER"
+    }, 
+    "5004": {
+        "alt": [
+            "S\u0131n\u0131f\u0131 form\u00fcllerde belirtmek i\u00e7in kullan\u0131l\u0131r"
+        ], 
+        "type": "\u0130\u015fleme E\u015fyas\u0131", 
+        "description": "SINIF F\u0130\u015e\u0130 - SNIPER"
+    }, 
+    "5009": {
+        "alt": [
+            "S\u0131n\u0131f\u0131 form\u00fcllerde belirtmek i\u00e7in kullan\u0131l\u0131r"
+        ], 
+        "type": "\u0130\u015fleme E\u015fyas\u0131", 
+        "description": "SINIF F\u0130\u015e\u0130 - PYRO"
+    }, 
+    "5008": {
+        "alt": [
+            "S\u0131n\u0131f\u0131 form\u00fcllerde belirtmek i\u00e7in kullan\u0131l\u0131r"
+        ], 
+        "type": "\u0130\u015fleme E\u015fyas\u0131", 
+        "description": "SINIF F\u0130\u015e\u0130 - MEDIC"
+    }, 
+    "108": {
+        "alt": [
+            "Ba\u015f\u0131n\u0131n biraz daha uzun ama tepesinin ayn\u0131\r\nyuvarlakl\u0131kta olmas\u0131n\u0131 istedi\u011fin zamanlar i\u00e7in."
+        ], 
+        "type": "Hat", 
+        "description": "ARKACININ MELON \u015eAPKASI"
+    }, 
+    "109": {
+        "alt": [
+            "Tan\u0131\u015ft\u0131\u011f\u0131n\u0131z herkesi \u00f6ld\u00fcr\u00fcrken giymek i\u00e7in verimli ve kibar bir \u015fapka."
+        ], 
+        "type": "Hat", 
+        "description": "PROFESYONEL\u0130N PANAMASI"
+    }, 
+    "102": {
+        "alt": [
+            "Alev alev yanmaya ba\u015flad\u0131klar\u0131nda insanlar\u0131n sana ne kadar sayg\u0131 duydu\u011funun pek bir \u00f6nemi kalmaz."
+        ], 
+        "type": "Hat", 
+        "description": "ACINASI PLAST\u0130K ELD\u0130VEN"
+    }, 
+    "103": {
+        "alt": [
+            "Bu \u00e7ok gizli belgeyi sakal\u0131mla okumam\u0131n sak\u0131ncas\u0131 yok de\u011fil mi?"
+        ], 
+        "type": "Hat", 
+        "description": "KAMERA SAKAL"
+    }, 
+    "100": {
+        "alt": [
+            "TF_Demo_Scott_Hat_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "GLENGARRY BONES\u0130"
+    }, 
+    "101": {
+        "alt": [
+            "TF_Medic_Tyrolean_Hat_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "KLAS\u0130K T\u0130ROL"
+    }, 
+    "106": {
+        "alt": [
+            "Bir seferde tek radyoaktif i\u00e7ece\u011fin yeterli olmad\u0131\u011f\u0131 zamanlar i\u00e7in."
+        ], 
+        "type": "Hat", 
+        "description": "BONK KASKI"
+    }, 
+    "107": {
+        "alt": [
+            "Yaz\u0131yor! Yaz\u0131yor! Sen gebermi\u015fsin arkada\u015f\u0131m!"
+        ], 
+        "type": "Hat", 
+        "description": "GAZETEC\u0130 \u00c7OCUK KASKET\u0130"
+    }, 
+    "104": {
+        "alt": [
+            "Nas\u0131l telaffuz edilir biz de bilmiyoruz."
+        ], 
+        "type": "Hat", 
+        "description": "OTOLAR\u0130NGOLOJ\u0130ST AYNASI"
+    }, 
+    "105": {
+        "alt": [
+            "TF_Pyro_Fireman_Helmet_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "\u0130TFA\u0130YEC\u0130 KASKI"
+    }, 
+    "39": {
+        "type": "\u0130\u015eARET F\u0130\u015eE\u011e\u0130", 
+        "description": "\u0130\u015eARET F\u0130\u015eE\u011e\u0130"
+    }, 
+    "38": {
+        "positive": [
+            "Yanan oyunculara kritik hasar verir"
+        ], 
+        "type": "YANGIN BALTASI", 
+        "negative": [
+            "Yanmayan oyunculara kar\u015f\u0131 kritik vuru\u015f yapamaz", 
+            "Yanmayan oyunculara kar\u015f\u0131 -50% hasar"
+        ], 
+        "description": "YANGIN \u00d6LD\u00dcR\u00dcC\u00dc"
+    }, 
+    "30": {
+        "type": "G\u00d6R\u00dcNMEZL\u0130K SAAT\u0130", 
+        "description": "G\u00d6R\u00dcNMEZL\u0130K SAAT\u0130"
+    }, 
+    "37": {
+        "positive": [
+            "\u0130sabet H\u00e2linde: 25% \u00dcber\u015earj kazand\u0131r\u0131r"
+        ], 
+        "alt": [
+            "30 saniye boyunca +50 azami sa\u011fl\u0131k verir"
+        ], 
+        "type": "KEM\u0130K TESTERES\u0130", 
+        "negative": [
+            "-20% daha yava\u015f at\u0131\u015f h\u0131z\u0131"
+        ], 
+        "description": "\u00dcBERTESTERE"
+    }, 
+    "36": {
+        "positive": [
+            "\u0130sabet H\u00e2linde: +3 sa\u011fl\u0131k"
+        ], 
+        "type": "\u015eIRINGA S\u0130LAHI", 
+        "negative": [
+            "Ku\u015fanan saniye ba\u015f\u0131na -2 sa\u011fl\u0131k kaybeder"
+        ], 
+        "description": "KAN EM\u0130C\u0130"
+    }, 
+    "35": {
+        "positive": [
+            "+25% \u00dcber\u015earj oran\u0131"
+        ], 
+        "alt": [
+            "\u00dcber\u015earj\u0131 kritik hasar verdirtir"
+        ], 
+        "type": "SIHH\u0130LAH", 
+        "description": "KRITZKRIEG"
+    }, 
+    "339": {
+        "type": "Hat", 
+        "description": "LAT\u0130F BOYNUZLAR"
+    }, 
+    "338": {
+        "type": "Hat", 
+        "description": "END\u00dcSTR\u0130YEL \u015eENLEND\u0130R\u0130C\u0130"
+    }, 
+    "335": {
+        "type": "Hat", 
+        "description": "FOSTER'IN SAHTE Y\u00dcZ\u00dc"
+    }, 
+    "334": {
+        "alt": [
+            "'B\u00fcy\u00fck Steam Hazine Av\u0131' hedeflerinden 28 tanesi tamamlanarak kazan\u0131ld\u0131", 
+            "Takas Edilemez"
+        ], 
+        "type": "Hat", 
+        "description": "\u0130NK\u00c2R ED\u0130LEMEZ SERVET VE SAYGI \u015eAPKASI"
+    }, 
+    "337": {
+        "type": "Hat", 
+        "description": "HAYALET PART\u0130"
+    }, 
+    "336": {
+        "type": "Hat", 
+        "description": "BANKER\u0130N ATKISI"
+    }, 
+    "331": {
+        "positive": [
+            "Aktif iken menzilli sald\u0131r\u0131lardan -40% daha az hasar"
+        ], 
+        "type": "BOKS ELD\u0130VENLER\u0130", 
+        "negative": [
+            "Aktif iken yak\u0131n d\u00f6v\u00fc\u015f sald\u0131r\u0131lar\u0131ndan +100% daha fazla hasar", 
+            "20% daha yava\u015f silah de\u011fi\u015ftirme"
+        ], 
+        "description": "DEM\u0130R YUMRUK"
+    }, 
+    "330": {
+        "type": "Hat", 
+        "description": "BERBAT PERUK"
+    }, 
+    "333": {
+        "alt": [
+            "'B\u00fcy\u00fck Steam Hazine Av\u0131' hedeflerinden 15 tanesi tamamlanarak kazan\u0131ld\u0131", 
+            "Takas Edilemez"
+        ], 
+        "type": "Hat", 
+        "description": "HAZ\u0130NE \u015eAPKASI"
+    }, 
+    "332": {
+        "alt": [
+            "'B\u00fcy\u00fck Steam Hazine Av\u0131' hedeflerinden 5 tanesi tamamlanarak kazan\u0131ld\u0131", 
+            "Takas Edilemez"
+        ], 
+        "type": "Hat", 
+        "description": "\u0130KRAM\u0130YE \u015eAPKASI"
+    }, 
+    "1908": {
+        "alt": [
+            "Bir Arena haritas\u0131d\u0131r\r\n\r\nMagnar 'insta' Jenssen taraf\u0131ndan yap\u0131ld\u0131\r\n\r\nBu e\u015fyay\u0131 sat\u0131n alarak direkt olarak Offblast topluluk haritas\u0131n\u0131n yap\u0131mc\u0131s\u0131n\u0131 desteklemi\u015f olacaks\u0131n. Deste\u011fini hemen bug\u00fcn g\u00f6ster!"
+        ], 
+        "type": "HAR\u0130TA PULU", 
+        "description": "HAR\u0130TA PULU - OFFBLAST"
+    }, 
+    "1909": {
+        "alt": [
+            "Bir Kontrol Noktas\u0131 haritas\u0131d\u0131r\r\n\r\nPatrick 'MangyCarface' Mulholland ve Joachim 'Acegikmo' Holm\u00e9r taraf\u0131ndan yap\u0131ld\u0131\r\n\r\nBu e\u015fyay\u0131 sat\u0131n alarak direkt olarak Yukon topluluk haritas\u0131n\u0131n yap\u0131mc\u0131lar\u0131n\u0131 desteklemi\u015f olacaks\u0131n. Deste\u011fini hemen bug\u00fcn g\u00f6ster!"
+        ], 
+        "type": "HAR\u0130TA PULU", 
+        "description": "HAR\u0130TA PULU - YUKON"
+    }, 
+    "1906": {
+        "alt": [
+            "Bir Arena haritas\u0131d\u0131r\r\n\r\nJoshua 'JoshuaC' Shiflet taraf\u0131ndan yap\u0131ld\u0131\r\n\r\nBu e\u015fyay\u0131 sat\u0131n alarak direkt olarak Watchtower topluluk haritas\u0131n\u0131n yap\u0131mc\u0131s\u0131n\u0131 desteklemi\u015f olacaks\u0131n. Deste\u011fini hemen bug\u00fcn g\u00f6ster!"
+        ], 
+        "type": "HAR\u0130TA PULU", 
+        "description": "HAR\u0130TA PULU - WATCHTOWER"
+    }, 
+    "1907": {
+        "alt": [
+            "Bir Y\u00fck Vagonu haritas\u0131d\u0131r\r\n\r\nTim 'YM' Johnson, Jeroen 'Snipergen' Dessaux, Wade 'Nineaxis' Fabry ve Drew 'Oxy' Fletcher taraf\u0131ndan yap\u0131ld\u0131\r\n\r\nBu e\u015fyay\u0131 sat\u0131n alarak direkt olarak Hoodoo topluluk haritas\u0131n\u0131n yap\u0131mc\u0131lar\u0131n\u0131 desteklemi\u015f olacaks\u0131n. Deste\u011fini hemen bug\u00fcn g\u00f6ster!"
+        ], 
+        "type": "HAR\u0130TA PULU", 
+        "description": "HAR\u0130TA PULU - HOODOO"
+    }, 
+    "1904": {
+        "alt": [
+            "Bir Sald\u0131r\u0131/Savunma Kontrol Noktas\u0131 haritas\u0131d\u0131r\r\n\r\nJamie 'Fishbus' Manson, Dan 'Irish Taxi Driver' Merboth ve FLOOR_MASTER taraf\u0131ndan yap\u0131ld\u0131\r\n\r\nBu e\u015fyay\u0131 sat\u0131n alarak direkt olarak Steel topluluk haritas\u0131n\u0131n yap\u0131mc\u0131lar\u0131n\u0131 desteklemi\u015f olacaks\u0131n. Deste\u011fini hemen bug\u00fcn g\u00f6ster!"
+        ], 
+        "type": "HAR\u0130TA PULU", 
+        "description": "HAR\u0130TA PULU - STEEL"
+    }, 
+    "1905": {
+        "alt": [
+            "Bir Sald\u0131r\u0131/Savunma Kontrol Noktas\u0131 haritas\u0131d\u0131r\r\n\r\nSean 'Heyo' Cutino taraf\u0131ndan yap\u0131ld\u0131\r\n\r\nBu e\u015fyay\u0131 sat\u0131n alarak direkt olarak Junction topluluk haritas\u0131n\u0131n yap\u0131mc\u0131s\u0131n\u0131 desteklemi\u015f olacaks\u0131n. Deste\u011fini hemen bug\u00fcn g\u00f6ster!"
+        ], 
+        "type": "HAR\u0130TA PULU", 
+        "description": "HAR\u0130TA PULU - JUNCTION"
+    }, 
+    "1902": {
+        "alt": [
+            "Bir Kontrol Noktas\u0131 haritas\u0131d\u0131r\r\n\r\nArttu 'SK' M\u00e4ki taraf\u0131ndan yap\u0131ld\u0131\r\n\r\nBu e\u015fyay\u0131 sat\u0131n alarak direkt olarak Fastlane topluluk haritas\u0131n\u0131n yap\u0131mc\u0131s\u0131n\u0131 desteklemi\u015f olacaks\u0131n. Deste\u011fini hemen bug\u00fcn g\u00f6ster!"
+        ], 
+        "type": "HAR\u0130TA PULU", 
+        "description": "HAR\u0130TA PULU - FASTLANE"
+    }, 
+    "1903": {
+        "alt": [
+            "Bir Bayrak Kapmaca haritas\u0131d\u0131r\r\n\r\nFlobster taraf\u0131ndan yap\u0131ld\u0131\r\n\r\nBu e\u015fyay\u0131 sat\u0131n alarak direkt olarak Turbine topluluk haritas\u0131n\u0131n yap\u0131mc\u0131s\u0131n\u0131 desteklemi\u015f olacaks\u0131n. Deste\u011fini hemen bug\u00fcn g\u00f6ster!"
+        ], 
+        "type": "HAR\u0130TA PULU", 
+        "description": "HAR\u0130TA PULU - TURBINE"
+    }, 
+    "1900": {
+        "alt": [
+            "Bir Sald\u0131r\u0131/Savunma Kontrol Noktas\u0131 haritas\u0131d\u0131r\r\n\r\nSean 'Heyo' Cutino taraf\u0131ndan yap\u0131ld\u0131\r\n\r\nBu e\u015fyay\u0131 sat\u0131n alarak direkt olarak Egypt topluluk haritas\u0131n\u0131n yap\u0131mc\u0131lar\u0131n\u0131 desteklemi\u015f olacaks\u0131n. Deste\u011fini hemen bug\u00fcn g\u00f6ster!"
+        ], 
+        "type": "HAR\u0130TA PULU", 
+        "description": "HAR\u0130TA PULU - EGYPT"
+    }, 
+    "1901": {
+        "alt": [
+            "Bir Kontrol Noktas\u0131 haritas\u0131d\u0131r\r\n\r\nEric 'Icarus' Wong, David 'Selentic' Simon, Aeon 'Void' Bollig ve Tim 'YM'Johnson taraf\u0131ndan yap\u0131ld\u0131\r\n\r\nBu e\u015fyay\u0131 sat\u0131n alarak direkt olarak Coldfront topluluk haritas\u0131n\u0131n yap\u0131mc\u0131lar\u0131n\u0131 desteklemi\u015f olacaks\u0131n. Deste\u011fini hemen bug\u00fcn g\u00f6ster!"
+        ], 
+        "type": "HAR\u0130TA PULU", 
+        "description": "HAR\u0130TA PULU - COLDFRONT"
+    }, 
+    "345": {
+        "alt": [
+            "[Buraya Favori Y\u00f6resel Tak\u0131m\u0131 Yerle\u015ftir]"
+        ], 
+        "type": "Hat", 
+        "description": "ATLET\u0130K TARAFTAR"
+    }, 
+    "6": {
+        "type": "K\u00dcREK", 
+        "description": "K\u00dcREK"
+    }, 
+    "99": {
+        "alt": [
+            "K\u0131\u00e7\u0131na tekmeyi \u00f6yle bir bast\u0131m ki zamanda geriye gidip benim i\u00e7in bu V\u0130K\u0130NG \u015eAPKASIn\u0131 getirdi."
+        ], 
+        "type": "Hat", 
+        "description": "ZORBANIN M\u0130\u011eFER\u0130"
+    }, 
+    "98": {
+        "alt": [
+            "Kafatas\u0131n\u0131 mermilerden ve \u015farapnelden korur.\r\nAyr\u0131ca \u00e7orba \u0131s\u0131t\u0131r."
+        ], 
+        "type": "Hat", 
+        "description": "PASLANMAZ TENCERE"
+    }, 
+    "95": {
+        "alt": [
+            "TF_Engineer_Train_Hat_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "M\u00dcHEND\u0130S\u0130N KEP\u0130"
+    }, 
+    "94": {
+        "alt": [
+            "S\u0131radan bir kovboy \u015fapkas\u0131 gibi g\u00f6r\u00fcnse de, bu m\u00fchendislik harikas\u0131 \u015fapka, 2. seviye bir taretten daha fazla hareketli par\u00e7a i\u00e7erir."
+        ], 
+        "type": "Hat", 
+        "description": "TEKSAS KOVBOYU"
+    }, 
+    "97": {
+        "alt": [
+            "Buralardaki en babayi\u011fit adam sen oldu\u011fun i\u00e7in emin ol kimse moda anlay\u0131\u015f\u0131nla dalga ge\u00e7emeyecektir."
+        ], 
+        "type": "Hat", 
+        "description": "SERT \u00c7OCU\u011eUN BERES\u0130"
+    }, 
+    "96": {
+        "alt": [
+            "Bu \u015fapka ay\u0131n\u0131n ellerindendir.\r\nO ay\u0131n\u0131n \u00f6l\u00fcm\u00fc de \u00e7\u0131plak ellerimdendir."
+        ], 
+        "type": "Hat", 
+        "description": "SUBAY KALPA\u011eI"
+    }, 
+    "239": {
+        "positive": [
+            "Ku\u015fanana +30% hareket h\u0131z\u0131"
+        ], 
+        "alt": [
+            "Silah aktif iken:", 
+            "30 saniye boyunca +50 azami sa\u011fl\u0131k verir"
+        ], 
+        "type": "BOKS ELD\u0130VENLER\u0130", 
+        "negative": [
+            "-50% hasar verir", 
+            "Ku\u015fanan saniye ba\u015f\u0131na -6 sa\u011fl\u0131k kaybeder"
+        ], 
+        "description": "GER\u00c7EK RANDIMANA ULA\u015eTIRICILAR"
+    }, 
+    "234": {
+        "alt": [
+            "Bu e\u015fya kullan\u0131ld\u0131\u011f\u0131nda, sunucudaki\r\nen fazla 23 ki\u015fiye rastgele hediye yollar!"
+        ], 
+        "type": "HED\u0130YE", 
+        "description": "HED\u0130YE YI\u011eINI"
+    }, 
+    "237": {
+        "positive": [
+            "Patlama hasar\u0131 vermez.", 
+            "Ku\u015fanana +200% azami birincil cephane"
+        ], 
+        "alt": [
+            "Roket z\u0131play\u0131\u015f\u0131n\u0131n inceliklerini \u00f6\u011fretmek i\u00e7in\r\ntasarlanm\u0131\u015f hasar vermeyen \u00f6zel bir roketatar."
+        ], 
+        "type": "ROKETATAR", 
+        "negative": [
+            "Ku\u015fanana 100% daha az alev hasar direnci", 
+            "Ku\u015fanana 100% daha az patlay\u0131c\u0131 hasar direnci", 
+            "-100% hasar verir", 
+            "Ku\u015fanana 100% daha az mermi hasar direnci"
+        ], 
+        "description": "ROKET ZIPLATICISI"
+    }, 
+    "230": {
+        "positive": [
+            "\u0130sabet H\u00e2linde: Hedef \u00fczerinde 8 saniye boyunca Kavate etkisi"
+        ], 
+        "type": "KESK\u0130N N\u0130\u015eANCI T\u00dcFE\u011e\u0130", 
+        "negative": [
+            "Rastgele kritik vuru\u015flar yok", 
+            "Kafadan vuru\u015f yapamaz", 
+            "+25% \u015farj oran\u0131"
+        ], 
+        "description": "S\u0130DNEY UYKUCUSU"
+    }, 
+    "231": {
+        "positive": [
+            "Ku\u015fanana +25 azami sa\u011fl\u0131k"
+        ], 
+        "type": "KALKAN", 
+        "description": "DARWIN'\u0130N TEHL\u0130KE KALKANI"
+    }, 
+    "232": {
+        "positive": [
+            "Bu silah\u0131n mini kritik vuru\u015flar\u0131 kritik hasar verir."
+        ], 
+        "type": "GURKA KAMASI", 
+        "negative": [
+            "Ku\u015fanana 20% daha az alev hasar direnci"
+        ], 
+        "description": "\u00c7ALIB\u0130\u00c7ER"
+    }, 
+    "233": {
+        "alt": [
+            "Bu e\u015fya kullan\u0131ld\u0131\u011f\u0131nda, sunucudaki \r\nrastgele bir oyuncuya hediye yollar!"
+        ], 
+        "type": "HED\u0130YE", 
+        "description": "G\u0130ZL\u0130 SAXTON"
+    }, 
+    "1": {
+        "type": "\u015e\u0130\u015eE", 
+        "description": "\u015e\u0130\u015eE"
+    }, 
+    "146": {
+        "alt": [
+            "TF_DemomanHallmark_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "J\u0130GOLONUN AYAR DAMGASI"
+    }, 
+    "147": {
+        "alt": [
+            "Adalet k\u00f6rd\u00fcr derler, bahsetmedikleri \u015fey ise adaletin ayr\u0131ca g\u00f6r\u00fcnmez oldu\u011fu ve adaletten ziyade cinayet ile ilgilendi\u011fidir."
+        ], 
+        "type": "Hat", 
+        "description": "YARGICIN PERU\u011eU"
+    }, 
+    "144": {
+        "alt": [
+            "Ellerinizi dezenfekte edin... i\u015fler kar\u0131\u015fmak \u00fczere..."
+        ], 
+        "type": "Hat", 
+        "description": "HEK\u0130M\u0130N MUAYENE MASKES\u0130"
+    }, 
+    "145": {
+        "alt": [
+            "Rakipleriniz yeni sa\u00e7 \u015feklinizi g\u00f6r\u00fcnce beyinlerinden vurulmu\u015fa d\u00f6necekler."
+        ], 
+        "type": "Hat", 
+        "description": "HOUND DOG"
+    }, 
+    "142": {
+        "positive": [
+            "Ku\u015fanana +25 azami sa\u011fl\u0131k"
+        ], 
+        "type": "ROBOT KOL", 
+        "negative": [
+            "Rastgele kritik vuru\u015flar yok", 
+            "Taret yerine h\u0131zl\u0131ca kurulan bir mini taret koyar"
+        ], 
+        "description": "S\u0130LAH\u015e\u00d6R"
+    }, 
+    "143": {
+        "alt": [
+            "OSX Temsilcisi!"
+        ], 
+        "type": "Hat", 
+        "description": "KULAKLIKLAR"
+    }, 
+    "140": {
+        "alt": [
+            "Taretini elle kontrol et"
+        ], 
+        "type": "LAZER \u0130\u015eARETLEY\u0130C\u0130", 
+        "description": "KOVBOY"
+    }, 
+    "141": {
+        "positive": [
+            "Taretin yok edildi\u011finde her taret\r\nle\u015fi i\u00e7in intikam kritikleri al\u0131rs\u0131n"
+        ], 
+        "type": "AV T\u00dcFE\u011e\u0130", 
+        "negative": [
+            "Rastgele kritik vuru\u015flar yok", 
+            "-50% \u015farj\u00f6r boyutu"
+        ], 
+        "description": "YARGISIZ \u0130NFAZ"
+    }, 
+    "148": {
+        "alt": [
+            "UV \u0131\u015f\u0131nlar\u0131 g\u00f6z\u00fcn\u00fczden zarars\u0131zca yans\u0131rken g\u00fcne\u015f ile dalga ge\u00e7in."
+        ], 
+        "type": "Hat", 
+        "description": "KAYNAK MASKES\u0130"
+    }, 
+    "133": {
+        "positive": [
+            "Roket z\u0131plamalar\u0131nda -60% patlama hasar\u0131 ald\u0131r\u0131r"
+        ], 
+        "type": "\u00c7\u0130ZMELER", 
+        "description": "KORUYUCU BOTLAR"
+    }, 
+    "132": {
+        "positive": [
+            "1% hasar verir"
+        ], 
+        "alt": [
+            "Bu yak\u0131n d\u00f6v\u00fc\u015f silah\u0131 geni\u015f menzile\r\nsahiptir. Kopard\u0131\u011f\u0131n\u0131z her kafa,\r\nsa\u011fl\u0131\u011f\u0131n\u0131z\u0131n ve h\u0131z\u0131n\u0131z\u0131n artmas\u0131n\u0131\r\nsa\u011flar."
+        ], 
+        "type": "KILI\u00c7", 
+        "negative": [
+            "Ku\u015fanana -25 azami sa\u011fl\u0131k", 
+            "Rastgele kritik vuru\u015flar yok"
+        ], 
+        "description": "G\u00d6Z PARLATAN"
+    }, 
+    "131": {
+        "positive": [
+            "Ku\u015fanana +50% alev hasar direnci", 
+            "Ku\u015fanana +40% patlay\u0131c\u0131 hasar direnci"
+        ], 
+        "alt": [
+            "Alternatif Sald\u0131r\u0131: D\u00fc\u015fmanlar\u0131n\u0131za kar\u015f\u0131 h\u00fccum\r\nederken sald\u0131r\u0131 g\u00fcc\u00fcn\u00fcz artacakt\u0131r."
+        ], 
+        "type": "KALKAN", 
+        "description": "H\u00dcCUM KALKANI"
+    }, 
+    "130": {
+        "positive": [
+            "Ku\u015fanana +50% azami ikincil cephane", 
+            "Ni\u015fang\u00e2h\u0131n yan\u0131ndaki ve ayaklar\u0131n\u0131n tam alt\u0131ndaki bombalar\u0131 patlat\u0131r", 
+            "+25% daha h\u0131zl\u0131 ate\u015fleme", 
+            "D\u00fc\u015fman\u0131n yap\u0131\u015fkan bombalar\u0131n\u0131 patlatabilir", 
+            "+6 azami bomba at\u0131\u015f\u0131"
+        ], 
+        "type": "YAPI\u015eKAN BOMBA ATAR", 
+        "negative": [
+            "0.8 daha uzun bomba kurulma s\u00fcresi"
+        ], 
+        "description": "\u0130SKO\u00c7 D\u0130RENC\u0130"
+    }, 
+    "137": {
+        "alt": [
+            "Kendi \u015fapkas\u0131n\u0131n dahi \u015fapka takmay\u0131 hak etti\u011fine inanan bir beyefendi i\u00e7in."
+        ], 
+        "type": "Hat", 
+        "description": "SOYLU \u015eAPKA YI\u011eINI"
+    }, 
+    "136": {
+        "alt": [
+            "Propaganda Yar\u0131\u015fmas\u0131 \u0130kincisi", 
+            "Takas Edilemez"
+        ], 
+        "type": "Hat", 
+        "description": "AMBER'IN DEL\u0130L\u0130K DERECES\u0130NDE RAD\u0130KAL \u015eAPKASI"
+    }, 
+    "135": {
+        "alt": [
+            "A-ha-ha! FAK\u0130R ve \u0130RLANDALI oldu\u011funuz kadar K\u00dcSTAHSINIZ da!. Heybetli \u015eAPKA KULEME bak\u0131n ve a\u011flay\u0131n."
+        ], 
+        "type": "Hat", 
+        "description": "Y\u00dcCE \u015eAPKALAR S\u00dcTUNU"
+    }, 
+    "134": {
+        "alt": [
+            "Propaganda Yar\u0131\u015fmas\u0131 Birincisi", 
+            "Takas Edilemez"
+        ], 
+        "type": "Hat", 
+        "description": "J.AXER'IN \u015eIK \u015eAPKASI"
+    }, 
+    "139": {
+        "alt": [
+            "\u00c7\u00fcnk\u00fc bu olmadan bir beyefendi olunmaz."
+        ], 
+        "type": "Hat", 
+        "description": "M\u00dcTEVAZ\u0130 \u015eAPKA YI\u011eINI"
+    }, 
+    "138": {
+        "alt": [
+            "Propaganda Yar\u0131\u015fmas\u0131 \u00dc\u00e7\u00fcnc\u00fcs\u00fc", 
+            "Takas Edilemez"
+        ], 
+        "type": "Hat", 
+        "description": "SAM AMCA"
+    }, 
+    "24": {
+        "type": "ALTIPATLAR", 
+        "description": "ALTIPATLAR"
+    }, 
+    "25": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "26": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "27": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "20": {
+        "type": "YAPI\u015eKAN BOMBA ATAR", 
+        "description": "YAPI\u015eKAN BOMBA ATAR"
+    }, 
+    "21": {
+        "type": "ALEV S\u0130LAHI", 
+        "description": "ALEV S\u0130LAHI"
+    }, 
+    "22": {
+        "type": "TABANCA", 
+        "description": "TABANCA"
+    }, 
+    "23": {
+        "type": "TABANCA", 
+        "description": "TABANCA"
+    }, 
+    "28": {
+        "type": "PDA", 
+        "description": "PDA"
+    }, 
+    "29": {
+        "type": "SIHH\u0130LAH", 
+        "description": "SIHH\u0130LAH"
+    }, 
+    "2015": {
+        "alt": [
+            "Her topluluk \u00fcretimi harita i\u00e7in bir pul i\u00e7erir."
+        ], 
+        "type": "E\u015fya Paketi", 
+        "description": "HAR\u0130TA PULU KOLEKS\u0130YONU"
+    }, 
+    "2014": {
+        "alt": [
+            "Yer yer kirlenmi\u015f silahlar se\u00e7kisi:"
+        ], 
+        "type": "E\u015fya Paketi", 
+        "description": "K\u0130RL\u0130 S\u0130LAHLAR YI\u011eINI"
+    }, 
+    "2017": {
+        "alt": [
+            "Limited-edition hats and noisemakers! All proceeds (net of applicable taxes) go directly to the American Red Cross for disaster relief in Japan."
+        ], 
+        "type": "E\u015fya Paketi", 
+        "description": "Japan Charity Bundle"
+    }, 
+    "2016": {
+        "alt": [
+            "T\u00fcm sekiz e\u015fyay\u0131 da al.\r\nBu haiku seni aldatm\u0131yor.\r\nT\u00fcm. Sekiz. E\u015fya. E\u015fyalar:"
+        ], 
+        "type": "E\u015fya Paketi", 
+        "description": "\u0130MPARATORUN HAZ\u0130NES\u0130"
+    }, 
+    "2011": {
+        "alt": [
+            "K\u0131\u015f G\u00fcncellemesindeki t\u00fcm s\u0131n\u0131f seti e\u015fyalar\u0131n\u0131 i\u00e7erir:"
+        ], 
+        "type": "E\u015fya Paketi", 
+        "description": "KI\u015e G\u00dcNCELLEMES\u0130 PAKET\u0130"
+    }, 
+    "2010": {
+        "alt": [
+            "Demoman e\u015fyalar\u0131n\u0131 i\u00e7erir:"
+        ], 
+        "type": "E\u015fya Paketi", 
+        "description": "UZMANIN ORDONATI"
+    }, 
+    "409": {
+        "alt": [
+            "Supporting Japanese disaster relief", 
+            "Takas Edilemez"
+        ], 
+        "type": "Hat", 
+        "description": "Benefactor's Kanmuri"
+    }, 
+    "408": {
+        "alt": [
+            "Supporting Japanese disaster relief", 
+            "Takas Edilemez"
+        ], 
+        "type": "Hat", 
+        "description": "Humanitarian's Hachimaki"
+    }, 
+    "391": {
+        "alt": [
+            "This hat has mean written all over it.\\n(Note from Legal: This hat has nothing written on it.)"
+        ], 
+        "type": "Hat", 
+        "description": "Honcho's Headgear"
+    }, 
+    "390": {
+        "alt": [
+            "Every little thing is gonna be alright."
+        ], 
+        "type": "Hat", 
+        "description": "Reggaelator"
+    }, 
+    "397": {
+        "alt": [
+            "It really is a chapeau. It's just in disguise."
+        ], 
+        "type": "Hat", 
+        "description": "Charmer's Chapeau"
+    }, 
+    "181": {
+        "alt": [
+            "Keskin Ni\u015fanc\u0131l\u0131\u011fa Gittim, D\u00f6nece\u011fim."
+        ], 
+        "type": "Hat", 
+        "description": "HER\u0130F\u0130N BALIK\u00c7I \u015eAPKASI"
+    }, 
+    "7": {
+        "type": "\u0130NG\u0130L\u0130Z ANAHTARI", 
+        "description": "\u0130NG\u0130L\u0130Z ANAHTARI"
+    }, 
+    "245": {
+        "alt": [
+            "75. seviyede a\u00e7\u0131l\u0131r.\r\nBu rozet d\u00fcello istatistiklerini izler.\r\nD\u00fcellolar\u0131 kazanarak rozetinin seviyesini y\u00fckseltebilirsin!", 
+            "Takas Edilemez"
+        ], 
+        "type": "Rozet", 
+        "description": "PLAT\u0130N D\u00dcELLO ROZET\u0130"
+    }, 
+    "244": {
+        "alt": [
+            "50. seviyede a\u00e7\u0131l\u0131r.\r\nBu rozet d\u00fcello istatistiklerini izler.\r\nD\u00fcellolar\u0131 kazanarak rozetinin seviyesini y\u00fckseltebilirsin!", 
+            "Takas Edilemez"
+        ], 
+        "type": "Rozet", 
+        "description": "ALTIN D\u00dcELLO ROZET\u0130"
+    }, 
+    "247": {
+        "alt": [
+            "Bu \u015fapka her ortama tat katar."
+        ], 
+        "type": "Hat", 
+        "description": "GUADALAJARA HATIRASI"
+    }, 
+    "246": {
+        "alt": [
+            "\u00a0"
+        ], 
+        "type": "Hat", 
+        "description": "BOKS\u00d6R\u00dcN KASKI"
+    }, 
+    "241": {
+        "alt": [
+            "Kar\u015f\u0131 tak\u0131mdan bir oyuncu yetene\u011fini, ki\u015fisel\r\ntemizli\u011fini ve/veya atalar\u0131n\u0131 m\u0131 sorguluyor?\r\nOnlar\u0131 d\u00fcelloya davet etmek i\u00e7in bu haval\u0131 silahlar\u0131 kullan!\r\nDetayl\u0131 bilgi i\u00e7in Mann Co. katalo\u011funu incele."
+        ], 
+        "type": "Kullan\u0131labilir E\u015fya", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "D\u00dcELLO OYUNU"
+    }, 
+    "240": {
+        "alt": [
+            ""
+        ], 
+        "type": "Hat", 
+        "description": "SOLUCAN KA\u015eLARI"
+    }, 
+    "243": {
+        "alt": [
+            "25. seviyede a\u00e7\u0131l\u0131r.\r\nBu rozet d\u00fcello istatistiklerinizi izler.\r\nD\u00fcellolar\u0131 kazanarak rozetinizin seviyesini y\u00fckseltebilirsiniz!", 
+            "Takas Edilemez"
+        ], 
+        "type": "Rozet", 
+        "description": "G\u00dcM\u00dc\u015e D\u00dcELLO ROZET\u0130"
+    }, 
+    "242": {
+        "alt": [
+            "Bu rozet d\u00fcello istatistiklerinizi izler.\r\nD\u00fcellolar\u0131 kazanarak rozetinizin seviyesini y\u00fckseltebilirsiniz!", 
+            "Takas Edilemez"
+        ], 
+        "type": "Rozet", 
+        "description": "BRONZ D\u00dcELLO ROZET\u0130"
+    }, 
+    "249": {
+        "alt": [
+            "\u00d6l\u00fcm tepenize ya\u011facak!"
+        ], 
+        "type": "Hat", 
+        "description": "HAVA SALDIRISI"
+    }, 
+    "248": {
+        "alt": [
+            "Scoutlar\u0131 yakmakla ge\u00e7en uzun bir g\u00fcn\u00fcn ard\u0131ndan iyi gider."
+        ], 
+        "type": "Hat", 
+        "description": "UYKUCUNUN TEMBELL\u0130\u011e\u0130"
+    }, 
+    "5038": {
+        "alt": [
+            "Ba\u015fka e\u015fyalar\u0131 boyamak i\u00e7in kullan\u0131l\u0131r.", 
+            "Bunu ben yapt\u0131m!"
+        ], 
+        "type": "ARA\u00c7", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "YA\u015eLI BIYI\u011eI GR\u0130S\u0130"
+    }, 
+    "5039": {
+        "alt": [
+            "Ba\u015fka e\u015fyalar\u0131 boyamak i\u00e7in kullan\u0131l\u0131r.", 
+            "Bunu ben yapt\u0131m!"
+        ], 
+        "type": "ARA\u00c7", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "FEVKALADE RENKLEND\u0130R\u0130LM\u0130\u015e BOLLUK"
+    }, 
+    "5036": {
+        "alt": [
+            "Ba\u015fka e\u015fyalar\u0131 boyamak i\u00e7in kullan\u0131l\u0131r.", 
+            "Bunu ben yapt\u0131m!"
+        ], 
+        "type": "ARA\u00c7", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "ESK\u0130 PASLI RENK"
+    }, 
+    "5037": {
+        "alt": [
+            "Ba\u015fka e\u015fyalar\u0131 boyamak i\u00e7in kullan\u0131l\u0131r.", 
+            "Bunu ben yapt\u0131m!"
+        ], 
+        "type": "ARA\u00c7", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "AVUSTURALYUM ALTINI"
+    }, 
+    "5034": {
+        "alt": [
+            "Ba\u015fka e\u015fyalar\u0131 boyamak i\u00e7in kullan\u0131l\u0131r.", 
+            "Bunu ben yapt\u0131m!"
+        ], 
+        "type": "ARA\u00c7", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "TUHAF DERECEDE SIKICI TENT\u00dcR"
+    }, 
+    "5035": {
+        "alt": [
+            "Ba\u015fka e\u015fyalar\u0131 boyamak i\u00e7in kullan\u0131l\u0131r.", 
+            "Bunu ben yapt\u0131m!"
+        ], 
+        "type": "ARA\u00c7", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "RADIGAN CONAGHER KAHVERENG\u0130S\u0130"
+    }, 
+    "5032": {
+        "alt": [
+            "Ba\u015fka e\u015fyalar\u0131 boyamak i\u00e7in kullan\u0131l\u0131r.", 
+            "Bunu ben yapt\u0131m!"
+        ], 
+        "type": "ARA\u00c7", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "Mann Co. Turuncusu"
+    }, 
+    "5033": {
+        "alt": [
+            "Ba\u015fka e\u015fyalar\u0131 boyamak i\u00e7in kullan\u0131l\u0131r.", 
+            "Bunu ben yapt\u0131m!"
+        ], 
+        "type": "ARA\u00c7", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "KASLI ADAM BRONZU"
+    }, 
+    "5030": {
+        "alt": [
+            "Ba\u015fka e\u015fyalar\u0131 boyamak i\u00e7in kullan\u0131l\u0131r.", 
+            "Bunu ben yapt\u0131m!"
+        ], 
+        "type": "ARA\u00c7", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "Renk No. 216-190-216"
+    }, 
+    "5031": {
+        "alt": [
+            "Ba\u015fka e\u015fyalar\u0131 boyamak i\u00e7in kullan\u0131l\u0131r.", 
+            "Bunu ben yapt\u0131m!"
+        ], 
+        "type": "ARA\u00c7", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "MORA DER\u0130N BA\u011eLILIK"
+    }, 
+    "179": {
+        "alt": [
+            "\u00dc\u00e7 keskin k\u00f6\u015fe, bir keskin \u015fapka demektir.\r\nG\u00f6z\u00fcn\u00fc \u00e7\u0131karay\u0131m deme."
+        ], 
+        "type": "Hat", 
+        "description": "AK\u015eAMCININ TRICORNE'U"
+    }, 
+    "178": {
+        "alt": [
+            "Etrafta silah sesleri ve ba\u011f\u0131r\u0131\u015flar varken bir cesedin rotasyonel hareketinden momentum vekt\u00f6r\u00fcne uygulanan toplam d\u0131\u015f torku hesaplamak zorla\u015f\u0131yor. G\u00fcvenli ve Ne\u015feli'nin sessizli\u011fi ile daha iyi ve daha g\u00fcvenli bir makine kur!"
+        ], 
+        "type": "Hat", 
+        "description": "G\u00dcVENL\u0130 VE NE\u015eEL\u0130"
+    }, 
+    "177": {
+        "alt": [
+            "Hi\u00e7bir \u015fey"
+        ], 
+        "type": "Hat", 
+        "description": "B\u0130L\u0130MSEL G\u00d6ZL\u00dcK"
+    }, 
+    "175": {
+        "alt": [
+            "En se\u00e7kin alev yava\u015flat\u0131c\u0131 sakal yang\u0131nlar\u0131n zeki centilmenleri i\u00e7in haz\u0131r."
+        ], 
+        "type": "Hat", 
+        "description": "BIYIKLI BEYEFEND\u0130"
+    }, 
+    "174": {
+        "alt": [
+            "Zeki gen\u00e7lere g\u00f6re modan\u0131n zirvesinin tam olarak bu oldu\u011funu anlamamak i\u00e7in aptal olman laz\u0131m."
+        ], 
+        "type": "Hat", 
+        "description": "\u015eAMATA KEP\u0130"
+    }, 
+    "173": {
+        "positive": [
+            "\u00d6ld\u00fc\u011f\u00fcn andaki \u00dcber\u015earj\u0131n\u0131n\r\n20% kadar\u0131 saklan\u0131r."
+        ], 
+        "alt": [
+            "30 saniye boyunca +50 azami sa\u011fl\u0131k verir"
+        ], 
+        "type": "KEM\u0130K TESTERES\u0130", 
+        "negative": [
+            "Ku\u015fanana -10 azami sa\u011fl\u0131k"
+        ], 
+        "description": "V\u0130TATESTERE"
+    }, 
+    "172": {
+        "positive": [
+            "+20% hasar verir"
+        ], 
+        "type": "BALTA", 
+        "negative": [
+            "Ku\u015fanana 15% daha yava\u015f hareket h\u0131z\u0131"
+        ], 
+        "description": "\u0130SKO\u00c7 KELLE KESER\u0130"
+    }, 
+    "171": {
+        "positive": [
+            "\u0130sabet H\u00e2linde: 6 saniye boyunca kanat\u0131r"
+        ], 
+        "type": "GURKA KAMASI", 
+        "negative": [
+            "-50% hasar verir"
+        ], 
+        "description": "KAB\u0130LE SUSTALISI"
+    }, 
+    "170": {
+        "alt": [
+            "Ger\u00e7ek sava\u015f\u00e7\u0131n\u0131n madalyas\u0131. Daha sava\u015f ba\u015flamadan sava\u015fm\u0131\u015f olanlara verildi.", 
+            "\u0130\u015fe Al\u0131nma Tarihi: %s1", 
+            "Takas Edilemez"
+        ], 
+        "type": "Rozet", 
+        "description": "\u0130LKEL SAVA\u015e\u00c7I"
+    }, 
+    "182": {
+        "alt": [
+            "Pyro bunu alevini s\u00f6nd\u00fcrmeye \u00e7al\u0131\u015f\u0131rken telef olan onlarca itfaiyecinin an\u0131s\u0131na giyiyor."
+        ], 
+        "type": "Hat", 
+        "description": "KLAS\u0130K V\u0130KTORYALI \u0130TFA\u0130YEC\u0130 KASKI"
+    }, 
+    "183": {
+        "alt": [
+            "Kendi kendine s\u00f6ylenirken bo\u011fuk sesinle ba\u011f\u0131rmak istemedi\u011finde bu k\u00fcf\u00fcr dolu \u015fapka olduk\u00e7a i\u015fe yarar."
+        ], 
+        "type": "Hat", 
+        "description": "\u00c7AVU\u015eUN TATB\u0130KAT \u015eAPKASI"
+    }, 
+    "180": {
+        "alt": [
+            "\u00c7\u00fcnk\u00fc ger\u00e7ek casusluk bir sanatt\u0131r."
+        ], 
+        "type": "Hat", 
+        "description": "FRANSIZ BERES\u0130"
+    }, 
+    "2": {
+        "type": "YANGIN BALTASI", 
+        "description": "YANGIN BALTASI"
+    }, 
+    "184": {
+        "alt": [
+            "Di\u011fer \u015fapkalar kadar s\u00fcsl\u00fc olmasa da, kasketin kendine has bir terzilik zerafeti var. Arkada\u015flar\u0131nla bir tur golf oynuyor olsan da, kaliteli bir kemik testeresi ile se\u00e7ici olmayan operasyonlar yap\u0131yor olsan da, m\u00fctevazi ve sade \u00e7ekicili\u011fiyle herkesi etkiler."
+        ], 
+        "type": "Hat", 
+        "description": "BEYEFEND\u0130 KASKET\u0130"
+    }, 
+    "185": {
+        "alt": [
+            "Bu bandanay\u0131 12 saniye boyunca takmak tam 400.000$'a mal olur."
+        ], 
+        "type": "Hat", 
+        "description": "A\u011eIR G\u00d6REV PA\u00c7AVRASI"
+    }, 
+    "189": {
+        "alt": [
+            "Ba\u015fka bir yerde, ba\u015fka bir zamanda bu k\u00fc\u00e7\u00fck sevimli \u015fey insanl\u0131\u011f\u0131n fel\u00e2ketiydi. \u015eimdiyse kafana binip g\u00fcne\u015ften korunman\u0131 sa\u011flamakta kararl\u0131."
+        ], 
+        "type": "Hat", 
+        "description": "ALIEN SWARM PARAZ\u0130T\u0130"
+    }, 
+    "1911": {
+        "alt": [
+            "Bir Kontrol Noktas\u0131 haritas\u0131d\u0131r\r\n\r\nJamie 'Fishbus' Manson ve Mitch 'ol' Robb taraf\u0131ndan yap\u0131ld\u0131\r\n\r\nBu e\u015fyay\u0131 sat\u0131n alarak direkt olarak Freight topluluk haritas\u0131n\u0131n yap\u0131mc\u0131lar\u0131n\u0131 desteklemi\u015f olacaks\u0131n. Deste\u011fini hemen bug\u00fcn g\u00f6ster!"
+        ], 
+        "type": "HAR\u0130TA PULU", 
+        "description": "HAR\u0130TA PULU - FREIGHT"
+    }, 
+    "1910": {
+        "alt": [
+            "Bir Tepenin H\u00e2kimi haritas\u0131d\u0131r\r\n\r\nSean 'Heyo' Cutino taraf\u0131ndan yap\u0131ld\u0131\r\n\r\nBu e\u015fyay\u0131 sat\u0131n alarak direkt olarak Harvest topluluk haritas\u0131n\u0131n yap\u0131mc\u0131s\u0131n\u0131 desteklemi\u015f olacaks\u0131n. Deste\u011fini hemen bug\u00fcn g\u00f6ster!"
+        ], 
+        "type": "HAR\u0130TA PULU", 
+        "description": "HAR\u0130TA PULU - HARVEST"
+    }, 
+    "1913": {
+        "alt": [
+            "Bir Sald\u0131r\u0131/Savunma Kontrol Noktas\u0131 haritas\u0131d\u0131r\r\n\r\nTim 'YM' Johnson ve Alex 'Rexy' Kreeger taraf\u0131ndan yap\u0131ld\u0131\r\n\r\nBu e\u015fyay\u0131 sat\u0131n alarak direkt olarak Mann Manor topluluk haritas\u0131n\u0131n yap\u0131mc\u0131lar\u0131n\u0131 desteklemi\u015f olacaks\u0131n. Deste\u011fini hemen bug\u00fcn g\u00f6ster!"
+        ], 
+        "type": "HAR\u0130TA PULU", 
+        "description": "HAR\u0130TA PULU - MANN MANOR"
+    }, 
+    "1912": {
+        "alt": [
+            "Bir Sald\u0131r\u0131/Savunma Kontrol Noktas\u0131 haritas\u0131d\u0131r\r\n\r\nValentin '3DNJ' Levillain taraf\u0131ndan yap\u0131ld\u0131\r\n\r\nBu e\u015fyay\u0131 sat\u0131n alarak direkt olarak Mountain Lab topluluk haritas\u0131n\u0131n yap\u0131mc\u0131s\u0131n\u0131 desteklemi\u015f olacaks\u0131n. Deste\u011fini hemen bug\u00fcn g\u00f6ster!"
+        ], 
+        "type": "HAR\u0130TA PULU", 
+        "description": "HAR\u0130TA PULU - MOUNTAIN LAB"
+    }, 
+    "1915": {
+        "alt": [
+            "Bir Y\u00fck Vagonu haritas\u0131d\u0131r\r\n\r\nPatrick 'MangyCarface' Mulholland ve Arhurt taraf\u0131ndan yap\u0131ld\u0131\r\n\r\nBu e\u015fyay\u0131 sat\u0131n alarak direkt olarak Frontier topluluk haritas\u0131n\u0131n yap\u0131mc\u0131lar\u0131n\u0131 desteklemi\u015f olacaks\u0131n. Deste\u011fini hemen bug\u00fcn g\u00f6ster!"
+        ], 
+        "type": "HAR\u0130TA PULU", 
+        "description": "HAR\u0130TA PULU - FRONTIER"
+    }, 
+    "1914": {
+        "alt": [
+            "Bir Y\u00fck Vagonu Yar\u0131\u015f\u0131 haritas\u0131d\u0131r\r\n\r\nAaron 'Psy' Garcha ve Paul Good taraf\u0131ndan yap\u0131ld\u0131\r\n\r\nBu e\u015fyay\u0131 sat\u0131n alarak direkt olarak Nightfall topluluk haritas\u0131n\u0131n yap\u0131mc\u0131lar\u0131n\u0131 desteklemi\u015f olacaks\u0131n. Deste\u011fini hemen bug\u00fcn g\u00f6ster!"
+        ], 
+        "type": "HAR\u0130TA PULU", 
+        "description": "HAR\u0130TA PULU - NIGHTFALL"
+    }, 
+    "1916": {
+        "alt": [
+            "Bir Tepenin H\u00e2kimi haritas\u0131d\u0131r\r\n\r\nValentin '3DNJ' Levillain taraf\u0131ndan yap\u0131ld\u0131\r\n\r\nBu e\u015fyay\u0131 sat\u0131n alarak direkt olarak Lakeside topluluk haritas\u0131n\u0131n yap\u0131mc\u0131s\u0131n\u0131 desteklemi\u015f olacaks\u0131n. Deste\u011fini hemen bug\u00fcn g\u00f6ster!"
+        ], 
+        "type": "HAR\u0130TA PULU", 
+        "description": "HAR\u0130TA PULU - LAKESIDE"
+    }, 
+    "11": {
+        "type": "AV T\u00dcFE\u011e\u0130", 
+        "description": "AV T\u00dcFE\u011e\u0130"
+    }, 
+    "10": {
+        "type": "AV T\u00dcFE\u011e\u0130", 
+        "description": "AV T\u00dcFE\u011e\u0130"
+    }, 
+    "13": {
+        "type": "\u00c7\u0130FTE", 
+        "description": "\u00c7\u0130FTE"
+    }, 
+    "12": {
+        "type": "AV T\u00dcFE\u011e\u0130", 
+        "description": "AV T\u00dcFE\u011e\u0130"
+    }, 
+    "15": {
+        "type": "MINIGUN", 
+        "description": "MINIGUN"
+    }, 
+    "14": {
+        "type": "KESK\u0130N N\u0130\u015eANCI T\u00dcFE\u011e\u0130", 
+        "description": "KESK\u0130N N\u0130\u015eANCI T\u00dcFE\u011e\u0130"
+    }, 
+    "17": {
+        "type": "\u015eIRINGA S\u0130LAHI", 
+        "description": "\u015eIRINGA S\u0130LAHI"
+    }, 
+    "16": {
+        "type": "SMG", 
+        "description": "SMG"
+    }, 
+    "19": {
+        "type": "BOMBA ATAR", 
+        "description": "BOMBA ATAR"
+    }, 
+    "18": {
+        "type": "ROKETATAR", 
+        "description": "ROKETATAR"
+    }, 
+    "322": {
+        "type": "Hat", 
+        "description": "BUCKAROO \u015eAPKASI"
+    }, 
+    "323": {
+        "type": "Hat", 
+        "description": "ALMAN GONZILA'SI"
+    }, 
+    "321": {
+        "type": "Hat", 
+        "description": "MADAM DIXIE"
+    }, 
+    "326": {
+        "positive": [
+            "+25% hasar verir", 
+            "Ku\u015fanana sa\u011fl\u0131k paketlerinden +50% sa\u011fl\u0131k kazanc\u0131"
+        ], 
+        "type": "BAH\u00c7E TIRMI\u011eI", 
+        "negative": [
+            "Ku\u015fanan iyile\u015ftirenlerden -75% sa\u011fl\u0131k al\u0131r"
+        ], 
+        "description": "SIRT KA\u015eIYICI"
+    }, 
+    "327": {
+        "positive": [
+            "H\u00fccum s\u00fcresini 0.5 saniye uzat\u0131r"
+        ], 
+        "alt": [
+            "TF_Claidheamohmor_Desc"
+        ], 
+        "type": "KILI\u00c7", 
+        "negative": [
+            "Ku\u015fanana -15 azami sa\u011fl\u0131k", 
+            "Rastgele kritik vuru\u015flar yok"
+        ], 
+        "description": "ME\u015eHUR \u0130SKO\u00c7 KILICI"
+    }, 
+    "324": {
+        "type": "Hat", 
+        "description": "TERS F\u00d6TR \u015eAPKA"
+    }, 
+    "325": {
+        "positive": [
+            "\u0130sabet H\u00e2linde: 5 saniye boyunca kanat\u0131r"
+        ], 
+        "type": "SOPA", 
+        "negative": [
+            "Iska Halinde: Kendine vurursun. Gerizekal\u0131."
+        ], 
+        "description": "BOSTONLI VURUCU"
+    }, 
+    "329": {
+        "positive": [
+            "30% daha h\u0131zl\u0131 yap\u0131 kurma"
+        ], 
+        "type": "\u0130NG\u0130L\u0130Z ANAHTARI", 
+        "negative": [
+            "-25% hasar verir"
+        ], 
+        "description": "\u00c7ENT\u0130K"
+    }, 
+    "201": {
+        "type": "KESK\u0130N N\u0130\u015eANCI T\u00dcFE\u011e\u0130", 
+        "description": "KESK\u0130N N\u0130\u015eANCI T\u00dcFE\u011e\u0130"
+    }, 
+    "200": {
+        "type": "\u00c7\u0130FTE", 
+        "description": "\u00c7\u0130FTE"
+    }, 
+    "203": {
+        "type": "SMG", 
+        "description": "SMG"
+    }, 
+    "202": {
+        "type": "MINIGUN", 
+        "description": "MINIGUN"
+    }, 
+    "205": {
+        "type": "ROKETATAR", 
+        "description": "ROKETATAR"
+    }, 
+    "204": {
+        "type": "\u015eIRINGA S\u0130LAHI", 
+        "description": "\u015eIRINGA S\u0130LAHI"
+    }, 
+    "207": {
+        "type": "YAPI\u015eKAN BOMBA ATAR", 
+        "description": "YAPI\u015eKAN BOMBA ATAR"
+    }, 
+    "206": {
+        "type": "BOMBA ATAR", 
+        "description": "BOMBA ATAR"
+    }, 
+    "209": {
+        "type": "TABANCA", 
+        "description": "TABANCA"
+    }, 
+    "208": {
+        "type": "ALEV S\u0130LAHI", 
+        "description": "ALEV S\u0130LAHI"
+    }, 
+    "5500": {
+        "alt": [
+            "Bu e\u015fya sana Rift oyununda \u015fapka kazanman i\u00e7in bir kod verir. Kodu talep etmek i\u00e7in \u00e7antandan bu e\u015fyay\u0131 se\u00e7ip kullan."
+        ], 
+        "type": "TF_ClaimCode", 
+        "description": "RIFT KOZA \u015eAPKA TALEP KODU"
+    }, 
+    "8": {
+        "type": "KEM\u0130K TESTERES\u0130", 
+        "description": "KEM\u0130K TESTERES\u0130"
+    }, 
+    "120": {
+        "alt": [
+            "TF_Demo_Top_Hat_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "\u0130SKO\u00c7YALININ S\u0130L\u0130ND\u0130R \u015eAPKASI"
+    }, 
+    "121": {
+        "alt": [
+            "A\u00e7, uykusuz ve sosyal hayat\u0131n\u0131 d\u00fc\u015f\u00fcnmeden n\u00f6bet tutan birka\u00e7 cesur askere verildi."
+        ], 
+        "type": "Madalya", 
+        "description": "CENT\u0130LMEN\u0130N H\u0130ZMET MADALYASI"
+    }, 
+    "122": {
+        "alt": [
+            "Takas Edilemez"
+        ], 
+        "type": "Cheat Detector", 
+        "description": "Hesab\u0131n\u0131z, e\u015fya da\u011f\u0131t\u0131m sistemini aldatt\u0131\u011f\u0131n\u0131z i\u00e7in i\u015faretlendi. Us\u00fcls\u00fcz olarak elde etti\u011finiz e\u015fyalar\u0131n\u0131z\u0131 sildik.\r\n\r\nBir dahaki ihlaliniz t\u00fcm e\u015fyalar\u0131n\u0131z\u0131n kayb\u0131na neden olacakt\u0131r."
+    }, 
+    "123": {
+        "alt": [
+            "Takas Edilemez"
+        ], 
+        "type": "Cheat Detector", 
+        "description": "Hesab\u0131n\u0131z, e\u015fya da\u011f\u0131t\u0131m sistemini aldatt\u0131\u011f\u0131n\u0131z i\u00e7in i\u015faretlendi. \u00c7antan\u0131zdaki t\u00fcm e\u015fyalar\u0131 sildik.\r\n\r\nBir dahaki ihlaliniz, hesab\u0131n\u0131z\u0131n kilitlenmesine yol a\u00e7abilir."
+    }, 
+    "124": {
+        "alt": [
+            "Takas Edilemez"
+        ], 
+        "type": "Cheat Detector", 
+        "description": "Tebrikler! D\u00fcr\u00fcstl\u00fc\u011f\u00fcn\u00fcz yeni bir \u015fapka ile \u00f6d\u00fcllendirildi!\r\n\r\n(Baz\u0131 oyuncular ise daha dikkatsiz ve \u015fanss\u0131zd\u0131lar.)"
+    }, 
+    "125": {
+        "alt": [
+            "Baz\u0131lar\u0131 bir \u015fapka elde etmek i\u00e7in s\u0131n\u0131rlar\u0131n\u0131 unutsa da, sen kafa dekorasyonu aray\u0131\u015f\u0131nda azimli ve d\u00fcr\u00fcst davrand\u0131n. Bu nedenle \u00f6d\u00fcllendirildin.", 
+            "Efekt: %s1", 
+            "Takas Edilemez"
+        ], 
+        "type": "D\u00fcr\u00fcstl\u00fck Auras\u0131", 
+        "description": "H\u0130LEK\u00c2RIN MATEM\u0130"
+    }, 
+    "126": {
+        "alt": [
+            "Left 4 You."
+        ], 
+        "type": "EMEKTARIN BERES\u0130", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "BILL'\u0130N \u015eAPKASI"
+    }, 
+    "127": {
+        "positive": [
+            "Havadaki hedeflere mini kritik hasar verir", 
+            "+25% hasar verir", 
+            "+80% at\u0131\u015f h\u0131z\u0131"
+        ], 
+        "type": "ROKETATAR", 
+        "negative": [
+            "-70% patlama etki alan\u0131"
+        ], 
+        "description": "D\u0130REKT VURU\u015e"
+    }, 
+    "128": {
+        "positive": [
+            "Kullan\u0131c\u0131 hasar ald\u0131k\u00e7a\r\nh\u0131z\u0131 ve verece\u011fi hasar artar\r\nAktifken iyile\u015ftirilmeyi engeller"
+        ], 
+        "type": "KAZMA", 
+        "description": "DENGELEY\u0130C\u0130"
+    }, 
+    "129": {
+        "alt": [
+            "Yak\u0131n\u0131ndaki tak\u0131m arkada\u015flar\u0131na mini kritik\r\nvuru\u015f g\u00fcc\u00fc vererek sald\u0131r\u0131 deste\u011fi sa\u011flar."
+        ], 
+        "type": "SAVA\u015e SANCA\u011eI", 
+        "description": "DESTEK SANCA\u011eI"
+    }, 
+    "410": {
+        "alt": [
+            "Supporting Japanese disaster relief", 
+            "Takas Edilemez"
+        ], 
+        "type": "Hat", 
+        "description": "Magnanimous Monarch"
+    }, 
+    "other_attributes": {
+        "133": "Medal number %s1", 
+        "132": "Given to valuable Community Contributors", 
+        "143": "Hire Date: %s1", 
+        "147": "Wrench number %s1"
+    }, 
+    "319": {
+        "type": "Hat", 
+        "description": "KARA DEDEKT\u0130F"
+    }, 
+    "318": {
+        "type": "Hat", 
+        "description": "PRANCER'IN GURURU"
+    }, 
+    "313": {
+        "type": "Hat", 
+        "description": "MUHTE\u015eEM MO\u011eOL"
+    }, 
+    "312": {
+        "positive": [
+            "+20% hasar verir"
+        ], 
+        "type": "MINIGUN", 
+        "negative": [
+            "50% daha uzun namlu d\u00f6nme s\u00fcresi", 
+            "Kullan\u0131l\u0131rken -60% daha yava\u015f hareket h\u0131z\u0131"
+        ], 
+        "description": "P\u0130R\u0130N\u00c7 CANAVAR"
+    }, 
+    "311": {
+        "alt": [
+            "Etkisi alt\u0131ndayken, hareket etme h\u0131z\u0131 artar,\r\nhasar alma ve hasar verme mini kritik olur\r\nve oyuncu sadece yak\u0131n d\u00f6v\u00fc\u015f silahlar\u0131n\u0131 kullanabilir.\r\n\r\nKimin ekme\u011fe ihtiyac\u0131 var ki?", 
+            "30 saniye boyunca +50 azami sa\u011fl\u0131k verir"
+        ], 
+        "type": "BESLENME \u00c7ANTASI", 
+        "description": "B\u0130ZON B\u0130FTEKL\u0130 SANDV\u0130\u00c7"
+    }, 
+    "310": {
+        "positive": [
+            "+30% hasar verir"
+        ], 
+        "type": "BOKS ELD\u0130VENLER\u0130", 
+        "negative": [
+            "Ku\u015fanana -20 azami sa\u011fl\u0131k"
+        ], 
+        "description": "SAVA\u015e\u00c7ININ RUHU"
+    }, 
+    "317": {
+        "positive": [
+            "Her \u00f6ld\u00fcr\u00fc\u015fte: K\u00fc\u00e7\u00fck sa\u011fl\u0131k paketi d\u00fc\u015fer"
+        ], 
+        "type": "SOPA", 
+        "negative": [
+            "Ku\u015fanana 25% daha az patlay\u0131c\u0131 hasar direnci"
+        ], 
+        "description": "\u015eEKER KAMI\u015eI"
+    }, 
+    "316": {
+        "type": "Hat", 
+        "description": "ATE\u015e UZMANININ MASKES\u0130"
+    }, 
+    "315": {
+        "type": "Hat", 
+        "description": "BO\u015e GAGA"
+    }, 
+    "314": {
+        "type": "Hat", 
+        "description": "B\u0130T\u0130R\u0130M ROBIN"
+    }, 
+    "3": {
+        "type": "GURKA KAMASI", 
+        "description": "GURKA KAMASI"
+    }, 
+    "364": {
+        "alt": [
+            "%s1% hasar verir", 
+            "Takas Edilemez"
+        ], 
+        "type": "Parti K\u0131ya\u011f\u0131", 
+        "description": "Noise Maker - Gong"
+    }, 
+    "365": {
+        "alt": [
+            "%s1% hasar verir"
+        ], 
+        "type": "Parti K\u0131ya\u011f\u0131", 
+        "description": "G\u00dcR\u00dcLT\u00dcC\u00dc - KOTO"
+    }, 
+    "362": {
+        "alt": [
+            "%s1% hasar verir", 
+            "Takas Edilemez"
+        ], 
+        "type": "Parti K\u0131ya\u011f\u0131", 
+        "description": "Noise Maker - Bell"
+    }, 
+    "363": {
+        "alt": [
+            "Kurba\u011fa havuza z\u0131plar\r\nNil\u00fcfer \u00e7i\u00e7ekleri d\u00fcnyaya d\u00fc\u015fer\r\nMedic'in k\u0131z gibi sa\u00e7lar\u0131 var"
+        ], 
+        "type": "Hat", 
+        "description": "GEY\u015eA O\u011eLAN"
+    }, 
+    "360": {
+        "alt": [
+            "\u00a0"
+        ], 
+        "type": "Hat", 
+        "description": "KAHRAMANIN G\u00d6Z BANDI"
+    }, 
+    "361": {
+        "alt": [
+            "Frans\u0131z tiryaki\r\nG\u00f6lgelerde saklan\u0131r ve arkan\u0131zdan vurur\r\nMaskesi kan dondurur"
+        ], 
+        "type": "Hat", 
+        "description": "ACIMASIZ"
+    }, 
+    "381": {
+        "alt": [
+            "The men in his unit called him 'The Bavarian Butcher'"
+        ], 
+        "type": "Hat", 
+        "description": "Medic's Mountain Cap"
+    }, 
+    "382": {
+        "alt": [
+            "It'd be a damn shame to hide hair this handsome."
+        ], 
+        "type": "Hat", 
+        "description": "Big Country"
+    }, 
+    "383": {
+        "alt": [
+            "Ye hae ne'er glympsed a hatte whych be\\nas grimm as yonder hatte ye glympse upon."
+        ], 
+        "type": "Hat", 
+        "description": "Grimm Hatte"
+    }, 
+    "9003": {
+        "positive": [
+            "Bans Steam account of players killed", 
+            "This item is not real and is only a joke."
+        ], 
+        "type": "Mallet of Banishment", 
+        "description": "Ban Hammer"
+    }, 
+    "386": {
+        "alt": [
+            "A cute, plushy pocket buddy.\\nAw, he even has his own hat!"
+        ], 
+        "type": "Hat", 
+        "description": "Teddy Roosebelt"
+    }, 
+    "387": {
+        "alt": [
+            "Humorously vellicating vitreous."
+        ], 
+        "type": "Hat", 
+        "description": "Sight for Sore Eyes"
+    }, 
+    "388": {
+        "alt": [
+            "A select style for the scrutinizing sleuth."
+        ], 
+        "type": "Hat", 
+        "description": "Private Eye"
+    }, 
+    "389": {
+        "alt": [
+            "Keep one eye on your enemy and\\nthe other one on everything else."
+        ], 
+        "type": "Hat", 
+        "description": "Googly Gazer"
+    }, 
+    "384": {
+        "alt": [
+            "I think I can safely say that nobody understands quantum mechanics. Bullet mechanics? Well now that's a different thing entirely."
+        ], 
+        "type": "Hat", 
+        "description": "Professor's Peculiarity"
+    }, 
+    "60": {
+        "positive": [
+            "100% pelerin yenilenme oran\u0131"
+        ], 
+        "alt": [
+            "Pelerin Tipi: Harekete Duyarl\u0131"
+        ], 
+        "type": "G\u00d6R\u00dcNMEZL\u0130K SAAT\u0130", 
+        "description": "PELER\u0130N VE HAN\u00c7ER"
+    }, 
+    "61": {
+        "positive": [
+            "\u0130sabetli kafadan vuru\u015flar kritik hasar verir"
+        ], 
+        "type": "ALTIPATLAR", 
+        "negative": [
+            "-15% hasar verir", 
+            "-20% daha yava\u015f at\u0131\u015f h\u0131z\u0131"
+        ], 
+        "description": "EL\u00c7\u0130"
+    }, 
+    "259": {
+        "alt": [
+            "Bir taretin ya\u015fama hakk\u0131 yoktur."
+        ], 
+        "type": "Hat", 
+        "description": "AYYA\u015eIN ANT\u0130KASI"
+    }, 
+    "252": {
+        "alt": [
+            "\u00a0"
+        ], 
+        "type": "Hat", 
+        "description": "DOKTORUN \u015eIK \u015eAPKASI"
+    }, 
+    "253": {
+        "alt": [
+            "Her t\u00fcrl\u00fc t\u0131kan\u0131kl\u0131\u011f\u0131 giderir."
+        ], 
+        "type": "Hat", 
+        "description": "YAMA\u011eIN SAPI"
+    }, 
+    "250": {
+        "alt": [
+            "\u00a0"
+        ], 
+        "type": "Hat", 
+        "description": "RE\u0130S\u0130N D\u00dcELLOSU"
+    }, 
+    "251": {
+        "alt": [
+            "Viktorya d\u00f6nemi askeri\r\nmodas\u0131n\u0131n b\u00fcy\u00fck ba\u015far\u0131s\u0131."
+        ], 
+        "type": "Hat", 
+        "description": "CESUR SHAKO"
+    }, 
+    "254": {
+        "alt": [
+            "Etrafta Kavate varken asla\r\nyeteri kadar dikkatli olamazs\u0131n."
+        ], 
+        "type": "Hat", 
+        "description": "SERT KAR\u015eILIK"
+    }, 
+    "255": {
+        "alt": [
+            "Yap\u0131\u015fkan bombalarla z\u0131playanlar\u0131n en iyi arkada\u015f\u0131."
+        ], 
+        "type": "Hat", 
+        "description": "AYIK DUBL\u00d6R"
+    }, 
+    "5029": {
+        "alt": [
+            "Ba\u015fka e\u015fyalar\u0131 boyamak i\u00e7in kullan\u0131l\u0131r.", 
+            "Bunu ben yapt\u0131m!"
+        ], 
+        "type": "ARA\u00c7", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "SOYLU \u015eAPKACI'NIN MENEK\u015eE RENG\u0130"
+    }, 
+    "5028": {
+        "alt": [
+            "Ba\u015fka e\u015fyalar\u0131 boyamak i\u00e7in kullan\u0131l\u0131r.", 
+            "Bunu ben yapt\u0131m!"
+        ], 
+        "type": "ARA\u00c7", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "ZEPHANIAH'IN A\u00c7G\u00d6ZL\u00dcL\u00dc\u011e\u00dc"
+    }, 
+    "5021": {
+        "alt": [
+            "Kilitli ikmal kutular\u0131n\u0131 a\u00e7maya yarar"
+        ], 
+        "type": "ARA\u00c7", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "MANN CO. \u0130KMAL KUTUSU ANAHTARI"
+    }, 
+    "5020": {
+        "alt": [
+            "\u00c7antandaki bir e\u015fyan\u0131n ad\u0131n\u0131 de\u011fi\u015ftirir"
+        ], 
+        "type": "ARA\u00c7", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "\u0130S\u0130M ET\u0130KET\u0130"
+    }, 
+    "5023": {
+        "alt": [
+            "Ba\u015fka e\u015fyalar\u0131 boyamak i\u00e7in kullan\u0131l\u0131r.", 
+            "Bunu ben yapt\u0131m!"
+        ], 
+        "type": "ARA\u00c7", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "Boya Kutusu"
+    }, 
+    "5022": {
+        "positive": [
+            "Kutu Serisi #18"
+        ], 
+        "alt": [
+            "Bunu a\u00e7mak i\u00e7in Mann Co. \u0130kmal Kutusu Anahtar\u0131 gerekiyor.\r\nBir tanesini Mann Co. Ma\u011fazas\u0131ndan alabilirsin."
+        ], 
+        "type": "TF_LockedCrate", 
+        "description": "MANN CO. \u0130KMAL KUTUSU"
+    }, 
+    "5027": {
+        "alt": [
+            "Ba\u015fka e\u015fyalar\u0131 boyamak i\u00e7in kullan\u0131l\u0131r.", 
+            "Bunu ben yapt\u0131m!"
+        ], 
+        "type": "ARA\u00c7", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "KU\u015eKUSUZ YE\u015e\u0130L"
+    }, 
+    "169": {
+        "positive": [
+            "Kadim g\u00fc\u00e7lerle kutsanm\u0131\u015f"
+        ], 
+        "alt": [
+            "Takas Edilemez"
+        ], 
+        "type": "\u0130NG\u0130L\u0130Z ANAHTARI", 
+        "description": "ALTIN \u0130NG\u0130L\u0130Z ANAHTARI"
+    }, 
+    "164": {
+        "alt": [
+            "G\u00f6\u011fs\u00fcnde gururla ta\u015f\u0131 bunu asker. Birilerini her \u00f6ld\u00fcrd\u00fc\u011f\u00fcnde, ilk ki\u015fi olmad\u0131klar\u0131n\u0131 bilecekler.", 
+            "\u0130\u015fe Al\u0131nma Tarihi: %s1", 
+            "Takas Edilemez"
+        ], 
+        "type": "Rozet", 
+        "description": "YA\u015eLI KURT"
+    }, 
+    "165": {
+        "alt": [
+            "\u015e\u00fcphesiz ki baz\u0131lar\u0131 bu i\u015fi daha uzun s\u00fcredir yap\u0131yor. Fakat sen, \u00e7ok az\u0131n\u0131n daha iyi olabilece\u011fini kan\u0131tlad\u0131n.", 
+            "\u0130\u015fe Al\u0131nma Tarihi: %s1", 
+            "Takas Edilemez"
+        ], 
+        "type": "Rozet", 
+        "description": "PARALI ASKER"
+    }, 
+    "166": {
+        "alt": [
+            "Partiye ge\u00e7 kalsan da, partinin canl\u0131l\u0131\u011f\u0131 halen \u00fczerinde.", 
+            "\u0130\u015fe Al\u0131nma Tarihi: %s1", 
+            "Takas Edilemez"
+        ], 
+        "type": "Rozet", 
+        "description": "K\u0130RALIK KAT\u0130L"
+    }, 
+    "160": {
+        "alt": [
+            "Yar\u0131 gizlenmi\u015f silahlanmada son nokta.\r\nBu silaha ihtiyac\u0131n\u0131z oldu\u011fu kesin,\r\ntek sorun: nerede saklayacaks\u0131n\u0131z?"
+        ], 
+        "type": "TABANCA", 
+        "description": "LUGERMORPH"
+    }, 
+    "161": {
+        "alt": [
+            "Tarz ve durdurma g\u00fcc\u00fcn\u00fcn birle\u015fimi.\r\nSerbest Dedektiflere \u00f6zel bu silah,\\art\u0131k kana susam\u0131\u015f paral\u0131 askerler taraf\u0131ndan da kullan\u0131labilir."
+        ], 
+        "type": "ALTIPATLAR", 
+        "description": "BIG KILL"
+    }, 
+    "162": {
+        "alt": [
+            "Filipinler'deki zul\u00fcmden uzak tarlalardan gelen\r\nustal\u0131kla i\u015flenmi\u015f \u015fapka. \u0130\u00e7i oyulmu\u015f kafatas\u0131\r\nkaplamas\u0131, sava\u015f\u0131n s\u0131ca\u011f\u0131nda nemi al\u0131r g\u00f6t\u00fcr\u00fcr."
+        ], 
+        "type": "Hat", 
+        "description": "MAX'\u0130N KOPUK KAFASI"
+    }, 
+    "163": {
+        "alt": [
+            "Etkisi alt\u0131ndayken, alaca\u011f\u0131n ve verece\u011fin\r\nhasar mini kritik olacakt\u0131r.", 
+            "30 saniye boyunca +50 azami sa\u011fl\u0131k verir"
+        ], 
+        "type": "BESLENME \u00c7ANTASI", 
+        "description": "KR\u0130T\u0130K KOLA"
+    }, 
+    "2013": {
+        "alt": [
+            "Polycount Paketindeki ve K\u0131\u015f G\u00fcncellemesi Paketindeki b\u00fct\u00fcn e\u015fyalar\u0131 i\u00e7erir:"
+        ], 
+        "type": "E\u015fya Paketi", 
+        "description": "KELEP\u0130RC\u0130 MANNE'IN KELEP\u0130R PAKET\u0130"
+    }, 
+    "2012": {
+        "alt": [
+            "\u00c7e\u015fitli inan\u0131lmaz derecede \u015f\u0131k \u015fapkalar i\u00e7erir:"
+        ], 
+        "type": "E\u015fya Paketi", 
+        "description": "\u015eIK \u015eAPKALAR KUTUSU"
+    }, 
+    "5054": {
+        "alt": [
+            "Ba\u015fka e\u015fyalar\u0131 boyamak i\u00e7in kullan\u0131l\u0131r.", 
+            "Bunu ben yapt\u0131m!"
+        ], 
+        "type": "ARA\u00c7", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "YE\u015e\u0130L L\u0130MONUN VE YEN\u0130LG\u0130N\u0130N ACI TADI"
+    }, 
+    "5055": {
+        "alt": [
+            "Ba\u015fka e\u015fyalar\u0131 boyamak i\u00e7in kullan\u0131l\u0131r.", 
+            "Bunu ben yapt\u0131m!"
+        ], 
+        "type": "ARA\u00c7", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "BEYEFEND\u0130N\u0130N KUMA\u015e PANTOLON RENG\u0130"
+    }, 
+    "5056": {
+        "alt": [
+            "Ba\u015fka e\u015fyalar\u0131 boyamak i\u00e7in kullan\u0131l\u0131r.", 
+            "Bunu ben yapt\u0131m!"
+        ], 
+        "type": "ARA\u00c7", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "KOYU SOMON ADALETS\u0130ZL\u0130\u011e\u0130"
+    }, 
+    "5057": {
+        "alt": [
+            "Birisi bu anahtar\u0131 favori kavga \u00e7orab\u0131n\u0131n i\u00e7ine b\u0131rakm\u0131\u015f.\r\nKeyifli veya normal kutu ay\u0131rt etmeden herhangi birini a\u00e7abilir.", 
+            "Takas Edilemez"
+        ], 
+        "type": "ARA\u00c7", 
+        "description": "NOEL HED\u0130YES\u0130 ANAHTAR"
+    }, 
+    "5050": {
+        "alt": [
+            "\u00c7antana fazladan 100 yuva daha ekler!\r\n(Azami 1000 bo\u015fluk)"
+        ], 
+        "type": "ARA\u00c7", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "\u00c7ANTA GEN\u0130\u015eLET\u0130C\u0130"
+    }, 
+    "5051": {
+        "alt": [
+            "Ba\u015fka e\u015fyalar\u0131 boyamak i\u00e7in kullan\u0131l\u0131r.", 
+            "Bunu ben yapt\u0131m!"
+        ], 
+        "type": "ARA\u00c7", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "PESPEMBE"
+    }, 
+    "5052": {
+        "alt": [
+            "Ba\u015fka e\u015fyalar\u0131 boyamak i\u00e7in kullan\u0131l\u0131r.", 
+            "Bunu ben yapt\u0131m!"
+        ], 
+        "type": "ARA\u00c7", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "ARDUVAZA YAKIN B\u0130R RENK"
+    }, 
+    "5053": {
+        "alt": [
+            "Ba\u015fka e\u015fyalar\u0131 boyamak i\u00e7in kullan\u0131l\u0131r.", 
+            "Bunu ben yapt\u0131m!"
+        ], 
+        "type": "ARA\u00c7", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "ZEYT\u0130N YE\u015e\u0130L\u0130"
+    }, 
+    "9": {
+        "type": "AV T\u00dcFE\u011e\u0130", 
+        "description": "AV T\u00dcFE\u011e\u0130"
+    }, 
+    "357": {
+        "positive": [
+            "Birisini \u00f6ld\u00fcrd\u00fc\u011f\u00fcnde 100% sa\u011fl\u0131k verir.", 
+            "1% hasar verir"
+        ], 
+        "alt": [
+            "Soldier'lar ve Demo'lar\r\nKatanalar ile d\u00fcello yaparlar\r\nTek vuru\u015fluk \u00f6l\u00fcm i\u00e7in"
+        ], 
+        "type": "Katana", 
+        "negative": [
+            "Onur sembol\u00fc olan bu silah, k\u0131n\u0131ndan \u00e7\u0131kt\u0131\u011f\u0131nda birisini \u00f6ld\u00fcrmeden k\u0131n\u0131na giremez."
+        ], 
+        "description": "YARIM ZATOICHI"
+    }, 
+    "356": {
+        "positive": [
+            "Arkadan b\u0131\u00e7aklama h\u00e2linde kurban\u0131n t\u00fcm sa\u011fl\u0131\u011f\u0131n\u0131 \u00e7alar."
+        ], 
+        "alt": [
+            "D\u00fc\u015f\u00fck bir sa\u011fl\u0131kla ba\u015fla\r\nBirini bu b\u0131\u00e7akla \u00f6ld\u00fcr\r\nOnlar\u0131n sa\u011fl\u0131klar\u0131n\u0131 \u00e7al", 
+            "30 saniye boyunca +50 azami sa\u011fl\u0131k verir"
+        ], 
+        "type": "KUNAI", 
+        "negative": [
+            "Ku\u015fanana -65 azami sa\u011fl\u0131k"
+        ], 
+        "description": "\u0130\u015eB\u0130RL\u0130K\u00c7\u0130N\u0130N KUNAIS\u0130"
+    }, 
+    "355": {
+        "positive": [
+            "\u0130sabet h\u00e2linde ayn\u0131 anda tek bir hedef lanetlenir, b\u00fct\u00fcn hasarlar\u0131 mini kritik olarak al\u0131r."
+        ], 
+        "alt": [
+            "Gravel Pit'in kanatlar\u0131\r\nScout'un yelpazesiyle geliyor!\r\nSeni \u00f6lmen i\u00e7in lanetliyor"
+        ], 
+        "type": "GUNBAI", 
+        "negative": [
+            "-90% hasar verir"
+        ], 
+        "description": "HARP M\u00dcPTELASI"
+    }, 
+    "354": {
+        "alt": [
+            "Kullan\u0131ld\u0131\u011f\u0131nda baz\u0131 hasarlar\r\nYak\u0131ndaki tak\u0131m arkada\u015flar\u0131nca savu\u015fturulur\r\nSeni iyile\u015ftirmek i\u00e7in geri d\u00f6ner"
+        ], 
+        "type": "SASHIMONO", 
+        "description": "FAT\u0130H"
+    }, 
+    "359": {
+        "alt": [
+            "Tek g\u00f6zl\u00fc \u0130sko\u00e7 ayya\u015f\r\nMi\u011fferiyle sava\u015f selam\u0131 verir\r\nS\u0131zar ve sava\u015f\u0131 ka\u00e7\u0131r\u0131r"
+        ], 
+        "type": "Hat", 
+        "description": "SAMUR-AY"
+    }, 
+    "358": {
+        "alt": [
+            "M\u0131z\u0131k\u00e7\u0131lar saklan\u0131r\r\n\u015ei\u015fman adam\u0131n ortaya \u00e7\u0131k\u0131\u015f\u0131yla\r\nBerbat bir sa\u00e7 tarz\u0131yla"
+        ], 
+        "type": "Hat", 
+        "description": "SUMO D\u00dc\u011e\u00dcM\u00dc"
+    }, 
+    "216": {
+        "alt": [
+            "\u00c7\u00fcnk\u00fc 'ARR!' daki aliterasyon\r\ngibi bir aliterasyon yok!"
+        ], 
+        "type": "Hat", 
+        "description": "\u00c7ER\u00c7EVEL\u0130 YA\u011eMUR BA\u015eLI\u011eI"
+    }, 
+    "214": {
+        "positive": [
+            "Her \u00f6ld\u00fcr\u00fc\u015fte +75 sa\u011fl\u0131k kazand\u0131r\u0131r"
+        ], 
+        "type": "BALYOZ", 
+        "negative": [
+            "Aktif iken yak\u0131n d\u00f6v\u00fc\u015f sald\u0131r\u0131lar\u0131ndan +20% daha fazla hasar"
+        ], 
+        "description": "AK\u00dcL\u00dc KR\u0130KOLYOZ"
+    }, 
+    "215": {
+        "positive": [
+            "65% daha h\u0131zl\u0131 silah de\u011fi\u015ftirme"
+        ], 
+        "type": "ALEV S\u0130LAHI", 
+        "negative": [
+            "-25% yanma hasar\u0131"
+        ], 
+        "description": "YA\u011eYAKAR"
+    }, 
+    "212": {
+        "type": "G\u00d6R\u00dcNMEZL\u0130K SAAT\u0130", 
+        "description": "G\u00d6R\u00dcNMEZL\u0130K SAAT\u0130"
+    }, 
+    "213": {
+        "alt": [
+            ""
+        ], 
+        "type": "Hat", 
+        "description": "G\u00d6REVL\u0130"
+    }, 
+    "210": {
+        "type": "ALTIPATLAR", 
+        "description": "ALTIPATLAR"
+    }, 
+    "211": {
+        "type": "SIHH\u0130LAH", 
+        "description": "SIHH\u0130LAH"
+    }, 
+    "219": {
+        "alt": [
+            ""
+        ], 
+        "type": "Hat", 
+        "description": "S\u00dcT\u00c7\u00dc"
+    }, 
+    "289": {
+        "positive": [
+            "Bu \u00f6zel bir Cad\u0131lar Bayram\u0131 2010 e\u015fyas\u0131d\u0131r."
+        ], 
+        "alt": [
+            "Sadece en kaliteli deri \u015fapkalar d\u00f6vmelere ve piercing'a sahiptir."
+        ], 
+        "type": "Hat", 
+        "description": "VOODOO JUJU"
+    }, 
+    "288": {
+        "alt": [
+            "%s1% hasar verir"
+        ], 
+        "type": "Parti K\u0131ya\u011f\u0131", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "G\u00dcR\u00dcLT\u00dcC\u00dc - BI\u00c7AKLAMA ANI"
+    }, 
+    "4": {
+        "type": "BI\u00c7AK", 
+        "description": "BI\u00c7AK"
+    }, 
+    "281": {
+        "alt": [
+            "%s1% hasar verir"
+        ], 
+        "type": "Parti K\u0131ya\u011f\u0131", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "G\u00dcR\u00dcLT\u00dcC\u00dc - C\u0130N"
+    }, 
+    "280": {
+        "alt": [
+            "%s1% hasar verir"
+        ], 
+        "type": "Parti K\u0131ya\u011f\u0131", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "G\u00dcR\u00dcLT\u00dcC\u00dc - KARA KED\u0130"
+    }, 
+    "283": {
+        "alt": [
+            "%s1% hasar verir"
+        ], 
+        "type": "Parti K\u0131ya\u011f\u0131", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "G\u00dcR\u00dcLT\u00dcC\u00dc - CADI"
+    }, 
+    "282": {
+        "alt": [
+            "%s1% hasar verir"
+        ], 
+        "type": "Parti K\u0131ya\u011f\u0131", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "G\u00dcR\u00dcLT\u00dcC\u00dc - KURT ADAM"
+    }, 
+    "284": {
+        "alt": [
+            "%s1% hasar verir"
+        ], 
+        "type": "Parti K\u0131ya\u011f\u0131", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "G\u00dcR\u00dcLT\u00dcC\u00dc - \u00d6L\u00dcM PER\u0130S\u0130"
+    }, 
+    "287": {
+        "positive": [
+            "Bu \u00f6zel bir Cad\u0131lar Bayram\u0131 2010 e\u015fyas\u0131d\u0131r."
+        ], 
+        "alt": [
+            "Ya\u015fayanlara kar\u015f\u0131 \u00f6lmeyen nefretinizi g\u00f6sterin."
+        ], 
+        "type": "Hat", 
+        "description": "\u00dcRK\u00dcT\u00dcC\u00dc KURUKAFA"
+    }, 
+    "286": {
+        "alt": [
+            "%s1% hasar verir"
+        ], 
+        "type": "Parti K\u0131ya\u011f\u0131", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "G\u00dcR\u00dcLT\u00dcC\u00dc - DEL\u0130 KAHKAHASI"
+    }, 
+    "263": {
+        "alt": [
+            "TF_EllisHat_Desc"
+        ], 
+        "type": "Hat", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "ELLIS'\u0130N KEP\u0130"
+    }, 
+    "262": {
+        "alt": [
+            "Polycount yar\u0131\u015fmas\u0131na kat\u0131lanlar i\u00e7in.", 
+            "Takas Edilemez"
+        ], 
+        "type": "Rozet", 
+        "description": "POLYCOUNT BRO\u015eU"
+    }, 
+    "261": {
+        "alt": [
+            "", 
+            "Takas Edilemez"
+        ], 
+        "type": "Hat", 
+        "description": "MANN CO. KEP\u0130"
+    }, 
+    "260": {
+        "alt": [
+            "Resm\u00ee TF2 Wiki sayfas\u0131na \u00f6nemli katk\u0131larda bulunanlara verilir.\r\nhttp://wiki.teamfortress.com/"
+        ], 
+        "type": "Hat", 
+        "description": "WIKI KEP\u0130"
+    }, 
+    "267": {
+        "alt": [
+            "Bu hurda metal Horseless Headless Horsemann'den al\u0131nd\u0131. Hafif f\u0131s\u0131lt\u0131lar y\u00fckseliyor...'kelleler'..."
+        ], 
+        "type": "\u0130\u015fleme E\u015fyas\u0131", 
+        "description": "LANETL\u0130 HURDA METAL"
+    }, 
+    "266": {
+        "positive": [
+            "1% hasar verir"
+        ], 
+        "alt": [
+            "T\u0131pk\u0131 G\u00f6z Parlatan ile ya\u015fayanlara benzer\r\nkaranl\u0131k ruhlar taraf\u0131ndan lanetlenmi\u015f."
+        ], 
+        "type": "BALTA", 
+        "negative": [
+            "Ku\u015fanana -25 azami sa\u011fl\u0131k", 
+            "Rastgele kritik vuru\u015flar yok"
+        ], 
+        "description": "HORSELESS HEADLESS HORSEMANN'\u0130N KELLE ALICISI"
+    }, 
+    "265": {
+        "positive": [
+            "Ku\u015fanana +200% azami ikincil cephane", 
+            "Patlama hasar\u0131 vermez."
+        ], 
+        "alt": [
+            "Yap\u0131\u015fkan z\u0131plamas\u0131n\u0131n p\u00fcf noktalar\u0131n\u0131 ve de\u011fi\u015fik \u00e7e\u015fitlerini \u00f6\u011frenmek i\u00e7in hasar vermeyen \u00f6zel yap\u0131\u015fkan bomba silah\u0131."
+        ], 
+        "type": "Tf_Weapon_Pipebomblauncher", 
+        "negative": [
+            "Ku\u015fanana 100% daha az alev hasar direnci", 
+            "Ku\u015fanana 100% daha az patlay\u0131c\u0131 hasar direnci", 
+            "-100% hasar verir", 
+            "Ku\u015fanana 100% daha az mermi hasar direnci"
+        ], 
+        "description": "YAPI\u015eKAN ZIPLATICISI"
+    }, 
+    "264": {
+        "type": "TAVA", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "KIZARTMA TAVASI"
+    }, 
+    "269": {
+        "alt": [
+            "TF_Halloween_Mask_Sniper_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "SNIPER MASKES\u0130"
+    }, 
+    "268": {
+        "alt": [
+            "TF_Halloween_Mask_Scout_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "SCOUT MASKES\u0130"
+    }, 
+    "59": {
+        "positive": [
+            "80% pelerin yenilenme oran\u0131"
+        ], 
+        "alt": [
+            "Pelerin Tipi: Sahte \u00d6l\u00fcm"
+        ], 
+        "type": "G\u00d6R\u00dcNMEZL\u0130K SAAT\u0130", 
+        "negative": [
+            "+60% pelerin t\u00fcketim oran\u0131"
+        ], 
+        "description": "KUSURSUZ KOPYA"
+    }, 
+    "58": {
+        "alt": [
+            "Islanan d\u00fc\u015fmanlar mini kritik hasar al\u0131rlar\r\nAte\u015f s\u00f6nd\u00fcrmek i\u00e7in de kullan\u0131l\u0131r"
+        ], 
+        "type": "KAVANOZ BAZLI KARATE", 
+        "description": "KAVATE"
+    }, 
+    "55": {
+        "alt": [
+            "Bu p\u00fcr\u00fczs\u00fcz, yumu\u015fak ve ipek astarl\u0131 par\u00e7a, amat\u00f6r casusu bile yetenekli bir suikast\u00e7iye d\u00f6n\u00fc\u015ft\u00fcrebilir."
+        ], 
+        "type": "Hat", 
+        "description": "\u015eIK F\u00d6TR \u015eAPKA"
+    }, 
+    "54": {
+        "alt": [
+            "Bu \u015fapka hi\u00e7bir \u015fekilde veya ko\u015fulda kumar oynamay\u0131 veya sigara i\u00e7meyi desteklemez."
+        ], 
+        "type": "Hat", 
+        "description": "SOLDIER'IN ZULASI"
+    }, 
+    "57": {
+        "positive": [
+            "Arkadan b\u0131\u00e7aklama giri\u015fimini tek seferli\u011fine engeller"
+        ], 
+        "type": "KALKAN", 
+        "description": "J\u0130LETSIRT"
+    }, 
+    "56": {
+        "type": "YAY", 
+        "description": "AVCI"
+    }, 
+    "51": {
+        "alt": [
+            "TF_Pyro_Hat_1_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "PYRO'NUN BERES\u0130"
+    }, 
+    "50": {
+        "alt": [
+            "Ba\u015fka bir sava\u015ftan getirilen bir yadigar.\r\nD\u00fc\u015fman\u0131n bunu anlayacakt\u0131r."
+        ], 
+        "type": "Hat", 
+        "description": "PRUSYA ORDU TOLGASI"
+    }, 
+    "53": {
+        "alt": [
+            "\u00d6l\u00fc bir timsah\u0131n di\u015fini bir ahmak bile kopartabilir.\r\nGer\u00e7ek erkekler canl\u0131s\u0131ndan kopart\u0131r."
+        ], 
+        "type": "Hat", 
+        "description": "TROPHY KEMER\u0130"
+    }, 
+    "52": {
+        "alt": [
+            "Bu k\u0131rm\u0131z\u0131 plastik par\u00e7as\u0131n\u0131 takt\u0131ktan sonra d\u00fc\u015fmanlar\u0131n\u0131n kafalar\u0131n\u0131 k\u0131r\u0131yor olacaks\u0131n!"
+        ], 
+        "type": "Hat", 
+        "description": "VURUCUNUN KASKI"
+    }, 
+    "5010": {
+        "alt": [
+            "S\u0131n\u0131f\u0131 form\u00fcllerde belirtmek i\u00e7in kullan\u0131l\u0131r"
+        ], 
+        "type": "\u0130\u015fleme E\u015fyas\u0131", 
+        "description": "SINIF F\u0130\u015e\u0130 - SPY"
+    }, 
+    "5011": {
+        "alt": [
+            "S\u0131n\u0131f\u0131 form\u00fcllerde belirtmek i\u00e7in kullan\u0131l\u0131r"
+        ], 
+        "type": "\u0130\u015fleme E\u015fyas\u0131", 
+        "description": "SINIF F\u0130\u015e\u0130 - ENGINEER"
+    }, 
+    "5012": {
+        "alt": [
+            "Ekipman yuvas\u0131n\u0131 form\u00fcllerde belirtmek i\u00e7in kullan\u0131l\u0131r"
+        ], 
+        "type": "\u0130\u015fleme E\u015fyas\u0131", 
+        "description": "YUVA F\u0130\u015e\u0130 - B\u0130R\u0130NC\u0130L"
+    }, 
+    "5013": {
+        "alt": [
+            "Ekipman yuvas\u0131n\u0131 form\u00fcllerde belirtmek i\u00e7in kullan\u0131l\u0131r"
+        ], 
+        "type": "\u0130\u015fleme E\u015fyas\u0131", 
+        "description": "YUVA F\u0130\u015e\u0130 - \u0130K\u0130NC\u0130L"
+    }, 
+    "5014": {
+        "alt": [
+            "Ekipman yuvas\u0131n\u0131 form\u00fcllerde belirtmek i\u00e7in kullan\u0131l\u0131r"
+        ], 
+        "type": "\u0130\u015fleme E\u015fyas\u0131", 
+        "description": "YUVA F\u0130\u015e\u0130 - YAKIN D\u00d6V\u00dc\u015e"
+    }, 
+    "5018": {
+        "alt": [
+            "Ekipman yuvas\u0131n\u0131 form\u00fcllerde belirtmek i\u00e7in kullan\u0131l\u0131r"
+        ], 
+        "type": "\u0130\u015fleme E\u015fyas\u0131", 
+        "description": "YUVA F\u0130\u015e\u0130 - PDA2"
+    }, 
+    "115": {
+        "alt": [
+            "Kahverengi ka\u011f\u0131t hi\u00e7 bu kadar hafif rahats\u0131z edici g\u00f6z\u00fckmemi\u015fti.", 
+            "Takas Edilemez"
+        ], 
+        "type": "Bayram \u015eapkas\u0131", 
+        "description": "HAF\u0130F RAHATSIZ ED\u0130C\u0130 CADILAR BAYRAMI MASKES\u0130"
+    }, 
+    "117": {
+        "alt": [
+            "Kur\u015funu yak\u0131nd\u0131.\r\n\u015eapkam\u0131 kaybettim.\r\nBenim kur\u015funum daha yak\u0131nd\u0131.\r\nKafas\u0131n\u0131 kaybetti."
+        ], 
+        "type": "Hat", 
+        "description": "RITZY RICK'\u0130N SA\u00c7 F\u0130KSAT\u0130F\u0130"
+    }, 
+    "116": {
+        "positive": [
+            "Bu \u00f6zel bir Cad\u0131lar Bayram\u0131 2009 e\u015fyas\u0131d\u0131r."
+        ], 
+        "alt": [
+            "Daha da korkun\u00e7."
+        ], 
+        "type": "Hat", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "DAHA KORKUN\u00c7 KAMBUR \u015eAPKA"
+    }, 
+    "111": {
+        "alt": [
+            "S\u00fcratin bir Scout'\u0131n en iyi dostu oldu\u011funu herkes bilir. Ses duvar\u0131n\u0131 a\u015fabilmek varken, neden iri \u015fapkalar ile kendini a\u011f\u0131rla\u015ft\u0131ras\u0131n ki?"
+        ], 
+        "type": "Hat", 
+        "description": "BEYZBOLCU BILL'\u0130N SPORT\u0130F BA\u015eARILARI"
+    }, 
+    "110": {
+        "alt": [
+            "Bir zamanlar beyaz olmas\u0131na ra\u011fmen \u00e7ok s\u0131k\u0131 e\u011fitimlerde \u00e7ekilen cefalarla sararm\u0131\u015f olan bu bandanay\u0131 sadece Kavate ustalar\u0131 takabilir."
+        ], 
+        "type": "Hat", 
+        "description": "USTANIN SARI KU\u015eA\u011eI"
+    }, 
+    "118": {
+        "alt": [
+            "Bazen ihtiyac\u0131n olan \u015fey biraz daha az \u015fapkad\u0131r."
+        ], 
+        "type": "Hat", 
+        "description": "TEKSASLI SISKANIN PARLAK KEL\u0130"
+    }, 
+    "420": {
+        "alt": [
+            "[ redacted ]"
+        ], 
+        "type": "Hat", 
+        "description": "[ classified ]"
+    }, 
+    "422": {
+        "type": "Rozet", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "Resurrection Associate Pin"
+    }, 
+    "308": {
+        "positive": [
+            "+25% at\u0131\u015f h\u0131z\u0131", 
+            "+20% hasar verir"
+        ], 
+        "type": "BOMBA ATAR", 
+        "negative": [
+            "Kendine +25% daha fazla hasar", 
+            "F\u0131rlat\u0131lm\u0131\u015f bombalar y\u00fczeye \u00e7arpt\u0131\u011f\u0131nda par\u00e7alan\u0131r", 
+            "-60% \u015farj\u00f6r boyutu"
+        ], 
+        "description": "\u0130SKO\u00c7 CANAVARI"
+    }, 
+    "309": {
+        "alt": [
+            "\u00a0"
+        ], 
+        "type": "Hat", 
+        "description": "B\u00dcY\u00dcK \u015eEF"
+    }, 
+    "303": {
+        "alt": [
+            "\u00a0"
+        ], 
+        "type": "Hat", 
+        "description": "BERL\u0130NL\u0130'N\u0130N KOVA KASKI"
+    }, 
+    "304": {
+        "positive": [
+            "Alay hareketi: Yak\u0131ndaki tak\u0131m arkada\u015flar\u0131n\u0131n t\u00fcm\u00fcn\u00fc iyile\u015ftirir"
+        ], 
+        "alt": [
+            "30 saniye boyunca +50 azami sa\u011fl\u0131k verir"
+        ], 
+        "type": "KEM\u0130K TESTERES\u0130", 
+        "description": "CERRAH"
+    }, 
+    "305": {
+        "positive": [
+            "Mesafeye g\u00f6re de\u011fi\u015fken hasar veren ve tak\u0131m arkada\u015flar\u0131n\u0131 iyile\u015ftiren \u00f6zel oklar atar"
+        ], 
+        "type": "ARBALET", 
+        "negative": [
+            "Ku\u015fanana -75% azami birincil cephane", 
+            "Kafadan vuru\u015f yapamaz"
+        ], 
+        "description": "AKINCININ ARBALET\u0130"
+    }, 
+    "306": {
+        "alt": [
+            "TF_ScotchBonnet_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "\u0130SKO\u00c7 BONES\u0130"
+    }, 
+    "307": {
+        "alt": [
+            "Y\u00fcksek verimli \u0130sko\u00e7 surat da\u011f\u0131t\u0131c\u0131.\r\nAy\u0131k bir ki\u015fi bunu f\u0131rlat\u0131rd\u0131..."
+        ], 
+        "type": "\u00c7UBUK BOMBA", 
+        "negative": [
+            "Rastgele kritik vuru\u015flar yok"
+        ], 
+        "description": "ULLAPOOL OYUN SIRI\u011eI"
+    }, 
+    "229": {
+        "alt": [
+            ""
+        ], 
+        "type": "Hat", 
+        "description": "ESK\u0130 VE \u00c7\u00dcR\u00dcK D\u0130\u015e"
+    }, 
+    "228": {
+        "positive": [
+            "\u0130sabet H\u00e2linde: +15 sa\u011fl\u0131k"
+        ], 
+        "type": "ROKETATAR", 
+        "negative": [
+            "-25% \u015farj\u00f6r boyutu"
+        ], 
+        "description": "KARA KUTU"
+    }, 
+    "227": {
+        "alt": [
+            ""
+        ], 
+        "type": "Hat", 
+        "description": "HUMBARACININ KEP\u0130"
+    }, 
+    "226": {
+        "alt": [
+            "Tak\u0131m arkada\u015flar\u0131n\u0131 kritik vuru\u015flardan koruyan\r\ndefansif bir destek sa\u011flar\r\nve al\u0131nan hasar\u0131 %35 azalt\u0131r.\r\n\u00d6fke hasar al\u0131nd\u0131k\u00e7a artar."
+        ], 
+        "type": "SAVA\u015e SANCA\u011eI", 
+        "description": "T\u00dcMEN DESTE\u011e\u0130"
+    }, 
+    "225": {
+        "positive": [
+            "Arkadan b\u0131\u00e7aklad\u0131\u011f\u0131n kurban\u0131n\u0131n an\u0131nda k\u0131l\u0131\u011f\u0131na girersin", 
+            "Bu silah sessiz bir katildir"
+        ], 
+        "alt": [
+            "30 saniye boyunca +50 azami sa\u011fl\u0131k verir"
+        ], 
+        "type": "BI\u00c7AK", 
+        "negative": [
+            "Ku\u015fanan k\u0131l\u0131k de\u011fi\u015ftiremez"
+        ], 
+        "description": "EBED\u0130 \u00d6D\u00dcL\u00dcN"
+    }, 
+    "224": {
+        "positive": [
+            "\u0130sabet h\u00e2linde +15 pelerin"
+        ], 
+        "type": "ALTIPATLAR", 
+        "negative": [
+            "-20% hasar verir"
+        ], 
+        "description": "YABANCI"
+    }, 
+    "223": {
+        "alt": [
+            ""
+        ], 
+        "type": "Hat", 
+        "description": "TANIDIK FES"
+    }, 
+    "222": {
+        "alt": [
+            "Oyuncular, \u00fczerine s\u00fct d\u00f6k\u00fclm\u00fc\u015f d\u00fc\u015fmana\r\nverdikleri hasar\u0131n %60'\u0131n\u0131 sa\u011fl\u0131k olarak al\u0131rlar."
+        ], 
+        "type": "S\u00dcT OLMAYAN B\u0130R \u015eEY", 
+        "description": "BOZUK S\u00dcT"
+    }, 
+    "221": {
+        "alt": [
+            "Bir bal\u0131ktan dayak yemek utan\u00e7 verici olmal\u0131."
+        ], 
+        "type": "BALIK", 
+        "description": "KUTSAL PALAMUT"
+    }, 
+    "220": {
+        "alt": [
+            "Mann Co.'nun sert tutumlu hareket\r\nbozucu ki\u015fisel savunma i\u00e7in son \u00fcr\u00fcn\u00fc."
+        ], 
+        "type": "B\u0130BER S\u0130LAHI", 
+        "description": "KISA FREN"
+    }, 
+    "151": {
+        "alt": [
+            "En az\u0131ndan hala bir \u015feyleri yakman\u0131 s\u00f6yl\u00fcyor."
+        ], 
+        "type": "Hat", 
+        "description": "TRIBONIOPHORUS TYRANNUS"
+    }, 
+    "150": {
+        "alt": [
+            "Do\u011fruca kontrol noktas\u0131ndan uza\u011fa."
+        ], 
+        "type": "Hat", 
+        "description": "BA\u015e BELASININ RAP\u00c7\u0130 BERES\u0130"
+    }, 
+    "153": {
+        "positive": [
+            "Elektro Bozucular\u0131 k\u0131rar", 
+            "Yap\u0131lara kar\u015f\u0131 100% hasar"
+        ], 
+        "type": "BALYOZ", 
+        "negative": [
+            "Oyunculara kar\u015f\u0131 -25% hasar"
+        ], 
+        "description": "YUVAYIKAN"
+    }, 
+    "152": {
+        "alt": [
+            "Sava\u015f i\u00e7in bir haiku.\r\nD\u00fc\u015fman\u0131n\u0131 yenmek i\u00e7in.\r\nKroketini onurland\u0131rmak i\u00e7in."
+        ], 
+        "type": "Hat", 
+        "description": "KAT\u0130L\u0130N SAMURAY TOLGASI"
+    }, 
+    "155": {
+        "positive": [
+            "\u0130sabet H\u00e2linde: 5 saniye boyunca kanat\u0131r"
+        ], 
+        "type": "\u0130NG\u0130L\u0130Z ANAHTARI", 
+        "negative": [
+            "Rastgele kritik vuru\u015flar yok", 
+            "Ku\u015fanana 20% daha az alev hasar direnci"
+        ], 
+        "description": "G\u00dcNEY M\u0130SAF\u0130RPERVERL\u0130\u011e\u0130"
+    }, 
+    "154": {
+        "positive": [
+            "Ku\u015fanana +1 ele ge\u00e7irme h\u0131z\u0131 sa\u011flar"
+        ], 
+        "type": "DERME \u00c7ATMA SOPA", 
+        "negative": [
+            "Ku\u015fanana 10% daha az mermi hasar direnci"
+        ], 
+        "description": "ACI DENEY\u0130M"
+    }, 
+    "159": {
+        "positive": [
+            "30 saniye boyunca +50 azami sa\u011fl\u0131k verir"
+        ], 
+        "type": "BESLENME \u00c7ANTASI", 
+        "description": "DALOKOH \u00c7\u0130KOLATASI"
+    }, 
+    "158": {
+        "alt": [
+            "Ta\u015fray\u0131 ve insanlar\u0131n kafas\u0131n\u0131n i\u00e7ini incelemek i\u00e7in m\u00fckemmel."
+        ], 
+        "type": "Hat", 
+        "description": "AVCININ SAFAR\u0130 \u015eAPKASI"
+    }, 
+    "1899": {
+        "alt": [
+            "Topluluk haritas\u0131 yap\u0131mc\u0131lar\u0131na ba\u011f\u0131\u015fta bulunan c\u00f6mert ruhlara verilir. Efekt sadece ba\u011f\u0131\u015f yap\u0131lan haritan\u0131n kendisinde oynan\u0131rken g\u00f6r\u00fclebilir!", 
+            "Efekt: %s1", 
+            "Takas Edilemez"
+        ], 
+        "type": "Hat", 
+        "description": "D\u00dcNYA GEZG\u0130N\u0130N\u0130N \u015eAPKASI"
+    }, 
+    "48": {
+        "alt": [
+            "Parlak fikirleri olan M\u00fchendisler i\u00e7in."
+        ], 
+        "type": "Hat", 
+        "description": "MADENC\u0130L\u0130K KASKI"
+    }, 
+    "49": {
+        "alt": [
+            "TF_Heavy_Hat_1_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "AMER\u0130KAN FUTBOLU KASKI"
+    }, 
+    "46": {
+        "type": "BESLENME \u00c7ANTASI", 
+        "description": "BONK! ATOM\u0130K KUVVET"
+    }, 
+    "47": {
+        "alt": [
+            "TF_Demo_Hat_1_Desc"
+        ], 
+        "type": "Hat", 
+        "description": "DEMOMAN'\u0130N AFROSU"
+    }, 
+    "44": {
+        "positive": [
+            "Bu sopa sersemletici toplar atar"
+        ], 
+        "type": "SOPA", 
+        "negative": [
+            "Ku\u015fanana -15 azami sa\u011fl\u0131k"
+        ], 
+        "description": "UYKU PER\u0130S\u0130"
+    }, 
+    "45": {
+        "positive": [
+            "Hedefi ve vuran\u0131 geri teptirir", 
+            "+50% daha h\u0131zl\u0131 ate\u015fleme", 
+            "Her at\u0131\u015fta +20% mermi"
+        ], 
+        "type": "\u00c7\u0130FTE", 
+        "negative": [
+            "-60% \u015farj\u00f6r boyutu", 
+            "-10% hasar verir"
+        ], 
+        "description": "KONTROLS\u00dcZ G\u00dc\u00c7"
+    }, 
+    "42": {
+        "type": "BESLENME \u00c7ANTASI", 
+        "description": "SANDV\u0130\u00c7"
+    }, 
+    "43": {
+        "positive": [
+            "Her \u00f6ld\u00fcr\u00fc\u015fte: 5 saniye boyunca kritik vuru\u015flar"
+        ], 
+        "type": "BOKS ELD\u0130VENLER\u0130", 
+        "negative": [
+            "-20% daha yava\u015f at\u0131\u015f h\u0131z\u0131"
+        ], 
+        "description": "K\u0130TLE GEBERT\u0130C\u0130 BOKS ELD\u0130VENLER\u0130"
+    }, 
+    "40": {
+        "positive": [
+            "+10% hasar verir", 
+            "Arkadan vuru\u015flarda kritik hasar verir"
+        ], 
+        "type": "ALEV S\u0130LAHI", 
+        "negative": [
+            "+150% bas\u0131n\u00e7l\u0131 hava patlamas\u0131 maliyeti", 
+            "Rastgele kritik vuru\u015flar yok"
+        ], 
+        "description": "SIRTYAKAR"
+    }, 
+    "41": {
+        "positive": [
+            "\u0130sabet H\u00e2linde: d\u00fc\u015fman hedefi 100% oran\u0131nda yava\u015flat\u0131r"
+        ], 
+        "alt": [
+            "30 saniye boyunca +50 azami sa\u011fl\u0131k verir"
+        ], 
+        "type": "MINIGUN", 
+        "negative": [
+            "-25% hasar verir", 
+            "30% daha uzun namlu d\u00f6nme s\u00fcresi"
+        ], 
+        "description": "NATASCHA"
+    }, 
+    "5": {
+        "type": "YUMRUK", 
+        "description": "YUMRUK"
+    }, 
+    "5049": {
+        "alt": [
+            "Kilitli ikmal kutular\u0131n\u0131 a\u00e7maya yarar"
+        ], 
+        "type": "ARA\u00c7", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "MANN CO. \u0130KMAL KUTUSU ANAHTARI"
+    }, 
+    "5048": {
+        "positive": [
+            "Kutu Serisi #6"
+        ], 
+        "alt": [
+            "Bu kutu ola\u011fand\u0131\u015f\u0131 derecede keyifli.\r\n\u0130\u00e7eri\u011fi bilinmiyor ve normal\r\nanahtarlar kilidine uymuyor.\r\n\r\nSaklasan iyi edersin.\r\nMuhtemelen daha sonra a\u00e7man\u0131n bir yolu olacak."
+        ], 
+        "type": "TF_LockedCrate", 
+        "description": "KEY\u0130FL\u0130 KI\u015e KUTUSU"
+    }, 
+    "5046": {
+        "alt": [
+            "E\u015fyalar\u0131n\u0131 mevcut tak\u0131m\u0131n\u0131n rengine boyar.", 
+            "Bunu ben yapt\u0131m!"
+        ], 
+        "type": "ARA\u00c7", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "TAKIM RUHU"
+    }, 
+    "5045": {
+        "positive": [
+            "Kutu Serisi #16"
+        ], 
+        "alt": [
+            "Bunu a\u00e7mak i\u00e7in Mann Co. \u0130kmal Kutusu Anahtar\u0131 gerekiyor.\r\nBir tanesini Mann Co. Ma\u011fazas\u0131ndan alabilirsin."
+        ], 
+        "type": "TF_LockedCrate", 
+        "description": "MANN CO. \u0130KMAL KUTUSU"
+    }, 
+    "5044": {
+        "alt": [
+            "\u00c7antandaki bir e\u015fyan\u0131n a\u00e7\u0131klamas\u0131n\u0131 de\u011fi\u015ftirir"
+        ], 
+        "type": "ARA\u00c7", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "A\u00c7IKLAMA ET\u0130KET\u0130"
+    }, 
+    "5043": {
+        "alt": [
+            "Bu e\u015fya paketlenmi\u015f bir hediye. E\u011fer sen paketlediysen birisine hediye edebilirsin veya sana hediye edildiyse onu a\u00e7abilirsin!"
+        ], 
+        "type": "TF_GIFT", 
+        "description": "\u00d6ZENLE PAKETLENM\u0130\u015e B\u0130R HED\u0130YE"
+    }, 
+    "5042": {
+        "alt": [
+            "TF_Tool_GiftWrap_Desc"
+        ], 
+        "type": "ARA\u00c7", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "TF_Tool_GiftWrap"
+    }, 
+    "5041": {
+        "positive": [
+            "Kutu Serisi #17"
+        ], 
+        "alt": [
+            "Bunu a\u00e7mak i\u00e7in Mann Co. \u0130kmal Kutusu Anahtar\u0131 gerekiyor.\r\nBir tanesini Mann Co. Ma\u011fazas\u0131ndan alabilirsin."
+        ], 
+        "type": "TF_LockedCrate", 
+        "description": "MANN CO. \u0130KMAL KUTUSU"
+    }, 
+    "5040": {
+        "alt": [
+            "Ba\u015fka e\u015fyalar\u0131 boyamak i\u00e7in kullan\u0131l\u0131r.", 
+            "Bunu ben yapt\u0131m!"
+        ], 
+        "type": "ARA\u00c7", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "BEL\u0130RG\u0130N RENK EKS\u0130KL\u0130\u011e\u0130"
+    }, 
+    "2002": {
+        "alt": [
+            "T\u00fcm Polycount Soldier e\u015fyalar\u0131n\u0131 i\u00e7erir:"
+        ], 
+        "type": "E\u015fya Paketi", 
+        "description": "TANK AVCISI"
+    }, 
+    "2003": {
+        "alt": [
+            "T\u00fcm Polycount Sniper e\u015fyalar\u0131n\u0131 i\u00e7erir:"
+        ], 
+        "type": "E\u015fya Paketi", 
+        "description": "CROC-O-STYLE K\u0130T\u0130"
+    }, 
+    "2000": {
+        "alt": [
+            "T\u00fcm Polycount Pyro e\u015fyalar\u0131n\u0131 i\u00e7erir:"
+        ], 
+        "type": "E\u015fya Paketi", 
+        "description": "Gaz Jokeyinin Te\u00e7hizat\u0131"
+    }, 
+    "2001": {
+        "alt": [
+            "T\u00fcm Polycount Spy e\u015fyalar\u0131n\u0131 i\u00e7erir:"
+        ], 
+        "type": "E\u015fya Paketi", 
+        "description": "SAHARA CASUSU"
+    }, 
+    "2006": {
+        "alt": [
+            "Her bir Cad\u0131lar Bayram\u0131 G\u00fcr\u00fclt\u00fcc\u00fc's\u00fcnden i\u00e7erir. Her G\u00fcr\u00fclt\u00fcc\u00fc'de 25 hak bulunur."
+        ], 
+        "type": "E\u015fya Paketi", 
+        "negative": [
+            "1% hasar verir"
+        ], 
+        "description": "G\u00dcR\u00dcLT\u00dcC\u00dc PAKET\u0130"
+    }, 
+    "2007": {
+        "alt": [
+            "Her topluluk \u00fcretimi harita i\u00e7in bir pul i\u00e7erir."
+        ], 
+        "type": "E\u015fya Paketi", 
+        "description": "HAR\u0130TA PULU KOLEKS\u0130YONU"
+    }, 
+    "2004": {
+        "alt": [
+            "T\u00fcm Polycount Scout e\u015fyalar\u0131n\u0131 i\u00e7erir:"
+        ], 
+        "type": "E\u015fya Paketi", 
+        "description": "\u00d6ZEL TESL\u0130MAT"
+    }, 
+    "2005": {
+        "alt": [
+            "Polycount Yar\u0131\u015fmas\u0131'n\u0131 kazanan t\u00fcm e\u015fyalar\u0131 i\u00e7erir:"
+        ], 
+        "type": "E\u015fya Paketi", 
+        "description": "POLYCOUNT PAKET\u0130"
+    }, 
+    "2008": {
+        "alt": [
+            "Orta \u00c7a\u011f temal\u0131 Medic e\u015fyalar\u0131n\u0131 i\u00e7erir:"
+        ], 
+        "type": "E\u015fya Paketi", 
+        "description": "Orta \u00c7a\u011f Doktoru"
+    }, 
+    "2009": {
+        "alt": [
+            "Heavy e\u015fyalar\u0131 i\u00e7erir:"
+        ], 
+        "type": "E\u015fya Paketi", 
+        "description": "KI\u015e UYKUSUNDAK\u0130 AYI"
+    }
+}

@@ -1,4 +1,4 @@
-# $ANTLR 3.1.1 ST.g 2010-07-21 14:06:53
+# $ANTLR 3.1.3 Mar 18, 2009 10:09:25 ST.g 2011-04-27 15:06:19
 
 import sys
 from antlr3 import *
@@ -27,13 +27,14 @@ STRING=4
 class STLexer(Lexer):
 
     grammarFileName = "ST.g"
-    antlr_version = version_str_to_tuple("3.1.1")
-    antlr_version_str = "3.1.1"
+    antlr_version = version_str_to_tuple("3.1.3 Mar 18, 2009 10:09:25")
+    antlr_version_str = "3.1.3 Mar 18, 2009 10:09:25"
 
     def __init__(self, input=None, state=None):
         if state is None:
             state = RecognizerSharedState()
-        Lexer.__init__(self, input, state)
+        super(STLexer, self).__init__(input, state)
+
 
         self.dfa8 = self.DFA8(
             self, 8,
@@ -157,14 +158,14 @@ class STLexer(Lexer):
     def mEscapeSequence(self, ):
 
         try:
-            # ST.g:59:5: ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\\\"' | '\\'' | '\\\\' | ' ' | 'C' ) | UnicodeEscape )
+            # ST.g:59:5: ( '\\\\' ( 'B' | 'b' | 't' | 'n' | 'f' | 'r' | '\\\"' | '\\'' | '\\\\' | ' ' | 'C' | 'D' | 'i' | 'N' | 'A' | 'P' | 'M' | 'a' ) | UnicodeEscape )
             alt1 = 2
             LA1_0 = self.input.LA(1)
 
             if (LA1_0 == 92) :
                 LA1_1 = self.input.LA(2)
 
-                if (LA1_1 == 32 or LA1_1 == 34 or LA1_1 == 39 or LA1_1 == 67 or LA1_1 == 92 or LA1_1 == 98 or LA1_1 == 102 or LA1_1 == 110 or LA1_1 == 114 or LA1_1 == 116) :
+                if (LA1_1 == 32 or LA1_1 == 34 or LA1_1 == 39 or (65 <= LA1_1 <= 68) or (77 <= LA1_1 <= 78) or LA1_1 == 80 or LA1_1 == 92 or (97 <= LA1_1 <= 98) or LA1_1 == 102 or LA1_1 == 105 or LA1_1 == 110 or LA1_1 == 114 or LA1_1 == 116) :
                     alt1 = 1
                 elif (LA1_1 == 117) :
                     alt1 = 2
@@ -179,10 +180,10 @@ class STLexer(Lexer):
                 raise nvae
 
             if alt1 == 1:
-                # ST.g:59:9: '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | '\\\"' | '\\'' | '\\\\' | ' ' | 'C' )
+                # ST.g:59:9: '\\\\' ( 'B' | 'b' | 't' | 'n' | 'f' | 'r' | '\\\"' | '\\'' | '\\\\' | ' ' | 'C' | 'D' | 'i' | 'N' | 'A' | 'P' | 'M' | 'a' )
                 pass 
                 self.match(92)
-                if self.input.LA(1) == 32 or self.input.LA(1) == 34 or self.input.LA(1) == 39 or self.input.LA(1) == 67 or self.input.LA(1) == 92 or self.input.LA(1) == 98 or self.input.LA(1) == 102 or self.input.LA(1) == 110 or self.input.LA(1) == 114 or self.input.LA(1) == 116:
+                if self.input.LA(1) == 32 or self.input.LA(1) == 34 or self.input.LA(1) == 39 or (65 <= self.input.LA(1) <= 68) or (77 <= self.input.LA(1) <= 78) or self.input.LA(1) == 80 or self.input.LA(1) == 92 or (97 <= self.input.LA(1) <= 98) or self.input.LA(1) == 102 or self.input.LA(1) == 105 or self.input.LA(1) == 110 or self.input.LA(1) == 114 or self.input.LA(1) == 116:
                     self.input.consume()
                 else:
                     mse = MismatchedSetException(None, self.input)
@@ -320,7 +321,7 @@ class STLexer(Lexer):
             elif alt2 == 6:
                 # ST.g:73:44: '\\ n'
                 pass 
-                self.match("\ n")
+                self.match(" n")
 
 
 
@@ -383,8 +384,6 @@ class STLexer(Lexer):
 
                 else:
                     break #loop3
-
-
             self.match(34)
 
 
@@ -437,8 +436,6 @@ class STLexer(Lexer):
 
                 else:
                     break #loop4
-
-
             self.match("*/")
             #action start
             _channel=HIDDEN;
@@ -504,8 +501,6 @@ class STLexer(Lexer):
 
                     else:
                         break #loop5
-
-
                 #action start
                 _channel=HIDDEN;
                 #action end
@@ -532,8 +527,6 @@ class STLexer(Lexer):
 
                     else:
                         break #loop6
-
-
                 #action start
                 _channel=HIDDEN;
                 #action end
@@ -677,7 +670,10 @@ class STLexer(Lexer):
 
     # class definition for DFA #8
 
-    DFA8 = DFA
+    class DFA8(DFA):
+        pass
+
+
  
 
 

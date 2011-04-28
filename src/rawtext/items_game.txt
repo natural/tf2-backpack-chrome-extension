@@ -565,13 +565,13 @@
 			"image_inventory_size_h"		"82"
 			"model_player"	"models/weapons/w_models/w_stickybomb_launcher.mdl"
 			"attach_to_hands"	"0"
+			"visuals"
+			{
+				"skin"	"0"
+			}
 			"used_by_classes"
 			{
 				"demoman"	"1"
-			}
-			"visuals"
-			{
-				"skin" "0"
 			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
@@ -591,7 +591,8 @@
 			"image_inventory"	"backpack/weapons/c_models/c_flamethrower/c_flamethrower"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
-			"model_player"	"models/weapons/w_models/w_flamethrower.mdl"
+			"model_player"	"models/weapons/c_models/c_flamethrower/c_flamethrower.mdl"
+			"attach_to_hands"	"1"
 			"used_by_classes"
 			{
 				"pyro"	"1"
@@ -940,6 +941,7 @@
 				"can_gift_wrap" 	"1"
 			}
 			"item_logname"	"blutsauger"
+			"item_iconname"	"blutsauger"
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_SyringeGun"
 			"item_name"	"#TF_Unique_Achievement_Syringegun1"
@@ -1027,6 +1029,11 @@
 				{
 					"attribute_class"	"mult_postfiredelay"
 					"value"	"1.2"
+				}
+				"lunchbox adds minicrits"
+				{
+					"attribute_class"	"set_weapon_mode"
+					"value"	"1"
 				}
 			}
 			"allowed_attributes"
@@ -1176,6 +1183,7 @@
 				"can_gift_wrap" 	"1"
 			}
 			"item_logname"	"backburner"
+			"item_iconname"	"backburner"
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Flamethrower"
 			"item_name"	"#TF_Unique_Achievement_Flamethrower"
@@ -1195,10 +1203,10 @@
 			}
 			"attributes"
 			{
-				"mod flamethrower push"
+				"airblast cost increased"
 				{
-					"attribute_class"	"set_flamethrower_push_disabled"
-					"value"	"1"
+					"attribute_class"	"mult_airblast_cost"
+					"value"	"2.5"
 				}
 				"mod flamethrower back crit"
 				{
@@ -1213,7 +1221,7 @@
 				"damage bonus"
 				{
 					"attribute_class"	"mult_dmg"
-					"value"	"1.15"
+					"value"	"1.10"
 				}
 			}
 			"allowed_attributes"
@@ -1446,6 +1454,7 @@
 			"item_type_name"	"#TF_Weapon_Bat"
 			"item_name"	"#TF_Unique_Achievement_Bat"
 			"item_logname"	"sandman"
+			"item_iconname"	"sandman"
 			"item_slot"	"melee"
 			"item_quality"	"unique"
 			"propername"	"1"
@@ -1505,6 +1514,7 @@
 			"item_logname"	"force_a_nature"
 			"item_iconname"	"force_a_nature"
 			"item_slot"	"primary"
+			"anim_slot"	"item2"
 			"item_quality"	"unique"
 			"propername"	"1"
 			"min_ilevel"	"10"
@@ -1616,7 +1626,7 @@
 		"47"
 		{
 			"name"	"Demoman's Fro"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_class"	"hat"
 			"capabilities"
@@ -1646,7 +1656,7 @@
 		"48"
 		{
 			"name"	"Mining Light"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_class"	"hat"
 			"capabilities"
@@ -1675,7 +1685,7 @@
 		"49"
 		{
 			"name"	"Football Helmet"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_class"	"hat"
 			"capabilities"
@@ -1705,7 +1715,7 @@
 		"50"
 		{
 			"name"	"Prussian Pickelhaube"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_class"	"hat"
 			"capabilities"
@@ -1735,7 +1745,7 @@
 		"51"
 		{
 			"name"	"Pyro's Beanie"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_class"	"hat"
 			"capabilities"
@@ -1765,7 +1775,7 @@
 		"52"
 		{
 			"name"	"Batter's Helmet"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_class"	"hat"
 			"capabilities"
@@ -1795,7 +1805,7 @@
 		"53"
 		{
 			"name"	"Trophy Belt"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_class"	"hat"
 			"capabilities"
@@ -1825,7 +1835,7 @@
 		"54"
 		{
 			"name"	"Soldier's Stash"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_class"	"hat"
 			"capabilities"
@@ -1855,7 +1865,7 @@
 		"55"
 		{
 			"name"	"Fancy Fedora"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_class"	"hat"
 			"capabilities"
@@ -1890,7 +1900,6 @@
 			"capabilities"
 			{
 				"nameable"		"1"
-				"can_modify_socket"		"1"
 				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
@@ -1941,7 +1950,7 @@
 		"57"
 		{
 			"name"			"The Razorback"
-			"item_class"		"tf_wearable_item"
+			"item_class"		"tf_wearable"
 			"craft_class"	"weapon"
 			"capabilities"
 			{
@@ -2210,7 +2219,7 @@
 		"94"
 		{
 			"name"	"Texas Ten Gallon"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_class"	"hat"
 			"capabilities"
@@ -2244,7 +2253,7 @@
 		"95"
 		{
 			"name"	"Engineer's Cap"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_class"	"hat"
 			"capabilities"
@@ -2278,7 +2287,7 @@
 		"96"
 		{
 			"name"	"Officer's Ushanka"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_class"	"hat"
 			"capabilities"
@@ -2308,7 +2317,7 @@
 		"97"
 		{
 			"name"	"Tough Guy's Toque"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_class"	"hat"
 			"capabilities"
@@ -2338,7 +2347,7 @@
 		"98"
 		{
 			"name"	"Stainless Pot"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_class"	"hat"
 			"capabilities"
@@ -2371,7 +2380,7 @@
 		"99"
 		{
 			"name"	"Tyrant's Helm"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_class"	"hat"
 			"capabilities"
@@ -2405,7 +2414,7 @@
 		"100"
 		{
 			"name"	"Glengarry Bonnet"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_class"	"hat"
 			"capabilities"
@@ -2435,7 +2444,7 @@
 		"101"
 		{
 			"name"	"Vintage Tyrolean"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_class"	"hat"
 			"capabilities"
@@ -2465,7 +2474,7 @@
 		"102"
 		{
 			"name"	"Respectless Rubber Glove"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_class"	"hat"
 			"capabilities"
@@ -2495,7 +2504,7 @@
 		"103"
 		{
 			"name"	"Camera Beard"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_class"	"hat"
 			"capabilities"
@@ -2525,7 +2534,7 @@
 		"104"
 		{
 			"name"	"Otolaryngologist's Mirror"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_class"	"hat"
 			"capabilities"
@@ -2554,7 +2563,7 @@
 		"105"
 		{
 			"name"	"Brigade Helm"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_class"	"hat"
 			"capabilities"
@@ -2584,7 +2593,7 @@
 		"106"
 		{
 			"name"	"Bonk Helm"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_class"	"hat"
 			"capabilities"
@@ -2619,7 +2628,7 @@
 		"107"
 		{
 			"name"	"Ye Olde Baker Boy"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_class"	"hat"
 			"capabilities"
@@ -2654,7 +2663,7 @@
 		"108"
 		{
 			"name"	"Backbiter's Billycock"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_class"	"hat"
 			"capabilities"
@@ -2684,7 +2693,7 @@
 		"109"
 		{
 			"name"	"Professional's Panama"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_class"	"hat"
 			"capabilities"
@@ -2717,7 +2726,7 @@
 		"110"
 		{
 			"name"	"Master's Yellow Belt"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_class"	"hat"
 			"capabilities"
@@ -2751,7 +2760,7 @@
 		"111"
 		{
 			"name"	"Baseball Bill's Sports Shine"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -2785,7 +2794,7 @@
 		{
 			"name"	"Mildly Disturbing Halloween Mask"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -2848,7 +2857,7 @@
 		{
 			"name"	"Ghastly Gibus"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"paintable"		"1"
@@ -2899,6 +2908,19 @@
 			{
 				"hide_player_bodygroup_name"	"hat"
 				"hide_player_bodygroup_name"	"headphones"
+				"styles"
+				{
+					"0"
+					{
+						"model_player"	"models/player/items/all_class/all_domination_2009.mdl"
+						"name"	"#TF_Gibus_Style_2009"
+					}
+					"1"
+					{
+						"model_player"	"models/player/items/all_class/all_domination.mdl"
+						"name"	"#TF_Gibus_Style_2010"
+					}
+				}
 			}
 			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
 			"drop_sound" 		"ui/item_hat_pickup.wav"
@@ -2906,7 +2928,7 @@
 		"117"
 		{
 			"name"	"Ritzy Rick's Hair Fixative"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -2938,7 +2960,7 @@
 		"118"
 		{
 			"name"	"Texas Slim's Dome Shine"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -2970,7 +2992,7 @@
 		"120"
 		{
 			"name"	"Scotsman's Stove Pipe"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_class"	"hat"
 			"capabilities"
@@ -2994,16 +3016,33 @@
 			{
 				"demoman"	"1"
 			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"skin"	"0"
+						"name"	"#TF_StovePipe_Style0"
+					}
+					"1"
+					{
+						"skin"	"1"
+						"name"	"#TF_StovePipe_Style1"
+					}
+				}
+			}
 			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
 			"drop_sound" 		"ui/item_hat_pickup.wav"
 		}
 		"121"
 		{
 			"name"	"Web Easteregg Medal"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"nameable"		"1"
+				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Wearable_Medal"
@@ -3033,7 +3072,7 @@
 		{
 			"name"	"CheatDetectedMinor"
 			"hidden"	"1"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"item_type_name"	"CheatDetector"
 			"item_name"	"#TF_CheatDetectedMinor"
 			"item_slot"	"misc"
@@ -3060,7 +3099,7 @@
 		{
 			"name"	"CheatDetectedMajor"
 			"hidden"	"1"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"item_type_name"	"CheatDetector"
 			"item_name"	"#TF_CheatDetectedMajor"
 			"item_slot"	"misc"
@@ -3087,7 +3126,7 @@
 		{
 			"name"	"CheatDetectedHonesty"
 			"hidden"	"1"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"item_type_name"	"CheatDetector"
 			"item_name"	"#TF_HonestyReward"
 			"item_slot"	"misc"
@@ -3114,7 +3153,7 @@
 		{
 			"name"	"Honest Halo"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -3169,7 +3208,7 @@
 		{
 			"name"	"L4D Hat"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -3217,6 +3256,14 @@
 			{
 				"hide_player_bodygroup_name"	"hat"
 				"hide_player_bodygroup_name"	"headphones"
+			}
+			"attributes"
+			{
+				"always tradable"
+				{
+					"attribute_class"	"always_tradable"
+					"value"				"1"
+				}
 			}
 			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
 			"drop_sound" 		"ui/item_hat_pickup.wav"
@@ -3394,6 +3441,30 @@
 					"value"	"1"
 				}
 			}
+			"visuals"
+			{
+				// third-person
+				"animation"
+				{
+					"activity"		"ACT_MP_ATTACK_STAND_PRIMARYFIRE"
+					"replacement"		"ACT_MP_ATTACK_STAND_ITEM1_PRIMARY"
+				}
+				"animation"
+				{
+					"activity"		"ACT_MP_ATTACK_STAND_SECONDARYFIRE"
+					"replacement"		"ACT_MP_ATTACK_STAND_ITEM1_SECONDARY"
+				}
+				"animation"
+				{
+					"activity"		"ACT_MP_ATTACK_CROUCH_PRIMARYFIRE"
+					"replacement"		"ACT_MP_ATTACK_STAND_ITEM1_PRIMARY"
+				}
+				"animation"
+				{
+					"activity"		"ACT_MP_ATTACK_CROUCH_SECONDARYFIRE"
+					"replacement"		"ACT_MP_ATTACK_STAND_ITEM1_SECONDARY"
+				}
+			}
 			"mouse_pressed_sound"	"ui/item_pack_pickup.wav"
 			"drop_sound"		"ui/item_pack_drop.wav"
 		}
@@ -3480,7 +3551,7 @@
 		"131"
 		{
 			"name"			"The Chargin' Targe"
-			"item_class"		"tf_wearable_item_demoshield"
+			"item_class"		"tf_wearable_demoshield"
 			"craft_class"	"weapon"
 			"capabilities"
 			{
@@ -3548,6 +3619,7 @@
 			"item_name"	"#TF_Unique_Achievement_Sword"
 			"item_description"	"#TF_Unique_Achievement_Sword_Desc"
 			"item_slot"	"melee"
+			"anim_slot"	"item1"
 			"item_quality"	"unique"
 			"propername"	"1"
 			"min_ilevel"	"5"
@@ -3582,6 +3654,11 @@
 					"attribute_class"	"add_maxhealth"
 					"value" "-25"
 				}
+				"decapitate type"
+				{
+					"attribute_class"	"decapitate_type"
+					"value"	"1"
+				}
 			}
 			"allowed_attributes"
 			{
@@ -3602,7 +3679,7 @@
 		"133"
 		{
 			"name"			"The Gunboats"
-			"item_class"		"tf_wearable_item"
+			"item_class"		"tf_wearable"
 			"craft_class"	"weapon"
 			"capabilities"
 			{
@@ -3650,7 +3727,7 @@
 		{
 			"name"	"Propaganda Contest First Place"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"item_type_name" "#TF_Wearable_Hat"
 			"item_name"	"#TF_PropagandaContest_FirstPlace"
 			"item_description"	"#TF_PropagandaContest_FirstPlace_Desc"
@@ -3703,7 +3780,7 @@
 		"135"
 		{
 			"name"	"Towering Pillar of Hats"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -3756,7 +3833,7 @@
 		{
 			"name"	"Propaganda Contest Second Place"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"item_type_name" "#TF_Wearable_Hat"
 			"item_name"	"#TF_PropagandaContest_SecondPlace"
 			"item_description"	"#TF_PropagandaContest_SecondPlace_Desc"
@@ -3809,7 +3886,7 @@
 		"137"
 		{
 			"name"	"Noble Amassment of Hats"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -3862,7 +3939,7 @@
 		{
 			"name"	"Propaganda Contest Third Place"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"item_type_name" "#TF_Wearable_Hat"
 			"item_name"	"#TF_PropagandaContest_ThirdPlace"
 			"item_description"	"#TF_PropagandaContest_ThirdPlace_Desc"
@@ -3915,7 +3992,7 @@
 		"139"
 		{
 			"name"	"Modest Pile of Hat"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -4150,7 +4227,7 @@
 		{
 			"name"	"OSX Item"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"show_in_armory"	"1"
 			"item_type_name" "#TF_Wearable_Hat"
 			"item_name"	"#TF_OSXItem"
@@ -4201,13 +4278,14 @@
 			"capabilities"
 			{
 				"nameable"		"1"
+				"can_gift_wrap" 	"1"
 			}
 		}
 		"144"
 		{
 			"name"	"Medic Mask"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -4237,7 +4315,7 @@
 		{
 			"name"	"Heavy Hair"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -4268,7 +4346,7 @@
 		{
 			"name"	"Demoman Hallmark"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -4302,7 +4380,7 @@
 		{
 			"name"	"Spy Noble Hair"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -4336,7 +4414,7 @@
 		{
 			"name"	"Engineer Welding Mask"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -4383,7 +4461,7 @@
 		"150"
 		{
 			"name"	"Scout Beanie"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -4411,13 +4489,65 @@
 				"hide_player_bodygroup_name"	"hat"
 				"hide_player_bodygroup_name"	"headphones"
 			}
+			"visuals_red"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"skin"	"0"
+						"name"	"#TF_ScoutBeanie_Style0"
+					}
+					"1"
+					{
+						"skin"	"4"
+						"name"	"#TF_ScoutBeanie_Style1"
+					}
+					"2"
+					{
+						"skin"	"2"
+						"name"	"#TF_ScoutBeanie_Style2"
+					}
+					"3"
+					{
+						"skin"	"6"
+						"name"	"#TF_ScoutBeanie_Style3"
+					}
+				}
+			}
+			"visuals_blu"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"skin"	"1"
+						"name"	"#TF_ScoutBeanie_Style0"
+					}
+					"1"
+					{
+						"skin"	"5"
+						"name"	"#TF_ScoutBeanie_Style1"
+					}
+					"2"
+					{
+						"skin"	"3"
+						"name"	"#TF_ScoutBeanie_Style2"
+					}
+					"3"
+					{
+						"skin"	"7"
+						"name"	"#TF_ScoutBeanie_Style3"
+					}
+				}
+			}
 			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
 			"drop_sound"		"ui/item_hat_pickup.wav"
 		}
 		"151"
 		{
 			"name"	"Pyro Brain Sucker"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -4446,7 +4576,7 @@
 		"152"
 		{
 			"name"	"Soldier Samurai Hat"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -4677,7 +4807,7 @@
 		{
 			"name"	"Sniper Pith Helmet"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -4852,7 +4982,7 @@
 		{
 			"name"	"TTG Max Hat"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -4964,7 +5094,7 @@
 			{
 				"nameable"		"1"
 			}
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Wearable_Badge"
 			"item_name"	"#TF_Employee_Badge_A"
@@ -5018,7 +5148,7 @@
 			{
 				"nameable"		"1"
 			}
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Wearable_Badge"
 			"item_name"	"#TF_Employee_Badge_B"
@@ -5072,7 +5202,7 @@
 			{
 				"nameable"		"1"
 			}
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Wearable_Badge"
 			"item_name"	"#TF_Employee_Badge_C"
@@ -5188,7 +5318,7 @@
 			{
 				"nameable"		"1"
 			}
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Wearable_Badge"
 			"item_name"	"#TF_Employee_Badge_Plat"
@@ -5311,6 +5441,7 @@
 			"item_type_name"	"#TF_Weapon_Axe"
 			"item_name"	"#TF_Unique_BattleAxe"
 			"item_slot"	"melee"
+			"anim_slot"	"item1"
 			"image_inventory"	"backpack/weapons/c_models/c_battleaxe/c_battleaxe"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"96"
@@ -5417,6 +5548,11 @@
 					"attribute_class"	"add_maxhealth"
 					"value" "-10"
 				}
+				"lunchbox adds minicrits"
+				{
+					"attribute_class"	"set_weapon_mode"
+					"value"	"2"
+				}
 			}
 			"visuals"
 			{
@@ -5428,7 +5564,7 @@
 		"174"
 		{
 			"name"	"Scout Whoopee Cap"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -5462,7 +5598,7 @@
 		"175"
 		{
 			"name"	"Pyro Monocle"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -5492,7 +5628,7 @@
 		{
 			"name"	"Medic Goggles"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -5524,7 +5660,7 @@
 		{
 			"name"	"Engineer Earmuffs"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -5556,7 +5692,7 @@
 		{
 			"name"	"Demoman Tricorne"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -5590,7 +5726,7 @@
 		{
 			"name"	"Spy Beret"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -5624,7 +5760,7 @@
 		{
 			"name"	"Sniper Fishing Hat"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -5657,7 +5793,7 @@
 		"182"
 		{
 			"name"	"Pyro Helm"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -5686,7 +5822,7 @@
 		"183"
 		{
 			"name"	"Soldier Drill Hat"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -5720,7 +5856,7 @@
 		{
 			"name"	"Medic Gatsby"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -5754,7 +5890,7 @@
 		{
 			"name"	"Heavy Do-rag"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -5784,7 +5920,7 @@
 		"189"
 		{
 			"name"	"Parasite Hat"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -5832,6 +5968,7 @@
 			"capabilities"
 			{
 				"nameable"		"1"
+				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -5872,6 +6009,7 @@
 			"capabilities"
 			{
 				"nameable"		"1"
+				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -5912,6 +6050,7 @@
 			"capabilities"
 			{
 				"nameable"		"1"
+				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -5952,6 +6091,7 @@
 			"capabilities"
 			{
 				"nameable"		"1"
+				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -5993,6 +6133,7 @@
 			"capabilities"
 			{
 				"nameable"		"1"
+				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -6033,6 +6174,7 @@
 			"capabilities"
 			{
 				"nameable"		"1"
+				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -6071,6 +6213,7 @@
 			"capabilities"
 			{
 				"nameable"		"1"
+				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -6111,6 +6254,7 @@
 			"capabilities"
 			{
 				"nameable"		"1"
+				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -6153,6 +6297,7 @@
 			"capabilities"
 			{
 				"nameable"		"1"
+				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -6194,6 +6339,7 @@
 			"capabilities"
 			{
 				"nameable"		"1"
+				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -6203,10 +6349,12 @@
 			"item_quality"		"unique"
 			"min_ilevel"	"1"
 			"max_ilevel"	"1"
+			"attach_to_hands"	"1"
 			"image_inventory"	"backpack/weapons/w_models/w_shotgun"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
-			"model_player"	"models/weapons/w_models/w_shotgun.mdl"
+			"model_player"	"models/weapons/c_models/c_shotgun/c_shotgun.mdl"
+			"model_world"	"models/weapons/w_models/w_shotgun.mdl"
 			"used_by_classes"
 			{
 				"engineer"	"primary"
@@ -6239,6 +6387,7 @@
 			"capabilities"
 			{
 				"nameable"		"1"
+				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -6280,6 +6429,7 @@
 			"capabilities"
 			{
 				"nameable"		"1"
+				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -6319,6 +6469,7 @@
 			"capabilities"
 			{
 				"nameable"		"1"
+				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -6360,6 +6511,7 @@
 			"capabilities"
 			{
 				"nameable"		"1"
+				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -6401,6 +6553,7 @@
 			"capabilities"
 			{
 				"nameable"		"1"
+				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -6442,6 +6595,7 @@
 			"capabilities"
 			{
 				"nameable"		"1"
+				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -6485,6 +6639,7 @@
 			"capabilities"
 			{
 				"nameable"		"1"
+				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -6497,7 +6652,8 @@
 			"image_inventory"	"backpack/weapons/w_models/w_grenadelauncher"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
-			"model_player"	"models/weapons/w_models/w_grenadelauncher.mdl"
+			"model_player"	"models/weapons/c_models/c_grenadelauncher/c_grenadelauncher.mdl"
+			"attach_to_hands"	"1"
 			"used_by_classes"
 			{
 				"demoman"	"1"
@@ -6527,6 +6683,7 @@
 			"capabilities"
 			{
 				"nameable"		"1"
+				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -6544,6 +6701,10 @@
 			{
 				"demoman"	"1"
 			}
+			"visuals"
+			{
+				"skin"	"0"
+			}
 			"allowed_attributes"
 			{
 				"all_items"	"1"
@@ -6560,10 +6721,6 @@
 				"only_on_pipebombs" "1"
 				"wpn_lobs_projectiles" "1"
 			}
-			"visuals"
-			{
-				"skin" "0"
-			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
 		}
@@ -6574,6 +6731,7 @@
 			"capabilities"
 			{
 				"nameable"		"1"
+				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -6586,7 +6744,8 @@
 			"image_inventory"	"backpack/weapons/c_models/c_flamethrower/c_flamethrower"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
-			"model_player"	"models/weapons/w_models/w_flamethrower.mdl"
+			"model_player"	"models/weapons/c_models/c_flamethrower/c_flamethrower.mdl"
+			"attach_to_hands"	"1"
 			"used_by_classes"
 			{
 				"pyro"	"1"
@@ -6613,6 +6772,7 @@
 			"capabilities"
 			{
 				"nameable"		"1"
+				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -6622,10 +6782,12 @@
 			"item_quality"		"unique"
 			"min_ilevel"	"1"
 			"max_ilevel"	"1"
+			"attach_to_hands"	"1"
 			"image_inventory"	"backpack/weapons/c_models/c_pistol"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
-			"model_player"	"models/weapons/w_models/w_pistol.mdl"
+			"model_player"	"models/weapons/c_models/c_pistol/c_pistol.mdl"
+			"model_world"	"models/weapons/w_models/w_pistol.mdl"
 			"used_by_classes"
 			{
 				"engineer"	"1"
@@ -6655,6 +6817,7 @@
 			"capabilities"
 			{
 				"nameable"		"1"
+				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -6696,6 +6859,7 @@
 			"capabilities"
 			{
 				"nameable"		"1"
+				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -6733,6 +6897,7 @@
 			"capabilities"
 			{
 				"nameable"		"1"
+				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
 			"armory_desc"	"stockitem"
@@ -6766,7 +6931,7 @@
 		{
 			"name"	"The Attendant"
 			"loadondemand" "1"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -6829,15 +6994,10 @@
 					"attribute_class"	"heal_on_kill"
 					"value"	"75"
 				}
-				"damage bonus"
+				"dmg from melee increased"
 				{
-					"attribute_class"	"mult_dmg"
-					"value"	"1.25"
-				}
-				"crit mod disabled"
-				{
-					"attribute_class"	"mult_crit_chance"
-					"value"	"0"
+					"attribute_class"	"dmg_from_melee"
+					"value"	"1.2"
 				}
 			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
@@ -6901,7 +7061,7 @@
 		{
 			"name"	"Rimmed Raincatcher"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -6935,7 +7095,7 @@
 		{
 			"name"	"The Milkman"
 			"loadondemand" "1"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -6994,11 +7154,6 @@
 			"image_inventory_size_h"		"82"
 			"model_player"	"models/weapons/c_models/c_shortstop/c_shortstop.mdl"
 			"attach_to_hands" "1"
-			"capabilities"
-			{
-				"nameable"		"1"
-				"can_modify_socket"		"1"
-			}
 			"used_by_classes"
 			{
 				"scout"	"1"
@@ -7160,7 +7315,7 @@
 		{
 			"name"	"The Familiar Fez"
 			"loadondemand" "1"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -7355,11 +7510,35 @@
 					"value"	"2"
 				}
 			}
+			"visuals"
+			{
+				// third-person
+				"animation"
+				{
+					"activity"		"ACT_MP_ATTACK_STAND_PRIMARYFIRE"
+					"replacement"		"ACT_MP_ATTACK_STAND_ITEM1_PRIMARY"
+				}
+				"animation"
+				{
+					"activity"		"ACT_MP_ATTACK_STAND_SECONDARYFIRE"
+					"replacement"		"ACT_MP_ATTACK_STAND_ITEM1_SECONDARY"
+				}
+				"animation"
+				{
+					"activity"		"ACT_MP_ATTACK_CROUCH_PRIMARYFIRE"
+					"replacement"		"ACT_MP_ATTACK_STAND_ITEM1_PRIMARY"
+				}
+				"animation"
+				{
+					"activity"		"ACT_MP_ATTACK_CROUCH_SECONDARYFIRE"
+					"replacement"		"ACT_MP_ATTACK_STAND_ITEM1_SECONDARY"
+				}
+			}
 		}
 		"227"
 		{
 			"name"	"The Grenadier's Softcap"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_class"	"hat"
 			"capabilities"
@@ -7400,6 +7579,8 @@
 				"nameable"		"1"
 				"can_gift_wrap" 	"1"
 			}
+			"item_logname"	"blackbox"
+			"item_iconname"	"blackbox"
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_RocketLauncher"
 			"item_name"	"#TF_TheBlackBox"
@@ -7523,7 +7704,7 @@
 		"229"
 		{
 			"name"	"Ol' Snaggletooth"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"craft_class"	"hat"
 			"capabilities"
@@ -7564,6 +7745,8 @@
 				"nameable"		"1"
 				"can_gift_wrap" 	"1"
 			}
+			"item_logname"	"sydney_sleeper"
+			"item_iconname"	"sydney_sleeper"
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_SniperRifle"
 			"item_name"	"#TF_SydneySleeper"
@@ -7580,7 +7763,6 @@
 			"capabilities"
 			{
 				"nameable"		"1"
-				"can_modify_socket"		"1"
 			}
 			"visuals"
 			{
@@ -7613,12 +7795,17 @@
 					"attribute_class"	"mult_crit_chance"
 					"value"	"0"
 				}
+				"sniper charge per sec"
+				{
+					"attribute_class"	"mult_sniper_charge_per_sec"
+					"value"	"1.25"
+				}
 			}
 		}
 		"231"
 		{
 			"name"			"Darwin's Danger Shield"
-			"item_class"		"tf_wearable_item"
+			"item_class"		"tf_wearable"
 			"craft_class"	"weapon"
 			"capabilities"
 			{
@@ -7673,8 +7860,8 @@
 				"nameable"		"1"
 				"can_gift_wrap" 	"1"
 			}
-			"item_logname"	"tribalkukri"
-			"item_iconname"	"tribalkukri"
+			"item_logname"	"bushwacka"
+			"item_iconname"	"bushwacka"
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Club"
 			"item_name"	"#TF_TheBushwacka"
@@ -7725,7 +7912,7 @@
 		"233"
 		{
 			"name"	"Gift - 1 Player"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"tool"
 			{
 				"type"	"gift"
@@ -7771,7 +7958,7 @@
 		"234"
 		{
 			"name"	"Gift - 24 Players"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"tool"
 			{
 				"type"	"gift"
@@ -7893,8 +8080,8 @@
 			"item_type_name"	"#TF_Weapon_Gloves"
 			"item_name"	"#TF_Unique_Gloves_of_Running_Urgently"
 			"item_slot"	"melee"
-			"item_logname"	"gloves"
-			"item_iconname"	"gloves"
+			"item_logname"	"gloves_running_urgently"
+			"item_iconname"	"gloves_running_urgently"
 			"image_inventory"	"backpack/weapons/c_models/c_boxing_gloves_urgency/c_boxing_gloves_urgency"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
@@ -7959,7 +8146,7 @@
 		{
 			"name"	"Worms Gear"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -7975,7 +8162,7 @@
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
 			"model_player"	"models/player/items/soldier/worms_gear.mdl"
-			"drop_type"	"drop"
+			"drop_type"	"none"
 			"min_ilevel"	"10"
 			"max_ilevel"	"10"
 			"used_by_classes"
@@ -7993,7 +8180,7 @@
 		"241"
 		{
 			"name"	"Duel MiniGame"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"tool"
 			{
 				"type"	"duel_minigame"
@@ -8043,7 +8230,7 @@
 		"242"
 		{
 			"name"	"Duel Medal Bronze"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Wearable_Badge"
 			"item_name"	"#TF_Duel_Medal_Bronze"
@@ -8088,7 +8275,7 @@
 		"243"
 		{
 			"name"	"Duel Medal Silver"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Wearable_Badge"
 			"item_name"	"#TF_Duel_Medal_Silver"
@@ -8133,7 +8320,7 @@
 		"244"
 		{
 			"name"	"Duel Medal Gold"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Wearable_Badge"
 			"item_name"	"#TF_Duel_Medal_Gold"
@@ -8178,7 +8365,7 @@
 		"245"
 		{
 			"name"	"Duel Medal Plat"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Wearable_Badge"
 			"item_name"	"#TF_Duel_Medal_Plat"
@@ -8227,7 +8414,7 @@
 		{
 			"name"	"Pugilist's Protector"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -8257,7 +8444,7 @@
 		{
 			"name"	"Old Guadalajara"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -8287,7 +8474,7 @@
 		{
 			"name"	"Napper's Respite"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -8317,7 +8504,7 @@
 		{
 			"name"	"Bombing Run"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -8352,7 +8539,7 @@
 		{
 			"name"	"Chieftain's Challenge"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -8385,7 +8572,7 @@
 		{
 			"name"	"Stout Shako"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -8419,7 +8606,7 @@
 		{
 			"name"	"Dr's Dapper Topper"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -8453,7 +8640,7 @@
 		{
 			"name"	"Handyman's Handle"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -8483,7 +8670,7 @@
 		{
 			"name"	"Hard Counter"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -8513,7 +8700,7 @@
 		{
 			"name"	"Sober Stuntman"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -8543,7 +8730,7 @@
 		{
 			"name"	"Carouser's Capotain"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -8573,7 +8760,7 @@
 		"260"
 		{
 			"name"	"Wiki Cap"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -8618,7 +8805,7 @@
 		{
 			"name"	"Mann Co. Cap"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"paintable"		"1"
@@ -8680,7 +8867,7 @@
 		"262"
 		{
 			"name"	"Polycount Pin"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -8725,7 +8912,7 @@
 		{
 			"name"	"Ellis Hat"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -8852,7 +9039,6 @@
 			"capabilities"
 			{
 				"nameable"		"1"
-				"can_modify_socket"		"1"
 				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
@@ -8875,6 +9061,10 @@
 			}
 			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
 			"drop_sound"		"ui/item_heavy_gun_drop.wav"
+			"visuals"
+			{
+				"skin"	"0"
+			}
 			"attributes"
 			{
 				"damage penalty"
@@ -8917,7 +9107,6 @@
 			"capabilities"
 			{
 				"nameable"		"1"
-				"can_modify_socket"		"1"
 				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
@@ -8925,6 +9114,7 @@
 			"item_name"	"#TF_HalloweenBoss_Axe"
 			"item_description"	"#TF_HalloweenBoss_Axe_Desc"
 			"item_slot"	"melee"
+			"anim_slot"	"item1"
 			"item_quality"	"rarity4"
 			"item_logname"	"headtaker"
 			"item_iconname"	"headtaker"
@@ -8960,6 +9150,11 @@
 				{
 					"attribute_class"	"add_maxhealth"
 					"value" "-25"
+				}
+				"decapitate type"
+				{
+					"attribute_class"	"decapitate_type"
+					"value"	"1"
 				}
 			}
 			"allowed_attributes"
@@ -9006,7 +9201,7 @@
 		{
 			"name"	"Halloween Mask - Scout"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -9053,7 +9248,7 @@
 		{
 			"name"	"Halloween Mask - Sniper"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -9100,7 +9295,7 @@
 		{
 			"name"	"Halloween Mask - Soldier"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -9147,7 +9342,7 @@
 		{
 			"name"	"Halloween Mask - Demoman"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -9194,7 +9389,7 @@
 		{
 			"name"	"Halloween Mask - Medic"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -9241,7 +9436,7 @@
 		{
 			"name"	"Halloween Mask - Heavy"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -9288,7 +9483,7 @@
 		{
 			"name"	"Halloween Mask - Spy"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -9335,7 +9530,7 @@
 		{
 			"name"	"Halloween Mask - Engineer"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -9382,7 +9577,7 @@
 		{
 			"name"	"Halloween Mask - Pyro"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -9429,7 +9624,7 @@
 		{
 			"name"	"Halloween Mask - Saxton Hale"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -9476,7 +9671,7 @@
 		{
 			"name"	"Horseless Headless Horseman's Head"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -9521,7 +9716,7 @@
 		{
 			"name"	"Ghastly Gibus 2010"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"paintable"		"1"
@@ -9578,7 +9773,7 @@
 		"280"
 		{
 			"name"	"Halloween Noise Maker - Black Cat"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"tool"
 			{
 				"type"	"noise_maker"
@@ -9597,7 +9792,6 @@
 			"image_inventory_size_w"	"128"
 			"image_inventory_size_h"	"82"
 			"item_quality"		"unique"
-			"model_player"	"models/player/items/all_class/id_badge.mdl"
 			"min_ilevel"	"5"
 			"max_ilevel"	"5"
 			"used_by_classes"
@@ -9635,7 +9829,7 @@
 		"281"
 		{
 			"name"	"Halloween Noise Maker - Gremlin"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"tool"
 			{
 				"type"	"noise_maker"
@@ -9654,7 +9848,6 @@
 			"image_inventory_size_w"	"128"
 			"image_inventory_size_h"	"82"
 			"item_quality"		"unique"
-			"model_player"	"models/player/items/all_class/id_badge.mdl"
 			"min_ilevel"	"5"
 			"max_ilevel"	"5"
 			"used_by_classes"
@@ -9692,7 +9885,7 @@
 		"282"
 		{
 			"name"	"Halloween Noise Maker - Werewolf"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"tool"
 			{
 				"type"	"noise_maker"
@@ -9711,7 +9904,6 @@
 			"image_inventory_size_w"	"128"
 			"image_inventory_size_h"	"82"
 			"item_quality"		"unique"
-			"model_player"	"models/player/items/all_class/id_badge.mdl"
 			"min_ilevel"	"5"
 			"max_ilevel"	"5"
 			"used_by_classes"
@@ -9749,7 +9941,7 @@
 		"283"
 		{
 			"name"	"Halloween Noise Maker - Witch"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"tool"
 			{
 				"type"	"noise_maker"
@@ -9768,7 +9960,6 @@
 			"image_inventory_size_w"	"128"
 			"image_inventory_size_h"	"82"
 			"item_quality"		"unique"
-			"model_player"	"models/player/items/all_class/id_badge.mdl"
 			"min_ilevel"	"5"
 			"max_ilevel"	"5"
 			"used_by_classes"
@@ -9806,7 +9997,7 @@
 		"284"
 		{
 			"name"	"Halloween Noise Maker - Banshee"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"tool"
 			{
 				"type"	"noise_maker"
@@ -9825,7 +10016,6 @@
 			"image_inventory_size_w"	"128"
 			"image_inventory_size_h"	"82"
 			"item_quality"		"unique"
-			"model_player"	"models/player/items/all_class/id_badge.mdl"
 			"min_ilevel"	"5"
 			"max_ilevel"	"5"
 			"used_by_classes"
@@ -9863,7 +10053,7 @@
 		"286"
 		{
 			"name"	"Halloween Noise Maker - Crazy Laugh"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"tool"
 			{
 				"type"	"noise_maker"
@@ -9882,7 +10072,6 @@
 			"image_inventory_size_w"	"128"
 			"image_inventory_size_h"	"82"
 			"item_quality"		"unique"
-			"model_player"	"models/player/items/all_class/id_badge.mdl"
 			"min_ilevel"	"5"
 			"max_ilevel"	"5"
 			"used_by_classes"
@@ -9921,7 +10110,7 @@
 		{
 			"name"	"Spine-Chilling Skull"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"haunted_hat"
 			"capabilities"
 			{
@@ -9975,7 +10164,7 @@
 		"288"
 		{
 			"name"	"Halloween Noise Maker - Stabby"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"tool"
 			{
 				"type"	"noise_maker"
@@ -9994,7 +10183,6 @@
 			"image_inventory_size_w"	"128"
 			"image_inventory_size_h"	"82"
 			"item_quality"		"unique"
-			"model_player"	"models/player/items/all_class/id_badge.mdl"
 			"min_ilevel"	"5"
 			"max_ilevel"	"5"
 			"used_by_classes"
@@ -10033,7 +10221,7 @@
 		{
 			"name"	"Voodoo Juju"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"haunted_hat"
 			"capabilities"
 			{
@@ -10088,7 +10276,7 @@
 		{
 			"name"	"Cadaver's Cranium"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -10120,7 +10308,7 @@
 		{
 			"name"	"Horrific Headsplitter"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -10167,7 +10355,7 @@
 		{
 			"name"	"Poker Visor"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -10203,7 +10391,6 @@
 			"capabilities"
 			{
 				"nameable"		"1"
-				"can_modify_socket"		"1"
 				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"0"
@@ -10248,7 +10435,7 @@
 		"295"
 		{
 			"name"	"TTG Glasses"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -10278,7 +10465,7 @@
 		"296"
 		{
 			"name"	"TTG Badge"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -10356,7 +10543,6 @@
 			"capabilities"
 			{
 				"nameable"		"1"
-				"can_modify_socket"	"1"
 				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
@@ -10391,7 +10577,7 @@
 		"299"
 		{
 			"name"	"Portal 2 Pin"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -10426,9 +10612,9 @@
 			"drop_sound"		"ui/item_hat_drop.wav"
 			"attributes"
 			{
-				"always tradable"
+				"cannot trade"
 				{
-					"attribute_class"	"always_tradable"
+					"attribute_class"	"cannot_trade"
 					"value"				"1"
 				}
 			}
@@ -10437,7 +10623,7 @@
 		{
 			"name"			"Berliner's Bucket Helm"
 			"loadondemand" 		"1"
-			"item_class"		"tf_wearable_item"
+			"item_class"		"tf_wearable"
 			"craft_class"		"hat"
 			"capabilities"
 			{
@@ -10471,7 +10657,6 @@
 			"capabilities"
 			{
 				"nameable"		"1"
-				"can_modify_socket"	"1"
 				"can_gift_wrap" 	"1"
 			}
 			"item_logname"		"amputator"
@@ -10499,6 +10684,11 @@
 				{
 					"attribute_class"	"enables_aoe_heal"
 					"value"	"1"
+				}
+				"lunchbox adds minicrits"
+				{
+					"attribute_class"	"set_weapon_mode"
+					"value"	"3"
 				}
 			}
 			"allowed_attributes"
@@ -10531,7 +10721,6 @@
 			"capabilities"
 			{
 				"nameable"		"1"
-				"can_modify_socket"	"1"
 				"can_gift_wrap" 	"1"
 			}
 			"item_type_name"	"#TF_Weapon_Crossbow"
@@ -10577,7 +10766,7 @@
 		{
 			"name"	"Scotch Bonnet"
 			"loadondemand" "1"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -10611,7 +10800,6 @@
 			"capabilities"
 			{
 				"nameable"		"1"
-				"can_modify_socket"		"1"
 				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
@@ -10654,9 +10842,10 @@
 			"capabilities"
 			{
 				"nameable"		"1"
-				"can_modify_socket"	"1"
 				"can_gift_wrap" 	"1"
 			}
+			"item_logname"	"loch_n_load"
+			"item_iconname"	"loch_n_load"
 			"item_type_name"	"#TF_Weapon_GrenadeLauncher"
 			"item_name"		"#TF_LochNLoad"
 			"item_slot"		"secondary"
@@ -10685,7 +10874,7 @@
 				"damage bonus"
 				{
 					"attribute_class"	"mult_dmg"
-					"value"	"1.1"
+					"value"	"1.2"
 				}
 				"Projectile speed increased"
 				{
@@ -10709,7 +10898,7 @@
 		{
 			"name"	"Big Chief"
 			"loadondemand" "1"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -10743,15 +10932,14 @@
 			"capabilities"
 			{
 				"nameable"		"1"
-				"can_modify_socket"	"1"
 				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Gloves"
 			"item_name"	"#TF_WarriorsSpirit"
 			"item_slot"	"melee"
-			"item_logname"	"bear_claws"
-			"item_iconname"	"bear_claws"
+			"item_logname"	"warrior_spirit"
+			"item_iconname"	"warrior_spirit"
 			"image_inventory"	"backpack/weapons/c_models/c_bear_claw/c_bear_claw"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
@@ -10822,7 +11010,6 @@
 			"capabilities"
 			{
 				"nameable"		"1"
-				"can_modify_socket"		"1"
 				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
@@ -10864,15 +11051,14 @@
 			"capabilities"
 			{
 				"nameable"		"1"
-				"can_modify_socket"		"1"
 				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Minigun"
 			"item_name"	"#TF_GatlingGun"
 			"item_slot"	"primary"
-			"item_logname"	"natascha"
-			"item_iconname"	"natascha"
+			"item_logname"	"brass_beast"
+			"item_iconname"	"brass_beast"
 			"image_inventory"	"backpack/weapons/c_models/c_gatling_gun/c_gatling_gun"
 			"image_inventory_size_w"		"128"
 			"image_inventory_size_h"		"82"
@@ -10923,7 +11109,7 @@
 		{
 			"name"	"Magnificent Mongolian"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -10952,7 +11138,7 @@
 		{
 			"name"	"Larrikin Robin"
 			"hidden"	"0"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -10983,11 +11169,12 @@
 		"315"
 		{
 			"name"	"Blighted Beak"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
 				"nameable"		"1"
+				"paintable"		"1"
 				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
@@ -11010,7 +11197,7 @@
 		"316"
 		{
 			"name"	"Pyromancer's Mask"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -11032,6 +11219,27 @@
 			{
 				"pyro"	"1"
 			}
+			"visuals"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"skin"	"0"
+						"name"	"#TF_Pyromancer_Style1"
+					}
+					"1"
+					{
+						"skin"	"1"
+						"name"	"#TF_Pyromancer_Style2"
+					}
+					"2"
+					{
+						"skin"	"2"
+						"name"	"#TF_Pyromancer_Style3"
+					}
+				}
+			}
 			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
 			"drop_sound" 		"ui/item_hat_drop.wav"
 		}
@@ -11043,13 +11251,13 @@
 			"capabilities"
 			{
 				"nameable"		"1"
-				"can_modify_socket"		"1"
 				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Bat"
 			"item_name"	"#TF_CandyCane"
 			"item_logname"	"candy_cane"
+			"item_iconname"	"candy_cane"
 			"item_slot"	"melee"
 			"item_quality"	"unique"
 			"propername"	"1"
@@ -11091,7 +11299,7 @@
 		"318"
 		{
 			"name"	"Prancer's Pride"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -11118,7 +11326,7 @@
 		"319"
 		{
 			"name"	"Detective Noir"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -11146,7 +11354,7 @@
 		"321"
 		{
 			"name"	"Madame Dixie"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -11174,7 +11382,7 @@
 		"322"
 		{
 			"name"	"Buckaroos Hat"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -11206,7 +11414,7 @@
 		"323"
 		{
 			"name"	"German Gonzila"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -11238,7 +11446,7 @@
 		"324"
 		{
 			"name"	"Flipped Trilby"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -11276,13 +11484,13 @@
 			"capabilities"
 			{
 				"nameable"		"1"
-				"can_modify_socket"		"1"
 				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Bat"
 			"item_name"	"#TF_BostonBasher"
 			"item_logname"	"boston_basher"
+			"item_iconname"	"boston_basher"
 			"item_slot"	"melee"
 			"item_quality"	"unique"
 			"propername"	"1"
@@ -11321,7 +11529,6 @@
 			"capabilities"
 			{
 				"nameable"		"1"
-				"can_modify_socket"	"1"
 				"can_gift_wrap" 	"1"
 			}
 			"item_logname"	"back_scratcher"
@@ -11372,14 +11579,16 @@
 			"capabilities"
 			{
 				"nameable"		"1"
-				"can_modify_socket"		"1"
 				"can_gift_wrap" 	"1"
 			}
+			"item_logname"	"claidheamohmor"
+			"item_iconname"	"claidheamohmor"
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Sword"
 			"item_name"	"#TF_Claidheamohmor"
 			"item_description"	"#TF_Claidheamohmor_Desc"
 			"item_slot"	"melee"
+			"anim_slot"	"item1"
 			"item_quality"	"unique"
 			"propername"	"1"
 			"min_ilevel"	"5"
@@ -11444,7 +11653,7 @@
 			"capabilities"
 			{
 				"nameable"		"1"
-				"can_modify_socket"		"1"
+				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_Wrench"
@@ -11484,7 +11693,7 @@
 		"330"
 		{
 			"name"	"Coupe D'isaster"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -11522,7 +11731,6 @@
 			"capabilities"
 			{
 				"nameable"		"1"
-				"can_modify_socket"	"1"
 				"can_gift_wrap" 	"1"
 			}
 			"show_in_armory"	"1"
@@ -11561,7 +11769,7 @@
 				"dmg from ranged reduced"
 				{
 					"attribute_class"	"dmg_from_ranged"
-					"value"	"0.4"
+					"value"	"0.6"
 				}
 			
 				"dmg from melee increased"
@@ -11569,13 +11777,18 @@
 					"attribute_class"	"dmg_from_melee"
 					"value"	"2.0"
 				}
+				"deploy time increased"
+				{
+					"attribute_class"	"mult_deploy_time"
+					"value"	"1.2"
+				}
 			}
 		}
 
 		"332"
 		{
 			"name"	"Treasure Hat 1"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -11626,7 +11839,7 @@
 		"333"
 		{
 			"name"	"Treasure Hat 2"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -11668,6 +11881,19 @@
 			}
 			"visuals"
 			{
+				"styles"
+				{
+					"0"
+					{
+						"model_player"	"models/player/items/all_class/treasure_hat_02.mdl"
+						"name"	"#TF_TreasureHat_2"
+					}
+					"1"
+					{
+						"model_player"	"models/player/items/all_class/treasure_hat_01.mdl"
+						"name"	"#TF_TreasureHat_1"
+					}
+				}
 				"hide_player_bodygroup_name"	"hat"
 				"hide_player_bodygroup_name"	"headphones"
 				"attached_particlesystem"
@@ -11682,7 +11908,7 @@
 		"334"
 		{
 			"name"	"Treasure Hat 3"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -11725,6 +11951,24 @@
 			}
 			"visuals"
 			{
+				"styles"
+				{
+					"0"
+					{
+						"model_player"	"models/player/items/all_class/treasure_hat_oct.mdl"
+						"name"	"#TF_TreasureHat_3"
+					}
+					"1"
+					{
+						"model_player"	"models/player/items/all_class/treasure_hat_02.mdl"
+						"name"	"#TF_TreasureHat_2"
+					}
+					"2"
+					{
+						"model_player"	"models/player/items/all_class/treasure_hat_01.mdl"
+						"name"	"#TF_TreasureHat_1"
+					}
+				}
 				"hide_player_bodygroup_name"	"hat"
 				"hide_player_bodygroup_name"	"headphones"
 			}
@@ -11734,7 +11978,7 @@
 		"335"
 		{
 			"name"	"KF Pyro Mask"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"capabilities"
 			{
@@ -11766,7 +12010,7 @@
 		"336"
 		{
 			"name"	"KF Pyro Tie"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"loadondemand" "1"
 			"capabilities"
 			{
@@ -11796,7 +12040,7 @@
 		"337"
 		{
 			"name"	"Le Party Phantom"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -11823,7 +12067,7 @@
 		"338"
 		{
 			"name"	"Industrial Festivizer"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -11850,7 +12094,7 @@
 		"339"
 		{
 			"name"	"Exquisite Rack"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -11878,7 +12122,7 @@
 		"340"
 		{
 			"name"	"Defiant Spartan"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -11910,7 +12154,7 @@
 		"341"
 		{
 			"name"	"A Rather Festive Tree"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -11951,7 +12195,7 @@
 		"342"
 		{
 			"name"	"Prince Tavish's Crown"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"craft_class"	"hat"
 			"capabilities"
 			{
@@ -11981,12 +12225,1527 @@
 			"mouse_pressed_sound" 	"ui/item_helmet_pickup.wav"
 			"drop_sound" 		"ui/item_helmet_drop.wav"
 		}
+		"345"
+		{
+			"name"	"MNC Hat"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_gift_wrap" 	"1"
+			}
+			"loadondemand" "1"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_name"	"#TF_MNC_Hat"
+			"item_description"	"#TF_MNC_Hat_Desc"
+			"item_slot"	"head"
+			"item_quality"	"unique"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"image_inventory"	"backpack/player/items/all_class/mnc_hat"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player_per_class"
+			{
+				"scout"		"models/player/items/scout/scout_mnc.mdl"
+				"sniper"	"models/player/items/sniper/sniper_mnc.mdl"
+				"soldier"	"models/player/items/soldier/soldier_mnc.mdl"
+				"demoman"	"models/player/items/demo/demo_mnc.mdl"
+				"medic"		"models/player/items/medic/medic_mnc.mdl"
+				"heavy"		"models/player/items/heavy/heavy_mnc.mdl"
+				"spy"		"models/player/items/spy/spy_mnc.mdl"
+				"engineer"	"models/player/items/engineer/engineer_mnc.mdl"
+				"pyro"		"models/player/items/pyro/pyro_mnc.mdl"
+			}
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"visuals"
+			{
+				"hide_player_bodygroup_name"	"hat"
+				"hide_player_bodygroup_name"	"headphones"
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 		"ui/item_hat_pickup.wav"
+		}
+		"346"
+		{
+			"name"	"MNC Mascot Hat"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_gift_wrap" 	"1"
+			}
+			"loadondemand" "1"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_name"	"#TF_MNC_Mascot_Hat"
+			"item_description"	"#TF_MNC_Mascot_Hat_Desc"
+			"item_slot"	"head"
+			"item_quality"	"unique"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"image_inventory"	"backpack/player/items/scout/mnc_mascot_hat"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/scout/mnc_mascot_hat.mdl"
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"scout"	"1"
+			}
+			"visuals"
+			{
+				"hide_player_bodygroup_name"	"hat"
+				"hide_player_bodygroup_name"	"headphones"
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 		"ui/item_hat_pickup.wav"
+		}
+		"347"
+		{
+			"name"	"MNC Mascot Outfit"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_gift_wrap" 	"1"
+			}
+			"loadondemand" "1"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Apparel"
+			"item_name"	"#TF_MNC_Mascot_Outfit"
+			"item_description"	"#TF_MNC_Mascot_Outfit_Desc"
+			"item_slot"	"misc"
+			"item_quality"	"unique"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"image_inventory"	"backpack/player/items/scout/mnc_mascot_outfit"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/scout/mnc_mascot_outfit.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+			}
+			"visuals"
+			{
+				"hide_player_bodygroup_name"	"shoes_socks"
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 		"ui/item_hat_pickup.wav"
+		}
+		"348"
+		{
+			"name"	"Sharpened Volcano Fragment"
+			"item_class"	"tf_weapon_fireaxe"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_gift_wrap" 	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_RiftFireAxe"
+			"item_name"	"#TF_Unique_RiftFireAxe"
+			"item_description"	"#TF_RiftFireAxe_Desc"
+			"item_slot"	"melee"
+			"item_logname"	"lava_axe"
+			"item_iconname"	"lava_axe"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/weapons/c_models/c_rift_fire_axe/c_rift_fire_axe"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/weapons/c_models/c_rift_fire_axe/c_rift_fire_axe.mdl"
+			"attach_to_hands"	"1"
+			"item_quality"	"unique"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"propername"	"0"
+			"used_by_classes"
+			{
+				"pyro"	"1"
+			}
+			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
+			"drop_sound"		"ui/item_metal_weapon_drop.wav"
+			"attributes"
+			{
+				"Set DamageType Ignite"
+				{
+					"attribute_class"	"set_dmgtype_ignite"
+					"value" "1"
+				}
+				"damage penalty"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"	"0.8"
+				}
+			}
+			"allowed_attributes"
+			{
+				"all_items"	"1"
+				"dmg_reductions" "1"
+				"player_health" "1"
+				"attrib_healthregen" "1"
+				"player_movement" "1"
+				"attrib_dmgdone"	"1"
+				"attrib_critboosts"	"1"
+				"attrib_onhit_slow" "1"
+				"attrib_vs_burning" "1"
+				"attrib_firerate" "1"
+			}
+		}
+		"349"
+		{
+			"name"	"Sun-on-a-Stick"
+			"item_class"	"tf_weapon_bat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_gift_wrap" 	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_RiftFireMace"
+			"item_name"	"#TF_Unique_RiftFireMace"
+			"item_description"	"#TF_RiftFireMace_Desc"
+			"item_slot"	"melee"
+			"item_logname"	"lava_bat"
+			"item_iconname"	"lava_bat"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/weapons/c_models/c_rift_fire_mace/c_rift_fire_mace"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/weapons/c_models/c_rift_fire_mace/c_rift_fire_mace.mdl"
+			"attach_to_hands"	"1"
+			"item_quality"	"unique"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"propername"	"1"
+			"used_by_classes"
+			{
+				"scout"	"1"
+			}
+			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
+			"drop_sound"		"ui/item_metal_weapon_drop.wav"
+			"attributes"
+			{
+				"crit vs burning players"
+				{
+					"attribute_class"	"or_crit_vs_playercond"
+					"value"	"1"
+				}
+				"damage penalty"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"	"0.75"
+				}
+			}
+		}
+		"354"
+		{
+			"name"	"The Concheror"
+			"item_class"	"tf_weapon_buff_item"
+			"craft_class"	"weapon"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_gift_wrap" 	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_SoldierSashimono"
+			"item_name"	"#TF_SoldierSashimono"
+			"item_description"	"#TF_SoldierSashimono_Desc"
+			"item_slot"	"secondary"
+			"anim_slot"	"melee"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"min_ilevel"	"5"
+			"max_ilevel"	"5"
+			"image_inventory"	"backpack/player/items/crafting/shogun_warpack_backpackscene"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/weapons/c_models/c_shogun_warhorn/c_shogun_warhorn.mdl"
+			"attach_to_hands" "1"
+			"extra_wearable" "models/weapons/c_models/c_shogun_warpack/c_shogun_warpack.mdl"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+			}
+			"allowed_attributes"
+			{
+				"all_items"	"1"
+				"dmg_reductions" "1"
+				"player_health" "1"
+				"attrib_healthregen" "1"
+				"player_movement" "1"
+			}
+			"visuals"
+			{
+				// first-person
+				"animation"
+				{
+					"activity"		"ACT_ITEM1_VM_DRAW"
+					"replacement"		"ACT_ITEM2_VM_DRAW"
+				}
+				"animation"
+				{
+					"activity"		"ACT_ITEM1_VM_IDLE"
+					"replacement"		"ACT_ITEM2_VM_IDLE"
+				}
+				"animation"
+				{
+					"activity"		"ACT_ITEM1_VM_PRIMARYATTACK"
+					"replacement"		"ACT_ITEM2_VM_PRIMARYATTACK"
+				}
+				"animation"
+				{
+					"activity"		"ACT_ITEM1_VM_SECONDARYATTACK"
+					"replacement"		"ACT_ITEM2_VM_SECONDARYATTACK"
+				}
+				// third-person
+				"animation"
+				{
+					"activity"		"ACT_MP_ATTACK_STAND_PRIMARYFIRE"
+					"replacement"		"ACT_MP_ATTACK_STAND_ITEM2"
+				}
+				"animation"
+				{
+					"activity"		"ACT_MP_ATTACK_STAND_SECONDARYFIRE"
+					"replacement"		"ACT_MP_ATTACK_STAND_ITEM2_SECONDARY"
+				}
+				"animation"
+				{
+					"activity"		"ACT_MP_ATTACK_CROUCH_PRIMARYFIRE"
+					"replacement"		"ACT_MP_ATTACK_STAND_ITEM2"
+				}
+				"animation"
+				{
+					"activity"		"ACT_MP_ATTACK_CROUCH_SECONDARYFIRE"
+					"replacement"		"ACT_MP_ATTACK_STAND_ITEM2_SECONDARY"
+				}
+			}
+			"attributes"
+			{
+				"mod soldier buff type"
+				{
+					"attribute_class"	"set_buff_type"
+					"value"	"3"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_pack_pickup.wav"
+			"drop_sound"		"ui/item_pack_drop.wav"
+		}
+		"355"
+		{
+			"name"	"The Fan O'War"
+			"item_class"	"tf_weapon_bat"
+			"craft_class"	"weapon"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_gift_wrap" 	"1"
+			}
+			"item_logname"	"warfan"
+			"item_iconname"	"warfan"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Gunbai"
+			"item_name"	"#TF_Gunbai"
+			"item_description"	"#TF_Gunbai_Desc"
+			"item_slot"	"melee"
+			"image_inventory"	"backpack/weapons/c_models/c_shogun_warfan/c_shogun_warfan"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/weapons/c_models/c_shogun_warfan/c_shogun_warfan.mdl"
+			"attach_to_hands"	"1"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"min_ilevel"	"5"
+			"max_ilevel"	"5"
+			"used_by_classes"
+			{
+				"scout"	"1"
+			}
+			"attributes"
+			{
+				"mark for death"
+				{
+					"attribute_class"	"mark_for_death"
+					"value"	"1"
+				}
+				"damage penalty"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"	"0.1"
+				}
+			}
+			"allowed_attributes"
+			{
+				"all_items"	"1"
+				"dmg_reductions" "1"
+				"player_health" "1"
+				"attrib_healthregen" "1"
+				"player_movement" "1"
+				"attrib_dmgdone"	"1"
+				"attrib_critboosts"	"1"
+				"attrib_onhit_slow" "1"
+				"attrib_vs_burning" "1"
+				"attrib_firerate" "1"
+			}
+			"mouse_pressed_sound"	"ui/item_wood_pole_pickup.wav"
+			"drop_sound"		"ui/item_wood_pole_drop.wav"
+		}
+		"356"
+		{
+			"name"	"Conniver's Kunai"
+			"item_class"	"tf_weapon_knife"
+			"craft_class"	"weapon"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_gift_wrap" 	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Kunai"
+			"item_name"	"#TF_Kunai"
+			"item_description"	"#TF_Kunai_Desc"
+			"item_slot"	"melee"
+			"item_quality"	"unique"
+			"propername"	"0"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"item_logname"	"kunai"
+			"item_iconname"	"kunai"
+			"image_inventory"	"backpack/weapons/c_models/c_shogun_kunai/c_shogun_kunai"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"attach_to_hands" "1"
+			"model_player"	"models/weapons/c_models/c_shogun_kunai/c_shogun_kunai.mdl"
+			"used_by_classes"
+			{
+				"spy"	"1"
+			}
+			"visuals"
+			{
+				"animation"
+				{
+					"activity"		"ACT_VM_HITCENTER"
+					"replacement"		"ACT_MELEE_VM_HITCENTER"
+				}
+				"animation"
+				{
+					"activity"		"ACT_VM_SWINGHARD"
+					"replacement"		"ACT_MELEE_VM_SWINGHARD"
+				}
+			}
+			"attributes"
+			{
+				"sanguisuge"
+				{
+					"attribute_class"	"sanguisuge"
+					"value"	"1"
+				}
+				"max health additive penalty"
+				{
+					"attribute_class"	"add_maxhealth"
+					"value" "-65"
+				}
+				"lunchbox adds minicrits"
+        		{
+					"attribute_class"	"set_weapon_mode"
+					"value" "1"
+        		}
+			}		
+			"mouse_pressed_sound"	"ui/item_knife_small_pickup.wav"
+			"drop_sound"		"ui/item_light_gun_drop.wav"
+		}
+		"357"
+		{
+			"name"	"The Half-Zatoichi"
+			"item_class"	"tf_weapon_katana"
+			"craft_class"	"weapon"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_gift_wrap" 	"1"
+			}
+			"show_in_armory"	"1"
+			"item_logname"	"demokatana"
+			"item_iconname"	"demokatana"
+			"item_type_name"	"#TF_Weapon_SoldierKatana"
+			"item_name"	"#TF_SoldierKatana"
+			"item_description"	"#TF_SoldierKatana_Desc"
+			"item_slot"	"melee"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"min_ilevel"	"5"
+			"max_ilevel"	"5"
+			"image_inventory"	"backpack/weapons/c_models/c_shogun_katana/c_shogun_katana"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"attach_to_hands"	"1"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+				"demoman"	"1"
+			}
+			"model_player_per_class"
+			{
+				"soldier"	"models/weapons/c_models/c_shogun_katana/c_shogun_katana_soldier.mdl"
+				"demoman"	"models/weapons/c_models/c_shogun_katana/c_shogun_katana.mdl"
+			}
+			"attributes"
+			{
+				"decapitate type"
+				{
+					"attribute_class"	"decapitate_type"
+					"value"	"1"
+				}
+				"restore health on kill"
+				{
+					"attribute_class"	"restore_health_on_kill"
+					"value"	"100"
+				}
+				"honorbound"
+				{
+					"attribute_class"	"honorbound"
+					"value"	"1"
+				}
+			}
+			"allowed_attributes"
+			{
+				"all_items"	"1"
+				"dmg_reductions" "1"
+				"player_health" "1"
+				"attrib_healthregen" "1"
+				"player_movement" "1"
+				"attrib_dmgdone"	"1"
+				"attrib_critboosts"	"1"
+				"attrib_onhit_slow" "1"
+				"attrib_vs_burning" "1"
+				"attrib_firerate" "1"
+			}
+			"mouse_pressed_sound"	"ui/item_knife_large_pickup.wav"
+			"drop_sound"		"ui/item_metal_weapon_drop.wav"
+		}
+		"358"
+		{
+			"name"	"Heavy Topknot"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"loadondemand" "1"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_gift_wrap" 	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name" "#TF_Wearable_Hat"
+			"item_name"	"#TF_HeavyTopknot"
+			"item_description"	"#TF_HeavyTopknot_Desc"
+			"item_slot"	"head"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/heavy/heavy_shogun_topknot"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/heavy/heavy_shogun_topknot.mdl"
+			"drop_type"	"none"
+			"propername"	"1"
+			"used_by_classes"
+			{
+				"heavy"	"1"
+			}
+			"visuals"
+			{
+				"hide_player_bodygroup_name"	"hat"
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 		"ui/item_hat_pickup.wav"
+		}
+		"359"
+		{
+			"name"	"Demo Kabuto"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"loadondemand" "1"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_gift_wrap" 	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name" "#TF_Wearable_Hat"
+			"item_name"	"#TF_DemoKabuto"
+			"item_description"	"#TF_DemoKabuto_Desc"
+			"item_slot"	"head"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/demo/demo_shogun_kabuto"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/demo/demo_shogun_kabuto.mdl"
+			"drop_type"	"none"
+			"propername"	"1"
+			"used_by_classes"
+			{
+				"demoman"	"1"
+			}
+			"visuals"
+			{
+				"hide_player_bodygroup_name"	"hat"
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 		"ui/item_hat_pickup.wav"
+		}
+		"360"
+		{
+			"name"	"Hero's Hachimaki"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"loadondemand" "1"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_name"	"#TF_Homefront_Blindfold"
+			"item_description"	"#TF_Homefront_Blindfold_Desc"
+			"item_slot"	"head"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/soldier/homefront_blindfold"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/soldier/homefront_blindfold.mdl"
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+			}
+			"visuals"
+			{
+				"hide_player_bodygroup_name"	"hat"
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 		"ui/item_hat_pickup.wav"
+		}
+		"361"
+		{
+			"name"	"Spy Oni Mask"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"loadondemand" "1"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_gift_wrap" 	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name" "#TF_Wearable_Hat"
+			"item_name"	"#TF_SpyOniMask"
+			"item_description"	"#TF_SpyOniMask_Desc"
+			"item_slot"	"head"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/spy/shogun_ninjamask"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/spy/shogun_ninjamask.mdl"
+			"drop_type"	"none"
+			"propername"	"1"
+			"used_by_classes"
+			{
+				"spy" "1"
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 		"ui/item_hat_pickup.wav"
+		}
+		"362"
+		{
+			"name"	"Charity Noise Maker - Bell"
+			"item_class"	"tf_wearable"
+			"tool"
+			{
+				"type"	"noise_maker"
+			}
+			"capabilities"
+			{
+				"usable"		"1"
+				"usable_gc"		"1"
+			}
+			"show_in_armory"	"1"
+			"armory_desc"		"charity"
+			"armory_desc"		"action noisemaker"
+			"item_type_name"	"#TF_Party_Favor"
+			"item_name"	"#TF_NoiseMaker_Charity_Bell"
+			"item_slot"	"action"
+			"image_inventory"	"backpack/crafting/noisemaker_bell"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"5"
+			"max_ilevel"	"5"
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy" 		"1"
+				"engineer" 	"1"
+				"pyro" 		"1"
+			}
+			"attributes"
+			{
+				"noise maker"
+				{
+					"attribute_class"	"enable_misc2_noisemaker"
+					"value"			"1"
+				}
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"visuals"
+			{
+				"custom_sound0"	"Fundraiser.Bell"
+			}
+			"mouse_pressed_sound" 	"Fundraiser.Bell"
+			"drop_sound"		"ui/item_metal_scrap_drop.wav"
+		}
+		"363"
+		{
+			"name"	"Medic Geisha Hair"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"loadondemand" "1"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_gift_wrap" 	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name" "#TF_Wearable_Hat"
+			"item_name"	"#TF_MedicGeishaHair"
+			"item_description"	"#TF_MedicGeishaHair_Desc"
+			"item_slot"	"head"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/medic/shogun_geishahair"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/medic/shogun_geishahair.mdl"
+			"drop_type"	"none"
+			"propername"	"1"
+			"used_by_classes"
+			{
+				"medic"	"1"
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 		"ui/item_hat_pickup.wav"
+		}
+		"364"
+		{
+			"name"	"Charity Noise Maker - Tingsha"
+			"item_class"	"tf_wearable"
+			"tool"
+			{
+				"type"	"noise_maker"
+			}
+			"capabilities"
+			{
+				"usable"		"1"
+				"usable_gc"		"1"
+			}
+			"show_in_armory"	"1"
+			"armory_desc"		"charity"
+			"armory_desc"		"action noisemaker"
+			"item_type_name"	"#TF_Party_Favor"
+			"item_name"	"#TF_NoiseMaker_Charity_Tingsha"
+			"item_slot"	"action"
+			"image_inventory"	"backpack/crafting/noisemaker_gong"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"5"
+			"max_ilevel"	"5"
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy" 		"1"
+				"engineer" 	"1"
+				"pyro" 		"1"
+			}
+			"attributes"
+			{
+				"noise maker"
+				{
+					"attribute_class"	"enable_misc2_noisemaker"
+					"value"			"1"
+				}
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"visuals"
+			{
+				"custom_sound0"	"Fundraiser.Tingsha"
+			}
+			"mouse_pressed_sound" 	"Fundraiser.Tingsha"
+			"drop_sound"		"ui/item_metal_scrap_drop.wav"
+		}
+		"365"
+		{
+			"name"	"Promotional Noise Maker - Koto"
+			"item_class"	"tf_wearable"
+			"tool"
+			{
+				"type"	"noise_maker"
+			}
+			"capabilities"
+			{
+				"usable"		"1"
+				"usable_gc"		"1"
+			}
+			"show_in_armory"	"1"
+			"armory_desc"		"action noisemaker"
+			"item_type_name"	"#TF_Party_Favor"
+			"item_name"	"#TF_NoiseMaker_Shogun"
+			"item_slot"	"action"
+			"image_inventory"	"backpack/crafting/noisemaker_harp"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"5"
+			"max_ilevel"	"5"
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy" 		"1"
+				"engineer" 	"1"
+				"pyro" 		"1"
+			}
+			"attributes"
+			{
+				"noise maker"
+				{
+					"attribute_class"	"enable_misc2_noisemaker"
+					"value"			"1"
+				}
+			}
+			"visuals"
+			{
+				"custom_sound0"	"Samurai.Koto"
+			}
+			"mouse_pressed_sound" 	"Samurai.Koto"
+			"drop_sound"		"ui/item_metal_scrap_drop.wav"
+		}
+		"381"
+		{
+			"name"	"Medic's Mountain Cap"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"paintable"		"1"
+				"can_gift_wrap" 	"1"
+			}
+			"loadondemand" "1"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_name"	"#TF_MountainCap"
+			"item_description"	"#TF_MountainCap_Desc"
+			"item_slot"	"head"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/medic/fieldcap"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/medic/fieldcap.mdl"
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"medic"	"1"
+			}
+			"visuals"
+			{
+				"hide_player_bodygroup_name"	"hat"
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 		"ui/item_hat_pickup.wav"
+		}
+		"382"
+		{
+			"name"	"Big Country"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"paintable"		"1"
+				"can_gift_wrap" 	"1"
+			}
+			"loadondemand" "1"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_name"	"#TF_BigCountry"
+			"item_description"	"#TF_BigCountry_Desc"
+			"item_slot"	"head"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/crafting/mullet_hat_icon"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/engineer/mullet_hat.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"engineer"	"1"
+			}
+			"visuals"
+			{
+				"hide_player_bodygroup_name"	"hat"
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 		"ui/item_hat_pickup.wav"
+		}
+		"383"
+		{
+			"name"	"Grimm Hatte"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_gift_wrap" 	"1"
+			}
+			"loadondemand" "1"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_name"	"#TF_GrimmHatte"
+			"item_description"	"#TF_GrimmHatte_Desc"
+			"item_slot"	"head"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/medic/grimm_hatte"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/medic/grimm_hatte.mdl"
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"medic"	"1"
+			}
+			"visuals"
+			{
+				"hide_player_bodygroup_name"	"hat"
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 		"ui/item_hat_pickup.wav"
+		}
+		"384"
+		{
+			"name"	"Professor's Peculiarity"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"paintable"		"1"
+				"can_gift_wrap" 	"1"
+			}
+			"loadondemand" "1"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_name"	"#TF_ProfessorHair"
+			"item_description"	"#TF_ProfessorHair_Desc"
+			"item_slot"	"head"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/crafting/professor_hair_icon"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/engineer/professor_hair.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"engineer"	"1"
+			}
+			"visuals"
+			{
+				"hide_player_bodygroup_name"	"hat"
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 		"ui/item_hat_pickup.wav"
+		}
+		"386"
+		{
+			"name"	"Teddy Roosebelt"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_gift_wrap" 	"1"
+			}
+			"loadondemand" "1"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_name"	"#TF_TeddyRoosebelt"
+			"item_description"	"#TF_TeddyRoosebelt_Desc"
+			"item_slot"	"misc"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/engineer/teddy_roosebelt"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/engineer/teddy_roosebelt.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"engineer"	"1"
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 		"ui/item_hat_pickup.wav"
+		}
+		"387"
+		{
+			"name"	"Sight for Sore Eyes"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_gift_wrap" 	"1"
+			}
+			"loadondemand" "1"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_name"	"#TF_SoreEyes"
+			"item_description"	"#TF_SoreEyes_Desc"
+			"item_slot"	"misc"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/pyro/sore_eyes"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/pyro/sore_eyes.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"pyro"	"1"
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 		"ui/item_hat_pickup.wav"
+		}
+		"388"
+		{
+			"name"	"Private Eye"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_gift_wrap" 	"1"
+			}
+			"loadondemand" "1"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_name"	"#TF_Private_Eye"
+			"item_description"	"#TF_Private_Eye_Desc"
+			"item_slot"	"head"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/spy/spy_private_eye"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/spy/spy_private_eye.mdl"
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"spy"	"1"
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 		"ui/item_hat_pickup.wav"
+		}
+		"389"
+		{
+			"name"	"Googly Gazer"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_gift_wrap" 	"1"
+				"paintable"		"1"
+			}
+			"loadondemand" "1"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_name"	"#TF_GooglyGazer"
+			"item_description"	"#TF_GooglyGazer_Desc"
+			"item_slot"	"misc"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/engineer/mad_eye"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/engineer/mad_eye.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"engineer"	"1"
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 		"ui/item_hat_pickup.wav"
+			"visuals_blu"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"skin"	"1"
+						"name"	"#TF_Gazer_Style0"
+					}
+					"1"
+					{
+						"skin"	"3"
+						"name"	"#TF_Gazer_Style1"
+					}
+				}
+			}
+			"visuals_red"
+			{
+				"styles"
+				{
+					"0"
+					{
+						"skin"	"0"
+						"name"	"#TF_Gazer_Style0"
+					}
+					"1"
+					{
+						"skin"	"2"
+						"name"	"#TF_Gazer_Style1"
+					}
+				}
+			}
+		}
+		"390"
+		{
+			"name"	"Reggaelator"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"paintable"		"1"
+				"can_gift_wrap" 	"1"
+			}
+			"loadondemand" "1"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_name"	"#TF_Reggaelator"
+			"item_description"	"#TF_Reggaelator_Desc"
+			"item_slot"	"head"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/demo/demo_dreads"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/demo/demo_dreads.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"demoman"	"1"
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 		"ui/item_hat_pickup.wav"
+		}
+		"391"
+		{
+			"name"	"Honcho's Headgear"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"paintable"		"1"
+				"can_gift_wrap" 	"1"
+			}
+			"loadondemand" "1"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_name"	"#TF_HonchosHeadgear"
+			"item_description"	"#TF_HonchosHeadgear_Desc"
+			"item_slot"	"head"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/soldier/honchos_headgear"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/soldier/honchos_headgear.mdl"
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+			}
+			"visuals"
+			{
+				"hide_player_bodygroup_name"	"hat"
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 		"ui/item_hat_pickup.wav"
+		}
+		"397"
+		{
+			"name"	"Charmer's Chapeau"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"paintable"		"1"
+				"can_gift_wrap" 	"1"
+			}
+			"loadondemand" "1"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_name"	"#TF_Charmers_Chapeau"
+			"item_description"	"#TF_Charmers_Chapeau_Desc"
+			"item_slot"	"head"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/spy/spy_charmers_chapeau"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/player/items/spy/spy_charmers_chapeau.mdl"
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"spy"	"1"
+			}
+			"visuals"
+			{
+				"hide_player_bodygroup_name"	"hat"
+			}
+			"mouse_pressed_sound" 	"ui/item_hat_pickup.wav"
+			"drop_sound" 		"ui/item_hat_pickup.wav"
+		}	
+		"408"
+		{
+			"name"	"Humanitarian's Hachimaki"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"loadondemand" "1"
+			"show_in_armory"	"1"
+			"armory_desc"		"charity"
+			"item_type_name""#TF_Wearable_Hat"
+			"item_name"	"#TF_CharityHat_A"
+			"item_description"	"#TF_CharityHat_Desc"
+			"item_slot"	"head"
+			"item_quality"	"unique"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"image_inventory"	"backpack/player/items/all_class/japan_hachimaki"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player_per_class"	
+			{
+				"scout"		"models/player/items/scout/japan_hachimaki.mdl"
+				"sniper"	"models/player/items/sniper/japan_hachimaki.mdl"
+				"soldier"	"models/player/items/soldier/japan_hachimaki.mdl"
+				"demoman"	"models/player/items/demo/japan_hachimaki.mdl"
+				"medic"		"models/player/items/medic/japan_hachimaki.mdl"
+				"heavy"		"models/player/items/heavy/japan_hachimaki.mdl"
+				"spy"		"models/player/items/spy/japan_hachimaki.mdl"
+				"engineer"	"models/player/items/engineer/japan_hachimaki.mdl"
+				"pyro"		"models/player/items/pyro/japan_hachimaki.mdl"
+			}
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"visuals"
+			{
+				"hide_player_bodygroup_name"	"hat"
+				"hide_player_bodygroup_name"	"headphones"
+			}
+			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"409"
+		{
+			"name"	"Benefactor's Kanmuri"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"loadondemand" "1"
+			"show_in_armory"	"1"
+			"armory_desc"		"charity"
+			"item_type_name""#TF_Wearable_Hat"
+			"item_name"	"#TF_CharityHat_B"
+			"item_description"	"#TF_CharityHat_Desc"
+			"item_slot"	"head"
+			"item_quality"	"unique"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"image_inventory"	"backpack/player/items/all_class/japan_hat"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player_per_class"	
+			{
+				"scout"		"models/player/items/scout/japan_hat.mdl"
+				"sniper"	"models/player/items/sniper/japan_hat.mdl"
+				"soldier"	"models/player/items/soldier/japan_hat.mdl"
+				"demoman"	"models/player/items/demo/japan_hat.mdl"
+				"medic"		"models/player/items/medic/japan_hat.mdl"
+				"heavy"		"models/player/items/heavy/japan_hat.mdl"
+				"spy"		"models/player/items/spy/japan_hat.mdl"
+				"engineer"	"models/player/items/engineer/japan_hat.mdl"
+				"pyro"		"models/player/items/pyro/japan_hat.mdl"
+			}
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"visuals"
+			{
+				"hide_player_bodygroup_name"	"hat"
+				"hide_player_bodygroup_name"	"headphones"
+			}
+			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"410"
+		{
+			"name"	"Mangnanimous Monarch"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"loadondemand" "1"
+			"show_in_armory"	"1"
+			"armory_desc"		"charity"
+			"item_type_name""#TF_Wearable_Hat"
+			"item_name"	"#TF_CharityHat_C"
+			"item_description"	"#TF_CharityHat_Desc"
+			"item_slot"	"head"
+			"item_quality"	"unique"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"image_inventory"	"backpack/player/items/all_class/japan_hat_monarch"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player_per_class"	
+			{
+				"scout"		"models/player/items/scout/japan_hat_monarch.mdl"
+				"sniper"	"models/player/items/sniper/japan_hat_monarch.mdl"
+				"soldier"	"models/player/items/soldier/japan_hat_monarch.mdl"
+				"demoman"	"models/player/items/demo/japan_hat_monarch.mdl"
+				"medic"		"models/player/items/medic/japan_hat_monarch.mdl"
+				"heavy"		"models/player/items/heavy/japan_hat_monarch.mdl"
+				"spy"		"models/player/items/spy/japan_hat_monarch.mdl"
+				"engineer"	"models/player/items/engineer/japan_hat_monarch.mdl"
+				"pyro"		"models/player/items/pyro/japan_hat_monarch.mdl"
+			}
+			"drop_type"	"none"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"attributes"
+			{
+				"cannot trade"
+				{
+					"attribute_class"	"cannot_trade"
+					"value"				"1"
+				}
+			}
+			"visuals"
+			{
+				"hide_player_bodygroup_name"	"hat"
+				"hide_player_bodygroup_name"	"headphones"
+			}
+			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"420"
+		{
+			"name"	"Potato Hat"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_gift_wrap" 	"1"
+				"paintable"		"1"
+			}
+			"loadondemand" "1"
+			"show_in_armory"	"1"
+			"item_type_name" "#TF_Wearable_Hat"
+			"item_name"	"#TF_PotatoHat"
+			"item_description"	"#TF_PotatoHat_Desc"
+			"item_slot"	"head"
+			"item_quality"	"unique"
+			"image_inventory"	"backpack/player/items/all_class/hardhat"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player_per_class"	
+			{
+				"scout"		"models/player/items/scout/hardhat.mdl"
+				"sniper"	"models/player/items/sniper/hardhat.mdl"
+				"soldier"	"models/player/items/soldier/hardhat.mdl"
+				"demoman"	"models/player/items/demo/hardhat.mdl"
+				"medic"		"models/player/items/medic/hardhat.mdl"
+				"heavy"		"models/player/items/heavy/hardhat.mdl"
+				"spy"		"models/player/items/spy/hardhat.mdl"
+				"engineer"	"models/player/items/engineer/hardhat.mdl"
+				"pyro"		"models/player/items/pyro/hardhat.mdl"
+			}
+			"drop_type"	"drop"
+			"min_ilevel"	"10"
+			"max_ilevel"	"10"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"visuals"
+			{
+				"hide_player_bodygroup_name"	"hat"
+				"hide_player_bodygroup_name"	"headphones"
+			}
+			"mouse_pressed_sound"	"ui/item_helmet_pickup.wav"
+			"drop_sound"		"ui/item_helmet_drop.wav"
+		}
+		"422"
+		{
+			"name"	"Resurrection Associate Pin"
+			"item_class"	"tf_wearable"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_gift_wrap" 	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Wearable_Badge"
+			"item_name"	"#TF_Resurrection_Associate_Pin"
+			"item_slot"	"misc"
+			"image_inventory"	"backpack/player/items/all_class/p2_pin"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"13"
+			"max_ilevel"	"13"
+			"model_player"	"models/player/items/all_class/p2_pin.mdl"
+			"drop_type"	"drop"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+			"attributes"
+			{
+				"always tradable"
+				{
+					"attribute_class"	"always_tradable"
+					"value"				"1"
+				}
+			}
+		}
 		
 		// world traveler hat and tokens
 		"1899"
 		{
 			"name"	"World Traveler"
-			"item_class"	"tf_wearable_item"
+			"item_class"	"tf_wearable"
 			"capabilities"
 			{
 				"nameable"		"1"
@@ -12301,6 +14060,63 @@
 			"show_in_armory"	"1"
 			"armory_desc"		"maptoken"
 			"image_inventory"	"backpack/player/items/all_class/stamp_manor"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"96"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"mouse_pressed_sound"	"ui/item_paper_pickup.wav"
+			"drop_sound"		"ui/item_paper_pickup.wav"
+		}
+		"1914"
+		{
+			"name" "Map Token Nightfall"
+			"item_class"	"map_token"
+			"item_type_name"	"#TF_MapToken"
+			"item_name"		"#TF_MapToken_Nightfall"
+			"item_description"	"#TF_MapToken_Nightfall_Desc"
+			"map_name"		"#TF_Nightfall"
+			"show_in_armory"	"1"
+			"armory_desc"		"maptoken"
+			"image_inventory"	"backpack/player/items/all_class/stamp_nightfall"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"96"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"mouse_pressed_sound"	"ui/item_paper_pickup.wav"
+			"drop_sound"		"ui/item_paper_pickup.wav"
+		}
+		"1915"
+		{
+			"name" "Map Token Frontier"
+			"item_class"	"map_token"
+			"item_type_name"	"#TF_MapToken"
+			"item_name"		"#TF_MapToken_Frontier"
+			"item_description"	"#TF_MapToken_Frontier_Desc"
+			"map_name"		"#TF_Frontier"
+			"show_in_armory"	"1"
+			"armory_desc"		"maptoken"
+			"image_inventory"	"backpack/player/items/all_class/stamp_frontier"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"96"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"mouse_pressed_sound"	"ui/item_paper_pickup.wav"
+			"drop_sound"		"ui/item_paper_pickup.wav"
+		}
+		"1916"
+		{
+			"name" "Map Token Lakeside"
+			"item_class"	"map_token"
+			"item_type_name"	"#TF_MapToken"
+			"item_name"		"#TF_MapToken_Lakeside"
+			"item_description"	"#TF_MapToken_Lakeside_Desc"
+			"map_name"		"#TF_Lakeside"
+			"show_in_armory"	"1"
+			"armory_desc"		"maptoken"
+			"image_inventory"	"backpack/player/items/all_class/stamp_lakeside"
 			"image_inventory_size_w"	"128"
 			"image_inventory_size_h"	"96"
 			"item_quality"		"unique"
@@ -12831,6 +14647,120 @@
 			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
 			"drop_sound"		"ui/item_bag_drop.wav"
 		}
+		"2015"
+		{
+			"name" "Map Token Bundle 2"
+			"item_class"	"bundle"
+			"bundle"
+			{
+				"Map Token Egypt"		"1"
+				"Map Token Coldfront"	"1"
+				"Map Token Fastlane"	"1"
+				"Map Token Turbine"		"1"
+				"Map Token Steel"		"1"
+				"Map Token Junction"	"1"
+				"Map Token Watchtower"	"1"
+				"Map Token Hoodoo"		"1"
+				"Map Token Offblast"	"1"
+				"Map Token Yukon"		"1"
+				"Map Token Harvest"		"1"
+				"Map Token Freight"		"1"
+				"Map Token Mountain Lab"		"1"
+				"Map Token Manor Event"			"1"
+				"Map Token Nightfall"			"1"
+				"Map Token Frontier"			"1"
+				"Map Token Lakeside"			"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Bundle_MapTokens"
+			"item_description"	"#TF_Bundle_MapTokens_Desc"
+			"image_inventory"	"backpack/player/items/all_class/stamp_collection"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"mouse_pressed_sound"	"ui/item_paper_pickup.wav"
+			"drop_sound"		"ui/item_paper_pickup.wav"
+		}
+		"2016"
+		{
+			"name" "Shogun Complete Bundle"
+			"item_class"	"bundle"
+			"bundle"
+			{
+				// weapons
+				"The Concheror"			"1"
+				"The Fan O'War"			"1"
+				"Conniver's Kunai"		"1"
+				"The Half-Zatoichi"		"1"
+				
+				// hats
+				"Heavy Topknot"			"1"
+				"Demo Kabuto"			"1"
+				"Spy Oni Mask"			"1"
+				"Medic Geisha Hair"		"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Bundle_ShogunPromoComplete"
+			"item_description"	"#TF_Bundle_ShogunPromoComplete_Desc"
+			"image_inventory"	"backpack/player/items/crafting/shogun_complete_bundle"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"used_by_classes"
+			{
+				"soldier"	"1"
+				"scout"		"1"
+				"spy"		"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}
+		"2017"
+		{
+			"name" "Japan Charity Bundle"
+			"item_class"	"bundle"
+			"armory_desc"		"charity"
+			"bundle"
+			{
+				// hats
+				"Humanitarian's Hachimaki"		"1"
+				"Benefactor's Kanmuri"			"1"
+				
+				// bonus
+				"Charity Noise Maker - Bell"	"1"
+				"Charity Noise Maker - Tingsha"	"1"
+			}
+			"item_type_name"	"#TF_StoreBundle"
+			"item_name"		"#TF_Bundle_JapanCharity"
+			"item_description"	"#TF_Bundle_JapanCharity_Desc"
+			"image_inventory"	"backpack/player/items/crafting/japan_charity_bundle"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"item_quality"		"unique"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"spy" "1"
+				"engineer" "1"
+				"pyro" "1"
+			}
+			"mouse_pressed_sound"	"ui/item_bag_pickup.wav"
+			"drop_sound"		"ui/item_bag_drop.wav"
+		}
 		
 
 		"5000"
@@ -13259,7 +15189,7 @@
 				"set supply crate series"
 				{
 					"attribute_class"	"supply_crate_series"
-					"value" "7"
+					"value" "18"
 					"force_gc_to_generate" "1"
 				}
 			}
@@ -13915,7 +15845,7 @@
 				"set supply crate series"
 				{
 					"attribute_class"	"supply_crate_series"
-					"value" "8"
+					"value" "17"
 					"force_gc_to_generate" "1"
 				}
 			}
@@ -14055,7 +15985,7 @@
 				"set supply crate series"
 				{
 					"attribute_class"	"supply_crate_series"
-					"value" "9"
+					"value" "16"
 					"force_gc_to_generate" "1"
 				}
 			}
@@ -14145,7 +16075,7 @@
 		}
 		"5049"
 		{
-			"name"	"Winter Key"
+			"name"	"Winter Key" // Now a 'normal key'
 			"item_class"	"tool"
 			"craft_class"	"tool"
 			"tool"
@@ -14155,7 +16085,6 @@
 				{
 					"decodable"	"1"
 				}
-				"restriction"	"winter"
 			}
 			"attributes"
 			{
@@ -14168,9 +16097,9 @@
 			"armory_desc" "key"
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_T"
-			"item_name"		"#TF_Tool_WinterKey"
-			"item_description"	"#TF_Tool_WinterKey_Desc"
-			"image_inventory"	"backpack/player/items/crafting/key_festive"
+			"item_name"		"#TF_Tool_DecoderRing"
+			"item_description"	"#TF_Tool_DecoderRing_Desc"
+			"image_inventory"	"backpack/player/items/crafting/key"
 			"image_inventory_size_w"	"128"
 			"image_inventory_size_h"	"82"
 			"item_quality"		"unique"
@@ -14500,6 +16429,40 @@
 				}
 			}
 		}
+		
+		// Start of claim code items
+		"5500"
+		{
+			"name"	"RIFT Spider Hat Code"
+			"item_class"	"tool"
+			"tool"
+			{
+				"type"	"claimcode"
+				"usage"
+				{
+					"claim_type"	"#TF_RIFT_SpiderHat_ClaimType"
+				}
+			}
+			"capabilities"
+			{
+				"usable_gc"				"1"
+				"usable_out_of_game"	"1"
+			}
+			"armory_desc" "claimcode"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_ClaimCode"
+			"item_name"	"#TF_RIFT_SpiderHat_ClaimCode"
+			"item_description"	"#TF_RIFT_SpiderHat_ClaimCode_Desc"
+			"image_inventory"	"backpack/crafting/ticket"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"item_quality"	"unique"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"mouse_pressed_sound"	"ui/item_paper_pickup.wav"
+			"drop_sound"		"ui/item_paper_pickup.wav"
+		}
+
 	}
 	"attributes"
 	{
@@ -16392,7 +18355,7 @@
 			"group"	"only_on_unique"
 			"description_string"	"#Attrib_Community_Description"
 			"description_format"	"value_is_percentage"
-			"hidden"	"0"
+			"hidden"	"1"
 			"effect_type"	"neutral"
 			"stored_as_integer"	"0"
 		}
@@ -16518,7 +18481,7 @@
 			"group"	"only_on_unique"
 			"description_string"	"#Attrib_Selfmade_Description"
 			"description_format"	"value_is_percentage"
-			"hidden"	"0"
+			"hidden"	"1"
 			"effect_type"	"neutral"
 			"stored_as_integer"	"0"
 		}
@@ -16558,6 +18521,7 @@
 			"min_value"	"2"
 			"max_value"	"2"
 			"group"	"only_on_unique"
+			"description_string"	"#Attrib_LunchboxAddsMaxHealth"
 			"description_format"	"value_is_additive"
 			"hidden"	"1"
 			"effect_type"	"neutral"
@@ -16634,7 +18598,6 @@
 			"effect_type"	"positive"
 			"stored_as_integer"	"0"
 		}
-
 		"153"
 		{
 			"name"	"cannot trade"
@@ -17218,11 +19181,12 @@
 			"min_value"	"0"
 			"max_value"	"0"
 			"group"	"only_on_unique"
+			"description_string"	"#Attrib_DamageDone_Negative"
 			"description_format"	"value_is_additive"
 			"hidden"	"1"
 			"effect_type"	"negative"
 			"stored_as_integer"	"0"
-		}	
+		}
 		"196"
 		{
 			"name"	"noise maker"
@@ -17231,6 +19195,7 @@
 			"min_value"	"1"
 			"max_value"	"1"
 			"group"	"only_on_unique"
+			"description_string"	"#Attrib_DamageDone_Negative"
 			"description_format"	"value_is_additive"
 			"hidden"	"1"
 			"effect_type"	"neutral"
@@ -17341,8 +19306,8 @@
 			"description_format"	"value_is_percentage"
 			"hidden"	"0"
 			"effect_type"	"positive"
-			"stored_as_integer"	"0"
 			"armory_desc"	"on_active"
+			"stored_as_integer"	"0"
 		}
 		"206"
 		{
@@ -17355,8 +19320,8 @@
 			"description_format"	"value_is_percentage"
 			"hidden"	"0"
 			"effect_type"	"negative"
-			"stored_as_integer"	"0"
 			"armory_desc"	"on_active"
+			"stored_as_integer"	"0"
 		}
 		"207"
 		{
@@ -17368,6 +19333,268 @@
 			"group"	"only_on_unique"
 			"description_string"	"#Attrib_BlastDamageToSelf_Increased"
 			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"208"
+		{
+			"name"	"Set DamageType Ignite"
+			"attribute_class"	"set_dmgtype_ignite"
+			"attribute_name"	"Set DamageType Ignite"
+			"min_value"	"0"
+			"max_value"	"1"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_SetDamageType_Ignite"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"209"
+		{
+			"name"	"minicrit vs burning player"
+			"attribute_class"	"or_minicrit_vs_playercond_burning"
+			"attribute_name"	"Minicrit vs Burning Player"
+			"min_value"	"0"
+			"max_value"	"1"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_Minicrit_Vs_Burning_Player"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"210"
+		{
+			"name"	"paint effect"
+			"attribute_class"	"paint_effect"
+			"attribute_name"	"Paint Effect"
+			"min_value"	"0.95"
+			"max_value"	"0.85"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_PaintEffect"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"211"
+		{
+			"name"	"tradable after date"
+			"attribute_class"	"tradable_after_date"
+			"attribute_name"	"tradable_after_date"
+			"min_value"	"0.95"
+			"max_value"	"0.85"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_TradableAfterDate"
+			"description_format"	"value_is_date"
+			"hidden"	"1"
+			"effect_type"	"negative"
+			"stored_as_integer"	"1"
+		}
+		"212"
+		{
+			"name"	"force level display"
+			"attribute_class"	"force_level_display"
+			"attribute_name"	"Force Level Display"
+			"min_value"	"0"
+			"max_value"	"1"
+			"group"	"only_on_unique"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"213"
+		{
+			"name"	"random level curve replacement"
+			"attribute_class"	"random_level_curve_replacement"
+			"attribute_name"	"Random Level Curve Replacement"
+			"min_value"	"0"
+			"max_value"	"1"
+			"group"	"only_on_unique"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"214"
+		{
+			"name"	"kill eater"
+			"attribute_class"	"kill_eater"
+			"attribute_name"	"Kill Eater"
+			"min_value"	"0"
+			"max_value"	"1"
+			"group"	"only_on_unique"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"215"
+		{
+			"name"	"apply z velocity on damage"
+			"attribute_class"	"apply_z_velocity_on_damage"
+			"attribute_name"	"Apply Z Velocity On Damage"
+			"min_value"	"0"
+			"max_value"	"1000"
+			"group"	"only_on_unique"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"216"
+		{
+			"name"	"apply look velocity on damage"
+			"attribute_class"	"apply_look_velocity_on_damage"
+			"attribute_name"	"Apply Look Velocity on Damage"
+			"min_value"	"0"
+			"max_value"	"1000"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_Knockback"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"217"
+		{
+			"name"	"sanguisuge"
+			"attribute_class"	"sanguisuge"
+			"attribute_name"	"sanguisuge"
+			"min_value"	"0"
+			"max_value"	"1000"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_Sanguisuge"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"218"
+		{
+			"name"	"mark for death"
+			"attribute_class"	"mark_for_death"
+			"attribute_name"	"mark for death"
+			"min_value"	"0"
+			"max_value"	"1"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_MarkForDeath"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"219"
+		{
+			"name"	"decapitate type"
+			"attribute_class"	"decapitate_type"
+			"attribute_name"	"decapitate type"
+			"min_value"	"0"
+			"max_value"	"1"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_DamageDone_Negative"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"220"
+		{
+			"name"	"restore health on kill"
+			"attribute_class"	"restore_health_on_kill"
+			"attribute_name"	"restore health on kill"
+			"min_value"	"0"
+			"max_value"	"1000"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_RestoreHealthOnKill"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"221"
+		{
+			"name"	"mult decloak rate"
+			"attribute_class"	"mult_decloak_rate"
+			"attribute_name"	"mult decloak rate"
+			"min_value"	"0"
+			"max_value"	"1000"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_DecloakRate"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"222"
+		{
+			"name"	"mult sniper charge after hit"
+			"attribute_class"	"mult_sniper_charge_after_hit"
+			"attribute_name"	"mult sniper charge after hit"
+			"min_value"	"0"
+			"max_value"	"1000"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_MultSniperChargeAfterHit"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"223"
+		{
+			"name"	"mult sniper charge after miss"
+			"attribute_class"	"mult_sniper_charge_after_miss"
+			"attribute_name"	"mult sniper charge after miss"
+			"min_value"	"0"
+			"max_value"	"1000"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_MultSniperChargeAfterMiss"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"224"
+		{
+			"name"	"dmg bonus while half dead"
+			"attribute_class"	"mult_dmg_bonus_while_half_dead"
+			"attribute_name"	"dmg bonus while half dead"
+			"min_value"	"0"
+			"max_value"	"1000"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_MultDmgBonusWhileHalfDead"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		"225"
+		{
+			"name"	"dmg penalty while half alive"
+			"attribute_class"	"mult_dmg_penalty_while_half_alive"
+			"attribute_name"	"dmg penalty while half alive"
+			"min_value"	"0"
+			"max_value"	"1000"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_MultDmgPenaltyWhileHalfAlive"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"226"
+		{
+			"name"	"honorbound"
+			"attribute_class"	"honorbound"
+			"attribute_name"	"honorbound"
+			"min_value"	"0"
+			"max_value"	"1000"
+			"group"	"only_on_unique"
+			"description_string"	"#Attrib_Honorbound"
+			"description_format"	"value_is_additive"
 			"hidden"	"0"
 			"effect_type"	"negative"
 			"stored_as_integer"	"0"
@@ -17538,6 +19765,3834 @@
 			"store_bundle" "Expert's Ordnance Bundle"
 		}
 	}
+	"recipes"
+	{
+		"0"
+		{
+			"name"	"#RT_MP_A"
+			"n_A"	"#RI_Pp"
+			"desc_inputs"	"#RDI_AB"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"2"
+			"di_B"	"#RI_Pi"
+			"do_A"	"1"
+			"do_B"	"#CI_Bar_A"
+			"always_known"	"1"
+			"input_items"
+			{
+				"2"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"item_slot"
+							"operator"	"string=="
+							"value"	"primary"
+							"required"	"1"
+						}
+						"1"
+						{
+							"field"	"craft_class"
+							"operator"	"!string=="
+							"value"	"craft_token"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 1"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"1"
+		{
+			"name"	"#RT_MP_A"
+			"n_A"	"#RI_Sp"
+			"desc_inputs"	"#RDI_AB"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"2"
+			"di_B"	"#RI_Si"
+			"do_A"	"1"
+			"do_B"	"#CI_Bar_A"
+			"always_known"	"1"
+			"input_items"
+			{
+				"2"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"item_slot"
+							"operator"	"string=="
+							"value"	"secondary"
+							"required"	"1"
+						}
+						"1"
+						{
+							"field"	"craft_class"
+							"operator"	"!string=="
+							"value"	"craft_token"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 1"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"2"
+		{
+			"name"	"#RT_MP_A"
+			"n_A"	"#RI_Mp"
+			"desc_inputs"	"#RDI_AB"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"2"
+			"di_B"	"#RI_Mi"
+			"do_A"	"1"
+			"do_B"	"#CI_Bar_A"
+			"always_known"	"1"
+			"input_items"
+			{
+				"2"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"item_slot"
+							"operator"	"string=="
+							"value"	"melee"
+							"required"	"1"
+						}
+						"1"
+						{
+							"field"	"craft_class"
+							"operator"	"!string=="
+							"value"	"craft_token"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 1"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"3"
+		{
+			"name"	"#RT_MP_A"
+			"n_A"	"#RI_Cw"
+			"desc_inputs"	"#RDI_AB"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"2"
+			"di_B"	"#RI_Wc"
+			"do_A"	"1"
+			"do_B"	"#CI_Bar_A"
+			"all_same_class"	"1"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"craft_class"
+							"operator"	"string=="
+							"value"	"weapon"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"craft_class"
+							"operator"	"string=="
+							"value"	"weapon"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 1"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"4"
+		{
+			"name"	"#RT_C_A"
+			"n_A"	"#CI_Bar_Ap"
+			"desc_inputs"	"#RDI_AB"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"3"
+			"di_B"	"#CI_Bar_Ap"
+			"do_A"	"1"
+			"do_B"	"#CI_Bar_B"
+			"always_known"	"1"
+			"input_items"
+			{
+				"3"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 1"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"5"
+		{
+			"name"	"#RT_C_A"
+			"n_A"	"#CI_Bar_Bp"
+			"desc_inputs"	"#RDI_AB"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"3"
+			"di_B"	"#CI_Bar_Bp"
+			"do_A"	"1"
+			"do_B"	"#CI_Bar_C"
+			"always_known"	"1"
+			"input_items"
+			{
+				"3"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 3"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"6"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#RI_Hg"
+			"desc_inputs"	"#RDI_AB"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"3"
+			"di_B"	"#CI_Bar_Cp"
+			"do_A"	"1"
+			"do_B"	"#RI_H"
+			"always_known"	"1"
+			"input_items"
+			{
+				"3"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 3"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"craft_class"
+							"operator"	"string=="
+							"value"	"hat"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"7"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#CI_T_C"
+			"desc_inputs"	"#RDI_AB"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"3"
+			"di_B"	"#RI_Wc"
+			"do_A"	"1"
+			"do_B"	"#CI_T_C"
+			"all_same_class"	"1"
+			"add_class_usage_to_output"	"1"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"craft_class"
+							"operator"	"string=="
+							"value"	"weapon"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"craft_class"
+							"operator"	"string=="
+							"value"	"weapon"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"craft_class"
+							"operator"	"string=="
+							"value"	"weapon"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"item_class"
+							"operator"	"string=="
+							"value"	"class_token"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"8"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#CI_T_S"
+			"desc_inputs"	"#RDI_AB"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"3"
+			"di_B"	"#RI_Ws"
+			"do_A"	"1"
+			"do_B"	"#CI_T_S"
+			"all_same_slot"	"1"
+			"add_slot_usage_to_output"	"1"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"craft_class"
+							"operator"	"string=="
+							"value"	"weapon"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"craft_class"
+							"operator"	"string=="
+							"value"	"weapon"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"craft_class"
+							"operator"	"string=="
+							"value"	"weapon"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"item_class"
+							"operator"	"string=="
+							"value"	"slot_token"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"9"
+		{
+			"name"	"#RT_R_A"
+			"n_A"	"#RI_Hg"
+			"desc_inputs"	"#RDI_AB"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"2"
+			"di_B"	"#RI_Hp"
+			"do_A"	"1"
+			"do_B"	"#RI_H"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"craft_class"
+							"operator"	"string=="
+							"value"	"hat"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"craft_class"
+							"operator"	"string=="
+							"value"	"hat"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"craft_class"
+							"operator"	"string=="
+							"value"	"hat"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"10"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#RI_Ch"
+			"desc_inputs"	"#RDI_ABC"
+			"desc_outputs"	"#RDO_ABC"
+			"di_A"	"4"
+			"di_B"	"#CI_Bar_Cp"
+			"di_C"	"#RI_CTc"
+			"do_A"	"1"
+			"do_B"	"#RI_Cs"
+			"do_C"	"#RI_H"
+			"add_class_usage_to_output"	"1"
+			"always_known"	"1"
+			"input_items"
+			{
+				"4"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 3"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"item_class"
+							"operator"	"string=="
+							"value"	"class_token"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"craft_class"
+							"operator"	"string=="
+							"value"	"hat"
+							"required"	"1"
+						}
+						"1"
+						{
+							"field"	"all_classes"
+							"operator"	"!float=="
+							"value"	"1"
+							"required"	"0"
+						}
+					}
+				}
+			}
+		}
+		"11"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#RI_Cw"
+			"desc_inputs"	"#RDI_ABC"
+			"desc_outputs"	"#RDO_ABC"
+			"di_A"	"#CI_Bar_A"
+			"di_B"	"#RI_STc"
+			"di_C"	"#RI_CTc"
+			"do_A"	"1"
+			"do_B"	"#RI_Cs"
+			"do_C"	"#RI_W"
+			"add_class_usage_to_output"	"1"
+			"add_slot_usage_to_output"	"2"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 1"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"item_class"
+							"operator"	"string=="
+							"value"	"class_token"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"item_class"
+							"operator"	"string=="
+							"value"	"slot_token"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"quality"	"unique"
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"craft_class"
+							"operator"	"!string=="
+							"value"	"hat"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"12"
+		{
+			"name"	"#RT_MP_A"
+			"n_A"	"#RI_Mcp"
+			"desc_inputs"	"#RDI_AB"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"3"
+			"di_B"	"#RI_Mci"
+			"do_A"	"1"
+			"do_B"	"#CI_Bar_A"
+			"always_known"	"1"
+			"input_items"
+			{
+				"3"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"item_slot"
+							"operator"	"string=="
+							"value"	"misc"
+							"required"	"1"
+						}
+						"1"
+						{
+							"field"	"craft_class"
+							"operator"	"string=="
+							"value"	"weapon"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 1"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"13"
+		{
+			"name"	"#RT_R_A"
+			"n_A"	"#CI_T_C"
+			"desc_inputs"	"#RDI_ABC"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"1"
+			"di_B"	"#RI_W"
+			"di_C"	"#RI_CTc"
+			"do_A"	"1"
+			"do_B"	"#CI_T_C"
+			"add_class_usage_to_output"	"0"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"craft_class"
+							"operator"	"string=="
+							"value"	"weapon"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"item_class"
+							"operator"	"string=="
+							"value"	"class_token"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"item_class"
+							"operator"	"string=="
+							"value"	"class_token"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"14"
+		{
+			"name"	"#RT_R_A"
+			"n_A"	"#CI_T_S"
+			"desc_inputs"	"#RDI_ABC"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"1"
+			"di_B"	"#RI_W"
+			"di_C"	"#RI_STc"
+			"do_A"	"1"
+			"do_B"	"#CI_T_S"
+			"add_slot_usage_to_output"	"0"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"craft_class"
+							"operator"	"string=="
+							"value"	"weapon"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"item_class"
+							"operator"	"string=="
+							"value"	"slot_token"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"item_class"
+							"operator"	"string=="
+							"value"	"slot_token"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"15"
+		{
+			"name"	"#RT_MP_A"
+			"n_A"	"#RI_Tp"
+			"desc_inputs"	"#RDI_AB"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"3"
+			"di_B"	"#RI_Tp"
+			"do_A"	"1"
+			"do_B"	"#CI_Bar_B"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"craft_class"
+							"operator"	"string=="
+							"value"	"craft_token"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"craft_class"
+							"operator"	"string=="
+							"value"	"craft_token"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"craft_class"
+							"operator"	"string=="
+							"value"	"craft_token"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"16"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_Scout_Bonk_Helmet"
+			"desc_inputs"	"#RDI_ABC1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"2"
+			"di_B"	"#TF_Unique_Achievement_EnergyDrink"
+			"di_C"	"#TF_Unique_Headgear_Scout"
+			"do_A"	"1"
+			"do_B"	"#TF_Scout_Bonk_Helmet"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Bonk! Atomic Punch"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Bonk! Atomic Punch"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Batter's Helmet"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Bonk Helm"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"17"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_Unique_EnergyDrink_CritCola"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#TF_Unique_Achievement_EnergyDrink"
+			"di_B"	"#TF_Unique_Achievement_Medigun1"
+			"do_A"	"1"
+			"do_B"	"#TF_Unique_EnergyDrink_CritCola"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Bonk! Atomic Punch"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Kritzkrieg"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Crit-a-Cola"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"18"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_Unique_Makeshiftclub"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_A"
+			"di_B"	"#TF_Unique_Achievement_Bat"
+			"do_A"	"1"
+			"do_B"	"#TF_Unique_Makeshiftclub"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Sandman"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 1"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Pain Train"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"19"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_Unique_Blast_Boots"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#TF_Unique_Achievement_Shield"
+			"di_B"	"#TF_Unique_Backstab_Shield"
+			"do_A"	"1"
+			"do_B"	"#TF_Unique_Blast_Boots"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Chargin' Targe"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Razorback"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Gunboats"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"20"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_Unique_Lunchbox_Chocolate"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_A"
+			"di_B"	"#TF_Unique_Achievement_Lunchbox"
+			"do_A"	"1"
+			"do_B"	"#TF_Unique_Lunchbox_Chocolate"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Sandvich"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 1"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Dalokohs Bar"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"21"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_Unique_Sledgehammer"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_A"
+			"di_B"	"#TF_Unique_Achievement_Pickaxe"
+			"do_A"	"1"
+			"do_B"	"#TF_Unique_Sledgehammer"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Equalizer"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 1"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Homewrecker"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"22"
+		{
+			"name"	"#RT_MP_A"
+			"n_A"	"#CI_Bar_Bp"
+			"desc_inputs"	"#RDI_AB"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"1"
+			"di_B"	"#CI_Bar_Bp"
+			"do_A"	"3"
+			"do_B"	"#CI_Bar_A"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 1"
+							"required"	"1"
+						}
+					}
+				}
+				"item2"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 1"
+							"required"	"1"
+						}
+					}
+				}
+				"item3"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 1"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"23"
+		{
+			"name"	"#RT_MP_A"
+			"n_A"	"#CI_Bar_Cp"
+			"desc_inputs"	"#RDI_AB"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"1"
+			"di_B"	"#CI_Bar_Cp"
+			"do_A"	"3"
+			"do_B"	"#CI_Bar_B"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 3"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+				"item2"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+				"item3"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"24"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_Unique_BattleAxe"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#TF_Unique_Achievement_FireAxe1"
+			"di_B"	"#TF_Unique_Achievement_Jar"
+			"do_A"	"1"
+			"do_B"	"#TF_Unique_BattleAxe"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Axtinguisher"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Jarate"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Scotsman's Skullcutter"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"25"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_Unique_TribalmanKukri"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#TF_Unique_Achievement_FeignWatch"
+			"di_B"	"#TF_Unique_Achievement_CompoundBow"
+			"do_A"	"1"
+			"do_B"	"#TF_Unique_TribalmanKukri"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Huntsman"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Dead Ringer"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Tribalman's Shiv"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"26"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_Unique_Combat_Wrench"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_A"
+			"di_B"	"#TF_Unique_Achievement_Revolver"
+			"do_A"	"1"
+			"do_B"	"#TF_Unique_Combat_Wrench"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Ambassador"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 1"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Southern Hospitality"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"27"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_ThePowerjack"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_B"
+			"di_B"	"#TF_Unique_Achievement_FireAxe1"
+			"do_A"	"1"
+			"do_B"	"#TF_ThePowerjack"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Axtinguisher"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Powerjack"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"28"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_TheDegreaser"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_B"
+			"di_B"	"#TF_Unique_Achievement_Flamethrower"
+			"do_A"	"1"
+			"do_B"	"#TF_TheDegreaser"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Backburner"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Degreaser"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"29"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_TheShortstop"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_B"
+			"di_B"	"#TF_Unique_Achievement_Scattergun_Double"
+			"do_A"	"1"
+			"do_B"	"#TF_TheShortstop"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Force-a-Nature"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Shortstop"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"30"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_TheHolyMackerel"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_B"
+			"di_B"	"#TF_Unique_Achievement_Bat"
+			"do_A"	"1"
+			"do_B"	"#TF_TheHolyMackerel"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Sandman"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Holy Mackerel"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"31"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_MadMilk"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_B"
+			"di_B"	"#TF_Unique_Achievement_Jar"
+			"do_A"	"1"
+			"do_B"	"#TF_MadMilk"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Jarate"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Mad Milk"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"32"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_LEtranger"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_B"
+			"di_B"	"#TF_Unique_Achievement_FeignWatch"
+			"do_A"	"1"
+			"do_B"	"#TF_LEtranger"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Dead Ringer"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"L'Etranger"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"33"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_EternalReward"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_B"
+			"di_B"	"#TF_Unique_Achievement_CloakWatch"
+			"do_A"	"1"
+			"do_B"	"#TF_EternalReward"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Cloak and Dagger"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Your Eternal Reward"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"34"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_TheBattalionsBackup"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_B"
+			"di_B"	"#TF_Unique_Achievement_SoldierBuff"
+			"do_A"	"1"
+			"do_B"	"#TF_TheBattalionsBackup"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Buff Banner"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Battalion's Backup"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"35"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_TheBlackBox"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_B"
+			"di_B"	"#TF_Unique_Achievement_RocketLauncher "
+			"do_A"	"1"
+			"do_B"	"#TF_TheBlackBox"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Direct Hit"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Black Box"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"36"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_SydneySleeper"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_B"
+			"di_B"	"#TF_Unique_Achievement_CompoundBow"
+			"do_A"	"1"
+			"do_B"	"#TF_SydneySleeper"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Huntsman"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Sydney Sleeper"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"37"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_DarwinsDangerShield"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_B"
+			"di_B"	"#TF_Unique_Backstab_Shield"
+			"do_A"	"1"
+			"do_B"	"#TF_DarwinsDangerShield"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Razorback"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Darwin's Danger Shield"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"38"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_TheBushwacka"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_B"
+			"di_B"	"#TF_Unique_Achievement_Sword"
+			"do_A"	"1"
+			"do_B"	"#TF_TheBushwacka"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Eyelander"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Bushwacka"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"39"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_Unique_Gloves_of_Running_Urgently"
+			"desc_inputs"	"#RDI_ABC1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"2"
+			"di_B"	"#CI_Bar_Ap"
+			"di_C"	"#TF_Unique_Achievement_Fists"
+			"do_A"	"1"
+			"do_B"	"#TF_Unique_Gloves_of_Running_Urgently"
+			"always_known"	"1"
+			"input_items"
+			{
+				"2"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 1"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Killing Gloves of Boxing"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Gloves of Running Urgently"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"40"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_Unique_BattleSaw"
+			"desc_inputs"	"#RDI_ABC1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"2"
+			"di_B"	"#CI_Bar_Ap"
+			"di_C"	"#TF_Unique_Achievement_Bonesaw1"
+			"do_A"	"1"
+			"do_B"	"#TF_Unique_BattleSaw"
+			"always_known"	"1"
+			"input_items"
+			{
+				"2"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 1"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Ubersaw"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Vita-Saw"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"41"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#RI_Sh"
+			"desc_inputs"	"#RDI_ABC"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"4"
+			"di_B"	"#CI_Bar_Cp"
+			"di_C"	"#RI_SIc"
+			"do_A"	"1"
+			"do_B"	"#RO_SH"
+			"always_known"	"1"
+			"input_items"
+			{
+				"4"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 3"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"item_set"
+							"operator"	"!string=="
+							"value"	"nullstring"
+							"required"	"1"
+						}
+						"1"
+						{
+							"field"	"craft_class"
+							"operator"	"string=="
+							"value"	"weapon"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"item_set"
+							"operator"	"!string=="
+							"value"	"nullstring"
+							"required"	"1"
+						}
+						"1"
+						{
+							"field"	"craft_class"
+							"operator"	"string=="
+							"value"	"hat"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"add_set_to_output"	"1"
+		}
+		"42"
+		{
+			"name"	"#RT_SaxtonMask"
+			"desc_inputs"	"#RI_Mask"
+			"desc_outputs"	"#RO_Mask"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Halloween Mask - Medic"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Halloween Mask - Scout"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Halloween Mask - Spy"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Halloween Mask - Heavy"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Halloween Mask - Engineer"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Halloween Mask - Pyro"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Halloween Mask - Demoman"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Halloween Mask - Sniper"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Halloween Mask - Soldier"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Halloween Mask - Saxton Hale"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"43"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_HalloweenBoss_Axe"
+			"desc_inputs"	"#RDI_ABC2"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#TF_Unique_BattleAxe"
+			"di_B"	"#CI_Bar_Cp"
+			"di_C"	"#TF_Haunted_Metal"
+			"do_A"	"1"
+			"do_B"	"#TF_HalloweenBoss_Axe"
+			"always_known"	"1"
+			"input_items"
+			{
+				"2"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 3"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Haunted Metal Scrap"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Scotsman's Skullcutter"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Horseless Headless Horseman's Headtaker"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"44"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#RI_HHg"
+			"desc_inputs"	"#RDI_ABC1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"4"
+			"di_B"	"#CI_Bar_Cp"
+			"di_C"	"#TF_Haunted_Metal"
+			"do_A"	"1"
+			"do_B"	"#RI_HHg"
+			"always_known"	"1"
+			"input_items"
+			{
+				"4"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 3"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Haunted Metal Scrap"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"craft_class"
+							"operator"	"string=="
+							"value"	"haunted_hat"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"45"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_Amputator"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_A"
+			"di_B"	"#TF_Unique_BattleSaw"
+			"do_A"	"1"
+			"do_B"	"#TF_Amputator"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 1"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Vita-Saw"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Amputator"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"46"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_CrusadersCrossbow"
+			"desc_inputs"	"#RDI_ABC1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"2"
+			"di_B"	"#CI_Bar_A"
+			"di_C"	"#TF_Unique_Achievement_CompoundBow"
+			"do_A"	"1"
+			"do_B"	"#TF_CrusadersCrossbow"
+			"always_known"	"1"
+			"input_items"
+			{
+				"2"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 1"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Huntsman"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Crusader's Crossbow"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"47"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_UllapoolCaber"
+			"desc_inputs"	"#RDI_ABC1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"2"
+			"di_B"	"#CI_Bar_A"
+			"di_C"	"#TF_Unique_Makeshiftclub"
+			"do_A"	"1"
+			"do_B"	"#TF_UllapoolCaber"
+			"always_known"	"1"
+			"input_items"
+			{
+				"2"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 1"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Pain Train"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Ullapool Caber"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"48"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_LochNLoad"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_B"
+			"di_B"	"#TF_Unique_Achievement_StickyLauncher"
+			"do_A"	"1"
+			"do_B"	"#TF_LochNLoad"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Scottish Resistance"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Loch-n-Load"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"49"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_WarriorsSpirit"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_A"
+			"di_B"	"#TF_Unique_Gloves_of_Running_Urgently"
+			"do_A"	"1"
+			"do_B"	"#TF_WarriorsSpirit"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 1"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Gloves of Running Urgently"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Warrior's Spirit"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"50"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_BuffaloSteak"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_B"
+			"di_B"	"#TF_Unique_Achievement_Lunchbox"
+			"do_A"	"1"
+			"do_B"	"#TF_BuffaloSteak"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Sandvich"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Buffalo Steak Sandvich"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"51"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_GatlingGun"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_B"
+			"di_B"	"#TF_Unique_Achievement_Minigun"
+			"do_A"	"1"
+			"do_B"	"#TF_GatlingGun"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Natascha"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Brass Beast"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"52"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_CandyCane"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#TF_Unique_Makeshiftclub"
+			"di_B"	"#TF_Unique_Achievement_Medigun1"
+			"do_A"	"1"
+			"do_B"	"#TF_CandyCane"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Pain Train"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Kritzkrieg"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Candy Cane"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"53"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_Claidheamohmor"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#TF_Unique_Achievement_Shield"
+			"di_B"	"#TF_Unique_Sledgehammer"
+			"do_A"	"1"
+			"do_B"	"#TF_Claidheamohmor"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Chargin' Targe"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Homewrecker"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Claidheamohmor"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"54"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_BackScratcher"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#TF_Unique_BattleAxe"
+			"di_B"	"#TF_Unique_Achievement_FireAxe1"
+			"do_A"	"1"
+			"do_B"	"#TF_BackScratcher"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Scotsman's Skullcutter"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Axtinguisher"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Back Scratcher"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"55"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_BostonBasher"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#TF_Unique_Achievement_Bat"
+			"di_B"	"#TF_Unique_TribalmanKukri"
+			"do_A"	"1"
+			"do_B"	"#TF_BostonBasher"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Sandman"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Tribalman's Shiv"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Boston Basher"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"56"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_FistsOfSteel"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_B"
+			"di_B"	"#TF_Unique_Achievement_Fists"
+			"do_A"	"1"
+			"do_B"	"#TF_FistsOfSteel"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Killing Gloves of Boxing"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Fists of Steel"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"57"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_Jag"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_A"
+			"di_B"	"#TF_Unique_Combat_Wrench"
+			"do_A"	"1"
+			"do_B"	"#TF_Jag"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 1"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Southern Hospitality"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Jag"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"58"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_Unique_RiftFireAxe"
+			"desc_inputs"	"#RDI_ABC1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"2"
+			"di_B"	"#CI_Bar_Bp"
+			"di_C"	"#TF_Unique_Achievement_FireAxe1"
+			"do_A"	"1"
+			"do_B"	"#TF_Unique_RiftFireAxe"
+			"always_known"	"1"
+			"input_items"
+			{
+				"2"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Axtinguisher"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Sharpened Volcano Fragment"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"59"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_Unique_RiftFireMace"
+			"desc_inputs"	"#RDI_ABC1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"2"
+			"di_B"	"#CI_Bar_Bp"
+			"di_C"	"#TF_BostonBasher"
+			"do_A"	"1"
+			"do_B"	"#TF_Unique_RiftFireMace"
+			"always_known"	"1"
+			"input_items"
+			{
+				"2"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Boston Basher"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Sun-on-a-Stick"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"60"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_SoldierKatana"
+			"desc_inputs"	"#RDI_ABC1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"2"
+			"di_B"	"#TF_Unique_Achievement_Sword"
+			"di_C"	"#CI_Bar_B"
+			"do_A"	"1"
+			"do_B"	"#TF_SoldierKatana"
+			"always_known"	"1"
+			"input_items"
+			{
+				"2"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Eyelander"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 2"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Half-Zatoichi"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"61"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_SoldierSashimono"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_A"
+			"di_B"	"#TF_TheBattalionsBackup"
+			"do_A"	"1"
+			"do_B"	"#TF_SoldierSashimono"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 1"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Battalion's Backup"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Concheror"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"62"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_Kunai"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_A"
+			"di_B"	"#TF_EternalReward"
+			"do_A"	"1"
+			"do_B"	"#TF_Kunai"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 1"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Your Eternal Reward"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Conniver's Kunai"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+		"63"
+		{
+			"name"	"#RT_F_A"
+			"n_A"	"#TF_Gunbai"
+			"desc_inputs"	"#RDI_AB1"
+			"desc_outputs"	"#RDO_AB"
+			"di_A"	"#CI_Bar_A"
+			"di_B"	"#TF_MadMilk"
+			"do_A"	"1"
+			"do_B"	"#TF_Gunbai"
+			"always_known"	"1"
+			"input_items"
+			{
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Craft Bar Level 1"
+							"required"	"1"
+						}
+					}
+				}
+				"1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"Mad Milk"
+							"required"	"1"
+						}
+					}
+				}
+			}
+			"output_items"
+			{
+				"item1"
+				{
+					"conditions"
+					{
+						"0"
+						{
+							"field"	"name"
+							"operator"	"string=="
+							"value"	"The Fan O'War"
+							"required"	"1"
+						}
+					}
+				}
+			}
+		}
+	}
 	"achievement_rewards"
 	{
 		"TF_MEDIC_ACHIEVE_PROGRESS1"	"36"
@@ -17571,6 +23626,7 @@
 		"TF_HALLOWEEN_BOSS_KILL"	"278"
 		"TF_HALLOWEEN_BOSS_KILL_MELEE"	"267"
 		"TF_HALLOWEEN_COLLECT_PUMPKINS"	"115"
+		"TF_GENERAL_KILL_ENEMIES_AFTER_TELEPORTING" "5500"
 		"ASW_PARA_HAT"
 		{ 
 			"SourceAppID"	"630"
@@ -17774,6 +23830,7 @@
 			"winter_crate"				"#TF_Armory_Item_Winter_Crate"
 			"maptoken"					"#TF_Armory_Item_MapToken"
 			"backpack_expander"			"#TF_Armory_Item_BackpackExpander"
+			"charity"					"#TF_Armory_Item_Charity"
 		}
 	}
 }
